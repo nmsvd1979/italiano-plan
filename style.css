@@ -1,0 +1,495 @@
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --surface-2: #f0f1f4;
+  --text: #1a1d23;
+  --text-dim: #666b76;
+  --border: #e2e4e9;
+  --accent: #ce2b37;
+  --accent-2: #009246;
+  --accent-soft: #fdeceb;
+  --accent-2-soft: #e8f6ee;
+  --ok: #009246;
+  --warn: #b8860b;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --radius: 14px;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121317;
+    --surface: #1b1d23;
+    --surface-2: #22252c;
+    --text: #eef0f3;
+    --text-dim: #9aa0ab;
+    --border: #2c2f37;
+    --accent: #ff5b62;
+    --accent-2: #3ecf7e;
+    --accent-soft: #3a1e20;
+    --accent-2-soft: #16311f;
+    --ok: #3ecf7e;
+    --warn: #e0b84a;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 16px 16px 48px;
+  min-height: 100vh;
+}
+
+/* ---------- Header ---------- */
+
+header.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+header.top h1 {
+  font-size: 19px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flag {
+  display: inline-flex;
+  width: 20px;
+  height: 14px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px var(--border);
+  flex: none;
+}
+.flag span {
+  flex: 1;
+}
+.flag .g {
+  background: #009246;
+}
+.flag .w {
+  background: #ffffff;
+}
+.flag .r {
+  background: #ce2b37;
+}
+
+.icon-btn {
+  border: none;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--text);
+}
+.icon-btn:active {
+  transform: scale(0.96);
+}
+
+/* ---------- Cards ---------- */
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px;
+  margin-bottom: 14px;
+}
+
+.card h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-dim);
+  margin: 0 0 10px;
+}
+
+.status-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 600;
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.badge.phase {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.badge.streak {
+  background: var(--accent-2-soft);
+  color: var(--accent-2);
+}
+
+.phase-focus {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
+/* ---------- Checklist ---------- */
+
+.day-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 2px;
+}
+
+.day-sub {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin: 0 0 14px;
+}
+
+.activity {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px solid var(--border);
+}
+.activity:first-of-type {
+  border-top: none;
+}
+
+.activity input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  margin-top: 1px;
+  accent-color: var(--accent-2);
+}
+
+.activity-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.activity-name {
+  font-size: 15px;
+  font-weight: 600;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+.activity.done .activity-name {
+  color: var(--text-dim);
+  text-decoration: line-through;
+  text-decoration-color: var(--text-dim);
+}
+
+.activity-minutes {
+  font-size: 12.5px;
+  color: var(--text-dim);
+  margin-left: 6px;
+}
+
+.resource-links {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.resource-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 4px 9px;
+  border-radius: 999px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+.resource-link:active {
+  opacity: 0.7;
+}
+
+.day-progress-bar {
+  margin-top: 14px;
+}
+
+/* ---------- Progress bars ---------- */
+
+.progress-track {
+  background: var(--surface-2);
+  border-radius: 999px;
+  height: 8px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-2), var(--accent));
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12.5px;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+
+.progress-block {
+  margin-bottom: 16px;
+}
+.progress-block:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- Checkpoint banner ---------- */
+
+.checkpoint-banner {
+  background: linear-gradient(135deg, var(--accent-soft), var(--accent-2-soft));
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+.checkpoint-banner .title {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.checkpoint-banner p {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin: 4px 0 10px;
+  line-height: 1.4;
+}
+.checkpoint-banner a.resource-link {
+  background: var(--surface);
+}
+
+/* ---------- Collapsible section ---------- */
+
+details.section {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 14px;
+  overflow: hidden;
+}
+details.section > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-weight: 700;
+  font-size: 14.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+details.section > summary::-webkit-details-marker {
+  display: none;
+}
+details.section > summary::after {
+  content: "▾";
+  color: var(--text-dim);
+  transition: transform 0.15s;
+}
+details.section[open] > summary::after {
+  transform: rotate(180deg);
+}
+details.section .section-body {
+  padding: 0 16px 16px;
+}
+
+/* ---------- Heatmap ---------- */
+
+.heatmap-wrap {
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.heatmap {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(7, 12px);
+  gap: 3px;
+  width: max-content;
+}
+.heatmap .cell {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--surface-2);
+}
+.heatmap .cell[data-level="0"] {
+  background: var(--surface-2);
+}
+.heatmap .cell[data-level="1"] {
+  background: #ffd7ad;
+}
+.heatmap .cell[data-level="2"] {
+  background: #ff9d5c;
+}
+.heatmap .cell[data-level="3"] {
+  background: var(--accent-2);
+}
+.heatmap .cell.future {
+  opacity: 0.25;
+}
+.heatmap-legend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+.heatmap-legend .cell {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+/* ---------- Settings ---------- */
+
+.field {
+  margin-bottom: 12px;
+}
+.field label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--text-dim);
+}
+.field input[type="date"],
+.field input[type="time"] {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 15px;
+}
+
+button.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 11px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+button.btn.primary {
+  background: var(--accent-2);
+  color: #06210f;
+}
+button.btn.secondary {
+  background: var(--surface-2);
+  color: var(--text);
+}
+button.btn.danger {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+button.btn.block {
+  width: 100%;
+}
+.btn-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.notif-status {
+  font-size: 12.5px;
+  color: var(--text-dim);
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
+.small-note {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* ---------- Setup screen ---------- */
+
+.setup-screen {
+  max-width: 420px;
+  margin: 12vh auto 0;
+  padding: 0 16px;
+  text-align: center;
+}
+.setup-screen h1 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+.setup-screen p {
+  color: var(--text-dim);
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.setup-screen .card {
+  text-align: left;
+}
+
+/* ---------- Resource directory ---------- */
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.resource-card {
+  display: block;
+  background: var(--surface-2);
+  border-radius: 10px;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+[hidden] {
+  display: none !important;
+}
