@@ -24,23 +24,40 @@ window.PLAN_CONFIG = {
   // Catálogo de recursos externos. La "key" es lo que se referencia
   // desde DAY_TEMPLATES o PHASE_RESOURCES.
   resources: {
-    anki: { name: "Anki", url: "https://apps.ankiweb.net/" },
-    lingq: { name: "LingQ", url: "https://www.lingq.com/" },
+    quizlet: { name: "Quizlet", url: "https://quizlet.com/" },
     cbi: {
       name: "Coffee Break Italian",
-      url: "https://coffeebreaklanguages.com/coffeebreakitalian/",
+      url: "https://podcasts.apple.com/us/podcast/coffee-break-italian/id958179457",
     },
     podcastitaliano: {
       name: "Podcast Italiano",
-      url: "https://podcastitaliano.com/",
+      url: "https://podcasts.apple.com/us/podcast/podcast-italiano-intermediate-advanced-italian-podcast/id1163599279",
     },
     newsslow: {
       name: "News in Slow Italian",
       url: "https://www.newsinslowitalian.com/",
     },
-    italki: { name: "italki", url: "https://www.italki.com/" },
-    hellotalk: { name: "HelloTalk", url: "https://www.hellotalk.com/" },
-    forvo: { name: "Forvo", url: "https://forvo.com/languages/it/" },
+    oneworld: {
+      name: "One World Italiano",
+      url: "https://oneworlditaliano.com/en/",
+    },
+    falsosamigos: {
+      name: "ItalianoSencillo (falsos amigos)",
+      url: "https://www.italianosencillo.com/",
+    },
+    tembrica: {
+      name: "Tembrica — Shadowing Studio",
+      url: "https://tembrica.com/en/shadowing-studio",
+    },
+    italki: {
+      name: "Abrir italki → pestaña Community (gratis)",
+      url: "https://www.italki.com/",
+    },
+    hellotalk: {
+      name: "HelloTalk",
+      url: "https://apps.apple.com/app/hellotalk/id557130558",
+    },
+    forvo: { name: "Forvo", url: "https://forvo.com/" },
     leveltest: {
       name: "Test de nivel A1/A2 (buscar online)",
       url: "https://www.google.com/search?q=test+italiano+A1+A2+online+gratis",
@@ -52,17 +69,17 @@ window.PLAN_CONFIG = {
   // en DAY_TEMPLATES; se resuelven acá según en qué fase estés.
   phaseResources: {
     1: {
-      input: ["cbi", "lingq"],
+      input: ["cbi"],
       conversation: ["hellotalk"],
-      longInput: ["cbi", "lingq"],
+      longInput: ["cbi"],
     },
     2: {
-      input: ["podcastitaliano", "lingq"],
+      input: ["podcastitaliano"],
       conversation: ["italki", "hellotalk"],
-      longInput: ["podcastitaliano", "lingq"],
+      longInput: ["podcastitaliano"],
     },
     3: {
-      input: ["podcastitaliano", "newsslow", "lingq"],
+      input: ["podcastitaliano", "newsslow"],
       conversation: ["italki", "hellotalk"],
       longInput: ["newsslow", "podcastitaliano"],
     },
@@ -93,45 +110,58 @@ window.PLAN_CONFIG = {
   ],
 
   // Rutina semanal tipo. Cada actividad tiene:
-  //   id        -> identificador único dentro del día (para guardar el check)
-  //   name      -> texto que se muestra
-  //   minutes   -> minutos estimados
-  //   resources -> array de keys (de RESOURCES o placeholders de phaseResources)
+  //   id                -> identificador único dentro del día (para guardar el check)
+  //   name              -> texto que se muestra
+  //   minutes           -> minutos estimados
+  //   resources         -> array de keys (de RESOURCES o placeholders de phaseResources) — botón principal
+  //   secondaryResources -> igual que resources, pero se muestran como botón chico/secundario
   dayTemplates: {
     1: {
       label: "Lunes",
       activities: [
-        { id: "anki", name: "Anki (repetición espaciada)", minutes: 10, resources: ["anki"] },
+        { id: "anki", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
         { id: "input", name: "Input comprensible", minutes: 15, resources: ["input"] },
-        { id: "shadowing", name: "Shadowing", minutes: 5, resources: ["forvo"] },
+        { id: "shadowing", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
       ],
     },
     2: {
       label: "Martes",
       activities: [
-        { id: "anki", name: "Anki (repetición espaciada)", minutes: 10, resources: ["anki"] },
-        { id: "grammar", name: "Gramática dirigida", minutes: 15, resources: [] },
+        { id: "anki", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        {
+          id: "grammar",
+          name: "Gramática dirigida",
+          minutes: 15,
+          resources: ["oneworld"],
+          secondaryResources: ["falsosamigos"],
+        },
       ],
     },
     3: {
       label: "Miércoles",
       activities: [
-        { id: "anki", name: "Anki (repetición espaciada)", minutes: 10, resources: ["anki"] },
+        { id: "anki", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
         { id: "input", name: "Input comprensible", minutes: 15, resources: ["input"] },
-        { id: "shadowing", name: "Shadowing", minutes: 5, resources: ["forvo"] },
+        { id: "shadowing", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
       ],
     },
     4: {
       label: "Jueves",
       activities: [
-        { id: "anki", name: "Anki (repetición espaciada)", minutes: 10, resources: ["anki"] },
-        { id: "grammar", name: "Gramática dirigida", minutes: 15, resources: [] },
+        { id: "anki", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        {
+          id: "grammar",
+          name: "Gramática dirigida",
+          minutes: 15,
+          resources: ["oneworld"],
+          secondaryResources: ["falsosamigos"],
+        },
       ],
     },
     5: {
       label: "Viernes",
       activities: [
-        { id: "anki", name: "Anki (repetición espaciada)", minutes: 10, resources: ["anki"] },
+        { id: "anki", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
         { id: "input", name: "Input comprensible", minutes: 15, resources: ["input"] },
       ],
     },
@@ -140,7 +170,7 @@ window.PLAN_CONFIG = {
       isWeekend: true,
       activities: [
         { id: "conversation", name: "Conversación real", minutes: 30, resources: ["conversation"] },
-        { id: "anki_review", name: "Repaso Anki", minutes: 15, resources: ["anki"] },
+        { id: "anki_review", name: "Repaso Quizlet", minutes: 15, resources: ["quizlet"] },
         { id: "long_input", name: "Input largo", minutes: 35, resources: ["longInput"] },
       ],
     },
@@ -149,7 +179,7 @@ window.PLAN_CONFIG = {
       isWeekend: true,
       activities: [
         { id: "conversation", name: "Conversación real", minutes: 30, resources: ["conversation"] },
-        { id: "anki_review", name: "Repaso Anki", minutes: 15, resources: ["anki"] },
+        { id: "anki_review", name: "Repaso Quizlet", minutes: 15, resources: ["quizlet"] },
         { id: "long_input", name: "Input largo", minutes: 35, resources: ["longInput"] },
       ],
     },

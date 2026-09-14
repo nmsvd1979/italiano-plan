@@ -276,14 +276,15 @@
     });
   }
 
-  function activityRow(activity, dateISO, phaseId, isDone) {
-    var resKeys = resolveResourceKeys(activity, phaseId);
-    var links = resKeys
+  function resourceLinksHTML(keys, extraClass) {
+    return keys
       .map(function (key) {
         var r = CONFIG.resources[key];
         if (!r) return "";
         return (
-          '<a class="resource-link" target="_blank" rel="noopener noreferrer" href="' +
+          '<a class="resource-link' +
+          (extraClass ? " " + extraClass : "") +
+          '" target="_blank" rel="noopener noreferrer" href="' +
           r.url +
           '">🔗 ' +
           escapeHTML(r.name) +
@@ -291,6 +292,15 @@
         );
       })
       .join("");
+  }
+
+  function activityRow(activity, dateISO, phaseId, isDone) {
+    var resKeys = resolveResourceKeys(activity, phaseId);
+    var secKeys = resolveResourceKeys(
+      { resources: activity.secondaryResources || [] },
+      phaseId
+    );
+    var links = resourceLinksHTML(resKeys) + resourceLinksHTML(secKeys, "secondary");
 
     return (
       '<label class="activity' +
@@ -699,7 +709,7 @@
 
     try {
       new Notification("Italiano — todavía no marcaste nada hoy", {
-        body: "Un ratito de Anki o input y seguís la racha 🔥",
+        body: "Un ratito de Quizlet o input y seguís la racha 🔥",
         icon: "icons/icon-192.png",
       });
     } catch (e) {
