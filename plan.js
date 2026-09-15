@@ -24,14 +24,22 @@ window.PLAN_CONFIG = {
   // Catálogo de recursos externos. La "key" es lo que se referencia
   // desde DAY_TEMPLATES o PHASE_RESOURCES.
   resources: {
-    quizlet: { name: "Quizlet", url: "https://quizlet.com/" },
+    // "/latest/*" es, literalmente, el único path de quizlet.com que Quizlet
+    // registra como Universal Link en su propio apple-app-site-association
+    // (verificado en https://quizlet.com/.well-known/apple-app-site-association).
+    // La portada "/" NO está en esa lista → por eso antes abría el sitio de
+    // marketing en vez de la app.
+    quizlet: { name: "Quizlet", url: "https://quizlet.com/latest/" },
     cbi: {
       name: "Coffee Break Italian",
       url: "https://podcasts.apple.com/us/podcast/coffee-break-italian/id958179457",
     },
+    // podcasts.apple.com es dominio propio de Apple: SIEMPRE abre la app
+    // Podcasts nativa en iPhone (no depende de que Podcast Italiano
+    // configure nada). Esta es la URL canónica actual (sin redirect).
     podcastitaliano: {
       name: "Podcast Italiano",
-      url: "https://podcasts.apple.com/us/podcast/podcast-italiano-intermediate-advanced-italian-podcast/id1163599279",
+      url: "https://podcasts.apple.com/us/podcast/podcast-italiano-learn-italian-intermediate-advanced/id1163599279",
     },
     newsslow: {
       name: "News in Slow Italian",
@@ -49,14 +57,30 @@ window.PLAN_CONFIG = {
       name: "Tembrica — Shadowing Studio",
       url: "https://tembrica.com/en/shadowing-studio",
     },
+    // italki NO tiene apple-app-site-association configurado en italki.com
+    // (verificado: /.well-known/apple-app-site-association devuelve error,
+    // no existe el archivo) → ningún link https a este dominio puede abrir
+    // la app nativa automáticamente, siempre cae en el navegador. Como no
+    // se puede forzar la app sin usar un esquema itaki:// fràgil (lo que
+    // pediste evitar), al menos apunta directo a la pestaña correcta.
     italki: {
-      name: "Abrir italki → pestaña Community (gratis)",
-      url: "https://www.italki.com/",
+      name: "italki — Community (gratis)",
+      url: "https://www.italki.com/en/community/for-you",
     },
+    // hellotalk.com SÍ tiene Universal Link, pero solo para "/ios" — es el
+    // único path de su apple-app-site-association (verificado en
+    // https://www.hellotalk.com/apple-app-site-association). Con la app
+    // instalada abre directo adentro; si no está instalada, esa misma URL
+    // muestra una página 404 del sitio (no un cartel de App Store) — es una
+    // limitación real de cómo HelloTalk configuró su propio dominio.
     hellotalk: {
       name: "HelloTalk",
-      url: "https://apps.apple.com/app/hellotalk/id557130558",
+      url: "https://www.hellotalk.com/ios",
     },
+    // Forvo tiene app nativa ("Forvo Pronunciation") pero forvo.com NO tiene
+    // apple-app-site-association (verificado: 404) → no hay forma de que un
+    // link https abra la app sola. Queda el buscador web, que es lo único
+    // funcional posible sin usar un esquema de URL nativo.
     forvo: { name: "Forvo", url: "https://forvo.com/" },
     leveltest: {
       name: "Test de nivel A1/A2 (buscar online)",
