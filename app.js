@@ -12,6 +12,7 @@
   var LS_LAST_NOTIFIED = "italianPlan.lastNotifiedDate";
 
   var root = document.getElementById("app-root");
+  var isFirstRender = true;
 
   // ---------------- Storage helpers ----------------
 
@@ -353,6 +354,54 @@
     );
   }
 
+  function progressRingSVG(done, planned, size) {
+    size = size || 54;
+    var stroke = 5;
+    var r = (size - stroke) / 2;
+    var c = 2 * Math.PI * r;
+    var pct = planned > 0 ? Math.min(1, done / planned) : 0;
+    var offset = c * (1 - pct);
+    var center = size / 2;
+    var complete = planned > 0 && done >= planned;
+    return (
+      '<svg class="progress-ring' + (complete ? " complete" : "") + '" width="' + size + '" height="' + size +
+      '" viewBox="0 0 ' + size + " " + size + '">' +
+      '<circle class="ring-track" cx="' + center + '" cy="' + center + '" r="' + r + '" stroke-width="' + stroke + '" fill="none"/>' +
+      '<circle class="ring-fill" cx="' + center + '" cy="' + center + '" r="' + r + '" stroke-width="' + stroke +
+      '" fill="none" stroke-dasharray="' + c + '" stroke-dashoffset="' + offset + '" transform="rotate(-90 ' + center + " " + center + ')"/>' +
+      '<text x="' + center + '" y="' + center + '" class="ring-text" text-anchor="middle" dominant-baseline="central">' +
+      (complete ? "✓" : done + "/" + planned) +
+      "</text>" +
+      "</svg>"
+    );
+  }
+
+  function renderWeekTracker(startDate, completions, currentWeek) {
+    var items = "";
+    for (var w = 1; w <= CONFIG.totalWeeks; w++) {
+      var isCheckpoint = !!CONFIG.checkpointWeeks[w];
+      var cls = "week-dot";
+      var pct = 0;
+      if (w < currentWeek) {
+        var prog = aggregateProgress(completions, weekDateRange(startDate, w));
+        pct = prog.planned > 0 ? prog.done / prog.planned : 0;
+        cls += pct >= 1 ? " done" : pct > 0 ? " partial missed" : " missed";
+      } else if (w === currentWeek) {
+        var progC = aggregateProgress(completions, weekDateRange(startDate, w));
+        pct = progC.planned > 0 ? progC.done / progC.planned : 0;
+        cls += " current";
+      } else {
+        cls += " future";
+      }
+      items +=
+        '<div class="' + cls + (isCheckpoint ? " checkpoint" : "") + '" style="--fill:' + Math.round(pct * 100) +
+        '%" title="Semana ' + w + (isCheckpoint ? " · checkpoint" : "") + '">' +
+        (isCheckpoint ? '<span class="checkpoint-mark">★</span>' : "") +
+        "</div>";
+    }
+    return '<div class="week-tracker">' + items + "</div>";
+  }
+
   function progressBlock(title, done, planned) {
     var pct = planned > 0 ? Math.round((done / planned) * 100) : 0;
     return (
@@ -371,6 +420,10 @@
     );
   }
 
+  var MONTH_SHORT = MONTH_LABELS.map(function (m) {
+    return m.slice(0, 1).toUpperCase() + m.slice(1, 3);
+  });
+
   function renderHeatmap(completions, today) {
     var days = 90;
     var start = addDays(today, -(days - 1));
@@ -378,6 +431,17 @@
     var startWeekday = start.getDay();
     start = addDays(start, -startWeekday);
     var totalCells = Math.ceil((diffInDays(today, start) + 1) / 7) * 7;
+    var totalCols = totalCells / 7;
+    var todayISO = toISODate(today);
+
+    var months = "";
+    var lastMonth = -1;
+    for (var c = 0; c < totalCols; c++) {
+      var colDate = addDays(start, c * 7);
+      var m = colDate.getMonth();
+      months += "<span>" + (m !== lastMonth ? MONTH_SHORT[m] : "") + "</span>";
+      lastMonth = m;
+    }
 
     var cells = "";
     for (var i = 0; i < totalCells; i++) {
@@ -394,6 +458,7 @@
       cells +=
         '<div class="cell' +
         (future ? " future" : "") +
+        (toISODate(d) === todayISO ? " today" : "") +
         '" data-level="' +
         level +
         '" title="' +
@@ -405,7 +470,9 @@
     }
 
     return (
-      '<div class="heatmap-wrap"><div class="heatmap">' +
+      '<div class="heatmap-wrap">' +
+      '<div class="heatmap-months">' + months + "</div>" +
+      '<div class="heatmap">' +
       cells +
       "</div></div>" +
       '<div class="heatmap-legend"><span>menos</span>' +
@@ -479,7 +546,8 @@
         "</div>" +
         '<p class="phase-focus">' +
         escapeHTML(state.phase.focus) +
-        "</p>";
+        "</p>" +
+        renderWeekTracker(startDate, completions, state.weekNumber);
 
       html += '<div class="card">' + badgeHTML + "</div>";
 
@@ -487,7 +555,10 @@
       var checkpoint = CONFIG.checkpointWeeks[state.weekNumber];
       if (checkpoint) {
         html +=
-          '<div class="checkpoint-banner"><div class="title">📍 Semana de checkpoint — nivel ' +
+          '<div class="checkpoint-banner">' +
+          '<div class="badge-icon" aria-hidden="true">📍</div>' +
+          '<div class="checkpoint-body">' +
+          '<div class="title">Semana de checkpoint — nivel ' +
           escapeHTML(checkpoint.level) +
           "</div><p>" +
           escapeHTML(checkpoint.note) +
@@ -495,6 +566,7 @@
           '<a class="resource-link" target="_blank" rel="noopener noreferrer" href="' +
           CONFIG.resources.leveltest.url +
           '">🔗 Hacer test de nivel online</a>' +
+          "</div>" +
           "</div>";
       }
 
@@ -511,8 +583,10 @@
           return dayCompletions[a.id];
         }).length;
 
+        var todayComplete = tpl.activities.length > 0 && doneCount >= tpl.activities.length;
         html +=
           '<div class="card">' +
+          '<div class="day-card-head"><div>' +
           '<p class="day-title">' +
           escapeHTML(tpl.label) +
           "</p>" +
@@ -521,6 +595,9 @@
           " · día " +
           state.dayNumber +
           " del plan</p>" +
+          "</div>" +
+          progressRingSVG(doneCount, tpl.activities.length) +
+          "</div>" +
           '<div id="activity-list">' +
           tpl.activities
             .map(function (a) {
@@ -529,9 +606,9 @@
             })
             .join("") +
           "</div>" +
-          '<div class="day-progress-bar">' +
-          progressBlock("Hoy", doneCount, tpl.activities.length) +
-          "</div>" +
+          (todayComplete
+            ? '<div class="day-complete-banner">🎉 ¡Completaste el día! Seguí así.</div>'
+            : "") +
           "</div>";
       }
 
@@ -596,6 +673,8 @@
       "</details>";
 
     root.innerHTML = html;
+    root.classList.toggle("entering", isFirstRender);
+    isFirstRender = false;
     wireEvents(state, today);
     updateNotifStatus();
   }
