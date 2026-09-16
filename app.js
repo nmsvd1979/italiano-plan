@@ -158,6 +158,28 @@
     return keys;
   }
 
+  // Día (1-indexado, dentro de la primera semana) en el que aparece por
+  // primera vez una actividad con este id, según la fecha de inicio.
+  function firstOccurrenceDayNumber(startDate, activityId) {
+    for (var d = 1; d <= 7; d++) {
+      var tpl = templateForDate(addDays(startDate, d - 1));
+      if (tpl && tpl.activities.some(function (a) { return a.id === activityId; })) {
+        return d;
+      }
+    }
+    return null;
+  }
+
+  // Si la actividad tiene un override para "primera vez" (plan.js:
+  // firstOccurrenceOverrides) y hoy es justo esa primera ocurrencia,
+  // devuelve una copia de la actividad con los recursos reemplazados.
+  function withFirstOccurrenceOverride(activity, startDate, dayNumber) {
+    var override = CONFIG.firstOccurrenceOverrides && CONFIG.firstOccurrenceOverrides[activity.id];
+    if (!override) return activity;
+    if (firstOccurrenceDayNumber(startDate, activity.id) !== dayNumber) return activity;
+    return Object.assign({}, activity, override);
+  }
+
   function planStateForDate(startDate, date) {
     var dayNumber = diffInDays(date, startDate) + 1; // 1-indexed
     var totalDays = CONFIG.totalWeeks * 7;
@@ -281,12 +303,14 @@
       .map(function (key) {
         var r = CONFIG.resources[key];
         if (!r) return "";
+        var cls = "resource-link" + (extraClass ? " " + extraClass : "") + (r.highlight ? " highlight" : "");
         return (
-          '<a class="resource-link' +
-          (extraClass ? " " + extraClass : "") +
+          '<a class="' +
+          cls +
           '" target="_blank" rel="noopener noreferrer" href="' +
           r.url +
-          '">🔗 ' +
+          '">' +
+          (r.highlight ? "🚀 " : "🔗 ") +
           escapeHTML(r.name) +
           "</a>"
         );
@@ -306,6 +330,9 @@
       '<label class="activity' +
       (isDone ? " done" : "") +
       '">' +
+      '<span class="activity-icon" aria-hidden="true">' +
+      (activity.icon || "•") +
+      "</span>" +
       '<input type="checkbox" data-date="' +
       dateISO +
       '" data-activity="' +
@@ -391,7 +418,8 @@
   }
 
   function renderResourceDirectory() {
-    var cards = Object.keys(CONFIG.resources)
+    var keys = CONFIG.directoryResources || Object.keys(CONFIG.resources);
+    var cards = keys
       .map(function (key) {
         var r = CONFIG.resources[key];
         return (
@@ -496,7 +524,8 @@
           '<div id="activity-list">' +
           tpl.activities
             .map(function (a) {
-              return activityRow(a, todayISO, state.phase.id, !!dayCompletions[a.id]);
+              var resolved = withFirstOccurrenceOverride(a, startDate, state.dayNumber);
+              return activityRow(resolved, todayISO, state.phase.id, !!dayCompletions[a.id]);
             })
             .join("") +
           "</div>" +

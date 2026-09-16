@@ -7,14 +7,18 @@
  * falta modificarla para cambiar el contenido del plan.
  *
  * Estructura:
- *  - RESOURCES: catálogo de links externos, identificados por una clave (key).
- *  - PHASE_RESOURCES: qué recursos usar para las actividades "genéricas"
- *    (input, conversación, input largo) según la fase (1, 2 o 3).
- *  - PHASES: las 3 fases de 4 semanas, con título y foco temático.
- *  - DAY_TEMPLATES: la rutina semanal tipo, una entrada por día de la
+ *  - resources: catálogo de links externos, identificados por una clave (key).
+ *    Cada link es https:// normal, abierto en pestaña nueva — nada de
+ *    esquemas nativos (app://...), así el sistema operativo decide solo
+ *    si abre la app instalada o el navegador.
+ *  - phaseResources: qué recursos usar para las actividades "genéricas"
+ *    (input) según la fase (1, 2 o 3). Cada valor es un array de keys:
+ *    si tiene más de una key, se muestra un botón por cada una.
+ *  - phases: las 3 fases de 4 semanas, con título y foco temático.
+ *  - dayTemplates: la rutina semanal tipo, una entrada por día de la
  *    semana (0=domingo … 6=sábado, igual que Date.getDay() en JS).
- *  - CHECKPOINT_WEEKS: semanas de autoevaluación (fin de fase).
- *  - TOTAL_WEEKS: duración total del plan.
+ *  - checkpointWeeks: semanas de autoevaluación (fin de fase).
+ *  - totalWeeks: duración total del plan.
  * ------------------------------------------------------------
  */
 
@@ -22,91 +26,81 @@ window.PLAN_CONFIG = {
   totalWeeks: 12,
 
   // Catálogo de recursos externos. La "key" es lo que se referencia
-  // desde DAY_TEMPLATES o PHASE_RESOURCES.
+  // desde dayTemplates o phaseResources.
   resources: {
-    // "/latest/*" es, literalmente, el único path de quizlet.com que Quizlet
-    // registra como Universal Link en su propio apple-app-site-association
-    // (verificado en https://quizlet.com/.well-known/apple-app-site-association).
-    // La portada "/" NO está en esa lista → por eso antes abría el sitio de
-    // marketing en vez de la app.
-    quizlet: { name: "Quizlet", url: "https://quizlet.com/latest/" },
+    quizlet: { name: "Quizlet", url: "https://quizlet.com/" },
+
+    // Input Fase 1 — principiante absoluto.
     cbi: {
       name: "Coffee Break Italian",
-      url: "https://podcasts.apple.com/us/podcast/coffee-break-italian/id958179457",
+      url: "https://open.spotify.com/show/2PdBXXDEbSyR8fyd6RL5dR",
     },
-    // podcasts.apple.com es dominio propio de Apple: SIEMPRE abre la app
-    // Podcasts nativa en iPhone (no depende de que Podcast Italiano
-    // configure nada). Esta es la URL canónica actual (sin redirect).
+
+    // Input puente Fase 1→2 — A2-B1. Show distinto de "Podcast Italiano".
+    podcastitalianoPrincipiante: {
+      name: "Podcast Italiano Principiante",
+      url: "https://open.spotify.com/show/7etEyYB7O3BcGXlEPC3mOo",
+    },
+
+    // Input Fase 2-3 — intermedio/avanzado. Dos botones: Spotify no trae
+    // transcripción, así que hace falta el sitio aparte para eso.
     podcastitaliano: {
-      name: "Podcast Italiano",
-      url: "https://podcasts.apple.com/us/podcast/podcast-italiano-learn-italian-intermediate-advanced/id1163599279",
+      name: "Escuchar — Podcast Italiano",
+      url: "https://open.spotify.com/show/1y4WrXQPfvoBCyWZBx5vFi",
     },
-    newsslow: {
-      name: "News in Slow Italian",
-      url: "https://www.newsinslowitalian.com/",
+    podcastitalianoTranscript: {
+      name: "Ver transcripción",
+      url: "https://podcastitaliano.com/",
     },
-    oneworld: {
-      name: "One World Italiano",
+
+    // Gramática — recorrido inicial. Se usa una sola vez, el primer día
+    // de gramática de todo el plan (ver isFirstOccurrence en app.js).
+    grammarStart: {
+      name: "Empezar aquí — ItalianoSencillo",
+      url: "https://www.italianosencillo.com/aprender-italiano-desde-cero",
+      highlight: true,
+    },
+    // Gramática — consulta puntual, resto del plan.
+    grammarSearch: {
+      name: "Buscar tema de gramática",
+      url: "https://www.italianosencillo.com/gramatica",
+    },
+    // Fallback si no se encuentra el tema en ItalianoSencillo. Es un blog
+    // sin secuencia — por eso el texto dice "buscar", nunca "seguir curso".
+    grammarFallback: {
+      name: "Buscar tema puntual",
       url: "https://oneworlditaliano.com/en/",
     },
-    falsosamigos: {
-      name: "ItalianoSencillo (falsos amigos)",
-      url: "https://www.italianosencillo.com/",
-    },
+
     tembrica: {
       name: "Tembrica — Shadowing Studio",
       url: "https://tembrica.com/en/shadowing-studio",
     },
-    // italki NO tiene apple-app-site-association configurado en italki.com
-    // (verificado: /.well-known/apple-app-site-association devuelve error,
-    // no existe el archivo) → ningún link https a este dominio puede abrir
-    // la app nativa automáticamente, siempre cae en el navegador. Como no
-    // se puede forzar la app sin usar un esquema itaki:// fràgil (lo que
-    // pediste evitar), al menos apunta directo a la pestaña correcta.
+
     italki: {
-      name: "italki — Community (gratis)",
+      name: "italki Community (gratis)",
       url: "https://www.italki.com/en/community/for-you",
     },
-    // hellotalk.com SÍ tiene Universal Link, pero solo para "/ios" — es el
-    // único path de su apple-app-site-association (verificado en
-    // https://www.hellotalk.com/apple-app-site-association). Con la app
-    // instalada abre directo adentro; si no está instalada, esa misma URL
-    // muestra una página 404 del sitio (no un cartel de App Store) — es una
-    // limitación real de cómo HelloTalk configuró su propio dominio.
     hellotalk: {
       name: "HelloTalk",
-      url: "https://www.hellotalk.com/ios",
+      url: "https://apps.apple.com/app/hellotalk/id557130558",
     },
-    // Forvo tiene app nativa ("Forvo Pronunciation") pero forvo.com NO tiene
-    // apple-app-site-association (verificado: 404) → no hay forma de que un
-    // link https abra la app sola. Queda el buscador web, que es lo único
-    // funcional posible sin usar un esquema de URL nativo.
     forvo: { name: "Forvo", url: "https://forvo.com/" },
+
     leveltest: {
       name: "Test de nivel A1/A2 (buscar online)",
       url: "https://www.google.com/search?q=test+italiano+A1+A2+online+gratis",
     },
   },
 
-  // Recursos sugeridos para actividades "genéricas" según la fase.
-  // Las claves (input, conversation, longInput) son placeholders usados
-  // en DAY_TEMPLATES; se resuelven acá según en qué fase estés.
+  // Recursos para la actividad "genérica" de input según la fase.
+  // La clave "input" es un placeholder usado en dayTemplates; se resuelve
+  // acá según en qué fase estés. Un array con más de una key = un botón
+  // por cada recurso.
   phaseResources: {
-    1: {
-      input: ["cbi"],
-      conversation: ["hellotalk"],
-      longInput: ["cbi"],
-    },
-    2: {
-      input: ["podcastitaliano"],
-      conversation: ["italki", "hellotalk"],
-      longInput: ["podcastitaliano"],
-    },
-    3: {
-      input: ["podcastitaliano", "newsslow"],
-      conversation: ["italki", "hellotalk"],
-      longInput: ["newsslow", "podcastitaliano"],
-    },
+    1: { input: ["cbi"] },
+    2: { input: ["podcastitalianoPrincipiante"] },
+    3: { input: ["podcastitaliano", "podcastitalianoTranscript"] },
   },
 
   phases: [
@@ -133,79 +127,110 @@ window.PLAN_CONFIG = {
     },
   ],
 
-  // Rutina semanal tipo. Cada actividad tiene:
-  //   id                -> identificador único dentro del día (para guardar el check)
-  //   name              -> texto que se muestra
-  //   minutes           -> minutos estimados
-  //   resources         -> array de keys (de RESOURCES o placeholders de phaseResources) — botón principal
-  //   secondaryResources -> igual que resources, pero se muestran como botón chico/secundario
+  // Rutina semanal tipo. Se repite las 12 semanas — cambia el contenido
+  // (vía phaseResources), no la estructura. Cada actividad tiene:
+  //   id                 -> identificador único dentro del día (para guardar el check)
+  //   icon               -> emoji decorativo
+  //   name               -> texto que se muestra
+  //   minutes            -> minutos estimados
+  //   resources          -> array de keys — botón(es) principal(es)
+  //   secondaryResources -> igual, pero se muestran como botón chico/secundario
   dayTemplates: {
     1: {
       label: "Lunes",
       activities: [
-        { id: "anki", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
-        { id: "input", name: "Input comprensible", minutes: 15, resources: ["input"] },
-        { id: "shadowing", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
+        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        { id: "input", icon: "🎧", name: "Input comprensible", minutes: 15, resources: ["input"] },
+        { id: "shadowing", icon: "🗣️", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
       ],
     },
     2: {
       label: "Martes",
       activities: [
-        { id: "anki", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
         {
           id: "grammar",
+          icon: "📚",
           name: "Gramática dirigida",
           minutes: 15,
-          resources: ["oneworld"],
-          secondaryResources: ["falsosamigos"],
+          resources: ["grammarSearch"],
+          secondaryResources: ["grammarFallback"],
         },
       ],
     },
     3: {
       label: "Miércoles",
       activities: [
-        { id: "anki", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
-        { id: "input", name: "Input comprensible", minutes: 15, resources: ["input"] },
-        { id: "shadowing", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
+        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        { id: "input", icon: "🎧", name: "Input comprensible", minutes: 15, resources: ["input"] },
+        { id: "shadowing", icon: "🗣️", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
       ],
     },
     4: {
       label: "Jueves",
       activities: [
-        { id: "anki", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
         {
           id: "grammar",
+          icon: "📚",
           name: "Gramática dirigida",
           minutes: 15,
-          resources: ["oneworld"],
-          secondaryResources: ["falsosamigos"],
+          resources: ["grammarSearch"],
+          secondaryResources: ["grammarFallback"],
         },
       ],
     },
     5: {
       label: "Viernes",
       activities: [
-        { id: "anki", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
-        { id: "input", name: "Input comprensible", minutes: 15, resources: ["input"] },
+        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        { id: "input", icon: "🎧", name: "Input comprensible", minutes: 15, resources: ["input"] },
       ],
     },
     6: {
       label: "Sábado (o domingo)",
       isWeekend: true,
       activities: [
-        { id: "conversation", name: "Conversación real", minutes: 30, resources: ["conversation"] },
-        { id: "anki_review", name: "Repaso Quizlet", minutes: 15, resources: ["quizlet"] },
-        { id: "long_input", name: "Input largo", minutes: 35, resources: ["longInput"] },
+        { id: "conversation", icon: "💬", name: "Conversación real", minutes: 30, resources: ["italki", "hellotalk"] },
+        { id: "quizlet_review", icon: "🔁", name: "Repaso Quizlet", minutes: 15, resources: ["quizlet"] },
+        { id: "long_input", icon: "🎧", name: "Input más largo", minutes: 35, resources: ["input"] },
       ],
     },
     0: {
       label: "Domingo (o sábado)",
       isWeekend: true,
       activities: [
-        { id: "conversation", name: "Conversación real", minutes: 30, resources: ["conversation"] },
-        { id: "anki_review", name: "Repaso Quizlet", minutes: 15, resources: ["quizlet"] },
-        { id: "long_input", name: "Input largo", minutes: 35, resources: ["longInput"] },
+        { id: "conversation", icon: "💬", name: "Conversación real", minutes: 30, resources: ["italki", "hellotalk"] },
+        { id: "quizlet_review", icon: "🔁", name: "Repaso Quizlet", minutes: 15, resources: ["quizlet"] },
+        { id: "long_input", icon: "🎧", name: "Input más largo", minutes: 35, resources: ["input"] },
       ],
+    },
+  },
+
+  // Lista curada para la grilla "Recursos" de Configuración (accesos
+  // directos generales, fuera del checklist de hoy). Se deja afuera
+  // grammarStart (es para usar una sola vez, ya aparece destacado ese día)
+  // y leveltest (ya aparece en el aviso de checkpoint).
+  directoryResources: [
+    "quizlet",
+    "cbi",
+    "podcastitalianoPrincipiante",
+    "podcastitaliano",
+    "podcastitalianoTranscript",
+    "grammarSearch",
+    "grammarFallback",
+    "tembrica",
+    "italki",
+    "hellotalk",
+    "forvo",
+  ],
+
+  // El primer día de gramática de todo el plan usa "grammarStart" en vez
+  // de "grammarSearch"/"grammarFallback" (ver isFirstGrammarDay en app.js).
+  firstOccurrenceOverrides: {
+    grammar: {
+      resources: ["grammarStart"],
+      secondaryResources: [],
     },
   },
 
