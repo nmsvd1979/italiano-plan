@@ -41,6 +41,9 @@ window.PLAN_CONFIG = {
     // así que este es el que realmente abre la app instalada.
     quizlet: { name: "Quizlet (mis tarjetas)", url: "https://quizlet.com/latest/" },
 
+    // open.spotify.com/show/* SÍ está en la lista de paths que Spotify
+    // registra como Universal Link (verificado) -> los 3 links de Spotify
+    // de abajo abren la app nativa directo si está instalada, no el navegador.
     // Input Fase 1 — principiante absoluto.
     cbi: {
       name: "Coffee Break Italian",
@@ -83,18 +86,33 @@ window.PLAN_CONFIG = {
       url: "https://oneworlditaliano.com/en/",
     },
 
+    // ItalianoSencillo, One World Italiano, podcastitaliano.com (arriba) y
+    // Tembrica (abajo) no tienen app nativa (verificado: ninguno registra
+    // apple-app-site-association) -> el sitio web ES el destino correcto,
+    // no hay nada que "abrir en app" en estos casos.
     tembrica: {
       name: "Tembrica — Shadowing Studio",
       url: "https://tembrica.com/en/shadowing-studio",
     },
 
+    // italki.com NO tiene apple-app-site-association (verificado: no existe
+    // el archivo) -> a diferencia de Quizlet/Spotify/HelloTalk, ACÁ no hay
+    // ningún path https que abra la app sola, siempre cae en el navegador.
+    // No es que falte probar otra URL: italki no configuró Universal Links
+    // en absoluto en este dominio. Queda la pestaña Community correcta
+    // dentro del sitio, que es lo único lograble sin usar un esquema
+    // italki:// nativo (descartado por pedido explícito).
     italki: {
       name: "italki Community (gratis)",
       url: "https://www.italki.com/en/community/for-you",
     },
+    // hellotalk.com solo registra "/ios" en su apple-app-site-association
+    // (verificado). El link a apps.apple.com abre la ficha de App Store,
+    // que pide un toque extra en "Abrir" — este va directo a la app si
+    // ya está instalada.
     hellotalk: {
       name: "HelloTalk",
-      url: "https://apps.apple.com/app/hellotalk/id557130558",
+      url: "https://www.hellotalk.com/ios",
     },
     forvo: { name: "Forvo", url: "https://forvo.com/" },
 
