@@ -28,7 +28,13 @@ window.PLAN_CONFIG = {
   // Catálogo de recursos externos. La "key" es lo que se referencia
   // desde dayTemplates o phaseResources.
   resources: {
-    quizlet: { name: "Quizlet", url: "https://quizlet.com/" },
+    // Set de arranque (español → italiano, 5000 palabras más usadas) +
+    // acceso general para las tarjetas propias que el usuario va sumando.
+    quizletSet: {
+      name: "Set inicial: Vocabulario ES→IT (5000)",
+      url: "https://quizlet.com/mx/879382781/vocabulario-espanol-italiano-5000-palabras-mas-usadas-flash-cards/",
+    },
+    quizlet: { name: "Quizlet (mis tarjetas)", url: "https://quizlet.com/" },
 
     // Input Fase 1 — principiante absoluto.
     cbi: {
@@ -139,7 +145,7 @@ window.PLAN_CONFIG = {
     1: {
       label: "Lunes",
       activities: [
-        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
         { id: "input", icon: "🎧", name: "Input comprensible", minutes: 15, resources: ["input"] },
         { id: "shadowing", icon: "🗣️", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
       ],
@@ -147,7 +153,7 @@ window.PLAN_CONFIG = {
     2: {
       label: "Martes",
       activities: [
-        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
         {
           id: "grammar",
           icon: "📚",
@@ -161,7 +167,7 @@ window.PLAN_CONFIG = {
     3: {
       label: "Miércoles",
       activities: [
-        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
         { id: "input", icon: "🎧", name: "Input comprensible", minutes: 15, resources: ["input"] },
         { id: "shadowing", icon: "🗣️", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
       ],
@@ -169,7 +175,7 @@ window.PLAN_CONFIG = {
     4: {
       label: "Jueves",
       activities: [
-        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
         {
           id: "grammar",
           icon: "📚",
@@ -183,7 +189,7 @@ window.PLAN_CONFIG = {
     5: {
       label: "Viernes",
       activities: [
-        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizlet"] },
+        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
         { id: "input", icon: "🎧", name: "Input comprensible", minutes: 15, resources: ["input"] },
       ],
     },
@@ -192,7 +198,7 @@ window.PLAN_CONFIG = {
       isWeekend: true,
       activities: [
         { id: "conversation", icon: "💬", name: "Conversación real", minutes: 30, resources: ["italki", "hellotalk"] },
-        { id: "quizlet_review", icon: "🔁", name: "Repaso Quizlet", minutes: 15, resources: ["quizlet"] },
+        { id: "quizlet_review", icon: "🔁", name: "Repaso Quizlet", minutes: 15, resources: ["quizletSet", "quizlet"] },
         { id: "long_input", icon: "🎧", name: "Input más largo", minutes: 35, resources: ["input"] },
       ],
     },
@@ -201,7 +207,7 @@ window.PLAN_CONFIG = {
       isWeekend: true,
       activities: [
         { id: "conversation", icon: "💬", name: "Conversación real", minutes: 30, resources: ["italki", "hellotalk"] },
-        { id: "quizlet_review", icon: "🔁", name: "Repaso Quizlet", minutes: 15, resources: ["quizlet"] },
+        { id: "quizlet_review", icon: "🔁", name: "Repaso Quizlet", minutes: 15, resources: ["quizletSet", "quizlet"] },
         { id: "long_input", icon: "🎧", name: "Input más largo", minutes: 35, resources: ["input"] },
       ],
     },
@@ -212,6 +218,7 @@ window.PLAN_CONFIG = {
   // grammarStart (es para usar una sola vez, ya aparece destacado ese día)
   // y leveltest (ya aparece en el aviso de checkpoint).
   directoryResources: [
+    "quizletSet",
     "quizlet",
     "cbi",
     "podcastitalianoPrincipiante",
