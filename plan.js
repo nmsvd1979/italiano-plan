@@ -34,7 +34,12 @@ window.PLAN_CONFIG = {
       name: "Set inicial: Vocabulario ES→IT (5000)",
       url: "https://quizlet.com/mx/879382781/vocabulario-espanol-italiano-5000-palabras-mas-usadas-flash-cards/",
     },
-    quizlet: { name: "Quizlet (mis tarjetas)", url: "https://quizlet.com/" },
+    // OJO: la portada "https://quizlet.com/" NO está en la lista de paths
+    // que Quizlet registra en su propio apple-app-site-association -> por
+    // eso ese botón caía siempre en el navegador. "/latest/*" sí está
+    // registrado (verificado en quizlet.com/.well-known/apple-app-site-association),
+    // así que este es el que realmente abre la app instalada.
+    quizlet: { name: "Quizlet (mis tarjetas)", url: "https://quizlet.com/latest/" },
 
     // Input Fase 1 — principiante absoluto.
     cbi: {
