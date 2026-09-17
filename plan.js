@@ -159,7 +159,8 @@ window.PLAN_CONFIG = {
   // Rutina semanal tipo. Se repite las 12 semanas — cambia el contenido
   // (vía phaseResources), no la estructura. Cada actividad tiene:
   //   id                 -> identificador único dentro del día (para guardar el check)
-  //   icon               -> emoji decorativo
+  //   icon               -> clave del ícono (ver ICONS en app.js: copy, headphones,
+  //                         magnifier, bookOpen, chat, ...)
   //   name               -> texto que se muestra
   //   minutes            -> minutos estimados
   //   resources          -> array de keys — botón(es) principal(es)
@@ -168,18 +169,18 @@ window.PLAN_CONFIG = {
     1: {
       label: "Lunes",
       activities: [
-        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
-        { id: "input", icon: "🎧", name: "Input comprensible", minutes: 15, resources: ["input"] },
-        { id: "shadowing", icon: "🗣️", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
+        { id: "quizlet", icon: "copy", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
+        { id: "input", icon: "headphones", name: "Input comprensible", minutes: 15, resources: ["input"] },
+        { id: "shadowing", icon: "magnifier", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
       ],
     },
     2: {
       label: "Martes",
       activities: [
-        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
+        { id: "quizlet", icon: "copy", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
         {
           id: "grammar",
-          icon: "📚",
+          icon: "bookOpen",
           name: "Gramática dirigida",
           minutes: 15,
           resources: ["grammarSearch"],
@@ -190,18 +191,18 @@ window.PLAN_CONFIG = {
     3: {
       label: "Miércoles",
       activities: [
-        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
-        { id: "input", icon: "🎧", name: "Input comprensible", minutes: 15, resources: ["input"] },
-        { id: "shadowing", icon: "🗣️", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
+        { id: "quizlet", icon: "copy", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
+        { id: "input", icon: "headphones", name: "Input comprensible", minutes: 15, resources: ["input"] },
+        { id: "shadowing", icon: "magnifier", name: "Shadowing", minutes: 5, resources: ["tembrica"] },
       ],
     },
     4: {
       label: "Jueves",
       activities: [
-        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
+        { id: "quizlet", icon: "copy", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
         {
           id: "grammar",
-          icon: "📚",
+          icon: "bookOpen",
           name: "Gramática dirigida",
           minutes: 15,
           resources: ["grammarSearch"],
@@ -212,26 +213,26 @@ window.PLAN_CONFIG = {
     5: {
       label: "Viernes",
       activities: [
-        { id: "quizlet", icon: "🧠", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
-        { id: "input", icon: "🎧", name: "Input comprensible", minutes: 15, resources: ["input"] },
+        { id: "quizlet", icon: "copy", name: "Quizlet (repetición espaciada)", minutes: 10, resources: ["quizletSet", "quizlet"] },
+        { id: "input", icon: "headphones", name: "Input comprensible", minutes: 15, resources: ["input"] },
       ],
     },
     6: {
       label: "Sábado (o domingo)",
       isWeekend: true,
       activities: [
-        { id: "conversation", icon: "💬", name: "Conversación real", minutes: 30, resources: ["italki", "hellotalk"] },
-        { id: "quizlet_review", icon: "🔁", name: "Repaso Quizlet", minutes: 15, resources: ["quizletSet", "quizlet"] },
-        { id: "long_input", icon: "🎧", name: "Input más largo", minutes: 35, resources: ["input"] },
+        { id: "conversation", icon: "chat", name: "Conversación real", minutes: 30, resources: ["italki", "hellotalk"] },
+        { id: "quizlet_review", icon: "copy", name: "Repaso Quizlet", minutes: 15, resources: ["quizletSet", "quizlet"] },
+        { id: "long_input", icon: "headphones", name: "Input más largo", minutes: 35, resources: ["input"] },
       ],
     },
     0: {
       label: "Domingo (o sábado)",
       isWeekend: true,
       activities: [
-        { id: "conversation", icon: "💬", name: "Conversación real", minutes: 30, resources: ["italki", "hellotalk"] },
-        { id: "quizlet_review", icon: "🔁", name: "Repaso Quizlet", minutes: 15, resources: ["quizletSet", "quizlet"] },
-        { id: "long_input", icon: "🎧", name: "Input más largo", minutes: 35, resources: ["input"] },
+        { id: "conversation", icon: "chat", name: "Conversación real", minutes: 30, resources: ["italki", "hellotalk"] },
+        { id: "quizlet_review", icon: "copy", name: "Repaso Quizlet", minutes: 15, resources: ["quizletSet", "quizlet"] },
+        { id: "long_input", icon: "headphones", name: "Input más largo", minutes: 35, resources: ["input"] },
       ],
     },
   },
