@@ -62,6 +62,10 @@ Para cambiar actividades, minutos o links se edita `src/content/plan.ts`; para a
 
 Las grabaciones de pronunciación son de [Lingua Libre](https://lingualibre.org/) (Wikimedia Commons, licencia CC BY-SA 4.0). Los créditos de cada archivo están en `public/audio/ATTRIBUZIONI.md`. Para agregar palabras: súmalas a `units.json` (pronunciación) o a `vocab.json` (vocabulario) y corre `npm run audio`; el script es idempotente y regenera los créditos de todos los archivos.
 
+## Revisión del italiano
+
+`npx vite-node scripts/export-revision.ts` genera `docs/revision-italiano.md` (todo el italiano de la app, con instrucciones para un revisor nativo) y un archivo por fase. Se vuelve a generar cada vez que cambia el contenido.
+
 ## Publicación
 
 Cada push a `main` corre los tests, hace el build y publica con GitHub Actions (`.github/workflows/deploy.yml`). En el repositorio, GitHub Pages debe estar en *Source: GitHub Actions*.

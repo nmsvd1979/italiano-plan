@@ -341,3 +341,6 @@ textarea.input.writing { resize: vertical; min-height: 140px; line-height: 1.5; 
 .dcue small { color: var(--text-faint); font-weight: 500; font-size: 12px; }
 .unit-head { display: flex; flex-direction: column; gap: 2px; padding: 4px 4px 0; text-decoration: none; color: inherit; }
 .unit-head b { font-size: 17px; letter-spacing: -0.01em; }
+.offline { font-size: 14px; font-weight: 700; padding: 10px 12px; border-radius: var(--radius-md); background: var(--surface-2); }
+.offline-ready { background: var(--good-soft); color: var(--good); }
+.offline-pending { background: var(--warn-soft); color: var(--warn); }
