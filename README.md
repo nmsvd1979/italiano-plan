@@ -1,75 +1,63 @@
-# Italiano — Plan de 12 semanas
+# Italiano — plan de 12 semanas
 
-App de una sola página (sin backend, sin login) para trackear el plan diario de
-italiano de 3 meses. Todo el progreso se guarda en `localStorage` del
-navegador, en tu dispositivo.
+App personal (una sola persona, sin cuenta, sin servidor) para seguir un plan de italiano de 12 semanas. Es una PWA: se instala en la pantalla de inicio del iPhone y todo se guarda en el `localStorage` de ese teléfono.
 
-## Cómo correrla
+Hecha con Vite + React + TypeScript. Publicada en GitHub Pages: <https://nmsvd1979.github.io/italiano-plan/>
 
-No hace falta build ni instalar dependencias. Las notificaciones y el
-Service Worker (necesario para instalarla como PWA) requieren `http://`,
-no funcionan abriendo el archivo directamente con `file://`. Por eso lo más
-simple es levantar un servidor estático local:
+## Qué incluye
 
-```bash
-cd "Italiano"
-python3 -m http.server 8000
-```
+| Actividad | Cómo funciona |
+|---|---|
+| Vocabulario | Quizlet (externo): un set de 5000 palabras y tus tarjetas. |
+| Gramática | 12 lecciones propias (una por semana) con regla, contraste con el español, ejemplos con audio y ejercicios con corrección inmediata. Los errados vuelven con repaso espaciado. |
+| Pronunciación | Pares mínimos con grabaciones nativas (Lingua Libre) y práctica de repetir en voz alta. |
+| Shadowing | Estudio sobre un video de Easy Italian por semana, con 5 pasos, velocidad, fragmento en bucle y subtítulos que se pueden tapar. |
+| Input | Podcasts en Spotify según la fase. |
+| Checkpoints | Test de fase en las semanas 4, 8 y 12, con puntaje por tema. |
+| Progreso | Racha, progreso semanal y por fase, mapa de calor de 90 días y recordatorio diario. |
 
-Y abrir `http://localhost:8000` en el navegador (o `http://localhost:8000`
-desde el celular si está en la misma red, reemplazando `localhost` por la IP
-de tu compu).
+La fecha de inicio es lo único que se configura: semana, fase y rutina de cada día se calculan solos.
 
-Alternativas equivalentes si tenés Node:
+## Desarrollo
 
 ```bash
-npx serve .
+npm install
+npm run dev      # http://localhost:5173/italiano-plan/
+npm test         # lógica, contenido de gramática y audio
+npm run build    # tsc + build de producción en dist/
 ```
 
-## Instalarla como PWA en el celular
+Para abrirla desde el celular en la misma red: `npm run dev -- --host`.
 
-1. Abrí la URL del servidor local en Chrome/Safari del celular (misma red WiFi).
-2. Chrome (Android): menú ⋮ → "Instalar app" / "Agregar a pantalla de inicio".
-3. Safari (iOS): botón compartir → "Agregar a pantalla de inicio".
-4. Se abre como app standalone, sin barra del navegador.
-
-## Primer uso
-
-Al abrir la app por primera vez te pide la **fecha de inicio** del plan.
-A partir de ahí calcula sola en qué semana (1-12), fase (1, 2 o 3) y día
-del plan estás, y te muestra el checklist de hoy.
-
-## Editar el plan
-
-Todo el contenido del plan (actividades por día, minutos, links a recursos,
-fases, checkpoints) vive en [`plan.js`](plan.js), con comentarios explicando
-cada sección. No hace falta tocar `app.js` (la lógica) para ajustar el plan.
-
-## Notificaciones — limitación importante
-
-El recordatorio diario usa la `Notification API` del navegador. Esto
-**solo funciona mientras la pestaña o la PWA instalada está abierta, o en
-segundo plano según lo que permita tu navegador/sistema operativo**. No hay
-servidor ni Push API configurado, así que si cerrás la app por completo no
-vas a recibir el aviso — es una limitación real de una app sin backend, no
-un bug. Se explica también en la propia app (sección Configuración) y en
-comentarios dentro de `app.js` y `sw.js`.
-
-## Datos y privacidad
-
-No hay cuentas, ni sincronización entre dispositivos, ni llamadas a
-servidores propios. Todo el progreso vive en el `localStorage` de ese
-navegador/dispositivo. Borrar datos del sitio o desinstalar la PWA borra
-el progreso.
-
-## Estructura de archivos
+## Dónde está cada cosa
 
 ```
-index.html   → esqueleto de la página
-style.css    → estilos (mobile-first, soporta modo oscuro)
-plan.js      → CONFIGURACIÓN DEL PLAN (editable)
-app.js       → lógica de la app (fechas, checklist, streak, heatmap, notif.)
-manifest.json→ metadata de la PWA
-sw.js        → service worker (cache offline del app shell)
-icons/       → íconos para instalación como PWA
+src/content/plan.ts            fases, rutina semanal, recursos externos (editable a mano)
+src/content/grammar/           una lección por semana
+src/content/pronunciation/     weeks.json (pares y palabras) + manifest.json (audio, generado)
+src/content/shadowing.ts       videos por semana y pasos del protocolo
+src/domain/                    lógica pura con tests (fechas, plan, racha, repaso, tests de fase)
+src/features/                  pantallas
+src/theme/                     tokens de color y estilos (claro y oscuro)
+scripts/fetch-lingualibre.mjs  baja el audio nativo y genera las atribuciones
 ```
+
+Para cambiar el plan (actividades, minutos, links) se edita `src/content/plan.ts`; la lógica no hace falta tocarla.
+
+## Audio
+
+Las grabaciones de pronunciación son de [Lingua Libre](https://lingualibre.org/) (Wikimedia Commons, licencia CC BY-SA 4.0). Los créditos de cada archivo están en `public/audio/ATTRIBUZIONI.md`. Para agregar palabras: súmalas a `weeks.json` y corre `npm run audio`.
+
+## Publicación
+
+Cada push a `main` corre los tests, hace el build y publica con GitHub Actions (`.github/workflows/deploy.yml`). En el repositorio, GitHub Pages debe estar en *Source: GitHub Actions*.
+
+## Limitaciones conocidas
+
+- El recordatorio usa la Notification API: solo funciona con la app abierta o en segundo plano. No hay servidor que envíe avisos, así que con la app cerrada no llega nada.
+- Los datos viven solo en el navegador del teléfono: borrar los datos del sitio o desinstalar la app borra el progreso.
+- Los links a Quizlet y Spotify abren la app instalada solo si esas apps lo permiten; no se usan esquemas nativos.
+
+## Sobre el contenido
+
+Gramática, pronunciación y shadowing se diseñaron a partir de investigación en adquisición de segundas lenguas (instrucción explícita, práctica espaciada y mezclada, entrenamiento perceptivo con varias voces, shadowing con material comprensible) y del sílabo oficial de italiano L2 (QCER / CLIQ).

@@ -43,7 +43,7 @@ function hash(str: string): number {
   return h >>> 0;
 }
 
-function rng(seed: string): () => number {
+export function rng(seed: string): () => number {
   let a = hash(seed);
   return () => {
     a = (a + 0x6d2b79f5) >>> 0;
@@ -54,7 +54,7 @@ function rng(seed: string): () => number {
   };
 }
 
-function shuffle<T>(items: T[], rand: () => number): T[] {
+export function shuffle<T>(items: T[], rand: () => number): T[] {
   const a = [...items];
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(rand() * (i + 1));

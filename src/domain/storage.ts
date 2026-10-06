@@ -24,6 +24,8 @@ export const KEYS = {
   settings: "italianPlan.settings",
   lastNotified: "italianPlan.lastNotifiedDate",
   review: "italianPlan.review",
+  shadowing: "italianPlan.shadowing",
+  phaseTests: "italianPlan.phaseTests",
 } as const;
 
 const defaultStore = (): KV => window.localStorage;
@@ -80,9 +82,42 @@ export function saveReview(state: ReviewState, store: KV = defaultStore()): void
   store.setItem(KEYS.review, JSON.stringify(state));
 }
 
+/** Fragmentos (inicio y fin en segundos) que marcaste en cada video de shadowing. */
+export type ShadowingSegments = Record<string, { a: number; b: number }>;
+
+export function getShadowing(store: KV = defaultStore()): ShadowingSegments {
+  return readJSON<ShadowingSegments>(store, KEYS.shadowing, {});
+}
+
+export function saveShadowing(segments: ShadowingSegments, store: KV = defaultStore()): void {
+  store.setItem(KEYS.shadowing, JSON.stringify(segments));
+}
+
+export interface PhaseTestResult {
+  date: string;
+  correct: number;
+  total: number;
+  byTopic: Record<string, { correct: number; total: number }>;
+}
+/** Historial de tests de fase, por número de fase. */
+export type PhaseTests = Record<string, PhaseTestResult[]>;
+
+export function getPhaseTests(store: KV = defaultStore()): PhaseTests {
+  return readJSON<PhaseTests>(store, KEYS.phaseTests, {});
+}
+
+export function addPhaseTest(phase: number, result: PhaseTestResult, store: KV = defaultStore()): PhaseTests {
+  const all = getPhaseTests(store);
+  all[phase] = [...(all[phase] ?? []), result];
+  store.setItem(KEYS.phaseTests, JSON.stringify(all));
+  return all;
+}
+
 export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS.completions);
   store.removeItem(KEYS.review);
+  store.removeItem(KEYS.shadowing);
+  store.removeItem(KEYS.phaseTests);
 }
 
 export function clearAll(store: KV = defaultStore()): void {
