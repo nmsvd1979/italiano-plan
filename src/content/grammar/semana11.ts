@@ -90,7 +90,7 @@ export const semana11: Lesson = {
     },
     {
       type: "choice",
-      prompt: "Querés pedirle con cortesía a un desconocido que te ayude.",
+      prompt: "Quieres pedirle con cortesía a un desconocido que te ayude.",
       options: ["Aiutami!", "Potrebbe aiutarmi?", "Tu aiuti me?"],
       answer: 1,
       why: "Condizionale + *Lei* es el pedido cortés.",

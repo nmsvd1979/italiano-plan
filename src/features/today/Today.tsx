@@ -39,7 +39,7 @@ export function Today() {
         <div className="card stack">
           <Icon name="hourglass" size={28} />
           <h1 className="title">Tu plan todavía no empezó</h1>
-          <p className="sub">Arranca el {formatDateHuman(startDate)}. Volvé ese día y vas a ver tu primer checklist.</p>
+          <p className="sub">Arranca el {formatDateHuman(startDate)}. Vuelve ese día y vas a ver tu primer checklist.</p>
         </div>
       ) : (
         <>
@@ -58,7 +58,7 @@ export function Today() {
               <div>
                 <h3>Semana de checkpoint · nivel {checkpoint.level}</h3>
                 <p>
-                  El fin de semana hacés el test de fase. Si venís atrasada/o, esta semana también sirve de repaso, sin contenido nuevo.
+                  El fin de semana haces el test de fase. Si vienes atrasada/o, esta semana también sirve de repaso, sin contenido nuevo.
                 </p>
               </div>
             </section>
@@ -68,7 +68,7 @@ export function Today() {
             <section className="card stack">
               <Icon name="trophy" size={28} />
               <h1 className="title">Doce semanas cumplidas</h1>
-              <p className="sub">Terminaste el plan. Mirá tu historial en Progreso, o reiniciá desde Ajustes para repasar.</p>
+              <p className="sub">Terminaste el plan. Mira tu historial en Progreso, o reinicia desde Ajustes para repasar.</p>
             </section>
           ) : (
             <DayCard />
@@ -119,7 +119,7 @@ function DayCard() {
         })}
       </div>
       {complete && (
-        <div className="banner-done"><Icon name="check" size={18} /> ¡Completaste el día! Seguí así.</div>
+        <div className="banner-done"><Icon name="check" size={18} /> ¡Completaste el día! Sigue así.</div>
       )}
     </section>
   );

@@ -34,7 +34,7 @@ export function useReminder(): void {
       if (!hasAnyCompletion(done, today)) {
         try {
           new Notification("Italiano — todavía no marcaste nada hoy", {
-            body: "Unos minutos de Quizlet o de input y mantenés la racha.",
+            body: "Unos minutos de Quizlet o de input y mantienes la racha.",
             icon: "/italiano-plan/icons/icon-192.png",
           });
         } catch {

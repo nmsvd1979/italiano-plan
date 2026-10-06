@@ -102,7 +102,7 @@ export function ExerciseRunner({ items, onAnswer, onFinish, finishLabel }: Props
           <input
             className="input" value={text} disabled={!!grade}
             autoCapitalize="off" autoCorrect="off" spellCheck={false} autoComplete="off"
-            placeholder="Escribí lo que falta"
+            placeholder="Escribe lo que falta"
             aria-label="Respuesta"
             onChange={(ev) => setText(ev.target.value)}
             onKeyDown={(ev) => ev.key === "Enter" && (grade ? next() : check())}
@@ -120,7 +120,7 @@ export function ExerciseRunner({ items, onAnswer, onFinish, finishLabel }: Props
           <div className="feedback-head">
             <Icon name={grade === "wrong" ? "x" : "check"} size={18} />
             {grade === "correct" && "¡Correcto!"}
-            {grade === "almost" && "Casi: revisá la tilde"}
+            {grade === "almost" && "Casi: revisa la tilde"}
             {grade === "wrong" && "No era esa"}
           </div>
           {grade !== "correct" && <p>Respuesta: <strong>{correctText(e)}</strong></p>}

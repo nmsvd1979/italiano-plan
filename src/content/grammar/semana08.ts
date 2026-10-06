@@ -40,7 +40,7 @@ export const semana08: Lesson = {
     },
   ],
   transfer:
-    "Esto lo sabés hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí / he comido* ≈ *ho mangiato* (passato prossimo). La diferencia es que en italiano no aparece el *pretérito indefinido* (*comí*) en el habla del norte: usás el passato prossimo, que cubre los dos casos.",
+    "Esto lo sabes hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí / he comido* ≈ *ho mangiato* (passato prossimo). La diferencia es que en italiano no aparece el *pretérito indefinido* (*comí*) en el habla del norte: usas el passato prossimo, que cubre los dos casos.",
   examples: [
     { it: "Da piccola abitavo a Torino.", es: "De chica vivía en Turín." },
     { it: "Faceva freddo e pioveva.", es: "Hacía frío y llovía." },

@@ -12,7 +12,7 @@ export function Setup() {
       <Icon name="target" size={30} />
       <h1 className="title">Empecemos</h1>
       <p className="sub">
-        Elegí el día en que arranca tu plan de doce semanas. Desde ahí la app calcula sola en qué semana y fase estás, cada día.
+        Elige el día en que arranca tu plan de doce semanas. Desde ahí la app calcula sola en qué semana y fase estás, cada día.
       </p>
       <div className="field">
         <label htmlFor="start">Fecha de inicio</label>

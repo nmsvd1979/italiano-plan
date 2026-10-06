@@ -48,7 +48,7 @@ export const semana04: Lesson = {
     },
   ],
   transfer:
-    "En español decís *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la misma *a*; en italiano son tres: *in Italia*, *a Roma*, *da Marco*. Y no confundas *salire* (subir) con *salir*: para salir de un lugar usá *uscire*.",
+    "En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la misma *a*; en italiano son tres: *in Italia*, *a Roma*, *da Marco*. Y no confundas *salire* (subir) con *salir*: para salir de un lugar usa *uscire*.",
   examples: [
     { it: "Vado a Firenze in treno.", es: "Voy a Florencia en tren." },
     { it: "Domani vado dal medico.", es: "Mañana voy al médico." },
@@ -81,7 +81,7 @@ export const semana04: Lesson = {
     },
     {
       type: "choice",
-      prompt: "Querés decir «salgo de la estación». ¿Cuál es correcto?",
+      prompt: "Quieres decir «salgo de la estación». ¿Cuál es correcto?",
       options: ["Salgo dalla stazione", "Esco dalla stazione", "Scendo dalla stazione"],
       answer: 1,
       why: "Salir de un lugar es *uscire*. *Salgo* en italiano significa \"subo\".",
@@ -98,14 +98,14 @@ export const semana04: Lesson = {
     { type: "fill", prompt: "Esco ___ hotel alle nove. (da + l')", answers: ["dall'", "dall'hotel"], why: "*da + l' = dall'*." },
     {
       type: "choice",
-      prompt: "Querés decir que bajás del tren en la próxima estación.",
+      prompt: "Quieres decir que bajas del tren en la próxima estación.",
       options: ["Salgo alla prossima", "Scendo alla prossima", "Esco alla prossima"],
       answer: 1,
       why: "Bajar es *scendere*; *salire* es subir.",
     },
     {
       type: "choice",
-      prompt: "Reservás una habitación doble. ¿Qué decís?",
+      prompt: "Reservas una habitación doble. ¿Qué dices?",
       options: ["Una camera doppia", "Una fotocamera doppia", "Un burro doppio"],
       answer: 0,
       why: "*Camera* es habitación; la cámara de fotos es *fotocamera*.",

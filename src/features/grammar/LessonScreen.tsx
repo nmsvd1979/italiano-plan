@@ -84,10 +84,10 @@ export function LessonScreen({ week }: { week: number }) {
       </section>
 
       <section className="card stack">
-        <div className="eyebrow">Primero fijate</div>
-        <p className="sub">Antes de producir, notá cómo la forma cambia el significado.</p>
+        <div className="eyebrow">Primero fíjate</div>
+        <p className="sub">Antes de producir, nota cómo la forma cambia el significado.</p>
         {noticeDone ? (
-          <p className="banner-done"><Icon name="check" size={18} /> Listo: ya podés pasar a practicar.</p>
+          <p className="banner-done"><Icon name="check" size={18} /> Listo: ya puedes pasar a practicar.</p>
         ) : (
           <ExerciseRunner items={noticeItems} finishLabel="Terminar" onFinish={() => setNoticeDone(true)} />
         )}

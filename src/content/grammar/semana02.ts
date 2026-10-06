@@ -46,7 +46,7 @@ export const semana02: Lesson = {
     { it: "Ci sono due bar in piazza.", es: "Hay dos bares en la plaza." },
     { it: "L'appartamento ha una camera e un bagno.", es: "El departamento tiene una habitación y un baño." },
     { it: "Mi piace il caffè, ma non mi piacciono i dolci.", es: "Me gusta el café, pero no me gustan los dulces." },
-    { it: "Hai fame? Io ho sete.", es: "¿Tenés hambre? Yo tengo sed." },
+    { it: "Hai fame? Io ho sete.", es: "¿Tienes hambre? Yo tengo sed." },
     { it: "Gli studenti hanno gli zaini.", es: "Los estudiantes tienen las mochilas." },
   ],
   notice: [

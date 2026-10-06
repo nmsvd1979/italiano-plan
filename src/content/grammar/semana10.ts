@@ -41,7 +41,7 @@ export const semana10: Lesson = {
     },
   ],
   transfer:
-    "En español podés decir *quiero dos* sin más; en italiano, si hablás de una cantidad de algo ya mencionado, hace falta *ne*: *Ne voglio due*, no *Voglio due*. Y como en la semana 3, para ser cortés con desconocidos usá la forma *Lei* (*Mi scusi*, *Mi dica*), no la de *tu*.",
+    "En español puedes decir *quiero dos* sin más; en italiano, si hablas de una cantidad de algo ya mencionado, hace falta *ne*: *Ne voglio due*, no *Voglio due*. Y como en la semana 3, para ser cortés con desconocidos usa la forma *Lei* (*Mi scusi*, *Mi dica*), no la de *tu*.",
   examples: [
     { it: "Scusi, dov'è la farmacia? — Vada dritto e giri a destra.", es: "Disculpe, ¿dónde está la farmacia? — Siga derecho y gire a la derecha." },
     { it: "Vuoi del pane? — Sì, ne vorrei due fette.", es: "¿Quieres pan? — Sí, quisiera dos rebanadas." },
@@ -83,7 +83,7 @@ export const semana10: Lesson = {
     { type: "fill", prompt: "Quante mele vuoi? ___ voglio due.", answers: ["ne"], why: "*Ne* expresa la cantidad de algo ya mencionado." },
     {
       type: "choice",
-      prompt: "En una pastelería querés tres de los pasteles que ya mencionaste.",
+      prompt: "En una pastelería quieres tres de los pasteles que ya mencionaste.",
       options: ["Voglio tre", "Ne voglio tre", "Ci voglio tre"],
       answer: 1,
       why: "Cantidad de algo ya dicho → *ne*.",

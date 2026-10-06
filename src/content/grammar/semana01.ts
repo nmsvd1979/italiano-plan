@@ -7,7 +7,7 @@ export const semana01: Lesson = {
   rule: [
     {
       kind: "p",
-      text: "*Essere* es el verbo para presentarte y decir de dónde sos. Es irregular: aprendé las seis formas como un bloque.",
+      text: "*Essere* es el verbo para presentarte y decir de dónde eres. Es irregular: aprende las seis formas como un bloque.",
     },
     {
       kind: "table",
@@ -27,7 +27,7 @@ export const semana01: Lesson = {
     },
     {
       kind: "p",
-      text: "**Tu o Lei.** Con amigos y gente joven usás *tu* (*Come stai?*). Con desconocidos, en tiendas, trámites o con personas mayores usás *Lei* (*Come sta?*), que lleva el verbo en la forma de *lui/lei*. Si dudás, empezá con *Lei*: nadie se ofende.",
+      text: "**Tu o Lei.** Con amigos y gente joven usas *tu* (*Come stai?*). Con desconocidos, en tiendas, trámites o con personas mayores usas *Lei* (*Come sta?*), que lleva el verbo en la forma de *lui/lei*. Si dudas, empieza con *Lei*: nadie se ofende.",
     },
     {
       kind: "table",
@@ -49,7 +49,7 @@ export const semana01: Lesson = {
     { it: "Buongiorno, sono Lucía. Piacere!", es: "Buen día, soy Lucía. ¡Mucho gusto!" },
     { it: "Di dov'è, signora?", es: "¿De dónde es, señora? (formal)" },
     { it: "Sono argentino, di Buenos Aires.", es: "Soy argentino, de Buenos Aires." },
-    { it: "Tu sei di Roma?", es: "¿Vos sos de Roma? (informal)" },
+    { it: "Tu sei di Roma?", es: "¿Tú eres de Roma? (informal)" },
     { it: "Siamo in vacanza.", es: "Estamos de vacaciones." },
     { it: "Scusi, è libero questo posto?", es: "Disculpe, ¿está libre este asiento?" },
   ],
@@ -64,7 +64,7 @@ export const semana01: Lesson = {
     {
       type: "choice",
       prompt: "El camarero le dice a una señora: «Lei è pronta per ordinare?» ¿Qué trato usa?",
-      options: ["Formal (le habla de usted)", "Informal (le habla de vos)", "Habla de otra mujer"],
+      options: ["Formal (le habla de usted)", "Informal (le habla de tú)", "Habla de otra mujer"],
       answer: 0,
       why: "Le habla directamente a ella con *Lei*: es el trato formal.",
     },
@@ -93,21 +93,21 @@ export const semana01: Lesson = {
     { type: "fill", prompt: "Mi ___ Laura. (me llamo)", answers: ["chiamo"], why: "*Mi chiamo* = me llamo." },
     {
       type: "choice",
-      prompt: "Hablás con una señora mayor en el banco. ¿Qué le preguntás?",
+      prompt: "Hablas con una señora mayor en el banco. ¿Qué le preguntas?",
       options: ["Come stai?", "Come sta?", "Come state?"],
       answer: 1,
       why: "A una persona mayor o desconocida se le habla de *Lei*: *Come sta?*",
     },
     {
       type: "choice",
-      prompt: "Entrás a un restaurante a las nueve de la noche. ¿Qué decís?",
+      prompt: "Entras a un restaurante a las nueve de la noche. ¿Qué dices?",
       options: ["Buongiorno", "Buonasera", "Arrivederci"],
       answer: 1,
       why: "De noche se saluda con *Buonasera*.",
     },
     {
       type: "choice",
-      prompt: "¿Cómo decís «Ellos son de Bolonia»?",
+      prompt: "¿Cómo dices «Ellos son de Bolonia»?",
       options: ["Siamo di Bologna", "Sono di Bologna", "Siete di Bologna"],
       answer: 1,
       why: "*Loro sono* → *Sono di Bologna*.",

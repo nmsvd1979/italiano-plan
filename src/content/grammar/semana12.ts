@@ -25,11 +25,11 @@ export const semana12: Lesson = {
     },
     {
       kind: "p",
-      text: "**Discurso indirecto.** Para contar lo que alguien dijo usás *che* y, si hablás de algo pasado, los verbos suelen bajar un paso. «*Sono stanco*» → *Ha detto che **era** stanco.* «*Vengo alle tre*» → *Ha detto che **veniva** alle tre.* Con preguntas se usa *se*: *Mi ha chiesto **se** parlo italiano.*",
+      text: "**Discurso indirecto.** Para contar lo que alguien dijo usas *che* y, si hablas de algo pasado, los verbos suelen bajar un paso. «*Sono stanco*» → *Ha detto che **era** stanco.* «*Vengo alle tre*» → *Ha detto che **veniva** alle tre.* Con preguntas se usa *se*: *Mi ha chiesto **se** parlo italiano.*",
     },
     {
       kind: "p",
-      text: "**Congiuntivo (solo reconocerlo).** Después de verbos de opinión, duda o deseo (*penso che, credo che, spero che, è importante che*) el italiano usa un modo especial. Todavía no hace falta conjugarlo: reconocé las formas más comunes.",
+      text: "**Congiuntivo (solo reconocerlo).** Después de verbos de opinión, duda o deseo (*penso che, credo che, spero che, è importante che*) el italiano usa un modo especial. Todavía no hace falta conjugarlo: reconoce las formas más comunes.",
     },
     {
       kind: "table",
@@ -103,7 +103,7 @@ export const semana12: Lesson = {
     },
     {
       type: "choice",
-      prompt: "«Llueve, entonces me quedo en casa.» ¿Con qué conector lo unís?",
+      prompt: "«Llueve, entonces me quedo en casa.» ¿Con qué conector lo unes?",
       options: ["Piove, quindi resto a casa.", "Piove, invece resto a casa.", "Piove, mentre resto a casa."],
       answer: 0,
       why: "*Quindi* marca la consecuencia.",

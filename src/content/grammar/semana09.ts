@@ -14,7 +14,7 @@ export const semana09: Lesson = {
       head: ["", "directo", "indirecto"],
       rows: [
         ["yo / a mí", "*mi*", "*mi*"],
-        ["vos / a vos", "*ti*", "*ti*"],
+        ["tú / a ti", "*ti*", "*ti*"],
         ["él / lo", "*lo*", "*gli*"],
         ["ella / la", "*la*", "*le*"],
         ["nosotros", "*ci*", "*ci*"],
@@ -50,7 +50,7 @@ export const semana09: Lesson = {
     {
       type: "choice",
       prompt: "«Gli telefono domani.» ¿A quién llama?",
-      options: ["A él (o a ellos)", "A ella", "A vos"],
+      options: ["A él (o a ellos)", "A ella", "A ti"],
       answer: 0,
       why: "*Gli* es el indirecto masculino; para ella sería *le*.",
     },

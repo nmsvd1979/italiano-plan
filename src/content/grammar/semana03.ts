@@ -7,7 +7,7 @@ export const semana03: Lesson = {
   rule: [
     {
       kind: "p",
-      text: "Hay tres familias de verbos regulares, según el final del infinitivo. Cambiás la terminación y listo.",
+      text: "Hay tres familias de verbos regulares, según el final del infinitivo. Cambias la terminación y listo.",
     },
     {
       kind: "table",
@@ -39,14 +39,14 @@ export const semana03: Lesson = {
     },
     {
       kind: "p",
-      text: "Estos tres van seguidos de un infinitivo: *Posso avere il conto?* · *Dobbiamo andare.* Para pedir, *voglio* suena brusco. Usá **vorrei** (\"quisiera\"): *Vorrei un caffè, per favore.*",
+      text: "Estos tres van seguidos de un infinitivo: *Posso avere il conto?* · *Dobbiamo andare.* Para pedir, *voglio* suena brusco. Usa **vorrei** (\"quisiera\"): *Vorrei un caffè, per favore.*",
     },
   ],
   transfer:
     "En el bar, *Voglio un caffè* suena brusco; los italianos dicen *Vorrei…* o *Prendo…* (\"tomo\"). Ojo con *prendere*: significa tomar o pedir (*Prendo un cappuccino*) y también agarrar. Y los verbos en *-ire* con *-isc-* (*finisco*) no tienen equivalente en español.",
   examples: [
     { it: "Vorrei un caffè e un cornetto, per favore.", es: "Quisiera un café y un cornetto, por favor." },
-    { it: "Prendo un cappuccino. E tu?", es: "Tomo un capuchino. ¿Y vos?" },
+    { it: "Prendo un cappuccino. E tu?", es: "Tomo un capuchino. ¿Y tú?" },
     { it: "Posso avere il conto?", es: "¿Puedo pedir la cuenta?" },
     { it: "Non capisco: può ripetere?", es: "No entiendo: ¿puede repetir?" },
     { it: "Dobbiamo prenotare un tavolo per due.", es: "Tenemos que reservar una mesa para dos." },
@@ -86,7 +86,7 @@ export const semana03: Lesson = {
     { type: "fill", prompt: "Noi ___ andare. (dovere)", answers: ["dobbiamo"], why: "*Dovere* con *noi*: *dobbiamo*." },
     {
       type: "choice",
-      prompt: "En el bar querés pedir un capuchino. ¿Qué es lo más natural?",
+      prompt: "En el bar quieres pedir un capuchino. ¿Qué es lo más natural?",
       options: ["Voglio un cappuccino.", "Vorrei un cappuccino, per favore.", "Io prendere cappuccino."],
       answer: 1,
       why: "*Vorrei … per favore* es el pedido cortés estándar.",
