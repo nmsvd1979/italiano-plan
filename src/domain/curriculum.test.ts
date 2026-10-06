@@ -144,7 +144,7 @@ describe("armar el día", () => {
 
   it("si lo único pendiente depende de algo que dejaste para después, lo avisa", () => {
     const lesson = keyOf("u15", 2, "lesson");
-    const blocked = [lesson, keyOf("u15", 4, "practice"), keyOf("u15", 6, "review")];
+    const blocked = [lesson, ...["practice", "writing"].map((id) => keyOf("u15", 4, id)), keyOf("u15", 5, "dictation"), ...["dialogue", "review"].map((id) => keyOf("u15", 6, id))];
     const all = steps.map((s) => s.key).filter((k) => !blocked.includes(k));
     const p = withDone(all, { skipped: new Set([lesson]) });
     const day = planDay(steps, p, new Set(), 30);
@@ -158,5 +158,11 @@ describe("input guiado", () => {
     const first = inputs.filter((s) => s.unit.phase <= 2);
     expect(first.map((s) => episodeNumber(s, steps))).toEqual(first.map((_, i) => i + 1));
     expect(episodeNumber(steps[0], steps)).toBeNull();
+  });
+
+  it("si empiezas en una unidad avanzada, el primer episodio es el 1", () => {
+    const first = steps.find((s) => s.unit.n === 5 && s.activity.kind === "input")!;
+    expect(episodeNumber(first, steps, 5)).toBe(1);
+    expect(episodeNumber(first, steps)).toBeGreaterThan(1);
   });
 });

@@ -16,6 +16,14 @@ export function internalRoute(step: Step): { to: string; label: string } | undef
       return { to: href(`/shadowing/${unit}`), label: "Abrir estudio" };
     case "phaseTest":
       return { to: href(`/test/${step.unit.phase}`), label: "Empezar test" };
+    case "vocab":
+      return { to: href(`/vocabulario/${unit}`), label: "Ver palabras" };
+    case "writing":
+      return { to: href(`/escritura/${unit}`), label: "Escribir" };
+    case "dictation":
+      return { to: href(`/dictado/${unit}`), label: "Empezar dictado" };
+    case "dialogue":
+      return { to: href(`/dialogo/${unit}`), label: "Abrir diálogo" };
     case "mixedReview":
       return { to: href("/repaso"), label: "Repasar" };
     default:
@@ -30,8 +38,8 @@ export function resolveResources(step: Step): Resource[] {
 }
 
 /** Texto de apoyo de un paso: en el input, qué episodio toca. */
-export function stepHint(step: Step, steps: Step[]): string | undefined {
-  const n = episodeNumber(step, steps);
+export function stepHint(step: Step, steps: Step[], startUnit = 1): string | undefined {
+  const n = episodeNumber(step, steps, startUnit);
   if (n === null) return undefined;
   const name = INPUT_GROUP_NAME[PHASE_INPUT[step.unit.phase].group];
   return `Hoy: episodio ${n} de ${name}. Si es la primera vez, empieza por el más antiguo y sigue en orden.`;

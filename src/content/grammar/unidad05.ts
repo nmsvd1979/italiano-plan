@@ -46,6 +46,10 @@ export const unidad05: Lesson = {
         ["*bicchiere*", "vaso", "—"],
       ],
     },
+    {
+      kind: "p",
+      text: "**Dónde está** algo: *Scusi, dov'è la stazione?* Respuestas básicas: *È a destra* (a la derecha), *è a sinistra* (a la izquierda), *è dritto* (siga derecho), *è vicino* / *è lontano*. Para ubicarte: *all'angolo* (en la esquina), *al semaforo*, *di fronte a* (frente a), *accanto a* (al lado de). En la unidad 14 aprenderás a dar indicaciones con órdenes (*vada dritto, giri a destra*).",
+    },
   ],
   transfer:
     "En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la misma *a*; en italiano son tres: *in Italia*, *a Roma*, *da Marco*. Y no confundas *salire* (subir) con *salir*: para salir de un lugar usa *uscire*.",
@@ -96,6 +100,7 @@ export const unidad05: Lesson = {
     { type: "fill", prompt: "Vado ___ mercato. (a + il)", answers: ["al"], why: "*a + il = al*." },
     { type: "fill", prompt: "Il libro è ___ tavolo. (sobre el)", answers: ["sul"], why: "*su + il = sul*." },
     { type: "fill", prompt: "Esco ___ hotel alle nove. (da + l')", answers: ["dall'", "dall'hotel"], why: "*da + l' = dall'*." },
+    { type: "fill", prompt: "Il bar è ___ al semaforo. (al lado de)", answers: ["accanto"], why: "*Accanto a* = al lado de." },
     {
       type: "choice",
       prompt: "Quieres decir que bajas del tren en la próxima estación.",
@@ -110,5 +115,20 @@ export const unidad05: Lesson = {
       answer: 0,
       why: "*Camera* es habitación; la cámara de fotos es *fotocamera*.",
     },
+    {
+      type: "choice",
+      prompt: "«La farmacia? È dritto, poi a sinistra.» ¿Qué haces?",
+      options: ["Sigo derecho y luego voy a la izquierda", "Giro a la derecha y sigo", "Tomo un taxi porque está lejos"],
+      answer: 0,
+      why: "*Dritto* = derecho y *a sinistra* = a la izquierda.",
+    },
+    {type: "fill", prompt: "Vivo ___ Spagna. (en)", answers: ["in"], why: "Los países llevan *in*."},
+    {type: "fill", prompt: "Vado ___ dentista. (a + el)", answers: ["dal"], why: "A casa de una persona o profesional: *da* + *il* = *dal*."},
+    {type: "fill", prompt: "Il caffè è ___ tazza. (en la)", answers: ["nella"], why: "*in + la = nella*."},
+    {type: "fill", prompt: "Questo è il libro ___ studenti. (de los)", answers: ["degli"], why: "*di + gli = degli*."},
+    {type: "fill", prompt: "Vado ___ lavoro in autobus. (a + el)", answers: ["al"], why: "*a + il = al*."},
+    {type: "fill", prompt: "Esco ___ stazione. (de la)", answers: ["dalla"], why: "*da + la = dalla*."},
+    {type: "choice", prompt: "«Voy a Perú en avión»", options: ["Vado in Perù in aereo", "Vado a Perù a aereo", "Vado da Perù con aereo"], answer: 0, why: "País → *in*; medio de transporte → *in*."},
+    {type: "choice", prompt: "Quieres pedir mantequilla en una tienda.", options: ["il burro", "la mantequilla", "il burrito"], answer: 0, why: "*Burro* es la mantequilla, no el animal."},
   ],
 };

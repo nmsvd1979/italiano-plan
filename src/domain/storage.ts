@@ -33,6 +33,7 @@ export const KEYS = {
   skipped: "italianPlan.skipped",
   startUnit: "italianPlan.startUnit",
   canDo: "italianPlan.canDo",
+  writing: "italianPlan.writing",
 } as const;
 
 const defaultStore = (): KV => window.localStorage;
@@ -111,6 +112,20 @@ export function saveCanDo(value: CanDo, store: KV = defaultStore()): void {
   store.setItem(KEYS.canDo, JSON.stringify(value));
 }
 
+/** Textos de escritura guiada, por unidad. */
+export type WritingTexts = Record<string, string>;
+
+export function getWritingTexts(store: KV = defaultStore()): WritingTexts {
+  return readJSON<WritingTexts>(store, KEYS.writing, {});
+}
+
+export function saveWritingText(unit: string, text: string, store: KV = defaultStore()): void {
+  const all = getWritingTexts(store);
+  if (text) all[unit] = text;
+  else delete all[unit];
+  store.setItem(KEYS.writing, JSON.stringify(all));
+}
+
 export function getSettings(store: KV = defaultStore()): Settings {
   return { reminderTime: "20:00", reminderEnabled: false, theme: "system" as ThemeChoice, sessionsPerWeek: 6, dailyMinutes: 30, ...readJSON<Partial<Settings>>(store, KEYS.settings, {}) };
 }
@@ -167,6 +182,7 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS.phaseTests);
   store.removeItem(KEYS.skipped);
   store.removeItem(KEYS.canDo);
+  store.removeItem(KEYS.writing);
 }
 
 export function clearAll(store: KV = defaultStore()): void {

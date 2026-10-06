@@ -54,7 +54,7 @@ export function UnitScreen({ id }: { id: string }) {
           <section className="card stack">
             <div className="eyebrow">Para repasar cuando quieras</div>
             <div className="activity-links">
-              {mine.filter((s) => s.session === 2 || ["practice", "pron", "shadow"].includes(s.activity.id)).filter((s, i, a) => a.findIndex((x) => x.activity.id === s.activity.id) === i).map((s) => {
+              {mine.filter((s) => !["test", "review"].includes(s.activity.id)).filter((s, i, a) => a.findIndex((x) => x.activity.id === s.activity.id) === i).map((s) => {
                 const link = internalRoute(s);
                 return link ? <a key={s.key} className="chip primary" href={link.to}>{s.activity.name} <Icon name="play" size={14} /></a> : null;
               })}

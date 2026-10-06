@@ -8,10 +8,13 @@ Hecha con Vite + React + TypeScript. Publicada en GitHub Pages: <https://nmsvd19
 
 | Actividad | Cómo funciona |
 |---|---|
-| Vocabulario | Quizlet (externo): un set de 5000 palabras y tus tarjetas. |
+| Vocabulario | Quizlet (externo): un set de 5000 palabras y tus tarjetas. Además, ~20 palabras por unidad con audio (nativo donde existe), quiz y botón «Copiar para Quizlet». |
 | Gramática | Una lección propia por unidad con regla, contraste con el español, ejemplos con audio y ejercicios con corrección inmediata. Los errados vuelven con repaso espaciado. |
 | Pronunciación | Pares mínimos con grabaciones nativas (Lingua Libre) y práctica de repetir en voz alta. |
 | Shadowing | Estudio sobre un video de Easy Italian por unidad, con 5 pasos, velocidad, fragmento en bucle y subtítulos que se pueden tapar. |
+| Dictado | Frases cortas por unidad: escuchas con la voz italiana del sistema y escribes (la tilde que falta cuenta como «casi»). |
+| Escritura guiada | Una consigna por unidad, lista para corregirte tú mismo y un texto modelo que se ve después de escribir. |
+| Diálogos | Un diálogo por unidad: lees, escuchas y dices en voz alta tu parte (ves solo la pista en español). |
 | Input | Podcasts en Spotify según la fase, con el número de episodio que toca. |
 | Checkpoints | Test de fase en las unidades 4, 8, 12, 16, 20 y 24, con puntaje por tema y nivel (firme / casi / a repasar). |
 | Progreso | Racha, avance por unidad y fase, ritmo (al día, detrás o adelante), fecha estimada de fin, mapa de calor de 90 días y recordatorio diario. |
@@ -44,6 +47,7 @@ Para abrirla desde el celular en la misma red: `npm run dev -- --host`.
 src/content/curriculum.ts      las 24 unidades, fases, objetivos "puedo…" y las 6 sesiones de cada una
 src/content/plan.ts            catálogo de actividades y recursos externos (editable a mano)
 src/content/grammar/           una lección por unidad
+src/content/vocab.json, dictation.ts, writing.ts, dialogues.ts   vocabulario, dictados, escritura y diálogos por unidad
 src/content/pronunciation/     units.json (pares y palabras) + manifest.json (audio, generado)
 src/content/shadowing.ts       videos por unidad y pasos del protocolo
 src/domain/                    lógica pura con tests (motor del plan, ritmo, racha, repaso, tests de fase)
@@ -56,7 +60,7 @@ Para cambiar actividades, minutos o links se edita `src/content/plan.ts`; para a
 
 ## Audio
 
-Las grabaciones de pronunciación son de [Lingua Libre](https://lingualibre.org/) (Wikimedia Commons, licencia CC BY-SA 4.0). Los créditos de cada archivo están en `public/audio/ATTRIBUZIONI.md`. Para agregar palabras: súmalas a `units.json` y corre `npm run audio`.
+Las grabaciones de pronunciación son de [Lingua Libre](https://lingualibre.org/) (Wikimedia Commons, licencia CC BY-SA 4.0). Los créditos de cada archivo están en `public/audio/ATTRIBUZIONI.md`. Para agregar palabras: súmalas a `units.json` (pronunciación) o a `vocab.json` (vocabulario) y corre `npm run audio`; el script es idempotente y regenera los créditos de todos los archivos.
 
 ## Publicación
 

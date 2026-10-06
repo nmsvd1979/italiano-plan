@@ -49,7 +49,7 @@ export function isSettled(step: Step, p: Progress): boolean {
 export function requiresOf(step: Step, steps: Step[]): string[] {
   const id = step.activity.id;
   const lesson = `${step.unit.id}.s2.lesson`;
-  if (id === "practice" || id === "review") return [lesson];
+  if (["practice", "review", "writing", "dictation", "dialogue"].includes(id)) return [lesson];
   if (id === "test") {
     return steps.filter((s) => s.activity.id === "lesson" && s.unit.phase === step.unit.phase).map((s) => s.key);
   }
@@ -149,10 +149,11 @@ export function unitProgress(unit: UnitMeta, steps: Step[], p: Progress): UnitPr
 }
 
 /** El tercer episodio de input de una fase es el nº 3 de su secuencia. Determinista: no usa contadores. */
-export function episodeNumber(step: Step, steps: Step[]): number | null {
+export function episodeNumber(step: Step, steps: Step[], startUnit = 1): number | null {
   if (step.activity.kind !== "input") return null;
   const group = PHASE_INPUT[step.unit.phase].group;
-  const same = steps.filter((s) => s.activity.kind === "input" && PHASE_INPUT[s.unit.phase].group === group);
+  // Si empiezas en una unidad avanzada, los episodios cuentan desde donde empiezas.
+  const same = steps.filter((s) => s.unit.n >= startUnit && s.activity.kind === "input" && PHASE_INPUT[s.unit.phase].group === group);
   return same.findIndex((s) => s.key === step.key) + 1;
 }
 

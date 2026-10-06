@@ -1,0 +1,1232 @@
+{
+ "u01": [
+  {
+   "it": "buongiorno",
+   "es": "buenos días"
+  },
+  {
+   "it": "buonasera",
+   "es": "buenas tardes / buenas noches (al llegar)"
+  },
+  {
+   "it": "buonanotte",
+   "es": "buenas noches (al despedirse)"
+  },
+  {
+   "it": "ciao",
+   "es": "hola / chao (con amigos)"
+  },
+  {
+   "it": "arrivederci",
+   "es": "hasta luego (formal)"
+  },
+  {
+   "it": "grazie",
+   "es": "gracias"
+  },
+  {
+   "it": "prego",
+   "es": "de nada / adelante"
+  },
+  {
+   "it": "scusi",
+   "es": "disculpe (formal)"
+  },
+  {
+   "it": "scusa",
+   "es": "perdona (informal)"
+  },
+  {
+   "it": "per favore",
+   "es": "por favor"
+  },
+  {
+   "it": "piacere",
+   "es": "mucho gusto"
+  },
+  {
+   "it": "come stai?",
+   "es": "¿cómo estás?"
+  },
+  {
+   "it": "come sta?",
+   "es": "¿cómo está usted?"
+  },
+  {
+   "it": "bene",
+   "es": "bien"
+  },
+  {
+   "it": "male",
+   "es": "mal"
+  },
+  {
+   "it": "il signore",
+   "es": "el señor"
+  },
+  {
+   "it": "la signora",
+   "es": "la señora"
+  },
+  {
+   "it": "mi chiamo",
+   "es": "me llamo"
+  },
+  {
+   "it": "lo straniero",
+   "es": "el extranjero"
+  },
+  {
+   "it": "la lingua",
+   "es": "el idioma"
+  }
+ ],
+ "u02": [
+  {
+   "it": "la casa",
+   "es": "la casa"
+  },
+  {
+   "it": "l'appartamento",
+   "es": "el departamento"
+  },
+  {
+   "it": "la camera",
+   "es": "la habitación"
+  },
+  {
+   "it": "la cucina",
+   "es": "la cocina"
+  },
+  {
+   "it": "il bagno",
+   "es": "el baño"
+  },
+  {
+   "it": "il soggiorno",
+   "es": "la sala"
+  },
+  {
+   "it": "la finestra",
+   "es": "la ventana"
+  },
+  {
+   "it": "la porta",
+   "es": "la puerta"
+  },
+  {
+   "it": "il tavolo",
+   "es": "la mesa"
+  },
+  {
+   "it": "la sedia",
+   "es": "la silla"
+  },
+  {
+   "it": "il letto",
+   "es": "la cama"
+  },
+  {
+   "it": "il quartiere",
+   "es": "el barrio"
+  },
+  {
+   "it": "la strada",
+   "es": "la calle"
+  },
+  {
+   "it": "la piazza",
+   "es": "la plaza"
+  },
+  {
+   "it": "il supermercato",
+   "es": "el supermercado"
+  },
+  {
+   "it": "la farmacia",
+   "es": "la farmacia"
+  },
+  {
+   "it": "la stazione",
+   "es": "la estación"
+  },
+  {
+   "it": "il parco",
+   "es": "el parque"
+  },
+  {
+   "it": "vicino",
+   "es": "cerca"
+  },
+  {
+   "it": "lontano",
+   "es": "lejos"
+  }
+ ],
+ "u03": [
+  {
+   "it": "venti",
+   "es": "veinte"
+  },
+  {
+   "it": "trenta",
+   "es": "treinta"
+  },
+  {
+   "it": "cento",
+   "es": "cien"
+  },
+  {
+   "it": "mille",
+   "es": "mil"
+  },
+  {
+   "it": "l'ora",
+   "es": "la hora"
+  },
+  {
+   "it": "il minuto",
+   "es": "el minuto"
+  },
+  {
+   "it": "mezzogiorno",
+   "es": "mediodía"
+  },
+  {
+   "it": "mezzanotte",
+   "es": "medianoche"
+  },
+  {
+   "it": "oggi",
+   "es": "hoy"
+  },
+  {
+   "it": "domani",
+   "es": "mañana"
+  },
+  {
+   "it": "ieri",
+   "es": "ayer"
+  },
+  {
+   "it": "la settimana",
+   "es": "la semana"
+  },
+  {
+   "it": "il mese",
+   "es": "el mes"
+  },
+  {
+   "it": "l'anno",
+   "es": "el año"
+  },
+  {
+   "it": "il giorno",
+   "es": "el día"
+  },
+  {
+   "it": "la mattina",
+   "es": "la mañana"
+  },
+  {
+   "it": "il pomeriggio",
+   "es": "la tarde"
+  },
+  {
+   "it": "la sera",
+   "es": "la tarde-noche"
+  },
+  {
+   "it": "il prezzo",
+   "es": "el precio"
+  },
+  {
+   "it": "costare",
+   "es": "costar"
+  }
+ ],
+ "u04": [
+  {
+   "it": "il caffè",
+   "es": "el café"
+  },
+  {
+   "it": "il cappuccino",
+   "es": "el capuchino"
+  },
+  {
+   "it": "il cornetto",
+   "es": "el croissant"
+  },
+  {
+   "it": "l'acqua",
+   "es": "el agua"
+  },
+  {
+   "it": "il vino",
+   "es": "el vino"
+  },
+  {
+   "it": "la birra",
+   "es": "la cerveza"
+  },
+  {
+   "it": "il panino",
+   "es": "el sándwich"
+  },
+  {
+   "it": "la pasta",
+   "es": "la pasta"
+  },
+  {
+   "it": "il conto",
+   "es": "la cuenta"
+  },
+  {
+   "it": "il menù",
+   "es": "el menú"
+  },
+  {
+   "it": "il cameriere",
+   "es": "el camarero / mesero"
+  },
+  {
+   "it": "la colazione",
+   "es": "el desayuno"
+  },
+  {
+   "it": "il pranzo",
+   "es": "el almuerzo"
+  },
+  {
+   "it": "la cena",
+   "es": "la cena"
+  },
+  {
+   "it": "l'antipasto",
+   "es": "la entrada"
+  },
+  {
+   "it": "il dolce",
+   "es": "el postre"
+  },
+  {
+   "it": "il bicchiere",
+   "es": "el vaso"
+  },
+  {
+   "it": "la bottiglia",
+   "es": "la botella"
+  },
+  {
+   "it": "prenotare",
+   "es": "reservar"
+  },
+  {
+   "it": "vorrei",
+   "es": "quisiera"
+  }
+ ],
+ "u05": [
+  {
+   "it": "il treno",
+   "es": "el tren"
+  },
+  {
+   "it": "l'autobus",
+   "es": "el bus"
+  },
+  {
+   "it": "la metropolitana",
+   "es": "el metro"
+  },
+  {
+   "it": "il biglietto",
+   "es": "el boleto / pasaje"
+  },
+  {
+   "it": "la fermata",
+   "es": "la parada"
+  },
+  {
+   "it": "l'aeroporto",
+   "es": "el aeropuerto"
+  },
+  {
+   "it": "il binario",
+   "es": "el andén"
+  },
+  {
+   "it": "a destra",
+   "es": "a la derecha"
+  },
+  {
+   "it": "a sinistra",
+   "es": "a la izquierda"
+  },
+  {
+   "it": "dritto",
+   "es": "derecho / recto"
+  },
+  {
+   "it": "l'angolo",
+   "es": "la esquina"
+  },
+  {
+   "it": "il semaforo",
+   "es": "el semáforo"
+  },
+  {
+   "it": "la mappa",
+   "es": "el mapa"
+  },
+  {
+   "it": "l'uscita",
+   "es": "la salida"
+  },
+  {
+   "it": "l'entrata",
+   "es": "la entrada"
+  },
+  {
+   "it": "partire",
+   "es": "partir / salir de viaje"
+  },
+  {
+   "it": "arrivare",
+   "es": "llegar"
+  },
+  {
+   "it": "salire",
+   "es": "subir"
+  },
+  {
+   "it": "scendere",
+   "es": "bajar"
+  },
+  {
+   "it": "il burro",
+   "es": "la mantequilla"
+  }
+ ],
+ "u06": [
+  {
+   "it": "rosso",
+   "es": "rojo"
+  },
+  {
+   "it": "giallo",
+   "es": "amarillo"
+  },
+  {
+   "it": "verde",
+   "es": "verde"
+  },
+  {
+   "it": "azzurro",
+   "es": "celeste"
+  },
+  {
+   "it": "bianco",
+   "es": "blanco"
+  },
+  {
+   "it": "nero",
+   "es": "negro"
+  },
+  {
+   "it": "grigio",
+   "es": "gris"
+  },
+  {
+   "it": "marrone",
+   "es": "café / marrón"
+  },
+  {
+   "it": "la maglietta",
+   "es": "la camiseta"
+  },
+  {
+   "it": "la camicia",
+   "es": "la camisa"
+  },
+  {
+   "it": "i pantaloni",
+   "es": "el pantalón"
+  },
+  {
+   "it": "la gonna",
+   "es": "la falda"
+  },
+  {
+   "it": "il vestito",
+   "es": "el vestido"
+  },
+  {
+   "it": "la giacca",
+   "es": "la chaqueta"
+  },
+  {
+   "it": "le scarpe",
+   "es": "los zapatos"
+  },
+  {
+   "it": "la borsa",
+   "es": "el bolso"
+  },
+  {
+   "it": "il cappello",
+   "es": "el sombrero"
+  },
+  {
+   "it": "la taglia",
+   "es": "la talla"
+  },
+  {
+   "it": "il negozio",
+   "es": "la tienda"
+  },
+  {
+   "it": "il camerino",
+   "es": "el probador"
+  }
+ ],
+ "u07": [
+  {
+   "it": "svegliarsi",
+   "es": "despertarse"
+  },
+  {
+   "it": "alzarsi",
+   "es": "levantarse"
+  },
+  {
+   "it": "lavarsi",
+   "es": "lavarse"
+  },
+  {
+   "it": "vestirsi",
+   "es": "vestirse"
+  },
+  {
+   "it": "pettinarsi",
+   "es": "peinarse"
+  },
+  {
+   "it": "farsi la doccia",
+   "es": "ducharse"
+  },
+  {
+   "it": "addormentarsi",
+   "es": "dormirse"
+  },
+  {
+   "it": "riposarsi",
+   "es": "descansar"
+  },
+  {
+   "it": "lavorare",
+   "es": "trabajar"
+  },
+  {
+   "it": "studiare",
+   "es": "estudiar"
+  },
+  {
+   "it": "tornare",
+   "es": "volver"
+  },
+  {
+   "it": "cucinare",
+   "es": "cocinar"
+  },
+  {
+   "it": "presto",
+   "es": "temprano"
+  },
+  {
+   "it": "tardi",
+   "es": "tarde"
+  },
+  {
+   "it": "di solito",
+   "es": "normalmente"
+  },
+  {
+   "it": "prima",
+   "es": "primero / antes"
+  },
+  {
+   "it": "poi",
+   "es": "luego"
+  },
+  {
+   "it": "dopo",
+   "es": "después"
+  },
+  {
+   "it": "stanco",
+   "es": "cansado"
+  },
+  {
+   "it": "subito",
+   "es": "enseguida"
+  }
+ ],
+ "u08": [
+  {
+   "it": "dove",
+   "es": "dónde"
+  },
+  {
+   "it": "quando",
+   "es": "cuándo"
+  },
+  {
+   "it": "come",
+   "es": "cómo"
+  },
+  {
+   "it": "perché",
+   "es": "por qué / porque"
+  },
+  {
+   "it": "chi",
+   "es": "quién"
+  },
+  {
+   "it": "che cosa",
+   "es": "qué"
+  },
+  {
+   "it": "quanto",
+   "es": "cuánto"
+  },
+  {
+   "it": "quale",
+   "es": "cuál"
+  },
+  {
+   "it": "sempre",
+   "es": "siempre"
+  },
+  {
+   "it": "spesso",
+   "es": "a menudo"
+  },
+  {
+   "it": "qualche volta",
+   "es": "a veces"
+  },
+  {
+   "it": "mai",
+   "es": "nunca"
+  },
+  {
+   "it": "niente",
+   "es": "nada"
+  },
+  {
+   "it": "nessuno",
+   "es": "nadie"
+  },
+  {
+   "it": "molto",
+   "es": "mucho"
+  },
+  {
+   "it": "poco",
+   "es": "poco"
+  },
+  {
+   "it": "troppo",
+   "es": "demasiado"
+  },
+  {
+   "it": "abbastanza",
+   "es": "bastante"
+  },
+  {
+   "it": "ogni giorno",
+   "es": "cada día"
+  },
+  {
+   "it": "tutti i giorni",
+   "es": "todos los días"
+  }
+ ],
+ "u09": [
+  {
+   "it": "mangiare",
+   "es": "comer"
+  },
+  {
+   "it": "bere",
+   "es": "beber"
+  },
+  {
+   "it": "comprare",
+   "es": "comprar"
+  },
+  {
+   "it": "vedere",
+   "es": "ver"
+  },
+  {
+   "it": "fare",
+   "es": "hacer"
+  },
+  {
+   "it": "prendere",
+   "es": "tomar"
+  },
+  {
+   "it": "scrivere",
+   "es": "escribir"
+  },
+  {
+   "it": "leggere",
+   "es": "leer"
+  },
+  {
+   "it": "dire",
+   "es": "decir"
+  },
+  {
+   "it": "aprire",
+   "es": "abrir"
+  },
+  {
+   "it": "chiudere",
+   "es": "cerrar"
+  },
+  {
+   "it": "perdere",
+   "es": "perder"
+  },
+  {
+   "it": "visitare",
+   "es": "visitar"
+  },
+  {
+   "it": "già",
+   "es": "ya"
+  },
+  {
+   "it": "ancora",
+   "es": "todavía"
+  },
+  {
+   "it": "scorso",
+   "es": "pasado (la settimana scorsa)"
+  },
+  {
+   "it": "fa",
+   "es": "hace (due giorni fa)"
+  },
+  {
+   "it": "provare",
+   "es": "probar"
+  },
+  {
+   "it": "ricevere",
+   "es": "recibir"
+  },
+  {
+   "it": "spendere",
+   "es": "gastar"
+  }
+ ],
+ "u10": [
+  {
+   "it": "andare",
+   "es": "ir"
+  },
+  {
+   "it": "venire",
+   "es": "venir"
+  },
+  {
+   "it": "uscire",
+   "es": "salir"
+  },
+  {
+   "it": "entrare",
+   "es": "entrar"
+  },
+  {
+   "it": "restare",
+   "es": "quedarse"
+  },
+  {
+   "it": "nascere",
+   "es": "nacer"
+  },
+  {
+   "it": "diventare",
+   "es": "volverse / llegar a ser"
+  },
+  {
+   "it": "il viaggio",
+   "es": "el viaje"
+  },
+  {
+   "it": "la vacanza",
+   "es": "las vacaciones"
+  },
+  {
+   "it": "la valigia",
+   "es": "la maleta"
+  },
+  {
+   "it": "il mare",
+   "es": "el mar"
+  },
+  {
+   "it": "la montagna",
+   "es": "la montaña"
+  },
+  {
+   "it": "l'albergo",
+   "es": "el hotel"
+  },
+  {
+   "it": "l'aereo",
+   "es": "el avión"
+  },
+  {
+   "it": "la città",
+   "es": "la ciudad"
+  },
+  {
+   "it": "il paese",
+   "es": "el pueblo / el país"
+  },
+  {
+   "it": "domenica",
+   "es": "domingo"
+  },
+  {
+   "it": "lunedì",
+   "es": "lunes"
+  },
+  {
+   "it": "lo straniero",
+   "es": "el extranjero"
+  },
+  {
+   "it": "la partenza",
+   "es": "la salida (de un viaje)"
+  }
+ ],
+ "u11": [
+  {
+   "it": "da piccolo",
+   "es": "de niño"
+  },
+  {
+   "it": "una volta",
+   "es": "antes / una vez"
+  },
+  {
+   "it": "allora",
+   "es": "entonces"
+  },
+  {
+   "it": "mentre",
+   "es": "mientras"
+  },
+  {
+   "it": "l'infanzia",
+   "es": "la infancia"
+  },
+  {
+   "it": "la scuola",
+   "es": "la escuela"
+  },
+  {
+   "it": "giocare",
+   "es": "jugar"
+  },
+  {
+   "it": "ricordare",
+   "es": "recordar"
+  },
+  {
+   "it": "il nonno",
+   "es": "el abuelo"
+  },
+  {
+   "it": "la nonna",
+   "es": "la abuela"
+  },
+  {
+   "it": "vecchio",
+   "es": "viejo"
+  },
+  {
+   "it": "giovane",
+   "es": "joven"
+  },
+  {
+   "it": "abitare",
+   "es": "vivir (en un lugar)"
+  },
+  {
+   "it": "il giardino",
+   "es": "el jardín"
+  },
+  {
+   "it": "la famiglia",
+   "es": "la familia"
+  },
+  {
+   "it": "piovere",
+   "es": "llover"
+  },
+  {
+   "it": "il freddo",
+   "es": "el frío"
+  },
+  {
+   "it": "il caldo",
+   "es": "el calor"
+  },
+  {
+   "it": "l'estate",
+   "es": "el verano"
+  },
+  {
+   "it": "l'inverno",
+   "es": "el invierno"
+  }
+ ],
+ "u12": [
+  {
+   "it": "il mercato",
+   "es": "el mercado"
+  },
+  {
+   "it": "la frutta",
+   "es": "la fruta"
+  },
+  {
+   "it": "la verdura",
+   "es": "la verdura"
+  },
+  {
+   "it": "il pomodoro",
+   "es": "el tomate"
+  },
+  {
+   "it": "la mela",
+   "es": "la manzana"
+  },
+  {
+   "it": "il formaggio",
+   "es": "el queso"
+  },
+  {
+   "it": "il pane",
+   "es": "el pan"
+  },
+  {
+   "it": "il latte",
+   "es": "la leche"
+  },
+  {
+   "it": "le uova",
+   "es": "los huevos"
+  },
+  {
+   "it": "la carne",
+   "es": "la carne"
+  },
+  {
+   "it": "il pesce",
+   "es": "el pescado"
+  },
+  {
+   "it": "le patate",
+   "es": "las papas"
+  },
+  {
+   "it": "la cipolla",
+   "es": "la cebolla"
+  },
+  {
+   "it": "l'olio",
+   "es": "el aceite"
+  },
+  {
+   "it": "il sale",
+   "es": "la sal"
+  },
+  {
+   "it": "lo zucchero",
+   "es": "el azúcar"
+  },
+  {
+   "it": "il chilo",
+   "es": "el kilo"
+  },
+  {
+   "it": "l'etto",
+   "es": "cien gramos"
+  },
+  {
+   "it": "economico",
+   "es": "barato"
+  },
+  {
+   "it": "caro",
+   "es": "caro"
+  }
+ ],
+ "u13": [
+  {
+   "it": "il regalo",
+   "es": "el regalo"
+  },
+  {
+   "it": "la lettera",
+   "es": "la carta"
+  },
+  {
+   "it": "telefonare",
+   "es": "llamar por teléfono"
+  },
+  {
+   "it": "chiamare",
+   "es": "llamar"
+  },
+  {
+   "it": "aiutare",
+   "es": "ayudar"
+  },
+  {
+   "it": "dare",
+   "es": "dar"
+  },
+  {
+   "it": "mandare",
+   "es": "enviar"
+  },
+  {
+   "it": "portare",
+   "es": "llevar / traer"
+  },
+  {
+   "it": "invitare",
+   "es": "invitar"
+  },
+  {
+   "it": "conoscere",
+   "es": "conocer"
+  },
+  {
+   "it": "trovare",
+   "es": "encontrar"
+  },
+  {
+   "it": "incontrare",
+   "es": "encontrarse con"
+  },
+  {
+   "it": "restituire",
+   "es": "devolver"
+  },
+  {
+   "it": "cambiare",
+   "es": "cambiar"
+  },
+  {
+   "it": "pagare",
+   "es": "pagar"
+  },
+  {
+   "it": "l'indirizzo",
+   "es": "la dirección"
+  },
+  {
+   "it": "lo scontrino",
+   "es": "el recibo de compra"
+  },
+  {
+   "it": "il cliente",
+   "es": "el cliente"
+  },
+  {
+   "it": "regalare",
+   "es": "regalar"
+  },
+  {
+   "it": "chiedere",
+   "es": "pedir / preguntar"
+  }
+ ],
+ "u14": [
+  {
+   "it": "girare",
+   "es": "girar / doblar"
+  },
+  {
+   "it": "continuare",
+   "es": "seguir"
+  },
+  {
+   "it": "attraversare",
+   "es": "cruzar"
+  },
+  {
+   "it": "fermarsi",
+   "es": "detenerse"
+  },
+  {
+   "it": "il ponte",
+   "es": "el puente"
+  },
+  {
+   "it": "la via",
+   "es": "la calle"
+  },
+  {
+   "it": "la rotonda",
+   "es": "la rotonda"
+  },
+  {
+   "it": "di fronte a",
+   "es": "frente a"
+  },
+  {
+   "it": "accanto a",
+   "es": "al lado de"
+  },
+  {
+   "it": "dietro",
+   "es": "detrás"
+  },
+  {
+   "it": "la fetta",
+   "es": "la rebanada"
+  },
+  {
+   "it": "la ricetta",
+   "es": "la receta"
+  },
+  {
+   "it": "aspettare",
+   "es": "esperar"
+  },
+  {
+   "it": "ascoltare",
+   "es": "escuchar"
+  },
+  {
+   "it": "guardare",
+   "es": "mirar"
+  },
+  {
+   "it": "ripetere",
+   "es": "repetir"
+  },
+  {
+   "it": "piano",
+   "es": "despacio"
+  },
+  {
+   "it": "in fretta",
+   "es": "rápido"
+  },
+  {
+   "it": "fino a",
+   "es": "hasta"
+  },
+  {
+   "it": "il marciapiede",
+   "es": "la vereda / la acera"
+  }
+ ],
+ "u15": [
+  {
+   "it": "il futuro",
+   "es": "el futuro"
+  },
+  {
+   "it": "il progetto",
+   "es": "el proyecto"
+  },
+  {
+   "it": "il sogno",
+   "es": "el sueño"
+  },
+  {
+   "it": "l'anno prossimo",
+   "es": "el año próximo"
+  },
+  {
+   "it": "la prossima settimana",
+   "es": "la próxima semana"
+  },
+  {
+   "it": "tra una settimana",
+   "es": "dentro de una semana"
+  },
+  {
+   "it": "forse",
+   "es": "quizás"
+  },
+  {
+   "it": "probabilmente",
+   "es": "probablemente"
+  },
+  {
+   "it": "sicuramente",
+   "es": "seguramente"
+  },
+  {
+   "it": "sperare",
+   "es": "esperar (tener esperanza)"
+  },
+  {
+   "it": "il consiglio",
+   "es": "el consejo"
+  },
+  {
+   "it": "potrebbe",
+   "es": "podría"
+  },
+  {
+   "it": "dovresti",
+   "es": "deberías"
+  },
+  {
+   "it": "magari",
+   "es": "ojalá / tal vez"
+  },
+  {
+   "it": "il favore",
+   "es": "el favor"
+  },
+  {
+   "it": "l'invito",
+   "es": "la invitación"
+  },
+  {
+   "it": "la festa",
+   "es": "la fiesta"
+  },
+  {
+   "it": "il programma",
+   "es": "el plan / programa"
+  },
+  {
+   "it": "decidere",
+   "es": "decidir"
+  },
+  {
+   "it": "organizzare",
+   "es": "organizar"
+  }
+ ]
+}

@@ -2,7 +2,7 @@
 // de src/content/pronunciation/units.json y deja src/content/pronunciation/manifest.json (palabra → archivos) + public/audio/ATTRIBUZIONI.md.
 // Uso: npm run audio   (es idempotente: no vuelve a bajar lo que ya existe)
 
-import { mkdir, readFile, writeFile, access } from "node:fs/promises";
+import { mkdir, readFile, writeFile, access, readdir, unlink } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -19,7 +19,13 @@ const slug = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().rep
 
 async function get(url, asJson = true) {
   for (let attempt = 0; attempt < 6; attempt++) {
-    const res = await fetch(url, { headers: UA });
+    let res;
+    try {
+      res = await fetch(url, { headers: UA });
+    } catch {
+      await sleep(4000 * (attempt + 1)); // sin red un momento: reintenta
+      continue;
+    }
     if (res.status === 429 || res.status >= 500) {
       await sleep(4000 * (attempt + 1));
       continue;
@@ -31,7 +37,18 @@ async function get(url, asJson = true) {
 }
 
 const units = JSON.parse(await readFile(path.join(ROOT, "src/content/pronunciation/units.json"), "utf8"));
-const words = [...new Set(units.units.flatMap((w) => [...w.pairs.flat(), ...w.words]))];
+const vocab = JSON.parse(await readFile(path.join(ROOT, "src/content/vocab.json"), "utf8"));
+
+// Palabra → cuántas voces bajar. Las de pronunciación llevan hasta 3 (para entrenar el oído con varias voces);
+// las del vocabulario solo 1 (para no inflar la app). Solo palabras sueltas: las frases usan la voz del sistema.
+const ARTICLE = /^(?:(?:il|lo|la|i|gli|le)\s+|l')/i;
+const wanted = new Map();
+for (const w of units.units.flatMap((u) => [...u.pairs.flat(), ...u.words])) wanted.set(w, MAX_VOICES);
+for (const v of Object.values(vocab).flat()) {
+  const bare = v.it.replace(ARTICLE, "").toLowerCase();
+  if (/^[a-zàèéìòù]+$/.test(bare) && !wanted.has(bare)) wanted.set(bare, 1);
+}
+const words = [...wanted.keys()];
 
 await mkdir(OUT, { recursive: true });
 const MANIFEST = path.join(ROOT, "src/content/pronunciation/manifest.json");
@@ -43,10 +60,7 @@ const missing = [];
 for (const word of words) {
   const lower = word.toLowerCase();
   const kept = previous[lower];
-  if (kept?.length && (await Promise.all(kept.map((f) => exists(path.join(OUT, f))))).every(Boolean)) {
-    manifest[lower] = kept;
-    continue;
-  }
+  const haveFiles = kept?.length && (await Promise.all(kept.map((f) => exists(path.join(OUT, f))))).every(Boolean);
   const search = new URLSearchParams({
     action: "query", list: "search", srnamespace: "6", srlimit: "50", format: "json",
     srsearch: `intitle:"LL-Q652 (ita)" intitle:"-${lower}.wav"`,
@@ -58,7 +72,18 @@ for (const word of words) {
     .map((x) => ({ title: x.title, speaker: x.m[1] }));
   await sleep(DELAY);
 
-  const chosen = found.slice(0, MAX_VOICES);
+  // Ya descargada: solo se reconstruyen los créditos (hay que atribuir cada archivo, CC BY-SA 4.0).
+  if (haveFiles) {
+    manifest[lower] = kept;
+    for (const file of kept) {
+      const hit = found.find((f) => `${slug(lower)}--${slug(f.speaker)}.mp3` === file);
+      if (!hit) console.warn(`  (sin crédito para ${file})`);
+      else credits.push(`- \`${file}\` — «${word}», voz de ${hit.speaker} — https://commons.wikimedia.org/wiki/${encodeURI(hit.title.replace(/ /g, "_"))}`);
+    }
+    continue;
+  }
+
+  const chosen = found.slice(0, wanted.get(word));
   if (chosen.length === 0) {
     missing.push(word);
     continue;
@@ -92,6 +117,9 @@ for (const word of words) {
 }
 
 await writeFile(MANIFEST, JSON.stringify(manifest, null, 2) + "\n");
+// Borra grabaciones que ya no están en el manifest (sobras de corridas interrumpidas o palabras quitadas).
+const used = new Set(Object.values(manifest).flat());
+for (const f of await readdir(OUT)) if (f.endsWith(".mp3") && !used.has(f)) await unlink(path.join(OUT, f));
 await writeFile(
   path.join(OUT, "ATTRIBUZIONI.md"),
   "# Atribuciones de audio\n\nGrabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), publicadas en Wikimedia Commons bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n\n" +

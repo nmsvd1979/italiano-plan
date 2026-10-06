@@ -53,28 +53,10 @@ export function Today() {
       </header>
 
       {unit && up && !finished && (
-        <section className="card">
-          <div className="row">
-            <span className="pill accent">Unidad {unit.n} de 24</span>
-            <span className="pill">Fase {phase.id} · {phase.title}</span>
-          </div>
-          <a href={href(`/unidad/${unit.id}`)} className="unit-link">
-            <h2 className="unit-title">{unit.title}</h2>
-          </a>
-          <p className="sub">Sesión {Math.min(6, up.sessionsDone + 1)} de 6 · {up.done} de {up.total} actividades</p>
-          <ul className="candos">
-            {unit.canDo.map((t) => <li key={t}>{t}</li>)}
-          </ul>
-          <Tracker />
-          <div className={`pace pace-${pace.status}`}>
-            <b>
-              {pace.status === "ontrack" && "Al día con tu ritmo"}
-              {pace.status === "behind" && `Vas ${plural(pace.sessions, "sesión", "sesiones")} detrás del ritmo`}
-              {pace.status === "ahead" && `Vas ${plural(pace.sessions, "sesión", "sesiones")} adelante del ritmo`}
-            </b>
-            {pace.endDate && <span>Si sigues así, terminas lo disponible el {formatDateHuman(pace.endDate)}.</span>}
-          </div>
-        </section>
+        <a href={href(`/unidad/${unit.id}`)} className="unit-head">
+          <span className="eyebrow">Unidad {unit.n} de 24 · Fase {phase.id} · sesión {Math.min(6, up.sessionsDone + 1)} de 6</span>
+          <b>{unit.title}</b>
+        </a>
       )}
 
       {finished ? (
@@ -88,7 +70,27 @@ export function Today() {
           <a className="btn block" href={href("/repaso")} style={{ textAlign: "center", textDecoration: "none" }}>Repaso mixto</a>
         </section>
       ) : (
-        <DayCard />
+        <>
+          <DayCard />
+          {unit && up && (
+            <section className="card">
+              <div className="eyebrow">Tu avance</div>
+              <p className="sub" style={{ marginTop: 6 }}>{up.done} de {up.total} actividades de la unidad {unit.n}. Al terminarla podrás:</p>
+              <ul className="candos">
+                {unit.canDo.map((t) => <li key={t}>{t}</li>)}
+              </ul>
+              <Tracker />
+              <div className={`pace pace-${pace.status}`}>
+                <b>
+                  {pace.status === "ontrack" && "Al día con tu ritmo"}
+                  {pace.status === "behind" && `Vas ${plural(pace.sessions, "sesión", "sesiones")} detrás del ritmo`}
+                  {pace.status === "ahead" && `Vas ${plural(pace.sessions, "sesión", "sesiones")} adelante del ritmo`}
+                </b>
+                {pace.endDate && <span>Con este ritmo terminas las unidades disponibles hoy el {formatDateHuman(pace.endDate)}.</span>}
+              </div>
+            </section>
+          )}
+        </>
       )}
     </>
   );
@@ -121,7 +123,7 @@ function DayCard() {
         resources={resolveResources(step)}
         to={link?.to}
         toLabel={link?.label}
-        hint={stepHint(step, steps)}
+        hint={stepHint(step, steps, progress.startUnit)}
         canSkip={canSkip}
       />
     );

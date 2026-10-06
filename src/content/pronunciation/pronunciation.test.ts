@@ -1,8 +1,25 @@
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { READY_UNITS } from "../curriculum";
 import { GLOSS, PRON_UNITS, allWords, audioFiles } from "./index";
+
+describe("licencia del audio", () => {
+  it("cada archivo mp3 tiene su crédito (CC BY-SA exige atribuir a cada voz)", () => {
+    const credits = readFileSync(path.join(process.cwd(), "public/audio/ATTRIBUZIONI.md"), "utf8");
+    const files = readdirSync(path.join(process.cwd(), "public/audio")).filter((f) => f.endsWith(".mp3"));
+    expect(files.length).toBeGreaterThan(0);
+    const missing = files.filter((f) => !credits.includes(`\`${f}\``));
+    expect(missing).toEqual([]);
+  });
+
+  it("el manifest solo apunta a archivos que existen", () => {
+    const manifest = JSON.parse(readFileSync(path.join(process.cwd(), "src/content/pronunciation/manifest.json"), "utf8")) as Record<string, string[]>;
+    for (const [word, files] of Object.entries(manifest)) {
+      for (const f of files) expect(existsSync(path.join(process.cwd(), "public/audio", f)), `${word}: ${f}`).toBe(true);
+    }
+  });
+});
 
 describe("contenido de pronunciación", () => {
   it("cada unidad disponible tiene su práctica, en orden de currículo", () => {

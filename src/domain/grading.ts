@@ -28,6 +28,12 @@ export function gradeFill(input: string, answers: string[]): Grade {
   return "wrong";
 }
 
+/** Dictado: ignora la puntuación (.,;:!?¡¿«») y las mayúsculas; la tilde que falta cuenta como "casi". */
+export function gradeDictation(input: string, answer: string): Grade {
+  const clean = (s: string) => s.replace(/[.,;:!?¡¿"«»…]/g, " ");
+  return gradeFill(clean(input), [clean(answer)]);
+}
+
 export function gradeChoice(selected: number, answer: number): Grade {
   return selected === answer ? "correct" : "wrong";
 }

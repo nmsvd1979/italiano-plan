@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { useApp } from "../../app/state";
+import { READY_UNITS } from "../../content/curriculum";
 import { toISODate } from "../../domain/dates";
 import { Icon } from "../../ui/Icon";
 
 export function Setup() {
-  const { today, setStart } = useApp();
+  const { today, setStart, setStartUnit } = useApp();
   const [value, setValue] = useState(toISODate(today));
+  const [unit, setUnit] = useState(1);
 
   return (
     <div className="card stack" style={{ marginTop: "10vh" }}>
@@ -18,7 +20,17 @@ export function Setup() {
         <label htmlFor="start">Fecha en que empiezas</label>
         <input id="start" className="input" type="date" value={value} onChange={(e) => setValue(e.target.value)} />
       </div>
-      <button className="btn primary block" type="button" disabled={!value} onClick={() => setStart(value)}>
+      <div className="field">
+        <label htmlFor="unit">¿Desde dónde empiezas?</label>
+        <select id="unit" className="input" value={unit} onChange={(e) => setUnit(Number(e.target.value))}>
+          <option value={1}>Desde cero (unidad 1)</option>
+          {READY_UNITS.filter((u) => u.n > 1).map((u) => (
+            <option key={u.id} value={u.n}>Ya sé lo anterior: empezar en la unidad {u.n}</option>
+          ))}
+        </select>
+        <p className="sub">Si ya sabes saludar y presentarte, empieza más adelante. Siempre puedes cambiarlo en Ajustes.</p>
+      </div>
+      <button className="btn primary block" type="button" disabled={!value} onClick={() => { setStartUnit(unit); setStart(value); }}>
         Empezar
       </button>
     </div>

@@ -1,3 +1,7 @@
+import { getDialogue } from "./dialogues";
+import { getDictation } from "./dictation";
+import { getVocab } from "./vocab";
+import { getWriting } from "./writing";
 import {
   Activity, DIALOGUE, DICTATION, LESSON, MIXED_REVIEW, PHASE_TEST, PRACTICE, VOCAB, WRITING,
   input, pron, quizlet, shadowing,
@@ -36,22 +40,22 @@ export interface UnitMeta {
   /** Unidades 4, 8, 12, 16, 20 y 24: su última sesión incluye el test de fase. */
   checkpoint: boolean;
   /** Contenido opcional ya escrito para esta unidad (las actividades sin contenido se omiten). */
-  has: { vocab?: boolean; writing?: boolean; dictation?: boolean; dialogue?: boolean };
+  has: { vocab: boolean; writing: boolean; dictation: boolean; dialogue: boolean };
 }
 
-const u = (
-  n: number, title: string, ready: boolean, canDo: string[],
-  has: UnitMeta["has"] = {},
-): UnitMeta => ({
-  id: `u${String(n).padStart(2, "0")}`,
-  n,
-  title,
-  phase: Math.ceil(n / 4),
-  canDo,
-  ready,
-  checkpoint: n % 4 === 0,
-  has,
-});
+const u = (n: number, title: string, ready: boolean, canDo: string[]): UnitMeta => {
+  const id = `u${String(n).padStart(2, "0")}`;
+  return {
+    id,
+    n,
+    title,
+    phase: Math.ceil(n / 4),
+    canDo,
+    ready,
+    checkpoint: n % 4 === 0,
+    has: { vocab: !!getVocab(id), writing: !!getWriting(id), dictation: !!getDictation(id), dialogue: !!getDialogue(id) },
+  };
+};
 
 export const UNITS: UnitMeta[] = [
   u(1, "Essere, tu y Lei, saludos", true, [
@@ -77,7 +81,7 @@ export const UNITS: UnitMeta[] = [
   u(5, "Moverte por la ciudad y falsos amigos", true, [
     "Puedo decir adónde voy y cómo, con la preposición correcta.",
     "Puedo evitar los falsos amigos más comunes.",
-    "Puedo entender indicaciones básicas.",
+    "Puedo preguntar dónde está algo y entender «a destra», «a sinistra» y «dritto».",
   ]),
   u(6, "Posesivos, demostrativos, adjetivos y colores", true, [
     "Puedo decir de quién es algo y señalar lo que quiero.",

@@ -53,7 +53,7 @@ export const unidad06: Lesson = {
     { it: "Quel cappello rosso è molto bello.", es: "Ese sombrero rojo es muy lindo." },
     { it: "Di chi è quello zaino blu? — È di Marco.", es: "¿De quién es esa mochila azul? — Es de Marco." },
     { it: "Posso provare quella giacca verde?", es: "¿Puedo probarme esa chaqueta verde?" },
-    { it: "Vorrei due magliette bianche e una gonna rosa.", es: "Quisiera dos poleras blancas y una falda rosada." },
+    { it: "Vorrei due magliette bianche e una gonna rosa.", es: "Quisiera dos camisetas blancas y una falda rosada." },
     { it: "La nostra casa è piccola, ma la vostra è grande.", es: "Nuestra casa es pequeña, pero la vuestra es grande." },
   ],
   notice: [
@@ -119,7 +119,7 @@ export const unidad06: Lesson = {
     },
     {
       type: "choice",
-      prompt: "¿Qué orden es el natural para «una polera roja»?",
+      prompt: "¿Qué orden es el natural para «una camiseta roja»?",
       options: ["una maglietta rossa", "una rossa maglietta", "un rossa maglietta"],
       answer: 0,
       why: "El color va después del sustantivo y concuerda con él.",

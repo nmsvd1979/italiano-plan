@@ -317,3 +317,23 @@ button.chip { font-family: inherit; cursor: pointer; }
 .session li span { color: var(--text-faint); }
 .session li.done { color: var(--text-dim); }
 .session li.done svg { color: var(--good); }
+
+/* ---------- Vocabulario, escritura y diálogos ---------- */
+.vocab-list { display: flex; flex-direction: column; }
+.vocab-row { display: grid; grid-template-columns: auto 1fr; column-gap: 12px; align-items: center; padding: 10px 0; border-top: 1px solid var(--border); }
+.vocab-row:first-child { border-top: 0; }
+.vocab-row .audio-btn { grid-row: span 2; }
+.vocab-it { font-weight: 800; font-size: 16px; }
+.vocab-es { font-size: 14px; color: var(--text-dim); }
+textarea.input.writing { resize: vertical; min-height: 140px; line-height: 1.5; }
+.dialogue { display: flex; flex-direction: column; gap: 14px; }
+.dline { display: flex; flex-direction: column; gap: 4px; max-width: 92%; }
+.dline.mine { align-self: flex-end; align-items: flex-end; }
+.dwho { font-size: 11.5px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-faint); }
+.dtext { display: flex; align-items: center; gap: 8px; padding: 10px 14px; border-radius: 16px; background: var(--surface-2); font-weight: 600; }
+.dline.mine .dtext { background: var(--accent-soft); color: var(--accent-ink); }
+.des { font-size: 13.5px; color: var(--text-dim); padding: 0 6px; }
+.dcue { text-align: left; border: 1.5px dashed var(--border-strong); background: transparent; border-radius: 16px; padding: 10px 14px; display: flex; flex-direction: column; gap: 2px; font: inherit; color: var(--text); font-weight: 600; cursor: pointer; }
+.dcue small { color: var(--text-faint); font-weight: 500; font-size: 12px; }
+.unit-head { display: flex; flex-direction: column; gap: 2px; padding: 4px 4px 0; text-decoration: none; color: inherit; }
+.unit-head b { font-size: 17px; letter-spacing: -0.01em; }
