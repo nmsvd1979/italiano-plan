@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { parseISODate, startOfDay, toISODate } from "../domain/dates";
-import { PlanState, planStateForDate } from "../domain/planState";
+import { PlanState, activitiesForDate, planStateForDate } from "../domain/planState";
 import {
   Completions, Settings, clearAll, clearProgress, getCompletions, getSettings, getStartDateISO,
   saveSettings, setCompletion, setStartDateISO,
@@ -15,6 +15,8 @@ interface AppState {
   setStart: (iso: string) => void;
   /** Marca o desmarca una actividad de hoy (o de la fecha dada). */
   setDone: (activityId: string, done: boolean, dateISO?: string) => void;
+  /** Marca la actividad solo si hoy está en la rutina (evita marcas sueltas al releer una lección). */
+  completeIfScheduled: (activityId: string) => boolean;
   patchSettings: (patch: Partial<Settings>) => void;
   resetProgress: () => void;
   resetAll: () => void;
@@ -62,6 +64,13 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setCompletions(setCompletion(dateISO, activityId, done));
   }, [today]);
 
+  const completeIfScheduled = useCallback((activityId: string) => {
+    if (!plan || plan.notStarted || plan.finished) return false;
+    if (!activitiesForDate(today, plan.weekNumber).some((a) => a.id === activityId)) return false;
+    setCompletions(setCompletion(toISODate(today), activityId, true));
+    return true;
+  }, [plan, today]);
+
   const patchSettings = useCallback((patch: Partial<Settings>) => setSettings(saveSettings(patch)), []);
 
   const resetProgress = useCallback(() => {
@@ -76,8 +85,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const value = useMemo<AppState>(
-    () => ({ startDate, today, plan, completions, settings, setStart, setDone, patchSettings, resetProgress, resetAll }),
-    [startDate, today, plan, completions, settings, setStart, setDone, patchSettings, resetProgress, resetAll],
+    () => ({
+      startDate, today, plan, completions, settings, setStart, setDone, completeIfScheduled,
+      patchSettings, resetProgress, resetAll,
+    }),
+    [startDate, today, plan, completions, settings, setStart, setDone, completeIfScheduled, patchSettings, resetProgress, resetAll],
   );
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

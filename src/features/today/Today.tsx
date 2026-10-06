@@ -1,5 +1,6 @@
 import { CHECKPOINT_WEEKS, TOTAL_WEEKS } from "../../content/plan";
 import { useApp } from "../../app/state";
+import { internalRoute } from "../../app/links";
 import { href } from "../../app/route";
 import { formatDateHuman, toISODate } from "../../domain/dates";
 import { activitiesForDate, dayLabel, resolveResources, weekDateRange } from "../../domain/planState";
@@ -103,14 +104,19 @@ function DayCard() {
         <ProgressRing done={doneCount} planned={activities.length} />
       </div>
       <div className="activities">
-        {activities.map((a) => (
-          <ActivityRow
-            key={a.id}
-            activity={a}
-            done={!!doneIds[a.id]}
-            resources={resolveResources(a, plan.phase.id)}
-          />
-        ))}
+        {activities.map((a) => {
+          const link = internalRoute(a, plan.weekNumber);
+          return (
+            <ActivityRow
+              key={a.id}
+              activity={a}
+              done={!!doneIds[a.id]}
+              resources={resolveResources(a, plan.phase.id)}
+              to={link?.to}
+              toLabel={link?.label}
+            />
+          );
+        })}
       </div>
       {complete && (
         <div className="banner-done"><Icon name="check" size={18} /> ¡Completaste el día! Seguí así.</div>

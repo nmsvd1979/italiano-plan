@@ -1,3 +1,5 @@
+import type { ReviewState } from "./review";
+
 // Mismas claves y mismo formato que la app anterior, para conservar el progreso.
 
 export interface KV {
@@ -21,6 +23,7 @@ export const KEYS = {
   completions: "italianPlan.completions",
   settings: "italianPlan.settings",
   lastNotified: "italianPlan.lastNotifiedDate",
+  review: "italianPlan.review",
 } as const;
 
 const defaultStore = (): KV => window.localStorage;
@@ -69,11 +72,20 @@ export function saveSettings(patch: Partial<Settings>, store: KV = defaultStore(
   return next;
 }
 
+export function getReview(store: KV = defaultStore()): ReviewState {
+  return readJSON<ReviewState>(store, KEYS.review, {});
+}
+
+export function saveReview(state: ReviewState, store: KV = defaultStore()): void {
+  store.setItem(KEYS.review, JSON.stringify(state));
+}
+
 export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS.completions);
+  store.removeItem(KEYS.review);
 }
 
 export function clearAll(store: KV = defaultStore()): void {
-  store.removeItem(KEYS.completions);
+  clearProgress(store);
   store.removeItem(KEYS.startDate);
 }
