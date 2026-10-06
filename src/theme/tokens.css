@@ -1,0 +1,122 @@
+/* Sistema visual: claro y cálido, con modo oscuro.
+   Los tokens claros están en :root. El oscuro sigue al sistema, y Ajustes puede forzar
+   claro u oscuro con data-theme en <html>. Los componentes usan siempre los tokens. */
+
+:root {
+  --bg: #fbf8f3;
+  --surface: #ffffff;
+  --surface-2: #f5f0e7;
+  --surface-3: #ebe4d6;
+  --text: #221d17;
+  --text-dim: #6b6358;
+  --text-faint: #8d8578;
+  --border: #e8e0d2;
+  --border-strong: #d6ccb9;
+
+  --accent: #1f5fa8;
+  --accent-ink: #174a85;
+  --accent-soft: #e3eefa;
+  --on-accent: #ffffff;
+
+  --saffron: #e09a0c;
+  --saffron-soft: #fcf1d4;
+  --saffron-ink: #7a5200;
+
+  --good: #2e7d4f;
+  --good-soft: #e0f1e7;
+  --warn: #a85f00;
+  --warn-soft: #fdeccd;
+  --bad: #b3372c;
+  --bad-soft: #fbe3df;
+
+  --heat-0: #ece5d6;
+  --heat-1: #bfd7f0;
+  --heat-2: #6aa2db;
+  --heat-3: #1f5fa8;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --shadow: 0 1px 2px rgba(60, 40, 10, 0.05), 0 8px 24px -12px rgba(60, 40, 10, 0.16);
+  --shadow-sm: 0 1px 2px rgba(60, 40, 10, 0.08);
+
+  --font: "Figtree Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #16181d;
+    --surface: #1f2229;
+    --surface-2: #272b34;
+    --surface-3: #323744;
+    --text: #f1ede6;
+    --text-dim: #a7a196;
+    --text-faint: #7d786e;
+    --border: #343843;
+    --border-strong: #454a58;
+
+    --accent: #6fa8e6;
+    --accent-ink: #a9cdf5;
+    --accent-soft: #1d2f45;
+    --on-accent: #0e1a2b;
+
+    --saffron: #f0b840;
+    --saffron-soft: #3a2f14;
+    --saffron-ink: #f6d37e;
+
+    --good: #5cc489;
+    --good-soft: #17301f;
+    --warn: #e8a94a;
+    --warn-soft: #3a2a10;
+    --bad: #f08478;
+    --bad-soft: #3b1d1a;
+
+    --heat-0: #2b2f39;
+    --heat-1: #28425f;
+    --heat-2: #3f78b5;
+    --heat-3: #6fa8e6;
+
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 10px 28px -12px rgba(0, 0, 0, 0.6);
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #16181d;
+  --surface: #1f2229;
+  --surface-2: #272b34;
+  --surface-3: #323744;
+  --text: #f1ede6;
+  --text-dim: #a7a196;
+  --text-faint: #7d786e;
+  --border: #343843;
+  --border-strong: #454a58;
+
+  --accent: #6fa8e6;
+  --accent-ink: #a9cdf5;
+  --accent-soft: #1d2f45;
+  --on-accent: #0e1a2b;
+
+  --saffron: #f0b840;
+  --saffron-soft: #3a2f14;
+  --saffron-ink: #f6d37e;
+
+  --good: #5cc489;
+  --good-soft: #17301f;
+  --warn: #e8a94a;
+  --warn-soft: #3a2a10;
+  --bad: #f08478;
+  --bad-soft: #3b1d1a;
+
+  --heat-0: #2b2f39;
+  --heat-1: #28425f;
+  --heat-2: #3f78b5;
+  --heat-3: #6fa8e6;
+
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 10px 28px -12px rgba(0, 0, 0, 0.6);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  color-scheme: dark;
+}
