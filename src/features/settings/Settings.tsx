@@ -25,9 +25,9 @@ const SHORTCUTS: [key: string, label: string][] = [
 
 function reminderStatus(enabled: boolean, time: string): string {
   if (!("Notification" in window)) return "Este navegador no soporta notificaciones.";
-  if (Notification.permission === "denied") return "Bloqueadas en el navegador. Habilitalas desde la configuración del sitio.";
+  if (Notification.permission === "denied") return "Bloqueadas en el navegador. Habilítalas desde la configuración del sitio.";
   if (Notification.permission === "granted" && enabled) return `Activo: te avisa a las ${time} si todavía no marcaste nada hoy.`;
-  return `Inactivo. Activalo para recibir un aviso a las ${time}.`;
+  return `Inactivo. Actívalo para recibir un aviso a las ${time}.`;
 }
 
 export function Settings() {

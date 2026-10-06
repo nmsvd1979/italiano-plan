@@ -49,8 +49,3 @@ export function exerciseId(unit: string, index: number): string {
 export function unitNumber(unit: string): number {
   return Number(unit.slice(1));
 }
-
-/** "u04-e07" → "u04" */
-export function unitOfExercise(id: string): string {
-  return id.slice(0, id.indexOf("-"));
-}

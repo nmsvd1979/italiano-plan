@@ -7,6 +7,8 @@ import { Icon } from "../../ui/Icon";
 export function PlanScreen() {
   const { steps, progress } = useApp();
   const current = currentUnit(steps, progress);
+  // La siguiente es la primera unidad disponible, sin avance, después de la actual.
+  const nextId = UNITS.find((u) => u.ready && current && u.n > current.n && unitProgress(u, steps, progress).done === 0)?.id;
 
   const state = (unit: UnitMeta): { label: string; cls: string; detail: string } => {
     if (!unit.ready) return { label: "Pronto", cls: "soon", detail: "Aún sin contenido" };
@@ -14,7 +16,8 @@ export function PlanScreen() {
     if (unit.n < progress.startUnit) return { label: "Sabida", cls: "done", detail: "Marcada al empezar" };
     if (up.total > 0 && up.done === up.total) return { label: "Completa", cls: "done", detail: `${up.sessionsDone} de 6 sesiones` };
     if (unit.id === current?.id) return { label: "Actual", cls: "current", detail: `${up.sessionsDone} de 6 sesiones` };
-    return { label: up.done > 0 ? "En curso" : "Siguiente", cls: "next", detail: `${up.sessionsDone} de 6 sesiones` };
+    const label = up.done > 0 ? "En curso" : unit.id === nextId ? "Siguiente" : "Más adelante";
+    return { label, cls: "next", detail: `${up.sessionsDone} de 6 sesiones` };
   };
 
   return (

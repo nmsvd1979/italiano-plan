@@ -156,7 +156,3 @@ export function episodeNumber(step: Step, steps: Step[], startUnit = 1): number 
   const same = steps.filter((s) => s.unit.n >= startUnit && s.activity.kind === "input" && PHASE_INPUT[s.unit.phase].group === group);
   return same.findIndex((s) => s.key === step.key) + 1;
 }
-
-export function stepMinutes(steps: Step[]): Map<string, number> {
-  return new Map(steps.map((s) => [s.key, s.activity.minutes]));
-}

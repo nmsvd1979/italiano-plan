@@ -108,7 +108,7 @@ a { color: inherit; }
 .activity-links { display: flex; flex-wrap: wrap; gap: 6px; }
 
 .check {
-  appearance: none; -webkit-appearance: none; flex: none;
+  position: relative; appearance: none; -webkit-appearance: none; flex: none;
   width: 28px; height: 28px; margin-top: 5px;
   border-radius: 50%; border: 2px solid var(--border-strong); background: var(--surface);
   display: grid; place-content: center; transition: background 0.15s, border-color 0.15s, transform 0.1s;
@@ -118,6 +118,9 @@ a { color: inherit; }
   transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
   clip-path: polygon(14% 44%, 0% 63%, 39% 100%, 100% 20%, 82% 4%, 37% 65%);
 }
+/* Zona de toque de 44 px aunque el círculo se vea de 28. */
+.check::after { content: ""; position: absolute; inset: -8px; }
+.check.small::after { inset: -10px; }
 .check:checked { background: var(--good); border-color: var(--good); }
 .check:checked::before { transform: scale(1); }
 .check:active { transform: scale(0.88); }
@@ -151,7 +154,8 @@ a { color: inherit; }
 
 /* ---------- Progreso ---------- */
 .bar-block { display: flex; flex-direction: column; gap: 6px; }
-.bar-label { display: flex; justify-content: space-between; font-size: 14px; color: var(--text-dim); font-weight: 600; }
+.bar-label b { white-space: nowrap; }
+.bar-label { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; color: var(--text-dim); font-weight: 600; }
 .bar-label b { color: var(--text); }
 .bar { height: 9px; border-radius: 999px; background: var(--surface-3); overflow: hidden; }
 .bar > i { display: block; height: 100%; border-radius: inherit; background: var(--accent); transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
@@ -199,7 +203,7 @@ a { color: inherit; }
 .note svg { flex: none; margin-top: 2px; color: var(--text-faint); }
 
 .screen-head { display: flex; align-items: center; gap: 10px; }
-.back { width: 40px; height: 40px; border-radius: 12px; border: 0; background: var(--surface); box-shadow: var(--shadow-sm), 0 0 0 1px var(--border); display: grid; place-items: center; color: var(--text); text-decoration: none; }
+.back { flex: none; width: 40px; height: 40px; border-radius: 12px; border: 0; background: var(--surface); box-shadow: var(--shadow-sm), 0 0 0 1px var(--border); display: grid; place-items: center; color: var(--text); text-decoration: none; }
 .link-list { display: flex; flex-direction: column; }
 .link-list a { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 0; border-top: 1px solid var(--border); text-decoration: none; font-weight: 600; font-size: 15px; }
 .link-list a:first-child { border-top: 0; }
@@ -275,7 +279,7 @@ a { color: inherit; }
 .steps button.on { background: var(--accent); color: var(--on-accent); border-color: transparent; }
 .chip[disabled], .btn[disabled] { opacity: 0.45; }
 label.note { align-items: flex-start; }
-label.note input { margin-top: 3px; }
+label.note input { margin-top: 1px; width: 20px; height: 20px; flex: none; accent-color: var(--accent); }
 
 /* ---------- Plan adaptativo ---------- */
 .unit-link { text-decoration: none; color: inherit; }

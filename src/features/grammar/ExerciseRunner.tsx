@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import type { Exercise } from "../../content/grammar/types";
 import { Grade, gradeChoice, gradeFill } from "../../domain/grading";
+import { optionOrder } from "../../domain/optionOrder";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
 
@@ -39,6 +40,9 @@ export function ExerciseRunner({ items, onAnswer, onFinish, finishLabel }: Props
 
   const item = items[index];
   const e = item.exercise;
+  // Las opciones se barajan en cada sesión: así la respuesta correcta no cae siempre en el mismo lugar.
+  const [seed] = useState(() => String(Math.random()));
+  const order = useMemo(() => (e.type === "choice" ? optionOrder(e.options.length, `${seed}:${item.id}`) : []), [e, item.id, seed]);
   const last = index === items.length - 1;
   const canCheck = e.type === "choice" ? selected !== null : text.trim().length > 0;
 
@@ -83,7 +87,8 @@ export function ExerciseRunner({ items, onAnswer, onFinish, finishLabel }: Props
 
       {e.type === "choice" ? (
         <div className="options" role="radiogroup">
-          {e.options.map((o, i) => {
+          {order.map((i) => {
+            const o = e.options[i];
             const state = grade && i === e.answer ? "right" : grade && i === selected ? "wrong" : "";
             return (
               <button

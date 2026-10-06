@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { SOUND_TOPIC, pickGrammar, summarize } from "./phaseTest";
+import { SOUND_TOPIC, levelOf, pickGrammar, summarize } from "./phaseTest";
 
 const exercises = [1, 2, 3, 4, 5].flatMap((unit) => Array.from({ length: 10 }, (_, i) => ({ id: `u${unit}e${i}`, unit })));
 
@@ -37,5 +37,15 @@ describe("summarize", () => {
 
   it("sin respuestas no rompe", () => {
     expect(summarize([])).toEqual({ total: 0, correct: 0, byTopic: {}, weak: [] });
+  });
+});
+
+describe("levelOf", () => {
+  it("80 % o más es firme, 60 a 79 % casi, menos es a repasar", () => {
+    expect(levelOf(16, 20).label).toBe("Nivel firme");
+    expect(levelOf(15, 20).label).toBe("Casi");
+    expect(levelOf(12, 20).label).toBe("Casi");
+    expect(levelOf(11, 20).label).toBe("A repasar");
+    expect(levelOf(0, 0).label).toBe("A repasar");
   });
 });

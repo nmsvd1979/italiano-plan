@@ -6,7 +6,7 @@ import { exercisesForUnits, findExercise, getLesson, unitNumber } from "../../co
 import { audioFiles, getPronUnit } from "../../content/pronunciation";
 import { toISODate } from "../../domain/dates";
 import { Grade } from "../../domain/grading";
-import { Outcome, SOUND_TOPIC, TestSummary, pickGrammar, summarize } from "../../domain/phaseTest";
+import { Outcome, SOUND_TOPIC, TestSummary, levelOf, pickGrammar, summarize } from "../../domain/phaseTest";
 import { buildTrials } from "../../domain/pronunciation";
 import { getReview, getPhaseTests, saveReview, addPhaseTest } from "../../domain/storage";
 import { recordResult } from "../../domain/review";
@@ -16,14 +16,6 @@ import { SoundTrials } from "../pronunciation/SoundTrials";
 
 const PER_UNIT = 3;
 const SOUND_TRIALS = 6;
-
-/** Nivel según el porcentaje de aciertos. */
-export function levelOf(correct: number, total: number): { label: string; text: string } {
-  const pct = total > 0 ? correct / total : 0;
-  if (pct >= 0.8) return { label: "Nivel firme", text: "Puedes pasar a la siguiente fase con tranquilidad." };
-  if (pct >= 0.6) return { label: "Casi", text: "Repasa los temas marcados antes de seguir o hazlo mientras avanzas." };
-  return { label: "A repasar", text: "Antes de seguir conviene repasar estos temas: la fase siguiente se apoya en ellos." };
-}
 
 export function PhaseTestScreen({ phase }: { phase: number }) {
   const { today, completeActivity } = useApp();
