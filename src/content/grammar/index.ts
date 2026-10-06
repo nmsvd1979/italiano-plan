@@ -1,42 +1,49 @@
-import { semana01 } from "./semana01";
-import { semana02 } from "./semana02";
-import { semana03 } from "./semana03";
-import { semana04 } from "./semana04";
-import { semana05 } from "./semana05";
-import { semana06 } from "./semana06";
-import { semana07 } from "./semana07";
-import { semana08 } from "./semana08";
-import { semana09 } from "./semana09";
-import { semana10 } from "./semana10";
-import { semana11 } from "./semana11";
-import { semana12 } from "./semana12";
+import { unidad01 } from "./unidad01";
+import { unidad02 } from "./unidad02";
+import { unidad03 } from "./unidad03";
+import { unidad04 } from "./unidad04";
+import { unidad05 } from "./unidad05";
+import { unidad06 } from "./unidad06";
+import { unidad07 } from "./unidad07";
+import { unidad08 } from "./unidad08";
+import { unidad09 } from "./unidad09";
+import { unidad10 } from "./unidad10";
+import { unidad11 } from "./unidad11";
+import { unidad12 } from "./unidad12";
+import { unidad13 } from "./unidad13";
+import { unidad14 } from "./unidad14";
+import { unidad15 } from "./unidad15";
+import { unidad20 } from "./unidad20";
 import { Exercise, Lesson, exerciseId } from "./types";
 
+/** En orden de currículo. Las unidades sin lección todavía no están escritas. */
 export const LESSONS: Lesson[] = [
-  semana01, semana02, semana03, semana04, semana05, semana06,
-  semana07, semana08, semana09, semana10, semana11, semana12,
+  unidad01, unidad02, unidad03, unidad04, unidad05, unidad06, unidad07, unidad08, unidad09,
+  unidad10, unidad11, unidad12, unidad13, unidad14, unidad15, unidad20,
 ];
 
-export function getLesson(week: number): Lesson | undefined {
-  return LESSONS.find((l) => l.week === week);
+export function getLesson(unit: string): Lesson | undefined {
+  return LESSONS.find((l) => l.unit === unit);
 }
 
 export interface IndexedExercise {
   id: string;
-  week: number;
+  unit: string;
   exercise: Exercise;
 }
 
-/** Todos los ejercicios de producción de las semanas pedidas, con su id estable. */
-export function exercisesUpTo(week: number): IndexedExercise[] {
-  return LESSONS.filter((l) => l.week <= week).flatMap((l) =>
-    l.exercises.map((exercise, i) => ({ id: exerciseId(l.week, i), week: l.week, exercise })),
-  );
+export function exercisesOf(unit: string): IndexedExercise[] {
+  return (getLesson(unit)?.exercises ?? []).map((exercise, i) => ({ id: exerciseId(unit, i), unit, exercise }));
+}
+
+/** Ejercicios de producción de las unidades dadas, con su id estable. */
+export function exercisesForUnits(units: string[]): IndexedExercise[] {
+  return units.flatMap(exercisesOf);
 }
 
 export function findExercise(id: string): IndexedExercise | undefined {
-  const week = Number(id.slice(1, 3));
-  return exercisesUpTo(week).find((e) => e.id === id);
+  const unit = id.slice(0, id.indexOf("-"));
+  return exercisesOf(unit).find((e) => e.id === id);
 }
 
 export * from "./types";

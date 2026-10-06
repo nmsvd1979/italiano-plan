@@ -1,11 +1,14 @@
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { GLOSS, PRON_WEEKS, allWords, audioFiles } from "./index";
+import { READY_UNITS } from "../curriculum";
+import { GLOSS, PRON_UNITS, allWords, audioFiles } from "./index";
 
 describe("contenido de pronunciación", () => {
-  it("hay 12 semanas en orden", () => {
-    expect(PRON_WEEKS.map((w) => w.week)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
+  it("cada unidad disponible tiene su práctica, en orden de currículo", () => {
+    const units = PRON_UNITS.map((w) => w.unit);
+    expect(units).toEqual([...units].sort());
+    for (const u of READY_UNITS) expect(units, `falta la práctica de ${u.id}`).toContain(u.id);
   });
 
   it("cada palabra usada tiene audio nativo y el archivo existe", () => {
@@ -19,9 +22,9 @@ describe("contenido de pronunciación", () => {
   });
 
   it("los pares son de dos palabras distintas y tienen significado para mostrar", () => {
-    for (const week of PRON_WEEKS) {
+    for (const week of PRON_UNITS) {
       for (const [a, b] of week.pairs) {
-        expect(a.toLowerCase(), `semana ${week.week}`).not.toBe(b.toLowerCase());
+        expect(a.toLowerCase(), `unidad ${week.unit}`).not.toBe(b.toLowerCase());
         expect(GLOSS[a], `falta significado de "${a}"`).toBeTruthy();
         expect(GLOSS[b], `falta significado de "${b}"`).toBeTruthy();
       }
@@ -30,8 +33,8 @@ describe("contenido de pronunciación", () => {
     }
   });
 
-  it("las semanas con pares tienen suficientes para variar los intentos", () => {
-    const sin = PRON_WEEKS.filter((w) => w.pairs.length > 0 && w.pairs.length < 2).map((w) => w.week);
+  it("las unidades con pares tienen suficientes para variar los intentos", () => {
+    const sin = PRON_UNITS.filter((w) => w.pairs.length > 0 && w.pairs.length < 2).map((w) => w.unit);
     expect(sin).toEqual([]);
   });
 });

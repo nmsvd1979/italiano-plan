@@ -70,14 +70,13 @@ a { color: inherit; }
 .stack { display: flex; flex-direction: column; gap: 10px; }
 .row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 
-/* ---------- Tracker de semanas ---------- */
-.tracker { display: grid; grid-template-columns: repeat(12, 1fr); gap: 4px; margin-top: 16px; }
-.tracker-cell { position: relative; height: 9px; border-radius: 999px; background: var(--surface-3); }
+/* ---------- Tracker de unidades ---------- */
+.tracker { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px 4px; margin-top: 20px; }
+.tracker-cell { position: relative; display: block; height: 9px; border-radius: 999px; background: var(--surface-3); }
 .tracker-cell::before {
   content: ""; position: absolute; inset: 0; width: var(--fill, 0%); border-radius: inherit; background: var(--accent);
 }
-.tracker-cell.missed { background: var(--warn-soft); }
-.tracker-cell.future { opacity: 0.5; }
+.tracker-cell.soon { background: transparent; border: 1.5px dashed var(--border-strong); }
 .tracker-cell.current { box-shadow: 0 0 0 2px var(--surface), 0 0 0 3.5px var(--accent); }
 .tracker-star {
   position: absolute; top: -13px; left: 50%; transform: translateX(-50%); color: var(--saffron); line-height: 0;
@@ -277,3 +276,44 @@ a { color: inherit; }
 .chip[disabled], .btn[disabled] { opacity: 0.45; }
 label.note { align-items: flex-start; }
 label.note input { margin-top: 3px; }
+
+/* ---------- Plan adaptativo ---------- */
+.unit-link { text-decoration: none; color: inherit; }
+.unit-title { font-size: 18px; font-weight: 800; letter-spacing: -0.01em; line-height: 1.25; margin-top: 10px; }
+.candos { margin: 10px 0 0; padding-left: 18px; font-size: 14px; color: var(--text-dim); display: flex; flex-direction: column; gap: 3px; }
+.pace { margin-top: 16px; padding: 10px 12px; border-radius: var(--radius-md); background: var(--surface-2); display: flex; flex-direction: column; gap: 2px; font-size: 13.5px; color: var(--text-dim); }
+.pace b { font-size: 14.5px; color: var(--text); }
+.pace-behind { background: var(--warn-soft); }
+.pace-ahead { background: var(--accent-soft); }
+.budget { margin-top: 14px; }
+.activity-unit { font-size: 11.5px; font-weight: 800; letter-spacing: 0.04em; color: var(--text-faint); }
+.activity-hint { font-size: 13px; color: var(--text-dim); margin: 0; }
+button.chip { font-family: inherit; cursor: pointer; }
+.review-card { display: flex; align-items: center; justify-content: space-between; gap: 12px; text-decoration: none; color: inherit; }
+.ahead { list-style: none; margin: 8px 0 14px; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 14.5px; font-weight: 600; }
+.ahead span { color: var(--text-faint); font-weight: 500; }
+
+.unit-list { display: flex; flex-direction: column; }
+.unit-row { display: flex; align-items: center; gap: 12px; padding: 12px 0; border-top: 1px solid var(--border); text-decoration: none; color: inherit; }
+.unit-row:first-child { border-top: 0; }
+.unit-num { flex: none; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 14px; background: var(--surface-2); color: var(--text-dim); }
+.unit-row.current .unit-num { background: var(--accent); color: var(--on-accent); }
+.unit-row.done .unit-num { background: var(--good); color: #fff; }
+.unit-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.unit-main b { font-size: 15px; }
+.unit-main small { font-size: 12.5px; color: var(--text-faint); }
+.unit-row.soon { opacity: 0.6; }
+.status { flex: none; font-size: 11.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-faint); }
+.status-current { color: var(--accent-ink); }
+.status-done { color: var(--good); }
+
+.cando-check { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.cando-check label { display: flex; gap: 12px; align-items: flex-start; font-size: 15px; }
+.check.small { width: 24px; height: 24px; margin-top: 0; }
+.session { display: flex; flex-direction: column; gap: 6px; padding-top: 10px; border-top: 1px solid var(--border); }
+.session:first-of-type { border-top: 0; padding-top: 0; }
+.session ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 14px; }
+.session li { display: flex; align-items: center; gap: 8px; }
+.session li span { color: var(--text-faint); }
+.session li.done { color: var(--text-dim); }
+.session li.done svg { color: var(--good); }

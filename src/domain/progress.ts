@@ -1,27 +1,32 @@
-import { addDays, toISODate } from "./dates";
-import { plannedCountForDate } from "./planState";
+import { addDays, diffInDays, parseISODate, toISODate } from "./dates";
 import type { Completions } from "./storage";
 
-/** Cantidad de actividades marcadas ese día, topeada por las planificadas. */
-export function doneCountForDate(completions: Completions, date: Date): number {
-  const rec = completions[toISODate(date)] ?? {};
-  const done = Object.values(rec).filter(Boolean).length;
-  return Math.min(done, plannedCountForDate(date));
+/** Minutos que se asumen para una marca que no está en el currículo (marcas de la app anterior). */
+export const LEGACY_MINUTES = 8;
+
+/** Todas las claves marcadas, en cualquier fecha. */
+export function doneKeys(completions: Completions): Set<string> {
+  const keys = new Set<string>();
+  for (const day of Object.values(completions)) for (const [k, v] of Object.entries(day)) if (v) keys.add(k);
+  return keys;
 }
 
-export function aggregateProgress(completions: Completions, dates: Date[]): { planned: number; done: number } {
-  let planned = 0;
-  let done = 0;
-  for (const d of dates) {
-    planned += plannedCountForDate(d);
-    done += doneCountForDate(completions, d);
-  }
-  return { planned, done };
+export function keysOn(completions: Completions, date: Date): Set<string> {
+  const rec = completions[toISODate(date)] ?? {};
+  return new Set(Object.entries(rec).filter(([, v]) => v).map(([k]) => k));
 }
 
 export function hasAnyCompletion(completions: Completions, date: Date): boolean {
-  const rec = completions[toISODate(date)];
-  return !!rec && Object.values(rec).some(Boolean);
+  return keysOn(completions, date).size > 0;
+}
+
+/** Minutos estudiados ese día, según los minutos de cada paso del currículo. */
+export function minutesOn(
+  completions: Completions, date: Date, minutesByKey: ReadonlyMap<string, number>, unknown = LEGACY_MINUTES,
+): number {
+  let total = 0;
+  for (const k of keysOn(completions, date)) total += minutesByKey.get(k) ?? unknown;
+  return total;
 }
 
 /**
@@ -38,9 +43,17 @@ export function computeStreak(completions: Completions, today: Date): number {
   return streak;
 }
 
-/** 0 = sin actividad, 1 = poca, 2 = más de la mitad, 3 = todo. */
-export function heatLevel(done: number, planned: number): 0 | 1 | 2 | 3 {
-  if (done <= 0 || planned <= 0) return 0;
-  if (done >= planned) return 3;
-  return done / planned >= 0.5 ? 2 : 1;
+/** Días desde el último día con alguna marca (hoy = 0). null si nunca marcaste nada. */
+export function daysSinceLastStudy(completions: Completions, today: Date): number | null {
+  const days = Object.keys(completions).filter((iso) => hasAnyCompletion(completions, parseISODate(iso)));
+  if (days.length === 0) return null;
+  const last = days.sort().at(-1)!;
+  return diffInDays(today, parseISODate(last));
+}
+
+/** 0 = nada, 1 = algo (hasta 19 min), 2 = una sesión normal (20–44 min), 3 = día largo (45 min o más). */
+export function heatLevel(minutes: number): 0 | 1 | 2 | 3 {
+  if (minutes <= 0) return 0;
+  if (minutes >= 45) return 3;
+  return minutes >= 20 ? 2 : 1;
 }

@@ -3,7 +3,7 @@ import type { IconKey } from "../content/plan";
 export type IconName =
   | IconKey
   | "flame" | "sliders" | "chart" | "check" | "chevronDown" | "external" | "info"
-  | "arrowLeft" | "play" | "pause" | "trophy" | "hourglass" | "captions" | "star" | "x" | "rewind";
+  | "arrowLeft" | "play" | "pause" | "trophy" | "hourglass" | "captions" | "star" | "x" | "rewind" | "map";
 
 // Íconos de trazo (24×24), estilo línea redondeada.
 const PATHS: Record<IconName, string[]> = {
@@ -31,6 +31,10 @@ const PATHS: Record<IconName, string[]> = {
   star: ["m12 3 2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.4 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"],
   x: ["M18 6 6 18", "m6 6 12 12"],
   rewind: ["M11 19 2 12l9-7z", "M22 19l-9-7 9-7z"],
+  map: ["M14.1 5.55a2 2 0 0 0 1.8 0l3.66-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.55 2.28a2 2 0 0 1-1.79 0l-4.21-2.1a2 2 0 0 0-1.79 0l-3.66 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.55-2.28a2 2 0 0 1 1.79 0z", "M15 5.76v15", "M9 3.24v15"],
+  pen: ["M21.17 6.81a1 1 0 0 0-3.99-3.99L3.84 16.17a2 2 0 0 0-.5.83l-1.32 4.35a.5.5 0 0 0 .62.62l4.35-1.32a2 2 0 0 0 .83-.5z"],
+  list: ["M3 5h.01", "M3 12h.01", "M3 19h.01", "M8 5h13", "M8 12h13", "M8 19h13"],
+  chat: ["M7.9 20A9 9 0 1 0 4 16.1L2 22z"],
 };
 
 interface Props {

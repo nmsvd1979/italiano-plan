@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { gradeFill, normalize } from "../../domain/grading";
-import { LESSONS, exercisesUpTo } from "./index";
+import { READY_UNITS, getUnit } from "../curriculum";
+import { LESSONS, exercisesForUnits } from "./index";
 import { parseRich } from "../../ui/richText";
 import type { Choice, Exercise } from "./types";
 
@@ -23,12 +24,15 @@ function tokens(s: string): string[] {
 }
 
 describe("contenido de gramática", () => {
-  it("hay 12 lecciones en orden", () => {
-    expect(LESSONS.map((l) => l.week)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
+  it("cada unidad disponible tiene su lección, y las lecciones van en orden de currículo", () => {
+    const units = LESSONS.map((l) => l.unit);
+    expect(units).toEqual([...units].sort());
+    for (const u of READY_UNITS) expect(units, `falta la lección de ${u.id}`).toContain(u.id);
+    for (const id of units) expect(getUnit(id), `lección de una unidad inexistente: ${id}`).toBeTruthy();
   });
 
   for (const lesson of LESSONS) {
-    describe(`semana ${lesson.week}`, () => {
+    describe(`unidad ${lesson.unit}`, () => {
       it("tiene lo necesario", () => {
         expect(lesson.title).toBeTruthy();
         expect(lesson.situation).toBeTruthy();
@@ -55,8 +59,8 @@ describe("contenido de gramática", () => {
 
       it("cada ejercicio está bien formado y se aprueba con su propia respuesta", () => {
         const problems: string[] = [];
-        lesson.exercises.forEach((e: Exercise, i) => {
-          const where = `s${lesson.week} e${i}: ${e.prompt}`;
+        lesson.exercises.forEach((e: Exercise, i: number) => {
+          const where = `${lesson.unit} e${i}: ${e.prompt}`;
           if (e.type === "choice") {
             checkChoice(e, where);
             return;
@@ -74,7 +78,7 @@ describe("contenido de gramática", () => {
   }
 
   it("los ids de ejercicios son únicos", () => {
-    const ids = exercisesUpTo(12).map((e) => e.id);
+    const ids = exercisesForUnits(LESSONS.map((l) => l.unit)).map((e) => e.id);
     expect(new Set(ids).size).toBe(ids.length);
     expect(ids).toHaveLength(LESSONS.reduce((n, l) => n + l.exercises.length, 0));
   });

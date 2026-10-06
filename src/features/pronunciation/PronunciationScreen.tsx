@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
-import { audioFiles, getPronWeek } from "../../content/pronunciation";
+import { audioFiles, getPronUnit } from "../../content/pronunciation";
+import { getUnit } from "../../content/curriculum";
 import { toISODate } from "../../domain/dates";
 import { buildTrials } from "../../domain/pronunciation";
 import { Icon } from "../../ui/Icon";
@@ -11,17 +12,18 @@ import { WordButton } from "./WordButton";
 
 const TRIALS = 8;
 
-export function PronunciationScreen({ week }: { week: number }) {
-  const { today, completeIfScheduled } = useApp();
-  const data = getPronWeek(week);
-  const [trials] = useState(() => (data ? buildTrials(data.pairs, audioFiles, TRIALS, `${toISODate(today)}:pron:${week}`) : []));
+export function PronunciationScreen({ unit }: { unit: string }) {
+  const { today, completeActivity } = useApp();
+  const data = getPronUnit(unit);
+  const meta = getUnit(unit);
+  const [trials] = useState(() => (data ? buildTrials(data.pairs, audioFiles, TRIALS, `${toISODate(today)}:pron:${unit}`) : []));
   const [score, setScore] = useState(0);
   const [stage, setStage] = useState<"listen" | "repeat">(trials.length === 0 ? "repeat" : "listen");
 
-  if (!data) return <p className="sub">No existe la práctica de la semana {week}.</p>;
+  if (!data) return <p className="sub">No existe la práctica de esa unidad.</p>;
 
   const finish = () => {
-    completeIfScheduled("pronunciation");
+    completeActivity("pron", unit);
     window.location.hash = "#/";
   };
 
@@ -34,7 +36,7 @@ export function PronunciationScreen({ week }: { week: number }) {
           <Icon name="arrowLeft" size={20} />
         </a>
         <div>
-          <div className="eyebrow">Semana {week} · Pronunciación</div>
+          <div className="eyebrow">Unidad {meta?.n} · Pronunciación</div>
           <h1 className="title">{data.title}</h1>
         </div>
       </header>

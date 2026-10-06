@@ -1,8 +1,9 @@
-import weeksJson from "./weeks.json";
+import unitsJson from "./units.json";
 import manifestJson from "./manifest.json";
 
-export interface PronWeek {
-  week: number;
+export interface PronUnit {
+  /** Id de la unidad del currículo (ej. "u04"). */
+  unit: string;
   title: string;
   tip: string;
   /** Pares mínimos: dos palabras que solo se distinguen por el sonido que se entrena. */
@@ -11,14 +12,14 @@ export interface PronWeek {
   words: string[];
 }
 
-export const PRON_WEEKS = weeksJson.weeks as PronWeek[];
-export const GLOSS: Record<string, string> = weeksJson.gloss;
+export const PRON_UNITS = unitsJson.units as PronUnit[];
+export const GLOSS: Record<string, string> = unitsJson.gloss;
 
 /** Palabra (minúscula) → archivos de audio nativo disponibles (una voz por archivo). */
 const AUDIO = manifestJson as Record<string, string[]>;
 
-export function getPronWeek(week: number): PronWeek | undefined {
-  return PRON_WEEKS.find((w) => w.week === week);
+export function getPronUnit(unit: string): PronUnit | undefined {
+  return PRON_UNITS.find((w) => w.unit === unit);
 }
 
 export function audioFiles(word: string): string[] {
@@ -26,5 +27,5 @@ export function audioFiles(word: string): string[] {
 }
 
 export function allWords(): string[] {
-  return [...new Set(PRON_WEEKS.flatMap((w) => [...w.pairs.flat(), ...w.words]))];
+  return [...new Set(PRON_UNITS.flatMap((w) => [...w.pairs.flat(), ...w.words]))];
 }

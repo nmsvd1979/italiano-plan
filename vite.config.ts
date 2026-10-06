@@ -14,9 +14,9 @@ export default defineConfig({
         globPatterns: ["**/*.{js,css,html,woff2,png,mp3}"],
       },
       manifest: {
-        name: "Italiano — Plan 12 semanas",
+        name: "Italiano — Plan de 24 unidades",
         short_name: "Italiano",
-        description: "Plan de 12 semanas para aprender italiano, con gramática, shadowing y pronunciación.",
+        description: "Plan adaptativo de 24 unidades para aprender italiano, con gramática, shadowing y pronunciación.",
         start_url: "/italiano-plan/",
         scope: "/italiano-plan/",
         display: "standalone",

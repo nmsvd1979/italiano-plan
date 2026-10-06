@@ -1,5 +1,5 @@
 // Baja grabaciones nativas de Lingua Libre (Wikimedia Commons, CC BY-SA 4.0) para las palabras
-// de src/content/pronunciation/weeks.json y deja src/content/pronunciation/manifest.json (palabra → archivos) + public/audio/ATTRIBUZIONI.md.
+// de src/content/pronunciation/units.json y deja src/content/pronunciation/manifest.json (palabra → archivos) + public/audio/ATTRIBUZIONI.md.
 // Uso: npm run audio   (es idempotente: no vuelve a bajar lo que ya existe)
 
 import { mkdir, readFile, writeFile, access } from "node:fs/promises";
@@ -30,8 +30,8 @@ async function get(url, asJson = true) {
   throw new Error(`Demasiados reintentos: ${url}`);
 }
 
-const weeks = JSON.parse(await readFile(path.join(ROOT, "src/content/pronunciation/weeks.json"), "utf8"));
-const words = [...new Set(weeks.weeks.flatMap((w) => [...w.pairs.flat(), ...w.words]))];
+const units = JSON.parse(await readFile(path.join(ROOT, "src/content/pronunciation/units.json"), "utf8"));
+const words = [...new Set(units.units.flatMap((w) => [...w.pairs.flat(), ...w.words]))];
 
 await mkdir(OUT, { recursive: true });
 const MANIFEST = path.join(ROOT, "src/content/pronunciation/manifest.json");

@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { READY_UNITS } from "../content/curriculum";
 import { SHADOWING } from "../content/shadowing";
 import { isValidSegment, parseYouTubeId } from "./youtube";
 
@@ -30,16 +31,16 @@ describe("segmento", () => {
 });
 
 describe("videos de shadowing", () => {
-  it("cada semana tiene un principal y un alternativo distintos, con id de 11 caracteres", () => {
-    for (let w = 1; w <= 12; w++) {
-      const v = SHADOWING[w];
-      expect(v, `semana ${w}`).toBeDefined();
+  it("cada unidad disponible tiene un principal y un alternativo distintos, con id de 11 caracteres", () => {
+    for (const { id: u } of READY_UNITS) {
+      const v = SHADOWING[u];
+      expect(v, `unidad ${u}`).toBeDefined();
       expect(v.main.id).toMatch(/^[A-Za-z0-9_-]{11}$/);
       expect(v.alt.id).toMatch(/^[A-Za-z0-9_-]{11}$/);
       expect(v.main.id).not.toBe(v.alt.id);
     }
   });
-  it("no se repite ningún video entre semanas", () => {
+  it("no se repite ningún video entre unidades", () => {
     const ids = Object.values(SHADOWING).flatMap((v) => [v.main.id, v.alt.id]);
     expect(new Set(ids).size).toBe(ids.length);
   });

@@ -1,0 +1,128 @@
+import type { Lesson } from "./types";
+
+export const unidad06: Lesson = {
+  unit: "u06",
+  title: "Posesivos, demostrativos, adjetivos y colores",
+  situation: "Comprar ropa y decir de quién es algo",
+  rule: [
+    {
+      kind: "p",
+      text: "Los posesivos concuerdan con **lo poseído**, no con quien lo posee, y casi siempre llevan artículo: *la mia casa, il tuo libro, i miei amici*.",
+    },
+    {
+      kind: "table",
+      head: ["", "masc. sing.", "fem. sing.", "masc. pl.", "fem. pl."],
+      rows: [
+        ["mi", "*il mio*", "*la mia*", "*i miei*", "*le mie*"],
+        ["tu", "*il tuo*", "*la tua*", "*i tuoi*", "*le tue*"],
+        ["su (de él / ella / usted)", "*il suo*", "*la sua*", "*i suoi*", "*le sue*"],
+        ["nuestro", "*il nostro*", "*la nostra*", "*i nostri*", "*le nostre*"],
+        ["vuestro", "*il vostro*", "*la vostra*", "*i vostri*", "*le vostre*"],
+        ["su (de ellos)", "*il loro*", "*la loro*", "*i loro*", "*le loro*"],
+      ],
+    },
+    {
+      kind: "p",
+      text: "**Excepción**: con un familiar en singular no hay artículo: *mia madre, tuo fratello, nostra zia*. Con *loro* sí: *la loro madre*. En plural también: *i miei fratelli*. Para decir de quién es algo: *Di chi è questa borsa? — È di Marco.*",
+    },
+    {
+      kind: "p",
+      text: "**Questo** (este, cerca) cambia como un adjetivo en *-o*: *questo, questa, questi, queste*. **Quello** (aquel, lejos) delante de un sustantivo cambia como el artículo:",
+    },
+    {
+      kind: "table",
+      head: ["Artículo", "Singular", "Plural"],
+      rows: [
+        ["*il*", "*quel libro*", "*quei libri*"],
+        ["*lo*", "*quello zaino*", "*quegli zaini*"],
+        ["*l'*", "*quell'amico*", "*quegli amici*"],
+        ["*la*", "*quella casa*", "*quelle case*"],
+      ],
+    },
+    {
+      kind: "p",
+      text: "**Adjetivos**: concuerdan en género y número (*-o/-a/-i/-e*; los de *-e* sirven para los dos géneros: *verde, verdi*) y se ponen **después** del sustantivo: *una borsa rossa*. Pocos van antes: *bello, buono, grande, piccolo*. Colores: *rosso, giallo, verde, azzurro, bianco, nero, grigio, marrone*. Tres no cambian nunca: *rosa, viola, blu* (*due gonne rosa*).",
+    },
+  ],
+  transfer:
+    "En español dices *mi casa*; en italiano, *la mia casa* (con artículo), salvo con un familiar en singular (*mia madre*). *Suo* no dice si es de él, de ella o de usted: lo da el contexto. Y *quello* no cambia como *questo*: *quel libro, quella casa*. Los colores concuerdan (*due borse rosse*), salvo *rosa, viola, blu*.",
+  examples: [
+    { it: "Questa è la mia borsa e quella è la tua.", es: "Esta es mi bolso y aquella es la tuya." },
+    { it: "Mia madre ha una macchina nera.", es: "Mi madre tiene un auto negro." },
+    { it: "I miei fratelli abitano a Roma.", es: "Mis hermanos viven en Roma." },
+    { it: "Quel cappello rosso è molto bello.", es: "Ese sombrero rojo es muy lindo." },
+    { it: "Di chi è quello zaino blu? — È di Marco.", es: "¿De quién es esa mochila azul? — Es de Marco." },
+    { it: "Posso provare quella giacca verde?", es: "¿Puedo probarme esa chaqueta verde?" },
+    { it: "Vorrei due magliette bianche e una gonna rosa.", es: "Quisiera dos poleras blancas y una falda rosada." },
+    { it: "La nostra casa è piccola, ma la vostra è grande.", es: "Nuestra casa es pequeña, pero la vuestra es grande." },
+  ],
+  notice: [
+    {
+      type: "choice",
+      prompt: "«Quelle scarpe rosse costano molto.» ¿Qué se dice de las cosas?",
+      options: ["Varias y femeninas", "Una y femenina", "Varias y masculinas"],
+      answer: 0,
+      why: "*Quelle* y *rosse* terminan en *-e*: plural femenino.",
+    },
+    {
+      type: "choice",
+      prompt: "«Il loro appartamento è piccolo.» ¿Quiénes lo poseen?",
+      options: ["Varias personas", "Una persona", "No se puede saber"],
+      answer: 0,
+      why: "*Loro* es el posesivo de *ellos*.",
+    },
+    {
+      type: "choice",
+      prompt: "«Questa giacca è mia, quella è di Anna.» ¿Cuál es de Anna?",
+      options: ["La que está más lejos", "La que está más cerca", "Las dos"],
+      answer: 0,
+      why: "*Quella* señala lo lejano; *questa*, lo cercano.",
+    },
+  ],
+  exercises: [
+    { type: "fill", prompt: "___ madre abita a Milano. (mi)", answers: ["mia"], why: "Familiar en singular: sin artículo, *mia*." },
+    { type: "fill", prompt: "Dov'è ___ borsa? (tu)", answers: ["la tua"], why: "Posesivo con artículo y concuerda con *borsa* (fem.): *la tua*." },
+    { type: "fill", prompt: "Sono ___ amici. (mis)", answers: ["i miei"], why: "Plural masculino: *i miei*." },
+    { type: "fill", prompt: "___ casa è grande. (nuestra)", answers: ["la nostra"], why: "Artículo + *nostra* (concuerda con *casa*)." },
+    { type: "fill", prompt: "Questa è la mia borsa e ___ è la tua. (aquella)", answers: ["quella"], why: "Lo lejano y femenino: *quella*." },
+    { type: "fill", prompt: "___ libro è interessante. (este)", answers: ["questo"], why: "Lo cercano y masculino: *questo*." },
+    { type: "fill", prompt: "___ zaino è di Marco. (aquel)", answers: ["quello"], why: "Ante *zaino* (artículo *lo*): *quello*." },
+    { type: "fill", prompt: "___ amici sono simpatici. (aquellos)", answers: ["quegli"], why: "Ante vocal en plural masculino: *quegli*." },
+    { type: "fill", prompt: "___ cappello è bello. (aquel)", answers: ["quel"], why: "Ante *cappello* (artículo *il*): *quel*." },
+    { type: "fill", prompt: "Due borse ___. (rojas)", answers: ["rosse"], why: "Plural femenino: *rosse*." },
+    { type: "fill", prompt: "La mia maglietta è ___. (blanca)", answers: ["bianca"], why: "Concuerda con *maglietta* (fem.): *bianca*." },
+    { type: "fill", prompt: "I pantaloni sono ___. (negros)", answers: ["neri"], why: "Plural masculino: *neri*." },
+    { type: "fill", prompt: "Di ___ è questo zaino? (¿de quién?)", answers: ["chi"], why: "*Di chi è…?* pregunta por el dueño." },
+    { type: "fill", prompt: "Le scarpe verdi sono molto ___. (lindas)", answers: ["belle"], why: "Plural femenino de *bello*: *belle*." },
+    { type: "fill", prompt: "Il ___ appartamento è piccolo. (de ellos)", answers: ["loro"], why: "*Loro* no cambia nunca." },
+    { type: "fill", prompt: "Un cielo ___. (celeste)", answers: ["azzurro"], why: "*Azzurro* es el celeste, con doble *z* y doble *r*." },
+    {
+      type: "choice",
+      prompt: "¿Cuál es correcto para «mi hermano»?",
+      options: ["Il mio fratello", "Mio fratello", "Il mio fratelli"],
+      answer: 1,
+      why: "Familiar en singular: sin artículo.",
+    },
+    {
+      type: "choice",
+      prompt: "En «la sua macchina», *sua* puede significar…",
+      options: ["Solo de él", "De él, de ella o de usted", "Solo de ella"],
+      answer: 1,
+      why: "*Suo/sua* no distingue al poseedor: lo da el contexto.",
+    },
+    {
+      type: "choice",
+      prompt: "¿Cuál es correcto?",
+      options: ["Due gonne rosa.", "Due gonne rose.", "Due gonni rosa."],
+      answer: 0,
+      why: "*Rosa*, *viola* y *blu* no cambian.",
+    },
+    {
+      type: "choice",
+      prompt: "¿Qué orden es el natural para «una polera roja»?",
+      options: ["una maglietta rossa", "una rossa maglietta", "un rossa maglietta"],
+      answer: 0,
+      why: "El color va después del sustantivo y concuerda con él.",
+    },
+  ],
+};

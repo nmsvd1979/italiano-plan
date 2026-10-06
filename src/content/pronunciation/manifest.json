@@ -90,6 +90,71 @@
     "mamma--langpao.mp3",
     "mamma--happypheasant.mp3"
   ],
+  "venti": [
+    "venti--xana000.mp3",
+    "venti--ciampix.mp3",
+    "venti--cerchia-g.mp3"
+  ],
+  "vento": [
+    "vento--langpao.mp3",
+    "vento--happypheasant.mp3"
+  ],
+  "otto": [
+    "otto--xana000.mp3",
+    "otto--ciampix.mp3",
+    "otto--happypheasant.mp3"
+  ],
+  "orto": [
+    "orto--langpao.mp3"
+  ],
+  "sei": [
+    "sei--cerchia-g.mp3",
+    "sei--langpao.mp3",
+    "sei--ciampix.mp3"
+  ],
+  "sai": [
+    "sai--xana000.mp3"
+  ],
+  "tre": [
+    "tre--ciampix.mp3",
+    "tre--happypheasant.mp3",
+    "tre--xana000.mp3"
+  ],
+  "cinque": [
+    "cinque--langpao.mp3",
+    "cinque--ciampix.mp3",
+    "cinque--xana000.mp3"
+  ],
+  "dodici": [
+    "dodici--ciampix.mp3",
+    "dodici--cerchia-g.mp3",
+    "dodici--xana000.mp3"
+  ],
+  "quindici": [
+    "quindici--happypheasant.mp3",
+    "quindici--langpao.mp3",
+    "quindici--ciampix.mp3"
+  ],
+  "quaranta": [
+    "quaranta--happypheasant.mp3",
+    "quaranta--langpao.mp3",
+    "quaranta--xana000.mp3"
+  ],
+  "cinquanta": [
+    "cinquanta--langpao.mp3",
+    "cinquanta--xana000.mp3",
+    "cinquanta--happypheasant.mp3"
+  ],
+  "mille": [
+    "mille--happypheasant.mp3",
+    "mille--xana000.mp3",
+    "mille--langpao.mp3"
+  ],
+  "cento": [
+    "cento--xana000.mp3",
+    "cento--happypheasant.mp3",
+    "cento--langpao.mp3"
+  ],
   "capello": [
     "capello--langpao.mp3",
     "capello--happypheasant.mp3"
@@ -142,6 +207,47 @@
     "specchio--langpao.mp3",
     "specchio--happypheasant.mp3"
   ],
+  "giallo": [
+    "giallo--langpao.mp3",
+    "giallo--ciampix.mp3"
+  ],
+  "gallo": [
+    "gallo--langpao.mp3"
+  ],
+  "rosso": [
+    "rosso--ciampix.mp3",
+    "rosso--langpao.mp3"
+  ],
+  "bianco": [
+    "bianco--langpao.mp3",
+    "bianco--ciampix.mp3"
+  ],
+  "nero": [
+    "nero--ciampix.mp3",
+    "nero--langpao.mp3"
+  ],
+  "verde": [
+    "verde--ciampix.mp3",
+    "verde--langpao.mp3"
+  ],
+  "azzurro": [
+    "azzurro--ciampix.mp3",
+    "azzurro--happypheasant.mp3",
+    "azzurro--langpao.mp3"
+  ],
+  "maglietta": [
+    "maglietta--happypheasant.mp3",
+    "maglietta--langpao.mp3"
+  ],
+  "questo": [
+    "questo--langpao.mp3",
+    "questo--xana000.mp3",
+    "questo--happypheasant.mp3"
+  ],
+  "quello": [
+    "quello--xana000.mp3",
+    "quello--langpao.mp3"
+  ],
   "gli": [
     "gli--crunchy-cloaky-crackdown.mp3"
   ],
@@ -171,6 +277,54 @@
   ],
   "figlio": [
     "figlio--langpao.mp3"
+  ],
+  "quanto": [
+    "quanto--langpao.mp3"
+  ],
+  "tanto": [
+    "tanto--xana000.mp3"
+  ],
+  "mai": [
+    "mai--xana000.mp3",
+    "mai--langpao.mp3",
+    "mai--xana000.mp3"
+  ],
+  "mia": [
+    "mia--xana000.mp3"
+  ],
+  "che": [
+    "che--xana000.mp3"
+  ],
+  "quando": [
+    "quando--langpao.mp3"
+  ],
+  "dove": [
+    "dove--langpao.mp3",
+    "dove--xana000.mp3"
+  ],
+  "come": [
+    "come--xana000.mp3",
+    "come--langpao.mp3"
+  ],
+  "perché": [
+    "perche--xana000.mp3",
+    "perche--langpao.mp3"
+  ],
+  "sempre": [
+    "sempre--langpao.mp3",
+    "sempre--xana000.mp3"
+  ],
+  "spesso": [
+    "spesso--langpao.mp3",
+    "spesso--happypheasant.mp3"
+  ],
+  "niente": [
+    "niente--happypheasant.mp3",
+    "niente--langpao.mp3"
+  ],
+  "nessuno": [
+    "nessuno--xana000.mp3",
+    "nessuno--langpao.mp3"
   ],
   "pazzo": [
     "pazzo--diplomaticbadger.mp3"
@@ -255,10 +409,6 @@
     "citta--ciampix.mp3",
     "citta--cerchia-g.mp3"
   ],
-  "perché": [
-    "perche--xana000.mp3",
-    "perche--langpao.mp3"
-  ],
   "università": [
     "universita--langpao.mp3",
     "universita--happypheasant.mp3"
@@ -267,6 +417,44 @@
     "caffe--happypheasant.mp3",
     "caffe--xana000.mp3",
     "caffe--ciampix.mp3"
+  ],
+  "pane": [
+    "pane--ciampix.mp3",
+    "pane--xana000.mp3",
+    "pane--langpao.mp3"
+  ],
+  "panna": [
+    "panna--happypheasant.mp3",
+    "panna--langpao.mp3"
+  ],
+  "più": [
+    "piu--xana000.mp3",
+    "piu--happypheasant.mp3",
+    "piu--langpao.mp3"
+  ],
+  "migliore": [
+    "migliore--happypheasant.mp3",
+    "migliore--xana000.mp3",
+    "migliore--langpao.mp3"
+  ],
+  "peggiore": [
+    "peggiore--langpao.mp3",
+    "peggiore--happypheasant.mp3"
+  ],
+  "buono": [
+    "buono--langpao.mp3"
+  ],
+  "bello": [
+    "bello--langpao.mp3"
+  ],
+  "pomodoro": [
+    "pomodoro--happypheasant.mp3",
+    "pomodoro--langpao.mp3"
+  ],
+  "formaggio": [
+    "formaggio--valerio-bozzolan.mp3",
+    "formaggio--giovannipen.mp3",
+    "formaggio--langpao.mp3"
   ],
   "rosa": [
     "rosa--langpao.mp3"

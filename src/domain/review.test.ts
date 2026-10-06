@@ -60,42 +60,42 @@ describe("repaso espaciado", () => {
 
 describe("armado de sesiones", () => {
   const today = parseISODate("2026-10-06");
-  const candidates: Candidate[] = [1, 2, 3].flatMap((week) =>
-    Array.from({ length: 10 }, (_, i) => ({ id: `w${week}e${i}`, week })),
+  const candidates: Candidate[] = [1, 2, 3].flatMap((unit) =>
+    Array.from({ length: 10 }, (_, i) => ({ id: `u${unit}e${i}`, unit })),
   );
 
-  it("la semana 1 usa solo ejercicios de la semana 1", () => {
-    const ids = buildSession({ candidates: candidates.filter((c) => c.week === 1), focusWeek: 1, size: 10, state: {}, today, seed: "a" });
+  it("la unidad 1 usa solo ejercicios de la unidad 1", () => {
+    const ids = buildSession({ candidates: candidates.filter((c) => c.unit === 1), focusUnit: 1, size: 10, state: {}, today, seed: "a" });
     expect(ids).toHaveLength(10);
-    expect(ids.every((id) => id.startsWith("w1"))).toBe(true);
+    expect(ids.every((id) => id.startsWith("u1"))).toBe(true);
   });
 
-  it("práctica: 70 % de la semana y 30 % de anteriores", () => {
-    const ids = buildSession({ candidates, focusWeek: 3, size: 10, state: {}, today, seed: "b" });
+  it("práctica: 70 % de la unidad y 30 % de anteriores", () => {
+    const ids = buildSession({ candidates, focusUnit: 3, size: 10, state: {}, today, seed: "b" });
     expect(ids).toHaveLength(10);
-    expect(ids.filter((id) => id.startsWith("w3"))).toHaveLength(7);
-    expect(ids.filter((id) => !id.startsWith("w3"))).toHaveLength(3);
+    expect(ids.filter((id) => id.startsWith("u3"))).toHaveLength(7);
+    expect(ids.filter((id) => !id.startsWith("u3"))).toHaveLength(3);
     expect(new Set(ids).size).toBe(10);
   });
 
-  it("los errados vencidos de semanas anteriores entran primero", () => {
-    const state = { w1e4: { box: 0, due: "2026-10-05" }, w2e7: { box: 1, due: "2026-10-06" } };
-    const ids = buildSession({ candidates, focusWeek: 3, size: 10, state, today, seed: "c" });
-    expect(ids).toContain("w1e4");
-    expect(ids).toContain("w2e7");
+  it("los errados vencidos de unidades anteriores entran primero", () => {
+    const state = { u1e4: { box: 0, due: "2026-10-05" }, u2e7: { box: 1, due: "2026-10-06" } };
+    const ids = buildSession({ candidates, focusUnit: 3, size: 10, state, today, seed: "c" });
+    expect(ids).toContain("u1e4");
+    expect(ids).toContain("u2e7");
   });
 
   it("la misma semilla da la misma sesión", () => {
-    const a = buildSession({ candidates, focusWeek: 3, size: 10, state: {}, today, seed: "2026-10-06:3" });
-    const b = buildSession({ candidates, focusWeek: 3, size: 10, state: {}, today, seed: "2026-10-06:3" });
+    const a = buildSession({ candidates, focusUnit: 3, size: 10, state: {}, today, seed: "2026-10-06:3" });
+    const b = buildSession({ candidates, focusUnit: 3, size: 10, state: {}, today, seed: "2026-10-06:3" });
     expect(a).toEqual(b);
   });
 
-  it("repaso mixto: mezcla semanas y prioriza vencidos", () => {
-    const state = { w1e2: { box: 0, due: "2026-10-01" } };
-    const ids = buildSession({ candidates, focusWeek: null, size: 10, state, today, seed: "d" });
+  it("repaso mixto: mezcla unidades y prioriza vencidos", () => {
+    const state = { u1e2: { box: 0, due: "2026-10-01" } };
+    const ids = buildSession({ candidates, focusUnit: null, size: 10, state, today, seed: "d" });
     expect(ids).toHaveLength(10);
-    expect(ids).toContain("w1e2");
+    expect(ids).toContain("u1e2");
     expect(new Set(ids.map((i) => i.slice(0, 2))).size).toBeGreaterThan(1);
   });
 });

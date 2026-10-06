@@ -1,6 +1,6 @@
-# Italiano — plan de 12 semanas
+# Italiano — plan adaptativo de 24 unidades
 
-App personal (una sola persona, sin cuenta, sin servidor) para seguir un plan de italiano de 12 semanas. Es una PWA: se instala en la pantalla de inicio del iPhone y todo se guarda en el `localStorage` de ese teléfono.
+App personal (una sola persona, sin cuenta, sin servidor) para seguir un plan de italiano de 24 unidades (unos seis meses). Es una PWA: se instala en la pantalla de inicio del iPhone y todo se guarda en el `localStorage` de ese teléfono.
 
 Hecha con Vite + React + TypeScript. Publicada en GitHub Pages: <https://nmsvd1979.github.io/italiano-plan/>
 
@@ -9,14 +9,23 @@ Hecha con Vite + React + TypeScript. Publicada en GitHub Pages: <https://nmsvd19
 | Actividad | Cómo funciona |
 |---|---|
 | Vocabulario | Quizlet (externo): un set de 5000 palabras y tus tarjetas. |
-| Gramática | 12 lecciones propias (una por semana) con regla, contraste con el español, ejemplos con audio y ejercicios con corrección inmediata. Los errados vuelven con repaso espaciado. |
+| Gramática | Una lección propia por unidad con regla, contraste con el español, ejemplos con audio y ejercicios con corrección inmediata. Los errados vuelven con repaso espaciado. |
 | Pronunciación | Pares mínimos con grabaciones nativas (Lingua Libre) y práctica de repetir en voz alta. |
-| Shadowing | Estudio sobre un video de Easy Italian por semana, con 5 pasos, velocidad, fragmento en bucle y subtítulos que se pueden tapar. |
-| Input | Podcasts en Spotify según la fase. |
-| Checkpoints | Test de fase en las semanas 4, 8 y 12, con puntaje por tema. |
-| Progreso | Racha, progreso semanal y por fase, mapa de calor de 90 días y recordatorio diario. |
+| Shadowing | Estudio sobre un video de Easy Italian por unidad, con 5 pasos, velocidad, fragmento en bucle y subtítulos que se pueden tapar. |
+| Input | Podcasts en Spotify según la fase, con el número de episodio que toca. |
+| Checkpoints | Test de fase en las unidades 4, 8, 12, 16, 20 y 24, con puntaje por tema y nivel (firme / casi / a repasar). |
+| Progreso | Racha, avance por unidad y fase, ritmo (al día, detrás o adelante), fecha estimada de fin, mapa de calor de 90 días y recordatorio diario. |
 
-La fecha de inicio es lo único que se configura: semana, fase y rutina de cada día se calculan solos.
+## Cómo avanza el plan
+
+No depende del calendario. El currículo es una lista ordenada de actividades: cada unidad tiene 6 sesiones, y la app siempre ofrece la primera actividad pendiente.
+
+- **Faltar un día no pierde nada:** mañana sigue lo mismo.
+- **Adelantarse:** en Hoy eliges cuánto tiempo tienes (15, 30, 60 o 90 min) y la app arma el día con lo que sigue; "Si tienes más tiempo" suma más.
+- **Dejar algo para después** lo manda a Pendientes (máximo 3 a la vez, las más antiguas primero).
+- **Orden garantizado:** la práctica nunca va antes de su lección, y el test de fase espera a todas las lecciones de su fase.
+- **Ritmo y proyección:** en Ajustes eliges cuántas sesiones por semana quieres sostener; Hoy dice si vas al día y estima la fecha de fin con tu ritmo real de las últimas dos semanas.
+- **Unidades "pronto":** figuran en el Plan, pero el flujo diario las salta hasta que tengan contenido.
 
 ## Desarrollo
 
@@ -32,21 +41,22 @@ Para abrirla desde el celular en la misma red: `npm run dev -- --host`.
 ## Dónde está cada cosa
 
 ```
-src/content/plan.ts            fases, rutina semanal, recursos externos (editable a mano)
-src/content/grammar/           una lección por semana
-src/content/pronunciation/     weeks.json (pares y palabras) + manifest.json (audio, generado)
-src/content/shadowing.ts       videos por semana y pasos del protocolo
-src/domain/                    lógica pura con tests (fechas, plan, racha, repaso, tests de fase)
+src/content/curriculum.ts      las 24 unidades, fases, objetivos "puedo…" y las 6 sesiones de cada una
+src/content/plan.ts            catálogo de actividades y recursos externos (editable a mano)
+src/content/grammar/           una lección por unidad
+src/content/pronunciation/     units.json (pares y palabras) + manifest.json (audio, generado)
+src/content/shadowing.ts       videos por unidad y pasos del protocolo
+src/domain/                    lógica pura con tests (motor del plan, ritmo, racha, repaso, tests de fase)
 src/features/                  pantallas
 src/theme/                     tokens de color y estilos (claro y oscuro)
 scripts/fetch-lingualibre.mjs  baja el audio nativo y genera las atribuciones
 ```
 
-Para cambiar el plan (actividades, minutos, links) se edita `src/content/plan.ts`; la lógica no hace falta tocarla.
+Para cambiar actividades, minutos o links se edita `src/content/plan.ts`; para agregar una unidad, `src/content/curriculum.ts` (con `ready: true` cuando tenga lección, pronunciación y shadowing).
 
 ## Audio
 
-Las grabaciones de pronunciación son de [Lingua Libre](https://lingualibre.org/) (Wikimedia Commons, licencia CC BY-SA 4.0). Los créditos de cada archivo están en `public/audio/ATTRIBUZIONI.md`. Para agregar palabras: súmalas a `weeks.json` y corre `npm run audio`.
+Las grabaciones de pronunciación son de [Lingua Libre](https://lingualibre.org/) (Wikimedia Commons, licencia CC BY-SA 4.0). Los créditos de cada archivo están en `public/audio/ATTRIBUZIONI.md`. Para agregar palabras: súmalas a `units.json` y corre `npm run audio`.
 
 ## Publicación
 

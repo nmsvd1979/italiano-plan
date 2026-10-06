@@ -1,39 +1,29 @@
 import type { CSSProperties } from "react";
-import { CHECKPOINT_WEEKS, TOTAL_WEEKS } from "../../content/plan";
-import { aggregateProgress } from "../../domain/progress";
-import { weekDateRange } from "../../domain/planState";
-import type { Completions } from "../../domain/storage";
+import { UNITS } from "../../content/curriculum";
+import { useApp } from "../../app/state";
+import { href } from "../../app/route";
+import { currentUnit, unitProgress } from "../../domain/curriculum";
 import { Icon } from "../../ui/Icon";
 
-interface Props {
-  startDate: Date;
-  completions: Completions;
-  currentWeek: number;
-}
-
-/** 12 barras, una por semana: llena según lo completado; ★ marca los checkpoints. */
-export function Tracker({ startDate, completions, currentWeek }: Props) {
-  const cells = Array.from({ length: TOTAL_WEEKS }, (_, i) => {
-    const week = i + 1;
-    const past = week <= currentWeek;
-    const { planned, done } = past
-      ? aggregateProgress(completions, weekDateRange(startDate, week))
-      : { planned: 0, done: 0 };
-    const pct = planned > 0 ? done / planned : 0;
+/** 24 barras, una por unidad: llena según lo avanzado; ★ marca los checkpoints; punteada = aún sin contenido. */
+export function Tracker() {
+  const { steps, progress } = useApp();
+  const current = currentUnit(steps, progress);
+  const cells = UNITS.map((unit) => {
+    const { done, total } = unit.ready ? unitProgress(unit, steps, progress) : { done: 0, total: 0 };
+    const pct = total > 0 ? done / total : 0;
     const cls = [
       "tracker-cell",
-      week === currentWeek ? "current" : "",
-      week > currentWeek ? "future" : "",
-      week < currentWeek && done === 0 ? "missed" : "",
+      unit.id === current?.id ? "current" : "",
+      unit.ready ? "" : "soon",
     ].filter(Boolean).join(" ");
     return (
-      <div key={week} className={cls} style={{ "--fill": `${Math.round(pct * 100)}%` } as CSSProperties}
-        title={`Semana ${week}${CHECKPOINT_WEEKS[week] ? " · checkpoint" : ""}`}>
-        {CHECKPOINT_WEEKS[week] && (
-          <span className="tracker-star"><Icon name="star" size={11} /></span>
-        )}
-      </div>
+      <a key={unit.id} className={cls} href={href(`/unidad/${unit.id}`)} style={{ "--fill": `${Math.round(pct * 100)}%` } as CSSProperties}
+        title={`Unidad ${unit.n}${unit.checkpoint ? " · checkpoint" : ""}${unit.ready ? "" : " · pronto"}`}
+        aria-label={`Unidad ${unit.n}: ${unit.title}`}>
+        {unit.checkpoint && <span className="tracker-star"><Icon name="star" size={11} /></span>}
+      </a>
     );
   });
-  return <div className="tracker" role="img" aria-label={`Semana ${currentWeek} de ${TOTAL_WEEKS}`}>{cells}</div>;
+  return <div className="tracker" role="group" aria-label={`Unidad ${current?.n ?? UNITS.length} de ${UNITS.length}`}>{cells}</div>;
 }

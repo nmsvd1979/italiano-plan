@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
+import { getUnit } from "../../content/curriculum";
 import { SHADOWING, STEPS } from "../../content/shadowing";
 import { getShadowing, saveShadowing } from "../../domain/storage";
 import { isValidSegment, parseYouTubeId } from "../../domain/youtube";
@@ -14,9 +15,10 @@ function nearest(rate: number, available: number[]): number {
   return available.reduce((best, r) => (Math.abs(r - rate) < Math.abs(best - rate) ? r : best), available[0] ?? 1);
 }
 
-export function ShadowingScreen({ week }: { week: number }) {
-  const { completeIfScheduled } = useApp();
-  const videos = SHADOWING[Math.min(12, Math.max(1, week))];
+export function ShadowingScreen({ unit }: { unit: string }) {
+  const { completeActivity } = useApp();
+  const videos = SHADOWING[unit] ?? SHADOWING.u01;
+  const meta = getUnit(unit);
 
   const [videoId, setVideoId] = useState(videos.main.id);
   const [pasted, setPasted] = useState("");
@@ -143,7 +145,7 @@ export function ShadowingScreen({ week }: { week: number }) {
     } else setPasteError(true);
   };
   const finish = () => {
-    completeIfScheduled("shadowing");
+    completeActivity("shadow", unit);
     window.location.hash = "#/";
   };
 
@@ -157,7 +159,7 @@ export function ShadowingScreen({ week }: { week: number }) {
           <Icon name="arrowLeft" size={20} />
         </a>
         <div>
-          <div className="eyebrow">Semana {week} · Shadowing</div>
+          <div className="eyebrow">Unidad {meta?.n} · Shadowing</div>
           <h1 className="title">Imita lo que oyes</h1>
         </div>
       </header>

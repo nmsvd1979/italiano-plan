@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
+import { UNITS } from "../../content/curriculum";
 import { RESOURCES } from "../../content/plan";
 import { toISODate } from "../../domain/dates";
 import type { ThemeChoice } from "../../domain/storage";
@@ -30,7 +31,7 @@ function reminderStatus(enabled: boolean, time: string): string {
 }
 
 export function Settings() {
-  const { startDate, settings, setStart, patchSettings, resetProgress, resetAll } = useApp();
+  const { startDate, settings, progress, setStart, setStartUnit, patchSettings, resetProgress, resetAll } = useApp();
   const [, force] = useState(0);
 
   const enableReminder = async () => {
@@ -51,12 +52,28 @@ export function Settings() {
 
       <section className="card stack">
         <div className="field">
-          <label htmlFor="start">Fecha de inicio del plan</label>
+          <label htmlFor="start">Fecha en que empezaste</label>
           <input
             id="start" className="input" type="date"
             value={startDate ? toISODate(startDate) : ""}
             onChange={(e) => e.target.value && setStart(e.target.value)}
           />
+        </div>
+        <div className="field">
+          <label htmlFor="spw">Ritmo: sesiones por semana</label>
+          <select id="spw" className="input" value={settings.sessionsPerWeek}
+            onChange={(e) => patchSettings({ sessionsPerWeek: Number(e.target.value) })}>
+            {[3, 4, 5, 6, 7].map((n) => <option key={n} value={n}>{n} por semana</option>)}
+          </select>
+          <p className="sub">Solo sirve para decirte si vas al día y estimar cuándo terminas. Si no estudias un día, el plan no se mueve.</p>
+        </div>
+        <div className="field">
+          <label htmlFor="start-unit">Empezar desde la unidad</label>
+          <select id="start-unit" className="input" value={progress.startUnit}
+            onChange={(e) => setStartUnit(Number(e.target.value))}>
+            {UNITS.map((u) => <option key={u.id} value={u.n}>{u.n}. {u.title}{u.ready ? "" : " (pronto)"}</option>)}
+          </select>
+          <p className="sub">Las unidades anteriores se dan por sabidas: no se ofrecen y sus lecciones cuentan para el repaso.</p>
         </div>
         <div className="field">
           <label>Apariencia</label>

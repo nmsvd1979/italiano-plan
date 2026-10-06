@@ -31,7 +31,8 @@ export function recordResult(state: ReviewState, id: string, correct: boolean, t
 
 export interface Candidate {
   id: string;
-  week: number;
+  /** Número de la unidad del ejercicio (4 para "u04"). */
+  unit: number;
 }
 
 function hash(str: string): number {
@@ -64,10 +65,10 @@ export function shuffle<T>(items: T[], rand: () => number): T[] {
 }
 
 interface SessionArgs {
-  /** Todos los ejercicios elegibles (de la semana actual y anteriores). */
+  /** Todos los ejercicios elegibles (de la unidad actual y anteriores). */
   candidates: Candidate[];
-  /** Semana a practicar. null = repaso mixto sin foco. */
-  focusWeek: number | null;
+  /** Unidad a practicar. null = repaso mixto sin foco. */
+  focusUnit: number | null;
   size: number;
   state: ReviewState;
   today: Date;
@@ -76,10 +77,10 @@ interface SessionArgs {
 }
 
 /**
- * Práctica: ~70 % de la semana en foco y ~30 % de semanas anteriores (errados vencidos primero).
- * Repaso mixto: mezcla de todas las semanas, con los errados vencidos primero.
+ * Práctica: ~70 % de la unidad en foco y ~30 % de unidades anteriores (errados vencidos primero).
+ * Repaso mixto: mezcla de todas las unidades, con los errados vencidos primero.
  */
-export function buildSession({ candidates, focusWeek, size, state, today, seed }: SessionArgs): string[] {
+export function buildSession({ candidates, focusUnit, size, state, today, seed }: SessionArgs): string[] {
   const rand = rng(seed);
   const todayISO = toISODate(today);
   const isDue = (c: Candidate) => !!state[c.id] && state[c.id].due <= todayISO;
@@ -87,12 +88,12 @@ export function buildSession({ candidates, focusWeek, size, state, today, seed }
   const unique = (list: Candidate[]) => [...new Map(list.map((c) => [c.id, c])).values()];
 
   let picked: Candidate[];
-  if (focusWeek === null) {
+  if (focusUnit === null) {
     const due = candidates.filter(isDue).sort(byDue);
     picked = unique([...due, ...shuffle(candidates, rand)]).slice(0, size);
   } else {
-    const focus = candidates.filter((c) => c.week === focusWeek);
-    const earlier = candidates.filter((c) => c.week < focusWeek);
+    const focus = candidates.filter((c) => c.unit === focusUnit);
+    const earlier = candidates.filter((c) => c.unit < focusUnit);
     const reviewSlots = earlier.length > 0 ? Math.round(size * 0.3) : 0;
 
     const review = unique([...earlier.filter(isDue).sort(byDue), ...shuffle(earlier, rand)]).slice(0, reviewSlots);

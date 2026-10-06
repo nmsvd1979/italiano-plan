@@ -3,6 +3,8 @@ import { useRoute } from "./app/route";
 import { useReminder } from "./app/useReminder";
 import { LessonScreen } from "./features/grammar/LessonScreen";
 import { PracticeScreen } from "./features/grammar/PracticeScreen";
+import { PlanScreen } from "./features/plan/PlanScreen";
+import { UnitScreen } from "./features/plan/UnitScreen";
 import { PronunciationScreen } from "./features/pronunciation/PronunciationScreen";
 import { ShadowingScreen } from "./features/shadowing/ShadowingScreen";
 import { PhaseTestScreen } from "./features/checkpoint/PhaseTestScreen";
@@ -11,25 +13,31 @@ import { Settings } from "./features/settings/Settings";
 import { Setup } from "./features/setup/Setup";
 import { Today } from "./features/today/Today";
 
+const UNIT = "(u\\d{2})";
+
 function Screens() {
-  const { startDate, plan } = useApp();
+  const { startDate } = useApp();
   const route = useRoute();
   useReminder();
 
   if (!startDate) return <Setup />;
   if (route === "/progreso") return <Progress />;
   if (route === "/ajustes") return <Settings />;
-  const lesson = route.match(/^\/gramatica\/(\d+)$/);
-  if (lesson) return <LessonScreen key={`lesson-${lesson[1]}`} week={Number(lesson[1])} />;
-  const practice = route.match(/^\/practica\/(\d+)$/);
-  if (practice) return <PracticeScreen key={`practice-${practice[1]}`} mode="practice" week={Number(practice[1])} />;
-  const pron = route.match(/^\/pronunciacion\/(\d+)$/);
-  if (pron) return <PronunciationScreen key={`pron-${pron[1]}`} week={Number(pron[1])} />;
-  const shadow = route.match(/^\/shadowing\/(\d+)$/);
-  if (shadow) return <ShadowingScreen key={`shadow-${shadow[1]}`} week={Number(shadow[1])} />;
-  const test = route.match(/^\/test\/([123])$/);
+  if (route === "/plan") return <PlanScreen />;
+  const unit = route.match(new RegExp(`^/unidad/${UNIT}$`));
+  if (unit) return <UnitScreen key={unit[1]} id={unit[1]} />;
+  const lesson = route.match(new RegExp(`^/gramatica/${UNIT}$`));
+  if (lesson) return <LessonScreen key={`lesson-${lesson[1]}`} unit={lesson[1]} />;
+  const practice = route.match(new RegExp(`^/practica/${UNIT}$`));
+  if (practice) return <PracticeScreen key={`practice-${practice[1]}`} mode="practice" unit={practice[1]} />;
+  const pron = route.match(new RegExp(`^/pronunciacion/${UNIT}$`));
+  if (pron) return <PronunciationScreen key={`pron-${pron[1]}`} unit={pron[1]} />;
+  const shadow = route.match(new RegExp(`^/shadowing/${UNIT}$`));
+  if (shadow) return <ShadowingScreen key={`shadow-${shadow[1]}`} unit={shadow[1]} />;
+  const test = route.match(/^\/test\/([1-6])$/);
   if (test) return <PhaseTestScreen key={`test-${test[1]}`} phase={Number(test[1])} />;
-  if (route === "/repaso") return <PracticeScreen key="review" mode="review" week={plan?.weekNumber ?? 1} />;
+  if (route === "/repaso") return <PracticeScreen key="review" mode="review" />;
+  if (route === "/repaso-pendiente") return <PracticeScreen key="due" mode="due" />;
   return <Today />;
 }
 

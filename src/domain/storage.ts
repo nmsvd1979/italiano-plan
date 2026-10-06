@@ -16,6 +16,10 @@ export interface Settings {
   reminderTime: string;
   reminderEnabled: boolean;
   theme: ThemeChoice;
+  /** Ritmo que quieres sostener; solo afecta al aviso de ritmo y a la fecha estimada. */
+  sessionsPerWeek: number;
+  /** Tiempo que dices tener hoy; se recuerda el último valor. */
+  dailyMinutes: number;
 }
 
 export const KEYS = {
@@ -26,6 +30,9 @@ export const KEYS = {
   review: "italianPlan.review",
   shadowing: "italianPlan.shadowing",
   phaseTests: "italianPlan.phaseTests",
+  skipped: "italianPlan.skipped",
+  startUnit: "italianPlan.startUnit",
+  canDo: "italianPlan.canDo",
 } as const;
 
 const defaultStore = (): KV => window.localStorage;
@@ -64,8 +71,48 @@ export function setCompletion(
   return all;
 }
 
+export function removeKeyEverywhere(key: string, store: KV = defaultStore()): Completions {
+  const all = getCompletions(store);
+  for (const iso of Object.keys(all)) {
+    delete all[iso][key];
+    if (Object.keys(all[iso]).length === 0) delete all[iso];
+  }
+  store.setItem(KEYS.completions, JSON.stringify(all));
+  return all;
+}
+
+/** Claves de pasos que dejaste para después. */
+export function getSkipped(store: KV = defaultStore()): string[] {
+  return readJSON<string[]>(store, KEYS.skipped, []);
+}
+
+export function saveSkipped(keys: string[], store: KV = defaultStore()): void {
+  store.setItem(KEYS.skipped, JSON.stringify(keys));
+}
+
+/** Unidades anteriores a esta se dan por sabidas. */
+export function getStartUnit(store: KV = defaultStore()): number {
+  const n = Number(store.getItem(KEYS.startUnit));
+  return Number.isInteger(n) && n >= 1 ? n : 1;
+}
+
+export function saveStartUnit(n: number, store: KV = defaultStore()): void {
+  store.setItem(KEYS.startUnit, String(n));
+}
+
+/** Autoevaluación "Puedo…": id de unidad → índices de los enunciados marcados. */
+export type CanDo = Record<string, number[]>;
+
+export function getCanDo(store: KV = defaultStore()): CanDo {
+  return readJSON<CanDo>(store, KEYS.canDo, {});
+}
+
+export function saveCanDo(value: CanDo, store: KV = defaultStore()): void {
+  store.setItem(KEYS.canDo, JSON.stringify(value));
+}
+
 export function getSettings(store: KV = defaultStore()): Settings {
-  return { reminderTime: "20:00", reminderEnabled: false, theme: "system" as ThemeChoice, ...readJSON<Partial<Settings>>(store, KEYS.settings, {}) };
+  return { reminderTime: "20:00", reminderEnabled: false, theme: "system" as ThemeChoice, sessionsPerWeek: 6, dailyMinutes: 30, ...readJSON<Partial<Settings>>(store, KEYS.settings, {}) };
 }
 
 export function saveSettings(patch: Partial<Settings>, store: KV = defaultStore()): Settings {
@@ -118,9 +165,12 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS.review);
   store.removeItem(KEYS.shadowing);
   store.removeItem(KEYS.phaseTests);
+  store.removeItem(KEYS.skipped);
+  store.removeItem(KEYS.canDo);
 }
 
 export function clearAll(store: KV = defaultStore()): void {
   clearProgress(store);
   store.removeItem(KEYS.startDate);
+  store.removeItem(KEYS.startUnit);
 }

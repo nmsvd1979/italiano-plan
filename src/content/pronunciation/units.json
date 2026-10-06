@@ -1,0 +1,538 @@
+{
+  "gloss": {
+    "chi": "quién",
+    "ci": "nos / allí",
+    "cane": "perro",
+    "cena": "cena",
+    "gatto": "gato",
+    "gelato": "helado",
+    "ghiaccio": "hielo",
+    "giacca": "chaqueta",
+    "palla": "pelota",
+    "pala": "pala",
+    "nonno": "abuelo",
+    "nono": "noveno",
+    "sette": "siete",
+    "sete": "sed",
+    "pena": "pena",
+    "penna": "pluma",
+    "anno": "año",
+    "ano": "ano",
+    "capello": "cabello",
+    "cappello": "sombrero",
+    "caro": "querido / caro",
+    "carro": "carro",
+    "fato": "destino",
+    "fatto": "hecho",
+    "casa": "casa",
+    "cassa": "caja",
+    "sera": "tarde / noche",
+    "serra": "invernadero",
+    "papa": "el Papa",
+    "pappa": "papilla",
+    "scena": "escena",
+    "gli": "a él / los",
+    "li": "allí",
+    "sci": "esquí",
+    "pazzo": "loco",
+    "passo": "paso",
+    "mezzo": "medio",
+    "messo": "puesto",
+    "notte": "noche",
+    "note": "notas",
+    "sonno": "sueño",
+    "sono": "soy / son",
+    "tutta": "toda",
+    "tuta": "buzo",
+    "nonna": "abuela",
+    "nona": "novena",
+    "rosa": "rosa",
+    "rossa": "roja",
+    "pozzo": "pozo",
+    "posso": "puedo",
+    "cento": "cien",
+    "venti": "veinte",
+    "vento": "viento",
+    "otto": "ocho",
+    "orto": "huerto",
+    "sei": "seis / eres",
+    "sai": "sabes",
+    "giallo": "amarillo",
+    "gallo": "gallo",
+    "rosso": "rojo",
+    "quanto": "cuánto",
+    "tanto": "tanto",
+    "mai": "nunca",
+    "mia": "mía",
+    "che": "qué / que",
+    "pane": "pan",
+    "panna": "crema"
+  },
+  "units": [
+    {
+      "unit": "u01",
+      "title": "C y G: suaves y duras",
+      "tip": "*C* y *g* suenan suaves ante *e / i* (*cena*, *gelato*) y duras ante *a / o / u* o con *h* (*chi*, *ghiaccio*). *Ci* suena como \"chi\" de \"chino\"; *chi* como \"qui\" de \"quiso\". El error típico es leer *gelato* con jota.",
+      "pairs": [
+        [
+          "chi",
+          "ci"
+        ],
+        [
+          "cane",
+          "cena"
+        ],
+        [
+          "gatto",
+          "gelato"
+        ],
+        [
+          "ghiaccio",
+          "giacca"
+        ]
+      ],
+      "words": [
+        "cena",
+        "cinema",
+        "gelato",
+        "giorno",
+        "chiesa",
+        "ghiaccio",
+        "ciao"
+      ]
+    },
+    {
+      "unit": "u02",
+      "title": "Consonantes dobles (I)",
+      "tip": "La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído.",
+      "pairs": [
+        [
+          "palla",
+          "pala"
+        ],
+        [
+          "nonno",
+          "nono"
+        ],
+        [
+          "sette",
+          "sete"
+        ],
+        [
+          "pena",
+          "penna"
+        ],
+        [
+          "anno",
+          "ano"
+        ]
+      ],
+      "words": [
+        "palla",
+        "nonno",
+        "sette",
+        "penna",
+        "anno",
+        "mamma"
+      ]
+    },
+    {
+      "unit": "u03",
+      "title": "Números: C suave, dobles y acento",
+      "tip": "En los números aparecen sonidos que no son idénticos al español: *cinque* y *cento* llevan *c* suave (como la *ch* de *chico*), y *sette*, *otto* y *mille* tienen consonante doble: alárgala. Compara *sette* (siete) con *sete* (sed) y *venti* (veinte) con *vento* (viento).",
+      "pairs": [
+        [
+          "sette",
+          "sete"
+        ],
+        [
+          "venti",
+          "vento"
+        ],
+        [
+          "otto",
+          "orto"
+        ],
+        [
+          "sei",
+          "sai"
+        ]
+      ],
+      "words": [
+        "tre",
+        "cinque",
+        "dodici",
+        "quindici",
+        "quaranta",
+        "cinquanta",
+        "mille",
+        "cento"
+      ]
+    },
+    {
+      "unit": "u04",
+      "title": "Consonantes dobles (II)",
+      "tip": "Sigue con las dobles. Fíjate en cuánto dura la consonante y no solo en la vocal: *caro* (querido) frente a *carro* (carro), *casa* (casa) frente a *cassa* (caja).",
+      "pairs": [
+        [
+          "capello",
+          "cappello"
+        ],
+        [
+          "caro",
+          "carro"
+        ],
+        [
+          "casa",
+          "cassa"
+        ]
+      ],
+      "words": [
+        "cappello",
+        "carro",
+        "cassa"
+      ]
+    },
+    {
+      "unit": "u05",
+      "title": "S + consonante",
+      "tip": "En italiano *s* + consonante se pronuncia pegada, sin una *e* delante: *studente*, no \"estudente\"; *Spagna*, no \"España\". Es un error muy común en hispanohablantes.",
+      "pairs": [
+        [
+          "palla",
+          "pala"
+        ],
+        [
+          "caro",
+          "carro"
+        ],
+        [
+          "chi",
+          "ci"
+        ]
+      ],
+      "words": [
+        "studente",
+        "scuola",
+        "Spagna",
+        "stazione",
+        "spesa",
+        "sport",
+        "strada",
+        "specchio"
+      ]
+    },
+    {
+      "unit": "u06",
+      "title": "Colores y ropa: CH, GI y dobles",
+      "tip": "*ch* y *gh* delante de *e/i* suenan como *k* y *g* dura: *chi* (quién), distinto de *ci* (nos/allí). En cambio *gi* es suave: *giallo* (amarillo) frente a *gallo* (g dura). Las dobles de *rosso*, *azzurro* y *cappello* se alargan: *cappello* (sombrero) frente a *capello* (cabello).",
+      "pairs": [
+        [
+          "giallo",
+          "gallo"
+        ],
+        [
+          "cappello",
+          "capello"
+        ],
+        [
+          "chi",
+          "ci"
+        ]
+      ],
+      "words": [
+        "rosso",
+        "bianco",
+        "nero",
+        "verde",
+        "azzurro",
+        "maglietta",
+        "questo",
+        "quello"
+      ]
+    },
+    {
+      "unit": "u07",
+      "title": "SC, GLI y GN",
+      "tip": "*Sc* ante *e / i* suena como \"sh\" (*pesce*, *scena*). *Gli* es una *l* palatal, como la \"ll\" de algunas regiones (*famiglia*). *Gn* suena como \"ñ\" (*gnocchi*, *bagno*).",
+      "pairs": [
+        [
+          "gli",
+          "li"
+        ],
+        [
+          "sci",
+          "ci"
+        ]
+      ],
+      "words": [
+        "pesce",
+        "famiglia",
+        "bagno",
+        "sciarpa",
+        "figlio"
+      ]
+    },
+    {
+      "unit": "u08",
+      "title": "Preguntar: QU y vocal final",
+      "tip": "En *quando*, *quanto* y *quanti* la *u* se oye (*kw*): no digas *kando*. *Chi* (quién) y *che* (qué) solo se distinguen por la vocal, y *perché* lleva el acento fuerte al final: *perKÉ*. Compara *mai* (nunca) con *mia* (mía).",
+      "pairs": [
+        [
+          "quanto",
+          "tanto"
+        ],
+        [
+          "mai",
+          "mia"
+        ],
+        [
+          "chi",
+          "che"
+        ]
+      ],
+      "words": [
+        "quando",
+        "dove",
+        "come",
+        "perché",
+        "sempre",
+        "spesso",
+        "niente",
+        "nessuno"
+      ]
+    },
+    {
+      "unit": "u09",
+      "title": "La Z",
+      "tip": "La *z* italiana suena /ts/ (*pizza*, *grazie*) o /dz/ (*zero*, *zona*). No es la \"z\" española ni una \"s\". Dentro de la palabra suele ser doble: *pizza*, *mezzo*.",
+      "pairs": [
+        [
+          "pazzo",
+          "passo"
+        ],
+        [
+          "gli",
+          "li"
+        ]
+      ],
+      "words": [
+        "pizza",
+        "grazie",
+        "zero",
+        "zio",
+        "lezione",
+        "ragazzo",
+        "azione",
+        "mezzo"
+      ]
+    },
+    {
+      "unit": "u10",
+      "title": "Dobles en los participios",
+      "tip": "Los participios del passato prossimo más usados llevan consonante doble: *fatto, detto, messo, letto, scritto*. Mantén el sonido largo para no confundirlos con otras palabras.",
+      "pairs": [
+        [
+          "sette",
+          "sete"
+        ],
+        [
+          "sonno",
+          "sono"
+        ]
+      ],
+      "words": [
+        "detto",
+        "letto",
+        "scritto",
+        "preso",
+        "aperto",
+        "visto"
+      ]
+    },
+    {
+      "unit": "u11",
+      "title": "El acento de la palabra",
+      "tip": "La mayoría de las palabras llevan el acento en la penúltima sílaba. Hay esdrújulas sin tilde (*TElefono*, *TAvolo*) y la tilde final marca el acento en la última sílaba (*città*, *perché*, *caffè*).",
+      "pairs": [
+        [
+          "caro",
+          "carro"
+        ],
+        [
+          "casa",
+          "cassa"
+        ]
+      ],
+      "words": [
+        "telefono",
+        "macchina",
+        "tavolo",
+        "città",
+        "perché",
+        "università",
+        "caffè"
+      ]
+    },
+    {
+      "unit": "u12",
+      "title": "Comparar: GLI, GN y dobles",
+      "tip": "*Gli* es una *l* palatal, como la \"ll\" de algunas regiones de España o de los Andes: *gli* (a él / los) frente a *li* (allí). Las dobles se alargan: *pane* (pan) frente a *panna* (crema). Escucha *migliore* y *formaggio*, donde *gli* y *gg* se combinan con la vocal.",
+      "pairs": [
+        [
+          "pane",
+          "panna"
+        ],
+        [
+          "gli",
+          "li"
+        ]
+      ],
+      "words": [
+        "più",
+        "migliore",
+        "peggiore",
+        "buono",
+        "bello",
+        "caro",
+        "pomodoro",
+        "formaggio"
+      ]
+    },
+    {
+      "unit": "u13",
+      "title": "Repaso: dobles y S",
+      "tip": "Repaso de consonantes dobles. Además, la *s* entre vocales suele sonar sonora (*casa*, *rosa*, *museo*), como una \"s\" vibrada. En el sur se pronuncia sorda; ambas se entienden.",
+      "pairs": [
+        [
+          "palla",
+          "pala"
+        ],
+        [
+          "nonno",
+          "nono"
+        ],
+        [
+          "capello",
+          "cappello"
+        ],
+        [
+          "caro",
+          "carro"
+        ],
+        [
+          "casa",
+          "cassa"
+        ]
+      ],
+      "words": [
+        "rosa",
+        "cosa",
+        "casa",
+        "museo",
+        "paese",
+        "esame"
+      ]
+    },
+    {
+      "unit": "u14",
+      "title": "Repaso: C/G, SC/GLI y Z",
+      "tip": "Repaso de los contrastes de las semanas 1, 5 y 6.",
+      "pairs": [
+        [
+          "gli",
+          "li"
+        ],
+        [
+          "sci",
+          "ci"
+        ],
+        [
+          "pazzo",
+          "passo"
+        ],
+        [
+          "chi",
+          "ci"
+        ]
+      ],
+      "words": [
+        "gelato",
+        "pesce",
+        "famiglia",
+        "pizza",
+        "ghiaccio"
+      ]
+    },
+    {
+      "unit": "u15",
+      "title": "Repaso espaciado",
+      "tip": "Los contrastes que más cuestan, otra vez. Escucha con atención la duración de la consonante.",
+      "pairs": [
+        [
+          "sette",
+          "sete"
+        ],
+        [
+          "pena",
+          "penna"
+        ],
+        [
+          "sonno",
+          "sono"
+        ]
+      ],
+      "words": [
+        "studente",
+        "scuola",
+        "Spagna",
+        "stazione",
+        "caffè",
+        "città"
+      ]
+    },
+    {
+      "unit": "u20",
+      "title": "Repaso final",
+      "tip": "Última vuelta con todo lo visto.",
+      "pairs": [
+        [
+          "palla",
+          "pala"
+        ],
+        [
+          "caro",
+          "carro"
+        ],
+        [
+          "chi",
+          "ci"
+        ],
+        [
+          "gli",
+          "li"
+        ],
+        [
+          "pazzo",
+          "passo"
+        ],
+        [
+          "casa",
+          "cassa"
+        ],
+        [
+          "nonno",
+          "nono"
+        ]
+      ],
+      "words": [
+        "cena",
+        "gelato",
+        "pizza",
+        "pesce",
+        "studente",
+        "perché"
+      ]
+    }
+  ]
+}

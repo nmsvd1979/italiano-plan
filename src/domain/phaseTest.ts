@@ -3,22 +3,22 @@ import { rng, shuffle } from "./review";
 export const SOUND_TOPIC = "sonidos";
 export const WEAK_BELOW = 0.6;
 
-/** Elige `perWeek` ejercicios de cada semana de la fase y los mezcla. Misma semilla = mismo test. */
+/** Elige `perUnit` ejercicios de cada unidad de la fase y los mezcla. Misma semilla = mismo test. */
 export function pickGrammar(
-  exercises: { id: string; week: number }[],
-  weeks: number[],
-  perWeek: number,
+  exercises: { id: string; unit: number }[],
+  units: number[],
+  perUnit: number,
   seed: string,
 ): string[] {
   const rand = rng(seed);
-  const chosen = weeks.flatMap((w) =>
-    shuffle(exercises.filter((e) => e.week === w), rand).slice(0, perWeek).map((e) => e.id),
+  const chosen = units.flatMap((u) =>
+    shuffle(exercises.filter((e) => e.unit === u), rand).slice(0, perUnit).map((e) => e.id),
   );
   return shuffle(chosen, rand);
 }
 
 export interface Outcome {
-  /** "w4" para gramática de la semana 4, o SOUND_TOPIC. */
+  /** "u04" para gramática de la unidad 4, o SOUND_TOPIC. */
   topic: string;
   correct: boolean;
 }

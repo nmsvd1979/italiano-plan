@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
-import { startOfDay, toISODate } from "../domain/dates";
-import { planStateForDate } from "../domain/planState";
+import { diffInDays, startOfDay, toISODate } from "../domain/dates";
 import { hasAnyCompletion } from "../domain/progress";
 import { KEYS } from "../domain/storage";
 import { useApp } from "./state";
@@ -23,8 +22,7 @@ export function useReminder(): void {
 
       const now = new Date();
       const today = startOfDay(now);
-      const state = planStateForDate(start, today);
-      if (state.notStarted || state.finished) return;
+      if (diffInDays(today, start) < 0) return;
 
       const hhmm = `${String(now.getHours()).padStart(2, "0")}:${String(now.getMinutes()).padStart(2, "0")}`;
       if (hhmm < s.reminderTime) return;

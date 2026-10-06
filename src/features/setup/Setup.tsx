@@ -12,14 +12,14 @@ export function Setup() {
       <Icon name="target" size={30} />
       <h1 className="title">Empecemos</h1>
       <p className="sub">
-        Elige el día en que arranca tu plan de doce semanas. Desde ahí la app calcula sola en qué semana y fase estás, cada día.
+        Son 24 unidades, unos seis meses. No hay semanas fijas: el plan avanza contigo. Si un día no estudias, mañana sigue lo mismo; si tienes más tiempo, sigues con lo que viene. La fecha solo sirve para medir tu ritmo.
       </p>
       <div className="field">
-        <label htmlFor="start">Fecha de inicio</label>
+        <label htmlFor="start">Fecha en que empiezas</label>
         <input id="start" className="input" type="date" value={value} onChange={(e) => setValue(e.target.value)} />
       </div>
       <button className="btn primary block" type="button" disabled={!value} onClick={() => setStart(value)}>
-        Empezar el plan
+        Empezar
       </button>
     </div>
   );

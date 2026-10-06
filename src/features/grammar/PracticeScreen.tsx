@@ -1,38 +1,47 @@
 import { useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
-import { exercisesUpTo, findExercise } from "../../content/grammar";
+import { findExercise, unitNumber } from "../../content/grammar";
+import { getUnit } from "../../content/curriculum";
 import { toISODate } from "../../domain/dates";
 import { Grade } from "../../domain/grading";
+import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
 import { ReviewState, buildSession, recordResult } from "../../domain/review";
 import { getReview, saveReview } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
 import { ExerciseRunner, RunnerItem, Summary } from "./ExerciseRunner";
 
 interface Props {
-  mode: "practice" | "review";
-  /** Semana a practicar (solo en modo práctica). */
-  week: number;
+  /** practice: una unidad · review: repaso mixto de lo visto · due: solo los errados que ya pueden volver. */
+  mode: "practice" | "review" | "due";
+  /** Unidad a practicar (solo en modo práctica). */
+  unit?: string;
 }
 
 const SIZE = 10;
+const DUE_SIZE = 8;
 
-export function PracticeScreen({ mode, week }: Props) {
-  const { today, plan, completeIfScheduled } = useApp();
+export function PracticeScreen({ mode, unit = "" }: Props) {
+  const { today, progress, completeActivity } = useApp();
+  const meta = getUnit(unit);
   const [review, setReview] = useState<ReviewState>(() => getReview());
   const [summary, setSummary] = useState<Summary | null>(null);
 
   const [items] = useState<RunnerItem[]>(() => {
-    const upTo = mode === "practice" ? week : plan?.weekNumber ?? week;
-    const candidates = exercisesUpTo(upTo).map(({ id, week: w }) => ({ id, week: w }));
-    const ids = buildSession({
-      candidates,
-      focusWeek: mode === "practice" ? week : null,
-      size: SIZE,
-      state: getReview(),
-      today,
-      seed: `${toISODate(today)}:${mode}:${week}`,
-    });
+    const learned = learnedUnits(progress);
+    // Practicar una unidad por adelantado (sin haber hecho la lección) igual la incluye.
+    const units = mode === "practice" ? [...new Set([...learned, unit])].filter((u) => unitNumber(u) <= unitNumber(unit)) : learned;
+    const candidates = candidatesOf(units);
+    const ids = mode === "due"
+      ? dueCandidates(candidates, getReview(), today).slice(0, DUE_SIZE).map((c) => c.id)
+      : buildSession({
+        candidates,
+        focusUnit: mode === "practice" ? unitNumber(unit) : null,
+        size: SIZE,
+        state: getReview(),
+        today,
+        seed: `${toISODate(today)}:${mode}:${unit}`,
+      });
     return ids.flatMap((id) => {
       const found = findExercise(id);
       return found ? [{ id, exercise: found.exercise }] : [];
@@ -47,7 +56,8 @@ export function PracticeScreen({ mode, week }: Props) {
   };
 
   const onFinish = (s: Summary) => {
-    completeIfScheduled(mode === "practice" ? "grammar_practice" : "grammar_review");
+    if (mode === "practice") completeActivity("practice", unit);
+    else if (mode === "review") completeActivity("review");
     setSummary(s);
   };
 
@@ -58,8 +68,8 @@ export function PracticeScreen({ mode, week }: Props) {
           <Icon name="arrowLeft" size={20} />
         </a>
         <div>
-          <div className="eyebrow">{mode === "practice" ? `Semana ${week} · Práctica` : "Repaso mixto"}</div>
-          <h1 className="title">{mode === "practice" ? "Práctica de gramática" : "Repaso de todo lo visto"}</h1>
+          <div className="eyebrow">{mode === "practice" ? `Unidad ${meta?.n} · Práctica` : mode === "review" ? "Repaso mixto" : "Repaso pendiente"}</div>
+          <h1 className="title">{mode === "practice" ? "Práctica de gramática" : mode === "review" ? "Repaso de todo lo visto" : "Lo que fallaste"}</h1>
         </div>
       </header>
 
@@ -81,7 +91,11 @@ export function PracticeScreen({ mode, week }: Props) {
             <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
           </div>
         ) : items.length === 0 ? (
-          <p className="sub">No hay ejercicios para esta semana.</p>
+          <p className="sub">
+            {mode === "practice"
+              ? "Esta unidad todavía no tiene ejercicios."
+              : "Todavía no hay nada para repasar. Cuando hagas lecciones y falles ejercicios, aparecen aquí."}
+          </p>
         ) : (
           <ExerciseRunner items={items} onAnswer={onAnswer} onFinish={onFinish} finishLabel="Ver resultado" />
         )}

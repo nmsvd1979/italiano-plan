@@ -1,19 +1,14 @@
-// Configuración del plan: fases, rutina semanal y recursos externos.
-// Los links externos son https normales (nada de esquemas nativos): así el sistema
-// decide si abre la app instalada o el navegador.
+// Recursos externos y catálogo de actividades. El currículo (unidades, sesiones) está en curriculum.ts.
+// Los links externos son https normales (nada de esquemas nativos): así el sistema decide si abre
+// la app instalada o el navegador.
 
 export type IconKey =
-  | "cards" | "headphones" | "mic" | "book" | "ear" | "repeat" | "target" | "sound";
+  | "cards" | "headphones" | "mic" | "book" | "ear" | "repeat" | "target" | "sound"
+  | "pen" | "list" | "chat";
 
 export type ActivityKind =
-  | "quizlet"
-  | "pronunciation"
-  | "input"
-  | "shadowing"
-  | "grammarLesson"
-  | "grammarPractice"
-  | "mixedReview"
-  | "phaseTest";
+  | "quizlet" | "pronunciation" | "input" | "shadowing" | "vocab" | "grammarLesson"
+  | "grammarPractice" | "writing" | "dictation" | "dialogue" | "mixedReview" | "phaseTest";
 
 export interface Resource {
   name: string;
@@ -21,34 +16,15 @@ export interface Resource {
 }
 
 export interface Activity {
-  /** Id estable para guardar el check. Se conservan los ids de la app anterior. */
+  /** Id corto dentro de la sesión. La clave completa es `unidad.sesión.id` (ej. u04.s2.lesson). */
   id: string;
   kind: ActivityKind;
   name: string;
   minutes: number;
   icon: IconKey;
-  /** Claves de RESOURCES (o "input", que se resuelve según la fase). */
+  /** Claves de RESOURCES, o "input", que se resuelve según la fase de la unidad. */
   resources?: string[];
 }
-
-export interface DayTemplate {
-  label: string;
-  activities: Activity[];
-}
-
-export interface Phase {
-  id: 1 | 2 | 3;
-  weeks: number[];
-  title: string;
-  focus: string;
-}
-
-export const TOTAL_WEEKS = 12;
-export const CHECKPOINT_WEEKS: Record<number, { phase: 1 | 2 | 3; level: string }> = {
-  4: { phase: 1, level: "A1" },
-  8: { phase: 2, level: "A2" },
-  12: { phase: 3, level: "A2 sólido" },
-};
 
 export const RESOURCES: Record<string, Resource> = {
   // La portada quizlet.com/ NO está entre los paths que Quizlet registra como Universal Link
@@ -77,87 +53,45 @@ export const RESOURCES: Record<string, Resource> = {
   forvo: { name: "Forvo", url: "https://forvo.com/" },
 };
 
-/** La actividad "input" apunta a recursos distintos según la fase. */
-export const PHASE_INPUT: Record<1 | 2 | 3, string[]> = {
-  1: ["cbi"],
-  2: ["podcastitalianoPrincipiante"],
-  3: ["podcastitaliano", "podcastitalianoTranscript"],
+/**
+ * Recursos de la actividad "input" según la fase de la unidad. Cada grupo es una secuencia de
+ * episodios: la app indica el número de episodio que toca (ver episodeNumber en domain/curriculum).
+ */
+export const PHASE_INPUT: Record<number, { group: string; resources: string[] }> = {
+  1: { group: "cbi", resources: ["cbi"] },
+  2: { group: "cbi", resources: ["cbi"] },
+  3: { group: "principiante", resources: ["podcastitalianoPrincipiante"] },
+  4: { group: "principiante", resources: ["podcastitalianoPrincipiante"] },
+  5: { group: "pi", resources: ["podcastitaliano", "podcastitalianoTranscript"] },
+  6: { group: "pi", resources: ["podcastitaliano", "podcastitalianoTranscript"] },
 };
 
-export const PHASES: Phase[] = [
-  {
-    id: 1,
-    weeks: [1, 2, 3, 4],
-    title: "Fase 1 — Cimientos",
-    focus: "Presentarte, presente, pedir en un bar y moverte por la ciudad.",
-  },
-  {
-    id: 2,
-    weeks: [5, 6, 7, 8],
-    title: "Fase 2 — Construcción",
-    focus: "Contar tu rutina y el pasado: passato prossimo e imperfetto.",
-  },
-  {
-    id: 3,
-    weeks: [9, 10, 11, 12],
-    title: "Fase 3 — Consolidación",
-    focus: "Pronombres, futuro, condicional y contenido auténtico.",
-  },
-];
+export const INPUT_GROUP_NAME: Record<string, string> = {
+  cbi: "Coffee Break Italian",
+  principiante: "Podcast Italiano Principiante",
+  pi: "Podcast Italiano",
+};
 
-const quizlet = (minutes: number): Activity => ({
-  id: "quizlet", kind: "quizlet", name: "Quizlet", minutes, icon: "cards",
-  resources: ["quizletSet", "quizlet"],
+const quizlet = (minutes: number, id = "quizlet", name = "Quizlet"): Activity => ({
+  id, kind: "quizlet", name, minutes, icon: "cards", resources: ["quizletSet", "quizlet"],
 });
-const input = (minutes: number): Activity => ({
-  id: "input", kind: "input", name: "Input", minutes, icon: "headphones", resources: ["input"],
+const pron: Activity = { id: "pron", kind: "pronunciation", name: "Pronunciación", minutes: 4, icon: "ear" };
+const input = (minutes: number, id = "input", name = "Input"): Activity => ({
+  id, kind: "input", name, minutes, icon: "headphones", resources: ["input"],
 });
-const shadowing = (minutes: number): Activity => ({
-  id: "shadowing", kind: "shadowing", name: "Shadowing", minutes, icon: "mic",
+const shadowing = (minutes: number, id = "shadow"): Activity => ({
+  id, kind: "shadowing", name: "Shadowing", minutes, icon: "mic",
 });
-const pronunciation: Activity = {
-  id: "pronunciation", kind: "pronunciation", name: "Pronunciación", minutes: 4, icon: "ear",
-};
 
-const monWed: DayTemplate = {
-  label: "",
-  activities: [{ ...quizlet(8) }, pronunciation, input(10), shadowing(8)],
-};
-const weekend: DayTemplate = {
-  label: "",
-  activities: [
-    { ...quizlet(15), id: "quizlet_review", name: "Repaso Quizlet", icon: "repeat" },
-    shadowing(25),
-    { ...input(35), id: "long_input", name: "Input largo" },
-    {
-      id: "grammar_review", kind: "mixedReview", name: "Repaso mixto", minutes: 10, icon: "repeat",
-    },
-  ],
-};
+/** Actividades opcionales: solo aparecen en una unidad si esa unidad tiene su contenido. */
+export const VOCAB: Activity = { id: "vocab", kind: "vocab", name: "Palabras de la unidad", minutes: 7, icon: "list" };
+export const WRITING: Activity = { id: "writing", kind: "writing", name: "Escritura guiada", minutes: 10, icon: "pen" };
+export const DICTATION: Activity = { id: "dictation", kind: "dictation", name: "Dictado", minutes: 10, icon: "ear" };
+export const DIALOGUE: Activity = { id: "dialogue", kind: "dialogue", name: "Diálogo en voz alta", minutes: 8, icon: "chat" };
 
-/** 0 = domingo … 6 = sábado, igual que Date.getDay(). */
-export const DAY_TEMPLATES: Record<number, DayTemplate> = {
-  1: { ...monWed, label: "Lunes" },
-  2: {
-    label: "Martes",
-    activities: [
-      quizlet(10),
-      { id: "grammar", kind: "grammarLesson", name: "Lección de gramática", minutes: 15, icon: "book" },
-    ],
-  },
-  3: { ...monWed, label: "Miércoles" },
-  4: {
-    label: "Jueves",
-    activities: [
-      quizlet(10),
-      { id: "grammar_practice", kind: "grammarPractice", name: "Práctica de gramática", minutes: 15, icon: "book" },
-    ],
-  },
-  5: { label: "Viernes", activities: [quizlet(10), input(15)] },
-  6: { ...weekend, label: "Sábado (o domingo)" },
-  0: { ...weekend, label: "Domingo (o sábado)" },
-};
+export const LESSON: Activity = { id: "lesson", kind: "grammarLesson", name: "Lección de gramática", minutes: 15, icon: "book" };
+export const PRACTICE: Activity = { id: "practice", kind: "grammarPractice", name: "Práctica de gramática", minutes: 12, icon: "book" };
+export const MIXED_REVIEW: Activity = { id: "review", kind: "mixedReview", name: "Repaso mixto", minutes: 7, icon: "repeat" };
+export const PHASE_TEST: Activity = { id: "test", kind: "phaseTest", name: "Test de fase", minutes: 20, icon: "target" };
 
-export const PHASE_TEST_ACTIVITY: Activity = {
-  id: "phase_test", kind: "phaseTest", name: "Test de fase", minutes: 20, icon: "target",
-};
+export { quizlet, pron, input, shadowing };

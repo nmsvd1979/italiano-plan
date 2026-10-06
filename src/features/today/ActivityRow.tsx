@@ -1,18 +1,24 @@
-import type { Activity, Resource } from "../../content/plan";
+import type { Resource } from "../../content/plan";
 import { useApp } from "../../app/state";
+import type { Step } from "../../domain/curriculum";
 import { Icon } from "../../ui/Icon";
 
 interface Props {
-  activity: Activity;
+  step: Step;
   done: boolean;
   resources: Resource[];
   /** Ruta interna (herramienta propia) que abre esta actividad, si la tiene. */
   to?: string;
   toLabel?: string;
+  /** Texto de apoyo bajo el nombre (ej. qué episodio toca). */
+  hint?: string;
+  /** Muestra "Dejar para después". */
+  canSkip?: boolean;
 }
 
-export function ActivityRow({ activity, done, resources, to, toLabel }: Props) {
-  const { setDone } = useApp();
+export function ActivityRow({ step, done, resources, to, toLabel, hint, canSkip }: Props) {
+  const { setDone, setSkipped } = useApp();
+  const { activity } = step;
   return (
     <div className={`activity${done ? " done" : ""}`}>
       <div className="activity-icon"><Icon name={activity.icon} size={20} /></div>
@@ -20,7 +26,9 @@ export function ActivityRow({ activity, done, resources, to, toLabel }: Props) {
         <div className="activity-head">
           <span className="activity-name">{activity.name}</span>
           <span className="activity-min">{activity.minutes} min</span>
+          {step.unit && <span className="activity-unit">U{step.unit.n}</span>}
         </div>
+        {hint && !done && <p className="activity-hint">{hint}</p>}
         {(to || resources.length > 0) && (
           <div className="activity-links">
             {to && (
@@ -33,6 +41,14 @@ export function ActivityRow({ activity, done, resources, to, toLabel }: Props) {
                 {r.name} <Icon name="external" size={14} />
               </a>
             ))}
+            {canSkip && !done && (
+              <button type="button" className="chip" onClick={() => setSkipped(step.key, true)}>Dejar para después</button>
+            )}
+          </div>
+        )}
+        {canSkip && !done && !to && resources.length === 0 && (
+          <div className="activity-links">
+            <button type="button" className="chip" onClick={() => setSkipped(step.key, true)}>Dejar para después</button>
           </div>
         )}
       </div>
@@ -40,7 +56,7 @@ export function ActivityRow({ activity, done, resources, to, toLabel }: Props) {
         className="check"
         type="checkbox"
         checked={done}
-        onChange={(e) => setDone(activity.id, e.target.checked)}
+        onChange={(e) => setDone(step.key, e.target.checked)}
         aria-label={`${activity.name}: ${done ? "hecha" : "pendiente"}`}
       />
     </div>

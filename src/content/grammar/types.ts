@@ -28,7 +28,8 @@ export interface Fill {
 export type Exercise = Choice | Fill;
 
 export interface Lesson {
-  week: number;
+  /** Id de la unidad del currículo (ej. "u04"). */
+  unit: string;
   title: string;
   situation: string;
   rule: Block[];
@@ -40,6 +41,16 @@ export interface Lesson {
   exercises: Exercise[];
 }
 
-export function exerciseId(week: number, index: number): string {
-  return `w${String(week).padStart(2, "0")}e${String(index).padStart(2, "0")}`;
+export function exerciseId(unit: string, index: number): string {
+  return `${unit}-e${String(index).padStart(2, "0")}`;
+}
+
+/** "u04" → 4 */
+export function unitNumber(unit: string): number {
+  return Number(unit.slice(1));
+}
+
+/** "u04-e07" → "u04" */
+export function unitOfExercise(id: string): string {
+  return id.slice(0, id.indexOf("-"));
 }

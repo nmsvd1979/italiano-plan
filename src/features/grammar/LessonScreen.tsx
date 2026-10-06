@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { Block, getLesson } from "../../content/grammar";
+import { getUnit } from "../../content/curriculum";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
 import { AudioButton } from "../../ui/AudioButton";
@@ -26,17 +27,18 @@ function RuleBlock({ block }: { block: Block }) {
   );
 }
 
-export function LessonScreen({ week }: { week: number }) {
-  const { completeIfScheduled } = useApp();
-  const lesson = getLesson(week);
+export function LessonScreen({ unit }: { unit: string }) {
+  const { completeActivity } = useApp();
+  const lesson = getLesson(unit);
+  const meta = getUnit(unit);
   const [noticeDone, setNoticeDone] = useState(false);
 
-  if (!lesson) return <p className="sub">No existe la lección de la semana {week}.</p>;
+  if (!lesson) return <p className="sub">No existe la lección de esa unidad.</p>;
 
-  const noticeItems: RunnerItem[] = lesson.notice.map((exercise, i) => ({ id: `n${week}-${i}`, exercise }));
+  const noticeItems: RunnerItem[] = lesson.notice.map((exercise, i) => ({ id: `n${unit}-${i}`, exercise }));
 
   const finish = () => {
-    completeIfScheduled("grammar");
+    completeActivity("lesson", unit);
     window.location.hash = "#/";
   };
 
@@ -47,7 +49,7 @@ export function LessonScreen({ week }: { week: number }) {
           <Icon name="arrowLeft" size={20} />
         </a>
         <div>
-          <div className="eyebrow">Semana {week} · Lección</div>
+          <div className="eyebrow">Unidad {meta?.n} · Lección</div>
           <h1 className="title">{lesson.title}</h1>
         </div>
       </header>
