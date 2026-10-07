@@ -65,7 +65,14 @@ for (const word of words) {
     action: "query", list: "search", srnamespace: "6", srlimit: "50", format: "json",
     srsearch: `intitle:"LL-Q652 (ita)" intitle:"-${lower}.wav"`,
   });
-  const found = (await get(`${API}?${search}`)).query.search
+  // La API a veces responde sin "query" (límite de uso o error temporal): se reintenta antes de rendirse.
+  let result = await get(`${API}?${search}`);
+  for (let retry = 0; !result.query && retry < 5; retry++) {
+    await sleep(5000 * (retry + 1));
+    result = await get(`${API}?${search}`);
+  }
+  if (!result.query) throw new Error(`Respuesta inesperada para «${lower}»: ${JSON.stringify(result).slice(0, 200)}`);
+  const found = result.query.search
     .map((h) => h.title)
     .map((t) => ({ title: t, m: t.match(/^File:LL-Q652 \(ita\)-(.+)-([^-]+)\.wav$/) }))
     .filter((x) => x.m && x.m[2].toLowerCase() === lower)

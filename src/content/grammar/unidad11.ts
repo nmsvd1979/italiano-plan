@@ -40,7 +40,7 @@ export const unidad11: Lesson = {
     },
   ],
   transfer:
-    "Esto lo sabes hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí / he comido* ≈ *ho mangiato* (passato prossimo). La diferencia es que en italiano no aparece el *pretérito indefinido* (*comí*) en el habla del norte: usas el passato prossimo, que cubre los dos casos.",
+    "Esto lo sabes hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí / he comido* ≈ *ho mangiato* (passato prossimo). La diferencia es que en italiano existe un pasado remoto (*mangiai*), pero en la conversación diaria, sobre todo en el norte, se usa el passato prossimo, que cubre los dos casos.",
   examples: [
     { it: "Da piccola abitavo a Torino.", es: "De chica vivía en Turín." },
     { it: "Faceva freddo e pioveva.", es: "Hacía frío y llovía." },
@@ -82,7 +82,7 @@ export const unidad11: Lesson = {
     { type: "fill", prompt: "Mentre ___ il treno, ho letto. (io, aspettare)", answers: ["aspettavo"], why: "*Mentre* + acción de fondo: *aspettavo*." },
     {
       type: "choice",
-      prompt: "«Ayer a la noche vimos una película»",
+      prompt: "«Ayer por la noche vimos una película»",
       options: ["Ieri sera vedevamo un film", "Ieri sera abbiamo visto un film", "Ieri sera siamo visto un film"],
       answer: 1,
       why: "Hecho puntual y terminado: passato prossimo (*abbiamo visto*).",
@@ -102,10 +102,10 @@ export const unidad11: Lesson = {
       why: "*Camminavo* = acción de fondo; *ho visto* = hecho puntual.",
     },
     {type: "fill", prompt: "Tu ___ molto da bambino. (giocare)", answers: ["giocavi"], why: "*Giocare → giocavi*."},
-    {type: "fill", prompt: "Lui ___ in una città piccola. (vivere)", answers: ["viveva"], why: "*Vivere → viveva*."},
+    {type: "fill", prompt: "Da piccolo, lui ___ in una città piccola. (vivere)", answers: ["viveva"], why: "*Vivere → viveva*."},
     {type: "fill", prompt: "Noi ___ sempre insieme. (essere)", answers: ["eravamo"], why: "*Essere → eravamo*."},
-    {type: "fill", prompt: "Voi ___ la TV? (guardare)", answers: ["guardavate"], why: "*Guardare → guardavate*."},
-    {type: "fill", prompt: "Loro ___ a Roma. (abitare)", answers: ["abitavano"], why: "*Abitare → abitavano*."},
+    {type: "fill", prompt: "Da bambini, voi ___ la TV ogni giorno? (guardare)", answers: ["guardavate"], why: "*Guardare → guardavate*."},
+    {type: "fill", prompt: "Da piccoli, loro ___ a Roma. (abitare)", answers: ["abitavano"], why: "*Abitare → abitavano*."},
     {type: "fill", prompt: "Io ___ il caffè ogni giorno. (bere)", answers: ["bevevo"], why: "*Bere → bevevo* (irregular)."},
     {type: "fill", prompt: "Lei ___ sempre la verità. (dire)", answers: ["diceva"], why: "*Dire → diceva* (irregular)."},
     {type: "fill", prompt: "Che cosa ___ da bambina? (tu, fare)", answers: ["facevi"], why: "*Fare → facevi* (irregular)."},

@@ -6,7 +6,7 @@ export interface DictationItem {
 /** Frases cortas (A1-A2) con el vocabulario y la gramática de cada unidad. */
 const DICTATION: Record<string, DictationItem[]> = {
   u01: [
-    { it: "Buongiorno, sono Laura.", es: "Buen día, soy Laura." },
+    { it: "Buongiorno, sono Laura.", es: "Buenos días, soy Laura." },
     { it: "Come sta, signora?", es: "¿Cómo está, señora?" },
     { it: "Sono di Roma.", es: "Soy de Roma." },
     { it: "Siamo in vacanza.", es: "Estamos de vacaciones." },
@@ -16,7 +16,7 @@ const DICTATION: Record<string, DictationItem[]> = {
   u02: [
     { it: "Ci sono due bar in piazza.", es: "Hay dos bares en la plaza." },
     { it: "C'è un supermercato vicino.", es: "Hay un supermercado cerca." },
-    { it: "Ho un appartamento con una camera.", es: "Tengo un departamento con una habitación." },
+    { it: "Ho un appartamento con una camera.", es: "Tengo un departamento / apartamento con una habitación." },
     { it: "Mi piace il caffè.", es: "Me gusta el café." },
     { it: "Gli studenti hanno gli zaini.", es: "Los estudiantes tienen las mochilas." },
     { it: "Hai fame?", es: "¿Tienes hambre?" },
@@ -66,13 +66,13 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Perché studi italiano?", es: "¿Por qué estudias italiano?" },
     { it: "Non capisco niente.", es: "No entiendo nada." },
     { it: "Non c'è nessuno qui.", es: "No hay nadie aquí." },
-    { it: "Vado spesso al mercato.", es: "Voy seguido al mercado." },
+    { it: "Vado spesso al mercato.", es: "Voy a menudo al mercado." },
     { it: "Quanti anni hai?", es: "¿Cuántos años tienes?" },
   ],
   u09: [
     { it: "Ieri ho visitato il Colosseo.", es: "Ayer visité el Coliseo." },
     { it: "Abbiamo mangiato una pizza.", es: "Comimos una pizza." },
-    { it: "Ho già comprato i biglietti.", es: "Ya compré los boletos." },
+    { it: "Ho già comprato i biglietti.", es: "Ya compré los boletos / pasajes." },
     { it: "Non ho ancora visto la fontana.", es: "Todavía no vi la fuente." },
     { it: "Hai mai provato il tiramisù?", es: "¿Probaste alguna vez el tiramisú?" },
     { it: "Che cosa avete fatto sabato?", es: "¿Qué hicieron el sábado?" },

@@ -78,7 +78,7 @@ export const unidad14: Lesson = {
     { type: "fill", prompt: "___ a destra. (Lei, girare)", answers: ["giri"], why: "-are → cortés *-i*: *giri*." },
     { type: "fill", prompt: "___ la prima a sinistra. (Lei, prendere)", answers: ["prenda"], why: "-ere → cortés *-a*: *prenda*." },
     { type: "fill", prompt: "Marco, ___ qui! (tu, venire)", answers: ["vieni"], why: "*Venire* con *tu*: *vieni*." },
-    { type: "fill", prompt: "___ attenzione! (tu, fare)", answers: ["fai"], why: "*Fare* con *tu*: *fai*." },
+    { type: "fill", prompt: "___ attenzione! (tu, fare)", answers: ["fai", "fa'"], why: "*Fare* con *tu*: *fai*." },
     { type: "fill", prompt: "Vai a Roma? Sì, ___ vado domani. (allí)", answers: ["ci"], why: "*Ci* reemplaza el lugar." },
     { type: "fill", prompt: "Quante mele vuoi? ___ voglio due.", answers: ["ne"], why: "*Ne* expresa la cantidad de algo ya mencionado." },
     {

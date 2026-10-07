@@ -21,7 +21,7 @@
 
 - 16 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
 - 105 frases de ejemplo, 360 ejercicios y preguntas de comprensión.
-- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 112 líneas de diálogo, 15 consignas de escritura con modelo.
+- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 113 líneas de diálogo, 15 consignas de escritura con modelo.
 - Pronunciación: pares mínimos y consejos por unidad. Shadowing: lista de videos (para juzgar si el nivel es adecuado).
 
 ## Dudas de la IA que conviene mirar primero
@@ -67,21 +67,21 @@ El **passato prossimo** cuenta lo que ya pasó. Se arma con el presente de *aver
 
 Participios irregulares que vas a usar todo el tiempo:
 
-| fare | prendere | dire | vedere | mettere | scrivere | leggere | aprire | bere |
-|---|---|---|---|---|---|---|---|---|
-| fatto | preso | detto | visto | messo | scritto | letto | aperto | bevuto |
+| fare | prendere | dire | vedere | mettere | scrivere | leggere | aprire | bere | chiudere | perdere |
+|---|---|---|---|---|---|---|---|---|---|---|
+| fatto | preso | detto | visto | messo | scritto | letto | aperto | bevuto | chiuso | perso |
 
 **Marcadores**: *ieri* (ayer), *ieri sera*, *la settimana scorsa* (la semana pasada), *due giorni fa* (hace dos días). Las palabras *già* (ya), *non… ancora* (todavía no), *mai* (alguna vez / nunca) van **entre** *avere* y el participio: *Ho già mangiato.* · *Non ho ancora visto il Colosseo.* · *Hai mai provato il tiramisù?*
 
 **Recuadro «Ojo, en español…»:**
 
-Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). Dos diferencias: en italiano *ho mangiato* sirve tanto para "he comido" como para "comí" (ayer: *Ieri ho mangiato la pizza*), y *già / mai / ancora* se meten en el medio: *Ho già mangiato*, no *Ho mangiato già*.
+Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). Dos diferencias: en italiano *ho mangiato* sirve tanto para "he comido" como para "comí" (ayer: *Ieri ho mangiato la pizza*), y *già / mai / ancora* se meten en el medio: *Ho già mangiato*, lo habitual no es *Ho mangiato già*.
 
 ### Ejemplos
 
 1. **Ieri ho visitato il Colosseo.** — Ayer visité el Coliseo.
 2. **Abbiamo mangiato una pizza fantastica.** — Comimos una pizza fantástica.
-3. **Ho già comprato i biglietti.** — Ya compré los pasajes.
+3. **Ho già comprato i biglietti.** — Ya compré los boletos / pasajes.
 4. **Non ho ancora visto la Fontana di Trevi.** — Todavía no vi la Fontana di Trevi.
 5. **Hai mai provato il tiramisù?** — ¿Probaste alguna vez el tiramisú?
 6. **Che cosa avete fatto sabato?** — ¿Qué hicieron el sábado?
@@ -144,7 +144,7 @@ Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). 
 
 1. **Ieri ho visitato il Colosseo.** — Ayer visité el Coliseo.
 2. **Abbiamo mangiato una pizza.** — Comimos una pizza.
-3. **Ho già comprato i biglietti.** — Ya compré los boletos.
+3. **Ho già comprato i biglietti.** — Ya compré los boletos / pasajes.
 4. **Non ho ancora visto la fontana.** — Todavía no vi la fuente.
 5. **Hai mai provato il tiramisù?** — ¿Probaste alguna vez el tiramisú?
 6. **Che cosa avete fatto sabato?** — ¿Qué hicieron el sábado?
@@ -166,12 +166,12 @@ Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). 
 **Escena:** Cuentas qué hiciste el fin de semana.  ·  **Roles:** A = Amiga, B = Tú
 
 - **A:** Che cosa hai fatto sabato? — _¿Qué hiciste el sábado?_
-- **B:** Ho visitato il Colosseo con degli amici. — _Visité el Coliseo con unos amigos._
+- **B:** Ho visitato il Colosseo con alcuni amici. — _Visité el Coliseo con unos amigos._
 - **A:** Avete mangiato fuori? — _¿Comieron afuera?_
 - **B:** Sì, abbiamo mangiato una pizza fantastica. — _Sí, comimos una pizza fantástica._
 - **A:** Hai già visto la Fontana di Trevi? — _¿Ya viste la Fontana di Trevi?_
 - **B:** Non ancora. E tu, hai già comprato i biglietti? — _Todavía no. Y tú, ¿ya compraste los boletos?_
-- **A:** Sì, li ho comprati ieri. — _Sí, los compré ayer._
+- **A:** Sì, ieri ho comprato i biglietti. — _Sí, ayer compré los boletos / pasajes._
 
 ### Pronunciación
 
@@ -179,7 +179,7 @@ Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). 
 
 Pares mínimos: pazzo (loco) / passo (paso) · gli (a él / los) / li (allí)
 
-Palabras para repetir: pizza, grazie, zero, zio, lezione, ragazzo, azione, mezzo
+Palabras para repetir: pizza, grazie, zero, zio, lezione, ragazzo, azione, mezzo, pezzo
 
 ### Shadowing (videos de Easy Italian)
 
@@ -214,7 +214,7 @@ Algunos verbos forman el passato prossimo con **essere** (*sono, sei, è, siamo,
 
 **Recuadro «Ojo, en español…»:**
 
-Acá está la trampa más grande del pasado. En español *he ido* usa *haber*, así que sale *ho andato*. Es incorrecto: es *sono andato*. Y el participio con *essere* concuerda en género y número, algo que el español no hace con *haber*.
+Aquí está la trampa más grande del pasado. En español *he ido* usa *haber*, así que sale *ho andato*. Es incorrecto: es *sono andato*. Y el participio con *essere* concuerda en género y número, algo que el español no hace con *haber*.
 
 ### Ejemplos
 
@@ -239,18 +239,18 @@ Acá está la trampa más grande del pasado. En español *he ido* usa *haber*, a
 4. **Completar:** Marco e Anna sono ___ in ritardo. (arrivare)  → respuesta(s) aceptada(s): `arrivati`  — _Grupo mixto: plural masculino *arrivati*._
 5. **Completar:** Giulia e Sara sono ___ al cinema. (andare)  → respuesta(s) aceptada(s): `andate`  — _Solo mujeres: *andate*._
 6. **Completar:** Noi ci ___ divertiti. (essere)  → respuesta(s) aceptada(s): `siamo`  — _Los reflexivos van con *essere*: *ci siamo divertiti*._
-7. **Completar:** Siete ___ a Venezia? (essere, plural)  → respuesta(s) aceptada(s): `stati`  — _*Essere → stato*; con *voi* mixto: *stati*._
+7. **Completar:** Siete ___ a Venezia? (essere, plural)  → respuesta(s) aceptada(s): `stati` · `state`  — _*Essere → stato*; con *voi* mixto: *stati*._
 8. **Elegir:** «Fui a Florencia» (habla un varón)  → Ho andato a Firenze  /  **✔** Sono andato a Firenze  /  Sono andata a Firenze  — _*Andare* usa *essere* y concuerda con quien habla (varón): *andato*._
 9. **Elegir:** «Ayer comí pasta»  → Ieri sono mangiato la pasta  /  **✔** Ieri ho mangiato la pasta  /  Ieri ho mangiata la pasta  — _*Mangiare* va con *avere* y el participio no cambia._
 10. **Elegir:** «Me levanté a las seis» (habla una mujer)  → Mi ho alzata alle sei  /  **✔** Mi sono alzata alle sei  /  Mi sono alzato alle sei  — _Reflexivo → *essere*, y concuerda con quien habla (mujer): *alzata*._
 11. **Completar:** Lei è ___ a Roma. (andare)  → respuesta(s) aceptada(s): `andata`  — _Ella: *andata*._
 12. **Completar:** Noi siamo ___ tardi. (arrivare; grupo mixto)  → respuesta(s) aceptada(s): `arrivati`  — _Grupo mixto: *arrivati*._
-13. **Completar:** Loro sono ___ ieri. (partire; ellas)  → respuesta(s) aceptada(s): `partite`  — _Solo mujeres: *partite*._
+13. **Completar:** Loro sono ___ ieri. (partire; grupo de mujeres)  → respuesta(s) aceptada(s): `partite`  — _Solo mujeres: *partite*._
 14. **Completar:** Io sono ___ alle sei. (uscire; hablo yo, varón)  → respuesta(s) aceptada(s): `uscito`  — _Un varón: *uscito*._
 15. **Completar:** Mia madre è ___ a Torino. (nascere)  → respuesta(s) aceptada(s): `nata`  — _Ella: *nata*._
 16. **Completar:** Tu ti ___ alzata presto? (essere)  → respuesta(s) aceptada(s): `sei`  — _Con *tu*: *sei*._
 17. **Completar:** Marco, ti sei ___? (divertirsi)  → respuesta(s) aceptada(s): `divertito`  — _Varón: *divertito*._
-18. **Completar:** Voi siete ___ a casa? (tornare; ellas)  → respuesta(s) aceptada(s): `tornate`  — _Mujeres: *tornate*._
+18. **Completar:** Voi siete ___ a casa? (tornare; grupo de mujeres)  → respuesta(s) aceptada(s): `tornate`  — _Mujeres: *tornate*._
 19. **Elegir:** «Mis amigos llegaron ayer»  → **✔** I miei amici sono arrivati ieri  /  I miei amici hanno arrivato ieri  /  I miei amici sono arrivato ieri  — _*Arrivare* va con *essere* y concuerda: *arrivati*._
 20. **Elegir:** «Fuimos a la playa» (un grupo de mujeres)  → **✔** Siamo andate al mare  /  Siamo andati al mare  /  Abbiamo andato al mare  — _Mujeres: *andate*, con *essere*._
 
@@ -266,7 +266,7 @@ Acá está la trampa más grande del pasado. En español *he ido* usa *haber*, a
 | nascere | nacer |
 | diventare | volverse / llegar a ser |
 | il viaggio | el viaje |
-| la vacanza | las vacaciones |
+| le vacanze | las vacaciones |
 | la valigia | la maleta |
 | il mare | el mar |
 | la montagna | la montaña |
@@ -276,7 +276,7 @@ Acá está la trampa más grande del pasado. En español *he ido* usa *haber*, a
 | il paese | el pueblo / el país |
 | domenica | domingo |
 | lunedì | lunes |
-| lo straniero | el extranjero |
+| la spiaggia | la playa |
 | la partenza | la salida (de un viaje) |
 
 ### Dictado (frases que la voz lee y la persona escribe)
@@ -315,7 +315,7 @@ Acá está la trampa más grande del pasado. En español *he ido* usa *haber*, a
 
 ### Pronunciación
 
-**Dobles en los participios** — Los participios del passato prossimo más usados llevan consonante doble: *fatto, detto, messo, letto, scritto*. Mantén el sonido largo para no confundirlos con otras palabras.
+**Dobles en los participios** — Varios participios muy usados del passato prossimo llevan consonante doble: *fatto, detto, messo, letto, scritto*. Mantén el sonido largo para no confundirlos con otras palabras.
 
 Pares mínimos: sette (siete) / sete (sed) · sonno (sueño) / sono (soy / son)
 
@@ -361,7 +361,7 @@ Se combinan en la misma frase: *Mentre camminavo (acción de fondo), ho visto (h
 
 **Recuadro «Ojo, en español…»:**
 
-Esto lo sabes hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí / he comido* ≈ *ho mangiato* (passato prossimo). La diferencia es que en italiano no aparece el *pretérito indefinido* (*comí*) en el habla del norte: usas el passato prossimo, que cubre los dos casos.
+Esto lo sabes hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí / he comido* ≈ *ho mangiato* (passato prossimo). La diferencia es que en italiano existe un pasado remoto (*mangiai*), pero en la conversación diaria, sobre todo en el norte, se usa el passato prossimo, que cubre los dos casos.
 
 ### Ejemplos
 
@@ -387,14 +387,14 @@ Esto lo sabes hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí /
 5. **Completar:** Io ___ stanco. (essere, imperfetto)  → respuesta(s) aceptada(s): `ero`  — _*Essere → ero*._
 6. **Completar:** Loro ___ sempre in ritardo. (essere, imperfetto)  → respuesta(s) aceptada(s): `erano`  — _*Essere → erano*._
 7. **Completar:** Mentre ___ il treno, ho letto. (io, aspettare)  → respuesta(s) aceptada(s): `aspettavo`  — _*Mentre* + acción de fondo: *aspettavo*._
-8. **Elegir:** «Ayer a la noche vimos una película»  → Ieri sera vedevamo un film  /  **✔** Ieri sera abbiamo visto un film  /  Ieri sera siamo visto un film  — _Hecho puntual y terminado: passato prossimo (*abbiamo visto*)._
+8. **Elegir:** «Ayer por la noche vimos una película»  → Ieri sera vedevamo un film  /  **✔** Ieri sera abbiamo visto un film  /  Ieri sera siamo visto un film  — _Hecho puntual y terminado: passato prossimo (*abbiamo visto*)._
 9. **Elegir:** «Cuando era chico, vivía en Roma»  → Quando ero piccolo, ho abitato a Roma  /  **✔** Quando ero piccolo, abitavo a Roma  /  Quando sono piccolo, abitavo a Roma  — _Los dos verbos describen un período del pasado: imperfetto (*ero*, *abitavo*)._
 10. **Elegir:** «Mientras caminaba, vi el Coliseo»  → **✔** Mentre camminavo, ho visto il Colosseo  /  Mentre ho camminato, vedevo il Colosseo  /  Mentre camminavo, vedevo il Colosseo  — _*Camminavo* = acción de fondo; *ho visto* = hecho puntual._
 11. **Completar:** Tu ___ molto da bambino. (giocare)  → respuesta(s) aceptada(s): `giocavi`  — _*Giocare → giocavi*._
-12. **Completar:** Lui ___ in una città piccola. (vivere)  → respuesta(s) aceptada(s): `viveva`  — _*Vivere → viveva*._
+12. **Completar:** Da piccolo, lui ___ in una città piccola. (vivere)  → respuesta(s) aceptada(s): `viveva`  — _*Vivere → viveva*._
 13. **Completar:** Noi ___ sempre insieme. (essere)  → respuesta(s) aceptada(s): `eravamo`  — _*Essere → eravamo*._
-14. **Completar:** Voi ___ la TV? (guardare)  → respuesta(s) aceptada(s): `guardavate`  — _*Guardare → guardavate*._
-15. **Completar:** Loro ___ a Roma. (abitare)  → respuesta(s) aceptada(s): `abitavano`  — _*Abitare → abitavano*._
+14. **Completar:** Da bambini, voi ___ la TV ogni giorno? (guardare)  → respuesta(s) aceptada(s): `guardavate`  — _*Guardare → guardavate*._
+15. **Completar:** Da piccoli, loro ___ a Roma. (abitare)  → respuesta(s) aceptada(s): `abitavano`  — _*Abitare → abitavano*._
 16. **Completar:** Io ___ il caffè ogni giorno. (bere)  → respuesta(s) aceptada(s): `bevevo`  — _*Bere → bevevo* (irregular)._
 17. **Completar:** Lei ___ sempre la verità. (dire)  → respuesta(s) aceptada(s): `diceva`  — _*Dire → diceva* (irregular)._
 18. **Completar:** Che cosa ___ da bambina? (tu, fare)  → respuesta(s) aceptada(s): `facevi`  — _*Fare → facevi* (irregular)._
@@ -458,13 +458,13 @@ Esto lo sabes hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí /
 - **A:** Che cosa facevi d'estate? — _¿Qué hacías en verano?_
 - **B:** Giocavo in giardino con mio fratello. — _Jugaba en el jardín con mi hermano._
 - **A:** E la scuola? — _¿Y la escuela?_
-- **B:** Mentre andavo a scuola, incontravo sempre il mio amico Luca. — _Mientras iba a la escuela, siempre me encontraba con mi amigo Luca._
+- **B:** Andavo a scuola a piedi e incontravo sempre il mio amico Luca. — _Iba a la escuela a pie y siempre me encontraba con mi amigo Luca._
 
 ### Pronunciación
 
 **El acento de la palabra** — La mayoría de las palabras llevan el acento en la penúltima sílaba. Hay esdrújulas sin tilde (*TElefono*, *TAvolo*) y la tilde final marca el acento en la última sílaba (*città*, *perché*, *caffè*).
 
-Pares mínimos: caro (querido / caro) / carro (carro) · casa (casa) / cassa (caja)
+Pares mínimos: caro (querido / caro) / carro (carreta / vagón) · casa (casa) / cassa (caja)
 
 Palabras para repetir: telefono, macchina, tavolo, città, perché, università, caffè
 
@@ -552,7 +552,7 @@ En español siempre dices *más… que*; en italiano, con un sustantivo o pronom
 13. **Completar:** Vorrei ___, per favore. (algo de agua)  → respuesta(s) aceptada(s): `dell'acqua`  — _Ante vocal: *dell'acqua*._
 14. **Completar:** Ho comprato ___ mele. (unas)  → respuesta(s) aceptada(s): `delle`  — _Femenino plural: *delle*._
 15. **Completar:** Ci sono ___ pomodori nel frigo. (unos)  → respuesta(s) aceptada(s): `dei`  — _Masculino plural: *dei*._
-16. **Completar:** Mangio ___ spinaci ogni settimana. (unos)  → respuesta(s) aceptada(s): `degli`  — _*Spinaci* empieza con *sp*: *degli*._
+16. **Completar:** Ho comprato ___ spinaci. (unos)  → respuesta(s) aceptada(s): `degli`  — _*Spinaci* empieza con *sp*: *degli*._
 17. **Elegir:** ¿Cómo se dice «más caro que Milán»?  → **✔** più caro di Milano  /  più caro che Milano  /  più caro da Milano  — _Se compara con un sustantivo: *di*._
 18. **Elegir:** «El restaurante más barato de la zona»  → **✔** il ristorante più economico della zona  /  il ristorante più economico che la zona  /  il più ristorante economico della zona  — _Artículo + sustantivo + *più* + adjetivo + *di* + lugar._
 19. **Elegir:** ¿Cuál es natural para «No tengo pan»?  → **✔** Non ho pane.  /  Non ho del pane.  /  Non ho dei pane.  — _En frases negativas el partitivo se omite._
@@ -570,10 +570,10 @@ En español siempre dices *más… que*; en italiano, con un sustantivo o pronom
 | il formaggio | el queso |
 | il pane | el pan |
 | il latte | la leche |
-| le uova | los huevos |
+| l'uovo (pl. le uova) | los huevos |
 | la carne | la carne |
 | il pesce | el pescado |
-| le patate | las papas |
+| le patate | las papas / patatas |
 | la cipolla | la cebolla |
 | l'olio | el aceite |
 | il sale | la sal |
@@ -608,20 +608,21 @@ En español siempre dices *más… que*; en italiano, con un sustantivo o pronom
 
 **Escena:** Compras en el mercado.  ·  **Roles:** A = Cliente, B = Verdulero
 
-- **A:** Buongiorno, vorrei del pane e dei pomodori. — _Buenos días, quisiera pan y unos tomates._
-- **B:** Ecco. I pomodori di oggi sono più buoni di quelli di ieri. — _Aquí tiene. Los tomates de hoy son mejores que los de ayer._
+- **A:** Buongiorno, vorrei dei pomodori e delle mele. — _Buenos días, quisiera unos tomates y unas manzanas._
+- **B:** Ecco. I pomodori di oggi sono i più freschi del mercato. — _Aquí tiene. Los tomates de hoy son los más frescos del mercado._
 - **A:** Quanto costano? — _¿Cuánto cuestan?_
 - **B:** Tre euro al chilo. — _Tres euros el kilo._
-- **A:** Il formaggio è buono? — _¿El queso es bueno?_
-- **B:** Sì, è il migliore del mercato! — _¡Sí, es el mejor del mercado!_
-- **A:** Allora un etto di formaggio, per favore. — _Entonces cien gramos de queso, por favor._
-- **B:** Altro? — No, grazie. Va bene così. — _¿Algo más? — No, gracias. Así está bien._
+- **A:** E le mele sono buone? — _¿Y las manzanas son buenas?_
+- **B:** Sì, sono le migliori del mercato! — _¡Sí, son las mejores del mercado!_
+- **A:** Allora un chilo di mele, per favore. — _Entonces un kilo de manzanas, por favor._
+- **B:** Altro? — _¿Algo más?_
+- **A:** No, grazie. Va bene così. — _No, gracias. Así está bien._
 
 ### Pronunciación
 
 **Comparar: GLI, GN y dobles** — *Gli* es una *l* palatal, como la "ll" de algunas regiones de España o de los Andes: *gli* (a él / los) frente a *li* (allí). Las dobles se alargan: *pane* (pan) frente a *panna* (crema). Escucha *migliore* y *formaggio*, donde *gli* y *gg* se combinan con la vocal.
 
-Pares mínimos: pane (pan) / panna (crema) · gli (a él / los) / li (allí)
+Pares mínimos: pane (pan) / panna (crema de leche / nata) · gli (a él / los) / li (allí)
 
 Palabras para repetir: più, migliore, peggiore, buono, bello, caro, pomodoro, formaggio
 

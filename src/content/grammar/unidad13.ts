@@ -25,7 +25,7 @@ export const unidad13: Lesson = {
     },
     {
       kind: "p",
-      text: "*Compro la giacca* → **la** compro. · *Vedo Marco* → **lo** vedo. · *Telefono a Anna* → **le** telefono. · *Do il libro a lui* → **gli** do il libro.",
+      text: "*Compro la giacca* → **la** compro. · *Vedo Marco* → **lo** vedo. · *Telefono ad Anna* → **le** telefono. · *Do il libro a lui* → **gli** do il libro.",
     },
     {
       kind: "p",
@@ -33,16 +33,16 @@ export const unidad13: Lesson = {
     },
     {
       kind: "p",
-      text: "Cuando se juntan dos (a él + lo), *gli* + *lo* se funden en **glielo**: *Glielo do* (se lo doy). Por ahora alcanza con reconocerlo.",
+      text: "Cuando se juntan dos (a él + lo), *gli* + *lo* se funden en **glielo**: *Glielo do* (se lo doy). Con las demás personas, el primer pronombre cambia a *me, te, ce, ve*: *Te lo do domani* (te lo doy mañana), *Me lo dai?* (¿me lo das?). Por ahora alcanza con reconocerlos.",
     },
   ],
   transfer:
-    "Cuidado con *le*: en español *le* es para él y para ella, pero en italiano *gli* es a él y *le* es a ella. El plural masculino directo es *li* (no *los*). Y algo que el español no hace: con *l'ho comprata* el participio concuerda con lo que reemplaza el pronombre.",
+    "Cuidado con *le*: en español *le* es para él y para ella, pero en italiano *gli* es a él y *le* es a ella. Para el plural masculino directo se usa *li* (el singular es *lo*). Y algo que el español no hace: con *l'ho comprata* el participio concuerda con lo que reemplaza el pronombre.",
   examples: [
     { it: "La giacca è bella: la compro.", es: "La chaqueta es bonita: la compro." },
     { it: "Hai visto Marco? Sì, l'ho visto ieri.", es: "¿Viste a Marco? Sí, lo vi ayer." },
     { it: "Telefono ad Anna: le chiedo l'indirizzo.", es: "Llamo a Anna: le pido la dirección." },
-    { it: "Ho comprato le scarpe e le porto subito.", es: "Compré los zapatos y los llevo ya." },
+    { it: "Ho comprato le scarpe e le porto subito.", es: "Compré los zapatos y me los pongo ahora." },
     { it: "Vorrei restituirlo: è troppo piccolo.", es: "Quisiera devolverlo: es demasiado chico." },
     { it: "Il libro? Glielo do domani.", es: "¿El libro? Se lo doy mañana." },
   ],

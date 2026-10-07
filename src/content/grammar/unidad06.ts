@@ -17,13 +17,13 @@ export const unidad06: Lesson = {
         ["tu", "*il tuo*", "*la tua*", "*i tuoi*", "*le tue*"],
         ["su (de él / ella / usted)", "*il suo*", "*la sua*", "*i suoi*", "*le sue*"],
         ["nuestro", "*il nostro*", "*la nostra*", "*i nostri*", "*le nostre*"],
-        ["vuestro", "*il vostro*", "*la vostra*", "*i vostri*", "*le vostre*"],
+        ["de ustedes", "*il vostro*", "*la vostra*", "*i vostri*", "*le vostre*"],
         ["su (de ellos)", "*il loro*", "*la loro*", "*i loro*", "*le loro*"],
       ],
     },
     {
       kind: "p",
-      text: "**Excepción**: con un familiar en singular no hay artículo: *mia madre, tuo fratello, nostra zia*. Con *loro* sí: *la loro madre*. En plural también: *i miei fratelli*. Para decir de quién es algo: *Di chi è questa borsa? — È di Marco.*",
+      text: "**Excepción**: con un familiar en singular no hay artículo: *mia madre, tuo fratello, nostra zia*. Con *loro* sí: *la loro madre*. Con apelativos afectivos también se mantiene el artículo: *la mia mamma*, *il mio papà*. En plural también: *i miei fratelli*. Para decir de quién es algo: *Di chi è questa borsa? — È di Marco.*",
     },
     {
       kind: "p",
@@ -35,7 +35,8 @@ export const unidad06: Lesson = {
       rows: [
         ["*il*", "*quel libro*", "*quei libri*"],
         ["*lo*", "*quello zaino*", "*quegli zaini*"],
-        ["*l'*", "*quell'amico*", "*quegli amici*"],
+        ["*l'* (masc.)", "*quell'amico*", "*quegli amici*"],
+        ["*l'* (fem.)", "*quell'amica*", "*quelle amiche*"],
         ["*la*", "*quella casa*", "*quelle case*"],
       ],
     },
@@ -47,14 +48,14 @@ export const unidad06: Lesson = {
   transfer:
     "En español dices *mi casa*; en italiano, *la mia casa* (con artículo), salvo con un familiar en singular (*mia madre*). *Suo* no dice si es de él, de ella o de usted: lo da el contexto. Y *quello* no cambia como *questo*: *quel libro, quella casa*. Los colores concuerdan (*due borse rosse*), salvo *rosa, viola, blu*.",
   examples: [
-    { it: "Questa è la mia borsa e quella è la tua.", es: "Esta es mi bolso y aquella es la tuya." },
+    { it: "Questa è la mia borsa e quella è la tua.", es: "Este es mi bolso y aquel es el tuyo." },
     { it: "Mia madre ha una macchina nera.", es: "Mi madre tiene un auto negro." },
     { it: "I miei fratelli abitano a Roma.", es: "Mis hermanos viven en Roma." },
     { it: "Quel cappello rosso è molto bello.", es: "Ese sombrero rojo es muy lindo." },
     { it: "Di chi è quello zaino blu? — È di Marco.", es: "¿De quién es esa mochila azul? — Es de Marco." },
     { it: "Posso provare quella giacca verde?", es: "¿Puedo probarme esa chaqueta verde?" },
     { it: "Vorrei due magliette bianche e una gonna rosa.", es: "Quisiera dos camisetas blancas y una falda rosada." },
-    { it: "La nostra casa è piccola, ma la vostra è grande.", es: "Nuestra casa es pequeña, pero la vuestra es grande." },
+    { it: "La nostra casa è piccola, ma la vostra è grande.", es: "Nuestra casa es pequeña, pero la de ustedes es grande." },
   ],
   notice: [
     {
@@ -95,7 +96,7 @@ export const unidad06: Lesson = {
     { type: "fill", prompt: "Di ___ è questo zaino? (¿de quién?)", answers: ["chi"], why: "*Di chi è…?* pregunta por el dueño." },
     { type: "fill", prompt: "Le scarpe verdi sono molto ___. (lindas)", answers: ["belle"], why: "Plural femenino de *bello*: *belle*." },
     { type: "fill", prompt: "Il ___ appartamento è piccolo. (de ellos)", answers: ["loro"], why: "*Loro* no cambia nunca." },
-    { type: "fill", prompt: "Un cielo ___. (celeste)", answers: ["azzurro"], why: "*Azzurro* es el celeste, con doble *z* y doble *r*." },
+    { type: "fill", prompt: "Un cielo ___. (azul claro)", answers: ["azzurro", "celeste"], why: "*Azzurro* es el celeste, con doble *z* y doble *r*." },
     {
       type: "choice",
       prompt: "¿Cuál es correcto para «mi hermano»?",

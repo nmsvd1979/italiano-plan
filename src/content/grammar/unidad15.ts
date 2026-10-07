@@ -7,7 +7,7 @@ export const unidad15: Lesson = {
   rule: [
     {
       kind: "p",
-      text: "El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *-ò, -ai, -à, -emo, -ete, -anno*. En los verbos en *-are* la *a* pasa a *e*.",
+      text: "El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *-ò, -ai, -à, -emo, -ete, -anno*. En los verbos en *-are* la *a* pasa a *e*. Ortografía: los verbos en *-care / -gare* agregan una *h* (*cercherò, pagherò*), los en *-ciare / -giare* pierden la *i* (*mangerò, viaggeremo*) y los en *-iare* con *i* acentuada la conservan (*studierò*).",
     },
     {
       kind: "table",
@@ -106,7 +106,7 @@ export const unidad15: Lesson = {
     {type: "fill", prompt: "Lei ___ a Roma. (venire)", answers: ["verrà"], why: "*Venire → verrà*."},
     {type: "fill", prompt: "Voi ___ la verità. (vedere)", answers: ["vedrete"], why: "*Vedere → vedrete*."},
     {type: "fill", prompt: "Loro ___ domani. (partire)", answers: ["partiranno"], why: "*Partire → partiranno*."},
-    {type: "fill", prompt: "Io ___ molto. (studiare)", answers: ["studierò"], why: "*Studiare* pierde la *i*: *studierò*."},
+    {type: "fill", prompt: "Io ___ molto. (studiare)", answers: ["studierò"], why: "Los verbos en *-iare* conservan la *i* (*studierò*); solo la pierden los en *-ciare / -giare* (*mangerò, viaggeremo*)."},
     {type: "fill", prompt: "Tu ___ farmi un favore? (potere, cortés)", answers: ["potresti"], why: "Condizionale: *potresti*."},
     {type: "fill", prompt: "Noi ___ prenotare un tavolo. (volere, cortés)", answers: ["vorremmo"], why: "Condizionale de *volere*: *vorremmo*."},
     {type: "fill", prompt: "Marco, ___ riposare. (dovere, consejo)", answers: ["dovresti"], why: "Condizionale: *dovresti*."},

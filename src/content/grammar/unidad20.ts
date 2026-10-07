@@ -25,7 +25,7 @@ export const unidad20: Lesson = {
     },
     {
       kind: "p",
-      text: "**Discurso indirecto.** Para contar lo que alguien dijo usas *che* y, si hablas de algo pasado, los verbos suelen bajar un paso. «*Sono stanco*» → *Ha detto che **era** stanco.* «*Vengo alle tre*» → *Ha detto che **veniva** alle tre.* Con preguntas se usa *se*: *Mi ha chiesto **se** parlo italiano.*",
+      text: "**Discurso indirecto.** Para contar lo que alguien dijo usas *che* y, si hablas de algo pasado, los verbos suelen bajar un paso. «*Sono stanco*» → *Ha detto che **era** stanco.* «*Vengo alle tre*» → *Ha detto che **veniva** alle tre* (en la lengua hablada; en un texto cuidado se prefiere *sarebbe venuto*). Con preguntas se usa *se*: *Mi ha chiesto **se** parlo italiano.*",
     },
     {
       kind: "p",
@@ -42,7 +42,7 @@ export const unidad20: Lesson = {
     },
   ],
   transfer:
-    "*Perché* significa \"porque\" y también \"¿por qué?\" (en español se distinguen por la tilde y la forma; en italiano es la misma palabra). Para el discurso indirecto, el español hace casi lo mismo (*dijo que estaba cansado*): acá no hay trampa. El *congiuntivo* sí existe en español (*que sea*), así que vas a reconocerlo con facilidad.",
+    "*Perché* significa \"porque\" y también \"¿por qué?\" (en español se distinguen por la tilde y la forma; en italiano es la misma palabra). Para el discurso indirecto, el español hace casi lo mismo (*dijo que estaba cansado*): aquí no hay trampa. El *congiuntivo* sí existe en español (*que sea*), así que vas a reconocerlo con facilidad.",
   examples: [
     { it: "Non vengo perché sono stanco.", es: "No voy porque estoy cansado." },
     { it: "Piove, quindi resto a casa.", es: "Llueve, así que me quedo en casa." },
@@ -103,7 +103,7 @@ export const unidad20: Lesson = {
     },
     {
       type: "choice",
-      prompt: "«Llueve, entonces me quedo en casa.» ¿Con qué conector lo unes?",
+      prompt: "«Llueve, así que me quedo en casa.» ¿Con qué conector lo unes?",
       options: ["Piove, quindi resto a casa.", "Piove, invece resto a casa.", "Piove, mentre resto a casa."],
       answer: 0,
       why: "*Quindi* marca la consecuencia.",

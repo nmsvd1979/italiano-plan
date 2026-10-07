@@ -24,8 +24,8 @@ export const unidad09: Lesson = {
     },
     {
       kind: "table",
-      head: ["fare", "prendere", "dire", "vedere", "mettere", "scrivere", "leggere", "aprire", "bere"],
-      rows: [["fatto", "preso", "detto", "visto", "messo", "scritto", "letto", "aperto", "bevuto"]],
+      head: ["fare", "prendere", "dire", "vedere", "mettere", "scrivere", "leggere", "aprire", "bere", "chiudere", "perdere"],
+      rows: [["fatto", "preso", "detto", "visto", "messo", "scritto", "letto", "aperto", "bevuto", "chiuso", "perso"]],
     },
     {
       kind: "p",
@@ -33,11 +33,11 @@ export const unidad09: Lesson = {
     },
   ],
   transfer:
-    "Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). Dos diferencias: en italiano *ho mangiato* sirve tanto para \"he comido\" como para \"comí\" (ayer: *Ieri ho mangiato la pizza*), y *già / mai / ancora* se meten en el medio: *Ho già mangiato*, no *Ho mangiato già*.",
+    "Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). Dos diferencias: en italiano *ho mangiato* sirve tanto para \"he comido\" como para \"comí\" (ayer: *Ieri ho mangiato la pizza*), y *già / mai / ancora* se meten en el medio: *Ho già mangiato*, lo habitual no es *Ho mangiato già*.",
   examples: [
     { it: "Ieri ho visitato il Colosseo.", es: "Ayer visité el Coliseo." },
     { it: "Abbiamo mangiato una pizza fantastica.", es: "Comimos una pizza fantástica." },
-    { it: "Ho già comprato i biglietti.", es: "Ya compré los pasajes." },
+    { it: "Ho già comprato i biglietti.", es: "Ya compré los boletos / pasajes." },
     { it: "Non ho ancora visto la Fontana di Trevi.", es: "Todavía no vi la Fontana di Trevi." },
     { it: "Hai mai provato il tiramisù?", es: "¿Probaste alguna vez el tiramisú?" },
     { it: "Che cosa avete fatto sabato?", es: "¿Qué hicieron el sábado?" },

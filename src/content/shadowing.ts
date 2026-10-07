@@ -13,7 +13,7 @@ export const SHADOWING: Record<string, { main: Video; alt: Video }> = {
   u02: { main: { id: "UX8g7HONFn4", title: "C'è e Ci sono" }, alt: { id: "k8DX4yEeOMg", title: "A Walk Around Our Neighborhood" } },
   u03: { main: { id: "6lwJWFddzKA", title: "How to Count to 100 in Italian" }, alt: { id: "9QPSPm4k_gQ", title: "Telling Time in Italian" } },
   u04: { main: { id: "xvvHMwfLSzo", title: "Having Breakfast in Slow Italian" }, alt: { id: "U944xGzLlJw", title: "Order Aperitivo Like an Italian" } },
-  u05: { main: { id: "XC_FusOaYco", title: "How to Commute in Milan" }, alt: { id: "LD4UoO1wyoM", title: "Italian 'Piacere'" } },
+  u05: { main: { id: "XC_FusOaYco", title: "How to Commute in Milan" }, alt: { id: "G6wlTPQEvlk", title: "23 Italian Places Names" } },
   u06: { main: { id: "Wc8S8uDBPG8", title: "Clothes and Accessories" }, alt: { id: "eZ_r24D5Bik", title: "Questo, Quello: This and That" } },
   u07: { main: { id: "6NhdY1yIrKo", title: "A Day in the Life of Matteo" }, alt: { id: "1YMnHT8_TE4", title: "Essere and Stare" } },
   u08: { main: { id: "F4XWtchHCx8", title: "How to Talk About Daily Routine" }, alt: { id: "pKeiV3Ipddw", title: "Are Italians Always Late?" } },

@@ -21,7 +21,7 @@
 
 - 16 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
 - 105 frases de ejemplo, 360 ejercicios y preguntas de comprensión.
-- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 112 líneas de diálogo, 15 consignas de escritura con modelo.
+- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 113 líneas de diálogo, 15 consignas de escritura con modelo.
 - Pronunciación: pares mínimos y consejos por unidad. Shadowing: lista de videos (para juzgar si el nivel es adecuado).
 
 ## Dudas de la IA que conviene mirar primero
@@ -77,19 +77,19 @@ El pronombre sujeto casi siempre se omite: se dice *Sono argentina*, no *Io sono
 |---|---|
 | *Buongiorno* | Hasta media tarde, con cualquiera |
 | *Buonasera* | Desde la tarde, con cualquiera |
-| *Ciao* | Solo con amigos: sirve para hola y chau |
-| *Arrivederci* | Chau, en situaciones formales |
+| *Ciao* | Solo con amigos: sirve para hola y chao |
+| *Arrivederci* | Chao, en situaciones formales |
 | *Piacere* | Mucho gusto, al conocer a alguien |
 | *Mi chiamo…* | Me llamo… |
 | *Scusi* | Disculpe (formal) / *Scusa* (informal) |
 
 **Recuadro «Ojo, en español…»:**
 
-*Lei* (usted) y *lei* (ella) se escriben igual: lo decide el contexto. Y *essere* te sirve para decir dónde estás (*Sono a Milano*), pero para el estado ("estoy bien") se usa otro verbo, *stare*: *Sto bene* (lo vemos en la unidad 7).
+*Lei* (usted) y *lei* (ella) se pronuncian igual: por escrito, el *Lei* de cortesía suele llevar mayúscula, y el contexto decide el resto. Y *essere* te sirve para decir dónde estás (*Sono a Milano*), pero para el estado ("estoy bien") se usa otro verbo, *stare*: *Sto bene* (lo vemos en la unidad 7).
 
 ### Ejemplos
 
-1. **Buongiorno, sono Lucía. Piacere!** — Buen día, soy Lucía. ¡Mucho gusto!
+1. **Buongiorno, sono Lucía. Piacere!** — Buenos días, soy Lucía. ¡Mucho gusto!
 2. **Di dov'è, signora?** — ¿De dónde es, señora? (formal)
 3. **Sono argentino, di Buenos Aires.** — Soy argentino, de Buenos Aires.
 4. **Tu sei di Roma?** — ¿Tú eres de Roma? (informal)
@@ -101,7 +101,7 @@ El pronombre sujeto casi siempre se omite: se dice *Sono argentina*, no *Io sono
 1. **Elegir:** «Siete argentini?» ¿A cuántas personas le hablan?  → A una sola  /  **✔** A varias personas  /  A nadie en particular  — _*Siete* es la forma de *voi*: se habla a varias personas._
 2. **Elegir:** El camarero le dice a una señora: «Lei è pronta per ordinare?» ¿Qué trato usa?  → **✔** Formal (le habla de usted)  /  Informal (le habla de tú)  /  Habla de otra mujer  — _Le habla directamente a ella con *Lei*: es el trato formal._
 3. **Elegir:** «Siamo di Córdoba.» ¿Quién habla?  → Una sola persona  /  **✔** Un grupo que se incluye  /  Un grupo del que no forma parte  — _*Siamo* es la forma de *noi*: el que habla se incluye._
-4. **Elegir:** «Arrivederci, signora!» ¿Qué se está haciendo?  → Saludar al llegar  /  **✔** Despedirse con formalidad  /  Presentarse  — _*Arrivederci* es el chau formal._
+4. **Elegir:** «Arrivederci, signora!» ¿Qué se está haciendo?  → Saludar al llegar  /  **✔** Despedirse con formalidad  /  Presentarse  — _*Arrivederci* es el chao formal._
 
 ### Ejercicios
 
@@ -119,7 +119,7 @@ El pronombre sujeto casi siempre se omite: se dice *Sono argentina*, no *Io sono
 12. **Completar:** Noi ___ stanchi.  → respuesta(s) aceptada(s): `siamo`  — _Con *noi* va *siamo*._
 13. **Completar:** Voi ___ studenti?  → respuesta(s) aceptada(s): `siete`  — _Con *voi* va *siete*._
 14. **Completar:** Io non ___ italiano.  → respuesta(s) aceptada(s): `sono`  — _*Non* va antes del verbo: *non sono*._
-15. **Completar:** ___ sera! Come sta, signora? (buenas tardes)  → respuesta(s) aceptada(s): `Buonasera`  — _De tarde y de noche, con cualquiera: *Buonasera*._
+15. **Completar:** ___! Come sta, signora? (buenas tardes)  → respuesta(s) aceptada(s): `Buonasera` · `Buona sera`  — _De tarde y de noche, con cualquiera: *Buonasera*._
 16. **Completar:** A un amigo: ___, come stai? (hola)  → respuesta(s) aceptada(s): `Ciao`  — _Con amigos se usa *Ciao*._
 17. **Elegir:** Un desconocido mayor te pregunta algo. ¿Cómo le dices «disculpe»?  → Scusa  /  **✔** Scusi  /  Scusate  — _Con alguien desconocido y mayor: *Scusi* (formal)._
 18. **Elegir:** «Eres de Roma» (a un amigo)  → **✔** Sei di Roma  /  Sono di Roma  /  È di Roma  — _Con *tu*: *sei*._
@@ -153,7 +153,7 @@ El pronombre sujeto casi siempre se omite: se dice *Sono argentina*, no *Io sono
 
 ### Dictado (frases que la voz lee y la persona escribe)
 
-1. **Buongiorno, sono Laura.** — Buen día, soy Laura.
+1. **Buongiorno, sono Laura.** — Buenos días, soy Laura.
 2. **Come sta, signora?** — ¿Cómo está, señora?
 3. **Sono di Roma.** — Soy de Roma.
 4. **Siamo in vacanza.** — Estamos de vacaciones.
@@ -164,26 +164,26 @@ El pronombre sujeto casi siempre se omite: se dice *Sono argentina*, no *Io sono
 
 **Consigna:** Escríbele un mensaje a tu familia anfitriona en Italia: salúdalos con formalidad, di tu nombre y de dónde eres.
 
-**Texto modelo:** Buonasera! Mi chiamo Laura e sono di Santiago. Sono qui in vacanza. Piacere di conoscervi! Arrivederci a presto.
+**Texto modelo:** Buonasera! Piacere di conoscervi! Mi chiamo Laura e sono di Santiago. Sono qui in vacanza. A presto!
 
 **Lista de autocorrección:**
 - Saludé con *Buongiorno* o *Buonasera*.
 - Usé *mi chiamo* y *sono di*.
 - Los verbos concuerdan: *sono* con *io*, *siamo* con *noi*.
-- Cerré con *Piacere*, *Grazie* o *Arrivederci*.
+- Cerré con *A presto*, *Grazie* o *Arrivederci*.
 
 ### Diálogo
 
 **Escena:** Llegas a un hotel en Italia y te presentas.  ·  **Roles:** A = Recepcionista, B = Huésped
 
 - **A:** Buongiorno, signora! Benvenuta. — _Buenos días, señora. Bienvenida._
-- **B:** Buongiorno! Sono Laura Rossi. Ho una prenotazione. — _Buenos días. Soy Laura Rossi. Tengo una reserva._
-- **A:** Piacere, signora Rossi. Lei è italiana? — _Mucho gusto, señora Rossi. ¿Usted es italiana?_
+- **B:** Buongiorno! Sono Laura Mora. Ho una prenotazione. — _Buenos días. Soy Laura Mora. Tengo una reserva._
+- **A:** Piacere, signora Mora. Lei è italiana? — _Mucho gusto, señora Mora. ¿Usted es italiana?_
 - **B:** No, sono straniera. Sono qui in vacanza. — _No, soy extranjera. Estoy aquí de vacaciones._
-- **A:** Che bello! Come sta? — _¡Qué lindo! ¿Cómo está?_
+- **A:** Che bello! Come sta? — _¡Qué bien! ¿Cómo está?_
 - **B:** Bene, grazie. E Lei? — _Bien, gracias. ¿Y usted?_
-- **A:** Bene, grazie. Ecco la chiave: camera dodici. — _Bien, gracias. Aquí está la llave: habitación doce._
-- **B:** Grazie mille! Arrivederci. — _¡Muchas gracias! Hasta luego._
+- **A:** Bene, grazie. Ecco la chiave, camera dodici. — _Bien, gracias. Aquí está la llave, habitación doce._
+- **B:** Grazie mille! Buona giornata. — _¡Muchas gracias! Que tenga un buen día._
 
 ### Pronunciación
 
@@ -234,13 +234,13 @@ En italiano el artículo cambia según la primera letra de la palabra que sigue.
 
 **Recuadro «Ojo, en español…»:**
 
-En español *el, la, los, las* no cambian; en italiano sí: *il tavolo*, pero *lo zaino* y *l'amico*. Con *piacere* pasa lo mismo que con *gustar*: *mi piacciono i gelati* = me gustan los helados. No digas *io piaccio il gelato*.
+En español el artículo depende solo del género y el número; en italiano también de la letra inicial de la palabra siguiente: *il tavolo*, pero *lo zaino* y *l'amico*. Con *piacere* pasa lo mismo que con *gustar*: *mi piacciono i gelati* = me gustan los helados. No digas *io piaccio il gelato*.
 
 ### Ejemplos
 
 1. **C'è un supermercato vicino a casa.** — Hay un supermercado cerca de casa.
 2. **Ci sono due bar in piazza.** — Hay dos bares en la plaza.
-3. **L'appartamento ha una camera e un bagno.** — El departamento tiene una habitación y un baño.
+3. **L'appartamento ha una camera e un bagno.** — El departamento / apartamento tiene una habitación y un baño.
 4. **Mi piace il caffè, ma non mi piacciono i dolci.** — Me gusta el café, pero no me gustan los dulces.
 5. **Hai fame? Io ho sete.** — ¿Tienes hambre? Yo tengo sed.
 6. **Gli studenti hanno gli zaini.** — Los estudiantes tienen las mochilas.
@@ -255,18 +255,18 @@ En español *el, la, los, las* no cambian; en italiano sí: *il tavolo*, pero *l
 
 1. **Completar:** ___ libro (el)  → respuesta(s) aceptada(s): `il`  — _Masculino delante de consonante: *il*._
 2. **Completar:** ___ studente (el)  → respuesta(s) aceptada(s): `lo`  — _Delante de *s* + consonante va *lo*._
-3. **Completar:** ___ amica (la)  → respuesta(s) aceptada(s): `l'` · `l'amica`  — _Delante de vocal se usa *l'* (*l'amica*)._
+3. **Completar:** ___ amica (la)  → respuesta(s) aceptada(s): `l'`  — _Delante de vocal se usa *l'* (*l'amica*)._
 4. **Completar:** ___ case (las)  → respuesta(s) aceptada(s): `le`  — _Plural femenino: *le*._
 5. **Completar:** ___ zaini (los)  → respuesta(s) aceptada(s): `gli`  — _Plural de *lo zaino*: *gli zaini*._
 6. **Completar:** Ho ___ amico italiano. (artículo indefinido)  → respuesta(s) aceptada(s): `un`  — _*Amico* es masculino: *un amico*._
 7. **Completar:** Mi ___ la pizza. (me gusta)  → respuesta(s) aceptada(s): `piace`  — _La pizza es singular: *piace*._
-8. **Elegir:** «Me gustan los gelati»  → Mi piace i gelati  /  **✔** Mi piacciono i gelati  /  Io piaccio i gelati  — _Plural → *piacciono*. El que siente va con *mi*._
+8. **Elegir:** «Me gustan los helados»  → Mi piace i gelati  /  **✔** Mi piacciono i gelati  /  Io piaccio i gelati  — _Plural → *piacciono*. El que siente va con *mi*._
 9. **Elegir:** «Hay tres supermercados cerca»  → C'è tre supermercati  /  **✔** Ci sono tre supermercati  /  Ho tre supermercati  — _Plural → *ci sono*._
 10. **Elegir:** «Tenemos una habitación»  → **✔** Abbiamo una camera  /  Siamo una camera  /  Avete una camera  — _*Noi abbiamo* = tenemos._
 11. **Completar:** ___ zaino (un)  → respuesta(s) aceptada(s): `uno`  — _Delante de *z* va *uno*._
 12. **Completar:** ___ amiche (las)  → respuesta(s) aceptada(s): `le`  — _Plural femenino: *le*._
 13. **Completar:** ___ studenti (los)  → respuesta(s) aceptada(s): `gli`  — _Plural de *lo studente*: *gli studenti*._
-14. **Completar:** Ho ___ amica italiana. (una)  → respuesta(s) aceptada(s): `un'` · `un'amica`  — _Femenino ante vocal: *un'amica*, con apóstrofo._
+14. **Completar:** Ho ___ amica italiana. (una)  → respuesta(s) aceptada(s): `un'`  — _Femenino ante vocal: *un'amica*, con apóstrofo._
 15. **Completar:** Mi ___ i gelati. (gustan)  → respuesta(s) aceptada(s): `piacciono`  — _Plural → *piacciono*._
 16. **Completar:** Non mi ___ il caffè. (gusta)  → respuesta(s) aceptada(s): `piace`  — _Singular → *piace*._
 17. **Completar:** ___ un bar vicino a casa? (¿hay…?)  → respuesta(s) aceptada(s): `C'è`  — _Singular: *c'è*._
@@ -303,7 +303,7 @@ En español *el, la, los, las* no cambian; en italiano sí: *il tavolo*, pero *l
 
 1. **Ci sono due bar in piazza.** — Hay dos bares en la plaza.
 2. **C'è un supermercato vicino.** — Hay un supermercado cerca.
-3. **Ho un appartamento con una camera.** — Tengo un departamento con una habitación.
+3. **Ho un appartamento con una camera.** — Tengo un departamento / apartamento con una habitación.
 4. **Mi piace il caffè.** — Me gusta el café.
 5. **Gli studenti hanno gli zaini.** — Los estudiantes tienen las mochilas.
 6. **Hai fame?** — ¿Tienes hambre?
@@ -312,7 +312,7 @@ En español *el, la, los, las* no cambian; en italiano sí: *il tavolo*, pero *l
 
 **Consigna:** Describe tu casa o tu barrio: qué hay (una cosa y varias) y qué te gusta o no te gusta.
 
-**Texto modelo:** Abito in un appartamento. C'è una cucina piccola e ci sono due camere. Vicino a casa c'è un supermercato. Mi piace il quartiere, ma non mi piacciono i bar rumorosi.
+**Texto modelo:** Ho un appartamento piccolo. C'è una cucina e ci sono due camere. Vicino a casa c'è un supermercato. Mi piace il quartiere, ma non mi piacciono i bar rumorosi.
 
 **Lista de autocorrección:**
 - Usé *c'è* para una cosa y *ci sono* para varias.
@@ -322,9 +322,9 @@ En español *el, la, los, las* no cambian; en italiano sí: *il tavolo*, pero *l
 
 ### Diálogo
 
-**Escena:** Un amigo te pregunta por tu departamento nuevo.  ·  **Roles:** A = Amigo, B = Marco
+**Escena:** Un amigo te pregunta por tu departamento / apartamento nuevo.  ·  **Roles:** A = Amigo, B = Marco
 
-- **A:** Ciao Marco! Hai un appartamento nuovo? — _¡Hola Marco! ¿Tienes un departamento nuevo?_
+- **A:** Ciao Marco! Hai un appartamento nuovo? — _¡Hola Marco! ¿Tienes un departamento / apartamento nuevo?_
 - **B:** Sì! C'è una cucina grande e ci sono due camere. — _¡Sí! Hay una cocina grande y dos habitaciones._
 - **A:** Che bello! Ci sono negozi vicino? — _¡Qué lindo! ¿Hay tiendas cerca?_
 - **B:** Sì, c'è un supermercato e ci sono due bar in piazza. — _Sí, hay un supermercado y dos bares en la plaza._
@@ -335,9 +335,9 @@ En español *el, la, los, las* no cambian; en italiano sí: *il tavolo*, pero *l
 
 **Consonantes dobles (I)** — La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído.
 
-Pares mínimos: palla (pelota) / pala (pala) · nonno (abuelo) / nono (noveno) · sette (siete) / sete (sed) · pena (pena) / penna (pluma) · anno (año) / ano (ano)
+Pares mínimos: palla (pelota) / pala (pala) · nonno (abuelo) / nono (noveno) · sette (siete) / sete (sed) · pena (pena) / penna (pluma)
 
-Palabras para repetir: palla, nonno, sette, penna, anno, mamma
+Palabras para repetir: palla, nonno, sette, penna, mamma, rosa
 
 ### Shadowing (videos de Easy Italian)
 
@@ -357,7 +357,7 @@ Palabras para repetir: palla, nonno, sette, penna, anno, mamma
 
 ### Lección: la regla
 
-Los números del 1 al 20 se aprenden de memoria. Desde el 17 se arman con *dici-* + el número: *diciassette, diciotto, diciannove*.
+Los números del 1 al 20 se aprenden de memoria. Del 17 al 19 son *diciassette, diciotto, diciannove* (apréndelos como un bloque).
 
 | Números | Italiano |
 |---|---|
@@ -397,7 +397,7 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 3. **Quanto costa questo? — Costa dodici euro e cinquanta.** — ¿Cuánto cuesta esto? — Cuesta 12,50 euros.
 4. **I biscotti costano tre euro.** — Las galletas cuestan tres euros.
 5. **Il mio compleanno è il quindici marzo.** — Mi cumpleaños es el 15 de marzo.
-6. **Ho ventotto anni e mia sorella ne ha trentuno.** — Tengo 28 años y mi hermana tiene 31.
+6. **Ho ventotto anni e mia sorella ha trentuno anni.** — Tengo 28 años y mi hermana tiene 31.
 7. **Oggi è martedì, sei ottobre.** — Hoy es martes, 6 de octubre.
 8. **Il museo apre alle nove e chiude all'una.** — El museo abre a las nueve y cierra a la una.
 
@@ -426,7 +426,7 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 15. **Completar:** Il caffè costa un euro e ___. (1,20)  → respuesta(s) aceptada(s): `venti`  — _Los centavos se dicen con *e*: *un euro e venti*._
 16. **Completar:** Un panino costa ___ euro. (5,00)  → respuesta(s) aceptada(s): `cinque`  — _5 = *cinque*; *euro* no cambia._
 17. **Elegir:** «Sono le diciotto e trenta.» ¿Qué hora es?  → **✔** 6:30 de la tarde  /  8:30 de la tarde  /  6:30 de la mañana  — _*Diciotto* es 18 horas: las 6 de la tarde._
-18. **Elegir:** Quieres saber el precio de unas zapatillas. ¿Qué preguntas?  → Quanto costa?  /  **✔** Quanto costano?  /  Quanti costa?  — _Varias cosas (un par): *Quanto costano?*._
+18. **Elegir:** Quieres saber el precio de unos zapatos. ¿Qué preguntas?  → Quanto costa?  /  **✔** Quanto costano?  /  Quanti costa?  — _Varias cosas (un par): *Quanto costano?*._
 19. **Elegir:** ¿Cómo se escribe correctamente la fecha de hoy?  → **✔** Oggi è il 6 ottobre.  /  Oggi è il 6 di ottobre.  /  Oggi è 6 Ottobre.  — _Sin "de" y con el mes en minúscula._
 20. **Elegir:** ¿Cómo se dice 21?  → ventiuno  /  **✔** ventuno  /  venti uno  — _*Venti* pierde la *i* ante *uno*: *ventuno*._
 
@@ -451,7 +451,7 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 | il giorno | el día |
 | la mattina | la mañana |
 | il pomeriggio | la tarde |
-| la sera | la tarde-noche |
+| la sera | la tarde (al anochecer) / la noche (temprano) |
 | il prezzo | el precio |
 | costare | costar |
 
@@ -468,7 +468,7 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 
 **Consigna:** Escríbele a un amigo para quedar: propón un día, una hora y di cuánto cuesta la entrada.
 
-**Texto modelo:** Ciao Marco! Sabato sono libero. Il cinema apre alle diciotto e il biglietto costa otto euro. Ti aspetto davanti al cinema alle diciotto e trenta.
+**Texto modelo:** Ciao Marco! Sabato sono libero. Il film inizia alle diciannove e il biglietto costa otto euro. Ti aspetto davanti al cinema alle diciotto e trenta.
 
 **Lista de autocorrección:**
 - Escribí la hora con *alle…* (o *all'una*).
@@ -480,14 +480,14 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 
 **Escena:** Compras un boleto de tren en la boletería.  ·  **Roles:** A = Pasajero, B = Boletería
 
-- **A:** Un biglietto per Firenze, per favore. — _Un boleto a Florencia, por favor._
+- **A:** Un biglietto per Firenze, per favore. — _Un boleto / pasaje a Florencia, por favor._
 - **B:** Certo. Per che ora? — _Claro. ¿Para qué hora?_
 - **A:** Alle diciotto e trenta. — _A las 18:30._
 - **B:** C'è un treno alle diciotto e quarantacinque. — _Hay un tren a las 18:45._
 - **A:** Va bene. Quanto costa? — _Está bien. ¿Cuánto cuesta?_
 - **B:** Costa ventidue euro e cinquanta. — _Cuesta 22,50 euros._
 - **A:** Ecco venticinque euro. — _Aquí tiene veinticinco euros._
-- **B:** Ecco il resto: due euro e cinquanta. Buon viaggio! — _Aquí está el vuelto: 2,50 euros. ¡Buen viaje!_
+- **B:** Ecco il resto: due euro e cinquanta. Buon viaggio! — _Aquí está el cambio / vuelto: 2,50 euros. ¡Buen viaje!_
 
 ### Pronunciación
 
@@ -550,12 +550,12 @@ En el bar, *Voglio un caffè* suena brusco; los italianos dicen *Vorrei…* o *P
 3. **Posso avere il conto?** — ¿Puedo pedir la cuenta?
 4. **Non capisco: può ripetere?** — No entiendo: ¿puede repetir?
 5. **Dobbiamo prenotare un tavolo per due.** — Tenemos que reservar una mesa para dos.
-6. **Il treno parte alle otto e finisce a Roma.** — El tren sale a las ocho y termina en Roma.
+6. **Il corso inizia alle otto e finisce alle dieci.** — El curso empieza a las ocho y termina a las diez.
 
 ### Preguntas «Primero fíjate»
 
 1. **Elegir:** «Capisco, ma non parlo bene.» ¿Quién habla?  → **✔** Una persona (yo)  /  Un grupo (nosotros)  /  Se habla de otro (él)  — _La terminación *-o* es la de *io*._
-2. **Elegir:** «Possono sedersi qui.» ¿Quiénes pueden sentarse?  → Una sola persona  /  **✔** Varias personas  /  Yo  — _*Possono* es la forma de *loro*: varias personas (o *Loro* en cortesía plural)._
+2. **Elegir:** «Possono pagare qui.» ¿Quiénes pueden pagar?  → Una sola persona  /  **✔** Varias personas  /  Yo  — _*Possono* es la forma de *loro*: varias personas._
 3. **Elegir:** Un camarero dice «Vuole altro?». ¿Qué trato está usando?  → **✔** Formal, a un cliente  /  Informal, a un amigo  /  Habla de un tercero  — _*Vuole* con *Lei* (cortesía): le habla al cliente de usted._
 
 ### Ejercicios
@@ -568,7 +568,7 @@ En el bar, *Voglio un caffè* suena brusco; los italianos dicen *Vorrei…* o *P
 6. **Completar:** Io ___ un caffè, per favore. (quisiera)  → respuesta(s) aceptada(s): `vorrei`  — _*Vorrei* es la forma cortés de pedir._
 7. **Completar:** ___ avere il conto? (¿puedo…?)  → respuesta(s) aceptada(s): `posso`  — _*Potere* con *io*: *posso*._
 8. **Completar:** Noi ___ andare. (dovere)  → respuesta(s) aceptada(s): `dobbiamo`  — _*Dovere* con *noi*: *dobbiamo*._
-9. **Elegir:** En el bar quieres pedir un capuchino. ¿Qué es lo más natural?  → Voglio un cappuccino.  /  **✔** Vorrei un cappuccino, per favore.  /  Io prendere cappuccino.  — _*Vorrei … per favore* es el pedido cortés estándar._
+9. **Elegir:** En el bar quieres pedir un capuchino. ¿Qué es lo más cortés?  → Voglio un cappuccino.  /  **✔** Vorrei un cappuccino, per favore.  /  Io prendere cappuccino.  — _*Vorrei … per favore* es el pedido cortés estándar._
 10. **Elegir:** «Ellos quieren la cuenta»  → **✔** Vogliono il conto  /  Vuole il conto  /  Vogliamo il conto  — _*Loro* + *volere* → *vogliono*._
 11. **Completar:** Tu ___ il conto? (chiedere)  → respuesta(s) aceptada(s): `chiedi`  — _*Chiedere* con *tu*: *chiedi*._
 12. **Completar:** Lui ___ a casa alle sei. (tornare)  → respuesta(s) aceptada(s): `torna`  — _*Tornare* con *lui*: *torna*._
@@ -619,7 +619,7 @@ En el bar, *Voglio un caffè* suena brusco; los italianos dicen *Vorrei…* o *P
 
 **Consigna:** Cuéntale a un amigo qué pedirías en un bar y qué tienes que hacer después.
 
-**Texto modelo:** Al bar prendo un cappuccino e un cornetto. Vorrei anche un bicchiere d'acqua, per favore. Poi devo andare al lavoro e posso tornare alle sei.
+**Texto modelo:** Al bar prendo un cappuccino e un cornetto. Vorrei anche un bicchiere d'acqua, per favore. Poi devo andare al lavoro e torno a casa alle sei.
 
 **Lista de autocorrección:**
 - Pedí algo con *vorrei* o *prendo*.
@@ -644,7 +644,7 @@ En el bar, *Voglio un caffè* suena brusco; los italianos dicen *Vorrei…* o *P
 
 **Consonantes dobles (II)** — Sigue con las dobles. Fíjate en cuánto dura la consonante y no solo en la vocal: *caro* (querido) frente a *carro* (carro), *casa* (casa) frente a *cassa* (caja).
 
-Pares mínimos: capello (cabello) / cappello (sombrero) · caro (querido / caro) / carro (carro) · casa (casa) / cassa (caja)
+Pares mínimos: capello (cabello) / cappello (sombrero) · caro (querido / caro) / carro (carreta / vagón) · casa (casa) / cassa (caja)
 
 Palabras para repetir: cappello, carro, cassa
 

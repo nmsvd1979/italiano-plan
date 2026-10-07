@@ -21,7 +21,7 @@
 
 - 16 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
 - 105 frases de ejemplo, 360 ejercicios y preguntas de comprensión.
-- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 112 líneas de diálogo, 15 consignas de escritura con modelo.
+- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 113 líneas de diálogo, 15 consignas de escritura con modelo.
 - Pronunciación: pares mínimos y consejos por unidad. Shadowing: lista de videos (para juzgar si el nivel es adecuado).
 
 ## Dudas de la IA que conviene mirar primero
@@ -70,22 +70,22 @@ Los pronombres evitan repetir el objeto. **Directo** = *qué / a quién* (*lo ve
 | ellos / los | *li* | *gli* |
 | ellas / las | *le* | *gli* |
 
-*Compro la giacca* → **la** compro. · *Vedo Marco* → **lo** vedo. · *Telefono a Anna* → **le** telefono. · *Do il libro a lui* → **gli** do il libro.
+*Compro la giacca* → **la** compro. · *Vedo Marco* → **lo** vedo. · *Telefono ad Anna* → **le** telefono. · *Do il libro a lui* → **gli** do il libro.
 
 **Con infinitivo** el pronombre puede ir al final pegado (*Voglio vederlo*) o antes del verbo conjugado (*Lo voglio vedere*). **Con passato prossimo**, *lo / la / li / le* hacen concordar el participio: *Ho comprato la giacca → L'ho comprata.* · *Ho visto i ragazzi → Li ho visti.*
 
-Cuando se juntan dos (a él + lo), *gli* + *lo* se funden en **glielo**: *Glielo do* (se lo doy). Por ahora alcanza con reconocerlo.
+Cuando se juntan dos (a él + lo), *gli* + *lo* se funden en **glielo**: *Glielo do* (se lo doy). Con las demás personas, el primer pronombre cambia a *me, te, ce, ve*: *Te lo do domani* (te lo doy mañana), *Me lo dai?* (¿me lo das?). Por ahora alcanza con reconocerlos.
 
 **Recuadro «Ojo, en español…»:**
 
-Cuidado con *le*: en español *le* es para él y para ella, pero en italiano *gli* es a él y *le* es a ella. El plural masculino directo es *li* (no *los*). Y algo que el español no hace: con *l'ho comprata* el participio concuerda con lo que reemplaza el pronombre.
+Cuidado con *le*: en español *le* es para él y para ella, pero en italiano *gli* es a él y *le* es a ella. Para el plural masculino directo se usa *li* (el singular es *lo*). Y algo que el español no hace: con *l'ho comprata* el participio concuerda con lo que reemplaza el pronombre.
 
 ### Ejemplos
 
 1. **La giacca è bella: la compro.** — La chaqueta es bonita: la compro.
 2. **Hai visto Marco? Sì, l'ho visto ieri.** — ¿Viste a Marco? Sí, lo vi ayer.
 3. **Telefono ad Anna: le chiedo l'indirizzo.** — Llamo a Anna: le pido la dirección.
-4. **Ho comprato le scarpe e le porto subito.** — Compré los zapatos y los llevo ya.
+4. **Ho comprato le scarpe e le porto subito.** — Compré los zapatos y me los pongo ahora.
 5. **Vorrei restituirlo: è troppo piccolo.** — Quisiera devolverlo: es demasiado chico.
 6. **Il libro? Glielo do domani.** — ¿El libro? Se lo doy mañana.
 
@@ -173,14 +173,14 @@ Cuidado con *le*: en español *le* es para él y para ella, pero en italiano *gl
 - **A:** Sì, ho ancora lo scontrino. — _Sí, todavía tengo el recibo._
 - **B:** La può cambiare con una taglia più grande. — _Puede cambiarla por una talla más grande._
 - **A:** Perfetto. La provo subito. — _Perfecto. Me la pruebo enseguida._
-- **B:** Ecco la taglia grande. Le va bene? — _Aquí está la talla más grande. ¿Le queda bien?_
+- **B:** Ecco la taglia più grande. Le sta bene? — _Aquí está la talla más grande. ¿Le queda bien?_
 - **A:** Sì, la prendo! — _¡Sí, me la llevo!_
 
 ### Pronunciación
 
-**Repaso: dobles y S** — Repaso de consonantes dobles. Además, la *s* entre vocales suele sonar sonora (*casa*, *rosa*, *museo*), como una "s" vibrada. En el sur se pronuncia sorda; ambas se entienden.
+**Repaso: dobles y S** — Repaso de consonantes dobles. Además, la *s* entre vocales suele sonar sonora (*casa*, *rosa*, *museo*), como la *s* de *mismo* (sonora). En el sur se pronuncia sorda; ambas se entienden.
 
-Pares mínimos: palla (pelota) / pala (pala) · nonno (abuelo) / nono (noveno) · capello (cabello) / cappello (sombrero) · caro (querido / caro) / carro (carro) · casa (casa) / cassa (caja)
+Pares mínimos: palla (pelota) / pala (pala) · nonno (abuelo) / nono (noveno) · capello (cabello) / cappello (sombrero) · caro (querido / caro) / carro (carreta / vagón) · casa (casa) / cassa (caja)
 
 Palabras para repetir: rosa, cosa, casa, museo, paese, esame
 
@@ -247,7 +247,7 @@ En español puedes decir *quiero dos* sin más; en italiano, si hablas de una ca
 2. **Completar:** ___ a destra. (Lei, girare)  → respuesta(s) aceptada(s): `giri`  — _-are → cortés *-i*: *giri*._
 3. **Completar:** ___ la prima a sinistra. (Lei, prendere)  → respuesta(s) aceptada(s): `prenda`  — _-ere → cortés *-a*: *prenda*._
 4. **Completar:** Marco, ___ qui! (tu, venire)  → respuesta(s) aceptada(s): `vieni`  — _*Venire* con *tu*: *vieni*._
-5. **Completar:** ___ attenzione! (tu, fare)  → respuesta(s) aceptada(s): `fai`  — _*Fare* con *tu*: *fai*._
+5. **Completar:** ___ attenzione! (tu, fare)  → respuesta(s) aceptada(s): `fai` · `fa'`  — _*Fare* con *tu*: *fai*._
 6. **Completar:** Vai a Roma? Sì, ___ vado domani. (allí)  → respuesta(s) aceptada(s): `ci`  — _*Ci* reemplaza el lugar._
 7. **Completar:** Quante mele vuoi? ___ voglio due.  → respuesta(s) aceptada(s): `ne`  — _*Ne* expresa la cantidad de algo ya mencionado._
 8. **Elegir:** En una pastelería quieres tres de los pasteles que ya mencionaste.  → Voglio tre  /  **✔** Ne voglio tre  /  Ci voglio tre  — _Cantidad de algo ya dicho → *ne*._
@@ -302,7 +302,7 @@ En español puedes decir *quiero dos* sin más; en italiano, si hablas de una ca
 
 **Consigna:** Dale indicaciones a un turista para llegar a la estación (usa el trato formal) y pide algo con *ne*.
 
-**Texto modelo:** Vada dritto fino al semaforo e giri a destra. La stazione è dopo il ponte. Prenda la metro e scenda a Termini. Al mercato ne vorrei due chili.
+**Texto modelo:** Vada dritto fino al semaforo e giri a destra. La stazione è dopo il ponte. Prenda la metro e scenda a Termini. Al mercato vorrei delle mele: ne vorrei due chili.
 
 **Lista de autocorrección:**
 - Usé el imperativo formal (*vada, giri, prenda*).
@@ -312,7 +312,7 @@ En español puedes decir *quiero dos* sin más; en italiano, si hablas de una ca
 
 ### Diálogo
 
-**Escena:** Pides indicaciones con el trato formal.  ·  **Roles:** A = Turista, B = Pasante
+**Escena:** Pides indicaciones con el trato formal.  ·  **Roles:** A = Turista, B = Transeúnte
 
 - **A:** Scusi, per andare alla stazione? — _Disculpe, ¿cómo llego a la estación?_
 - **B:** Vada dritto e giri a destra al semaforo. — _Siga derecho y gire a la derecha en el semáforo._
@@ -325,7 +325,7 @@ En español puedes decir *quiero dos* sin más; en italiano, si hablas de una ca
 
 ### Pronunciación
 
-**Repaso: C/G, SC/GLI y Z** — Repaso de los contrastes de las semanas 1, 5 y 6.
+**Repaso: C/G, SC/GLI y Z** — Repaso de los contrastes de las unidades 1 (C y G), 7 (SC, GLI y GN) y 9 (la Z).
 
 Pares mínimos: gli (a él / los) / li (allí) · sci (esquí) / ci (nos / allí) · pazzo (loco) / passo (paso) · chi (quién) / ci (nos / allí)
 
@@ -349,7 +349,7 @@ Palabras para repetir: gelato, pesce, famiglia, pizza, ghiaccio
 
 ### Lección: la regla
 
-El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *-ò, -ai, -à, -emo, -ete, -anno*. En los verbos en *-are* la *a* pasa a *e*.
+El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *-ò, -ai, -à, -emo, -ete, -anno*. En los verbos en *-are* la *a* pasa a *e*. Ortografía: los verbos en *-care / -gare* agregan una *h* (*cercherò, pagherò*), los en *-ciare / -giare* pierden la *i* (*mangerò, viaggeremo*) y los en *-iare* con *i* acentuada la conservan (*studierò*).
 
 |  | parlare | prendere | dormire | essere | avere |
 |---|---|---|---|---|---|
@@ -406,7 +406,7 @@ Se parece mucho al español (*hablaré, hablaría*), por eso es fácil: *parler�
 12. **Completar:** Lei ___ a Roma. (venire)  → respuesta(s) aceptada(s): `verrà`  — _*Venire → verrà*._
 13. **Completar:** Voi ___ la verità. (vedere)  → respuesta(s) aceptada(s): `vedrete`  — _*Vedere → vedrete*._
 14. **Completar:** Loro ___ domani. (partire)  → respuesta(s) aceptada(s): `partiranno`  — _*Partire → partiranno*._
-15. **Completar:** Io ___ molto. (studiare)  → respuesta(s) aceptada(s): `studierò`  — _*Studiare* pierde la *i*: *studierò*._
+15. **Completar:** Io ___ molto. (studiare)  → respuesta(s) aceptada(s): `studierò`  — _Los verbos en *-iare* conservan la *i* (*studierò*); solo la pierden los en *-ciare / -giare* (*mangerò, viaggeremo*)._
 16. **Completar:** Tu ___ farmi un favore? (potere, cortés)  → respuesta(s) aceptada(s): `potresti`  — _Condizionale: *potresti*._
 17. **Completar:** Noi ___ prenotare un tavolo. (volere, cortés)  → respuesta(s) aceptada(s): `vorremmo`  — _Condizionale de *volere*: *vorremmo*._
 18. **Completar:** Marco, ___ riposare. (dovere, consejo)  → respuesta(s) aceptada(s): `dovresti`  — _Condizionale: *dovresti*._
@@ -470,7 +470,7 @@ Se parece mucho al español (*hablaré, hablaría*), por eso es fácil: *parler�
 - **A:** Dovresti cercare una camera presto. — _Deberías buscar una habitación pronto._
 - **B:** Hai ragione! Cercherò domani. — _¡Tienes razón! Buscaré mañana._
 - **A:** Potresti mandarmi una foto della città? — _¿Podrías mandarme una foto de la ciudad?_
-- **B:** Certo, te la mando! — _¡Claro, te la mando!_
+- **B:** Certo, ti mando una foto domani! — _¡Claro, te mando una foto mañana!_
 
 ### Pronunciación
 

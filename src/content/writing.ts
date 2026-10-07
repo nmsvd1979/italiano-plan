@@ -13,25 +13,25 @@ export interface WritingTask {
 const WRITING: Record<string, WritingTask> = {
   u01: {
     prompt: "Escríbele un mensaje a tu familia anfitriona en Italia: salúdalos con formalidad, di tu nombre y de dónde eres.",
-    model: "Buonasera! Mi chiamo Laura e sono di Santiago. Sono qui in vacanza. Piacere di conoscervi! Arrivederci a presto.",
-    checklist: ["Saludé con *Buongiorno* o *Buonasera*.", "Usé *mi chiamo* y *sono di*.", "Los verbos concuerdan: *sono* con *io*, *siamo* con *noi*.", "Cerré con *Piacere*, *Grazie* o *Arrivederci*."],
+    model: "Buonasera! Piacere di conoscervi! Mi chiamo Laura e sono di Santiago. Sono qui in vacanza. A presto!",
+    checklist: ["Saludé con *Buongiorno* o *Buonasera*.", "Usé *mi chiamo* y *sono di*.", "Los verbos concuerdan: *sono* con *io*, *siamo* con *noi*.", "Cerré con *A presto*, *Grazie* o *Arrivederci*."],
     minChars: 50,
   },
   u02: {
     prompt: "Describe tu casa o tu barrio: qué hay (una cosa y varias) y qué te gusta o no te gusta.",
-    model: "Abito in un appartamento. C'è una cucina piccola e ci sono due camere. Vicino a casa c'è un supermercato. Mi piace il quartiere, ma non mi piacciono i bar rumorosi.",
+    model: "Ho un appartamento piccolo. C'è una cucina e ci sono due camere. Vicino a casa c'è un supermercato. Mi piace il quartiere, ma non mi piacciono i bar rumorosi.",
     checklist: ["Usé *c'è* para una cosa y *ci sono* para varias.", "Usé *mi piace* con singular y *mi piacciono* con plural.", "Cada sustantivo lleva el artículo correcto (*il, lo, la, l', i, gli, le*).", "Conté al menos una cosa que tengo con *avere*."],
     minChars: 70,
   },
   u03: {
     prompt: "Escríbele a un amigo para quedar: propón un día, una hora y di cuánto cuesta la entrada.",
-    model: "Ciao Marco! Sabato sono libero. Il cinema apre alle diciotto e il biglietto costa otto euro. Ti aspetto davanti al cinema alle diciotto e trenta.",
+    model: "Ciao Marco! Sabato sono libero. Il film inizia alle diciannove e il biglietto costa otto euro. Ti aspetto davanti al cinema alle diciotto e trenta.",
     checklist: ["Escribí la hora con *alle…* (o *all'una*).", "Escribí el precio con *costa* o *costano* y la palabra *euro*.", "Los días de la semana van en minúscula.", "Los números están bien escritos, pegados (*ventotto*, *trentadue*)."],
     minChars: 70,
   },
   u04: {
     prompt: "Cuéntale a un amigo qué pedirías en un bar y qué tienes que hacer después.",
-    model: "Al bar prendo un cappuccino e un cornetto. Vorrei anche un bicchiere d'acqua, per favore. Poi devo andare al lavoro e posso tornare alle sei.",
+    model: "Al bar prendo un cappuccino e un cornetto. Vorrei anche un bicchiere d'acqua, per favore. Poi devo andare al lavoro e torno a casa alle sei.",
     checklist: ["Pedí algo con *vorrei* o *prendo*.", "Usé *dovere* o *potere* con un infinitivo.", "Conjugué bien los verbos regulares (*-o, -i, -a*).", "Usé *per favore*."],
     minChars: 70,
   },
@@ -55,7 +55,7 @@ const WRITING: Record<string, WritingTask> = {
   },
   u08: {
     prompt: "Escribe cuatro preguntas para conocer a alguien y cuenta con qué frecuencia haces algo (y qué nunca haces).",
-    model: "Dove abiti? Quanti anni hai? Perché studi italiano? Io vado spesso al cinema, ma non mangio mai la carne e non bevo molto caffè.",
+    model: "Come ti chiami? Dove abiti? Quanti anni hai? Perché studi italiano? Io vado spesso al cinema, ma non mangio mai la carne e non bevo molto caffè.",
     checklist: ["Usé al menos tres palabras interrogativas distintas.", "Usé *non* antes del verbo, y *mai* o *niente* si hace falta.", "Dije la frecuencia con *spesso, sempre, qualche volta…*.", "Concordé *molto/poco/troppo* con el sustantivo."],
     minChars: 80,
   },
@@ -91,7 +91,7 @@ const WRITING: Record<string, WritingTask> = {
   },
   u14: {
     prompt: "Dale indicaciones a un turista para llegar a la estación (usa el trato formal) y pide algo con *ne*.",
-    model: "Vada dritto fino al semaforo e giri a destra. La stazione è dopo il ponte. Prenda la metro e scenda a Termini. Al mercato ne vorrei due chili.",
+    model: "Vada dritto fino al semaforo e giri a destra. La stazione è dopo il ponte. Prenda la metro e scenda a Termini. Al mercato vorrei delle mele: ne vorrei due chili.",
     checklist: ["Usé el imperativo formal (*vada, giri, prenda*).", "Usé *dritto, a destra, a sinistra* y un punto de referencia.", "Usé *ne* para una cantidad.", "Usé *ci* para un lugar al menos una vez."],
     minChars: 90,
   },

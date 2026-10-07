@@ -101,7 +101,7 @@ export const unidad12: Lesson = {
     { type: "fill", prompt: "Vorrei ___, per favore. (algo de agua)", answers: ["dell'acqua"], why: "Ante vocal: *dell'acqua*." },
     { type: "fill", prompt: "Ho comprato ___ mele. (unas)", answers: ["delle"], why: "Femenino plural: *delle*." },
     { type: "fill", prompt: "Ci sono ___ pomodori nel frigo. (unos)", answers: ["dei"], why: "Masculino plural: *dei*." },
-    { type: "fill", prompt: "Mangio ___ spinaci ogni settimana. (unos)", answers: ["degli"], why: "*Spinaci* empieza con *sp*: *degli*." },
+    { type: "fill", prompt: "Ho comprato ___ spinaci. (unos)", answers: ["degli"], why: "*Spinaci* empieza con *sp*: *degli*." },
     {
       type: "choice",
       prompt: "¿Cómo se dice «más caro que Milán»?",

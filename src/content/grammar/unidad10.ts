@@ -28,7 +28,7 @@ export const unidad10: Lesson = {
     },
   ],
   transfer:
-    "Acá está la trampa más grande del pasado. En español *he ido* usa *haber*, así que sale *ho andato*. Es incorrecto: es *sono andato*. Y el participio con *essere* concuerda en género y número, algo que el español no hace con *haber*.",
+    "Aquí está la trampa más grande del pasado. En español *he ido* usa *haber*, así que sale *ho andato*. Es incorrecto: es *sono andato*. Y el participio con *essere* concuerda en género y número, algo que el español no hace con *haber*.",
   examples: [
     { it: "Sono andata a Firenze in treno.", es: "Fui a Florencia en tren (habla una mujer)." },
     { it: "Siamo arrivati alle dieci di sera.", es: "Llegamos a las diez de la noche." },
@@ -67,7 +67,7 @@ export const unidad10: Lesson = {
     { type: "fill", prompt: "Marco e Anna sono ___ in ritardo. (arrivare)", answers: ["arrivati"], why: "Grupo mixto: plural masculino *arrivati*." },
     { type: "fill", prompt: "Giulia e Sara sono ___ al cinema. (andare)", answers: ["andate"], why: "Solo mujeres: *andate*." },
     { type: "fill", prompt: "Noi ci ___ divertiti. (essere)", answers: ["siamo"], why: "Los reflexivos van con *essere*: *ci siamo divertiti*." },
-    { type: "fill", prompt: "Siete ___ a Venezia? (essere, plural)", answers: ["stati"], why: "*Essere → stato*; con *voi* mixto: *stati*." },
+    { type: "fill", prompt: "Siete ___ a Venezia? (essere, plural)", answers: ["stati", "state"], why: "*Essere → stato*; con *voi* mixto: *stati*." },
     {
       type: "choice",
       prompt: "«Fui a Florencia» (habla un varón)",
@@ -91,12 +91,12 @@ export const unidad10: Lesson = {
     },
     {type: "fill", prompt: "Lei è ___ a Roma. (andare)", answers: ["andata"], why: "Ella: *andata*."},
     {type: "fill", prompt: "Noi siamo ___ tardi. (arrivare; grupo mixto)", answers: ["arrivati"], why: "Grupo mixto: *arrivati*."},
-    {type: "fill", prompt: "Loro sono ___ ieri. (partire; ellas)", answers: ["partite"], why: "Solo mujeres: *partite*."},
+    {type: "fill", prompt: "Loro sono ___ ieri. (partire; grupo de mujeres)", answers: ["partite"], why: "Solo mujeres: *partite*."},
     {type: "fill", prompt: "Io sono ___ alle sei. (uscire; hablo yo, varón)", answers: ["uscito"], why: "Un varón: *uscito*."},
     {type: "fill", prompt: "Mia madre è ___ a Torino. (nascere)", answers: ["nata"], why: "Ella: *nata*."},
     {type: "fill", prompt: "Tu ti ___ alzata presto? (essere)", answers: ["sei"], why: "Con *tu*: *sei*."},
     {type: "fill", prompt: "Marco, ti sei ___? (divertirsi)", answers: ["divertito"], why: "Varón: *divertito*."},
-    {type: "fill", prompt: "Voi siete ___ a casa? (tornare; ellas)", answers: ["tornate"], why: "Mujeres: *tornate*."},
+    {type: "fill", prompt: "Voi siete ___ a casa? (tornare; grupo de mujeres)", answers: ["tornate"], why: "Mujeres: *tornate*."},
     {type: "choice", prompt: "«Mis amigos llegaron ayer»", options: ["I miei amici sono arrivati ieri", "I miei amici hanno arrivato ieri", "I miei amici sono arrivato ieri"], answer: 0, why: "*Arrivare* va con *essere* y concuerda: *arrivati*."},
     {type: "choice", prompt: "«Fuimos a la playa» (un grupo de mujeres)", options: ["Siamo andate al mare", "Siamo andati al mare", "Abbiamo andato al mare"], answer: 0, why: "Mujeres: *andate*, con *essere*."},
   ],

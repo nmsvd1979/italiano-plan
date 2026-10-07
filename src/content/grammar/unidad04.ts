@@ -50,7 +50,7 @@ export const unidad04: Lesson = {
     { it: "Posso avere il conto?", es: "¿Puedo pedir la cuenta?" },
     { it: "Non capisco: può ripetere?", es: "No entiendo: ¿puede repetir?" },
     { it: "Dobbiamo prenotare un tavolo per due.", es: "Tenemos que reservar una mesa para dos." },
-    { it: "Il treno parte alle otto e finisce a Roma.", es: "El tren sale a las ocho y termina en Roma." },
+    { it: "Il corso inizia alle otto e finisce alle dieci.", es: "El curso empieza a las ocho y termina a las diez." },
   ],
   notice: [
     {
@@ -62,10 +62,10 @@ export const unidad04: Lesson = {
     },
     {
       type: "choice",
-      prompt: "«Possono sedersi qui.» ¿Quiénes pueden sentarse?",
+      prompt: "«Possono pagare qui.» ¿Quiénes pueden pagar?",
       options: ["Una sola persona", "Varias personas", "Yo"],
       answer: 1,
-      why: "*Possono* es la forma de *loro*: varias personas (o *Loro* en cortesía plural).",
+      why: "*Possono* es la forma de *loro*: varias personas.",
     },
     {
       type: "choice",
@@ -86,7 +86,7 @@ export const unidad04: Lesson = {
     { type: "fill", prompt: "Noi ___ andare. (dovere)", answers: ["dobbiamo"], why: "*Dovere* con *noi*: *dobbiamo*." },
     {
       type: "choice",
-      prompt: "En el bar quieres pedir un capuchino. ¿Qué es lo más natural?",
+      prompt: "En el bar quieres pedir un capuchino. ¿Qué es lo más cortés?",
       options: ["Voglio un cappuccino.", "Vorrei un cappuccino, per favore.", "Io prendere cappuccino."],
       answer: 1,
       why: "*Vorrei … per favore* es el pedido cortés estándar.",

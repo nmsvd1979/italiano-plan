@@ -21,7 +21,7 @@
     "capello": "cabello",
     "cappello": "sombrero",
     "caro": "querido / caro",
-    "carro": "carro",
+    "carro": "carreta / vagón",
     "fato": "destino",
     "fatto": "hecho",
     "casa": "casa",
@@ -46,8 +46,6 @@
     "tuta": "buzo",
     "nonna": "abuela",
     "nona": "novena",
-    "rosa": "rosa",
-    "rossa": "roja",
     "pozzo": "pozo",
     "posso": "puedo",
     "cento": "cien",
@@ -66,7 +64,7 @@
     "mia": "mía",
     "che": "qué / que",
     "pane": "pan",
-    "panna": "crema"
+    "panna": "crema de leche / nata"
   },
   "units": [
     {
@@ -121,10 +119,6 @@
         [
           "pena",
           "penna"
-        ],
-        [
-          "anno",
-          "ano"
         ]
       ],
       "words": [
@@ -132,8 +126,8 @@
         "nonno",
         "sette",
         "penna",
-        "anno",
-        "mamma"
+        "mamma",
+        "rosa"
       ]
     },
     {
@@ -219,7 +213,8 @@
         "spesa",
         "sport",
         "strada",
-        "specchio"
+        "specchio",
+        "sposa"
       ]
     },
     {
@@ -270,7 +265,8 @@
         "famiglia",
         "bagno",
         "sciarpa",
-        "figlio"
+        "figlio",
+        "ragno"
       ]
     },
     {
@@ -324,13 +320,14 @@
         "lezione",
         "ragazzo",
         "azione",
-        "mezzo"
+        "mezzo",
+        "pezzo"
       ]
     },
     {
       "unit": "u10",
       "title": "Dobles en los participios",
-      "tip": "Los participios del passato prossimo más usados llevan consonante doble: *fatto, detto, messo, letto, scritto*. Mantén el sonido largo para no confundirlos con otras palabras.",
+      "tip": "Varios participios muy usados del passato prossimo llevan consonante doble: *fatto, detto, messo, letto, scritto*. Mantén el sonido largo para no confundirlos con otras palabras.",
       "pairs": [
         [
           "sette",
@@ -402,7 +399,7 @@
     {
       "unit": "u13",
       "title": "Repaso: dobles y S",
-      "tip": "Repaso de consonantes dobles. Además, la *s* entre vocales suele sonar sonora (*casa*, *rosa*, *museo*), como una \"s\" vibrada. En el sur se pronuncia sorda; ambas se entienden.",
+      "tip": "Repaso de consonantes dobles. Además, la *s* entre vocales suele sonar sonora (*casa*, *rosa*, *museo*), como la *s* de *mismo* (sonora). En el sur se pronuncia sorda; ambas se entienden.",
       "pairs": [
         [
           "palla",
@@ -437,7 +434,7 @@
     {
       "unit": "u14",
       "title": "Repaso: C/G, SC/GLI y Z",
-      "tip": "Repaso de los contrastes de las semanas 1, 5 y 6.",
+      "tip": "Repaso de los contrastes de las unidades 1 (C y G), 7 (SC, GLI y GN) y 9 (la Z).",
       "pairs": [
         [
           "gli",

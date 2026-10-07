@@ -35,8 +35,8 @@ export const unidad01: Lesson = {
       rows: [
         ["*Buongiorno*", "Hasta media tarde, con cualquiera"],
         ["*Buonasera*", "Desde la tarde, con cualquiera"],
-        ["*Ciao*", "Solo con amigos: sirve para hola y chau"],
-        ["*Arrivederci*", "Chau, en situaciones formales"],
+        ["*Ciao*", "Solo con amigos: sirve para hola y chao"],
+        ["*Arrivederci*", "Chao, en situaciones formales"],
         ["*Piacere*", "Mucho gusto, al conocer a alguien"],
         ["*Mi chiamo…*", "Me llamo…"],
         ["*Scusi*", "Disculpe (formal) / *Scusa* (informal)"],
@@ -44,9 +44,9 @@ export const unidad01: Lesson = {
     },
   ],
   transfer:
-    "*Lei* (usted) y *lei* (ella) se escriben igual: lo decide el contexto. Y *essere* te sirve para decir dónde estás (*Sono a Milano*), pero para el estado (\"estoy bien\") se usa otro verbo, *stare*: *Sto bene* (lo vemos en la unidad 7).",
+    "*Lei* (usted) y *lei* (ella) se pronuncian igual: por escrito, el *Lei* de cortesía suele llevar mayúscula, y el contexto decide el resto. Y *essere* te sirve para decir dónde estás (*Sono a Milano*), pero para el estado (\"estoy bien\") se usa otro verbo, *stare*: *Sto bene* (lo vemos en la unidad 7).",
   examples: [
-    { it: "Buongiorno, sono Lucía. Piacere!", es: "Buen día, soy Lucía. ¡Mucho gusto!" },
+    { it: "Buongiorno, sono Lucía. Piacere!", es: "Buenos días, soy Lucía. ¡Mucho gusto!" },
     { it: "Di dov'è, signora?", es: "¿De dónde es, señora? (formal)" },
     { it: "Sono argentino, di Buenos Aires.", es: "Soy argentino, de Buenos Aires." },
     { it: "Tu sei di Roma?", es: "¿Tú eres de Roma? (informal)" },
@@ -80,7 +80,7 @@ export const unidad01: Lesson = {
       prompt: "«Arrivederci, signora!» ¿Qué se está haciendo?",
       options: ["Saludar al llegar", "Despedirse con formalidad", "Presentarse"],
       answer: 1,
-      why: "*Arrivederci* es el chau formal.",
+      why: "*Arrivederci* es el chao formal.",
     },
   ],
   exercises: [
@@ -116,7 +116,7 @@ export const unidad01: Lesson = {
     {type: "fill", prompt: "Noi ___ stanchi.", answers: ["siamo"], why: "Con *noi* va *siamo*."},
     {type: "fill", prompt: "Voi ___ studenti?", answers: ["siete"], why: "Con *voi* va *siete*."},
     {type: "fill", prompt: "Io non ___ italiano.", answers: ["sono"], why: "*Non* va antes del verbo: *non sono*."},
-    {type: "fill", prompt: "___ sera! Come sta, signora? (buenas tardes)", answers: ["Buonasera"], why: "De tarde y de noche, con cualquiera: *Buonasera*."},
+    {type: "fill", prompt: "___! Come sta, signora? (buenas tardes)", answers: ["Buonasera", "Buona sera"], why: "De tarde y de noche, con cualquiera: *Buonasera*."},
     {type: "fill", prompt: "A un amigo: ___, come stai? (hola)", answers: ["Ciao"], why: "Con amigos se usa *Ciao*."},
     {type: "choice", prompt: "Un desconocido mayor te pregunta algo. ¿Cómo le dices «disculpe»?", options: ["Scusa", "Scusi", "Scusate"], answer: 1, why: "Con alguien desconocido y mayor: *Scusi* (formal)."},
     {type: "choice", prompt: "«Eres de Roma» (a un amigo)", options: ["Sei di Roma", "Sono di Roma", "È di Roma"], answer: 0, why: "Con *tu*: *sei*."},

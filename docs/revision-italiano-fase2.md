@@ -21,7 +21,7 @@
 
 - 16 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
 - 105 frases de ejemplo, 360 ejercicios y preguntas de comprensión.
-- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 112 líneas de diálogo, 15 consignas de escritura con modelo.
+- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 113 líneas de diálogo, 15 consignas de escritura con modelo.
 - Pronunciación: pares mínimos y consejos por unidad. Shadowing: lista de videos (para juzgar si el nivel es adecuado).
 
 ## Dudas de la IA que conviene mirar primero
@@ -78,15 +78,15 @@ Excepción útil: *a piedi* (caminando). **Preposiciones articuladas**: *a, di, 
 
 | Falso amigo | Significa | No es |
 |---|---|---|
-| *burro* | manteca / mantequilla | burro (animal) |
+| *burro* | mantequilla | burro (animal) |
 | *salire* | subir | salir (eso es *uscire*) |
-| *caldo* | caliente / calor | — |
+| *caldo* | caliente / calor | caldo (el líquido): eso es *brodo* |
 | *largo* | ancho | largo (eso es *lungo*) |
 | *camera* | habitación | cámara |
 | *guardare* | mirar | guardar (eso es *conservare*) |
-| *bicchiere* | vaso | — |
+| *vaso* | florero / maceta | vaso para beber: eso es *bicchiere* |
 
-**Dónde está** algo: *Scusi, dov'è la stazione?* Respuestas básicas: *È a destra* (a la derecha), *è a sinistra* (a la izquierda), *è dritto* (siga derecho), *è vicino* / *è lontano*. Para ubicarte: *all'angolo* (en la esquina), *al semaforo*, *di fronte a* (frente a), *accanto a* (al lado de). En la unidad 14 aprenderás a dar indicaciones con órdenes (*vada dritto, giri a destra*).
+**Dónde está** algo: *Scusi, dov'è la stazione?* Respuestas básicas: *È a destra* (a la derecha), *è a sinistra* (a la izquierda), *è dritto* (está todo derecho), *è vicino* / *è lontano*. Para ubicarte: *all'angolo* (en la esquina), *al semaforo*, *di fronte a* (frente a), *accanto a* (al lado de). En la unidad 14 aprenderás a dar indicaciones con órdenes (*vada dritto, giri a destra*).
 
 **Recuadro «Ojo, en español…»:**
 
@@ -98,7 +98,7 @@ En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la mi
 2. **Domani vado dal medico.** — Mañana voy al médico.
 3. **Il museo è nella piazza, di fronte alla stazione.** — El museo está en la plaza, frente a la estación.
 4. **Scendo alla prossima fermata.** — Bajo en la próxima parada.
-5. **Vorrei del burro, per favore.** — Quisiera manteca, por favor.
+5. **Il burro è sul tavolo.** — La mantequilla está sobre la mesa.
 6. **Esco dall'hotel alle nove.** — Salgo del hotel a las nueve.
 
 ### Preguntas «Primero fíjate»
@@ -117,26 +117,26 @@ En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la mi
 5. **Completar:** Il museo è ___ piazza. (en la)  → respuesta(s) aceptada(s): `nella`  — _*in + la = nella*._
 6. **Completar:** Vado ___ mercato. (a + il)  → respuesta(s) aceptada(s): `al`  — _*a + il = al*._
 7. **Completar:** Il libro è ___ tavolo. (sobre el)  → respuesta(s) aceptada(s): `sul`  — _*su + il = sul*._
-8. **Completar:** Esco ___ hotel alle nove. (da + l')  → respuesta(s) aceptada(s): `dall'` · `dall'hotel`  — _*da + l' = dall'*._
+8. **Completar:** Esco ___ hotel alle nove. (da + l')  → respuesta(s) aceptada(s): `dall'`  — _*da + l' = dall'*._
 9. **Completar:** Il bar è ___ al semaforo. (al lado de)  → respuesta(s) aceptada(s): `accanto`  — _*Accanto a* = al lado de._
 10. **Elegir:** Quieres decir que bajas del tren en la próxima estación.  → Salgo alla prossima  /  **✔** Scendo alla prossima  /  Esco alla prossima  — _Bajar es *scendere*; *salire* es subir._
 11. **Elegir:** Reservas una habitación doble. ¿Qué dices?  → **✔** Una camera doppia  /  Una fotocamera doppia  /  Un burro doppio  — _*Camera* es habitación; la cámara de fotos es *fotocamera*._
 12. **Elegir:** «La farmacia? È dritto, poi a sinistra.» ¿Qué haces?  → **✔** Sigo derecho y luego voy a la izquierda  /  Giro a la derecha y sigo  /  Tomo un taxi porque está lejos  — _*Dritto* = derecho y *a sinistra* = a la izquierda._
 13. **Completar:** Vivo ___ Spagna. (en)  → respuesta(s) aceptada(s): `in`  — _Los países llevan *in*._
-14. **Completar:** Vado ___ dentista. (a + el)  → respuesta(s) aceptada(s): `dal`  — _A casa de una persona o profesional: *da* + *il* = *dal*._
+14. **Completar:** Vado ___ dentista. (al dentista)  → respuesta(s) aceptada(s): `dal`  — _A casa de una persona o profesional: *da* + *il* = *dal*._
 15. **Completar:** Il caffè è ___ tazza. (en la)  → respuesta(s) aceptada(s): `nella`  — _*in + la = nella*._
 16. **Completar:** Questo è il libro ___ studenti. (de los)  → respuesta(s) aceptada(s): `degli`  — _*di + gli = degli*._
 17. **Completar:** Vado ___ lavoro in autobus. (a + el)  → respuesta(s) aceptada(s): `al`  — _*a + il = al*._
 18. **Completar:** Esco ___ stazione. (de la)  → respuesta(s) aceptada(s): `dalla`  — _*da + la = dalla*._
 19. **Elegir:** «Voy a Perú en avión»  → **✔** Vado in Perù in aereo  /  Vado a Perù a aereo  /  Vado da Perù con aereo  — _País → *in*; medio de transporte → *in*._
-20. **Elegir:** Quieres pedir mantequilla en una tienda.  → **✔** il burro  /  la mantequilla  /  il burrito  — _*Burro* es la mantequilla, no el animal._
+20. **Elegir:** Quieres pedir mantequilla en una tienda.  → **✔** il burro  /  il burrone  /  il burrito  — _*Burro* es la mantequilla, no el animal._
 
 ### Vocabulario
 
 | Italiano | Español |
 |---|---|
 | il treno | el tren |
-| l'autobus | el bus |
+| l'autobus | el autobús / bus |
 | la metropolitana | el metro |
 | il biglietto | el boleto / pasaje |
 | la fermata | la parada |
@@ -179,7 +179,7 @@ En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la mi
 
 ### Diálogo
 
-**Escena:** Preguntas cómo llegar a la estación.  ·  **Roles:** A = Turista, B = Pasante
+**Escena:** Preguntas cómo llegar a la estación.  ·  **Roles:** A = Turista, B = Transeúnte
 
 - **A:** Scusi, dov'è la stazione? — _Disculpe, ¿dónde está la estación?_
 - **B:** È a sinistra, vicino al semaforo. — _Está a la izquierda, cerca del semáforo._
@@ -192,14 +192,14 @@ En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la mi
 
 **S + consonante** — En italiano *s* + consonante se pronuncia pegada, sin una *e* delante: *studente*, no "estudente"; *Spagna*, no "España". Es un error muy común en hispanohablantes.
 
-Pares mínimos: palla (pelota) / pala (pala) · caro (querido / caro) / carro (carro) · chi (quién) / ci (nos / allí)
+Pares mínimos: palla (pelota) / pala (pala) · caro (querido / caro) / carro (carreta / vagón) · chi (quién) / ci (nos / allí)
 
-Palabras para repetir: studente, scuola, Spagna, stazione, spesa, sport, strada, specchio
+Palabras para repetir: studente, scuola, Spagna, stazione, spesa, sport, strada, specchio, sposa
 
 ### Shadowing (videos de Easy Italian)
 
 - Principal: How to Commute in Milan — https://www.youtube.com/watch?v=XC_FusOaYco
-- Alternativo: Italian 'Piacere' — https://www.youtube.com/watch?v=LD4UoO1wyoM
+- Alternativo: 23 Italian Places Names — https://www.youtube.com/watch?v=G6wlTPQEvlk
 
 ---
 
@@ -222,10 +222,10 @@ Los posesivos concuerdan con **lo poseído**, no con quien lo posee, y casi siem
 | tu | *il tuo* | *la tua* | *i tuoi* | *le tue* |
 | su (de él / ella / usted) | *il suo* | *la sua* | *i suoi* | *le sue* |
 | nuestro | *il nostro* | *la nostra* | *i nostri* | *le nostre* |
-| vuestro | *il vostro* | *la vostra* | *i vostri* | *le vostre* |
+| de ustedes | *il vostro* | *la vostra* | *i vostri* | *le vostre* |
 | su (de ellos) | *il loro* | *la loro* | *i loro* | *le loro* |
 
-**Excepción**: con un familiar en singular no hay artículo: *mia madre, tuo fratello, nostra zia*. Con *loro* sí: *la loro madre*. En plural también: *i miei fratelli*. Para decir de quién es algo: *Di chi è questa borsa? — È di Marco.*
+**Excepción**: con un familiar en singular no hay artículo: *mia madre, tuo fratello, nostra zia*. Con *loro* sí: *la loro madre*. Con apelativos afectivos también se mantiene el artículo: *la mia mamma*, *il mio papà*. En plural también: *i miei fratelli*. Para decir de quién es algo: *Di chi è questa borsa? — È di Marco.*
 
 **Questo** (este, cerca) cambia como un adjetivo en *-o*: *questo, questa, questi, queste*. **Quello** (aquel, lejos) delante de un sustantivo cambia como el artículo:
 
@@ -233,7 +233,8 @@ Los posesivos concuerdan con **lo poseído**, no con quien lo posee, y casi siem
 |---|---|---|
 | *il* | *quel libro* | *quei libri* |
 | *lo* | *quello zaino* | *quegli zaini* |
-| *l'* | *quell'amico* | *quegli amici* |
+| *l'* (masc.) | *quell'amico* | *quegli amici* |
+| *l'* (fem.) | *quell'amica* | *quelle amiche* |
 | *la* | *quella casa* | *quelle case* |
 
 **Adjetivos**: concuerdan en género y número (*-o/-a/-i/-e*; los de *-e* sirven para los dos géneros: *verde, verdi*) y se ponen **después** del sustantivo: *una borsa rossa*. Pocos van antes: *bello, buono, grande, piccolo*. Colores: *rosso, giallo, verde, azzurro, bianco, nero, grigio, marrone*. Tres no cambian nunca: *rosa, viola, blu* (*due gonne rosa*).
@@ -244,14 +245,14 @@ En español dices *mi casa*; en italiano, *la mia casa* (con artículo), salvo c
 
 ### Ejemplos
 
-1. **Questa è la mia borsa e quella è la tua.** — Esta es mi bolso y aquella es la tuya.
+1. **Questa è la mia borsa e quella è la tua.** — Este es mi bolso y aquel es el tuyo.
 2. **Mia madre ha una macchina nera.** — Mi madre tiene un auto negro.
 3. **I miei fratelli abitano a Roma.** — Mis hermanos viven en Roma.
 4. **Quel cappello rosso è molto bello.** — Ese sombrero rojo es muy lindo.
 5. **Di chi è quello zaino blu? — È di Marco.** — ¿De quién es esa mochila azul? — Es de Marco.
 6. **Posso provare quella giacca verde?** — ¿Puedo probarme esa chaqueta verde?
 7. **Vorrei due magliette bianche e una gonna rosa.** — Quisiera dos camisetas blancas y una falda rosada.
-8. **La nostra casa è piccola, ma la vostra è grande.** — Nuestra casa es pequeña, pero la vuestra es grande.
+8. **La nostra casa è piccola, ma la vostra è grande.** — Nuestra casa es pequeña, pero la de ustedes es grande.
 
 ### Preguntas «Primero fíjate»
 
@@ -276,7 +277,7 @@ En español dices *mi casa*; en italiano, *la mia casa* (con artículo), salvo c
 13. **Completar:** Di ___ è questo zaino? (¿de quién?)  → respuesta(s) aceptada(s): `chi`  — _*Di chi è…?* pregunta por el dueño._
 14. **Completar:** Le scarpe verdi sono molto ___. (lindas)  → respuesta(s) aceptada(s): `belle`  — _Plural femenino de *bello*: *belle*._
 15. **Completar:** Il ___ appartamento è piccolo. (de ellos)  → respuesta(s) aceptada(s): `loro`  — _*Loro* no cambia nunca._
-16. **Completar:** Un cielo ___. (celeste)  → respuesta(s) aceptada(s): `azzurro`  — _*Azzurro* es el celeste, con doble *z* y doble *r*._
+16. **Completar:** Un cielo ___. (azul claro)  → respuesta(s) aceptada(s): `azzurro` · `celeste`  — _*Azzurro* es el celeste, con doble *z* y doble *r*._
 17. **Elegir:** ¿Cuál es correcto para «mi hermano»?  → Il mio fratello  /  **✔** Mio fratello  /  Il mio fratelli  — _Familiar en singular: sin artículo._
 18. **Elegir:** En «la sua macchina», *sua* puede significar…  → Solo de él  /  **✔** De él, de ella o de usted  /  Solo de ella  — _*Suo/sua* no distingue al poseedor: lo da el contexto._
 19. **Elegir:** ¿Cuál es correcto?  → **✔** Due gonne rosa.  /  Due gonne rose.  /  Due gonni rosa.  — _*Rosa*, *viola* y *blu* no cambian._
@@ -378,7 +379,7 @@ Los verbos reflexivos llevan un pronombre delante (*mi, ti, si, ci, vi, si*) y s
 | voi | *vi* svegliate | *Vi lavate le mani?* |
 | loro | *si* svegliano | *Si riposano.* |
 
-Para ordenar el día: *prima* (primero), *poi* (después), *dopo* (luego), *di solito* (generalmente), *alle sette* (a las siete), *la mattina / il pomeriggio / la sera*.
+Para ordenar el día: *prima* (primero), *poi* (luego), *dopo* (después), *di solito* (generalmente), *alle sette* (a las siete), *la mattina / il pomeriggio / la sera*.
 
 **Stare + gerundio** dice lo que estás haciendo ahora. Gerundio: *-are → -ando* (*parlare → parlando*, *mangiare → mangiando*) y *-ere / -ire → -endo* (*prendere → prendendo*, *dormire → dormendo*). *Sto mangiando* = estoy comiendo.
 
@@ -390,7 +391,7 @@ Para ordenar el día: *prima* (primero), *poi* (después), *dopo* (luego), *di s
 
 **Recuadro «Ojo, en español…»:**
 
-*Stare* no es *estar*. En español *estar* cubre lugar, estado y acción; en italiano el lugar y las características van con *essere* (*Sono a Milano*, *Sono stanco*), y *stare* queda para el bienestar (*Sto bene*) y la acción en curso (*Sto mangiando*). El error típico es decir *Sto a Milano* o *Sto stanco*.
+*Stare* no es *estar*. En español *estar* cubre lugar, estado y acción; en italiano el lugar y las características van con *essere* (*Sono a Milano*, *Sono stanco*), y *stare* queda para el bienestar (*Sto bene*) y la acción en curso (*Sto mangiando*). Para estar en un lugar usa *essere* (*Sono a Milano*); *stare a* + lugar significa quedarse (*Sto a casa*). El error típico es decir *Sto a Milano* con el sentido de "estoy en Milán", o *Sto stanco*.
 
 ### Ejemplos
 
@@ -419,7 +420,7 @@ Para ordenar el día: *prima* (primero), *poi* (después), *dopo* (luego), *di s
 8. **Elegir:** «Estoy cansado»  → Sto stanco  /  **✔** Sono stanco  /  Ho stanco  — _Las características y estados físicos van con *essere*._
 9. **Elegir:** «Estoy en Milán»  → Sto a Milano  /  **✔** Sono a Milano  /  Sono in Milano  — _El lugar va con *essere*. Con ciudades, *a*._
 10. **Elegir:** «Estoy leyendo el menú»  → Sono leggendo il menù  /  **✔** Sto leggendo il menù  /  Leggo stando il menù  — _*Stare* + gerundio: *sto leggendo*._
-11. **Completar:** Voi ___ lavate le mani? (vosotros)  → respuesta(s) aceptada(s): `vi`  — _Con *voi*: *vi*._
+11. **Completar:** Voi ___ lavate le mani? (ustedes)  → respuesta(s) aceptada(s): `vi`  — _Con *voi*: *vi*._
 12. **Completar:** Loro ___ alzano alle sei.  → respuesta(s) aceptada(s): `si`  — _Con *loro*: *si*._
 13. **Completar:** Io ___ vesto in fretta.  → respuesta(s) aceptada(s): `mi`  — _Con *io*: *mi*._
 14. **Completar:** Marta ___ sveglia tardi.  → respuesta(s) aceptada(s): `si`  — _Con *lei*: *si*._
@@ -494,7 +495,7 @@ Para ordenar el día: *prima* (primero), *poi* (después), *dopo* (luego), *di s
 
 Pares mínimos: gli (a él / los) / li (allí) · sci (esquí) / ci (nos / allí)
 
-Palabras para repetir: pesce, famiglia, bagno, sciarpa, figlio
+Palabras para repetir: pesce, famiglia, bagno, sciarpa, figlio, ragno
 
 ### Shadowing (videos de Easy Italian)
 
@@ -553,7 +554,7 @@ Para preguntar no cambia el orden: *Parli italiano?* es la afirmación con enton
 2. **Perché studi italiano? — Perché voglio vivere a Roma.** — ¿Por qué estudias italiano? — Porque quiero vivir en Roma.
 3. **Non capisco niente.** — No entiendo nada.
 4. **Non c'è nessuno qui.** — No hay nadie aquí.
-5. **Vado spesso al mercato, ma non compro mai la carne.** — Voy seguido al mercado, pero nunca compro carne.
+5. **Vado spesso al mercato, ma non compro mai la carne.** — Voy a menudo al mercado, pero nunca compro carne.
 6. **Quanti anni hai? — Ho ventotto anni.** — ¿Cuántos años tienes? — Tengo 28 años.
 7. **Mangio poca carne e molta verdura.** — Como poca carne y mucha verdura.
 8. **Qual è il tuo numero di telefono?** — ¿Cuál es tu número de teléfono?
@@ -578,7 +579,7 @@ Para preguntar no cambia el orden: *Parli italiano?* es la afirmación con enton
 10. **Completar:** Bevo ___ acqua. (mucha)  → respuesta(s) aceptada(s): `molta`  — _*Acqua* es femenino singular: *molta*._
 11. **Completar:** Ci sono ___ persone. (muchas)  → respuesta(s) aceptada(s): `molte`  — _*Persone* es femenino plural: *molte*._
 12. **Completar:** Ho ___ amici a Torino. (pocos)  → respuesta(s) aceptada(s): `pochi`  — _Masculino plural: *pochi* (con *ch* para conservar el sonido /k/)._
-13. **Completar:** ___ è il tuo numero? (¿cuál?)  → respuesta(s) aceptada(s): `Qual`  — _*Qual è* se escribe sin apóstrofo._
+13. **Completar:** ___ è il tuo numero? (¿cuál?)  → respuesta(s) aceptada(s): `Qual` · `Quale`  — _*Qual è* se escribe sin apóstrofo._
 14. **Completar:** ___ costa questo? (¿cuánto?)  → respuesta(s) aceptada(s): `Quanto`  — _Un precio, una cosa: *quanto*._
 15. **Completar:** Mi alleno due ___ alla settimana. (veces)  → respuesta(s) aceptada(s): `volte`  — _*Volta* → *volte* en plural._
 16. **Completar:** ___ parte il treno? (¿cuándo?)  → respuesta(s) aceptada(s): `Quando`  — _*Quando* pregunta por el momento._
@@ -618,14 +619,14 @@ Para preguntar no cambia el orden: *Parli italiano?* es la afirmación con enton
 2. **Perché studi italiano?** — ¿Por qué estudias italiano?
 3. **Non capisco niente.** — No entiendo nada.
 4. **Non c'è nessuno qui.** — No hay nadie aquí.
-5. **Vado spesso al mercato.** — Voy seguido al mercado.
+5. **Vado spesso al mercato.** — Voy a menudo al mercado.
 6. **Quanti anni hai?** — ¿Cuántos años tienes?
 
 ### Escritura guiada
 
 **Consigna:** Escribe cuatro preguntas para conocer a alguien y cuenta con qué frecuencia haces algo (y qué nunca haces).
 
-**Texto modelo:** Dove abiti? Quanti anni hai? Perché studi italiano? Io vado spesso al cinema, ma non mangio mai la carne e non bevo molto caffè.
+**Texto modelo:** Come ti chiami? Dove abiti? Quanti anni hai? Perché studi italiano? Io vado spesso al cinema, ma non mangio mai la carne e non bevo molto caffè.
 
 **Lista de autocorrección:**
 - Usé al menos tres palabras interrogativas distintas.
@@ -640,7 +641,7 @@ Para preguntar no cambia el orden: *Parli italiano?* es la afirmación con enton
 - **A:** Ciao, come ti chiami? — _Hola, ¿cómo te llamas?_
 - **B:** Mi chiamo Paolo. E tu? — _Me llamo Paolo. ¿Y tú?_
 - **A:** Marta. Dove abiti, Paolo? — _Marta. ¿Dónde vives, Paolo?_
-- **B:** Abito a Bologna. Quanti anni hai? — _Vivo en Bolonia. ¿Cuántos años tienes?_
+- **B:** Abito a Santiago. Quanti anni hai? — _Vivo en Santiago. ¿Cuántos años tienes?_
 - **A:** Ho ventotto anni. Perché studi italiano? — _Tengo 28 años. ¿Por qué estudias italiano?_
 - **B:** Perché voglio vivere in Italia. Non capisco ancora niente! — _Porque quiero vivir en Italia. ¡Todavía no entiendo nada!_
 - **A:** Non è vero, parli molto bene! — _No es verdad, ¡hablas muy bien!_

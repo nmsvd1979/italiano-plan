@@ -78,17 +78,13 @@
   "penna": [
     "penna--langpao.mp3"
   ],
-  "anno": [
-    "anno--ciampix.mp3",
-    "anno--langpao.mp3"
-  ],
-  "ano": [
-    "ano--crunchy-cloaky-crackdown.mp3"
-  ],
   "mamma": [
     "mamma--xana000.mp3",
     "mamma--langpao.mp3",
     "mamma--happypheasant.mp3"
+  ],
+  "rosa": [
+    "rosa--langpao.mp3"
   ],
   "venti": [
     "venti--xana000.mp3",
@@ -207,6 +203,9 @@
     "specchio--langpao.mp3",
     "specchio--happypheasant.mp3"
   ],
+  "sposa": [
+    "sposa--crunchy-cloaky-crackdown.mp3"
+  ],
   "giallo": [
     "giallo--langpao.mp3",
     "giallo--ciampix.mp3"
@@ -277,6 +276,9 @@
   ],
   "figlio": [
     "figlio--langpao.mp3"
+  ],
+  "ragno": [
+    "ragno--langpao.mp3"
   ],
   "quanto": [
     "quanto--langpao.mp3"
@@ -365,6 +367,9 @@
   ],
   "mezzo": [
     "mezzo--langpao.mp3"
+  ],
+  "pezzo": [
+    "pezzo--langpao.mp3"
   ],
   "sonno": [
     "sonno--langpao.mp3"
@@ -455,9 +460,6 @@
     "formaggio--valerio-bozzolan.mp3",
     "formaggio--giovannipen.mp3",
     "formaggio--langpao.mp3"
-  ],
-  "rosa": [
-    "rosa--langpao.mp3"
   ],
   "cosa": [
     "cosa--xana000.mp3",
@@ -580,6 +582,10 @@
   ],
   "mese": [
     "mese--ciampix.mp3"
+  ],
+  "anno": [
+    "anno--ciampix.mp3",
+    "anno--langpao.mp3"
   ],
   "mattina": [
     "mattina--langpao.mp3"
@@ -857,9 +863,6 @@
   "viaggio": [
     "viaggio--happypheasant.mp3"
   ],
-  "vacanza": [
-    "vacanza--langpao.mp3"
-  ],
   "valigia": [
     "valigia--happypheasant.mp3"
   ],
@@ -880,6 +883,9 @@
   ],
   "lunedì": [
     "lunedi--xana000.mp3"
+  ],
+  "spiaggia": [
+    "spiaggia--happypheasant.mp3"
   ],
   "partenza": [
     "partenza--langpao.mp3"

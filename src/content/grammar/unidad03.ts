@@ -7,7 +7,7 @@ export const unidad03: Lesson = {
   rule: [
     {
       kind: "p",
-      text: "Los números del 1 al 20 se aprenden de memoria. Desde el 17 se arman con *dici-* + el número: *diciassette, diciotto, diciannove*.",
+      text: "Los números del 1 al 20 se aprenden de memoria. Del 17 al 19 son *diciassette, diciotto, diciannove* (apréndelos como un bloque).",
     },
     {
       kind: "table",
@@ -59,7 +59,7 @@ export const unidad03: Lesson = {
     { it: "Quanto costa questo? — Costa dodici euro e cinquanta.", es: "¿Cuánto cuesta esto? — Cuesta 12,50 euros." },
     { it: "I biscotti costano tre euro.", es: "Las galletas cuestan tres euros." },
     { it: "Il mio compleanno è il quindici marzo.", es: "Mi cumpleaños es el 15 de marzo." },
-    { it: "Ho ventotto anni e mia sorella ne ha trentuno.", es: "Tengo 28 años y mi hermana tiene 31." },
+    { it: "Ho ventotto anni e mia sorella ha trentuno anni.", es: "Tengo 28 años y mi hermana tiene 31." },
     { it: "Oggi è martedì, sei ottobre.", es: "Hoy es martes, 6 de octubre." },
     { it: "Il museo apre alle nove e chiude all'una.", es: "El museo abre a las nueve y cierra a la una." },
   ],
@@ -112,7 +112,7 @@ export const unidad03: Lesson = {
     },
     {
       type: "choice",
-      prompt: "Quieres saber el precio de unas zapatillas. ¿Qué preguntas?",
+      prompt: "Quieres saber el precio de unos zapatos. ¿Qué preguntas?",
       options: ["Quanto costa?", "Quanto costano?", "Quanti costa?"],
       answer: 1,
       why: "Varias cosas (un par): *Quanto costano?*.",

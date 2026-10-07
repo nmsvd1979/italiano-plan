@@ -21,7 +21,7 @@
 
 - 16 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
 - 105 frases de ejemplo, 360 ejercicios y preguntas de comprensión.
-- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 112 líneas de diálogo, 15 consignas de escritura con modelo.
+- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 113 líneas de diálogo, 15 consignas de escritura con modelo.
 - Pronunciación: pares mínimos y consejos por unidad. Shadowing: lista de videos (para juzgar si el nivel es adecuado).
 
 ## Dudas de la IA que conviene mirar primero
@@ -70,7 +70,7 @@ Los **conectores** hacen que hables en párrafos y no en frases sueltas. Son los
 | *insomma* | en fin / en resumen | *Insomma, non è male.* |
 | *magari* | ojalá / quizás | *Magari vengo anch'io.* |
 
-**Discurso indirecto.** Para contar lo que alguien dijo usas *che* y, si hablas de algo pasado, los verbos suelen bajar un paso. «*Sono stanco*» → *Ha detto che **era** stanco.* «*Vengo alle tre*» → *Ha detto che **veniva** alle tre.* Con preguntas se usa *se*: *Mi ha chiesto **se** parlo italiano.*
+**Discurso indirecto.** Para contar lo que alguien dijo usas *che* y, si hablas de algo pasado, los verbos suelen bajar un paso. «*Sono stanco*» → *Ha detto che **era** stanco.* «*Vengo alle tre*» → *Ha detto che **veniva** alle tre* (en la lengua hablada; en un texto cuidado se prefiere *sarebbe venuto*). Con preguntas se usa *se*: *Mi ha chiesto **se** parlo italiano.*
 
 **Congiuntivo (solo reconocerlo).** Después de verbos de opinión, duda o deseo (*penso che, credo che, spero che, è importante che*) el italiano usa un modo especial. Todavía no hace falta conjugarlo: reconoce las formas más comunes.
 
@@ -82,7 +82,7 @@ Los **conectores** hacen que hables en párrafos y no en frases sueltas. Son los
 
 **Recuadro «Ojo, en español…»:**
 
-*Perché* significa "porque" y también "¿por qué?" (en español se distinguen por la tilde y la forma; en italiano es la misma palabra). Para el discurso indirecto, el español hace casi lo mismo (*dijo que estaba cansado*): acá no hay trampa. El *congiuntivo* sí existe en español (*que sea*), así que vas a reconocerlo con facilidad.
+*Perché* significa "porque" y también "¿por qué?" (en español se distinguen por la tilde y la forma; en italiano es la misma palabra). Para el discurso indirecto, el español hace casi lo mismo (*dijo que estaba cansado*): aquí no hay trampa. El *congiuntivo* sí existe en español (*que sea*), así que vas a reconocerlo con facilidad.
 
 ### Ejemplos
 
@@ -109,14 +109,14 @@ Los **conectores** hacen que hables en párrafos y no en frases sueltas. Son los
 6. **Elegir:** ¿Cuál de estas es una forma de congiuntivo?  → sono  /  **✔** sia  /  siamo  — _*Sia* es el congiuntivo de *essere*._
 7. **Elegir:** «Spero che tu stia bene.» ¿Qué parte es el congiuntivo?  → spero  /  **✔** stia  /  bene  — _*Stia* es el congiuntivo de *stare*._
 8. **Elegir:** «Me dijo que venía a las tres»  → **✔** Ha detto che veniva alle tre  /  Ha detto che venga alle tre  /  Dice che veniva alle tre  — _Contar algo dicho en el pasado: *ha detto che* + imperfetto._
-9. **Elegir:** «Llueve, entonces me quedo en casa.» ¿Con qué conector lo unes?  → **✔** Piove, quindi resto a casa.  /  Piove, invece resto a casa.  /  Piove, mentre resto a casa.  — _*Quindi* marca la consecuencia._
+9. **Elegir:** «Llueve, así que me quedo en casa.» ¿Con qué conector lo unes?  → **✔** Piove, quindi resto a casa.  /  Piove, invece resto a casa.  /  Piove, mentre resto a casa.  — _*Quindi* marca la consecuencia._
 10. **Elegir:** Alguien te dice: «Penso che sia giusto». ¿Qué opina?  → **✔** Que es correcto o justo  /  Que es una orden  /  Que no sabe nada  — _*Sia giusto* = es justo / es correcto._
 
 ### Pronunciación
 
 **Repaso final** — Última vuelta con todo lo visto.
 
-Pares mínimos: palla (pelota) / pala (pala) · caro (querido / caro) / carro (carro) · chi (quién) / ci (nos / allí) · gli (a él / los) / li (allí) · pazzo (loco) / passo (paso) · casa (casa) / cassa (caja) · nonno (abuelo) / nono (noveno)
+Pares mínimos: palla (pelota) / pala (pala) · caro (querido / caro) / carro (carreta / vagón) · chi (quién) / ci (nos / allí) · gli (a él / los) / li (allí) · pazzo (loco) / passo (paso) · casa (casa) / cassa (caja) · nonno (abuelo) / nono (noveno)
 
 Palabras para repetir: cena, gelato, pizza, pesce, studente, perché
 

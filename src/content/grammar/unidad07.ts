@@ -23,7 +23,7 @@ export const unidad07: Lesson = {
     },
     {
       kind: "p",
-      text: "Para ordenar el día: *prima* (primero), *poi* (después), *dopo* (luego), *di solito* (generalmente), *alle sette* (a las siete), *la mattina / il pomeriggio / la sera*.",
+      text: "Para ordenar el día: *prima* (primero), *poi* (luego), *dopo* (después), *di solito* (generalmente), *alle sette* (a las siete), *la mattina / il pomeriggio / la sera*.",
     },
     {
       kind: "p",
@@ -40,7 +40,7 @@ export const unidad07: Lesson = {
     },
   ],
   transfer:
-    "*Stare* no es *estar*. En español *estar* cubre lugar, estado y acción; en italiano el lugar y las características van con *essere* (*Sono a Milano*, *Sono stanco*), y *stare* queda para el bienestar (*Sto bene*) y la acción en curso (*Sto mangiando*). El error típico es decir *Sto a Milano* o *Sto stanco*.",
+    "*Stare* no es *estar*. En español *estar* cubre lugar, estado y acción; en italiano el lugar y las características van con *essere* (*Sono a Milano*, *Sono stanco*), y *stare* queda para el bienestar (*Sto bene*) y la acción en curso (*Sto mangiando*). Para estar en un lugar usa *essere* (*Sono a Milano*); *stare a* + lugar significa quedarse (*Sto a casa*). El error típico es decir *Sto a Milano* con el sentido de \"estoy en Milán\", o *Sto stanco*.",
   examples: [
     { it: "Di solito mi sveglio alle sette e mi alzo subito.", es: "Generalmente me despierto a las siete y me levanto enseguida." },
     { it: "Dopo cena mi lavo i denti e vado a letto.", es: "Después de la cena me lavo los dientes y me acuesto." },
@@ -101,7 +101,7 @@ export const unidad07: Lesson = {
       answer: 1,
       why: "*Stare* + gerundio: *sto leggendo*.",
     },
-    {type: "fill", prompt: "Voi ___ lavate le mani? (vosotros)", answers: ["vi"], why: "Con *voi*: *vi*."},
+    {type: "fill", prompt: "Voi ___ lavate le mani? (ustedes)", answers: ["vi"], why: "Con *voi*: *vi*."},
     {type: "fill", prompt: "Loro ___ alzano alle sei.", answers: ["si"], why: "Con *loro*: *si*."},
     {type: "fill", prompt: "Io ___ vesto in fretta.", answers: ["mi"], why: "Con *io*: *mi*."},
     {type: "fill", prompt: "Marta ___ sveglia tardi.", answers: ["si"], why: "Con *lei*: *si*."},

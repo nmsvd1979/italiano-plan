@@ -41,12 +41,10 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `sete--crunchy-cloaky-crackdown.mp3` — «sete», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-sete.wav
 - `pena--divoletto.mp3` — «pena», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-pena.wav
 - `penna--langpao.mp3` — «penna», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-penna.wav
-- `anno--ciampix.mp3` — «anno», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-anno.wav
-- `anno--langpao.mp3` — «anno», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-anno.wav
-- `ano--crunchy-cloaky-crackdown.mp3` — «ano», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-ano.wav
 - `mamma--xana000.mp3` — «mamma», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-mamma.wav
 - `mamma--langpao.mp3` — «mamma», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mamma.wav
 - `mamma--happypheasant.mp3` — «mamma», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-mamma.wav
+- `rosa--langpao.mp3` — «rosa», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-rosa.wav
 - `venti--xana000.mp3` — «venti», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-venti.wav
 - `venti--ciampix.mp3` — «venti», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-venti.wav
 - `venti--cerchia-g.mp3` — «venti», voz de Cerchia G — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Cerchia_G-venti.wav
@@ -108,6 +106,7 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `strada--langpao.mp3` — «strada», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-strada.wav
 - `specchio--langpao.mp3` — «specchio», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-specchio.wav
 - `specchio--happypheasant.mp3` — «specchio», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-specchio.wav
+- `sposa--crunchy-cloaky-crackdown.mp3` — «sposa», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-sposa.wav
 - `giallo--langpao.mp3` — «giallo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-giallo.wav
 - `giallo--ciampix.mp3` — «giallo», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-giallo.wav
 - `gallo--langpao.mp3` — «gallo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-gallo.wav
@@ -143,11 +142,12 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `bagno--langpao.mp3` — «bagno», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-bagno.wav
 - `sciarpa--jennum.mp3` — «sciarpa», voz de Jennum — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Jennum-sciarpa.wav
 - `figlio--langpao.mp3` — «figlio», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-figlio.wav
+- `ragno--langpao.mp3` — «ragno», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-ragno.wav
 - `quanto--langpao.mp3` — «quanto», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-quanto.wav
 - `tanto--xana000.mp3` — «tanto», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-tanto.wav
-- `mai--xana000.mp3` — «mai», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-mai.wav
+- `mai--xana000.mp3` — «mai», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-Mai.wav
 - `mai--langpao.mp3` — «mai», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mai.wav
-- `mai--xana000.mp3` — «mai», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-mai.wav
+- `mai--xana000.mp3` — «mai», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-Mai.wav
 - `mia--xana000.mp3` — «mia», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-mia.wav
 - `che--xana000.mp3` — «che», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-che.wav
 - `quando--langpao.mp3` — «quando», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-quando.wav
@@ -185,6 +185,7 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `ragazzo--xana000.mp3` — «ragazzo», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-ragazzo.wav
 - `azione--langpao.mp3` — «azione», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-azione.wav
 - `mezzo--langpao.mp3` — «mezzo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mezzo.wav
+- `pezzo--langpao.mp3` — «pezzo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-pezzo.wav
 - `sonno--langpao.mp3` — «sonno», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-sonno.wav
 - `sono--xana000.mp3` — «sono», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-sono.wav
 - `detto--xana000.mp3` — «detto», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-detto.wav
@@ -229,7 +230,6 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `formaggio--valerio-bozzolan.mp3` — «formaggio», voz de Valerio Bozzolan — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Valerio_Bozzolan-formaggio.wav
 - `formaggio--giovannipen.mp3` — «formaggio», voz de GiovanniPen — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-GiovanniPen-formaggio.wav
 - `formaggio--langpao.mp3` — «formaggio», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-formaggio.wav
-- `rosa--langpao.mp3` — «rosa», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-rosa.wav
 - `cosa--xana000.mp3` — «cosa», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-cosa.wav
 - `cosa--jtorquy.mp3` — «cosa», voz de Jtorquy — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Jtorquy-cosa.wav
 - `cosa--iopensa.mp3` — «cosa», voz de Iopensa — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Iopensa-cosa.wav
@@ -274,6 +274,8 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `ieri--langpao.mp3` — «ieri», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-ieri.wav
 - `settimana--ciampix.mp3` — «settimana», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-settimana.wav
 - `mese--ciampix.mp3` — «mese», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-mese.wav
+- `anno--ciampix.mp3` — «anno», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-anno.wav
+- `anno--langpao.mp3` — «anno», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-anno.wav
 - `mattina--langpao.mp3` — «mattina», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mattina.wav
 - `pomeriggio--langpao.mp3` — «pomeriggio», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-pomeriggio.wav
 - `sera--langpao.mp3` — «sera», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-sera.wav
@@ -366,7 +368,6 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `nascere--happypheasant.mp3` — «nascere», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-nascere.wav
 - `diventare--divoletto.mp3` — «diventare», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-diventare.wav
 - `viaggio--happypheasant.mp3` — «viaggio», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-viaggio.wav
-- `vacanza--langpao.mp3` — «vacanza», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-vacanza.wav
 - `valigia--happypheasant.mp3` — «valigia», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-valigia.wav
 - `mare--langpao.mp3` — «mare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mare.wav
 - `montagna--happypheasant.mp3` — «montagna», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-montagna.wav
@@ -374,6 +375,7 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `aereo--happypheasant.mp3` — «aereo», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-aereo.wav
 - `domenica--ciampix.mp3` — «domenica», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-domenica.wav
 - `lunedi--xana000.mp3` — «lunedì», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-luned%C3%AC.wav
+- `spiaggia--happypheasant.mp3` — «spiaggia», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-spiaggia.wav
 - `partenza--langpao.mp3` — «partenza», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-partenza.wav
 - `allora--xana000.mp3` — «allora», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-allora.wav
 - `mentre--langpao.mp3` — «mentre», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mentre.wav
