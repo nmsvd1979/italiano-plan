@@ -38,10 +38,15 @@ describe("videos de shadowing", () => {
         expect(SHADOWING_SEARCH[u], `unidad ${u}: sin video ni búsqueda guiada`).toBeTruthy();
         continue;
       }
+      expect(v.main.title.length, `título del video principal de ${u}`).toBeGreaterThan(0);
+      expect(v.alt.title.length, `título del video alterno de ${u}`).toBeGreaterThan(0);
       expect(v.main.id).toMatch(/^[A-Za-z0-9_-]{11}$/);
       expect(v.alt.id).toMatch(/^[A-Za-z0-9_-]{11}$/);
       expect(v.main.id).not.toBe(v.alt.id);
     }
+  });
+  it("todas las unidades disponibles tienen sus dos videos verificados (sin depender de la búsqueda guiada)", () => {
+    expect(READY_UNITS.filter((u) => !SHADOWING[u.id]).map((u) => u.id)).toEqual([]);
   });
   it("no se repite ningún video entre unidades", () => {
     const ids = Object.values(SHADOWING).flatMap((v) => [v.main.id, v.alt.id]);
