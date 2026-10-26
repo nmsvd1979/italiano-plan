@@ -66,10 +66,10 @@ export const unidad11: Lesson = {
     },
     {
       type: "choice",
-      prompt: "«Mentre dormivo, è suonato il telefono.» ¿Qué interrumpe a qué?",
+      prompt: "«Mentre dormivo, ha suonato il telefono.» ¿Qué interrumpe a qué?",
       options: ["El sueño interrumpe el llamado", "El llamado interrumpe el sueño", "Pasan separados"],
       answer: 1,
-      why: "*Dormivo* es lo que estaba pasando; *è suonato* es el hecho que lo interrumpe.",
+      why: "*Dormivo* es lo que estaba pasando; *ha suonato* es el hecho que lo interrumpe.",
     },
   ],
   exercises: [
@@ -90,7 +90,7 @@ export const unidad11: Lesson = {
     {
       type: "choice",
       prompt: "«Cuando era chico, vivía en Roma»",
-      options: ["Quando ero piccolo, ho abitato a Roma", "Quando ero piccolo, abitavo a Roma", "Quando sono piccolo, abitavo a Roma"],
+      options: ["Quando ero piccolo, sono abitato a Roma", "Quando ero piccolo, abitavo a Roma", "Quando sono piccolo, abitavo a Roma"],
       answer: 1,
       why: "Los dos verbos describen un período del pasado: imperfetto (*ero*, *abitavo*).",
     },

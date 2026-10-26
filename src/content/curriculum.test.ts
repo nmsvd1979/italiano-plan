@@ -3,7 +3,7 @@ import { PHASE_INPUT, RESOURCES } from "./plan";
 import { PHASES, READY_UNITS, UNITS } from "./curriculum";
 import { getLesson } from "./grammar";
 import { getPronUnit } from "./pronunciation";
-import { SHADOWING } from "./shadowing";
+import { SHADOWING, SHADOWING_SEARCH } from "./shadowing";
 import { buildSteps, nextSteps } from "../domain/curriculum";
 import { learnedUnits } from "../domain/practice";
 import { doneKeys } from "../domain/progress";
@@ -13,7 +13,7 @@ describe("contenido del currículo", () => {
     for (const u of READY_UNITS) {
       expect(getLesson(u.id), `lección de ${u.id}`).toBeTruthy();
       expect(getPronUnit(u.id), `pronunciación de ${u.id}`).toBeTruthy();
-      expect(SHADOWING[u.id], `shadowing de ${u.id}`).toBeTruthy();
+      expect(SHADOWING[u.id] ?? SHADOWING_SEARCH[u.id], `shadowing de ${u.id}`).toBeTruthy();
       expect(u.canDo.length, `puedo… de ${u.id}`).toBeGreaterThanOrEqual(2);
     }
   });

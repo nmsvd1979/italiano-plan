@@ -50,7 +50,7 @@ export const unidad12: Lesson = {
     },
   ],
   transfer:
-    "En español siempre dices *más… que*; en italiano, con un sustantivo o pronombre usas *di*: *più alto di me* (no *che me*). *Bene* y *buono* no son lo mismo: *Parla meglio* (adverbio), pero *il caffè migliore* (adjetivo). El superlativo lleva artículo: *il più caro*. Y el partitivo no existe en español (*quiero pan*): en italiano *Vorrei del pane* es lo natural, salvo en frases negativas.",
+    "En español siempre dices *más… que*; en italiano, con un sustantivo o pronombre usas *di*: *più alto di me* (no *che me*). *Bene* y *buono* no son lo mismo: *Parla meglio* (adverbio), pero *il caffè migliore* (adjetivo). El superlativo lleva artículo: *il più caro*. Y el partitivo no existe en español (*quiero pan*): en italiano *Vorrei del pane* es frecuente pero no obligatorio (*Vorrei pane* también se dice), y en frases negativas normalmente se omite.",
   examples: [
     { it: "Roma è più grande di Torino.", es: "Roma es más grande que Turín." },
     { it: "È più bello viaggiare che restare a casa.", es: "Es más lindo viajar que quedarse en casa." },
@@ -118,10 +118,10 @@ export const unidad12: Lesson = {
     },
     {
       type: "choice",
-      prompt: "¿Cuál es natural para «No tengo pan»?",
-      options: ["Non ho pane.", "Non ho del pane.", "Non ho dei pane."],
+      prompt: "¿Cuál es correcta para «No tengo pan»?",
+      options: ["Non ho pane.", "Non ho dei pane.", "Non ho della pane."],
       answer: 0,
-      why: "En frases negativas el partitivo se omite.",
+      why: "En frases negativas lo normal es omitir el partitivo; *dei pane* y *della pane* no concuerdan.",
     },
     {
       type: "choice",

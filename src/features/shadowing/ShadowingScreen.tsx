@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
-import { SHADOWING, STEPS } from "../../content/shadowing";
+import { SHADOWING, SHADOWING_SEARCH, STEPS, type Video } from "../../content/shadowing";
 import { getShadowing, saveShadowing } from "../../domain/storage";
 import { isValidSegment, parseYouTubeId } from "../../domain/youtube";
 import { Icon } from "../../ui/Icon";
@@ -15,9 +15,54 @@ function nearest(rate: number, available: number[]): number {
   return available.reduce((best, r) => (Math.abs(r - rate) < Math.abs(best - rate) ? r : best), available[0] ?? 1);
 }
 
+/** Unidades sin video verificado: eliges tú uno (con subtítulos en italiano) y lo pegas. */
+function PickVideo({ unit, onPick }: { unit: string; onPick: (id: string) => void }) {
+  const meta = getUnit(unit);
+  const [pasted, setPasted] = useState("");
+  const [error, setError] = useState(false);
+  const query = SHADOWING_SEARCH[unit] ?? "Easy Italian";
+  const search = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
+  const use = () => {
+    const id = parseYouTubeId(pasted);
+    if (id) onPick(id);
+    else setError(true);
+  };
+  return (
+    <>
+      <header className="screen-head">
+        <a className="back" href="#/" onClick={(e) => { e.preventDefault(); goBack(); }} aria-label="Volver">
+          <Icon name="arrowLeft" size={20} />
+        </a>
+        <div>
+          <div className="eyebrow">Unidad {meta?.n} · Shadowing</div>
+          <h1 className="title">Elige un video</h1>
+        </div>
+      </header>
+      <section className="card stack">
+        <p className="sub">Para esta unidad todavía no hay un video revisado. Busca uno de Easy Italian (o Super Easy Italian) sobre el tema de la unidad, con subtítulos en italiano, de 3 a 8 minutos, y pega aquí su link.</p>
+        <a className="btn" href={search} target="_blank" rel="noreferrer">Buscar «{query}» en YouTube <Icon name="external" size={16} /></a>
+        <div className="field">
+          <label htmlFor="yt-pick">Link del video</label>
+          <div className="row" style={{ flexWrap: "nowrap" }}>
+            <input id="yt-pick" className="input" placeholder="Pega un link" value={pasted} onChange={(e) => setPasted(e.target.value)} />
+            <button type="button" className="btn primary" onClick={use}>Usar</button>
+          </div>
+          {error && <p className="sub">Ese link no parece de un video de YouTube.</p>}
+        </div>
+      </section>
+    </>
+  );
+}
+
 export function ShadowingScreen({ unit }: { unit: string }) {
+  const [picked, setPicked] = useState<string | null>(null);
+  if (!SHADOWING[unit] && !picked) return <PickVideo unit={unit} onPick={setPicked} />;
+  return <ShadowingPlayer unit={unit} pickedId={picked} />;
+}
+
+function ShadowingPlayer({ unit, pickedId }: { unit: string; pickedId: string | null }) {
   const { completeActivity } = useApp();
-  const videos = SHADOWING[unit] ?? SHADOWING.u01;
+  const videos: { main: Video; alt?: Video } = SHADOWING[unit] ?? { main: { id: pickedId ?? "", title: "Tu video" } };
   const meta = getUnit(unit);
 
   const [videoId, setVideoId] = useState(videos.main.id);
@@ -176,9 +221,11 @@ export function ShadowingScreen({ unit }: { unit: string }) {
           <button type="button" className={`chip${videoId === videos.main.id ? " primary" : ""}`} onClick={() => chooseVideo(videos.main.id)}>
             {videos.main.title}
           </button>
-          <button type="button" className={`chip${videoId === videos.alt.id ? " primary" : ""}`} onClick={() => chooseVideo(videos.alt.id)}>
-            {videos.alt.title}
-          </button>
+          {videos.alt && (
+            <button type="button" className={`chip${videoId === videos.alt.id ? " primary" : ""}`} onClick={() => chooseVideo(videos.alt!.id)}>
+              {videos.alt.title}
+            </button>
+          )}
         </div>
         <div className="field">
           <label htmlFor="yt">Otro video de YouTube</label>

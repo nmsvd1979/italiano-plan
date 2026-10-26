@@ -48,7 +48,7 @@ describe("actividades por unidad", () => {
     }
 
     it("la tilde que falta es 'casi'", () => {
-      expect(gradeDictation("Oggi e martedi, sei ottobre", "Oggi è martedì, sei ottobre.")).toBe("almost");
+      expect(gradeDictation("Oggi e il sei ottobre", "Oggi è il sei ottobre.")).toBe("almost");
     });
   });
 

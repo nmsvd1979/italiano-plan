@@ -48,7 +48,27 @@ export const unidad05: Lesson = {
     },
     {
       kind: "p",
-      text: "**Dónde está** algo: *Scusi, dov'è la stazione?* Respuestas básicas: *È a destra* (a la derecha), *è a sinistra* (a la izquierda), *è dritto* (está todo derecho), *è vicino* / *è lontano*. Para ubicarte: *all'angolo* (en la esquina), *al semaforo*, *di fronte a* (frente a), *accanto a* (al lado de). En la unidad 14 aprenderás a dar indicaciones con órdenes (*vada dritto, giri a destra*).",
+      text: "**Dónde está** algo: *Scusi, dov'è la stazione?* Respuestas básicas: *È a destra* (a la derecha), *è a sinistra* (a la izquierda), *è vicino* / *è lontano*. Para ubicarte: *all'angolo* (en la esquina), *al semaforo*, *di fronte a* (frente a), *accanto a* (al lado de). Para entender indicaciones formales (*Lei*): *Vada dritto* (siga derecho), *giri a destra / a sinistra*, *attraversi la piazza*, *continui*, *prenda la prima a sinistra*. Ojo: *dritto* suele ir con verbo (*Va dritto*). En la unidad 14 las practicarás.",
+    },
+    {
+      kind: "p",
+      text: "**Lugares de todos los días.** Con algunos se usa *in* sin artículo: *Vado in banca, in farmacia, in centro, in ufficio, in chiesa, in palestra, in biblioteca*. Con otros, *a* sin artículo: *Vado a casa, a scuola, a teatro*. Con el resto sí hay artículo: *alla stazione, al supermercato, al cinema*.",
+    },
+    {
+      kind: "p",
+      text: "**Tres verbos irregulares de movimiento:**",
+    },
+    {
+      kind: "table",
+      head: ["", "andare", "venire", "uscire"],
+      rows: [
+        ["io", "vado", "vengo", "esco"],
+        ["tu", "vai", "vieni", "esci"],
+        ["lui/lei", "va", "viene", "esce"],
+        ["noi", "andiamo", "veniamo", "usciamo"],
+        ["voi", "andate", "venite", "uscite"],
+        ["loro", "vanno", "vengono", "escono"],
+      ],
     },
   ],
   transfer:
@@ -117,10 +137,10 @@ export const unidad05: Lesson = {
     },
     {
       type: "choice",
-      prompt: "«La farmacia? È dritto, poi a sinistra.» ¿Qué haces?",
+      prompt: "«La farmacia? Vada dritto, poi giri a sinistra.» ¿Qué haces?",
       options: ["Sigo derecho y luego voy a la izquierda", "Giro a la derecha y sigo", "Tomo un taxi porque está lejos"],
       answer: 0,
-      why: "*Dritto* = derecho y *a sinistra* = a la izquierda.",
+      why: "*Vada dritto* = siga derecho y *giri a sinistra* = gire a la izquierda.",
     },
     {type: "fill", prompt: "Vivo ___ Spagna. (en)", answers: ["in"], why: "Los países llevan *in*."},
     {type: "fill", prompt: "Vado ___ dentista. (al dentista)", answers: ["dal"], why: "A casa de una persona o profesional: *da* + *il* = *dal*."},
@@ -130,5 +150,12 @@ export const unidad05: Lesson = {
     {type: "fill", prompt: "Esco ___ stazione. (de la)", answers: ["dalla"], why: "*da + la = dalla*."},
     {type: "choice", prompt: "«Voy a Perú en avión»", options: ["Vado in Perù in aereo", "Vado a Perù a aereo", "Vado da Perù con aereo"], answer: 0, why: "País → *in*; medio de transporte → *in*."},
     {type: "choice", prompt: "Quieres pedir mantequilla en una tienda.", options: ["il burro", "il burrone", "il burrito"], answer: 0, why: "*Burro* es la mantequilla, no el animal."},
+    { type: "fill", prompt: "Vado ___ banca.", answers: ["in"], why: "Lugar habitual: *in banca*, sin artículo." },
+    { type: "fill", prompt: "Torno ___ casa alle sei.", answers: ["a"], why: "*A casa*, sin artículo." },
+    { type: "fill", prompt: "Tu ___ con noi? (venire)", answers: ["vieni"], why: "*Venire* con *tu*: *vieni*." },
+    { type: "fill", prompt: "Marco ___ alle otto. (uscire)", answers: ["esce"], why: "*Uscire* con *lui*: *esce*." },
+    { type: "fill", prompt: "Noi ___ al cinema. (andare)", answers: ["andiamo"], why: "*Andare* con *noi*: *andiamo*." },
+    { type: "fill", prompt: "Io ___ dall'ufficio alle sei. (uscire)", answers: ["esco"], why: "*Uscire* con *io*: *esco*." },
+    { type: "choice", prompt: "Quieres decir que vas al banco a hacer un trámite:", options: ["Vado in banca.", "Vado nella banca.", "Vado a banca."], answer: 0, why: "Con *banca* (lugar habitual) se usa *in*, sin artículo." },
   ],
 };

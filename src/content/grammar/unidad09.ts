@@ -31,9 +31,20 @@ export const unidad09: Lesson = {
       kind: "p",
       text: "**Marcadores**: *ieri* (ayer), *ieri sera*, *la settimana scorsa* (la semana pasada), *due giorni fa* (hace dos días). Las palabras *già* (ya), *non… ancora* (todavía no), *mai* (alguna vez / nunca) van **entre** *avere* y el participio: *Ho già mangiato.* · *Non ho ancora visto il Colosseo.* · *Hai mai provato il tiramisù?*",
     },
+    {
+      kind: "p",
+      text: "Más participios irregulares frecuentes:",
+    },
+    {
+      kind: "table",
+      head: ["avere", "dare", "chiedere", "rispondere", "decidere", "vincere", "spendere", "conoscere"],
+      rows: [
+        ["avuto", "dato", "chiesto", "risposto", "deciso", "vinto", "speso", "conosciuto"],
+      ],
+    },
   ],
   transfer:
-    "Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). Dos diferencias: en italiano *ho mangiato* sirve tanto para \"he comido\" como para \"comí\" (ayer: *Ieri ho mangiato la pizza*), y *già / mai / ancora* se meten en el medio: *Ho già mangiato*, lo habitual no es *Ho mangiato già*.",
+    "Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). Dos diferencias: en italiano *ho mangiato* sirve tanto para \"he comido\" como para \"comí\" (ayer: *Ieri ho mangiato la pizza*), y *già / mai / ancora* se meten en el medio: *Ho già mangiato*, es lo más frecuente (*Ho mangiato già* también se oye, pero menos).",
   examples: [
     { it: "Ieri ho visitato il Colosseo.", es: "Ayer visité el Coliseo." },
     { it: "Abbiamo mangiato una pizza fantastica.", es: "Comimos una pizza fantástica." },
@@ -97,6 +108,10 @@ export const unidad09: Lesson = {
     {type: "fill", prompt: "Ho ___ molta acqua. (bere)", answers: ["bevuto"], why: "*Bere → bevuto*."},
     {type: "fill", prompt: "Che cosa hai ___? (dire)", answers: ["detto"], why: "*Dire → detto* (irregular)."},
     {type: "choice", prompt: "«Hace dos días compramos pan»", options: ["Due giorni fa abbiamo comprato il pane", "Due giorni abbiamo comprato il pane", "Fa due giorni ho comprato il pane"], answer: 0, why: "*Due giorni fa* = hace dos días."},
-    {type: "choice", prompt: "«¿Has probado alguna vez la pizza?»", options: ["Hai mai provato la pizza?", "Hai provato mai la pizza?", "Hai provato la pizza mai?"], answer: 0, why: "*Mai* va entre *avere* y el participio."},
+    {type: "choice", prompt: "«¿Has probado alguna vez la pizza?»", options: ["Hai mai provato la pizza?", "Hai mai provata la pizza?", "Hai mai provare la pizza?"], answer: 0, why: "*Mai* va entre *avere* y el participio (*provato*), que no cambia."},
+    { type: "fill", prompt: "Ieri ho ___ una bella notizia. (avere)", answers: ["avuto"], why: "*Avere → avuto*." },
+    { type: "fill", prompt: "Ho ___ la verità. (dire)", answers: ["detto"], why: "*Dire → detto*." },
+    { type: "fill", prompt: "Hai ___ la partita? (vincere)", answers: ["vinto"], why: "*Vincere → vinto*." },
+    { type: "fill", prompt: "Abbiamo ___ molto. (spendere)", answers: ["speso"], why: "*Spendere → speso*." },
   ],
 };

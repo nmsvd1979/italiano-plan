@@ -19,9 +19,9 @@
 
 ## Alcance
 
-- 16 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
-- 105 frases de ejemplo, 360 ejercicios y preguntas de comprensión.
-- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 113 líneas de diálogo, 15 consignas de escritura con modelo.
+- 24 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
+- 154 frases de ejemplo, 575 ejercicios y preguntas de comprensión.
+- 488 palabras o expresiones de vocabulario, 144 frases de dictado, 195 líneas de diálogo, 15 consignas de escritura con modelo.
 - Pronunciación: pares mínimos y consejos por unidad. Shadowing: lista de videos (para juzgar si el nivel es adecuado).
 
 ## Dudas de la IA que conviene mirar primero
@@ -83,6 +83,8 @@ El pronombre sujeto casi siempre se omite: se dice *Sono argentina*, no *Io sono
 | *Mi chiamo…* | Me llamo… |
 | *Scusi* | Disculpe (formal) / *Scusa* (informal) |
 
+*Come stai?* y *Come sta?* son, por ahora, fórmulas fijas para preguntar cómo está alguien (a un amigo y a una persona a la que tratas de *Lei*). El verbo *stare* lo estudiarás en la unidad 7.
+
 **Recuadro «Ojo, en español…»:**
 
 *Lei* (usted) y *lei* (ella) se pronuncian igual: por escrito, el *Lei* de cortesía suele llevar mayúscula, y el contexto decide el resto. Y *essere* te sirve para decir dónde estás (*Sono a Milano*), pero para el estado ("estoy bien") se usa otro verbo, *stare*: *Sto bene* (lo vemos en la unidad 7).
@@ -119,7 +121,7 @@ El pronombre sujeto casi siempre se omite: se dice *Sono argentina*, no *Io sono
 12. **Completar:** Noi ___ stanchi.  → respuesta(s) aceptada(s): `siamo`  — _Con *noi* va *siamo*._
 13. **Completar:** Voi ___ studenti?  → respuesta(s) aceptada(s): `siete`  — _Con *voi* va *siete*._
 14. **Completar:** Io non ___ italiano.  → respuesta(s) aceptada(s): `sono`  — _*Non* va antes del verbo: *non sono*._
-15. **Completar:** ___! Come sta, signora? (buenas tardes)  → respuesta(s) aceptada(s): `Buonasera` · `Buona sera`  — _De tarde y de noche, con cualquiera: *Buonasera*._
+15. **Completar:** ___! Come sta, signora? (buenas noches, al llegar a las nueve)  → respuesta(s) aceptada(s): `Buonasera` · `Buona sera`  — _De tarde y de noche, con cualquiera: *Buonasera*._
 16. **Completar:** A un amigo: ___, come stai? (hola)  → respuesta(s) aceptada(s): `Ciao`  — _Con amigos se usa *Ciao*._
 17. **Elegir:** Un desconocido mayor te pregunta algo. ¿Cómo le dices «disculpe»?  → Scusa  /  **✔** Scusi  /  Scusate  — _Con alguien desconocido y mayor: *Scusi* (formal)._
 18. **Elegir:** «Eres de Roma» (a un amigo)  → **✔** Sei di Roma  /  Sono di Roma  /  È di Roma  — _Con *tu*: *sei*._
@@ -232,6 +234,10 @@ En italiano el artículo cambia según la primera letra de la palabra que sigue.
 
 **C'è / ci sono** = hay. Uno solo: *C'è un supermercato vicino.* Varios: *Ci sono due bar.* **Piacere** funciona como *gustar*: lo que gusta es el sujeto. *Mi piace il caffè* (singular), *Mi piacciono i gelati* (plural).
 
+**Plurales con ortografía especial.** Si el acento cae en la penúltima sílaba, *-co → -chi* (*il gioco → i giochi*); si cae antes, *-co → -ci* (*il medico → i medici*). Excepción muy frecuente: *l'amico → gli amici*. Los nombres en *-go* suelen hacer *-ghi* (*il lago → i laghi*), y los femeninos en *-ca / -ga* hacen siempre *-che / -ghe* (*l'amica → le amiche*, *la riga → le righe*). Unos pocos son irregulares y se aprenden enteros: *l'uomo → gli uomini*, *la mano → le mani*. Los nombres en *-ista* cambian según el género: *il turista → i turisti*, *la turista → le turiste*.
+
+**Piacere con más personas.** *Ti piace il caffè?* (a ti), *Le piace il caffè?* (a usted, formal), *A Marco piace il caffè.* Después de *piace* puede ir un verbo en infinitivo: *Mi piace viaggiare.* Para contrastar se agrega *a me / a te*: *A me piace il caffè, e a te?*
+
 **Recuadro «Ojo, en español…»:**
 
 En español el artículo depende solo del género y el número; en italiano también de la letra inicial de la palabra siguiente: *il tavolo*, pero *lo zaino* y *l'amico*. Con *piacere* pasa lo mismo que con *gustar*: *mi piacciono i gelati* = me gustan los helados. No digas *io piaccio il gelato*.
@@ -273,6 +279,12 @@ En español el artículo depende solo del género y el número; en italiano tamb
 18. **Completar:** Loro ___ due figli. (avere)  → respuesta(s) aceptada(s): `hanno`  — _*Avere* con *loro*: *hanno*._
 19. **Elegir:** «Hay muchas tiendas en el centro»  → **✔** Ci sono molti negozi in centro  /  C'è molti negozi in centro  /  Ho molti negozi in centro  — _Plural → *ci sono*._
 20. **Elegir:** Plural de «il libro»  → **✔** i libri  /  gli libri  /  le libri  — _*Il libro → i libri*._
+21. **Completar:** ___ il caffè? (tú, informal)  → respuesta(s) aceptada(s): `Ti piace`  — _A ti: *ti piace*._
+22. **Completar:** ___ il caffè? (usted, formal)  → respuesta(s) aceptada(s): `Le piace`  — _A usted: *Le piace*._
+23. **Completar:** Mi piace ___. (viajar)  → respuesta(s) aceptada(s): `viaggiare`  — _Después de *piace* va el infinitivo: *viaggiare*._
+24. **Completar:** Ci sono due ___ al bar. (uomo, plural)  → respuesta(s) aceptada(s): `uomini`  — _Plural irregular: *uomo → uomini*._
+25. **Completar:** Le ___ arrivano. (amica, plural)  → respuesta(s) aceptada(s): `amiche`  — _*-ca → -che*: *amiche*._
+26. **Elegir:** «Los juegos» en italiano:  → **✔** i giochi  /  i gioci  /  i gioche  — _*-co → -chi* cuando el acento cae en la penúltima: *giochi*._
 
 ### Vocabulario
 
@@ -333,11 +345,11 @@ En español el artículo depende solo del género y el número; en italiano tamb
 
 ### Pronunciación
 
-**Consonantes dobles (I)** — La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído.
+**Consonantes dobles (I)** — La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído. En español *b* y *v* suenan igual; en italiano no: la *v* se hace con los dientes de arriba sobre el labio de abajo (como una *f* con voz), y la *b* con los dos labios: *bene* (bien) frente a *vene* (venas).
 
-Pares mínimos: palla (pelota) / pala (pala) · nonno (abuelo) / nono (noveno) · sette (siete) / sete (sed) · pena (pena) / penna (pluma)
+Pares mínimos: palla (pelota) / pala (pala) · nonno (abuelo) / nono (noveno) · sette (siete) / sete (sed) · pena (pena) / penna (pluma) · bene (bien) / vene (venas)
 
-Palabras para repetir: palla, nonno, sette, penna, mamma, rosa
+Palabras para repetir: palla, nonno, sette, penna, mamma, rosa, bene, vino
 
 ### Shadowing (videos de Easy Italian)
 
@@ -386,6 +398,8 @@ Preguntas: *Che ora è?* o *Che ore sono?*. Para hablar de un momento: *A che or
 
 **Precios**: *Quanto costa?* (una cosa) y *Quanto costano?* (varias). *Costa dieci euro.* *Costano cinque euro.* La palabra *euro* no cambia en plural. Para centavos se dice *e*: 1,20 € → *un euro e venti*. En italiano el decimal es una coma (*12,50*) y los miles llevan punto (*1.200*).
 
+**Centenas y años.** *cento* (100), *centodieci* (110), *centocinquanta* (150), *duecento* (200), *trecento* (300), *cinquecento* (500), *novecento* (900). Se escriben pegados y sin *e*: *duecentoventi* (220). Los años se dicen como un solo número: *duemilaventisei* (2026), *millenovecentonovantanove* (1999); y con *in*: *nel duemilaventisei*. Para preguntar la fecha: *Che giorno è oggi?* — *Oggi è il sei ottobre.*
+
 **Recuadro «Ojo, en español…»:**
 
 No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "de": *il 6 ottobre*, no *il 6 di ottobre*. Los números compuestos van pegados y pierden la vocal con *uno* y *otto* (*ventuno, ventotto*, no *ventiuno*). Y recuerda que el decimal es coma: 12,50 € se lee *dodici euro e cinquanta*.
@@ -396,9 +410,9 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 2. **A che ora parte il treno? — Alle diciassette e quindici.** — ¿A qué hora sale el tren? — A las 17:15.
 3. **Quanto costa questo? — Costa dodici euro e cinquanta.** — ¿Cuánto cuesta esto? — Cuesta 12,50 euros.
 4. **I biscotti costano tre euro.** — Las galletas cuestan tres euros.
-5. **Il mio compleanno è il quindici marzo.** — Mi cumpleaños es el 15 de marzo.
-6. **Ho ventotto anni e mia sorella ha trentuno anni.** — Tengo 28 años y mi hermana tiene 31.
-7. **Oggi è martedì, sei ottobre.** — Hoy es martes, 6 de octubre.
+5. **Il compleanno di Marco è il quindici marzo.** — El cumpleaños de Marco es el 15 de marzo.
+6. **Ho ventotto anni e Marco ha trentuno anni.** — Tengo 28 años y Marco tiene 31.
+7. **Oggi è il sei ottobre.** — Hoy es 6 de octubre.
 8. **Il museo apre alle nove e chiude all'una.** — El museo abre a las nueve y cierra a la una.
 
 ### Preguntas «Primero fíjate»
@@ -420,7 +434,7 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 9. **Completar:** A che ora apre il museo? — ___ nove. (a las 9)  → respuesta(s) aceptada(s): `alle`  — _*A + le* → *alle* para horas en plural._
 10. **Completar:** Il treno parte ___. (a la una)  → respuesta(s) aceptada(s): `all'una`  — _Con la una: *all'una*._
 11. **Completar:** Oggi è ___. (miércoles)  → respuesta(s) aceptada(s): `mercoledì`  — _*Mercoledì* lleva tilde y va en minúscula._
-12. **Completar:** Il mio compleanno è il ___ marzo. (15)  → respuesta(s) aceptada(s): `quindici`  — _15 = *quindici*._
+12. **Completar:** Il compleanno di Marco è il ___ marzo. (15)  → respuesta(s) aceptada(s): `quindici`  — _15 = *quindici*._
 13. **Completar:** Il ___ gennaio è Capodanno. (1.º)  → respuesta(s) aceptada(s): `primo`  — _Solo el día 1 es ordinal: *il primo*._
 14. **Completar:** Il corso comincia a ___. (septiembre)  → respuesta(s) aceptada(s): `settembre`  — _*Settembre* va en minúscula._
 15. **Completar:** Il caffè costa un euro e ___. (1,20)  → respuesta(s) aceptada(s): `venti`  — _Los centavos se dicen con *e*: *un euro e venti*._
@@ -429,6 +443,9 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 18. **Elegir:** Quieres saber el precio de unos zapatos. ¿Qué preguntas?  → Quanto costa?  /  **✔** Quanto costano?  /  Quanti costa?  — _Varias cosas (un par): *Quanto costano?*._
 19. **Elegir:** ¿Cómo se escribe correctamente la fecha de hoy?  → **✔** Oggi è il 6 ottobre.  /  Oggi è il 6 di ottobre.  /  Oggi è 6 Ottobre.  — _Sin "de" y con el mes en minúscula._
 20. **Elegir:** ¿Cómo se dice 21?  → ventiuno  /  **✔** ventuno  /  venti uno  — _*Venti* pierde la *i* ante *uno*: *ventuno*._
+21. **Completar:** Il libro costa ___ euro. (200)  → respuesta(s) aceptada(s): `duecento`  — _200 = *duecento*, pegado y sin *e*._
+22. **Completar:** Il biglietto costa ___ euro. (150)  → respuesta(s) aceptada(s): `centocinquanta`  — _150 = *centocinquanta*, todo junto._
+23. **Elegir:** Preguntas qué fecha es hoy:  → **✔** Che giorno è oggi?  /  Che giorno ha oggi?  /  Quale giorno sono oggi?  — _*Che giorno è oggi?* es la forma estándar._
 
 ### Vocabulario
 
@@ -460,7 +477,7 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 1. **Sono le otto e mezza.** — Son las ocho y media.
 2. **Il treno parte alle diciotto e trenta.** — El tren sale a las 18:30.
 3. **Costa dodici euro e cinquanta.** — Cuesta 12,50 euros.
-4. **Oggi è martedì, sei ottobre.** — Hoy es martes, 6 de octubre.
+4. **Oggi è il sei ottobre.** — Hoy es 6 de octubre.
 5. **Ho ventotto anni.** — Tengo 28 años.
 6. **Il museo apre alle nove.** — El museo abre a las nueve.
 

@@ -19,9 +19,9 @@
 
 ## Alcance
 
-- 16 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
-- 105 frases de ejemplo, 360 ejercicios y preguntas de comprensión.
-- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 113 líneas de diálogo, 15 consignas de escritura con modelo.
+- 24 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
+- 154 frases de ejemplo, 575 ejercicios y preguntas de comprensión.
+- 488 palabras o expresiones de vocabulario, 144 frases de dictado, 195 líneas de diálogo, 15 consignas de escritura con modelo.
 - Pronunciación: pares mínimos y consejos por unidad. Shadowing: lista de videos (para juzgar si el nivel es adecuado).
 
 ## Dudas de la IA que conviene mirar primero
@@ -86,7 +86,20 @@ Excepción útil: *a piedi* (caminando). **Preposiciones articuladas**: *a, di, 
 | *guardare* | mirar | guardar (eso es *conservare*) |
 | *vaso* | florero / maceta | vaso para beber: eso es *bicchiere* |
 
-**Dónde está** algo: *Scusi, dov'è la stazione?* Respuestas básicas: *È a destra* (a la derecha), *è a sinistra* (a la izquierda), *è dritto* (está todo derecho), *è vicino* / *è lontano*. Para ubicarte: *all'angolo* (en la esquina), *al semaforo*, *di fronte a* (frente a), *accanto a* (al lado de). En la unidad 14 aprenderás a dar indicaciones con órdenes (*vada dritto, giri a destra*).
+**Dónde está** algo: *Scusi, dov'è la stazione?* Respuestas básicas: *È a destra* (a la derecha), *è a sinistra* (a la izquierda), *è vicino* / *è lontano*. Para ubicarte: *all'angolo* (en la esquina), *al semaforo*, *di fronte a* (frente a), *accanto a* (al lado de). Para entender indicaciones formales (*Lei*): *Vada dritto* (siga derecho), *giri a destra / a sinistra*, *attraversi la piazza*, *continui*, *prenda la prima a sinistra*. Ojo: *dritto* suele ir con verbo (*Va dritto*). En la unidad 14 las practicarás.
+
+**Lugares de todos los días.** Con algunos se usa *in* sin artículo: *Vado in banca, in farmacia, in centro, in ufficio, in chiesa, in palestra, in biblioteca*. Con otros, *a* sin artículo: *Vado a casa, a scuola, a teatro*. Con el resto sí hay artículo: *alla stazione, al supermercato, al cinema*.
+
+**Tres verbos irregulares de movimiento:**
+
+|  | andare | venire | uscire |
+|---|---|---|---|
+| io | vado | vengo | esco |
+| tu | vai | vieni | esci |
+| lui/lei | va | viene | esce |
+| noi | andiamo | veniamo | usciamo |
+| voi | andate | venite | uscite |
+| loro | vanno | vengono | escono |
 
 **Recuadro «Ojo, en español…»:**
 
@@ -121,7 +134,7 @@ En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la mi
 9. **Completar:** Il bar è ___ al semaforo. (al lado de)  → respuesta(s) aceptada(s): `accanto`  — _*Accanto a* = al lado de._
 10. **Elegir:** Quieres decir que bajas del tren en la próxima estación.  → Salgo alla prossima  /  **✔** Scendo alla prossima  /  Esco alla prossima  — _Bajar es *scendere*; *salire* es subir._
 11. **Elegir:** Reservas una habitación doble. ¿Qué dices?  → **✔** Una camera doppia  /  Una fotocamera doppia  /  Un burro doppio  — _*Camera* es habitación; la cámara de fotos es *fotocamera*._
-12. **Elegir:** «La farmacia? È dritto, poi a sinistra.» ¿Qué haces?  → **✔** Sigo derecho y luego voy a la izquierda  /  Giro a la derecha y sigo  /  Tomo un taxi porque está lejos  — _*Dritto* = derecho y *a sinistra* = a la izquierda._
+12. **Elegir:** «La farmacia? Vada dritto, poi giri a sinistra.» ¿Qué haces?  → **✔** Sigo derecho y luego voy a la izquierda  /  Giro a la derecha y sigo  /  Tomo un taxi porque está lejos  — _*Vada dritto* = siga derecho y *giri a sinistra* = gire a la izquierda._
 13. **Completar:** Vivo ___ Spagna. (en)  → respuesta(s) aceptada(s): `in`  — _Los países llevan *in*._
 14. **Completar:** Vado ___ dentista. (al dentista)  → respuesta(s) aceptada(s): `dal`  — _A casa de una persona o profesional: *da* + *il* = *dal*._
 15. **Completar:** Il caffè è ___ tazza. (en la)  → respuesta(s) aceptada(s): `nella`  — _*in + la = nella*._
@@ -130,6 +143,13 @@ En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la mi
 18. **Completar:** Esco ___ stazione. (de la)  → respuesta(s) aceptada(s): `dalla`  — _*da + la = dalla*._
 19. **Elegir:** «Voy a Perú en avión»  → **✔** Vado in Perù in aereo  /  Vado a Perù a aereo  /  Vado da Perù con aereo  — _País → *in*; medio de transporte → *in*._
 20. **Elegir:** Quieres pedir mantequilla en una tienda.  → **✔** il burro  /  il burrone  /  il burrito  — _*Burro* es la mantequilla, no el animal._
+21. **Completar:** Vado ___ banca.  → respuesta(s) aceptada(s): `in`  — _Lugar habitual: *in banca*, sin artículo._
+22. **Completar:** Torno ___ casa alle sei.  → respuesta(s) aceptada(s): `a`  — _*A casa*, sin artículo._
+23. **Completar:** Tu ___ con noi? (venire)  → respuesta(s) aceptada(s): `vieni`  — _*Venire* con *tu*: *vieni*._
+24. **Completar:** Marco ___ alle otto. (uscire)  → respuesta(s) aceptada(s): `esce`  — _*Uscire* con *lui*: *esce*._
+25. **Completar:** Noi ___ al cinema. (andare)  → respuesta(s) aceptada(s): `andiamo`  — _*Andare* con *noi*: *andiamo*._
+26. **Completar:** Io ___ dall'ufficio alle sei. (uscire)  → respuesta(s) aceptada(s): `esco`  — _*Uscire* con *io*: *esco*._
+27. **Elegir:** Quieres decir que vas al banco a hacer un trámite:  → **✔** Vado in banca.  /  Vado nella banca.  /  Vado a banca.  — _Con *banca* (lugar habitual) se usa *in*, sin artículo._
 
 ### Vocabulario
 
@@ -192,9 +212,9 @@ En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la mi
 
 **S + consonante** — En italiano *s* + consonante se pronuncia pegada, sin una *e* delante: *studente*, no "estudente"; *Spagna*, no "España". Es un error muy común en hispanohablantes.
 
-Pares mínimos: palla (pelota) / pala (pala) · caro (querido / caro) / carro (carreta / vagón) · chi (quién) / ci (nos / allí)
+Pares mínimos: 
 
-Palabras para repetir: studente, scuola, Spagna, stazione, spesa, sport, strada, specchio, sposa
+Palabras para repetir: studente, scuola, Spagna, stazione, spesa, sport, strada, specchio, sposa, sciarpa, spiaggia
 
 ### Shadowing (videos de Easy Italian)
 
@@ -239,6 +259,8 @@ Los posesivos concuerdan con **lo poseído**, no con quien lo posee, y casi siem
 
 **Adjetivos**: concuerdan en género y número (*-o/-a/-i/-e*; los de *-e* sirven para los dos géneros: *verde, verdi*) y se ponen **después** del sustantivo: *una borsa rossa*. Pocos van antes: *bello, buono, grande, piccolo*. Colores: *rosso, giallo, verde, azzurro, bianco, nero, grigio, marrone*. Tres no cambian nunca: *rosa, viola, blu* (*due gonne rosa*).
 
+**Bello y buono antes del nombre.** *Bello* cambia como *quello*: *un bel libro, un bello zaino, un bell'albergo, una bella casa, dei bei libri, delle belle case*. *Buono* cambia como *un*: *un buon caffè, un buon amico, una buona pizza*. Con *essere*, el posesivo va sin artículo: *Questa borsa è mia.* *Sono miei.*
+
 **Recuadro «Ojo, en español…»:**
 
 En español dices *mi casa*; en italiano, *la mia casa* (con artículo), salvo con un familiar en singular (*mia madre*). *Suo* no dice si es de él, de ella o de usted: lo da el contexto. Y *quello* no cambia como *questo*: *quel libro, quella casa*. Los colores concuerdan (*due borse rosse*), salvo *rosa, viola, blu*.
@@ -282,6 +304,10 @@ En español dices *mi casa*; en italiano, *la mia casa* (con artículo), salvo c
 18. **Elegir:** En «la sua macchina», *sua* puede significar…  → Solo de él  /  **✔** De él, de ella o de usted  /  Solo de ella  — _*Suo/sua* no distingue al poseedor: lo da el contexto._
 19. **Elegir:** ¿Cuál es correcto?  → **✔** Due gonne rosa.  /  Due gonne rose.  /  Due gonni rosa.  — _*Rosa*, *viola* y *blu* no cambian._
 20. **Elegir:** ¿Qué orden es el natural para «una camiseta roja»?  → **✔** una maglietta rossa  /  una rossa maglietta  /  un rossa maglietta  — _El color va después del sustantivo y concuerda con él._
+21. **Completar:** Che ___ libro! (lindo)  → respuesta(s) aceptada(s): `bel`  — _*Bello* ante *libro* (artículo *il*): *bel*._
+22. **Completar:** Una ___ casa. (linda)  → respuesta(s) aceptada(s): `bella`  — _Femenino singular: *bella*._
+23. **Completar:** Un ___ caffè, per favore. (bueno)  → respuesta(s) aceptada(s): `buon`  — _*Buono* ante un masculino: *buon caffè*._
+24. **Completar:** Questa borsa è ___. (mía)  → respuesta(s) aceptada(s): `mia`  — _Tras *essere*, el posesivo va sin artículo: *è mia*._
 
 ### Vocabulario
 
@@ -344,11 +370,11 @@ En español dices *mi casa*; en italiano, *la mia casa* (con artículo), salvo c
 
 ### Pronunciación
 
-**Colores y ropa: CH, GI y dobles** — *ch* y *gh* delante de *e/i* suenan como *k* y *g* dura: *chi* (quién), distinto de *ci* (nos/allí). En cambio *gi* es suave: *giallo* (amarillo) frente a *gallo* (g dura). Las dobles de *rosso*, *azzurro* y *cappello* se alargan: *cappello* (sombrero) frente a *capello* (cabello).
+**Colores y ropa: CH, GI y dobles** — *ch* y *gh* delante de *e/i* suenan como *k* y *g* dura: *chi* (quién), distinto de *ci* (nos/allí). En cambio *gi* es suave: *giallo* (amarillo) frente a *gallo* (g dura). Las dobles de *rosso*, *azzurro* y *cappello* se alargan: *cappello* (sombrero) frente a *capello* (cabello). En español *b* y *v* suenan igual; en italiano no: la *v* se hace con los dientes de arriba sobre el labio de abajo (como una *f* con voz), y la *b* con los dos labios: *bene* (bien) frente a *vene* (venas).
 
-Pares mínimos: giallo (amarillo) / gallo (gallo) · cappello (sombrero) / capello (cabello) · chi (quién) / ci (nos / allí)
+Pares mínimos: giallo (amarillo) / gallo (gallo) · cappello (sombrero) / capello (cabello) · chi (quién) / ci (nos / allí) · bacca (baya) / vacca (vaca) · basta (basta) / vasta (vasta / amplia)
 
-Palabras para repetir: rosso, bianco, nero, verde, azzurro, maglietta, questo, quello
+Palabras para repetir: rosso, bianco, nero, verde, azzurro, maglietta, questo, quello, bello, vento
 
 ### Shadowing (videos de Easy Italian)
 
@@ -388,6 +414,19 @@ Para ordenar el día: *prima* (primero), *poi* (luego), *dopo* (después), *di s
 | lugar, profesión, característica | *essere* | *Sono a casa.* · *Sono stanco.* |
 | salud o ánimo en el momento | *stare* | *Sto bene.* · *Come stai?* |
 | acción en curso | *stare* + gerundio | *Sto studiando.* |
+
+**Gerundios irregulares:** *fare → facendo*, *dire → dicendo*, *bere → bevendo* (*Che stai facendo? Sto bevendo un caffè.*). Los demás son regulares: *-are → -ando*, *-ere / -ire → -endo*.
+
+**Presente de cinco verbos irregulares muy frecuentes:**
+
+|  | fare | dire | dare | stare | bere |
+|---|---|---|---|---|---|
+| io | faccio | dico | do | sto | bevo |
+| tu | fai | dici | dai | stai | bevi |
+| lui/lei | fa | dice | dà | sta | beve |
+| noi | facciamo | diciamo | diamo | stiamo | beviamo |
+| voi | fate | dite | date | state | bevete |
+| loro | fanno | dicono | danno | stanno | bevono |
 
 **Recuadro «Ojo, en español…»:**
 
@@ -430,6 +469,13 @@ Para ordenar el día: *prima* (primero), *poi* (luego), *dopo* (después), *di s
 18. **Completar:** Lui sta ___ in cucina. (dormire)  → respuesta(s) aceptada(s): `dormendo`  — _*Dormire → dormendo*._
 19. **Elegir:** «Ella se peina»  → **✔** Lei si pettina  /  Lei pettina  /  Lei ti pettina  — _Reflexivo con *lei*: *si pettina*._
 20. **Elegir:** «Estoy bien, gracias»  → **✔** Sto bene, grazie  /  Sono bene, grazie  /  Ho bene, grazie  — _El bienestar va con *stare*: *sto bene*._
+21. **Completar:** Che stai ___? (fare)  → respuesta(s) aceptada(s): `facendo`  — _*Fare* tiene gerundio irregular: *facendo*._
+22. **Completar:** Sto ___ un caffè. (bere)  → respuesta(s) aceptada(s): `bevendo`  — _*Bere → bevendo*._
+23. **Completar:** Che cosa ___ tu di solito? (fare)  → respuesta(s) aceptada(s): `fai`  — _*Fare* con *tu*: *fai*._
+24. **Completar:** Io ___ sempre grazie. (dire)  → respuesta(s) aceptada(s): `dico`  — _*Dire* con *io*: *dico*._
+25. **Completar:** Loro ___ a Roma. (stare)  → respuesta(s) aceptada(s): `stanno`  — _*Stare* con *loro*: *stanno*._
+26. **Completar:** Lui ___ un regalo a Marco. (dare)  → respuesta(s) aceptada(s): `dà`  — _*Dare* con *lui*: *dà*, con tilde._
+27. **Completar:** Noi ___ un'acqua. (bere)  → respuesta(s) aceptada(s): `beviamo`  — _*Bere* con *noi*: *beviamo*._
 
 ### Vocabulario
 

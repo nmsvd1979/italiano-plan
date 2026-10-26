@@ -7,7 +7,7 @@ export const unidad10: Lesson = {
   rule: [
     {
       kind: "p",
-      text: "Algunos verbos forman el passato prossimo con **essere** (*sono, sei, è, siamo, siete, sono*) y no con *avere*. Regla práctica: **movimiento, cambio de estado y verbos reflexivos** van con *essere*.",
+      text: "Algunos verbos forman el passato prossimo con **essere** (*sono, sei, è, siamo, siete, sono*) y no con *avere*. Regla práctica: la mayoría de los verbos de **ir y venir, de cambio de estado y los reflexivos** van con *essere*. Pero no todo verbo de movimiento: *camminare, viaggiare, passeggiare y nuotare* usan *avere* (*Ho viaggiato in Italia. Abbiamo camminato due ore. Ho nuotato in piscina.*).",
     },
     {
       kind: "table",
@@ -25,6 +25,10 @@ export const unidad10: Lesson = {
     {
       kind: "p",
       text: "**Concordancia.** Con *essere* el participio cambia como un adjetivo y concuerda con el sujeto: *-o* (él), *-a* (ella), *-i* (varios), *-e* (varias mujeres). *Marco è andato*, *Anna è andata*, *Marco e Anna sono andati*, *Anna e Giulia sono andate*. Con *avere* el participio no cambia: *Anna ha mangiato*.",
+    },
+    {
+      kind: "p",
+      text: "**Con un modal** (*volere, potere, dovere*) + infinitivo, en la lengua cuidada el modal toma el auxiliar del verbo que sigue: *Sono dovuta partire. Non sono potuto venire. Ho dovuto lavorare.* En la lengua hablada también se oye *Ho dovuto partire* y *Non ho potuto venire*.",
     },
   ],
   transfer:
@@ -99,5 +103,9 @@ export const unidad10: Lesson = {
     {type: "fill", prompt: "Voi siete ___ a casa? (tornare; grupo de mujeres)", answers: ["tornate"], why: "Mujeres: *tornate*."},
     {type: "choice", prompt: "«Mis amigos llegaron ayer»", options: ["I miei amici sono arrivati ieri", "I miei amici hanno arrivato ieri", "I miei amici sono arrivato ieri"], answer: 0, why: "*Arrivare* va con *essere* y concuerda: *arrivati*."},
     {type: "choice", prompt: "«Fuimos a la playa» (un grupo de mujeres)", options: ["Siamo andate al mare", "Siamo andati al mare", "Abbiamo andato al mare"], answer: 0, why: "Mujeres: *andate*, con *essere*."},
+    { type: "fill", prompt: "___ viaggiato in Italia l'anno scorso. (io)", answers: ["Ho"], why: "*Viaggiare* se conjuga con *avere*: *ho viaggiato*." },
+    { type: "fill", prompt: "Abbiamo ___ per due ore. (camminare)", answers: ["camminato"], why: "*Camminare → camminato*, con *avere*." },
+    { type: "fill", prompt: "Ieri sono ___ andare via. (dovere)", answers: ["dovuto", "dovuta"], why: "Con *sono* + *andare*: *sono dovuto / dovuta andare*." },
+    { type: "choice", prompt: "«Nadé en la piscina»", options: ["Ho nuotato in piscina.", "Sono nuotato in piscina.", "Ho nuotare in piscina."], answer: 0, why: "*Nuotare* usa *avere*: *ho nuotato*." },
   ],
 };

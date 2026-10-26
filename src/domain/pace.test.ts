@@ -77,7 +77,7 @@ describe("fecha estimada de fin", () => {
     expect(pace.endDate).not.toBeNull();
     const days = diffInDays(pace.endDate!, parseISODate("2026-10-01"));
     expect(days).toBeGreaterThan(60);
-    expect(days).toBeLessThan(140);
+    expect(days).toBeLessThan(200);
   });
 
   it("si estudias más que lo planeado, la fecha se acerca; si dejas de estudiar, se aleja", () => {

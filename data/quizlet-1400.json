@@ -1,0 +1,8402 @@
+[
+{
+"it": "lui",
+"es": "él",
+"n": 1,
+"enApp": null
+},
+{
+"it": "noi",
+"es": "nosotros/as",
+"n": 2,
+"enApp": null
+},
+{
+"it": "Buongiorno",
+"es": "¡Hola!/¡Buenos días!",
+"n": 3,
+"enApp": "u01"
+},
+{
+"it": "Come va?",
+"es": "¿Cómo estás?",
+"n": 4,
+"enApp": null
+},
+{
+"it": "Che c'è di nuovo?",
+"es": "¿Qué hay de nuevo?",
+"n": 5,
+"enApp": null
+},
+{
+"it": "A presto!",
+"es": "¡Hasta pronto!",
+"n": 6,
+"enApp": "u18"
+},
+{
+"it": "Ciao!",
+"es": "Hasta luego!",
+"n": 7,
+"enApp": "u01"
+},
+{
+"it": "Grazie mille!",
+"es": "¡Muchas gracias!",
+"n": 8,
+"enApp": null
+},
+{
+"it": "Non c'è di che!",
+"es": "No hay de qué",
+"n": 9,
+"enApp": null
+},
+{
+"it": "Scusi!",
+"es": "¡Perdóneme!",
+"n": 10,
+"enApp": "u01"
+},
+{
+"it": "scusare",
+"es": "disculpar",
+"n": 11,
+"enApp": null
+},
+{
+"it": "scusarsi",
+"es": "disculparse",
+"n": 12,
+"enApp": null
+},
+{
+"it": "Chiedo scusa",
+"es": "Mis disculpas",
+"n": 13,
+"enApp": null
+},
+{
+"it": "Mi perdoni!",
+"es": "¡Perdóneme!",
+"n": 14,
+"enApp": null
+},
+{
+"it": "Non fa niente",
+"es": "¡No pasa nada!",
+"n": 15,
+"enApp": null
+},
+{
+"it": "Non dimentichi!",
+"es": "¡No se le olvide!",
+"n": 16,
+"enApp": null
+},
+{
+"it": "dodici",
+"es": "doce",
+"n": 17,
+"enApp": null
+},
+{
+"it": "quattordici",
+"es": "catorce",
+"n": 18,
+"enApp": null
+},
+{
+"it": "diciassette",
+"es": "diecisiete",
+"n": 19,
+"enApp": null
+},
+{
+"it": "venti",
+"es": "veinte",
+"n": 20,
+"enApp": "u03"
+},
+{
+"it": "ventidue",
+"es": "veintidós",
+"n": 21,
+"enApp": null
+},
+{
+"it": "cinquantuno",
+"es": "cincuenta y uno",
+"n": 22,
+"enApp": null
+},
+{
+"it": "cinquantadue",
+"es": "cincuenta y dos -",
+"n": 23,
+"enApp": null
+},
+{
+"it": "cinquantatre",
+"es": "cincuenta y tres",
+"n": 24,
+"enApp": null
+},
+{
+"it": "settantuno",
+"es": "setenta y uno",
+"n": 25,
+"enApp": null
+},
+{
+"it": "duemila",
+"es": "dos mil",
+"n": 26,
+"enApp": null
+},
+{
+"it": "miliardo",
+"es": "mil millones",
+"n": 27,
+"enApp": null
+},
+{
+"it": "secondo",
+"es": "segundo",
+"n": 28,
+"enApp": "u20"
+},
+{
+"it": "nono",
+"es": "noveno",
+"n": 29,
+"enApp": null
+},
+{
+"it": "sottrazione",
+"es": "sustracción",
+"n": 30,
+"enApp": null
+},
+{
+"it": "sottrarre",
+"es": "sustraer",
+"n": 31,
+"enApp": null
+},
+{
+"it": "divisione",
+"es": "división",
+"n": 32,
+"enApp": null
+},
+{
+"it": "dividere",
+"es": "dividir",
+"n": 33,
+"enApp": null
+},
+{
+"it": "addizione",
+"es": "adición",
+"n": 34,
+"enApp": null
+},
+{
+"it": "addizionare",
+"es": "sumar",
+"n": 35,
+"enApp": null
+},
+{
+"it": "moltiplicare",
+"es": "multiplicar",
+"n": 36,
+"enApp": null
+},
+{
+"it": "più",
+"es": "más",
+"n": 37,
+"enApp": null
+},
+{
+"it": "Quanto?",
+"es": "¿Cuánto?",
+"n": 38,
+"enApp": "u08"
+},
+{
+"it": "un po'di",
+"es": "poco",
+"n": 39,
+"enApp": null
+},
+{
+"it": "uno e mezzo",
+"es": "uno y medio",
+"n": 40,
+"enApp": null
+},
+{
+"it": "dozzina",
+"es": "docena",
+"n": 41,
+"enApp": null
+},
+{
+"it": "in due",
+"es": "en dos partes",
+"n": 42,
+"enApp": null
+},
+{
+"it": "in parti uguali",
+"es": "en partes iguales",
+"n": 43,
+"enApp": null
+},
+{
+"it": "metà",
+"es": "mitad",
+"n": 44,
+"enApp": null
+},
+{
+"it": "aprire",
+"es": "abrir",
+"n": 45,
+"enApp": "u09"
+},
+{
+"it": "indovinare",
+"es": "adivinar",
+"n": 46,
+"enApp": null
+},
+{
+"it": "avvertire",
+"es": "advertir",
+"n": 47,
+"enApp": null
+},
+{
+"it": "vantarsi",
+"es": "alabarse",
+"n": 48,
+"enApp": null
+},
+{
+"it": "affittare",
+"es": "alquilar",
+"n": 49,
+"enApp": "u17"
+},
+{
+"it": "minacciare",
+"es": "amenazar",
+"n": 50,
+"enApp": null
+},
+{
+"it": "rincrescere",
+"es": "arrepentirse",
+"n": 51,
+"enApp": null
+},
+{
+"it": "fare il bagno",
+"es": "bañarse",
+"n": 52,
+"enApp": null
+},
+{
+"it": "scherzare",
+"es": "bromear",
+"n": 53,
+"enApp": null
+},
+{
+"it": "cadere",
+"es": "caer",
+"n": 54,
+"enApp": null
+},
+{
+"it": "tacere",
+"es": "callarse",
+"n": 55,
+"enApp": null
+},
+{
+"it": "scavare",
+"es": "cavar",
+"n": 56,
+"enApp": null
+},
+{
+"it": "cacciare",
+"es": "cazar",
+"n": 57,
+"enApp": null
+},
+{
+"it": "cessare",
+"es": "cesar",
+"n": 58,
+"enApp": null
+},
+{
+"it": "afferrare",
+"es": "coger",
+"n": 59,
+"enApp": null
+},
+{
+"it": "fidarsi",
+"es": "confiar",
+"n": 60,
+"enApp": null
+},
+{
+"it": "confondere",
+"es": "confundir",
+"n": 61,
+"enApp": null
+},
+{
+"it": "conoscere",
+"es": "conocer",
+"n": 62,
+"enApp": "u13"
+},
+{
+"it": "contare su",
+"es": "contar con",
+"n": 63,
+"enApp": null
+},
+{
+"it": "avere fretta",
+"es": "darse prisa",
+"n": 64,
+"enApp": null
+},
+{
+"it": "lasciar cadere",
+"es": "dejar caer",
+"n": 65,
+"enApp": null
+},
+{
+"it": "discutere",
+"es": "discutir",
+"n": 66,
+"enApp": null
+},
+{
+"it": "trovare",
+"es": "encontrar",
+"n": 67,
+"enApp": "u13"
+},
+{
+"it": "ingannare",
+"es": "engañar",
+"n": 68,
+"enApp": null
+},
+{
+"it": "mandare",
+"es": "enviar",
+"n": 69,
+"enApp": "u13"
+},
+{
+"it": "sbagliare",
+"es": "equivocarse",
+"n": 70,
+"enApp": null
+},
+{
+"it": "scegliere",
+"es": "escoger",
+"n": 71,
+"enApp": null
+},
+{
+"it": "nascondere",
+"es": "esconder",
+"n": 72,
+"enApp": null
+},
+{
+"it": "scrivere",
+"es": "escribir",
+"n": 73,
+"enApp": "u09"
+},
+{
+"it": "essere d'accordo",
+"es": "estar de acuerdo",
+"n": 74,
+"enApp": null
+},
+{
+"it": "esigere",
+"es": "exigir",
+"n": 75,
+"enApp": null
+},
+{
+"it": "esistere",
+"es": "existir",
+"n": 76,
+"enApp": null
+},
+{
+"it": "spiegare",
+"es": "explicar",
+"n": 77,
+"enApp": "u21"
+},
+{
+"it": "mancare le lezioni",
+"es": "faltar(a las clases)",
+"n": 78,
+"enApp": null
+},
+{
+"it": "gridare",
+"es": "gritar",
+"n": 79,
+"enApp": null
+},
+{
+"it": "conservare",
+"es": "guardar",
+"n": 80,
+"enApp": null
+},
+{
+"it": "insistere",
+"es": "insistir",
+"n": 81,
+"enApp": null
+},
+{
+"it": "interessarsi di",
+"es": "interesarse",
+"n": 82,
+"enApp": null
+},
+{
+"it": "giocare",
+"es": "jugar (divertirse)",
+"n": 83,
+"enApp": "u11"
+},
+{
+"it": "piangere",
+"es": "llorar",
+"n": 84,
+"enApp": null
+},
+{
+"it": "uccidere",
+"es": "matar",
+"n": 85,
+"enApp": null
+},
+{
+"it": "nuotare",
+"es": "nadar",
+"n": 86,
+"enApp": null
+},
+{
+"it": "rifiutarsi",
+"es": "negarse",
+"n": 87,
+"enApp": null
+},
+{
+"it": "accorgersi",
+"es": "notar",
+"n": 88,
+"enApp": null
+},
+{
+"it": "obiettare",
+"es": "objetar",
+"n": 89,
+"enApp": null
+},
+{
+"it": "osservare",
+"es": "observar",
+"n": 90,
+"enApp": null
+},
+{
+"it": "sentire",
+"es": "oír",
+"n": 91,
+"enApp": "u18"
+},
+{
+"it": "dimenticare",
+"es": "olvidar",
+"n": 92,
+"enApp": null
+},
+{
+"it": "pregare",
+"es": "orar",
+"n": 93,
+"enApp": null
+},
+{
+"it": "fermarsi",
+"es": "pararse",
+"n": 94,
+"enApp": "u14"
+},
+{
+"it": "chiedere, domandare",
+"es": "pedir (ayuda, etc.)",
+"n": 95,
+"enApp": null
+},
+{
+"it": "ordinare /",
+"es": "pedir (en restaurante)",
+"n": 96,
+"enApp": null
+},
+{
+"it": "appartenere",
+"es": "pertenecer a",
+"n": 97,
+"enApp": null
+},
+{
+"it": "pianificare",
+"es": "planear",
+"n": 98,
+"enApp": null
+},
+{
+"it": "prevedere",
+"es": "prever",
+"n": 99,
+"enApp": null
+},
+{
+"it": "promettere",
+"es": "prometer",
+"n": 100,
+"enApp": "u20"
+},
+{
+"it": "proporre",
+"es": "proponer",
+"n": 101,
+"enApp": null
+},
+{
+"it": "amare",
+"es": "querer",
+"n": 102,
+"enApp": null
+},
+{
+"it": "volere",
+"es": "querer",
+"n": 103,
+"enApp": null
+},
+{
+"it": "raccomandare",
+"es": "recomendar",
+"n": 104,
+"enApp": null
+},
+{
+"it": "sgridare",
+"es": "regañar",
+"n": 105,
+"enApp": null
+},
+{
+"it": "ripetere",
+"es": "repetir",
+"n": 106,
+"enApp": "u14"
+},
+{
+"it": "rubare",
+"es": "robar",
+"n": 107,
+"enApp": null
+},
+{
+"it": "sedersi",
+"es": "sentarse",
+"n": 108,
+"enApp": null
+},
+{
+"it": "occorrere",
+"es": "ser necesario",
+"n": 109,
+"enApp": null
+},
+{
+"it": "sorridere",
+"es": "sonreír",
+"n": 110,
+"enApp": null
+},
+{
+"it": "stupirsi",
+"es": "sorprenderse",
+"n": 111,
+"enApp": null
+},
+{
+"it": "sottovalutare",
+"es": "subestimar",
+"n": 112,
+"enApp": null
+},
+{
+"it": "avere",
+"es": "tener",
+"n": 113,
+"enApp": null
+},
+{
+"it": "avere fame",
+"es": "tener hambre",
+"n": 114,
+"enApp": null
+},
+{
+"it": "avere paura",
+"es": "tener miedo",
+"n": 115,
+"enApp": null
+},
+{
+"it": "avere sete",
+"es": "tener sed",
+"n": 116,
+"enApp": null
+},
+{
+"it": "sparare",
+"es": "tirar",
+"n": 117,
+"enApp": null
+},
+{
+"it": "toccare",
+"es": "tocar (con las manos)",
+"n": 118,
+"enApp": null
+},
+{
+"it": "tradurre",
+"es": "traducir",
+"n": 119,
+"enApp": null
+},
+{
+"it": "tentare",
+"es": "tratar",
+"n": 120,
+"enApp": null
+},
+{
+"it": "volare",
+"es": "volar",
+"n": 121,
+"enApp": null
+},
+{
+"it": "sfumatura",
+"es": "matiz",
+"n": 122,
+"enApp": null
+},
+{
+"it": "arcobaleno",
+"es": "arcoiris",
+"n": 123,
+"enApp": null
+},
+{
+"it": "grigio",
+"es": "gris",
+"n": 124,
+"enApp": "u06"
+},
+{
+"it": "giallo",
+"es": "amarillo",
+"n": 125,
+"enApp": "u06"
+},
+{
+"it": "arancione",
+"es": "anaranjado",
+"n": 126,
+"enApp": null
+},
+{
+"it": "violetto",
+"es": "violeta",
+"n": 127,
+"enApp": null
+},
+{
+"it": "argenteo",
+"es": "argentado",
+"n": 128,
+"enApp": null
+},
+{
+"it": "turchese",
+"es": "turquesa",
+"n": 129,
+"enApp": null
+},
+{
+"it": "rosso ciliegia",
+"es": "rojo cereza",
+"n": 130,
+"enApp": null
+},
+{
+"it": "rosso lampone",
+"es": "carmesí",
+"n": 131,
+"enApp": null
+},
+{
+"it": "carmesí",
+"es": "claro",
+"n": 132,
+"enApp": null
+},
+{
+"it": "vivo, vivido",
+"es": "vivo",
+"n": 133,
+"enApp": null
+},
+{
+"it": "colorato",
+"es": "de color",
+"n": 134,
+"enApp": null
+},
+{
+"it": "a colori",
+"es": "en colores",
+"n": 135,
+"enApp": null
+},
+{
+"it": "in tinta unita",
+"es": "unicolor",
+"n": 136,
+"enApp": null
+},
+{
+"it": "Che cosa?",
+"es": "¿Qué?",
+"n": 137,
+"enApp": "u08"
+},
+{
+"it": "Di dove?, Da dove?",
+"es": "¿De dónde?",
+"n": 138,
+"enApp": null
+},
+{
+"it": "Perché?",
+"es": "¿Para qué?/¿Por qué?",
+"n": 139,
+"enApp": "u08"
+},
+{
+"it": "Per che cosa?",
+"es": "¿Por qué razón?",
+"n": 140,
+"enApp": null
+},
+{
+"it": "Di chi?",
+"es": "¿De quién? (~ hablan ...)",
+"n": 141,
+"enApp": null
+},
+{
+"it": "Quanto?",
+"es": "¿Cuánto?",
+"n": 142,
+"enApp": "u08"
+},
+{
+"it": "sopra",
+"es": "sobre",
+"n": 143,
+"enApp": null
+},
+{
+"it": "su",
+"es": "en, sobre (~ la mesa)",
+"n": 144,
+"enApp": null
+},
+{
+"it": "attraverso",
+"es": "encima de",
+"n": 145,
+"enApp": null
+},
+{
+"it": "lì",
+"es": "allí",
+"n": 146,
+"enApp": null
+},
+{
+"it": "da qualche parte",
+"es": "en alguna parte",
+"n": 147,
+"enApp": null
+},
+{
+"it": "da nessuna parte",
+"es": "en ninguna parte",
+"n": 148,
+"enApp": null
+},
+{
+"it": "di qui",
+"es": "aquí (venga ~)",
+"n": 149,
+"enApp": null
+},
+{
+"it": "ci",
+"es": "allí (vendré ~)",
+"n": 150,
+"enApp": null
+},
+{
+"it": "da qui",
+"es": "de aquí",
+"n": 151,
+"enApp": null
+},
+{
+"it": "vicino, accanto",
+"es": "cerca (no lejos)",
+"n": 152,
+"enApp": null
+},
+{
+"it": "sinistro",
+"es": "izquierdo",
+"n": 153,
+"enApp": null
+},
+{
+"it": "a sinistra",
+"es": "a la izquierd",
+"n": 154,
+"enApp": "u05"
+},
+{
+"it": "davanti",
+"es": "delante",
+"n": 155,
+"enApp": null
+},
+{
+"it": "anteriore",
+"es": "delantero",
+"n": 156,
+"enApp": null
+},
+{
+"it": "dietro",
+"es": "detrás de",
+"n": 157,
+"enApp": "u14"
+},
+{
+"it": "da dietro",
+"es": "desde atrás",
+"n": 158,
+"enApp": null
+},
+{
+"it": "in mezzo, al centro",
+"es": "en medio",
+"n": 159,
+"enApp": null
+},
+{
+"it": "di fianco",
+"es": "de costado",
+"n": 160,
+"enApp": null
+},
+{
+"it": "dappertutto",
+"es": "en todas partes",
+"n": 161,
+"enApp": null
+},
+{
+"it": "attorno",
+"es": "alrededor",
+"n": 162,
+"enApp": null
+},
+{
+"it": "dritto",
+"es": "todo derecho",
+"n": 163,
+"enApp": "u05"
+},
+{
+"it": "da qualsiasi parte",
+"es": "de alguna parte",
+"n": 164,
+"enApp": null
+},
+{
+"it": "da qualche posto",
+"es": "no se sabe de dónde",
+"n": 165,
+"enApp": null
+},
+{
+"it": "in primo luogo",
+"es": "en primer lugar",
+"n": 166,
+"enApp": null
+},
+{
+"it": "in secondo luogo",
+"es": "segundo",
+"n": 167,
+"enApp": null
+},
+{
+"it": "all'improvviso",
+"es": "de repente",
+"n": 168,
+"enApp": null
+},
+{
+"it": "all'inizio",
+"es": "al principio",
+"n": 169,
+"enApp": null
+},
+{
+"it": "per la prima volta",
+"es": "por primera vez",
+"n": 170,
+"enApp": null
+},
+{
+"it": "mai",
+"es": "jamás",
+"n": 171,
+"enApp": "u08"
+},
+{
+"it": "ancora",
+"es": "de nuevo",
+"n": 172,
+"enApp": "u09"
+},
+{
+"it": "adesso",
+"es": "ahora",
+"n": 173,
+"enApp": null
+},
+{
+"it": "spesso",
+"es": "a menudo",
+"n": 174,
+"enApp": "u08"
+},
+{
+"it": "di solito",
+"es": "normalmente",
+"n": 175,
+"enApp": "u07"
+},
+{
+"it": "a proposito,",
+"es": "por cierto",
+"n": 176,
+"enApp": null
+},
+{
+"it": "è possibile",
+"es": "es probable",
+"n": 177,
+"enApp": null
+},
+{
+"it": "probabilmente",
+"es": "probablemente",
+"n": 178,
+"enApp": "u15"
+},
+{
+"it": "forse",
+"es": "es posible",
+"n": 179,
+"enApp": "u15"
+},
+{
+"it": "inoltre",
+"es": "además",
+"n": 180,
+"enApp": null
+},
+{
+"it": "ecco perché",
+"es": "por eso",
+"n": 181,
+"enApp": null
+},
+{
+"it": "nonostante",
+"es": "a pesar de",
+"n": 182,
+"enApp": null
+},
+{
+"it": "grazie a",
+"es": "gracias a",
+"n": 183,
+"enApp": null
+},
+{
+"it": "niente",
+"es": "nada",
+"n": 184,
+"enApp": "u08"
+},
+{
+"it": "qualcuno",
+"es": "alguien",
+"n": 185,
+"enApp": null
+},
+{
+"it": "di qualcuno",
+"es": "de alguien",
+"n": 186,
+"enApp": null
+},
+{
+"it": "così",
+"es": "tan, tanto",
+"n": 187,
+"enApp": null
+},
+{
+"it": "anche/pure",
+"es": "también",
+"n": 188,
+"enApp": null
+},
+{
+"it": "per qualche ragione",
+"es": "no se sabe porqué",
+"n": 189,
+"enApp": null
+},
+{
+"it": "esattamente",
+"es": "exactamente",
+"n": 190,
+"enApp": null
+},
+{
+"it": "approssimativamente",
+"es": "aproximadamente",
+"n": 191,
+"enApp": null
+},
+{
+"it": "approssimativo",
+"es": "aproximado",
+"n": 192,
+"enApp": null
+},
+{
+"it": "quasi",
+"es": "casi",
+"n": 193,
+"enApp": null
+},
+{
+"it": "ogni",
+"es": "cada",
+"n": 194,
+"enApp": null
+},
+{
+"it": "qualsiasi",
+"es": "cualquier",
+"n": 195,
+"enApp": null
+},
+{
+"it": "molto",
+"es": "mucho",
+"n": 196,
+"enApp": "u08"
+},
+{
+"it": "molti",
+"es": "muchos",
+"n": 197,
+"enApp": null
+},
+{
+"it": "molta gente",
+"es": "muchos",
+"n": 198,
+"enApp": null
+},
+{
+"it": "tutto, tutti",
+"es": "todos",
+"n": 199,
+"enApp": null
+},
+{
+"it": "in cambio di",
+"es": "a cambio de",
+"n": 200,
+"enApp": null
+},
+{
+"it": "io",
+"es": "yo",
+"n": 201,
+"enApp": null
+},
+{
+"it": "tu",
+"es": "tú",
+"n": 202,
+"enApp": null
+},
+{
+"it": "lei",
+"es": "ella",
+"n": 203,
+"enApp": null
+},
+{
+"it": "voi",
+"es": "vosotros/as",
+"n": 204,
+"enApp": null
+},
+{
+"it": "loro, essi",
+"es": "ellos, ellas",
+"n": 205,
+"enApp": null
+},
+{
+"it": "Salve!",
+"es": "¡Hola!",
+"n": 206,
+"enApp": null
+},
+{
+"it": "Buon pomeriggio!",
+"es": "¡Buenas tardes!",
+"n": 207,
+"enApp": null
+},
+{
+"it": "Buonasera!",
+"es": "¡Buenas noches!",
+"n": 208,
+"enApp": "u01"
+},
+{
+"it": "salutare",
+"es": "decir hola",
+"n": 209,
+"enApp": null
+},
+{
+"it": "Ciao! Salve!",
+"es": "¡Hola! (a un amigo)",
+"n": 210,
+"enApp": null
+},
+{
+"it": "saluto",
+"es": "saludo",
+"n": 211,
+"enApp": null
+},
+{
+"it": "Arrivederci",
+"es": "¡Adiós!",
+"n": 212,
+"enApp": "u01"
+},
+{
+"it": "Addio!",
+"es": "¡Adiós!",
+"n": 213,
+"enApp": null
+},
+{
+"it": "congedarsi",
+"es": "despedirse",
+"n": 214,
+"enApp": null
+},
+{
+"it": "Grazie!",
+"es": "¡Gracias!",
+"n": 215,
+"enApp": "u01"
+},
+{
+"it": "Prego",
+"es": "De nada",
+"n": 216,
+"enApp": "u01"
+},
+{
+"it": "Di niente",
+"es": "De nada",
+"n": 217,
+"enApp": null
+},
+{
+"it": "Scusa!",
+"es": "¡Perdóname!",
+"n": 218,
+"enApp": "u01"
+},
+{
+"it": "perdonare",
+"es": "perdonar",
+"n": 219,
+"enApp": null
+},
+{
+"it": "per favore",
+"es": "por favor",
+"n": 220,
+"enApp": "u01"
+},
+{
+"it": "Certamente",
+"es": "¡Desde luego!",
+"n": 221,
+"enApp": null
+},
+{
+"it": "Certamente no!",
+"es": "¡Claro que no!",
+"n": 222,
+"enApp": null
+},
+{
+"it": "D'accordo!",
+"es": "¡De acuerdo!",
+"n": 223,
+"enApp": "u22"
+},
+{
+"it": "Basta!",
+"es": "¡Basta!",
+"n": 224,
+"enApp": null
+},
+{
+"it": "signore",
+"es": "señor",
+"n": 225,
+"enApp": "u01"
+},
+{
+"it": "signora",
+"es": "señora",
+"n": 226,
+"enApp": "u01"
+},
+{
+"it": "signorina",
+"es": "señorita",
+"n": 227,
+"enApp": null
+},
+{
+"it": "ragazzo",
+"es": "niño",
+"n": 228,
+"enApp": null
+},
+{
+"it": "ragazza",
+"es": "niña",
+"n": 229,
+"enApp": null
+},
+{
+"it": "zero",
+"es": "cero",
+"n": 230,
+"enApp": null
+},
+{
+"it": "uno",
+"es": "uno",
+"n": 231,
+"enApp": null
+},
+{
+"it": "due",
+"es": "dos",
+"n": 232,
+"enApp": null
+},
+{
+"it": "tre",
+"es": "tres",
+"n": 233,
+"enApp": null
+},
+{
+"it": "quattro",
+"es": "cuatro",
+"n": 234,
+"enApp": null
+},
+{
+"it": "cinque",
+"es": "cinco",
+"n": 235,
+"enApp": null
+},
+{
+"it": "sei",
+"es": "seis",
+"n": 236,
+"enApp": null
+},
+{
+"it": "sette",
+"es": "siete",
+"n": 237,
+"enApp": null
+},
+{
+"it": "otto",
+"es": "ocho",
+"n": 238,
+"enApp": null
+},
+{
+"it": "nove",
+"es": "nueve",
+"n": 239,
+"enApp": null
+},
+{
+"it": "dieci",
+"es": "diez",
+"n": 240,
+"enApp": null
+},
+{
+"it": "undici",
+"es": "once",
+"n": 241,
+"enApp": null
+},
+{
+"it": "tredici",
+"es": "trece",
+"n": 242,
+"enApp": null
+},
+{
+"it": "quindici",
+"es": "quince",
+"n": 243,
+"enApp": null
+},
+{
+"it": "sedici",
+"es": "dieciséis",
+"n": 244,
+"enApp": null
+},
+{
+"it": "diciotto",
+"es": "dieciocho",
+"n": 245,
+"enApp": null
+},
+{
+"it": "diciannove",
+"es": "diecinueve",
+"n": 246,
+"enApp": null
+},
+{
+"it": "ventuno",
+"es": "veintiuno",
+"n": 247,
+"enApp": null
+},
+{
+"it": "ventitre",
+"es": "veintitrés",
+"n": 248,
+"enApp": null
+},
+{
+"it": "trenta",
+"es": "treinta",
+"n": 249,
+"enApp": "u03"
+},
+{
+"it": "trentuno",
+"es": "treinta y uno",
+"n": 250,
+"enApp": null
+},
+{
+"it": "trentadue",
+"es": "treinta y dos",
+"n": 251,
+"enApp": null
+},
+{
+"it": "trentatre",
+"es": "treinta y tres",
+"n": 252,
+"enApp": null
+},
+{
+"it": "quaranta",
+"es": "cuarenta",
+"n": 253,
+"enApp": null
+},
+{
+"it": "quarantuno",
+"es": "cuarenta y uno",
+"n": 254,
+"enApp": null
+},
+{
+"it": "quarantadue",
+"es": "cuarenta y dos",
+"n": 255,
+"enApp": null
+},
+{
+"it": "quarantatre",
+"es": "cuarenta y tres",
+"n": 256,
+"enApp": null
+},
+{
+"it": "cinquanta",
+"es": "cincuenta",
+"n": 257,
+"enApp": null
+},
+{
+"it": "sessanta",
+"es": "sesenta",
+"n": 258,
+"enApp": null
+},
+{
+"it": "sessantuno",
+"es": "sesenta y uno",
+"n": 259,
+"enApp": null
+},
+{
+"it": "sessantadue",
+"es": "sesenta y dos",
+"n": 260,
+"enApp": null
+},
+{
+"it": "sessantatre",
+"es": "sesenta y tres",
+"n": 261,
+"enApp": null
+},
+{
+"it": "settanta",
+"es": "setenta",
+"n": 262,
+"enApp": null
+},
+{
+"it": "settantadue",
+"es": "setenta y dos",
+"n": 263,
+"enApp": null
+},
+{
+"it": "settantatre",
+"es": "setenta y tres",
+"n": 264,
+"enApp": null
+},
+{
+"it": "ottanta",
+"es": "ochenta",
+"n": 265,
+"enApp": null
+},
+{
+"it": "ottantuno",
+"es": "ochenta y uno",
+"n": 266,
+"enApp": null
+},
+{
+"it": "ottantadue",
+"es": "ochenta y dos",
+"n": 267,
+"enApp": null
+},
+{
+"it": "ottantatre",
+"es": "ochenta y tres",
+"n": 268,
+"enApp": null
+},
+{
+"it": "novanta",
+"es": "noventa",
+"n": 269,
+"enApp": null
+},
+{
+"it": "novantuno",
+"es": "noventa y uno",
+"n": 270,
+"enApp": null
+},
+{
+"it": "novantadue",
+"es": "noventa y dos",
+"n": 271,
+"enApp": null
+},
+{
+"it": "novantatre",
+"es": "noventa y tres",
+"n": 272,
+"enApp": null
+},
+{
+"it": "cento",
+"es": "cien",
+"n": 273,
+"enApp": "u03"
+},
+{
+"it": "duecento",
+"es": "doscientos",
+"n": 274,
+"enApp": null
+},
+{
+"it": "trecento",
+"es": "trescientos",
+"n": 275,
+"enApp": null
+},
+{
+"it": "quattrocento",
+"es": "cuatrocientos",
+"n": 276,
+"enApp": null
+},
+{
+"it": "cinquecento",
+"es": "quinientos",
+"n": 277,
+"enApp": null
+},
+{
+"it": "seicento",
+"es": "seiscientos",
+"n": 278,
+"enApp": null
+},
+{
+"it": "settecento",
+"es": "setecientos",
+"n": 279,
+"enApp": null
+},
+{
+"it": "ottocento",
+"es": "ochocientos",
+"n": 280,
+"enApp": null
+},
+{
+"it": "novecento",
+"es": "novecientos",
+"n": 281,
+"enApp": null
+},
+{
+"it": "mille",
+"es": "mil",
+"n": 282,
+"enApp": "u03"
+},
+{
+"it": "tremila",
+"es": "tres mil",
+"n": 283,
+"enApp": null
+},
+{
+"it": "diecimila",
+"es": "diez mil",
+"n": 284,
+"enApp": null
+},
+{
+"it": "centomila",
+"es": "cien mil",
+"n": 285,
+"enApp": null
+},
+{
+"it": "milione",
+"es": "millón",
+"n": 286,
+"enApp": null
+},
+{
+"it": "primo",
+"es": "primero",
+"n": 287,
+"enApp": null
+},
+{
+"it": "terzo",
+"es": "tercero",
+"n": 288,
+"enApp": null
+},
+{
+"it": "quarto",
+"es": "cuarto",
+"n": 289,
+"enApp": null
+},
+{
+"it": "quinto",
+"es": "quinto",
+"n": 290,
+"enApp": null
+},
+{
+"it": "sesto",
+"es": "sexto",
+"n": 291,
+"enApp": null
+},
+{
+"it": "settimo",
+"es": "séptimo",
+"n": 292,
+"enApp": null
+},
+{
+"it": "ottavo",
+"es": "octavo",
+"n": 293,
+"enApp": null
+},
+{
+"it": "decimo",
+"es": "décimo",
+"n": 294,
+"enApp": null
+},
+{
+"it": "frazione",
+"es": "fracción",
+"n": 295,
+"enApp": null
+},
+{
+"it": "un mezzo",
+"es": "un medio",
+"n": 296,
+"enApp": null
+},
+{
+"it": "un terzo",
+"es": "un tercio",
+"n": 297,
+"enApp": null
+},
+{
+"it": "un quarto",
+"es": "un cuarto",
+"n": 298,
+"enApp": null
+},
+{
+"it": "un ottavo",
+"es": "un octavo",
+"n": 299,
+"enApp": null
+},
+{
+"it": "un decimo",
+"es": "un décimo",
+"n": 300,
+"enApp": null
+},
+{
+"it": "due terzi",
+"es": "dos tercios",
+"n": 301,
+"enApp": null
+},
+{
+"it": "tre quarti",
+"es": "tres cuartos",
+"n": 302,
+"enApp": null
+},
+{
+"it": "moltiplicazione",
+"es": "multiplicación",
+"n": 303,
+"enApp": null
+},
+{
+"it": "cifra",
+"es": "cifra",
+"n": 304,
+"enApp": null
+},
+{
+"it": "numero",
+"es": "número",
+"n": 305,
+"enApp": "u18"
+},
+{
+"it": "numerale",
+"es": "numeral",
+"n": 306,
+"enApp": null
+},
+{
+"it": "meno",
+"es": "menos",
+"n": 307,
+"enApp": null
+},
+{
+"it": "formula",
+"es": "fórmula",
+"n": 308,
+"enApp": null
+},
+{
+"it": "calcolo",
+"es": "cálculo",
+"n": 309,
+"enApp": null
+},
+{
+"it": "contare",
+"es": "contar",
+"n": 310,
+"enApp": null
+},
+{
+"it": "calcolare",
+"es": "calcular",
+"n": 311,
+"enApp": null
+},
+{
+"it": "comparare",
+"es": "comparar",
+"n": 312,
+"enApp": null
+},
+{
+"it": "Quanti?",
+"es": "cuántos?",
+"n": 313,
+"enApp": null
+},
+{
+"it": "somma",
+"es": "suma",
+"n": 314,
+"enApp": null
+},
+{
+"it": "risultato",
+"es": "resultado",
+"n": 315,
+"enApp": null
+},
+{
+"it": "resto",
+"es": "resto",
+"n": 316,
+"enApp": null
+},
+{
+"it": "qualche",
+"es": "unos pocos",
+"n": 317,
+"enApp": null
+},
+{
+"it": "volta",
+"es": "vez",
+"n": 318,
+"enApp": null
+},
+{
+"it": "consigliare",
+"es": "aconsejar",
+"n": 319,
+"enApp": null
+},
+{
+"it": "pranzare",
+"es": "almorzar",
+"n": 320,
+"enApp": null
+},
+{
+"it": "aiutare",
+"es": "ayudar",
+"n": 321,
+"enApp": "u13"
+},
+{
+"it": "cercare",
+"es": "buscar",
+"n": 322,
+"enApp": null
+},
+{
+"it": "cambiare",
+"es": "cambiar",
+"n": 323,
+"enApp": "u13"
+},
+{
+"it": "punire",
+"es": "castigar",
+"n": 324,
+"enApp": null
+},
+{
+"it": "cenare",
+"es": "cenar",
+"n": 325,
+"enApp": null
+},
+{
+"it": "cominciare",
+"es": "comenzar",
+"n": 326,
+"enApp": null
+},
+{
+"it": "capire",
+"es": "comprender",
+"n": 327,
+"enApp": null
+},
+{
+"it": "continuare",
+"es": "continuar",
+"n": 328,
+"enApp": "u14"
+},
+{
+"it": "controllare",
+"es": "controlar",
+"n": 329,
+"enApp": null
+},
+{
+"it": "correre",
+"es": "correr",
+"n": 330,
+"enApp": null
+},
+{
+"it": "costare",
+"es": "costar",
+"n": 331,
+"enApp": "u03"
+},
+{
+"it": "creare",
+"es": "crear",
+"n": 332,
+"enApp": null
+},
+{
+"it": "dare",
+"es": "dar",
+"n": 333,
+"enApp": "u13"
+},
+{
+"it": "dare un suggerimento",
+"es": "dar una pista",
+"n": 334,
+"enApp": null
+},
+{
+"it": "dire",
+"es": "decir",
+"n": 335,
+"enApp": "u09"
+},
+{
+"it": "decorare",
+"es": "decorar",
+"n": 336,
+"enApp": null
+},
+{
+"it": "difendere",
+"es": "defender",
+"n": 337,
+"enApp": null
+},
+{
+"it": "fare colazione",
+"es": "desayunar",
+"n": 338,
+"enApp": null
+},
+{
+"it": "scendere",
+"es": "descender",
+"n": 339,
+"enApp": "u05"
+},
+{
+"it": "dirigere",
+"es": "dirigir",
+"n": 340,
+"enApp": null
+},
+{
+"it": "battaglia",
+"es": "disculpar",
+"n": 341,
+"enApp": null
+},
+{
+"it": "dubitare",
+"es": "dudar",
+"n": 342,
+"enApp": "u22"
+},
+{
+"it": "entrar",
+"es": "entrar",
+"n": 343,
+"enApp": null
+},
+{
+"it": "aspettare",
+"es": "esperar",
+"n": 344,
+"enApp": "u14"
+},
+{
+"it": "sperare",
+"es": "esperar",
+"n": 345,
+"enApp": "u15"
+},
+{
+"it": "studiare",
+"es": "estudiar",
+"n": 346,
+"enApp": "u07"
+},
+{
+"it": "firmare",
+"es": "firmar (~ el contrato)",
+"n": 347,
+"enApp": "u17"
+},
+{
+"it": "girare",
+"es": "girar (~ a la izquierda) -",
+"n": 348,
+"enApp": "u14"
+},
+{
+"it": "piacere",
+"es": "gustar",
+"n": 349,
+"enApp": "u01"
+},
+{
+"it": "parlare",
+"es": "hablar",
+"n": 350,
+"enApp": null
+},
+{
+"it": "fare",
+"es": "hacer",
+"n": 351,
+"enApp": "u09"
+},
+{
+"it": "informare",
+"es": "informar",
+"n": 352,
+"enApp": null
+},
+{
+"it": "insultare",
+"es": "insultar",
+"n": 353,
+"enApp": null
+},
+{
+"it": "invitare",
+"es": "invitar",
+"n": 354,
+"enApp": "u13"
+},
+{
+"it": "andare",
+"es": "ir (a pie)",
+"n": 355,
+"enApp": "u10"
+},
+{
+"it": "leggere",
+"es": "leer",
+"n": 356,
+"enApp": "u09"
+},
+{
+"it": "liberare",
+"es": "liberar",
+"n": 357,
+"enApp": null
+},
+{
+"it": "chiamare",
+"es": "llamar (por ayuda)",
+"n": 358,
+"enApp": "u13"
+},
+{
+"it": "arrivare",
+"es": "llegar",
+"n": 359,
+"enApp": "u05"
+},
+{
+"it": "menzionare",
+"es": "mencionar",
+"n": 360,
+"enApp": null
+},
+{
+"it": "mostrare",
+"es": "mostrar",
+"n": 361,
+"enApp": "u21"
+},
+{
+"it": "ordinare",
+"es": "ordenar",
+"n": 362,
+"enApp": null
+},
+{
+"it": "pagare",
+"es": "pagar",
+"n": 363,
+"enApp": "u13"
+},
+{
+"it": "partecipare",
+"es": "participar",
+"n": 364,
+"enApp": null
+},
+{
+"it": "pensare",
+"es": "pensar",
+"n": 365,
+"enApp": "u22"
+},
+{
+"it": "perdonare /",
+"es": "perdonar",
+"n": 366,
+"enApp": null
+},
+{
+"it": "permettere",
+"es": "permitir",
+"n": 367,
+"enApp": null
+},
+{
+"it": "potere",
+"es": "poder",
+"n": 368,
+"enApp": null
+},
+{
+"it": "possedere",
+"es": "poseer",
+"n": 369,
+"enApp": null
+},
+{
+"it": "preferire",
+"es": "preferir",
+"n": 370,
+"enApp": "u22"
+},
+{
+"it": "chiedere, domandare /",
+"es": "preguntar",
+"n": 371,
+"enApp": null
+},
+{
+"it": "cucinare",
+"es": "preparar (la cena)",
+"n": 372,
+"enApp": "u07"
+},
+{
+"it": "pronunciare",
+"es": "pronunciar",
+"n": 373,
+"enApp": null
+},
+{
+"it": "lamentarsi",
+"es": "quejarse",
+"n": 374,
+"enApp": null
+},
+{
+"it": "ridere",
+"es": "reírse",
+"n": 375,
+"enApp": null
+},
+{
+"it": "riservare",
+"es": "reservar (~ una mesa)",
+"n": 376,
+"enApp": null
+},
+{
+"it": "rispondere",
+"es": "responder",
+"n": 377,
+"enApp": "u18"
+},
+{
+"it": "rompere",
+"es": "romper",
+"n": 378,
+"enApp": null
+},
+{
+"it": "sapere",
+"es": "saber (~ algo mas)",
+"n": 379,
+"enApp": null
+},
+{
+"it": "uscire",
+"es": "salir",
+"n": 380,
+"enApp": "u10"
+},
+{
+"it": "salvare",
+"es": "salvar",
+"n": 381,
+"enApp": null
+},
+{
+"it": "seguire",
+"es": "seguir",
+"n": 382,
+"enApp": null
+},
+{
+"it": "essere",
+"es": "ser, estar",
+"n": 383,
+"enApp": null
+},
+{
+"it": "significare",
+"es": "significar",
+"n": 384,
+"enApp": null
+},
+{
+"it": "finire",
+"es": "terminar",
+"n": 385,
+"enApp": null
+},
+{
+"it": "prendere",
+"es": "tomar",
+"n": 386,
+"enApp": "u09"
+},
+{
+"it": "annotare",
+"es": "tomar nota",
+"n": 387,
+"enApp": null
+},
+{
+"it": "lavorare",
+"es": "trabajar",
+"n": 388,
+"enApp": "u07"
+},
+{
+"it": "unire",
+"es": "unir",
+"n": 389,
+"enApp": null
+},
+{
+"it": "vendere",
+"es": "vender",
+"n": 390,
+"enApp": null
+},
+{
+"it": "vedere",
+"es": "ver",
+"n": 391,
+"enApp": "u09"
+},
+{
+"it": "colore",
+"es": "color",
+"n": 392,
+"enApp": null
+},
+{
+"it": "tono",
+"es": "tono",
+"n": 393,
+"enApp": null
+},
+{
+"it": "bianco",
+"es": "blanco",
+"n": 394,
+"enApp": "u06"
+},
+{
+"it": "nero",
+"es": "negro",
+"n": 395,
+"enApp": "u06"
+},
+{
+"it": "verde",
+"es": "verde",
+"n": 396,
+"enApp": "u06"
+},
+{
+"it": "rosso",
+"es": "rojo",
+"n": 397,
+"enApp": "u06"
+},
+{
+"it": "blu",
+"es": "azul",
+"n": 398,
+"enApp": null
+},
+{
+"it": "azzurro",
+"es": "azul claro",
+"n": 399,
+"enApp": "u06"
+},
+{
+"it": "rosa",
+"es": "rosado",
+"n": 400,
+"enApp": null
+},
+{
+"it": "marrone",
+"es": "marrón",
+"n": 401,
+"enApp": "u06"
+},
+{
+"it": "d'oro",
+"es": "dorado",
+"n": 402,
+"enApp": null
+},
+{
+"it": "beige",
+"es": "beige",
+"n": 403,
+"enApp": null
+},
+{
+"it": "color crema",
+"es": "crema",
+"n": 404,
+"enApp": null
+},
+{
+"it": "lilla",
+"es": "lila",
+"n": 405,
+"enApp": null
+},
+{
+"it": "scuro",
+"es": "oscuro",
+"n": 406,
+"enApp": null
+},
+{
+"it": "bianco e nero",
+"es": "blanco y negro",
+"n": 407,
+"enApp": null
+},
+{
+"it": "multicolore",
+"es": "multicolor",
+"n": 408,
+"enApp": null
+},
+{
+"it": "Chi?",
+"es": "¿Quién?",
+"n": 409,
+"enApp": "u08"
+},
+{
+"it": "Dove?",
+"es": "¿Dónde?/¿A dónde?",
+"n": 410,
+"enApp": "u08"
+},
+{
+"it": "Quando?",
+"es": "¿Cuándo?",
+"n": 411,
+"enApp": "u08"
+},
+{
+"it": "Come?",
+"es": "¿Cómo?",
+"n": 412,
+"enApp": "u08"
+},
+{
+"it": "Che?",
+"es": "¿Qué ...? (~ color) -",
+"n": 413,
+"enApp": null
+},
+{
+"it": "Quale?",
+"es": "¿Cuál?",
+"n": 414,
+"enApp": "u08"
+},
+{
+"it": "A chi?",
+"es": "¿A quién?",
+"n": 415,
+"enApp": null
+},
+{
+"it": "Di che cosa?",
+"es": "¿De qué?",
+"n": 416,
+"enApp": null
+},
+{
+"it": "Con chi?",
+"es": "¿Con quién? -",
+"n": 417,
+"enApp": null
+},
+{
+"it": "con",
+"es": "con",
+"n": 418,
+"enApp": null
+},
+{
+"it": "senza",
+"es": "sin",
+"n": 419,
+"enApp": null
+},
+{
+"it": "a",
+"es": "a (p.ej. voy a México)",
+"n": 420,
+"enApp": null
+},
+{
+"it": "di",
+"es": "de (hablar ~) -",
+"n": 421,
+"enApp": null
+},
+{
+"it": "prima di ...",
+"es": "antes de",
+"n": 422,
+"enApp": null
+},
+{
+"it": "di fronte a ...",
+"es": "delante de",
+"n": 423,
+"enApp": "u14"
+},
+{
+"it": "sotto",
+"es": "debajo de",
+"n": 424,
+"enApp": null
+},
+{
+"it": "da, di",
+"es": "de (origen)",
+"n": 425,
+"enApp": null
+},
+{
+"it": "fra",
+"es": "dentro de",
+"n": 426,
+"enApp": null
+},
+{
+"it": "qui",
+"es": "aquí",
+"n": 427,
+"enApp": null
+},
+{
+"it": "vicino a",
+"es": "junto a",
+"n": 428,
+"enApp": null
+},
+{
+"it": "vicino alla finestra",
+"es": "junto a la ventana",
+"n": 429,
+"enApp": null
+},
+{
+"it": "da lì",
+"es": "de allí",
+"n": 430,
+"enApp": null
+},
+{
+"it": "lontano",
+"es": "lejos",
+"n": 431,
+"enApp": "u02"
+},
+{
+"it": "vicino a ...",
+"es": "cerca de",
+"n": 432,
+"enApp": null
+},
+{
+"it": "vicino",
+"es": "cerca",
+"n": 433,
+"enApp": "u02"
+},
+{
+"it": "non lontano",
+"es": "no lejos",
+"n": 434,
+"enApp": null
+},
+{
+"it": "destro",
+"es": "derecho",
+"n": 435,
+"enApp": null
+},
+{
+"it": "a destra",
+"es": "a la derecha",
+"n": 436,
+"enApp": "u05"
+},
+{
+"it": "avanti",
+"es": "adelante",
+"n": 437,
+"enApp": null
+},
+{
+"it": "indietro",
+"es": "atrás",
+"n": 438,
+"enApp": null
+},
+{
+"it": "centro",
+"es": "centro",
+"n": 439,
+"enApp": null
+},
+{
+"it": "da dentro",
+"es": "de dentro",
+"n": 440,
+"enApp": null
+},
+{
+"it": "in terzo luogo",
+"es": "en tercer lugar",
+"n": 441,
+"enApp": null
+},
+{
+"it": "molto tempo prima di",
+"es": "mucho tiempo antes",
+"n": 442,
+"enApp": null
+},
+{
+"it": "di nuovo",
+"es": "de nuevo",
+"n": 443,
+"enApp": null
+},
+{
+"it": "per sempre",
+"es": "para siempre",
+"n": 444,
+"enApp": null
+},
+{
+"it": "allora",
+"es": "entonces",
+"n": 445,
+"enApp": "u11"
+},
+{
+"it": "urgentemente",
+"es": "urgentemente",
+"n": 446,
+"enApp": null
+},
+{
+"it": "che cosa",
+"es": "qué",
+"n": 447,
+"enApp": "u08"
+},
+{
+"it": "che",
+"es": "que",
+"n": 448,
+"enApp": null
+},
+{
+"it": "qualcosa",
+"es": "algo",
+"n": 449,
+"enApp": "u16"
+},
+{
+"it": "chi",
+"es": "quien",
+"n": 450,
+"enApp": "u08"
+},
+{
+"it": "nessuno",
+"es": "nadie",
+"n": 451,
+"enApp": "u08"
+},
+{
+"it": "di nessuno",
+"es": "de nadie",
+"n": 452,
+"enApp": null
+},
+{
+"it": "per qualche motivo",
+"es": "para algo",
+"n": 453,
+"enApp": null
+},
+{
+"it": "e",
+"es": "y (p.ej. uno y medio)",
+"n": 454,
+"enApp": null
+},
+{
+"it": "o",
+"es": "o (p.ej. té o café)",
+"n": 455,
+"enApp": null
+},
+{
+"it": "ma",
+"es": "pero (p.ej. me gusta, ~)",
+"n": 456,
+"enApp": null
+},
+{
+"it": "per",
+"es": "para (p.ej. es para ti)",
+"n": 457,
+"enApp": null
+},
+{
+"it": "troppo",
+"es": "demasiado",
+"n": 458,
+"enApp": "u08"
+},
+{
+"it": "solo",
+"es": "sólo",
+"n": 459,
+"enApp": null
+},
+{
+"it": "circa",
+"es": "unos (~ 10 kg)",
+"n": 460,
+"enApp": null
+},
+{
+"it": "in cambio",
+"es": "en cambio",
+"n": 461,
+"enApp": null
+},
+{
+"it": "a mano",
+"es": "a mano (hecho ~)",
+"n": 462,
+"enApp": null
+},
+{
+"it": "poco probabile",
+"es": "es poco probable",
+"n": 463,
+"enApp": null
+},
+{
+"it": "apposta",
+"es": "a propósito",
+"n": 464,
+"enApp": null
+},
+{
+"it": "per caso",
+"es": "por accidente",
+"n": 465,
+"enApp": null
+},
+{
+"it": "per esempio",
+"es": "por ejemplo",
+"n": 466,
+"enApp": "u24"
+},
+{
+"it": "tanto",
+"es": "tanto",
+"n": 467,
+"enApp": null
+},
+{
+"it": "soprattutto",
+"es": "especialmente",
+"n": 468,
+"enApp": null
+},
+{
+"it": "lunedì",
+"es": "lunes",
+"n": 469,
+"enApp": "u10"
+},
+{
+"it": "martedì",
+"es": "martes",
+"n": 470,
+"enApp": null
+},
+{
+"it": "mercoledì",
+"es": "miércoles",
+"n": 471,
+"enApp": null
+},
+{
+"it": "giovedì",
+"es": "jueves",
+"n": 472,
+"enApp": null
+},
+{
+"it": "venerdì",
+"es": "viernes",
+"n": 473,
+"enApp": null
+},
+{
+"it": "sabato",
+"es": "sábado",
+"n": 474,
+"enApp": null
+},
+{
+"it": "domenica",
+"es": "domingo",
+"n": 475,
+"enApp": "u10"
+},
+{
+"it": "oggi",
+"es": "hoy",
+"n": 476,
+"enApp": "u03"
+},
+{
+"it": "domani",
+"es": "mañana",
+"n": 477,
+"enApp": "u03"
+},
+{
+"it": "dopo domani",
+"es": "pasado mañana",
+"n": 478,
+"enApp": null
+},
+{
+"it": "ieri",
+"es": "ayer",
+"n": 479,
+"enApp": "u03"
+},
+{
+"it": "l'altro ieri",
+"es": "anteayer",
+"n": 480,
+"enApp": null
+},
+{
+"it": "giorno",
+"es": "día",
+"n": 481,
+"enApp": "u03"
+},
+{
+"it": "giorno (m) lavorativo",
+"es": "día (m) de trabajo",
+"n": 482,
+"enApp": null
+},
+{
+"it": "giorno (m) festivo",
+"es": "día (m) de fiesta",
+"n": 483,
+"enApp": null
+},
+{
+"it": "giorno (m) di riposo",
+"es": "día (m) de descanso",
+"n": 484,
+"enApp": null
+},
+{
+"it": "fine (m) settimana",
+"es": "fin (m) de semana",
+"n": 485,
+"enApp": null
+},
+{
+"it": "tutto il giorno",
+"es": "todo el día",
+"n": 486,
+"enApp": null
+},
+{
+"it": "l'indomani",
+"es": "al día siguiente",
+"n": 487,
+"enApp": null
+},
+{
+"it": "due giorni fa",
+"es": "dos días atrás",
+"n": 488,
+"enApp": null
+},
+{
+"it": "il giorno prima",
+"es": "en vísperas",
+"n": 489,
+"enApp": null
+},
+{
+"it": "quotidiano",
+"es": "diario",
+"n": 490,
+"enApp": null
+},
+{
+"it": "ogni giorno",
+"es": "cada día",
+"n": 491,
+"enApp": "u08"
+},
+{
+"it": "settimana",
+"es": "semana",
+"n": 492,
+"enApp": "u03"
+},
+{
+"it": "la settimana scorsa",
+"es": "semana (f) pasada",
+"n": 493,
+"enApp": null
+},
+{
+"it": "la settimana prossima",
+"es": "semana (f) que viene",
+"n": 494,
+"enApp": null
+},
+{
+"it": "settimanale",
+"es": "semanal",
+"n": 495,
+"enApp": null
+},
+{
+"it": "ogni settimana",
+"es": "cada semana",
+"n": 496,
+"enApp": null
+},
+{
+"it": "due volte alla settimana",
+"es": "2 veces por semana",
+"n": 497,
+"enApp": null
+},
+{
+"it": "ogni martedì",
+"es": "todos los martes",
+"n": 498,
+"enApp": null
+},
+{
+"it": "mattina",
+"es": "mañana",
+"n": 499,
+"enApp": "u03"
+},
+{
+"it": "di mattina",
+"es": "por la mañana",
+"n": 500,
+"enApp": null
+},
+{
+"it": "mezzogiorno",
+"es": "mediodía",
+"n": 501,
+"enApp": "u03"
+},
+{
+"it": "nel pomeriggio",
+"es": "por la tarde",
+"n": 502,
+"enApp": null
+},
+{
+"it": "sera",
+"es": "tarde",
+"n": 503,
+"enApp": "u03"
+},
+{
+"it": "di sera",
+"es": "por la noche",
+"n": 504,
+"enApp": null
+},
+{
+"it": "notte",
+"es": "noche",
+"n": 505,
+"enApp": null
+},
+{
+"it": "di notte",
+"es": "por la noche",
+"n": 506,
+"enApp": null
+},
+{
+"it": "mezzanotte",
+"es": "medianoche",
+"n": 507,
+"enApp": "u03"
+},
+{
+"it": "minuto",
+"es": "minuto",
+"n": 508,
+"enApp": "u03"
+},
+{
+"it": "ora",
+"es": "hora",
+"n": 509,
+"enApp": "u03"
+},
+{
+"it": "mezzora",
+"es": "media hora",
+"n": 510,
+"enApp": null
+},
+{
+"it": "un quarto d'ora",
+"es": "cuarto de hora",
+"n": 511,
+"enApp": null
+},
+{
+"it": "quindici minuti",
+"es": "quince minutos",
+"n": 512,
+"enApp": null
+},
+{
+"it": "ventiquattro ore",
+"es": "veinticuatro horas",
+"n": 513,
+"enApp": null
+},
+{
+"it": "levata del sole",
+"es": "salida del sol",
+"n": 514,
+"enApp": null
+},
+{
+"it": "alba",
+"es": "amanecer",
+"n": 515,
+"enApp": null
+},
+{
+"it": "mattutino",
+"es": "madrugada",
+"n": 516,
+"enApp": null
+},
+{
+"it": "tramonto",
+"es": "puesta del sol",
+"n": 517,
+"enApp": null
+},
+{
+"it": "di buon mattino",
+"es": "por la mañana temprano",
+"n": 518,
+"enApp": null
+},
+{
+"it": "stamattina",
+"es": "esta mañana",
+"n": 519,
+"enApp": null
+},
+{
+"it": "domattina",
+"es": "mañana por la mañana",
+"n": 520,
+"enApp": null
+},
+{
+"it": "oggi pomeriggio",
+"es": "esta tarde",
+"n": 521,
+"enApp": null
+},
+{
+"it": "domani pomeriggio",
+"es": "mañana por la tarde",
+"n": 522,
+"enApp": null
+},
+{
+"it": "stasera",
+"es": "esta tarde, esta noche",
+"n": 523,
+"enApp": null
+},
+{
+"it": "domani sera",
+"es": "mañana por la noche",
+"n": 524,
+"enApp": null
+},
+{
+"it": "alle tre precise",
+"es": "a las tres en punto",
+"n": 525,
+"enApp": null
+},
+{
+"it": "verso le quattro",
+"es": "a eso de las cuatro",
+"n": 526,
+"enApp": null
+},
+{
+"it": "per le dodici",
+"es": "para las doce",
+"n": 527,
+"enApp": null
+},
+{
+"it": "fra venti minuti",
+"es": "dentro de veinte minutos",
+"n": 528,
+"enApp": null
+},
+{
+"it": "fra un'ora",
+"es": "dentro de una hora",
+"n": 529,
+"enApp": null
+},
+{
+"it": "puntualmente",
+"es": "a tiempo",
+"n": 530,
+"enApp": null
+},
+{
+"it": "un quarto di",
+"es": "menos cuarto",
+"n": 531,
+"enApp": null
+},
+{
+"it": "entro un'ora",
+"es": "durante una hora",
+"n": 532,
+"enApp": null
+},
+{
+"it": "ogni quindici minuti",
+"es": "cada quince minutos",
+"n": 533,
+"enApp": null
+},
+{
+"it": "giorno e notte",
+"es": "día y noche",
+"n": 534,
+"enApp": null
+},
+{
+"it": "gennaio",
+"es": "enero",
+"n": 535,
+"enApp": null
+},
+{
+"it": "febbraio",
+"es": "febrero",
+"n": 536,
+"enApp": null
+},
+{
+"it": "marzo",
+"es": "marzo",
+"n": 537,
+"enApp": null
+},
+{
+"it": "aprile",
+"es": "abril",
+"n": 538,
+"enApp": null
+},
+{
+"it": "maggio",
+"es": "mayo",
+"n": 539,
+"enApp": null
+},
+{
+"it": "giugno",
+"es": "junio",
+"n": 540,
+"enApp": null
+},
+{
+"it": "luglio",
+"es": "julio",
+"n": 541,
+"enApp": null
+},
+{
+"it": "agosto",
+"es": "agosto",
+"n": 542,
+"enApp": null
+},
+{
+"it": "settembre",
+"es": "septiembre",
+"n": 543,
+"enApp": null
+},
+{
+"it": "ottobre",
+"es": "octubre",
+"n": 544,
+"enApp": null
+},
+{
+"it": "novembre",
+"es": "noviembre",
+"n": 545,
+"enApp": null
+},
+{
+"it": "dicembre",
+"es": "diciembre",
+"n": 546,
+"enApp": null
+},
+{
+"it": "primavera",
+"es": "primavera",
+"n": 547,
+"enApp": null
+},
+{
+"it": "in primavera",
+"es": "en primavera",
+"n": 548,
+"enApp": null
+},
+{
+"it": "primaverile",
+"es": "de primavera",
+"n": 549,
+"enApp": null
+},
+{
+"it": "estate",
+"es": "verano",
+"n": 550,
+"enApp": "u11"
+},
+{
+"it": "in estate",
+"es": "en verano",
+"n": 551,
+"enApp": null
+},
+{
+"it": "estivo",
+"es": "de verano",
+"n": 552,
+"enApp": null
+},
+{
+"it": "autunno",
+"es": "otoño",
+"n": 553,
+"enApp": null
+},
+{
+"it": "in autunno",
+"es": "en otoño",
+"n": 554,
+"enApp": null
+},
+{
+"it": "autunnale",
+"es": "de otoño",
+"n": 555,
+"enApp": null
+},
+{
+"it": "inverno",
+"es": "invierno",
+"n": 556,
+"enApp": null
+},
+{
+"it": "in inverno",
+"es": "en invierno",
+"n": 557,
+"enApp": null
+},
+{
+"it": "invernale",
+"es": "de invierno",
+"n": 558,
+"enApp": null
+},
+{
+"it": "mese",
+"es": "mes",
+"n": 559,
+"enApp": "u03"
+},
+{
+"it": "questo mese",
+"es": "este mes",
+"n": 560,
+"enApp": null
+},
+{
+"it": "il mese prossimo",
+"es": "al mes siguiente",
+"n": 561,
+"enApp": null
+},
+{
+"it": "il mese scorso",
+"es": "el mes pasado",
+"n": 562,
+"enApp": null
+},
+{
+"it": "un mese fa",
+"es": "hace un mes",
+"n": 563,
+"enApp": null
+},
+{
+"it": "fra un mese",
+"es": "dentro de una mes",
+"n": 564,
+"enApp": null
+},
+{
+"it": "fra due mesi",
+"es": "dentro de dos meses",
+"n": 565,
+"enApp": null
+},
+{
+"it": "un mese intero",
+"es": "todo el mes",
+"n": 566,
+"enApp": null
+},
+{
+"it": "per tutto il mese",
+"es": "todo un mes",
+"n": 567,
+"enApp": null
+},
+{
+"it": "mensile",
+"es": "mensual",
+"n": 568,
+"enApp": null
+},
+{
+"it": "mensilmente",
+"es": "mensualmente",
+"n": 569,
+"enApp": null
+},
+{
+"it": "ogni mese",
+"es": "cada mes",
+"n": 570,
+"enApp": null
+},
+{
+"it": "due volte al mese",
+"es": "dos veces por mes",
+"n": 571,
+"enApp": null
+},
+{
+"it": "anno",
+"es": "año",
+"n": 572,
+"enApp": "u03"
+},
+{
+"it": "quest'anno",
+"es": "este año",
+"n": 573,
+"enApp": null
+},
+{
+"it": "l'anno prossimo",
+"es": "el próximo año",
+"n": 574,
+"enApp": "u15"
+},
+{
+"it": "l'anno scorso",
+"es": "el año pasado",
+"n": 575,
+"enApp": null
+},
+{
+"it": "un anno fa",
+"es": "hace un año",
+"n": 576,
+"enApp": null
+},
+{
+"it": "fra un anno",
+"es": "dentro de un año",
+"n": 577,
+"enApp": null
+},
+{
+"it": "fra due anni",
+"es": "dentro de dos años",
+"n": 578,
+"enApp": null
+},
+{
+"it": "un anno intero",
+"es": "todo el año",
+"n": 579,
+"enApp": null
+},
+{
+"it": "per tutto l'anno",
+"es": "todo un año",
+"n": 580,
+"enApp": null
+},
+{
+"it": "ogni anno",
+"es": "cada año",
+"n": 581,
+"enApp": null
+},
+{
+"it": "annuale",
+"es": "anual",
+"n": 582,
+"enApp": null
+},
+{
+"it": "annualmente",
+"es": "anualmente",
+"n": 583,
+"enApp": null
+},
+{
+"it": "quattro volte all'anno",
+"es": "cuatro veces por año",
+"n": 584,
+"enApp": null
+},
+{
+"it": "data",
+"es": "fecha",
+"n": 585,
+"enApp": null
+},
+{
+"it": "calendario",
+"es": "calendario",
+"n": 586,
+"enApp": null
+},
+{
+"it": "mezz'anno",
+"es": "medio año",
+"n": 587,
+"enApp": null
+},
+{
+"it": "semestre",
+"es": "seis meses",
+"n": 588,
+"enApp": null
+},
+{
+"it": "stagione",
+"es": "temporada",
+"n": 589,
+"enApp": null
+},
+{
+"it": "secolo",
+"es": "siglo",
+"n": 590,
+"enApp": null
+},
+{
+"it": "peso",
+"es": "peso",
+"n": 591,
+"enApp": null
+},
+{
+"it": "lunghezza",
+"es": "longitud",
+"n": 592,
+"enApp": null
+},
+{
+"it": "larghezza",
+"es": "anchura",
+"n": 593,
+"enApp": null
+},
+{
+"it": "altezza",
+"es": "altura",
+"n": 594,
+"enApp": null
+},
+{
+"it": "profondità",
+"es": "profundidad",
+"n": 595,
+"enApp": null
+},
+{
+"it": "volume",
+"es": "volumen",
+"n": 596,
+"enApp": null
+},
+{
+"it": "area",
+"es": "superficie",
+"n": 597,
+"enApp": null
+},
+{
+"it": "grammo",
+"es": "gramo",
+"n": 598,
+"enApp": null
+},
+{
+"it": "milligrammo",
+"es": "miligramo",
+"n": 599,
+"enApp": null
+},
+{
+"it": "chilogrammo",
+"es": "kilogramo",
+"n": 600,
+"enApp": null
+},
+{
+"it": "tonnellata",
+"es": "tonelada",
+"n": 601,
+"enApp": null
+},
+{
+"it": "libbra",
+"es": "libra",
+"n": 602,
+"enApp": null
+},
+{
+"it": "oncia",
+"es": "onza",
+"n": 603,
+"enApp": null
+},
+{
+"it": "metro",
+"es": "metro",
+"n": 604,
+"enApp": null
+},
+{
+"it": "millimetro",
+"es": "milímetro",
+"n": 605,
+"enApp": null
+},
+{
+"it": "centimetro",
+"es": "centímetro",
+"n": 606,
+"enApp": null
+},
+{
+"it": "chilometro",
+"es": "kilómetro",
+"n": 607,
+"enApp": null
+},
+{
+"it": "miglio",
+"es": "milla",
+"n": 608,
+"enApp": null
+},
+{
+"it": "pollice",
+"es": "pulgada",
+"n": 609,
+"enApp": null
+},
+{
+"it": "piede",
+"es": "pie",
+"n": 610,
+"enApp": null
+},
+{
+"it": "iarda",
+"es": "yarda",
+"n": 611,
+"enApp": null
+},
+{
+"it": "metro quadro",
+"es": "metro cuadrado",
+"n": 612,
+"enApp": null
+},
+{
+"it": "ettaro",
+"es": "hectárea",
+"n": 613,
+"enApp": null
+},
+{
+"it": "litro",
+"es": "litro",
+"n": 614,
+"enApp": null
+},
+{
+"it": "grado",
+"es": "grado",
+"n": 615,
+"enApp": null
+},
+{
+"it": "volt",
+"es": "voltio",
+"n": 616,
+"enApp": null
+},
+{
+"it": "ampere",
+"es": "amperio",
+"n": 617,
+"enApp": null
+},
+{
+"it": "cavallo vapore",
+"es": "caballo de fuerza",
+"n": 618,
+"enApp": null
+},
+{
+"it": "quantità",
+"es": "cantidad",
+"n": 619,
+"enApp": null
+},
+{
+"it": "pezzo",
+"es": "pieza",
+"n": 620,
+"enApp": null
+},
+{
+"it": "dimensione",
+"es": "dimensión",
+"n": 621,
+"enApp": null
+},
+{
+"it": "scala",
+"es": "escala (del mapa)",
+"n": 622,
+"enApp": null
+},
+{
+"it": "minimo",
+"es": "mínimo",
+"n": 623,
+"enApp": null
+},
+{
+"it": "minore",
+"es": "el menor",
+"n": 624,
+"enApp": null
+},
+{
+"it": "medio",
+"es": "medio",
+"n": 625,
+"enApp": null
+},
+{
+"it": "massimo",
+"es": "máximo",
+"n": 626,
+"enApp": null
+},
+{
+"it": "maggiore",
+"es": "el más grande",
+"n": 627,
+"enApp": null
+},
+{
+"it": "barattolo (m) di vetro",
+"es": "tarro (m) de vidrio",
+"n": 628,
+"enApp": null
+},
+{
+"it": "latta (f), lattina",
+"es": "lata (f) de hojalata",
+"n": 629,
+"enApp": null
+},
+{
+"it": "secchio",
+"es": "cubo",
+"n": 630,
+"enApp": null
+},
+{
+"it": "barile (m), botte",
+"es": "barril",
+"n": 631,
+"enApp": null
+},
+{
+"it": "catino",
+"es": "palangana",
+"n": 632,
+"enApp": null
+},
+{
+"it": "serbatoio",
+"es": "tanque",
+"n": 633,
+"enApp": null
+},
+{
+"it": "fiaschetta",
+"es": "petaca (f) (de alcohol)",
+"n": 634,
+"enApp": null
+},
+{
+"it": "tanica",
+"es": "bidón (m) de gasolina",
+"n": 635,
+"enApp": null
+},
+{
+"it": "cisterna",
+"es": "cisterna",
+"n": 636,
+"enApp": null
+},
+{
+"it": "tazza",
+"es": "taza (mug de cerámica)",
+"n": 637,
+"enApp": null
+},
+{
+"it": "tazzina",
+"es": "taza (~ de café)",
+"n": 638,
+"enApp": null
+},
+{
+"it": "piattino",
+"es": "platillo",
+"n": 639,
+"enApp": null
+},
+{
+"it": "bicchiere",
+"es": "vaso (m) (~ de agua)",
+"n": 640,
+"enApp": "u04"
+},
+{
+"it": "calice",
+"es": "copa (f) (~ de vino)",
+"n": 641,
+"enApp": null
+},
+{
+"it": "casseruola",
+"es": "cacerola",
+"n": 642,
+"enApp": null
+},
+{
+"it": "bottiglia",
+"es": "botella",
+"n": 643,
+"enApp": "u04"
+},
+{
+"it": "collo",
+"es": "cuello (m) de botella",
+"n": 644,
+"enApp": null
+},
+{
+"it": "caraffa",
+"es": "garrafa",
+"n": 645,
+"enApp": null
+},
+{
+"it": "brocca",
+"es": "jarro (m) (~ de agua)",
+"n": 646,
+"enApp": null
+},
+{
+"it": "recipiente",
+"es": "recipiente",
+"n": 647,
+"enApp": null
+},
+{
+"it": "vaso (m) di coccio",
+"es": "olla",
+"n": 648,
+"enApp": null
+},
+{
+"it": "vaso",
+"es": "florero",
+"n": 649,
+"enApp": null
+},
+{
+"it": "boccetta",
+"es": "frasco (m) (~ de perfume)",
+"n": 650,
+"enApp": null
+},
+{
+"it": "fiala",
+"es": "frasquito",
+"n": 651,
+"enApp": null
+},
+{
+"it": "tubetto",
+"es": "tubo",
+"n": 652,
+"enApp": null
+},
+{
+"it": "sacco",
+"es": "saco (~ de azúcar)",
+"n": 653,
+"enApp": null
+},
+{
+"it": "sacchetto",
+"es": "bolsa (~ plástica)",
+"n": 654,
+"enApp": null
+},
+{
+"it": "pacchetto",
+"es": "paquete (~ de cigarrillos)",
+"n": 655,
+"enApp": null
+},
+{
+"it": "scatola",
+"es": "caja",
+"n": 656,
+"enApp": null
+},
+{
+"it": "cassa",
+"es": "cajón",
+"n": 657,
+"enApp": null
+},
+{
+"it": "cesta",
+"es": "cesta",
+"n": 658,
+"enApp": null
+},
+{
+"it": "testa",
+"es": "cabeza",
+"n": 659,
+"enApp": null
+},
+{
+"it": "viso",
+"es": "cara",
+"n": 660,
+"enApp": null
+},
+{
+"it": "naso",
+"es": "nariz",
+"n": 661,
+"enApp": null
+},
+{
+"it": "bocca",
+"es": "boca",
+"n": 662,
+"enApp": null
+},
+{
+"it": "occhio",
+"es": "ojo",
+"n": 663,
+"enApp": null
+},
+{
+"it": "occhi",
+"es": "ojos",
+"n": 664,
+"enApp": null
+},
+{
+"it": "pupilla",
+"es": "pupila",
+"n": 665,
+"enApp": null
+},
+{
+"it": "sopracciglio",
+"es": "ceja",
+"n": 666,
+"enApp": null
+},
+{
+"it": "ciglio",
+"es": "pestaña",
+"n": 667,
+"enApp": null
+},
+{
+"it": "palpebra",
+"es": "párpado",
+"n": 668,
+"enApp": null
+},
+{
+"it": "lingua",
+"es": "lengua",
+"n": 669,
+"enApp": "u01"
+},
+{
+"it": "dente",
+"es": "diente",
+"n": 670,
+"enApp": "u16"
+},
+{
+"it": "labbra",
+"es": "labios",
+"n": 671,
+"enApp": null
+},
+{
+"it": "zigomi",
+"es": "pómulos",
+"n": 672,
+"enApp": null
+},
+{
+"it": "gengiva",
+"es": "encía",
+"n": 673,
+"enApp": null
+},
+{
+"it": "palato",
+"es": "paladar",
+"n": 674,
+"enApp": null
+},
+{
+"it": "narici",
+"es": "ventanas",
+"n": 675,
+"enApp": null
+},
+{
+"it": "mento",
+"es": "mentón",
+"n": 676,
+"enApp": null
+},
+{
+"it": "mascella",
+"es": "mandíbula",
+"n": 677,
+"enApp": null
+},
+{
+"it": "guancia",
+"es": "mejilla",
+"n": 678,
+"enApp": null
+},
+{
+"it": "fronte",
+"es": "frente",
+"n": 679,
+"enApp": null
+},
+{
+"it": "tempia",
+"es": "sien",
+"n": 680,
+"enApp": null
+},
+{
+"it": "orecchio",
+"es": "oreja",
+"n": 681,
+"enApp": null
+},
+{
+"it": "nuca",
+"es": "nuca",
+"n": 682,
+"enApp": null
+},
+{
+"it": "gola",
+"es": "garganta",
+"n": 683,
+"enApp": "u16"
+},
+{
+"it": "capelli",
+"es": "cabello",
+"n": 684,
+"enApp": null
+},
+{
+"it": "pettinatura",
+"es": "peinado",
+"n": 685,
+"enApp": null
+},
+{
+"it": "taglio",
+"es": "corte (m) de pelo",
+"n": 686,
+"enApp": null
+},
+{
+"it": "parrucca",
+"es": "peluca",
+"n": 687,
+"enApp": null
+},
+{
+"it": "baffi",
+"es": "bigotes",
+"n": 688,
+"enApp": null
+},
+{
+"it": "barba",
+"es": "barba",
+"n": 689,
+"enApp": null
+},
+{
+"it": "portare",
+"es": "tener (~ la barba)",
+"n": 690,
+"enApp": "u13"
+},
+{
+"it": "treccia",
+"es": "trenza",
+"n": 691,
+"enApp": null
+},
+{
+"it": "basette",
+"es": "patillas",
+"n": 692,
+"enApp": null
+},
+{
+"it": "rosso",
+"es": "pelirrojo",
+"n": 693,
+"enApp": "u06"
+},
+{
+"it": "brizzolato",
+"es": "canoso",
+"n": 694,
+"enApp": null
+},
+{
+"it": "calvo",
+"es": "calvo",
+"n": 695,
+"enApp": null
+},
+{
+"it": "calvizie",
+"es": "calva",
+"n": 696,
+"enApp": null
+},
+{
+"it": "coda di cavallo",
+"es": "cola (f) de caballo",
+"n": 697,
+"enApp": null
+},
+{
+"it": "frangetta",
+"es": "flequillo",
+"n": 698,
+"enApp": null
+},
+{
+"it": "mano",
+"es": "mano",
+"n": 699,
+"enApp": null
+},
+{
+"it": "braccio",
+"es": "brazo",
+"n": 700,
+"enApp": null
+},
+{
+"it": "dito",
+"es": "dedo",
+"n": 701,
+"enApp": null
+},
+{
+"it": "pollice",
+"es": "pulgar",
+"n": 702,
+"enApp": null
+},
+{
+"it": "mignolo",
+"es": "meñique",
+"n": 703,
+"enApp": null
+},
+{
+"it": "unghia",
+"es": "uña",
+"n": 704,
+"enApp": null
+},
+{
+"it": "pugno",
+"es": "puño",
+"n": 705,
+"enApp": null
+},
+{
+"it": "palmo",
+"es": "palma",
+"n": 706,
+"enApp": null
+},
+{
+"it": "polso",
+"es": "muñeca",
+"n": 707,
+"enApp": null
+},
+{
+"it": "avambraccio",
+"es": "antebrazo",
+"n": 708,
+"enApp": null
+},
+{
+"it": "gomito",
+"es": "codo",
+"n": 709,
+"enApp": null
+},
+{
+"it": "spalla",
+"es": "hombro",
+"n": 710,
+"enApp": null
+},
+{
+"it": "gamba",
+"es": "pierna",
+"n": 711,
+"enApp": null
+},
+{
+"it": "pianta (f) del piede",
+"es": "planta",
+"n": 712,
+"enApp": null
+},
+{
+"it": "ginocchio",
+"es": "rodilla",
+"n": 713,
+"enApp": null
+},
+{
+"it": "polpaccio",
+"es": "pantorrilla",
+"n": 714,
+"enApp": null
+},
+{
+"it": "anca",
+"es": "cadera",
+"n": 715,
+"enApp": null
+},
+{
+"it": "tallone",
+"es": "talón",
+"n": 716,
+"enApp": null
+},
+{
+"it": "corpo",
+"es": "cuerpo",
+"n": 717,
+"enApp": null
+},
+{
+"it": "pancia",
+"es": "vientre",
+"n": 718,
+"enApp": null
+},
+{
+"it": "petto",
+"es": "pecho",
+"n": 719,
+"enApp": null
+},
+{
+"it": "seno",
+"es": "seno",
+"n": 720,
+"enApp": null
+},
+{
+"it": "fianco",
+"es": "lado (m), costado",
+"n": 721,
+"enApp": null
+},
+{
+"it": "schiena",
+"es": "espalda",
+"n": 722,
+"enApp": "u16"
+},
+{
+"it": "zona (f) lombare",
+"es": "cintura",
+"n": 723,
+"enApp": null
+},
+{
+"it": "vita",
+"es": "talle",
+"n": 724,
+"enApp": null
+},
+{
+"it": "ombelico",
+"es": "ombligo",
+"n": 725,
+"enApp": null
+},
+{
+"it": "natiche",
+"es": "nalgas",
+"n": 726,
+"enApp": null
+},
+{
+"it": "sedere",
+"es": "trasero",
+"n": 727,
+"enApp": null
+},
+{
+"it": "neo",
+"es": "lunar",
+"n": 728,
+"enApp": null
+},
+{
+"it": "voglia",
+"es": "marca (f) de nacimiento",
+"n": 729,
+"enApp": null
+},
+{
+"it": "tatuaggio",
+"es": "tatuaje",
+"n": 730,
+"enApp": null
+},
+{
+"it": "cicatrice",
+"es": "cicatriz",
+"n": 731,
+"enApp": null
+},
+{
+"it": "vestiti",
+"es": "ropa/vestido",
+"n": 732,
+"enApp": null
+},
+{
+"it": "soprabito",
+"es": "ropa (f) de calle",
+"n": 733,
+"enApp": null
+},
+{
+"it": "abiti (m pl) invernali",
+"es": "ropa (f) de invierno",
+"n": 734,
+"enApp": null
+},
+{
+"it": "cappotto",
+"es": "abrigo",
+"n": 735,
+"enApp": null
+},
+{
+"it": "pelliccia",
+"es": "abrigo (m) de piel",
+"n": 736,
+"enApp": null
+},
+{
+"it": "pellicciotto",
+"es": "abrigo (m) corto de piel",
+"n": 737,
+"enApp": null
+},
+{
+"it": "piumino",
+"es": "plumón",
+"n": 738,
+"enApp": null
+},
+{
+"it": "giubbotto (m), giaccha",
+"es": "cazadora",
+"n": 739,
+"enApp": null
+},
+{
+"it": "impermeabile",
+"es": "impermeable",
+"n": 740,
+"enApp": null
+},
+{
+"it": "camicia",
+"es": "camisa",
+"n": 741,
+"enApp": "u06"
+},
+{
+"it": "pantaloni",
+"es": "pantalones",
+"n": 742,
+"enApp": "u06"
+},
+{
+"it": "jeans",
+"es": "vaqueros",
+"n": 743,
+"enApp": null
+},
+{
+"it": "giacca",
+"es": "chaqueta/saco",
+"n": 744,
+"enApp": "u06"
+},
+{
+"it": "abito (m) da uomo",
+"es": "traje",
+"n": 745,
+"enApp": null
+},
+{
+"it": "abito",
+"es": "vestido",
+"n": 746,
+"enApp": null
+},
+{
+"it": "gonna",
+"es": "falda",
+"n": 747,
+"enApp": "u06"
+},
+{
+"it": "camicetta",
+"es": "blusa",
+"n": 748,
+"enApp": null
+},
+{
+"it": "giacca (f) a maglia",
+"es": "rebeca",
+"n": 749,
+"enApp": null
+},
+{
+"it": "giacca (f) tailleur",
+"es": "chaqueta",
+"n": 750,
+"enApp": null
+},
+{
+"it": "maglietta",
+"es": "camiseta",
+"n": 751,
+"enApp": "u06"
+},
+{
+"it": "pantaloni (m pl) corti",
+"es": "pantalón (m) corto",
+"n": 752,
+"enApp": null
+},
+{
+"it": "tuta (f) sportiva",
+"es": "traje (m) deportivo",
+"n": 753,
+"enApp": null
+},
+{
+"it": "accappatoio",
+"es": "bata (f) de baño",
+"n": 754,
+"enApp": null
+},
+{
+"it": "pigiama",
+"es": "pijama",
+"n": 755,
+"enApp": null
+},
+{
+"it": "maglione",
+"es": "jersey (m), suéter",
+"n": 756,
+"enApp": null
+},
+{
+"it": "pullover",
+"es": "pulóver",
+"n": 757,
+"enApp": null
+},
+{
+"it": "gilè",
+"es": "chaleco",
+"n": 758,
+"enApp": null
+},
+{
+"it": "smoking",
+"es": "esmoquin",
+"n": 759,
+"enApp": null
+},
+{
+"it": "uniforme",
+"es": "uniforme",
+"n": 760,
+"enApp": null
+},
+{
+"it": "tuta (f) da lavoro",
+"es": "ropa (f) de trabajo",
+"n": 761,
+"enApp": null
+},
+{
+"it": "salopette",
+"es": "mono",
+"n": 762,
+"enApp": null
+},
+{
+"it": "camice",
+"es": "bata (f) blanca",
+"n": 763,
+"enApp": null
+},
+{
+"it": "biancheria (f) intima",
+"es": "ropa (f) interior",
+"n": 764,
+"enApp": null
+},
+{
+"it": "maglietta (f) intima",
+"es": "camiseta (f) interior",
+"n": 765,
+"enApp": null
+},
+{
+"it": "calzini",
+"es": "calcetines",
+"n": 766,
+"enApp": null
+},
+{
+"it": "camicia (f) da notte",
+"es": "camisón",
+"n": 767,
+"enApp": null
+},
+{
+"it": "reggiseno",
+"es": "sostén",
+"n": 768,
+"enApp": null
+},
+{
+"it": "calzini (m pl) alti",
+"es": "calcetines (m pl) altos",
+"n": 769,
+"enApp": null
+},
+{
+"it": "collant",
+"es": "leotardos",
+"n": 770,
+"enApp": null
+},
+{
+"it": "calze",
+"es": "medias",
+"n": 771,
+"enApp": null
+},
+{
+"it": "costume (m) da bagno",
+"es": "traje (m) de baño",
+"n": 772,
+"enApp": null
+},
+{
+"it": "cappello",
+"es": "gorro",
+"n": 773,
+"enApp": "u06"
+},
+{
+"it": "cappello (m) di feltro",
+"es": "sombrero (m) de fieltro",
+"n": 774,
+"enApp": null
+},
+{
+"it": "cappello (m) da basebal",
+"es": "gorra (f) de béisbol",
+"n": 775,
+"enApp": null
+},
+{
+"it": "coppola",
+"es": "gorra (f) plana",
+"n": 776,
+"enApp": null
+},
+{
+"it": "basco",
+"es": "boina",
+"n": 777,
+"enApp": null
+},
+{
+"it": "cappuccio",
+"es": "capuchón",
+"n": 778,
+"enApp": null
+},
+{
+"it": "panama",
+"es": "panamá",
+"n": 779,
+"enApp": null
+},
+{
+"it": "berretto (m) a maglia",
+"es": "gorro (m) de punto",
+"n": 780,
+"enApp": null
+},
+{
+"it": "fazzoletto (m) da capo",
+"es": "pañuelo",
+"n": 781,
+"enApp": null
+},
+{
+"it": "cappellino (m) donna",
+"es": "sombrero (m) femenino",
+"n": 782,
+"enApp": null
+},
+{
+"it": "casco",
+"es": "casco (m) (~ protector)",
+"n": 783,
+"enApp": null
+},
+{
+"it": "bustina",
+"es": "gorro (m) de campaña",
+"n": 784,
+"enApp": null
+},
+{
+"it": "bombetta",
+"es": "bombín",
+"n": 785,
+"enApp": null
+},
+{
+"it": "cilindro",
+"es": "sombrero (m) de copa",
+"n": 786,
+"enApp": null
+},
+{
+"it": "calzature",
+"es": "calzado",
+"n": 787,
+"enApp": null
+},
+{
+"it": "stivaletti",
+"es": "botas",
+"n": 788,
+"enApp": null
+},
+{
+"it": "scarpe",
+"es": "zapatos",
+"n": 789,
+"enApp": "u06"
+},
+{
+"it": "stivali",
+"es": "botas (f pl) altas",
+"n": 790,
+"enApp": null
+},
+{
+"it": "pantofole",
+"es": "zapatillas",
+"n": 791,
+"enApp": null
+},
+{
+"it": "scarpe (f pl) da tennis",
+"es": "zapatos (m pl) de tenis",
+"n": 792,
+"enApp": null
+},
+{
+"it": "scarpe (f pl) da ginnastica",
+"es": "zapatos (m pl) deportivos",
+"n": 793,
+"enApp": null
+},
+{
+"it": "sandali",
+"es": "sandalias",
+"n": 794,
+"enApp": null
+},
+{
+"it": "calzolaio",
+"es": "zapatero",
+"n": 795,
+"enApp": null
+},
+{
+"it": "tacco",
+"es": "tacón",
+"n": 796,
+"enApp": null
+},
+{
+"it": "paio",
+"es": "par",
+"n": 797,
+"enApp": null
+},
+{
+"it": "laccio",
+"es": "cordón",
+"n": 798,
+"enApp": null
+},
+{
+"it": "allacciare",
+"es": "encordonar",
+"n": 799,
+"enApp": null
+},
+{
+"it": "calzascarpe",
+"es": "calzador",
+"n": 800,
+"enApp": null
+},
+{
+"it": "lucido per le scarpe",
+"es": "cera para zapatos",
+"n": 801,
+"enApp": null
+},
+{
+"it": "guanti",
+"es": "guantes",
+"n": 802,
+"enApp": null
+},
+{
+"it": "manopole",
+"es": "manoplas",
+"n": 803,
+"enApp": null
+},
+{
+"it": "sciarpa",
+"es": "bufanda",
+"n": 804,
+"enApp": null
+},
+{
+"it": "occhiali",
+"es": "gafas",
+"n": 805,
+"enApp": null
+},
+{
+"it": "montatura",
+"es": "montura",
+"n": 806,
+"enApp": null
+},
+{
+"it": "ombrello",
+"es": "paraguas",
+"n": 807,
+"enApp": null
+},
+{
+"it": "bastone",
+"es": "bastón",
+"n": 808,
+"enApp": null
+},
+{
+"it": "spazzola (f) per capelli",
+"es": "cepillo (m) de pelo",
+"n": 809,
+"enApp": null
+},
+{
+"it": "ventaglio",
+"es": "abanico",
+"n": 810,
+"enApp": null
+},
+{
+"it": "cravatta",
+"es": "corbata",
+"n": 811,
+"enApp": null
+},
+{
+"it": "cravatta (f) a farfalla",
+"es": "pajarita",
+"n": 812,
+"enApp": null
+},
+{
+"it": "bretelle",
+"es": "tirantes",
+"n": 813,
+"enApp": null
+},
+{
+"it": "fazzoletto",
+"es": "moquero",
+"n": 814,
+"enApp": null
+},
+{
+"it": "pettine",
+"es": "peine",
+"n": 815,
+"enApp": null
+},
+{
+"it": "fermaglio",
+"es": "pasador",
+"n": 816,
+"enApp": null
+},
+{
+"it": "forcina",
+"es": "horquilla",
+"n": 817,
+"enApp": null
+},
+{
+"it": "fibbia",
+"es": "hebilla",
+"n": 818,
+"enApp": null
+},
+{
+"it": "cintura",
+"es": "cinturón",
+"n": 819,
+"enApp": null
+},
+{
+"it": "spallina",
+"es": "correa (f) (de bolso)",
+"n": 820,
+"enApp": null
+},
+{
+"it": "borsa",
+"es": "bolsa",
+"n": 821,
+"enApp": "u06"
+},
+{
+"it": "borsetta",
+"es": "bolso",
+"n": 822,
+"enApp": null
+},
+{
+"it": "zaino",
+"es": "mochila",
+"n": 823,
+"enApp": null
+},
+{
+"it": "moda",
+"es": "moda",
+"n": 824,
+"enApp": null
+},
+{
+"it": "di moda",
+"es": "de moda",
+"n": 825,
+"enApp": null
+},
+{
+"it": "stilista",
+"es": "diseñador (m) de modas",
+"n": 826,
+"enApp": null
+},
+{
+"it": "tasca",
+"es": "bolsillo",
+"n": 827,
+"enApp": null
+},
+{
+"it": "tascabile",
+"es": "de bolsillo",
+"n": 828,
+"enApp": null
+},
+{
+"it": "manica",
+"es": "manga",
+"n": 829,
+"enApp": null
+},
+{
+"it": "asola (f) per appendere",
+"es": "colgador",
+"n": 830,
+"enApp": null
+},
+{
+"it": "patta",
+"es": "bragueta",
+"n": 831,
+"enApp": null
+},
+{
+"it": "cerniera (f) lampo",
+"es": "cremallera",
+"n": 832,
+"enApp": null
+},
+{
+"it": "chiusura",
+"es": "cierre",
+"n": 833,
+"enApp": null
+},
+{
+"it": "bottone",
+"es": "botón",
+"n": 834,
+"enApp": null
+},
+{
+"it": "occhiello",
+"es": "ojal",
+"n": 835,
+"enApp": null
+},
+{
+"it": "staccarsi",
+"es": "saltar (un botón)",
+"n": 836,
+"enApp": null
+},
+{
+"it": "cucire",
+"es": "coser",
+"n": 837,
+"enApp": null
+},
+{
+"it": "ricamare",
+"es": "bordar",
+"n": 838,
+"enApp": null
+},
+{
+"it": "ricamo",
+"es": "bordado",
+"n": 839,
+"enApp": null
+},
+{
+"it": "ago",
+"es": "aguja",
+"n": 840,
+"enApp": null
+},
+{
+"it": "filo",
+"es": "hilo",
+"n": 841,
+"enApp": null
+},
+{
+"it": "cucitura",
+"es": "costura",
+"n": 842,
+"enApp": null
+},
+{
+"it": "sporcarsi",
+"es": "ensuciarse",
+"n": 843,
+"enApp": null
+},
+{
+"it": "macchia",
+"es": "mancha",
+"n": 844,
+"enApp": null
+},
+{
+"it": "sgualcirsi",
+"es": "arrugarse",
+"n": 845,
+"enApp": null
+},
+{
+"it": "strappare",
+"es": "rasgar",
+"n": 846,
+"enApp": null
+},
+{
+"it": "tarma",
+"es": "polilla",
+"n": 847,
+"enApp": null
+},
+{
+"it": "dentifricio",
+"es": "pasta (f) de dientes",
+"n": 848,
+"enApp": null
+},
+{
+"it": "spazzolino (m) da denti",
+"es": "cepillo (m) de dientes",
+"n": 849,
+"enApp": null
+},
+{
+"it": "lavarsi i denti",
+"es": "limpiarse los dientes",
+"n": 850,
+"enApp": null
+},
+{
+"it": "rasoio",
+"es": "maquinilla (f) de afeitar",
+"n": 851,
+"enApp": null
+},
+{
+"it": "crema (f) da barba",
+"es": "crema (f) de afeitar",
+"n": 852,
+"enApp": null
+},
+{
+"it": "rasarsi",
+"es": "afeitarse",
+"n": 853,
+"enApp": null
+},
+{
+"it": "sapone",
+"es": "jabón",
+"n": 854,
+"enApp": null
+},
+{
+"it": "shampoo",
+"es": "champú",
+"n": 855,
+"enApp": null
+},
+{
+"it": "forbici",
+"es": "tijeras",
+"n": 856,
+"enApp": null
+},
+{
+"it": "limetta",
+"es": "lima (f) de uñas",
+"n": 857,
+"enApp": null
+},
+{
+"it": "tagliaunghie",
+"es": "cortaúñas",
+"n": 858,
+"enApp": null
+},
+{
+"it": "pinzette",
+"es": "pinzas",
+"n": 859,
+"enApp": null
+},
+{
+"it": "cosmetica",
+"es": "cosméticos",
+"n": 860,
+"enApp": null
+},
+{
+"it": "maschera (f) di bellezza",
+"es": "mascarilla",
+"n": 861,
+"enApp": null
+},
+{
+"it": "manicure",
+"es": "manicura",
+"n": 862,
+"enApp": null
+},
+{
+"it": "fare la manicure",
+"es": "hacer la manicura",
+"n": 863,
+"enApp": null
+},
+{
+"it": "pedicure",
+"es": "pedicura",
+"n": 864,
+"enApp": null
+},
+{
+"it": "borsa (f) del trucco",
+"es": "neceser (m) de maquillaje",
+"n": 865,
+"enApp": null
+},
+{
+"it": "cipria",
+"es": "polvos",
+"n": 866,
+"enApp": null
+},
+{
+"it": "portacipria",
+"es": "polvera",
+"n": 867,
+"enApp": null
+},
+{
+"it": "fard",
+"es": "rubor",
+"n": 868,
+"enApp": null
+},
+{
+"it": "profumo",
+"es": "perfume",
+"n": 869,
+"enApp": null
+},
+{
+"it": "acqua (f) da toeletta",
+"es": "agua (f) perfumada",
+"n": 870,
+"enApp": null
+},
+{
+"it": "lozione",
+"es": "loción",
+"n": 871,
+"enApp": null
+},
+{
+"it": "acqua (f) di Colonia",
+"es": "agua (f) de colonia",
+"n": 872,
+"enApp": null
+},
+{
+"it": "ombretto",
+"es": "sombra (f) de ojos",
+"n": 873,
+"enApp": null
+},
+{
+"it": "eyeliner",
+"es": "lápiz (m) de ojos",
+"n": 874,
+"enApp": null
+},
+{
+"it": "mascara",
+"es": "rímel",
+"n": 875,
+"enApp": null
+},
+{
+"it": "rossetto",
+"es": "pintalabios",
+"n": 876,
+"enApp": null
+},
+{
+"it": "smalto",
+"es": "esmalte (m) de uñas",
+"n": 877,
+"enApp": null
+},
+{
+"it": "lacca (f) per capelli",
+"es": "fijador (m) (para el pelo)",
+"n": 878,
+"enApp": null
+},
+{
+"it": "deodorante",
+"es": "desodorante",
+"n": 879,
+"enApp": null
+},
+{
+"it": "crema",
+"es": "crema",
+"n": 880,
+"enApp": null
+},
+{
+"it": "crema (f) per il viso",
+"es": "crema (f) de belleza",
+"n": 881,
+"enApp": null
+},
+{
+"it": "crema (f) per le mani",
+"es": "crema (f) de manos -",
+"n": 882,
+"enApp": null
+},
+{
+"it": "crema (f) antirughe",
+"es": "crema (f) antiarrugas",
+"n": 883,
+"enApp": null
+},
+{
+"it": "da giorno",
+"es": "de día",
+"n": 884,
+"enApp": null
+},
+{
+"it": "da notte",
+"es": "de noche",
+"n": 885,
+"enApp": null
+},
+{
+"it": "tampone",
+"es": "tampón",
+"n": 886,
+"enApp": null
+},
+{
+"it": "carta (f) igienica",
+"es": "papel (m) higiénico",
+"n": 887,
+"enApp": null
+},
+{
+"it": "fon",
+"es": "secador (m) de pelo",
+"n": 888,
+"enApp": null
+},
+{
+"it": "orologio",
+"es": "reloj",
+"n": 889,
+"enApp": null
+},
+{
+"it": "quadrante",
+"es": "esfera",
+"n": 890,
+"enApp": null
+},
+{
+"it": "lancetta",
+"es": "aguja",
+"n": 891,
+"enApp": null
+},
+{
+"it": "braccialetto",
+"es": "pulsera",
+"n": 892,
+"enApp": null
+},
+{
+"it": "cinturino",
+"es": "correa (f) (del reloj)",
+"n": 893,
+"enApp": null
+},
+{
+"it": "pila",
+"es": "pila",
+"n": 894,
+"enApp": null
+},
+{
+"it": "essere scarico",
+"es": "descargarse",
+"n": 895,
+"enApp": null
+},
+{
+"it": "cambiare la pila",
+"es": "cambiar la pila",
+"n": 896,
+"enApp": null
+},
+{
+"it": "andare avanti",
+"es": "adelantarse",
+"n": 897,
+"enApp": null
+},
+{
+"it": "andare indietro",
+"es": "retrasarse",
+"n": 898,
+"enApp": null
+},
+{
+"it": "orologio (m) da muro",
+"es": "reloj (m) de pared",
+"n": 899,
+"enApp": null
+},
+{
+"it": "clessidra",
+"es": "reloj (m) de arena",
+"n": 900,
+"enApp": null
+},
+{
+"it": "orologio (m) solare",
+"es": "reloj (m) de sol",
+"n": 901,
+"enApp": null
+},
+{
+"it": "sveglia",
+"es": "despertador",
+"n": 902,
+"enApp": null
+},
+{
+"it": "orologiaio",
+"es": "relojero",
+"n": 903,
+"enApp": null
+},
+{
+"it": "riparare",
+"es": "reparar",
+"n": 904,
+"enApp": null
+},
+{
+"it": "carne",
+"es": "carne",
+"n": 905,
+"enApp": "u12"
+},
+{
+"it": "pollo",
+"es": "gallina",
+"n": 906,
+"enApp": null
+},
+{
+"it": "- pollo (m) novello",
+"es": "pollo",
+"n": 907,
+"enApp": null
+},
+{
+"it": "anatra",
+"es": "pato",
+"n": 908,
+"enApp": null
+},
+{
+"it": "oca",
+"es": "ganso",
+"n": 909,
+"enApp": null
+},
+{
+"it": "cacciagione",
+"es": "caza (f) menor",
+"n": 910,
+"enApp": null
+},
+{
+"it": "tacchino",
+"es": "pava",
+"n": 911,
+"enApp": null
+},
+{
+"it": "carne (m) di maiale",
+"es": "carne (f) de cerdo",
+"n": 912,
+"enApp": null
+},
+{
+"it": "vitello",
+"es": "carne (f) de ternera",
+"n": 913,
+"enApp": null
+},
+{
+"it": "carne (f) di agnello",
+"es": "carne (f) de carnero",
+"n": 914,
+"enApp": null
+},
+{
+"it": "manzo",
+"es": "carne (f) de vaca",
+"n": 915,
+"enApp": null
+},
+{
+"it": "coniglio",
+"es": "conejo",
+"n": 916,
+"enApp": null
+},
+{
+"it": "salame",
+"es": "salchichón",
+"n": 917,
+"enApp": null
+},
+{
+"it": "wüsterl",
+"es": "salchicha",
+"n": 918,
+"enApp": null
+},
+{
+"it": "pancetta",
+"es": "beicon",
+"n": 919,
+"enApp": null
+},
+{
+"it": "prosciutto",
+"es": "jamón",
+"n": 920,
+"enApp": null
+},
+{
+"it": "prosciutto (m) affumicato",
+"es": "jamón (m) fresco",
+"n": 921,
+"enApp": null
+},
+{
+"it": "pâté",
+"es": "paté",
+"n": 922,
+"enApp": null
+},
+{
+"it": "fegato",
+"es": "hígado",
+"n": 923,
+"enApp": null
+},
+{
+"it": "lardo",
+"es": "tocino",
+"n": 924,
+"enApp": null
+},
+{
+"it": "carne (f) trita",
+"es": "carne (f) picada",
+"n": 925,
+"enApp": null
+},
+{
+"it": "uovo",
+"es": "huevo",
+"n": 926,
+"enApp": null
+},
+{
+"it": "uova",
+"es": "huevos",
+"n": 927,
+"enApp": null
+},
+{
+"it": "albume",
+"es": "clara de huevo",
+"n": 928,
+"enApp": null
+},
+{
+"it": "tuorlo",
+"es": "yema (huevo)",
+"n": 929,
+"enApp": null
+},
+{
+"it": "pesce",
+"es": "pescado",
+"n": 930,
+"enApp": "u12"
+},
+{
+"it": "frutti (m pl) di mare",
+"es": "mariscos",
+"n": 931,
+"enApp": null
+},
+{
+"it": "crostacei",
+"es": "crustáceos",
+"n": 932,
+"enApp": null
+},
+{
+"it": "caviale",
+"es": "caviar",
+"n": 933,
+"enApp": null
+},
+{
+"it": "granchio",
+"es": "cangrejo (m) de mar",
+"n": 934,
+"enApp": null
+},
+{
+"it": "gamberetto",
+"es": "camarón",
+"n": 935,
+"enApp": null
+},
+{
+"it": "ostrica",
+"es": "ostra",
+"n": 936,
+"enApp": null
+},
+{
+"it": "aragosta",
+"es": "langosta",
+"n": 937,
+"enApp": null
+},
+{
+"it": "polpo",
+"es": "pulpo",
+"n": 938,
+"enApp": null
+},
+{
+"it": "calamaro",
+"es": "calamar",
+"n": 939,
+"enApp": null
+},
+{
+"it": "storione",
+"es": "esturión",
+"n": 940,
+"enApp": null
+},
+{
+"it": "salmone",
+"es": "salmón",
+"n": 941,
+"enApp": null
+},
+{
+"it": "ippoglosso",
+"es": "fletán",
+"n": 942,
+"enApp": null
+},
+{
+"it": "merluzzo",
+"es": "bacalao",
+"n": 943,
+"enApp": null
+},
+{
+"it": "scombro",
+"es": "caballa",
+"n": 944,
+"enApp": null
+},
+{
+"it": "tonno",
+"es": "atún",
+"n": 945,
+"enApp": null
+},
+{
+"it": "anguilla",
+"es": "anguila",
+"n": 946,
+"enApp": null
+},
+{
+"it": "trota",
+"es": "trucha",
+"n": 947,
+"enApp": null
+},
+{
+"it": "sardina",
+"es": "sardina",
+"n": 948,
+"enApp": null
+},
+{
+"it": "luccio",
+"es": "lucio",
+"n": 949,
+"enApp": null
+},
+{
+"it": "aringa",
+"es": "arenque",
+"n": 950,
+"enApp": null
+},
+{
+"it": "pane",
+"es": "pan",
+"n": 951,
+"enApp": "u12"
+},
+{
+"it": "formaggio",
+"es": "queso",
+"n": 952,
+"enApp": "u12"
+},
+{
+"it": "zucchero",
+"es": "azúcar",
+"n": 953,
+"enApp": "u12"
+},
+{
+"it": "sale",
+"es": "sal",
+"n": 954,
+"enApp": "u12"
+},
+{
+"it": "riso",
+"es": "arroz",
+"n": 955,
+"enApp": null
+},
+{
+"it": "pasta",
+"es": "macarrones",
+"n": 956,
+"enApp": "u04"
+},
+{
+"it": "tagliatelle",
+"es": "tallarines",
+"n": 957,
+"enApp": null
+},
+{
+"it": "burro",
+"es": "mantequilla",
+"n": 958,
+"enApp": "u05"
+},
+{
+"it": "olio (m) vegetale",
+"es": "aceite (m) vegetal",
+"n": 959,
+"enApp": null
+},
+{
+"it": "olio (m) di girasole",
+"es": "aceite (m) de girasol",
+"n": 960,
+"enApp": null
+},
+{
+"it": "margarina",
+"es": "margarina",
+"n": 961,
+"enApp": null
+},
+{
+"it": "olive",
+"es": "olivas",
+"n": 962,
+"enApp": null
+},
+{
+"it": "olio (m) d'oliva",
+"es": "aceite (m) de oliva",
+"n": 963,
+"enApp": null
+},
+{
+"it": "latte",
+"es": "leche",
+"n": 964,
+"enApp": null
+},
+{
+"it": "latte (m) condensato",
+"es": "leche (f) condensada",
+"n": 965,
+"enApp": null
+},
+{
+"it": "yogurt",
+"es": "yogur",
+"n": 966,
+"enApp": null
+},
+{
+"it": "panna (f) acida",
+"es": "nata (f) agria",
+"n": 967,
+"enApp": null
+},
+{
+"it": "panna",
+"es": "nata (f) líquida",
+"n": 968,
+"enApp": null
+},
+{
+"it": "maionese",
+"es": "mayonesa",
+"n": 969,
+"enApp": null
+},
+{
+"it": "crema",
+"es": "crema (f) de mantequilla -",
+"n": 970,
+"enApp": null
+},
+{
+"it": "cereali",
+"es": "cereal molido grueso",
+"n": 971,
+"enApp": null
+},
+{
+"it": "farina",
+"es": "harina",
+"n": 972,
+"enApp": null
+},
+{
+"it": "cibi (m pl) in scatola",
+"es": "conservas",
+"n": 973,
+"enApp": null
+},
+{
+"it": "fiocchi (m pl) di mais",
+"es": "copos (m pl) de maíz",
+"n": 974,
+"enApp": null
+},
+{
+"it": "miele",
+"es": "miel",
+"n": 975,
+"enApp": null
+},
+{
+"it": "marmellata",
+"es": "mermelada",
+"n": 976,
+"enApp": null
+},
+{
+"it": "gomma (f) da masticare",
+"es": "chicle",
+"n": 977,
+"enApp": null
+},
+{
+"it": "acqua",
+"es": "agua",
+"n": 978,
+"enApp": "u04"
+},
+{
+"it": "acqua (f) potabile",
+"es": "agua (f) potable",
+"n": 979,
+"enApp": null
+},
+{
+"it": "acqua (f) minerale",
+"es": "agua (f) mineral",
+"n": 980,
+"enApp": null
+},
+{
+"it": "gassata",
+"es": "gaseoso",
+"n": 981,
+"enApp": null
+},
+{
+"it": "frizzante",
+"es": "con gas",
+"n": 982,
+"enApp": null
+},
+{
+"it": "ghiaccio",
+"es": "hielo",
+"n": 983,
+"enApp": null
+},
+{
+"it": "con ghiaccio",
+"es": "con hielo",
+"n": 984,
+"enApp": null
+},
+{
+"it": "analcolico",
+"es": "sin alcohol",
+"n": 985,
+"enApp": null
+},
+{
+"it": "bevanda (f) analcolica",
+"es": "bebida (f) sin alcohol",
+"n": 986,
+"enApp": null
+},
+{
+"it": "bibita",
+"es": "refresco",
+"n": 987,
+"enApp": null
+},
+{
+"it": "limonata",
+"es": "limonada",
+"n": 988,
+"enApp": null
+},
+{
+"it": "bevande (f pl) alcoliche",
+"es": "bebidas (f pl) alcohólicas",
+"n": 989,
+"enApp": null
+},
+{
+"it": "vino",
+"es": "vino",
+"n": 990,
+"enApp": "u04"
+},
+{
+"it": "vino (m) bianco",
+"es": "vino (m) blanco",
+"n": 991,
+"enApp": null
+},
+{
+"it": "vino (m) rosso",
+"es": "vino (m) tinto",
+"n": 992,
+"enApp": null
+},
+{
+"it": "liquore",
+"es": "licor",
+"n": 993,
+"enApp": null
+},
+{
+"it": "champagne",
+"es": "champaña",
+"n": 994,
+"enApp": null
+},
+{
+"it": "vermouth",
+"es": "vermú",
+"n": 995,
+"enApp": null
+},
+{
+"it": "whisky",
+"es": "whisky",
+"n": 996,
+"enApp": null
+},
+{
+"it": "vodka",
+"es": "vodka",
+"n": 997,
+"enApp": null
+},
+{
+"it": "gin",
+"es": "ginebra",
+"n": 998,
+"enApp": null
+},
+{
+"it": "cognac",
+"es": "coñac",
+"n": 999,
+"enApp": null
+},
+{
+"it": "liscia, non gassata",
+"es": "sin gas",
+"n": 1000,
+"enApp": null
+},
+{
+"it": "bevanda",
+"es": "bebida",
+"n": 1001,
+"enApp": null
+},
+{
+"it": "caffè latte",
+"es": "café (m) con leche",
+"n": 1002,
+"enApp": null
+},
+{
+"it": "solubile",
+"es": "soluble",
+"n": 1003,
+"enApp": null
+},
+{
+"it": "frullato",
+"es": "batido",
+"n": 1004,
+"enApp": null
+},
+{
+"it": "succo",
+"es": "zumo",
+"n": 1005,
+"enApp": null
+},
+{
+"it": "pomodoro",
+"es": "tomate",
+"n": 1006,
+"enApp": "u12"
+},
+{
+"it": "succo (m) d'arancia",
+"es": "zumo (m) de naranja",
+"n": 1007,
+"enApp": null
+},
+{
+"it": "spremuta",
+"es": "jugo (m) fresco",
+"n": 1008,
+"enApp": null
+},
+{
+"it": "birra",
+"es": "cerveza",
+"n": 1009,
+"enApp": "u04"
+},
+{
+"it": "birra (f) chiara",
+"es": "cerveza (f) rubia",
+"n": 1010,
+"enApp": null
+},
+{
+"it": "birra (f) scura",
+"es": "cerveza (f) negra",
+"n": 1011,
+"enApp": null
+},
+{
+"it": "tè (m) nero",
+"es": "té (m) negro",
+"n": 1012,
+"enApp": null
+},
+{
+"it": "ortaggi",
+"es": "legumbres",
+"n": 1013,
+"enApp": null
+},
+{
+"it": "verdura",
+"es": "verduras",
+"n": 1014,
+"enApp": "u12"
+},
+{
+"it": "cetriolo",
+"es": "pepino",
+"n": 1015,
+"enApp": null
+},
+{
+"it": "carota",
+"es": "zanahoria",
+"n": 1016,
+"enApp": null
+},
+{
+"it": "cipolla",
+"es": "cebolla",
+"n": 1017,
+"enApp": "u12"
+},
+{
+"it": "aglio",
+"es": "ajo",
+"n": 1018,
+"enApp": null
+},
+{
+"it": "cavolo",
+"es": "col",
+"n": 1019,
+"enApp": null
+},
+{
+"it": "cavolfiore",
+"es": "coliflor",
+"n": 1020,
+"enApp": null
+},
+{
+"it": "cavoletti (m pl) di Bruxelles",
+"es": "col (f) de Bruselas",
+"n": 1021,
+"enApp": null
+},
+{
+"it": "broccolo",
+"es": "brócoli",
+"n": 1022,
+"enApp": null
+},
+{
+"it": "barbabietola",
+"es": "remolacha",
+"n": 1023,
+"enApp": null
+},
+{
+"it": "melanzana",
+"es": "berenjena",
+"n": 1024,
+"enApp": null
+},
+{
+"it": "zucchina",
+"es": "calabacín",
+"n": 1025,
+"enApp": null
+},
+{
+"it": "zucca",
+"es": "calabaza",
+"n": 1026,
+"enApp": null
+},
+{
+"it": "rapa",
+"es": "nabo",
+"n": 1027,
+"enApp": null
+},
+{
+"it": "prezzemolo",
+"es": "perejil",
+"n": 1028,
+"enApp": null
+},
+{
+"it": "aneto",
+"es": "eneldo",
+"n": 1029,
+"enApp": null
+},
+{
+"it": "lattuga",
+"es": "lechuga",
+"n": 1030,
+"enApp": null
+},
+{
+"it": "sedano",
+"es": "apio",
+"n": 1031,
+"enApp": null
+},
+{
+"it": "asparago",
+"es": "espárrago",
+"n": 1032,
+"enApp": null
+},
+{
+"it": "spinaci",
+"es": "espinaca",
+"n": 1033,
+"enApp": null
+},
+{
+"it": "pisello",
+"es": "guisante",
+"n": 1034,
+"enApp": null
+},
+{
+"it": "fave",
+"es": "habas",
+"n": 1035,
+"enApp": null
+},
+{
+"it": "mais",
+"es": "maíz",
+"n": 1036,
+"enApp": null
+},
+{
+"it": "fagiolo",
+"es": "fréjol",
+"n": 1037,
+"enApp": null
+},
+{
+"it": "peperone",
+"es": "pimentón",
+"n": 1038,
+"enApp": null
+},
+{
+"it": "ravanello",
+"es": "rábano",
+"n": 1039,
+"enApp": null
+},
+{
+"it": "carciofo",
+"es": "alcachofa",
+"n": 1040,
+"enApp": null
+},
+{
+"it": "frutto",
+"es": "fruto",
+"n": 1041,
+"enApp": null
+},
+{
+"it": "mela",
+"es": "manzana",
+"n": 1042,
+"enApp": "u12"
+},
+{
+"it": "pera",
+"es": "pera",
+"n": 1043,
+"enApp": null
+},
+{
+"it": "limone",
+"es": "limón",
+"n": 1044,
+"enApp": null
+},
+{
+"it": "arancia",
+"es": "naranja",
+"n": 1045,
+"enApp": null
+},
+{
+"it": "fragola",
+"es": "fresa",
+"n": 1046,
+"enApp": null
+},
+{
+"it": "mandarino",
+"es": "mandarina",
+"n": 1047,
+"enApp": null
+},
+{
+"it": "prugna",
+"es": "ciruela",
+"n": 1048,
+"enApp": null
+},
+{
+"it": "pesca",
+"es": "melocotón",
+"n": 1049,
+"enApp": null
+},
+{
+"it": "albicocca",
+"es": "albaricoque",
+"n": 1050,
+"enApp": null
+},
+{
+"it": "lampone",
+"es": "frambuesa",
+"n": 1051,
+"enApp": null
+},
+{
+"it": "ananas",
+"es": "ananás",
+"n": 1052,
+"enApp": null
+},
+{
+"it": "banana",
+"es": "banana",
+"n": 1053,
+"enApp": null
+},
+{
+"it": "anguria",
+"es": "sandía",
+"n": 1054,
+"enApp": null
+},
+{
+"it": "uva",
+"es": "uva",
+"n": 1055,
+"enApp": null
+},
+{
+"it": "amarena",
+"es": "guinda",
+"n": 1056,
+"enApp": null
+},
+{
+"it": "ciliegia",
+"es": "cereza",
+"n": 1057,
+"enApp": null
+},
+{
+"it": "melone",
+"es": "melón",
+"n": 1058,
+"enApp": null
+},
+{
+"it": "pompelmo",
+"es": "pomelo",
+"n": 1059,
+"enApp": null
+},
+{
+"it": "avocado",
+"es": "aguacate",
+"n": 1060,
+"enApp": null
+},
+{
+"it": "papaia",
+"es": "papaya",
+"n": 1061,
+"enApp": null
+},
+{
+"it": "mango",
+"es": "mango",
+"n": 1062,
+"enApp": null
+},
+{
+"it": "melagrana",
+"es": "granada",
+"n": 1063,
+"enApp": null
+},
+{
+"it": "ribes (m) rosso",
+"es": "grosella (f) roja",
+"n": 1064,
+"enApp": null
+},
+{
+"it": "ribes (m) nero",
+"es": "grosella (f) negra",
+"n": 1065,
+"enApp": null
+},
+{
+"it": "uva (f) spina",
+"es": "grosella (f) espinosa",
+"n": 1066,
+"enApp": null
+},
+{
+"it": "mirtillo",
+"es": "arándano",
+"n": 1067,
+"enApp": null
+},
+{
+"it": "mora",
+"es": "zarzamoras",
+"n": 1068,
+"enApp": null
+},
+{
+"it": "uvetta",
+"es": "pasas",
+"n": 1069,
+"enApp": null
+},
+{
+"it": "fico",
+"es": "higo",
+"n": 1070,
+"enApp": null
+},
+{
+"it": "dattero",
+"es": "dátil",
+"n": 1071,
+"enApp": null
+},
+{
+"it": "arachide",
+"es": "cacahuete",
+"n": 1072,
+"enApp": null
+},
+{
+"it": "mandorla",
+"es": "almendra",
+"n": 1073,
+"enApp": null
+},
+{
+"it": "noce",
+"es": "nuez",
+"n": 1074,
+"enApp": null
+},
+{
+"it": "nocciola",
+"es": "avellana",
+"n": 1075,
+"enApp": null
+},
+{
+"it": "noce (f) di cocco",
+"es": "nuez (f) de coco",
+"n": 1076,
+"enApp": null
+},
+{
+"it": "pistacchi",
+"es": "pistachos",
+"n": 1077,
+"enApp": null
+},
+{
+"it": "pasticceria",
+"es": "pasteles",
+"n": 1078,
+"enApp": null
+},
+{
+"it": "biscotti",
+"es": "galletas",
+"n": 1079,
+"enApp": null
+},
+{
+"it": "cioccolato",
+"es": "chocolate",
+"n": 1080,
+"enApp": null
+},
+{
+"it": "al cioccolato",
+"es": "de chocolate",
+"n": 1081,
+"enApp": null
+},
+{
+"it": "caramella",
+"es": "caramelo",
+"n": 1082,
+"enApp": null
+},
+{
+"it": "tortina",
+"es": "tarta pequeña",
+"n": 1083,
+"enApp": null
+},
+{
+"it": "torta",
+"es": "tarta (f) (~ de cumpleaños)",
+"n": 1084,
+"enApp": null
+},
+{
+"it": "crostata",
+"es": "pastel (m) (~ de manzana)",
+"n": 1085,
+"enApp": null
+},
+{
+"it": "ripieno",
+"es": "relleno",
+"n": 1086,
+"enApp": null
+},
+{
+"it": "wafer",
+"es": "gofre",
+"n": 1087,
+"enApp": null
+},
+{
+"it": "gelato",
+"es": "helado",
+"n": 1088,
+"enApp": null
+},
+{
+"it": "budino",
+"es": "pudín",
+"n": 1089,
+"enApp": null
+},
+{
+"it": "piatto",
+"es": "plato",
+"n": 1090,
+"enApp": null
+},
+{
+"it": "cucina",
+"es": "cocina",
+"n": 1091,
+"enApp": "u02"
+},
+{
+"it": "ricetta",
+"es": "receta",
+"n": 1092,
+"enApp": "u14"
+},
+{
+"it": "porzione",
+"es": "porción",
+"n": 1093,
+"enApp": null
+},
+{
+"it": "insalata",
+"es": "ensalada",
+"n": 1094,
+"enApp": null
+},
+{
+"it": "minestra",
+"es": "sopa",
+"n": 1095,
+"enApp": null
+},
+{
+"it": "brodo",
+"es": "caldo",
+"n": 1096,
+"enApp": null
+},
+{
+"it": "panino",
+"es": "bocadillo",
+"n": 1097,
+"enApp": "u04"
+},
+{
+"it": "uova (f pl) al tegamino",
+"es": "huevos (m pl) fritos",
+"n": 1098,
+"enApp": null
+},
+{
+"it": "cotoletta",
+"es": "chuleta",
+"n": 1099,
+"enApp": null
+},
+{
+"it": "hamburger",
+"es": "hamburguesa",
+"n": 1100,
+"enApp": null
+},
+{
+"it": "bistecca",
+"es": "bistec",
+"n": 1101,
+"enApp": null
+},
+{
+"it": "arrosto",
+"es": "asado",
+"n": 1102,
+"enApp": null
+},
+{
+"it": "contorno",
+"es": "guarnición",
+"n": 1103,
+"enApp": null
+},
+{
+"it": "spaghetti",
+"es": "espagueti",
+"n": 1104,
+"enApp": null
+},
+{
+"it": "purè (m) di patate",
+"es": "puré (m) de patatas",
+"n": 1105,
+"enApp": null
+},
+{
+"it": "pizza",
+"es": "pizza",
+"n": 1106,
+"enApp": null
+},
+{
+"it": "porridge",
+"es": "gachas",
+"n": 1107,
+"enApp": null
+},
+{
+"it": "frittata",
+"es": "tortilla (f) francesa",
+"n": 1108,
+"enApp": null
+},
+{
+"it": "bollito",
+"es": "cocido en agua",
+"n": 1109,
+"enApp": null
+},
+{
+"it": "affumicato",
+"es": "ahumado",
+"n": 1110,
+"enApp": null
+},
+{
+"it": "fritto",
+"es": "frito",
+"n": 1111,
+"enApp": null
+},
+{
+"it": "secco",
+"es": "seco",
+"n": 1112,
+"enApp": null
+},
+{
+"it": "congelato",
+"es": "congelado",
+"n": 1113,
+"enApp": null
+},
+{
+"it": "sottoaceto",
+"es": "marinado",
+"n": 1114,
+"enApp": null
+},
+{
+"it": "dolce",
+"es": "azucarado",
+"n": 1115,
+"enApp": "u04"
+},
+{
+"it": "salato",
+"es": "salado",
+"n": 1116,
+"enApp": null
+},
+{
+"it": "freddo",
+"es": "frío",
+"n": 1117,
+"enApp": "u11"
+},
+{
+"it": "caldo",
+"es": "caliente",
+"n": 1118,
+"enApp": "u11"
+},
+{
+"it": "amaro",
+"es": "amargo",
+"n": 1119,
+"enApp": null
+},
+{
+"it": "buono, gustoso",
+"es": "sabroso",
+"n": 1120,
+"enApp": null
+},
+{
+"it": "cuocere, preparare",
+"es": "cocer en agua",
+"n": 1121,
+"enApp": null
+},
+{
+"it": "friggere",
+"es": "freír",
+"n": 1122,
+"enApp": null
+},
+{
+"it": "riscaldare",
+"es": "calentar",
+"n": 1123,
+"enApp": null
+},
+{
+"it": "salare",
+"es": "salar",
+"n": 1124,
+"enApp": null
+},
+{
+"it": "pepare",
+"es": "poner pimienta",
+"n": 1125,
+"enApp": null
+},
+{
+"it": "grattugiare",
+"es": "rallar",
+"n": 1126,
+"enApp": null
+},
+{
+"it": "buccia",
+"es": "piel",
+"n": 1127,
+"enApp": null
+},
+{
+"it": "sbucciare",
+"es": "pelar",
+"n": 1128,
+"enApp": null
+},
+{
+"it": "pepe (m) nero",
+"es": "pimienta (f) negra",
+"n": 1129,
+"enApp": null
+},
+{
+"it": "peperoncino",
+"es": "pimienta (f) roja",
+"n": 1130,
+"enApp": null
+},
+{
+"it": "senape",
+"es": "mostaza",
+"n": 1131,
+"enApp": null
+},
+{
+"it": "cren",
+"es": "rábano (m) picante",
+"n": 1132,
+"enApp": null
+},
+{
+"it": "condimento",
+"es": "condimento",
+"n": 1133,
+"enApp": null
+},
+{
+"it": "spezie",
+"es": "especia",
+"n": 1134,
+"enApp": null
+},
+{
+"it": "salsa",
+"es": "salsa",
+"n": 1135,
+"enApp": null
+},
+{
+"it": "aceto",
+"es": "vinagre",
+"n": 1136,
+"enApp": null
+},
+{
+"it": "anice",
+"es": "anís",
+"n": 1137,
+"enApp": null
+},
+{
+"it": "basilico",
+"es": "albahaca",
+"n": 1138,
+"enApp": null
+},
+{
+"it": "chiodi (m pl) di garofano",
+"es": "clavo",
+"n": 1139,
+"enApp": null
+},
+{
+"it": "zenzero",
+"es": "jengibre",
+"n": 1140,
+"enApp": null
+},
+{
+"it": "coriandolo",
+"es": "cilantro",
+"n": 1141,
+"enApp": null
+},
+{
+"it": "cannella",
+"es": "canela",
+"n": 1142,
+"enApp": null
+},
+{
+"it": "sesamo",
+"es": "sésamo",
+"n": 1143,
+"enApp": null
+},
+{
+"it": "alloro",
+"es": "hoja (f) de laurel",
+"n": 1144,
+"enApp": null
+},
+{
+"it": "paprica",
+"es": "paprika",
+"n": 1145,
+"enApp": null
+},
+{
+"it": "cumino, comino",
+"es": "comino",
+"n": 1146,
+"enApp": null
+},
+{
+"it": "zafferano",
+"es": "azafrán",
+"n": 1147,
+"enApp": null
+},
+{
+"it": "cibo",
+"es": "comida",
+"n": 1148,
+"enApp": null
+},
+{
+"it": "mangiare",
+"es": "comer",
+"n": 1149,
+"enApp": "u09"
+},
+{
+"it": "colazione",
+"es": "desayuno",
+"n": 1150,
+"enApp": "u04"
+},
+{
+"it": "pranzo",
+"es": "almuerzo",
+"n": 1151,
+"enApp": "u04"
+},
+{
+"it": "appetito",
+"es": "apetito",
+"n": 1152,
+"enApp": null
+},
+{
+"it": "Buon appetito!",
+"es": "¡Que aproveche!",
+"n": 1153,
+"enApp": null
+},
+{
+"it": "rovesciare",
+"es": "derramar",
+"n": 1154,
+"enApp": null
+},
+{
+"it": "rovesciarsi",
+"es": "derramarse",
+"n": 1155,
+"enApp": null
+},
+{
+"it": "bollire",
+"es": "hervir",
+"n": 1156,
+"enApp": null
+},
+{
+"it": "far bollire",
+"es": "hervir",
+"n": 1157,
+"enApp": null
+},
+{
+"it": "raffreddare",
+"es": "enfriar",
+"n": 1158,
+"enApp": null
+},
+{
+"it": "raffreddarsi",
+"es": "enfriarse",
+"n": 1159,
+"enApp": null
+},
+{
+"it": "gusto",
+"es": "sabor",
+"n": 1160,
+"enApp": null
+},
+{
+"it": "retrogusto",
+"es": "regusto",
+"n": 1161,
+"enApp": null
+},
+{
+"it": "essere a dieta",
+"es": "adelgazar",
+"n": 1162,
+"enApp": null
+},
+{
+"it": "dieta",
+"es": "dieta",
+"n": 1163,
+"enApp": null
+},
+{
+"it": "vitamina",
+"es": "vitamina",
+"n": 1164,
+"enApp": null
+},
+{
+"it": "caloria",
+"es": "caloría",
+"n": 1165,
+"enApp": null
+},
+{
+"it": "grassi",
+"es": "grasas",
+"n": 1166,
+"enApp": null
+},
+{
+"it": "proteine",
+"es": "proteínas",
+"n": 1167,
+"enApp": null
+},
+{
+"it": "carboidrati",
+"es": "carbohidratos",
+"n": 1168,
+"enApp": null
+},
+{
+"it": "fetta (f), fettina",
+"es": "loncha",
+"n": 1169,
+"enApp": null
+},
+{
+"it": "briciola",
+"es": "miga",
+"n": 1170,
+"enApp": null
+},
+{
+"it": "cucchiaio",
+"es": "cuchara",
+"n": 1171,
+"enApp": null
+},
+{
+"it": "coltello",
+"es": "cuchillo",
+"n": 1172,
+"enApp": null
+},
+{
+"it": "forchetta",
+"es": "tenedor",
+"n": 1173,
+"enApp": null
+},
+{
+"it": "tovagliolo",
+"es": "servilleta",
+"n": 1174,
+"enApp": null
+},
+{
+"it": "stuzzicadenti",
+"es": "mondadientes",
+"n": 1175,
+"enApp": null
+},
+{
+"it": "ristorante",
+"es": "restaurante",
+"n": 1176,
+"enApp": null
+},
+{
+"it": "caffè",
+"es": "cafetería",
+"n": 1177,
+"enApp": "u04"
+},
+{
+"it": "pub (m), ba",
+"es": "bar",
+"n": 1178,
+"enApp": null
+},
+{
+"it": "sala (f) da tè",
+"es": "salón (m) de té",
+"n": 1179,
+"enApp": null
+},
+{
+"it": "cameriere",
+"es": "camarero",
+"n": 1180,
+"enApp": "u04"
+},
+{
+"it": "cameriera",
+"es": "camarera",
+"n": 1181,
+"enApp": null
+},
+{
+"it": "barista",
+"es": "barman",
+"n": 1182,
+"enApp": null
+},
+{
+"it": "carta (f) dei vini",
+"es": "carta (f) de vinos",
+"n": 1183,
+"enApp": null
+},
+{
+"it": "prenotare un tavolo",
+"es": "reservar una mesa",
+"n": 1184,
+"enApp": null
+},
+{
+"it": "antipasto",
+"es": "entremés",
+"n": 1185,
+"enApp": "u04"
+},
+{
+"it": "conto",
+"es": "cuenta",
+"n": 1186,
+"enApp": "u04"
+},
+{
+"it": "pagare il conto",
+"es": "pagar la cuenta",
+"n": 1187,
+"enApp": null
+},
+{
+"it": "dare il resto",
+"es": "dar la vuelta",
+"n": 1188,
+"enApp": null
+},
+{
+"it": "mancia",
+"es": "propina",
+"n": 1189,
+"enApp": null
+},
+{
+"it": "nome",
+"es": "nombre",
+"n": 1190,
+"enApp": null
+},
+{
+"it": "cognome",
+"es": "apellido",
+"n": 1191,
+"enApp": null
+},
+{
+"it": "data (f) di nascita",
+"es": "fecha (f) de nacimiento",
+"n": 1192,
+"enApp": null
+},
+{
+"it": "luogo (m) di nascita",
+"es": "lugar (m) de nacimiento",
+"n": 1193,
+"enApp": null
+},
+{
+"it": "nazionalità",
+"es": "nacionalidad",
+"n": 1194,
+"enApp": null
+},
+{
+"it": "domicilio",
+"es": "domicilio",
+"n": 1195,
+"enApp": null
+},
+{
+"it": "paese",
+"es": "país",
+"n": 1196,
+"enApp": "u10"
+},
+{
+"it": "professione",
+"es": "profesión",
+"n": 1197,
+"enApp": null
+},
+{
+"it": "sesso",
+"es": "sexo",
+"n": 1198,
+"enApp": null
+},
+{
+"it": "statura",
+"es": "estatura",
+"n": 1199,
+"enApp": null
+},
+{
+"it": "madre",
+"es": "madre",
+"n": 1200,
+"enApp": null
+},
+{
+"it": "padre",
+"es": "padre",
+"n": 1201,
+"enApp": null
+},
+{
+"it": "figlio",
+"es": "hijo",
+"n": 1202,
+"enApp": null
+},
+{
+"it": "figlia",
+"es": "hija",
+"n": 1203,
+"enApp": null
+},
+{
+"it": "figlia (f) minore",
+"es": "hija (f) menor",
+"n": 1204,
+"enApp": null
+},
+{
+"it": "figlia (f) maggiore",
+"es": "hija (f) mayor",
+"n": 1205,
+"enApp": null
+},
+{
+"it": "fratello",
+"es": "hermano",
+"n": 1206,
+"enApp": null
+},
+{
+"it": "sorella",
+"es": "hermana",
+"n": 1207,
+"enApp": null
+},
+{
+"it": "cugino",
+"es": "primo",
+"n": 1208,
+"enApp": null
+},
+{
+"it": "cugina",
+"es": "prima",
+"n": 1209,
+"enApp": null
+},
+{
+"it": "mamma",
+"es": "mamá",
+"n": 1210,
+"enApp": null
+},
+{
+"it": "papà",
+"es": "papá",
+"n": 1211,
+"enApp": null
+},
+{
+"it": "genitori",
+"es": "padres",
+"n": 1212,
+"enApp": null
+},
+{
+"it": "bambino",
+"es": "niño",
+"n": 1213,
+"enApp": null
+},
+{
+"it": "bambini",
+"es": "niños",
+"n": 1214,
+"enApp": null
+},
+{
+"it": "nonna",
+"es": "abuela",
+"n": 1215,
+"enApp": "u11"
+},
+{
+"it": "nipote",
+"es": "nieto",
+"n": 1216,
+"enApp": null
+},
+{
+"it": "nonno",
+"es": "abuelo",
+"n": 1217,
+"enApp": "u11"
+},
+{
+"it": "nipoti",
+"es": "nietos",
+"n": 1218,
+"enApp": null
+},
+{
+"it": "zio",
+"es": "tío",
+"n": 1219,
+"enApp": null
+},
+{
+"it": "zia",
+"es": "tía",
+"n": 1220,
+"enApp": null
+},
+{
+"it": "suocera",
+"es": "suegra",
+"n": 1221,
+"enApp": null
+},
+{
+"it": "suocero",
+"es": "suegro",
+"n": 1222,
+"enApp": null
+},
+{
+"it": "genero",
+"es": "yerno",
+"n": 1223,
+"enApp": null
+},
+{
+"it": "matrigna",
+"es": "madrastra",
+"n": 1224,
+"enApp": null
+},
+{
+"it": "patrigno",
+"es": "padrastro",
+"n": 1225,
+"enApp": null
+},
+{
+"it": "neonato",
+"es": "niño (m) de pecho",
+"n": 1226,
+"enApp": null
+},
+{
+"it": "infante",
+"es": "bebé",
+"n": 1227,
+"enApp": null
+},
+{
+"it": "bimbo",
+"es": "chico",
+"n": 1228,
+"enApp": null
+},
+{
+"it": "moglie",
+"es": "mujer",
+"n": 1229,
+"enApp": null
+},
+{
+"it": "marito",
+"es": "marido",
+"n": 1230,
+"enApp": null
+},
+{
+"it": "coniuge",
+"es": "esposo",
+"n": 1231,
+"enApp": null
+},
+{
+"it": "sposato",
+"es": "casado",
+"n": 1232,
+"enApp": null
+},
+{
+"it": "sposata",
+"es": "casada",
+"n": 1233,
+"enApp": null
+},
+{
+"it": "celibe",
+"es": "soltero",
+"n": 1234,
+"enApp": null
+},
+{
+"it": "scapolo",
+"es": "soltero",
+"n": 1235,
+"enApp": null
+},
+{
+"it": "divorziato",
+"es": "divorciado",
+"n": 1236,
+"enApp": null
+},
+{
+"it": "vedova",
+"es": "viuda",
+"n": 1237,
+"enApp": null
+},
+{
+"it": "vedovo",
+"es": "viudo",
+"n": 1238,
+"enApp": null
+},
+{
+"it": "parente",
+"es": "pariente",
+"n": 1239,
+"enApp": null
+},
+{
+"it": "parente (m) stretto",
+"es": "pariente (m) cercano",
+"n": 1240,
+"enApp": null
+},
+{
+"it": "parente (m) lontano",
+"es": "pariente (m) lejano",
+"n": 1241,
+"enApp": null
+},
+{
+"it": "parenti",
+"es": "parientes",
+"n": 1242,
+"enApp": null
+},
+{
+"it": "orfano",
+"es": "huérfano",
+"n": 1243,
+"enApp": null
+},
+{
+"it": "orfana",
+"es": "huérfana",
+"n": 1244,
+"enApp": null
+},
+{
+"it": "tutore",
+"es": "tutor",
+"n": 1245,
+"enApp": null
+},
+{
+"it": "adottare",
+"es": "adoptar",
+"n": 1246,
+"enApp": null
+},
+{
+"it": "malattia",
+"es": "enfermedad",
+"n": 1247,
+"enApp": null
+},
+{
+"it": "essere malato",
+"es": "estar enfermo",
+"n": 1248,
+"enApp": null
+},
+{
+"it": "salute",
+"es": "salud",
+"n": 1249,
+"enApp": null
+},
+{
+"it": "raffreddore",
+"es": "resfriado",
+"n": 1250,
+"enApp": "u16"
+},
+{
+"it": "tonsillite",
+"es": "angina",
+"n": 1251,
+"enApp": null
+},
+{
+"it": "bronchite",
+"es": "bronquitis",
+"n": 1252,
+"enApp": null
+},
+{
+"it": "polmonite",
+"es": "pulmonía",
+"n": 1253,
+"enApp": null
+},
+{
+"it": "influenza",
+"es": "gripe",
+"n": 1254,
+"enApp": null
+},
+{
+"it": "miope",
+"es": "miope",
+"n": 1255,
+"enApp": null
+},
+{
+"it": "presbite",
+"es": "présbita",
+"n": 1256,
+"enApp": null
+},
+{
+"it": "strabismo",
+"es": "estrabismo",
+"n": 1257,
+"enApp": null
+},
+{
+"it": "strabico",
+"es": "estrábico",
+"n": 1258,
+"enApp": null
+},
+{
+"it": "cateratta",
+"es": "catarata",
+"n": 1259,
+"enApp": null
+},
+{
+"it": "glaucoma",
+"es": "glaucoma",
+"n": 1260,
+"enApp": null
+},
+{
+"it": "ictus (m) cerebrale",
+"es": "insulto",
+"n": 1261,
+"enApp": null
+},
+{
+"it": "attacco (m) di cuore",
+"es": "ataque (m) cardiaco",
+"n": 1262,
+"enApp": null
+},
+{
+"it": "infarto (m) miocardico",
+"es": "infarto (m) de miocardio",
+"n": 1263,
+"enApp": null
+},
+{
+"it": "paralisi",
+"es": "parálisis",
+"n": 1264,
+"enApp": null
+},
+{
+"it": "paralizzare",
+"es": "paralizar",
+"n": 1265,
+"enApp": null
+},
+{
+"it": "allergia",
+"es": "alergia",
+"n": 1266,
+"enApp": null
+},
+{
+"it": "asma",
+"es": "asma",
+"n": 1267,
+"enApp": null
+},
+{
+"it": "diabete",
+"es": "diabetes",
+"n": 1268,
+"enApp": null
+},
+{
+"it": "mal (m) di denti",
+"es": "dolor (m) de muelas",
+"n": 1269,
+"enApp": null
+},
+{
+"it": "carie",
+"es": "caries",
+"n": 1270,
+"enApp": null
+},
+{
+"it": "diarrea",
+"es": "diarrea",
+"n": 1271,
+"enApp": null
+},
+{
+"it": "stitichezza",
+"es": "estreñimiento",
+"n": 1272,
+"enApp": null
+},
+{
+"it": "disturbo (m) gastrico",
+"es": "molestia (f) estomacal",
+"n": 1273,
+"enApp": null
+},
+{
+"it": "intossicazione (f) alimentare",
+"es": "envenenamiento",
+"n": 1274,
+"enApp": null
+},
+{
+"it": "intossicarsi",
+"es": "envenenarse",
+"n": 1275,
+"enApp": null
+},
+{
+"it": "artrite",
+"es": "artritis",
+"n": 1276,
+"enApp": null
+},
+{
+"it": "rachitide",
+"es": "raquitismo",
+"n": 1277,
+"enApp": null
+},
+{
+"it": "reumatismo",
+"es": "reumatismo",
+"n": 1278,
+"enApp": null
+},
+{
+"it": "aterosclerosi",
+"es": "ateroesclerosis",
+"n": 1279,
+"enApp": null
+},
+{
+"it": "gastrite",
+"es": "gastritis",
+"n": 1280,
+"enApp": null
+},
+{
+"it": "appendicite",
+"es": "apendicitis",
+"n": 1281,
+"enApp": null
+},
+{
+"it": "colecistite",
+"es": "colecistitis",
+"n": 1282,
+"enApp": null
+},
+{
+"it": "ulcera",
+"es": "úlcera",
+"n": 1283,
+"enApp": null
+},
+{
+"it": "morbillo",
+"es": "sarampión",
+"n": 1284,
+"enApp": null
+},
+{
+"it": "rosolia",
+"es": "rubeola",
+"n": 1285,
+"enApp": null
+},
+{
+"it": "itterizia",
+"es": "ictericia",
+"n": 1286,
+"enApp": null
+},
+{
+"it": "epatite",
+"es": "hepatitis",
+"n": 1287,
+"enApp": null
+},
+{
+"it": "schizofrenia",
+"es": "esquizofrenia",
+"n": 1288,
+"enApp": null
+},
+{
+"it": "rabbia",
+"es": "rabia (f) (hidrofobia)",
+"n": 1289,
+"enApp": null
+},
+{
+"it": "nevrosi",
+"es": "neurosis",
+"n": 1290,
+"enApp": null
+},
+{
+"it": "commozione (f) cerebrale",
+"es": "conmoción (m) cerebral",
+"n": 1291,
+"enApp": null
+},
+{
+"it": "cancro",
+"es": "cáncer",
+"n": 1292,
+"enApp": null
+},
+{
+"it": "sclerosi",
+"es": "esclerosis",
+"n": 1293,
+"enApp": null
+},
+{
+"it": "sclerosi (f) multipla",
+"es": "esclerosis (m) múltiple",
+"n": 1294,
+"enApp": null
+},
+{
+"it": "alcolismo",
+"es": "alcoholismo",
+"n": 1295,
+"enApp": null
+},
+{
+"it": "alcolizzato",
+"es": "alcohólico",
+"n": 1296,
+"enApp": null
+},
+{
+"it": "sifilide",
+"es": "sífilis",
+"n": 1297,
+"enApp": null
+},
+{
+"it": "AIDS",
+"es": "SIDA",
+"n": 1298,
+"enApp": null
+},
+{
+"it": "tumore",
+"es": "tumor",
+"n": 1299,
+"enApp": null
+},
+{
+"it": "febbre",
+"es": "fiebre",
+"n": 1300,
+"enApp": "u16"
+},
+{
+"it": "malaria",
+"es": "malaria",
+"n": 1301,
+"enApp": null
+},
+{
+"it": "cancrena",
+"es": "gangrena",
+"n": 1302,
+"enApp": null
+},
+{
+"it": "mal (m) di mare",
+"es": "mareo",
+"n": 1303,
+"enApp": null
+},
+{
+"it": "epilessia",
+"es": "epilepsia",
+"n": 1304,
+"enApp": null
+},
+{
+"it": "epidemia",
+"es": "epidemia",
+"n": 1305,
+"enApp": null
+},
+{
+"it": "tifo",
+"es": "tifus",
+"n": 1306,
+"enApp": null
+},
+{
+"it": "tubercolosi",
+"es": "tuberculosis",
+"n": 1307,
+"enApp": null
+},
+{
+"it": "colera",
+"es": "cólera",
+"n": 1308,
+"enApp": null
+},
+{
+"it": "peste",
+"es": "peste",
+"n": 1309,
+"enApp": null
+},
+{
+"it": "sintomo",
+"es": "síntoma",
+"n": 1310,
+"enApp": null
+},
+{
+"it": "temperatura",
+"es": "temperatura",
+"n": 1311,
+"enApp": null
+},
+{
+"it": "febbre (f) alta",
+"es": "fiebre",
+"n": 1312,
+"enApp": null
+},
+{
+"it": "capogiro",
+"es": "vértigo",
+"n": 1313,
+"enApp": null
+},
+{
+"it": "brivido",
+"es": "escalofrío",
+"n": 1314,
+"enApp": null
+},
+{
+"it": "pallido",
+"es": "pálido",
+"n": 1315,
+"enApp": null
+},
+{
+"it": "tosse",
+"es": "tos",
+"n": 1316,
+"enApp": "u16"
+},
+{
+"it": "tossire",
+"es": "toser",
+"n": 1317,
+"enApp": null
+},
+{
+"it": "starnutire",
+"es": "estornudar",
+"n": 1318,
+"enApp": null
+},
+{
+"it": "svenimento",
+"es": "desmayo",
+"n": 1319,
+"enApp": null
+},
+{
+"it": "svenire",
+"es": "desmayarse",
+"n": 1320,
+"enApp": null
+},
+{
+"it": "livido",
+"es": "moradura",
+"n": 1321,
+"enApp": null
+},
+{
+"it": "bernoccolo",
+"es": "chichón",
+"n": 1322,
+"enApp": null
+},
+{
+"it": "farsi un livido",
+"es": "golpearse",
+"n": 1323,
+"enApp": null
+},
+{
+"it": "contusione",
+"es": "magulladura",
+"n": 1324,
+"enApp": null
+},
+{
+"it": "farsi male",
+"es": "magullarse",
+"n": 1325,
+"enApp": null
+},
+{
+"it": "zoppicare",
+"es": "cojear",
+"n": 1326,
+"enApp": null
+},
+{
+"it": "slogatura",
+"es": "dislocación",
+"n": 1327,
+"enApp": null
+},
+{
+"it": "slogarsi",
+"es": "dislocar",
+"n": 1328,
+"enApp": null
+},
+{
+"it": "frattura",
+"es": "fractura",
+"n": 1329,
+"enApp": null
+},
+{
+"it": "fratturarsi",
+"es": "tener una fractura",
+"n": 1330,
+"enApp": null
+},
+{
+"it": "tagliotagliarsi",
+"es": "cortarse",
+"n": 1331,
+"enApp": null
+},
+{
+"it": "emorragia",
+"es": "hemorragia",
+"n": 1332,
+"enApp": null
+},
+{
+"it": "scottatura",
+"es": "quemadura",
+"n": 1333,
+"enApp": null
+},
+{
+"it": "scottarsi",
+"es": "quemarse",
+"n": 1334,
+"enApp": null
+},
+{
+"it": "pungere",
+"es": "pincharse",
+"n": 1335,
+"enApp": null
+},
+{
+"it": "pungersi",
+"es": "pincharse",
+"n": 1336,
+"enApp": null
+},
+{
+"it": "ferire",
+"es": "herir",
+"n": 1337,
+"enApp": null
+},
+{
+"it": "ferita",
+"es": "herida",
+"n": 1338,
+"enApp": null
+},
+{
+"it": "lesione",
+"es": "lesión",
+"n": 1339,
+"enApp": null
+},
+{
+"it": "trauma",
+"es": "trauma",
+"n": 1340,
+"enApp": null
+},
+{
+"it": "delirare",
+"es": "delirar",
+"n": 1341,
+"enApp": null
+},
+{
+"it": "tartagliare",
+"es": "tartamudear",
+"n": 1342,
+"enApp": null
+},
+{
+"it": "colpo (m) di sole",
+"es": "insolación",
+"n": 1343,
+"enApp": null
+},
+{
+"it": "dolore (m), male",
+"es": "dolor",
+"n": 1344,
+"enApp": null
+},
+{
+"it": "scheggia",
+"es": "astilla",
+"n": 1345,
+"enApp": null
+},
+{
+"it": "sudore",
+"es": "sudor",
+"n": 1346,
+"enApp": null
+},
+{
+"it": "sudare",
+"es": "sudar",
+"n": 1347,
+"enApp": null
+},
+{
+"it": "vomito",
+"es": "vómito",
+"n": 1348,
+"enApp": null
+},
+{
+"it": "convulsioni",
+"es": "convulsiones",
+"n": 1349,
+"enApp": null
+},
+{
+"it": "incinta",
+"es": "embarazada",
+"n": 1350,
+"enApp": null
+},
+{
+"it": "nascere",
+"es": "nacer",
+"n": 1351,
+"enApp": "u10"
+},
+{
+"it": "parto",
+"es": "parto",
+"n": 1352,
+"enApp": null
+},
+{
+"it": "essere in travaglio",
+"es": "dar a luz",
+"n": 1353,
+"enApp": null
+},
+{
+"it": "aborto",
+"es": "aborto",
+"n": 1354,
+"enApp": null
+},
+{
+"it": "respirazione",
+"es": "respiración",
+"n": 1355,
+"enApp": null
+},
+{
+"it": "inspirazione",
+"es": "inspiración",
+"n": 1356,
+"enApp": null
+},
+{
+"it": "espirazione",
+"es": "espiración",
+"n": 1357,
+"enApp": null
+},
+{
+"it": "espirare",
+"es": "espirar",
+"n": 1358,
+"enApp": null
+},
+{
+"it": "inspirare",
+"es": "inspirar",
+"n": 1359,
+"enApp": null
+},
+{
+"it": "invalido",
+"es": "inválido",
+"n": 1360,
+"enApp": null
+},
+{
+"it": "storpio",
+"es": "mutilado",
+"n": 1361,
+"enApp": null
+},
+{
+"it": "sordo",
+"es": "sordo",
+"n": 1362,
+"enApp": null
+},
+{
+"it": "muto",
+"es": "mudo",
+"n": 1363,
+"enApp": null
+},
+{
+"it": "sordomuto",
+"es": "sordomudo",
+"n": 1364,
+"enApp": null
+},
+{
+"it": "matto",
+"es": "loco",
+"n": 1365,
+"enApp": null
+},
+{
+"it": "matta",
+"es": "loca",
+"n": 1366,
+"enApp": null
+},
+{
+"it": "impazzire",
+"es": "volverse loco",
+"n": 1367,
+"enApp": null
+},
+{
+"it": "gene",
+"es": "gen",
+"n": 1368,
+"enApp": null
+},
+{
+"it": "immunità",
+"es": "inmunidad",
+"n": 1369,
+"enApp": null
+},
+{
+"it": "ereditario",
+"es": "hereditario",
+"n": 1370,
+"enApp": null
+},
+{
+"it": "innato",
+"es": "de nacimiento",
+"n": 1371,
+"enApp": null
+},
+{
+"it": "virus",
+"es": "virus",
+"n": 1372,
+"enApp": null
+},
+{
+"it": "microbo",
+"es": "microbio",
+"n": 1373,
+"enApp": null
+},
+{
+"it": "batterio",
+"es": "bacteria",
+"n": 1374,
+"enApp": null
+},
+{
+"it": "infezione",
+"es": "infección",
+"n": 1375,
+"enApp": null
+},
+{
+"it": "ospedale",
+"es": "hospital",
+"n": 1376,
+"enApp": null
+},
+{
+"it": "paziente",
+"es": "paciente",
+"n": 1377,
+"enApp": null
+},
+{
+"it": "diagnosi",
+"es": "diagnosis",
+"n": 1378,
+"enApp": null
+},
+{
+"it": "cura",
+"es": "cura",
+"n": 1379,
+"enApp": null
+},
+{
+"it": "trattamento",
+"es": "tratamiento",
+"n": 1380,
+"enApp": null
+},
+{
+"it": "curarsi",
+"es": "curarse",
+"n": 1381,
+"enApp": null
+},
+{
+"it": "curare",
+"es": "tratar",
+"n": 1382,
+"enApp": null
+},
+{
+"it": "accudire un malato",
+"es": "cuidar (a un enfermo)",
+"n": 1383,
+"enApp": null
+},
+{
+"it": "assistenza",
+"es": "cuidados",
+"n": 1384,
+"enApp": null
+},
+{
+"it": "operazione",
+"es": "operación",
+"n": 1385,
+"enApp": null
+},
+{
+"it": "bendare",
+"es": "vendar",
+"n": 1386,
+"enApp": null
+},
+{
+"it": "fasciatura",
+"es": "vendaje",
+"n": 1387,
+"enApp": null
+},
+{
+"it": "vaccinazione",
+"es": "vacunación",
+"n": 1388,
+"enApp": null
+},
+{
+"it": "vaccinare",
+"es": "vacunar",
+"n": 1389,
+"enApp": null
+},
+{
+"it": "iniezione",
+"es": "inyección",
+"n": 1390,
+"enApp": null
+},
+{
+"it": "fare una puntura",
+"es": "aplicar una inyección",
+"n": 1391,
+"enApp": null
+},
+{
+"it": "attacco",
+"es": "ataque",
+"n": 1392,
+"enApp": null
+},
+{
+"it": "amputazione",
+"es": "amputación",
+"n": 1393,
+"enApp": null
+},
+{
+"it": "amputare",
+"es": "amputar",
+"n": 1394,
+"enApp": null
+},
+{
+"it": "coma",
+"es": "coma",
+"n": 1395,
+"enApp": null
+},
+{
+"it": "essere in coma",
+"es": "estar en coma",
+"n": 1396,
+"enApp": null
+},
+{
+"it": "rianimazione",
+"es": "revitalización",
+"n": 1397,
+"enApp": null
+},
+{
+"it": "guarire",
+"es": "recuperarse",
+"n": 1398,
+"enApp": null
+},
+{
+"it": "stato",
+"es": "estado (m) (de salud)",
+"n": 1399,
+"enApp": null
+},
+{
+"it": "conoscenza",
+"es": "consciencia",
+"n": 1400,
+"enApp": null
+}
+]

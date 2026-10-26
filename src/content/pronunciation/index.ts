@@ -29,3 +29,10 @@ export function audioFiles(word: string): string[] {
 export function allWords(): string[] {
   return [...new Set(PRON_UNITS.flatMap((w) => [...w.pairs.flat(), ...w.words]))];
 }
+
+/**
+ * Palabras que todavía no tienen grabación nativa (se leen con la voz del sistema).
+ * Corre `npm run audio` en tu computador: baja las que existan en Lingua Libre y actualiza el manifest;
+ * después quita de esta lista las que ya tengan audio (el test te avisa).
+ */
+export const AUDIO_PENDING: string[] = ["abbia", "affitto", "allegato", "ambulanza", "arredato", "ascensore", "attimo", "avessi", "bacca", "basta", "capitano", "cellulare", "comprerei", "comunque", "càpitano", "dammelo", "dimmelo", "emergenza", "faccia", "facessi", "fato", "fatto", "febbre", "fossi", "gentile", "gliela", "glielo", "gliene", "gola", "ha", "hai", "hanno", "ho", "informazione", "ingresso", "insomma", "invece", "medico", "messaggio", "messo", "nona", "note", "notte", "orario", "ormai", "papa", "papà", "però", "portarmelo", "possa", "posso", "potessi", "pozzo", "pronto", "quarto", "quindi", "quinto", "resterei", "richiamare", "riscaldamento", "rotto", "rubinetto", "schiena", "serra", "sia", "siamo", "spiegarmelo", "stia", "stomaco", "terzo", "testa", "tosse", "tuta", "tutta", "vacca", "vada", "vasta", "vene", "venga", "viaggerei", "volessi"];

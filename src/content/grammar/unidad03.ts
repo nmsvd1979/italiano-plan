@@ -50,6 +50,10 @@ export const unidad03: Lesson = {
       kind: "p",
       text: "**Precios**: *Quanto costa?* (una cosa) y *Quanto costano?* (varias). *Costa dieci euro.* *Costano cinque euro.* La palabra *euro* no cambia en plural. Para centavos se dice *e*: 1,20 € → *un euro e venti*. En italiano el decimal es una coma (*12,50*) y los miles llevan punto (*1.200*).",
     },
+    {
+      kind: "p",
+      text: "**Centenas y años.** *cento* (100), *centodieci* (110), *centocinquanta* (150), *duecento* (200), *trecento* (300), *cinquecento* (500), *novecento* (900). Se escriben pegados y sin *e*: *duecentoventi* (220). Los años se dicen como un solo número: *duemilaventisei* (2026), *millenovecentonovantanove* (1999); y con *in*: *nel duemilaventisei*. Para preguntar la fecha: *Che giorno è oggi?* — *Oggi è il sei ottobre.*",
+    },
   ],
   transfer:
     "No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva \"de\": *il 6 ottobre*, no *il 6 di ottobre*. Los números compuestos van pegados y pierden la vocal con *uno* y *otto* (*ventuno, ventotto*, no *ventiuno*). Y recuerda que el decimal es coma: 12,50 € se lee *dodici euro e cinquanta*.",
@@ -58,9 +62,9 @@ export const unidad03: Lesson = {
     { it: "A che ora parte il treno? — Alle diciassette e quindici.", es: "¿A qué hora sale el tren? — A las 17:15." },
     { it: "Quanto costa questo? — Costa dodici euro e cinquanta.", es: "¿Cuánto cuesta esto? — Cuesta 12,50 euros." },
     { it: "I biscotti costano tre euro.", es: "Las galletas cuestan tres euros." },
-    { it: "Il mio compleanno è il quindici marzo.", es: "Mi cumpleaños es el 15 de marzo." },
-    { it: "Ho ventotto anni e mia sorella ha trentuno anni.", es: "Tengo 28 años y mi hermana tiene 31." },
-    { it: "Oggi è martedì, sei ottobre.", es: "Hoy es martes, 6 de octubre." },
+    { it: "Il compleanno di Marco è il quindici marzo.", es: "El cumpleaños de Marco es el 15 de marzo." },
+    { it: "Ho ventotto anni e Marco ha trentuno anni.", es: "Tengo 28 años y Marco tiene 31." },
+    { it: "Oggi è il sei ottobre.", es: "Hoy es 6 de octubre." },
     { it: "Il museo apre alle nove e chiude all'una.", es: "El museo abre a las nueve y cierra a la una." },
   ],
   notice: [
@@ -98,7 +102,7 @@ export const unidad03: Lesson = {
     { type: "fill", prompt: "A che ora apre il museo? — ___ nove. (a las 9)", answers: ["alle"], why: "*A + le* → *alle* para horas en plural." },
     { type: "fill", prompt: "Il treno parte ___. (a la una)", answers: ["all'una"], why: "Con la una: *all'una*." },
     { type: "fill", prompt: "Oggi è ___. (miércoles)", answers: ["mercoledì"], why: "*Mercoledì* lleva tilde y va en minúscula." },
-    { type: "fill", prompt: "Il mio compleanno è il ___ marzo. (15)", answers: ["quindici"], why: "15 = *quindici*." },
+    { type: "fill", prompt: "Il compleanno di Marco è il ___ marzo. (15)", answers: ["quindici"], why: "15 = *quindici*." },
     { type: "fill", prompt: "Il ___ gennaio è Capodanno. (1.º)", answers: ["primo"], why: "Solo el día 1 es ordinal: *il primo*." },
     { type: "fill", prompt: "Il corso comincia a ___. (septiembre)", answers: ["settembre"], why: "*Settembre* va en minúscula." },
     { type: "fill", prompt: "Il caffè costa un euro e ___. (1,20)", answers: ["venti"], why: "Los centavos se dicen con *e*: *un euro e venti*." },
@@ -131,5 +135,8 @@ export const unidad03: Lesson = {
       answer: 1,
       why: "*Venti* pierde la *i* ante *uno*: *ventuno*.",
     },
+    { type: "fill", prompt: "Il libro costa ___ euro. (200)", answers: ["duecento"], why: "200 = *duecento*, pegado y sin *e*." },
+    { type: "fill", prompt: "Il biglietto costa ___ euro. (150)", answers: ["centocinquanta"], why: "150 = *centocinquanta*, todo junto." },
+    { type: "choice", prompt: "Preguntas qué fecha es hoy:", options: ["Che giorno è oggi?", "Che giorno ha oggi?", "Quale giorno sono oggi?"], answer: 0, why: "*Che giorno è oggi?* es la forma estándar." },
   ],
 };

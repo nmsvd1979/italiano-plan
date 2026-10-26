@@ -101,6 +101,105 @@ const WRITING: Record<string, WritingTask> = {
     checklist: ["Usé al menos dos verbos en futuro (*andrò, studierò*).", "Pedí el favor con *potrebbe* o *vorrei*.", "Usé un marcador (*domani, l'anno prossimo, tra una settimana*).", "Usé las raíces irregulares donde correspondía (*andrò, farò, verrò*)."],
     minChars: 90,
   },
+  u16: {
+    prompt: "Estás en Italia y no te sientes bien: escríbele un mensaje a tu anfitriona para explicarle qué te duele y qué necesitas.",
+    model: "Ciao Anna, oggi non sto bene. Ho mal di testa e un po' di febbre. Mi serve una farmacia vicina: puoi aiutarmi, per favore? Non ho niente per la tosse. Grazie mille!",
+    checklist: [
+      "Dije qué me duele con *ho mal di…* o *mi fa / mi fanno male*.",
+      "Dije qué necesito con *mi serve* o *mi servono*.",
+      "Pedí ayuda con *puoi* o *può* + infinitivo.",
+      "Usé *niente*, *qualcosa* o *nessuno* con *non* cuando hacía falta.",
+    ],
+    minChars: 80,
+  },
+  u17: {
+    prompt: "Escríbele al dueño de un departamento / apartamento que viste en un aviso: pregunta el precio, si está amueblado y pide una visita.",
+    model: "Buongiorno, ho visto il Suo annuncio per l'appartamento in via Roma. Quanto costa l'affitto al mese? È arredato e le spese sono incluse? Vorrei vederlo sabato mattina, se possibile. Grazie e cordiali saluti.",
+    checklist: [
+      "Usé *Lei* con formalidad (*Suo*, *può*).",
+      "Pregunté el precio con *quanto costa* y si está *arredato*.",
+      "Pedí una visita con *vorrei* o *potrei*.",
+      "Cerré con *Grazie* y un saludo formal.",
+    ],
+    minChars: 90,
+  },
+  u18: {
+    prompt: "Escribe dos mensajes cortos: uno a un amigo para quedar mañana y uno formal a un hotel para pedir información.",
+    model: "Ciao Marco! Domani sei libero? Ti chiamo tra dieci minuti. A presto!\n\nGentile signora, Le scrivo per chiedere informazioni sulla camera per il quindici maggio. Cordiali saluti, Laura Mora",
+    checklist: [
+      "Usé un saludo y una despedida distintos para cada registro.",
+      "Usé *ti / tu* con el amigo y *Le / Lei* con el hotel.",
+      "Usé *per* + infinitivo o *tra* + tiempo al menos una vez.",
+      "Usé *Ciao* solo con el amigo y *Gentile… Cordiali saluti* con el hotel.",
+    ],
+    minChars: 100,
+  },
+  u19: {
+    prompt: "Preséntate: cuenta desde cuándo estudias italiano, dónde vives y desde cuándo, y qué se hace en tu ciudad.",
+    model: "Mi chiamo Laura e abito a Santiago da dieci anni. Studio italiano da tre mesi e mi piace molto. A Santiago si mangia bene e si può visitare la montagna. Sono arrivata in Italia tre giorni fa.",
+    checklist: [
+      "Usé *da* + tiempo con el presente (*studio da tre mesi*).",
+      "Usé *si* + verbo para decir qué se hace en mi ciudad.",
+      "Usé *fa* o *per* en una frase en pasado.",
+      "Con *da* el verbo está en presente, no en passato prossimo.",
+    ],
+    minChars: 100,
+  },
+  u21: {
+    prompt: "Un amigo te pide prestadas varias cosas antes de un viaje: respóndele diciendo qué le das y qué no, con pronombres combinados.",
+    model: "Certo, il libro te lo presto volentieri. Il mio numero te lo scrivo qui sotto. La mappa non l'ho più: gliel'ho data ieri a Marco. Se vuoi, te ne mando due copie.",
+    checklist: [
+      "Usé al menos dos pronombres combinados (*te lo, te la, glielo…*).",
+      "Los pronombres van antes del verbo conjugado.",
+      "Con *l'ho / l'ha* el participio concuerda (*data, detta*).",
+      "Escribí *glielo / gliela* pegado, en una sola palabra.",
+    ],
+    minChars: 90,
+  },
+  u22: {
+    prompt: "Da tu opinión sobre un lugar que visitaste: qué piensas, qué esperas y qué es importante hacer.",
+    model: "Penso che Roma sia una città bellissima. Credo che il Colosseo sia molto interessante. Spero che tu venga con me l'anno prossimo. È importante che noi arriviamo presto, perché c'è molta gente.",
+    checklist: [
+      "Usé *penso / credo che* + congiuntivo (*sia, abbia*).",
+      "Usé *spero che* o *voglio che* con otra persona.",
+      "Usé *è importante che* + congiuntivo.",
+      "Con el mismo sujeto usé *di* + infinitivo, no *che*.",
+    ],
+    minChars: 100,
+  },
+  u23: {
+    prompt: "Escribe tres sueños con «si»: qué harías si tuvieras más tiempo, dinero o libertad.",
+    model: "Se avessi più tempo, viaggerei in tutta l'Italia. Se fossi ricca, comprerei una casa vicino al mare. Se potessi scegliere, vivrei a Roma per un anno. E tu, che cosa faresti?",
+    checklist: [
+      "Usé *se* + congiuntivo imperfetto (*avessi, fossi, potessi*).",
+      "En la otra parte usé condizionale (*viaggerei, comprerei*).",
+      "No puse condizionale después de *se*.",
+      "Escribí al menos tres frases con *se*.",
+    ],
+    minChars: 110,
+  },
+  u24: {
+    prompt: "Proyecto final: cuenta un viaje o una experiencia completa. Di dónde fuiste, cómo era, qué hiciste, qué piensas y qué harás o harías.",
+    model: "L'anno scorso sono andata in Italia con un'amica. Faceva caldo e c'era molta gente. Prima abbiamo visitato Roma, poi siamo andate a Firenze in treno. Penso che sia stata un'esperienza bellissima. Se avessi più tempo, resterei un mese. Spero di tornare l'anno prossimo.",
+    checklist: [
+      "Usé passato prossimo para los hechos e imperfetto para describir.",
+      "Usé al menos dos conectores (*prima, poi, perché, mentre, però*).",
+      "Di mi opinión con *penso che* + congiuntivo.",
+      "Usé un plan (*spero di…, tornerò*) o una hipótesis (*se avessi…, resterei*).",
+    ],
+    minChars: 120,
+  },
+  u20: {
+    prompt: "Cuenta lo que te dijo un amigo y da tu opinión, usando al menos tres conectores.",
+    model: "Ieri Marco mi ha detto che era stanco, quindi non è venuto alla festa. Mi ha chiesto se volevo andare da lui, però avevo molto lavoro. Comunque penso che sia stata una buona decisione.",
+    checklist: [
+      "Usé *ha detto che* / *ha chiesto se* para contar lo que dijeron.",
+      "Los verbos del discurso indirecto bajan un paso (*era, volevo*).",
+      "Usé al menos tres conectores (*quindi, però, comunque, perché, invece*).",
+      "Di mi opinión con *penso che* + congiuntivo.",
+    ],
+    minChars: 100,
+  },
 };
 
 export function getWriting(unit: string): WritingTask | undefined {

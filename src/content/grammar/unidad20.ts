@@ -25,7 +25,7 @@ export const unidad20: Lesson = {
     },
     {
       kind: "p",
-      text: "**Discurso indirecto.** Para contar lo que alguien dijo usas *che* y, si hablas de algo pasado, los verbos suelen bajar un paso. «*Sono stanco*» → *Ha detto che **era** stanco.* «*Vengo alle tre*» → *Ha detto che **veniva** alle tre* (en la lengua hablada; en un texto cuidado se prefiere *sarebbe venuto*). Con preguntas se usa *se*: *Mi ha chiesto **se** parlo italiano.*",
+      text: "**Discurso indirecto.** Para contar lo que alguien dijo usas *che* y, si hablas de algo pasado, los verbos suelen bajar un paso. «*Sono stanco*» → *Ha detto che **era** stanco.* «*Vengo alle tre*» → *Ha detto che **veniva** alle tre* (en la lengua hablada; en un texto cuidado se prefiere *sarebbe venuto*). Con preguntas se usa *se*: *Mi ha chiesto **se** parlo italiano* (si sigue siendo cierto) o *se parlavo italiano* (referido a aquel momento).",
     },
     {
       kind: "p",
@@ -83,7 +83,7 @@ export const unidad20: Lesson = {
     {
       type: "choice",
       prompt: "¿Cuál de estas es una forma de congiuntivo?",
-      options: ["sono", "sia", "siamo"],
+      options: ["sono", "sia", "eravamo"],
       answer: 1,
       why: "*Sia* es el congiuntivo de *essere*.",
     },

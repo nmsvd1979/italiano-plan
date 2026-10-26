@@ -29,6 +29,7 @@ No depende del calendario. El currículo es una lista ordenada de actividades: c
 - **Orden garantizado:** la práctica nunca va antes de su lección, y el test de fase espera a todas las lecciones de su fase.
 - **Ritmo y proyección:** en Ajustes eliges cuántas sesiones por semana quieres sostener; Hoy dice si vas al día y estima la fecha de fin con tu ritmo real de las últimas dos semanas.
 - **Unidades "pronto":** figuran en el Plan, pero el flujo diario las salta hasta que tengan contenido.
+- **Estado del contenido:** las 24 unidades tienen lección, vocabulario, dictado, escritura y diálogo. Pendientes de verificar a mano: el audio nativo de las palabras nuevas (ver «Audio») y un video de shadowing para las unidades 16 a 19 y 21 a 24.
 
 ## Desarrollo
 
@@ -60,7 +61,11 @@ Para cambiar actividades, minutos o links se edita `src/content/plan.ts`; para a
 
 ## Audio
 
-Las grabaciones de pronunciación son de [Lingua Libre](https://lingualibre.org/) (Wikimedia Commons, licencia CC BY-SA 4.0). Los créditos de cada archivo están en `public/audio/ATTRIBUZIONI.md`. Para agregar palabras: súmalas a `units.json` (pronunciación) o a `vocab.json` (vocabulario) y corre `npm run audio`; el script es idempotente y regenera los créditos de todos los archivos.
+Las grabaciones de pronunciación son de [Lingua Libre](https://lingualibre.org/) (Wikimedia Commons, licencia CC BY-SA 4.0). Los créditos de cada archivo están en `public/audio/ATTRIBUZIONI.md`. Las palabras que aún no tienen grabación están en `AUDIO_PENDING` (`src/content/pronunciation/index.ts`) y se leen con la voz del sistema: corre `npm run audio` en tu computador y quita de esa lista las que ya tengan archivo (el test te avisa). Para agregar palabras: súmalas a `units.json` (pronunciación) o a `vocab.json` (vocabulario) y corre `npm run audio`; el script es idempotente y regenera los créditos de todos los archivos.
+
+## Shadowing sin video verificado
+
+Para las unidades que no figuran en `SHADOWING` (`src/content/shadowing.ts`) la pantalla ofrece una búsqueda guiada en YouTube y pide pegar el link del video elegido. Cuando verifiques un video con oEmbed, agrégalo a `SHADOWING` y quita la unidad de `SHADOWING_SEARCH`.
 
 ## Revisión del italiano
 

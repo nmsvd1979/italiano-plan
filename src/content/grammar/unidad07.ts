@@ -38,6 +38,26 @@ export const unidad07: Lesson = {
         ["acción en curso", "*stare* + gerundio", "*Sto studiando.*"],
       ],
     },
+    {
+      kind: "p",
+      text: "**Gerundios irregulares:** *fare → facendo*, *dire → dicendo*, *bere → bevendo* (*Che stai facendo? Sto bevendo un caffè.*). Los demás son regulares: *-are → -ando*, *-ere / -ire → -endo*.",
+    },
+    {
+      kind: "p",
+      text: "**Presente de cinco verbos irregulares muy frecuentes:**",
+    },
+    {
+      kind: "table",
+      head: ["", "fare", "dire", "dare", "stare", "bere"],
+      rows: [
+        ["io", "faccio", "dico", "do", "sto", "bevo"],
+        ["tu", "fai", "dici", "dai", "stai", "bevi"],
+        ["lui/lei", "fa", "dice", "dà", "sta", "beve"],
+        ["noi", "facciamo", "diciamo", "diamo", "stiamo", "beviamo"],
+        ["voi", "fate", "dite", "date", "state", "bevete"],
+        ["loro", "fanno", "dicono", "danno", "stanno", "bevono"],
+      ],
+    },
   ],
   transfer:
     "*Stare* no es *estar*. En español *estar* cubre lugar, estado y acción; en italiano el lugar y las características van con *essere* (*Sono a Milano*, *Sono stanco*), y *stare* queda para el bienestar (*Sto bene*) y la acción en curso (*Sto mangiando*). Para estar en un lugar usa *essere* (*Sono a Milano*); *stare a* + lugar significa quedarse (*Sto a casa*). El error típico es decir *Sto a Milano* con el sentido de \"estoy en Milán\", o *Sto stanco*.",
@@ -111,5 +131,12 @@ export const unidad07: Lesson = {
     {type: "fill", prompt: "Lui sta ___ in cucina. (dormire)", answers: ["dormendo"], why: "*Dormire → dormendo*."},
     {type: "choice", prompt: "«Ella se peina»", options: ["Lei si pettina", "Lei pettina", "Lei ti pettina"], answer: 0, why: "Reflexivo con *lei*: *si pettina*."},
     {type: "choice", prompt: "«Estoy bien, gracias»", options: ["Sto bene, grazie", "Sono bene, grazie", "Ho bene, grazie"], answer: 0, why: "El bienestar va con *stare*: *sto bene*."},
+    { type: "fill", prompt: "Che stai ___? (fare)", answers: ["facendo"], why: "*Fare* tiene gerundio irregular: *facendo*." },
+    { type: "fill", prompt: "Sto ___ un caffè. (bere)", answers: ["bevendo"], why: "*Bere → bevendo*." },
+    { type: "fill", prompt: "Che cosa ___ tu di solito? (fare)", answers: ["fai"], why: "*Fare* con *tu*: *fai*." },
+    { type: "fill", prompt: "Io ___ sempre grazie. (dire)", answers: ["dico"], why: "*Dire* con *io*: *dico*." },
+    { type: "fill", prompt: "Loro ___ a Roma. (stare)", answers: ["stanno"], why: "*Stare* con *loro*: *stanno*." },
+    { type: "fill", prompt: "Lui ___ un regalo a Marco. (dare)", answers: ["dà"], why: "*Dare* con *lui*: *dà*, con tilde." },
+    { type: "fill", prompt: "Noi ___ un'acqua. (bere)", answers: ["beviamo"], why: "*Bere* con *noi*: *beviamo*." },
   ],
 };

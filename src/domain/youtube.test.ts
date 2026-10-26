@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { READY_UNITS } from "../content/curriculum";
-import { SHADOWING } from "../content/shadowing";
+import { SHADOWING, SHADOWING_SEARCH } from "../content/shadowing";
 import { isValidSegment, parseYouTubeId } from "./youtube";
 
 describe("parseYouTubeId", () => {
@@ -34,7 +34,10 @@ describe("videos de shadowing", () => {
   it("cada unidad disponible tiene un principal y un alternativo distintos, con id de 11 caracteres", () => {
     for (const { id: u } of READY_UNITS) {
       const v = SHADOWING[u];
-      expect(v, `unidad ${u}`).toBeDefined();
+      if (!v) {
+        expect(SHADOWING_SEARCH[u], `unidad ${u}: sin video ni búsqueda guiada`).toBeTruthy();
+        continue;
+      }
       expect(v.main.id).toMatch(/^[A-Za-z0-9_-]{11}$/);
       expect(v.alt.id).toMatch(/^[A-Za-z0-9_-]{11}$/);
       expect(v.main.id).not.toBe(v.alt.id);

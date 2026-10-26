@@ -128,42 +128,42 @@ export const UNITS: UnitMeta[] = [
     "Puedo pedir favores con cortesía (potrebbe, vorrei).",
     "Puedo dar un consejo.",
   ]),
-  u(16, "Salud y emergencias", false, [
+  u(16, "Salud y emergencias", true, [
     "Puedo explicar qué me duele y pedir ayuda médica.",
     "Puedo entender instrucciones de un médico o farmacéutico.",
     "Puedo pedir ayuda en una emergencia.",
   ]),
-  u(17, "Casa, alquiler y trámites", false, [
+  u(17, "Casa, alquiler y trámites", true, [
     "Puedo preguntar por un alquiler y entender las condiciones.",
     "Puedo explicar un problema en la casa.",
     "Puedo entender y rellenar un trámite básico.",
   ]),
-  u(18, "Teléfono, mensajes y mails", false, [
+  u(18, "Teléfono, mensajes y mails", true, [
     "Puedo hacer y contestar una llamada simple.",
     "Puedo escribir un mensaje o mail informal y uno formal.",
   ]),
-  u(19, "Impersonal, da + tiempo y stare per", false, [
+  u(19, "Impersonal, da + tiempo y stare per", true, [
     "Puedo decir cómo se hacen las cosas en general (si impersonale).",
     "Puedo decir desde cuándo hago algo.",
     "Puedo anunciar algo que está por pasar.",
   ]),
-  u(20, "Discurso indirecto y conectores", false, [
+  u(20, "Discurso indirecto y conectores", true, [
     "Puedo contar lo que otra persona dijo.",
     "Puedo enlazar ideas con conectores en una conversación.",
   ]),
-  u(21, "Pronombres combinados", false, [
+  u(21, "Pronombres combinados", true, [
     "Puedo usar glielo, me lo, te la en frases cotidianas.",
     "Puedo entender estos pronombres cuando los oigo.",
   ]),
-  u(22, "Congiuntivo presente en uso", false, [
+  u(22, "Congiuntivo presente en uso", true, [
     "Puedo expresar una opinión con penso che / credo che.",
     "Puedo expresar un deseo o una duda.",
   ]),
-  u(23, "Hipótesis: periodo ipotetico", false, [
+  u(23, "Hipótesis: periodo ipotetico", true, [
     "Puedo hablar de posibilidades con se + presente.",
     "Puedo plantear una hipótesis con se + congiuntivo imperfetto.",
   ]),
-  u(24, "Repaso general y proyecto final", false, [
+  u(24, "Repaso general y proyecto final", true, [
     "Puedo contar una experiencia completa: presente, pasado y planes.",
     "Puedo resolver situaciones de viaje y de vida diaria con seguridad.",
   ]),
