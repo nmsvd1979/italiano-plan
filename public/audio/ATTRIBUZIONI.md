@@ -41,10 +41,12 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `sete--crunchy-cloaky-crackdown.mp3` — «sete», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-sete.wav
 - `pena--divoletto.mp3` — «pena», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-pena.wav
 - `penna--langpao.mp3` — «penna», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-penna.wav
+- `bene--punsisil.mp3` — «bene», voz de Punsisil — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Punsisil-bene.wav
 - `mamma--xana000.mp3` — «mamma», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-mamma.wav
 - `mamma--langpao.mp3` — «mamma», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mamma.wav
 - `mamma--happypheasant.mp3` — «mamma», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-mamma.wav
 - `rosa--langpao.mp3` — «rosa», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-rosa.wav
+- `vino--xana000.mp3` — «vino», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-vino.wav
 - `venti--xana000.mp3` — «venti», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-venti.wav
 - `venti--ciampix.mp3` — «venti», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-venti.wav
 - `venti--cerchia-g.mp3` — «venti», voz de Cerchia G — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Cerchia_G-venti.wav
@@ -107,9 +109,16 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `specchio--langpao.mp3` — «specchio», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-specchio.wav
 - `specchio--happypheasant.mp3` — «specchio», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-specchio.wav
 - `sposa--crunchy-cloaky-crackdown.mp3` — «sposa», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-sposa.wav
+- `sciarpa--jennum.mp3` — «sciarpa», voz de Jennum — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Jennum-sciarpa.wav
+- `spiaggia--happypheasant.mp3` — «spiaggia», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-spiaggia.wav
 - `giallo--langpao.mp3` — «giallo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-giallo.wav
 - `giallo--ciampix.mp3` — «giallo», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-giallo.wav
 - `gallo--langpao.mp3` — «gallo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-gallo.wav
+- `bacca--langpao.mp3` — «bacca», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-bacca.wav
+- `vacca--crunchy-cloaky-crackdown.mp3` — «vacca», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-vacca.wav
+- `basta--xana000.mp3` — «basta», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-basta.wav
+- `basta--happypheasant.mp3` — «basta», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-basta.wav
+- `basta--langpao.mp3` — «basta», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-basta.wav
 - `rosso--ciampix.mp3` — «rosso», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-rosso.wav
 - `rosso--langpao.mp3` — «rosso», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-rosso.wav
 - `bianco--langpao.mp3` — «bianco», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-bianco.wav
@@ -128,6 +137,7 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `questo--happypheasant.mp3` — «questo», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-questo.wav
 - `quello--xana000.mp3` — «quello», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-quello.wav
 - `quello--langpao.mp3` — «quello», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-quello.wav
+- `bello--langpao.mp3` — «bello», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-bello.wav
 - `gli--crunchy-cloaky-crackdown.mp3` — «gli», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-gli.wav
 - `li--divoletto.mp3` — «li», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-li.wav
 - `li--xana000.mp3` — «li», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-LI.wav
@@ -140,7 +150,6 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `famiglia--langpao.mp3` — «famiglia», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-famiglia.wav
 - `bagno--happypheasant.mp3` — «bagno», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-bagno.wav
 - `bagno--langpao.mp3` — «bagno», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-bagno.wav
-- `sciarpa--jennum.mp3` — «sciarpa», voz de Jennum — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Jennum-sciarpa.wav
 - `figlio--langpao.mp3` — «figlio», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-figlio.wav
 - `ragno--langpao.mp3` — «ragno», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-ragno.wav
 - `quanto--langpao.mp3` — «quanto», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-quanto.wav
@@ -167,9 +176,9 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `nessuno--langpao.mp3` — «nessuno», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-nessuno.wav
 - `pazzo--diplomaticbadger.mp3` — «pazzo», voz de DiplomaticBadger — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DiplomaticBadger-pazzo.wav
 - `passo--divoletto.mp3` — «passo», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-passo.wav
-- `pizza--anakin-wikiwalker.mp3` — «pizza», voz de Anakin Wikiwalker — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Anakin_Wikiwalker-pizza.wav
+- `pizza--anakin-wikiwalker.mp3` — «pizza», voz de Anakin Wikiwalker — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Anakin_Wikiwalker-Pizza.wav
 - `pizza--langpao.mp3` — «pizza», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-pizza.wav
-- `pizza--anakin-wikiwalker.mp3` — «pizza», voz de Anakin Wikiwalker — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Anakin_Wikiwalker-pizza.wav
+- `pizza--anakin-wikiwalker.mp3` — «pizza», voz de Anakin Wikiwalker — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Anakin_Wikiwalker-Pizza.wav
 - `grazie--langpao.mp3` — «grazie», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-grazie.wav
 - `grazie--punsisil.mp3` — «grazie», voz de Punsisil — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Punsisil-grazie.wav
 - `grazie--xana000.mp3` — «grazie», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-grazie.wav
@@ -192,9 +201,8 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `letto--langpao.mp3` — «letto», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-letto.wav
 - `letto--happypheasant.mp3` — «letto», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-letto.wav
 - `scritto--langpao.mp3` — «scritto», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-scritto.wav
-- `preso--langpao.mp3` — «preso», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-preso.wav
-- `aperto--crunchy-cloaky-crackdown.mp3` — «aperto», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-aperto.wav
-- `visto--divoletto.mp3` — «visto», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-visto.wav
+- `rotto--langpao.mp3` — «rotto», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-rotto.wav
+- `capitano--langpao.mp3` — «capitano», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-capitano.wav
 - `telefono--ciampix.mp3` — «telefono», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-telefono.wav
 - `telefono--xana000.mp3` — «telefono», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-telefono.wav
 - `telefono--cerchia-g.mp3` — «telefono», voz de Cerchia G — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Cerchia_G-telefono.wav
@@ -224,7 +232,6 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `peggiore--langpao.mp3` — «peggiore», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-peggiore.wav
 - `peggiore--happypheasant.mp3` — «peggiore», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-peggiore.wav
 - `buono--langpao.mp3` — «buono», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-buono.wav
-- `bello--langpao.mp3` — «bello», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-bello.wav
 - `pomodoro--happypheasant.mp3` — «pomodoro», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-pomodoro.wav
 - `pomodoro--langpao.mp3` — «pomodoro», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-pomodoro.wav
 - `formaggio--valerio-bozzolan.mp3` — «formaggio», voz de Valerio Bozzolan — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Valerio_Bozzolan-formaggio.wav
@@ -239,6 +246,84 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `paese--ciampix.mp3` — «paese», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-paese.wav
 - `paese--xana000.mp3` — «paese», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-paese.wav
 - `esame--crunchy-cloaky-crackdown.mp3` — «esame», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-esame.wav
+- `tuta--langpao.mp3` — «tuta», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-tuta.wav
+- `schiena--crunchy-cloaky-crackdown.mp3` — «schiena», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-schiena.wav
+- `stomaco--happypheasant.mp3` — «stomaco», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-stomaco.wav
+- `stomaco--langpao.mp3` — «stomaco», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-stomaco.wav
+- `stomaco--ciampix.mp3` — «stomaco», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-stomaco.wav
+- `febbre--langpao.mp3` — «febbre», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-febbre.wav
+- `febbre--happypheasant.mp3` — «febbre», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-febbre.wav
+- `tosse--langpao.mp3` — «tosse», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-tosse.wav
+- `gola--langpao.mp3` — «gola», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-gola.wav
+- `medico--happypheasant.mp3` — «medico», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-medico.wav
+- `medico--xana000.mp3` — «medico», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-medico.wav
+- `medico--langpao.mp3` — «medico», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-medico.wav
+- `ambulanza--crunchy-cloaky-crackdown.mp3` — «ambulanza», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-ambulanza.wav
+- `emergenza--langpao.mp3` — «emergenza», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-emergenza.wav
+- `farmacia--ciampix.mp3` — «farmacia», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-farmacia.wav
+- `testa--ciampix.mp3` — «testa», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-testa.wav
+- `sera--langpao.mp3` — «sera», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-sera.wav
+- `terzo--xana000.mp3` — «terzo», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-terzo.wav
+- `terzo--langpao.mp3` — «terzo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-terzo.wav
+- `terzo--happypheasant.mp3` — «terzo», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-terzo.wav
+- `quarto--xana000.mp3` — «quarto», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-quarto.wav
+- `quarto--happypheasant.mp3` — «quarto», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-quarto.wav
+- `quarto--langpao.mp3` — «quarto», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-quarto.wav
+- `quinto--xana000.mp3` — «quinto», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-quinto.wav
+- `quinto--happypheasant.mp3` — «quinto», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-quinto.wav
+- `quinto--langpao.mp3` — «quinto», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-quinto.wav
+- `ascensore--langpao.mp3` — «ascensore», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-ascensore.wav
+- `riscaldamento--langpao.mp3` — «riscaldamento», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-riscaldamento.wav
+- `riscaldamento--happypheasant.mp3` — «riscaldamento», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-riscaldamento.wav
+- `rubinetto--langpao.mp3` — «rubinetto», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-rubinetto.wav
+- `affitto--divoletto.mp3` — «affitto», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-affitto.wav
+- `notte--jtorquy.mp3` — «notte», voz de Jtorquy — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Jtorquy-notte.wav
+- `notte--langpao.mp3` — «notte», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-notte.wav
+- `notte--cerchia-g.mp3` — «notte», voz de Cerchia G — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Cerchia_G-notte.wav
+- `nonna--langpao.mp3` — «nonna», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-nonna.wav
+- `attimo--happypheasant.mp3` — «attimo», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-attimo.wav
+- `attimo--langpao.mp3` — «attimo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-attimo.wav
+- `messaggio--langpao.mp3` — «messaggio», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-messaggio.wav
+- `pronto--xana000.mp3` — «pronto», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-pronto.wav
+- `pronto--langpao.mp3` — «pronto», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-pronto.wav
+- `cellulare--langpao.mp3` — «cellulare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-cellulare.wav
+- `cellulare--happypheasant.mp3` — «cellulare», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-cellulare.wav
+- `gentile--happypheasant.mp3` — «gentile», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-gentile.wav
+- `gentile--langpao.mp3` — «gentile», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-gentile.wav
+- `informazione--crunchy-cloaky-crackdown.mp3` — «informazione», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-informazione.wav
+- `ho--xana000.mp3` — «ho», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-ho.wav
+- `hai--xana000.mp3` — «hai», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-hai.wav
+- `ha--xana000.mp3` — «ha», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-ha.wav
+- `hanno--xana000.mp3` — «hanno», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-hanno.wav
+- `anno--ciampix.mp3` — «anno», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-anno.wav
+- `anno--langpao.mp3` — «anno», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-anno.wav
+- `ora--xana000.mp3` — «ora», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-ora.wav
+- `ormai--langpao.mp3` — «ormai», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-ormai.wav
+- `ormai--happypheasant.mp3` — «ormai», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-ormai.wav
+- `entrata--divoletto.mp3` — «entrata», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-entrata.wav
+- `pero--happypheasant.mp3` — «però», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-per%C3%B2.wav
+- `pero--xana000.mp3` — «però», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-per%C3%B2.wav
+- `pero--langpao.mp3` — «però», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-per%C3%B2.wav
+- `quindi--xana000.mp3` — «quindi», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-quindi.wav
+- `quindi--langpao.mp3` — «quindi», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-quindi.wav
+- `quindi--happypheasant.mp3` — «quindi», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-quindi.wav
+- `comunque--happypheasant.mp3` — «comunque», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-comunque.wav
+- `comunque--xana000.mp3` — «comunque», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-comunque.wav
+- `comunque--langpao.mp3` — «comunque», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-comunque.wav
+- `insomma--happypheasant.mp3` — «insomma», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-insomma.wav
+- `insomma--langpao.mp3` — «insomma», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-insomma.wav
+- `allora--xana000.mp3` — «allora», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-allora.wav
+- `invece--langpao.mp3` — «invece», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-invece.wav
+- `invece--happypheasant.mp3` — «invece», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-invece.wav
+- `magari--langpao.mp3` — «magari», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-magari.wav
+- `glielo--xana000.mp3` — «glielo», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-glielo.wav
+- `gliela--xana000.mp3` — «gliela», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-gliela.wav
+- `sia--divoletto.mp3` — «sia», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-sia.wav
+- `faccia--langpao.mp3` — «faccia», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-faccia.wav
+- `siamo--xana000.mp3` — «siamo», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-siamo.wav
+- `pozzo--langpao.mp3` — «pozzo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-pozzo.wav
+- `fossi--langpao.mp3` — «fossi», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-fossi.wav
+- `viaggio--happypheasant.mp3` — «viaggio», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-viaggio.wav
 - `buonasera--xana000.mp3` — «buonasera», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-buonasera.wav
 - `buonanotte--xana000.mp3` — «buonanotte», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-buonanotte.wav
 - `arrivederci--xana000.mp3` — «arrivederci», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-arrivederci.wav
@@ -246,7 +331,6 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `scusi--xana000.mp3` — «scusi», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-scusi.wav
 - `scusa--langpao.mp3` — «scusa», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-scusa.wav
 - `piacere--langpao.mp3` — «piacere», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-piacere.wav
-- `bene--punsisil.mp3` — «bene», voz de Punsisil — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Punsisil-bene.wav
 - `male--crunchy-cloaky-crackdown.mp3` — «male», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-male.wav
 - `signore--langpao.mp3` — «signore», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-signore.wav
 - `signora--langpao.mp3` — «signora», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-signora.wav
@@ -261,11 +345,9 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `quartiere--langpao.mp3` — «quartiere», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-quartiere.wav
 - `piazza--crunchy-cloaky-crackdown.mp3` — «piazza», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-piazza.wav
 - `supermercato--xana000.mp3` — «supermercato», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-supermercato.wav
-- `farmacia--ciampix.mp3` — «farmacia», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-farmacia.wav
 - `parco--happypheasant.mp3` — «parco», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-parco.wav
 - `lontano--happypheasant.mp3` — «lontano», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-lontano.wav
 - `trenta--xana000.mp3` — «trenta», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-trenta.wav
-- `ora--xana000.mp3` — «ora», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-ora.wav
 - `minuto--langpao.mp3` — «minuto», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-minuto.wav
 - `mezzogiorno--langpao.mp3` — «mezzogiorno», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mezzogiorno.wav
 - `mezzanotte--langpao.mp3` — «mezzanotte», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mezzanotte.wav
@@ -274,17 +356,13 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `ieri--langpao.mp3` — «ieri», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-ieri.wav
 - `settimana--ciampix.mp3` — «settimana», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-settimana.wav
 - `mese--ciampix.mp3` — «mese», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-mese.wav
-- `anno--ciampix.mp3` — «anno», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-anno.wav
-- `anno--langpao.mp3` — «anno», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-anno.wav
 - `mattina--langpao.mp3` — «mattina», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mattina.wav
 - `pomeriggio--langpao.mp3` — «pomeriggio», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-pomeriggio.wav
-- `sera--langpao.mp3` — «sera», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-sera.wav
 - `prezzo--langpao.mp3` — «prezzo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-prezzo.wav
 - `costare--langpao.mp3` — «costare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-costare.wav
 - `cappuccino--divoletto.mp3` — «cappuccino», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-cappuccino.wav
 - `cornetto--happypheasant.mp3` — «cornetto», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-cornetto.wav
 - `acqua--langpao.mp3` — «acqua», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-acqua.wav
-- `vino--xana000.mp3` — «vino», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-vino.wav
 - `birra--xana000.mp3` — «birra», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-birra.wav
 - `panino--langpao.mp3` — «panino», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-panino.wav
 - `pasta--jennum.mp3` — «pasta», voz de Jennum — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Jennum-pasta.wav
@@ -310,7 +388,6 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `semaforo--happypheasant.mp3` — «semaforo», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-semaforo.wav
 - `mappa--crunchy-cloaky-crackdown.mp3` — «mappa», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-mappa.wav
 - `uscita--langpao.mp3` — «uscita», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-uscita.wav
-- `entrata--divoletto.mp3` — «entrata», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-entrata.wav
 - `partire--happypheasant.mp3` — «partire», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-partire.wav
 - `arrivare--xana000.mp3` — «arrivare», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-arrivare.wav
 - `salire--langpao.mp3` — «salire», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-salire.wav
@@ -367,7 +444,6 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `restare--happypheasant.mp3` — «restare», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-restare.wav
 - `nascere--happypheasant.mp3` — «nascere», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-nascere.wav
 - `diventare--divoletto.mp3` — «diventare», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-diventare.wav
-- `viaggio--happypheasant.mp3` — «viaggio», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-viaggio.wav
 - `valigia--happypheasant.mp3` — «valigia», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-valigia.wav
 - `mare--langpao.mp3` — «mare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mare.wav
 - `montagna--happypheasant.mp3` — «montagna», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-montagna.wav
@@ -375,13 +451,10 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `aereo--happypheasant.mp3` — «aereo», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-aereo.wav
 - `domenica--ciampix.mp3` — «domenica», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-domenica.wav
 - `lunedi--xana000.mp3` — «lunedì», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-luned%C3%AC.wav
-- `spiaggia--happypheasant.mp3` — «spiaggia», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-spiaggia.wav
 - `partenza--langpao.mp3` — «partenza», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-partenza.wav
-- `allora--xana000.mp3` — «allora», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-allora.wav
 - `mentre--langpao.mp3` — «mentre», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mentre.wav
 - `giocare--langpao.mp3` — «giocare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-giocare.wav
 - `ricordare--ciampix.mp3` — «ricordare», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-ricordare.wav
-- `nonna--langpao.mp3` — «nonna», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-nonna.wav
 - `vecchio--maupao70.mp3` — «vecchio», voz de Maupao70 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Maupao70-vecchio.wav
 - `giovane--langpao.mp3` — «giovane», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-giovane.wav
 - `abitare--langpao.mp3` — «abitare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-abitare.wav
@@ -439,9 +512,82 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `sicuramente--langpao.mp3` — «sicuramente», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-sicuramente.wav
 - `sperare--crunchy-cloaky-crackdown.mp3` — «sperare», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-sperare.wav
 - `consiglio--langpao.mp3` — «consiglio», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-consiglio.wav
-- `magari--langpao.mp3` — «magari», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-magari.wav
 - `invito--langpao.mp3` — «invito», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-invito.wav
 - `festa--langpao.mp3` — «festa», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-festa.wav
 - `programma--langpao.mp3` — «programma», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-programma.wav
 - `decidere--langpao.mp3` — «decidere», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-decidere.wav
 - `organizzare--happypheasant.mp3` — «organizzare», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-organizzare.wav
+- `medicina--happypheasant.mp3` — «medicina», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-medicina.wav
+- `compressa--langpao.mp3` — «compressa», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-compressa.wav
+- `sciroppo--langpao.mp3` — «sciroppo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-sciroppo.wav
+- `raffreddore--langpao.mp3` — «raffreddore», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-raffreddore.wav
+- `dente--langpao.mp3` — «dente», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-dente.wav
+- `riposare--happypheasant.mp3` — «riposare», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-riposare.wav
+- `servire--divoletto.mp3` — «servire», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-servire.wav
+- `qualcosa--happypheasant.mp3` — «qualcosa», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-qualcosa.wav
+- `affittare--happypheasant.mp3` — «affittare», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-affittare.wav
+- `contratto--langpao.mp3` — «contratto», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-contratto.wav
+- `lavatrice--langpao.mp3` — «lavatrice», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-lavatrice.wav
+- `chiave--langpao.mp3` — «chiave», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-chiave.wav
+- `firmare--happypheasant.mp3` — «firmare», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-firmare.wav
+- `documento--langpao.mp3` — «documento», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-documento.wav
+- `appuntamento--langpao.mp3` — «appuntamento», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-appuntamento.wav
+- `sportello--happypheasant.mp3` — «sportello», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-sportello.wav
+- `mancare--langpao.mp3` — «mancare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mancare.wav
+- `funzionare--divoletto.mp3` — «funzionare», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-funzionare.wav
+- `numero--langpao.mp3` — «numero», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-numero.wav
+- `rispondere--langpao.mp3` — «rispondere», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-rispondere.wav
+- `linea--happypheasant.mp3` — «linea», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-linea.wav
+- `inviare--langpao.mp3` — «inviare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-inviare.wav
+- `allegare--xana000.mp3` — «allegare», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-allegare.wav
+- `risposta--langpao.mp3` — «risposta», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-risposta.wav
+- `sentire--langpao.mp3` — «sentire», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-sentire.wav
+- `tra--happypheasant.mp3` — «tra», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-tra.wav
+- `parola--danielparoliere.mp3` — «parola», voz de DanielParoliere — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DanielParoliere-parola.wav
+- `frase--langpao.mp3` — «frase», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-frase.wav
+- `tempo--ciampix.mp3` — «tempo», voz de Ciampix — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Ciampix-tempo.wav
+- `da--crunchy-cloaky-crackdown.mp3` — «da», voz de Crunchy Cloaky Crackdown — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Crunchy_Cloaky_Crackdown-da.wav
+- `appena--langpao.mp3` — «appena», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-appena.wav
+- `vietato--langpao.mp3` — «vietato», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-vietato.wav
+- `regola--langpao.mp3` — «regola», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-regola.wav
+- `davvero--langpao.mp3` — «davvero», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-davvero.wav
+- `prestare--langpao.mp3` — «prestare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-prestare.wav
+- `spiegare--happypheasant.mp3` — «spiegare», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-spiegare.wav
+- `mostrare--langpao.mp3` — «mostrare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-mostrare.wav
+- `consegnare--divoletto.mp3` — «consegnare», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-consegnare.wav
+- `pacco--divoletto.mp3` — «pacco», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-pacco.wav
+- `guida--xana000.mp3` — «guida», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-Guida.wav
+- `volentieri--langpao.mp3` — «volentieri», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-volentieri.wav
+- `pensare--happypheasant.mp3` — «pensare», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-pensare.wav
+- `credere--langpao.mp3` — «credere», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-credere.wav
+- `dubitare--langpao.mp3` — «dubitare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-dubitare.wav
+- `sembrare--happypheasant.mp3` — «sembrare», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-sembrare.wav
+- `preferire--langpao.mp3` — «preferire», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-preferire.wav
+- `immaginare--happypheasant.mp3` — «immaginare», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-immaginare.wav
+- `importante--langpao.mp3` — «importante», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-importante.wav
+- `possibile--divoletto.mp3` — «possibile», voz de DivoLetto — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-DivoLetto-possibile.wav
+- `probabile--langpao.mp3` — «probabile», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-probabile.wav
+- `sicuro--langpao.mp3` — «sicuro», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-sicuro.wav
+- `vero--langpao.mp3` — «vero», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-vero.wav
+- `contento--langpao.mp3` — «contento», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-contento.wav
+- `se--happypheasant.mp3` — «se», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-se.wav
+- `ricco--langpao.mp3` — «ricco», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-ricco.wav
+- `soldi--langpao.mp3` — «soldi», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-soldi.wav
+- `vincere--langpao.mp3` — «vincere», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-vincere.wav
+- `possibilita--langpao.mp3` — «possibilità», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-possibilit%C3%A0.wav
+- `occasione--langpao.mp3` — «occasione», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-occasione.wav
+- `lavoro--sannita.mp3` — «lavoro», voz de Sannita — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Sannita-lavoro.wav
+- `viaggiare--langpao.mp3` — «viaggiare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-viaggiare.wav
+- `purtroppo--happypheasant.mp3` — «purtroppo», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-purtroppo.wav
+- `esperienza--langpao.mp3` — «esperienza», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-esperienza.wav
+- `ricordo--langpao.mp3` — «ricordo», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-ricordo.wav
+- `imparare--langpao.mp3` — «imparare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-imparare.wav
+- `migliorare--langpao.mp3` — «migliorare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-migliorare.wav
+- `vacanza--happypheasant.mp3` — «vacanza», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-vacanza.wav
+- `raccontare--happypheasant.mp3` — «raccontare», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-raccontare.wav
+- `domandare--langpao.mp3` — «domandare», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-domandare.wav
+- `promettere--happypheasant.mp3` — «promettere», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-promettere.wav
+- `aggiungere--xana000.mp3` — «aggiungere», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-aggiungere.wav
+- `notizia--happypheasant.mp3` — «notizia», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-notizia.wav
+- `domanda--langpao.mp3` — «domanda», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-domanda.wav
+- `secondo--xana000.mp3` — «secondo», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-secondo.wav
