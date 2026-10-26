@@ -65,11 +65,8 @@
     "che": "qué / que",
     "pane": "pan",
     "panna": "crema de leche / nata",
-    "vene": "venas",
     "bacca": "baya",
     "vacca": "vaca",
-    "basta": "basta",
-    "vasta": "vasta / amplia",
     "papà": "papá",
     "ancora": "todavía / otra vez",
     "àncora": "ancla",
@@ -126,7 +123,11 @@
     "allora": "entonces",
     "invece": "en cambio",
     "magari": "ojalá",
-    "bene": "bien"
+    "bene": "bien",
+    "abete": "abeto",
+    "avete": "ustedes tienen",
+    "buoi": "bueyes",
+    "vuoi": "quieres"
   },
   "units": [
     {
@@ -164,7 +165,7 @@
     {
       "unit": "u02",
       "title": "Consonantes dobles (I)",
-      "tip": "La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído. En español *b* y *v* suenan igual; en italiano no: la *v* se hace con los dientes de arriba sobre el labio de abajo (como una *f* con voz), y la *b* con los dos labios: *bene* (bien) frente a *vene* (venas).",
+      "tip": "La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído. En español *b* y *v* suenan igual; en italiano no: la *v* se hace con los dientes de arriba sobre el labio de abajo (como una *f* con voz), y la *b* con los dos labios: *abete* (abeto) frente a *avete* (ustedes tienen).",
       "pairs": [
         [
           "palla",
@@ -183,8 +184,8 @@
           "penna"
         ],
         [
-          "bene",
-          "vene"
+          "abete",
+          "avete"
         ]
       ],
       "words": [
@@ -277,7 +278,7 @@
     {
       "unit": "u06",
       "title": "Colores y ropa: CH, GI y dobles",
-      "tip": "*ch* y *gh* delante de *e/i* suenan como *k* y *g* dura: *chi* (quién), distinto de *ci* (nos/allí). En cambio *gi* es suave: *giallo* (amarillo) frente a *gallo* (g dura). Las dobles de *rosso*, *azzurro* y *cappello* se alargan: *cappello* (sombrero) frente a *capello* (cabello). En español *b* y *v* suenan igual; en italiano no: la *v* se hace con los dientes de arriba sobre el labio de abajo (como una *f* con voz), y la *b* con los dos labios: *bene* (bien) frente a *vene* (venas).",
+      "tip": "*ch* y *gh* delante de *e/i* suenan como *k* y *g* dura: *chi* (quién), distinto de *ci* (nos/allí). En cambio *gi* es suave: *giallo* (amarillo) frente a *gallo* (g dura). Las dobles de *rosso*, *azzurro* y *cappello* se alargan: *cappello* (sombrero) frente a *capello* (cabello). En español *b* y *v* suenan igual; en italiano no: la *v* se hace con los dientes de arriba sobre el labio de abajo (como una *f* con voz), y la *b* con los dos labios: *buoi* (bueyes) frente a *vuoi* (quieres).",
       "pairs": [
         [
           "giallo",
@@ -296,8 +297,8 @@
           "vacca"
         ],
         [
-          "basta",
-          "vasta"
+          "buoi",
+          "vuoi"
         ]
       ],
       "words": [
