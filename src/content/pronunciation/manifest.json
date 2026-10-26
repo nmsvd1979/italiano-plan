@@ -78,8 +78,11 @@
   "penna": [
     "penna--langpao.mp3"
   ],
-  "bene": [
-    "bene--punsisil.mp3"
+  "abete": [
+    "abete--crunchy-cloaky-crackdown.mp3"
+  ],
+  "avete": [
+    "avete--xana000.mp3"
   ],
   "mamma": [
     "mamma--xana000.mp3",
@@ -88,6 +91,9 @@
   ],
   "rosa": [
     "rosa--langpao.mp3"
+  ],
+  "bene": [
+    "bene--punsisil.mp3"
   ],
   "vino": [
     "vino--xana000.mp3"
@@ -231,10 +237,11 @@
   "vacca": [
     "vacca--crunchy-cloaky-crackdown.mp3"
   ],
-  "basta": [
-    "basta--xana000.mp3",
-    "basta--happypheasant.mp3",
-    "basta--langpao.mp3"
+  "buoi": [
+    "buoi--langpao.mp3"
+  ],
+  "vuoi": [
+    "vuoi--langpao.mp3"
   ],
   "rosso": [
     "rosso--ciampix.mp3",
