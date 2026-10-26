@@ -78,6 +78,9 @@
   "penna": [
     "penna--langpao.mp3"
   ],
+  "bene": [
+    "bene--punsisil.mp3"
+  ],
   "mamma": [
     "mamma--xana000.mp3",
     "mamma--langpao.mp3",
@@ -85,6 +88,9 @@
   ],
   "rosa": [
     "rosa--langpao.mp3"
+  ],
+  "vino": [
+    "vino--xana000.mp3"
   ],
   "venti": [
     "venti--xana000.mp3",
@@ -206,12 +212,29 @@
   "sposa": [
     "sposa--crunchy-cloaky-crackdown.mp3"
   ],
+  "sciarpa": [
+    "sciarpa--jennum.mp3"
+  ],
+  "spiaggia": [
+    "spiaggia--happypheasant.mp3"
+  ],
   "giallo": [
     "giallo--langpao.mp3",
     "giallo--ciampix.mp3"
   ],
   "gallo": [
     "gallo--langpao.mp3"
+  ],
+  "bacca": [
+    "bacca--langpao.mp3"
+  ],
+  "vacca": [
+    "vacca--crunchy-cloaky-crackdown.mp3"
+  ],
+  "basta": [
+    "basta--xana000.mp3",
+    "basta--happypheasant.mp3",
+    "basta--langpao.mp3"
   ],
   "rosso": [
     "rosso--ciampix.mp3",
@@ -247,6 +270,9 @@
     "quello--xana000.mp3",
     "quello--langpao.mp3"
   ],
+  "bello": [
+    "bello--langpao.mp3"
+  ],
   "gli": [
     "gli--crunchy-cloaky-crackdown.mp3"
   ],
@@ -270,9 +296,6 @@
   "bagno": [
     "bagno--happypheasant.mp3",
     "bagno--langpao.mp3"
-  ],
-  "sciarpa": [
-    "sciarpa--jennum.mp3"
   ],
   "figlio": [
     "figlio--langpao.mp3"
@@ -387,14 +410,11 @@
   "scritto": [
     "scritto--langpao.mp3"
   ],
-  "preso": [
-    "preso--langpao.mp3"
+  "rotto": [
+    "rotto--langpao.mp3"
   ],
-  "aperto": [
-    "aperto--crunchy-cloaky-crackdown.mp3"
-  ],
-  "visto": [
-    "visto--divoletto.mp3"
+  "capitano": [
+    "capitano--langpao.mp3"
   ],
   "telefono": [
     "telefono--ciampix.mp3",
@@ -449,9 +469,6 @@
   "buono": [
     "buono--langpao.mp3"
   ],
-  "bello": [
-    "bello--langpao.mp3"
-  ],
   "pomodoro": [
     "pomodoro--happypheasant.mp3",
     "pomodoro--langpao.mp3"
@@ -478,6 +495,184 @@
   "esame": [
     "esame--crunchy-cloaky-crackdown.mp3"
   ],
+  "tuta": [
+    "tuta--langpao.mp3"
+  ],
+  "schiena": [
+    "schiena--crunchy-cloaky-crackdown.mp3"
+  ],
+  "stomaco": [
+    "stomaco--happypheasant.mp3",
+    "stomaco--langpao.mp3",
+    "stomaco--ciampix.mp3"
+  ],
+  "febbre": [
+    "febbre--langpao.mp3",
+    "febbre--happypheasant.mp3"
+  ],
+  "tosse": [
+    "tosse--langpao.mp3"
+  ],
+  "gola": [
+    "gola--langpao.mp3"
+  ],
+  "medico": [
+    "medico--happypheasant.mp3",
+    "medico--xana000.mp3",
+    "medico--langpao.mp3"
+  ],
+  "ambulanza": [
+    "ambulanza--crunchy-cloaky-crackdown.mp3"
+  ],
+  "emergenza": [
+    "emergenza--langpao.mp3"
+  ],
+  "farmacia": [
+    "farmacia--ciampix.mp3"
+  ],
+  "testa": [
+    "testa--ciampix.mp3"
+  ],
+  "sera": [
+    "sera--langpao.mp3"
+  ],
+  "terzo": [
+    "terzo--xana000.mp3",
+    "terzo--langpao.mp3",
+    "terzo--happypheasant.mp3"
+  ],
+  "quarto": [
+    "quarto--xana000.mp3",
+    "quarto--happypheasant.mp3",
+    "quarto--langpao.mp3"
+  ],
+  "quinto": [
+    "quinto--xana000.mp3",
+    "quinto--happypheasant.mp3",
+    "quinto--langpao.mp3"
+  ],
+  "ascensore": [
+    "ascensore--langpao.mp3"
+  ],
+  "riscaldamento": [
+    "riscaldamento--langpao.mp3",
+    "riscaldamento--happypheasant.mp3"
+  ],
+  "rubinetto": [
+    "rubinetto--langpao.mp3"
+  ],
+  "affitto": [
+    "affitto--divoletto.mp3"
+  ],
+  "notte": [
+    "notte--jtorquy.mp3",
+    "notte--langpao.mp3",
+    "notte--cerchia-g.mp3"
+  ],
+  "nonna": [
+    "nonna--langpao.mp3"
+  ],
+  "attimo": [
+    "attimo--happypheasant.mp3",
+    "attimo--langpao.mp3"
+  ],
+  "messaggio": [
+    "messaggio--langpao.mp3"
+  ],
+  "pronto": [
+    "pronto--xana000.mp3",
+    "pronto--langpao.mp3"
+  ],
+  "cellulare": [
+    "cellulare--langpao.mp3",
+    "cellulare--happypheasant.mp3"
+  ],
+  "gentile": [
+    "gentile--happypheasant.mp3",
+    "gentile--langpao.mp3"
+  ],
+  "informazione": [
+    "informazione--crunchy-cloaky-crackdown.mp3"
+  ],
+  "ho": [
+    "ho--xana000.mp3"
+  ],
+  "hai": [
+    "hai--xana000.mp3"
+  ],
+  "ha": [
+    "ha--xana000.mp3"
+  ],
+  "hanno": [
+    "hanno--xana000.mp3"
+  ],
+  "anno": [
+    "anno--ciampix.mp3",
+    "anno--langpao.mp3"
+  ],
+  "ora": [
+    "ora--xana000.mp3"
+  ],
+  "ormai": [
+    "ormai--langpao.mp3",
+    "ormai--happypheasant.mp3"
+  ],
+  "entrata": [
+    "entrata--divoletto.mp3"
+  ],
+  "però": [
+    "pero--happypheasant.mp3",
+    "pero--xana000.mp3",
+    "pero--langpao.mp3"
+  ],
+  "quindi": [
+    "quindi--xana000.mp3",
+    "quindi--langpao.mp3",
+    "quindi--happypheasant.mp3"
+  ],
+  "comunque": [
+    "comunque--happypheasant.mp3",
+    "comunque--xana000.mp3",
+    "comunque--langpao.mp3"
+  ],
+  "insomma": [
+    "insomma--happypheasant.mp3",
+    "insomma--langpao.mp3"
+  ],
+  "allora": [
+    "allora--xana000.mp3"
+  ],
+  "invece": [
+    "invece--langpao.mp3",
+    "invece--happypheasant.mp3"
+  ],
+  "magari": [
+    "magari--langpao.mp3"
+  ],
+  "glielo": [
+    "glielo--xana000.mp3"
+  ],
+  "gliela": [
+    "gliela--xana000.mp3"
+  ],
+  "sia": [
+    "sia--divoletto.mp3"
+  ],
+  "faccia": [
+    "faccia--langpao.mp3"
+  ],
+  "siamo": [
+    "siamo--xana000.mp3"
+  ],
+  "pozzo": [
+    "pozzo--langpao.mp3"
+  ],
+  "fossi": [
+    "fossi--langpao.mp3"
+  ],
+  "viaggio": [
+    "viaggio--happypheasant.mp3"
+  ],
   "buonasera": [
     "buonasera--xana000.mp3"
   ],
@@ -498,9 +693,6 @@
   ],
   "piacere": [
     "piacere--langpao.mp3"
-  ],
-  "bene": [
-    "bene--punsisil.mp3"
   ],
   "male": [
     "male--crunchy-cloaky-crackdown.mp3"
@@ -544,9 +736,6 @@
   "supermercato": [
     "supermercato--xana000.mp3"
   ],
-  "farmacia": [
-    "farmacia--ciampix.mp3"
-  ],
   "parco": [
     "parco--happypheasant.mp3"
   ],
@@ -555,9 +744,6 @@
   ],
   "trenta": [
     "trenta--xana000.mp3"
-  ],
-  "ora": [
-    "ora--xana000.mp3"
   ],
   "minuto": [
     "minuto--langpao.mp3"
@@ -583,18 +769,11 @@
   "mese": [
     "mese--ciampix.mp3"
   ],
-  "anno": [
-    "anno--ciampix.mp3",
-    "anno--langpao.mp3"
-  ],
   "mattina": [
     "mattina--langpao.mp3"
   ],
   "pomeriggio": [
     "pomeriggio--langpao.mp3"
-  ],
-  "sera": [
-    "sera--langpao.mp3"
   ],
   "prezzo": [
     "prezzo--langpao.mp3"
@@ -610,9 +789,6 @@
   ],
   "acqua": [
     "acqua--langpao.mp3"
-  ],
-  "vino": [
-    "vino--xana000.mp3"
   ],
   "birra": [
     "birra--xana000.mp3"
@@ -688,9 +864,6 @@
   ],
   "uscita": [
     "uscita--langpao.mp3"
-  ],
-  "entrata": [
-    "entrata--divoletto.mp3"
   ],
   "partire": [
     "partire--happypheasant.mp3"
@@ -860,9 +1033,6 @@
   "diventare": [
     "diventare--divoletto.mp3"
   ],
-  "viaggio": [
-    "viaggio--happypheasant.mp3"
-  ],
   "valigia": [
     "valigia--happypheasant.mp3"
   ],
@@ -884,14 +1054,8 @@
   "lunedì": [
     "lunedi--xana000.mp3"
   ],
-  "spiaggia": [
-    "spiaggia--happypheasant.mp3"
-  ],
   "partenza": [
     "partenza--langpao.mp3"
-  ],
-  "allora": [
-    "allora--xana000.mp3"
   ],
   "mentre": [
     "mentre--langpao.mp3"
@@ -901,9 +1065,6 @@
   ],
   "ricordare": [
     "ricordare--ciampix.mp3"
-  ],
-  "nonna": [
-    "nonna--langpao.mp3"
   ],
   "vecchio": [
     "vecchio--maupao70.mp3"
@@ -1076,9 +1237,6 @@
   "consiglio": [
     "consiglio--langpao.mp3"
   ],
-  "magari": [
-    "magari--langpao.mp3"
-  ],
   "invito": [
     "invito--langpao.mp3"
   ],
@@ -1093,5 +1251,227 @@
   ],
   "organizzare": [
     "organizzare--happypheasant.mp3"
+  ],
+  "medicina": [
+    "medicina--happypheasant.mp3"
+  ],
+  "compressa": [
+    "compressa--langpao.mp3"
+  ],
+  "sciroppo": [
+    "sciroppo--langpao.mp3"
+  ],
+  "raffreddore": [
+    "raffreddore--langpao.mp3"
+  ],
+  "dente": [
+    "dente--langpao.mp3"
+  ],
+  "riposare": [
+    "riposare--happypheasant.mp3"
+  ],
+  "servire": [
+    "servire--divoletto.mp3"
+  ],
+  "qualcosa": [
+    "qualcosa--happypheasant.mp3"
+  ],
+  "affittare": [
+    "affittare--happypheasant.mp3"
+  ],
+  "contratto": [
+    "contratto--langpao.mp3"
+  ],
+  "lavatrice": [
+    "lavatrice--langpao.mp3"
+  ],
+  "chiave": [
+    "chiave--langpao.mp3"
+  ],
+  "firmare": [
+    "firmare--happypheasant.mp3"
+  ],
+  "documento": [
+    "documento--langpao.mp3"
+  ],
+  "appuntamento": [
+    "appuntamento--langpao.mp3"
+  ],
+  "sportello": [
+    "sportello--happypheasant.mp3"
+  ],
+  "mancare": [
+    "mancare--langpao.mp3"
+  ],
+  "funzionare": [
+    "funzionare--divoletto.mp3"
+  ],
+  "numero": [
+    "numero--langpao.mp3"
+  ],
+  "rispondere": [
+    "rispondere--langpao.mp3"
+  ],
+  "linea": [
+    "linea--happypheasant.mp3"
+  ],
+  "inviare": [
+    "inviare--langpao.mp3"
+  ],
+  "allegare": [
+    "allegare--xana000.mp3"
+  ],
+  "risposta": [
+    "risposta--langpao.mp3"
+  ],
+  "sentire": [
+    "sentire--langpao.mp3"
+  ],
+  "tra": [
+    "tra--happypheasant.mp3"
+  ],
+  "parola": [
+    "parola--danielparoliere.mp3"
+  ],
+  "frase": [
+    "frase--langpao.mp3"
+  ],
+  "tempo": [
+    "tempo--ciampix.mp3"
+  ],
+  "da": [
+    "da--crunchy-cloaky-crackdown.mp3"
+  ],
+  "appena": [
+    "appena--langpao.mp3"
+  ],
+  "vietato": [
+    "vietato--langpao.mp3"
+  ],
+  "regola": [
+    "regola--langpao.mp3"
+  ],
+  "davvero": [
+    "davvero--langpao.mp3"
+  ],
+  "prestare": [
+    "prestare--langpao.mp3"
+  ],
+  "spiegare": [
+    "spiegare--happypheasant.mp3"
+  ],
+  "mostrare": [
+    "mostrare--langpao.mp3"
+  ],
+  "consegnare": [
+    "consegnare--divoletto.mp3"
+  ],
+  "pacco": [
+    "pacco--divoletto.mp3"
+  ],
+  "guida": [
+    "guida--xana000.mp3"
+  ],
+  "volentieri": [
+    "volentieri--langpao.mp3"
+  ],
+  "pensare": [
+    "pensare--happypheasant.mp3"
+  ],
+  "credere": [
+    "credere--langpao.mp3"
+  ],
+  "dubitare": [
+    "dubitare--langpao.mp3"
+  ],
+  "sembrare": [
+    "sembrare--happypheasant.mp3"
+  ],
+  "preferire": [
+    "preferire--langpao.mp3"
+  ],
+  "immaginare": [
+    "immaginare--happypheasant.mp3"
+  ],
+  "importante": [
+    "importante--langpao.mp3"
+  ],
+  "possibile": [
+    "possibile--divoletto.mp3"
+  ],
+  "probabile": [
+    "probabile--langpao.mp3"
+  ],
+  "sicuro": [
+    "sicuro--langpao.mp3"
+  ],
+  "vero": [
+    "vero--langpao.mp3"
+  ],
+  "contento": [
+    "contento--langpao.mp3"
+  ],
+  "se": [
+    "se--happypheasant.mp3"
+  ],
+  "ricco": [
+    "ricco--langpao.mp3"
+  ],
+  "soldi": [
+    "soldi--langpao.mp3"
+  ],
+  "vincere": [
+    "vincere--langpao.mp3"
+  ],
+  "possibilità": [
+    "possibilita--langpao.mp3"
+  ],
+  "occasione": [
+    "occasione--langpao.mp3"
+  ],
+  "lavoro": [
+    "lavoro--sannita.mp3"
+  ],
+  "viaggiare": [
+    "viaggiare--langpao.mp3"
+  ],
+  "purtroppo": [
+    "purtroppo--happypheasant.mp3"
+  ],
+  "esperienza": [
+    "esperienza--langpao.mp3"
+  ],
+  "ricordo": [
+    "ricordo--langpao.mp3"
+  ],
+  "imparare": [
+    "imparare--langpao.mp3"
+  ],
+  "migliorare": [
+    "migliorare--langpao.mp3"
+  ],
+  "vacanza": [
+    "vacanza--happypheasant.mp3"
+  ],
+  "raccontare": [
+    "raccontare--happypheasant.mp3"
+  ],
+  "domandare": [
+    "domandare--langpao.mp3"
+  ],
+  "promettere": [
+    "promettere--happypheasant.mp3"
+  ],
+  "aggiungere": [
+    "aggiungere--xana000.mp3"
+  ],
+  "notizia": [
+    "notizia--happypheasant.mp3"
+  ],
+  "domanda": [
+    "domanda--langpao.mp3"
+  ],
+  "secondo": [
+    "secondo--xana000.mp3"
   ]
 }
