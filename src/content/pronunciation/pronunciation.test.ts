@@ -2,7 +2,7 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { READY_UNITS } from "../curriculum";
-import { GLOSS, PRON_UNITS, allWords, audioFiles } from "./index";
+import { AUDIO_PENDING, GLOSS, PRON_UNITS, allWords, audioFiles } from "./index";
 
 describe("licencia del audio", () => {
   it("cada archivo mp3 tiene su crédito (CC BY-SA exige atribuir a cada voz)", () => {
@@ -28,9 +28,11 @@ describe("contenido de pronunciación", () => {
     for (const u of READY_UNITS) expect(units, `falta la práctica de ${u.id}`).toContain(u.id);
   });
 
-  it("cada palabra usada tiene audio nativo y el archivo existe", () => {
-    const missing = allWords().filter((w) => audioFiles(w).length === 0);
-    expect(missing, "palabras sin audio (corre npm run audio o quítalas del JSON)").toEqual([]);
+  it("cada palabra usada tiene audio nativo y el archivo existe (o está en AUDIO_PENDING)", () => {
+    const missing = allWords().filter((w) => audioFiles(w).length === 0 && !AUDIO_PENDING.includes(w));
+    expect(missing, "palabras sin audio: corre npm run audio y, si siguen sin audio, agrégalas a AUDIO_PENDING").toEqual([]);
+    const stale = AUDIO_PENDING.filter((w) => audioFiles(w).length > 0 || !allWords().includes(w));
+    expect(stale, "ya tienen audio o ya no se usan: quítalas de AUDIO_PENDING").toEqual([]);
     for (const w of allWords()) {
       for (const f of audioFiles(w)) {
         expect(existsSync(path.join(process.cwd(), "public/audio", f)), `${w}: falta ${f}`).toBe(true);

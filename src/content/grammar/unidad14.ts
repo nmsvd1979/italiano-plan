@@ -23,11 +23,13 @@ export const unidad14: Lesson = {
         ["andare", "*vai*", "*vada*"],
         ["fare", "*fai*", "*faccia*"],
         ["dire", "*di'*", "*dica*"],
+        ["finire", "*finisci*", "*finisca*"],
+        ["venire", "*vieni*", "*venga*"],
       ],
     },
     {
       kind: "p",
-      text: "Para decir que **no**: con *tu* se usa *non* + infinitivo (*Non parlare!*); con *Lei*, *non* + la forma cortés (*Non parli!*). Con el imperativo de *tu*, los pronombres van pegados: *Dimmi* (dime), *Dammi* (dame).",
+      text: "Para decir que **no**: con *tu* se usa *non* + infinitivo (*Non parlare!*); con *Lei*, *non* + la forma cortés (*Non parli!*). Con *voi* el imperativo es igual al presente (*Parlate! · Non parlate!*). Con el imperativo de *tu*, los pronombres van pegados: *Dimmi* (dime), *Dammi* (dame).",
     },
     {
       kind: "list",
@@ -41,7 +43,7 @@ export const unidad14: Lesson = {
     },
   ],
   transfer:
-    "En español puedes decir *quiero dos* sin más; en italiano, si hablas de una cantidad de algo ya mencionado, hace falta *ne*: *Ne voglio due*, no *Voglio due*. Y como en la unidad 4, para ser cortés con desconocidos usa la forma *Lei* (*Mi scusi*, *Mi dica*), no la de *tu*.",
+    "En español puedes decir *quiero dos* sin más; en italiano, si hablas de una cantidad de algo ya mencionado, hace falta *ne*: *Ne voglio due*, no *Voglio due*. Y para ser cortés con desconocidos usa la forma *Lei* (*Mi scusi*, *Mi dica*, *Vada dritto*), no la de *tu*.",
   examples: [
     { it: "Scusi, dov'è la farmacia? — Vada dritto e giri a destra.", es: "Disculpe, ¿dónde está la farmacia? — Siga derecho y gire a la derecha." },
     { it: "Vuoi del pane? — Sì, ne vorrei due fette.", es: "¿Quieres pan? — Sí, quisiera dos rebanadas." },
@@ -106,7 +108,7 @@ export const unidad14: Lesson = {
     {type: "fill", prompt: "Per favore, ___ più piano! (tu, parlare)", answers: ["parla"], why: "-are con *tu*: *parla*."},
     {type: "fill", prompt: "___ la prima strada. (tu, prendere)", answers: ["prendi"], why: "-ere con *tu*: *prendi*."},
     {type: "fill", prompt: "___ dov'è la fermata. (tu, dire + mi)", answers: ["dimmi"], why: "*Dimmi* = dime."},
-    {type: "fill", prompt: "Non ___ in fretta! (tu, comer)", answers: ["mangiare"], why: "Negativo con *tu*: *non* + infinitivo."},
+    {type: "fill", prompt: "«No comas de prisa»: Non ___ in fretta!", answers: ["mangiare"], why: "Negativo con *tu*: *non* + infinitivo."},
     {type: "fill", prompt: "Sei stato in Italia? Sì, ___ sono stato due volte. (allí)", answers: ["ci"], why: "*Ci* reemplaza el lugar."},
     {type: "fill", prompt: "Hai fratelli? Sì, ___ ho due.", answers: ["ne"], why: "*Ne* expresa la cantidad."},
     {type: "fill", prompt: "Quanto pane vuoi? ___ voglio un chilo.", answers: ["Ne"], why: "*Ne* = de eso."},

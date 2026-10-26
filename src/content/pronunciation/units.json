@@ -43,7 +43,7 @@
     "sonno": "sueño",
     "sono": "soy / son",
     "tutta": "toda",
-    "tuta": "buzo",
+    "tuta": "buzo / chándal",
     "nonna": "abuela",
     "nona": "novena",
     "pozzo": "pozo",
@@ -64,7 +64,69 @@
     "mia": "mía",
     "che": "qué / que",
     "pane": "pan",
-    "panna": "crema de leche / nata"
+    "panna": "crema de leche / nata",
+    "vene": "venas",
+    "bacca": "baya",
+    "vacca": "vaca",
+    "basta": "basta",
+    "vasta": "vasta / amplia",
+    "papà": "papá",
+    "ancora": "todavía / otra vez",
+    "àncora": "ancla",
+    "capitano": "capitán",
+    "càpitano": "ocurren / suceden",
+    "rotto": "roto",
+    "schiena": "espalda",
+    "stomaco": "estómago",
+    "febbre": "fiebre",
+    "tosse": "tos",
+    "gola": "garganta",
+    "medico": "médico",
+    "ambulanza": "ambulancia",
+    "emergenza": "emergencia",
+    "testa": "cabeza",
+    "cellulare": "celular / móvil",
+    "messaggio": "mensaje",
+    "ho": "tengo",
+    "hai": "tienes",
+    "ha": "tiene",
+    "hanno": "tienen",
+    "ora": "hora / ahora",
+    "ormai": "ya / a estas alturas",
+    "ingresso": "entrada",
+    "orario": "horario",
+    "glielo": "se lo",
+    "gliela": "se la",
+    "gliene": "se lo (de eso)",
+    "dammelo": "dámelo",
+    "dimmelo": "dímelo",
+    "spiegarmelo": "explicármelo",
+    "portarmelo": "llevármelo",
+    "famiglia": "familia",
+    "sia": "sea",
+    "abbia": "tenga",
+    "stia": "esté",
+    "venga": "venga",
+    "vada": "vaya",
+    "faccia": "haga",
+    "possa": "pueda",
+    "siamo": "somos",
+    "avessi": "tuviera",
+    "fossi": "fuera",
+    "potessi": "pudiera",
+    "volessi": "quisiera",
+    "facessi": "hiciera",
+    "viaggerei": "viajaría",
+    "comprerei": "compraría",
+    "resterei": "me quedaría",
+    "però": "pero / sin embargo",
+    "quindi": "por lo tanto",
+    "comunque": "de todos modos",
+    "insomma": "en fin",
+    "allora": "entonces",
+    "invece": "en cambio",
+    "magari": "ojalá",
+    "bene": "bien"
   },
   "units": [
     {
@@ -102,7 +164,7 @@
     {
       "unit": "u02",
       "title": "Consonantes dobles (I)",
-      "tip": "La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído.",
+      "tip": "La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído. En español *b* y *v* suenan igual; en italiano no: la *v* se hace con los dientes de arriba sobre el labio de abajo (como una *f* con voz), y la *b* con los dos labios: *bene* (bien) frente a *vene* (venas).",
       "pairs": [
         [
           "palla",
@@ -119,6 +181,10 @@
         [
           "pena",
           "penna"
+        ],
+        [
+          "bene",
+          "vene"
         ]
       ],
       "words": [
@@ -127,7 +193,9 @@
         "sette",
         "penna",
         "mamma",
-        "rosa"
+        "rosa",
+        "bene",
+        "vino"
       ]
     },
     {
@@ -191,20 +259,7 @@
       "unit": "u05",
       "title": "S + consonante",
       "tip": "En italiano *s* + consonante se pronuncia pegada, sin una *e* delante: *studente*, no \"estudente\"; *Spagna*, no \"España\". Es un error muy común en hispanohablantes.",
-      "pairs": [
-        [
-          "palla",
-          "pala"
-        ],
-        [
-          "caro",
-          "carro"
-        ],
-        [
-          "chi",
-          "ci"
-        ]
-      ],
+      "pairs": [],
       "words": [
         "studente",
         "scuola",
@@ -214,13 +269,15 @@
         "sport",
         "strada",
         "specchio",
-        "sposa"
+        "sposa",
+        "sciarpa",
+        "spiaggia"
       ]
     },
     {
       "unit": "u06",
       "title": "Colores y ropa: CH, GI y dobles",
-      "tip": "*ch* y *gh* delante de *e/i* suenan como *k* y *g* dura: *chi* (quién), distinto de *ci* (nos/allí). En cambio *gi* es suave: *giallo* (amarillo) frente a *gallo* (g dura). Las dobles de *rosso*, *azzurro* y *cappello* se alargan: *cappello* (sombrero) frente a *capello* (cabello).",
+      "tip": "*ch* y *gh* delante de *e/i* suenan como *k* y *g* dura: *chi* (quién), distinto de *ci* (nos/allí). En cambio *gi* es suave: *giallo* (amarillo) frente a *gallo* (g dura). Las dobles de *rosso*, *azzurro* y *cappello* se alargan: *cappello* (sombrero) frente a *capello* (cabello). En español *b* y *v* suenan igual; en italiano no: la *v* se hace con los dientes de arriba sobre el labio de abajo (como una *f* con voz), y la *b* con los dos labios: *bene* (bien) frente a *vene* (venas).",
       "pairs": [
         [
           "giallo",
@@ -233,6 +290,14 @@
         [
           "chi",
           "ci"
+        ],
+        [
+          "bacca",
+          "vacca"
+        ],
+        [
+          "basta",
+          "vasta"
         ]
       ],
       "words": [
@@ -243,7 +308,9 @@
         "azzurro",
         "maglietta",
         "questo",
-        "quello"
+        "quello",
+        "bello",
+        "vento"
       ]
     },
     {
@@ -327,7 +394,7 @@
     {
       "unit": "u10",
       "title": "Dobles en los participios",
-      "tip": "Varios participios muy usados del passato prossimo llevan consonante doble: *fatto, detto, messo, letto, scritto*. Mantén el sonido largo para no confundirlos con otras palabras.",
+      "tip": "Varios participios muy usados del passato prossimo llevan consonante doble: *fatto, detto, messo, letto, scritto, rotto*. Mantén la consonante larga para no confundirlos con otras palabras: *sette* (siete) frente a *sete* (sed).",
       "pairs": [
         [
           "sette",
@@ -342,23 +409,23 @@
         "detto",
         "letto",
         "scritto",
-        "preso",
-        "aperto",
-        "visto"
+        "fatto",
+        "messo",
+        "rotto"
       ]
     },
     {
       "unit": "u11",
       "title": "El acento de la palabra",
-      "tip": "La mayoría de las palabras llevan el acento en la penúltima sílaba. Hay esdrújulas sin tilde (*TElefono*, *TAvolo*) y la tilde final marca el acento en la última sílaba (*città*, *perché*, *caffè*).",
+      "tip": "En italiano el acento cae casi siempre en la penúltima sílaba (*CAsa, ragAZzo, parLAre*); en las palabras con tilde final cae en la última (*città, perché, caffè*). Algunas llevan el acento antes, sin tilde: *TElefono, TAvolo*. Cambiar el acento cambia la palabra: *papa* (el Papa) frente a *papà* (papá), o *capitano* (capitán) frente a *càpitano* (ocurren).",
       "pairs": [
         [
-          "caro",
-          "carro"
+          "papa",
+          "papà"
         ],
         [
-          "casa",
-          "cassa"
+          "capitano",
+          "càpitano"
         ]
       ],
       "words": [
@@ -374,7 +441,7 @@
     {
       "unit": "u12",
       "title": "Comparar: GLI, GN y dobles",
-      "tip": "*Gli* es una *l* palatal, como la \"ll\" de algunas regiones de España o de los Andes: *gli* (a él / los) frente a *li* (allí). Las dobles se alargan: *pane* (pan) frente a *panna* (crema). Escucha *migliore* y *formaggio*, donde *gli* y *gg* se combinan con la vocal.",
+      "tip": "*Gli* es una *l* palatal: apoya la parte media de la lengua contra el paladar, como si dijeras *l* e *i* a la vez (*famiglia, figlio, migliore*). No te guíes por la *ll* del español de Chile, que suena como *y*. Contrasta *gli* con *li* (allí), que es una *l* normal. Las dobles se alargan: *pane* (pan) frente a *panna* (crema).",
       "pairs": [
         [
           "pane",
@@ -489,9 +556,186 @@
       ]
     },
     {
+      "unit": "u16",
+      "title": "Dobles en la salud y SCH",
+      "tip": "Fíjate en las dobles de *febbre* y *tosse*, y en *sch*: en *schiena* suena *sk* (la *h* mantiene el sonido duro), mientras que *sce* en *scena* suena como *sh*. En *gola* y *gamba* la *g* ante *o / a* es dura.",
+      "pairs": [
+        [
+          "fato",
+          "fatto"
+        ],
+        [
+          "tuta",
+          "tutta"
+        ]
+      ],
+      "words": [
+        "schiena",
+        "stomaco",
+        "febbre",
+        "tosse",
+        "gola",
+        "medico",
+        "ambulanza",
+        "emergenza",
+        "farmacia",
+        "testa"
+      ]
+    },
+    {
+      "unit": "u17",
+      "title": "La R: simple y doble",
+      "tip": "La *r* italiana es una vibración corta (*caro*, *sera*); la *rr* es una vibración más larga (*carro*, *serra*). Alarga la vibración, no solo la vocal. Practica con los ordinales (*terzo, quarto, quinto*) y con *riscaldamento* y *rubinetto*.",
+      "pairs": [
+        [
+          "sera",
+          "serra"
+        ],
+        [
+          "caro",
+          "carro"
+        ]
+      ],
+      "words": [
+        "terzo",
+        "quarto",
+        "quinto",
+        "ascensore",
+        "riscaldamento",
+        "rubinetto",
+        "arredato",
+        "affitto"
+      ]
+    },
+    {
+      "unit": "u18",
+      "title": "Dobles en el teléfono: TT, GG, NN",
+      "tip": "Fíjate en las dobles de *attimo*, *messaggio* y *chiamata*. En *messaggio* la *gg* suena como una *g* suave larga (*mes-SA-djo*). Y *nonno / nono* o *note / notte* cambian de significado con la consonante.",
+      "pairs": [
+        [
+          "note",
+          "notte"
+        ],
+        [
+          "nona",
+          "nonna"
+        ]
+      ],
+      "words": [
+        "attimo",
+        "messaggio",
+        "pronto",
+        "cellulare",
+        "richiamare",
+        "allegato",
+        "gentile",
+        "informazione"
+      ]
+    },
+    {
+      "unit": "u19",
+      "title": "La H es muda",
+      "tip": "En italiano la *h* no se pronuncia: *ho, hai, ha, hanno* suenan como *o, ai, a, anno*. Solo sirve para distinguir palabras escritas: *ho* (tengo) / *o* (o), *ha* (tiene) / *a* (a), *hanno* (tienen) / *anno* (año). Por eso al dictado la *h* se aprende de memoria.",
+      "pairs": [],
+      "words": [
+        "ho",
+        "hai",
+        "ha",
+        "hanno",
+        "anno",
+        "ora",
+        "ormai",
+        "entrata",
+        "ingresso",
+        "orario"
+      ]
+    },
+    {
       "unit": "u20",
-      "title": "Repaso final",
-      "tip": "Última vuelta con todo lo visto.",
+      "title": "Los conectores: acento y QU",
+      "tip": "Los conectores con tilde final se acentúan en la última sílaba: *perché*, *però*, *così*. En *quindi* y *comunque* la *u* se oye (*kw*): no digas *kindi*. En *insomma* la *mm* es doble.",
+      "pairs": [],
+      "words": [
+        "perché",
+        "però",
+        "quindi",
+        "comunque",
+        "insomma",
+        "allora",
+        "invece",
+        "magari"
+      ]
+    },
+    {
+      "unit": "u21",
+      "title": "GLI en glielo y doble M",
+      "tip": "En *glielo*, *gliela*, *gliene* la *gl* es la misma *l* palatal de *famiglia*: la lengua apoyada en el paladar. En *dammelo* y *dimmelo* la *m* es doble y se alarga: *dam-ME-lo*. Habla despacio y pega las sílabas, como si fuera una sola palabra.",
+      "pairs": [],
+      "words": [
+        "glielo",
+        "gliela",
+        "gliene",
+        "dammelo",
+        "dimmelo",
+        "spiegarmelo",
+        "portarmelo",
+        "famiglia"
+      ]
+    },
+    {
+      "unit": "u22",
+      "title": "Vocales juntas: SEI / SAI, MIA / MAI",
+      "tip": "En *sia*, *abbia*, *siate* y *siamo* las vocales van pegadas en una sola sílaba (*SIA*, *AB-bia*). No separes la *i* como en español: es una vocal rápida y corta. Compara *sei* (eres) con *sai* (sabes), y *mia* (mía) con *mai* (nunca).",
+      "pairs": [
+        [
+          "sei",
+          "sai"
+        ],
+        [
+          "mai",
+          "mia"
+        ]
+      ],
+      "words": [
+        "sia",
+        "abbia",
+        "stia",
+        "venga",
+        "vada",
+        "faccia",
+        "possa",
+        "siamo"
+      ]
+    },
+    {
+      "unit": "u23",
+      "title": "SS y ZZ en las formas del subjuntivo",
+      "tip": "El *-ssi* de *avessi, fossi, potessi* lleva una *s* doble sorda, larga: *a-VES-si*. No la suavices como una *z* española. Compara *pozzo* (pozo, con *zz*) con *posso* (puedo, con *ss*) y *mezzo* (medio) con *messo* (puesto).",
+      "pairs": [
+        [
+          "pozzo",
+          "posso"
+        ],
+        [
+          "mezzo",
+          "messo"
+        ]
+      ],
+      "words": [
+        "avessi",
+        "fossi",
+        "potessi",
+        "volessi",
+        "facessi",
+        "viaggerei",
+        "comprerei",
+        "resterei"
+      ]
+    },
+    {
+      "unit": "u24",
+      "title": "Repaso final de sonidos",
+      "tip": "Última vuelta con todo lo visto: consonantes dobles, *c / g* suaves y duras, *gli*, *z*, *r / rr*, *b / v* y la *h* muda. Escucha cada par y repite en voz alta imitando la duración de las consonantes.",
       "pairs": [
         [
           "palla",
@@ -526,9 +770,11 @@
         "cena",
         "gelato",
         "pizza",
-        "pesce",
-        "studente",
-        "perché"
+        "famiglia",
+        "viaggio",
+        "bene",
+        "vino",
+        "ho"
       ]
     }
   ]

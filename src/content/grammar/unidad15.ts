@@ -7,7 +7,7 @@ export const unidad15: Lesson = {
   rule: [
     {
       kind: "p",
-      text: "El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *-ò, -ai, -à, -emo, -ete, -anno*. En los verbos en *-are* la *a* pasa a *e*. Ortografía: los verbos en *-care / -gare* agregan una *h* (*cercherò, pagherò*), los en *-ciare / -giare* pierden la *i* (*mangerò, viaggeremo*) y los en *-iare* con *i* acentuada la conservan (*studierò*).",
+      text: "El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *-ò, -ai, -à, -emo, -ete, -anno*. En los verbos en *-are* la *a* pasa a *e*. Ortografía: los verbos en *-care / -gare* agregan una *h* (*cercherò, pagherò*), los en *-ciare / -giare* pierden la *i* (*mangerò, viaggeremo*) y los demás en *-iare* conservan la *i* (*studiare → studierò*, *cambiare → cambierò*).",
     },
     {
       kind: "table",
@@ -23,7 +23,7 @@ export const unidad15: Lesson = {
     },
     {
       kind: "p",
-      text: "Con raíz irregular: *andare → andrò*, *fare → farò*, *venire → verrò*, *potere → potrò*, *dovere → dovrò*, *volere → vorrò*, *vedere → vedrò*. Y también sirve para suponer: *Sarà in ritardo* (debe de estar atrasado). Para un futuro cercano se usa mucho el presente: *Domani vado a Roma.*",
+      text: "Con raíz irregular: *andare → andrò*, *fare → farò*, *venire → verrò*, *potere → potrò*, *dovere → dovrò*, *volere → vorrò*, *vedere → vedrò*. *Fare, dare y stare* conservan la *a*: *farò, darò, starò*. Y también sirve para suponer: *Sarà in ritardo* (debe de estar atrasado). Para un futuro cercano se usa mucho el presente: *Domani vado a Roma.*",
     },
     {
       kind: "p",
@@ -38,6 +38,22 @@ export const unidad15: Lesson = {
         ["Dar un consejo", "*Dovresti riposare un po'.* (deberías descansar)"],
         ["Deseo", "*Mi piacerebbe visitare Venezia.*"],
       ],
+    },
+    {
+      kind: "table",
+      head: ["", "potere", "volere", "dovere", "essere"],
+      rows: [
+        ["io", "potrei", "vorrei", "dovrei", "sarei"],
+        ["tu", "potresti", "vorresti", "dovresti", "saresti"],
+        ["lui/lei", "potrebbe", "vorrebbe", "dovrebbe", "sarebbe"],
+        ["noi", "potremmo", "vorremmo", "dovremmo", "saremmo"],
+        ["voi", "potreste", "vorreste", "dovreste", "sareste"],
+        ["loro", "potrebbero", "vorrebbero", "dovrebbero", "sarebbero"],
+      ],
+    },
+    {
+      kind: "p",
+      text: "**Si + presente** para una posibilidad real: *Se piove, resto a casa.* (si llueve, me quedo en casa) · *Se hai tempo, vieni con noi!* · *Se vuoi, ti aiuto.* **Invitar:** *Vuoi venire al cinema?* · *Ti va di uscire?* Aceptar: *Volentieri! Con piacere! Certo, ci sto!* Rechazar con amabilidad: *Mi dispiace, non posso: devo lavorare. Un'altra volta!*",
     },
   ],
   transfer:
@@ -112,5 +128,11 @@ export const unidad15: Lesson = {
     {type: "fill", prompt: "Marco, ___ riposare. (dovere, consejo)", answers: ["dovresti"], why: "Condizionale: *dovresti*."},
     {type: "choice", prompt: "«Quizás mañana llueva»", options: ["Forse domani pioverà.", "Forse domani pioveva.", "Forse domani piove stato."], answer: 0, why: "Futuro: *pioverà*."},
     {type: "choice", prompt: "Quieres pedir la cuenta con cortesía.", options: ["Vorrei il conto, per favore.", "Voglio il conto.", "Portami il conto."], answer: 0, why: "*Vorrei… per favore* es lo cortés."},
+    { type: "fill", prompt: "Se ___, resto a casa. (piovere)", answers: ["piove"], why: "*Se* + presente: *Se piove, resto a casa*." },
+    { type: "fill", prompt: "Se hai tempo, ___ con noi! (venire, imperativo)", answers: ["vieni"], why: "Imperativo de *tu*: *vieni*." },
+    { type: "fill", prompt: "Domani noi ___ una torta. (fare, futuro)", answers: ["faremo"], why: "*Fare* conserva la *a*: *faremo*." },
+    { type: "fill", prompt: "Domani io ___ a casa. (stare, futuro)", answers: ["starò"], why: "*Stare* conserva la *a*: *starò*." },
+    { type: "choice", prompt: "Te invitan al cine y quieres aceptar con gusto:", options: ["Volentieri!", "Mi dispiace, non posso.", "Arrivederci."], answer: 0, why: "*Volentieri* = con gusto." },
+    { type: "choice", prompt: "Te invitan, pero no puedes y quieres ser amable:", options: ["Volentieri!", "Mi dispiace, non posso: devo lavorare.", "Buongiorno!"], answer: 1, why: "Disculparte y dar un motivo es lo cortés." },
   ],
 };

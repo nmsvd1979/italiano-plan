@@ -44,6 +44,10 @@ export const unidad06: Lesson = {
       kind: "p",
       text: "**Adjetivos**: concuerdan en género y número (*-o/-a/-i/-e*; los de *-e* sirven para los dos géneros: *verde, verdi*) y se ponen **después** del sustantivo: *una borsa rossa*. Pocos van antes: *bello, buono, grande, piccolo*. Colores: *rosso, giallo, verde, azzurro, bianco, nero, grigio, marrone*. Tres no cambian nunca: *rosa, viola, blu* (*due gonne rosa*).",
     },
+    {
+      kind: "p",
+      text: "**Bello y buono antes del nombre.** *Bello* cambia como *quello*: *un bel libro, un bello zaino, un bell'albergo, una bella casa, dei bei libri, delle belle case*. *Buono* cambia como *un*: *un buon caffè, un buon amico, una buona pizza*. Con *essere*, el posesivo va sin artículo: *Questa borsa è mia.* *Sono miei.*",
+    },
   ],
   transfer:
     "En español dices *mi casa*; en italiano, *la mia casa* (con artículo), salvo con un familiar en singular (*mia madre*). *Suo* no dice si es de él, de ella o de usted: lo da el contexto. Y *quello* no cambia como *questo*: *quel libro, quella casa*. Los colores concuerdan (*due borse rosse*), salvo *rosa, viola, blu*.",
@@ -125,5 +129,9 @@ export const unidad06: Lesson = {
       answer: 0,
       why: "El color va después del sustantivo y concuerda con él.",
     },
+    { type: "fill", prompt: "Che ___ libro! (lindo)", answers: ["bel"], why: "*Bello* ante *libro* (artículo *il*): *bel*." },
+    { type: "fill", prompt: "Una ___ casa. (linda)", answers: ["bella"], why: "Femenino singular: *bella*." },
+    { type: "fill", prompt: "Un ___ caffè, per favore. (bueno)", answers: ["buon"], why: "*Buono* ante un masculino: *buon caffè*." },
+    { type: "fill", prompt: "Questa borsa è ___. (mía)", answers: ["mia"], why: "Tras *essere*, el posesivo va sin artículo: *è mia*." },
   ],
 };

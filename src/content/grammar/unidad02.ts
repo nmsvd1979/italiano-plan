@@ -38,6 +38,14 @@ export const unidad02: Lesson = {
       kind: "p",
       text: "**C'è / ci sono** = hay. Uno solo: *C'è un supermercato vicino.* Varios: *Ci sono due bar.* **Piacere** funciona como *gustar*: lo que gusta es el sujeto. *Mi piace il caffè* (singular), *Mi piacciono i gelati* (plural).",
     },
+    {
+      kind: "p",
+      text: "**Plurales con ortografía especial.** Si el acento cae en la penúltima sílaba, *-co → -chi* (*il gioco → i giochi*); si cae antes, *-co → -ci* (*il medico → i medici*). Excepción muy frecuente: *l'amico → gli amici*. Los nombres en *-go* suelen hacer *-ghi* (*il lago → i laghi*), y los femeninos en *-ca / -ga* hacen siempre *-che / -ghe* (*l'amica → le amiche*, *la riga → le righe*). Unos pocos son irregulares y se aprenden enteros: *l'uomo → gli uomini*, *la mano → le mani*. Los nombres en *-ista* cambian según el género: *il turista → i turisti*, *la turista → le turiste*.",
+    },
+    {
+      kind: "p",
+      text: "**Piacere con más personas.** *Ti piace il caffè?* (a ti), *Le piace il caffè?* (a usted, formal), *A Marco piace il caffè.* Después de *piace* puede ir un verbo en infinitivo: *Mi piace viaggiare.* Para contrastar se agrega *a me / a te*: *A me piace il caffè, e a te?*",
+    },
   ],
   transfer:
     "En español el artículo depende solo del género y el número; en italiano también de la letra inicial de la palabra siguiente: *il tavolo*, pero *lo zaino* y *l'amico*. Con *piacere* pasa lo mismo que con *gustar*: *mi piacciono i gelati* = me gustan los helados. No digas *io piaccio il gelato*.",
@@ -111,5 +119,11 @@ export const unidad02: Lesson = {
     {type: "fill", prompt: "Loro ___ due figli. (avere)", answers: ["hanno"], why: "*Avere* con *loro*: *hanno*."},
     {type: "choice", prompt: "«Hay muchas tiendas en el centro»", options: ["Ci sono molti negozi in centro", "C'è molti negozi in centro", "Ho molti negozi in centro"], answer: 0, why: "Plural → *ci sono*."},
     {type: "choice", prompt: "Plural de «il libro»", options: ["i libri", "gli libri", "le libri"], answer: 0, why: "*Il libro → i libri*."},
+    { type: "fill", prompt: "___ il caffè? (tú, informal)", answers: ["Ti piace"], why: "A ti: *ti piace*." },
+    { type: "fill", prompt: "___ il caffè? (usted, formal)", answers: ["Le piace"], why: "A usted: *Le piace*." },
+    { type: "fill", prompt: "Mi piace ___. (viajar)", answers: ["viaggiare"], why: "Después de *piace* va el infinitivo: *viaggiare*." },
+    { type: "fill", prompt: "Ci sono due ___ al bar. (uomo, plural)", answers: ["uomini"], why: "Plural irregular: *uomo → uomini*." },
+    { type: "fill", prompt: "Le ___ arrivano. (amica, plural)", answers: ["amiche"], why: "*-ca → -che*: *amiche*." },
+    { type: "choice", prompt: "«Los juegos» en italiano:", options: ["i giochi", "i gioci", "i gioche"], answer: 0, why: "*-co → -chi* cuando el acento cae en la penúltima: *giochi*." },
   ],
 };

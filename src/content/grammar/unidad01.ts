@@ -42,6 +42,10 @@ export const unidad01: Lesson = {
         ["*Scusi*", "Disculpe (formal) / *Scusa* (informal)"],
       ],
     },
+    {
+      kind: "p",
+      text: "*Come stai?* y *Come sta?* son, por ahora, fórmulas fijas para preguntar cómo está alguien (a un amigo y a una persona a la que tratas de *Lei*). El verbo *stare* lo estudiarás en la unidad 7.",
+    },
   ],
   transfer:
     "*Lei* (usted) y *lei* (ella) se pronuncian igual: por escrito, el *Lei* de cortesía suele llevar mayúscula, y el contexto decide el resto. Y *essere* te sirve para decir dónde estás (*Sono a Milano*), pero para el estado (\"estoy bien\") se usa otro verbo, *stare*: *Sto bene* (lo vemos en la unidad 7).",
@@ -116,7 +120,7 @@ export const unidad01: Lesson = {
     {type: "fill", prompt: "Noi ___ stanchi.", answers: ["siamo"], why: "Con *noi* va *siamo*."},
     {type: "fill", prompt: "Voi ___ studenti?", answers: ["siete"], why: "Con *voi* va *siete*."},
     {type: "fill", prompt: "Io non ___ italiano.", answers: ["sono"], why: "*Non* va antes del verbo: *non sono*."},
-    {type: "fill", prompt: "___! Come sta, signora? (buenas tardes)", answers: ["Buonasera", "Buona sera"], why: "De tarde y de noche, con cualquiera: *Buonasera*."},
+    {type: "fill", prompt: "___! Come sta, signora? (buenas noches, al llegar a las nueve)", answers: ["Buonasera", "Buona sera"], why: "De tarde y de noche, con cualquiera: *Buonasera*."},
     {type: "fill", prompt: "A un amigo: ___, come stai? (hola)", answers: ["Ciao"], why: "Con amigos se usa *Ciao*."},
     {type: "choice", prompt: "Un desconocido mayor te pregunta algo. ¿Cómo le dices «disculpe»?", options: ["Scusa", "Scusi", "Scusate"], answer: 1, why: "Con alguien desconocido y mayor: *Scusi* (formal)."},
     {type: "choice", prompt: "«Eres de Roma» (a un amigo)", options: ["Sei di Roma", "Sono di Roma", "È di Roma"], answer: 0, why: "Con *tu*: *sei*."},

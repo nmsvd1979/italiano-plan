@@ -19,9 +19,9 @@
 
 ## Alcance
 
-- 16 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
-- 105 frases de ejemplo, 360 ejercicios y preguntas de comprensión.
-- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 113 líneas de diálogo, 15 consignas de escritura con modelo.
+- 24 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
+- 154 frases de ejemplo, 575 ejercicios y preguntas de comprensión.
+- 488 palabras o expresiones de vocabulario, 144 frases de dictado, 195 líneas de diálogo, 15 consignas de escritura con modelo.
 - Pronunciación: pares mínimos y consejos por unidad. Shadowing: lista de videos (para juzgar si el nivel es adecuado).
 
 ## Dudas de la IA que conviene mirar primero
@@ -83,6 +83,8 @@ El pronombre sujeto casi siempre se omite: se dice *Sono argentina*, no *Io sono
 | *Mi chiamo…* | Me llamo… |
 | *Scusi* | Disculpe (formal) / *Scusa* (informal) |
 
+*Come stai?* y *Come sta?* son, por ahora, fórmulas fijas para preguntar cómo está alguien (a un amigo y a una persona a la que tratas de *Lei*). El verbo *stare* lo estudiarás en la unidad 7.
+
 **Recuadro «Ojo, en español…»:**
 
 *Lei* (usted) y *lei* (ella) se pronuncian igual: por escrito, el *Lei* de cortesía suele llevar mayúscula, y el contexto decide el resto. Y *essere* te sirve para decir dónde estás (*Sono a Milano*), pero para el estado ("estoy bien") se usa otro verbo, *stare*: *Sto bene* (lo vemos en la unidad 7).
@@ -119,7 +121,7 @@ El pronombre sujeto casi siempre se omite: se dice *Sono argentina*, no *Io sono
 12. **Completar:** Noi ___ stanchi.  → respuesta(s) aceptada(s): `siamo`  — _Con *noi* va *siamo*._
 13. **Completar:** Voi ___ studenti?  → respuesta(s) aceptada(s): `siete`  — _Con *voi* va *siete*._
 14. **Completar:** Io non ___ italiano.  → respuesta(s) aceptada(s): `sono`  — _*Non* va antes del verbo: *non sono*._
-15. **Completar:** ___! Come sta, signora? (buenas tardes)  → respuesta(s) aceptada(s): `Buonasera` · `Buona sera`  — _De tarde y de noche, con cualquiera: *Buonasera*._
+15. **Completar:** ___! Come sta, signora? (buenas noches, al llegar a las nueve)  → respuesta(s) aceptada(s): `Buonasera` · `Buona sera`  — _De tarde y de noche, con cualquiera: *Buonasera*._
 16. **Completar:** A un amigo: ___, come stai? (hola)  → respuesta(s) aceptada(s): `Ciao`  — _Con amigos se usa *Ciao*._
 17. **Elegir:** Un desconocido mayor te pregunta algo. ¿Cómo le dices «disculpe»?  → Scusa  /  **✔** Scusi  /  Scusate  — _Con alguien desconocido y mayor: *Scusi* (formal)._
 18. **Elegir:** «Eres de Roma» (a un amigo)  → **✔** Sei di Roma  /  Sono di Roma  /  È di Roma  — _Con *tu*: *sei*._
@@ -232,6 +234,10 @@ En italiano el artículo cambia según la primera letra de la palabra que sigue.
 
 **C'è / ci sono** = hay. Uno solo: *C'è un supermercato vicino.* Varios: *Ci sono due bar.* **Piacere** funciona como *gustar*: lo que gusta es el sujeto. *Mi piace il caffè* (singular), *Mi piacciono i gelati* (plural).
 
+**Plurales con ortografía especial.** Si el acento cae en la penúltima sílaba, *-co → -chi* (*il gioco → i giochi*); si cae antes, *-co → -ci* (*il medico → i medici*). Excepción muy frecuente: *l'amico → gli amici*. Los nombres en *-go* suelen hacer *-ghi* (*il lago → i laghi*), y los femeninos en *-ca / -ga* hacen siempre *-che / -ghe* (*l'amica → le amiche*, *la riga → le righe*). Unos pocos son irregulares y se aprenden enteros: *l'uomo → gli uomini*, *la mano → le mani*. Los nombres en *-ista* cambian según el género: *il turista → i turisti*, *la turista → le turiste*.
+
+**Piacere con más personas.** *Ti piace il caffè?* (a ti), *Le piace il caffè?* (a usted, formal), *A Marco piace il caffè.* Después de *piace* puede ir un verbo en infinitivo: *Mi piace viaggiare.* Para contrastar se agrega *a me / a te*: *A me piace il caffè, e a te?*
+
 **Recuadro «Ojo, en español…»:**
 
 En español el artículo depende solo del género y el número; en italiano también de la letra inicial de la palabra siguiente: *il tavolo*, pero *lo zaino* y *l'amico*. Con *piacere* pasa lo mismo que con *gustar*: *mi piacciono i gelati* = me gustan los helados. No digas *io piaccio il gelato*.
@@ -273,6 +279,12 @@ En español el artículo depende solo del género y el número; en italiano tamb
 18. **Completar:** Loro ___ due figli. (avere)  → respuesta(s) aceptada(s): `hanno`  — _*Avere* con *loro*: *hanno*._
 19. **Elegir:** «Hay muchas tiendas en el centro»  → **✔** Ci sono molti negozi in centro  /  C'è molti negozi in centro  /  Ho molti negozi in centro  — _Plural → *ci sono*._
 20. **Elegir:** Plural de «il libro»  → **✔** i libri  /  gli libri  /  le libri  — _*Il libro → i libri*._
+21. **Completar:** ___ il caffè? (tú, informal)  → respuesta(s) aceptada(s): `Ti piace`  — _A ti: *ti piace*._
+22. **Completar:** ___ il caffè? (usted, formal)  → respuesta(s) aceptada(s): `Le piace`  — _A usted: *Le piace*._
+23. **Completar:** Mi piace ___. (viajar)  → respuesta(s) aceptada(s): `viaggiare`  — _Después de *piace* va el infinitivo: *viaggiare*._
+24. **Completar:** Ci sono due ___ al bar. (uomo, plural)  → respuesta(s) aceptada(s): `uomini`  — _Plural irregular: *uomo → uomini*._
+25. **Completar:** Le ___ arrivano. (amica, plural)  → respuesta(s) aceptada(s): `amiche`  — _*-ca → -che*: *amiche*._
+26. **Elegir:** «Los juegos» en italiano:  → **✔** i giochi  /  i gioci  /  i gioche  — _*-co → -chi* cuando el acento cae en la penúltima: *giochi*._
 
 ### Vocabulario
 
@@ -333,11 +345,11 @@ En español el artículo depende solo del género y el número; en italiano tamb
 
 ### Pronunciación
 
-**Consonantes dobles (I)** — La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído.
+**Consonantes dobles (I)** — La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído. En español *b* y *v* suenan igual; en italiano no: la *v* se hace con los dientes de arriba sobre el labio de abajo (como una *f* con voz), y la *b* con los dos labios: *bene* (bien) frente a *vene* (venas).
 
-Pares mínimos: palla (pelota) / pala (pala) · nonno (abuelo) / nono (noveno) · sette (siete) / sete (sed) · pena (pena) / penna (pluma)
+Pares mínimos: palla (pelota) / pala (pala) · nonno (abuelo) / nono (noveno) · sette (siete) / sete (sed) · pena (pena) / penna (pluma) · bene (bien) / vene (venas)
 
-Palabras para repetir: palla, nonno, sette, penna, mamma, rosa
+Palabras para repetir: palla, nonno, sette, penna, mamma, rosa, bene, vino
 
 ### Shadowing (videos de Easy Italian)
 
@@ -386,6 +398,8 @@ Preguntas: *Che ora è?* o *Che ore sono?*. Para hablar de un momento: *A che or
 
 **Precios**: *Quanto costa?* (una cosa) y *Quanto costano?* (varias). *Costa dieci euro.* *Costano cinque euro.* La palabra *euro* no cambia en plural. Para centavos se dice *e*: 1,20 € → *un euro e venti*. En italiano el decimal es una coma (*12,50*) y los miles llevan punto (*1.200*).
 
+**Centenas y años.** *cento* (100), *centodieci* (110), *centocinquanta* (150), *duecento* (200), *trecento* (300), *cinquecento* (500), *novecento* (900). Se escriben pegados y sin *e*: *duecentoventi* (220). Los años se dicen como un solo número: *duemilaventisei* (2026), *millenovecentonovantanove* (1999); y con *in*: *nel duemilaventisei*. Para preguntar la fecha: *Che giorno è oggi?* — *Oggi è il sei ottobre.*
+
 **Recuadro «Ojo, en español…»:**
 
 No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "de": *il 6 ottobre*, no *il 6 di ottobre*. Los números compuestos van pegados y pierden la vocal con *uno* y *otto* (*ventuno, ventotto*, no *ventiuno*). Y recuerda que el decimal es coma: 12,50 € se lee *dodici euro e cinquanta*.
@@ -396,9 +410,9 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 2. **A che ora parte il treno? — Alle diciassette e quindici.** — ¿A qué hora sale el tren? — A las 17:15.
 3. **Quanto costa questo? — Costa dodici euro e cinquanta.** — ¿Cuánto cuesta esto? — Cuesta 12,50 euros.
 4. **I biscotti costano tre euro.** — Las galletas cuestan tres euros.
-5. **Il mio compleanno è il quindici marzo.** — Mi cumpleaños es el 15 de marzo.
-6. **Ho ventotto anni e mia sorella ha trentuno anni.** — Tengo 28 años y mi hermana tiene 31.
-7. **Oggi è martedì, sei ottobre.** — Hoy es martes, 6 de octubre.
+5. **Il compleanno di Marco è il quindici marzo.** — El cumpleaños de Marco es el 15 de marzo.
+6. **Ho ventotto anni e Marco ha trentuno anni.** — Tengo 28 años y Marco tiene 31.
+7. **Oggi è il sei ottobre.** — Hoy es 6 de octubre.
 8. **Il museo apre alle nove e chiude all'una.** — El museo abre a las nueve y cierra a la una.
 
 ### Preguntas «Primero fíjate»
@@ -420,7 +434,7 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 9. **Completar:** A che ora apre il museo? — ___ nove. (a las 9)  → respuesta(s) aceptada(s): `alle`  — _*A + le* → *alle* para horas en plural._
 10. **Completar:** Il treno parte ___. (a la una)  → respuesta(s) aceptada(s): `all'una`  — _Con la una: *all'una*._
 11. **Completar:** Oggi è ___. (miércoles)  → respuesta(s) aceptada(s): `mercoledì`  — _*Mercoledì* lleva tilde y va en minúscula._
-12. **Completar:** Il mio compleanno è il ___ marzo. (15)  → respuesta(s) aceptada(s): `quindici`  — _15 = *quindici*._
+12. **Completar:** Il compleanno di Marco è il ___ marzo. (15)  → respuesta(s) aceptada(s): `quindici`  — _15 = *quindici*._
 13. **Completar:** Il ___ gennaio è Capodanno. (1.º)  → respuesta(s) aceptada(s): `primo`  — _Solo el día 1 es ordinal: *il primo*._
 14. **Completar:** Il corso comincia a ___. (septiembre)  → respuesta(s) aceptada(s): `settembre`  — _*Settembre* va en minúscula._
 15. **Completar:** Il caffè costa un euro e ___. (1,20)  → respuesta(s) aceptada(s): `venti`  — _Los centavos se dicen con *e*: *un euro e venti*._
@@ -429,6 +443,9 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 18. **Elegir:** Quieres saber el precio de unos zapatos. ¿Qué preguntas?  → Quanto costa?  /  **✔** Quanto costano?  /  Quanti costa?  — _Varias cosas (un par): *Quanto costano?*._
 19. **Elegir:** ¿Cómo se escribe correctamente la fecha de hoy?  → **✔** Oggi è il 6 ottobre.  /  Oggi è il 6 di ottobre.  /  Oggi è 6 Ottobre.  — _Sin "de" y con el mes en minúscula._
 20. **Elegir:** ¿Cómo se dice 21?  → ventiuno  /  **✔** ventuno  /  venti uno  — _*Venti* pierde la *i* ante *uno*: *ventuno*._
+21. **Completar:** Il libro costa ___ euro. (200)  → respuesta(s) aceptada(s): `duecento`  — _200 = *duecento*, pegado y sin *e*._
+22. **Completar:** Il biglietto costa ___ euro. (150)  → respuesta(s) aceptada(s): `centocinquanta`  — _150 = *centocinquanta*, todo junto._
+23. **Elegir:** Preguntas qué fecha es hoy:  → **✔** Che giorno è oggi?  /  Che giorno ha oggi?  /  Quale giorno sono oggi?  — _*Che giorno è oggi?* es la forma estándar._
 
 ### Vocabulario
 
@@ -460,7 +477,7 @@ No digas *Sono le una*: con la una es singular, *È l'una*. La fecha no lleva "d
 1. **Sono le otto e mezza.** — Son las ocho y media.
 2. **Il treno parte alle diciotto e trenta.** — El tren sale a las 18:30.
 3. **Costa dodici euro e cinquanta.** — Cuesta 12,50 euros.
-4. **Oggi è martedì, sei ottobre.** — Hoy es martes, 6 de octubre.
+4. **Oggi è il sei ottobre.** — Hoy es 6 de octubre.
 5. **Ho ventotto anni.** — Tengo 28 años.
 6. **Il museo apre alle nove.** — El museo abre a las nueve.
 
@@ -698,7 +715,20 @@ Excepción útil: *a piedi* (caminando). **Preposiciones articuladas**: *a, di, 
 | *guardare* | mirar | guardar (eso es *conservare*) |
 | *vaso* | florero / maceta | vaso para beber: eso es *bicchiere* |
 
-**Dónde está** algo: *Scusi, dov'è la stazione?* Respuestas básicas: *È a destra* (a la derecha), *è a sinistra* (a la izquierda), *è dritto* (está todo derecho), *è vicino* / *è lontano*. Para ubicarte: *all'angolo* (en la esquina), *al semaforo*, *di fronte a* (frente a), *accanto a* (al lado de). En la unidad 14 aprenderás a dar indicaciones con órdenes (*vada dritto, giri a destra*).
+**Dónde está** algo: *Scusi, dov'è la stazione?* Respuestas básicas: *È a destra* (a la derecha), *è a sinistra* (a la izquierda), *è vicino* / *è lontano*. Para ubicarte: *all'angolo* (en la esquina), *al semaforo*, *di fronte a* (frente a), *accanto a* (al lado de). Para entender indicaciones formales (*Lei*): *Vada dritto* (siga derecho), *giri a destra / a sinistra*, *attraversi la piazza*, *continui*, *prenda la prima a sinistra*. Ojo: *dritto* suele ir con verbo (*Va dritto*). En la unidad 14 las practicarás.
+
+**Lugares de todos los días.** Con algunos se usa *in* sin artículo: *Vado in banca, in farmacia, in centro, in ufficio, in chiesa, in palestra, in biblioteca*. Con otros, *a* sin artículo: *Vado a casa, a scuola, a teatro*. Con el resto sí hay artículo: *alla stazione, al supermercato, al cinema*.
+
+**Tres verbos irregulares de movimiento:**
+
+|  | andare | venire | uscire |
+|---|---|---|---|
+| io | vado | vengo | esco |
+| tu | vai | vieni | esci |
+| lui/lei | va | viene | esce |
+| noi | andiamo | veniamo | usciamo |
+| voi | andate | venite | uscite |
+| loro | vanno | vengono | escono |
 
 **Recuadro «Ojo, en español…»:**
 
@@ -733,7 +763,7 @@ En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la mi
 9. **Completar:** Il bar è ___ al semaforo. (al lado de)  → respuesta(s) aceptada(s): `accanto`  — _*Accanto a* = al lado de._
 10. **Elegir:** Quieres decir que bajas del tren en la próxima estación.  → Salgo alla prossima  /  **✔** Scendo alla prossima  /  Esco alla prossima  — _Bajar es *scendere*; *salire* es subir._
 11. **Elegir:** Reservas una habitación doble. ¿Qué dices?  → **✔** Una camera doppia  /  Una fotocamera doppia  /  Un burro doppio  — _*Camera* es habitación; la cámara de fotos es *fotocamera*._
-12. **Elegir:** «La farmacia? È dritto, poi a sinistra.» ¿Qué haces?  → **✔** Sigo derecho y luego voy a la izquierda  /  Giro a la derecha y sigo  /  Tomo un taxi porque está lejos  — _*Dritto* = derecho y *a sinistra* = a la izquierda._
+12. **Elegir:** «La farmacia? Vada dritto, poi giri a sinistra.» ¿Qué haces?  → **✔** Sigo derecho y luego voy a la izquierda  /  Giro a la derecha y sigo  /  Tomo un taxi porque está lejos  — _*Vada dritto* = siga derecho y *giri a sinistra* = gire a la izquierda._
 13. **Completar:** Vivo ___ Spagna. (en)  → respuesta(s) aceptada(s): `in`  — _Los países llevan *in*._
 14. **Completar:** Vado ___ dentista. (al dentista)  → respuesta(s) aceptada(s): `dal`  — _A casa de una persona o profesional: *da* + *il* = *dal*._
 15. **Completar:** Il caffè è ___ tazza. (en la)  → respuesta(s) aceptada(s): `nella`  — _*in + la = nella*._
@@ -742,6 +772,13 @@ En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la mi
 18. **Completar:** Esco ___ stazione. (de la)  → respuesta(s) aceptada(s): `dalla`  — _*da + la = dalla*._
 19. **Elegir:** «Voy a Perú en avión»  → **✔** Vado in Perù in aereo  /  Vado a Perù a aereo  /  Vado da Perù con aereo  — _País → *in*; medio de transporte → *in*._
 20. **Elegir:** Quieres pedir mantequilla en una tienda.  → **✔** il burro  /  il burrone  /  il burrito  — _*Burro* es la mantequilla, no el animal._
+21. **Completar:** Vado ___ banca.  → respuesta(s) aceptada(s): `in`  — _Lugar habitual: *in banca*, sin artículo._
+22. **Completar:** Torno ___ casa alle sei.  → respuesta(s) aceptada(s): `a`  — _*A casa*, sin artículo._
+23. **Completar:** Tu ___ con noi? (venire)  → respuesta(s) aceptada(s): `vieni`  — _*Venire* con *tu*: *vieni*._
+24. **Completar:** Marco ___ alle otto. (uscire)  → respuesta(s) aceptada(s): `esce`  — _*Uscire* con *lui*: *esce*._
+25. **Completar:** Noi ___ al cinema. (andare)  → respuesta(s) aceptada(s): `andiamo`  — _*Andare* con *noi*: *andiamo*._
+26. **Completar:** Io ___ dall'ufficio alle sei. (uscire)  → respuesta(s) aceptada(s): `esco`  — _*Uscire* con *io*: *esco*._
+27. **Elegir:** Quieres decir que vas al banco a hacer un trámite:  → **✔** Vado in banca.  /  Vado nella banca.  /  Vado a banca.  — _Con *banca* (lugar habitual) se usa *in*, sin artículo._
 
 ### Vocabulario
 
@@ -804,9 +841,9 @@ En español dices *voy a Italia*, *voy a Roma* y *voy a casa de Marco* con la mi
 
 **S + consonante** — En italiano *s* + consonante se pronuncia pegada, sin una *e* delante: *studente*, no "estudente"; *Spagna*, no "España". Es un error muy común en hispanohablantes.
 
-Pares mínimos: palla (pelota) / pala (pala) · caro (querido / caro) / carro (carreta / vagón) · chi (quién) / ci (nos / allí)
+Pares mínimos: 
 
-Palabras para repetir: studente, scuola, Spagna, stazione, spesa, sport, strada, specchio, sposa
+Palabras para repetir: studente, scuola, Spagna, stazione, spesa, sport, strada, specchio, sposa, sciarpa, spiaggia
 
 ### Shadowing (videos de Easy Italian)
 
@@ -851,6 +888,8 @@ Los posesivos concuerdan con **lo poseído**, no con quien lo posee, y casi siem
 
 **Adjetivos**: concuerdan en género y número (*-o/-a/-i/-e*; los de *-e* sirven para los dos géneros: *verde, verdi*) y se ponen **después** del sustantivo: *una borsa rossa*. Pocos van antes: *bello, buono, grande, piccolo*. Colores: *rosso, giallo, verde, azzurro, bianco, nero, grigio, marrone*. Tres no cambian nunca: *rosa, viola, blu* (*due gonne rosa*).
 
+**Bello y buono antes del nombre.** *Bello* cambia como *quello*: *un bel libro, un bello zaino, un bell'albergo, una bella casa, dei bei libri, delle belle case*. *Buono* cambia como *un*: *un buon caffè, un buon amico, una buona pizza*. Con *essere*, el posesivo va sin artículo: *Questa borsa è mia.* *Sono miei.*
+
 **Recuadro «Ojo, en español…»:**
 
 En español dices *mi casa*; en italiano, *la mia casa* (con artículo), salvo con un familiar en singular (*mia madre*). *Suo* no dice si es de él, de ella o de usted: lo da el contexto. Y *quello* no cambia como *questo*: *quel libro, quella casa*. Los colores concuerdan (*due borse rosse*), salvo *rosa, viola, blu*.
@@ -894,6 +933,10 @@ En español dices *mi casa*; en italiano, *la mia casa* (con artículo), salvo c
 18. **Elegir:** En «la sua macchina», *sua* puede significar…  → Solo de él  /  **✔** De él, de ella o de usted  /  Solo de ella  — _*Suo/sua* no distingue al poseedor: lo da el contexto._
 19. **Elegir:** ¿Cuál es correcto?  → **✔** Due gonne rosa.  /  Due gonne rose.  /  Due gonni rosa.  — _*Rosa*, *viola* y *blu* no cambian._
 20. **Elegir:** ¿Qué orden es el natural para «una camiseta roja»?  → **✔** una maglietta rossa  /  una rossa maglietta  /  un rossa maglietta  — _El color va después del sustantivo y concuerda con él._
+21. **Completar:** Che ___ libro! (lindo)  → respuesta(s) aceptada(s): `bel`  — _*Bello* ante *libro* (artículo *il*): *bel*._
+22. **Completar:** Una ___ casa. (linda)  → respuesta(s) aceptada(s): `bella`  — _Femenino singular: *bella*._
+23. **Completar:** Un ___ caffè, per favore. (bueno)  → respuesta(s) aceptada(s): `buon`  — _*Buono* ante un masculino: *buon caffè*._
+24. **Completar:** Questa borsa è ___. (mía)  → respuesta(s) aceptada(s): `mia`  — _Tras *essere*, el posesivo va sin artículo: *è mia*._
 
 ### Vocabulario
 
@@ -956,11 +999,11 @@ En español dices *mi casa*; en italiano, *la mia casa* (con artículo), salvo c
 
 ### Pronunciación
 
-**Colores y ropa: CH, GI y dobles** — *ch* y *gh* delante de *e/i* suenan como *k* y *g* dura: *chi* (quién), distinto de *ci* (nos/allí). En cambio *gi* es suave: *giallo* (amarillo) frente a *gallo* (g dura). Las dobles de *rosso*, *azzurro* y *cappello* se alargan: *cappello* (sombrero) frente a *capello* (cabello).
+**Colores y ropa: CH, GI y dobles** — *ch* y *gh* delante de *e/i* suenan como *k* y *g* dura: *chi* (quién), distinto de *ci* (nos/allí). En cambio *gi* es suave: *giallo* (amarillo) frente a *gallo* (g dura). Las dobles de *rosso*, *azzurro* y *cappello* se alargan: *cappello* (sombrero) frente a *capello* (cabello). En español *b* y *v* suenan igual; en italiano no: la *v* se hace con los dientes de arriba sobre el labio de abajo (como una *f* con voz), y la *b* con los dos labios: *bene* (bien) frente a *vene* (venas).
 
-Pares mínimos: giallo (amarillo) / gallo (gallo) · cappello (sombrero) / capello (cabello) · chi (quién) / ci (nos / allí)
+Pares mínimos: giallo (amarillo) / gallo (gallo) · cappello (sombrero) / capello (cabello) · chi (quién) / ci (nos / allí) · bacca (baya) / vacca (vaca) · basta (basta) / vasta (vasta / amplia)
 
-Palabras para repetir: rosso, bianco, nero, verde, azzurro, maglietta, questo, quello
+Palabras para repetir: rosso, bianco, nero, verde, azzurro, maglietta, questo, quello, bello, vento
 
 ### Shadowing (videos de Easy Italian)
 
@@ -1000,6 +1043,19 @@ Para ordenar el día: *prima* (primero), *poi* (luego), *dopo* (después), *di s
 | lugar, profesión, característica | *essere* | *Sono a casa.* · *Sono stanco.* |
 | salud o ánimo en el momento | *stare* | *Sto bene.* · *Come stai?* |
 | acción en curso | *stare* + gerundio | *Sto studiando.* |
+
+**Gerundios irregulares:** *fare → facendo*, *dire → dicendo*, *bere → bevendo* (*Che stai facendo? Sto bevendo un caffè.*). Los demás son regulares: *-are → -ando*, *-ere / -ire → -endo*.
+
+**Presente de cinco verbos irregulares muy frecuentes:**
+
+|  | fare | dire | dare | stare | bere |
+|---|---|---|---|---|---|
+| io | faccio | dico | do | sto | bevo |
+| tu | fai | dici | dai | stai | bevi |
+| lui/lei | fa | dice | dà | sta | beve |
+| noi | facciamo | diciamo | diamo | stiamo | beviamo |
+| voi | fate | dite | date | state | bevete |
+| loro | fanno | dicono | danno | stanno | bevono |
 
 **Recuadro «Ojo, en español…»:**
 
@@ -1042,6 +1098,13 @@ Para ordenar el día: *prima* (primero), *poi* (luego), *dopo* (después), *di s
 18. **Completar:** Lui sta ___ in cucina. (dormire)  → respuesta(s) aceptada(s): `dormendo`  — _*Dormire → dormendo*._
 19. **Elegir:** «Ella se peina»  → **✔** Lei si pettina  /  Lei pettina  /  Lei ti pettina  — _Reflexivo con *lei*: *si pettina*._
 20. **Elegir:** «Estoy bien, gracias»  → **✔** Sto bene, grazie  /  Sono bene, grazie  /  Ho bene, grazie  — _El bienestar va con *stare*: *sto bene*._
+21. **Completar:** Che stai ___? (fare)  → respuesta(s) aceptada(s): `facendo`  — _*Fare* tiene gerundio irregular: *facendo*._
+22. **Completar:** Sto ___ un caffè. (bere)  → respuesta(s) aceptada(s): `bevendo`  — _*Bere → bevendo*._
+23. **Completar:** Che cosa ___ tu di solito? (fare)  → respuesta(s) aceptada(s): `fai`  — _*Fare* con *tu*: *fai*._
+24. **Completar:** Io ___ sempre grazie. (dire)  → respuesta(s) aceptada(s): `dico`  — _*Dire* con *io*: *dico*._
+25. **Completar:** Loro ___ a Roma. (stare)  → respuesta(s) aceptada(s): `stanno`  — _*Stare* con *loro*: *stanno*._
+26. **Completar:** Lui ___ un regalo a Marco. (dare)  → respuesta(s) aceptada(s): `dà`  — _*Dare* con *lui*: *dà*, con tilde._
+27. **Completar:** Noi ___ un'acqua. (bere)  → respuesta(s) aceptada(s): `beviamo`  — _*Bere* con *noi*: *beviamo*._
 
 ### Vocabulario
 
@@ -1303,9 +1366,15 @@ Participios irregulares que vas a usar todo el tiempo:
 
 **Marcadores**: *ieri* (ayer), *ieri sera*, *la settimana scorsa* (la semana pasada), *due giorni fa* (hace dos días). Las palabras *già* (ya), *non… ancora* (todavía no), *mai* (alguna vez / nunca) van **entre** *avere* y el participio: *Ho già mangiato.* · *Non ho ancora visto il Colosseo.* · *Hai mai provato il tiramisù?*
 
+Más participios irregulares frecuentes:
+
+| avere | dare | chiedere | rispondere | decidere | vincere | spendere | conoscere |
+|---|---|---|---|---|---|---|---|
+| avuto | dato | chiesto | risposto | deciso | vinto | speso | conosciuto |
+
 **Recuadro «Ojo, en español…»:**
 
-Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). Dos diferencias: en italiano *ho mangiato* sirve tanto para "he comido" como para "comí" (ayer: *Ieri ho mangiato la pizza*), y *già / mai / ancora* se meten en el medio: *Ho già mangiato*, lo habitual no es *Ho mangiato già*.
+Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). Dos diferencias: en italiano *ho mangiato* sirve tanto para "he comido" como para "comí" (ayer: *Ieri ho mangiato la pizza*), y *già / mai / ancora* se meten en el medio: *Ho già mangiato*, es lo más frecuente (*Ho mangiato già* también se oye, pero menos).
 
 ### Ejemplos
 
@@ -1343,7 +1412,11 @@ Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). 
 17. **Completar:** Ho ___ molta acqua. (bere)  → respuesta(s) aceptada(s): `bevuto`  — _*Bere → bevuto*._
 18. **Completar:** Che cosa hai ___? (dire)  → respuesta(s) aceptada(s): `detto`  — _*Dire → detto* (irregular)._
 19. **Elegir:** «Hace dos días compramos pan»  → **✔** Due giorni fa abbiamo comprato il pane  /  Due giorni abbiamo comprato il pane  /  Fa due giorni ho comprato il pane  — _*Due giorni fa* = hace dos días._
-20. **Elegir:** «¿Has probado alguna vez la pizza?»  → **✔** Hai mai provato la pizza?  /  Hai provato mai la pizza?  /  Hai provato la pizza mai?  — _*Mai* va entre *avere* y el participio._
+20. **Elegir:** «¿Has probado alguna vez la pizza?»  → **✔** Hai mai provato la pizza?  /  Hai mai provata la pizza?  /  Hai mai provare la pizza?  — _*Mai* va entre *avere* y el participio (*provato*), que no cambia._
+21. **Completar:** Ieri ho ___ una bella notizia. (avere)  → respuesta(s) aceptada(s): `avuto`  — _*Avere → avuto*._
+22. **Completar:** Ho ___ la verità. (dire)  → respuesta(s) aceptada(s): `detto`  — _*Dire → detto*._
+23. **Completar:** Hai ___ la partita? (vincere)  → respuesta(s) aceptada(s): `vinto`  — _*Vincere → vinto*._
+24. **Completar:** Abbiamo ___ molto. (spendere)  → respuesta(s) aceptada(s): `speso`  — _*Spendere → speso*._
 
 ### Vocabulario
 
@@ -1428,7 +1501,7 @@ Palabras para repetir: pizza, grazie, zero, zio, lezione, ragazzo, azione, mezzo
 
 ### Lección: la regla
 
-Algunos verbos forman el passato prossimo con **essere** (*sono, sei, è, siamo, siete, sono*) y no con *avere*. Regla práctica: **movimiento, cambio de estado y verbos reflexivos** van con *essere*.
+Algunos verbos forman el passato prossimo con **essere** (*sono, sei, è, siamo, siete, sono*) y no con *avere*. Regla práctica: la mayoría de los verbos de **ir y venir, de cambio de estado y los reflexivos** van con *essere*. Pero no todo verbo de movimiento: *camminare, viaggiare, passeggiare y nuotare* usan *avere* (*Ho viaggiato in Italia. Abbiamo camminato due ore. Ho nuotato in piscina.*).
 
 | Verbo | Participio | Ejemplo |
 |---|---|---|
@@ -1441,6 +1514,8 @@ Algunos verbos forman el passato prossimo con **essere** (*sono, sei, è, siamo,
 | *alzarsi* (reflexivo) | alzato | *Mi sono alzata presto.* |
 
 **Concordancia.** Con *essere* el participio cambia como un adjetivo y concuerda con el sujeto: *-o* (él), *-a* (ella), *-i* (varios), *-e* (varias mujeres). *Marco è andato*, *Anna è andata*, *Marco e Anna sono andati*, *Anna e Giulia sono andate*. Con *avere* el participio no cambia: *Anna ha mangiato*.
+
+**Con un modal** (*volere, potere, dovere*) + infinitivo, en la lengua cuidada el modal toma el auxiliar del verbo que sigue: *Sono dovuta partire. Non sono potuto venire. Ho dovuto lavorare.* En la lengua hablada también se oye *Ho dovuto partire* y *Non ho potuto venire*.
 
 **Recuadro «Ojo, en español…»:**
 
@@ -1483,6 +1558,10 @@ Aquí está la trampa más grande del pasado. En español *he ido* usa *haber*, 
 18. **Completar:** Voi siete ___ a casa? (tornare; grupo de mujeres)  → respuesta(s) aceptada(s): `tornate`  — _Mujeres: *tornate*._
 19. **Elegir:** «Mis amigos llegaron ayer»  → **✔** I miei amici sono arrivati ieri  /  I miei amici hanno arrivato ieri  /  I miei amici sono arrivato ieri  — _*Arrivare* va con *essere* y concuerda: *arrivati*._
 20. **Elegir:** «Fuimos a la playa» (un grupo de mujeres)  → **✔** Siamo andate al mare  /  Siamo andati al mare  /  Abbiamo andato al mare  — _Mujeres: *andate*, con *essere*._
+21. **Completar:** ___ viaggiato in Italia l'anno scorso. (io)  → respuesta(s) aceptada(s): `Ho`  — _*Viaggiare* se conjuga con *avere*: *ho viaggiato*._
+22. **Completar:** Abbiamo ___ per due ore. (camminare)  → respuesta(s) aceptada(s): `camminato`  — _*Camminare → camminato*, con *avere*._
+23. **Completar:** Ieri sono ___ andare via. (dovere)  → respuesta(s) aceptada(s): `dovuto` · `dovuta`  — _Con *sono* + *andare*: *sono dovuto / dovuta andare*._
+24. **Elegir:** «Nadé en la piscina»  → **✔** Ho nuotato in piscina.  /  Sono nuotato in piscina.  /  Ho nuotare in piscina.  — _*Nuotare* usa *avere*: *ho nuotato*._
 
 ### Vocabulario
 
@@ -1545,11 +1624,11 @@ Aquí está la trampa más grande del pasado. En español *he ido* usa *haber*, 
 
 ### Pronunciación
 
-**Dobles en los participios** — Varios participios muy usados del passato prossimo llevan consonante doble: *fatto, detto, messo, letto, scritto*. Mantén el sonido largo para no confundirlos con otras palabras.
+**Dobles en los participios** — Varios participios muy usados del passato prossimo llevan consonante doble: *fatto, detto, messo, letto, scritto, rotto*. Mantén la consonante larga para no confundirlos con otras palabras: *sette* (siete) frente a *sete* (sed).
 
 Pares mínimos: sette (siete) / sete (sed) · sonno (sueño) / sono (soy / son)
 
-Palabras para repetir: detto, letto, scritto, preso, aperto, visto
+Palabras para repetir: detto, letto, scritto, fatto, messo, rotto
 
 ### Shadowing (videos de Easy Italian)
 
@@ -1606,7 +1685,7 @@ Esto lo sabes hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí /
 
 1. **Elegir:** «Da bambino giocavo a calcio.» ¿Qué dice?  → Jugó un partido una vez  /  **✔** Jugaba habitualmente de chico  /  Va a jugar  — _*Giocavo* es imperfetto y *da bambino* confirma la costumbre._
 2. **Elegir:** «Ieri ho visto un film.» ¿Es un hecho puntual o una costumbre?  → **✔** Un hecho puntual terminado  /  Una costumbre  /  Una descripción  — _*Ieri* + passato prossimo: un hecho concreto y cerrado._
-3. **Elegir:** «Mentre dormivo, è suonato il telefono.» ¿Qué interrumpe a qué?  → El sueño interrumpe el llamado  /  **✔** El llamado interrumpe el sueño  /  Pasan separados  — _*Dormivo* es lo que estaba pasando; *è suonato* es el hecho que lo interrumpe._
+3. **Elegir:** «Mentre dormivo, ha suonato il telefono.» ¿Qué interrumpe a qué?  → El sueño interrumpe el llamado  /  **✔** El llamado interrumpe el sueño  /  Pasan separados  — _*Dormivo* es lo que estaba pasando; *ha suonato* es el hecho que lo interrumpe._
 
 ### Ejercicios
 
@@ -1618,7 +1697,7 @@ Esto lo sabes hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí /
 6. **Completar:** Loro ___ sempre in ritardo. (essere, imperfetto)  → respuesta(s) aceptada(s): `erano`  — _*Essere → erano*._
 7. **Completar:** Mentre ___ il treno, ho letto. (io, aspettare)  → respuesta(s) aceptada(s): `aspettavo`  — _*Mentre* + acción de fondo: *aspettavo*._
 8. **Elegir:** «Ayer por la noche vimos una película»  → Ieri sera vedevamo un film  /  **✔** Ieri sera abbiamo visto un film  /  Ieri sera siamo visto un film  — _Hecho puntual y terminado: passato prossimo (*abbiamo visto*)._
-9. **Elegir:** «Cuando era chico, vivía en Roma»  → Quando ero piccolo, ho abitato a Roma  /  **✔** Quando ero piccolo, abitavo a Roma  /  Quando sono piccolo, abitavo a Roma  — _Los dos verbos describen un período del pasado: imperfetto (*ero*, *abitavo*)._
+9. **Elegir:** «Cuando era chico, vivía en Roma»  → Quando ero piccolo, sono abitato a Roma  /  **✔** Quando ero piccolo, abitavo a Roma  /  Quando sono piccolo, abitavo a Roma  — _Los dos verbos describen un período del pasado: imperfetto (*ero*, *abitavo*)._
 10. **Elegir:** «Mientras caminaba, vi el Coliseo»  → **✔** Mentre camminavo, ho visto il Colosseo  /  Mentre ho camminato, vedevo il Colosseo  /  Mentre camminavo, vedevo il Colosseo  — _*Camminavo* = acción de fondo; *ho visto* = hecho puntual._
 11. **Completar:** Tu ___ molto da bambino. (giocare)  → respuesta(s) aceptada(s): `giocavi`  — _*Giocare → giocavi*._
 12. **Completar:** Da piccolo, lui ___ in una città piccola. (vivere)  → respuesta(s) aceptada(s): `viveva`  — _*Vivere → viveva*._
@@ -1692,9 +1771,9 @@ Esto lo sabes hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí /
 
 ### Pronunciación
 
-**El acento de la palabra** — La mayoría de las palabras llevan el acento en la penúltima sílaba. Hay esdrújulas sin tilde (*TElefono*, *TAvolo*) y la tilde final marca el acento en la última sílaba (*città*, *perché*, *caffè*).
+**El acento de la palabra** — En italiano el acento cae casi siempre en la penúltima sílaba (*CAsa, ragAZzo, parLAre*); en las palabras con tilde final cae en la última (*città, perché, caffè*). Algunas llevan el acento antes, sin tilde: *TElefono, TAvolo*. Cambiar el acento cambia la palabra: *papa* (el Papa) frente a *papà* (papá), o *capitano* (capitán) frente a *càpitano* (ocurren).
 
-Pares mínimos: caro (querido / caro) / carro (carreta / vagón) · casa (casa) / cassa (caja)
+Pares mínimos: papa (el Papa) / papà (papá) · capitano (capitán) / càpitano (ocurren / suceden)
 
 Palabras para repetir: telefono, macchina, tavolo, città, perché, università, caffè
 
@@ -1745,7 +1824,7 @@ Se usa en frases afirmativas: *Vorrei del pane e dei pomodori.* En negativas se 
 
 **Recuadro «Ojo, en español…»:**
 
-En español siempre dices *más… que*; en italiano, con un sustantivo o pronombre usas *di*: *più alto di me* (no *che me*). *Bene* y *buono* no son lo mismo: *Parla meglio* (adverbio), pero *il caffè migliore* (adjetivo). El superlativo lleva artículo: *il più caro*. Y el partitivo no existe en español (*quiero pan*): en italiano *Vorrei del pane* es lo natural, salvo en frases negativas.
+En español siempre dices *más… que*; en italiano, con un sustantivo o pronombre usas *di*: *più alto di me* (no *che me*). *Bene* y *buono* no son lo mismo: *Parla meglio* (adverbio), pero *il caffè migliore* (adjetivo). El superlativo lleva artículo: *il più caro*. Y el partitivo no existe en español (*quiero pan*): en italiano *Vorrei del pane* es frecuente pero no obligatorio (*Vorrei pane* también se dice), y en frases negativas normalmente se omite.
 
 ### Ejemplos
 
@@ -1785,7 +1864,7 @@ En español siempre dices *más… que*; en italiano, con un sustantivo o pronom
 16. **Completar:** Ho comprato ___ spinaci. (unos)  → respuesta(s) aceptada(s): `degli`  — _*Spinaci* empieza con *sp*: *degli*._
 17. **Elegir:** ¿Cómo se dice «más caro que Milán»?  → **✔** più caro di Milano  /  più caro che Milano  /  più caro da Milano  — _Se compara con un sustantivo: *di*._
 18. **Elegir:** «El restaurante más barato de la zona»  → **✔** il ristorante più economico della zona  /  il ristorante più economico che la zona  /  il più ristorante economico della zona  — _Artículo + sustantivo + *più* + adjetivo + *di* + lugar._
-19. **Elegir:** ¿Cuál es natural para «No tengo pan»?  → **✔** Non ho pane.  /  Non ho del pane.  /  Non ho dei pane.  — _En frases negativas el partitivo se omite._
+19. **Elegir:** ¿Cuál es correcta para «No tengo pan»?  → **✔** Non ho pane.  /  Non ho dei pane.  /  Non ho della pane.  — _En frases negativas lo normal es omitir el partitivo; *dei pane* y *della pane* no concuerdan._
 20. **Elegir:** «Parla ___ di me» (habla mejor que yo)  → **✔** meglio  /  migliore  /  più buono  — _Con un verbo se usa el adverbio: *meglio*._
 
 ### Vocabulario
@@ -1850,7 +1929,7 @@ En español siempre dices *más… que*; en italiano, con un sustantivo o pronom
 
 ### Pronunciación
 
-**Comparar: GLI, GN y dobles** — *Gli* es una *l* palatal, como la "ll" de algunas regiones de España o de los Andes: *gli* (a él / los) frente a *li* (allí). Las dobles se alargan: *pane* (pan) frente a *panna* (crema). Escucha *migliore* y *formaggio*, donde *gli* y *gg* se combinan con la vocal.
+**Comparar: GLI, GN y dobles** — *Gli* es una *l* palatal: apoya la parte media de la lengua contra el paladar, como si dijeras *l* e *i* a la vez (*famiglia, figlio, migliore*). No te guíes por la *ll* del español de Chile, que suena como *y*. Contrasta *gli* con *li* (allí), que es una *l* normal. Las dobles se alargan: *pane* (pan) frente a *panna* (crema).
 
 Pares mínimos: pane (pan) / panna (crema de leche / nata) · gli (a él / los) / li (allí)
 
@@ -1889,12 +1968,15 @@ Los pronombres evitan repetir el objeto. **Directo** = *qué / a quién* (*lo ve
 | ustedes | *vi* | *vi* |
 | ellos / los | *li* | *gli* |
 | ellas / las | *le* | *gli* |
+| usted (Lei) | *La* | *Le* |
 
 *Compro la giacca* → **la** compro. · *Vedo Marco* → **lo** vedo. · *Telefono ad Anna* → **le** telefono. · *Do il libro a lui* → **gli** do il libro.
 
 **Con infinitivo** el pronombre puede ir al final pegado (*Voglio vederlo*) o antes del verbo conjugado (*Lo voglio vedere*). **Con passato prossimo**, *lo / la / li / le* hacen concordar el participio: *Ho comprato la giacca → L'ho comprata.* · *Ho visto i ragazzi → Li ho visti.*
 
 Cuando se juntan dos (a él + lo), *gli* + *lo* se funden en **glielo**: *Glielo do* (se lo doy). Con las demás personas, el primer pronombre cambia a *me, te, ce, ve*: *Te lo do domani* (te lo doy mañana), *Me lo dai?* (¿me lo das?). Por ahora alcanza con reconocerlos.
+
+Con *Lei* (usted) los pronombres suelen escribirse con mayúscula: *La ringrazio, signora.* (le agradezco, señora) · *Le telefono domani.* (le llamo mañana).
 
 **Recuadro «Ojo, en español…»:**
 
@@ -1937,6 +2019,8 @@ Cuidado con *le*: en español *le* es para él y para ella, pero en italiano *gl
 18. **Completar:** Ho incontrato Paolo e ___ ho salutato. (lo, con apóstrofo)  → respuesta(s) aceptada(s): `l'`  — _Ante *ho*, *lo* pierde la vocal: *l'ho*._
 19. **Elegir:** «Te lo doy mañana» (el libro)  → **✔** Te lo do domani  /  Ti lo do domani  /  Lo ti do domani  — _*Ti* + *lo* = *te lo*._
 20. **Elegir:** «Les escribí una carta» (a ellos)  → **✔** Gli ho scritto una lettera  /  Li ho scritto una lettera  /  Le ho scritto una lettera  — _Indirecto para ellos: *gli*._
+21. **Completar:** ___ ringrazio, signora. (a usted, directo)  → respuesta(s) aceptada(s): `La`  — _Directo con *Lei*: *La ringrazio*._
+22. **Completar:** ___ telefono domani, dottore. (a usted, indirecto)  → respuesta(s) aceptada(s): `Le`  — _Indirecto con *Lei*: *Le telefono*._
 
 ### Vocabulario
 
@@ -2033,8 +2117,10 @@ El **imperativo** da órdenes e indicaciones. Con *tu* y con *Lei* (cortés) cam
 | andare | *vai* | *vada* |
 | fare | *fai* | *faccia* |
 | dire | *di'* | *dica* |
+| finire | *finisci* | *finisca* |
+| venire | *vieni* | *venga* |
 
-Para decir que **no**: con *tu* se usa *non* + infinitivo (*Non parlare!*); con *Lei*, *non* + la forma cortés (*Non parli!*). Con el imperativo de *tu*, los pronombres van pegados: *Dimmi* (dime), *Dammi* (dame).
+Para decir que **no**: con *tu* se usa *non* + infinitivo (*Non parlare!*); con *Lei*, *non* + la forma cortés (*Non parli!*). Con *voi* el imperativo es igual al presente (*Parlate! · Non parlate!*). Con el imperativo de *tu*, los pronombres van pegados: *Dimmi* (dime), *Dammi* (dame).
 
 - *Vada sempre dritto.* (siga derecho)
 - *Giri a destra / a sinistra.* (gire a la derecha / izquierda)
@@ -2044,7 +2130,7 @@ Para decir que **no**: con *tu* se usa *non* + infinitivo (*Non parlare!*); con 
 
 **Recuadro «Ojo, en español…»:**
 
-En español puedes decir *quiero dos* sin más; en italiano, si hablas de una cantidad de algo ya mencionado, hace falta *ne*: *Ne voglio due*, no *Voglio due*. Y como en la unidad 4, para ser cortés con desconocidos usa la forma *Lei* (*Mi scusi*, *Mi dica*), no la de *tu*.
+En español puedes decir *quiero dos* sin más; en italiano, si hablas de una cantidad de algo ya mencionado, hace falta *ne*: *Ne voglio due*, no *Voglio due*. Y para ser cortés con desconocidos usa la forma *Lei* (*Mi scusi*, *Mi dica*, *Vada dritto*), no la de *tu*.
 
 ### Ejemplos
 
@@ -2077,7 +2163,7 @@ En español puedes decir *quiero dos* sin más; en italiano, si hablas de una ca
 12. **Completar:** Per favore, ___ più piano! (tu, parlare)  → respuesta(s) aceptada(s): `parla`  — _-are con *tu*: *parla*._
 13. **Completar:** ___ la prima strada. (tu, prendere)  → respuesta(s) aceptada(s): `prendi`  — _-ere con *tu*: *prendi*._
 14. **Completar:** ___ dov'è la fermata. (tu, dire + mi)  → respuesta(s) aceptada(s): `dimmi`  — _*Dimmi* = dime._
-15. **Completar:** Non ___ in fretta! (tu, comer)  → respuesta(s) aceptada(s): `mangiare`  — _Negativo con *tu*: *non* + infinitivo._
+15. **Completar:** «No comas de prisa»: Non ___ in fretta!  → respuesta(s) aceptada(s): `mangiare`  — _Negativo con *tu*: *non* + infinitivo._
 16. **Completar:** Sei stato in Italia? Sì, ___ sono stato due volte. (allí)  → respuesta(s) aceptada(s): `ci`  — _*Ci* reemplaza el lugar._
 17. **Completar:** Hai fratelli? Sì, ___ ho due.  → respuesta(s) aceptada(s): `ne`  — _*Ne* expresa la cantidad._
 18. **Completar:** Quanto pane vuoi? ___ voglio un chilo.  → respuesta(s) aceptada(s): `Ne`  — _*Ne* = de eso._
@@ -2169,7 +2255,7 @@ Palabras para repetir: gelato, pesce, famiglia, pizza, ghiaccio
 
 ### Lección: la regla
 
-El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *-ò, -ai, -à, -emo, -ete, -anno*. En los verbos en *-are* la *a* pasa a *e*. Ortografía: los verbos en *-care / -gare* agregan una *h* (*cercherò, pagherò*), los en *-ciare / -giare* pierden la *i* (*mangerò, viaggeremo*) y los en *-iare* con *i* acentuada la conservan (*studierò*).
+El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *-ò, -ai, -à, -emo, -ete, -anno*. En los verbos en *-are* la *a* pasa a *e*. Ortografía: los verbos en *-care / -gare* agregan una *h* (*cercherò, pagherò*), los en *-ciare / -giare* pierden la *i* (*mangerò, viaggeremo*) y los demás en *-iare* conservan la *i* (*studiare → studierò*, *cambiare → cambierò*).
 
 |  | parlare | prendere | dormire | essere | avere |
 |---|---|---|---|---|---|
@@ -2180,7 +2266,7 @@ El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *
 | voi | parler*ete* | prender*ete* | dormir*ete* | sar*ete* | avr*ete* |
 | loro | parler*anno* | prender*anno* | dormir*anno* | sar*anno* | avr*anno* |
 
-Con raíz irregular: *andare → andrò*, *fare → farò*, *venire → verrò*, *potere → potrò*, *dovere → dovrò*, *volere → vorrò*, *vedere → vedrò*. Y también sirve para suponer: *Sarà in ritardo* (debe de estar atrasado). Para un futuro cercano se usa mucho el presente: *Domani vado a Roma.*
+Con raíz irregular: *andare → andrò*, *fare → farò*, *venire → verrò*, *potere → potrò*, *dovere → dovrò*, *volere → vorrò*, *vedere → vedrò*. *Fare, dare y stare* conservan la *a*: *farò, darò, starò*. Y también sirve para suponer: *Sarà in ritardo* (debe de estar atrasado). Para un futuro cercano se usa mucho el presente: *Domani vado a Roma.*
 
 El **condizionale** usa la misma raíz del futuro con otras terminaciones (*-ei, -esti, -ebbe, -emmo, -este, -ebbero*). Sirve para ser cortés y dar consejos.
 
@@ -2190,6 +2276,17 @@ El **condizionale** usa la misma raíz del futuro con otras terminaciones (*-ei,
 | Pedir algo | *Vorrei un tavolo per due.* |
 | Dar un consejo | *Dovresti riposare un po'.* (deberías descansar) |
 | Deseo | *Mi piacerebbe visitare Venezia.* |
+
+|  | potere | volere | dovere | essere |
+|---|---|---|---|---|
+| io | potrei | vorrei | dovrei | sarei |
+| tu | potresti | vorresti | dovresti | saresti |
+| lui/lei | potrebbe | vorrebbe | dovrebbe | sarebbe |
+| noi | potremmo | vorremmo | dovremmo | saremmo |
+| voi | potreste | vorreste | dovreste | sareste |
+| loro | potrebbero | vorrebbero | dovrebbero | sarebbero |
+
+**Si + presente** para una posibilidad real: *Se piove, resto a casa.* (si llueve, me quedo en casa) · *Se hai tempo, vieni con noi!* · *Se vuoi, ti aiuto.* **Invitar:** *Vuoi venire al cinema?* · *Ti va di uscire?* Aceptar: *Volentieri! Con piacere! Certo, ci sto!* Rechazar con amabilidad: *Mi dispiace, non posso: devo lavorare. Un'altra volta!*
 
 **Recuadro «Ojo, en español…»:**
 
@@ -2232,6 +2329,12 @@ Se parece mucho al español (*hablaré, hablaría*), por eso es fácil: *parler�
 18. **Completar:** Marco, ___ riposare. (dovere, consejo)  → respuesta(s) aceptada(s): `dovresti`  — _Condizionale: *dovresti*._
 19. **Elegir:** «Quizás mañana llueva»  → **✔** Forse domani pioverà.  /  Forse domani pioveva.  /  Forse domani piove stato.  — _Futuro: *pioverà*._
 20. **Elegir:** Quieres pedir la cuenta con cortesía.  → **✔** Vorrei il conto, per favore.  /  Voglio il conto.  /  Portami il conto.  — _*Vorrei… per favore* es lo cortés._
+21. **Completar:** Se ___, resto a casa. (piovere)  → respuesta(s) aceptada(s): `piove`  — _*Se* + presente: *Se piove, resto a casa*._
+22. **Completar:** Se hai tempo, ___ con noi! (venire, imperativo)  → respuesta(s) aceptada(s): `vieni`  — _Imperativo de *tu*: *vieni*._
+23. **Completar:** Domani noi ___ una torta. (fare, futuro)  → respuesta(s) aceptada(s): `faremo`  — _*Fare* conserva la *a*: *faremo*._
+24. **Completar:** Domani io ___ a casa. (stare, futuro)  → respuesta(s) aceptada(s): `starò`  — _*Stare* conserva la *a*: *starò*._
+25. **Elegir:** Te invitan al cine y quieres aceptar con gusto:  → **✔** Volentieri!  /  Mi dispiace, non posso.  /  Arrivederci.  — _*Volentieri* = con gusto._
+26. **Elegir:** Te invitan, pero no puedes y quieres ser amable:  → Volentieri!  /  **✔** Mi dispiace, non posso: devo lavorare.  /  Buongiorno!  — _Disculparte y dar un motivo es lo cortés._
 
 ### Vocabulario
 
@@ -2307,11 +2410,605 @@ Palabras para repetir: studente, scuola, Spagna, stazione, caffè, città
 
 ---
 
+## Unidad 16 — Salud y emergencias
+
+**Situación:** Explicar qué te duele, entender al médico y pedir ayuda
+
+**Objetivos «Puedo…»:**
+- Puedo explicar qué me duele y pedir ayuda médica.
+- Puedo entender instrucciones de un médico o farmacéutico.
+- Puedo pedir ayuda en una emergencia.
+
+### Lección: la regla
+
+**Decir qué te duele.** Hay tres formas muy comunes. **1)** *Ho mal di* + parte del cuerpo, sin artículo: *Ho mal di testa, mal di gola, mal di denti, mal di stomaco.* **2)** *Mi fa male* + lo que duele, con artículo: *Mi fa male la schiena. Mi fanno male i piedi.* Funciona como *piacere*: lo que duele es el sujeto, así que el verbo concuerda con él (*fa* / *fanno*). **3)** *Ho la* + síntoma: *Ho la febbre, la tosse, il raffreddore.*
+
+| Singular | Plural | Español |
+|---|---|---|
+| *la testa* | *le teste* | cabeza |
+| *la gola* | *le gole* | garganta |
+| *lo stomaco* | *gli stomaci* | estómago |
+| *la schiena* | *le schiene* | espalda |
+| *la mano* | *le mani* | mano |
+| *il braccio* | *le braccia* | brazo |
+| *il piede* | *i piedi* | pie |
+| *la gamba* | *le gambe* | pierna |
+| *l'occhio* | *gli occhi* | ojo |
+| *l'orecchio* | *le orecchie* | oreja / oído |
+| *il dente* | *i denti* | diente |
+
+**Lo que te dicen el médico y el farmacéutico** suele venir en forma de *Lei* (la que viste en la unidad 14): *Prenda una compressa due volte al giorno. Beva molta acqua. Riposi. Non faccia sforzi.* O con *deve*: *Deve restare a letto.* Para el horario: *prima / dopo i pasti* (antes / después de las comidas), *ogni otto ore* (cada ocho horas), *tre volte al giorno* (tres veces al día), *la mattina e la sera*.
+
+**Indefinidos útiles:** *qualcosa* (algo), *niente* (nada), *qualcuno* (alguien), *nessuno* (nadie). Con *niente* y *nessuno* detrás del verbo el italiano pide *non* antes: *Non ho niente. Non c'è nessuno.* Si van antes del verbo, no hay *non*: *Nessuno risponde.* Para tranquilizar: *Non è niente di grave.* (no es nada grave).
+
+**Pedir ayuda.** *Aiuto!* · *Mi serve un medico.* (necesito un médico; *servire* funciona como *piacere*: *Mi servono le medicine*) · *Chiami un'ambulanza!* · *Dov'è il pronto soccorso?* (urgencias) · *Ho bisogno di aiuto.* En Italia el número único de emergencias es el *112*; la ambulancia (*118*) y la policía (*113*) también funcionan.
+
+**Recuadro «Ojo, en español…»:**
+
+En español *me duele la cabeza*; en italiano lo más natural es *ho mal di testa* (sin artículo) o *mi fa male la testa* (con artículo). No digas *ho dolore la testa*. Con partes en plural el verbo cambia: *mi fanno male gli occhi*. Y con *niente / nessuno* después del verbo hace falta *non*: *non ho niente*, nunca *ho niente* (que significaría lo contrario de lo que quieres).
+
+### Ejemplos
+
+1. **Ho mal di testa e ho la febbre.** — Tengo dolor de cabeza y fiebre.
+2. **Mi fanno male i piedi.** — Me duelen los pies.
+3. **Prenda una compressa dopo i pasti.** — Tome una pastilla después de las comidas.
+4. **Non è niente di grave.** — No es nada grave.
+5. **Chiami un'ambulanza, per favore!** — ¡Llame a una ambulancia, por favor!
+6. **Mi serve un medico: dov'è il pronto soccorso?** — Necesito un médico: ¿dónde están las urgencias?
+7. **Ha qualcosa per la tosse?** — ¿Tiene algo para la tos?
+
+### Preguntas «Primero fíjate»
+
+1. **Elegir:** «Mi fanno male le gambe.» ¿Qué le pasa?  → **✔** Le duelen las piernas  /  Tiene fiebre  /  Quiere comprar zapatos  — _*Mi fanno male* + plural = me duelen._
+2. **Elegir:** «Prenda una compressa due volte al giorno.» ¿Qué debe hacer?  → **✔** Tomar una pastilla dos veces al día  /  Tomar dos pastillas una sola vez  /  Comprar dos cajas  — _*Prenda* es la orden con *Lei*; *due volte al giorno* = dos veces al día._
+3. **Elegir:** «Non ho niente.» ¿Qué significa?  → **✔** No tengo nada  /  Tengo algo  /  No tengo a nadie  — _*Non… niente* = nada._
+
+### Ejercicios
+
+1. **Completar:** Ho ___ di testa. (dolor)  → respuesta(s) aceptada(s): `mal`  — _*Ho mal di testa*: *mal di* + parte del cuerpo, sin artículo._
+2. **Completar:** Mi ___ male i piedi. (duelen)  → respuesta(s) aceptada(s): `fanno`  — _Lo que duele es plural (*i piedi*): *mi fanno male*._
+3. **Completar:** Mi fa male ___ schiena.  → respuesta(s) aceptada(s): `la`  — _Con *mi fa male* la parte del cuerpo lleva artículo: *la schiena*._
+4. **Completar:** Ho la ___. (fiebre)  → respuesta(s) aceptada(s): `febbre`  — _*La febbre*, con doble *b*._
+5. **Completar:** Ho la ___ e il raffreddore. (tos)  → respuesta(s) aceptada(s): `tosse`  — _*La tosse*._
+6. **Completar:** Mi ___ un medico. (necesito)  → respuesta(s) aceptada(s): `serve`  — _*Servire* como *piacere*: *mi serve* + singular._
+7. **Completar:** Mi ___ le medicine. (necesito, plural)  → respuesta(s) aceptada(s): `servono`  — _*Le medicine* es plural: *mi servono*._
+8. **Completar:** ___ un'ambulanza! (Lei, chiamare, orden)  → respuesta(s) aceptada(s): `Chiami`  — _Orden con *Lei*: *Chiami*._
+9. **Completar:** ___ molta acqua. (Lei, bere, orden)  → respuesta(s) aceptada(s): `Beva`  — _Orden de *Lei* de *bere*: *Beva*._
+10. **Completar:** Non ho ___. (nada)  → respuesta(s) aceptada(s): `niente`  — _*Non ho niente*._
+11. **Completar:** Non c'è ___. (nadie)  → respuesta(s) aceptada(s): `nessuno`  — _*Non c'è nessuno*._
+12. **Completar:** Ha ___ per la tosse? (algo)  → respuesta(s) aceptada(s): `qualcosa`  — _*Qualcosa* = algo._
+13. **Completar:** Mi fanno male ___ mani. (las)  → respuesta(s) aceptada(s): `le`  — _*Mani* es femenino plural: *le mani*._
+14. **Completar:** Una compressa tre volte al ___. (día)  → respuesta(s) aceptada(s): `giorno`  — _*Tre volte al giorno*._
+15. **Elegir:** «Me duele la garganta»  → **✔** Ho mal di gola.  /  Ho dolore la gola.  /  Mi duole gola.  — _*Ho mal di gola* es la forma habitual._
+16. **Elegir:** «Tome una pastilla después de las comidas» (a usted)  → **✔** Prenda una compressa dopo i pasti.  /  Prende una compressa dopo i pasti.  /  Prendere compressa dopo pasti.  — _Orden con *Lei*: *prenda*._
+17. **Elegir:** «Llame a una ambulancia»  → **✔** Chiami un'ambulanza!  /  Chiama una ambulanza!  /  Chiamare ambulanza!  — _A un desconocido: *Chiami*, con *Lei*._
+18. **Elegir:** «No tengo nada»  → **✔** Non ho niente.  /  Ho niente.  /  Non niente ho.  — _Detrás del verbo, *niente* pide *non*._
+19. **Elegir:** «Me duelen los ojos»  → **✔** Mi fanno male gli occhi.  /  Mi fa male gli occhi.  /  Mi fanno male l'occhio.  — _*Gli occhi* es plural: *mi fanno male*._
+20. **Elegir:** ¿Qué número único de emergencias funciona en Italia?  → **✔** 112  /  911  /  000  — _En Italia y en toda la Unión Europea: *112*._
+
+### Vocabulario
+
+| Italiano | Español |
+|---|---|
+| il medico | el médico |
+| la medicina | el remedio / la medicina |
+| la compressa | la pastilla / el comprimido |
+| lo sciroppo | el jarabe |
+| la febbre | la fiebre |
+| la tosse | la tos |
+| il raffreddore | el resfriado |
+| il mal di testa | el dolor de cabeza |
+| il mal di gola | el dolor de garganta |
+| la schiena | la espalda |
+| la gola | la garganta |
+| lo stomaco | el estómago |
+| il dente | el diente |
+| l'ambulanza | la ambulancia |
+| il pronto soccorso | las urgencias |
+| l'emergenza | la emergencia |
+| aiuto! | ¡ayuda! / ¡socorro! |
+| stare male | sentirse mal |
+| riposare | descansar |
+| la ricetta | la receta (médica o de cocina) |
+| servire | necesitar / hacer falta |
+| niente | nada |
+| qualcosa | algo |
+
+### Dictado (frases que la voz lee y la persona escribe)
+
+1. **Ho mal di testa e un po' di febbre.** — Tengo dolor de cabeza y un poco de fiebre.
+2. **Mi fanno male i piedi.** — Me duelen los pies.
+3. **Prenda una compressa dopo i pasti.** — Tome una pastilla después de las comidas.
+4. **Chiami un'ambulanza, per favore!** — ¡Llame a una ambulancia, por favor!
+5. **Non è niente di grave.** — No es nada grave.
+6. **Dov'è il pronto soccorso?** — ¿Dónde están las urgencias?
+
+### Escritura guiada
+
+**Consigna:** Estás en Italia y no te sientes bien: escríbele un mensaje a tu anfitriona para explicarle qué te duele y qué necesitas.
+
+**Texto modelo:** Ciao Anna, oggi non sto bene. Ho mal di testa e un po' di febbre. Mi serve una farmacia vicina: puoi aiutarmi, per favore? Non ho niente per la tosse. Grazie mille!
+
+**Lista de autocorrección:**
+- Dije qué me duele con *ho mal di…* o *mi fa / mi fanno male*.
+- Dije qué necesito con *mi serve* o *mi servono*.
+- Pedí ayuda con *puoi* o *può* + infinitivo.
+- Usé *niente*, *qualcosa* o *nessuno* con *non* cuando hacía falta.
+
+### Diálogo
+
+**Escena:** Vas a una farmacia en Italia porque te sientes mal.  ·  **Roles:** A = Farmacista, B = Cliente
+
+- **A:** Buongiorno, mi dica. — _Buenos días, dígame._
+- **B:** Buongiorno. Ho mal di gola e un po' di tosse. — _Buenos días. Tengo dolor de garganta y un poco de tos._
+- **A:** Ha anche la febbre? — _¿Tiene también fiebre?_
+- **B:** No, non ho la febbre, ma sono molto stanco. — _No, no tengo fiebre, pero estoy muy cansado._
+- **A:** Prenda questo sciroppo tre volte al giorno, dopo i pasti. — _Tome este jarabe tres veces al día, después de las comidas._
+- **B:** Devo prendere anche una compressa? — _¿Debo tomar también una pastilla?_
+- **A:** No, basta lo sciroppo. Beva molta acqua e riposi. — _No, basta el jarabe. Beba mucha agua y descanse._
+- **B:** Va bene, grazie. Quanto costa? — _Está bien, gracias. ¿Cuánto cuesta?_
+- **A:** Sono otto euro e cinquanta. — _Son ocho euros con cincuenta._
+- **B:** Ecco a Lei. Arrivederci! — _Aquí tiene. ¡Hasta luego!_
+
+### Pronunciación
+
+**Dobles en la salud y SCH** — Fíjate en las dobles de *febbre* y *tosse*, y en *sch*: en *schiena* suena *sk* (la *h* mantiene el sonido duro), mientras que *sce* en *scena* suena como *sh*. En *gola* y *gamba* la *g* ante *o / a* es dura.
+
+Pares mínimos: fato (destino) / fatto (hecho) · tuta (buzo / chándal) / tutta (toda)
+
+Palabras para repetir: schiena, stomaco, febbre, tosse, gola, medico, ambulanza, emergenza, farmacia, testa
+
+---
+
 # Fase 5 · Vivir allá
 
 _Resolver casa, trámites, teléfono y mensajes (A2)._
 
-## Unidad 20 — Conectores, discurso indirecto y congiuntivo (reconocimiento)  _(lección escrita, unidad aún no usada)_
+## Unidad 17 — Casa, alquiler y trámites
+
+**Situación:** Buscar un departamento / apartamento, resolver problemas de la casa y hacer un trámite
+
+**Objetivos «Puedo…»:**
+- Puedo preguntar por un alquiler y entender las condiciones.
+- Puedo explicar un problema en la casa.
+- Puedo entender y rellenar un trámite básico.
+
+### Lección: la regla
+
+**Preguntar por un alquiler (arriendo).** *Cerco un appartamento in affitto.* · *Quanto costa l'affitto al mese?* · *Le spese sono incluse?* (los gastos) · *È arredato?* (¿está amueblado?) · *Posso vederlo?* En Italia suele pedirse un *contratto* (contrato) y una *caparra* (depósito de garantía).
+
+**Los pisos usan ordinales.** Concuerdan en género y número como un adjetivo:
+
+| Número | Ordinal | Ejemplo |
+|---|---|---|
+| 1 | *primo* | *Abito al primo piano.* |
+| 2 | *secondo* | *Il secondo piano è libero.* |
+| 3 | *terzo* | *Abito al terzo piano.* |
+| 4 | *quarto* | *La quarta porta a destra.* |
+| 5 | *quinto* | *Siamo al quinto piano.* |
+| 6 a 10 | *sesto, settimo, ottavo, nono, decimo* | *Il decimo piano.* |
+
+La planta baja es *il piano terra*. En Italia el primer piso (*primo piano*) está un nivel **sobre** la calle, no a nivel de calle.
+
+**Relativo che.** Une dos frases y no cambia nunca (sirve para personas y cosas, sujeto u objeto): *L'appartamento che ho visto è luminoso.* · *La persona che abita sopra è simpatica.* Para lugares se usa *dove*: *Il quartiere dove abito è tranquillo.*
+
+**Problemas en la casa.** *Non funziona il riscaldamento.* (no funciona la calefacción) · *Manca l'acqua calda.* (falta agua caliente) · *Mancano le chiavi.* (faltan las llaves). *Mancare* funciona como *piacere*: lo que falta es el sujeto, y el verbo concuerda con él. También: *Il rubinetto perde.* (la llave gotea) · *Si è rotto il frigorifero.* (se rompió el refrigerador).
+
+**Trámites.** *Ho bisogno di un documento.* · *Per il contratto ci vuole il codice fiscale.* / *ci vogliono due documenti.* (*ci vuole* + singular, *ci vogliono* + plural: hace falta) · *Devo compilare il modulo e firmare qui.* · *Vorrei prendere un appuntamento.* (sacar una cita / hora).
+
+**Recuadro «Ojo, en español…»:**
+
+En español *piso* puede ser un departamento o una planta; en italiano, *piano* es solo la planta y el departamento es *l'appartamento*. *Affitto* es el alquiler (arriendo) que pagas; *affittare* significa tanto tomar en alquiler como dar en alquiler, y el contexto lo aclara. Y *che* no tiene versiones como *el cual* o *quien* a este nivel: siempre *che*. Con *ci vuole / ci vogliono* no uses *volere* personal: no es *voglio*, es lo que hace falta.
+
+### Ejemplos
+
+1. **Cerco un appartamento in affitto vicino al centro.** — Busco un departamento / apartamento en alquiler cerca del centro.
+2. **L'affitto è seicento euro al mese, spese incluse.** — El alquiler son seiscientos euros al mes, gastos incluidos.
+3. **Abito al terzo piano, ma non c'è l'ascensore.** — Vivo en el tercer piso, pero no hay ascensor.
+4. **Il riscaldamento non funziona: può mandare qualcuno?** — La calefacción no funciona: ¿puede enviar a alguien?
+5. **L'appartamento che ho visto ieri è luminoso.** — El departamento / apartamento que vi ayer es luminoso.
+6. **Per il contratto ci vogliono due documenti e il codice fiscale.** — Para el contrato hacen falta dos documentos y el código fiscal.
+
+### Preguntas «Primero fíjate»
+
+1. **Elegir:** «Abito al quinto piano.» ¿Dónde vive?  → **✔** En el quinto piso  /  En la quinta casa  /  Cinco pisos más abajo  — _*Al quinto piano* = en el quinto piso._
+2. **Elegir:** «Manca l'acqua calda.» ¿Qué pasa?  → **✔** No hay agua caliente  /  Hay mucha agua caliente  /  El agua está cara  — _*Manca* = falta._
+3. **Elegir:** «Ci vogliono due settimane.» ¿Qué dice?  → **✔** Hacen falta dos semanas  /  Quiere dos semanas  /  Hay dos semanas  — _*Ci vogliono* + plural = hacen falta._
+
+### Ejercicios
+
+1. **Completar:** Abito al ___ piano. (tercer)  → respuesta(s) aceptada(s): `terzo`  — _*Terzo piano*._
+2. **Completar:** Il negozio è al ___ piano. (primer)  → respuesta(s) aceptada(s): `primo`  — _*Primo piano*._
+3. **Completar:** Abito al ___ piano. (5.º)  → respuesta(s) aceptada(s): `quinto`  — _*Quinto piano*._
+4. **Completar:** L'ufficio è al piano ___. (planta baja)  → respuesta(s) aceptada(s): `terra`  — _*Piano terra*._
+5. **Completar:** L'appartamento ___ ho visto è bello. (que)  → respuesta(s) aceptada(s): `che`  — _*Che* une las dos frases._
+6. **Completar:** Il quartiere ___ abito è tranquillo. (donde)  → respuesta(s) aceptada(s): `dove`  — _Para un lugar: *dove*._
+7. **Completar:** Il riscaldamento non ___. (funciona)  → respuesta(s) aceptada(s): `funziona`  — _*Funzionare → funziona*._
+8. **Completar:** ___ l'acqua calda. (falta)  → respuesta(s) aceptada(s): `Manca`  — _Lo que falta es singular: *manca*._
+9. **Completar:** ___ le chiavi. (faltan)  → respuesta(s) aceptada(s): `Mancano`  — _Lo que falta es plural: *mancano*._
+10. **Completar:** Per il contratto ___ due documenti. (hacen falta)  → respuesta(s) aceptada(s): `ci vogliono`  — _Plural: *ci vogliono*._
+11. **Completar:** Per il contratto ___ il codice fiscale. (hace falta)  → respuesta(s) aceptada(s): `ci vuole`  — _Singular: *ci vuole*._
+12. **Completar:** Ho ___ di un documento. (necesidad)  → respuesta(s) aceptada(s): `bisogno`  — _*Avere bisogno di* = necesitar._
+13. **Completar:** Devo ___ il modulo. (rellenar)  → respuesta(s) aceptada(s): `compilare`  — _*Compilare il modulo*._
+14. **Completar:** Devo ___ qui. (firmar)  → respuesta(s) aceptada(s): `firmare`  — _*Firmare*._
+15. **Completar:** Quanto costa l'___ al mese? (alquiler)  → respuesta(s) aceptada(s): `affitto`  — _*L'affitto*._
+16. **Completar:** L'appartamento è ___? (amueblado)  → respuesta(s) aceptada(s): `arredato` · `ammobiliato`  — _*Arredato* o *ammobiliato*._
+17. **Elegir:** «Vivo en el segundo piso»  → **✔** Abito al secondo piano.  /  Abito nel secondo piano.  /  Abito a secondo piano.  — _*Al secondo piano*: *a + il*._
+18. **Elegir:** «La casa que busco es grande»  → **✔** La casa che cerco è grande.  /  La casa chi cerco è grande.  /  La casa quale cerco è grande.  — _*Che* no cambia._
+19. **Elegir:** «No funciona la lavadora»  → **✔** Non funziona la lavatrice.  /  Non funzionano la lavatrice.  /  Non è funziona la lavatrice.  — _*La lavatrice* es singular: *funziona*._
+20. **Elegir:** «Quisiera sacar una cita»  → **✔** Vorrei prendere un appuntamento.  /  Vorrei prendere un'appuntamento.  /  Voglio fare appuntamento.  — _*Appuntamento* es masculino: *un appuntamento*._
+
+### Vocabulario
+
+| Italiano | Español |
+|---|---|
+| l'affitto | el alquiler / el arriendo |
+| affittare | alquilar / arrendar |
+| il contratto | el contrato |
+| la caparra | el depósito de garantía |
+| le spese | los gastos |
+| il padrone di casa | el dueño / el arrendador |
+| arredato | amueblado |
+| il piano | el piso / la planta |
+| il piano terra | la planta baja |
+| l'ascensore | el ascensor |
+| il riscaldamento | la calefacción |
+| la lavatrice | la lavadora |
+| il rubinetto | la llave de agua / el grifo |
+| la chiave | la llave |
+| il modulo | el formulario |
+| firmare | firmar |
+| compilare | rellenar / completar |
+| il documento | el documento |
+| il codice fiscale | el código fiscal |
+| l'appuntamento | la cita / la hora |
+| lo sportello | la ventanilla |
+| mancare | faltar |
+| funzionare | funcionar |
+
+### Dictado (frases que la voz lee y la persona escribe)
+
+1. **Cerco un appartamento in affitto.** — Busco un departamento / apartamento en alquiler.
+2. **L'affitto è seicento euro al mese.** — El alquiler son seiscientos euros al mes.
+3. **Abito al terzo piano, senza ascensore.** — Vivo en el tercer piso, sin ascensor.
+4. **Il riscaldamento non funziona.** — La calefacción no funciona.
+5. **Per il contratto ci vogliono due documenti.** — Para el contrato hacen falta dos documentos.
+6. **Devo compilare il modulo e firmare qui.** — Debo rellenar el formulario y firmar aquí.
+
+### Escritura guiada
+
+**Consigna:** Escríbele al dueño de un departamento / apartamento que viste en un aviso: pregunta el precio, si está amueblado y pide una visita.
+
+**Texto modelo:** Buongiorno, ho visto il Suo annuncio per l'appartamento in via Roma. Quanto costa l'affitto al mese? È arredato e le spese sono incluse? Vorrei vederlo sabato mattina, se possibile. Grazie e cordiali saluti.
+
+**Lista de autocorrección:**
+- Usé *Lei* con formalidad (*Suo*, *può*).
+- Pregunté el precio con *quanto costa* y si está *arredato*.
+- Pedí una visita con *vorrei* o *potrei*.
+- Cerré con *Grazie* y un saludo formal.
+
+### Diálogo
+
+**Escena:** Visitas un departamento / apartamento en alquiler en Italia.  ·  **Roles:** A = Agente inmobiliario, B = Inquilino
+
+- **A:** Buongiorno! Prego, entri. Questo è il soggiorno. — _¡Buenos días! Pase, por favor. Este es el salón._
+- **B:** Che bello! È molto luminoso. Quante camere ci sono? — _¡Qué lindo! Es muy luminoso. ¿Cuántas habitaciones hay?_
+- **A:** Ci sono due camere e un bagno. L'appartamento è al terzo piano. — _Hay dos habitaciones y un baño. El departamento está en el tercer piso._
+- **B:** C'è l'ascensore? — _¿Hay ascensor?_
+- **A:** Sì, e il riscaldamento è nuovo. — _Sí, y la calefacción es nueva._
+- **B:** Quanto costa l'affitto al mese? — _¿Cuánto cuesta el alquiler al mes?_
+- **A:** Seicento euro, più cinquanta di spese. — _Seiscientos euros, más cincuenta de gastos._
+- **B:** Va bene. Che documenti ci vogliono per il contratto? — _Está bien. ¿Qué documentos hacen falta para el contrato?_
+- **A:** Ci vogliono il passaporto e il codice fiscale. — _Hacen falta el pasaporte y el código fiscal._
+- **B:** Perfetto. Posso firmare domani? — _Perfecto. ¿Puedo firmar mañana?_
+- **A:** Certo! Le preparo il contratto. — _¡Claro! Le preparo el contrato._
+
+### Pronunciación
+
+**La R: simple y doble** — La *r* italiana es una vibración corta (*caro*, *sera*); la *rr* es una vibración más larga (*carro*, *serra*). Alarga la vibración, no solo la vocal. Practica con los ordinales (*terzo, quarto, quinto*) y con *riscaldamento* y *rubinetto*.
+
+Pares mínimos: sera (tarde / noche) / serra (invernadero) · caro (querido / caro) / carro (carreta / vagón)
+
+Palabras para repetir: terzo, quarto, quinto, ascensore, riscaldamento, rubinetto, arredato, affitto
+
+---
+
+## Unidad 18 — Teléfono, mensajes y mails
+
+**Situación:** Hablar por teléfono y escribir mensajes formales e informales
+
+**Objetivos «Puedo…»:**
+- Puedo hacer y contestar una llamada simple.
+- Puedo escribir un mensaje o mail informal y uno formal.
+
+### Lección: la regla
+
+**Al teléfono.** Se contesta con *Pronto?* y las frases son casi siempre las mismas:
+
+| Situación | Italiano |
+|---|---|
+| Contestar | *Pronto?* |
+| Presentarte | *Sono Laura Mora.* |
+| Pedir hablar con alguien | *Posso parlare con Anna?* |
+| Pedir que esperen | *Un attimo, per favore.* / *Resti in linea.* |
+| No oír bien | *Non La sento bene. Può ripetere?* |
+| Dejar un recado | *Può dirle che ho chiamato?* |
+| Despedirte | *Grazie, arrivederci.* / *Ciao, a dopo!* |
+
+**Mensajes y mails: formal (Lei) o informal (tu).** Elige el registro desde la primera línea y no lo mezcles:
+
+|  | Formal (*Lei*) | Informal (*tu*) |
+|---|---|---|
+| Saludo | *Gentile signora Rossi,* | *Ciao Marco,* / *Caro Marco,* |
+| Motivo | *Le scrivo per chiedere…* | *Ti scrivo per chiederti…* |
+| Adjunto | *In allegato trova il documento.* | *Ti allego il documento.* |
+| Despedida | *Cordiali saluti* | *A presto* / *Un abbraccio* |
+
+**Dos palabras muy útiles.** *Per* + infinitivo = para: *Ti chiamo per chiedere un'informazione.* *Tra* (o *fra*) + tiempo = dentro de: *Ti richiamo tra dieci minuti. Arrivo tra mezz'ora.* Compáralo con *fa* (hace), que mira hacia atrás: *L'ho chiamato dieci minuti fa.*
+
+**Recíproco.** Para hablar de cosas que se hacen entre dos: *ci sentiamo* (nos hablamos), *ci vediamo* (nos vemos), *ci scriviamo* (nos escribimos). *Ci sentiamo domani!* es una despedida muy común.
+
+**Recuadro «Ojo, en español…»:**
+
+En español contestas *aló*, *bueno* o *diga*; en italiano es *Pronto?* (que también significa *listo*). Con *tra* (dentro de) no uses *in*: *tra dieci minuti*, no *in dieci minuti* (eso diría cuánto tarda algo). *Telefonare* lleva *a* y el pronombre indirecto (*gli telefono*); *chiamare* lleva pronombre directo (*lo chiamo*). Y en un mail formal, *Le / Suo / Sua* se escriben con mayúscula.
+
+### Ejemplos
+
+1. **Pronto? Sono Laura. Posso parlare con Marco?** — ¿Aló? Soy Laura. ¿Puedo hablar con Marco?
+2. **Resti in linea, per favore.** — Espere en la línea, por favor.
+3. **Non La sento bene: può ripetere?** — No lo oigo bien: ¿puede repetir?
+4. **Ti richiamo tra dieci minuti.** — Te vuelvo a llamar dentro de diez minutos.
+5. **Le scrivo per chiedere un'informazione.** — Le escribo para pedir una información.
+6. **Ci sentiamo domani, ciao!** — ¡Nos hablamos mañana, chao!
+
+### Preguntas «Primero fíjate»
+
+1. **Elegir:** «Pronto? Chi parla?» ¿Qué pasa?  → **✔** Contestan el teléfono y preguntan quién llama  /  Piden la cuenta en un restaurante  /  Se despiden  — _*Pronto* es la forma de contestar; *chi parla?* = ¿quién habla?_
+2. **Elegir:** «Ti richiamo tra dieci minuti.» ¿Cuándo?  → **✔** Dentro de diez minutos  /  Hace diez minutos  /  Durante diez minutos  — _*Tra* + tiempo = dentro de._
+3. **Elegir:** «Gentile signora Rossi, Le scrivo per…» ¿Qué registro es?  → **✔** Formal  /  Informal  /  Con un amigo cercano  — _*Gentile* y *Le* marcan el trato de *Lei*._
+
+### Ejercicios
+
+1. **Completar:** ___? Sono Laura. (al contestar el teléfono)  → respuesta(s) aceptada(s): `Pronto`  — _Se contesta con *Pronto?*_
+2. **Completar:** ___ parlare con Anna? (puedo)  → respuesta(s) aceptada(s): `Posso`  — _*Posso parlare con…?*_
+3. **Completar:** Un ___, per favore. (momento)  → respuesta(s) aceptada(s): `attimo`  — _*Un attimo*._
+4. **Completar:** ___ in linea, per favore. (Lei, restare)  → respuesta(s) aceptada(s): `Resti`  — _Orden con *Lei*: *Resti*._
+5. **Completar:** Non La ___ bene. (oigo)  → respuesta(s) aceptada(s): `sento`  — _*Sentire* con *io*: *sento*._
+6. **Completar:** Ti richiamo ___ dieci minuti. (dentro de)  → respuesta(s) aceptada(s): `tra` · `fra`  — _*Tra / fra* + tiempo = dentro de._
+7. **Completar:** Ti scrivo ___ chiederti un favore. (para)  → respuesta(s) aceptada(s): `per`  — _*Per* + infinitivo = para._
+8. **Completar:** Le scrivo ___ prenotare una camera. (para)  → respuesta(s) aceptada(s): `per`  — _*Per* + infinitivo._
+9. **Completar:** Ci ___ domani! (nos hablamos)  → respuesta(s) aceptada(s): `sentiamo`  — _*Ci sentiamo*._
+10. **Completar:** Ci ___ alle otto. (nos vemos)  → respuesta(s) aceptada(s): `vediamo`  — _*Ci vediamo*._
+11. **Completar:** Cordiali ___. (saludos)  → respuesta(s) aceptada(s): `saluti`  — _*Cordiali saluti* es la despedida formal._
+12. **Completar:** In ___ trova il documento. (adjunto)  → respuesta(s) aceptada(s): `allegato`  — _*In allegato*._
+13. **Completar:** Arrivo ___ mezz'ora. (dentro de)  → respuesta(s) aceptada(s): `tra` · `fra`  — _*Tra mezz'ora*._
+14. **Completar:** Posso lasciare un ___? (recado)  → respuesta(s) aceptada(s): `messaggio`  — _*Un messaggio*._
+15. **Elegir:** Contestas el teléfono:  → **✔** Pronto?  /  Arrivederci?  /  Buonanotte?  — _*Pronto?*_
+16. **Elegir:** Despedida de un mail formal:  → **✔** Cordiali saluti  /  Un abbraccio  /  Ciao ciao  — _*Cordiali saluti*._
+17. **Elegir:** Saludo para un amigo en un mensaje:  → **✔** Caro Marco,  /  Gentile signor Marco,  /  Egregio Marco,  — _*Caro Marco* es informal._
+18. **Elegir:** «Te llamo dentro de una hora»  → **✔** Ti chiamo tra un'ora.  /  Ti chiamo da un'ora.  /  Ti chiamo fa un'ora.  — _*Tra un'ora* = dentro de una hora._
+19. **Elegir:** «Le escribo para pedir información»  → **✔** Le scrivo per chiedere un'informazione.  /  Le scrivo a chiedere informazione.  /  Le scrivo di chiedere informazione.  — _*Per* + infinitivo._
+
+### Vocabulario
+
+| Italiano | Español |
+|---|---|
+| pronto | aló / diga (al contestar) |
+| il cellulare | el celular / el móvil |
+| il numero | el número |
+| la chiamata | la llamada |
+| richiamare | volver a llamar |
+| rispondere | responder / contestar |
+| il messaggio | el mensaje / el recado |
+| la linea | la línea |
+| un attimo | un momento |
+| l'email | el correo electrónico |
+| l'allegato | el archivo adjunto |
+| inviare | enviar |
+| allegare | adjuntar |
+| la risposta | la respuesta |
+| gentile | estimado / amable |
+| cordiali saluti | atentamente / saludos cordiales |
+| un abbraccio | un abrazo |
+| a presto | hasta pronto |
+| a dopo | hasta luego |
+| sentire | oír / sentir |
+| tra | dentro de / entre |
+| l'informazione | la información |
+
+### Dictado (frases que la voz lee y la persona escribe)
+
+1. **Pronto? Sono Laura, posso parlare con Marco?** — ¿Aló? Soy Laura, ¿puedo hablar con Marco?
+2. **Un attimo, resti in linea.** — Un momento, espere en la línea.
+3. **Non La sento bene.** — No la oigo bien.
+4. **Ti richiamo tra dieci minuti.** — Te vuelvo a llamar dentro de diez minutos.
+5. **Le scrivo per chiedere un'informazione.** — Le escribo para pedir una información.
+6. **Ci sentiamo domani, a presto!** — ¡Nos hablamos mañana, hasta pronto!
+
+### Escritura guiada
+
+**Consigna:** Escribe dos mensajes cortos: uno a un amigo para quedar mañana y uno formal a un hotel para pedir información.
+
+**Texto modelo:** Ciao Marco! Domani sei libero? Ti chiamo tra dieci minuti. A presto!
+
+Gentile signora, Le scrivo per chiedere informazioni sulla camera per il quindici maggio. Cordiali saluti, Laura Mora
+
+**Lista de autocorrección:**
+- Usé un saludo y una despedida distintos para cada registro.
+- Usé *ti / tu* con el amigo y *Le / Lei* con el hotel.
+- Usé *per* + infinitivo o *tra* + tiempo al menos una vez.
+- Usé *Ciao* solo con el amigo y *Gentile… Cordiali saluti* con el hotel.
+
+### Diálogo
+
+**Escena:** Llamas a un hotel para reservar una habitación.  ·  **Roles:** A = Recepcionista, B = Cliente
+
+- **A:** Pronto, Hotel Aurora, buongiorno. — _Hotel Aurora, buenos días._
+- **B:** Buongiorno, sono Laura Mora. Vorrei prenotare una camera. — _Buenos días, soy Laura Mora. Quisiera reservar una habitación._
+- **A:** Certo. Per quante notti? — _Claro. ¿Para cuántas noches?_
+- **B:** Per tre notti, dal quindici al diciotto maggio. — _Para tres noches, del quince al dieciocho de mayo._
+- **A:** Un attimo, controllo. Resti in linea, per favore. — _Un momento, reviso. Espere en la línea, por favor._
+- **B:** Va bene, grazie. — _Está bien, gracias._
+- **A:** Ci sono camere libere. Costa novanta euro a notte. — _Hay habitaciones libres. Cuesta noventa euros por noche._
+- **B:** Perfetto. Posso richiamare tra un'ora? — _Perfecto. ¿Puedo volver a llamar dentro de una hora?_
+- **A:** Sì, certo. Aspetto la Sua chiamata. — _Sí, claro. Espero su llamada._
+- **B:** Grazie mille, arrivederci! — _¡Muchas gracias, hasta luego!_
+
+### Pronunciación
+
+**Dobles en el teléfono: TT, GG, NN** — Fíjate en las dobles de *attimo*, *messaggio* y *chiamata*. En *messaggio* la *gg* suena como una *g* suave larga (*mes-SA-djo*). Y *nonno / nono* o *note / notte* cambian de significado con la consonante.
+
+Pares mínimos: note (notas) / notte (noche) · nona (novena) / nonna (abuela)
+
+Palabras para repetir: attimo, messaggio, pronto, cellulare, richiamare, allegato, gentile, informazione
+
+---
+
+## Unidad 19 — Impersonal, da + tiempo y stare per
+
+**Situación:** Decir cómo se hacen las cosas, desde cuándo haces algo y qué está por pasar
+
+**Objetivos «Puedo…»:**
+- Puedo decir cómo se hacen las cosas en general (si impersonale).
+- Puedo decir desde cuándo hago algo.
+- Puedo anunciar algo que está por pasar.
+
+### Lección: la regla
+
+**El si impersonal** dice cómo se hacen las cosas en general (en español, *se*): *si* + verbo en tercera persona. *Qui si parla italiano.* (aquí se habla italiano) · *In Italia si mangia tardi.* (en Italia se come tarde). Si lo que sigue es plural, el verbo va en plural: *Si vendono biglietti qui.* (aquí se venden boletos / pasajes).
+
+| Pregunta útil | Italiano |
+|---|---|
+| Cómo se dice… | *Come si dice «gracias» in italiano?* |
+| Cómo se escribe… | *Come si scrive questa parola?* |
+| Dónde se compra… | *Dove si comprano i biglietti?* |
+| ¿Se puede…? | *Si può entrare?* / *Si può fumare?* |
+| ¿Se habla…? | *Si parla spagnolo?* |
+
+**Desde cuándo y durante cuánto tiempo.** Para algo que empezó en el pasado y **sigue ahora**, el italiano usa el **presente** con *da*: *Studio italiano da tre mesi.* (llevo tres meses estudiando italiano). Compara las tres palabras:
+
+| Palabra | Significa | Ejemplo |
+|---|---|---|
+| *da* + presente | desde / llevo… haciendo (sigue) | *Studio italiano da tre mesi.* |
+| *per* + passato prossimo | durante (ya terminó) | *Ho studiato per tre mesi.* |
+| *fa* (después del tiempo) | hace… (momento pasado) | *Sono arrivato tre giorni fa.* |
+| *da quanto tempo?* | ¿hace cuánto? / ¿desde cuándo? | *Da quanto tempo abiti qui?* |
+
+*Da* también va con un punto de partida: *Lavoro qui da lunedì.* (desde el lunes) · *Abito qui dal 2020.* (desde 2020) · *Da quando abiti a Roma?* (¿desde cuándo vives en Roma?). Con *da poco* (hace poco) y *da molto* (hace mucho) también va el presente: *Sono qui da poco.*
+
+**Estar por hacer algo:** *stare per* + infinitivo. *Il treno sta per partire.* (el tren está por salir) · *Sto per uscire.* (estoy por salir / estoy a punto de salir) · *Stavo per chiamarti.* (estaba por llamarte).
+
+**Recuadro «Ojo, en español…»:**
+
+En español *llevo tres meses estudiando* tiene un verbo especial; en italiano no hace falta: el presente basta con *da*: *studio da tre mesi*. No digas *ho studiato da tre mesi* si todavía estudias. Y *si* impersonal no es el *si* de «sí» ni el reflexivo *si* (*si lava*): aquí se traduce con «se» impersonal (*si mangia bene*, se come bien).
+
+### Ejemplos
+
+1. **Qui si parla italiano e spagnolo.** — Aquí se habla italiano y español.
+2. **Come si dice «mañana» in italiano?** — ¿Cómo se dice «mañana» en italiano?
+3. **Studio italiano da tre mesi.** — Llevo tres meses estudiando italiano.
+4. **Abito a Santiago da dieci anni.** — Vivo en Santiago desde hace diez años.
+5. **Sono arrivato in Italia tre giorni fa.** — Llegué a Italia hace tres días.
+6. **Il treno sta per partire!** — ¡El tren está por salir!
+
+### Preguntas «Primero fíjate»
+
+1. **Elegir:** «Studio italiano da due mesi.» ¿Qué dice?  → **✔** Lleva dos meses estudiando y sigue  /  Estudió dos meses y terminó  /  Va a estudiar dos meses  — _*Da* + presente = algo que empezó y continúa._
+2. **Elegir:** «Si mangia bene qui.» ¿Qué significa?  → **✔** Aquí se come bien  /  Yo como bien aquí  /  Mañana comemos  — _*Si* + tercera persona = se impersonal._
+3. **Elegir:** «Sto per uscire.» ¿Qué dice?  → **✔** Está por salir, a punto de salir  /  Salió ayer  /  Sale todos los días  — _*Stare per* = estar por / estar a punto de._
+
+### Ejercicios
+
+1. **Completar:** Studio italiano ___ tre mesi. (desde hace)  → respuesta(s) aceptada(s): `da`  — _*Da* + tiempo + presente._
+2. **Completar:** Ho studiato ___ tre mesi. (durante)  → respuesta(s) aceptada(s): `per`  — _Terminado: *per* + passato prossimo._
+3. **Completar:** Sono arrivato tre giorni ___. (hace)  → respuesta(s) aceptada(s): `fa`  — _*Fa* va después del tiempo._
+4. **Completar:** ___ quanto tempo abiti qui? (¿hace cuánto?)  → respuesta(s) aceptada(s): `Da`  — _*Da quanto tempo…?*_
+5. **Completar:** Qui ___ parla italiano. (se)  → respuesta(s) aceptada(s): `si`  — _*Si* + tercera persona._
+6. **Completar:** Come si ___ «gracias» in italiano? (decir)  → respuesta(s) aceptada(s): `dice`  — _*Come si dice…?*_
+7. **Completar:** Come si ___ questa parola? (escribir)  → respuesta(s) aceptada(s): `scrive`  — _*Come si scrive…?*_
+8. **Completar:** Il treno ___ per partire. (está)  → respuesta(s) aceptada(s): `sta`  — _*Stare per*: *il treno sta per partire*._
+9. **Completar:** Sto ___ uscire. (por)  → respuesta(s) aceptada(s): `per`  — _*Stare per* + infinitivo._
+10. **Completar:** Abito qui ___ un anno. (desde hace)  → respuesta(s) aceptada(s): `da`  — _*Da* + presente._
+11. **Completar:** Lavoro qui ___ lunedì. (desde)  → respuesta(s) aceptada(s): `da`  — _*Da lunedì*._
+12. **Completar:** Dove si ___ i biglietti? (comprar, plural)  → respuesta(s) aceptada(s): `comprano`  — _Plural: *si comprano*._
+13. **Completar:** Si ___ italiano qui? (hablar)  → respuesta(s) aceptada(s): `parla`  — _*Si parla*._
+14. **Elegir:** «Llevo dos años viviendo en Chile»  → **✔** Abito in Cile da due anni.  /  Ho abitato in Cile da due anni.  /  Abito in Cile per due anni fa.  — _Sigue ahora: presente + *da*._
+15. **Elegir:** «Ayer estudié dos horas»  → **✔** Ieri ho studiato per due ore.  /  Ieri studio da due ore.  /  Ieri ho studiato da due ore.  — _Terminado: *per* + passato prossimo._
+16. **Elegir:** «¿Se puede entrar?»  → **✔** Si può entrare?  /  Se può entrare?  /  Si puoi entrare?  — _*Si* + tercera persona: *si può*._
+17. **Elegir:** «El tren está por salir»  → **✔** Il treno sta per partire.  /  Il treno è per partire.  /  Il treno parte per.  — _*Stare per* + infinitivo._
+18. **Elegir:** «Hace una semana»  → **✔** una settimana fa  /  da una settimana fa  /  per una settimana fa  — _*Fa* va después del tiempo._
+
+### Vocabulario
+
+| Italiano | Español |
+|---|---|
+| la parola | la palabra |
+| la frase | la frase / la oración |
+| il tempo | el tiempo |
+| da quanto tempo? | ¿desde hace cuánto? |
+| da | desde / hace (con presente) |
+| fa | hace (en el pasado) |
+| da poco | desde hace poco |
+| da molto | desde hace mucho |
+| appena | apenas / recién |
+| ormai | ya / a estas alturas |
+| stare per | estar por / estar a punto de |
+| entrare | entrar |
+| vietato | prohibido |
+| permesso? | ¿con permiso? |
+| l'ingresso | la entrada |
+| l'orario | el horario |
+| la regola | la regla |
+| di solito | por lo general |
+| una volta | una vez |
+| davvero | de verdad |
+
+### Dictado (frases que la voz lee y la persona escribe)
+
+1. **Qui si parla italiano.** — Aquí se habla italiano.
+2. **Studio italiano da tre mesi.** — Llevo tres meses estudiando italiano.
+3. **Abito a Santiago da dieci anni.** — Vivo en Santiago desde hace diez años.
+4. **Sono arrivato tre giorni fa.** — Llegué hace tres días.
+5. **Il treno sta per partire.** — El tren está por salir.
+6. **Come si dice grazie in spagnolo?** — ¿Cómo se dice «grazie» en español?
+
+### Escritura guiada
+
+**Consigna:** Preséntate: cuenta desde cuándo estudias italiano, dónde vives y desde cuándo, y qué se hace en tu ciudad.
+
+**Texto modelo:** Mi chiamo Laura e abito a Santiago da dieci anni. Studio italiano da tre mesi e mi piace molto. A Santiago si mangia bene e si può visitare la montagna. Sono arrivata in Italia tre giorni fa.
+
+**Lista de autocorrección:**
+- Usé *da* + tiempo con el presente (*studio da tre mesi*).
+- Usé *si* + verbo para decir qué se hace en mi ciudad.
+- Usé *fa* o *per* en una frase en pasado.
+- Con *da* el verbo está en presente, no en passato prossimo.
+
+### Diálogo
+
+**Escena:** Conoces a un italiano en una estación de tren.  ·  **Roles:** A = Amigo italiano, B = Tú
+
+- **A:** Scusa, da quanto tempo studi italiano? — _Perdona, ¿desde hace cuánto estudias italiano?_
+- **B:** Studio italiano da tre mesi. Sono in Italia da pochi giorni. — _Estudio italiano desde hace tres meses. Estoy en Italia desde hace pocos días._
+- **A:** Parli molto bene! Dove abiti? — _¡Hablas muy bien! ¿Dónde vives?_
+- **B:** Abito a Santiago, in Cile, da dieci anni. — _Vivo en Santiago, en Chile, desde hace diez años._
+- **A:** Che bello! Come si dice «grazie» in spagnolo? — _¡Qué bien! ¿Cómo se dice «grazie» en español?_
+- **B:** Si dice «gracias». E come si dice «de nada» in italiano? — _Se dice «gracias». ¿Y cómo se dice «de nada» en italiano?_
+- **A:** Si dice «prego». Guarda: il tuo treno sta per partire! — _Se dice «prego». Mira: ¡tu tren está por salir!_
+- **B:** Davvero? Corro! Ci vediamo domani? — _¿De verdad? ¡Corro! ¿Nos vemos mañana?_
+- **A:** Certo, ci vediamo domani! Ciao! — _¡Claro, nos vemos mañana! ¡Chao!_
+
+### Pronunciación
+
+**La H es muda** — En italiano la *h* no se pronuncia: *ho, hai, ha, hanno* suenan como *o, ai, a, anno*. Solo sirve para distinguir palabras escritas: *ho* (tengo) / *o* (o), *ha* (tiene) / *a* (a), *hanno* (tienen) / *anno* (año). Por eso al dictado la *h* se aprende de memoria.
+
+Pares mínimos: 
+
+Palabras para repetir: ho, hai, ha, hanno, anno, ora, ormai, entrata, ingresso, orario
+
+---
+
+## Unidad 20 — Conectores, discurso indirecto y congiuntivo (reconocimiento)
 
 **Situación:** Contar lo que te dijeron y entender opiniones (repaso de la fase 3)
 
@@ -2334,7 +3031,7 @@ Los **conectores** hacen que hables en párrafos y no en frases sueltas. Son los
 | *insomma* | en fin / en resumen | *Insomma, non è male.* |
 | *magari* | ojalá / quizás | *Magari vengo anch'io.* |
 
-**Discurso indirecto.** Para contar lo que alguien dijo usas *che* y, si hablas de algo pasado, los verbos suelen bajar un paso. «*Sono stanco*» → *Ha detto che **era** stanco.* «*Vengo alle tre*» → *Ha detto che **veniva** alle tre* (en la lengua hablada; en un texto cuidado se prefiere *sarebbe venuto*). Con preguntas se usa *se*: *Mi ha chiesto **se** parlo italiano.*
+**Discurso indirecto.** Para contar lo que alguien dijo usas *che* y, si hablas de algo pasado, los verbos suelen bajar un paso. «*Sono stanco*» → *Ha detto che **era** stanco.* «*Vengo alle tre*» → *Ha detto che **veniva** alle tre* (en la lengua hablada; en un texto cuidado se prefiere *sarebbe venuto*). Con preguntas se usa *se*: *Mi ha chiesto **se** parlo italiano* (si sigue siendo cierto) o *se parlavo italiano* (referido a aquel momento).
 
 **Congiuntivo (solo reconocerlo).** Después de verbos de opinión, duda o deseo (*penso che, credo che, spero che, è importante che*) el italiano usa un modo especial. Todavía no hace falta conjugarlo: reconoce las formas más comunes.
 
@@ -2370,23 +3067,655 @@ Los **conectores** hacen que hables en párrafos y no en frases sueltas. Son los
 3. **Completar:** Io bevo caffè, lui ___ tè. (en cambio)  → respuesta(s) aceptada(s): `invece`  — _*Invece* = en cambio._
 4. **Completar:** Mi ha detto che ___ stanco. (él, essere, imperfetto)  → respuesta(s) aceptada(s): `era`  — _Discurso indirecto en pasado: *era*._
 5. **Completar:** Mi ha chiesto ___ parlo italiano. (si)  → respuesta(s) aceptada(s): `se`  — _En preguntas indirectas: *se*._
-6. **Elegir:** ¿Cuál de estas es una forma de congiuntivo?  → sono  /  **✔** sia  /  siamo  — _*Sia* es el congiuntivo de *essere*._
+6. **Elegir:** ¿Cuál de estas es una forma de congiuntivo?  → sono  /  **✔** sia  /  eravamo  — _*Sia* es el congiuntivo de *essere*._
 7. **Elegir:** «Spero che tu stia bene.» ¿Qué parte es el congiuntivo?  → spero  /  **✔** stia  /  bene  — _*Stia* es el congiuntivo de *stare*._
 8. **Elegir:** «Me dijo que venía a las tres»  → **✔** Ha detto che veniva alle tre  /  Ha detto che venga alle tre  /  Dice che veniva alle tre  — _Contar algo dicho en el pasado: *ha detto che* + imperfetto._
 9. **Elegir:** «Llueve, así que me quedo en casa.» ¿Con qué conector lo unes?  → **✔** Piove, quindi resto a casa.  /  Piove, invece resto a casa.  /  Piove, mentre resto a casa.  — _*Quindi* marca la consecuencia._
 10. **Elegir:** Alguien te dice: «Penso che sia giusto». ¿Qué opina?  → **✔** Que es correcto o justo  /  Que es una orden  /  Que no sabe nada  — _*Sia giusto* = es justo / es correcto._
 
+### Vocabulario
+
+| Italiano | Español |
+|---|---|
+| perché | porque / ¿por qué? |
+| quindi | por lo tanto |
+| però | pero / sin embargo |
+| invece | en cambio |
+| allora | entonces |
+| comunque | de todos modos |
+| insomma | en fin / en resumen |
+| magari | ojalá / quizás |
+| raccontare | contar / relatar |
+| chiedere | preguntar / pedir |
+| domandare | preguntar |
+| rispondere | responder |
+| dire | decir |
+| spiegare | explicar |
+| promettere | prometer |
+| aggiungere | añadir |
+| ripetere | repetir |
+| la notizia | la noticia |
+| la domanda | la pregunta |
+| secondo | según |
+
+### Dictado (frases que la voz lee y la persona escribe)
+
+1. **Non vengo perché sono stanco.** — No voy porque estoy cansado.
+2. **Piove, quindi resto a casa.** — Llueve, así que me quedo en casa.
+3. **Mi ha detto che era stanco.** — Me dijo que estaba cansado.
+4. **Mi ha chiesto se parlo italiano.** — Me preguntó si hablo italiano.
+5. **Io bevo caffè, lui invece tè.** — Yo tomo café, él en cambio té.
+6. **Penso che sia una buona idea.** — Pienso que es una buena idea.
+
+### Escritura guiada
+
+**Consigna:** Cuenta lo que te dijo un amigo y da tu opinión, usando al menos tres conectores.
+
+**Texto modelo:** Ieri Marco mi ha detto che era stanco, quindi non è venuto alla festa. Mi ha chiesto se volevo andare da lui, però avevo molto lavoro. Comunque penso che sia stata una buona decisione.
+
+**Lista de autocorrección:**
+- Usé *ha detto che* / *ha chiesto se* para contar lo que dijeron.
+- Los verbos del discurso indirecto bajan un paso (*era, volevo*).
+- Usé al menos tres conectores (*quindi, però, comunque, perché, invece*).
+- Di mi opinión con *penso che* + congiuntivo.
+
+### Diálogo
+
+**Escena:** Una amiga te cuenta lo que le dijeron sobre una fiesta.  ·  **Roles:** A = Anna, B = Marco
+
+- **A:** Ciao Marco! Hai parlato con Luca? — _¡Hola Marco! ¿Hablaste con Luca?_
+- **B:** Sì, mi ha detto che non viene alla festa. — _Sí, me dijo que no viene a la fiesta._
+- **A:** Perché? Cosa ti ha detto? — _¿Por qué? ¿Qué te dijo?_
+- **B:** Mi ha detto che era stanco, quindi resta a casa. — _Me dijo que estaba cansado, así que se queda en casa._
+- **A:** Peccato! Mi ha chiesto se potevo portare io la torta. — _¡Qué pena! Me preguntó si yo podía llevar la torta._
+- **B:** E tu cosa gli hai risposto? — _¿Y tú qué le respondiste?_
+- **A:** Gli ho detto di sì, però spero che stia meglio. — _Le dije que sí, pero espero que esté mejor._
+- **B:** Penso che sia solo un po' stanco. Comunque, ci vediamo alla festa! — _Pienso que solo está un poco cansado. De todos modos, ¡nos vemos en la fiesta!_
+
 ### Pronunciación
 
-**Repaso final** — Última vuelta con todo lo visto.
+**Los conectores: acento y QU** — Los conectores con tilde final se acentúan en la última sílaba: *perché*, *però*, *così*. En *quindi* y *comunque* la *u* se oye (*kw*): no digas *kindi*. En *insomma* la *mm* es doble.
 
-Pares mínimos: palla (pelota) / pala (pala) · caro (querido / caro) / carro (carreta / vagón) · chi (quién) / ci (nos / allí) · gli (a él / los) / li (allí) · pazzo (loco) / passo (paso) · casa (casa) / cassa (caja) · nonno (abuelo) / nono (noveno)
+Pares mínimos: 
 
-Palabras para repetir: cena, gelato, pizza, pesce, studente, perché
+Palabras para repetir: perché, però, quindi, comunque, insomma, allora, invece, magari
 
 ### Shadowing (videos de Easy Italian)
 
 - Principal: Best Places in Italy — https://www.youtube.com/watch?v=TVNv0BJjCUA
 - Alternativo: How Italians Ask What You Do — https://www.youtube.com/watch?v=PwhwnFNGTDg
+
+---
+
+# Fase 6 · Hacia B1
+
+_Expresar opiniones e hipótesis y contar una experiencia completa (A2 sólido)._
+
+## Unidad 21 — Pronombres combinados
+
+**Situación:** Decir «te lo doy», «se lo digo» sin repetir objetos
+
+**Objetivos «Puedo…»:**
+- Puedo usar glielo, me lo, te la en frases cotidianas.
+- Puedo entender estos pronombres cuando los oigo.
+
+### Lección: la regla
+
+Cuando en la misma frase hay un pronombre indirecto (*a mí, a ti, a él…*) y uno directo (*lo, la, li, le*), se juntan **en este orden: indirecto + directo**. El indirecto cambia de forma: *mi → me*, *ti → te*, *ci → ce*, *vi → ve*, y *gli / le → glie-* (pegado al directo).
+
+|  | lo | la | li | le | ne |
+|---|---|---|---|---|---|
+| a mí (*mi*) | *me lo* | *me la* | *me li* | *me le* | *me ne* |
+| a ti (*ti*) | *te lo* | *te la* | *te li* | *te le* | *te ne* |
+| a él / ella / usted (*gli, le*) | *glielo* | *gliela* | *glieli* | *gliele* | *gliene* |
+| a nosotros (*ci*) | *ce lo* | *ce la* | *ce li* | *ce le* | *ce ne* |
+| a ustedes (*vi*) | *ve lo* | *ve la* | *ve li* | *ve le* | *ve ne* |
+
+**Dónde van.** Antes del verbo conjugado: *Te lo do domani. Glielo dico.* Con infinitivo, el par se pega al final (el infinitivo pierde la *-e*): *Puoi spiegarmelo?* · *Voglio dirtelo.* Con el imperativo de *tu*, también pegado: *Dammelo!* (¡dámelo!, con *m* doble) · *Dimmelo!* Con *ho / ha*, *lo* y *la* se apostrofan y el participio concuerda: *Me l'ha data* (la chiave) · *Gliel'ho detta* (la verità).
+
+**Con ne:** *Hai dei biglietti? Sì, te ne do due.* · *Gliene parlo io.* (yo le hablo de eso). El par con *ne* termina en *-ne* y no cambia con el género.
+
+**Recuadro «Ojo, en español…»:**
+
+En español el orden es el mismo (*se lo doy*, *te lo digo*), así que la idea es conocida; lo nuevo es que el italiano pega *glielo* en **una sola palabra** y que no distingue *le / les*: *glielo* sirve para él, ella, usted y también para ellos (*glielo do* = se lo doy). Y cuidado: no escribas *gli lo* ni *li ti*: el orden siempre es indirecto + directo.
+
+### Ejemplos
+
+1. **Mi presti la penna? Sì, te la presto.** — ¿Me prestas la pluma? Sí, te la presto.
+2. **Marco me l'ha dato ieri.** — Marco me lo dio ayer.
+3. **Hai detto la verità a Luca? Sì, gliel'ho detta.** — ¿Le dijiste la verdad a Luca? Sí, se la dije.
+4. **Vuoi il mio numero? Te lo do subito.** — ¿Quieres mi número? Te lo doy enseguida.
+5. **Puoi spiegarmelo ancora una volta?** — ¿Puedes explicármelo otra vez?
+6. **Hai dei biglietti? Sì, te ne do due.** — ¿Tienes entradas? Sí, te doy dos.
+
+### Preguntas «Primero fíjate»
+
+1. **Elegir:** «Te lo do domani.» ¿Qué dice?  → **✔** Te lo doy mañana  /  Me lo das mañana  /  Se lo doy a él mañana  — _*Te lo* = a ti, lo._
+2. **Elegir:** «Glielo dico.» ¿A quién se lo dice?  → **✔** A él, a ella o a usted  /  A mí  /  A ti  — _*Glielo* reúne *gli / le + lo*._
+3. **Elegir:** «Dammelo!» ¿Qué dice?  → **✔** ¡Dámelo!  /  ¡Dáselo!  /  ¡Dímelo!  — _*Dammelo* = *da'* + *me* + *lo*._
+
+### Ejercicios
+
+1. **Completar:** Mi presti la penna? Sì, ___ presto.  → respuesta(s) aceptada(s): `te la`  — _A ti, la pluma: *te la*._
+2. **Completar:** Vuoi il mio numero? ___ do subito. (a ti, el número)  → respuesta(s) aceptada(s): `Te lo`  — _*Te lo*._
+3. **Completar:** Hai detto la verità a Luca? Sì, ___ detta.  → respuesta(s) aceptada(s): `gliel'ho`  — _*Gliela* + *ho* → *gliel'ho*; *detta* concuerda con *la verità*._
+4. **Completar:** Ti piace la mia giacca? ___ presto domani. (a ti, la chaqueta)  → respuesta(s) aceptada(s): `Te la`  — _*Te la presto*._
+5. **Completar:** Il biglietto? ___ mando oggi. (a él)  → respuesta(s) aceptada(s): `Glielo`  — _*Glielo mando*._
+6. **Completar:** Le chiavi? ___ do domani. (a ustedes, las llaves)  → respuesta(s) aceptada(s): `Ve le`  — _*Ve le do*._
+7. **Completar:** Quante mele? ___ do tre. (a ti, de ellas)  → respuesta(s) aceptada(s): `Te ne`  — _*Te ne do*._
+8. **Completar:** Mi presti i libri? Sì, ___ presto. (a ti, los)  → respuesta(s) aceptada(s): `te li`  — _*Te li presto*._
+9. **Elegir:** «Se lo digo» (a él)  → **✔** Glielo dico.  /  Se lo dico.  /  Lo gli dico.  — _*Gli + lo = glielo*._
+10. **Elegir:** «Te lo explico»  → **✔** Te lo spiego.  /  Ti lo spiego.  /  Lo ti spiego.  — _*Ti + lo = te lo*._
+11. **Elegir:** «¿Me lo das?»  → **✔** Me lo dai?  /  Mi lo dai?  /  Lo mi dai?  — _*Mi + lo = me lo*._
+12. **Elegir:** «Dámelo»  → **✔** Dammelo!  /  Dalomi!  /  Damilo!  — _*Da'* + *me* + *lo*._
+13. **Elegir:** La llave: «Marco me la dio ayer»  → **✔** Marco me l'ha data ieri.  /  Marco me l'ha dato ieri.  /  Marco mi l'ha data ieri.  — _*La chiave* es femenino: *data*._
+14. **Elegir:** «Se la damos a ella» (la torta)  → **✔** Gliela diamo.  /  Se la diamo.  /  Gli la diamo.  — _*Le + la = gliela*._
+15. **Elegir:** «Nos lo dicen»  → **✔** Ce lo dicono.  /  Ci lo dicono.  /  Lo ci dicono.  — _*Ci + lo = ce lo*._
+16. **Elegir:** «Te doy dos» (de ellas)  → **✔** Te ne do due.  /  Ti ne do due.  /  Te lo do due.  — _*Ti + ne = te ne*._
+
+### Vocabulario
+
+| Italiano | Español |
+|---|---|
+| prestare | prestar |
+| dare | dar |
+| dire | decir |
+| mandare | enviar / mandar |
+| spiegare | explicar |
+| mostrare | mostrar |
+| portare | llevar / traer |
+| restituire | devolver |
+| consegnare | entregar |
+| il consiglio | el consejo |
+| la penna | el bolígrafo / la pluma |
+| il numero | el número |
+| il favore | el favor |
+| lo scontrino | el recibo / el ticket de compra |
+| il pacco | el paquete |
+| la guida | la guía |
+| subito | enseguida / de inmediato |
+| volentieri | con gusto |
+| ancora una volta | otra vez |
+| spesso | a menudo |
+
+### Dictado (frases que la voz lee y la persona escribe)
+
+1. **Mi presti la penna? Sì, te la presto.** — ¿Me prestas la pluma? Sí, te la presto.
+2. **Vuoi il mio numero? Te lo do subito.** — ¿Quieres mi número? Te lo doy enseguida.
+3. **Glielo dico domani.** — Se lo digo mañana.
+4. **Puoi spiegarmelo ancora una volta?** — ¿Puedes explicármelo otra vez?
+5. **Me l'ha dato Marco.** — Me lo dio Marco.
+6. **Te ne do due.** — Te doy dos.
+
+### Escritura guiada
+
+**Consigna:** Un amigo te pide prestadas varias cosas antes de un viaje: respóndele diciendo qué le das y qué no, con pronombres combinados.
+
+**Texto modelo:** Certo, il libro te lo presto volentieri. Il mio numero te lo scrivo qui sotto. La mappa non l'ho più: gliel'ho data ieri a Marco. Se vuoi, te ne mando due copie.
+
+**Lista de autocorrección:**
+- Usé al menos dos pronombres combinados (*te lo, te la, glielo…*).
+- Los pronombres van antes del verbo conjugado.
+- Con *l'ho / l'ha* el participio concuerda (*data, detta*).
+- Escribí *glielo / gliela* pegado, en una sola palabra.
+
+### Diálogo
+
+**Escena:** Una amiga te pide prestadas unas cosas para un viaje.  ·  **Roles:** A = Amiga, B = Tú
+
+- **A:** Ciao! Mi presti la tua valigia? Parto domani. — _¡Hola! ¿Me prestas tu maleta? Me voy mañana._
+- **B:** Certo, te la presto volentieri. Ti serve anche la guida di Roma? — _Claro, te la presto con gusto. ¿Te sirve también la guía de Roma?_
+- **A:** Sì, grazie! Me la dai oggi? — _¡Sí, gracias! ¿Me la das hoy?_
+- **B:** Sì, te la porto stasera. E la mappa? Gliel'ho data ieri. — _Sí, te la llevo esta noche. ¿Y el mapa? Se lo di ayer a él._
+- **A:** Va bene, gliela chiedo io. — _Está bien, se la pido yo._
+- **B:** Perfetto. E le chiavi di casa? — _Perfecto. ¿Y las llaves de la casa?_
+- **A:** Le chiavi te le lascio io domani mattina. — _Las llaves te las dejo yo mañana por la mañana._
+- **B:** Grazie mille! Buon viaggio! — _¡Muchas gracias! ¡Buen viaje!_
+
+### Pronunciación
+
+**GLI en glielo y doble M** — En *glielo*, *gliela*, *gliene* la *gl* es la misma *l* palatal de *famiglia*: la lengua apoyada en el paladar. En *dammelo* y *dimmelo* la *m* es doble y se alarga: *dam-ME-lo*. Habla despacio y pega las sílabas, como si fuera una sola palabra.
+
+Pares mínimos: 
+
+Palabras para repetir: glielo, gliela, gliene, dammelo, dimmelo, spiegarmelo, portarmelo, famiglia
+
+---
+
+## Unidad 22 — Congiuntivo presente en uso
+
+**Situación:** Expresar opiniones, deseos y dudas
+
+**Objetivos «Puedo…»:**
+- Puedo expresar una opinión con penso che / credo che.
+- Puedo expresar un deseo o una duda.
+
+### Lección: la regla
+
+El **congiuntivo presente** se usa después de *che* cuando expresas una **opinión, un deseo, una duda o una emoción**: *Penso che sia vero.* · *Spero che tu stia bene.* · *Voglio che tu venga.* · *Dubito che arrivi.* · *Sono contento che tu sia qui.* También después de expresiones impersonales como *è importante che* y *bisogna che*.
+
+|  | parlare | prendere | dormire | essere | avere |
+|---|---|---|---|---|---|
+| che io | parli | prenda | dorma | sia | abbia |
+| che tu | parli | prenda | dorma | sia | abbia |
+| che lui / lei / Lei | parli | prenda | dorma | sia | abbia |
+| che noi | parliamo | prendiamo | dormiamo | siamo | abbiamo |
+| che voi | parliate | prendiate | dormiate | siate | abbiate |
+| che loro | parlino | prendano | dormano | siano | abbiano |
+
+Observa que *io, tu* y *lui / lei* son **iguales**: por eso a veces conviene decir el sujeto (*che tu venga*). Verbos irregulares muy usados:
+
+| Infinitivo | che io / tu / lui | che loro |
+|---|---|---|
+| *andare* | vada | vadano |
+| *fare* | faccia | facciano |
+| *venire* | venga | vengano |
+| *potere* | possa | possano |
+| *volere* | voglia | vogliano |
+| *dovere* | debba | debbano |
+| *stare* | stia | stiano |
+| *dire* | dica | dicano |
+
+**Cuándo NO se usa.** Si el sujeto es el mismo en las dos partes, se usa *di* + infinitivo: *Penso di avere ragione.* (pienso que tengo razón) · *Spero di venire.* (espero venir). Y en las respuestas cortas: *Credo di sì. Credo di no.*
+
+**Cuándo SÍ se usa.** *Penso / credo / mi sembra che* (opinión) · *spero / voglio / preferisco che* (deseo) · *dubito / non sono sicuro che* (duda) · *sono contento che* (emoción) · *è importante / è meglio / bisogna che* (impersonal). Para algo que sabes con seguridad usa el indicativo: *So che Marco è in ritardo.*
+
+**Recuadro «Ojo, en español…»:**
+
+En español el subjuntivo también existe, pero con *creer que* y *pensar que* afirmativos usamos el indicativo (*creo que viene*); en italiano esas frases piden congiuntivo: *credo che venga*. Con *dudar que* y *esperar que* se parece al español. Ojo: *io, tu* y *lui* tienen la misma forma (*che io parli, che tu parli, che lui parli*); en español solo coinciden *yo* y *él*.
+
+### Ejemplos
+
+1. **Penso che Marco sia in ritardo.** — Pienso que Marco está atrasado.
+2. **Credo che questo ristorante sia buono.** — Creo que este restaurante es bueno.
+3. **Spero che tu stia bene.** — Espero que estés bien.
+4. **Voglio che tu venga con noi.** — Quiero que vengas con nosotros.
+5. **È importante che voi parliate piano.** — Es importante que ustedes hablen despacio.
+6. **Penso di avere ragione.** — Creo tener razón.
+
+### Preguntas «Primero fíjate»
+
+1. **Elegir:** «Credo che Anna abbia ragione.» ¿Qué verbo está en congiuntivo?  → credo  /  **✔** abbia  /  ragione  — _*Abbia* es el congiuntivo de *avere*._
+2. **Elegir:** «Penso che sia vero.» ¿Qué expresa?  → **✔** Una opinión  /  Una orden  /  Un hecho seguro  — _*Penso che* + congiuntivo = opinión._
+3. **Elegir:** «Voglio che tu venga.» ¿Quién viene?  → **✔** Tú  /  Yo  /  Nadie  — _*Che tu venga*: el que viene eres tú._
+
+### Ejercicios
+
+1. **Completar:** Penso che Marco ___ in ritardo. (essere)  → respuesta(s) aceptada(s): `sia`  — _*Essere → sia*._
+2. **Completar:** Credo che lei ___ ragione. (avere)  → respuesta(s) aceptada(s): `abbia`  — _*Avere → abbia*._
+3. **Completar:** Spero che tu ___ bene. (stare)  → respuesta(s) aceptada(s): `stia`  — _*Stare → stia*._
+4. **Completar:** Voglio che tu ___ con noi. (venire)  → respuesta(s) aceptada(s): `venga`  — _*Venire → venga*._
+5. **Completar:** Penso che loro ___ a casa. (essere)  → respuesta(s) aceptada(s): `siano`  — _*Essere → siano*._
+6. **Completar:** Credo che voi ___ molto bene. (parlare)  → respuesta(s) aceptada(s): `parliate`  — _*Parlare → parliate* con *voi*._
+7. **Completar:** Spero che Anna ___ presto. (arrivare)  → respuesta(s) aceptada(s): `arrivi`  — _*Arrivare → arrivi*._
+8. **Completar:** È importante che noi ___ in tempo. (arrivare)  → respuesta(s) aceptada(s): `arriviamo`  — _Con *noi* es igual al presente: *arriviamo*._
+9. **Completar:** Credo che lui ___ la verità. (dire)  → respuesta(s) aceptada(s): `dica`  — _*Dire → dica*._
+10. **Completar:** Voglio che loro ___ qui. (restare)  → respuesta(s) aceptada(s): `restino`  — _*Restare → restino*._
+11. **Completar:** Penso ___ avere ragione. (mismo sujeto)  → respuesta(s) aceptada(s): `di`  — _Mismo sujeto: *di* + infinitivo._
+12. **Completar:** Credo che lei ___ a Roma. (andare)  → respuesta(s) aceptada(s): `vada`  — _*Andare → vada*._
+13. **Completar:** Non credo che lui ___ venire. (potere)  → respuesta(s) aceptada(s): `possa`  — _*Potere → possa*._
+14. **Elegir:** «Creo que Marco viene»  → **✔** Credo che Marco venga.  /  Credo che Marco vieni.  /  Credo che Marco venire.  — _*Credo che* pide congiuntivo: *venga*._
+15. **Elegir:** «Espero que vengas»  → **✔** Spero che tu venga.  /  Spero che tu vieni.  /  Spero tu venire.  — _*Spero che* + congiuntivo._
+16. **Elegir:** «Creo tener razón»  → **✔** Credo di avere ragione.  /  Credo che avere ragione.  /  Credo di ho ragione.  — _Mismo sujeto: *di* + infinitivo._
+17. **Elegir:** «Dudo que sea verdad»  → **✔** Dubito che sia vero.  /  Dubito che è vero.  /  Dubito che essere vero.  — _*Dubito che* + congiuntivo._
+18. **Elegir:** «Es importante que estudies»  → **✔** È importante che tu studi.  /  È importante che tu studii.  /  È importante tu studiare.  — _*Studiare → studi* (una sola *i*)._
+
+### Vocabulario
+
+| Italiano | Español |
+|---|---|
+| pensare | pensar |
+| credere | creer |
+| sperare | esperar (con esperanza) |
+| dubitare | dudar |
+| sembrare | parecer |
+| preferire | preferir |
+| immaginare | imaginar |
+| bisogna | hay que / es necesario |
+| importante | importante |
+| possibile | posible |
+| probabile | probable |
+| sicuro | seguro |
+| vero | verdadero |
+| falso | falso |
+| l'opinione | la opinión |
+| avere ragione | tener razón |
+| avere torto | estar equivocado |
+| d'accordo | de acuerdo |
+| secondo me | en mi opinión |
+| contento | contento |
+
+### Dictado (frases que la voz lee y la persona escribe)
+
+1. **Penso che sia vero.** — Pienso que es verdad.
+2. **Credo che Marco abbia ragione.** — Creo que Marco tiene razón.
+3. **Spero che tu stia bene.** — Espero que estés bien.
+4. **Voglio che tu venga con noi.** — Quiero que vengas con nosotros.
+5. **È importante che arriviamo in tempo.** — Es importante que lleguemos a tiempo.
+6. **Penso di avere ragione.** — Creo tener razón.
+
+### Escritura guiada
+
+**Consigna:** Da tu opinión sobre un lugar que visitaste: qué piensas, qué esperas y qué es importante hacer.
+
+**Texto modelo:** Penso che Roma sia una città bellissima. Credo che il Colosseo sia molto interessante. Spero che tu venga con me l'anno prossimo. È importante che noi arriviamo presto, perché c'è molta gente.
+
+**Lista de autocorrección:**
+- Usé *penso / credo che* + congiuntivo (*sia, abbia*).
+- Usé *spero che* o *voglio che* con otra persona.
+- Usé *è importante che* + congiuntivo.
+- Con el mismo sujeto usé *di* + infinitivo, no *che*.
+
+### Diálogo
+
+**Escena:** Dos amigos hablan de un paseo y dan su opinión.  ·  **Roles:** A = Marco, B = Laura
+
+- **A:** Cosa pensi della gita a Firenze? — _¿Qué piensas del paseo a Florencia?_
+- **B:** Penso che sia una buona idea. Credo che Firenze sia bellissima in primavera. — _Pienso que es una buena idea. Creo que Florencia es hermosísima en primavera._
+- **A:** Spero che faccia bel tempo! — _¡Espero que haga buen tiempo!_
+- **B:** Anch'io. Voglio che tutti vengano con noi. — _Yo también. Quiero que todos vengan con nosotros._
+- **A:** Pensi che Anna possa venire? — _¿Crees que Anna pueda venir?_
+- **B:** Non so. Credo che abbia un esame, ma spero di sì. — _No sé. Creo que tiene un examen, pero espero que sí._
+- **A:** È importante che le scriviamo oggi. — _Es importante que le escribamos hoy._
+- **B:** Hai ragione. Le scrivo io stasera. — _Tienes razón. Le escribo yo esta noche._
+
+### Pronunciación
+
+**Vocales juntas: SEI / SAI, MIA / MAI** — En *sia*, *abbia*, *siate* y *siamo* las vocales van pegadas en una sola sílaba (*SIA*, *AB-bia*). No separes la *i* como en español: es una vocal rápida y corta. Compara *sei* (eres) con *sai* (sabes), y *mia* (mía) con *mai* (nunca).
+
+Pares mínimos: sei (seis / eres) / sai (sabes) · mai (nunca) / mia (mía)
+
+Palabras para repetir: sia, abbia, stia, venga, vada, faccia, possa, siamo
+
+---
+
+## Unidad 23 — Hipótesis: periodo ipotetico
+
+**Situación:** Hablar de posibilidades, sueños y consejos con «si»
+
+**Objetivos «Puedo…»:**
+- Puedo hablar de posibilidades con se + presente.
+- Puedo plantear una hipótesis con se + congiuntivo imperfetto.
+
+### Lección: la regla
+
+El **periodo ipotetico** une una condición (*se…*) con su consecuencia. Hay tres tipos según qué tan real sea la condición:
+
+| Tipo | Estructura | Ejemplo |
+|---|---|---|
+| Real o posible | *se* + presente → presente / futuro / imperativo | *Se piove, resto a casa.* · *Se avrò tempo, verrò.* |
+| Irreal o improbable (ahora) | *se* + congiuntivo imperfetto → condizionale | *Se avessi tempo, viaggerei.* |
+| Irreal en el pasado (solo reconocer) | *se* + trapassato congiuntivo → condizionale passato | *Se avessi studiato, avrei superato l'esame.* |
+
+El **congiuntivo imperfetto** es el que necesitas para el segundo tipo. Se forma con la raíz del infinitivo:
+
+|  | essere | avere | parlare | prendere | dormire |
+|---|---|---|---|---|---|
+| io | fossi | avessi | parlassi | prendessi | dormissi |
+| tu | fossi | avessi | parlassi | prendessi | dormissi |
+| lui / lei | fosse | avesse | parlasse | prendesse | dormisse |
+| noi | fossimo | avessimo | parlassimo | prendessimo | dormissimo |
+| voi | foste | aveste | parlaste | prendeste | dormiste |
+| loro | fossero | avessero | parlassero | prendessero | dormissero |
+
+Raíces irregulares que conviene recordar: *fare → facessi*, *dare → dessi*, *stare → stessi*, *dire → dicessi*, *bere → bevessi*. *Potere, volere, dovere* y *andare* son regulares: *potessi, volessi, dovessi, andassi*. El **condizionale** de la consecuencia ya lo conoces (*viaggerei, comprerei, resterei*).
+
+**Consejos y deseos.** *Se fossi in te, andrei dal medico.* (si yo fuera tú, iría al médico) · *Se fossi in Lei, prenderei un taxi.* · *Magari avessi più tempo!* (¡ojalá tuviera más tiempo!).
+
+**Recuadro «Ojo, en español…»:**
+
+El segundo tipo se parece mucho al español: *si tuviera tiempo, viajaría* = *se avessi tempo, viaggerei*. La trampa es poner el condizionale después de *se*: *se avrei tempo* o *se avrebbe* están mal. El condizionale va solo en la consecuencia. En la lengua hablada también oirás *se avevo tempo, venivo*; es coloquial, y en el examen o por escrito se prefiere la forma que ves aquí.
+
+### Ejemplos
+
+1. **Se piove, resto a casa.** — Si llueve, me quedo en casa.
+2. **Se avrò tempo, verrò con te.** — Si tengo tiempo, iré contigo.
+3. **Se avessi più tempo, viaggerei di più.** — Si tuviera más tiempo, viajaría más.
+4. **Se fossi ricco, comprerei una casa a Roma.** — Si fuera rico, compraría una casa en Roma.
+5. **Se fossi in te, andrei dal medico.** — Si yo fuera tú, iría al médico.
+6. **Se potessi, resterei qui.** — Si pudiera, me quedaría aquí.
+
+### Preguntas «Primero fíjate»
+
+1. **Elegir:** «Se avessi tempo, viaggerei.» ¿Tiene tiempo?  → **✔** No, es una situación irreal  /  Sí, tiene mucho  /  Tendrá tiempo mañana  — _*Se* + congiuntivo imperfetto expresa algo irreal o improbable._
+2. **Elegir:** «Se piove, resto a casa.» ¿Qué tipo de condición es?  → **✔** Una posibilidad real  /  Algo imposible  /  Algo que ya pasó  — _*Se* + presente = posibilidad real._
+3. **Elegir:** «Se fossi in te, andrei.» ¿Qué hace?  → **✔** Da un consejo  /  Da una orden  /  Cuenta un hecho  — _*Se fossi in te…* es la fórmula del consejo._
+
+### Ejercicios
+
+1. **Completar:** Se ___ tempo, viaggerei. (io, avere)  → respuesta(s) aceptada(s): `avessi`  — _*Avere → avessi*._
+2. **Completar:** Se ___ ricco, comprerei una casa. (io, essere)  → respuesta(s) aceptada(s): `fossi`  — _*Essere → fossi*._
+3. **Completar:** Se tu ___ qui, andremmo al cinema. (essere)  → respuesta(s) aceptada(s): `fossi`  — _*Essere → fossi* con *tu*._
+4. **Completar:** Se ___ in te, andrei dal medico. (io, essere)  → respuesta(s) aceptada(s): `fossi`  — _*Se fossi in te*._
+5. **Completar:** Se potessi, ___ qui. (io, restare, condizionale)  → respuesta(s) aceptada(s): `resterei`  — _Consecuencia: condizionale, *resterei*._
+6. **Completar:** Se avessi tempo, ___ di più. (io, viaggiare, condizionale)  → respuesta(s) aceptada(s): `viaggerei`  — _*Viaggiare* → *viaggerei* (pierde la *i*)._
+7. **Completar:** Se lui ___ studiare, passerebbe l'esame. (volere)  → respuesta(s) aceptada(s): `volesse`  — _*Volere → volesse*._
+8. **Completar:** Se noi ___ più soldi, compreremmo una macchina. (avere)  → respuesta(s) aceptada(s): `avessimo`  — _*Avere → avessimo*._
+9. **Completar:** Se voi ___ qui, saremmo contenti. (essere)  → respuesta(s) aceptada(s): `foste`  — _*Essere → foste*._
+10. **Completar:** Se tu ___ sport, staresti meglio. (fare)  → respuesta(s) aceptada(s): `facessi`  — _*Fare → facessi*._
+11. **Completar:** Se loro ___ tempo, verrebbero. (avere)  → respuesta(s) aceptada(s): `avessero`  — _*Avere → avessero*._
+12. **Elegir:** «Si tuviera tiempo, viajaría»  → **✔** Se avessi tempo, viaggerei.  /  Se avrei tempo, viaggerei.  /  Se avessi tempo, viaggio.  — _*Se* + congiuntivo imperfetto + condizionale._
+13. **Elegir:** «Si yo fuera tú, iría al médico»  → **✔** Se fossi in te, andrei dal medico.  /  Se sarei in te, andrei dal medico.  /  Se fossi in te, andare dal medico.  — _Nunca condizionale después de *se*._
+14. **Elegir:** «Si llueve, me quedo en casa» (posibilidad real)  → **✔** Se piove, resto a casa.  /  Se piovesse, resto a casa.  /  Se pioverebbe, resto a casa.  — _Real: *se* + presente._
+15. **Elegir:** «Si pudiera, me quedaría»  → **✔** Se potessi, resterei.  /  Se posso, resterei.  /  Se potessi, resto.  — _Irreal: congiuntivo imperfetto + condizionale._
+16. **Elegir:** «Si estudiaras, aprobarías»  → **✔** Se studiassi, passeresti l'esame.  /  Se studi, passeresti l'esame.  /  Se studiassi, passi l'esame.  — _Irreal: *studiassi* + *passeresti*._
+
+### Vocabulario
+
+| Italiano | Español |
+|---|---|
+| se | si (condicional) |
+| magari | ojalá / quizás |
+| ricco | rico |
+| i soldi | el dinero |
+| la lotteria | la lotería |
+| vincere | ganar |
+| il sogno | el sueño |
+| la possibilità | la posibilidad |
+| l'occasione | la oportunidad |
+| il lavoro | el trabajo |
+| la scelta | la elección / la decisión |
+| viaggiare | viajar |
+| comprare | comprar |
+| restare | quedarse |
+| cambiare | cambiar |
+| risparmiare | ahorrar |
+| se fossi in te | si yo fuera tú |
+| sarebbe bello | sería lindo |
+| probabilmente | probablemente |
+| mai | nunca / alguna vez |
+
+### Dictado (frases que la voz lee y la persona escribe)
+
+1. **Se piove, resto a casa.** — Si llueve, me quedo en casa.
+2. **Se avessi più tempo, viaggerei.** — Si tuviera más tiempo, viajaría.
+3. **Se fossi ricco, comprerei una casa.** — Si fuera rico, compraría una casa.
+4. **Se fossi in te, andrei dal medico.** — Si yo fuera tú, iría al médico.
+5. **Magari potessi restare qui!** — ¡Ojalá pudiera quedarme aquí!
+6. **Se avrò tempo, verrò con te.** — Si tengo tiempo, iré contigo.
+
+### Escritura guiada
+
+**Consigna:** Escribe tres sueños con «si»: qué harías si tuvieras más tiempo, dinero o libertad.
+
+**Texto modelo:** Se avessi più tempo, viaggerei in tutta l'Italia. Se fossi ricca, comprerei una casa vicino al mare. Se potessi scegliere, vivrei a Roma per un anno. E tu, che cosa faresti?
+
+**Lista de autocorrección:**
+- Usé *se* + congiuntivo imperfetto (*avessi, fossi, potessi*).
+- En la otra parte usé condizionale (*viaggerei, comprerei*).
+- No puse condizionale después de *se*.
+- Escribí al menos tres frases con *se*.
+
+### Diálogo
+
+**Escena:** Dos amigos sueñan con unas vacaciones.  ·  **Roles:** A = Giulia, B = Marco
+
+- **A:** Se avessi un mese libero, cosa faresti? — _Si tuvieras un mes libre, ¿qué harías?_
+- **B:** Se avessi un mese libero, andrei in Sicilia. E tu? — _Si tuviera un mes libre, iría a Sicilia. ¿Y tú?_
+- **A:** Io viaggerei in treno per tutta l'Italia. — _Yo viajaría en tren por toda Italia._
+- **B:** Bello! Se potessimo, partiremmo domani. — _¡Qué lindo! Si pudiéramos, saldríamos mañana._
+- **A:** Se fossi in te, comincerei a risparmiare. — _Si yo fuera tú, empezaría a ahorrar._
+- **B:** Hai ragione. Se risparmio ogni mese, posso partire l'estate prossima. — _Tienes razón. Si ahorro cada mes, puedo salir el próximo verano._
+- **A:** Allora ci vediamo in Sicilia l'estate prossima! — _¡Entonces nos vemos en Sicilia el próximo verano!_
+- **B:** Affare fatto! — _¡Trato hecho!_
+
+### Pronunciación
+
+**SS y ZZ en las formas del subjuntivo** — El *-ssi* de *avessi, fossi, potessi* lleva una *s* doble sorda, larga: *a-VES-si*. No la suavices como una *z* española. Compara *pozzo* (pozo, con *zz*) con *posso* (puedo, con *ss*) y *mezzo* (medio) con *messo* (puesto).
+
+Pares mínimos: pozzo (pozo) / posso (puedo) · mezzo (medio) / messo (puesto)
+
+Palabras para repetir: avessi, fossi, potessi, volessi, facessi, viaggerei, comprerei, resterei
+
+---
+
+## Unidad 24 — Repaso general y proyecto final
+
+**Situación:** Contar una experiencia completa y resolver situaciones de viaje
+
+**Objetivos «Puedo…»:**
+- Puedo contar una experiencia completa: presente, pasado y planes.
+- Puedo resolver situaciones de viaje y de vida diaria con seguridad.
+
+### Lección: la regla
+
+Esta unidad no trae gramática nueva: es el mapa de todo lo que ya usas. Tu **proyecto final** es contar una experiencia completa, combinando varios tiempos. Antes, repasa para qué sirve cada uno:
+
+| Tiempo | Para… | Ejemplo |
+|---|---|---|
+| *presente* | lo que haces ahora o siempre | *Abito a Santiago. Studio italiano.* |
+| *passato prossimo* | hechos terminados | *Ieri sono andato al mercato.* |
+| *imperfetto* | cómo eran las cosas o lo que hacías | *Da bambino abitavo a Roma.* |
+| *futuro* | planes y suposiciones | *L'anno prossimo andrò in Italia.* |
+| *condizionale* | cortesía y consejos | *Vorrei un caffè. Dovresti riposare.* |
+| *congiuntivo* | opinión, deseo, duda | *Penso che sia vero.* |
+| *se* + imperfetto | hipótesis irreales | *Se avessi tempo, viaggerei.* |
+
+**Cómo contar una experiencia.** 1) Sitúa: *L'anno scorso sono andato in Italia con un amico.* 2) Describe el fondo con imperfetto: *Faceva caldo e c'era molta gente.* 3) Cuenta los hechos con passato prossimo: *Siamo arrivati a Roma e abbiamo visitato il Colosseo.* 4) Da tu opinión: *Penso che sia stata un'esperienza bellissima.* 5) Mira adelante: *Spero di tornare l'anno prossimo.* Enlaza con *prima, poi, dopo, alla fine, mentre, perché, quindi, però*. Para reconocer: *sia stata* (fue) es el congiuntivo del pasado, formado con *essere* en congiuntivo + participio; lo oirás mucho, y por ahora basta con entenderlo.
+
+**Los ocho errores más comunes de quien habla español.** Corrígelos antes de entregar tu proyecto:
+
+| Error | Correcto |
+|---|---|
+| *Vado nella banca.* | *Vado in banca.* |
+| *Ho niente.* | *Non ho niente.* |
+| *Ho studiato da tre mesi.* (sigo estudiando) | *Studio da tre mesi.* |
+| *Più alto che me.* | *Più alto di me.* |
+| *Ho andato a Roma.* | *Sono andato a Roma.* |
+| *Se avrei tempo…* | *Se avessi tempo…* |
+| *Credo che viene.* | *Credo che venga.* |
+| *Mi piace i gelati.* | *Mi piacciono i gelati.* |
+
+**Recuadro «Ojo, en español…»:**
+
+Casi todos los errores vienen de copiar la estructura del español palabra por palabra. Antes de decir una frase, pregúntate tres cosas: ¿la acción terminó o describo el fondo (*passato prossimo* o *imperfetto*)? ¿necesito una preposición distinta (*a, in, da, di, per*)? ¿hay un pronombre o un *non* que el español no tiene? Con eso corriges la mayoría de los errores.
+
+### Ejemplos
+
+1. **L'anno scorso sono andato in Italia con un amico.** — El año pasado fui a Italia con un amigo.
+2. **Faceva caldo e c'era molta gente.** — Hacía calor y había mucha gente.
+3. **Prima abbiamo visitato il Colosseo, poi abbiamo mangiato.** — Primero visitamos el Coliseo y después comimos.
+4. **Penso che sia stata un'esperienza bellissima.** — Pienso que fue una experiencia hermosísima.
+5. **Se avessi più tempo, resterei un mese.** — Si tuviera más tiempo, me quedaría un mes.
+6. **Spero di tornare l'anno prossimo.** — Espero volver el año próximo.
+
+### Preguntas «Primero fíjate»
+
+1. **Elegir:** «Faceva caldo e c'era molta gente.» ¿Qué hace esta frase?  → **✔** Describe el fondo de la escena  /  Cuenta un hecho puntual  /  Hace una predicción  — _El *imperfetto* describe cómo eran las cosas._
+2. **Elegir:** «Siamo arrivati a Roma.» ¿Qué tiempo es?  → **✔** Passato prossimo  /  Futuro  /  Congiuntivo  — _*Siamo arrivati* = *essere* + participio: passato prossimo._
+3. **Elegir:** «Se avessi tempo, resterei.» ¿Qué expresa?  → **✔** Una hipótesis irreal  /  Un hecho seguro  /  Una orden  — _*Se* + congiuntivo imperfetto + condizionale._
+
+### Ejercicios
+
+1. **Completar:** Ieri io ___ al mercato. (andare)  → respuesta(s) aceptada(s): `sono andato` · `sono andata`  — _*Andare* usa *essere*: *sono andato / andata*._
+2. **Completar:** Da bambino ___ a Roma. (abitare, imperfetto)  → respuesta(s) aceptada(s): `abitavo`  — _Imperfetto: *abitavo*._
+3. **Completar:** L'anno prossimo ___ in Italia. (io, andare, futuro)  → respuesta(s) aceptada(s): `andrò`  — _Raíz irregular: *andrò*._
+4. **Completar:** ___ un caffè, per favore. (io, volere, cortés)  → respuesta(s) aceptada(s): `Vorrei`  — _*Vorrei* es el pedido cortés._
+5. **Completar:** Penso che lui ___ ragione. (avere)  → respuesta(s) aceptada(s): `abbia`  — _*Penso che* + congiuntivo: *abbia*._
+6. **Completar:** Se ___ tempo, viaggerei. (io, avere)  → respuesta(s) aceptada(s): `avessi`  — _*Se* + congiuntivo imperfetto: *avessi*._
+7. **Completar:** Studio italiano ___ tre mesi. (desde hace)  → respuesta(s) aceptada(s): `da`  — _*Da* + presente._
+8. **Completar:** Mi ___ male la testa. (duele)  → respuesta(s) aceptada(s): `fa`  — _*Mi fa male* + singular._
+9. **Completar:** Vado ___ banca.  → respuesta(s) aceptada(s): `in`  — _Lugar habitual: *in banca*._
+10. **Completar:** Non ho ___. (nada)  → respuesta(s) aceptada(s): `niente`  — _*Non ho niente*._
+11. **Completar:** Mi presti la penna? Sì, ___ presto.  → respuesta(s) aceptada(s): `te la`  — _*Te la presto*._
+12. **Completar:** Ti ___ tra dieci minuti. (volver a llamar)  → respuesta(s) aceptada(s): `richiamo`  — _*Richiamare → richiamo*._
+13. **Completar:** Marco è più alto ___ me. (que)  → respuesta(s) aceptada(s): `di`  — _Comparar con un pronombre: *di*._
+14. **Completar:** Ieri abbiamo ___ la pizza. (mangiare)  → respuesta(s) aceptada(s): `mangiato`  — _Participio de *mangiare*: *mangiato*._
+15. **Completar:** Mentre io ___, ha suonato il telefono. (dormire, imperfetto)  → respuesta(s) aceptada(s): `dormivo`  — _Imperfetto: *dormivo*._
+16. **Completar:** Spero che tu ___ bene. (stare)  → respuesta(s) aceptada(s): `stia`  — _*Spero che* + congiuntivo: *stia*._
+17. **Elegir:** «Si fuera rico, compraría una casa»  → **✔** Se fossi ricco, comprerei una casa.  /  Se sarei ricco, comprerei una casa.  /  Se fossi ricco, compro una casa.  — _Congiuntivo imperfetto + condizionale._
+18. **Elegir:** «Llevo dos años viviendo en Italia»  → **✔** Abito in Italia da due anni.  /  Ho abitato in Italia da due anni.  /  Abito in Italia fa due anni.  — _Sigue ahora: presente + *da*._
+19. **Elegir:** Pides con cortesía que te ayuden:  → **✔** Potrebbe aiutarmi?  /  Aiutami!  /  Tu aiuti me?  — _Condizionale + *Lei*._
+20. **Elegir:** «No tengo nada»  → **✔** Non ho niente.  /  Ho niente.  /  Non niente ho.  — _*Non* + verbo + *niente*._
+21. **Elegir:** «Nos vemos mañana»  → **✔** Ci vediamo domani.  /  Noi vediamo domani.  /  Si vediamo domani.  — _Recíproco: *ci vediamo*._
+
+### Vocabulario
+
+| Italiano | Español |
+|---|---|
+| prima | primero / antes |
+| poi | después / luego |
+| dopo | después |
+| alla fine | al final |
+| mentre | mientras |
+| perché | porque / ¿por qué? |
+| quindi | por lo tanto |
+| però | pero / sin embargo |
+| infatti | de hecho |
+| per esempio | por ejemplo |
+| secondo me | en mi opinión |
+| in realtà | en realidad |
+| purtroppo | lamentablemente |
+| per fortuna | por suerte |
+| comunque | de todos modos |
+| l'esperienza | la experiencia |
+| il ricordo | el recuerdo |
+| imparare | aprender |
+| migliorare | mejorar |
+| la vacanza | las vacaciones |
+
+### Dictado (frases que la voz lee y la persona escribe)
+
+1. **L'anno scorso sono andato in Italia con un amico.** — El año pasado fui a Italia con un amigo.
+2. **Faceva caldo e c'era molta gente.** — Hacía calor y había mucha gente.
+3. **Prima abbiamo visitato il Colosseo, poi abbiamo mangiato.** — Primero visitamos el Coliseo y después comimos.
+4. **Penso che sia stata un'esperienza bellissima.** — Pienso que fue una experiencia hermosísima.
+5. **Se avessi più tempo, resterei un mese.** — Si tuviera más tiempo, me quedaría un mes.
+6. **Spero di tornare l'anno prossimo.** — Espero volver el año próximo.
+
+### Escritura guiada
+
+**Consigna:** Proyecto final: cuenta un viaje o una experiencia completa. Di dónde fuiste, cómo era, qué hiciste, qué piensas y qué harás o harías.
+
+**Texto modelo:** L'anno scorso sono andata in Italia con un'amica. Faceva caldo e c'era molta gente. Prima abbiamo visitato Roma, poi siamo andate a Firenze in treno. Penso che sia stata un'esperienza bellissima. Se avessi più tempo, resterei un mese. Spero di tornare l'anno prossimo.
+
+**Lista de autocorrección:**
+- Usé passato prossimo para los hechos e imperfetto para describir.
+- Usé al menos dos conectores (*prima, poi, perché, mentre, però*).
+- Di mi opinión con *penso che* + congiuntivo.
+- Usé un plan (*spero di…, tornerò*) o una hipótesis (*se avessi…, resterei*).
+
+### Diálogo
+
+**Escena:** Conoces a un italiano durante tu viaje y le cuentas tu experiencia.  ·  **Roles:** A = Italiano que conoces, B = Tú
+
+- **A:** Ciao! Sei in vacanza qui? — _¡Hola! ¿Estás de vacaciones aquí?_
+- **B:** Sì, sono arrivata una settimana fa. Studio italiano da sei mesi. — _Sí, llegué hace una semana. Estudio italiano desde hace seis meses._
+- **A:** Complimenti! Che cosa hai visitato? — _¡Felicitaciones! ¿Qué has visitado?_
+- **B:** Prima ho visitato Roma, poi sono andata a Firenze. Faceva molto caldo, ma era bellissimo. — _Primero visité Roma, después fui a Florencia. Hacía mucho calor, pero era hermosísimo._
+- **A:** Che cosa ti è piaciuto di più? — _¿Qué te gustó más?_
+- **B:** Mi è piaciuto il cibo. Penso che la pasta italiana sia la migliore del mondo! — _Me gustó la comida. ¡Pienso que la pasta italiana es la mejor del mundo!_
+- **A:** Che programmi hai per domani? — _¿Qué planes tienes para mañana?_
+- **B:** Domani andrò a Venezia in treno. Potresti consigliarmi un ristorante? — _Mañana iré a Venecia en tren. ¿Podrías recomendarme un restaurante?_
+- **A:** Certo! Se fossi in te, andrei da Alfredo. Ci sono tanti piatti buoni. — _¡Claro! Si yo fuera tú, iría donde Alfredo. Hay muchos platos buenos._
+- **B:** Grazie mille! Lo scrivo subito. — _¡Muchas gracias! Lo anoto enseguida._
+
+### Pronunciación
+
+**Repaso final de sonidos** — Última vuelta con todo lo visto: consonantes dobles, *c / g* suaves y duras, *gli*, *z*, *r / rr*, *b / v* y la *h* muda. Escucha cada par y repite en voz alta imitando la duración de las consonantes.
+
+Pares mínimos: palla (pelota) / pala (pala) · caro (querido / caro) / carro (carreta / vagón) · chi (quién) / ci (nos / allí) · gli (a él / los) / li (allí) · pazzo (loco) / passo (paso) · casa (casa) / cassa (caja) · nonno (abuelo) / nono (noveno)
+
+Palabras para repetir: cena, gelato, pizza, famiglia, viaggio, bene, vino, ho
 
 ---

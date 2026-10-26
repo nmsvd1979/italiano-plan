@@ -19,9 +19,9 @@
 
 ## Alcance
 
-- 16 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
-- 105 frases de ejemplo, 360 ejercicios y preguntas de comprensión.
-- 300 palabras o expresiones de vocabulario, 90 frases de dictado, 113 líneas de diálogo, 15 consignas de escritura con modelo.
+- 24 lecciones (15 unidades disponibles + la lección de la unidad 20, que aún no se usa).
+- 154 frases de ejemplo, 575 ejercicios y preguntas de comprensión.
+- 488 palabras o expresiones de vocabulario, 144 frases de dictado, 195 líneas de diálogo, 15 consignas de escritura con modelo.
 - Pronunciación: pares mínimos y consejos por unidad. Shadowing: lista de videos (para juzgar si el nivel es adecuado).
 
 ## Dudas de la IA que conviene mirar primero
@@ -69,12 +69,15 @@ Los pronombres evitan repetir el objeto. **Directo** = *qué / a quién* (*lo ve
 | ustedes | *vi* | *vi* |
 | ellos / los | *li* | *gli* |
 | ellas / las | *le* | *gli* |
+| usted (Lei) | *La* | *Le* |
 
 *Compro la giacca* → **la** compro. · *Vedo Marco* → **lo** vedo. · *Telefono ad Anna* → **le** telefono. · *Do il libro a lui* → **gli** do il libro.
 
 **Con infinitivo** el pronombre puede ir al final pegado (*Voglio vederlo*) o antes del verbo conjugado (*Lo voglio vedere*). **Con passato prossimo**, *lo / la / li / le* hacen concordar el participio: *Ho comprato la giacca → L'ho comprata.* · *Ho visto i ragazzi → Li ho visti.*
 
 Cuando se juntan dos (a él + lo), *gli* + *lo* se funden en **glielo**: *Glielo do* (se lo doy). Con las demás personas, el primer pronombre cambia a *me, te, ce, ve*: *Te lo do domani* (te lo doy mañana), *Me lo dai?* (¿me lo das?). Por ahora alcanza con reconocerlos.
+
+Con *Lei* (usted) los pronombres suelen escribirse con mayúscula: *La ringrazio, signora.* (le agradezco, señora) · *Le telefono domani.* (le llamo mañana).
 
 **Recuadro «Ojo, en español…»:**
 
@@ -117,6 +120,8 @@ Cuidado con *le*: en español *le* es para él y para ella, pero en italiano *gl
 18. **Completar:** Ho incontrato Paolo e ___ ho salutato. (lo, con apóstrofo)  → respuesta(s) aceptada(s): `l'`  — _Ante *ho*, *lo* pierde la vocal: *l'ho*._
 19. **Elegir:** «Te lo doy mañana» (el libro)  → **✔** Te lo do domani  /  Ti lo do domani  /  Lo ti do domani  — _*Ti* + *lo* = *te lo*._
 20. **Elegir:** «Les escribí una carta» (a ellos)  → **✔** Gli ho scritto una lettera  /  Li ho scritto una lettera  /  Le ho scritto una lettera  — _Indirecto para ellos: *gli*._
+21. **Completar:** ___ ringrazio, signora. (a usted, directo)  → respuesta(s) aceptada(s): `La`  — _Directo con *Lei*: *La ringrazio*._
+22. **Completar:** ___ telefono domani, dottore. (a usted, indirecto)  → respuesta(s) aceptada(s): `Le`  — _Indirecto con *Lei*: *Le telefono*._
 
 ### Vocabulario
 
@@ -213,8 +218,10 @@ El **imperativo** da órdenes e indicaciones. Con *tu* y con *Lei* (cortés) cam
 | andare | *vai* | *vada* |
 | fare | *fai* | *faccia* |
 | dire | *di'* | *dica* |
+| finire | *finisci* | *finisca* |
+| venire | *vieni* | *venga* |
 
-Para decir que **no**: con *tu* se usa *non* + infinitivo (*Non parlare!*); con *Lei*, *non* + la forma cortés (*Non parli!*). Con el imperativo de *tu*, los pronombres van pegados: *Dimmi* (dime), *Dammi* (dame).
+Para decir que **no**: con *tu* se usa *non* + infinitivo (*Non parlare!*); con *Lei*, *non* + la forma cortés (*Non parli!*). Con *voi* el imperativo es igual al presente (*Parlate! · Non parlate!*). Con el imperativo de *tu*, los pronombres van pegados: *Dimmi* (dime), *Dammi* (dame).
 
 - *Vada sempre dritto.* (siga derecho)
 - *Giri a destra / a sinistra.* (gire a la derecha / izquierda)
@@ -224,7 +231,7 @@ Para decir que **no**: con *tu* se usa *non* + infinitivo (*Non parlare!*); con 
 
 **Recuadro «Ojo, en español…»:**
 
-En español puedes decir *quiero dos* sin más; en italiano, si hablas de una cantidad de algo ya mencionado, hace falta *ne*: *Ne voglio due*, no *Voglio due*. Y como en la unidad 4, para ser cortés con desconocidos usa la forma *Lei* (*Mi scusi*, *Mi dica*), no la de *tu*.
+En español puedes decir *quiero dos* sin más; en italiano, si hablas de una cantidad de algo ya mencionado, hace falta *ne*: *Ne voglio due*, no *Voglio due*. Y para ser cortés con desconocidos usa la forma *Lei* (*Mi scusi*, *Mi dica*, *Vada dritto*), no la de *tu*.
 
 ### Ejemplos
 
@@ -257,7 +264,7 @@ En español puedes decir *quiero dos* sin más; en italiano, si hablas de una ca
 12. **Completar:** Per favore, ___ più piano! (tu, parlare)  → respuesta(s) aceptada(s): `parla`  — _-are con *tu*: *parla*._
 13. **Completar:** ___ la prima strada. (tu, prendere)  → respuesta(s) aceptada(s): `prendi`  — _-ere con *tu*: *prendi*._
 14. **Completar:** ___ dov'è la fermata. (tu, dire + mi)  → respuesta(s) aceptada(s): `dimmi`  — _*Dimmi* = dime._
-15. **Completar:** Non ___ in fretta! (tu, comer)  → respuesta(s) aceptada(s): `mangiare`  — _Negativo con *tu*: *non* + infinitivo._
+15. **Completar:** «No comas de prisa»: Non ___ in fretta!  → respuesta(s) aceptada(s): `mangiare`  — _Negativo con *tu*: *non* + infinitivo._
 16. **Completar:** Sei stato in Italia? Sì, ___ sono stato due volte. (allí)  → respuesta(s) aceptada(s): `ci`  — _*Ci* reemplaza el lugar._
 17. **Completar:** Hai fratelli? Sì, ___ ho due.  → respuesta(s) aceptada(s): `ne`  — _*Ne* expresa la cantidad._
 18. **Completar:** Quanto pane vuoi? ___ voglio un chilo.  → respuesta(s) aceptada(s): `Ne`  — _*Ne* = de eso._
@@ -349,7 +356,7 @@ Palabras para repetir: gelato, pesce, famiglia, pizza, ghiaccio
 
 ### Lección: la regla
 
-El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *-ò, -ai, -à, -emo, -ete, -anno*. En los verbos en *-are* la *a* pasa a *e*. Ortografía: los verbos en *-care / -gare* agregan una *h* (*cercherò, pagherò*), los en *-ciare / -giare* pierden la *i* (*mangerò, viaggeremo*) y los en *-iare* con *i* acentuada la conservan (*studierò*).
+El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *-ò, -ai, -à, -emo, -ete, -anno*. En los verbos en *-are* la *a* pasa a *e*. Ortografía: los verbos en *-care / -gare* agregan una *h* (*cercherò, pagherò*), los en *-ciare / -giare* pierden la *i* (*mangerò, viaggeremo*) y los demás en *-iare* conservan la *i* (*studiare → studierò*, *cambiare → cambierò*).
 
 |  | parlare | prendere | dormire | essere | avere |
 |---|---|---|---|---|---|
@@ -360,7 +367,7 @@ El **futuro** se forma con el infinitivo sin la *-e* final y las terminaciones *
 | voi | parler*ete* | prender*ete* | dormir*ete* | sar*ete* | avr*ete* |
 | loro | parler*anno* | prender*anno* | dormir*anno* | sar*anno* | avr*anno* |
 
-Con raíz irregular: *andare → andrò*, *fare → farò*, *venire → verrò*, *potere → potrò*, *dovere → dovrò*, *volere → vorrò*, *vedere → vedrò*. Y también sirve para suponer: *Sarà in ritardo* (debe de estar atrasado). Para un futuro cercano se usa mucho el presente: *Domani vado a Roma.*
+Con raíz irregular: *andare → andrò*, *fare → farò*, *venire → verrò*, *potere → potrò*, *dovere → dovrò*, *volere → vorrò*, *vedere → vedrò*. *Fare, dare y stare* conservan la *a*: *farò, darò, starò*. Y también sirve para suponer: *Sarà in ritardo* (debe de estar atrasado). Para un futuro cercano se usa mucho el presente: *Domani vado a Roma.*
 
 El **condizionale** usa la misma raíz del futuro con otras terminaciones (*-ei, -esti, -ebbe, -emmo, -este, -ebbero*). Sirve para ser cortés y dar consejos.
 
@@ -370,6 +377,17 @@ El **condizionale** usa la misma raíz del futuro con otras terminaciones (*-ei,
 | Pedir algo | *Vorrei un tavolo per due.* |
 | Dar un consejo | *Dovresti riposare un po'.* (deberías descansar) |
 | Deseo | *Mi piacerebbe visitare Venezia.* |
+
+|  | potere | volere | dovere | essere |
+|---|---|---|---|---|
+| io | potrei | vorrei | dovrei | sarei |
+| tu | potresti | vorresti | dovresti | saresti |
+| lui/lei | potrebbe | vorrebbe | dovrebbe | sarebbe |
+| noi | potremmo | vorremmo | dovremmo | saremmo |
+| voi | potreste | vorreste | dovreste | sareste |
+| loro | potrebbero | vorrebbero | dovrebbero | sarebbero |
+
+**Si + presente** para una posibilidad real: *Se piove, resto a casa.* (si llueve, me quedo en casa) · *Se hai tempo, vieni con noi!* · *Se vuoi, ti aiuto.* **Invitar:** *Vuoi venire al cinema?* · *Ti va di uscire?* Aceptar: *Volentieri! Con piacere! Certo, ci sto!* Rechazar con amabilidad: *Mi dispiace, non posso: devo lavorare. Un'altra volta!*
 
 **Recuadro «Ojo, en español…»:**
 
@@ -412,6 +430,12 @@ Se parece mucho al español (*hablaré, hablaría*), por eso es fácil: *parler�
 18. **Completar:** Marco, ___ riposare. (dovere, consejo)  → respuesta(s) aceptada(s): `dovresti`  — _Condizionale: *dovresti*._
 19. **Elegir:** «Quizás mañana llueva»  → **✔** Forse domani pioverà.  /  Forse domani pioveva.  /  Forse domani piove stato.  — _Futuro: *pioverà*._
 20. **Elegir:** Quieres pedir la cuenta con cortesía.  → **✔** Vorrei il conto, per favore.  /  Voglio il conto.  /  Portami il conto.  — _*Vorrei… per favore* es lo cortés._
+21. **Completar:** Se ___, resto a casa. (piovere)  → respuesta(s) aceptada(s): `piove`  — _*Se* + presente: *Se piove, resto a casa*._
+22. **Completar:** Se hai tempo, ___ con noi! (venire, imperativo)  → respuesta(s) aceptada(s): `vieni`  — _Imperativo de *tu*: *vieni*._
+23. **Completar:** Domani noi ___ una torta. (fare, futuro)  → respuesta(s) aceptada(s): `faremo`  — _*Fare* conserva la *a*: *faremo*._
+24. **Completar:** Domani io ___ a casa. (stare, futuro)  → respuesta(s) aceptada(s): `starò`  — _*Stare* conserva la *a*: *starò*._
+25. **Elegir:** Te invitan al cine y quieres aceptar con gusto:  → **✔** Volentieri!  /  Mi dispiace, non posso.  /  Arrivederci.  — _*Volentieri* = con gusto._
+26. **Elegir:** Te invitan, pero no puedes y quieres ser amable:  → Volentieri!  /  **✔** Mi dispiace, non posso: devo lavorare.  /  Buongiorno!  — _Disculparte y dar un motivo es lo cortés._
 
 ### Vocabulario
 
@@ -484,5 +508,155 @@ Palabras para repetir: studente, scuola, Spagna, stazione, caffè, città
 
 - Principal: What Italians Say You Must See — https://www.youtube.com/watch?v=hfYubttHxfM
 - Alternativo: Talk About the Future — https://www.youtube.com/watch?v=PcRKQ9fv2l4
+
+---
+
+## Unidad 16 — Salud y emergencias
+
+**Situación:** Explicar qué te duele, entender al médico y pedir ayuda
+
+**Objetivos «Puedo…»:**
+- Puedo explicar qué me duele y pedir ayuda médica.
+- Puedo entender instrucciones de un médico o farmacéutico.
+- Puedo pedir ayuda en una emergencia.
+
+### Lección: la regla
+
+**Decir qué te duele.** Hay tres formas muy comunes. **1)** *Ho mal di* + parte del cuerpo, sin artículo: *Ho mal di testa, mal di gola, mal di denti, mal di stomaco.* **2)** *Mi fa male* + lo que duele, con artículo: *Mi fa male la schiena. Mi fanno male i piedi.* Funciona como *piacere*: lo que duele es el sujeto, así que el verbo concuerda con él (*fa* / *fanno*). **3)** *Ho la* + síntoma: *Ho la febbre, la tosse, il raffreddore.*
+
+| Singular | Plural | Español |
+|---|---|---|
+| *la testa* | *le teste* | cabeza |
+| *la gola* | *le gole* | garganta |
+| *lo stomaco* | *gli stomaci* | estómago |
+| *la schiena* | *le schiene* | espalda |
+| *la mano* | *le mani* | mano |
+| *il braccio* | *le braccia* | brazo |
+| *il piede* | *i piedi* | pie |
+| *la gamba* | *le gambe* | pierna |
+| *l'occhio* | *gli occhi* | ojo |
+| *l'orecchio* | *le orecchie* | oreja / oído |
+| *il dente* | *i denti* | diente |
+
+**Lo que te dicen el médico y el farmacéutico** suele venir en forma de *Lei* (la que viste en la unidad 14): *Prenda una compressa due volte al giorno. Beva molta acqua. Riposi. Non faccia sforzi.* O con *deve*: *Deve restare a letto.* Para el horario: *prima / dopo i pasti* (antes / después de las comidas), *ogni otto ore* (cada ocho horas), *tre volte al giorno* (tres veces al día), *la mattina e la sera*.
+
+**Indefinidos útiles:** *qualcosa* (algo), *niente* (nada), *qualcuno* (alguien), *nessuno* (nadie). Con *niente* y *nessuno* detrás del verbo el italiano pide *non* antes: *Non ho niente. Non c'è nessuno.* Si van antes del verbo, no hay *non*: *Nessuno risponde.* Para tranquilizar: *Non è niente di grave.* (no es nada grave).
+
+**Pedir ayuda.** *Aiuto!* · *Mi serve un medico.* (necesito un médico; *servire* funciona como *piacere*: *Mi servono le medicine*) · *Chiami un'ambulanza!* · *Dov'è il pronto soccorso?* (urgencias) · *Ho bisogno di aiuto.* En Italia el número único de emergencias es el *112*; la ambulancia (*118*) y la policía (*113*) también funcionan.
+
+**Recuadro «Ojo, en español…»:**
+
+En español *me duele la cabeza*; en italiano lo más natural es *ho mal di testa* (sin artículo) o *mi fa male la testa* (con artículo). No digas *ho dolore la testa*. Con partes en plural el verbo cambia: *mi fanno male gli occhi*. Y con *niente / nessuno* después del verbo hace falta *non*: *non ho niente*, nunca *ho niente* (que significaría lo contrario de lo que quieres).
+
+### Ejemplos
+
+1. **Ho mal di testa e ho la febbre.** — Tengo dolor de cabeza y fiebre.
+2. **Mi fanno male i piedi.** — Me duelen los pies.
+3. **Prenda una compressa dopo i pasti.** — Tome una pastilla después de las comidas.
+4. **Non è niente di grave.** — No es nada grave.
+5. **Chiami un'ambulanza, per favore!** — ¡Llame a una ambulancia, por favor!
+6. **Mi serve un medico: dov'è il pronto soccorso?** — Necesito un médico: ¿dónde están las urgencias?
+7. **Ha qualcosa per la tosse?** — ¿Tiene algo para la tos?
+
+### Preguntas «Primero fíjate»
+
+1. **Elegir:** «Mi fanno male le gambe.» ¿Qué le pasa?  → **✔** Le duelen las piernas  /  Tiene fiebre  /  Quiere comprar zapatos  — _*Mi fanno male* + plural = me duelen._
+2. **Elegir:** «Prenda una compressa due volte al giorno.» ¿Qué debe hacer?  → **✔** Tomar una pastilla dos veces al día  /  Tomar dos pastillas una sola vez  /  Comprar dos cajas  — _*Prenda* es la orden con *Lei*; *due volte al giorno* = dos veces al día._
+3. **Elegir:** «Non ho niente.» ¿Qué significa?  → **✔** No tengo nada  /  Tengo algo  /  No tengo a nadie  — _*Non… niente* = nada._
+
+### Ejercicios
+
+1. **Completar:** Ho ___ di testa. (dolor)  → respuesta(s) aceptada(s): `mal`  — _*Ho mal di testa*: *mal di* + parte del cuerpo, sin artículo._
+2. **Completar:** Mi ___ male i piedi. (duelen)  → respuesta(s) aceptada(s): `fanno`  — _Lo que duele es plural (*i piedi*): *mi fanno male*._
+3. **Completar:** Mi fa male ___ schiena.  → respuesta(s) aceptada(s): `la`  — _Con *mi fa male* la parte del cuerpo lleva artículo: *la schiena*._
+4. **Completar:** Ho la ___. (fiebre)  → respuesta(s) aceptada(s): `febbre`  — _*La febbre*, con doble *b*._
+5. **Completar:** Ho la ___ e il raffreddore. (tos)  → respuesta(s) aceptada(s): `tosse`  — _*La tosse*._
+6. **Completar:** Mi ___ un medico. (necesito)  → respuesta(s) aceptada(s): `serve`  — _*Servire* como *piacere*: *mi serve* + singular._
+7. **Completar:** Mi ___ le medicine. (necesito, plural)  → respuesta(s) aceptada(s): `servono`  — _*Le medicine* es plural: *mi servono*._
+8. **Completar:** ___ un'ambulanza! (Lei, chiamare, orden)  → respuesta(s) aceptada(s): `Chiami`  — _Orden con *Lei*: *Chiami*._
+9. **Completar:** ___ molta acqua. (Lei, bere, orden)  → respuesta(s) aceptada(s): `Beva`  — _Orden de *Lei* de *bere*: *Beva*._
+10. **Completar:** Non ho ___. (nada)  → respuesta(s) aceptada(s): `niente`  — _*Non ho niente*._
+11. **Completar:** Non c'è ___. (nadie)  → respuesta(s) aceptada(s): `nessuno`  — _*Non c'è nessuno*._
+12. **Completar:** Ha ___ per la tosse? (algo)  → respuesta(s) aceptada(s): `qualcosa`  — _*Qualcosa* = algo._
+13. **Completar:** Mi fanno male ___ mani. (las)  → respuesta(s) aceptada(s): `le`  — _*Mani* es femenino plural: *le mani*._
+14. **Completar:** Una compressa tre volte al ___. (día)  → respuesta(s) aceptada(s): `giorno`  — _*Tre volte al giorno*._
+15. **Elegir:** «Me duele la garganta»  → **✔** Ho mal di gola.  /  Ho dolore la gola.  /  Mi duole gola.  — _*Ho mal di gola* es la forma habitual._
+16. **Elegir:** «Tome una pastilla después de las comidas» (a usted)  → **✔** Prenda una compressa dopo i pasti.  /  Prende una compressa dopo i pasti.  /  Prendere compressa dopo pasti.  — _Orden con *Lei*: *prenda*._
+17. **Elegir:** «Llame a una ambulancia»  → **✔** Chiami un'ambulanza!  /  Chiama una ambulanza!  /  Chiamare ambulanza!  — _A un desconocido: *Chiami*, con *Lei*._
+18. **Elegir:** «No tengo nada»  → **✔** Non ho niente.  /  Ho niente.  /  Non niente ho.  — _Detrás del verbo, *niente* pide *non*._
+19. **Elegir:** «Me duelen los ojos»  → **✔** Mi fanno male gli occhi.  /  Mi fa male gli occhi.  /  Mi fanno male l'occhio.  — _*Gli occhi* es plural: *mi fanno male*._
+20. **Elegir:** ¿Qué número único de emergencias funciona en Italia?  → **✔** 112  /  911  /  000  — _En Italia y en toda la Unión Europea: *112*._
+
+### Vocabulario
+
+| Italiano | Español |
+|---|---|
+| il medico | el médico |
+| la medicina | el remedio / la medicina |
+| la compressa | la pastilla / el comprimido |
+| lo sciroppo | el jarabe |
+| la febbre | la fiebre |
+| la tosse | la tos |
+| il raffreddore | el resfriado |
+| il mal di testa | el dolor de cabeza |
+| il mal di gola | el dolor de garganta |
+| la schiena | la espalda |
+| la gola | la garganta |
+| lo stomaco | el estómago |
+| il dente | el diente |
+| l'ambulanza | la ambulancia |
+| il pronto soccorso | las urgencias |
+| l'emergenza | la emergencia |
+| aiuto! | ¡ayuda! / ¡socorro! |
+| stare male | sentirse mal |
+| riposare | descansar |
+| la ricetta | la receta (médica o de cocina) |
+| servire | necesitar / hacer falta |
+| niente | nada |
+| qualcosa | algo |
+
+### Dictado (frases que la voz lee y la persona escribe)
+
+1. **Ho mal di testa e un po' di febbre.** — Tengo dolor de cabeza y un poco de fiebre.
+2. **Mi fanno male i piedi.** — Me duelen los pies.
+3. **Prenda una compressa dopo i pasti.** — Tome una pastilla después de las comidas.
+4. **Chiami un'ambulanza, per favore!** — ¡Llame a una ambulancia, por favor!
+5. **Non è niente di grave.** — No es nada grave.
+6. **Dov'è il pronto soccorso?** — ¿Dónde están las urgencias?
+
+### Escritura guiada
+
+**Consigna:** Estás en Italia y no te sientes bien: escríbele un mensaje a tu anfitriona para explicarle qué te duele y qué necesitas.
+
+**Texto modelo:** Ciao Anna, oggi non sto bene. Ho mal di testa e un po' di febbre. Mi serve una farmacia vicina: puoi aiutarmi, per favore? Non ho niente per la tosse. Grazie mille!
+
+**Lista de autocorrección:**
+- Dije qué me duele con *ho mal di…* o *mi fa / mi fanno male*.
+- Dije qué necesito con *mi serve* o *mi servono*.
+- Pedí ayuda con *puoi* o *può* + infinitivo.
+- Usé *niente*, *qualcosa* o *nessuno* con *non* cuando hacía falta.
+
+### Diálogo
+
+**Escena:** Vas a una farmacia en Italia porque te sientes mal.  ·  **Roles:** A = Farmacista, B = Cliente
+
+- **A:** Buongiorno, mi dica. — _Buenos días, dígame._
+- **B:** Buongiorno. Ho mal di gola e un po' di tosse. — _Buenos días. Tengo dolor de garganta y un poco de tos._
+- **A:** Ha anche la febbre? — _¿Tiene también fiebre?_
+- **B:** No, non ho la febbre, ma sono molto stanco. — _No, no tengo fiebre, pero estoy muy cansado._
+- **A:** Prenda questo sciroppo tre volte al giorno, dopo i pasti. — _Tome este jarabe tres veces al día, después de las comidas._
+- **B:** Devo prendere anche una compressa? — _¿Debo tomar también una pastilla?_
+- **A:** No, basta lo sciroppo. Beva molta acqua e riposi. — _No, basta el jarabe. Beba mucha agua y descanse._
+- **B:** Va bene, grazie. Quanto costa? — _Está bien, gracias. ¿Cuánto cuesta?_
+- **A:** Sono otto euro e cinquanta. — _Son ocho euros con cincuenta._
+- **B:** Ecco a Lei. Arrivederci! — _Aquí tiene. ¡Hasta luego!_
+
+### Pronunciación
+
+**Dobles en la salud y SCH** — Fíjate en las dobles de *febbre* y *tosse*, y en *sch*: en *schiena* suena *sk* (la *h* mantiene el sonido duro), mientras que *sce* en *scena* suena como *sh*. En *gola* y *gamba* la *g* ante *o / a* es dura.
+
+Pares mínimos: fato (destino) / fatto (hecho) · tuta (buzo / chándal) / tutta (toda)
+
+Palabras para repetir: schiena, stomaco, febbre, tosse, gola, medico, ambulanza, emergenza, farmacia, testa
 
 ---

@@ -13,13 +13,22 @@ import { unidad12 } from "./unidad12";
 import { unidad13 } from "./unidad13";
 import { unidad14 } from "./unidad14";
 import { unidad15 } from "./unidad15";
+import { unidad16 } from "./unidad16";
+import { unidad17 } from "./unidad17";
+import { unidad18 } from "./unidad18";
+import { unidad19 } from "./unidad19";
 import { unidad20 } from "./unidad20";
+import { unidad21 } from "./unidad21";
+import { unidad22 } from "./unidad22";
+import { unidad23 } from "./unidad23";
+import { unidad24 } from "./unidad24";
 import { Exercise, Lesson, exerciseId } from "./types";
 
 /** En orden de currículo. Las unidades sin lección todavía no están escritas. */
 export const LESSONS: Lesson[] = [
   unidad01, unidad02, unidad03, unidad04, unidad05, unidad06, unidad07, unidad08, unidad09,
-  unidad10, unidad11, unidad12, unidad13, unidad14, unidad15, unidad20,
+  unidad10, unidad11, unidad12, unidad13, unidad14, unidad15, unidad16, unidad17, unidad18,
+  unidad19, unidad20, unidad21, unidad22, unidad23, unidad24,
 ];
 
 export function getLesson(unit: string): Lesson | undefined {

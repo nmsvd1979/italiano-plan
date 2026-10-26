@@ -21,6 +21,7 @@ export const unidad13: Lesson = {
         ["ustedes", "*vi*", "*vi*"],
         ["ellos / los", "*li*", "*gli*"],
         ["ellas / las", "*le*", "*gli*"],
+        ["usted (Lei)", "*La*", "*Le*"],
       ],
     },
     {
@@ -34,6 +35,10 @@ export const unidad13: Lesson = {
     {
       kind: "p",
       text: "Cuando se juntan dos (a él + lo), *gli* + *lo* se funden en **glielo**: *Glielo do* (se lo doy). Con las demás personas, el primer pronombre cambia a *me, te, ce, ve*: *Te lo do domani* (te lo doy mañana), *Me lo dai?* (¿me lo das?). Por ahora alcanza con reconocerlos.",
+    },
+    {
+      kind: "p",
+      text: "Con *Lei* (usted) los pronombres suelen escribirse con mayúscula: *La ringrazio, signora.* (le agradezco, señora) · *Le telefono domani.* (le llamo mañana).",
     },
   ],
   transfer:
@@ -108,5 +113,7 @@ export const unidad13: Lesson = {
     {type: "fill", prompt: "Ho incontrato Paolo e ___ ho salutato. (lo, con apóstrofo)", answers: ["l'"], why: "Ante *ho*, *lo* pierde la vocal: *l'ho*."},
     {type: "choice", prompt: "«Te lo doy mañana» (el libro)", options: ["Te lo do domani", "Ti lo do domani", "Lo ti do domani"], answer: 0, why: "*Ti* + *lo* = *te lo*."},
     {type: "choice", prompt: "«Les escribí una carta» (a ellos)", options: ["Gli ho scritto una lettera", "Li ho scritto una lettera", "Le ho scritto una lettera"], answer: 0, why: "Indirecto para ellos: *gli*."},
+    { type: "fill", prompt: "___ ringrazio, signora. (a usted, directo)", answers: ["La"], why: "Directo con *Lei*: *La ringrazio*." },
+    { type: "fill", prompt: "___ telefono domani, dottore. (a usted, indirecto)", answers: ["Le"], why: "Indirecto con *Lei*: *Le telefono*." },
   ],
 };

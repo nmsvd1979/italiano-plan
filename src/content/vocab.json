@@ -1228,5 +1228,775 @@
    "it": "organizzare",
    "es": "organizar"
   }
+ ],
+ "u16": [
+  {
+   "it": "il medico",
+   "es": "el médico"
+  },
+  {
+   "it": "la medicina",
+   "es": "el remedio / la medicina"
+  },
+  {
+   "it": "la compressa",
+   "es": "la pastilla / el comprimido"
+  },
+  {
+   "it": "lo sciroppo",
+   "es": "el jarabe"
+  },
+  {
+   "it": "la febbre",
+   "es": "la fiebre"
+  },
+  {
+   "it": "la tosse",
+   "es": "la tos"
+  },
+  {
+   "it": "il raffreddore",
+   "es": "el resfriado"
+  },
+  {
+   "it": "il mal di testa",
+   "es": "el dolor de cabeza"
+  },
+  {
+   "it": "il mal di gola",
+   "es": "el dolor de garganta"
+  },
+  {
+   "it": "la schiena",
+   "es": "la espalda"
+  },
+  {
+   "it": "la gola",
+   "es": "la garganta"
+  },
+  {
+   "it": "lo stomaco",
+   "es": "el estómago"
+  },
+  {
+   "it": "il dente",
+   "es": "el diente"
+  },
+  {
+   "it": "l'ambulanza",
+   "es": "la ambulancia"
+  },
+  {
+   "it": "il pronto soccorso",
+   "es": "las urgencias"
+  },
+  {
+   "it": "l'emergenza",
+   "es": "la emergencia"
+  },
+  {
+   "it": "aiuto!",
+   "es": "¡ayuda! / ¡socorro!"
+  },
+  {
+   "it": "stare male",
+   "es": "sentirse mal"
+  },
+  {
+   "it": "riposare",
+   "es": "descansar"
+  },
+  {
+   "it": "la ricetta",
+   "es": "la receta (médica o de cocina)"
+  },
+  {
+   "it": "servire",
+   "es": "necesitar / hacer falta"
+  },
+  {
+   "it": "niente",
+   "es": "nada"
+  },
+  {
+   "it": "qualcosa",
+   "es": "algo"
+  }
+ ],
+ "u17": [
+  {
+   "it": "l'affitto",
+   "es": "el alquiler / el arriendo"
+  },
+  {
+   "it": "affittare",
+   "es": "alquilar / arrendar"
+  },
+  {
+   "it": "il contratto",
+   "es": "el contrato"
+  },
+  {
+   "it": "la caparra",
+   "es": "el depósito de garantía"
+  },
+  {
+   "it": "le spese",
+   "es": "los gastos"
+  },
+  {
+   "it": "il padrone di casa",
+   "es": "el dueño / el arrendador"
+  },
+  {
+   "it": "arredato",
+   "es": "amueblado"
+  },
+  {
+   "it": "il piano",
+   "es": "el piso / la planta"
+  },
+  {
+   "it": "il piano terra",
+   "es": "la planta baja"
+  },
+  {
+   "it": "l'ascensore",
+   "es": "el ascensor"
+  },
+  {
+   "it": "il riscaldamento",
+   "es": "la calefacción"
+  },
+  {
+   "it": "la lavatrice",
+   "es": "la lavadora"
+  },
+  {
+   "it": "il rubinetto",
+   "es": "la llave de agua / el grifo"
+  },
+  {
+   "it": "la chiave",
+   "es": "la llave"
+  },
+  {
+   "it": "il modulo",
+   "es": "el formulario"
+  },
+  {
+   "it": "firmare",
+   "es": "firmar"
+  },
+  {
+   "it": "compilare",
+   "es": "rellenar / completar"
+  },
+  {
+   "it": "il documento",
+   "es": "el documento"
+  },
+  {
+   "it": "il codice fiscale",
+   "es": "el código fiscal"
+  },
+  {
+   "it": "l'appuntamento",
+   "es": "la cita / la hora"
+  },
+  {
+   "it": "lo sportello",
+   "es": "la ventanilla"
+  },
+  {
+   "it": "mancare",
+   "es": "faltar"
+  },
+  {
+   "it": "funzionare",
+   "es": "funcionar"
+  }
+ ],
+ "u18": [
+  {
+   "it": "pronto",
+   "es": "aló / diga (al contestar)"
+  },
+  {
+   "it": "il cellulare",
+   "es": "el celular / el móvil"
+  },
+  {
+   "it": "il numero",
+   "es": "el número"
+  },
+  {
+   "it": "la chiamata",
+   "es": "la llamada"
+  },
+  {
+   "it": "richiamare",
+   "es": "volver a llamar"
+  },
+  {
+   "it": "rispondere",
+   "es": "responder / contestar"
+  },
+  {
+   "it": "il messaggio",
+   "es": "el mensaje / el recado"
+  },
+  {
+   "it": "la linea",
+   "es": "la línea"
+  },
+  {
+   "it": "un attimo",
+   "es": "un momento"
+  },
+  {
+   "it": "l'email",
+   "es": "el correo electrónico"
+  },
+  {
+   "it": "l'allegato",
+   "es": "el archivo adjunto"
+  },
+  {
+   "it": "inviare",
+   "es": "enviar"
+  },
+  {
+   "it": "allegare",
+   "es": "adjuntar"
+  },
+  {
+   "it": "la risposta",
+   "es": "la respuesta"
+  },
+  {
+   "it": "gentile",
+   "es": "estimado / amable"
+  },
+  {
+   "it": "cordiali saluti",
+   "es": "atentamente / saludos cordiales"
+  },
+  {
+   "it": "un abbraccio",
+   "es": "un abrazo"
+  },
+  {
+   "it": "a presto",
+   "es": "hasta pronto"
+  },
+  {
+   "it": "a dopo",
+   "es": "hasta luego"
+  },
+  {
+   "it": "sentire",
+   "es": "oír / sentir"
+  },
+  {
+   "it": "tra",
+   "es": "dentro de / entre"
+  },
+  {
+   "it": "l'informazione",
+   "es": "la información"
+  }
+ ],
+ "u19": [
+  {
+   "it": "la parola",
+   "es": "la palabra"
+  },
+  {
+   "it": "la frase",
+   "es": "la frase / la oración"
+  },
+  {
+   "it": "il tempo",
+   "es": "el tiempo"
+  },
+  {
+   "it": "da quanto tempo?",
+   "es": "¿desde hace cuánto?"
+  },
+  {
+   "it": "da",
+   "es": "desde / hace (con presente)"
+  },
+  {
+   "it": "fa",
+   "es": "hace (en el pasado)"
+  },
+  {
+   "it": "da poco",
+   "es": "desde hace poco"
+  },
+  {
+   "it": "da molto",
+   "es": "desde hace mucho"
+  },
+  {
+   "it": "appena",
+   "es": "apenas / recién"
+  },
+  {
+   "it": "ormai",
+   "es": "ya / a estas alturas"
+  },
+  {
+   "it": "stare per",
+   "es": "estar por / estar a punto de"
+  },
+  {
+   "it": "entrare",
+   "es": "entrar"
+  },
+  {
+   "it": "vietato",
+   "es": "prohibido"
+  },
+  {
+   "it": "permesso?",
+   "es": "¿con permiso?"
+  },
+  {
+   "it": "l'ingresso",
+   "es": "la entrada"
+  },
+  {
+   "it": "l'orario",
+   "es": "el horario"
+  },
+  {
+   "it": "la regola",
+   "es": "la regla"
+  },
+  {
+   "it": "di solito",
+   "es": "por lo general"
+  },
+  {
+   "it": "una volta",
+   "es": "una vez"
+  },
+  {
+   "it": "davvero",
+   "es": "de verdad"
+  }
+ ],
+ "u21": [
+  {
+   "it": "prestare",
+   "es": "prestar"
+  },
+  {
+   "it": "dare",
+   "es": "dar"
+  },
+  {
+   "it": "dire",
+   "es": "decir"
+  },
+  {
+   "it": "mandare",
+   "es": "enviar / mandar"
+  },
+  {
+   "it": "spiegare",
+   "es": "explicar"
+  },
+  {
+   "it": "mostrare",
+   "es": "mostrar"
+  },
+  {
+   "it": "portare",
+   "es": "llevar / traer"
+  },
+  {
+   "it": "restituire",
+   "es": "devolver"
+  },
+  {
+   "it": "consegnare",
+   "es": "entregar"
+  },
+  {
+   "it": "il consiglio",
+   "es": "el consejo"
+  },
+  {
+   "it": "la penna",
+   "es": "el bolígrafo / la pluma"
+  },
+  {
+   "it": "il numero",
+   "es": "el número"
+  },
+  {
+   "it": "il favore",
+   "es": "el favor"
+  },
+  {
+   "it": "lo scontrino",
+   "es": "el recibo / el ticket de compra"
+  },
+  {
+   "it": "il pacco",
+   "es": "el paquete"
+  },
+  {
+   "it": "la guida",
+   "es": "la guía"
+  },
+  {
+   "it": "subito",
+   "es": "enseguida / de inmediato"
+  },
+  {
+   "it": "volentieri",
+   "es": "con gusto"
+  },
+  {
+   "it": "ancora una volta",
+   "es": "otra vez"
+  },
+  {
+   "it": "spesso",
+   "es": "a menudo"
+  }
+ ],
+ "u22": [
+  {
+   "it": "pensare",
+   "es": "pensar"
+  },
+  {
+   "it": "credere",
+   "es": "creer"
+  },
+  {
+   "it": "sperare",
+   "es": "esperar (con esperanza)"
+  },
+  {
+   "it": "dubitare",
+   "es": "dudar"
+  },
+  {
+   "it": "sembrare",
+   "es": "parecer"
+  },
+  {
+   "it": "preferire",
+   "es": "preferir"
+  },
+  {
+   "it": "immaginare",
+   "es": "imaginar"
+  },
+  {
+   "it": "bisogna",
+   "es": "hay que / es necesario"
+  },
+  {
+   "it": "importante",
+   "es": "importante"
+  },
+  {
+   "it": "possibile",
+   "es": "posible"
+  },
+  {
+   "it": "probabile",
+   "es": "probable"
+  },
+  {
+   "it": "sicuro",
+   "es": "seguro"
+  },
+  {
+   "it": "vero",
+   "es": "verdadero"
+  },
+  {
+   "it": "falso",
+   "es": "falso"
+  },
+  {
+   "it": "l'opinione",
+   "es": "la opinión"
+  },
+  {
+   "it": "avere ragione",
+   "es": "tener razón"
+  },
+  {
+   "it": "avere torto",
+   "es": "estar equivocado"
+  },
+  {
+   "it": "d'accordo",
+   "es": "de acuerdo"
+  },
+  {
+   "it": "secondo me",
+   "es": "en mi opinión"
+  },
+  {
+   "it": "contento",
+   "es": "contento"
+  }
+ ],
+ "u23": [
+  {
+   "it": "se",
+   "es": "si (condicional)"
+  },
+  {
+   "it": "magari",
+   "es": "ojalá / quizás"
+  },
+  {
+   "it": "ricco",
+   "es": "rico"
+  },
+  {
+   "it": "i soldi",
+   "es": "el dinero"
+  },
+  {
+   "it": "la lotteria",
+   "es": "la lotería"
+  },
+  {
+   "it": "vincere",
+   "es": "ganar"
+  },
+  {
+   "it": "il sogno",
+   "es": "el sueño"
+  },
+  {
+   "it": "la possibilità",
+   "es": "la posibilidad"
+  },
+  {
+   "it": "l'occasione",
+   "es": "la oportunidad"
+  },
+  {
+   "it": "il lavoro",
+   "es": "el trabajo"
+  },
+  {
+   "it": "la scelta",
+   "es": "la elección / la decisión"
+  },
+  {
+   "it": "viaggiare",
+   "es": "viajar"
+  },
+  {
+   "it": "comprare",
+   "es": "comprar"
+  },
+  {
+   "it": "restare",
+   "es": "quedarse"
+  },
+  {
+   "it": "cambiare",
+   "es": "cambiar"
+  },
+  {
+   "it": "risparmiare",
+   "es": "ahorrar"
+  },
+  {
+   "it": "se fossi in te",
+   "es": "si yo fuera tú"
+  },
+  {
+   "it": "sarebbe bello",
+   "es": "sería lindo"
+  },
+  {
+   "it": "probabilmente",
+   "es": "probablemente"
+  },
+  {
+   "it": "mai",
+   "es": "nunca / alguna vez"
+  }
+ ],
+ "u24": [
+  {
+   "it": "prima",
+   "es": "primero / antes"
+  },
+  {
+   "it": "poi",
+   "es": "después / luego"
+  },
+  {
+   "it": "dopo",
+   "es": "después"
+  },
+  {
+   "it": "alla fine",
+   "es": "al final"
+  },
+  {
+   "it": "mentre",
+   "es": "mientras"
+  },
+  {
+   "it": "perché",
+   "es": "porque / ¿por qué?"
+  },
+  {
+   "it": "quindi",
+   "es": "por lo tanto"
+  },
+  {
+   "it": "però",
+   "es": "pero / sin embargo"
+  },
+  {
+   "it": "infatti",
+   "es": "de hecho"
+  },
+  {
+   "it": "per esempio",
+   "es": "por ejemplo"
+  },
+  {
+   "it": "secondo me",
+   "es": "en mi opinión"
+  },
+  {
+   "it": "in realtà",
+   "es": "en realidad"
+  },
+  {
+   "it": "purtroppo",
+   "es": "lamentablemente"
+  },
+  {
+   "it": "per fortuna",
+   "es": "por suerte"
+  },
+  {
+   "it": "comunque",
+   "es": "de todos modos"
+  },
+  {
+   "it": "l'esperienza",
+   "es": "la experiencia"
+  },
+  {
+   "it": "il ricordo",
+   "es": "el recuerdo"
+  },
+  {
+   "it": "imparare",
+   "es": "aprender"
+  },
+  {
+   "it": "migliorare",
+   "es": "mejorar"
+  },
+  {
+   "it": "la vacanza",
+   "es": "las vacaciones"
+  }
+ ],
+ "u20": [
+  {
+   "it": "perché",
+   "es": "porque / ¿por qué?"
+  },
+  {
+   "it": "quindi",
+   "es": "por lo tanto"
+  },
+  {
+   "it": "però",
+   "es": "pero / sin embargo"
+  },
+  {
+   "it": "invece",
+   "es": "en cambio"
+  },
+  {
+   "it": "allora",
+   "es": "entonces"
+  },
+  {
+   "it": "comunque",
+   "es": "de todos modos"
+  },
+  {
+   "it": "insomma",
+   "es": "en fin / en resumen"
+  },
+  {
+   "it": "magari",
+   "es": "ojalá / quizás"
+  },
+  {
+   "it": "raccontare",
+   "es": "contar / relatar"
+  },
+  {
+   "it": "chiedere",
+   "es": "preguntar / pedir"
+  },
+  {
+   "it": "domandare",
+   "es": "preguntar"
+  },
+  {
+   "it": "rispondere",
+   "es": "responder"
+  },
+  {
+   "it": "dire",
+   "es": "decir"
+  },
+  {
+   "it": "spiegare",
+   "es": "explicar"
+  },
+  {
+   "it": "promettere",
+   "es": "prometer"
+  },
+  {
+   "it": "aggiungere",
+   "es": "añadir"
+  },
+  {
+   "it": "ripetere",
+   "es": "repetir"
+  },
+  {
+   "it": "la notizia",
+   "es": "la noticia"
+  },
+  {
+   "it": "la domanda",
+   "es": "la pregunta"
+  },
+  {
+   "it": "secondo",
+   "es": "según"
+  }
  ]
 }

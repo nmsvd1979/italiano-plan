@@ -27,6 +27,21 @@ export const SHADOWING: Record<string, { main: Video; alt: Video }> = {
   u20: { main: { id: "TVNv0BJjCUA", title: "Best Places in Italy" }, alt: { id: "PwhwnFNGTDg", title: "How Italians Ask What You Do" } },
 };
 
+/**
+ * Unidades sin video verificado todavía: la app muestra una búsqueda guiada en YouTube y tú pegas el link
+ * del video que elijas. Cuando verifiques un video (oEmbed), agrégalo a SHADOWING y quita la unidad de aquí.
+ */
+export const SHADOWING_SEARCH: Record<string, string> = {
+  u16: "Easy Italian dal medico farmacia",
+  u17: "Easy Italian cercare casa affitto appartamento",
+  u18: "Easy Italian telefonare conversazione al telefono",
+  u19: "Easy Italian da quanto tempo studi italiano",
+  u21: "Easy Italian pronomi combinati glielo",
+  u22: "Easy Italian congiuntivo penso che",
+  u23: "Easy Italian periodo ipotetico se fossi",
+  u24: "Super Easy Italian conversazione viaggio",
+};
+
 /** Pasos del protocolo sobre un fragmento de 30-60 s (Kadota; Hamada). */
 export const STEPS = [
   { title: "Escucha sin subtítulos", text: "¿De qué habla? Solo entiende la idea general.", rate: 1, cover: true },
