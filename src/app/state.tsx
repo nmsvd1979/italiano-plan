@@ -1,4 +1,5 @@
 import { createContext, ReactNode, useCallback, useContext, useEffect, useMemo, useState } from "react";
+import { requestPersistence } from "./persist";
 import { Progress, Step, buildSteps, isOffered } from "../domain/curriculum";
 import { parseISODate, startOfDay, toISODate } from "../domain/dates";
 import { doneKeys, keysOn } from "../domain/progress";
@@ -53,6 +54,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [canDo, setCanDo] = useState<CanDo>(() => getCanDo());
   const [settings, setSettings] = useState<Settings>(() => getSettings());
   const [today, setToday] = useState(() => startOfDay(new Date()));
+
+  // Pide que el navegador no borre los datos de la app si hay poco espacio.
+  useEffect(() => { void requestPersistence(); }, []);
 
   // Si la app queda abierta pasada la medianoche, "hoy" se actualiza al volver a verla.
   useEffect(() => {

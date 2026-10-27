@@ -32,7 +32,7 @@ Regla: lo que no se pudo verificar se escribe como no verificado; no se presenta
 | **Gramática** | Criterio propio: ejemplos primero, luego regla, luego ejercicio. | Sin cloze espaciado. | Tarjetas cloze con FSRS para estructuras clave. | Por evaluar |
 | **Escritura / diálogos** | Producción activa: criterio propio, sin fuente verificada. | Sin corrección por nativo. | Modelo de comparación y revisión humana puntual. | Mantener |
 | **Plan, ritmo y motivación** | Criterio propio. | Recordatorios limitados en iPhone. | `.ics` diario, insignia en la app. | Por mejorar |
-| **Copia de seguridad** | Prerrequisito: protege el estado del repaso. | — | Exportar/importar JSON (tarea 6). | Por construir |
+| **Copia de seguridad** | Prerrequisito: protege el estado del repaso. | Compartir archivos y `persist()` en la PWA del iPhone: **no verificado** (ver PR de la tarea 6). | Exportar/importar JSON en Ajustes, aviso a los 14 días, `persist()` al abrir. | Hecho; falta probar en iPhone |
 
 ## Orden de construcción recomendado
 1. Tareas 4, 5 y 6 (pares b/v, transcripciones de videos, copia de seguridad).
