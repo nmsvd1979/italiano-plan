@@ -1,3 +1,5 @@
+import { NUEVAS } from "./nuevas";
+
 export interface WritingTask {
   /** La consigna, en español. */
   prompt: string;
@@ -203,5 +205,5 @@ const WRITING: Record<string, WritingTask> = {
 };
 
 export function getWriting(unit: string): WritingTask | undefined {
-  return WRITING[unit];
+  return WRITING[unit] ?? NUEVAS.find((n) => n.id === unit)?.writing;
 }

@@ -1,3 +1,5 @@
+import { NUEVAS } from "./nuevas";
+
 export interface DictationItem {
   it: string;
   es: string;
@@ -200,5 +202,5 @@ const DICTATION: Record<string, DictationItem[]> = {
 };
 
 export function getDictation(unit: string): DictationItem[] | undefined {
-  return DICTATION[unit];
+  return DICTATION[unit] ?? NUEVAS.find((n) => n.id === unit)?.dictation;
 }

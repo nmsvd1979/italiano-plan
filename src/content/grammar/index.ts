@@ -22,6 +22,7 @@ import { unidad21 } from "./unidad21";
 import { unidad22 } from "./unidad22";
 import { unidad23 } from "./unidad23";
 import { unidad24 } from "./unidad24";
+import { NUEVAS } from "../nuevas";
 import { Exercise, Lesson, exerciseId } from "./types";
 
 /** En orden de currículo. Las unidades sin lección todavía no están escritas. */
@@ -29,6 +30,7 @@ export const LESSONS: Lesson[] = [
   unidad01, unidad02, unidad03, unidad04, unidad05, unidad06, unidad07, unidad08, unidad09,
   unidad10, unidad11, unidad12, unidad13, unidad14, unidad15, unidad16, unidad17, unidad18,
   unidad19, unidad20, unidad21, unidad22, unidad23, unidad24,
+  ...NUEVAS.map((n) => n.lesson),
 ];
 
 export function getLesson(unit: string): Lesson | undefined {

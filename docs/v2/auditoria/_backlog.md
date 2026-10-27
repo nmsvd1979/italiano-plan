@@ -22,7 +22,7 @@ Fuente: `_veredictos.md` (lectura completa) y `_temario.md`. «Fase» es la de `
 ## Por unidad
 | id | Hallazgo | Propuesta | Fase | Sev. | Estado |
 |---|---|---|---|---|---|
-| H-u01-01 | Falta *Come ti chiami?*, deletreo, acento | pasa a u25 | G | A | contenido escrito (G1-u25); falta conectarlo tras H1 |
+| H-u01-01 | Falta *Come ti chiami?*, deletreo, acento | pasa a u25 | G | A | u25 escrito y conectado (`ready:false` hasta el ciclo D) |
 | H-u02-01 | Cinco temas en una unidad | partir A (artículos, avere, c'è) / B (piacere, plurales especiales, lugar) | G, D | A | abierto |
 | H-u03-01 | Cuatro temas | A (números, hora) / B (fechas, precios) | G, D | A | abierto |
 | H-u04-01 | Pronunciación con 3 palabras; diálogo de 35 palabras; falta *Il conto, per favore* | ampliar; r/rr aquí | G | M | parcial: *Vuole qualcos'altro?* + palabra al vocabulario (G0-1); diálogo y pronunciación pendientes (G, G6) |
@@ -50,7 +50,7 @@ Fuente: `_veredictos.md` (lectura completa) y `_temario.md`. «Fase» es la de `
 ## Huecos de temario (unidades nuevas e inserciones)
 | id | Hueco | Dónde entra | Sev. | Estado |
 |---|---|---|---|---|
-| H-gap-01 | Alfabeto, deletreo, nombre, supervivencia, acento | u25 (nueva) | B | contenido escrito en `src/content/nuevas/u25.ts`; falta conectarlo tras H1 y su audio |
+| H-gap-01 | Alfabeto, deletreo, nombre, supervivencia, acento | u25 (nueva) | B | u25 escrito y conectado (`ready:false` hasta el ciclo D); falta su audio |
 | H-gap-02 | Familia, profesiones, nacionalidades, descripción de personas | u26 (nueva) | A | abierto |
 | H-gap-03 | Tiempo libre, clima, *sapere / conoscere*, indefinidos | u27 (nueva) | A | abierto |
 | H-gap-04 | Restaurante | u28 (nueva) | M | abierto |
