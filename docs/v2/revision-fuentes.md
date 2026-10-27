@@ -12,3 +12,11 @@ Cada PR de contenido anota aquí qué italiano nuevo o cambiado entró, con su n
 | *Mi alleno due volte alla settimana* → *Esco due volte alla settimana* (ejercicio) | u08 | V1; *uscire* se enseña en u05 | evita una palabra no enseñada (la forma *mi alleno* sí está confirmada en [Lingua-Italiana.it](https://www.lingua-italiana.it/en/verbi-italiani-en/allenarsi.html)) |
 
 **Sin cambiar (sin fuente que confirme una alternativa):** *Cosa prende?* (u04), *Ecco il resto* (u03). Siguen en `docs/dudas-italiano.md`.
+
+## G0-2 · u09–u16 (rama `feat/auditoria-u09-u16`)
+| Cambio | Unidad | Evidencia | Nota |
+|---|---|---|---|
+| *Sono nato a Buenos Aires* → *Sono nato a Santiago* | u10 | V1 (sin palabras nuevas) | completa `H-all-09` |
+| Etiquetas de la tabla de pronombres: *él / lo*, *ella / la*, *ellos / los*… → *a él, a ella, a ellos…* y encabezado «a quién» | u13 | Solo español; los pronombres italianos no cambian | corrige la mezcla de clíticos del español con sujetos |
+
+**Fuera de G0 (es contenido nuevo, necesita fuente y va a G):** *mi è piaciuto* (u10), *c'era / c'erano* y más ejercicios (u11), pronombres tónicos (u12), *ci vuole* (u14), dividir la regla de u16 con «más detalle», reemplazar *Ecco a Lei* (u16). Las partes de u14/u15 son G2.

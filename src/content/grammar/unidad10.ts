@@ -39,7 +39,7 @@ export const unidad10: Lesson = {
     { it: "Ieri mi sono alzato tardi.", es: "Ayer me levanté tarde." },
     { it: "Siete stati a Venezia?", es: "¿Estuvieron en Venecia?" },
     { it: "Le mie amiche sono partite domenica.", es: "Mis amigas se fueron el domingo." },
-    { it: "Sono nato a Buenos Aires.", es: "Nací en Buenos Aires." },
+    { it: "Sono nato a Santiago.", es: "Nací en Santiago." },
   ],
   notice: [
     {
