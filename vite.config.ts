@@ -16,10 +16,28 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: "autoUpdate",
+      // "prompt": la actualización no se aplica sola; src/app/updates.ts la aplica al volver a Hoy (no con una sesión abierta).
+      registerType: "prompt",
       includeAssets: ["icons/apple-touch-icon.png", "icons/favicon-32.png"],
       workbox: {
-        globPatterns: ["**/*.{js,css,html,woff2,png,mp3}"],
+        // Solo la app (~0,7 MB): el audio se baja aparte con el gestor de descarga (src/app/offlineAudio.ts),
+        // para que la instalación del service worker casi no pueda fallar. audio-index.json es la lista de ese gestor.
+        globPatterns: ["**/*.{js,css,html,woff2,png,webmanifest}", "audio-index.json"],
+        globIgnores: ["audio/**"],
+        clientsClaim: true,
+        runtimeCaching: [
+          {
+            // Cache con nombre fijo y distinto del precache: cleanupOutdatedCaches no la toca al actualizar. Sin `expiration`.
+            urlPattern: ({ url }) => url.pathname.startsWith("/italiano-plan/audio/"),
+            handler: "CacheFirst",
+            options: {
+              cacheName: "audio-v1",
+              // Safari pide el audio con Range: sin esto el worker devolvería el archivo entero (200) y no se reproduciría.
+              rangeRequests: true,
+              cacheableResponse: { statuses: [200] },
+            },
+          },
+        ],
       },
       manifest: {
         name: "Italiano — Plan de 24 unidades",

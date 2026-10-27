@@ -6,6 +6,8 @@ App personal para aprender italiano (A0→A2) de un hispanohablante chileno. PWA
 - Vite + React 19 + TypeScript + vite-plugin-pwa. Rutas con hash (`#/gramatica/u16`, `#/practica`, `#/shadowing`…).
 - Datos del usuario solo en `localStorage` (`italianPlan.*`). No hay backend.
 - `npm ci` · `npm test` (Vitest, ~328 tests) · `npm run build` · `npm run audio` (baja grabaciones de Lingua Libre, CC BY-SA 4.0).
+- `npm run test:e2e` (Playwright + Chromium, prueba el build real sin conexión; primera vez: `npx playwright install chromium`).
+- Sin conexión: el precache del service worker es solo la app (<2 MB, sin mp3; `postbuild` lo comprueba). El audio se baja aparte a la caché `audio-v1` desde Ajustes, según `public/audio-index.json` (lo genera `prebuild` y `npm run audio`).
 - Despliegue: GitHub Pages en cada push a `main` (el CI corre tests y build).
 
 ## Reglas de git (obligatorias)

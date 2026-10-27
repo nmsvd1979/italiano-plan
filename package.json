@@ -5,10 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/build-audio-index.mjs",
     "build": "tsc --noEmit && vite build",
+    "postbuild": "node scripts/check-precache.mjs",
     "preview": "vite preview",
     "test": "vitest run",
-    "audio": "node scripts/fetch-lingualibre.mjs",
+    "audio": "node scripts/fetch-lingualibre.mjs && node scripts/build-audio-index.mjs",
+    "test:e2e": "playwright test",
     "audit": "npx --yes vite-node scripts/audit-unidades.ts"
   },
   "dependencies": {
@@ -17,6 +20,7 @@
     "react-dom": "^19.3.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.64.1",
     "@types/node": "^26.6.4",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",

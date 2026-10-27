@@ -13,6 +13,7 @@ import { getReview } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
 import { ProgressRing } from "../../ui/ProgressRing";
 import { ActivityRow } from "./ActivityRow";
+import { OfflineBanner } from "./OfflineBanner";
 import { Tracker } from "./Tracker";
 
 const BUDGETS = [15, 30, 60, 90];
@@ -53,6 +54,7 @@ export function Today() {
         </div>
       </header>
 
+      <OfflineBanner />
       <BackupReminder />
 
       {unit && up && !finished && (
