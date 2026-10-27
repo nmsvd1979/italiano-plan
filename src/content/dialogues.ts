@@ -1,3 +1,5 @@
+import { NUEVAS } from "./nuevas";
+
 export interface DialogueLine {
   who: "A" | "B";
   it: string;
@@ -374,5 +376,5 @@ const DIALOGUES: Record<string, Dialogue> = {
 };
 
 export function getDialogue(unit: string): Dialogue | undefined {
-  return DIALOGUES[unit];
+  return DIALOGUES[unit] ?? NUEVAS.find((n) => n.id === unit)?.dialogue;
 }

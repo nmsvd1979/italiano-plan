@@ -6,7 +6,12 @@ export interface VocabItem {
   es: string;
 }
 
-const VOCAB = vocabJson as Record<string, VocabItem[]>;
+import { NUEVAS } from "./nuevas";
+
+const VOCAB: Record<string, VocabItem[]> = {
+  ...(vocabJson as Record<string, VocabItem[]>),
+  ...Object.fromEntries(NUEVAS.map((n) => [n.id, n.vocab])),
+};
 
 export function getVocab(unit: string): VocabItem[] | undefined {
   return VOCAB[unit];

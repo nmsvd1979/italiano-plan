@@ -187,9 +187,10 @@ export const UNITS: UnitMeta[] = [
   ]),
   // u25–u28: su contenido lo escribe el carril G1. Hasta entonces, "pronto" y fuera del flujo diario.
   // El orden de estudio está en COURSE (course.ts), no en este arreglo.
-  u(25, "Alfabeto, deletreo y supervivencia", false, [
-    "Puedo deletrear mi nombre y entender un deletreo.",
-    "Puedo pedir que me repitan o me hablen más despacio.",
+  u(25, "Alfabeto, deletreo, acento y supervivencia", false, [
+    "Puedo presentarme y decir de dónde soy.",
+    "Puedo deletrear mi nombre y pedir que me deletreen una palabra.",
+    "Puedo decir que no entendí y pedir que repitan más despacio.",
   ], 1),
   u(26, "Personas y familia", false, [
     "Puedo hablar de mi familia y describir a una persona.",

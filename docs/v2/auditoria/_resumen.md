@@ -27,6 +27,10 @@ Generado por `scripts/audit-unidades.ts`. Vuelve a generarlo con `npx vite-node 
 | u22 | 6 | 3 | 18 | 13 | 5 | 184 | 20 | 8 | 6 | 5 | 8 | 59 | 2 | 91 | 97 | 2 | 100 | sí | 235 | 5 |
 | u23 | 6 | 3 | 16 | 11 | 5 | 114 | 20 | 4 | 6 | 5.5 | 8 | 55 | 2 | 85 | 100 | 2 | 50 | sí | 235 | 8 |
 | u24 | 6 | 3 | 21 | 16 | 5 | 146 | 20 | 1 | 6 | 6.8 | 10 | 91 | 5 | 89 | 100 | 7 | 100 | sí | 248 | 6 |
+| u25 | 8 | 3 | 14 | 9 | 5 | 153 | 22 | 3 | 10 | 3.3 | 10 | 52 | 4 | 91 | 100 | 4 | 38 | no | 235 | 5 |
+| u26 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | no | 200 | 4 |
+| u27 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | no | 200 | 4 |
+| u28 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | no | 200 | 4 |
 
 ## Banderas por unidad
 ### u01
@@ -241,3 +245,28 @@ Generado por `scripts/audit-unidades.ts`. Vuelve a generarlo con `npx vite-node 
 - 6 palabras no reaparecen en el texto de la unidad (reciclaje bajo)
 - diálogo: solo 89 % de las palabras estaban vistas (meta ≥ 95 %)
 - dictado con 6 frases (meta 10)
+
+### u25
+- 9 de 9 «completar» llevan pista entre paréntesis
+- regla larga (~153 palabras)
+- vocabulario corto (22; meta ~50) y sin frase
+- 9 palabras no reaparecen en el texto de la unidad (reciclaje bajo)
+- pares mínimos sin audio nativo: 5 de 8
+
+### u26
+- pocos ejercicios (0)
+- vocabulario corto (0; meta ~50) y sin frase
+- sin diálogo
+- dictado con 0 frases (meta 10)
+
+### u27
+- pocos ejercicios (0)
+- vocabulario corto (0; meta ~50) y sin frase
+- sin diálogo
+- dictado con 0 frases (meta 10)
+
+### u28
+- pocos ejercicios (0)
+- vocabulario corto (0; meta ~50) y sin frase
+- sin diálogo
+- dictado con 0 frases (meta 10)

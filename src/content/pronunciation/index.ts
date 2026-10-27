@@ -12,8 +12,10 @@ export interface PronUnit {
   words: string[];
 }
 
-export const PRON_UNITS = unitsJson.units as PronUnit[];
-export const GLOSS: Record<string, string> = unitsJson.gloss;
+import { NUEVAS } from "../nuevas";
+
+export const PRON_UNITS = [...(unitsJson.units as PronUnit[]), ...NUEVAS.map((n) => n.pron)];
+export const GLOSS: Record<string, string> = { ...unitsJson.gloss, ...Object.assign({}, ...NUEVAS.map((n) => n.gloss)) };
 
 /** Palabra (minúscula) → archivos de audio nativo disponibles (una voz por archivo). */
 const AUDIO = manifestJson as Record<string, string[]>;
@@ -35,4 +37,4 @@ export function allWords(): string[] {
  * Corre `npm run audio` en tu computador: baja las que existan en Lingua Libre y actualiza el manifest;
  * después quita de esta lista las que ya tengan audio (el test te avisa).
  */
-export const AUDIO_PENDING: string[] = ["abbia", "allegato", "arredato", "avessi", "comprerei", "càpitano", "dammelo", "dimmelo", "facessi", "fato", "fatto", "gliene", "ingresso", "messo", "nona", "note", "orario", "papa", "papà", "portarmelo", "possa", "posso", "potessi", "resterei", "richiamare", "serra", "spiegarmelo", "stia", "tutta", "vada", "venga", "viaggerei", "volessi"];
+export const AUDIO_PENDING: string[] = ["abbia", "amico", "cina", "là", "sano", "sì", "tè", "tetto", "tutto", "vano", "allegato", "arredato", "avessi", "comprerei", "càpitano", "dammelo", "dimmelo", "facessi", "fato", "fatto", "gliene", "ingresso", "messo", "nona", "note", "orario", "papa", "papà", "portarmelo", "possa", "posso", "potessi", "resterei", "richiamare", "serra", "spiegarmelo", "stia", "tutta", "vada", "venga", "viaggerei", "volessi"];
