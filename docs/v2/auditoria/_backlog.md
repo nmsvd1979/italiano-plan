@@ -14,7 +14,7 @@ Fuente: `_veredictos.md` (lectura completa) y `_temario.md`. «Fase» es la de `
 | H-all-06 | Reglas largas | observar + regla corta + «más detalle» | G | M | abierto |
 | H-all-07 | Pares mínimos vacíos (u05, u19, u20, u21) y sin audio nativo en 5 unidades | secuencia nueva de contrastes (`13`) + audio | C, G | M | abierto |
 | H-all-08 | Input escaso: sin textos de lectura/escucha graduados | un texto graduado por semana, un tipo de texto A2 por unidad | G | A | abierto |
-| H-all-09 | Ejemplos argentinos para usuario chileno (u01, u10) | cambiar a Santiago/Valparaíso, español chileno | G | L | u01 hecho (G0-1); u10 pendiente (G0-2) |
+| H-all-09 | Ejemplos argentinos para usuario chileno (u01, u10) | cambiar a Santiago/Valparaíso, español chileno | G | L | u01 (G0-1) y u10 (G0-2) hechos; ejemplos de otros temas se revisan con G3–G5 |
 | H-all-10 | Duplicados y palabras no enseñadas en el vocabulario | pasada de higiene del léxico (`07` G4) con informe | G | M | abierto |
 | H-all-11 | Sin comparación contra lista de frecuencia | script de G4; no declarar «alta frecuencia» lo no medido | G | M | abierto |
 | H-all-12 | Nada revisado por un nativo (no es posible) | protocolo de verificación con fuentes V1→V2→V3 (`_verificacion.md`); frases «sin confirmar» a `dudas-italiano.md` | Claude | A | en curso (V1 hecho en las 24 unidades) |
@@ -34,7 +34,7 @@ Fuente: `_veredictos.md` (lectura completa) y `_temario.md`. «Fase» es la de `
 | H-u10-01 | Falta *piacere* en passato; ejemplo con Buenos Aires; pares repetidos | insertar *mi è piaciuto*; cambiar ejemplo; nuevo contraste | G | M | abierto |
 | H-u11-01 | Solo 20 ejercicios en la unidad más difícil del A2; falta *c'era / c'erano* | ≥ 40 ítems; insertar *c'era* | G | A | abierto |
 | H-u12-01 | Pronombres tónicos usados sin enseñar; *gli/li* por 4.ª vez | mini-bloque; contraste nuevo | G | A | abierto |
-| H-u13-01 | Etiquetas mezcladas en la tabla (*él / lo*); sin enlace con *mi piace*; redunda con u21 | reordenar etiquetas; enlazar; reconocer *glielo* | G | M | abierto |
+| H-u13-01 | Etiquetas mezcladas en la tabla (*él / lo*); sin enlace con *mi piace*; redunda con u21 | reordenar etiquetas; enlazar; reconocer *glielo* | G | M | etiquetas hechas (G0-2); enlace con *mi piace* y *glielo* pendientes (G) |
 | H-u14-01 | Tres temas; falta *ci vuole*; pronunciación sin contraste | A (ci, ne) / B (imperativo); insertar *ci vuole*; contraste nuevo | G | A | abierto |
 | H-u15-01 | Cuatro temas | A (futuro) / B (condizionale, se + presente, invitar) | G | A | abierto |
 | H-u16-01 | Regla de ~260 palabras; *Ecco a Lei* forzado | dividir con «más detalle»; muestra nativa | G | M | abierto |
