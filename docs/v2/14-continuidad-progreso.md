@@ -4,7 +4,10 @@ Regla de esta capa: **lo que ya aprendiste no se vuelve a enseñar**. La app v2 
 
 ## 1. Qué se sabe y qué no
 - **Se sabe:** tu progreso vive en el `localStorage` del iPhone, con claves `italianPlan.*`: `completions` (fecha → actividad → hecha), `review` (cajas de ejercicios que fallaste), `writing` (textos), `phaseTests`, `canDo`, `shadowing`, `skipped`, `startUnit`, `startDate`, `settings` (`src/domain/storage.ts`, `backup.ts`, `progress.ts`).
-- **No se sabe desde aquí:** cuánto avanzaste. No hay copia de tu progreso en este entorno. **No se inventa un punto de partida:** el plan funciona para cualquier avance, de cero a u24, y lo calcula la propia app.
+- **Tu avance real (27-oct, capturas de la app actual):** unidad 1, **sesiones 1 a 5 completas (17 de 22 actividades)**; falta la sesión 6 (repaso Quizlet y shadowing). No había copia de seguridad previa y no es posible hacerla ahora; tampoco hace falta, porque la v2 lee el mismo almacenamiento del navegador (más abajo, §7).
+- **Qué implica:** con la regla de §3 u01 queda `parcial` (17/22 = 77 %, bajo el 85 %). **No hay nada «dominado» que proteger** más allá de u01, así que el diagnóstico y el sembrado masivo del repaso no te afectan hoy: la v2 te lleva a u25 (alfabeto, deletreo y supervivencia; semana completa porque estás por debajo de u03), cierra la sesión 6 de u01 y sigue el curso normal. La capa de continuidad se queda construida para el caso general (otro dispositivo, otra persona, reinstalación), pero **no es camino crítico**: va después de D en el orden de PR.
+- **Si algún día pierdes el almacenamiento** (borrar datos del sitio, reinstalar la PWA sin copia): se empieza igual desde u25, sin pérdida relevante porque solo hay una unidad hecha. A partir de ahora conviene **una copia al terminar cada fase**.
+- **Lo que no se sabe:** si recuerdas lo de u01 sin ayuda. Se comprueba con la mini-prueba de u01 antes de pasar a u02 (más barata que un diagnóstico).
 - La app v2 se publica en la **misma dirección** que la actual; el navegador conserva el progreso. No hace falta exportar nada para migrar. La copia de seguridad es el seguro (`Ajustes → copia de seguridad`, ya existe y se hace antes de actualizar).
 
 ## 2. Cuatro pasos al abrir la v2 por primera vez
@@ -80,7 +83,7 @@ Para cada unidad `dominada` o `repasar`:
 6. **Un respaldo real de Nicolás** (si lo comparte; contiene sus textos de escritura y es su decisión) se agrega como prueba solo en su equipo, **no se sube al repositorio**.
 
 ## 9. Lo que te toca a ti
-1. Antes de que se publique la v2: abrir la app actual y hacer **Ajustes → copia de seguridad**.
-2. Abrir la v2 una vez con conexión y revisar «Tu punto de partida».
-3. Hacer el diagnóstico (25 min en tres veces) o saltarlo.
-4. Opcional: pasar tu copia para que las pruebas usen datos reales (queda en tu computador, no en el repositorio).
+1. ~~Antes de que se publique la v2: copia de seguridad.~~ Ya dijiste que no era posible; con solo u01 hecho el riesgo es bajo (§1). Haz una copia cuando termines la primera fase.
+2. Abrir la v2 una vez con conexión y revisar «Tu punto de partida» (debería mostrar u01 parcial y todo lo demás nuevo).
+3. El diagnóstico queda opcional; no se pide hasta pasar u02.
+4. ~~Pasar tu copia~~ No aplica: no hay copia. Las pruebas usan los tres respaldos sintéticos de §8.

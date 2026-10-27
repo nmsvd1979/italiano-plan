@@ -17,7 +17,7 @@ Fuente: `_veredictos.md` (lectura completa) y `_temario.md`. «Fase» es la de `
 | H-all-09 | Ejemplos argentinos para usuario chileno (u01, u10) | cambiar a Santiago/Valparaíso, español chileno | G | L | abierto |
 | H-all-10 | Duplicados y palabras no enseñadas en el vocabulario | pasada de higiene del léxico (`07` G4) con informe | G | M | abierto |
 | H-all-11 | Sin comparación contra lista de frecuencia | script de G4; no declarar «alta frecuencia» lo no medido | G | M | abierto |
-| H-all-12 | Nada revisado por un nativo | muestra de ~20 frases dudosas (ver abajo) | usuario | A | decide el usuario |
+| H-all-12 | Nada revisado por un nativo (no es posible) | protocolo de verificación con fuentes V1→V2→V3 (`_verificacion.md`); frases «sin confirmar» a `dudas-italiano.md` | Claude | A | en curso (V1 hecho en las 24 unidades) |
 
 ## Por unidad
 | id | Hallazgo | Propuesta | Fase | Sev. | Estado |
@@ -65,10 +65,10 @@ Fuente: `_veredictos.md` (lectura completa) y `_temario.md`. «Fase» es la de `
 ## Decisiones que toma el usuario
 | id | Decisión | Mi recomendación |
 |---|---|---|
-| D-01 | Aceptar u21–u23 como Puente a B1 opcional y u20 recortado al núcleo | Sí (evidencia: tres programas; `_temario.md` §3) |
-| D-02 | Aceptar 32 semanas de núcleo (con semanas A/B y 4 unidades nuevas) en lugar de 24 | Sí; se acorta con «Hacer más hoy» y con tu avance previo |
-| D-03 | Hacer el diagnóstico de continuidad | Sí, 25 min en tres veces |
-| D-04 | Revisión nativa de ~20 frases dudosas | Pendiente tuya (alguien italiano de confianza o un tutor) |
+| D-01 | Aceptar u21–u23 como Puente a B1 opcional y u20 recortado al núcleo | **Aceptada** (27-oct) |
+| D-02 | Aceptar 32 semanas de núcleo (con semanas A/B y 4 unidades nuevas) en lugar de 24 | **Mantenida** tras revisar con evidencia: 112 h de núcleo quedan **por debajo** de las 180–200 h guiadas que Cambridge da como referencia para A2 (`13`, «Calendario y evidencia») |
+| D-03 | Hacer el diagnóstico de continuidad | **Mantenido, pero casi no te afecta:** con tu avance real (solo u01, sin copia) el diagnóstico queda opcional y no se ofrece hasta pasar u02 (`14`, §1) |
+| D-04 | Revisión nativa de ~20 frases dudosas | **Cerrada como no posible.** Reemplazada por verificación con fuentes comprobables (`_verificacion.md`) |
 
-## Frases para la muestra nativa (candidatas)
+## Frases dudosas (candidatas; estado de cada una en `_verificacion.md` §3)
 *Ecco a Lei* (u16) · *più cinquanta di spese* (u17) · *Le va bene / Le sta bene?* (u13) · *Cosa prende?* y *Vuole altro?* (u04) · *Ecco il resto* (u03) · *Ci sentiamo dopo cena?* (u07) · *Siete state lì una settimana?* (u10) · *Gliene parlo io* (u21) · *Ci sto!* (u15) · *Mi alleno* (u08) · *Aspetto la Sua chiamata* (u18) · *Potresti consigliarmi un ristorante?* (u24) · *Credo di sì / di no* (u22).

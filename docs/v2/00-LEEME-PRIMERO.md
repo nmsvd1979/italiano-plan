@@ -35,6 +35,9 @@ Este directorio es la especificación para reconstruir la app como el mejor mate
 - Escritura: la corrección con modelo es manual (copiar a Claude y pegar la versión corregida).
 - Ritmo: lo que sea mejor, siempre con la opción de hacer más en un día (`04`).
 - Quizlet: se saca del plan diario solo cuando el repaso propio esté funcionando y sea mejor; mientras tanto se mantiene. El mazo de 1400 términos se puede importar como mazo extra.
+- **Avance real:** unidad 1, sesiones 1 a 5 hechas (17 de 22 actividades); sin copia de seguridad previa y no es posible hacerla (`14`, §1).
+- **D-01** aceptada. **D-02** (32 semanas) y **D-03** (diagnóstico): mantenidas tras revisarlas con evidencia (`13`, «Calendario y evidencia»; `14`, §1). **D-04** (revisión nativa): no es posible; se reemplaza por verificación con fuentes comprobables (`auditoria/_verificacion.md`).
+- Para el usuario, lo pendiente es mínimo: probar el offline cuando le sirva (no es urgente porque suele tener internet), y escuchar solo dos videos si se pide. Todo lo demás lo revisa Claude con fuentes.
 
 ## Orden de pull requests (resumen; el orden vigente y las dependencias están en `11-plan-maestro-vivo.md`, §3. No hay piloto: se construye todo y la app se puede usar en cada fusión)
 1. A — offline (PR propio; el usuario prueba en iPhone antes de seguir).

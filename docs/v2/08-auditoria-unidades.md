@@ -3,7 +3,7 @@
 **Estado (27-oct-2026): auditoría completa.** Las 24 unidades se leyeron enteras (lección, ejemplos, preguntas, ejercicios, vocabulario, diálogo, dictado, escritura, pronunciación) y se valoraron en 6 columnas. El juicio completo está en `auditoria/_veredictos.md`; las métricas automáticas en `auditoria/uXX.md` (`npm run audit`); el temario en `auditoria/_temario.md`; el backlog en `auditoria/_backlog.md`. Este archivo es solo el resumen y el cuadro de conteos.
 
 ## Resultado en una página
-- **El italiano de la app es sólido en forma.** En la lectura completa no encontré errores de gramática, ortografía ni concordancia que bloqueen el audio. Es una lectura de una sola persona: no sustituye a un nativo (`_backlog.md`, D-04 y la lista de frases dudosas).
+- **El italiano de la app es sólido en forma.** En la lectura completa no encontré errores de gramática, ortografía ni concordancia que bloqueen el audio. Es una lectura de una sola persona y no hay nativo posible: se complementó con verificación contra fuentes (`auditoria/_verificacion.md`: 2.770 fragmentos sin errores de ortografía; de 14 frases dudosas, 3 confirmadas, 1 parcial, 6 sin confirmar y 4 sin consultar).
 - **El problema es de diseño, no de corrección.** 19 de 24 unidades tienen al menos una pieza marcada para reescribir o reubicar, pero casi todas son reubicaciones (orden, partición, ejercicios sin pista, pronunciación), no reescrituras del italiano. Solo 7 de 24 lecciones (29 %) necesitan reescribir la regla.
 - **Sobrecarga:** siete unidades enseñan 4–5 temas a la vez → se parten en semana A y B.
 - **Huecos de temario graves:** deletreo y supervivencia, familia y profesiones, tiempo libre y *sapere*, restaurante → 4 unidades nuevas (u25–u28) y 6 bloques insertados.

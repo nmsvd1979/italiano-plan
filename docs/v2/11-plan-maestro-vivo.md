@@ -96,7 +96,7 @@ Las métricas automáticas de la auditoría (`npm run audit`) se regeneran en ca
 Vive en `auditoria/_backlog.md` (ids `H-…`). Cada PR de contenido cierra los ids que resuelve y lo anota ahí.
 
 ## 7. Qué decide quién
-- **Usuario:** alcance (temario, orden, qué se quita), tiempo diario, voz y licencias, lo que solo se prueba en el iPhone, la revisión nativa. Decisiones abiertas hoy: D-01 a D-04 del backlog.
+- **Usuario:** alcance (temario, orden, qué se quita), tiempo diario, voz y licencias y lo que solo se prueba en el iPhone. Sin decisiones abiertas hoy (D-01 a D-04 resueltas en el backlog).
 - **Claude:** correcciones, formato de ejercicios, métricas, orden interno de un carril, hallazgos de severidad baja o media que no cambian el alcance. Todo se registra en §8.
 
 ## 8. Registro de cambios del plan
@@ -105,6 +105,7 @@ Vive en `auditoria/_backlog.md` (ids `H-…`). Cada PR de contenido cierra los i
 | 2026-10-27 (mañana) | La auditoría pasa antes de G, C y D; offline en paralelo; se agrega la auditoría automática | El usuario pidió que la auditoría sea lo central | todos | Usuario + Claude |
 | 2026-10-27 (tarde) | **Se elimina el piloto y los puntos de control bloqueantes**; el plan queda completo y se construye todo; se agregan `13` (arquitectura final) y `14` (continuidad con el progreso) | El usuario pidió «nada de ir por unidades», plan completo y no redundante con lo ya estudiado | 00, 04, 07, 10, 11 | Usuario (pedido) |
 | 2026-10-27 (tarde) | Auditoría de las 24 unidades completada por lectura; 144 celdas valoradas | Pedido de auditar todo con rigor | 08, `auditoria/` | Claude |
+| 2026-10-27 (tarde, 2.ª) | D-01 aceptada; D-02 y D-03 mantenidas con evidencia; **D-04 cerrada como no posible** y reemplazada por verificación con fuentes (V1→V3); avance real registrado (u01, 17/22); la continuidad pasa a no ser camino crítico | Respuesta del usuario | 00, 07, 08, 09, 12, 13, 14, `auditoria/_backlog.md`, `_verificacion.md` | Usuario |
 | 2026-10-27 (tarde) | 7 unidades se parten A/B; 4 unidades nuevas (u25–u28); u20 al núcleo recortada; u21–u23 = Puente a B1; u24 = cierre del núcleo | Sobrecarga, huecos de temario y evidencia de nivel (`_temario.md`) | 04, 07, 13 | Claude (propuesta; usuario revisa D-01, D-02) |
 
 ## 9. Esfuerzo relativo (sin fechas inventadas)

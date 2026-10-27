@@ -32,3 +32,9 @@ Ninguna por ahora: la revisión ortográfica (oct. 2026) no encontró frases dud
 - **Palabras bien escritas pero equivocadas** (una palabra válida en lugar de otra).
 - Frases italianas dentro de cadenas que mi clasificación contó como españolas.
 - La corrección del contenido por una persona nativa: sigue siendo necesaria (ver `docs/revision-italiano.md`).
+
+## Verificación con fuentes (27-oct-2026, `docs/v2/auditoria/_verificacion.md`)
+Frases que no se pudieron confirmar en las fuentes consultadas (no significa que estén mal; significa que **no reciben audio** hasta confirmarlas o reemplazarlas):
+- `Cosa prende?` (u04) · `Vuole altro?` (u04; sí figura `Vuole qualcos'altro?`) · `Ecco il resto` (u03) · `Ecco a Lei` (u16) · `più cinquanta di spese` (u17; propuesta: `più cinquanta euro di spese`) · `Credo di sì / di no` (u22).
+- Sin consultar aún: `Ci sentiamo dopo cena?` (u07) · `Siete state lì una settimana?` (u10) · `Gliene parlo io` (u21) · `Potresti consigliarmi un ristorante?` (u24).
+- Confirmadas: `Ci sto!` (u15), `mi alleno` (u08, falta enseñarla), `la Sua` en mayúscula (convención opcional, u18). Parcial: `Le sta bene` (u13).
