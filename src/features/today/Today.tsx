@@ -8,6 +8,7 @@ import { formatDateHuman } from "../../domain/dates";
 import { paceOf } from "../../domain/pace";
 import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
 import { computeStreak, daysSinceLastStudy } from "../../domain/progress";
+import { backupAdvice } from "../../domain/backup";
 import { getReview } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
 import { ProgressRing } from "../../ui/ProgressRing";
@@ -52,6 +53,8 @@ export function Today() {
         </div>
       </header>
 
+      <BackupReminder />
+
       {unit && up && !finished && (
         <a href={href(`/unidad/${unit.id}`)} className="unit-head">
           <span className="eyebrow">Unidad {unit.n} de 24 · Fase {phase.id} · sesión {Math.min(6, up.sessionsDone + 1)} de 6</span>
@@ -93,6 +96,24 @@ export function Today() {
         </>
       )}
     </>
+  );
+}
+
+/** Aviso cuando pasan más de 14 días sin copia de seguridad. */
+function BackupReminder() {
+  const advice = backupAdvice(window.localStorage);
+  if (!advice.due) return null;
+  return (
+    <a className="card flat review-card" href={href("/ajustes")}>
+      <div>
+        <div className="eyebrow">Copia de seguridad</div>
+        <p className="sub">
+          {advice.never ? `Llevas ${advice.days} días sin hacer una copia.` : `Hace ${advice.days} días que no haces una copia.`}{" "}
+          Toca para guardarla.
+        </p>
+      </div>
+      <Icon name="info" size={22} />
+    </a>
   );
 }
 

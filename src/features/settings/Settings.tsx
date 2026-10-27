@@ -7,6 +7,7 @@ import { RESOURCES } from "../../content/plan";
 import { toISODate } from "../../domain/dates";
 import type { ThemeChoice } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
+import { BackupCard } from "./BackupCard";
 
 const THEMES: { value: ThemeChoice; label: string }[] = [
   { value: "system", label: "Sistema" },
@@ -137,6 +138,8 @@ export function Settings() {
           <span>Sin conexión funcionan lecciones, ejercicios, audio, dictado, escritura y diálogos. Los videos de YouTube y los enlaces a Quizlet y Spotify siempre necesitan internet.</span>
         </p>
       </section>
+
+      <BackupCard />
 
       <section className="card stack">
         <div className="eyebrow">Datos</div>
