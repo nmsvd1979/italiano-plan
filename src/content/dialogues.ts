@@ -65,7 +65,7 @@ const DIALOGUES: Record<string, Dialogue> = {
     lines: [
       l("A", "Buongiorno! Cosa prende?", "¡Buenos días! ¿Qué va a tomar?"),
       l("B", "Vorrei un cappuccino e un cornetto, per favore.", "Quisiera un capuchino y un croissant, por favor."),
-      l("A", "Subito. Vuole altro?", "Enseguida. ¿Quiere algo más?"),
+      l("A", "Subito. Vuole qualcos'altro?", "Enseguida. ¿Quiere algo más?"),
       l("B", "Sì, posso avere un bicchiere d'acqua?", "Sí, ¿puedo pedir un vaso de agua?"),
       l("A", "Certo, ecco.", "Claro, aquí tiene."),
       l("B", "Posso avere il conto?", "¿Puedo pedir la cuenta?"),

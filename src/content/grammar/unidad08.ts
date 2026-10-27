@@ -29,7 +29,7 @@ export const unidad08: Lesson = {
     },
     {
       kind: "p",
-      text: "**Negación**: *non* va antes del verbo. Con *mai, niente, nessuno, più, ancora* también va *non* si estas palabras van después del verbo (como en español).",
+      text: "**Negación**: *non* va antes del verbo. Con *mai, niente, nessuno, più, ancora* después del verbo también va *non* (*Non vedo nessuno*, como en español).",
     },
     {
       kind: "table",
@@ -101,7 +101,7 @@ export const unidad08: Lesson = {
     { type: "fill", prompt: "Ho ___ amici a Torino. (pocos)", answers: ["pochi"], why: "Masculino plural: *pochi* (con *ch* para conservar el sonido /k/)." },
     { type: "fill", prompt: "___ è il tuo numero? (¿cuál?)", answers: ["Qual", "Quale"], why: "*Qual è* se escribe sin apóstrofo." },
     { type: "fill", prompt: "___ costa questo? (¿cuánto?)", answers: ["Quanto"], why: "Un precio, una cosa: *quanto*." },
-    { type: "fill", prompt: "Mi alleno due ___ alla settimana. (veces)", answers: ["volte"], why: "*Volta* → *volte* en plural." },
+    { type: "fill", prompt: "Esco due ___ alla settimana. (veces)", answers: ["volte"], why: "*Volta* → *volte* en plural." },
     { type: "fill", prompt: "___ parte il treno? (¿cuándo?)", answers: ["Quando"], why: "*Quando* pregunta por el momento." },
     {
       type: "choice",

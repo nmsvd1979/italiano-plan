@@ -6,11 +6,11 @@ Generado por `scripts/audit-unidades.ts`. Vuelve a generarlo con `npx vite-node 
 | u01 | 6 | 4 | 20 | 13 | 7 | 126 | 20 | 1 | 6 | 3 | 8 | 42 | 3 | 58 | 94 | 4 | 100 | sí | 235 | 6 |
 | u02 | 6 | 3 | 26 | 20 | 6 | 248 | 20 | 0 | 6 | 4.5 | 6 | 48 | 2 | 86 | 100 | 5 | 100 | sí | 235 | 9 |
 | u03 | 8 | 3 | 23 | 18 | 5 | 253 | 20 | 2 | 6 | 5 | 8 | 42 | 2 | 78 | 100 | 4 | 100 | sí | 235 | 8 |
-| u04 | 6 | 3 | 20 | 16 | 4 | 67 | 20 | 0 | 6 | 4.7 | 8 | 35 | 4 | 94 | 100 | 3 | 100 | sí | 248 | 6 |
+| u04 | 6 | 3 | 20 | 16 | 4 | 67 | 21 | 0 | 6 | 4.7 | 8 | 35 | 4 | 97 | 100 | 3 | 100 | sí | 248 | 6 |
 | u05 | 6 | 4 | 27 | 21 | 6 | 189 | 20 | 1 | 6 | 4.3 | 6 | 26 | 2 | 95 | 96 | 0 | 0 | sí | 235 | 8 |
 | u06 | 8 | 3 | 24 | 20 | 4 | 210 | 20 | 3 | 6 | 4.2 | 8 | 36 | 4 | 85 | 100 | 5 | 100 | sí | 235 | 7 |
 | u07 | 6 | 3 | 27 | 22 | 5 | 125 | 20 | 4 | 6 | 4.7 | 7 | 39 | 4 | 86 | 100 | 2 | 100 | sí | 235 | 7 |
-| u08 | 8 | 3 | 20 | 16 | 4 | 153 | 20 | 5 | 6 | 3.2 | 7 | 40 | 5 | 89 | 100 | 3 | 100 | sí | 248 | 7 |
+| u08 | 8 | 3 | 20 | 16 | 4 | 152 | 20 | 5 | 6 | 3.2 | 7 | 40 | 5 | 89 | 100 | 3 | 100 | sí | 248 | 7 |
 | u09 | 6 | 3 | 24 | 20 | 4 | 90 | 20 | 3 | 6 | 5 | 7 | 43 | 4 | 95 | 100 | 2 | 100 | sí | 235 | 6 |
 | u10 | 6 | 3 | 24 | 18 | 6 | 158 | 20 | 2 | 6 | 4.7 | 8 | 40 | 3 | 87 | 96 | 2 | 100 | sí | 235 | 8 |
 | u11 | 6 | 3 | 20 | 15 | 5 | 69 | 20 | 1 | 6 | 5.5 | 8 | 46 | 4 | 80 | 100 | 2 | 25 | sí | 235 | 8 |
@@ -61,7 +61,7 @@ Generado por `scripts/audit-unidades.ts`. Vuelve a generarlo con `npx vite-node 
 ### u04
 - 80 % son «completar»
 - 16 de 16 «completar» llevan pista entre paréntesis
-- vocabulario corto (20; meta ~50) y sin frase
+- vocabulario corto (21; meta ~50) y sin frase
 - 12 palabras no reaparecen en el texto de la unidad (reciclaje bajo)
 - diálogo de 35 palabras (meta 60–120)
 - dictado con 6 frases (meta 10)
@@ -97,7 +97,7 @@ Generado por `scripts/audit-unidades.ts`. Vuelve a generarlo con `npx vite-node 
 ### u08
 - 80 % son «completar»
 - 16 de 16 «completar» llevan pista entre paréntesis
-- regla larga (~153 palabras)
+- regla larga (~152 palabras)
 - vocabulario corto (20; meta ~50) y sin frase
 - diálogo: solo 89 % de las palabras estaban vistas (meta ≥ 95 %)
 - diálogo de 40 palabras (meta 60–120)

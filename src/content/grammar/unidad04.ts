@@ -69,7 +69,7 @@ export const unidad04: Lesson = {
     },
     {
       type: "choice",
-      prompt: "Un camarero dice «Vuole altro?». ¿Qué trato está usando?",
+      prompt: "Un camarero dice «Vuole qualcos'altro?». ¿Qué trato está usando?",
       options: ["Formal, a un cliente", "Informal, a un amigo", "Habla de un tercero"],
       answer: 0,
       why: "*Vuole* con *Lei* (cortesía): le habla al cliente de usted.",
