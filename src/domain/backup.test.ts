@@ -1,9 +1,9 @@
 import { describe, expect, it, vi } from "vitest";
 import {
   BACKUP_VERSION, LAST_BACKUP_KEY, backupAdvice, backupFileName, backupKeys, buildBackup, deliverBackup,
-  markBackupDone, parseBackup, restoreBackup, serializeBackup, type DeliverEnv, type EnumerableKV,
+  markBackupDone, parseBackup, restoreBackup, serializeBackup, summarizeBackup, type DeliverEnv, type EnumerableKV,
 } from "./backup";
-import { KEYS } from "./storage";
+import { KEYS, KEYS_V2 } from "./storage";
 import { requestPersistence } from "../app/persist";
 
 class FakeStore implements EnumerableKV {
@@ -195,6 +195,68 @@ describe("copia de seguridad: archivos dañados", () => {
   });
 });
 
+describe("copia de seguridad: versión 2 y copias de versión 1", () => {
+  /** Una copia exportada por la app anterior (versión 1), escrita a mano: sin ninguna clave v2. */
+  const v1File = () => {
+    const data: Record<string, string> = {};
+    const old = filled();
+    for (const k of backupKeys(old)) data[k] = old.getItem(k)!;
+    return JSON.stringify({ app: "italiano-plan", version: 1, exportedAt: "2026-10-20T10:00:00.000Z", data }, null, 2);
+  };
+
+  it("exporta en versión 2 e incluye las claves italianPlan.v2.*", () => {
+    const store = filled();
+    store.setItem(KEYS_V2.seedApplied, JSON.stringify({ fecha: "2026-10-27", appliedAt: "2026-10-28T09:00:00.000Z", added: 17 }));
+    store.setItem(KEYS_V2.progress, JSON.stringify({ version: 2, units: {} }));
+    const b = buildBackup(store, NOW);
+    expect(b.version).toBe(2);
+    expect(Object.keys(b.data)).toContain(KEYS_V2.seedApplied);
+    expect(Object.keys(b.data)).toContain(KEYS_V2.progress);
+  });
+
+  it("una copia de versión 1 se importa sin perder ningún dato", () => {
+    const r = parseBackup(v1File());
+    expect(r.ok).toBe(true);
+    if (!r.ok) return;
+    const original = filled();
+    expect(r.ignored).toEqual([]);
+    expect(r.backup.version).toBe(BACKUP_VERSION);
+    expect(r.backup.exportedAt).toBe("2026-10-20T10:00:00.000Z");
+    for (const k of backupKeys(original)) expect(r.backup.data[k], k).toBe(original.getItem(k));
+    expect(Object.keys(r.backup.data).sort()).toEqual(backupKeys(original));
+
+    const target = new FakeStore();
+    target.setItem(KEYS.completions, JSON.stringify({ "2026-01-01": { x: true } }));
+    restoreBackup(r.backup, target);
+    for (const k of backupKeys(original)) expect(target.getItem(k), k).toBe(original.getItem(k));
+    expect(r.summary).toEqual(summarizeBackup(buildBackup(original, new Date(r.backup.exportedAt))));
+  });
+
+  it("exportar → importar → exportar es idempotente (con claves v2)", () => {
+    const a = filled();
+    a.setItem(KEYS_V2.seedApplied, JSON.stringify({ fecha: "2026-10-27", appliedAt: "2026-10-28T09:00:00.000Z", added: 17 }));
+    const first = serializeBackup(buildBackup(a, NOW));
+    const parsed = parseBackup(first);
+    expect(parsed.ok).toBe(true);
+    if (!parsed.ok) return;
+    const b = new FakeStore();
+    restoreBackup(parsed.backup, b);
+    expect(serializeBackup(buildBackup(b, NOW))).toBe(first);
+    // y una segunda vuelta no cambia nada
+    const again = parseBackup(serializeBackup(buildBackup(b, NOW)));
+    if (!again.ok) throw new Error("no se pudo releer");
+    const c = new FakeStore();
+    restoreBackup(again.backup, c);
+    expect(c.snapshot()).toEqual(b.snapshot());
+  });
+
+  it("rechaza una clave v2 con formato inesperado", () => {
+    const f = JSON.parse(serializeBackup(buildBackup(filled(), NOW)));
+    f.data[KEYS_V2.seedApplied] = "[1,2]";
+    expect(parseBackup(JSON.stringify(f)).ok).toBe(false);
+  });
+});
+
 describe("copia de seguridad: versión desconocida", () => {
   const withVersion = (version: unknown) => JSON.stringify({ ...JSON.parse(serializeBackup(buildBackup(filled(), NOW))), version });
 
@@ -204,7 +266,7 @@ describe("copia de seguridad: versión desconocida", () => {
     if (!r.ok) expect(r.error).toMatch(/más nueva/);
   });
 
-  it("rechaza una versión más vieja que no reconoce", () => {
+  it("rechaza una versión más vieja que no reconoce (anterior a la 1)", () => {
     expect(parseBackup(withVersion(0)).ok).toBe(false);
   });
 

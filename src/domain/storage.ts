@@ -36,6 +36,17 @@ export const KEYS = {
   writing: "italianPlan.writing",
 } as const;
 
+/**
+ * Claves nuevas de la v2. Se llaman `italianPlan.v2.*` para que la copia de seguridad (prefijo `italianPlan.`)
+ * las incluya, y no reemplazan ni modifican ninguna de KEYS.
+ */
+export const KEYS_V2 = {
+  /** Estado por unidad de la v2 (docs/v2/14 §7). Reservada para la capa de continuidad (H2); H1 solo la valida en la copia. */
+  progress: "italianPlan.v2.progress",
+  /** Marca de que la semilla de avance ya se aplicó en este dispositivo: no se vuelve a ofrecer ni a aplicar. */
+  seedApplied: "italianPlan.v2.seedApplied",
+} as const;
+
 const defaultStore = (): KV => window.localStorage;
 
 function readJSON<T>(store: KV, key: string, fallback: T): T {
@@ -183,6 +194,7 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS.skipped);
   store.removeItem(KEYS.canDo);
   store.removeItem(KEYS.writing);
+  store.removeItem(KEYS_V2.seedApplied);
 }
 
 export function clearAll(store: KV = defaultStore()): void {

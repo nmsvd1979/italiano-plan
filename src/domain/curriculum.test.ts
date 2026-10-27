@@ -14,11 +14,17 @@ const keyOf = (unit: string, session: number, id: string) => `${unit}.s${session
 const doneBefore = (key: string) => steps.slice(0, steps.findIndex((s) => s.key === key)).map((s) => s.key);
 
 describe("currículo", () => {
-  it("24 unidades en 6 fases de 4; el test de fase va en las unidades 4, 8, 12, 16, 20 y 24", () => {
-    expect(UNITS).toHaveLength(24);
-    expect(UNITS.map((u) => u.n)).toEqual(Array.from({ length: 24 }, (_, i) => i + 1));
-    for (const u of UNITS) expect(u.phase).toBe(Math.ceil(u.n / 4));
+  it("u01–u24 en 6 fases de 4; el test de fase va en las unidades 4, 8, 12, 16, 20 y 24", () => {
+    const original = UNITS.filter((u) => u.n <= 24);
+    expect(original.map((u) => u.n)).toEqual(Array.from({ length: 24 }, (_, i) => i + 1));
+    for (const u of original) expect(u.phase).toBe(Math.ceil(u.n / 4));
     expect(UNITS.filter((u) => u.checkpoint).map((u) => u.n)).toEqual([4, 8, 12, 16, 20, 24]);
+  });
+
+  it("u25–u28 se agregan después de u24, sin contenido y sin test de fase", () => {
+    const added = UNITS.filter((u) => u.n > 24);
+    expect(added.map((u) => u.n)).toEqual([25, 26, 27, 28]);
+    expect(added.every((u) => !u.ready && !u.checkpoint)).toBe(true);
   });
 
   it("cada unidad tiene 6 sesiones y la última lleva repaso mixto o test, nunca ambos", () => {

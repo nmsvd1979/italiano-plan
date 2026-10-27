@@ -71,7 +71,7 @@ a { color: inherit; }
 .row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 
 /* ---------- Tracker de unidades ---------- */
-.tracker { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px 4px; margin-top: 20px; }
+.tracker { display: grid; grid-template-columns: repeat(14, 1fr); gap: 14px 4px; margin-top: 20px; }
 .tracker-cell { position: relative; display: block; height: 9px; border-radius: 999px; background: var(--surface-3); }
 .tracker-cell::before {
   content: ""; position: absolute; inset: 0; width: var(--fill, 0%); border-radius: inherit; background: var(--accent);

@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { PHASES, getPhase } from "../../content/curriculum";
+import { useMemo, useState } from "react";
+import { PHASES, UNITS, getPhase } from "../../content/curriculum";
 import { useApp } from "../../app/state";
 import { internalRoute, resolveResources, stepHint } from "../../app/links";
 import { href } from "../../app/route";
@@ -9,6 +9,7 @@ import { paceOf } from "../../domain/pace";
 import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
 import { computeStreak, daysSinceLastStudy } from "../../domain/progress";
 import { backupAdvice } from "../../domain/backup";
+import { canOfferSeed } from "../../domain/seed";
 import { getReview } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
 import { ProgressRing } from "../../ui/ProgressRing";
@@ -56,10 +57,11 @@ export function Today() {
 
       <OfflineBanner />
       <BackupReminder />
+      <SeedOffer />
 
       {unit && up && !finished && (
         <a href={href(`/unidad/${unit.id}`)} className="unit-head">
-          <span className="eyebrow">Unidad {unit.n} de 24 · Fase {phase.id} · sesión {Math.min(6, up.sessionsDone + 1)} de 6</span>
+          <span className="eyebrow">Unidad {unit.n} de {UNITS.length} · Fase {phase.id} · sesión {Math.min(6, up.sessionsDone + 1)} de 6</span>
           <b>{unit.title}</b>
         </a>
       )}
@@ -116,6 +118,32 @@ function BackupReminder() {
       </div>
       <Icon name="info" size={22} />
     </a>
+  );
+}
+
+/** Botón opcional: marca lo que ya estudiaste antes de la v2 (u01, sesiones 1–5). Solo si aquí no hay marcas de u01. */
+function SeedOffer() {
+  const { completions, applyAdvance } = useApp();
+  const [added, setAdded] = useState<number | null>(null);
+  // Depende de las marcas guardadas: se vuelve a evaluar cuando cambian.
+  const offer = useMemo(() => canOfferSeed(window.localStorage), [completions]);
+  if (added !== null) {
+    return (
+      <p className="note" role="status">
+        <Icon name="check" size={16} />
+        <span>Listo: se marcaron {plural(added, "actividad", "actividades")} de la unidad 1. Puedes desmarcar cualquiera desde la unidad.</span>
+      </p>
+    );
+  }
+  if (!offer) return null;
+  return (
+    <section className="card flat">
+      <div className="eyebrow">Tu avance anterior</div>
+      <p className="sub">Si ya estudiaste la unidad 1 (sesiones 1 a 5) antes de esta versión, puedes marcarla de una vez. No borra ni cambia nada de lo que ya tengas.</p>
+      <button type="button" className="btn block" onClick={() => setAdded(applyAdvance())}>
+        Aplicar mi avance anterior (u01, sesiones 1–5)
+      </button>
+    </section>
   );
 }
 
