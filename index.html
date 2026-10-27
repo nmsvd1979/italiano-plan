@@ -15,6 +15,28 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Pantalla de rescate: si en 10 s la app no pintó nada (service worker a medio instalar, archivos que faltan),
+      // se avisa en vez de dejar la pantalla en blanco. React reemplaza este contenido si la app arranca después.
+      setTimeout(function () {
+        var root = document.getElementById("root");
+        if (!root || root.childElementCount > 0) return;
+        root.innerHTML =
+          '<div style="font:16px/1.5 system-ui,sans-serif;padding:32px 24px;max-width:420px;margin:0 auto;color:#2a2620">' +
+          '<h1 style="font-size:20px">No pude cargar la app</h1>' +
+          '<p>Si estás sin conexión, ábrela una vez con internet y espera el mensaje “Listo para usar sin conexión”.</p>' +
+          '<p><button id="rescue-retry" style="font:inherit;padding:10px 16px">Reintentar</button></p>' +
+          '<p style="font-size:14px;color:#6b6358">Si sigue igual con internet: <button id="rescue-reset" style="font:inherit;font-size:14px;padding:8px 12px">Restablecer archivos sin conexión</button> ' +
+          '(no borra tu progreso; el audio se vuelve a bajar desde Ajustes).</p></div>';
+        document.getElementById("rescue-retry").onclick = function () { location.reload(); };
+        document.getElementById("rescue-reset").onclick = function () {
+          var jobs = [];
+          if (navigator.serviceWorker) jobs.push(navigator.serviceWorker.getRegistrations().then(function (rs) { return Promise.all(rs.map(function (r) { return r.unregister(); })); }));
+          if (window.caches) jobs.push(caches.keys().then(function (ks) { return Promise.all(ks.map(function (k) { return caches.delete(k); })); }));
+          Promise.all(jobs).then(function () { location.reload(); }, function () { location.reload(); });
+        };
+      }, 10000);
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useOfflineStatus } from "../../app/offline";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { UNITS } from "../../content/curriculum";
@@ -8,6 +7,7 @@ import { toISODate } from "../../domain/dates";
 import type { ThemeChoice } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
 import { BackupCard } from "./BackupCard";
+import { OfflineCard } from "./OfflineCard";
 
 const THEMES: { value: ThemeChoice; label: string }[] = [
   { value: "system", label: "Sistema" },
@@ -35,7 +35,6 @@ function reminderStatus(enabled: boolean, time: string): string {
 export function Settings() {
   const { startDate, settings, progress, setStart, setStartUnit, patchSettings, resetProgress, resetAll } = useApp();
   const [, force] = useState(0);
-  const offline = useOfflineStatus();
 
   const enableReminder = async () => {
     if (!("Notification" in window)) return;
@@ -112,7 +111,7 @@ export function Settings() {
       </section>
 
       <section className="card">
-        <div className="eyebrow" style={{ marginBottom: 6 }}>Accesos directos</div>
+        <div className="eyebrow" style={{ marginBottom: 6 }}>Accesos directos <span className="net-tag">Necesita internet</span></div>
         <div className="link-list">
           {SHORTCUTS.map(([k, label]) => (
             <a key={k} href={RESOURCES[k].url} target="_blank" rel="noopener noreferrer">
@@ -122,22 +121,7 @@ export function Settings() {
         </div>
       </section>
 
-      <section className="card stack">
-        <div className="eyebrow">Versión y modo sin conexión</div>
-        <p className="sub">
-          Versión {__APP_VERSION__} · compilada el {new Date(__BUILD_DATE__).toLocaleString("es", { dateStyle: "medium", timeStyle: "short" })}
-        </p>
-        <p className={`offline offline-${offline.state}`} role="status">
-          {offline.state === "ready" && `Listo sin conexión: ${offline.files} archivos guardados en este dispositivo.`}
-          {offline.state === "pending" && "Todavía no está listo sin conexión. Mantén la app abierta con internet unos segundos y ciérrala y ábrela de nuevo."}
-          {offline.state === "checking" && "Comprobando…"}
-          {offline.state === "unsupported" && "Este navegador no permite guardar la app para usarla sin conexión."}
-        </p>
-        <p className="note">
-          <Icon name="info" size={16} />
-          <span>Sin conexión funcionan lecciones, ejercicios, audio, dictado, escritura y diálogos. Los videos de YouTube y los enlaces a Quizlet y Spotify siempre necesitan internet.</span>
-        </p>
-      </section>
+      <OfflineCard />
 
       <BackupCard />
 

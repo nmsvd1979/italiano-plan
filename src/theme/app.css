@@ -344,3 +344,8 @@ textarea.input.writing { resize: vertical; min-height: 140px; line-height: 1.5; 
 .offline { font-size: 14px; font-weight: 700; padding: 10px 12px; border-radius: var(--radius-md); background: var(--surface-2); }
 .offline-ready { background: var(--good-soft); color: var(--good); }
 .offline-pending { background: var(--warn-soft); color: var(--warn); }
+.net-tag { font-size: 11px; font-weight: 800; letter-spacing: 0.02em; padding: 2px 8px; border-radius: 999px; background: var(--warn-soft); color: var(--warn); white-space: nowrap; }
+.indicators { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: var(--text-dim); }
+.indicators li::before { content: "○ "; color: var(--text-faint); }
+.indicators li.ok::before { content: "● "; color: var(--good); }
+.indicators b { color: var(--text); }

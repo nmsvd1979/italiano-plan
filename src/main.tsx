@@ -4,9 +4,12 @@ import "@fontsource-variable/figtree";
 import "./theme/tokens.css";
 import "./theme/app.css";
 import { App } from "./App";
+import { registerServiceWorker } from "./app/updates";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <App />
   </StrictMode>,
 );
+
+registerServiceWorker();

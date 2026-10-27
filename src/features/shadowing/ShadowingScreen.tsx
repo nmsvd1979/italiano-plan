@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { useOnline } from "../../app/offline";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
@@ -54,8 +55,32 @@ function PickVideo({ unit, onPick }: { unit: string; onPick: (id: string) => voi
   );
 }
 
+/** Sin conexión no se intenta cargar YouTube: se avisa en vez de mostrar un cuadro roto. */
+function NeedsInternet({ unit }: { unit: string }) {
+  const meta = getUnit(unit);
+  return (
+    <>
+      <header className="screen-head">
+        <a className="back" href="#/" onClick={(e) => { e.preventDefault(); goBack(); }} aria-label="Volver">
+          <Icon name="arrowLeft" size={20} />
+        </a>
+        <div>
+          <div className="eyebrow">Unidad {meta?.n} · Shadowing</div>
+          <h1 className="title">Necesita internet</h1>
+        </div>
+      </header>
+      <section className="card stack">
+        <p className="sub">El shadowing usa videos de YouTube, que no se pueden ver sin conexión. Déjalo para cuando tengas internet; el resto de la sesión sí funciona sin conexión.</p>
+        <a className="btn" href="#/">Volver a Hoy</a>
+      </section>
+    </>
+  );
+}
+
 export function ShadowingScreen({ unit }: { unit: string }) {
+  const online = useOnline();
   const [picked, setPicked] = useState<string | null>(null);
+  if (!online) return <NeedsInternet unit={unit} />;
   if (!SHADOWING[unit] && !picked) return <PickVideo unit={unit} onPick={setPicked} />;
   return <ShadowingPlayer unit={unit} pickedId={picked} />;
 }
