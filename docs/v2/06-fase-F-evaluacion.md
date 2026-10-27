@@ -29,3 +29,9 @@ Puntuación por área; reglas de avance; recorte del registro; resumen del respa
 
 ## Criterios de aceptación
 Mini-prueba y prueba de fase funcionan sin conexión, guardan por área y el panel muestra datos reales.
+
+
+## Ajustes por la arquitectura final (`13`)
+- La **prueba de nivel A2** va al final del núcleo (u24, semana 32). Las pruebas de fase son seis (F1–F6 de `13`).
+- Hay una mini-prueba por **semana** del curso (incluidas las partes A y B), no por unidad.
+- El **diagnóstico de continuidad** (`14` §4) usa el mismo banco de ítems sin pista; no cuenta como mini-prueba.

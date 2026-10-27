@@ -60,5 +60,5 @@ Elegir una lista de frecuencia de italiano con licencia abierta y registrar lice
 3. **Muestra humana:** el usuario (o un hablante nativo que él consiga) revisa ~20 frases por fase; el resultado se registra en `docs/v2/revision-humana.md`. Si la tasa de error en la muestra supera 5 %, se repite la segunda pasada de la fase entera.
 4. **Recién entonces** se genera audio de esa fase (fase C).
 
-## G6. Orden de redacción
-u01–u04 primero (necesarios para probar la fase D), luego de 4 en 4 (una fase por PR). Cada PR trae contenido + tests + informe de léxico; no se mezcla con cambios de código.
+## G6. Orden de redacción (sin piloto)
+El contenido se escribe por **carriles temáticos**, no por unidades estudiadas primero: G0 correcciones de la auditoría (8 unidades por PR), G1 unidades nuevas u25–u28, G2 partición A/B, G3 vocabulario, G4 textos graduados, G5 ejercicios sin pista, G6 pronunciación, G7 puente B1 + u20 + u24 (`11`, §2–3). Cada PR trae contenido + tests + informe de léxico; no se mezcla con cambios de código. El inventario de lo que hay que escribir está en `13`, §5, y los hallazgos por id en `auditoria/_backlog.md`.

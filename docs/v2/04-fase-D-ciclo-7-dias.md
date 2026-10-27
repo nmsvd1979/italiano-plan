@@ -3,7 +3,7 @@
 Base pedagógica: sección «Arquitectura macro» y «Diseño micro» del documento de arquitectura. Aquí van las reglas de implementación.
 
 ## D1. Estructura
-Cada unidad tiene 7 días. Cada día es una lista de bloques; cada bloque tiene `core: boolean`, minutos estimados y una actividad. Se sustituye `sessionsOf()` por `daysOf(unit)`.
+Cada **semana del curso** (`CourseStep` de `13`: una unidad, o la semana A o B de una unidad partida) tiene 7 días. Cada día es una lista de bloques; cada bloque tiene `core: boolean`, minutos estimados y una actividad. Se sustituye `sessionsOf()` por `daysOf(step)`.
 
 | Día | Nombre | Bloques (minutos) — `core` marcado con * |
 |---|---|---|
@@ -28,19 +28,15 @@ Todo lo anterior funciona sin conexión (la sesión de input libre usa los texto
 - Palabras nuevas: máximo 8 por día; ninguna si la cola SRS supera 40 (regla de `02`).
 
 ## D4. Migración del progreso
-Leer `src/domain/progress.ts` y `storage.ts` para conocer las claves reales. Regla: unidades con las 6 sesiones antiguas completas → v2 «hecha»; unidades en curso → empiezan en el día 1 de v2 (se pierde el avance parcial, se avisa antes). No borrar las claves antiguas; la clave nueva es `italianPlan.v2.progress`. Prueba de migración con un respaldo real (`copia-*.json` del usuario si lo comparte; si no, un respaldo sintético).
+La migración completa, el diagnóstico y el sembrado del repaso están en `14-continuidad-progreso.md` (fase H2). Regla de D: el motor nunca borra ni modifica claves antiguas, y cualquier semana cuyo estado sea `dominada` se salta; el avance parcial **no se pierde** (las partes ya hechas cuentan). Antes de retirar `sessionsOf()` debe pasar la prueba de migración con los tres respaldos sintéticos de `14`, §8.
 
-## D5. Reclasificación de las unidades 20–23 (resultado de la auditoría: ver `08`)
-Evidencia: el programa B1 de una universidad (USC, verificado) lista el congiuntivo presente y passato, el periodo ipotetico de los tipos 1 y 3 y el discorso indiretto como contenido B1; el congiuntivo imperfetto en la hipótesis de tipo 2 no figura allí. Es una sola fuente; no es el MCER oficial. La meta declarada de la app es A2.
-
-Decisión (recomendada, el usuario revisa):
-- **u20 Discurso indirecto y conectores:** conectores = producción (A2). Discurso indirecto = reconocimiento.
-- **u21 Pronombres combinados:** reconocimiento, más producción solo de fórmulas fijas: *dammelo, dimmelo, te lo dico, glielo dico, me lo dai?*, *ce l'ho*.
-- **u22 Congiuntivo presente:** reconocimiento, más producción de fórmulas fijas: *penso che sia, credo che sia, spero che tu stia bene, non so se…*.
-- **u23 Hipótesis:** producción de *se* + presente (tipo 1) y de *se fossi in te…* (consejo); el congiuntivo imperfetto y el tipo 3 solo se reconocen.
-- Fase 6 pasa a llamarse «Puente a B1 (reconocimiento)».
-- Qué cambia en el ciclo para estas unidades: se eliminan los ejercicios de conjugación completa de paradigmas, se mantienen las preguntas de reconocimiento y los dictados, y los días liberados (D3 y D6 reducidos) se llenan con repaso acumulativo A1–A2 y lectura.
-- No se borra contenido: las tablas de la regla quedan como referencia.
+## D5. Reclasificación de las unidades 20–23 (decidida en la auditoría; ver `13` y `auditoria/_temario.md`)
+Evidencia: tres programas de curso (IIC Buenos Aires para A2; Ca' Foscari y USC para B1) ubican pronombres combinados, discorso indiretto, congiuntivo presente y passato y periodo ipotetico de tipo 2 y 3 en B1; los conectores y las oraciones con *se* aparecen en A2. No es el MCER oficial.
+Decisión (propuesta de Claude, el usuario revisa D-01):
+- **u20** queda en el núcleo, recortada a **conectores + opiniones simples + «mi ha detto che…» como fórmula**. Se agregan ejercicios (hoy tiene 10).
+- **u21, u22, u23** forman el **Puente a B1** (opcional, después de u24): reconocer, y producir solo fórmulas fijas (*dammelo, te lo dico, penso che sia, credo che abbia ragione, spero che tu stia bene, se fossi in te…*).
+- Se eliminan los ejercicios de conjugar paradigmas completos del congiuntivo; se conservan las tablas como referencia.
+- La fase 6 se llama «Puente a B1 (reconocimiento)».
 
 ## Pruebas
 - `daysOf()` devuelve 7 días y todo bloque tiene `minutes > 0`; suma de bloques `core` por día entre 12 y 18 min, suma total entre 25 y 35.

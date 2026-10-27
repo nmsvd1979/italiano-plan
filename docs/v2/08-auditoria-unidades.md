@@ -1,8 +1,19 @@
-# Auditoría unidad por unidad (u01–u24)
+# Auditoría unidad por unidad (u01–u24): resumen
 
-Alcance: **automática** sobre las 24 unidades (conteos reales del código, generados con un script de prueba temporal) y **lectura completa** de las lecciones u21, u22 y u23. La revisión lingüística de las otras 21 lecciones no se rehízo aquí: ya pasó por las revisiones de `docs/revision-italiano-fase*.md` y por los tests de contenido, pero el plan v2 exige repetirla con el protocolo de `07` (segunda pasada independiente) antes de generar audio, porque el audio fija los errores.
+**Estado (27-oct-2026): auditoría completa.** Las 24 unidades se leyeron enteras (lección, ejemplos, preguntas, ejercicios, vocabulario, diálogo, dictado, escritura, pronunciación) y se valoraron en 6 columnas. El juicio completo está en `auditoria/_veredictos.md`; las métricas automáticas en `auditoria/uXX.md` (`npm run audit`); el temario en `auditoria/_temario.md`; el backlog en `auditoria/_backlog.md`. Este archivo es solo el resumen y el cuadro de conteos.
 
-## Conteos
+## Resultado en una página
+- **El italiano de la app es sólido en forma.** En la lectura completa no encontré errores de gramática, ortografía ni concordancia que bloqueen el audio. Es una lectura de una sola persona: no sustituye a un nativo (`_backlog.md`, D-04 y la lista de frases dudosas).
+- **El problema es de diseño, no de corrección.** 19 de 24 unidades tienen al menos una pieza marcada para reescribir o reubicar, pero casi todas son reubicaciones (orden, partición, ejercicios sin pista, pronunciación), no reescrituras del italiano. Solo 7 de 24 lecciones (29 %) necesitan reescribir la regla.
+- **Sobrecarga:** siete unidades enseñan 4–5 temas a la vez → se parten en semana A y B.
+- **Huecos de temario graves:** deletreo y supervivencia, familia y profesiones, tiempo libre y *sapere*, restaurante → 4 unidades nuevas (u25–u28) y 6 bloques insertados.
+- **Nivel:** u21–u23 y parte de u20 son B1 según tres programas de curso → «Puente a B1» opcional; u20 queda en el núcleo recortada a conectores.
+- **La unidad más importante del A2 (u11, imperfetto vs passato prossimo) tiene solo 20 ejercicios.**
+- **Pronunciación:** desbalanceada (dobles en 9 unidades, acento recién en u11, cuatro unidades con pares vacíos).
+- **Input:** casi no hay lectura ni escucha graduadas; se agrega un texto por semana.
+- **Qué no se pudo auditar:** nativez del italiano, calidad de los videos de shadowing (u08, u10, u13, u14, u17, u19, u24 pendientes de tu escucha), frecuencia del vocabulario, eficacia real (la miden los datos de uso).
+
+## Conteos automáticos (de las métricas, para consulta)
 
 | Unidad | Ejemplos | Notice | Ejercicios | Fill | % fill | Regla (palabras aprox.) | Vocab | Dictado | Diálogo (líneas) | Marcas |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -31,21 +42,8 @@ Alcance: **automática** sobre las 24 unidades (conteos reales del código, gene
 | u23 | 6 | 3 | 16 | 11 | 69 % | 114 | 20 | 6 | 8 | vocab corto |
 | u24 | 6 | 3 | 21 | 16 | 76 % | 147 | 20 | 6 | 10 | casi todo fill, vocab corto |
 
-## Hallazgos que valen para todas las unidades
-1. **Vocabulario:** 20 palabras por unidad, sin frase ni etiqueta. Plan: ~50 con frase, género/artículo, sílaba tónica y etiqueta de transferencia (transparente, parecida, falso amigo, opaca). Ver `07`.
-2. **Ejercicios:** entre 50 % y 83 % son `fill` con el infinitivo entre paréntesis. Eso entrena conjugar con ayuda, no elegir la forma sin pista. Plan: la mitad de la práctica pasa a tipos sin pista (ordenar, traducir con varias respuestas aceptadas, corregir un error, transformar, completar diálogo) e intercalada con unidades anteriores. Las lecciones se conservan; los ejercicios nuevos van en `practice` de cada unidad.
-3. **Reglas largas:** la meta del diseño es <120 palabras en el bloque de regla; varias unidades pasan de 150. No se reescriben todas: se parte la regla en «observa» + «regla corta» + tabla, y lo que sobra pasa a «Más detalle» desplegable.
-4. **Dictado:** 6 frases por unidad; sube a 10 con niveles (huecos / parcial / completo).
-5. **Diálogos:** de 6 a 11 líneas, sirven como diálogo de entrada del día 1 (requieren audio y traducción por línea).
-6. **Ejemplos por lección:** 6–9; correcto para el mínimo, pero el plan suma textos graduados que reciclan la estructura.
+## Hallazgos por unidad
+Están en `auditoria/_veredictos.md` (matriz y notas) y por id en `auditoria/_backlog.md`. Los tres de la primera pasada siguen vigentes: u20 (10 ejercicios), u21 (ejercicio *piacere/prestare* incoherente) y u23 (pista de tiempo). Se suman los hallazgos de las demás unidades.
 
-## Hallazgos específicos
-- **u20:** solo 10 ejercicios (el mínimo del test) y 5 `fill`. Reforzar a ≥ 18 antes de reclasificar. Discurso indirecto = reconocimiento (ver `04`).
-- **u21 (leída completa):** contenido correcto en las formas (me lo, te lo, glielo, ce lo, ve lo, ne; posición con infinitivo e imperativo; concordancia del participio). Problemas: (a) el ejercicio «Ti piace la mia giacca? ___ presto domani.» mezcla *piacere* con *prestare* y no es coherente: cambiar a «Ti serve la mia giacca? Te la presto domani.»; (b) solo 8 de 16 son `fill`: bien, pero faltan ejercicios de *reconocimiento al oído* (el objetivo B1 es entender); (c) pasa a reconocimiento + fórmulas fijas.
-- **u22 (leída completa):** contenido correcto. La nota de transferencia es acertada (creer que + indicativo en español vs. congiuntivo en italiano). Problemas: 13 de 18 son `fill` de conjugación con infinitivo entre paréntesis; falta contraste «cuándo congiuntivo / cuándo indicativo» en ejercicios (hay una sola nota en la regla); el mismo sujeto (*di* + infinitivo) tiene 2 ejercicios. Pasa a reconocimiento + fórmulas fijas; sumar ejercicios de elegir entre indicativo y congiuntivo.
-- **u23 (leída completa):** contenido correcto; los tres tipos están bien descritos; el tipo 3 queda «solo reconocer» como ya dice la lección. Problemas: «Se potessi, ___ qui. (io, restare, condizionale)» revela la respuesta con la pista; dos ejercicios de `choice` repiten el mismo patrón de distractor (condizionale después de *se*). Reducir la producción del congiuntivo imperfetto, conservar la de *se* + presente y *se fossi in te*.
-- **Cobertura del nivel (única fuente verificada, no oficial):** el programa B1 de la USC lista congiuntivo presente/passato, periodo ipotetico de tipos 1 y 3, discorso indiretto; no lista futuro ni condizionale (coherente con A2) ni pronombres combinados. Por tanto u20, u22 y u23 son B1 en esa fuente; u21 queda sin respaldo de nivel. Antes de decidir definitivamente, comparar con una segunda fuente (Profilo della lingua italiana, A1–B2) cuando esté accesible.
-
-## Qué no se pudo auditar desde aquí
-- La corrección del italiano de las 24 lecciones, 488 palabras, diálogos y dictados por una persona nativa. Se mitiga con el protocolo de `07` y con la revisión humana de una muestra de ~20 frases dudosas (ya pendiente).
-- La calidad de los 48 videos de shadowing: siguen pendientes de escucha del usuario los de u08, u10, u13, u14, u17, u19 y u24.
+## Qué se hace con esto
+Todo lo anterior está convertido en el temario de `13-arquitectura-final.md` y en los carriles de `11-plan-maestro-vivo.md`. La continuidad con lo que ya estudiaste está en `14-continuidad-progreso.md`.

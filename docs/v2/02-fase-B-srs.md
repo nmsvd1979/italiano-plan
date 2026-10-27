@@ -63,3 +63,7 @@ Importar `data/quizlet-1400.json` como mazo opcional («Mazo extra»), solo tarj
 
 ## Criterios de aceptación
 Repaso diario de 5 minutos funcionando sin conexión; datos incluidos en el respaldo; los cuatro tipos de tarjeta; simulación en verde.
+
+
+## Siembra desde el progreso existente
+Las tarjetas de las unidades que ya estudiaste no empiezan como «nuevas»: las crea la fase H2 con estado y vencimiento sembrados (`14-continuidad-progreso.md` §6, tope de 25 vencimientos por día). El modelo de datos de esta fase debe permitir crear una tarjeta con estabilidad, dificultad, lapsos y vencimiento iniciales, y marcarla con `source: "seed"`.

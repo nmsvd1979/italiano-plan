@@ -11,12 +11,14 @@ Este directorio es la especificación para reconstruir la app como el mejor mate
 - `05-fase-E-produccion.md` — grabar y comparar, dictado, escritura, diálogo.
 - `06-fase-F-evaluacion.md` — mini-pruebas, prueba de fase, prueba de nivel, panel.
 - `07-fase-G-contenido.md` — esquemas de datos, cuotas por unidad, proceso de redacción y control de calidad.
-- `08-auditoria-unidades.md` — auditoría de las 24 unidades y correcciones concretas.
+- `08-auditoria-unidades.md` — resumen de la auditoría de las 24 unidades (el detalle está en `auditoria/`).
+- `13-arquitectura-final.md` — **el temario y el orden vigentes**: semanas, unidades nuevas, partes A/B, puente a B1, cómo se enseña cada cosa.
+- `14-continuidad-progreso.md` — cómo la app usa lo que ya estudiaste para no repetirte nada (diagnóstico, siembra del repaso, puesta al día).
 - `09-limitaciones-y-riesgos.md` — qué no se puede verificar desde la nube y cómo se mitiga.
 - `10-prompts-para-code.md` — un prompt por fase para pegar en Claude Code.
-- `11-plan-maestro-vivo.md` — **orden vigente de las fases**, puntos de control, reglas de propagación, backlog y registro de cambios. Si hay conflicto con el orden de abajo, manda este.
+- `11-plan-maestro-vivo.md` — **orden vigente de construcción**, carriles y dependencias, revisiones con datos, reglas de propagación y registro de cambios. Si hay conflicto con otro archivo, manda este (y `13` para el temario).
 - `12-protocolo-auditoria.md` — qué se audita, criterios, procedimiento y formato de hallazgos.
-- `auditoria/` — fichas por unidad y resumen generados por `npm run audit`.
+- `auditoria/` — métricas automáticas por unidad (`npm run audit`), `_veredictos.md` (juicio de las 24 unidades), `_temario.md` (macro), `_backlog.md`.
 
 ## Reglas que no cambian (CLAUDE.md manda)
 1. Nunca push a `main`. Una rama y un pull request por tema. Antes de abrir el PR: `npm test` y `npm run build` en verde.
@@ -34,14 +36,14 @@ Este directorio es la especificación para reconstruir la app como el mejor mate
 - Ritmo: lo que sea mejor, siempre con la opción de hacer más en un día (`04`).
 - Quizlet: se saca del plan diario solo cuando el repaso propio esté funcionando y sea mejor; mientras tanto se mantiene. El mazo de 1400 términos se puede importar como mazo extra.
 
-## Orden de pull requests (versión inicial; el orden vigente está en `11-plan-maestro-vivo.md`: la auditoría va primero y hay un piloto con u01–u04)
+## Orden de pull requests (resumen; el orden vigente y las dependencias están en `11-plan-maestro-vivo.md`, §3. No hay piloto: se construye todo y la app se puede usar en cada fusión)
 1. A — offline (PR propio; el usuario prueba en iPhone antes de seguir).
 2. B — SRS.
 3. C — audio (primero la prueba A/B, luego la generación en lote).
-4. D — ciclo de 7 días (depende de B y de que existan textos de G para al menos u01–u04).
+4. D — ciclo de 7 días (depende de H1, B y de la partición A/B de G2; usa el contenido existente como base mientras G escribe lo nuevo).
 5. E — producción.
 6. F — evaluación.
-7. G — contenido: corre en paralelo desde C, en PR de 4 unidades cada uno.
+7. G — contenido: corre en paralelo desde el principio, en carriles G0–G7 (`11`, §2). H1 (curso y datos) y H2 (continuidad con tu progreso) son fases nuevas.
 
 ## Estado actual del código (para no re-descubrirlo)
 - `vite.config.ts`: precache de `**/*.{js,css,html,woff2,png,mp3}` → 605 archivos, ~10,5 MB, 588 mp3, todo en la instalación del service worker.

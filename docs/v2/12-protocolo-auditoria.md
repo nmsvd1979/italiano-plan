@@ -1,5 +1,7 @@
 # Protocolo de auditoría (qué se revisa, cómo, con qué criterio y qué pasa con los hallazgos)
 
+**Estado (27-oct-2026): la primera auditoría completa está hecha.** Las 24 unidades se leyeron enteras en una sola pasada (`auditoria/_veredictos.md`), el temario se auditó contra tres programas (`auditoria/_temario.md`) y el backlog está en `auditoria/_backlog.md`. Lo que sigue pendiente de este protocolo: la **pasada B independiente** sobre lo que se reescriba, y la **muestra nativa**. Desde ahora, este procedimiento se aplica **en cada PR de contenido** (§6), no por bloques de unidades que se estudian primero.
+
 Esta auditoría es la clave del proyecto: la app tiene que ser el mejor material posible para aprender italiano, no solo material que ya está escrito. Todo se audita, de la unidad 1 a la 24 y de lo macro a lo micro. Nada se da por bueno por existir, por haberse pagado o por estar revisado en otra ronda.
 
 ## 1. Qué se audita (cinco niveles)
@@ -51,12 +53,12 @@ Todo candidato (contenido, función o actividad nueva) pasa por cinco preguntas;
 4. ¿Cuánto cuesta (minutos por unidad) y qué se saca a cambio? El tiempo es fijo: 30 min diarios, con modo de 15.
 5. ¿Cómo se mide que funcionó?
 
-## 6. Procedimiento por bloque de 4 unidades (se repite 6 veces)
-1. Regenerar las métricas automáticas.
-2. **Pasada de juicio A:** lectura completa de las 4 unidades con la ficha (todas las piezas). Salida: veredictos y hallazgos.
+## 6. Procedimiento por PR de contenido (se aplica a cada lote, no depende de estudiar nada antes)
+1. Regenerar las métricas automáticas (`npm run audit`) y los conteos de veredictos (`node scripts/check-veredictos.mjs`).
+2. **Pasada de juicio A:** lectura de lo que cambia con la ficha. Salida: veredictos y hallazgos (la lectura completa inicial ya existe).
 3. **Pasada B independiente:** otra sesión, sin ver la A, solo sobre italiano (corrección y naturalidad) y trampas del español. Salida: lista de dudas con confianza alta/media/baja.
 4. **Conciliación:** donde A y B difieren, se razona y se anota quién tiene razón; lo dudoso va a `docs/dudas-italiano.md`.
-5. **Síntesis:** los hallazgos entran al backlog (ver `11`) con severidad, esfuerzo y fase afectada.
+5. **Síntesis:** los hallazgos entran al backlog (`auditoria/_backlog.md`) con severidad, esfuerzo y fase afectada.
 6. **Revisión de plan:** se aplican las reglas de propagación de `11` y se registra qué cambió.
 
 ## 7. Formato del hallazgo
@@ -68,8 +70,8 @@ Solo decide el usuario lo que cambia el alcance: orden o contenido del temario, 
 Formato de cada decisión: contexto en una línea · 2 o 3 opciones con su consecuencia · recomendación · qué pasa en el plan según cada respuesta · qué se hará por defecto si no responde. Las decisiones se agrupan por bloque, no una por una.
 
 ## 9. Criterio de cierre de la auditoría
-- Las 24 fichas completas con veredicto en todas las piezas.
-- `_temario.md` terminado.
-- Cero hallazgos bloqueantes abiertos.
-- Backlog priorizado y el plan maestro actualizado con la revisión de plan final.
-- Pendiente humano claramente listado (muestra de italiano, videos, iPhone).
+- ✔ Las 24 unidades con veredicto en las seis columnas de la matriz (144 celdas).
+- ✔ `_temario.md` terminado.
+- ✔ Backlog priorizado y plan maestro actualizado (`11`, `13`, `14`).
+- ✔ Cero hallazgos bloqueantes de **forma** (errores de italiano) detectados en la lectura; esto no equivale a «revisado por un nativo».
+- ✘ Pendiente humano: muestra nativa (~20 frases), videos marcados, pruebas en el iPhone, pasada B independiente de lo reescrito.
