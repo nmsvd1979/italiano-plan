@@ -14,7 +14,7 @@ Fuente: `_veredictos.md` (lectura completa) y `_temario.md`. «Fase» es la de `
 | H-all-06 | Reglas largas | observar + regla corta + «más detalle» | G | M | abierto |
 | H-all-07 | Pares mínimos vacíos (u05, u19, u20, u21) y sin audio nativo en 5 unidades | secuencia nueva de contrastes (`13`) + audio | C, G | M | abierto |
 | H-all-08 | Input escaso: sin textos de lectura/escucha graduados | un texto graduado por semana, un tipo de texto A2 por unidad | G | A | abierto |
-| H-all-09 | Ejemplos argentinos para usuario chileno (u01, u10) | cambiar a Santiago/Valparaíso, español chileno | G | L | abierto |
+| H-all-09 | Ejemplos argentinos para usuario chileno (u01, u10) | cambiar a Santiago/Valparaíso, español chileno | G | L | u01 hecho (G0-1); u10 pendiente (G0-2) |
 | H-all-10 | Duplicados y palabras no enseñadas en el vocabulario | pasada de higiene del léxico (`07` G4) con informe | G | M | abierto |
 | H-all-11 | Sin comparación contra lista de frecuencia | script de G4; no declarar «alta frecuencia» lo no medido | G | M | abierto |
 | H-all-12 | Nada revisado por un nativo (no es posible) | protocolo de verificación con fuentes V1→V2→V3 (`_verificacion.md`); frases «sin confirmar» a `dudas-italiano.md` | Claude | A | en curso (V1 hecho en las 24 unidades) |
@@ -25,11 +25,11 @@ Fuente: `_veredictos.md` (lectura completa) y `_temario.md`. «Fase» es la de `
 | H-u01-01 | Falta *Come ti chiami?*, deletreo, acento | pasa a u25 | G | A | abierto |
 | H-u02-01 | Cinco temas en una unidad | partir A (artículos, avere, c'è) / B (piacere, plurales especiales, lugar) | G, D | A | abierto |
 | H-u03-01 | Cuatro temas | A (números, hora) / B (fechas, precios) | G, D | A | abierto |
-| H-u04-01 | Pronunciación con 3 palabras; diálogo de 35 palabras; falta *Il conto, per favore* | ampliar; r/rr aquí | G | M | abierto |
+| H-u04-01 | Pronunciación con 3 palabras; diálogo de 35 palabras; falta *Il conto, per favore* | ampliar; r/rr aquí | G | M | parcial: *Vuole qualcos'altro?* + palabra al vocabulario (G0-1); diálogo y pronunciación pendientes (G, G6) |
 | H-u05-01 | Cinco temas, diálogo de 26 palabras, pares vacíos | A / B, ampliar diálogo, pares nuevos | G, C | A | abierto |
 | H-u06-01 | Cinco temas; *bello/buono* y *quello* con artículo pesados | A / B; *bello/buono* se difiere a u12 | G | A | abierto |
 | H-u07-01 | Cuatro temas; irregulares se necesitan antes | A / B; fórmulas *andare, fare* desde u04 | G | A | abierto |
-| H-u08-01 | «non + mai/niente» mal redactado; *mi alleno* no enseñada | reescribir frase; sustituir palabra | G | M | abierto |
+| H-u08-01 | «non + mai/niente» mal redactado; *mi alleno* no enseñada | reescribir frase; sustituir palabra | G | M | **cerrado** (G0-1) |
 | H-u09-01 | Participios irregulares solo con pista | ejercicios sin pista y recuerdo | G | M | abierto |
 | H-u10-01 | Falta *piacere* en passato; ejemplo con Buenos Aires; pares repetidos | insertar *mi è piaciuto*; cambiar ejemplo; nuevo contraste | G | M | abierto |
 | H-u11-01 | Solo 20 ejercicios en la unidad más difícil del A2; falta *c'era / c'erano* | ≥ 40 ítems; insertar *c'era* | G | A | abierto |
