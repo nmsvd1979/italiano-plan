@@ -8,7 +8,7 @@
 | Voz del sistema | Depende de las voces instaladas en el iPhone; no se escucha desde la nube | Prueba A/B, selector de voz, audio nativo o sintético como principal |
 | Licencia de voces y listas | No se verificó ninguna voz neuronal ni lista de frecuencia | Comprobar ficha de licencia antes de usar; no usar lo dudoso |
 | Micrófono en PWA | Permisos y formatos de `MediaRecorder` no verificados en el iPhone del usuario | Modo sin grabación, selección de `mimeType`, prueba real |
-| Corrección del italiano | No hay hablante nativo en el flujo; el contenido lo redacta un modelo | Segunda pasada independiente, muestra humana, dudas documentadas, audio solo tras revisión |
+| Corrección del italiano | No hay hablante nativo ni será posible conseguirlo; el contenido lo redacta un modelo | Verificación con fuentes comprobables (V1 automático, V2 fuente, V3 segunda pasada; `auditoria/_verificacion.md`), dudas documentadas, audio solo de lo confirmado. **Riesgo residual:** naturalidad y registro que ninguna fuente escrita confirma |
 | Nivel MCER por contenido | Una sola fuente verificada (USC, programa B1) y no es el MCER oficial | Decisión del usuario sobre u20–u23, segunda fuente cuando sea accesible |
 | Eficacia pedagógica | La evidencia de producción y pronunciación es débil (`Principios`); los umbrales 75/70/80 % son criterio propio | Medir con datos reales y ajustar tras cuatro unidades |
 | Carga del plan | 7 días × 30 min es una estimación, no una medición | Registro de minutos (fase F) y modo corto |

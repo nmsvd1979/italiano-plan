@@ -23,7 +23,7 @@ El script se vuelve a correr después de cada cambio de contenido y se compara c
 
 **Juicio** (revisión por unidad, ficha `uXX.md`, tabla «Lista de juicio»): tema, observar, regla, transferencia al español, ejemplos, ejercicios, vocabulario, diálogo, dictado, escritura, pronunciación, shadowing, italiano, qué falta, impacto en el plan. Veredictos C / A / R / E (conservar, ajustar, reescribir, eliminar), cada uno con razón de una línea.
 
-**Humano** (no automatizable): corrección y naturalidad del italiano por un hablante nativo (muestra), escucha de los videos de shadowing marcados, prueba en el iPhone. Se piden al usuario en lotes pequeños y con instrucciones concretas.
+**Humano** (no automatizable): prueba en el iPhone y, solo si hace falta, la escucha de dos videos (u14 y u17 principales). La corrección del italiano **no** pasa por un nativo (no es posible): se verifica con fuentes comprobables (`auditoria/_verificacion.md`).
 
 ## 3. Criterios de juicio (los mismos para todas las piezas)
 1. **Objetivo:** ¿está alineado con el «Puedo…» de la unidad y con una tarea real?

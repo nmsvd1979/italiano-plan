@@ -58,6 +58,12 @@ Fases y puntos de control. Una semana = un ciclo de 7 días (`04`). «Estado»: 
 | P3 | | — | u23 | Hipótesis: *se fossi in te…* (consejo), tipo 2 reconocer, tipo 3 solo reconocer | existente reclasificada | *-ssi* (*avessi, fossi*) | carta de consejo |
 
 **Totales.** Núcleo: 32 semanas (32 × 7 = 224 días). Puente: 3 semanas más. Si estudias 30 min al día son ≈112 h en modo normal y ≈56 h en modo corto. Con «Hacer más hoy» (un día extra cuando quieras) se acorta; el calendario real depende de cuánto hagas, y se calcula con tu ritmo real (`06`).
+### Calendario y evidencia (D-02, revisada el 27-oct)
+- **Referencia externa:** Cambridge English da como guía **180–200 horas de aprendizaje guiado acumuladas para A2** y 350–400 para B1, «solo como orientación» y válidas para inglés partiendo de cero ([Cambridge, Guided learning hours](https://support.cambridgeenglish.org/hc/en-gb/articles/202838506-Guided-learning-hours)). No es una medida para italiano ni para hispanohablantes (el español acerca mucho el italiano), y «guiado» incluye clase, no solo estudio.
+- **Lectura honesta:** las ≈112 h del núcleo a 30 min diarios quedan por debajo de esa referencia, no por encima; por eso **no se recorta el temario** ni se dice que 32 semanas es «demasiado». Con la ventaja del español es plausible llegar a un A2 funcional con ese tiempo, pero **no está demostrado**: se mide con la prueba de nivel A2 de u24 y con los datos de uso (`11`, §4).
+- **Cuánto dura según tu ritmo** (núcleo ≈112 h): 3 h/semana → 37 semanas · 3,5 h (30 min diarios) → 32 · 5 h → 22 · 7 h (1 h diaria) → 16. «Hacer más hoy» mueve la fecha sin cambiar el contenido.
+- **Tu meta de 3 meses** (con 3–5 h por semana ≈ 40–65 h) **no alcanza para el núcleo completo**: cubre la fase F1 completa (7 semanas) y parte de F2 (hasta aproximadamente u06–u07). Si el plazo manda, el orden `COURSE` permite un **camino corto** (supervivencia + u25, u01–u08 + u09/u10 de pasado), pero el A2 completo requiere más semanas. Es una decisión tuya de plazo, no del contenido.
+
 **Unidades distintas:** 28 (24 originales + 4 nuevas) → ≈1.400 palabras con frase, más las fórmulas.
 
 ## 3. Cómo se enseña cada cosa (micro)

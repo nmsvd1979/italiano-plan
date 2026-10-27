@@ -52,12 +52,12 @@ Las pruebas existentes de `CLAUDE.md` se mantienen y se agregan: cada palabra ti
 6. **No inventar:** cualquier duda sobre la corrección del italiano va a `docs/dudas-italiano.md` con la frase y la razón de la duda, y esa frase no se genera en audio hasta resolverla.
 
 ## G4. Lista de frecuencia
-Elegir una lista de frecuencia de italiano con licencia abierta y registrar licencia y fuente en `docs/v2/lista-frecuencia.md` (no se eligió ni verificó ninguna). Uso: ordenar las ~50 palabras por unidad con 40 % de alta frecuencia general y 60 % del tema; completar `freqRank`. Si no se encuentra una lista con licencia clara, se omite `freqRank` y se ordena por criterio del tema.
+La lista de frecuencia ya se usó para verificar (`it_50k` de FrequencyWords, subtítulos de cine y TV; resultado en `auditoria/_verificacion.md` §2). Para ordenar las ~50 palabras por unidad se usa la misma lista solo como criterio de consulta (no se copia al repositorio; registrar licencia si se llegara a incluir) en `docs/v2/lista-frecuencia.md`. Uso: ordenar las ~50 palabras por unidad con 40 % de alta frecuencia general y 60 % del tema; completar `freqRank`. Si no se encuentra una lista con licencia clara, se omite `freqRank` y se ordena por criterio del tema.
 
 ## G5. Protocolo de calidad (obligatorio, porque el audio fija los errores)
 1. **Redacción** (Claude Code): una unidad completa en un commit.
 2. **Segunda pasada independiente:** otra sesión (sin ver el borrador original en su contexto) revisa solo con la lista de comprobación: concordancia de género/número, artículos (lo/il, un/uno, l'), preposiciones articuladas, geminadas, apóstrofos, tildes (è/é/à/ò/ù), participios y concordancia con *essere*, falsos amigos mal etiquetados, calcos del español. Cada hallazgo corrige o va a `docs/dudas-italiano.md`.
-3. **Muestra humana:** el usuario (o un hablante nativo que él consiga) revisa ~20 frases por fase; el resultado se registra en `docs/v2/revision-humana.md`. Si la tasa de error en la muestra supera 5 %, se repite la segunda pasada de la fase entera.
+3. **Verificación con fuentes** (reemplaza la muestra nativa, que no es posible): (V1) `scripts/verificar-fuentes.mjs` sobre todo el texto nuevo; (V2) cada frase hecha o dudosa se contrasta con una fuente italiana abierta (diccionario, Crusca, sitio institucional) y se anota URL y resultado en `docs/v2/revision-fuentes.md`; lo que no se confirma va a `docs/dudas-italiano.md` y **no recibe audio**. Si más del 5 % de las frases consultadas no se confirma, se repite la segunda pasada de la fase entera. Detalle y niveles de evidencia en `auditoria/_verificacion.md`.
 4. **Recién entonces** se genera audio de esa fase (fase C).
 
 ## G6. Orden de redacción (sin piloto)
