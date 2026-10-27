@@ -39,7 +39,7 @@ Lee docs/v2/06-fase-F-evaluacion.md. Implementa el registro de actividad, la min
 
 ## Prompt H1 — curso y datos
 ```
-Lee CLAUDE.md, docs/v2/13-arquitectura-final.md (§1, §2 y §4) y docs/v2/14-continuidad-progreso.md (§7). Implementa en la rama feat/curso-datos: src/content/course.ts con COURSE (orden, partes A/B, fases F1–F6, kind core|bridge), la marca parts en UnitMeta, las claves italianPlan.v2.* y BACKUP_VERSION 2 con importación de copias de versión 1. No cambies ningún id de unidad ni ninguna clave existente. Las unidades u25–u28 entran con ready:false. Pruebas: el orden de COURSE cubre las 28 unidades una vez (partes incluidas); una copia v1 se importa sin pérdida; exportar → importar es idempotente. Muéstrame en el PR la tabla de claves nuevas. npm test y npm run build en verde.
+Lee CLAUDE.md, docs/v2/13-arquitectura-final.md (§1, §2 y §4) y docs/v2/14-continuidad-progreso.md (§7). Implementa en la rama feat/curso-datos: src/content/course.ts con COURSE (orden, partes A/B, fases F1–F6, kind core|bridge), la marca parts en UnitMeta, las claves italianPlan.v2.* y BACKUP_VERSION 2 con importación de copias de versión 1. No cambies ningún id de unidad ni ninguna clave existente. Las unidades u25–u28 entran con ready:false. Agrega también la semilla de avance (docs/v2/14-continuidad-progreso.md §1, «Semilla de avance»): src/content/avance-inicial.ts, el botón opcional «Aplicar mi avance anterior» y sus pruebas de idempotencia y de no sobrescribir. Pruebas: el orden de COURSE cubre las 28 unidades una vez (partes incluidas); una copia v1 se importa sin pérdida; exportar → importar es idempotente. Muéstrame en el PR la tabla de claves nuevas. npm test y npm run build en verde.
 ```
 
 ## Prompt H2 — continuidad con el progreso (después de B y D)

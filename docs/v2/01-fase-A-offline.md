@@ -51,6 +51,13 @@ Mantener `autoUpdate`, pero no recargar con una sesión de ejercicios abierta: u
 - Playwright con Chromium (patrón del repo): instalar, descargar audio, pasar a offline, recargar, recorrer rutas, reproducir un mp3 con petición Range (comprobar respuesta 206).
 
 ## Prueba obligatoria en el iPhone (la hace el usuario; sin ella no se cierra la fase)
+**Variante que no toca tu progreso (recomendada, decisión del 27-oct):**
+1. En la app instalada: Ajustes → copia de seguridad → exportar (queda el archivo como seguro). No borres datos del sitio.
+2. Prueba de «instalación desde cero» en una **pestaña de Safari** (no en el icono): según WebKit, la app de la pantalla de inicio y Safari guardan datos por separado, así que esa prueba no mueve tu avance. Sigue los pasos 3 a 5 de abajo en esa pestaña (en una pestaña no hay «modo avión con la app cerrada»: cierra Safari del todo y ábrelo sin red).
+3. Si funciona, actualiza el icono instalado sin desinstalarlo: ábrelo con internet, vuelve a Hoy y toca «Usar sin conexión» para bajar el audio. Tu progreso queda en su sitio porque no se borra nada.
+4. Si algo falla o quieres confirmar que el icono instalado funciona en frío, usa la variante de abajo (esa **sí** borra los datos; solo con copia exportada).
+
+**Variante desde cero (borra todo; solo con copia exportada):**
 1. Desinstalar el icono antiguo. En Ajustes de iPhone → Safari → Avanzado → Datos de sitios web, borrar `nmsvd1979.github.io`.
 2. Abrir la dirección en Safari con Wi-Fi, «Añadir a pantalla de inicio», abrir desde el icono.
 3. Dejar la app abierta y con la pantalla encendida hasta ver «Listo para usar sin conexión» y el audio completo.
