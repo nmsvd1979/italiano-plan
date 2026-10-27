@@ -20,3 +20,18 @@ Cada PR de contenido anota aquí qué italiano nuevo o cambiado entró, con su n
 | Etiquetas de la tabla de pronombres: *él / lo*, *ella / la*, *ellos / los*… → *a él, a ella, a ellos…* y encabezado «a quién» | u13 | Solo español; los pronombres italianos no cambian | corrige la mezcla de clíticos del español con sujetos |
 
 **Fuera de G0 (es contenido nuevo, necesita fuente y va a G):** *mi è piaciuto* (u10), *c'era / c'erano* y más ejercicios (u11), pronombres tónicos (u12), *ci vuole* (u14), dividir la regla de u16 con «más detalle», reemplazar *Ecco a Lei* (u16). Las partes de u14/u15 son G2.
+
+## G1 · u25 Alfabeto, deletreo, acento y supervivencia (rama `feat/unidad-u25`)
+Contenido en `src/content/nuevas/u25.ts` (aún sin conectar a los registros; se conecta cuando el PR de curso y datos, H1, esté fusionado). Todas las palabras nuevas pasan V1 (lista de palabras o corpus de frecuencia).
+
+| Contenido | Evidencia | Fuente |
+|---|---|---|
+| 21 letras; nombres *a, bi, ci, di, e, effe, gi, acca, i, elle, emme, enne, o, pi, cu, erre, esse, ti, u, vi / vu, zeta*; letras extranjeras *i lunga, kappa, doppia vu, ics, i greca* | **V2, dos o más fuentes** | [Brooklyn College, alfabeto](https://academic.brooklyn.cuny.edu/modlang/carasi/courses/ITALIAN.COMMON.FILES/DISPENSE/dispensa.ALFABETO.htm), [Lingoda](https://www.lingoda.com/blog/it/alfabeto-italiano/), [Think in Italian](https://www.thinkinitalian.com/italian-alphabet/) (Lingoda escribe «qu» para la Q; las otras dos, «cu», que es lo que se enseña) |
+| *Non ho capito* · *Può ripetere, per favore?* / *Puoi ripetere* (formal / informal) · *Più piano, per favore* · *Come si dice…?* · *Che cosa significa…?* · *Come si scrive…?* | **V2, dos fuentes** | [Haverford OER, Cotto e mangiato](https://oer.haverford.edu/cottoemangiato1/chapter/unita-1-prima-di-cominciare/) y [LibreTexts, Voci](https://human.libretexts.org/Bookshelves/Languages/Italian/Voci%3A_Corso_elementare_di_lingua_e_culture_italiane_I_(Bozzato_Benetollo_and_Mugnai)/01%3A_Unita_1/1.01%3A_Unita_1_-_Prima_di_cominciare) (esta segunda no trae *puoi*) |
+| *Come ti chiami?* · *Mi chiamo…* · *Di dove sei?* · *Sono di…* | **V2, una fuente** | [Italiano Bello, introduce yourself](https://italiano-bello.com/en/italian-course/a1-course/introduce-yourself/) |
+| Acento: *caffè*, *tè* (grave) y *perché* (agudo); *è / e*, *sì / si*, *là / la*; sílaba fuerte penúltima en las palabras llanas | **V2, una a dos fuentes** | [Libreriamo](https://libreriamo.it/lingua-italiana/corretto-uso-accento-lingua-italiana/), [Sapere.it](https://sapere.virgilio.it/rubriche/perche-in-italiano-usiamo-due-accenti-diversi-6013). **No confirmado:** *dà / da* (no se usa en la unidad) |
+| Pares *sono/sano, tutto/tetto, cena/cina, vino/vano* | **V1** | corpus de frecuencia; son palabras comunes que solo se distinguen por la vocal |
+| *Piacere!*, *Perfetto!*, *Certo!*, *Scusa*, *Ah*, *a presto*, *in Cile*, deletreo en voz alta («Esse, a, enne…») | **V1** | Palabras comunes ya usadas en otras unidades; el deletreo usa los nombres de letras confirmados arriba |
+
+**Evitado a propósito (sin fuente):** *Come si chiama?* (formal) y *Di dov'è?* (siguen en u01 como estaban), *doppia enne* para deletrear dobles, ciudades para deletrear (solo se confirmó que se usan, no la lista completa), y *città / papà* como ejemplos de tilde (no los traía ninguna fuente abierta).
+**Sin audio todavía:** las palabras de pronunciación de u25 (*sono, sano, tutto, tetto, cena, cina, vino, vano, amico, casa, caffè, perché, tè, sì, là, otto*) se registran en `AUDIO_PENDING` al conectar la unidad, salvo las que ya tengan grabación nativa en el manifest.
