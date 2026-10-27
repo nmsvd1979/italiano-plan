@@ -3,6 +3,7 @@ import { requestPersistence } from "./persist";
 import { Progress, Step, buildSteps, isOffered } from "../domain/curriculum";
 import { parseISODate, startOfDay, toISODate } from "../domain/dates";
 import { doneKeys, keysOn } from "../domain/progress";
+import { applySeed } from "../domain/seed";
 import {
   CanDo, Completions, Settings, clearAll, clearProgress, getCanDo, getCompletions, getSettings, getSkipped,
   getStartDateISO, getStartUnit, removeKeyEverywhere, saveCanDo, saveSettings, saveSkipped, saveStartUnit,
@@ -34,6 +35,8 @@ interface AppState {
   setStartUnit: (n: number) => void;
   toggleCanDo: (unitId: string, index: number) => void;
   patchSettings: (patch: Partial<Settings>) => void;
+  /** Aplica la semilla de avance (domain/seed.ts) y devuelve cuántas marcas agregó. */
+  applyAdvance: () => number;
   resetProgress: () => void;
   resetAll: () => void;
 }
@@ -129,6 +132,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const patchSettings = useCallback((patch: Partial<Settings>) => setSettings(saveSettings(patch)), []);
 
+  const applyAdvance = useCallback(() => {
+    const added = applySeed(window.localStorage);
+    setCompletions(getCompletions());
+    return added;
+  }, []);
+
   const resetProgress = useCallback(() => {
     clearProgress();
     setCompletions({});
@@ -148,10 +157,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const value = useMemo<AppState>(
     () => ({
       startDate, today, steps: STEPS, progress, doneToday, completions, settings, canDo, setStart, setDone,
-      setSkipped, completeActivity, setStartUnit, toggleCanDo, patchSettings, resetProgress, resetAll,
+      setSkipped, completeActivity, setStartUnit, toggleCanDo, patchSettings, applyAdvance, resetProgress,
+      resetAll,
     }),
     [startDate, today, progress, doneToday, completions, settings, canDo, setStart, setDone, setSkipped,
-      completeActivity, setStartUnit, toggleCanDo, patchSettings, resetProgress, resetAll],
+      completeActivity, setStartUnit, toggleCanDo, patchSettings, applyAdvance, resetProgress, resetAll],
   );
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

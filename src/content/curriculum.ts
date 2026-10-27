@@ -27,6 +27,14 @@ export const PHASES: Phase[] = [
   { id: 6, title: "Hacia B1", goal: "Expresar opiniones e hipótesis y contar una experiencia completa (A2 sólido)." },
 ];
 
+/**
+ * Qué ítems de la unidad van a una de sus dos semanas (A o B): índices dentro de cada lista del contenido.
+ * Lo que no se asigna a una parte se asigna a ambas como repaso (docs/v2/13 §4), así que `{}` significa
+ * "todo en las dos". Los índices los asigna el carril de contenido (G2); aquí solo se fija la forma.
+ */
+export type UnitPartItems = Partial<Record<"examples" | "notice" | "exercises" | "vocab" | "dictation", number[]>>;
+export type UnitParts = { A: UnitPartItems; B: UnitPartItems };
+
 export interface UnitMeta {
   /** "u04": estable aunque se agreguen unidades. */
   id: string;
@@ -41,19 +49,29 @@ export interface UnitMeta {
   checkpoint: boolean;
   /** Contenido opcional ya escrito para esta unidad (las actividades sin contenido se omiten). */
   has: { vocab: boolean; writing: boolean; dictation: boolean; dialogue: boolean };
+  /** Solo en las unidades que el curso reparte en semana A y B (u02, u03, u05, u06, u07, u14, u15). */
+  parts?: UnitParts;
 }
 
-const u = (n: number, title: string, ready: boolean, canDo: string[]): UnitMeta => {
+/** Las unidades partidas en dos semanas (docs/v2/13 §1.2). Los ítems de cada parte los asigna el carril G2. */
+const SPLIT_UNITS: ReadonlySet<number> = new Set([2, 3, 5, 6, 7, 14, 15]);
+
+/**
+ * `phase` solo se pasa en las unidades nuevas (u25–u28), que no siguen el reparto de a cuatro;
+ * en las demás es la fase de siempre. `checkpoint` solo vale en u04…u24 (el test de fase actual).
+ */
+const u = (n: number, title: string, ready: boolean, canDo: string[], phase = Math.ceil(n / 4)): UnitMeta => {
   const id = `u${String(n).padStart(2, "0")}`;
   return {
     id,
     n,
     title,
-    phase: Math.ceil(n / 4),
+    phase,
     canDo,
     ready,
-    checkpoint: n % 4 === 0,
+    checkpoint: n <= 24 && n % 4 === 0,
     has: { vocab: !!getVocab(id), writing: !!getWriting(id), dictation: !!getDictation(id), dialogue: !!getDialogue(id) },
+    ...(SPLIT_UNITS.has(n) ? { parts: { A: {}, B: {} } } : {}),
   };
 };
 
@@ -167,6 +185,24 @@ export const UNITS: UnitMeta[] = [
     "Puedo contar una experiencia completa: presente, pasado y planes.",
     "Puedo resolver situaciones de viaje y de vida diaria con seguridad.",
   ]),
+  // u25–u28: su contenido lo escribe el carril G1. Hasta entonces, "pronto" y fuera del flujo diario.
+  // El orden de estudio está en COURSE (course.ts), no en este arreglo.
+  u(25, "Alfabeto, deletreo y supervivencia", false, [
+    "Puedo deletrear mi nombre y entender un deletreo.",
+    "Puedo pedir que me repitan o me hablen más despacio.",
+  ], 1),
+  u(26, "Personas y familia", false, [
+    "Puedo hablar de mi familia y describir a una persona.",
+    "Puedo decir a qué me dedico y de qué país soy.",
+  ], 2),
+  u(27, "Tiempo libre, gustos y clima", false, [
+    "Puedo contar qué hago en mi tiempo libre.",
+    "Puedo hablar del clima y de las estaciones.",
+  ], 2),
+  u(28, "Comer fuera", false, [
+    "Puedo entender un menú y pedir una comida completa.",
+    "Puedo avisar de una alergia o preferencia y pedir la cuenta.",
+  ], 3),
 ];
 
 export const READY_UNITS = UNITS.filter((x) => x.ready);

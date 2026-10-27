@@ -1,7 +1,8 @@
-import { KEYS, type KV } from "./storage";
+import { KEYS, KEYS_V2, type KV } from "./storage";
 
 // Copia de seguridad del progreso: un JSON con todas las claves italianPlan.* tal como están guardadas.
-// Solo agrega una clave nueva (lastBackup); no cambia ninguna existente.
+// Versión 2: incluye las claves italianPlan.v2.*. Las copias de versión 1 (solo claves antiguas) se siguen
+// importando: no hay nada que convertir porque las claves antiguas no cambian, solo se sellan como v2.
 
 /** Almacenamiento que además se puede recorrer (window.localStorage lo cumple). */
 export interface EnumerableKV extends KV {
@@ -9,7 +10,9 @@ export interface EnumerableKV extends KV {
   key(index: number): string | null;
 }
 
-export const BACKUP_VERSION = 1;
+export const BACKUP_VERSION = 2;
+/** La copia más vieja que todavía se importa. */
+export const MIN_BACKUP_VERSION = 1;
 export const BACKUP_APP = "italiano-plan";
 export const PREFIX = "italianPlan.";
 /** Cuándo se hizo la última copia en este dispositivo. No viaja dentro de la copia. */
@@ -55,6 +58,8 @@ const JSON_KEYS: Record<string, Shape> = {
   [KEYS.skipped]: "array",
   [KEYS.canDo]: "object",
   [KEYS.writing]: "object",
+  [KEYS_V2.progress]: "object",
+  [KEYS_V2.seedApplied]: "object",
 };
 
 const ISO_DAY = /^\d{4}-\d{2}-\d{2}$/;
@@ -144,7 +149,7 @@ export function parseBackup(text: string): ParseResult {
   if (typeof file.version !== "number" || !Number.isInteger(file.version)) {
     return { ok: false, error: "El archivo no indica la versión de la copia." };
   }
-  if (file.version !== BACKUP_VERSION) {
+  if (file.version < MIN_BACKUP_VERSION || file.version > BACKUP_VERSION) {
     return {
       ok: false,
       error: file.version > BACKUP_VERSION

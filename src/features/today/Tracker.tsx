@@ -5,7 +5,7 @@ import { href } from "../../app/route";
 import { currentUnit, unitProgress } from "../../domain/curriculum";
 import { Icon } from "../../ui/Icon";
 
-/** 24 barras, una por unidad: llena según lo avanzado; ★ marca los checkpoints; punteada = aún sin contenido. */
+/** Una barra por unidad: llena según lo avanzado; ★ marca los checkpoints; punteada = aún sin contenido. */
 export function Tracker() {
   const { steps, progress } = useApp();
   const current = currentUnit(steps, progress);
