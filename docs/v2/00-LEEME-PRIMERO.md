@@ -3,6 +3,7 @@
 Este directorio es la especificación para reconstruir la app como el mejor material posible para aprender italiano A0→A2 (con puente a B1 solo de reconocimiento). La base pedagógica y las fuentes están en el documento «Arquitectura pedagógica de la app de italiano» (Claude Docs: https://claude.ai/artifact/SRFK6vAwTiXuaWNeJK3pZj). Aquí está la parte técnica y de contenido, con criterios de aceptación.
 
 ## Archivos
+- `15-reparto-de-tareas.md` — quién hace cada PR (Code o Chat) y reglas para no pisarse.
 - `00-LEEME-PRIMERO.md` — reglas, decisiones del usuario, orden de pull requests, límites de la plataforma.
 - `01-fase-A-offline.md` — la app no cargaba sin conexión en el iPhone. Es lo primero.
 - `02-fase-B-srs.md` — repaso espaciado propio (reemplaza a Quizlet en el plan diario).
