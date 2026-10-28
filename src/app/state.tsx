@@ -4,6 +4,7 @@ import { Progress, Step, buildSteps, isOffered } from "../domain/curriculum";
 import { parseISODate, startOfDay, toISODate } from "../domain/dates";
 import { doneKeys, keysOn } from "../domain/progress";
 import { applySeed } from "../domain/seed";
+import { ensureSrs } from "../domain/srs";
 import {
   CanDo, Completions, Settings, clearAll, clearProgress, getCanDo, getCompletions, getSettings, getSkipped,
   getStartDateISO, getStartUnit, removeKeyEverywhere, saveCanDo, saveSettings, saveSkipped, saveStartUnit,
@@ -59,7 +60,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [today, setToday] = useState(() => startOfDay(new Date()));
 
   // Pide que el navegador no borre los datos de la app si hay poco espacio.
-  useEffect(() => { void requestPersistence(); }, []);
+  useEffect(() => { void requestPersistence(); ensureSrs(window.localStorage); }, []);
 
   // Si la app queda abierta pasada la medianoche, "hoy" se actualiza al volver a verla.
   useEffect(() => {

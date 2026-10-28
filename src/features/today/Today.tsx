@@ -10,6 +10,8 @@ import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice
 import { computeStreak, daysSinceLastStudy } from "../../domain/progress";
 import { backupAdvice } from "../../domain/backup";
 import { canOfferSeed } from "../../domain/seed";
+import { loadSrs } from "../../domain/srs";
+import { buildQueue, eligibleUnits } from "../../domain/srsQueue";
 import { getReview } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
 import { ProgressRing } from "../../ui/ProgressRing";
@@ -58,6 +60,7 @@ export function Today() {
       <OfflineBanner />
       <BackupReminder />
       <SeedOffer />
+      <SrsEntry />
 
       {unit && up && !finished && (
         <a href={href(`/unidad/${unit.id}`)} className="unit-head">
@@ -144,6 +147,26 @@ function SeedOffer() {
         Aplicar mi avance anterior (u01, sesiones 1–5)
       </button>
     </section>
+  );
+}
+
+/** Entrada al repaso espaciado: cuántas tarjetas hay para hoy. */
+function SrsEntry() {
+  const { today, progress, completions } = useApp();
+  // Depende de lo marcado: al hacer el bloque «Palabras nuevas» aparecen tarjetas nuevas.
+  const total = useMemo(() => {
+    const q = buildQueue({ state: loadSrs(window.localStorage), today, eligibleUnits: eligibleUnits(progress) });
+    return q.items.length;
+  }, [today, progress, completions]);
+  if (total === 0) return null;
+  return (
+    <a className="card flat review-card" href={href("/tarjetas")}>
+      <div>
+        <div className="eyebrow">Repaso espaciado</div>
+        <p className="sub">{plural(total, "tarjeta", "tarjetas")} para hoy. Unos 5 minutos.</p>
+      </div>
+      <Icon name="cards" size={22} />
+    </a>
   );
 }
 

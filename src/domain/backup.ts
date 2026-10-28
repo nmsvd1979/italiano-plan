@@ -1,4 +1,4 @@
-import { KEYS, KEYS_V2, type KV } from "./storage";
+import { KEYS, KEYS_V2, SRS_KEY, type KV } from "./storage";
 
 // Copia de seguridad del progreso: un JSON con todas las claves italianPlan.* tal como están guardadas.
 // Versión 2: incluye las claves italianPlan.v2.*. Las copias de versión 1 (solo claves antiguas) se siguen
@@ -43,6 +43,8 @@ export interface BackupSummary {
   reviewItems: number;
   writingTexts: number;
   phaseTests: number;
+  /** Tarjetas del repaso espaciado. */
+  srsCards: number;
   keys: number;
 }
 
@@ -60,6 +62,7 @@ const JSON_KEYS: Record<string, Shape> = {
   [KEYS.writing]: "object",
   [KEYS_V2.progress]: "object",
   [KEYS_V2.seedApplied]: "object",
+  [SRS_KEY]: "object",
 };
 
 const ISO_DAY = /^\d{4}-\d{2}-\d{2}$/;
@@ -76,6 +79,12 @@ function checkValue(key: string, value: string): string | null {
     const isArray = Array.isArray(parsed);
     const isObject = typeof parsed === "object" && parsed !== null && !isArray;
     if (JSON_KEYS[key] === "array" ? !isArray : !isObject) return `«${key}» tiene un formato inesperado`;
+    if (key === SRS_KEY) {
+      const srs = parsed as { version?: unknown; cards?: unknown };
+      if (srs.version !== 1 || typeof srs.cards !== "object" || srs.cards === null || Array.isArray(srs.cards)) {
+        return `«${key}» tiene un formato inesperado`;
+      }
+    }
     return null;
   }
   if (key === KEYS.startDate) return ISO_DAY.test(value) && !Number.isNaN(Date.parse(value)) ? null : `«${key}» no es una fecha`;
@@ -129,6 +138,7 @@ export function summarizeBackup(backup: Backup): BackupSummary {
     reviewItems: countKeys(json(KEYS.review)),
     writingTexts: countKeys(json(KEYS.writing)),
     phaseTests: Object.values(tests).reduce((n, list) => n + (Array.isArray(list) ? list.length : 0), 0),
+    srsCards: countKeys((json(SRS_KEY) as { cards?: unknown } | null)?.cards),
     keys: Object.keys(backup.data).length,
   };
 }

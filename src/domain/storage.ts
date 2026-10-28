@@ -47,6 +47,9 @@ export const KEYS_V2 = {
   seedApplied: "italianPlan.v2.seedApplied",
 } as const;
 
+/** Repaso espaciado propio (docs/v2/02 B2): tarjetas, historial y opciones, en un solo valor JSON. */
+export const SRS_KEY = "italianPlan.srs.v1";
+
 const defaultStore = (): KV => window.localStorage;
 
 function readJSON<T>(store: KV, key: string, fallback: T): T {
@@ -195,6 +198,7 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS.canDo);
   store.removeItem(KEYS.writing);
   store.removeItem(KEYS_V2.seedApplied);
+  store.removeItem(SRS_KEY);
 }
 
 export function clearAll(store: KV = defaultStore()): void {
