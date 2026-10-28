@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
-import { findExercise, unitNumber } from "../../content/grammar";
+import { exercisesOf, findExercise, unitNumber } from "../../content/grammar";
+import type { CoursePart } from "../../content/course";
+import { forPart } from "../../domain/parts";
 import { getUnit } from "../../content/curriculum";
 import { toISODate } from "../../domain/dates";
 import { Grade } from "../../domain/grading";
@@ -17,12 +19,16 @@ interface Props {
   mode: "practice" | "review" | "due";
   /** Unidad a practicar (solo en modo práctica). */
   unit?: string;
+  /** Semana A o B de una unidad partida: solo sus ejercicios (docs/v2/13 §4). */
+  part?: CoursePart | null;
+  /** Cuántos ejercicios (por defecto 10). */
+  size?: number;
 }
 
 const SIZE = 10;
 const DUE_SIZE = 8;
 
-export function PracticeScreen({ mode, unit = "" }: Props) {
+export function PracticeScreen({ mode, unit = "", part = null, size = SIZE }: Props) {
   const { today, progress, completeActivity } = useApp();
   const meta = getUnit(unit);
   const [review, setReview] = useState<ReviewState>(() => getReview());
@@ -32,13 +38,17 @@ export function PracticeScreen({ mode, unit = "" }: Props) {
     const learned = learnedUnits(progress);
     // Practicar una unidad por adelantado (sin haber hecho la lección) igual la incluye.
     const units = mode === "practice" ? [...new Set([...learned, unit])].filter((u) => unitNumber(u) <= unitNumber(unit)) : learned;
-    const candidates = candidatesOf(units);
+    let candidates = candidatesOf(units);
+    if (mode === "practice" && part) {
+      const mine = new Set(forPart(unit, part, "exercises", exercisesOf(unit)).map(({ item }) => item.id));
+      candidates = candidates.filter((c) => c.unit !== unitNumber(unit) || mine.has(c.id));
+    }
     const ids = mode === "due"
       ? dueCandidates(candidates, getReview(), today).slice(0, DUE_SIZE).map((c) => c.id)
       : buildSession({
         candidates,
         focusUnit: mode === "practice" ? unitNumber(unit) : null,
-        size: SIZE,
+        size,
         state: getReview(),
         today,
         seed: `${toISODate(today)}:${mode}:${unit}`,
@@ -63,6 +73,7 @@ export function PracticeScreen({ mode, unit = "" }: Props) {
   const onFinish = (s: Summary) => {
     if (mode === "practice") completeActivity("practice", unit);
     else if (mode === "review") completeActivity("review");
+    else completeActivity("due");
     setSummary(s);
   };
 

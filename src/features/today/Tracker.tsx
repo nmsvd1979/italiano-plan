@@ -2,15 +2,14 @@ import type { CSSProperties } from "react";
 import { UNITS } from "../../content/curriculum";
 import { useApp } from "../../app/state";
 import { href } from "../../app/route";
-import { currentUnit, unitProgress } from "../../domain/curriculum";
+import { unitCycleProgress } from "../../domain/cycle";
 import { Icon } from "../../ui/Icon";
 
 /** Una barra por unidad: llena según lo avanzado; ★ marca los checkpoints; punteada = aún sin contenido. */
 export function Tracker() {
-  const { steps, progress } = useApp();
-  const current = currentUnit(steps, progress);
+  const { course, current } = useApp();
   const cells = UNITS.map((unit) => {
-    const { done, total } = unit.ready ? unitProgress(unit, steps, progress) : { done: 0, total: 0 };
+    const { done, total } = unit.ready ? unitCycleProgress(unit.id, course) : { done: 0, total: 0 };
     const pct = total > 0 ? done / total : 0;
     const cls = [
       "tracker-cell",

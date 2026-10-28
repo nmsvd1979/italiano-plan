@@ -1,7 +1,8 @@
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { PHASES, UNITS, getPhase } from "../../content/curriculum";
-import { currentUnit, unitProgress } from "../../domain/curriculum";
+import { COURSE } from "../../content/course";
+import { blockMinutes, unitCycleProgress, weekProgress } from "../../domain/cycle";
 import { addDays, diffInDays, monthShort, toISODate } from "../../domain/dates";
 import { computeStreak, heatLevel, minutesOn } from "../../domain/progress";
 import { getPhaseTests } from "../../domain/storage";
@@ -19,7 +20,7 @@ function Bar({ label, done, planned }: { label: string; done: number; planned: n
 
 function Heatmap() {
   const { today, completions, steps } = useApp();
-  const minutesByKey = new Map(steps.map((x) => [x.key, x.activity.minutes]));
+  const minutesByKey = new Map([...steps.map((x): [string, number] => [x.key, x.activity.minutes]), ...blockMinutes()]);
   const first = addDays(today, -89);
   const start = addDays(first, -first.getDay()); // alineado a domingo: columnas = semanas
   const total = Math.ceil((diffInDays(today, start) + 1) / 7) * 7;
@@ -63,16 +64,20 @@ function Heatmap() {
 }
 
 export function Progress() {
-  const { startDate, today, steps, progress, completions } = useApp();
+  const { startDate, today, course, current, completions } = useApp();
   if (!startDate) return null;
 
   const streak = computeStreak(completions, today);
-  const unit = currentUnit(steps, progress);
+  const unit = current;
   const phase = getPhase(unit?.phase ?? PHASES.length);
-  const mineUnit = unit ? unitProgress(unit, steps, progress) : { done: 0, total: 0 };
-  const phaseSteps = steps.filter((s) => s.unit.phase === phase.id);
-  const phaseDone = phaseSteps.filter((s) => progress.done.has(s.key) || s.unit.n < progress.startUnit).length;
-  const allDone = steps.filter((s) => progress.done.has(s.key) || s.unit.n < progress.startUnit).length;
+  const mineUnit = unit ? unitCycleProgress(unit.id, course) : { done: 0, total: 0 };
+  const sum = (steps: typeof COURSE) => steps.reduce((acc, s) => {
+    const w = weekProgress(s, course);
+    return { done: acc.done + w.done, total: acc.total + w.total };
+  }, { done: 0, total: 0 });
+  const ready = COURSE.filter((s) => UNITS.find((u) => u.id === s.unit)?.ready);
+  const phaseTotals = sum(ready.filter((s) => s.phase === phase.id));
+  const allTotals = sum(ready);
   const tests = Object.entries(getPhaseTests()).map(([p, list]) => ({ phase: Number(p), last: list[list.length - 1] })).filter((t) => t.last);
   const readyCount = UNITS.filter((u) => u.ready).length;
 
@@ -90,9 +95,9 @@ export function Progress() {
           <span className="pill streak"><Icon name="flame" size={16} /> {streak} {streak === 1 ? "día seguido" : "días seguidos"}</span>
           {unit && <span className="pill accent">Unidad {unit.n} de {UNITS.length}</span>}
         </div>
-        {unit && <Bar label={`Unidad ${unit.n}`} done={mineUnit.done} planned={mineUnit.total} />}
-        <Bar label={`Fase ${phase.id} · ${phase.title}`} done={phaseDone} planned={phaseSteps.length} />
-        <Bar label={`Todo lo disponible (${readyCount} de ${UNITS.length} unidades)`} done={allDone} planned={steps.length} />
+        {unit && <Bar label={`Unidad ${unit.n} · bloques`} done={mineUnit.done} planned={mineUnit.total} />}
+        <Bar label={`Fase ${phase.id} · ${phase.title}`} done={phaseTotals.done} planned={phaseTotals.total} />
+        <Bar label={`Todo lo disponible (${readyCount} de ${UNITS.length} unidades)`} done={allTotals.done} planned={allTotals.total} />
         <Tracker />
       </section>
 

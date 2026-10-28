@@ -1,6 +1,7 @@
 import { UNITS } from "../content/curriculum";
 import { addDays, diffInDays, parseISODate, toISODate } from "./dates";
 import type { Progress } from "./curriculum";
+import { wordsSeen } from "./cycle";
 import { dayOf, cardId, type CardKind, type SrsCard, type SrsState } from "./srs";
 import { quizletItemId, wordsOfUnit, type QuizletEntry } from "./srsDeck";
 
@@ -49,7 +50,7 @@ export interface Queue {
 export interface QueueInput {
   state: SrsState;
   today: Date;
-  /** Unidades cuyo bloque «Palabras nuevas» ya se mostró, en orden de currículo. */
+  /** Unidades cuyo bloque «Palabras de la unidad» ya se mostró, en orden de currículo. */
   eligibleUnits: string[];
   /** Entradas del mazo extra (solo si está activado). */
   quizlet?: QuizletEntry[];
@@ -133,7 +134,7 @@ export function answeredToday(state: SrsState, today: Date): number {
   return state.log.filter((e) => dayOf(e.at) === iso).length;
 }
 
-/** Unidades cuyo bloque «Palabras nuevas» (la actividad de vocabulario) ya hiciste, en orden de currículo. */
-export function eligibleUnits(progress: Progress): string[] {
-  return UNITS.filter((u) => u.ready && progress.done.has(`${u.id}.s2.vocab`)).map((u) => u.id);
+/** Unidades cuyo bloque «Palabras de la unidad» ya hiciste (en el ciclo nuevo o en la app anterior), en orden de currículo. */
+export function eligibleUnits(progress: Pick<Progress, "done">): string[] {
+  return UNITS.filter((u) => u.ready && wordsSeen(u.id, progress.done)).map((u) => u.id);
 }

@@ -94,6 +94,7 @@ a { color: inherit; }
 .activities { display: flex; flex-direction: column; margin-top: 12px; }
 .activity { display: flex; gap: 12px; padding: 14px 0; border-top: 1px solid var(--border); }
 .activity:first-child { border-top: 0; padding-top: 4px; }
+.activity.soon { opacity: 0.6; }
 .activity-icon {
   flex: none; width: 38px; height: 38px; border-radius: 11px;
   background: var(--accent-soft); color: var(--accent-ink);

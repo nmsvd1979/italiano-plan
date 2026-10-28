@@ -91,7 +91,7 @@ describe("storage compatible con la app anterior", () => {
 
   it("settings con valores por defecto y parche parcial", () => {
     const store = memoryStore();
-    const base = { reminderTime: "20:00", reminderEnabled: false, theme: "system", sessionsPerWeek: 6, dailyMinutes: 30 };
+    const base = { reminderTime: "20:00", reminderEnabled: false, theme: "system", sessionsPerWeek: 6, dailyMinutes: 30, shortMode: false };
     expect(getSettings(store)).toEqual(base);
     saveSettings({ reminderEnabled: true, dailyMinutes: 60 }, store);
     expect(getSettings(store)).toEqual({ ...base, reminderEnabled: true, dailyMinutes: 60 });

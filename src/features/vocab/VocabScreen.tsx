@@ -3,6 +3,8 @@ import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import { getVocab } from "../../content/vocab";
+import type { CoursePart } from "../../content/course";
+import { forPart } from "../../domain/parts";
 import { toISODate } from "../../domain/dates";
 import { buildVocabQuiz, toQuizletText } from "../../domain/vocabQuiz";
 import { Icon } from "../../ui/Icon";
@@ -26,9 +28,10 @@ async function copy(text: string): Promise<boolean> {
   }
 }
 
-export function VocabScreen({ unit }: { unit: string }) {
+export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | null }) {
   const { today, completeActivity } = useApp();
-  const vocab = getVocab(unit);
+  const all = getVocab(unit);
+  const vocab = all && forPart(unit, part, "vocab", all).map(({ item }) => item);
   const meta = getUnit(unit);
   const [stage, setStage] = useState<"learn" | "quiz" | "done">("learn");
   const [summary, setSummary] = useState<Summary | null>(null);

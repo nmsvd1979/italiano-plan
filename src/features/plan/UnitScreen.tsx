@@ -1,17 +1,18 @@
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
-import { getPhase, getUnit, sessionsOf } from "../../content/curriculum";
+import { COURSE } from "../../content/course";
+import { getPhase, getUnit } from "../../content/curriculum";
 import { internalRoute } from "../../app/links";
-import { unitProgress } from "../../domain/curriculum";
+import { blockDone, daysOf, isSoon, unitCycleProgress } from "../../domain/cycle";
 import { Icon } from "../../ui/Icon";
 
 export function UnitScreen({ id }: { id: string }) {
-  const { steps, progress, canDo, toggleCanDo } = useApp();
+  const { steps, course, canDo, toggleCanDo } = useApp();
   const unit = getUnit(id);
   if (!unit) return <p className="sub">No existe esa unidad.</p>;
 
   const phase = getPhase(unit.phase);
-  const up = unitProgress(unit, steps, progress);
+  const up = unitCycleProgress(unit.id, course);
   const marked = canDo[unit.id] ?? [];
   const mine = steps.filter((s) => s.unit.id === unit.id);
 
@@ -61,25 +62,27 @@ export function UnitScreen({ id }: { id: string }) {
             </div>
           </section>
 
-          <section className="card stack">
-            <div className="eyebrow">Las 6 sesiones · {up.done} de {up.total} actividades</div>
-            {sessionsOf(unit).map((session) => (
-              <div key={session.index} className="session">
-                <b>Sesión {session.index}</b>
-                <ul>
-                  {session.activities.map((a) => {
-                    const key = `${unit.id}.s${session.index}.${a.id}`;
-                    const done = progress.done.has(key) || unit.n < progress.startUnit;
-                    return (
-                      <li key={key} className={done ? "done" : ""}>
-                        <Icon name={done ? "check" : a.icon} size={16} /> {a.name} <span>· {a.minutes} min</span>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            ))}
-          </section>
+          {COURSE.filter((c) => c.unit === unit.id).map((step) => (
+            <section key={step.id} className="card stack">
+              <div className="eyebrow">{step.part ? `Semana ${step.part}` : "Semana"} · 7 días · {up.done} de {up.total} bloques en total</div>
+              {daysOf(step).map((day) => (
+                <div key={day.day} className="session">
+                  <b>Día {day.day} · {day.name}</b>
+                  <ul>
+                    {day.blocks.map((b) => {
+                      const soon = isSoon(b, unit);
+                      const done = !soon && blockDone(step, day.day, b, course);
+                      return (
+                        <li key={b.id} className={done ? "done" : ""}>
+                          <Icon name={done ? "check" : b.icon} size={16} /> {b.name} <span>· {soon ? "en preparación" : `${b.minutes} min`}{b.core && !soon ? " · esencial" : ""}</span>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              ))}
+            </section>
+          ))}
         </>
       )}
     </>
