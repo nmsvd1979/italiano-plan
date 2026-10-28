@@ -1,5 +1,6 @@
 import { getDialogue } from "./dialogues";
 import { getDictation } from "./dictation";
+import { PARTS } from "./partes";
 import { getVocab } from "./vocab";
 import { getWriting } from "./writing";
 import {
@@ -53,7 +54,7 @@ export interface UnitMeta {
   parts?: UnitParts;
 }
 
-/** Las unidades partidas en dos semanas (docs/v2/13 §1.2). Los ítems de cada parte los asigna el carril G2. */
+/** Las unidades partidas en dos semanas (docs/v2/13 §1.2). Los ítems de cada parte están en partes.ts (carril G2). */
 const SPLIT_UNITS: ReadonlySet<number> = new Set([2, 3, 5, 6, 7, 14, 15]);
 
 /**
@@ -71,7 +72,7 @@ const u = (n: number, title: string, ready: boolean, canDo: string[], phase = Ma
     ready,
     checkpoint: n <= 24 && n % 4 === 0,
     has: { vocab: !!getVocab(id), writing: !!getWriting(id), dictation: !!getDictation(id), dialogue: !!getDialogue(id) },
-    ...(SPLIT_UNITS.has(n) ? { parts: { A: {}, B: {} } } : {}),
+    ...(SPLIT_UNITS.has(n) ? { parts: PARTS[id] ?? { A: {}, B: {} } } : {}),
   };
 };
 
