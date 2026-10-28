@@ -303,3 +303,15 @@ export function wordsSeen(unitId: string, done: ReadonlySet<string>): boolean {
   const places: [number, string][] = [[1, "words"], [3, "words3"], [4, "words4"], [5, "words5"]];
   return COURSE.some((s) => s.unit === unitId && places.some(([day, id]) => done.has(blockKey(s.id, day, id))));
 }
+
+/** Bloques recomendados (no esenciales) que existen y siguen pendientes en los días mostrados. En modo corto no se muestran, así que son 0. */
+export function recommendedLeft(slots: Slot[], p: CourseProgress, short: boolean): number {
+  if (short) return 0;
+  let n = 0;
+  for (const slot of slots) {
+    const unit = getUnit(slot.step.unit);
+    if (!unit) continue;
+    n += slot.day.blocks.filter((b) => !b.core && !isSoon(b, unit) && !blockDone(slot.step, slot.day.day, b, p)).length;
+  }
+  return n;
+}

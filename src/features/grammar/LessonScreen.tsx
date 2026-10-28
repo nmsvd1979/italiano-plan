@@ -8,6 +8,7 @@ import { forPart } from "../../domain/parts";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
 import { AudioButton } from "../../ui/AudioButton";
+import { VoiceNotice } from "../../ui/VoiceNotice";
 import { ExerciseRunner, RunnerItem } from "./ExerciseRunner";
 
 function RuleBlock({ block }: { block: Block }) {
@@ -56,6 +57,8 @@ export function LessonScreen({ unit, part }: { unit: string; part?: CoursePart |
           <h1 className="title">{lesson.title}</h1>
         </div>
       </header>
+
+      <VoiceNotice />
 
       <section className="card stack">
         <div className="eyebrow">Situación</div>

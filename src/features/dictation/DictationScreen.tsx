@@ -9,7 +9,8 @@ import { recordFailure } from "../../domain/srs";
 import { sentenceItemId } from "../../domain/srsDeck";
 import { Grade, gradeDictation } from "../../domain/grading";
 import { Icon } from "../../ui/Icon";
-import { speak, useItalianVoice } from "../../ui/speech";
+import { speak } from "../../ui/speech";
+import { VoiceNotice } from "../../ui/VoiceNotice";
 
 const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
 
@@ -18,7 +19,6 @@ export function DictationScreen({ unit, part }: { unit: string; part?: CoursePar
   const all = getDictation(unit);
   const items = all && forPart(unit, part, "dictation", all).map(({ item }) => item);
   const meta = getUnit(unit);
-  const voice = useItalianVoice();
   const [index, setIndex] = useState(0);
   const [text, setText] = useState("");
   const [grade, setGrade] = useState<Grade | null>(null);
@@ -62,15 +62,7 @@ export function DictationScreen({ unit, part }: { unit: string; part?: CoursePar
         </div>
       </header>
 
-      {voice === "no" && (
-        <p className="note">
-          <Icon name="info" size={16} />
-          <span>
-            Este dispositivo no tiene una voz italiana. En iPhone: Ajustes → Accesibilidad → Contenido leído → Voces → Italiano.
-            Sin voz italiana el dictado no sirve.
-          </span>
-        </p>
-      )}
+      <VoiceNotice needed="Sin voz italiana el dictado no sirve." />
 
       <section className="card stack">
         {finished ? (
