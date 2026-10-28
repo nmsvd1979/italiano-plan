@@ -38,6 +38,7 @@ function describe(s: BackupSummary): string[] {
     plural(s.reviewItems, "ejercicio en repaso", "ejercicios en repaso"),
     plural(s.writingTexts, "texto de escritura", "textos de escritura"),
     plural(s.phaseTests, "test de fase", "tests de fase"),
+    plural(s.srsCards, "tarjeta de repaso espaciado", "tarjetas de repaso espaciado"),
   ];
 }
 

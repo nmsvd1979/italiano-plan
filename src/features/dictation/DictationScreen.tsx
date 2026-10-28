@@ -3,6 +3,8 @@ import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import { getDictation } from "../../content/dictation";
+import { recordFailure } from "../../domain/srs";
+import { sentenceItemId } from "../../domain/srsDeck";
 import { Grade, gradeDictation } from "../../domain/grading";
 import { Icon } from "../../ui/Icon";
 import { speak, useItalianVoice } from "../../ui/speech";
@@ -30,6 +32,7 @@ export function DictationScreen({ unit }: { unit: string }) {
     if (grade || !text.trim()) return;
     const g = gradeDictation(text, item.it);
     setGrade(g);
+    if (g !== "correct") recordFailure(window.localStorage, { kind: "listen", itemId: sentenceItemId(unit, item.it), unit });
     setResults((r) => [...r, g]);
   };
 

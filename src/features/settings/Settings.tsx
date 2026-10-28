@@ -7,6 +7,7 @@ import { toISODate } from "../../domain/dates";
 import type { ThemeChoice } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
 import { BackupCard } from "./BackupCard";
+import { SrsCard } from "./SrsCard";
 import { OfflineCard } from "./OfflineCard";
 
 const THEMES: { value: ThemeChoice; label: string }[] = [
@@ -122,6 +123,8 @@ export function Settings() {
       </section>
 
       <OfflineCard />
+
+      <SrsCard />
 
       <BackupCard />
 

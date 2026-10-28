@@ -12,6 +12,7 @@ import { ShadowingScreen } from "./features/shadowing/ShadowingScreen";
 import { PhaseTestScreen } from "./features/checkpoint/PhaseTestScreen";
 import { Progress } from "./features/progress/Progress";
 import { Settings } from "./features/settings/Settings";
+import { ReviewScreen } from "./features/srs/ReviewScreen";
 import { Setup } from "./features/setup/Setup";
 import { Today } from "./features/today/Today";
 import { VocabScreen } from "./features/vocab/VocabScreen";
@@ -48,6 +49,7 @@ function Screens() {
   if (dialogue) return <DialogueScreen key={`dialogue-${dialogue[1]}`} unit={dialogue[1]} />;
   const test = route.match(/^\/test\/([1-6])$/);
   if (test) return <PhaseTestScreen key={`test-${test[1]}`} phase={Number(test[1])} />;
+  if (route === "/tarjetas") return <ReviewScreen key="srs" />;
   if (route === "/repaso") return <PracticeScreen key="review" mode="review" />;
   if (route === "/repaso-pendiente") return <PracticeScreen key="due" mode="due" />;
   return <Today />;

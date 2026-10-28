@@ -6,6 +6,7 @@ import { getUnit } from "../../content/curriculum";
 import { toISODate } from "../../domain/dates";
 import { Grade } from "../../domain/grading";
 import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
+import { recordFailure } from "../../domain/srs";
 import { ReviewState, buildSession, recordResult } from "../../domain/review";
 import { getReview, saveReview } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
@@ -50,6 +51,10 @@ export function PracticeScreen({ mode, unit = "" }: Props) {
 
   const onAnswer = (item: RunnerItem, grade: Grade) => {
     // Un "casi" (faltaba la tilde) cuenta como acierto en el puntaje pero vuelve a aparecer.
+    // El fallo en un ejercicio de completar también entra al repaso espaciado como tarjeta cloze.
+    if (grade !== "correct" && item.exercise.type === "fill") {
+      recordFailure(window.localStorage, { kind: "cloze", itemId: item.id, unit: item.id.slice(0, item.id.indexOf("-")) });
+    }
     const next = recordResult(review, item.id, grade === "correct", today);
     setReview(next);
     saveReview(next);
