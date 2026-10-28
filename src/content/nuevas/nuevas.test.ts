@@ -4,9 +4,10 @@ import { parseRich } from "../../ui/richText";
 import type { Choice, Exercise } from "../grammar/types";
 import { u25 } from "./u25";
 import { u26 } from "./u26";
+import { u27 } from "./u27";
 
 // Unidades nuevas (G1) aún no conectadas a los registros. Mismas reglas que grammar.test.ts y activities.test.ts.
-const NUEVAS = [u25, u26];
+const NUEVAS = [u25, u26, u27];
 
 const allStrings = (v: unknown): string[] =>
   typeof v === "string" ? [v] : Array.isArray(v) ? v.flatMap(allStrings) : v && typeof v === "object" ? Object.values(v).flatMap(allStrings) : [];

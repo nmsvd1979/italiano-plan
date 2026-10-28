@@ -54,3 +54,23 @@ Contenido en `src/content/nuevas/u26.ts`; se conecta sola a los registros porque
 **Evitado a propósito (sin fuente):** femeninos de profesiones (*la medica, la architetta*), *ingegnere / avvocato / cameriere* como parte de la lección, y *Com'è…?* como pregunta de descripción.
 **Sin audio todavía:** *cugino, figlia, figli, filo, fratello, moglie, molle, paglia, sorella* se registran en `AUDIO_PENDING`.
 **Dudas:** *Sono figlio unico* y *Hai fratelli o sorelle?* están construidas por gramática a partir de fuentes parciales (arriba). No se generará audio hasta que pasen una segunda pasada (G-R).
+
+## G1 · u27 Tiempo libre, gustos y clima (rama `feat/unidad-u27`)
+Contenido en `src/content/nuevas/u27.ts`; se conecta sola a los registros porque está en `NUEVAS`. Sigue `ready:false`. Todas las palabras pasan V1 (lista de palabras o corpus de frecuencia; *nuvoloso, camminare, ballare, nuotare, correre, suonare* comunes).
+
+| Contenido | Evidencia | Fuente |
+|---|---|---|
+| *Che cosa ti piace fare nel tempo libero?* · *Nel mio tempo libero, mi piace guardare film italiani* · *Mi piace molto giocare a calcio* · *fare escursioni / giardinaggio / dolci* · *suonare uno strumento* | **V2** | [ThinkInItalian, hobbies](https://www.thinkinitalian.com/talk-about-hobbies-and-interests-in-italian) |
+| *Nel tempo libero leggo molto* | **V2** | [FastItalian](https://fastitalianlearning.com/phrases/talking-about-hobbies/nel-tempo-libero-leggo) |
+| *Suono la chitarra* (como patrón de *suonare* + instrumento) | **V2 parcial** | Título de [FastItalian](https://fastitalianlearning.com/phrases/introducing-yourself/nel-tempo-libero-suono-la-chitarra); no se leyó el cuerpo de la página |
+| *Sapere* (+ *che / se / dove* / infinitivo) y *conoscere* (+ persona o lugar); *Scusi, sa dov'è la stazione?* · *So cucinare* · *Conosci già i miei fratelli?* · *Conosco bene Milano* · *Non lo so* | **V2** | [Italiano Bello, sapere vs conoscere](https://italiano-bello.com/en/italian-grammar/difference-between-sapere-and-conoscere/) |
+| Conjugación de *sapere* (so, sai, sa, sappiamo, sapete, sanno) y *conoscere* | **V1 / conocimiento general** | La fuente no escribe las formas; coinciden con la conjugación estándar. Segunda pasada pendiente (G-R) |
+| *Che tempo fa?* · *Fa caldo / freddo* · *Piove* · *Nevica* · *C'è il sole* · *È nuvoloso* · *C'è nebbia* · *Tira vento* | **V2** | [Middlebury, il tempo](https://cr.middlebury.edu/italian%20resources/progetto/lexis/tempo.htm) |
+| *Fa fresco / bello / brutto*; estaciones *la primavera, l'estate, l'autunno, l'inverno*; *C'è il sole, ma fa fresco* · *C'è un vento fortissimo* | **V2** | [Kaiwa, clima y estaciones](https://trykaiwa.com/blog/italian-weather-seasons-vocabulary), [FastItalian, tiempo](https://fastitalianlearning.com/phrases/talking-about-weather) |
+| *Ogni* (invariable, singular) · *qualche* (singular) · *alcuni/alcune* (plural) · *tutti i giorni* · *tutte le ragazze* · *altro/a/i/e* | **V2** | [FastItalian, indefinite adjectives](https://fastitalianlearning.com/learn/a2/indefinite-adjectives), [Middlebury, aggettivi indefiniti](https://cr.middlebury.edu/Italian%20Resources/progetto/grammar/topics/aggettivi_indefiniti.htm) (*altro* y *ogni* sin ejemplos propios; los ejemplos de la lección son construcciones directas) |
+| *s* sola entre vocales suele ser sonora; *ss* siempre sorda; pares *casa/cassa*, *rosa/rossa*; *mese/messe* | **V2 / V1** | [FastItalian, rossa](https://fastitalianlearning.com/tongue-twisters/double-consonants/rossa-ossa-fossa), [Libretexts, la pronuncia](https://human.libretexts.org/Bookshelves/Languages/Italian/SPUNTI%3A_Italiano_Elementare_1/01%3A_Unita_1/1.02%3A_La_pronuncia); *messe* solo V1 |
+| *Ho caldo* (tengo calor) frente a *Fa caldo* | **V1 / gramática** | *Avere* + sensación ya enseñado en el curso (*Ho fame*); sin fuente propia |
+| *Allora restiamo a casa*, *Un altro caffè?*, *Sai suonare?*, *No, ma so cantare un po'*, *Qualche volta* | **V1** | Construcciones directas con palabras frecuentes; segunda pasada pendiente |
+
+**Evitado a propósito (sin fuente):** *in estate / d'estate / in inverno* (no aparecen en las fuentes consultadas), *Com'è il tempo?* como respuesta enseñada, y la variación regional de la *s* más allá de «suele ser sonora» (la fuente dice «often voiced»).
+**Sin audio todavía:** *autunno, messe, primavera, rossa* se registran en `AUDIO_PENDING`.
