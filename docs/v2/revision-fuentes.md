@@ -74,3 +74,22 @@ Contenido en `src/content/nuevas/u27.ts`; se conecta sola a los registros porque
 
 **Evitado a propósito (sin fuente):** *in estate / d'estate / in inverno* (no aparecen en las fuentes consultadas), *Com'è il tempo?* como respuesta enseñada, y la variación regional de la *s* más allá de «suele ser sonora» (la fuente dice «often voiced»).
 **Sin audio todavía:** *autunno, messe, primavera, rossa* se registran en `AUDIO_PENDING`.
+
+## G1 · u28 Comer fuera (rama `feat/unidad-u28`)
+Contenido en `src/content/nuevas/u28.ts`; se conecta sola a los registros porque está en `NUEVAS`. Sigue `ready:false`. Todas las palabras pasan V1 salvo las indicadas.
+
+| Contenido | Evidencia | Fuente |
+|---|---|---|
+| Partes del menú *antipasto, primo, secondo, contorno, dolce* y su significado (primo = pasta, risotto o sopa; secondo = carne, aves o pescado; contorno = guarnición pedida aparte) | **V2, dos fuentes** | [italki, artículo 756](https://www.italki.com/en/article/756), [Migaku, restaurant phrases](https://migaku.com/blog/language-fun/italian-restaurant-phrases-order-food) |
+| *Il coperto* como cargo adicional en la cuenta · *Il coperto è di due euro* | **V2** | [italki](https://www.italki.com/en/article/756), [FastItalian, restaurant vocabulary](https://fastitalianlearning.com/blog/italian-restaurant-vocabulary) |
+| *Avete un tavolo per due?* · *Siamo in quattro — avete posto?* · *Volete sedervi vicino alla finestra?* | **V2** | [FastItalian, un tavolo per due](https://fastitalianlearning.com/phrases/at-the-restaurant/un-tavolo-per-due) |
+| *Ho prenotato per due persone* · *Posso vedere il menù?* · *Vorrei ordinare* · *Cosa consiglia?* · *Qual è il piatto del giorno?* · *È incluso nel prezzo?* · *Il servizio è incluso?* | **V2** | [FastItalian, restaurant vocabulary](https://fastitalianlearning.com/blog/italian-restaurant-vocabulary) |
+| *Vorrei ordinare una pizza margherita e un'acqua naturale* · *Posso avere il menu, per favore?* · *Che cosa consiglia come piatto principale?* · *C'è un dolce tipico della casa?* · *Posso avere il conto, per favore?* | **V2** | [Colanguage A1.39](https://italian.colanguage.com/syllabus/a1/39) |
+| *Il conto, per favore* · *Possiamo avere il conto?* · *Paghiamo separatamente* · *Posso pagare con carta?*; el conto llega solo si lo pides | **V2** | [FastItalian](https://fastitalianlearning.com/blog/italian-restaurant-vocabulary), [Migaku](https://migaku.com/blog/language-fun/italian-restaurant-phrases-order-food) |
+| *Sono vegetariano. Avete piatti senza carne?* · *Sono allergico alle noci* · *Ho un'allergia alle uova* · *Sono intollerante al lattosio* · *Non mangio carne di maiale* · *Senza glutine, per favore* · *Avete la pizza senza glutine?* | **V2** | [FastItalian, dietary restrictions](https://fastitalianlearning.com/phrases/dietary-restrictions), [FastItalian, restaurant vocabulary](https://fastitalianlearning.com/blog/italian-restaurant-vocabulary) |
+| Pares *nono/nonno*, *pane/panna*, *sete/sette* y la regla de que las dobles cambian la palabra | **V2 (nono/nonno), V1 (el resto)** | [FastItalian, nonna ninna nanna](https://fastitalianlearning.com/tongue-twisters/double-consonants/nonna-ninna-nanna) (*nono* ≠ *nonno*); las otras cuatro son palabras reales de la lista y el corpus |
+| *Le consiglio il risotto: è senza noci*, *Molto bene. Altro?*, *Subito!*, *Dopo, il conto…* | **V1** | Construcciones con palabras frecuentes; *Cosa consiglia?* ya es V2. Segunda pasada pendiente (G-R) |
+| *Il menù* frente a *la carta* (tarjeta): contraste de uso | **V1 / V2 parcial** | *Posso pagare con carta?* es V2; el contraste *carta* de menú no aparece en las fuentes (el menú se dice *menù*) |
+
+**Evitado a propósito (sin fuente):** *Cosa prende?* y *Cosa desidera?* (siguen en `dudas-italiano.md`; la fuente de Colanguage tampoco los trae), *Un tavolo per due, per favore* como frase única (se usa *Avete un tavolo per due?*), cifras de propina o de coperto por persona (la fuente dice 1–3 euros por persona, pero varía), y femeninos de profesiones.
+**Sin audio todavía:** ninguna palabra nueva de pronunciación necesita entrar en `AUDIO_PENDING`, salvo *nona*, que ya estaba. *Cameriere, dolce, conto, pasta, carne, pesce, nonna, nono, pane, panna, sete, sette* ya tienen audio.
