@@ -5,7 +5,7 @@ import { AVANCE_INICIAL } from "../content/avance-inicial";
 import { blockResources, blockRoute } from "../app/blockRoute";
 import {
   CourseProgress, PASS_RATIO, blockDone, blockKey, currentSlot, dayComplete, daysFor, daysOf, isSoon, remedialDays,
-  todaySlots, unitSettled, visibleBlocks, weekComplete, wordsSeen,
+  recommendedLeft, todaySlots, unitSettled, visibleBlocks, weekComplete, wordsSeen,
 } from "./cycle";
 import { MINI_SIZE, miniItems, miniPassed } from "./miniTest";
 import { forPart } from "./parts";
@@ -150,6 +150,29 @@ describe("Hacer más hoy", () => {
     const p = progress(all, { u01: [{ date: "d", correct: 8, total: 8, passed: true }] });
     expect(weekComplete(step("u01"), p)).toBe(true);
     expect(currentSlot(p)?.step.id).toBe("u02#A");
+  });
+});
+
+describe("mensaje de fin de día", () => {
+  it("con lo esencial hecho, cuenta los recomendados que quedan; en modo corto no quedan", () => {
+    const keys = doCore("u04", 1);
+    const p = progress(keys, {}, 4);
+    const shown = todaySlots(p, new Set(keys)).shown;
+    expect(shown[0].step.id).toBe("u04");
+    expect(shown.map((x) => x.day.day)).toEqual([1]);
+    // día 1: palabras, sonido y repetir las líneas son recomendados
+    expect(recommendedLeft(shown, p, false)).toBe(3);
+    expect(recommendedLeft(shown, p, true)).toBe(0);
+    const more = progress([...keys, blockKey("u04", 1, "words"), blockKey("u04", 1, "sound"), blockKey("u04", 1, "repeat")], {}, 4);
+    expect(recommendedLeft(shown, more, false)).toBe(0);
+  });
+
+  it("no cuenta los bloques «en preparación»", () => {
+    const keys = doCore("u04", 5);
+    const p = progress(keys);
+    const shown = [{ step: step("u04"), day: daysOf(step("u04"))[4] }];
+    // día 5: palabras y shadowing existen; texto y preguntas están en preparación
+    expect(recommendedLeft(shown, p, false)).toBe(2);
   });
 });
 

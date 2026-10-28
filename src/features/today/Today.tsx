@@ -4,7 +4,7 @@ import { getPhase, getUnit } from "../../content/curriculum";
 import { useApp } from "../../app/state";
 import { href } from "../../app/route";
 import {
-  Slot, blockDone, blockKey, dayComplete, isSoon, todaySlots, unitCycleProgress, visibleBlocks, weekComplete,
+  Slot, blockDone, blockKey, dayComplete, isSoon, recommendedLeft, todaySlots, unitCycleProgress, visibleBlocks, weekComplete,
 } from "../../domain/cycle";
 import { diffInDays, parseISODate, toISODate } from "../../domain/dates";
 import { computeStreak, daysSinceLastStudy } from "../../domain/progress";
@@ -33,6 +33,7 @@ export function Today() {
   const up = unit ? unitCycleProgress(unit.id, course) : null;
   const phase = getPhase(first?.step.phase ?? unit?.phase ?? 6);
   const allDone = shown.length > 0 && shown.every((s) => dayComplete(s.step, s.day, course));
+  const left = recommendedLeft(shown, course, settings.shortMode);
 
   return (
     <>
@@ -88,7 +89,12 @@ export function Today() {
           ))}
           {allDone && (
             <section className="card stack">
-              <div className="banner-done"><Icon name="check" size={18} /> Listo por hoy. Si tienes más tiempo, puedes seguir.</div>
+              <div className="banner-done">
+                <Icon name="check" size={18} />{" "}
+                {left > 0
+                  ? `Lo esencial de hoy está listo. ${left === 1 ? "Queda 1 bloque recomendado" : `Quedan ${left} bloques recomendados`}.`
+                  : "Listo por hoy. Si tienes más tiempo, puedes seguir."}
+              </div>
               <button type="button" className="btn block" onClick={() => setExtra((e) => e + 1)}>Hacer más hoy</button>
             </section>
           )}
