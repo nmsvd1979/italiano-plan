@@ -1,41 +1,38 @@
 import { useMemo, useState } from "react";
-import { PHASES, UNITS, getPhase } from "../../content/curriculum";
+import { COURSE, CORE_WEEKS, type CoursePart } from "../../content/course";
+import { getPhase, getUnit } from "../../content/curriculum";
 import { useApp } from "../../app/state";
-import { internalRoute, resolveResources, stepHint } from "../../app/links";
 import { href } from "../../app/route";
-import { Step, currentUnit, isFinished, pendingSteps, planDay, unitProgress } from "../../domain/curriculum";
-import { formatDateHuman } from "../../domain/dates";
-import { paceOf } from "../../domain/pace";
-import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
+import {
+  Slot, blockDone, blockKey, dayComplete, isSoon, todaySlots, unitCycleProgress, visibleBlocks, weekComplete,
+} from "../../domain/cycle";
+import { diffInDays, parseISODate, toISODate } from "../../domain/dates";
 import { computeStreak, daysSinceLastStudy } from "../../domain/progress";
 import { backupAdvice } from "../../domain/backup";
 import { canOfferSeed } from "../../domain/seed";
-import { loadSrs } from "../../domain/srs";
-import { buildQueue, eligibleUnits } from "../../domain/srsQueue";
-import { getReview } from "../../domain/storage";
+import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
+import { getPhaseTests, getReview } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
-import { ProgressRing } from "../../ui/ProgressRing";
-import { ActivityRow } from "./ActivityRow";
+import { BlockRow } from "./BlockRow";
 import { OfflineBanner } from "./OfflineBanner";
 import { Tracker } from "./Tracker";
 
-const BUDGETS = [15, 30, 60, 90];
-const MAX_PENDING = 3;
-
 const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`;
+const partLabel = (p?: CoursePart) => (p ? ` · semana ${p}` : "");
 
 export function Today() {
-  const { startDate, today, steps, progress, completions, settings } = useApp();
+  const { startDate, today, course, current, completions, doneToday, settings } = useApp();
+  const [extra, setExtra] = useState(0);
   if (!startDate) return null;
 
   const streak = computeStreak(completions, today);
-  const finished = isFinished(steps, progress);
-  const unit = currentUnit(steps, progress);
-  const phase = unit ? getPhase(unit.phase) : PHASES[PHASES.length - 1];
-  const pace = paceOf({
-    steps, progress, completions, start: startDate, today, sessionsPerWeek: settings.sessionsPerWeek,
-  });
-  const up = unit ? unitProgress(unit, steps, progress) : null;
+  const { shown, finished } = todaySlots(course, doneToday, extra);
+  const first = shown[0];
+  const unit = current ?? (first ? getUnit(first.step.unit) : undefined);
+  const weekNo = first?.step.week;
+  const up = unit ? unitCycleProgress(unit.id, course) : null;
+  const phase = getPhase(first?.step.phase ?? unit?.phase ?? 6);
+  const allDone = shown.length > 0 && shown.every((s) => dayComplete(s.step, s.day, course));
 
   return (
     <>
@@ -60,44 +57,55 @@ export function Today() {
       <OfflineBanner />
       <BackupReminder />
       <SeedOffer />
-      <SrsEntry />
 
-      {unit && up && !finished && (
+      {unit && first && !finished && (
         <a href={href(`/unidad/${unit.id}`)} className="unit-head">
-          <span className="eyebrow">Unidad {unit.n} de {UNITS.length} · Fase {phase.id} · sesión {Math.min(6, up.sessionsDone + 1)} de 6</span>
-          <b>{unit.title}</b>
+          <span className="eyebrow">
+            {first.step.kind === "bridge" ? "Puente a B1 (opcional)" : `Semana ${weekNo} de ${CORE_WEEKS}`} · Fase {phase.id}
+          </span>
+          <b>{getUnit(first.step.unit)?.title}{partLabel(first.step.part)}</b>
         </a>
       )}
+
+      <ShortModeCard />
+      <PhaseControl />
 
       {finished ? (
         <section className="card stack">
           <Icon name="trophy" size={28} />
           <h1 className="title">Terminaste lo disponible</h1>
           <p className="sub">
-            Completaste todas las unidades con contenido. Las demás figuran como "pronto" en el Plan: cuando se agreguen, aparecen aquí.
-            Mientras, el repaso mixto y el shadowing libre siguen disponibles.
+            Completaste todas las semanas con contenido. Las demás figuran como "pronto" en el Plan: cuando se agreguen, aparecen aquí.
+            Mientras, el repaso espaciado y el repaso mixto siguen disponibles.
           </p>
-          <a className="btn block" href={href("/repaso")} style={{ textAlign: "center", textDecoration: "none" }}>Repaso mixto</a>
+          <a className="btn block" href={href("/tarjetas")} style={{ textAlign: "center", textDecoration: "none" }}>Repaso espaciado</a>
         </section>
       ) : (
         <>
-          <DayCard />
+          <LegacyReview />
+          {shown.map((slot) => (
+            <DayCard key={`${slot.step.id}.${slot.day.day}`} slot={slot} />
+          ))}
+          {allDone && (
+            <section className="card stack">
+              <div className="banner-done"><Icon name="check" size={18} /> Listo por hoy. Si tienes más tiempo, puedes seguir.</div>
+              <button type="button" className="btn block" onClick={() => setExtra((e) => e + 1)}>Hacer más hoy</button>
+            </section>
+          )}
           {unit && up && (
             <section className="card">
               <div className="eyebrow">Tu avance</div>
-              <p className="sub" style={{ marginTop: 6 }}>{up.done} de {up.total} actividades de la unidad {unit.n}. Al terminarla podrás:</p>
+              <p className="sub" style={{ marginTop: 6 }}>
+                {up.done} de {up.total} bloques de la unidad {unit.n}. Al terminarla podrás:
+              </p>
               <ul className="candos">
                 {unit.canDo.map((t) => <li key={t}>{t}</li>)}
               </ul>
               <Tracker />
-              <div className={`pace pace-${pace.status}`}>
-                <b>
-                  {pace.status === "ontrack" && "Al día con tu ritmo"}
-                  {pace.status === "behind" && `Vas ${plural(pace.sessions, "sesión", "sesiones")} detrás del ritmo`}
-                  {pace.status === "ahead" && `Vas ${plural(pace.sessions, "sesión", "sesiones")} adelante del ritmo`}
-                </b>
-                {pace.endDate && <span>Con este ritmo terminas las unidades disponibles hoy el {formatDateHuman(pace.endDate)}.</span>}
-              </div>
+              <p className="note" style={{ marginTop: 12 }}>
+                <Icon name="info" size={16} />
+                <span>No hay calendario: si un día no estudias, mañana sigue lo mismo. {settings.shortMode ? "Hoy ves solo lo esencial." : ""}</span>
+              </p>
             </section>
           )}
         </>
@@ -150,139 +158,104 @@ function SeedOffer() {
   );
 }
 
-/** Entrada al repaso espaciado: cuántas tarjetas hay para hoy. */
-function SrsEntry() {
-  const { today, progress, completions } = useApp();
-  // Depende de lo marcado: al hacer el bloque «Palabras nuevas» aparecen tarjetas nuevas.
-  const total = useMemo(() => {
-    const q = buildQueue({ state: loadSrs(window.localStorage), today, eligibleUnits: eligibleUnits(progress) });
-    return q.items.length;
-  }, [today, progress, completions]);
-  if (total === 0) return null;
+/** «Hoy tengo poco tiempo»: solo los bloques esenciales. Se recuerda hasta que se cambie. */
+function ShortModeCard() {
+  const { settings, patchSettings, today } = useApp();
+  const iso = toISODate(today);
+  const weekend = today.getDay() === 0 || today.getDay() === 6;
+  const longShort = settings.shortMode && !!settings.shortSince && diffInDays(today, parseISODate(settings.shortSince)) >= 3;
   return (
-    <a className="card flat review-card" href={href("/tarjetas")}>
+    <section className="card flat stack">
+      <label className="row" style={{ alignItems: "center", gap: 10 }}>
+        <input
+          type="checkbox" checked={settings.shortMode} style={{ width: 24, height: 24 }}
+          onChange={(e) => patchSettings({ shortMode: e.target.checked, shortSince: e.target.checked ? iso : undefined })}
+        />
+        <span><b>Hoy tengo poco tiempo</b> · solo lo esencial (unos 15 min)</span>
+      </label>
+      {longShort && weekend && (
+        <p className="note">
+          <Icon name="info" size={16} />
+          <span>Llevas varios días en modo corto. Si hoy tienes más tiempo, puedes volver al modo normal.</span>
+        </p>
+      )}
+    </section>
+  );
+}
+
+/** Control de fase: aparece al terminar todas las semanas de una fase y todavía no lo hiciste. No bloquea nada. */
+function PhaseControl() {
+  const { course } = useApp();
+  const tests = getPhaseTests();
+  const due = [1, 2, 3, 4, 5].find((p) => {
+    const steps = COURSE.filter((s) => s.phase === p && s.kind === "core" && getUnit(s.unit)?.ready);
+    return steps.length > 0 && steps.every((s) => weekComplete(s, course)) && !(tests[p]?.length);
+  });
+  if (!due) return null;
+  return (
+    <a className="card flat review-card" href={href(`/test/${due}`)}>
       <div>
-        <div className="eyebrow">Repaso espaciado</div>
-        <p className="sub">{plural(total, "tarjeta", "tarjetas")} para hoy. Unos 5 minutos.</p>
+        <div className="eyebrow">Control F{due}</div>
+        <p className="sub">Terminaste la fase {due}. Haz la prueba de fase cuando quieras: no bloquea el plan.</p>
       </div>
-      <Icon name="cards" size={22} />
+      <Icon name="target" size={22} />
     </a>
   );
 }
 
-function DayCard() {
-  const { today, steps, progress, doneToday, settings, patchSettings, completions } = useApp();
-  const [extra, setExtra] = useState(0);
-  const budget = settings.dailyMinutes + extra;
-  const plan = planDay(steps, progress, doneToday, budget);
-
-  const pending = pendingSteps(steps, progress).slice(0, MAX_PENDING);
-  const doneCount = plan.items.filter((i) => i.done).length;
-  const complete = plan.items.length > 0 && doneCount === plan.items.length;
-  const minutes = plan.items.reduce((n, i) => n + i.step.activity.minutes, 0);
-
+/** Errores de ejercicios de otras prácticas que ya pueden volver (el repaso por cajas sigue funcionando). */
+function LegacyReview() {
+  const { today, progress, completions } = useApp();
   const since = daysSinceLastStudy(completions, today);
   const due = dueCandidates(candidatesOf(learnedUnits(progress)), getReview(), today).length;
-
-  const sameDayLessonAndPractice = plan.items.some((i) => i.step.activity.id === "lesson" && i.done)
-    && plan.items.some((i) => i.step.activity.id === "practice");
-
-  const row = (step: Step, done: boolean, canSkip: boolean) => {
-    const link = internalRoute(step);
-    return (
-      <ActivityRow
-        key={step.key}
-        step={step}
-        done={done}
-        resources={resolveResources(step)}
-        to={link?.to}
-        toLabel={link?.label}
-        hint={stepHint(step, steps, progress.startUnit)}
-        canSkip={canSkip}
-      />
-    );
-  };
-
+  if (due === 0) return null;
   return (
-    <>
-      {due > 0 && (
-        <a className="card flat review-card" href={href("/repaso-pendiente")}>
-          <div>
-            <div className="eyebrow">{since !== null && since >= 3 ? `Vuelves después de ${since} días` : "Repaso pendiente"}</div>
-            <p className="sub">
-              {since !== null && since >= 3
-                ? `Empieza con un repaso corto: ${plural(due, "ejercicio vencido", "ejercicios vencidos")}.`
-                : `${plural(due, "ejercicio que fallaste está", "ejercicios que fallaste están")} listo${due === 1 ? "" : "s"} para volver.`}
-            </p>
-          </div>
-          <Icon name="repeat" size={22} />
-        </a>
-      )}
+    <a className="card flat review-card" href={href("/repaso-pendiente")}>
+      <div>
+        <div className="eyebrow">{since !== null && since >= 3 ? `Vuelves después de ${since} días` : "Repaso pendiente"}</div>
+        <p className="sub">
+          {since !== null && since >= 3
+            ? `Empieza con un repaso corto: ${plural(due, "ejercicio vencido", "ejercicios vencidos")}.`
+            : `${plural(due, "ejercicio que fallaste está", "ejercicios que fallaste están")} listo${due === 1 ? "" : "s"} para volver.`}
+        </p>
+      </div>
+      <Icon name="repeat" size={22} />
+    </a>
+  );
+}
 
-      <section className="card">
-        <div className="hero-row">
-          <div>
-            <div className="eyebrow">Hoy · {formatDateHuman(today)}</div>
-            <h1 className="title" style={{ marginTop: 4 }}>{plan.items.length > 0 ? `${minutes} min de estudio` : "Nada por hacer hoy"}</h1>
-            <p className="sub">Elige cuánto tiempo tienes; el plan se ajusta.</p>
-          </div>
-          <ProgressRing done={doneCount} planned={plan.items.length} />
-        </div>
-
-        <div className="segmented budget" role="group" aria-label="Tiempo disponible hoy">
-          {BUDGETS.map((m) => (
-            <button key={m} type="button" aria-pressed={settings.dailyMinutes === m}
-              onClick={() => { patchSettings({ dailyMinutes: m }); setExtra(0); }}>
-              {m} min
-            </button>
-          ))}
-        </div>
-
-        {plan.items.length > 0 ? (
-          <div className="activities">
-            {plan.items.map(({ step, done }) => row(step, done, true))}
-          </div>
-        ) : (
-          <p className="sub" style={{ marginTop: 12 }}>
-            {plan.blocked
-              ? "Lo que sigue depende de algo que dejaste para después. Hazlo desde Pendientes y el plan continúa."
-              : "Ya no queda nada disponible por ahora."}
+/** Un día del ciclo: sus bloques según el modo (corto o normal). */
+function DayCard({ slot }: { slot: Slot }) {
+  const { course, settings } = useApp();
+  const unit = getUnit(slot.step.unit);
+  if (!unit) return null;
+  const blocks = visibleBlocks(slot.day, unit, settings.shortMode);
+  const live = blocks.filter((b) => !isSoon(b, unit));
+  const minutes = live.reduce((n, b) => n + b.minutes, 0);
+  const doneCount = live.filter((b) => blockDone(slot.step, slot.day.day, b, course)).length;
+  const complete = dayComplete(slot.step, slot.day, course);
+  const title = slot.day.day <= 7 ? `Día ${slot.day.day} de 7 · ${slot.day.name}` : slot.day.name;
+  return (
+    <section className="card">
+      <div className="hero-row">
+        <div>
+          <div className="eyebrow">{unit.title}{partLabel(slot.step.part)}</div>
+          <h2 className="title" style={{ marginTop: 4 }}>{title}</h2>
+          <p className="sub">
+            {minutes} min · {complete ? "esencial hecho" : `${doneCount} de ${live.length} hechos`}
           </p>
-        )}
-
-        {sameDayLessonAndPractice && (
-          <p className="note" style={{ marginTop: 12 }}>
-            <Icon name="info" size={16} />
-            <span>Hiciste la lección hoy. La práctica rinde más si la dejas para otro día; si prefieres, toca "Dejar para después".</span>
-          </p>
-        )}
-        {complete && (
-          <div className="banner-done"><Icon name="check" size={18} /> Listo por hoy. Si tienes más tiempo, sigue abajo.</div>
-        )}
-      </section>
-
-      {pending.length > 0 && (
-        <section className="card">
-          <div className="eyebrow">Pendientes</div>
-          <p className="sub">Cosas que dejaste para después. Hazlas cuando quieras.</p>
-          <div className="activities">{pending.map((step) => row(step, false, false))}</div>
-        </section>
-      )}
-
-      {plan.ahead.length > 0 && (
-        <section className="card flat">
-          <div className="eyebrow">Si tienes más tiempo</div>
-          <ul className="ahead">
-            {plan.ahead.map((s) => (
-              <li key={s.key}>{s.activity.name} <span>· {s.activity.minutes} min · U{s.unit.n}</span></li>
-            ))}
-          </ul>
-          <button type="button" className="btn block"
-            onClick={() => setExtra((e) => e + plan.ahead.reduce((n, s) => n + s.activity.minutes, 0))}>
-            Sumar a hoy ({plan.ahead.reduce((n, s) => n + s.activity.minutes, 0)} min)
-          </button>
-        </section>
-      )}
-    </>
+        </div>
+      </div>
+      <div className="activities">
+        {blocks.map((b) => (
+          <BlockRow
+            key={blockKey(slot.step.id, slot.day.day, b.id)}
+            step={slot.step} day={slot.day} block={b}
+            done={blockDone(slot.step, slot.day.day, b, course)}
+            soon={isSoon(b, unit)}
+          />
+        ))}
+      </div>
+    </section>
   );
 }

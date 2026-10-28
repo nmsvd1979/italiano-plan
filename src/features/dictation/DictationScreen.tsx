@@ -3,6 +3,8 @@ import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import { getDictation } from "../../content/dictation";
+import type { CoursePart } from "../../content/course";
+import { forPart } from "../../domain/parts";
 import { recordFailure } from "../../domain/srs";
 import { sentenceItemId } from "../../domain/srsDeck";
 import { Grade, gradeDictation } from "../../domain/grading";
@@ -11,9 +13,10 @@ import { speak, useItalianVoice } from "../../ui/speech";
 
 const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
 
-export function DictationScreen({ unit }: { unit: string }) {
+export function DictationScreen({ unit, part }: { unit: string; part?: CoursePart | null }) {
   const { completeActivity } = useApp();
-  const items = getDictation(unit);
+  const all = getDictation(unit);
+  const items = all && forPart(unit, part, "dictation", all).map(({ item }) => item);
   const meta = getUnit(unit);
   const voice = useItalianVoice();
   const [index, setIndex] = useState(0);

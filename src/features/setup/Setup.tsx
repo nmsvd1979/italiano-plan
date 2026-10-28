@@ -14,7 +14,7 @@ export function Setup() {
       <Icon name="target" size={30} />
       <h1 className="title">Empecemos</h1>
       <p className="sub">
-        Son 24 unidades, unos seis meses. No hay semanas fijas: el plan avanza contigo. Si un día no estudias, mañana sigue lo mismo; si tienes más tiempo, sigues con lo que viene. La fecha solo sirve para medir tu ritmo.
+        Cada semana del curso son 7 días de unos 30 minutos (15 en modo corto). No hay calendario fijo: el plan avanza contigo. Si un día no estudias, mañana sigue lo mismo; si tienes más tiempo, sigues con lo que viene. La fecha solo sirve para medir tu ritmo.
       </p>
       <div className="field">
         <label htmlFor="start">Fecha en que empiezas</label>

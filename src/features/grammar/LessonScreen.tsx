@@ -3,6 +3,8 @@ import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { Block, getLesson } from "../../content/grammar";
 import { getUnit } from "../../content/curriculum";
+import type { CoursePart } from "../../content/course";
+import { forPart } from "../../domain/parts";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
 import { AudioButton } from "../../ui/AudioButton";
@@ -27,7 +29,7 @@ function RuleBlock({ block }: { block: Block }) {
   );
 }
 
-export function LessonScreen({ unit }: { unit: string }) {
+export function LessonScreen({ unit, part }: { unit: string; part?: CoursePart | null }) {
   const { completeActivity } = useApp();
   const lesson = getLesson(unit);
   const meta = getUnit(unit);
@@ -35,7 +37,8 @@ export function LessonScreen({ unit }: { unit: string }) {
 
   if (!lesson) return <p className="sub">No existe la lección de esa unidad.</p>;
 
-  const noticeItems: RunnerItem[] = lesson.notice.map((exercise, i) => ({ id: `n${unit}-${i}`, exercise }));
+  const noticeItems: RunnerItem[] = forPart(unit, part, "notice", lesson.notice).map(({ item, index }) => ({ id: `n${unit}-${index}`, exercise: item }));
+  const examples = forPart(unit, part, "examples", lesson.examples).map(({ item }) => item);
 
   const finish = () => {
     completeActivity("lesson", unit);
@@ -72,7 +75,7 @@ export function LessonScreen({ unit }: { unit: string }) {
       <section className="card stack">
         <div className="eyebrow">Ejemplos</div>
         <div className="examples">
-          {lesson.examples.map((ex) => (
+          {examples.map((ex) => (
             <div key={ex.it} className="example">
               <div>
                 <div className="example-it">{ex.it}</div>

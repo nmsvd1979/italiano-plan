@@ -20,6 +20,10 @@ export interface Settings {
   sessionsPerWeek: number;
   /** Tiempo que dices tener hoy; se recuerda el último valor. */
   dailyMinutes: number;
+  /** «Hoy tengo poco tiempo»: Hoy muestra solo los bloques esenciales. Se recuerda hasta que se cambie. */
+  shortMode: boolean;
+  /** Día (AAAA-MM-DD) en que se activó el modo corto, para sugerir volver al normal. */
+  shortSince?: string;
 }
 
 export const KEYS = {
@@ -45,6 +49,8 @@ export const KEYS_V2 = {
   progress: "italianPlan.v2.progress",
   /** Marca de que la semilla de avance ya se aplicó en este dispositivo: no se vuelve a ofrecer ni a aplicar. */
   seedApplied: "italianPlan.v2.seedApplied",
+  /** Intentos de la mini-prueba de cada semana del curso (docs/v2/04 D3). */
+  miniTests: "italianPlan.v2.miniTests",
 } as const;
 
 /** Repaso espaciado propio (docs/v2/02 B2): tarjetas, historial y opciones, en un solo valor JSON. */
@@ -141,7 +147,7 @@ export function saveWritingText(unit: string, text: string, store: KV = defaultS
 }
 
 export function getSettings(store: KV = defaultStore()): Settings {
-  return { reminderTime: "20:00", reminderEnabled: false, theme: "system" as ThemeChoice, sessionsPerWeek: 6, dailyMinutes: 30, ...readJSON<Partial<Settings>>(store, KEYS.settings, {}) };
+  return { reminderTime: "20:00", reminderEnabled: false, theme: "system" as ThemeChoice, sessionsPerWeek: 6, dailyMinutes: 30, shortMode: false, ...readJSON<Partial<Settings>>(store, KEYS.settings, {}) };
 }
 
 export function saveSettings(patch: Partial<Settings>, store: KV = defaultStore()): Settings {
@@ -189,6 +195,27 @@ export function addPhaseTest(phase: number, result: PhaseTestResult, store: KV =
   return all;
 }
 
+/** Intento de mini-prueba de una semana del curso. */
+export interface MiniAttempt {
+  date: string;
+  correct: number;
+  total: number;
+  passed: boolean;
+}
+/** Id de paso del curso (`u04`, `u02#A`) → intentos en orden. */
+export type MiniTests = Record<string, MiniAttempt[]>;
+
+export function getMiniTests(store: KV = defaultStore()): MiniTests {
+  return readJSON<MiniTests>(store, KEYS_V2.miniTests, {});
+}
+
+export function addMiniAttempt(stepId: string, attempt: MiniAttempt, store: KV = defaultStore()): MiniTests {
+  const all = getMiniTests(store);
+  all[stepId] = [...(all[stepId] ?? []), attempt];
+  store.setItem(KEYS_V2.miniTests, JSON.stringify(all));
+  return all;
+}
+
 export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS.completions);
   store.removeItem(KEYS.review);
@@ -198,6 +225,7 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS.canDo);
   store.removeItem(KEYS.writing);
   store.removeItem(KEYS_V2.seedApplied);
+  store.removeItem(KEYS_V2.miniTests);
   store.removeItem(SRS_KEY);
 }
 

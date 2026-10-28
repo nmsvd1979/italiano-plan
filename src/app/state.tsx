@@ -1,23 +1,42 @@
 import { createContext, ReactNode, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { requestPersistence } from "./persist";
-import { Progress, Step, buildSteps, isOffered } from "../domain/curriculum";
+import { routeQuery } from "./route";
+import { getUnit, type UnitMeta } from "../content/curriculum";
+import { Progress, Step, buildSteps } from "../domain/curriculum";
+import {
+  CourseProgress, Block, blockDone, blockKey, blockMinutes, currentSlot, daysFor, isSoon, readySteps, type BlockKind,
+} from "../domain/cycle";
+import { miniPassed } from "../domain/miniTest";
 import { parseISODate, startOfDay, toISODate } from "../domain/dates";
 import { doneKeys, keysOn } from "../domain/progress";
 import { applySeed } from "../domain/seed";
 import { ensureSrs } from "../domain/srs";
 import {
-  CanDo, Completions, Settings, clearAll, clearProgress, getCanDo, getCompletions, getSettings, getSkipped,
+  CanDo, Completions, MiniTests, Settings, addMiniAttempt, clearAll, getMiniTests, clearProgress, getCanDo, getCompletions, getSettings, getSkipped,
   getStartDateISO, getStartUnit, removeKeyEverywhere, saveCanDo, saveSettings, saveSkipped, saveStartUnit,
   setCompletion, setStartDateISO,
 } from "../domain/storage";
 
 const STEPS = buildSteps();
+const BLOCK_MINUTES = blockMinutes();
+
+/** Actividad de la que avisa cada pantalla → tipo de bloque del ciclo que la cumple. */
+const KIND_OF_ACTIVITY: Record<string, BlockKind> = {
+  lesson: "lesson", practice: "practice", review: "review", shadow: "shadowing", vocab: "vocab", dialogue: "dialogue",
+  dictation: "dictation", pron: "pron", writing: "writing", srs: "srs",
+};
 
 interface AppState {
   startDate: Date | null;
   today: Date;
   steps: Step[];
   progress: Progress;
+  /** Progreso del ciclo de 7 días (marcas nuevas y equivalentes de la app anterior). */
+  course: CourseProgress;
+  /** Unidad de la semana en curso, o null si terminaste lo disponible. */
+  current: UnitMeta | null;
+  /** Registra un intento de mini-prueba. Devuelve si se aprobó (≥ 75 %). */
+  recordMini: (stepId: string, correct: number, total: number, markKey?: string) => boolean;
   /** Claves marcadas hoy. */
   doneToday: ReadonlySet<string>;
   completions: Completions;
@@ -57,6 +76,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [startUnit, setStartUnitState] = useState<number>(() => getStartUnit());
   const [canDo, setCanDo] = useState<CanDo>(() => getCanDo());
   const [settings, setSettings] = useState<Settings>(() => getSettings());
+  const [mini, setMini] = useState<MiniTests>(() => getMiniTests());
   const [today, setToday] = useState(() => startOfDay(new Date()));
 
   // Pide que el navegador no borre los datos de la app si hay poco espacio.
@@ -83,6 +103,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
     () => ({ done: doneKeys(completions), skipped: new Set(skippedList), startUnit }),
     [completions, skippedList, startUnit],
   );
+  const course = useMemo<CourseProgress>(() => ({ done: progress.done, startUnit, mini }), [progress.done, startUnit, mini]);
+  const current = useMemo(() => {
+    const slot = currentSlot(course);
+    return slot ? getUnit(slot.step.unit) ?? null : null;
+  }, [course]);
   const doneToday = useMemo(() => keysOn(completions, today), [completions, today]);
 
   const setStart = useCallback((iso: string) => {
@@ -107,15 +132,39 @@ export function AppProvider({ children }: { children: ReactNode }) {
     }
   }, [today, setSkipped]);
 
+  /**
+   * Una pantalla avisa que terminó su actividad. Si se abrió desde un bloque de Hoy (`?k=clave`), se marca ese bloque;
+   * si no, el primer bloque pendiente de ese tipo en la unidad. Devuelve false si no había nada que marcar.
+   */
   const completeActivity = useCallback((activityId: string, unitId?: string) => {
-    const step = STEPS.find((s) =>
-      s.activity.id === activityId && (!unitId || s.unit.id === unitId) &&
-      !progress.done.has(s.key) && isOffered(s, STEPS, { ...progress, skipped: new Set() }),
-    );
-    if (!step) return false;
-    setDone(step.key, true);
-    return true;
-  }, [progress, setDone]);
+    const k = routeQuery().get("k");
+    if (k && BLOCK_MINUTES.has(k)) {
+      if (!progress.done.has(k)) setDone(k, true);
+      return true;
+    }
+    const kind = KIND_OF_ACTIVITY[activityId];
+    if (!kind) return false;
+    for (const step of readySteps()) {
+      if (unitId && step.unit !== unitId) continue;
+      const unit = getUnit(step.unit);
+      if (!unit) continue;
+      for (const day of daysFor(step, course)) {
+        const block = day.blocks.find((b: Block) => b.kind === kind && !isSoon(b, unit) && !blockDone(step, day.day, b, course));
+        if (block) {
+          setDone(blockKey(step.id, day.day, block.id), true);
+          return true;
+        }
+      }
+    }
+    return false;
+  }, [progress, course, setDone]);
+
+  const recordMini = useCallback((stepId: string, correct: number, total: number, markKey?: string) => {
+    const passed = miniPassed(correct, total);
+    setMini(addMiniAttempt(stepId, { date: toISODate(today), correct, total, passed }));
+    if (markKey && BLOCK_MINUTES.has(markKey)) setCompletions(setCompletion(toISODate(today), markKey, true));
+    return passed;
+  }, [today]);
 
   const setStartUnit = useCallback((n: number) => {
     saveStartUnit(n);
@@ -141,6 +190,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const resetProgress = useCallback(() => {
     clearProgress();
+    setMini({});
     setCompletions({});
     setSkippedList([]);
     setCanDo({});
@@ -148,6 +198,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const resetAll = useCallback(() => {
     clearAll();
+    setMini({});
     setCompletions({});
     setSkippedList([]);
     setCanDo({});
@@ -157,11 +208,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo<AppState>(
     () => ({
-      startDate, today, steps: STEPS, progress, doneToday, completions, settings, canDo, setStart, setDone,
+      startDate, today, steps: STEPS, progress, course, current, recordMini, doneToday, completions, settings, canDo, setStart, setDone,
       setSkipped, completeActivity, setStartUnit, toggleCanDo, patchSettings, applyAdvance, resetProgress,
       resetAll,
     }),
-    [startDate, today, progress, doneToday, completions, settings, canDo, setStart, setDone, setSkipped,
+    [startDate, today, progress, course, current, recordMini, doneToday, completions, settings, canDo, setStart, setDone, setSkipped,
       completeActivity, setStartUnit, toggleCanDo, patchSettings, applyAdvance, resetProgress, resetAll],
   );
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

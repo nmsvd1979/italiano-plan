@@ -34,7 +34,7 @@ function fullSentence(r: Extract<Resolved, { kind: "cloze" }>): string {
 }
 
 export function ReviewScreen() {
-  const { today, progress } = useApp();
+  const { today, progress, completeActivity } = useApp();
   const units = useMemo(() => eligibleUnits(progress), [progress]);
   const [srs, setSrs] = useState<SrsState>(() => loadSrs(window.localStorage));
   const [ctx, setCtx] = useState<DeckContext>(emptyContext);
@@ -44,6 +44,7 @@ export function ReviewScreen() {
   const [index, setIndex] = useState(0);
   const [info, setInfo] = useState<{ postponed: number; blocked: boolean } | null>(null);
   const [done, setDone] = useState(false);
+  const marked = useRef(false);
   const latest = useRef(srs);
   latest.current = srs;
 
@@ -85,6 +86,15 @@ export function ReviewScreen() {
     // Una sola vez cuando el mazo está listo.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ready]);
+
+  // Terminar la sesión (o no tener nada que repasar) cumple el bloque «Repaso espaciado» del día, una sola vez.
+  useEffect(() => {
+    if (ready && done && !marked.current) {
+      marked.current = true;
+      completeActivity("srs");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ready, done]);
 
   const commit = (next: SrsState) => {
     saveSrs(next, window.localStorage);
@@ -133,7 +143,7 @@ export function ReviewScreen() {
             {batch.length > 0
               ? `Respondiste ${batch.length} tarjetas. Llevas ${answered} hoy.`
               : units.length === 0 && Object.keys(srs.cards).length === 0
-                ? "Las tarjetas nuevas salen de las palabras del bloque «Palabras nuevas» de cada unidad. Haz ese bloque en Hoy y vuelve."
+                ? "Las tarjetas nuevas salen de las palabras del bloque «Palabras de la unidad». Haz ese bloque en Hoy y vuelve."
                 : "No quedan tarjetas vencidas ni palabras nuevas para hoy."}
           </p>
           {answered >= LIMITS.warnAt && (

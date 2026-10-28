@@ -14,7 +14,7 @@ function wasDismissed(): boolean {
 
 /** Aviso en Hoy para bajar el audio y poder usar la app sin conexión. */
 export function OfflineBanner() {
-  const { steps, progress } = useApp();
+  const { current } = useApp();
   const audio = useAudioDownload();
   const online = useOnline();
   const [dismissed, setDismissed] = useState(wasDismissed);
@@ -53,7 +53,7 @@ export function OfflineBanner() {
           </p>
           {audio.message && <p className="note"><Icon name="info" size={16} /><span>{audio.message}</span></p>}
           <div className="row">
-            <button type="button" className="btn primary" disabled={!online} onClick={() => void startAudioDownload(audioPriorityUnits(steps, progress))}>
+            <button type="button" className="btn primary" disabled={!online} onClick={() => void startAudioDownload(audioPriorityUnits(current))}>
               {audio.done > 0 ? "Reanudar descarga" : "Usar sin conexión"}
             </button>
             <button type="button" className="chip" onClick={() => { try { window.sessionStorage.setItem(DISMISSED, "1"); } catch { /* sin sessionStorage: solo se oculta ahora */ } setDismissed(true); }}>

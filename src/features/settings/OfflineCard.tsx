@@ -16,7 +16,7 @@ export function readyMessage(appReady: boolean, audioDone: boolean): string {
 }
 
 export function OfflineCard() {
-  const { steps, progress } = useApp();
+  const { current } = useApp();
   const offline = useOfflineStatus();
   const audio = useAudioDownload();
   const persistent = usePersistence();
@@ -72,7 +72,7 @@ export function OfflineCard() {
               <button type="button" className="btn" onClick={pauseAudioDownload}>Pausar</button>
             ) : (
               !audioDone && (
-                <button type="button" className="btn primary" onClick={() => void startAudioDownload(audioPriorityUnits(steps, progress))}>
+                <button type="button" className="btn primary" onClick={() => void startAudioDownload(audioPriorityUnits(current))}>
                   {audio.phase === "paused" || audio.done > 0 ? "Reanudar descarga" : "Usar sin conexión"}
                 </button>
               )

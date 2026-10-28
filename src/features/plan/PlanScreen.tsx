@@ -1,23 +1,23 @@
 import { useApp } from "../../app/state";
 import { goBack, href } from "../../app/route";
 import { PHASES, UNITS, UnitMeta } from "../../content/curriculum";
-import { currentUnit, unitProgress } from "../../domain/curriculum";
+import { unitCycleProgress, unitSettled } from "../../domain/cycle";
 import { Icon } from "../../ui/Icon";
 
 export function PlanScreen() {
-  const { steps, progress } = useApp();
-  const current = currentUnit(steps, progress);
+  const { course, current } = useApp();
   // La siguiente es la primera unidad disponible, sin avance, después de la actual.
-  const nextId = UNITS.find((u) => u.ready && current && u.n > current.n && unitProgress(u, steps, progress).done === 0)?.id;
+  const nextId = UNITS.find((u) => u.ready && current && u.n > current.n && unitCycleProgress(u.id, course).done === 0)?.id;
 
   const state = (unit: UnitMeta): { label: string; cls: string; detail: string } => {
     if (!unit.ready) return { label: "Pronto", cls: "soon", detail: "Aún sin contenido" };
-    const up = unitProgress(unit, steps, progress);
-    if (unit.n < progress.startUnit) return { label: "Sabida", cls: "done", detail: "Marcada al empezar" };
-    if (up.total > 0 && up.done === up.total) return { label: "Completa", cls: "done", detail: `${up.sessionsDone} de 6 sesiones` };
-    if (unit.id === current?.id) return { label: "Actual", cls: "current", detail: `${up.sessionsDone} de 6 sesiones` };
+    const up = unitCycleProgress(unit.id, course);
+    const detail = `${up.done} de ${up.total} bloques`;
+    if (unit.n < course.startUnit) return { label: "Sabida", cls: "done", detail: "Marcada al empezar" };
+    if (unitSettled(unit, course) || (up.total > 0 && up.done === up.total)) return { label: "Completa", cls: "done", detail };
+    if (unit.id === current?.id) return { label: "Actual", cls: "current", detail };
     const label = up.done > 0 ? "En curso" : unit.id === nextId ? "Siguiente" : "Más adelante";
-    return { label, cls: "next", detail: `${up.sessionsDone} de 6 sesiones` };
+    return { label, cls: "next", detail };
   };
 
   return (
@@ -27,14 +27,14 @@ export function PlanScreen() {
           <Icon name="arrowLeft" size={20} />
         </a>
         <div>
-          <div className="eyebrow">24 unidades · unos 6 meses a tu ritmo</div>
+          <div className="eyebrow">{UNITS.length} unidades · 32 semanas de núcleo</div>
           <h1 className="title">Plan completo</h1>
         </div>
       </header>
 
       <p className="sub">
-        Cada unidad son 6 sesiones. Avanzas a tu ritmo: si un día no estudias, mañana sigue lo mismo; si tienes más tiempo,
-        sigues con lo que viene. Las unidades con "pronto" se están preparando.
+        Cada semana del curso son 7 días de unos 30 minutos (15 en modo corto). Avanzas a tu ritmo: si un día no estudias,
+        mañana sigue lo mismo; si tienes más tiempo, puedes hacer más hoy. Las unidades con "pronto" se están preparando.
       </p>
 
       {PHASES.map((phase) => (
