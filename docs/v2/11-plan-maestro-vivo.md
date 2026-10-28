@@ -109,6 +109,7 @@ Vive en `auditoria/_backlog.md` (ids `H-…`). Cada PR de contenido cierra los i
 | 2026-10-27 (tarde, 2.ª) | D-01 aceptada; D-02 y D-03 mantenidas con evidencia; **D-04 cerrada como no posible** y reemplazada por verificación con fuentes (V1→V3); avance real registrado (u01, 17/22); la continuidad pasa a no ser camino crítico | Respuesta del usuario | 00, 07, 08, 09, 12, 13, 14, `auditoria/_backlog.md`, `_verificacion.md` | Usuario |
 | 2026-10-27 (tarde) | 7 unidades se parten A/B; 4 unidades nuevas (u25–u28); u20 al núcleo recortada; u21–u23 = Puente a B1; u24 = cierre del núcleo | Sobrecarga, huecos de temario y evidencia de nivel (`_temario.md`) | 04, 07, 13 | Claude (propuesta; usuario revisa D-01, D-02) |
 | 2026-10-27 (noche) | **G2 hecho:** los ítems de u02, u03, u05, u06, u07, u14 y u15 quedan repartidos entre su semana A y B (`src/content/partes.ts`, con `partes.test.ts`); el repaso SRS y los pasos de prueba se llamaban «Palabras nuevas» pero la actividad se llama «Palabras de la unidad» (texto para Prompt D) | Desbloquea el Prompt D (ciclo de 7 días) | 11, 13, `src/content/` | Claude |
+| 2026-10-28 | **G1 u26 hecha** (personas y familia) con fuentes V1/V2 en `revision-fuentes.md`; el ciclo de 7 días (PR #22) está fusionado; pendientes: voz del iPhone y activar u25–u28 en el flujo | Avance del plan | 11, `revision-fuentes.md`, `src/content/nuevas/` | Claude |
 
 ## 9. Esfuerzo relativo (sin fechas inventadas)
 S = una sesión corta · M = una sesión larga · L = varias sesiones.
