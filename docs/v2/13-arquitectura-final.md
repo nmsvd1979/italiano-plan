@@ -84,7 +84,7 @@ La mecánica diaria está en `04`; esto es el criterio por habilidad.
 
 ## 4. Qué cambia en el código (para Code)
 - `src/content/course.ts` (nuevo): `COURSE: CourseStep[]` con `{ id, unit, part?: "A"|"B", phase, kind: "core"|"bridge" }`. `UNITS` sigue existiendo; `COURSE` define el orden y las partes.
-- `UnitMeta` gana `parts?: { A: …; B: … }` para repartir el contenido de una unidad entre sus dos semanas (qué ítems de lección, ejercicios, vocabulario y dictado van a cada una). Lo que no se asigna a una parte se asigna a ambas como repaso.
+- `UnitMeta` gana `parts?: { A: …; B: … }` para repartir el contenido de una unidad entre sus dos semanas (qué ítems de lección, ejercicios, vocabulario y dictado van a cada una). Lo que no se asigna a una parte se asigna a ambas como repaso. **Hecho (G2):** el reparto está en `src/content/partes.ts`; cada ítem está al menos en una parte y algunos se repiten en la otra como repaso.
 - Progreso: la clave de actividad conserva el id de unidad; las partes agregan sufijo (`u02#A`). Una unidad marcada como hecha en el sistema antiguo vale como **A y B hechas** (`14`).
 - `daysOf(step)` recibe un `CourseStep`, no un `UnitMeta`.
 - `PHASES` y `phaseTest` se reajustan a las fases F1–F6 de este documento.
