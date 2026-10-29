@@ -1,0 +1,91 @@
+## u18
+o|Hola, soy Marco, quisiera hablar con Anna.|Pronto, sono Marco, vorrei parlare con Anna.|siamo|Al teléfono se dice «Pronto, sono…».
+o|Te llamo de nuevo en diez minutos.|Ti richiamo tra dieci minuti.|La|«Tra dieci minuti» = en diez minutos.
+t|Hola, habla Marta.|Pronto, sono Marta.|Al contestar el teléfono: «Pronto».
+t|¿Puede repetir, por favor?|Può ripetere, per favore?|Con «Lei»: «può».
+t|Le escribo para pedir información.|Le scrivo per chiedere informazioni. / Scrivo per chiedere informazioni.|«Per» + infinitivo expresa el motivo.
+f|Gentile signora Verdi, ti ringrazio.|Gentile signora Verdi, la ringrazio. / Gentile signora Verdi, Le sono grata.|En un mensaje formal se usa «la/Le».
+f|Ciao Luca, Le scrivo per invitarti.|Ciao Luca, ti scrivo per invitarti.|Con un amigo se usa «ti».
+x|Pasa a informal: La ringrazio molto.|Ti ringrazio molto.|Formal «la» → informal «ti».
+x|Pasa a formal: Ti chiamo domani.|La chiamo domani.|Informal «ti» → formal «la».
+d|— Pronto? ___ Marco, c'è Anna? // — No, è uscita.|Sono;Siamo;Ho|Al teléfono se dice «Sono…».
+d|— ___ lasciare un messaggio? // — Certo.|Posso;Possiamo;Pronto|Para pedir permiso: «Posso…?».
+l|Può ripetere, per favore?|¿Puede repetir, por favor?;¿Puede escribir, por favor?;¿Puede esperar, por favor?|«Ripetere» = repetir.
+## u19
+o|En Italia se come muy tarde.|In Italia si mangia molto tardi.|mangiano|El «si» impersonal usa el verbo en singular.
+o|Estudio italiano desde hace seis meses.|Studio italiano da sei mesi.|per|«Da» + tiempo indica desde cuándo.
+t|Aquí se habla italiano.|Qui si parla italiano.|«Si parla» = se habla.
+t|Vivo aquí desde hace dos años.|Vivo qui da due anni. / Abito qui da due anni.|«Da» + duración, con el verbo en presente.
+t|El tren está por salir.|Il treno sta per partire.|«Stare per» + infinitivo = estar por.
+f|Abito qui da due anni fa.|Abito qui da due anni.|No se usa «fa» con «da».
+f|Qui si mangiano bene.|Qui si mangia bene.|Con adverbio el «si» impersonal va en singular.
+x|Pasa a impersonal: Noi parliamo italiano qui.|Qui si parla italiano.|Impersonal: «si parla».
+x|Usa «stare per»: Il film comincia.|Il film sta per cominciare.|«Sta per» + infinitivo.
+d|— Da quanto tempo studi italiano? // — ___ un anno.|Da;Per;Fa|«Da» expresa duración desde el pasado.
+d|— Corri! Il treno ___ partire!|sta per;sta;è per|Acción inminente: «sta per».
+l|Si può entrare?|¿Se puede entrar?;¿Puedo entrar?;¿Se debe entrar?|El «si» impersonal equivale a «se».
+## u20
+o|Marco dijo que llega mañana.|Marco ha detto che arriva domani.|chi|Discurso indirecto: «ha detto che…».
+o|Creo que es una buena idea.|Penso che sia una buona idea.|è|Después de «penso che» se usa el congiuntivo: sia.
+t|Dijo que estaba cansado.|Ha detto che era stanco.|En el discurso indirecto el tiempo retrocede: era.
+t|Aunque llueve, salgo.|Anche se piove, esco.|«Anche se» = aunque.
+t|Creo que tiene razón.|Penso che abbia ragione. / Credo che abbia ragione.|Congiuntivo: abbia.
+f|Penso che è giusto.|Penso che sia giusto.|Después de «penso che» va el congiuntivo.
+f|Ha detto che verrò domani.|Ha detto che verrà domani.|La persona que dijo habla de otro: verrà.
+x|Pasa a discurso indirecto: «Sono stanco», dice Luca.|Luca dice che è stanco.|Dice che + verbo en 3.ª persona.
+x|Une con «perché»: Resto a casa. Piove.|Resto a casa perché piove.|«Perché» une causa y efecto.
+d|— Credo che Marco ___ ragione. // — Anch'io.|abbia;ha;avere|Después de «credo che»: congiuntivo.
+d|— Resto a casa ___ sono stanco. // — Capisco.|perché;però;anche|«Perché» expresa causa.
+l|Ha detto che arriva tardi.|Dijo que llega tarde.;Dijo que llegó tarde.;Dice que llega temprano.|«Arriva tardi» = llega tarde.
+## u24
+o|El año pasado fui a Italia con mi hermana.|L'anno scorso sono andato in Italia con mia sorella.|ho|«Andare» usa essere.
+o|De niña vivía en Santiago, pero ahora vivo en Roma.|Da piccola abitavo a Santiago, ma adesso vivo a Roma.|ho|Imperfecto para el pasado habitual y presente para ahora.
+t|Ayer compré un boleto de tren.|Ieri ho comprato un biglietto del treno. / Ieri ho comprato un biglietto per il treno.|Passato prossimo con avere: ho comprato.
+t|Quisiera reservar una habitación.|Vorrei prenotare una camera.|«Vorrei» + infinitivo.
+t|¿A qué hora sale el tren?|A che ora parte il treno?|«Partire» = salir.
+f|Ieri sono mangiato una pizza.|Ieri ho mangiato una pizza.|«Mangiare» usa avere.
+f|Mi piace i film italiani.|Mi piacciono i film italiani.|Plural: «piacciono».
+x|Pasa a passato prossimo: Parto alle otto.|Sono partito alle otto. / Sono partita alle otto.|Partire usa essere.
+x|Pasa a futuro: Vado a Napoli.|Andrò a Napoli.|Futuro de andare: andrò.
+d|— Scusi, a che ora ___ l'ultimo treno? // — Alle ventidue.|parte;partono;partiamo|«Treno» es singular: «parte».
+d|— Dove sei andata in vacanza l'anno scorso? // — ___ andata in Sicilia.|Sono;Ho;Ha|Con «andata» se usa «sono».
+l|Vorrei un biglietto per Firenze.|Quisiera un boleto para Florencia.;Quisiera un boleto para Venecia.;Quisiera un boleto para Milán.|«Firenze» = Florencia.
+## u21
+o|Te lo doy mañana.|Te lo do domani.|ti,mi|Primero va el pronombre indirecto: «te lo».
+o|Se lo digo enseguida.|Glielo dico subito.|gli,le|Gli + lo se escribe «glielo».
+t|Me lo das.|Me lo dai.|Me + lo = me lo.
+t|Se lo digo mañana.|Glielo dico domani.|Le/gli + lo → glielo.
+t|Te las compro.|Te le compro.|«Le» (las) acompaña a «te».
+f|Lo ti do domani.|Te lo do domani.|El indirecto va primero: te lo.
+f|Le lo dico.|Glielo dico.|Le + lo se une en «glielo».
+x|Sustituye con pronombres: Do il libro a Marco.|Glielo do.|«Il libro» → lo; «a Marco» → gli: glielo.
+x|Sustituye con pronombres: Mi dai la penna?|Me la dai?|«La penna» → la; con «mi»: me la.
+d|— Mi presti il libro? // — Sì, ___ presto domani.|te lo;ti lo;lo ti|«Mi» pasa a «te» antes de «lo».
+d|— Dai il regalo a Luca? // — Sì, ___ do stasera.|glielo;gli lo;lo gli|Gli + lo = glielo.
+l|Te lo dico domani.|Te lo digo mañana.;Te lo dije ayer.;Me lo dices mañana.|«Te lo dico» = te lo digo.
+## u22
+o|Espero que estés bien.|Spero che tu stia bene.|sei|Después de «spero che» va el congiuntivo.
+o|Quiero que vengas a la fiesta.|Voglio che tu venga alla festa.|vieni|Después de «voglio che»: congiuntivo.
+t|Quiero que vengas.|Voglio che tu venga. / Voglio che venga.|Congiuntivo de venire: venga.
+t|Creo que es verdad.|Credo che sia vero. / Penso che sia vero.|Congiuntivo de essere: sia.
+t|Espero que tengas tiempo.|Spero che tu abbia tempo. / Spero che abbia tempo.|Congiuntivo de avere: abbia.
+f|Penso che Marco è stanco.|Penso che Marco sia stanco.|Después de «penso che»: congiuntivo.
+f|Dubito che lui ha ragione.|Dubito che lui abbia ragione.|Después de «dubito che»: congiuntivo.
+x|Une con «Penso che»: Marco è felice.|Penso che Marco sia felice.|Penso che + congiuntivo.
+x|Une con «Spero che»: Tu stai meglio.|Spero che tu stia meglio.|Stare → stia.
+d|— Credo che lei ___ ragione. // — Non so.|abbia;ha;avere|Congiuntivo de avere: abbia.
+d|— È possibile che io ___ in ritardo. // — Va bene.|sia;sono;ero|Después de «è possibile che»: sia.
+l|Spero che tu stia bene.|Espero que estés bien.;Espero que estabas bien.;Sé que estás bien.|«Spero che tu stia bene» = espero que estés bien.
+## u23
+o|Si tuviera más tiempo, viajaría mucho.|Se avessi più tempo, viaggerei molto.|avrei|Hipótesis irreal: se + imperfecto del congiuntivo + condicional.
+o|Si llueve, me quedo en casa.|Se piove, resto a casa.|pioverà|Hipótesis real: se + presente.
+t|Si tuviera dinero, compraría una casa.|Se avessi soldi, comprerei una casa. / Se avessi dei soldi, comprerei una casa.|Se avessi… comprerei.
+t|Si hace sol, vamos a la playa.|Se c'è il sole, andiamo al mare. / Se c'è sole, andiamo al mare.|Hipótesis real: presente + presente.
+t|En tu lugar iría.|Al tuo posto andrei. / Io al tuo posto andrei.|Consejo: «al tuo posto» + condicional.
+f|Se avrei tempo, verrei.|Se avessi tempo, verrei.|Después de «se» irreal va el congiuntivo imperfecto.
+f|Se piove, resterei a casa.|Se piove, resto a casa.|Hipótesis real: presente.
+x|Cambia a irreal: Se ho tempo, viaggio.|Se avessi tempo, viaggerei.|Se avessi + condicional.
+x|Da un consejo con «Al tuo posto»: dormire di più.|Al tuo posto dormirei di più.|«Al tuo posto» + condicional.
+d|Se ___ ricco, comprerei una casa grande.|fossi;sono;sarò|Hipótesis irreal: «fossi».
+d|— Se tu ___, che cosa faresti? // — Viaggerei.|potessi;puoi;potrai|Irreal: congiuntivo imperfecto.
+l|Se avessi tempo, verrei.|Si tuviera tiempo, vendría.;Si tengo tiempo, vengo.;Si tuve tiempo, vine.|Se avessi… verrei = si tuviera… vendría.

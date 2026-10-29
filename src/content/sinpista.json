@@ -1,0 +1,3851 @@
+{
+ "u25": [
+  {
+   "id": "u25-s01",
+   "type": "order",
+   "why": "«Si scrive» es la forma impersonal para preguntar la ortografía.",
+   "prompt": "¿Cómo se escribe tu nombre?",
+   "answers": [
+    "Come si scrive il tuo nome?"
+   ],
+   "extra": [
+    "dice"
+   ]
+  },
+  {
+   "id": "u25-s02",
+   "type": "order",
+   "why": "Con «Scusi» se usa «può» (forma de cortesía).",
+   "prompt": "Disculpe, ¿puede repetir, por favor?",
+   "answers": [
+    "Scusi, può ripetere, per favore?"
+   ],
+   "extra": [
+    "puoi"
+   ]
+  },
+  {
+   "id": "u25-s03",
+   "type": "translate",
+   "why": "Verbo capire: «io capisco»; la negación va antes del verbo.",
+   "prompt": "No entiendo.",
+   "answers": [
+    "Non capisco.",
+    "Io non capisco."
+   ]
+  },
+  {
+   "id": "u25-s04",
+   "type": "translate",
+   "why": "En italiano se dice «mi chiamo» (literalmente «me llamo»).",
+   "prompt": "Me llamo Ana.",
+   "answers": [
+    "Mi chiamo Ana.",
+    "Io mi chiamo Ana."
+   ]
+  },
+  {
+   "id": "u25-s05",
+   "type": "translate",
+   "why": "Para preguntar una palabra: «Come si dice…?».",
+   "prompt": "¿Cómo se dice «agua» en italiano?",
+   "answers": [
+    "Come si dice acqua in italiano?",
+    "Come si dice «acqua» in italiano?"
+   ]
+  },
+  {
+   "id": "u25-s06",
+   "type": "fix",
+   "why": "El verbo se conjuga: «io capisco», no el infinitivo.",
+   "prompt": "Io non capire.",
+   "answers": [
+    "Non capisco.",
+    "Io non capisco."
+   ]
+  },
+  {
+   "id": "u25-s07",
+   "type": "fix",
+   "why": "Falta el «mi»: «mi chiamo».",
+   "prompt": "Ciao, io chiamo Marta.",
+   "answers": [
+    "Ciao, mi chiamo Marta.",
+    "Ciao, io mi chiamo Marta."
+   ]
+  },
+  {
+   "id": "u25-s08",
+   "type": "transform",
+   "why": "C-A-S-A se lee «ci, a, esse, a».",
+   "prompt": "Escribe la palabra que se deletrea: ci, a, esse, a.",
+   "answers": [
+    "casa"
+   ]
+  },
+  {
+   "id": "u25-s09",
+   "type": "transform",
+   "why": "La c se llama «ci», la i «i», la a «a» y la o «o».",
+   "prompt": "Deletrea «ciao» con los nombres de las letras.",
+   "answers": [
+    "ci i a o",
+    "ci, i, a, o"
+   ]
+  },
+  {
+   "id": "u25-s10",
+   "type": "dialog",
+   "why": "Para presentarte: «Mi chiamo…».",
+   "answer": 0,
+   "options": [
+    "Mi chiamo",
+    "Ti chiami",
+    "Sono chiamo"
+   ],
+   "lines": [
+    "— Come ti chiami?",
+    "— ___ Marco.",
+    "— Piacere!"
+   ]
+  },
+  {
+   "id": "u25-s11",
+   "type": "dialog",
+   "why": "«Si scrive» responde a «Come si scrive?».",
+   "answer": 1,
+   "options": [
+    "Si chiama",
+    "Si scrive",
+    "Si dice"
+   ],
+   "lines": [
+    "— Come si scrive «ciao»?",
+    "— ___: ci, i, a, o.",
+    "— Grazie!"
+   ]
+  },
+  {
+   "id": "u25-s12",
+   "type": "listen",
+   "why": "«Mi chiamo» equivale a «me llamo».",
+   "answer": 2,
+   "options": [
+    "Soy de Marta.",
+    "Hola, Marta.",
+    "Me llamo Marta."
+   ],
+   "prompt": "Mi chiamo Marta."
+  }
+ ],
+ "u01": [
+  {
+   "id": "u01-s01",
+   "type": "order",
+   "why": "«Sono» es la primera persona de essere.",
+   "prompt": "Encantado, soy Paolo y soy italiano.",
+   "answers": [
+    "Piacere, sono Paolo e sono italiano."
+   ],
+   "extra": [
+    "è"
+   ]
+  },
+  {
+   "id": "u01-s02",
+   "type": "order",
+   "why": "Con «Lei» (formal) se usa «sta».",
+   "prompt": "¿Cómo está, señora Rossi?",
+   "answers": [
+    "Come sta, signora Rossi?"
+   ],
+   "extra": [
+    "stai"
+   ]
+  },
+  {
+   "id": "u01-s03",
+   "type": "translate",
+   "why": "Con «tu», el verbo stare es «stai».",
+   "prompt": "¿Cómo estás?",
+   "answers": [
+    "Come stai?"
+   ]
+  },
+  {
+   "id": "u01-s04",
+   "type": "translate",
+   "why": "«Lei è» (ella es); «di» indica el origen.",
+   "prompt": "Ella es de Roma.",
+   "answers": [
+    "Lei è di Roma.",
+    "È di Roma."
+   ]
+  },
+  {
+   "id": "u01-s05",
+   "type": "translate",
+   "why": "«Siamo» es la primera persona del plural de essere.",
+   "prompt": "Nosotros somos estudiantes.",
+   "answers": [
+    "Noi siamo studenti.",
+    "Siamo studenti.",
+    "Noi siamo studentesse.",
+    "Siamo studentesse."
+   ]
+  },
+  {
+   "id": "u01-s06",
+   "type": "fix",
+   "why": "Con «tu» se usa «sei», no «sono».",
+   "prompt": "Tu sono stanco.",
+   "answers": [
+    "Tu sei stanco.",
+    "Sei stanco."
+   ]
+  },
+  {
+   "id": "u01-s07",
+   "type": "fix",
+   "why": "A una señora (Lei) se le dice «sta», no «stai».",
+   "prompt": "Come stai, signora?",
+   "answers": [
+    "Come sta, signora?"
+   ]
+  },
+  {
+   "id": "u01-s08",
+   "type": "transform",
+   "why": "Lei usa la forma de la tercera persona: «sta».",
+   "prompt": "Pasa de «tú» a «Lei»: Come stai?",
+   "answers": [
+    "Come sta?",
+    "Come sta Lei?"
+   ]
+  },
+  {
+   "id": "u01-s09",
+   "type": "transform",
+   "why": "Con «noi»: «siamo»; el adjetivo va en plural.",
+   "prompt": "Cambia a «noi»: Io sono contento.",
+   "answers": [
+    "Noi siamo contenti.",
+    "Siamo contenti."
+   ]
+  },
+  {
+   "id": "u01-s10",
+   "type": "dialog",
+   "why": "A un señor (Lei) se le pregunta «Come sta?».",
+   "answer": 0,
+   "options": [
+    "sta",
+    "stai",
+    "sto"
+   ],
+   "lines": [
+    "— Buongiorno, signor Verdi. Come ___?",
+    "— Bene, grazie, e Lei?"
+   ]
+  },
+  {
+   "id": "u01-s11",
+   "type": "dialog",
+   "why": "Con «io» se usa «sono».",
+   "answer": 1,
+   "options": [
+    "sei",
+    "sono",
+    "è"
+   ],
+   "lines": [
+    "— Ciao! Sono Marta. E tu?",
+    "— Io ___ Luca."
+   ]
+  },
+  {
+   "id": "u01-s12",
+   "type": "listen",
+   "why": "«Lei è» = ella es; «italiana» es femenino.",
+   "answer": 2,
+   "options": [
+    "Tú eres italiana.",
+    "Él es italiano.",
+    "Ella es italiana."
+   ],
+   "prompt": "Lei è italiana."
+  }
+ ],
+ "u02": [
+  {
+   "id": "u02-s01",
+   "type": "order",
+   "part": "A",
+   "why": "Con un solo elemento se usa «c'è» (hay).",
+   "prompt": "Hay un parque cerca de la casa.",
+   "answers": [
+    "C'è un parco vicino alla casa.",
+    "Vicino alla casa c'è un parco."
+   ],
+   "extra": [
+    "ci"
+   ]
+  },
+  {
+   "id": "u02-s02",
+   "type": "translate",
+   "part": "A",
+   "why": "Con plural se usa «ci sono».",
+   "prompt": "Hay dos sillas.",
+   "answers": [
+    "Ci sono due sedie."
+   ]
+  },
+  {
+   "id": "u02-s03",
+   "type": "translate",
+   "part": "A",
+   "why": "Un solo elemento: «c'è».",
+   "prompt": "Hay una farmacia en la plaza.",
+   "answers": [
+    "C'è una farmacia in piazza.",
+    "C'è una farmacia nella piazza."
+   ]
+  },
+  {
+   "id": "u02-s04",
+   "type": "fix",
+   "part": "A",
+   "why": "Con dos elementos hace falta «ci sono».",
+   "prompt": "Nel soggiorno c'è due sedie.",
+   "answers": [
+    "Nel soggiorno ci sono due sedie."
+   ]
+  },
+  {
+   "id": "u02-s05",
+   "type": "transform",
+   "part": "A",
+   "why": "Plural: «ci sono» y «finestre».",
+   "prompt": "Cambia a «due»: C'è una finestra.",
+   "answers": [
+    "Ci sono due finestre."
+   ]
+  },
+  {
+   "id": "u02-s06",
+   "type": "dialog",
+   "part": "A",
+   "why": "«letto» es masculino y empieza con consonante: «un».",
+   "answer": 0,
+   "options": [
+    "un",
+    "una",
+    "uno"
+   ],
+   "lines": [
+    "— Che cosa c'è in camera?",
+    "— C'è ___ letto e un armadio."
+   ]
+  },
+  {
+   "id": "u02-s07",
+   "type": "order",
+   "part": "B",
+   "why": "«Piace» con un solo objeto singular.",
+   "prompt": "Me gusta el parque.",
+   "answers": [
+    "Mi piace il parco."
+   ],
+   "extra": [
+    "piacciono"
+   ]
+  },
+  {
+   "id": "u02-s08",
+   "type": "translate",
+   "part": "B",
+   "why": "Con plural: «piacciono».",
+   "prompt": "Me gustan los gatos.",
+   "answers": [
+    "Mi piacciono i gatti."
+   ]
+  },
+  {
+   "id": "u02-s09",
+   "type": "fix",
+   "part": "B",
+   "why": "Los bares son plural: «piacciono».",
+   "prompt": "Mi piace i bar.",
+   "answers": [
+    "Mi piacciono i bar."
+   ]
+  },
+  {
+   "id": "u02-s10",
+   "type": "transform",
+   "part": "B",
+   "why": "Avere con «noi»: «abbiamo».",
+   "prompt": "Cambia a «noi»: Io ho una casa.",
+   "answers": [
+    "Noi abbiamo una casa.",
+    "Abbiamo una casa."
+   ]
+  },
+  {
+   "id": "u02-s11",
+   "type": "dialog",
+   "part": "B",
+   "why": "Con «io» se usa «ho».",
+   "answer": 1,
+   "options": [
+    "hai",
+    "ho",
+    "ha"
+   ],
+   "lines": [
+    "— Hai fratelli?",
+    "— Sì, ___ una sorella."
+   ]
+  },
+  {
+   "id": "u02-s12",
+   "type": "listen",
+   "part": "B",
+   "why": "«Piacciono» concuerda con «i bar» (plural).",
+   "answer": 2,
+   "options": [
+    "Me gusta el bar.",
+    "Tengo bares.",
+    "Me gustan los bares."
+   ],
+   "prompt": "Mi piacciono i bar."
+  }
+ ],
+ "u03": [
+  {
+   "id": "u03-s01",
+   "type": "order",
+   "part": "A",
+   "why": "Los precios se dicen con «e»: «venti euro e cinquanta».",
+   "prompt": "Cuesta veinte euros con cincuenta.",
+   "answers": [
+    "Costa venti euro e cinquanta."
+   ],
+   "extra": [
+    "trenta"
+   ]
+  },
+  {
+   "id": "u03-s02",
+   "type": "translate",
+   "part": "A",
+   "why": "Los números compuestos se escriben juntos: «trentacinque».",
+   "prompt": "Son treinta y cinco euros.",
+   "answers": [
+    "Sono trentacinque euro."
+   ]
+  },
+  {
+   "id": "u03-s03",
+   "type": "translate",
+   "part": "A",
+   "why": "Doce = dodici.",
+   "prompt": "Cuesta doce euros.",
+   "answers": [
+    "Costa dodici euro."
+   ]
+  },
+  {
+   "id": "u03-s04",
+   "type": "fix",
+   "part": "A",
+   "why": "Con «uno» se pierde la vocal: «trentuno».",
+   "prompt": "Costa trentauno euro.",
+   "answers": [
+    "Costa trentuno euro."
+   ]
+  },
+  {
+   "id": "u03-s05",
+   "type": "transform",
+   "part": "A",
+   "why": "Cuarenta y cinco: quarantacinque.",
+   "prompt": "Escribe con letras: 45 euro",
+   "answers": [
+    "quarantacinque euro",
+    "quarantacinque"
+   ]
+  },
+  {
+   "id": "u03-s06",
+   "type": "dialog",
+   "part": "A",
+   "why": "«Il caffè» es singular: «costa».",
+   "answer": 0,
+   "options": [
+    "costa",
+    "costano",
+    "sono"
+   ],
+   "lines": [
+    "— Quanto costa il caffè?",
+    "— Il caffè ___ un euro e venti."
+   ]
+  },
+  {
+   "id": "u03-s07",
+   "type": "order",
+   "part": "B",
+   "why": "Para la hora: «Sono le…» salvo la una.",
+   "prompt": "Son las ocho y media.",
+   "answers": [
+    "Sono le otto e mezza."
+   ],
+   "extra": [
+    "è"
+   ]
+  },
+  {
+   "id": "u03-s08",
+   "type": "translate",
+   "part": "B",
+   "why": "Las dos formas se usan.",
+   "prompt": "¿Qué hora es?",
+   "answers": [
+    "Che ora è?",
+    "Che ore sono?"
+   ]
+  },
+  {
+   "id": "u03-s09",
+   "type": "fix",
+   "part": "B",
+   "why": "Para la una se usa «È l'una».",
+   "prompt": "Sono le una e dieci.",
+   "answers": [
+    "È l'una e dieci."
+   ]
+  },
+  {
+   "id": "u03-s10",
+   "type": "transform",
+   "part": "B",
+   "why": "Fecha: «il» + número + mes.",
+   "prompt": "Di' la fecha: 14/03.",
+   "answers": [
+    "il quattordici marzo",
+    "è il quattordici marzo"
+   ]
+  },
+  {
+   "id": "u03-s11",
+   "type": "dialog",
+   "part": "B",
+   "why": "Para las tres: «Sono le tre».",
+   "answer": 1,
+   "options": [
+    "È",
+    "Sono",
+    "Ha"
+   ],
+   "lines": [
+    "— Che ore sono?",
+    "— ___ le tre e un quarto."
+   ]
+  },
+  {
+   "id": "u03-s12",
+   "type": "listen",
+   "part": "B",
+   "why": "«Parte» = sale; «alle nove» = a las nueve.",
+   "answer": 2,
+   "options": [
+    "El tren llega a las nueve.",
+    "El tren sale a las diez.",
+    "El tren sale a las nueve."
+   ],
+   "prompt": "Il treno parte alle nove."
+  }
+ ],
+ "u04": [
+  {
+   "id": "u04-s01",
+   "type": "order",
+   "why": "«Vorrei» es la forma cortés de pedir.",
+   "prompt": "Quisiera un café, por favor.",
+   "answers": [
+    "Vorrei un caffè, per favore."
+   ],
+   "extra": [
+    "voglio"
+   ]
+  },
+  {
+   "id": "u04-s02",
+   "type": "order",
+   "why": "«Posso» + infinitivo para pedir permiso.",
+   "prompt": "¿Puedo pagar con tarjeta?",
+   "answers": [
+    "Posso pagare con la carta?"
+   ],
+   "extra": [
+    "vuoi"
+   ]
+  },
+  {
+   "id": "u04-s03",
+   "type": "translate",
+   "why": "Volere: «voglio»; para ser cortés, «vorrei».",
+   "prompt": "Quiero un cappuccino.",
+   "answers": [
+    "Voglio un cappuccino.",
+    "Vorrei un cappuccino."
+   ]
+  },
+  {
+   "id": "u04-s04",
+   "type": "translate",
+   "why": "Dovere: «devo» + infinitivo.",
+   "prompt": "Tengo que trabajar.",
+   "answers": [
+    "Devo lavorare.",
+    "Io devo lavorare."
+   ]
+  },
+  {
+   "id": "u04-s05",
+   "type": "translate",
+   "why": "Potere con «noi»: «possiamo».",
+   "prompt": "No podemos entrar.",
+   "answers": [
+    "Non possiamo entrare.",
+    "Noi non possiamo entrare."
+   ]
+  },
+  {
+   "id": "u04-s06",
+   "type": "fix",
+   "why": "Con «io»: «voglio».",
+   "prompt": "Io vuole un caffè.",
+   "answers": [
+    "Io voglio un caffè.",
+    "Voglio un caffè."
+   ]
+  },
+  {
+   "id": "u04-s07",
+   "type": "fix",
+   "why": "Después de dovere va el infinitivo.",
+   "prompt": "Loro devono lavorano.",
+   "answers": [
+    "Loro devono lavorare.",
+    "Devono lavorare."
+   ]
+  },
+  {
+   "id": "u04-s08",
+   "type": "transform",
+   "why": "Potere con «noi»: «possiamo».",
+   "prompt": "Cambia a «noi»: Io posso venire.",
+   "answers": [
+    "Noi possiamo venire.",
+    "Possiamo venire."
+   ]
+  },
+  {
+   "id": "u04-s09",
+   "type": "transform",
+   "why": "«Vorrei» suaviza el pedido.",
+   "prompt": "Hazlo más cortés con «vorrei»: Voglio un'acqua.",
+   "answers": [
+    "Vorrei un'acqua."
+   ]
+  },
+  {
+   "id": "u04-s10",
+   "type": "dialog",
+   "why": "Para pedir con cortesía: «vorrei».",
+   "answer": 0,
+   "options": [
+    "vorrei",
+    "vorresti",
+    "vogliono"
+   ],
+   "lines": [
+    "— Buongiorno! Vuole ordinare?",
+    "— Sì, ___ un panino, per favore."
+   ]
+  },
+  {
+   "id": "u04-s11",
+   "type": "dialog",
+   "why": "La respuesta es en primera persona: «devo».",
+   "answer": 1,
+   "options": [
+    "devi",
+    "devo",
+    "deve"
+   ],
+   "lines": [
+    "— Perché non vieni?",
+    "— Perché ___ lavorare."
+   ]
+  },
+  {
+   "id": "u04-s12",
+   "type": "listen",
+   "why": "«Voglio» = quiero.",
+   "answer": 2,
+   "options": [
+    "Tengo un café.",
+    "Quiere un café.",
+    "Quiero un café."
+   ],
+   "prompt": "Voglio un caffè."
+  }
+ ],
+ "u05": [
+  {
+   "id": "u05-s01",
+   "type": "order",
+   "part": "A",
+   "why": "Ciudad: «a»; medio de transporte: «in».",
+   "prompt": "Voy a Roma en tren.",
+   "answers": [
+    "Vado a Roma in treno.",
+    "In treno vado a Roma."
+   ],
+   "extra": [
+    "da"
+   ]
+  },
+  {
+   "id": "u05-s02",
+   "type": "translate",
+   "part": "A",
+   "why": "Para ir a casa de una persona se usa «da».",
+   "prompt": "Voy a casa de Marco.",
+   "answers": [
+    "Vado da Marco."
+   ]
+  },
+  {
+   "id": "u05-s03",
+   "type": "translate",
+   "part": "A",
+   "why": "Con países se usa «in».",
+   "prompt": "Vivo en Italia.",
+   "answers": [
+    "Vivo in Italia."
+   ]
+  },
+  {
+   "id": "u05-s04",
+   "type": "fix",
+   "part": "A",
+   "why": "Con ciudades se usa «a».",
+   "prompt": "Vado in Roma.",
+   "answers": [
+    "Vado a Roma."
+   ]
+  },
+  {
+   "id": "u05-s05",
+   "type": "transform",
+   "part": "A",
+   "why": "Con países: «in».",
+   "prompt": "Cambia «Roma» por «Italia»: Vado a Roma.",
+   "answers": [
+    "Vado in Italia."
+   ]
+  },
+  {
+   "id": "u05-s06",
+   "type": "dialog",
+   "part": "A",
+   "why": "Con «Lei» el imperativo es «Vada».",
+   "answer": 0,
+   "options": [
+    "Vada",
+    "Vado",
+    "Andiamo"
+   ],
+   "lines": [
+    "— Scusi, dov'è la stazione?",
+    "— ___ sempre dritto e poi giri a destra."
+   ]
+  },
+  {
+   "id": "u05-s07",
+   "type": "order",
+   "part": "B",
+   "why": "«Accanto a» + a + la = «alla».",
+   "prompt": "El museo está al lado de la iglesia.",
+   "answers": [
+    "Il museo è accanto alla chiesa."
+   ],
+   "extra": [
+    "nella"
+   ]
+  },
+  {
+   "id": "u05-s08",
+   "type": "translate",
+   "part": "B",
+   "why": "a + il = «al».",
+   "prompt": "Voy al supermercado.",
+   "answers": [
+    "Vado al supermercato."
+   ]
+  },
+  {
+   "id": "u05-s09",
+   "type": "fix",
+   "part": "B",
+   "why": "Con «cinema» se usa «a» (al cinema).",
+   "prompt": "Vado nel cinema.",
+   "answers": [
+    "Vado al cinema."
+   ]
+  },
+  {
+   "id": "u05-s10",
+   "type": "transform",
+   "part": "B",
+   "why": "di + il = «del».",
+   "prompt": "Une las palabras: il libro di + il professore.",
+   "answers": [
+    "Il libro del professore."
+   ]
+  },
+  {
+   "id": "u05-s11",
+   "type": "dialog",
+   "part": "B",
+   "why": "Ir a casa o consulta de una persona: «da» + il = «dal».",
+   "answer": 1,
+   "options": [
+    "al",
+    "dal",
+    "nel"
+   ],
+   "lines": [
+    "— Dove vai?",
+    "— Vado ___ dentista."
+   ]
+  },
+  {
+   "id": "u05-s12",
+   "type": "listen",
+   "part": "B",
+   "why": "Falso amigo: «burro» = mantequilla.",
+   "answer": 2,
+   "options": [
+    "El burro está en el refrigerador.",
+    "El vaso está en la heladera.",
+    "La mantequilla está en el refrigerador."
+   ],
+   "prompt": "Il burro è in frigorifero."
+  }
+ ],
+ "u06": [
+  {
+   "id": "u06-s01",
+   "type": "order",
+   "part": "A",
+   "why": "Los posesivos llevan artículo: «la mia».",
+   "prompt": "Esta es mi bolsa.",
+   "answers": [
+    "Questa è la mia borsa."
+   ],
+   "extra": [
+    "il"
+   ]
+  },
+  {
+   "id": "u06-s02",
+   "type": "translate",
+   "part": "A",
+   "why": "Posesivo: «la mia casa» o «casa mia».",
+   "prompt": "Es mi casa.",
+   "answers": [
+    "È la mia casa.",
+    "È casa mia."
+   ]
+  },
+  {
+   "id": "u06-s03",
+   "type": "translate",
+   "part": "A",
+   "why": "Con un familiar en singular no lleva artículo: «tua madre».",
+   "prompt": "Tu madre es simpática.",
+   "answers": [
+    "Tua madre è simpatica."
+   ]
+  },
+  {
+   "id": "u06-s04",
+   "type": "fix",
+   "part": "A",
+   "why": "«Madre» es femenino y, como familiar singular, va sin artículo.",
+   "prompt": "Il mio madre è alta.",
+   "answers": [
+    "Mia madre è alta."
+   ]
+  },
+  {
+   "id": "u06-s05",
+   "type": "transform",
+   "part": "A",
+   "why": "«Penna» es femenino: «mia».",
+   "prompt": "Cambia a «mio»: Questa è la tua penna.",
+   "answers": [
+    "Questa è la mia penna."
+   ]
+  },
+  {
+   "id": "u06-s06",
+   "type": "dialog",
+   "part": "A",
+   "why": "«Libro» es masculino singular: «mio».",
+   "answer": 0,
+   "options": [
+    "mio",
+    "mia",
+    "miei"
+   ],
+   "lines": [
+    "— Di chi è questo libro?",
+    "— È ___."
+   ]
+  },
+  {
+   "id": "u06-s07",
+   "type": "order",
+   "part": "B",
+   "why": "«Giacca» es femenino: «quella».",
+   "prompt": "Esa chaqueta negra es muy elegante.",
+   "answers": [
+    "Quella giacca nera è molto elegante."
+   ],
+   "extra": [
+    "quel"
+   ]
+  },
+  {
+   "id": "u06-s08",
+   "type": "translate",
+   "part": "B",
+   "why": "«Blu» no cambia; «azzurra» concuerda.",
+   "prompt": "Esta camisa es azul.",
+   "answers": [
+    "Questa camicia è blu.",
+    "Questa camicia è azzurra."
+   ]
+  },
+  {
+   "id": "u06-s09",
+   "type": "fix",
+   "part": "B",
+   "why": "«Scarpe» es femenino plural: «quelle».",
+   "prompt": "Quel scarpe sono belle.",
+   "answers": [
+    "Quelle scarpe sono belle."
+   ]
+  },
+  {
+   "id": "u06-s10",
+   "type": "transform",
+   "part": "B",
+   "why": "Plural: queste, gonne, sono, rosse.",
+   "prompt": "Pon en plural: Questa gonna è rossa.",
+   "answers": [
+    "Queste gonne sono rosse."
+   ]
+  },
+  {
+   "id": "u06-s11",
+   "type": "dialog",
+   "part": "B",
+   "why": "«Giacca» es femenino singular: «quella».",
+   "answer": 1,
+   "options": [
+    "Quello",
+    "Quella",
+    "Quelli"
+   ],
+   "lines": [
+    "— Quale giacca preferisci?",
+    "— ___ nera."
+   ]
+  },
+  {
+   "id": "u06-s12",
+   "type": "listen",
+   "part": "B",
+   "why": "«Questa camicia» = esta camisa.",
+   "answer": 2,
+   "options": [
+    "Me gustan estas camisas.",
+    "Me gusta esa chaqueta.",
+    "Me gusta esta camisa."
+   ],
+   "prompt": "Mi piace questa camicia."
+  }
+ ],
+ "u26": [
+  {
+   "id": "u26-s01",
+   "type": "order",
+   "why": "«Sorella» es femenino: alta, bionda.",
+   "prompt": "Mi hermana es alta y rubia.",
+   "answers": [
+    "Mia sorella è alta e bionda."
+   ],
+   "extra": [
+    "biondo"
+   ]
+  },
+  {
+   "id": "u26-s02",
+   "type": "order",
+   "why": "Para la profesión se dice «fa il…» o «è…».",
+   "prompt": "Mi padre es médico.",
+   "answers": [
+    "Mio padre fa il medico.",
+    "Mio padre è medico."
+   ],
+   "extra": [
+    "è"
+   ]
+  },
+  {
+   "id": "u26-s03",
+   "type": "translate",
+   "why": "Con un familiar singular no lleva artículo: «mio fratello».",
+   "prompt": "Mi hermano es ingeniero.",
+   "answers": [
+    "Mio fratello è ingegnere."
+   ]
+  },
+  {
+   "id": "u26-s04",
+   "type": "translate",
+   "why": "«Occhi» es plural: «gli occhi verdi».",
+   "prompt": "Ella tiene los ojos verdes.",
+   "answers": [
+    "Ha gli occhi verdi.",
+    "Lei ha gli occhi verdi."
+   ]
+  },
+  {
+   "id": "u26-s05",
+   "type": "translate",
+   "why": "Se pregunta por el trabajo con «Che lavoro fai?».",
+   "prompt": "¿A qué te dedicas?",
+   "answers": [
+    "Che lavoro fai?",
+    "Che lavoro fa?"
+   ]
+  },
+  {
+   "id": "u26-s06",
+   "type": "fix",
+   "why": "«Capelli» es plural: «biondi».",
+   "prompt": "Mia sorella ha i capelli biondo.",
+   "answers": [
+    "Mia sorella ha i capelli biondi."
+   ]
+  },
+  {
+   "id": "u26-s07",
+   "type": "fix",
+   "why": "Con «i miei» el sustantivo va en plural: «nonni».",
+   "prompt": "I miei nonno sono simpatici.",
+   "answers": [
+    "I miei nonni sono simpatici."
+   ]
+  },
+  {
+   "id": "u26-s08",
+   "type": "transform",
+   "why": "Zio → zia; alto → alta; magro → magra.",
+   "prompt": "Pon en femenino: Mio zio è alto e magro.",
+   "answers": [
+    "Mia zia è alta e magra."
+   ]
+  },
+  {
+   "id": "u26-s09",
+   "type": "transform",
+   "why": "Plural: i miei amici sono simpatici.",
+   "prompt": "Pon en plural: Il mio amico è simpatico.",
+   "answers": [
+    "I miei amici sono simpatici."
+   ]
+  },
+  {
+   "id": "u26-s10",
+   "type": "dialog",
+   "why": "«Fare il medico» = ser médico.",
+   "answer": 0,
+   "options": [
+    "Fa",
+    "Ha",
+    "Sono"
+   ],
+   "lines": [
+    "— Che lavoro fa tuo padre?",
+    "— ___ il medico."
+   ]
+  },
+  {
+   "id": "u26-s11",
+   "type": "dialog",
+   "why": "Para describir cómo es alguien: «È…».",
+   "answer": 1,
+   "options": [
+    "Ha",
+    "È",
+    "Fa"
+   ],
+   "lines": [
+    "— Com'è tua madre?",
+    "— ___ bassa e ha i capelli castani."
+   ]
+  },
+  {
+   "id": "u26-s12",
+   "type": "listen",
+   "why": "«Occhi» = ojos.",
+   "answer": 2,
+   "options": [
+    "Tiene el pelo verde.",
+    "Tiene los ojos azules.",
+    "Tiene los ojos verdes."
+   ],
+   "prompt": "Ha gli occhi verdi."
+  }
+ ],
+ "u07": [
+  {
+   "id": "u07-s01",
+   "type": "order",
+   "part": "A",
+   "why": "Los verbos reflexivos llevan «mi» con «io».",
+   "prompt": "Me despierto a las siete y me levanto enseguida.",
+   "answers": [
+    "Mi sveglio alle sette e mi alzo subito."
+   ],
+   "extra": [
+    "si"
+   ]
+  },
+  {
+   "id": "u07-s02",
+   "type": "translate",
+   "part": "A",
+   "why": "Alzarsi: «mi alzo».",
+   "prompt": "Me levanto a las siete.",
+   "answers": [
+    "Mi alzo alle sette.",
+    "Io mi alzo alle sette."
+   ]
+  },
+  {
+   "id": "u07-s03",
+   "type": "translate",
+   "part": "A",
+   "why": "Con «lui» el reflexivo es «si».",
+   "prompt": "Él se lava los dientes.",
+   "answers": [
+    "Si lava i denti.",
+    "Lui si lava i denti."
+   ]
+  },
+  {
+   "id": "u07-s04",
+   "type": "fix",
+   "part": "A",
+   "why": "Con «io» el pronombre es «mi».",
+   "prompt": "Io si lavo ogni mattina.",
+   "answers": [
+    "Io mi lavo ogni mattina.",
+    "Mi lavo ogni mattina."
+   ]
+  },
+  {
+   "id": "u07-s05",
+   "type": "transform",
+   "part": "A",
+   "why": "Con «lui»: «si veste».",
+   "prompt": "Cambia a «lui»: Mi vesto in fretta.",
+   "answers": [
+    "Si veste in fretta.",
+    "Lui si veste in fretta."
+   ]
+  },
+  {
+   "id": "u07-s06",
+   "type": "dialog",
+   "part": "A",
+   "why": "La pregunta a «tu» usa «ti svegli».",
+   "answer": 0,
+   "options": [
+    "ti svegli",
+    "mi sveglio",
+    "si sveglia"
+   ],
+   "lines": [
+    "— A che ora ___?",
+    "— Mi sveglio alle sei."
+   ]
+  },
+  {
+   "id": "u07-s07",
+   "type": "order",
+   "part": "B",
+   "why": "«Stare» + gerundio indica una acción en curso.",
+   "prompt": "Estoy comiendo una pizza.",
+   "answers": [
+    "Sto mangiando una pizza."
+   ],
+   "extra": [
+    "sono"
+   ]
+  },
+  {
+   "id": "u07-s08",
+   "type": "translate",
+   "part": "B",
+   "why": "«Sto» + gerundio (studiando).",
+   "prompt": "Estoy estudiando italiano.",
+   "answers": [
+    "Sto studiando italiano.",
+    "Io sto studiando italiano."
+   ]
+  },
+  {
+   "id": "u07-s09",
+   "type": "fix",
+   "part": "B",
+   "why": "Después de «stare» va el gerundio.",
+   "prompt": "Sto mangio una pizza.",
+   "answers": [
+    "Sto mangiando una pizza."
+   ]
+  },
+  {
+   "id": "u07-s10",
+   "type": "transform",
+   "part": "B",
+   "why": "Stare con «loro»: «stanno».",
+   "prompt": "Cambia a «loro»: Sto leggendo un libro.",
+   "answers": [
+    "Stanno leggendo un libro.",
+    "Loro stanno leggendo un libro."
+   ]
+  },
+  {
+   "id": "u07-s11",
+   "type": "dialog",
+   "part": "B",
+   "why": "«Sto» + gerundio.",
+   "answer": 1,
+   "options": [
+    "Sono",
+    "Sto",
+    "Ho"
+   ],
+   "lines": [
+    "— Che cosa stai facendo?",
+    "— ___ cucinando."
+   ]
+  },
+  {
+   "id": "u07-s12",
+   "type": "listen",
+   "part": "B",
+   "why": "«Aspettare» = esperar.",
+   "answer": 2,
+   "options": [
+    "Estoy tomando el bus.",
+    "Voy a esperar el bus.",
+    "Estoy esperando el bus."
+   ],
+   "prompt": "Sto aspettando l'autobus."
+  }
+ ],
+ "u08": [
+  {
+   "id": "u08-s01",
+   "type": "order",
+   "why": "La negación doble: «non… mai».",
+   "prompt": "Nunca voy solo al cine.",
+   "answers": [
+    "Non vado mai al cinema da solo.",
+    "Da solo non vado mai al cinema."
+   ],
+   "extra": [
+    "sempre"
+   ]
+  },
+  {
+   "id": "u08-s02",
+   "type": "order",
+   "why": "«Quanti» concuerda con «fratelli» (masculino plural).",
+   "prompt": "¿Cuántos hermanos tienes?",
+   "answers": [
+    "Quanti fratelli hai?"
+   ],
+   "extra": [
+    "quante"
+   ]
+  },
+  {
+   "id": "u08-s03",
+   "type": "translate",
+   "why": "«Avere fame» = tener hambre.",
+   "prompt": "No tengo hambre.",
+   "answers": [
+    "Non ho fame.",
+    "Io non ho fame."
+   ]
+  },
+  {
+   "id": "u08-s04",
+   "type": "translate",
+   "why": "«Quanto» no cambia con el singular.",
+   "prompt": "¿Cuánto cuesta esto?",
+   "answers": [
+    "Quanto costa questo?"
+   ]
+  },
+  {
+   "id": "u08-s05",
+   "type": "translate",
+   "why": "«Fare colazione» = desayunar.",
+   "prompt": "Siempre desayuno en casa.",
+   "answers": [
+    "Faccio sempre colazione a casa.",
+    "Io faccio sempre colazione a casa."
+   ]
+  },
+  {
+   "id": "u08-s06",
+   "type": "fix",
+   "why": "«Nessun» antes de un sustantivo masculino.",
+   "prompt": "Non ho nessuno amico.",
+   "answers": [
+    "Non ho nessun amico."
+   ]
+  },
+  {
+   "id": "u08-s07",
+   "type": "fix",
+   "why": "Con «mai» después del verbo hace falta «non».",
+   "prompt": "Vado mai al cinema.",
+   "answers": [
+    "Non vado mai al cinema."
+   ]
+  },
+  {
+   "id": "u08-s08",
+   "type": "transform",
+   "why": "La negación se pone antes del verbo.",
+   "prompt": "Niega: Parlo italiano.",
+   "answers": [
+    "Non parlo italiano."
+   ]
+  },
+  {
+   "id": "u08-s09",
+   "type": "transform",
+   "why": "La pregunta se marca con la entonación.",
+   "prompt": "Pasa a pregunta: Tu hai due fratelli.",
+   "answers": [
+    "Hai due fratelli?",
+    "Tu hai due fratelli?"
+   ]
+  },
+  {
+   "id": "u08-s10",
+   "type": "dialog",
+   "why": "«Quante volte» pide un número.",
+   "answer": 0,
+   "options": [
+    "Tre",
+    "Molto",
+    "Spesso"
+   ],
+   "lines": [
+    "— Quante volte vai in palestra?",
+    "— ___ volte a settimana."
+   ]
+  },
+  {
+   "id": "u08-s11",
+   "type": "dialog",
+   "why": "Para negar el verbo: «non».",
+   "answer": 1,
+   "options": [
+    "mai",
+    "non",
+    "niente"
+   ],
+   "lines": [
+    "— Mangi carne?",
+    "— No, ___ mangio carne."
+   ]
+  },
+  {
+   "id": "u08-s12",
+   "type": "listen",
+   "why": "«Non… mai» = nunca.",
+   "answer": 2,
+   "options": [
+    "Siempre voy a la playa.",
+    "A veces voy a la playa.",
+    "Nunca voy a la playa."
+   ],
+   "prompt": "Non vado mai al mare."
+  }
+ ],
+ "u27": [
+  {
+   "id": "u27-s01",
+   "type": "order",
+   "why": "«Mi piace» + infinitivo.",
+   "prompt": "En mi tiempo libre me gusta leer.",
+   "answers": [
+    "Nel tempo libero mi piace leggere.",
+    "Mi piace leggere nel tempo libero."
+   ],
+   "extra": [
+    "piacciono"
+   ]
+  },
+  {
+   "id": "u27-s02",
+   "type": "order",
+   "why": "Para el clima: «c'è il sole» y «fa caldo».",
+   "prompt": "Hoy hay sol y hace calor.",
+   "answers": [
+    "Oggi c'è il sole e fa caldo.",
+    "C'è il sole e fa caldo oggi."
+   ],
+   "extra": [
+    "è"
+   ]
+  },
+  {
+   "id": "u27-s03",
+   "type": "translate",
+   "why": "«Sapere» + infinitivo = saber hacer algo.",
+   "prompt": "Sé nadar.",
+   "answers": [
+    "So nuotare.",
+    "Io so nuotare."
+   ]
+  },
+  {
+   "id": "u27-s04",
+   "type": "translate",
+   "why": "«Conoscere» se usa con personas.",
+   "prompt": "Conozco a tu hermano.",
+   "answers": [
+    "Conosco tuo fratello."
+   ]
+  },
+  {
+   "id": "u27-s05",
+   "type": "translate",
+   "why": "«Piovere» es el verbo de la lluvia.",
+   "prompt": "Hoy llueve.",
+   "answers": [
+    "Oggi piove."
+   ]
+  },
+  {
+   "id": "u27-s06",
+   "type": "fix",
+   "why": "Con un infinitivo se usa «sapere».",
+   "prompt": "Io conosco nuotare.",
+   "answers": [
+    "Io so nuotare.",
+    "So nuotare."
+   ]
+  },
+  {
+   "id": "u27-s07",
+   "type": "fix",
+   "why": "Con personas se usa «conoscere».",
+   "prompt": "So Marco da molti anni.",
+   "answers": [
+    "Conosco Marco da molti anni."
+   ]
+  },
+  {
+   "id": "u27-s08",
+   "type": "transform",
+   "why": "Sapere con «noi»: «sappiamo».",
+   "prompt": "Cambia a «noi»: So cucinare.",
+   "answers": [
+    "Sappiamo cucinare.",
+    "Noi sappiamo cucinare."
+   ]
+  },
+  {
+   "id": "u27-s09",
+   "type": "transform",
+   "why": "«Qualcuno» se niega con «nessuno».",
+   "prompt": "Niega con «nessuno»: Qualcuno è in casa.",
+   "answers": [
+    "Nessuno è in casa.",
+    "Non c'è nessuno in casa."
+   ]
+  },
+  {
+   "id": "u27-s10",
+   "type": "dialog",
+   "why": "«Sapere» para habilidades.",
+   "answer": 0,
+   "options": [
+    "so",
+    "conosco",
+    "sono"
+   ],
+   "lines": [
+    "— Sai suonare la chitarra?",
+    "— Sì, ___ un po'."
+   ]
+  },
+  {
+   "id": "u27-s11",
+   "type": "dialog",
+   "why": "Para el tiempo: «Fa freddo».",
+   "answer": 1,
+   "options": [
+    "È",
+    "Fa",
+    "Ha"
+   ],
+   "lines": [
+    "— Che tempo fa?",
+    "— ___ freddo e nevica."
+   ]
+  },
+  {
+   "id": "u27-s12",
+   "type": "listen",
+   "why": "«Fa bel tempo» = hace buen tiempo.",
+   "answer": 2,
+   "options": [
+    "Hace mal tiempo.",
+    "Está lloviendo.",
+    "Hace buen tiempo."
+   ],
+   "prompt": "Fa bel tempo."
+  }
+ ],
+ "u09": [
+  {
+   "id": "u09-s01",
+   "type": "order",
+   "why": "El pasado con «avere»: ho + participio.",
+   "prompt": "Ayer comí una pizza.",
+   "answers": [
+    "Ieri ho mangiato una pizza.",
+    "Ho mangiato una pizza ieri."
+   ],
+   "extra": [
+    "sono"
+   ]
+  },
+  {
+   "id": "u09-s02",
+   "type": "order",
+   "why": "«Abbiamo» + participio comprato.",
+   "prompt": "Compramos el pan.",
+   "answers": [
+    "Abbiamo comprato il pane."
+   ],
+   "extra": [
+    "siamo"
+   ]
+  },
+  {
+   "id": "u09-s03",
+   "type": "translate",
+   "why": "Ho + participio de comprare.",
+   "prompt": "Compré pan y queso.",
+   "answers": [
+    "Ho comprato pane e formaggio.",
+    "Io ho comprato pane e formaggio."
+   ]
+  },
+  {
+   "id": "u09-s04",
+   "type": "translate",
+   "why": "Ha + visto (participio irregular de vedere).",
+   "prompt": "Ella vio una película.",
+   "answers": [
+    "Ha visto un film.",
+    "Lei ha visto un film."
+   ]
+  },
+  {
+   "id": "u09-s05",
+   "type": "translate",
+   "why": "Fatto es el participio de fare.",
+   "prompt": "¿Qué hiciste ayer?",
+   "answers": [
+    "Che cosa hai fatto ieri?",
+    "Cosa hai fatto ieri?"
+   ]
+  },
+  {
+   "id": "u09-s06",
+   "type": "fix",
+   "why": "Después de «ho» va el participio: mangiato.",
+   "prompt": "Ieri ho mangio la pasta.",
+   "answers": [
+    "Ieri ho mangiato la pasta."
+   ]
+  },
+  {
+   "id": "u09-s07",
+   "type": "fix",
+   "why": "Prendere tiene participio irregular: preso.",
+   "prompt": "Maria ha prendato un caffè.",
+   "answers": [
+    "Maria ha preso un caffè."
+   ]
+  },
+  {
+   "id": "u09-s08",
+   "type": "transform",
+   "why": "Presente → ho + participio.",
+   "prompt": "Pasa a pasado: Mangio una mela.",
+   "answers": [
+    "Ho mangiato una mela."
+   ]
+  },
+  {
+   "id": "u09-s09",
+   "type": "transform",
+   "why": "Avere con «loro»: hanno visto.",
+   "prompt": "Pasa a pasado: Loro vedono un film.",
+   "answers": [
+    "Hanno visto un film.",
+    "Loro hanno visto un film."
+   ]
+  },
+  {
+   "id": "u09-s10",
+   "type": "dialog",
+   "why": "Con «avere»: hai fatto.",
+   "answer": 0,
+   "options": [
+    "hai fatto",
+    "sei fatto",
+    "fai fatto"
+   ],
+   "lines": [
+    "— Che cosa ___ ieri sera?",
+    "— Ho guardato la tv."
+   ]
+  },
+  {
+   "id": "u09-s11",
+   "type": "dialog",
+   "why": "Mangiare usa «avere».",
+   "answer": 1,
+   "options": [
+    "sono mangiato",
+    "ho mangiato",
+    "mangio"
+   ],
+   "lines": [
+    "— Hai già mangiato?",
+    "— Sì, ___ una pizza."
+   ]
+  },
+  {
+   "id": "u09-s12",
+   "type": "listen",
+   "why": "«Abbiamo visto» = vimos.",
+   "answer": 2,
+   "options": [
+    "Veremos una buena película.",
+    "Vi una buena película.",
+    "Vimos una buena película."
+   ],
+   "prompt": "Abbiamo visto un bel film."
+  }
+ ],
+ "u10": [
+  {
+   "id": "u10-s01",
+   "type": "order",
+   "why": "«Andare» usa «essere» y el participio concuerda.",
+   "prompt": "Ayer fuimos al mar.",
+   "answers": [
+    "Siamo andati al mare ieri.",
+    "Ieri siamo andati al mare."
+   ],
+   "extra": [
+    "abbiamo"
+   ]
+  },
+  {
+   "id": "u10-s02",
+   "type": "order",
+   "why": "«Arrivare» usa essere: è arrivata (femenino).",
+   "prompt": "María llegó a las ocho.",
+   "answers": [
+    "Maria è arrivata alle otto.",
+    "Alle otto Maria è arrivata."
+   ],
+   "extra": [
+    "ha"
+   ]
+  },
+  {
+   "id": "u10-s03",
+   "type": "translate",
+   "why": "Andare + essere; el participio concuerda con quien habla.",
+   "prompt": "Fui a Roma.",
+   "answers": [
+    "Sono andato a Roma.",
+    "Sono andata a Roma."
+   ]
+  },
+  {
+   "id": "u10-s04",
+   "type": "translate",
+   "why": "Plural femenino: arrivate.",
+   "prompt": "Ellas llegaron tarde.",
+   "answers": [
+    "Sono arrivate tardi.",
+    "Loro sono arrivate tardi."
+   ]
+  },
+  {
+   "id": "u10-s05",
+   "type": "translate",
+   "why": "Rimanere y stare usan essere.",
+   "prompt": "Nos quedamos en casa.",
+   "answers": [
+    "Siamo rimasti a casa.",
+    "Siamo rimaste a casa.",
+    "Siamo stati a casa.",
+    "Siamo state a casa."
+   ]
+  },
+  {
+   "id": "u10-s06",
+   "type": "fix",
+   "why": "El participio concuerda con el sujeto femenino.",
+   "prompt": "Maria è andato a Venezia.",
+   "answers": [
+    "Maria è andata a Venezia."
+   ]
+  },
+  {
+   "id": "u10-s07",
+   "type": "fix",
+   "why": "Andare usa essere, no avere.",
+   "prompt": "Ieri ho andato al cinema.",
+   "answers": [
+    "Ieri sono andato al cinema.",
+    "Ieri sono andata al cinema."
+   ]
+  },
+  {
+   "id": "u10-s08",
+   "type": "transform",
+   "why": "Partire usa essere: è partita.",
+   "prompt": "Pasa a pasado: Maria parte alle sette.",
+   "answers": [
+    "Maria è partita alle sette."
+   ]
+  },
+  {
+   "id": "u10-s09",
+   "type": "transform",
+   "why": "Tornare usa essere y concuerda.",
+   "prompt": "Pasa a pasado: Loro tornano a casa.",
+   "answers": [
+    "Sono tornati a casa.",
+    "Loro sono tornati a casa.",
+    "Sono tornate a casa.",
+    "Loro sono tornate a casa."
+   ]
+  },
+  {
+   "id": "u10-s10",
+   "type": "dialog",
+   "why": "Con «andata» se usa «essere».",
+   "answer": 0,
+   "options": [
+    "sei",
+    "hai",
+    "ha"
+   ],
+   "lines": [
+    "— Maria, dove ___ andata ieri?",
+    "— Al mare."
+   ]
+  },
+  {
+   "id": "u10-s11",
+   "type": "dialog",
+   "why": "Con «Luca» (él): «è arrivato».",
+   "answer": 1,
+   "options": [
+    "ha",
+    "è",
+    "sono"
+   ],
+   "lines": [
+    "— Luca ___ arrivato?",
+    "— Sì, è arrivato alle sei."
+   ]
+  },
+  {
+   "id": "u10-s12",
+   "type": "listen",
+   "why": "«Siamo partiti» = salimos.",
+   "answer": 2,
+   "options": [
+    "Saldremos temprano.",
+    "Llegamos temprano.",
+    "Salimos temprano."
+   ],
+   "prompt": "Siamo partiti presto."
+  }
+ ],
+ "u11": [
+  {
+   "id": "u11-s01",
+   "type": "order",
+   "why": "El imperfecto describe hábitos del pasado.",
+   "prompt": "Cuando era pequeño jugaba siempre afuera.",
+   "answers": [
+    "Quando ero piccolo giocavo sempre fuori.",
+    "Giocavo sempre fuori quando ero piccolo."
+   ],
+   "extra": [
+    "ho"
+   ]
+  },
+  {
+   "id": "u11-s02",
+   "type": "order",
+   "why": "Imperfecto (pioveva) + passato prossimo (sono uscito).",
+   "prompt": "Llovía cuando salí.",
+   "answers": [
+    "Pioveva quando sono uscito.",
+    "Quando sono uscito pioveva."
+   ],
+   "extra": [
+    "piove"
+   ]
+  },
+  {
+   "id": "u11-s03",
+   "type": "translate",
+   "why": "El imperfecto de vivere: vivevo.",
+   "prompt": "De niño vivía en Santiago.",
+   "answers": [
+    "Da bambino vivevo a Santiago.",
+    "Quando ero bambino vivevo a Santiago."
+   ]
+  },
+  {
+   "id": "u11-s04",
+   "type": "translate",
+   "why": "Descripciones del pasado en imperfecto.",
+   "prompt": "Hacía frío y llovía.",
+   "answers": [
+    "Faceva freddo e pioveva."
+   ]
+  },
+  {
+   "id": "u11-s05",
+   "type": "translate",
+   "why": "Imperfecto (mangiavo) + acción puntual (ha squillato).",
+   "prompt": "Mientras comía, sonó el teléfono.",
+   "answers": [
+    "Mentre mangiavo, ha squillato il telefono."
+   ]
+  },
+  {
+   "id": "u11-s06",
+   "type": "fix",
+   "why": "Para el hábito se usa el imperfecto.",
+   "prompt": "Quando ero piccolo, ho giocato sempre.",
+   "answers": [
+    "Quando ero piccolo, giocavo sempre."
+   ]
+  },
+  {
+   "id": "u11-s07",
+   "type": "fix",
+   "why": "No se mezcla «ho» con el imperfecto.",
+   "prompt": "Mentre cucinavo, ho ascoltavo la musica.",
+   "answers": [
+    "Mentre cucinavo, ascoltavo la musica."
+   ]
+  },
+  {
+   "id": "u11-s08",
+   "type": "transform",
+   "why": "Vivere → vivevo.",
+   "prompt": "Pasa a imperfecto: Vivo a Roma.",
+   "answers": [
+    "Vivevo a Roma."
+   ]
+  },
+  {
+   "id": "u11-s09",
+   "type": "transform",
+   "why": "Essere → eravamo.",
+   "prompt": "Pasa a imperfecto: Siamo felici.",
+   "answers": [
+    "Eravamo felici."
+   ]
+  },
+  {
+   "id": "u11-s10",
+   "type": "dialog",
+   "why": "El hábito del pasado usa el imperfecto.",
+   "answer": 0,
+   "options": [
+    "andavo",
+    "sono andata",
+    "vado"
+   ],
+   "lines": [
+    "— Da piccola ___ sempre dai nonni.",
+    "— Che bello!"
+   ]
+  },
+  {
+   "id": "u11-s11",
+   "type": "dialog",
+   "why": "Descripción del clima: imperfecto.",
+   "answer": 1,
+   "options": [
+    "Ha fatto",
+    "Faceva",
+    "Farà"
+   ],
+   "lines": [
+    "— Che tempo faceva ieri?",
+    "— ___ freddo e pioveva."
+   ]
+  },
+  {
+   "id": "u11-s12",
+   "type": "listen",
+   "why": "«Vivevo» = vivía.",
+   "answer": 2,
+   "options": [
+    "Cuando era pequeño visité Roma.",
+    "Cuando sea pequeño viviré en Roma.",
+    "Cuando era pequeño vivía en Roma."
+   ],
+   "prompt": "Quando ero piccolo vivevo a Roma."
+  }
+ ],
+ "u12": [
+  {
+   "id": "u12-s01",
+   "type": "order",
+   "why": "Comparativo entre dos nombres: «più… di».",
+   "prompt": "Roma es más grande que Milán.",
+   "answers": [
+    "Roma è più grande di Milano."
+   ],
+   "extra": [
+    "che"
+   ]
+  },
+  {
+   "id": "u12-s02",
+   "type": "order",
+   "why": "El partitivo se forma con di + artículo: del, delle.",
+   "prompt": "Quisiera queso y unas manzanas.",
+   "answers": [
+    "Vorrei del formaggio e delle mele."
+   ],
+   "extra": [
+    "dei"
+   ]
+  },
+  {
+   "id": "u12-s03",
+   "type": "translate",
+   "why": "Después de «di» se usa «me», no «io».",
+   "prompt": "Mi hermano es más alto que yo.",
+   "answers": [
+    "Mio fratello è più alto di me."
+   ]
+  },
+  {
+   "id": "u12-s04",
+   "type": "translate",
+   "why": "El superlativo relativo: il più + adjetivo.",
+   "prompt": "Es el más barato.",
+   "answers": [
+    "È il più economico."
+   ]
+  },
+  {
+   "id": "u12-s05",
+   "type": "translate",
+   "why": "«Un po' di» o el partitivo «del».",
+   "prompt": "Quisiera un poco de pan.",
+   "answers": [
+    "Vorrei del pane.",
+    "Vorrei un po' di pane."
+   ]
+  },
+  {
+   "id": "u12-s06",
+   "type": "fix",
+   "why": "Entre dos personas se usa «di», no «che».",
+   "prompt": "Maria è più alta che Luca.",
+   "answers": [
+    "Maria è più alta di Luca."
+   ]
+  },
+  {
+   "id": "u12-s07",
+   "type": "fix",
+   "why": "«Acqua» empieza con vocal: «dell'».",
+   "prompt": "Vorrei dei acqua.",
+   "answers": [
+    "Vorrei dell'acqua."
+   ]
+  },
+  {
+   "id": "u12-s08",
+   "type": "transform",
+   "why": "Superlativo absoluto: -issimo.",
+   "prompt": "Haz el superlativo absoluto: Questo caffè è buono.",
+   "answers": [
+    "Questo caffè è buonissimo.",
+    "Questo caffè è ottimo."
+   ]
+  },
+  {
+   "id": "u12-s09",
+   "type": "transform",
+   "why": "Más… que = più… di (+ artículo).",
+   "prompt": "Compara con «più»: El tren es rápido y el bus es lento.",
+   "answers": [
+    "Il treno è più veloce dell'autobus.",
+    "L'autobus è più lento del treno."
+   ]
+  },
+  {
+   "id": "u12-s10",
+   "type": "dialog",
+   "why": "Superlativo relativo: la più buona.",
+   "answer": 0,
+   "options": [
+    "più",
+    "meno",
+    "molto"
+   ],
+   "lines": [
+    "— Quale pizza preferisci?",
+    "— La margherita è la ___ buona."
+   ]
+  },
+  {
+   "id": "u12-s11",
+   "type": "dialog",
+   "why": "«Un po'» = un poco.",
+   "answer": 1,
+   "options": [
+    "del",
+    "un",
+    "di"
+   ],
+   "lines": [
+    "— Vuoi del vino?",
+    "— Sì, ___ po', grazie."
+   ]
+  },
+  {
+   "id": "u12-s12",
+   "type": "listen",
+   "why": "«Più economico» = más barato.",
+   "answer": 2,
+   "options": [
+    "Esta es la tienda más cara.",
+    "Esta es la tienda más cercana.",
+    "Esta es la tienda más barata."
+   ],
+   "prompt": "Questo è il negozio più economico."
+  }
+ ],
+ "u28": [
+  {
+   "id": "u28-s01",
+   "type": "order",
+   "why": "«Vorrei» + infinitivo para pedir con cortesía.",
+   "prompt": "Quisiera reservar una mesa para dos.",
+   "answers": [
+    "Vorrei prenotare un tavolo per due."
+   ],
+   "extra": [
+    "vuoi"
+   ]
+  },
+  {
+   "id": "u28-s02",
+   "type": "order",
+   "why": "«Siamo in quattro» indica cuántos son.",
+   "prompt": "Somos cuatro: ¿tienen lugar?",
+   "answers": [
+    "Siamo in quattro: avete posto?"
+   ],
+   "extra": [
+    "ho"
+   ]
+  },
+  {
+   "id": "u28-s03",
+   "type": "translate",
+   "why": "«Allergico a» + a + le = alle.",
+   "prompt": "Soy alérgico a las nueces.",
+   "answers": [
+    "Sono allergico alle noci.",
+    "Sono allergica alle noci."
+   ]
+  },
+  {
+   "id": "u28-s04",
+   "type": "translate",
+   "why": "«Posso» + infinitivo.",
+   "prompt": "¿Puedo ver el menú?",
+   "answers": [
+    "Posso vedere il menù?",
+    "Posso vedere il menu?"
+   ]
+  },
+  {
+   "id": "u28-s05",
+   "type": "translate",
+   "why": "«Il conto» = la cuenta.",
+   "prompt": "La cuenta, por favor.",
+   "answers": [
+    "Il conto, per favore."
+   ]
+  },
+  {
+   "id": "u28-s06",
+   "type": "fix",
+   "why": "La alergia se dice con «essere».",
+   "prompt": "Ho allergico alle uova.",
+   "answers": [
+    "Sono allergico alle uova.",
+    "Sono allergica alle uova."
+   ]
+  },
+  {
+   "id": "u28-s07",
+   "type": "fix",
+   "why": "Después de «posso» va el infinitivo sin «a».",
+   "prompt": "Posso a pagare con la carta?",
+   "answers": [
+    "Posso pagare con la carta?"
+   ]
+  },
+  {
+   "id": "u28-s08",
+   "type": "transform",
+   "why": "«Vorrei» suena más cortés.",
+   "prompt": "Hazlo más cortés: Voglio il conto.",
+   "answers": [
+    "Vorrei il conto."
+   ]
+  },
+  {
+   "id": "u28-s09",
+   "type": "transform",
+   "why": "Plural: siamo allergici.",
+   "prompt": "Pasa a plural: Sono allergico alle noci.",
+   "answers": [
+    "Siamo allergici alle noci."
+   ]
+  },
+  {
+   "id": "u28-s10",
+   "type": "dialog",
+   "why": "El camarero habla con varios: «potete».",
+   "answer": 0,
+   "options": [
+    "potete",
+    "puoi",
+    "possiamo"
+   ],
+   "lines": [
+    "— Buonasera! Avete un tavolo per due?",
+    "— Sì, ___ sedervi qui."
+   ]
+  },
+  {
+   "id": "u28-s11",
+   "type": "dialog",
+   "why": "«Il coperto» es singular: «costa».",
+   "answer": 1,
+   "options": [
+    "costano",
+    "costa",
+    "costate"
+   ],
+   "lines": [
+    "— Il coperto è incluso?",
+    "— No, ___ due euro a persona."
+   ]
+  },
+  {
+   "id": "u28-s12",
+   "type": "listen",
+   "why": "«Vegetariano» = vegetariano.",
+   "answer": 2,
+   "options": [
+    "Soy vegano.",
+    "Soy alérgico.",
+    "Soy vegetariano."
+   ],
+   "prompt": "Sono vegetariano."
+  }
+ ],
+ "u13": [
+  {
+   "id": "u13-s01",
+   "type": "order",
+   "why": "«Lo» sustituye a un objeto masculino.",
+   "prompt": "Lo compro mañana en el mercado.",
+   "answers": [
+    "Lo compro domani al mercato."
+   ],
+   "extra": [
+    "la"
+   ]
+  },
+  {
+   "id": "u13-s02",
+   "type": "order",
+   "why": "«Le» es el pronombre indirecto femenino (a ella).",
+   "prompt": "Le di el libro ayer.",
+   "answers": [
+    "Le ho dato il libro ieri."
+   ],
+   "extra": [
+    "gli"
+   ]
+  },
+  {
+   "id": "u13-s03",
+   "type": "translate",
+   "why": "«La» reemplaza a una persona femenina.",
+   "prompt": "La veo cada día.",
+   "answers": [
+    "La vedo ogni giorno."
+   ]
+  },
+  {
+   "id": "u13-s04",
+   "type": "translate",
+   "why": "Pronombre indirecto: le (a ella) o gli (a él).",
+   "prompt": "Le escribo un mensaje.",
+   "answers": [
+    "Le scrivo un messaggio.",
+    "Gli scrivo un messaggio."
+   ]
+  },
+  {
+   "id": "u13-s05",
+   "type": "translate",
+   "why": "Con «li» el participio concuerda: comprati.",
+   "prompt": "Los compré ayer.",
+   "answers": [
+    "Li ho comprati ieri."
+   ]
+  },
+  {
+   "id": "u13-s06",
+   "type": "fix",
+   "why": "El pronombre va antes del verbo y se apostrofa: l'ho.",
+   "prompt": "Ho visto lui ieri.",
+   "answers": [
+    "L'ho visto ieri.",
+    "Lo ho visto ieri."
+   ]
+  },
+  {
+   "id": "u13-s07",
+   "type": "fix",
+   "why": "A una mujer se le dice «le».",
+   "prompt": "Gli ho dato un regalo a Maria.",
+   "answers": [
+    "Le ho dato un regalo a Maria.",
+    "Le ho dato un regalo."
+   ]
+  },
+  {
+   "id": "u13-s08",
+   "type": "transform",
+   "why": "«Il pane» → lo.",
+   "prompt": "Reemplaza con pronombre: Compro il pane.",
+   "answers": [
+    "Lo compro."
+   ]
+  },
+  {
+   "id": "u13-s09",
+   "type": "transform",
+   "why": "A él (indirecto) → gli.",
+   "prompt": "Reemplaza con pronombre: Scrivo a Marco.",
+   "answers": [
+    "Gli scrivo."
+   ]
+  },
+  {
+   "id": "u13-s10",
+   "type": "dialog",
+   "why": "Pronombre directo con apóstrofo ante «ho».",
+   "answer": 0,
+   "options": [
+    "l'",
+    "gli",
+    "le"
+   ],
+   "lines": [
+    "— Hai visto Marco?",
+    "— Sì, ___ ho visto ieri."
+   ]
+  },
+  {
+   "id": "u13-s11",
+   "type": "dialog",
+   "why": "A Maria (indirecto femenino): «le».",
+   "answer": 1,
+   "options": [
+    "la",
+    "le",
+    "gli"
+   ],
+   "lines": [
+    "— Hai dato il regalo a Maria?",
+    "— Sì, ___ ho dato un libro."
+   ]
+  },
+  {
+   "id": "u13-s12",
+   "type": "listen",
+   "why": "«Ti telefono» = te llamo.",
+   "answer": 2,
+   "options": [
+    "Te llamé ayer.",
+    "Te escribo mañana.",
+    "Te llamo mañana."
+   ],
+   "prompt": "Ti telefono domani."
+  }
+ ],
+ "u14": [
+  {
+   "id": "u14-s01",
+   "type": "order",
+   "part": "A",
+   "why": "«Ne» sustituye una cantidad: «ne voglio due».",
+   "prompt": "Quiero dos, gracias.",
+   "answers": [
+    "Ne voglio due, grazie."
+   ],
+   "extra": [
+    "ci"
+   ]
+  },
+  {
+   "id": "u14-s02",
+   "type": "translate",
+   "part": "A",
+   "why": "«Ci» reemplaza un lugar.",
+   "prompt": "Voy allí mañana.",
+   "answers": [
+    "Ci vado domani."
+   ]
+  },
+  {
+   "id": "u14-s03",
+   "type": "translate",
+   "part": "A",
+   "why": "«Ne» = de eso.",
+   "prompt": "¿Cuántos quieres? Quiero tres.",
+   "answers": [
+    "Ne voglio tre."
+   ]
+  },
+  {
+   "id": "u14-s04",
+   "type": "fix",
+   "part": "A",
+   "why": "El pronombre va antes del verbo.",
+   "prompt": "Vado ci domani.",
+   "answers": [
+    "Ci vado domani."
+   ]
+  },
+  {
+   "id": "u14-s05",
+   "type": "transform",
+   "part": "A",
+   "why": "«A Roma» → ci.",
+   "prompt": "Reemplaza el lugar con «ci»: Vado a Roma.",
+   "answers": [
+    "Ci vado."
+   ]
+  },
+  {
+   "id": "u14-s06",
+   "type": "dialog",
+   "part": "A",
+   "why": "«Ne» indica la cantidad.",
+   "answer": 0,
+   "options": [
+    "Ne",
+    "Ci",
+    "Lo"
+   ],
+   "lines": [
+    "— Quanti caffè bevi al giorno?",
+    "— ___ bevo tre."
+   ]
+  },
+  {
+   "id": "u14-s07",
+   "type": "order",
+   "part": "B",
+   "why": "Con «tu» el imperativo de girare es «gira».",
+   "prompt": "Gira a la derecha y sigue derecho.",
+   "answers": [
+    "Gira a destra e vai dritto."
+   ],
+   "extra": [
+    "giri"
+   ]
+  },
+  {
+   "id": "u14-s08",
+   "type": "translate",
+   "part": "B",
+   "why": "Imperativo de aprire (tú): apri.",
+   "prompt": "Abre la puerta.",
+   "answers": [
+    "Apri la porta."
+   ]
+  },
+  {
+   "id": "u14-s09",
+   "type": "fix",
+   "part": "B",
+   "why": "Con «tu» y negación: non + infinitivo.",
+   "prompt": "Non parla così!",
+   "answers": [
+    "Non parlare così!"
+   ]
+  },
+  {
+   "id": "u14-s10",
+   "type": "transform",
+   "part": "B",
+   "why": "Imperativo formal: apra.",
+   "prompt": "Pasa a «Lei»: Apri la porta.",
+   "answers": [
+    "Apra la porta."
+   ]
+  },
+  {
+   "id": "u14-s11",
+   "type": "dialog",
+   "part": "B",
+   "why": "Con «Lei»: «Vada».",
+   "answer": 1,
+   "options": [
+    "Va",
+    "Vada",
+    "Andate"
+   ],
+   "lines": [
+    "— Scusi, per la stazione?",
+    "— ___ dritto e poi giri a sinistra."
+   ]
+  },
+  {
+   "id": "u14-s12",
+   "type": "listen",
+   "part": "B",
+   "why": "«Prendi» = toma (tú).",
+   "answer": 2,
+   "options": [
+    "Toma la segunda a la izquierda.",
+    "Toma la primera a la derecha.",
+    "Toma la primera a la izquierda."
+   ],
+   "prompt": "Prendi la prima a sinistra."
+  }
+ ],
+ "u15": [
+  {
+   "id": "u15-s01",
+   "type": "order",
+   "part": "A",
+   "why": "Futuro de andare: andrò.",
+   "prompt": "Mañana iré al mar con Luca.",
+   "answers": [
+    "Domani andrò al mare con Luca."
+   ],
+   "extra": [
+    "vado"
+   ]
+  },
+  {
+   "id": "u15-s02",
+   "type": "translate",
+   "part": "A",
+   "why": "Futuro irregular: andrò.",
+   "prompt": "Mañana iré al cine.",
+   "answers": [
+    "Domani andrò al cinema."
+   ]
+  },
+  {
+   "id": "u15-s03",
+   "type": "translate",
+   "part": "A",
+   "why": "Futuro de essere: saremo.",
+   "prompt": "Seremos felices.",
+   "answers": [
+    "Saremo felici."
+   ]
+  },
+  {
+   "id": "u15-s04",
+   "type": "fix",
+   "part": "A",
+   "why": "Andare tiene futuro irregular: andrò.",
+   "prompt": "Domani io andarò a Roma.",
+   "answers": [
+    "Domani io andrò a Roma.",
+    "Domani andrò a Roma."
+   ]
+  },
+  {
+   "id": "u15-s05",
+   "type": "transform",
+   "part": "A",
+   "why": "Futuro: parlare → parlerò.",
+   "prompt": "Pasa a futuro: Parlo con Marco.",
+   "answers": [
+    "Parlerò con Marco."
+   ]
+  },
+  {
+   "id": "u15-s06",
+   "type": "dialog",
+   "part": "A",
+   "why": "Futuro: resterò.",
+   "answer": 0,
+   "options": [
+    "Resterò",
+    "Restavo",
+    "Sono restato"
+   ],
+   "lines": [
+    "— Che farai domani?",
+    "— ___ a casa."
+   ]
+  },
+  {
+   "id": "u15-s07",
+   "type": "order",
+   "part": "B",
+   "why": "El condicional «potresti» suaviza el pedido.",
+   "prompt": "¿Podrías ayudarme, por favor?",
+   "answers": [
+    "Potresti aiutarmi, per favore?"
+   ],
+   "extra": [
+    "potrai"
+   ]
+  },
+  {
+   "id": "u15-s08",
+   "type": "translate",
+   "part": "B",
+   "why": "Condicional con Lei: potrebbe.",
+   "prompt": "¿Podría ayudarme?",
+   "answers": [
+    "Potrebbe aiutarmi?",
+    "Mi potrebbe aiutare?"
+   ]
+  },
+  {
+   "id": "u15-s09",
+   "type": "fix",
+   "part": "B",
+   "why": "Condicional de potere: potrei.",
+   "prompt": "Io poterei venire.",
+   "answers": [
+    "Potrei venire.",
+    "Io potrei venire."
+   ]
+  },
+  {
+   "id": "u15-s10",
+   "type": "transform",
+   "part": "B",
+   "why": "«Potresti» es más cortés que «puoi».",
+   "prompt": "Hazlo más cortés: Puoi chiudere la finestra?",
+   "answers": [
+    "Potresti chiudere la finestra?"
+   ]
+  },
+  {
+   "id": "u15-s11",
+   "type": "dialog",
+   "part": "B",
+   "why": "Para pedir con cortesía: «Potresti…?».",
+   "answer": 1,
+   "options": [
+    "Potevi",
+    "Potresti",
+    "Potrai"
+   ],
+   "lines": [
+    "— ___ aprire la finestra, per favore?",
+    "— Certo!"
+   ]
+  },
+  {
+   "id": "u15-s12",
+   "type": "listen",
+   "part": "B",
+   "why": "«Piacerebbe» es el condicional de piacere.",
+   "answer": 2,
+   "options": [
+    "Me gusta viajar.",
+    "Me gustó viajar.",
+    "Me gustaría viajar."
+   ],
+   "prompt": "Mi piacerebbe viaggiare."
+  }
+ ],
+ "u16": [
+  {
+   "id": "u16-s01",
+   "type": "order",
+   "why": "«Ho mal di…» + parte del cuerpo.",
+   "prompt": "Me duele la cabeza desde hace dos días.",
+   "answers": [
+    "Ho mal di testa da due giorni."
+   ],
+   "extra": [
+    "ho"
+   ]
+  },
+  {
+   "id": "u16-s02",
+   "type": "order",
+   "why": "«Mi fa male» + singular.",
+   "prompt": "Me duele la garganta.",
+   "answers": [
+    "Mi fa male la gola."
+   ],
+   "extra": [
+    "fanno"
+   ]
+  },
+  {
+   "id": "u16-s03",
+   "type": "translate",
+   "why": "«Avere la febbre».",
+   "prompt": "Tengo fiebre.",
+   "answers": [
+    "Ho la febbre."
+   ]
+  },
+  {
+   "id": "u16-s04",
+   "type": "translate",
+   "why": "Dos formas: «fa male» o «mal di».",
+   "prompt": "Me duele el estómago.",
+   "answers": [
+    "Mi fa male lo stomaco.",
+    "Ho mal di stomaco."
+   ]
+  },
+  {
+   "id": "u16-s05",
+   "type": "translate",
+   "why": "«Avere bisogno di».",
+   "prompt": "Necesito un médico.",
+   "answers": [
+    "Ho bisogno di un medico.",
+    "Ho bisogno di un dottore.",
+    "Mi serve un medico."
+   ]
+  },
+  {
+   "id": "u16-s06",
+   "type": "fix",
+   "why": "No se dice «ho male la testa».",
+   "prompt": "Ho male la testa.",
+   "answers": [
+    "Ho mal di testa.",
+    "Mi fa male la testa."
+   ]
+  },
+  {
+   "id": "u16-s07",
+   "type": "fix",
+   "why": "Plural: «fanno».",
+   "prompt": "Mi fa male le gambe.",
+   "answers": [
+    "Mi fanno male le gambe."
+   ]
+  },
+  {
+   "id": "u16-s08",
+   "type": "transform",
+   "why": "Plural: fanno male le mani.",
+   "prompt": "Pasa a plural: Mi fa male la mano.",
+   "answers": [
+    "Mi fanno male le mani."
+   ]
+  },
+  {
+   "id": "u16-s09",
+   "type": "transform",
+   "why": "Forma formal: «Come sta?».",
+   "prompt": "Pasa a «Lei»: Come stai?",
+   "answers": [
+    "Come sta?"
+   ]
+  },
+  {
+   "id": "u16-s10",
+   "type": "dialog",
+   "why": "El médico habla de usted: «ha».",
+   "answer": 0,
+   "options": [
+    "ha",
+    "hai",
+    "ho"
+   ],
+   "lines": [
+    "— Dottore, ho mal di gola.",
+    "— Da quanto tempo ___ questo dolore?"
+   ]
+  },
+  {
+   "id": "u16-s11",
+   "type": "dialog",
+   "why": "«Ogni sei ore» = cada seis horas.",
+   "answer": 1,
+   "options": [
+    "ora",
+    "ore",
+    "orari"
+   ],
+   "lines": [
+    "— Prenda una compressa ogni sei ___.",
+    "— Va bene."
+   ]
+  },
+  {
+   "id": "u16-s12",
+   "type": "listen",
+   "why": "«Testa» = cabeza.",
+   "answer": 2,
+   "options": [
+    "Me duelen las piernas.",
+    "Me duele el estómago.",
+    "Me duele la cabeza."
+   ],
+   "prompt": "Mi fa male la testa."
+  }
+ ],
+ "u17": [
+  {
+   "id": "u17-s01",
+   "type": "order",
+   "why": "«In centro» sin artículo.",
+   "prompt": "Busco un departamento en el centro.",
+   "answers": [
+    "Cerco un appartamento in centro."
+   ],
+   "extra": [
+    "al"
+   ]
+  },
+  {
+   "id": "u17-s02",
+   "type": "order",
+   "why": "«Funziona» con sujeto singular.",
+   "prompt": "La calefacción no funciona.",
+   "answers": [
+    "Il riscaldamento non funziona."
+   ],
+   "extra": [
+    "funzionano"
+   ]
+  },
+  {
+   "id": "u17-s03",
+   "type": "translate",
+   "why": "«L'affitto» = el alquiler.",
+   "prompt": "¿Cuánto cuesta el alquiler?",
+   "answers": [
+    "Quanto costa l'affitto?"
+   ]
+  },
+  {
+   "id": "u17-s04",
+   "type": "translate",
+   "why": "«Rubinetto» = grifo.",
+   "prompt": "El grifo no funciona.",
+   "answers": [
+    "Il rubinetto non funziona."
+   ]
+  },
+  {
+   "id": "u17-s05",
+   "type": "translate",
+   "why": "«Vorrei» + infinitivo.",
+   "prompt": "Quisiera ver el departamento.",
+   "answers": [
+    "Vorrei vedere l'appartamento."
+   ]
+  },
+  {
+   "id": "u17-s06",
+   "type": "fix",
+   "why": "«L'affitto» es singular: «è».",
+   "prompt": "L'affitto sono 500 euro.",
+   "answers": [
+    "L'affitto è di 500 euro.",
+    "L'affitto è 500 euro."
+   ]
+  },
+  {
+   "id": "u17-s07",
+   "type": "fix",
+   "why": "Para el piso se usa «a»: «al terzo piano».",
+   "prompt": "L'appartamento è nel terzo piano.",
+   "answers": [
+    "L'appartamento è al terzo piano."
+   ]
+  },
+  {
+   "id": "u17-s08",
+   "type": "transform",
+   "why": "Plural: ci sono, camere libere.",
+   "prompt": "Cambia a «due»: C'è una camera libera.",
+   "answers": [
+    "Ci sono due camere libere."
+   ]
+  },
+  {
+   "id": "u17-s09",
+   "type": "transform",
+   "why": "«Vorrei» suena más cortés.",
+   "prompt": "Hazlo más cortés: Voglio vedere la casa.",
+   "answers": [
+    "Vorrei vedere la casa."
+   ]
+  },
+  {
+   "id": "u17-s10",
+   "type": "dialog",
+   "why": "«Includere» = incluir.",
+   "answer": 0,
+   "options": [
+    "include",
+    "vive",
+    "apre"
+   ],
+   "lines": [
+    "— Le spese sono incluse?",
+    "— Sì, l'affitto ___ le spese."
+   ]
+  },
+  {
+   "id": "u17-s11",
+   "type": "dialog",
+   "why": "Después de «può» va el infinitivo: «ripararlo».",
+   "answer": 1,
+   "options": [
+    "riparato",
+    "ripararlo",
+    "riparo"
+   ],
+   "lines": [
+    "— Il rubinetto è rotto. Può ___, per favore?",
+    "— Certo."
+   ]
+  },
+  {
+   "id": "u17-s12",
+   "type": "listen",
+   "why": "«Luminosa» = luminosa.",
+   "answer": 2,
+   "options": [
+    "La habitación es pequeña.",
+    "La cocina es luminosa.",
+    "La habitación es luminosa."
+   ],
+   "prompt": "La camera è luminosa."
+  }
+ ],
+ "u18": [
+  {
+   "id": "u18-s01",
+   "type": "order",
+   "why": "Al teléfono se dice «Pronto, sono…».",
+   "prompt": "Hola, soy Marco, quisiera hablar con Anna.",
+   "answers": [
+    "Pronto, sono Marco, vorrei parlare con Anna."
+   ],
+   "extra": [
+    "siamo"
+   ]
+  },
+  {
+   "id": "u18-s02",
+   "type": "order",
+   "why": "«Tra dieci minuti» = en diez minutos.",
+   "prompt": "Te llamo de nuevo en diez minutos.",
+   "answers": [
+    "Ti richiamo tra dieci minuti."
+   ],
+   "extra": [
+    "La"
+   ]
+  },
+  {
+   "id": "u18-s03",
+   "type": "translate",
+   "why": "Al contestar el teléfono: «Pronto».",
+   "prompt": "Hola, habla Marta.",
+   "answers": [
+    "Pronto, sono Marta."
+   ]
+  },
+  {
+   "id": "u18-s04",
+   "type": "translate",
+   "why": "Con «Lei»: «può».",
+   "prompt": "¿Puede repetir, por favor?",
+   "answers": [
+    "Può ripetere, per favore?"
+   ]
+  },
+  {
+   "id": "u18-s05",
+   "type": "translate",
+   "why": "«Per» + infinitivo expresa el motivo.",
+   "prompt": "Le escribo para pedir información.",
+   "answers": [
+    "Le scrivo per chiedere informazioni.",
+    "Scrivo per chiedere informazioni."
+   ]
+  },
+  {
+   "id": "u18-s06",
+   "type": "fix",
+   "why": "En un mensaje formal se usa «la/Le».",
+   "prompt": "Gentile signora Verdi, ti ringrazio.",
+   "answers": [
+    "Gentile signora Verdi, la ringrazio.",
+    "Gentile signora Verdi, Le sono grata."
+   ]
+  },
+  {
+   "id": "u18-s07",
+   "type": "fix",
+   "why": "Con un amigo se usa «ti».",
+   "prompt": "Ciao Luca, Le scrivo per invitarti.",
+   "answers": [
+    "Ciao Luca, ti scrivo per invitarti."
+   ]
+  },
+  {
+   "id": "u18-s08",
+   "type": "transform",
+   "why": "Formal «la» → informal «ti».",
+   "prompt": "Pasa a informal: La ringrazio molto.",
+   "answers": [
+    "Ti ringrazio molto."
+   ]
+  },
+  {
+   "id": "u18-s09",
+   "type": "transform",
+   "why": "Informal «ti» → formal «la».",
+   "prompt": "Pasa a formal: Ti chiamo domani.",
+   "answers": [
+    "La chiamo domani."
+   ]
+  },
+  {
+   "id": "u18-s10",
+   "type": "dialog",
+   "why": "Al teléfono se dice «Sono…».",
+   "answer": 0,
+   "options": [
+    "Sono",
+    "Siamo",
+    "Ho"
+   ],
+   "lines": [
+    "— Pronto? ___ Marco, c'è Anna?",
+    "— No, è uscita."
+   ]
+  },
+  {
+   "id": "u18-s11",
+   "type": "dialog",
+   "why": "Para pedir permiso: «Posso…?».",
+   "answer": 1,
+   "options": [
+    "Possiamo",
+    "Posso",
+    "Pronto"
+   ],
+   "lines": [
+    "— ___ lasciare un messaggio?",
+    "— Certo."
+   ]
+  },
+  {
+   "id": "u18-s12",
+   "type": "listen",
+   "why": "«Ripetere» = repetir.",
+   "answer": 2,
+   "options": [
+    "¿Puede escribir, por favor?",
+    "¿Puede esperar, por favor?",
+    "¿Puede repetir, por favor?"
+   ],
+   "prompt": "Può ripetere, per favore?"
+  }
+ ],
+ "u19": [
+  {
+   "id": "u19-s01",
+   "type": "order",
+   "why": "El «si» impersonal usa el verbo en singular.",
+   "prompt": "En Italia se come muy tarde.",
+   "answers": [
+    "In Italia si mangia molto tardi."
+   ],
+   "extra": [
+    "mangiano"
+   ]
+  },
+  {
+   "id": "u19-s02",
+   "type": "order",
+   "why": "«Da» + tiempo indica desde cuándo.",
+   "prompt": "Estudio italiano desde hace seis meses.",
+   "answers": [
+    "Studio italiano da sei mesi."
+   ],
+   "extra": [
+    "per"
+   ]
+  },
+  {
+   "id": "u19-s03",
+   "type": "translate",
+   "why": "«Si parla» = se habla.",
+   "prompt": "Aquí se habla italiano.",
+   "answers": [
+    "Qui si parla italiano."
+   ]
+  },
+  {
+   "id": "u19-s04",
+   "type": "translate",
+   "why": "«Da» + duración, con el verbo en presente.",
+   "prompt": "Vivo aquí desde hace dos años.",
+   "answers": [
+    "Vivo qui da due anni.",
+    "Abito qui da due anni."
+   ]
+  },
+  {
+   "id": "u19-s05",
+   "type": "translate",
+   "why": "«Stare per» + infinitivo = estar por.",
+   "prompt": "El tren está por salir.",
+   "answers": [
+    "Il treno sta per partire."
+   ]
+  },
+  {
+   "id": "u19-s06",
+   "type": "fix",
+   "why": "No se usa «fa» con «da».",
+   "prompt": "Abito qui da due anni fa.",
+   "answers": [
+    "Abito qui da due anni."
+   ]
+  },
+  {
+   "id": "u19-s07",
+   "type": "fix",
+   "why": "Con adverbio el «si» impersonal va en singular.",
+   "prompt": "Qui si mangiano bene.",
+   "answers": [
+    "Qui si mangia bene."
+   ]
+  },
+  {
+   "id": "u19-s08",
+   "type": "transform",
+   "why": "Impersonal: «si parla».",
+   "prompt": "Pasa a impersonal: Noi parliamo italiano qui.",
+   "answers": [
+    "Qui si parla italiano."
+   ]
+  },
+  {
+   "id": "u19-s09",
+   "type": "transform",
+   "why": "«Sta per» + infinitivo.",
+   "prompt": "Usa «stare per»: Il film comincia.",
+   "answers": [
+    "Il film sta per cominciare."
+   ]
+  },
+  {
+   "id": "u19-s10",
+   "type": "dialog",
+   "why": "«Da» expresa duración desde el pasado.",
+   "answer": 0,
+   "options": [
+    "Da",
+    "Per",
+    "Fa"
+   ],
+   "lines": [
+    "— Da quanto tempo studi italiano?",
+    "— ___ un anno."
+   ]
+  },
+  {
+   "id": "u19-s11",
+   "type": "dialog",
+   "why": "Acción inminente: «sta per».",
+   "answer": 1,
+   "options": [
+    "sta",
+    "sta per",
+    "è per"
+   ],
+   "lines": [
+    "— Corri! Il treno ___ partire!"
+   ]
+  },
+  {
+   "id": "u19-s12",
+   "type": "listen",
+   "why": "El «si» impersonal equivale a «se».",
+   "answer": 2,
+   "options": [
+    "¿Puedo entrar?",
+    "¿Se debe entrar?",
+    "¿Se puede entrar?"
+   ],
+   "prompt": "Si può entrare?"
+  }
+ ],
+ "u20": [
+  {
+   "id": "u20-s01",
+   "type": "order",
+   "why": "Discurso indirecto: «ha detto che…».",
+   "prompt": "Marco dijo que llega mañana.",
+   "answers": [
+    "Marco ha detto che arriva domani."
+   ],
+   "extra": [
+    "chi"
+   ]
+  },
+  {
+   "id": "u20-s02",
+   "type": "order",
+   "why": "Después de «penso che» se usa el congiuntivo: sia.",
+   "prompt": "Creo que es una buena idea.",
+   "answers": [
+    "Penso che sia una buona idea."
+   ],
+   "extra": [
+    "è"
+   ]
+  },
+  {
+   "id": "u20-s03",
+   "type": "translate",
+   "why": "En el discurso indirecto el tiempo retrocede: era.",
+   "prompt": "Dijo que estaba cansado.",
+   "answers": [
+    "Ha detto che era stanco."
+   ]
+  },
+  {
+   "id": "u20-s04",
+   "type": "translate",
+   "why": "«Anche se» = aunque.",
+   "prompt": "Aunque llueve, salgo.",
+   "answers": [
+    "Anche se piove, esco."
+   ]
+  },
+  {
+   "id": "u20-s05",
+   "type": "translate",
+   "why": "Congiuntivo: abbia.",
+   "prompt": "Creo que tiene razón.",
+   "answers": [
+    "Penso che abbia ragione.",
+    "Credo che abbia ragione."
+   ]
+  },
+  {
+   "id": "u20-s06",
+   "type": "fix",
+   "why": "Después de «penso che» va el congiuntivo.",
+   "prompt": "Penso che è giusto.",
+   "answers": [
+    "Penso che sia giusto."
+   ]
+  },
+  {
+   "id": "u20-s07",
+   "type": "fix",
+   "why": "La persona que dijo habla de otro: verrà.",
+   "prompt": "Ha detto che verrò domani.",
+   "answers": [
+    "Ha detto che verrà domani."
+   ]
+  },
+  {
+   "id": "u20-s08",
+   "type": "transform",
+   "why": "Dice che + verbo en 3.ª persona.",
+   "prompt": "Pasa a discurso indirecto: «Sono stanco», dice Luca.",
+   "answers": [
+    "Luca dice che è stanco."
+   ]
+  },
+  {
+   "id": "u20-s09",
+   "type": "transform",
+   "why": "«Perché» une causa y efecto.",
+   "prompt": "Une con «perché»: Resto a casa. Piove.",
+   "answers": [
+    "Resto a casa perché piove."
+   ]
+  },
+  {
+   "id": "u20-s10",
+   "type": "dialog",
+   "why": "Después de «credo che»: congiuntivo.",
+   "answer": 0,
+   "options": [
+    "abbia",
+    "ha",
+    "avere"
+   ],
+   "lines": [
+    "— Credo che Marco ___ ragione.",
+    "— Anch'io."
+   ]
+  },
+  {
+   "id": "u20-s11",
+   "type": "dialog",
+   "why": "«Perché» expresa causa.",
+   "answer": 1,
+   "options": [
+    "però",
+    "perché",
+    "anche"
+   ],
+   "lines": [
+    "— Resto a casa ___ sono stanco.",
+    "— Capisco."
+   ]
+  },
+  {
+   "id": "u20-s12",
+   "type": "listen",
+   "why": "«Arriva tardi» = llega tarde.",
+   "answer": 2,
+   "options": [
+    "Dijo que llegó tarde.",
+    "Dice que llega temprano.",
+    "Dijo que llega tarde."
+   ],
+   "prompt": "Ha detto che arriva tardi."
+  }
+ ],
+ "u24": [
+  {
+   "id": "u24-s01",
+   "type": "order",
+   "why": "«Andare» usa essere.",
+   "prompt": "El año pasado fui a Italia con mi hermana.",
+   "answers": [
+    "L'anno scorso sono andato in Italia con mia sorella."
+   ],
+   "extra": [
+    "ho"
+   ]
+  },
+  {
+   "id": "u24-s02",
+   "type": "order",
+   "why": "Imperfecto para el pasado habitual y presente para ahora.",
+   "prompt": "De niña vivía en Santiago, pero ahora vivo en Roma.",
+   "answers": [
+    "Da piccola abitavo a Santiago, ma adesso vivo a Roma."
+   ],
+   "extra": [
+    "ho"
+   ]
+  },
+  {
+   "id": "u24-s03",
+   "type": "translate",
+   "why": "Passato prossimo con avere: ho comprato.",
+   "prompt": "Ayer compré un boleto de tren.",
+   "answers": [
+    "Ieri ho comprato un biglietto del treno.",
+    "Ieri ho comprato un biglietto per il treno."
+   ]
+  },
+  {
+   "id": "u24-s04",
+   "type": "translate",
+   "why": "«Vorrei» + infinitivo.",
+   "prompt": "Quisiera reservar una habitación.",
+   "answers": [
+    "Vorrei prenotare una camera."
+   ]
+  },
+  {
+   "id": "u24-s05",
+   "type": "translate",
+   "why": "«Partire» = salir.",
+   "prompt": "¿A qué hora sale el tren?",
+   "answers": [
+    "A che ora parte il treno?"
+   ]
+  },
+  {
+   "id": "u24-s06",
+   "type": "fix",
+   "why": "«Mangiare» usa avere.",
+   "prompt": "Ieri sono mangiato una pizza.",
+   "answers": [
+    "Ieri ho mangiato una pizza."
+   ]
+  },
+  {
+   "id": "u24-s07",
+   "type": "fix",
+   "why": "Plural: «piacciono».",
+   "prompt": "Mi piace i film italiani.",
+   "answers": [
+    "Mi piacciono i film italiani."
+   ]
+  },
+  {
+   "id": "u24-s08",
+   "type": "transform",
+   "why": "Partire usa essere.",
+   "prompt": "Pasa a passato prossimo: Parto alle otto.",
+   "answers": [
+    "Sono partito alle otto.",
+    "Sono partita alle otto."
+   ]
+  },
+  {
+   "id": "u24-s09",
+   "type": "transform",
+   "why": "Futuro de andare: andrò.",
+   "prompt": "Pasa a futuro: Vado a Napoli.",
+   "answers": [
+    "Andrò a Napoli."
+   ]
+  },
+  {
+   "id": "u24-s10",
+   "type": "dialog",
+   "why": "«Treno» es singular: «parte».",
+   "answer": 0,
+   "options": [
+    "parte",
+    "partono",
+    "partiamo"
+   ],
+   "lines": [
+    "— Scusi, a che ora ___ l'ultimo treno?",
+    "— Alle ventidue."
+   ]
+  },
+  {
+   "id": "u24-s11",
+   "type": "dialog",
+   "why": "Con «andata» se usa «sono».",
+   "answer": 1,
+   "options": [
+    "Ho",
+    "Sono",
+    "Ha"
+   ],
+   "lines": [
+    "— Dove sei andata in vacanza l'anno scorso?",
+    "— ___ andata in Sicilia."
+   ]
+  },
+  {
+   "id": "u24-s12",
+   "type": "listen",
+   "why": "«Firenze» = Florencia.",
+   "answer": 2,
+   "options": [
+    "Quisiera un boleto para Venecia.",
+    "Quisiera un boleto para Milán.",
+    "Quisiera un boleto para Florencia."
+   ],
+   "prompt": "Vorrei un biglietto per Firenze."
+  }
+ ],
+ "u21": [
+  {
+   "id": "u21-s01",
+   "type": "order",
+   "why": "Primero va el pronombre indirecto: «te lo».",
+   "prompt": "Te lo doy mañana.",
+   "answers": [
+    "Te lo do domani."
+   ],
+   "extra": [
+    "ti",
+    "mi"
+   ]
+  },
+  {
+   "id": "u21-s02",
+   "type": "order",
+   "why": "Gli + lo se escribe «glielo».",
+   "prompt": "Se lo digo enseguida.",
+   "answers": [
+    "Glielo dico subito."
+   ],
+   "extra": [
+    "gli",
+    "le"
+   ]
+  },
+  {
+   "id": "u21-s03",
+   "type": "translate",
+   "why": "Me + lo = me lo.",
+   "prompt": "Me lo das.",
+   "answers": [
+    "Me lo dai."
+   ]
+  },
+  {
+   "id": "u21-s04",
+   "type": "translate",
+   "why": "Le/gli + lo → glielo.",
+   "prompt": "Se lo digo mañana.",
+   "answers": [
+    "Glielo dico domani."
+   ]
+  },
+  {
+   "id": "u21-s05",
+   "type": "translate",
+   "why": "«Le» (las) acompaña a «te».",
+   "prompt": "Te las compro.",
+   "answers": [
+    "Te le compro."
+   ]
+  },
+  {
+   "id": "u21-s06",
+   "type": "fix",
+   "why": "El indirecto va primero: te lo.",
+   "prompt": "Lo ti do domani.",
+   "answers": [
+    "Te lo do domani."
+   ]
+  },
+  {
+   "id": "u21-s07",
+   "type": "fix",
+   "why": "Le + lo se une en «glielo».",
+   "prompt": "Le lo dico.",
+   "answers": [
+    "Glielo dico."
+   ]
+  },
+  {
+   "id": "u21-s08",
+   "type": "transform",
+   "why": "«Il libro» → lo; «a Marco» → gli: glielo.",
+   "prompt": "Sustituye con pronombres: Do il libro a Marco.",
+   "answers": [
+    "Glielo do."
+   ]
+  },
+  {
+   "id": "u21-s09",
+   "type": "transform",
+   "why": "«La penna» → la; con «mi»: me la.",
+   "prompt": "Sustituye con pronombres: Mi dai la penna?",
+   "answers": [
+    "Me la dai?"
+   ]
+  },
+  {
+   "id": "u21-s10",
+   "type": "dialog",
+   "why": "«Mi» pasa a «te» antes de «lo».",
+   "answer": 0,
+   "options": [
+    "te lo",
+    "ti lo",
+    "lo ti"
+   ],
+   "lines": [
+    "— Mi presti il libro?",
+    "— Sì, ___ presto domani."
+   ]
+  },
+  {
+   "id": "u21-s11",
+   "type": "dialog",
+   "why": "Gli + lo = glielo.",
+   "answer": 1,
+   "options": [
+    "gli lo",
+    "glielo",
+    "lo gli"
+   ],
+   "lines": [
+    "— Dai il regalo a Luca?",
+    "— Sì, ___ do stasera."
+   ]
+  },
+  {
+   "id": "u21-s12",
+   "type": "listen",
+   "why": "«Te lo dico» = te lo digo.",
+   "answer": 2,
+   "options": [
+    "Te lo dije ayer.",
+    "Me lo dices mañana.",
+    "Te lo digo mañana."
+   ],
+   "prompt": "Te lo dico domani."
+  }
+ ],
+ "u22": [
+  {
+   "id": "u22-s01",
+   "type": "order",
+   "why": "Después de «spero che» va el congiuntivo.",
+   "prompt": "Espero que estés bien.",
+   "answers": [
+    "Spero che tu stia bene."
+   ],
+   "extra": [
+    "sei"
+   ]
+  },
+  {
+   "id": "u22-s02",
+   "type": "order",
+   "why": "Después de «voglio che»: congiuntivo.",
+   "prompt": "Quiero que vengas a la fiesta.",
+   "answers": [
+    "Voglio che tu venga alla festa."
+   ],
+   "extra": [
+    "vieni"
+   ]
+  },
+  {
+   "id": "u22-s03",
+   "type": "translate",
+   "why": "Congiuntivo de venire: venga.",
+   "prompt": "Quiero que vengas.",
+   "answers": [
+    "Voglio che tu venga.",
+    "Voglio che venga."
+   ]
+  },
+  {
+   "id": "u22-s04",
+   "type": "translate",
+   "why": "Congiuntivo de essere: sia.",
+   "prompt": "Creo que es verdad.",
+   "answers": [
+    "Credo che sia vero.",
+    "Penso che sia vero."
+   ]
+  },
+  {
+   "id": "u22-s05",
+   "type": "translate",
+   "why": "Congiuntivo de avere: abbia.",
+   "prompt": "Espero que tengas tiempo.",
+   "answers": [
+    "Spero che tu abbia tempo.",
+    "Spero che abbia tempo."
+   ]
+  },
+  {
+   "id": "u22-s06",
+   "type": "fix",
+   "why": "Después de «penso che»: congiuntivo.",
+   "prompt": "Penso che Marco è stanco.",
+   "answers": [
+    "Penso che Marco sia stanco."
+   ]
+  },
+  {
+   "id": "u22-s07",
+   "type": "fix",
+   "why": "Después de «dubito che»: congiuntivo.",
+   "prompt": "Dubito che lui ha ragione.",
+   "answers": [
+    "Dubito che lui abbia ragione."
+   ]
+  },
+  {
+   "id": "u22-s08",
+   "type": "transform",
+   "why": "Penso che + congiuntivo.",
+   "prompt": "Une con «Penso che»: Marco è felice.",
+   "answers": [
+    "Penso che Marco sia felice."
+   ]
+  },
+  {
+   "id": "u22-s09",
+   "type": "transform",
+   "why": "Stare → stia.",
+   "prompt": "Une con «Spero che»: Tu stai meglio.",
+   "answers": [
+    "Spero che tu stia meglio."
+   ]
+  },
+  {
+   "id": "u22-s10",
+   "type": "dialog",
+   "why": "Congiuntivo de avere: abbia.",
+   "answer": 0,
+   "options": [
+    "abbia",
+    "ha",
+    "avere"
+   ],
+   "lines": [
+    "— Credo che lei ___ ragione.",
+    "— Non so."
+   ]
+  },
+  {
+   "id": "u22-s11",
+   "type": "dialog",
+   "why": "Después de «è possibile che»: sia.",
+   "answer": 1,
+   "options": [
+    "sono",
+    "sia",
+    "ero"
+   ],
+   "lines": [
+    "— È possibile che io ___ in ritardo.",
+    "— Va bene."
+   ]
+  },
+  {
+   "id": "u22-s12",
+   "type": "listen",
+   "why": "«Spero che tu stia bene» = espero que estés bien.",
+   "answer": 2,
+   "options": [
+    "Espero que estabas bien.",
+    "Sé que estás bien.",
+    "Espero que estés bien."
+   ],
+   "prompt": "Spero che tu stia bene."
+  }
+ ],
+ "u23": [
+  {
+   "id": "u23-s01",
+   "type": "order",
+   "why": "Hipótesis irreal: se + imperfecto del congiuntivo + condicional.",
+   "prompt": "Si tuviera más tiempo, viajaría mucho.",
+   "answers": [
+    "Se avessi più tempo, viaggerei molto."
+   ],
+   "extra": [
+    "avrei"
+   ]
+  },
+  {
+   "id": "u23-s02",
+   "type": "order",
+   "why": "Hipótesis real: se + presente.",
+   "prompt": "Si llueve, me quedo en casa.",
+   "answers": [
+    "Se piove, resto a casa."
+   ],
+   "extra": [
+    "pioverà"
+   ]
+  },
+  {
+   "id": "u23-s03",
+   "type": "translate",
+   "why": "Se avessi… comprerei.",
+   "prompt": "Si tuviera dinero, compraría una casa.",
+   "answers": [
+    "Se avessi soldi, comprerei una casa.",
+    "Se avessi dei soldi, comprerei una casa."
+   ]
+  },
+  {
+   "id": "u23-s04",
+   "type": "translate",
+   "why": "Hipótesis real: presente + presente.",
+   "prompt": "Si hace sol, vamos a la playa.",
+   "answers": [
+    "Se c'è il sole, andiamo al mare.",
+    "Se c'è sole, andiamo al mare."
+   ]
+  },
+  {
+   "id": "u23-s05",
+   "type": "translate",
+   "why": "Consejo: «al tuo posto» + condicional.",
+   "prompt": "En tu lugar iría.",
+   "answers": [
+    "Al tuo posto andrei.",
+    "Io al tuo posto andrei."
+   ]
+  },
+  {
+   "id": "u23-s06",
+   "type": "fix",
+   "why": "Después de «se» irreal va el congiuntivo imperfecto.",
+   "prompt": "Se avrei tempo, verrei.",
+   "answers": [
+    "Se avessi tempo, verrei."
+   ]
+  },
+  {
+   "id": "u23-s07",
+   "type": "fix",
+   "why": "Hipótesis real: presente.",
+   "prompt": "Se piove, resterei a casa.",
+   "answers": [
+    "Se piove, resto a casa."
+   ]
+  },
+  {
+   "id": "u23-s08",
+   "type": "transform",
+   "why": "Se avessi + condicional.",
+   "prompt": "Cambia a irreal: Se ho tempo, viaggio.",
+   "answers": [
+    "Se avessi tempo, viaggerei."
+   ]
+  },
+  {
+   "id": "u23-s09",
+   "type": "transform",
+   "why": "«Al tuo posto» + condicional.",
+   "prompt": "Da un consejo con «Al tuo posto»: dormire di più.",
+   "answers": [
+    "Al tuo posto dormirei di più."
+   ]
+  },
+  {
+   "id": "u23-s10",
+   "type": "dialog",
+   "why": "Hipótesis irreal: «fossi».",
+   "answer": 0,
+   "options": [
+    "fossi",
+    "sono",
+    "sarò"
+   ],
+   "lines": [
+    "Se ___ ricco, comprerei una casa grande."
+   ]
+  },
+  {
+   "id": "u23-s11",
+   "type": "dialog",
+   "why": "Irreal: congiuntivo imperfecto.",
+   "answer": 1,
+   "options": [
+    "puoi",
+    "potessi",
+    "potrai"
+   ],
+   "lines": [
+    "— Se tu ___, che cosa faresti?",
+    "— Viaggerei."
+   ]
+  },
+  {
+   "id": "u23-s12",
+   "type": "listen",
+   "why": "Se avessi… verrei = si tuviera… vendría.",
+   "answer": 2,
+   "options": [
+    "Si tengo tiempo, vengo.",
+    "Si tuve tiempo, vine.",
+    "Si tuviera tiempo, vendría."
+   ],
+   "prompt": "Se avessi tempo, verrei."
+  }
+ ]
+}
