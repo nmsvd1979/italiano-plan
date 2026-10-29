@@ -145,12 +145,28 @@ export const PASS_RATIO = 0.75;
 
 export const blockKey = (stepId: string, day: number, blockId: string): string => `${stepId}.d${day}.${blockId}`;
 
+/**
+ * Capa de continuidad (docs/v2/14): decisiones sobre pasos concretos del curso, por id de paso (`u04`, `u02#A`).
+ * Es opcional: sin ella, todo funciona exactamente como antes. Nunca guarda nada; se arma desde `italianPlan.v2.progress`.
+ */
+export interface ContinuityOverlay {
+  /** Pasos dominados (diagnóstico o «empezar donde estoy»): no se enseñan de nuevo. */
+  settled: ReadonlySet<string>;
+  /** Pasos por rehacer: vuelven a la cola y las marcas de la app anterior no los dan por hechos. */
+  redo: ReadonlySet<string>;
+  /** Huecos por cerrar (unidades nuevas que ya pasaste): versión comprimida de 3 o 4 días. */
+  compressed: ReadonlyMap<string, 3 | 4>;
+  /** Huecos que dejaste para el final del tramo. */
+  postponed: ReadonlySet<string>;
+}
+
 export interface CourseProgress {
   /** Claves marcadas en cualquier fecha (nuevas y de la app anterior). */
   done: ReadonlySet<string>;
   /** Unidades anteriores a esta se dan por sabidas. */
   startUnit: number;
   mini: MiniTests;
+  continuity?: ContinuityOverlay;
 }
 
 /** El bloque no tiene herramienta o contenido todavía. */
@@ -167,10 +183,24 @@ export function legacyCoverage(unit: UnitMeta, done: ReadonlySet<string>): numbe
 /** Umbral de 14 §3: con ≥ 85 % de la unidad marcada en la app anterior, la unidad vale como completa. */
 export const LEGACY_COMPLETE = 0.85;
 
-/** Unidad ya sabida: anterior a la unidad inicial, o completa en la app anterior (vale como A y B hechas). */
+/**
+ * Unidad ya sabida: anterior a la unidad inicial, o completa en la app anterior (vale como A y B hechas).
+ * Con la capa de continuidad, una unidad dominada vale como sabida y una por rehacer no (todas sus semanas).
+ */
 export function unitSettled(unit: UnitMeta, p: CourseProgress): boolean {
+  const c = p.continuity;
+  const steps = c ? COURSE.filter((s) => s.unit === unit.id) : [];
+  if (c && steps.length > 0 && steps.every((s) => c.redo.has(s.id))) return false;
+  if (c && steps.length > 0 && steps.every((s) => c.settled.has(s.id))) return true;
   if (unit.n <= 24 && unit.n < p.startUnit) return true;
   return legacyCoverage(unit, p.done) >= LEGACY_COMPLETE;
+}
+
+/** Como `unitSettled`, pero para una semana concreta: el diagnóstico puede decidir distinto la parte A y la B. */
+export function stepSettled(step: CourseStep, unit: UnitMeta, p: CourseProgress): boolean {
+  if (p.continuity?.redo.has(step.id)) return false;
+  if (p.continuity?.settled.has(step.id)) return true;
+  return unitSettled(unit, p);
 }
 
 function legacyDone(unit: UnitMeta, activity: string, done: ReadonlySet<string>): boolean {
@@ -180,9 +210,11 @@ function legacyDone(unit: UnitMeta, activity: string, done: ReadonlySet<string>)
 export function blockDone(step: CourseStep, day: number, block: Block, p: CourseProgress): boolean {
   const unit = getUnit(step.unit);
   if (!unit) return false;
-  if (unitSettled(unit, p)) return true;
+  if (stepSettled(step, unit, p)) return true;
   if (block.kind === "mini") return (p.mini[step.id]?.length ?? 0) > (block.attempt ?? 0);
   if (p.done.has(blockKey(step.id, day, block.id))) return true;
+  // Una semana por rehacer no se da por hecha con las marcas de la app anterior.
+  if (p.continuity?.redo.has(step.id)) return false;
   return (block.legacy ?? []).some((a) => legacyDone(unit, a, p.done));
 }
 
@@ -190,9 +222,26 @@ export const failuresOf = (step: CourseStep, mini: MiniTests): number => (mini[s
 
 export const passedMini = (step: CourseStep, mini: MiniTests): boolean => (mini[step.id] ?? []).some((a) => a.passed);
 
-/** Días de la semana tal como están hoy: los 7, más el repaso dirigido mientras la prueba no se apruebe. */
+/**
+ * Versión comprimida de un hueco por cerrar (docs/v2/14 §5): días 1, 2, 3 y 6 más la mini-prueba (4 días),
+ * o días 1, 2 y 3 más la mini-prueba (3 días, solo u25). Conserva los números de día, así que las claves no cambian.
+ */
+export function compressedDays(step: CourseStep, length: 3 | 4): CycleDay[] {
+  const all = daysOf(step);
+  const keep = length === 3 ? [1, 2, 3] : [1, 2, 3, 6];
+  const mini = all[6].blocks.filter((b) => b.kind === "mini");
+  return [...all.filter((d) => keep.includes(d.day)), { ...all[6], name: "Mini-prueba", blocks: mini }];
+}
+
+/** Los días base de una semana: los 7, o la versión comprimida si es un hueco por cerrar. */
+export function baseDays(step: CourseStep, p: CourseProgress): CycleDay[] {
+  const length = p.continuity?.compressed.get(step.id);
+  return length ? compressedDays(step, length) : daysOf(step);
+}
+
+/** Días de la semana tal como están hoy: los base, más el repaso dirigido mientras la prueba no se apruebe. */
 export function daysFor(step: CourseStep, p: CourseProgress): CycleDay[] {
-  const base = daysOf(step);
+  const base = baseDays(step, p);
   return passedMini(step, p.mini) ? base : [...base, ...remedialDays(step, failuresOf(step, p.mini))];
 }
 
@@ -207,15 +256,15 @@ export function dayComplete(step: CourseStep, day: CycleDay, p: CourseProgress):
 export function weekComplete(step: CourseStep, p: CourseProgress): boolean {
   const unit = getUnit(step.unit);
   if (!unit) return false;
-  if (unitSettled(unit, p)) return true;
-  return passedMini(step, p.mini) && daysOf(step).every((d) => dayComplete(step, d, p));
+  if (stepSettled(step, unit, p)) return true;
+  return passedMini(step, p.mini) && baseDays(step, p).every((d) => dayComplete(step, d, p));
 }
 
 /** Bloques que cuentan para el avance de una semana: los 7 días base, sin los «en preparación». */
 export function weekProgress(step: CourseStep, p: CourseProgress): { done: number; total: number } {
   const unit = getUnit(step.unit);
   if (!unit) return { done: 0, total: 0 };
-  const blocks = daysOf(step).flatMap((d) => d.blocks.filter((b) => !isSoon(b, unit)).map((b) => ({ d, b })));
+  const blocks = baseDays(step, p).flatMap((d) => d.blocks.filter((b) => !isSoon(b, unit)).map((b) => ({ d, b })));
   return { total: blocks.length, done: blocks.filter(({ d, b }) => blockDone(step, d.day, b, p)).length };
 }
 
@@ -232,6 +281,35 @@ export function unitCycleProgress(unitId: string, p: CourseProgress): { done: nu
 /** Semanas del curso con contenido, en orden. */
 export const readySteps = (): CourseStep[] => COURSE.filter((s) => getUnit(s.unit)?.ready);
 
+/**
+ * Las semanas en el orden en que se ofrecen. Los huecos pospuestos esperan hasta que aparezca una semana pendiente
+ * de un tramo (fase) posterior a la que estás haciendo, o hasta el final: se pueden posponer, no saltar.
+ */
+export function orderedSteps(p: CourseProgress): CourseStep[] {
+  const steps = readySteps();
+  const held = p.continuity?.postponed;
+  if (!held || held.size === 0) return steps;
+  const out: CourseStep[] = [];
+  let waiting: CourseStep[] = [];
+  let anchor: number | null = null;
+  for (const s of steps) {
+    const open = !weekComplete(s, p);
+    if (open && held.has(s.id)) {
+      waiting.push(s);
+      continue;
+    }
+    if (open) {
+      if (anchor === null) anchor = s.phase;
+      else if (s.phase > anchor && waiting.length > 0) {
+        out.push(...waiting);
+        waiting = [];
+      }
+    }
+    out.push(s);
+  }
+  return [...out, ...waiting];
+}
+
 export interface Slot {
   step: CourseStep;
   day: CycleDay;
@@ -247,7 +325,7 @@ const slotHasMarks = (slot: Slot, marked: ReadonlySet<string>): boolean =>
 export function todaySlots(p: CourseProgress, markedToday: ReadonlySet<string>, extra = 0): { shown: Slot[]; finished: boolean } {
   const slots: Slot[] = [];
   let openWeeks = 0;
-  for (const step of readySteps()) {
+  for (const step of orderedSteps(p)) {
     const complete = weekComplete(step, p);
     const touched = [...markedToday].some((k) => k.startsWith(`${step.id}.d`));
     if (complete && !touched) continue;
@@ -273,7 +351,7 @@ export function todaySlots(p: CourseProgress, markedToday: ReadonlySet<string>, 
 
 /** Primer día pendiente del curso (para saber en qué semana vas), o null si terminaste lo disponible. */
 export function currentSlot(p: CourseProgress): Slot | null {
-  for (const step of readySteps()) {
+  for (const step of orderedSteps(p)) {
     if (weekComplete(step, p)) continue;
     const day = daysFor(step, p).find((d) => !dayComplete(step, d, p));
     if (day) return { step, day };

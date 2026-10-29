@@ -10,6 +10,7 @@ import { BackupCard } from "./BackupCard";
 import { SrsCard } from "./SrsCard";
 import { VoiceCard } from "./VoiceCard";
 import { OfflineCard } from "./OfflineCard";
+import { ContinuityCard } from "./ContinuityCard";
 
 const THEMES: { value: ThemeChoice; label: string }[] = [
   { value: "system", label: "Sistema" },
@@ -130,6 +131,8 @@ export function Settings() {
       <SrsCard />
 
       <BackupCard />
+
+      <ContinuityCard />
 
       <section className="card stack">
         <div className="eyebrow">Datos</div>

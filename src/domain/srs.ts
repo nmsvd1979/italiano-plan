@@ -173,11 +173,15 @@ export function rerateLast(state: SrsState, before: SrsCard, rating: RatingValue
   return { ...state, cards: { ...state.cards, [before.id]: next }, log: trim(log) };
 }
 
-/** Crea las tarjetas de producir para las palabras cuya tarjeta de reconocer ya llegó a la estabilidad mínima. */
+/**
+ * Crea las tarjetas de producir para las palabras cuya tarjeta de reconocer ya llegó a la estabilidad mínima.
+ * Las sembradas (H2) esperan a su primer repaso real: si no, sembrar 300 palabras crearía 300 tarjetas de producir a la vez.
+ */
 export function unlockProdCards(state: SrsState, now: Date): SrsState {
   let cards = state.cards;
   for (const c of Object.values(state.cards)) {
     if (c.kind !== "recog" || c.deck === "quizlet" || c.fsrs.stability < PROD_UNLOCK_STABILITY) continue;
+    if (c.source === "seed" && c.fsrs.reps < 2) continue;
     const id = cardId("prod", c.itemId);
     if (cards[id]) continue;
     if (cards === state.cards) cards = { ...state.cards };
