@@ -1,0 +1,212 @@
+## u25
+titulo: Vocales puras y acento de la palabra
+tip: Las cinco vocales italianas son puras y cortas: no las conviertas en diptongos ni las dejes caer al final (*mamma*, no "mam"). El acento cae casi siempre en la penúltima sílaba (*CAsa*); la tilde escrita aparece solo cuando cae en la última (*città, caffè*). A veces la tilde distingue palabras: *papa* (el Papa) y *papà* (papá).
+pares: papa-papà; ancora-àncora; capitano-càpitano
+palabras: casa, mamma, nome, ciao, sì, tè, caffè, città
+glosas: papà=papá; ancora=todavía; àncora=ancla; càpitano=ocurren / suceden; nome=nombre; sì=sí; tè=té
+## u01
+titulo: C y G: suaves y duras
+tip: *C* y *g* suenan suaves ante *e / i* (*cena*, *gelato*) y duras ante *a / o / u* o con *h* (*chi*, *ghiaccio*). *Ci* suena como "chi" de "chino"; *chi* como "qui" de "quiso". El error típico es leer *gelato* con jota.
+pares: chi-ci; cane-cena; gatto-gelato; ghiaccio-giacca
+palabras: cena, cinema, gelato, giorno, chiesa, ghiaccio, ciao
+glosas:
+## u02A
+titulo: Consonantes dobles (I)
+tip: La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído.
+pares: palla-pala; nonno-nono; sette-sete; pena-penna
+palabras: palla, nonno, sette, penna, mamma, bello, anno, tutto
+glosas: tutto=todo; bello=bonito
+## u02B
+titulo: B y V
+tip: En el español de muchos países *b* y *v* suenan igual. En italiano son distintas: la *b* junta los labios; la *v* apoya los dientes de arriba sobre el labio de abajo, como en "fuego" pero con voz. Compara *bene* (bien) con *vene* (venas).
+pares: bacca-vacca; buoi-vuoi; abete-avete; bene-vene; basta-vasta
+palabras: bene, vino, bello, vita, bicchiere, valigia, birra, voce
+glosas: vene=venas; basta=basta; vasta=vasta; vita=vida; bicchiere=vaso; valigia=maleta; birra=cerveza; voce=voz
+## u03A
+titulo: La tilde final: acento en la última sílaba
+tip: Cuando la palabra termina en vocal acentuada, el acento se oye fuerte al final y se escribe con tilde: *città*, *caffè*, *perché*, *lunedì*. Compara *parlo* (hablo) con *parlò* (habló) y *metà* (mitad) con *meta* (destino).
+pares: capitò-capito; parlò-parlo; finì-fini; metà-meta
+palabras: città, caffè, perché, lunedì, università, ventitré, già, così
+glosas: capitò=sucedió; capito=entendido; parlò=habló; parlo=hablo; finì=terminó; fini=fines; metà=mitad; meta=meta; già=ya; così=así; ventitré=veintitrés; lunedì=lunes; università=universidad
+## u03B
+titulo: QU: la u se oye
+tip: En *quaranta*, *quindici* y *quattro* la *u* se pronuncia (suena "kw"). No digas "karanta". Compara *quasi* (casi) con *casi* (casos), y *quella* (esa) con *cella* (celda).
+pares: quanto-tanto; quasi-casi; quella-cella
+palabras: quaranta, quindici, quattro, quinto, quanto, quando, questo, quello
+glosas: quasi=casi; casi=casos; quella=esa; cella=celda; quinto=quinto
+## u04
+titulo: R simple y RR doble
+tip: La *r* italiana es una vibración corta (*caro*, *sera*); la *rr* es una vibración más larga (*carro*, *serra*). Alarga la vibración, no solo la vocal. Compara *coro* (coro) con *corro* (corro).
+pares: caro-carro; sera-serra; coro-corro
+palabras: Roma, rosso, ristorante, birra, terra, carta, burro, correre
+glosas: coro=coro; corro=corro; ristorante=restaurante; terra=tierra; carta=papel / carta; burro=mantequilla; correre=correr
+## u05A
+titulo: S + consonante
+tip: En italiano *s* + consonante se pronuncia pegada, sin una *e* delante: *studente*, no "estudente"; *Spagna*, no "España". Es un error muy común en hispanohablantes.
+pares:
+palabras: studente, scuola, Spagna, stazione, spesa, sport, strada, specchio
+glosas: specchio=espejo; spesa=compra; sport=deporte; strada=calle
+## u05B
+titulo: La Z
+tip: La *z* italiana suena /ts/ (*pizza*, *grazie*) o /dz/ (*zero*, *zona*). No es la "z" española ni una "s". Dentro de la palabra suele ser doble: *pizza*, *mezzo*.
+pares: pazzo-passo; mezzo-messo; pozzo-posso
+palabras: pizza, grazie, zero, zio, lezione, ragazzo, azione, pezzo
+glosas: azione=acción; pezzo=pedazo; ragazzo=muchacho; lezione=lección; zio=tío; zero=cero
+## u06A
+titulo: CH, GH frente a CI, GI
+tip: *Ch* y *gh* delante de *e / i* suenan como *k* y *g* dura: *chi* (quién), distinto de *ci* (nos / allí); *che* (qué) distinto de *ce*. En cambio *gi* es suave: *giro* (vuelta) frente a *ghiro* (lirón).
+pares: chi-ci; che-ce; giallo-gallo; ghiro-giro
+palabras: chiaro, chiesa, chitarra, ghiaccio, cena, cinema, gelato, giacca
+glosas: ce=nos; ghiro=lirón; giro=vuelta; chiaro=claro; chitarra=guitarra
+## u06B
+titulo: GN: la eñe italiana
+tip: *Gn* suena como la "ñ" del español: *bagno*, *gnocchi*, *montagna*. No se separa en dos sonidos ("bag-no"). Compara *sogno* (sueño de dormir) con *sonno* (sueño, ganas de dormir) y *legna* (leña) con *lena* (energía).
+pares: sogno-sonno; cagna-canna; legna-lena
+palabras: bagno, gnocchi, ragno, signora, lavagna, montagna, insegnare, ogni
+glosas: sogno=sueño (soñar) / sueño; sonno=sueño (ganas de dormir); cagna=perra; canna=caña; legna=leña; lena=energía; ragno=araña; lavagna=pizarra; montagna=montaña; insegnare=enseñar; ogni=cada
+## u26
+titulo: GLI
+tip: *Gli* es una *l* palatal: apoya la parte media de la lengua contra el paladar, como si dijeras *l* e *i* a la vez (*famiglia, figlio*). No lo leas como "y" ni como "gl" separado. Contrasta *gli* con *li*, y *moglie* con *molle*.
+pares: gli-li; figli-fili; molle-moglie
+palabras: famiglia, figlio, figlia, figli, moglie, meglio, foglio, miglio
+glosas: fili=hilos; molle=blando; meglio=mejor; foglio=hoja; miglio=milla / mijo
+## u07A
+titulo: SC ante e / i
+tip: *Sc* ante *e / i* suena como "sh" suave (*pesce*, *scena*, *uscire*). Ante *a / o / u* o con *h* es *sk* (*scuola*, *schiena*). Compara *scena* (escena) con *cena* (cena).
+pares: sci-ci; scena-cena; pesce-pece
+palabras: pesce, scena, sciarpa, scimmia, uscire, scegliere, scendere, conoscere
+glosas: pece=brea; scimmia=mono; uscire=salir; scegliere=elegir; scendere=bajar; conoscere=conocer
+## u07B
+titulo: La H es muda
+tip: En italiano la *h* no se pronuncia: *ho, hai, ha, hanno* suenan como *o, ai, a, anno*. Solo sirve para distinguir palabras escritas: *ho* (tengo) / *o* (o), *ha* (tiene) / *a* (a), *hanno* (tienen) / *anno* (año).
+pares: ho-o; ha-a; hanno-anno; hai-ai
+palabras: ho, hai, ha, hanno, anno, ora, entrata, orario
+glosas: ai=a los
+## u08
+titulo: La entonación de la pregunta
+tip: En italiano la pregunta casi no cambia el orden de las palabras: lo que la marca es la entonación, que sube al final. Compara *Vieni.* (afirmación) con *Vieni?* (pregunta). Imita la melodía, no solo las palabras.
+pares: Hai fame.-Hai fame?; Vieni.-Vieni?; Parli italiano.-Parli italiano?
+palabras: Hai fame?, Vieni?, Sei stanco?, Parli italiano?, Dove vai?, Quanto costa?, Come stai?, Che ore sono?
+glosas: Hai fame.=Tienes hambre.; Hai fame?=¿Tienes hambre?; Vieni.=Vienes.; Vieni?=¿Vienes?; Parli italiano.=Hablas italiano.; Parli italiano?=¿Hablas italiano?; Sei stanco?=¿Estás cansado?; Dove vai?=¿Adónde vas?; Quanto costa?=¿Cuánto cuesta?; Come stai?=¿Cómo estás?; Che ore sono?=¿Qué hora es?
+## u27
+titulo: S sorda y S sonora
+tip: La *s* entre vocales suele sonar sonora, como la *s* de "mismo" pronunciada con voz (*casa, rosa, museo*); la *ss* es siempre sorda (*cassa, rossa*). Al comienzo de palabra es sorda (*sole, sera*). Compara *rosa* con *rossa* y *mese* con *messe*.
+pares: casa-cassa; rosa-rossa; mese-messe
+palabras: casa, rosa, cosa, museo, paese, esame, sole, sapere
+glosas: rossa=roja; mese=mes; messe=cosecha; sole=sol; sapere=saber; esame=examen; paese=país; museo=museo
+## u09
+titulo: Dobles en los participios
+tip: Varios participios muy usados del passato prossimo llevan consonante doble: *fatto, detto, messo, letto, scritto, rotto*. Mantén la consonante larga para no confundirlos con otras palabras: *fatto* (hecho) frente a *fato* (destino).
+pares: fato-fatto; tuta-tutta; sonno-sono
+palabras: detto, letto, scritto, fatto, messo, rotto, visto, preso
+glosas: tuta=buzo; tutta=toda; detto=dicho; letto=leído / cama; scritto=escrito; messo=puesto; rotto=roto; visto=visto; preso=tomado
+## u10
+titulo: La vocal final: -o, -a, -i, -e
+tip: En italiano la vocal final indica género y número, así que no se puede "comer": *andato* (él) y *andata* (ella) se distinguen solo por la última vocal. Pronúnciala clara aunque no lleve el acento. Compara *parto* (me voy) con *parte* (se va).
+pares: andato-andata; amico-amici; arrivati-arrivate; parto-parte
+palabras: andato, andata, andati, andate, partito, partita, tornato, arrivata
+glosas: andato=ido (él); andata=ida (ella); andati=idos; andate=idas; amico=amigo; amici=amigos; arrivati=llegados; arrivate=llegadas; parto=salgo; parte=sale; partito=salido (él); partita=salida (ella); tornato=vuelto; arrivata=llegada
+## u11
+titulo: El acento en las formas verbales
+tip: En el imperfecto el acento cae en la sílaba *-va-*: *parLAvamo*, *manGIAvamo*, *aNDAvamo*, aunque la palabra sea larga. Y la tilde cambia el tiempo: *parlo* (hablo) frente a *parlò* (habló).
+pares: parlo-parlò; arrivo-arrivò
+palabras: parlavamo, mangiavamo, andavamo, facevamo, eravamo, avevamo, c'era, pioveva
+glosas: arrivò=llegó; parlavamo=hablábamos; mangiavamo=comíamos; andavamo=íbamos; facevamo=hacíamos; eravamo=éramos; avevamo=teníamos; c'era=había; pioveva=llovía
+## u12
+titulo: -ISSIMO y su acento
+tip: El superlativo con *-issimo* se acentúa en la *-is-*: *bel-LIS-si-mo*, *buo-NIS-si-mo*. La *s* es doble y larga. No lo acentúes en la sílaba de la raíz.
+pares: buono-buonissimo; alto-altissimo; grande-grandissimo
+palabras: bellissimo, buonissimo, carissimo, altissimo, grandissimo, tantissimo, pochissimo, ottimo
+glosas: buono=bueno; buonissimo=buenísimo; alto=alto; altissimo=altísimo; grande=grande; grandissimo=grandísimo; bellissimo=hermosísimo; carissimo=carísimo; tantissimo=muchísimo; pochissimo=poquísimo; ottimo=excelente
+## u28
+titulo: Nonna y nona, panna y pane
+tip: En la mesa italiana las consonantes dobles cambian el plato: *nonna* (abuela) y *nona* (novena), *panna* (crema) y *pane* (pan), *tonno* (atún) y *tono* (tono). Alarga la consonante doble.
+pares: nonna-nona; panna-pane; tonno-tono; pollo-polo
+palabras: antipasto, primo, secondo, contorno, dolce, tonno, pollo, coperto
+glosas: nonna=abuela; nona=novena; panna=crema; pane=pan; tonno=atún; tono=tono; pollo=pollo; polo=polo; antipasto=entrada; primo=primer plato; secondo=segundo plato; contorno=guarnición; dolce=postre; coperto=cubierto
+## u13
+titulo: La elisión: l'ho visto
+tip: Cuando el pronombre se junta con *ho / hai / ha / abbiamo*, se une en un solo golpe de voz: *l'ho visto* suena "lo visto" pegado, sin pausa. La *h* no suena. Compara *lo* con *l'ho*, y *la* con *l'ha*.
+pares: lo-l'ho; la-l'ha
+palabras: l'ho, l'hai, l'ha, l'abbiamo, l'ho visto, l'ho comprato, non l'ho capito, li ho comprati
+glosas: lo=lo; l'ho=lo tengo / lo he; la=la; l'ha=la tiene / la ha; l'hai=lo has; l'abbiamo=lo hemos; l'ho visto=lo vi; l'ho comprato=lo compré; non l'ho capito=no lo entendí; li ho comprati=los compré
+## u14A
+titulo: CE / CI frente a CHE / CHI
+tip: *Ci* y *ce* son suaves (*ch* de "chico"); *chi* y *che* son duras (*k*). En *ci vuole* y *ci vogliono* el *ci* es suave. Compara *ci* (nos / allí) con *chi* (quién) y *ce* (nos) con *che* (qué).
+pares: ci-chi; ce-che
+palabras: ci vuole, ci vogliono, ce l'ho, ce n'è, c'è, che cosa, chi è, ne voglio
+glosas: ci vuole=hace falta; ci vogliono=hacen falta; ce l'ho=lo tengo; ce n'è=hay (de eso); c'è=hay; che cosa=qué cosa; chi è=quién es; ne voglio=quiero (de eso)
+## u14B
+titulo: Dammi y dimmi: la doble M
+tip: En los imperativos con pronombre la *m* es doble y se alarga: *DAM-mi*, *DIM-mi*, *FAM-mi*. Cambiar *a* por *i* cambia el verbo: *dammi* (dame) y *dimmi* (dime).
+pares: dammi-dimmi; dammelo-dimmelo; dallo-dillo
+palabras: dammi, dimmi, fammi, dammelo, dimmelo, fammelo, aspetta, ascolta
+glosas: dammi=dame; dimmi=dime; fammi=hazme; dammelo=dámelo; dimmelo=dímelo; fammelo=házmelo; dallo=dalo; dillo=dilo; aspetta=espera; ascolta=escucha
+## u15A
+titulo: El futuro acaba en vocal acentuada
+tip: Las formas del futuro de *io* y *lui / lei* terminan con acento fuerte en la última sílaba y llevan tilde: *parlerò* (hablaré), *parlerà* (hablará). Compara *andrò* con *andrà*: solo cambia la vocal acentuada.
+pares: parlerò-parlerà; andrò-andrà; sarò-sarà; finirò-finirà
+palabras: parlerò, parlerà, andrò, andrà, sarò, sarà, farò, farà
+glosas: parlerò=hablaré; parlerà=hablará; andrò=iré; andrà=irá; sarò=seré; sarà=será; finirò=terminaré; finirà=terminará; farò=haré; farà=hará
+## u15B
+titulo: -REI y -REBBE
+tip: El condicional de cortesía termina en *-rei* (yo) y *-rebbe* (él / ella); la *bb* es doble y larga. El acento está antes: *voRREI*, *voRREBbe*, *poTREbbe*.
+pares: vorrei-vorrebbe; potrei-potrebbe; farei-farebbe; sarei-sarebbe
+palabras: vorrei, vorresti, vorrebbe, potrei, potresti, potrebbe, sarebbe, piacerebbe
+glosas: vorrei=quisiera; vorresti=querrías; vorrebbe=querría; potrei=podría; potresti=podrías; potrebbe=podría (él / usted); farei=haría; farebbe=haría (él); sarei=sería; sarebbe=sería (él); piacerebbe=gustaría
+## u16
+titulo: SCH y las dobles de la salud
+tip: Fíjate en las dobles de *febbre* y *tosse*, y en *sch*: en *schiena* suena *sk* (la *h* mantiene el sonido duro), mientras que *sce* en *scena* suena como *sh*. Compara *schema* (esquema) con *scema* (tonto) y *pesche* (duraznos) con *pesce* (pescado).
+pares: schema-scema; pesche-pesce
+palabras: schiena, stomaco, febbre, tosse, gola, medico, ambulanza, farmacia
+glosas: schema=esquema; scema=tonto; pesche=duraznos; pesce=pescado
+## u17
+titulo: Cadenas de consonantes
+tip: Los ordinales juntan consonantes que hay que pronunciar una por una: *quin-to*, *ses-to*, *set-ti-mo*, *ot-ta-vo*. No las simplifiques ni insertes una vocal entre ellas. La doble se alarga.
+pares:
+palabras: terzo, quarto, quinto, sesto, settimo, ottavo, nono, decimo
+glosas: terzo=tercero; quarto=cuarto; sesto=sexto; settimo=séptimo; ottavo=octavo; nono=noveno; decimo=décimo
+## u18
+titulo: Palabras con acento en la antepenúltima
+tip: Algunas palabras muy comunes llevan el acento en la antepenúltima sílaba (*sdrucciole*): *TEle-fo-no*, *NU-me-ro*, *CAme-ra*, *CEL-lu-la-re*. No las lleves a la penúltima. Compara *telefono* (teléfono) con *telefonò* (llamó).
+pares: telefono-telefonò; numero-numerò
+palabras: telefono, numero, camera, cellulare, attimo, pronto, messaggio, gentile
+glosas: telefonò=llamó por teléfono; numerò=numeró; cellulare=celular; attimo=instante; pronto=aló / listo; messaggio=mensaje; gentile=amable
+## u19
+titulo: La ligazón: palabras que se pegan
+tip: En italiano hablado las palabras se pegan sin pausa: *da quanto tempo* suena casi como una sola palabra. Practica frases completas con un solo golpe de voz y sin cortar entre palabras; la última vocal de una palabra se une con la primera de la siguiente.
+pares:
+palabras: da quanto tempo, da due anni, un po' di tempo, sta per partire, si può entrare, come si dice, che ora è, da dove vieni
+glosas: da quanto tempo=desde hace cuánto tiempo; da due anni=desde hace dos años; un po' di tempo=un poco de tiempo; sta per partire=está por salir; si può entrare=se puede entrar; come si dice=cómo se dice; che ora è=qué hora es; da dove vieni=de dónde vienes
+## u20
+titulo: El acento final de los conectores
+tip: Los conectores con tilde final se acentúan en la última sílaba: *perché*, *però*, *così*. En *quindi* y *comunque* la *u* se oye (*kw*). En *insomma* la *mm* es doble. Compara *però* (pero) con *pero* (peral).
+pares: però-pero
+palabras: perché, però, così, quindi, comunque, insomma, invece, infatti
+glosas: pero=peral; perché=porque / por qué; però=pero; così=así; quindi=por eso; comunque=de todos modos; insomma=en fin; invece=en cambio; infatti=en efecto
+## u24
+titulo: Repaso final de sonidos
+tip: Última vuelta con todo lo visto: consonantes dobles, *c / g* suaves y duras, *gli*, *z*, *r / rr*, *b / v* y la *h* muda. Escucha cada par y repite en voz alta imitando la duración de las consonantes.
+pares: palla-pala; caro-carro; chi-ci; gli-li; pazzo-passo; casa-cassa; nonno-nono
+palabras: cena, gelato, pizza, famiglia, viaggio, bene, vino, ho
+glosas: viaggio=viaje
+## u21
+titulo: GLI en glielo y doble M
+tip: En *glielo*, *gliela*, *gliene* la *gl* es la misma *l* palatal de *famiglia*: la lengua apoyada en el paladar. En *dammelo* y *dimmelo* la *m* es doble y se alarga: *dam-ME-lo*. Habla despacio y pega las sílabas, como si fuera una sola palabra.
+pares:
+palabras: glielo, gliela, gliene, dammelo, dimmelo, spiegarmelo, portarmelo, famiglia
+glosas:
+## u22
+titulo: Vocales juntas: sia, abbia
+tip: En *sia*, *abbia*, *siate* y *siamo* las vocales van pegadas en una sola sílaba (*SIA*, *AB-bia*). No separes la *i* como en español: es una vocal rápida y corta. Compara *sei* (eres) con *sai* (sabes), y *mia* (mía) con *mai* (nunca).
+pares: sei-sai; mai-mia
+palabras: sia, abbia, stia, venga, vada, faccia, possa, siamo
+glosas:
+## u23
+titulo: SS y ZZ en el subjuntivo
+tip: El *-ssi* de *avessi, fossi, potessi* lleva una *s* doble sorda, larga: *a-VES-si*. No la suavices como una *z* española. Compara *pozzo* (pozo, con *zz*) con *posso* (puedo, con *ss*) y *mezzo* (medio) con *messo* (puesto).
+pares: pozzo-posso; mezzo-messo
+palabras: avessi, fossi, potessi, volessi, facessi, viaggerei, comprerei, resterei
+glosas:
+## _glosas
+glosas: mamma=mamá; cinema=cine; chiesa=iglesia; quaranta=cuarenta; quattro=cuatro; questo=este; quello=aquel / ese; roma=Roma; studente=estudiante; spagna=España; pizza=pizza; gnocchi=ñoquis; figli=hijos; figlio=hijo; figlia=hija; moglie=esposa; sciarpa=bufanda; o=o; a=a; rosa=rosa; cosa=cosa; arrivo=llego; telefono=teléfono

@@ -120,3 +120,15 @@ Contenido en `src/content/nuevas/u28.ts`; se conecta sola a los registros porque
 | Verificación | **V1**: las formas distintas de las respuestas se compararon con `it_50k` de FrequencyWords; las 36 fuera del rango 15 000 son flexiones correctas (*abitavo, comprerei, pioverà…*), vocabulario temático (*vegetariano, compressa, Sicilia*) o **errores puestos a propósito** en los ejercicios de corregir y como sobrantes (*andarò, poterei, prendato, restato, trentauno, costate*). Sin erratas involuntarias. |
 | Léxico | La mayoría usa lo ya enseñado en la unidad; no hay medición automática por ejercicio (solo por texto, `scripts/lexico-acumulado.py`). |
 | Pendiente | Segunda pasada independiente (G-R) y audio de los ejercicios de oído (carril C). Code los conecta a «Práctica variada» (bloque sin pista del día 3) con los tipos nuevos: ordenar (toque de palabras), escribir, diálogo con huecos y oído. |
+
+## G6 · Secuencia de pronunciación (29-oct-2026, rama `feat/g6-pronunciacion-secuencia`)
+Un contraste nuevo por semana del curso (35 pasos) según la columna «Contraste de pronunciación nuevo» de `docs/v2/13` §2. Datos en `data/g6/pron-secuencia.txt`; `scripts/g6-compilar.py` los valida y genera `src/content/pronunciation/pron-sequence.json`; `sequence.ts` los expone (`getPronStep(idDelPaso)`, `pronGloss`, `PRON_AUDIO_PENDING`); `sequence.test.ts` revisa 114 condiciones.
+
+| Decisión | Detalle |
+|---|---|
+| Reuso | El contenido de `units.json` (por unidad, en otro orden) se reubicó donde calza con la tabla y se completó con 20 contrastes nuevos (b/v, tilde final, *qu*, *gn*, entonación de la pregunta, elisión *l'ho*, *ce/ci* frente a *che/chi*, *dammi/dimmi*, futuro en *-ò/-à*, *-rei/-rebbe*, cadenas de consonantes, sdrucciole, ligazón, etc.). `units.json` y su práctica actual **no se tocan**: Code conecta la secuencia nueva a «Percepción de sonido» (día 1) y «Repetir y comparar» (día 4). |
+| Pares | Pares mínimos reales verificados uno por uno (p. ej. *sogno/sonno, cagna/canna, legna/lena, molle/moglie, schema/scema, pesche/pesce, tonno/tono, pollo/polo, capitò/capito, telefono/telefonò*). Donde no hay pares posibles (*s* + consonante, cadenas, ligazón) la lista va vacía y se practica con palabras o frases. |
+| Entonación (u08) | Los «pares» son la misma frase afirmada y preguntada (*Vieni. / Vieni?*); no hay audio nativo de frases, se leen con voz sintética hasta el carril C. |
+| Verificación | **V1**: todas las palabras (salvo tres formas con tilde de estudio: *àncora, càpitano, numerò*) están en `it_50k`. Cada palabra tiene significado en español (de `units.json`, de los vocabularios del curso o de la glosa nueva). |
+| Audio | 212 de las 367 palabras y frases no tienen grabación nativa en el manifest (`audioPending` en el JSON). Se generan o se bajan en el carril C; no entran a `AUDIO_PENDING` de `index.ts` hasta que Code conecte la secuencia. |
+| Pendiente | Segunda pasada independiente (G-R). Los consejos de pronunciación son V1 (descripciones articulatorias estándar); no se contrastaron con una fuente externa por contraste. |
