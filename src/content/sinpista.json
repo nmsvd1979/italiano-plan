@@ -1013,8 +1013,7 @@
    "why": "Para la profesión se dice «fa il…» o «è…».",
    "prompt": "Mi padre es médico.",
    "answers": [
-    "Mio padre fa il medico.",
-    "Mio padre è medico."
+    "Mio padre fa il medico."
    ],
    "extra": [
     "è"

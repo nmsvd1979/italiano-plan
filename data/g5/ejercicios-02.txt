@@ -1,6 +1,6 @@
 ## u26
 o|Mi hermana es alta y rubia.|Mia sorella è alta e bionda.|biondo|«Sorella» es femenino: alta, bionda.
-o|Mi padre es médico.|Mio padre fa il medico. / Mio padre è medico.|è|Para la profesión se dice «fa il…» o «è…».
+o|Mi padre es médico.|Mio padre fa il medico.|è|Para la profesión se dice «fa il…» o «è…».
 t|Mi hermano es ingeniero.|Mio fratello è ingegnere.|Con un familiar singular no lleva artículo: «mio fratello».
 t|Ella tiene los ojos verdes.|Ha gli occhi verdi. / Lei ha gli occhi verdi.|«Occhi» es plural: «gli occhi verdi».
 t|¿A qué te dedicas?|Che lavoro fai? / Che lavoro fa?|Se pregunta por el trabajo con «Che lavoro fai?».

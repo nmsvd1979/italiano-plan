@@ -107,3 +107,16 @@ Contenido en `src/content/nuevas/u28.ts`; se conecta sola a los registros porque
 | Léxico acumulado | Medido con `scripts/lexico-acumulado.ts` + `.py` (por lema, con *simplemma*): media **91 %** de palabras ya enseñadas hasta esa semana (mejor 100 %, peor 77 %). Bajo la meta de 95 % quedan los textos que son material «de la calle» y traen vocabulario del tema aún no visto: carteles, menús, etiquetas, recetas y mails (u25 80 %, u03#B 77 %, u06#A 80 %, u13 80 %, u14#A 80 %, u14#B 85 %). Se aceptan porque la mayoría son palabras transparentes para quien habla español (*prodotto, errore, programma, internet*) y las más difíciles están en las palabras clave con su significado. Regla del informe: ningún texto bajo 75 %. |
 | Pendiente | Segunda pasada independiente (G-R). |
 | Conexión | Aún no está conectado a la app: Code lo conecta al día 5 del ciclo (bloques «Texto graduado» y «Preguntas del texto»). |
+
+## G5 · Práctica sin pista (29-oct-2026, rama `feat/g5-lexico-y-sinpista`)
+336 ejercicios, 12 por unidad en las 28 unidades, en `data/g5/ejercicios-*.txt`. `scripts/g5-compilar.py` valida y genera `src/content/sinpista.json`; `src/content/sinpista.ts` los expone (`getSinPista(unidad, parte?)`, `checkText`, `orderBank`); `sinpista.test.ts` revisa 172 condiciones.
+
+| Decisión | Detalle |
+|---|---|
+| Mezcla por unidad | 2 ordenar, 3 traducir, 2 corregir un error, 2 transformar, 2 completar un diálogo, 1 escuchar y elegir (el audio se agrega en el carril C; hasta entonces la app muestra la frase). Las unidades partidas llevan 6 ejercicios en cada semana (A y B). |
+| Sin pista | Ninguna ayuda en pantalla; la explicación (`why`) solo se muestra al corregir. |
+| Corrección | `checkText` ignora mayúsculas, signos y comillas, pero **no las tildes** (*è/e*, *à/a* cambian el significado). Cada ejercicio de escritura acepta varias respuestas válidas. En «ordenar» las alternativas son permutaciones de las mismas palabras. |
+| Opciones | En diálogo y oído la primera opción del archivo es la correcta y el compilador reparte las posiciones de forma pareja (cada posición 1/3). |
+| Verificación | **V1**: las formas distintas de las respuestas se compararon con `it_50k` de FrequencyWords; las 36 fuera del rango 15 000 son flexiones correctas (*abitavo, comprerei, pioverà…*), vocabulario temático (*vegetariano, compressa, Sicilia*) o **errores puestos a propósito** en los ejercicios de corregir y como sobrantes (*andarò, poterei, prendato, restato, trentauno, costate*). Sin erratas involuntarias. |
+| Léxico | La mayoría usa lo ya enseñado en la unidad; no hay medición automática por ejercicio (solo por texto, `scripts/lexico-acumulado.py`). |
+| Pendiente | Segunda pasada independiente (G-R) y audio de los ejercicios de oído (carril C). Code los conecta a «Práctica variada» (bloque sin pista del día 3) con los tipos nuevos: ordenar (toque de palabras), escribir, diálogo con huecos y oído. |
