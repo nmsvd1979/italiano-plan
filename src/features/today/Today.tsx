@@ -2,12 +2,15 @@ import { useMemo, useState } from "react";
 import { COURSE, CORE_WEEKS, type CoursePart } from "../../content/course";
 import { getPhase, getUnit } from "../../content/curriculum";
 import { useApp } from "../../app/state";
+import { useSrsCards } from "../../app/blockTimer";
 import { href } from "../../app/route";
 import {
-  Slot, blockDone, blockKey, dayComplete, isSoon, recommendedLeft, todaySlots, unitCycleProgress, visibleBlocks, weekComplete,
+  Block, CourseProgress, Slot, blockDone, blockKey, dayComplete, isSoon, recommendedLeft, todaySlots, unitCycleProgress, visibleBlocks, weekComplete,
 } from "../../domain/cycle";
 import { diffInDays, parseISODate, toISODate } from "../../domain/dates";
 import { computeStreak, daysSinceLastStudy } from "../../domain/progress";
+import { dayMinutes, endedShort, estimatedMinutes, type DayBlock } from "../../domain/minutes";
+import { loadTimings } from "../../domain/timing";
 import { backupAdvice } from "../../domain/backup";
 import { canOfferSeed } from "../../domain/seed";
 import { nextCatchup, startingPoint } from "../../domain/continuity";
@@ -22,7 +25,8 @@ const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one :
 const partLabel = (p?: CoursePart) => (p ? ` · semana ${p}` : "");
 
 export function Today() {
-  const { startDate, today, course, current, completions, doneToday, settings } = useApp();
+  const { startDate, today, course, current, completions, doneToday, settings, progress } = useApp();
+  const srsCards = useSrsCards(progress, today);
   const [extra, setExtra] = useState(0);
   if (!startDate) return null;
 
@@ -35,6 +39,13 @@ export function Today() {
   const phase = getPhase(first?.step.phase ?? unit?.phase ?? 6);
   const allDone = shown.length > 0 && shown.every((s) => dayComplete(s.step, s.day, course));
   const left = recommendedLeft(shown, course, settings.shortMode);
+  // Lo esencial de lo que se muestra, para avisar si terminó rápido y destacar «Hacer más hoy».
+  const timings = loadTimings(window.localStorage);
+  const essential = shown.flatMap((s) => {
+    const u = getUnit(s.step.unit);
+    return u ? dayBlocks(s, visibleBlocks(s.day, u, settings.shortMode).filter((b) => !isSoon(b, u)), srsCards, course) : [];
+  });
+  const endedEarly = allDone && endedShort(essential, timings);
 
   return (
     <>
@@ -87,7 +98,7 @@ export function Today() {
         <>
           <LegacyReview />
           {shown.map((slot) => (
-            <DayCard key={`${slot.step.id}.${slot.day.day}`} slot={slot} />
+            <DayCard key={`${slot.step.id}.${slot.day.day}`} slot={slot} srsCards={srsCards} />
           ))}
           {allDone && (
             <section className="card stack">
@@ -97,7 +108,8 @@ export function Today() {
                   ? `Lo esencial de hoy está listo. ${left === 1 ? "Queda 1 bloque recomendado" : `Quedan ${left} bloques recomendados`}.`
                   : "Listo por hoy. Si tienes más tiempo, puedes seguir."}
               </div>
-              <button type="button" className="btn block" onClick={() => setExtra((e) => e + 1)}>Hacer más hoy</button>
+              {endedEarly && <p className="sub">Terminaste lo esencial en menos tiempo del estimado: aún te queda tiempo para sumar más.</p>}
+              <button type="button" className={`btn block${endedEarly ? " primary" : ""}`} onClick={() => setExtra((e) => e + 1)}>Hacer más hoy</button>
             </section>
           )}
           {unit && up && (
@@ -273,14 +285,24 @@ function LegacyReview() {
   );
 }
 
+/** Bloques de un día con sus minutos estimados y si están hechos. */
+function dayBlocks(slot: Slot, blocks: Block[], srsCards: number, course: CourseProgress): DayBlock[] {
+  return blocks.map((b) => ({
+    key: blockKey(slot.step.id, slot.day.day, b.id),
+    estimated: estimatedMinutes(b, srsCards),
+    done: blockDone(slot.step, slot.day.day, b, course),
+    core: b.core,
+  }));
+}
+
 /** Un día del ciclo: sus bloques según el modo (corto o normal). */
-function DayCard({ slot }: { slot: Slot }) {
+function DayCard({ slot, srsCards }: { slot: Slot; srsCards: number }) {
   const { course, settings } = useApp();
   const unit = getUnit(slot.step.unit);
   if (!unit) return null;
   const blocks = visibleBlocks(slot.day, unit, settings.shortMode);
   const live = blocks.filter((b) => !isSoon(b, unit));
-  const minutes = live.reduce((n, b) => n + b.minutes, 0);
+  const minutes = dayMinutes(dayBlocks(slot, live, srsCards, course), loadTimings(window.localStorage));
   const doneCount = live.filter((b) => blockDone(slot.step, slot.day.day, b, course)).length;
   const complete = dayComplete(slot.step, slot.day, course);
   const title = slot.day.day <= 7 ? `Día ${slot.day.day} de 7 · ${slot.day.name}` : slot.day.name;
@@ -301,6 +323,7 @@ function DayCard({ slot }: { slot: Slot }) {
             key={blockKey(slot.step.id, slot.day.day, b.id)}
             step={slot.step} day={slot.day} block={b}
             done={blockDone(slot.step, slot.day.day, b, course)}
+            minutes={estimatedMinutes(b, srsCards)}
             soon={isSoon(b, unit)}
           />
         ))}

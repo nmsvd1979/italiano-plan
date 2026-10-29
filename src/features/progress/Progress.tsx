@@ -6,6 +6,7 @@ import { blockMinutes, unitCycleProgress, weekProgress } from "../../domain/cycl
 import { addDays, diffInDays, monthShort, toISODate } from "../../domain/dates";
 import { computeStreak, heatLevel, minutesOn } from "../../domain/progress";
 import { getPhaseTests } from "../../domain/storage";
+import { loadTimings, withMeasured } from "../../domain/timing";
 import { Icon } from "../../ui/Icon";
 import { Tracker } from "../today/Tracker";
 
@@ -20,7 +21,10 @@ function Bar({ label, done, planned }: { label: string; done: number; planned: n
 
 function Heatmap() {
   const { today, completions, steps } = useApp();
-  const minutesByKey = new Map([...steps.map((x): [string, number] => [x.key, x.activity.minutes]), ...blockMinutes()]);
+  const minutesByKey = withMeasured(
+    new Map([...steps.map((x): [string, number] => [x.key, x.activity.minutes]), ...blockMinutes()]),
+    loadTimings(window.localStorage),
+  );
   const first = addDays(today, -89);
   const start = addDays(first, -first.getDay()); // alineado a domingo: columnas = semanas
   const total = Math.ceil((diffInDays(today, start) + 1) / 7) * 7;

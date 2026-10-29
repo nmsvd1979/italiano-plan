@@ -12,9 +12,11 @@ interface Props {
   done: boolean;
   /** El bloque aún no tiene herramienta o contenido. */
   soon: boolean;
+  /** Minutos que se muestran (el repaso espaciado cambia según la cola de hoy). */
+  minutes: number;
 }
 
-export function BlockRow({ step, day, block, done, soon }: Props) {
+export function BlockRow({ step, day, block, done, soon, minutes }: Props) {
   const { setDone } = useApp();
   const online = useOnline();
   const key = blockKey(step.id, day.day, block.id);
@@ -27,7 +29,7 @@ export function BlockRow({ step, day, block, done, soon }: Props) {
       <div className="activity-main">
         <div className="activity-head">
           <span className="activity-name">{block.name}</span>
-          <span className="activity-min">{block.minutes} min</span>
+          <span className="activity-min">{minutes} min</span>
           {!block.core && !soon && <span className="activity-unit">Recomendado</span>}
           {soon && <span className="net-tag">En preparación</span>}
           {needsInternet && !soon && <span className="net-tag">Necesita internet</span>}
