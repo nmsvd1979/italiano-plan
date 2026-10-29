@@ -88,6 +88,7 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
       { id: "roleplay", kind: "dialogue", name: "Diálogo con rol", minutes: 11, core: true, icon: "chat", needs: "dialogue" },
       { id: "compare", kind: "pron", name: "Repetir y comparar pronunciación", minutes: 4, core: false, icon: "ear" },
       words("words4"),
+      // docs/v2/05 E3: dictado de números a velocidad en u01–u03. Faltan los ítems de contenido; sigue «en preparación».
       soon("speed", "Números y frases a velocidad", 4, false, "sound"),
     ],
   },
