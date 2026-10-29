@@ -22,7 +22,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "src/content/sinpista.json")
 SPLIT = ["u02", "u03", "u05", "u06", "u07", "u14", "u15"]
 QUOTA = {"o": 2, "t": 3, "f": 2, "x": 2, "d": 2, "l": 1}
-REGIONAL = re.compile(r"\b(polera|remera|campera|pibe|choclo|cachái|fome|bacán|pololo|weón|arriendo|amoblad\w*|echo de menos|po)\b", re.I)
+REGIONAL = re.compile(r"\b(polera|remera|campera|pibe|choclo|cachái|fome|bacán|pololo|weón|arriendo|amoblad\w*|echo de menos)\b", re.I)
 VOSEO = re.compile(r"\b(vos|tenés|querés|sos|podés|decís|sabés|hablás|mirá|escuchá|fijate)\b", re.I)
 END = re.compile(r"[.!?»)]$")
 

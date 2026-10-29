@@ -1,0 +1,91 @@
+## u12
+o|Roma es más grande que Milán.|Roma è più grande di Milano.|che|Comparativo entre dos nombres: «più… di».
+o|Quisiera queso y unas manzanas.|Vorrei del formaggio e delle mele.|dei|El partitivo se forma con di + artículo: del, delle.
+t|Mi hermano es más alto que yo.|Mio fratello è più alto di me.|Después de «di» se usa «me», no «io».
+t|Es el más barato.|È il più economico.|El superlativo relativo: il più + adjetivo.
+t|Quisiera un poco de pan.|Vorrei del pane. / Vorrei un po' di pane.|«Un po' di» o el partitivo «del».
+f|Maria è più alta che Luca.|Maria è più alta di Luca.|Entre dos personas se usa «di», no «che».
+f|Vorrei dei acqua.|Vorrei dell'acqua.|«Acqua» empieza con vocal: «dell'».
+x|Haz el superlativo absoluto: Questo caffè è buono.|Questo caffè è buonissimo. / Questo caffè è ottimo.|Superlativo absoluto: -issimo.
+x|Compara con «più»: El tren es rápido y el bus es lento.|Il treno è più veloce dell'autobus. / L'autobus è più lento del treno.|Más… que = più… di (+ artículo).
+d|— Quale pizza preferisci? // — La margherita è la ___ buona.|più;meno;molto|Superlativo relativo: la più buona.
+d|— Vuoi del vino? // — Sì, ___ po', grazie.|un;del;di|«Un po'» = un poco.
+l|Questo è il negozio più economico.|Esta es la tienda más barata.;Esta es la tienda más cara.;Esta es la tienda más cercana.|«Più economico» = más barato.
+## u28
+o|Quisiera reservar una mesa para dos.|Vorrei prenotare un tavolo per due.|vuoi|«Vorrei» + infinitivo para pedir con cortesía.
+o|Somos cuatro: ¿tienen lugar?|Siamo in quattro: avete posto?|ho|«Siamo in quattro» indica cuántos son.
+t|Soy alérgico a las nueces.|Sono allergico alle noci. / Sono allergica alle noci.|«Allergico a» + a + le = alle.
+t|¿Puedo ver el menú?|Posso vedere il menù? / Posso vedere il menu?|«Posso» + infinitivo.
+t|La cuenta, por favor.|Il conto, per favore.|«Il conto» = la cuenta.
+f|Ho allergico alle uova.|Sono allergico alle uova. / Sono allergica alle uova.|La alergia se dice con «essere».
+f|Posso a pagare con la carta?|Posso pagare con la carta?|Después de «posso» va el infinitivo sin «a».
+x|Hazlo más cortés: Voglio il conto.|Vorrei il conto.|«Vorrei» suena más cortés.
+x|Pasa a plural: Sono allergico alle noci.|Siamo allergici alle noci.|Plural: siamo allergici.
+d|— Buonasera! Avete un tavolo per due? // — Sì, ___ sedervi qui.|potete;puoi;possiamo|El camarero habla con varios: «potete».
+d|— Il coperto è incluso? // — No, ___ due euro a persona.|costa;costano;costate|«Il coperto» es singular: «costa».
+l|Sono vegetariano.|Soy vegetariano.;Soy vegano.;Soy alérgico.|«Vegetariano» = vegetariano.
+## u13
+o|Lo compro mañana en el mercado.|Lo compro domani al mercato.|la|«Lo» sustituye a un objeto masculino.
+o|Le di el libro ayer.|Le ho dato il libro ieri.|gli|«Le» es el pronombre indirecto femenino (a ella).
+t|La veo cada día.|La vedo ogni giorno.|«La» reemplaza a una persona femenina.
+t|Le escribo un mensaje.|Le scrivo un messaggio. / Gli scrivo un messaggio.|Pronombre indirecto: le (a ella) o gli (a él).
+t|Los compré ayer.|Li ho comprati ieri.|Con «li» el participio concuerda: comprati.
+f|Ho visto lui ieri.|L'ho visto ieri. / Lo ho visto ieri.|El pronombre va antes del verbo y se apostrofa: l'ho.
+f|Gli ho dato un regalo a Maria.|Le ho dato un regalo a Maria. / Le ho dato un regalo.|A una mujer se le dice «le».
+x|Reemplaza con pronombre: Compro il pane.|Lo compro.|«Il pane» → lo.
+x|Reemplaza con pronombre: Scrivo a Marco.|Gli scrivo.|A él (indirecto) → gli.
+d|— Hai visto Marco? // — Sì, ___ ho visto ieri.|l';gli;le|Pronombre directo con apóstrofo ante «ho».
+d|— Hai dato il regalo a Maria? // — Sì, ___ ho dato un libro.|le;la;gli|A Maria (indirecto femenino): «le».
+l|Ti telefono domani.|Te llamo mañana.;Te llamé ayer.;Te escribo mañana.|«Ti telefono» = te llamo.
+## u14
+o@A|Quiero dos, gracias.|Ne voglio due, grazie.|ci|«Ne» sustituye una cantidad: «ne voglio due».
+t@A|Voy allí mañana.|Ci vado domani.|«Ci» reemplaza un lugar.
+t@A|¿Cuántos quieres? Quiero tres.|Ne voglio tre.|«Ne» = de eso.
+f@A|Vado ci domani.|Ci vado domani.|El pronombre va antes del verbo.
+x@A|Reemplaza el lugar con «ci»: Vado a Roma.|Ci vado.|«A Roma» → ci.
+d@A|— Quanti caffè bevi al giorno? // — ___ bevo tre.|Ne;Ci;Lo|«Ne» indica la cantidad.
+o@B|Gira a la derecha y sigue derecho.|Gira a destra e vai dritto.|giri|Con «tu» el imperativo de girare es «gira».
+t@B|Abre la puerta.|Apri la porta.|Imperativo de aprire (tú): apri.
+f@B|Non parla così!|Non parlare così!|Con «tu» y negación: non + infinitivo.
+x@B|Pasa a «Lei»: Apri la porta.|Apra la porta.|Imperativo formal: apra.
+d@B|— Scusi, per la stazione? // — ___ dritto e poi giri a sinistra.|Vada;Va;Andate|Con «Lei»: «Vada».
+l@B|Prendi la prima a sinistra.|Toma la primera a la izquierda.;Toma la segunda a la izquierda.;Toma la primera a la derecha.|«Prendi» = toma (tú).
+## u15
+o@A|Mañana iré al mar con Luca.|Domani andrò al mare con Luca.|vado|Futuro de andare: andrò.
+t@A|Mañana iré al cine.|Domani andrò al cinema.|Futuro irregular: andrò.
+t@A|Seremos felices.|Saremo felici.|Futuro de essere: saremo.
+f@A|Domani io andarò a Roma.|Domani io andrò a Roma. / Domani andrò a Roma.|Andare tiene futuro irregular: andrò.
+x@A|Pasa a futuro: Parlo con Marco.|Parlerò con Marco.|Futuro: parlare → parlerò.
+d@A|— Che farai domani? // — ___ a casa.|Resterò;Restavo;Sono restato|Futuro: resterò.
+o@B|¿Podrías ayudarme, por favor?|Potresti aiutarmi, per favore?|potrai|El condicional «potresti» suaviza el pedido.
+t@B|¿Podría ayudarme?|Potrebbe aiutarmi? / Mi potrebbe aiutare?|Condicional con Lei: potrebbe.
+f@B|Io poterei venire.|Potrei venire. / Io potrei venire.|Condicional de potere: potrei.
+x@B|Hazlo más cortés: Puoi chiudere la finestra?|Potresti chiudere la finestra?|«Potresti» es más cortés que «puoi».
+d@B|— ___ aprire la finestra, per favore? // — Certo!|Potresti;Potevi;Potrai|Para pedir con cortesía: «Potresti…?».
+l@B|Mi piacerebbe viaggiare.|Me gustaría viajar.;Me gusta viajar.;Me gustó viajar.|«Piacerebbe» es el condicional de piacere.
+## u16
+o|Me duele la cabeza desde hace dos días.|Ho mal di testa da due giorni.|ho|«Ho mal di…» + parte del cuerpo.
+o|Me duele la garganta.|Mi fa male la gola.|fanno|«Mi fa male» + singular.
+t|Tengo fiebre.|Ho la febbre.|«Avere la febbre».
+t|Me duele el estómago.|Mi fa male lo stomaco. / Ho mal di stomaco.|Dos formas: «fa male» o «mal di».
+t|Necesito un médico.|Ho bisogno di un medico. / Ho bisogno di un dottore. / Mi serve un medico.|«Avere bisogno di».
+f|Ho male la testa.|Ho mal di testa. / Mi fa male la testa.|No se dice «ho male la testa».
+f|Mi fa male le gambe.|Mi fanno male le gambe.|Plural: «fanno».
+x|Pasa a plural: Mi fa male la mano.|Mi fanno male le mani.|Plural: fanno male le mani.
+x|Pasa a «Lei»: Come stai?|Come sta?|Forma formal: «Come sta?».
+d|— Dottore, ho mal di gola. // — Da quanto tempo ___ questo dolore?|ha;hai;ho|El médico habla de usted: «ha».
+d|— Prenda una compressa ogni sei ___. // — Va bene.|ore;ora;orari|«Ogni sei ore» = cada seis horas.
+l|Mi fa male la testa.|Me duele la cabeza.;Me duelen las piernas.;Me duele el estómago.|«Testa» = cabeza.
+## u17
+o|Busco un departamento en el centro.|Cerco un appartamento in centro.|al|«In centro» sin artículo.
+o|La calefacción no funciona.|Il riscaldamento non funziona.|funzionano|«Funziona» con sujeto singular.
+t|¿Cuánto cuesta el alquiler?|Quanto costa l'affitto?|«L'affitto» = el alquiler.
+t|El grifo no funciona.|Il rubinetto non funziona.|«Rubinetto» = grifo.
+t|Quisiera ver el departamento.|Vorrei vedere l'appartamento.|«Vorrei» + infinitivo.
+f|L'affitto sono 500 euro.|L'affitto è di 500 euro. / L'affitto è 500 euro.|«L'affitto» es singular: «è».
+f|L'appartamento è nel terzo piano.|L'appartamento è al terzo piano.|Para el piso se usa «a»: «al terzo piano».
+x|Cambia a «due»: C'è una camera libera.|Ci sono due camere libere.|Plural: ci sono, camere libere.
+x|Hazlo más cortés: Voglio vedere la casa.|Vorrei vedere la casa.|«Vorrei» suena más cortés.
+d|— Le spese sono incluse? // — Sì, l'affitto ___ le spese.|include;vive;apre|«Includere» = incluir.
+d|— Il rubinetto è rotto. Può ___, per favore? // — Certo.|ripararlo;riparato;riparo|Después de «può» va el infinitivo: «ripararlo».
+l|La camera è luminosa.|La habitación es luminosa.;La habitación es pequeña.;La cocina es luminosa.|«Luminosa» = luminosa.
