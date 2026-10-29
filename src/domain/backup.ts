@@ -65,6 +65,7 @@ const JSON_KEYS: Record<string, Shape> = {
   [KEYS_V2.miniTests]: "object",
   [KEYS_V2.timing]: "object",
   [KEYS_V2.sinpista]: "object",
+  [KEYS_V2.writingFix]: "object",
   [SRS_KEY]: "object",
 };
 

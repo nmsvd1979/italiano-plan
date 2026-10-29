@@ -64,7 +64,7 @@ function Screens() {
   const vocab = route.match(new RegExp(`^/vocabulario/${UNIT}$`));
   if (vocab) return <VocabScreen key={`vocab-${vocab[1]}${partKey}`} unit={vocab[1]} part={part} />;
   const writing = route.match(new RegExp(`^/escritura/${UNIT}$`));
-  if (writing) return <WritingScreen key={`writing-${writing[1]}`} unit={writing[1]} />;
+  if (writing) return <WritingScreen key={`writing-${writing[1]}${q.get("reescribir") ?? ""}`} unit={writing[1]} rewrite={q.get("reescribir") === "1"} />;
   const dictation = route.match(new RegExp(`^/dictado/${UNIT}$`));
   if (dictation) return <DictationScreen key={`dictation-${dictation[1]}${partKey}`} unit={dictation[1]} part={part} />;
   const dialogue = route.match(new RegExp(`^/dialogo/${UNIT}$`));

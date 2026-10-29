@@ -13,6 +13,7 @@ import { dayMinutes, endedShort, estimatedMinutes, type DayBlock } from "../../d
 import { loadTimings } from "../../domain/timing";
 import { backupAdvice } from "../../domain/backup";
 import { canOfferSeed } from "../../domain/seed";
+import { loadFixes, rewritesDue } from "../../domain/writingFix";
 import { nextCatchup, startingPoint } from "../../domain/continuity";
 import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
 import { getPhaseTests, getReview } from "../../domain/storage";
@@ -71,6 +72,7 @@ export function Today() {
       <BackupReminder />
       <SeedOffer />
       <ContinuityNotices />
+      <RewriteDue />
 
       {unit && first && !finished && (
         <a href={href(`/unidad/${unit.id}`)} className="unit-head">
@@ -131,6 +133,24 @@ export function Today() {
         </>
       )}
     </>
+  );
+}
+
+/** A los 3 días de guardar una versión corregida con Claude, se propone reescribir el texto desde la consigna en español. */
+function RewriteDue() {
+  const { today } = useApp();
+  const due = rewritesDue(loadFixes(window.localStorage), today);
+  if (due.length === 0) return null;
+  const unit = getUnit(due[0]);
+  return (
+    <section className="card stack">
+      <div className="eyebrow">Reescribir desde el español</div>
+      <p className="sub">
+        Hace unos días corregiste tu texto de la unidad {unit?.n}. ¿Lo escribes otra vez, sin mirar la versión corregida?
+        {due.length > 1 ? ` (Hay ${due.length} pendientes.)` : ""}
+      </p>
+      <a className="btn" href={href(`/escritura/${due[0]}?reescribir=1`)} style={{ textAlign: "center", textDecoration: "none" }}>Reescribir</a>
+    </section>
   );
 }
 
