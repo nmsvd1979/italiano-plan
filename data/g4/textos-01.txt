@@ -55,7 +55,7 @@ Ci sono due finestre grandi e un balcone. Il quartiere è tranquillo. Vicino all
 
 Non ci sono animali. Il prezzo è seicento euro al mese.
 es:
-SE ARRIENDA APARTAMENTO
+SE ALQUILA APARTAMENTO
 El apartamento está en el segundo piso de una casa cerca de la estación. Tiene una habitación, un baño, una cocina y una sala. En la sala hay un sofá y hay dos sillas. En la cocina hay una mesa y hay un refrigerador.
 
 Hay dos ventanas grandes y un balcón. El barrio es tranquilo. Cerca del apartamento hay un supermercado, una farmacia y un parque.
@@ -80,12 +80,12 @@ Mi piace molto il mio quartiere. Mi piacciono i bar e il parco.
 es:
 Vivo en un barrio pequeño pero bonito. En la plaza hay muchos bares y dos tiendas. El mercado es el sábado en la mañana: hay fruta, verdura y flores.
 
-Cerca de la plaza hay un parque. En el parque hay niños, hombres y mujeres con perros. Bajo los árboles hay unas bancas.
+Cerca de la plaza hay un parque. En el parque hay niños, hombres y mujeres con perros. Bajo los árboles hay unos bancos.
 
 Detrás de la iglesia está la escuela. Delante de la escuela hay dos bicicletas. Fuera del barrio está la estación: está lejos, pero hay un bus.
 
 Me gusta mucho mi barrio. Me gustan los bares y el parque.
-claves: il mercato=el mercado; la panchina=la banca; dietro=detrás de; davanti a=delante de; fuori da=fuera de; lontana=lejos
+claves: il mercato=el mercado; la panchina=el banco; dietro=detrás de; davanti a=delante de; fuori da=fuera de; lontana=lejos
 p1: ¿Cuándo es el mercado? | il sabato mattina | la domenica | il lunedì sera | a | «Il mercato è il sabato mattina».
 p2: ¿Qué hay detrás de la iglesia? | la scuola | la stazione | il parco | a | «Dietro la chiesa c'è la scuola».
 p3: ¿Cómo se llega a la estación? | a piedi, è vicina | con l'autobus, è lontana | in bicicletta | b | La estación es lejana, pero hay un autobús.
@@ -168,7 +168,7 @@ p4: ¿A qué hora cierra el bar? | alle venti / alle 20 | «chiude alle venti».
 tipo: menú de bar
 titulo: Una mattina al bar
 testo:
-Sono le otto. Giulia entra in un bar vicino all'ufficio. Il cameriere dice: «Buongiorno! Che cosa desidera?».
+Sono le otto. Giulia entra in un bar vicino all'ufficio. Il cameriere dice: «Buongiorno! Vuole ordinare?».
 
 Giulia: «Buongiorno. Vorrei un cappuccino e un cornetto, per favore».
 Il cameriere: «Subito! Vuole anche un'acqua?».
@@ -179,7 +179,7 @@ Poi Giulia deve lavorare. Non può restare molto al bar. Mangia il cornetto e be
 
 Giulia vuole tornare domani: il cappuccino è buonissimo.
 es:
-Son las ocho. Giulia entra a un bar cerca de la oficina. El camarero dice: «¡Buenos días! ¿Qué desea?».
+Son las ocho. Giulia entra a un bar cerca de la oficina. El camarero dice: «¡Buenos días! ¿Quiere pedir?».
 
 Giulia: «Buenos días. Quisiera un capuchino y un croissant, por favor».
 El camarero: «¡Enseguida! ¿Quiere también un agua?».

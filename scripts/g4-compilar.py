@@ -20,7 +20,7 @@ import re, sys, json, glob, os, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "src/content/lectura.json")
-REGIONAL = re.compile(r"\b(cachái|po\b|weón|fome|bacán|pololo|polola|cabro|guagua|al tiro|altiro|harto)\b", re.I)
+REGIONAL = re.compile(r"\b(cachái|po\b|weón|fome|bacán|pololo|polola|cabro|polera|arriendo|amoblad\w*|echo de menos|guagua|al tiro|altiro|harto)\b", re.I)
 VOSEO = re.compile(r"\b(vos|tenés|querés|sos|podés|decís|sabés|hablás|mirá|escuchá|fijate)\b", re.I)
 WORD = re.compile(r"[A-Za-zÀ-ÿ']+")
 

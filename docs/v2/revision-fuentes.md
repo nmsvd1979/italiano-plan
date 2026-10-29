@@ -93,3 +93,16 @@ Contenido en `src/content/nuevas/u28.ts`; se conecta sola a los registros porque
 
 **Evitado a propósito (sin fuente):** *Cosa prende?* y *Cosa desidera?* (siguen en `dudas-italiano.md`; la fuente de Colanguage tampoco los trae), *Un tavolo per due, per favore* como frase única (se usa *Avete un tavolo per due?*), cifras de propina o de coperto por persona (la fuente dice 1–3 euros por persona, pero varía), y femeninos de profesiones.
 **Sin audio todavía:** ninguna palabra nueva de pronunciación necesita entrar en `AUDIO_PENDING`, salvo *nona*, que ya estaba. *Cameriere, dolce, conto, pasta, carne, pesce, nonna, nono, pane, panna, sete, sette* ya tienen audio.
+
+## G4 · Textos graduados (29-oct-2026, rama `feat/g4-textos-graduados`)
+35 textos de lectura, uno por paso del curso (32 semanas + 3 del puente), en `data/g4/textos-*.txt`. `scripts/g4-compilar.py` los valida y genera `src/content/lectura.json`; `src/content/lectura.ts` los expone (`getLectura(id)`, `checkShortAnswer`); `lectura.test.ts` revisa 214 condiciones. Cada texto lleva traducción párrafo a párrafo, 4–8 palabras clave y 4 preguntas (3 de opción múltiple + 1 de respuesta breve con respuestas aceptadas y explicación).
+
+| Decisión | Detalle |
+|---|---|
+| Largo | 55–250 palabras. El plan decía 100–250, pero con el léxico de la primera fase (u25, u01–u04) 100 palabras obligan a usar vocabulario aún no enseñado; el mínimo sube con las fases (55 hasta u04, 80 hasta u08, 100 hasta u16, 120 desde u17). |
+| Tipos de texto | Los de `docs/v2/13` (cartel, presentación, aviso, horario, menú, receta, mail, prospecto, columna, carta…). |
+| Verificación | **V1** (automática): las 600+ formas distintas se compararon con `it_50k` de FrequencyWords; las que están fuera del rango 12 000 (≈120) se revisaron una por una y son formas correctas del italiano (flexiones de verbos y adjetivos, vocabulario temático como *lasagne, risotto, basilico, compresse, semaforo*) o nombres propios y datos de ejemplo. Sin erratas. |
+| Español | Neutro, con tuteo; se evitaron regionalismos (*polera, arriendo, amoblado, sartén* masculino, *echar de menos*, *tomar desayuno*). El validador y la prueba detectan voseo y los más comunes. |
+| Evitado a propósito | *Che cosa desidera?* (no confirmado, sigue en `dudas-italiano.md`): el camarero pregunta *Vuole ordinare?*. |
+| Pendiente | Medir que ≥ 95 % de las palabras de cada texto estén enseñadas hasta esa semana (necesita el léxico acumulado de G3, que llega con el PR #30), y la segunda pasada independiente (G-R). |
+| Conexión | Aún no está conectado a la app: Code lo conecta al día 5 del ciclo (bloques «Texto graduado» y «Preguntas del texto»). |

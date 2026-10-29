@@ -152,7 +152,7 @@ Lavora dalle nove alle cinque. A mezzogiorno mangia un panino con i colleghi. Il
 
 Dopo il lavoro torna a casa. Alle sette cucina la cena: di solito fa la pasta. Poi guarda la televisione o legge un libro. Va a letto verso le undici. Il sabato, invece, si sveglia tardi e va al mercato.
 es:
-Marco se despierta a las siete y se levanta enseguida. Se lava, se viste y toma desayuno con un café y una galleta. A las ocho sale de casa y toma el bus para ir a la oficina.
+Marco se despierta a las siete y se levanta enseguida. Se lava, se viste y desayuna con un café y una galleta. A las ocho sale de casa y toma el bus para ir a la oficina.
 
 Trabaja de nueve a cinco. Al mediodía come un sándwich con los colegas. En la tarde tiene muchas reuniones, pero a veces también tiene un poco de tiempo para conversar con los amigos.
 
@@ -248,7 +248,7 @@ En el centro: el cielo está nublado. Hacia la noche llueve. En Roma hay doce gr
 
 En el sur: hace buen tiempo y hay mucho sol. En Nápoles hay dieciocho grados. El mar está calmo.
 
-Consejo: en el norte lleva un abrigo y una bufanda; en el centro lleva el paraguas; en el sur puedes ponerte una polera ligera. ¡Buen día y buen viaje!
+Consejo: en el norte lleva un abrigo y una bufanda; en el centro lleva el paraguas; en el sur puedes ponerte una camiseta ligera. ¡Buen día y buen viaje!
 claves: la nebbia=la neblina; nevicare=nevicar; nuvoloso=nublado; piove=llueve; l'ombrello=el paraguas; la sciarpa=la bufanda
 p1: ¿Qué tiempo hace en el norte por la mañana? | sole e caldo | nebbia e freddo | pioggia | b | «c'è nebbia e fa freddo».
 p2: ¿Cuándo llueve en el centro? | verso sera | al mattino | tutto il giorno | a | «Verso sera piove».

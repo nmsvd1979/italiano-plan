@@ -8,7 +8,7 @@ Nel pomeriggio ho incontrato Giulia. Siamo andate al cinema e abbiamo visto un f
 
 Domenica ho pulito la casa e ho telefonato a mia nonna. Lei mi ha raccontato una storia della sua giovinezza. Ho cucinato la cena per la famiglia: tutti hanno mangiato molto e hanno detto che era buonissima. È stato un fine settimana bellissimo!
 es:
-El sábado en la mañana me desperté tarde. Tomé desayuno con calma y leí el diario. Luego salí e hice las compras en el mercado: compré pan, queso y unos tomates muy lindos.
+El sábado en la mañana me desperté tarde. Desayuné con calma y leí el diario. Luego salí e hice las compras en el mercado: compré pan, queso y unos tomates muy lindos.
 
 En la tarde me encontré con Giulia. Fuimos al cine y vimos una película divertida. Después de la película comimos una pizza juntas. No volvimos tarde a casa, porque estábamos cansadas.
 
@@ -32,7 +32,7 @@ Quando siamo partiti eravamo tristi, ma molto contenti. Voglio tornare presto!
 es:
 El año pasado fui a Venecia con mi hermana. Salimos en tren desde Milán y después de dos horas y media llegamos. Hacía frío, pero el cielo era azul y la ciudad era hermosísima.
 
-Dormimos en un pequeño hotel cerca del Gran Canal. La habitación era pequeña, pero limpia, y la señora de la recepción era muy amable. Cada mañana tomábamos desayuno en la terraza.
+Dormimos en un pequeño hotel cerca del Gran Canal. La habitación era pequeña, pero limpia, y la señora de la recepción era muy amable. Cada mañana desayunábamos en la terraza.
 
 Visitamos la basílica de San Marcos, tomamos el vaporetto y caminamos por horas entre los puentes. Una noche fuimos a un restaurante donde comí el mejor risotto de mi vida.
 
@@ -40,7 +40,7 @@ Cuando nos fuimos estábamos tristes, pero muy contentos. ¡Quiero volver pronto
 claves: partire=salir / partir; l'albergo=el hotel; pulito=limpio; il ponte=el puente; il terrazzo=la terraza; camminare=caminar
 p1: ¿Con quién viajó el autor? | con sua sorella | con un amico | da solo | a | «con mia sorella».
 p2: ¿Cómo era el tiempo? | faceva caldo | faceva freddo, ma il cielo era azzurro | pioveva | b | «Faceva freddo, ma il cielo era azzurro».
-p3: ¿Dónde tomaban desayuno? | in camera | al bar | sul terrazzo | c | «facevamo colazione sul terrazzo».
+p3: ¿Dónde desayunaban? | in camera | al bar | sul terrazzo | c | «facevamo colazione sul terrazzo».
 p4: ¿Cuánto duró el viaje en tren? | due ore e mezza / due ore e mezzo | «dopo due ore e mezza».
 ## u11
 tipo: cuento breve
@@ -153,7 +153,7 @@ Helado (tres sabores) — 4 €
 
 El cubierto cuesta 2 €. Las bebidas no están incluidas. El servicio está incluido.
 
-¿Alergias? Hable con el camarero: le recomendará el plato adecuado.
+¿Alergias? Hablen con el camarero: les recomendará el plato adecuado.
 
 El camarero: «¡Buenas noches! ¿Ya eligieron?»
 Cliente: «Sí. Para mí las lasañas y después el pollo con papas. Para mi amiga el risotto de hongos.»

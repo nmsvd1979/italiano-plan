@@ -18,10 +18,10 @@ Ingredientes: 400 gramos de espaguetis, 500 gramos de tomates maduros, dos dient
 
 Primero pon el agua en una olla grande y llévala a hervir. Mientras tanto corta los tomates en trocitos y aplasta el ajo.
 
-En un sartén calienta un poco de aceite, agrega el ajo y los tomates y cocina quince minutos a fuego bajo. Agrega un poco de sal.
+En una sartén calienta un poco de aceite, agrega el ajo y los tomates y cocina quince minutos a fuego bajo. Agrega un poco de sal.
 
-Cuando el agua hierva, echa la pasta y cuécela diez minutos. Luego escurre los espaguetis y ponlos en el sartén con la salsa. Mezcla bien y agrega unas hojas de albahaca. ¡Sirve enseguida! ¡Buen provecho!
-claves: la pentola=la olla; tagliare=cortar; la padella=el sartén; scolare=escurrir; il sugo=la salsa; mescolare=mezclar
+Cuando el agua hierva, echa la pasta y cuécela diez minutos. Luego escurre los espaguetis y ponlos en la sartén con la salsa. Mezcla bien y agrega unas hojas de albahaca. ¡Sirve enseguida! ¡Buen provecho!
+claves: la pentola=la olla; tagliare=cortar; la padella=la sartén; scolare=escurrir; il sugo=la salsa; mescolare=mezclar
 p1: ¿Cuántos gramos de tomates se necesitan? | quattrocento | cinquecento | duecento | b | «500 grammi di pomodori maturi».
 p2: ¿Cuánto tiempo se cocinan los tomates? | dieci minuti | cinque minuti | quindici minuti | c | «cuoci per quindici minuti».
 p3: ¿Qué se hace con la pasta cuando está cocida? | si scola | si butta | si mangia fredda | a | «scola gli spaghetti».
@@ -141,10 +141,10 @@ Cómo se usa
 Los adultos pueden tomar un comprimido cada seis horas, con un vaso de agua. No tomar más de cuatro comprimidos al día. Los niños menores de doce años no deben tomarlo sin hablar con el médico.
 
 Atención
-No use este medicamento si es alérgico al paracetamol. Si tiene problemas al hígado o al estómago, consulte al médico o al farmacéutico. Si el dolor de cabeza no se pasa después de tres días, deje de tomarlo y vaya al doctor.
+No uses este medicamento si eres alérgico al paracetamol. Si tienes problemas del hígado o del estómago, consulta al médico o al farmacéutico. Si el dolor de cabeza no se pasa después de tres días, deja de tomarlo y ve al doctor.
 
 Cómo conservarlo
-Guarde la caja en un lugar seco, fuera del alcance de los niños.
+Guarda la caja en un lugar seco, fuera del alcance de los niños.
 claves: la compressa=el comprimido; la febbre=la fiebre; il mal di gola=el dolor de garganta; il medico=el médico; allergico=alérgico; il fegato=el hígado
 p1: ¿Para qué sirve el medicamento? | per dormire | per abbassare la febbre e il mal di testa | per la tosse | b | «per abbassare la febbre e per il mal di testa».
 p2: ¿Cada cuánto puede tomar un adulto una pastilla? | ogni sei ore | ogni dodici ore | ogni ora | a | «una compressa ogni sei ore».
@@ -170,7 +170,7 @@ Per vedere la camera, scrivi a: casanavigli@example.com
 es:
 SE BUSCA COMPAÑERO DE DEPARTAMENTO — Milán, zona Navigli
 
-Arriendo una habitación en un hermoso departamento compartido con otras dos personas. La habitación es luminosa, grande y amoblada: tiene una cama, un clóset, un escritorio y un balcón al patio.
+Alquilo una habitación en un hermoso departamento compartido con otras dos personas. La habitación es luminosa, grande y amueblada: tiene una cama, un clóset, un escritorio y un balcón al patio.
 
 El departamento está en el tercer piso, hay ascensor y queda a diez minutos a pie del metro. La cocina y el baño son compartidos. Hay conexión a internet rápida.
 
@@ -181,7 +181,7 @@ Busco una persona tranquila, limpia y responsable, de preferencia estudiante o t
 La zona es muy animada: cerca hay muchos bares, restaurantes y tiendas. El domingo hay un pequeño mercado junto al canal. Para quien ama salir en la noche, es el lugar ideal.
 
 Para ver la habitación, escribe a: casanavigli@example.com
-claves: cercasi=se busca; arredato=amoblado; l'ascensore=el ascensor; condiviso=compartido; il deposito=el depósito; la scrivania=el escritorio
+claves: cercasi=se busca; arredato=amueblado; l'ascensore=el ascensor; condiviso=compartido; il deposito=el depósito; la scrivania=el escritorio
 p1: ¿En qué piso está el departamento? | al secondo | al terzo | al quarto | b | «al terzo piano».
 p2: ¿Qué tiene la habitación? | un letto, un armadio, una scrivania e un balcone | solo un letto | una cucina privata | a | Lista de muebles del anuncio.
 p3: ¿Qué persona busca el anunciante? | una persona chiassosa | una famiglia | una persona tranquilla e responsabile | c | «tranquilla, pulita e responsabile».

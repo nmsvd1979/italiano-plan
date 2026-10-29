@@ -175,7 +175,7 @@
    "Non ci sono animali. Il prezzo è seicento euro al mese."
   ],
   "es": [
-   "SE ARRIENDA APARTAMENTO\nEl apartamento está en el segundo piso de una casa cerca de la estación. Tiene una habitación, un baño, una cocina y una sala. En la sala hay un sofá y hay dos sillas. En la cocina hay una mesa y hay un refrigerador.",
+   "SE ALQUILA APARTAMENTO\nEl apartamento está en el segundo piso de una casa cerca de la estación. Tiene una habitación, un baño, una cocina y una sala. En la sala hay un sofá y hay dos sillas. En la cocina hay una mesa y hay un refrigerador.",
    "Hay dos ventanas grandes y un balcón. El barrio es tranquilo. Cerca del apartamento hay un supermercado, una farmacia y un parque.",
    "No se admiten animales. El precio es seiscientos euros al mes."
   ],
@@ -262,7 +262,7 @@
   ],
   "es": [
    "Vivo en un barrio pequeño pero bonito. En la plaza hay muchos bares y dos tiendas. El mercado es el sábado en la mañana: hay fruta, verdura y flores.",
-   "Cerca de la plaza hay un parque. En el parque hay niños, hombres y mujeres con perros. Bajo los árboles hay unas bancas.",
+   "Cerca de la plaza hay un parque. En el parque hay niños, hombres y mujeres con perros. Bajo los árboles hay unos bancos.",
    "Detrás de la iglesia está la escuela. Delante de la escuela hay dos bicicletas. Fuera del barrio está la estación: está lejos, pero hay un bus.",
    "Me gusta mucho mi barrio. Me gustan los bares y el parque."
   ],
@@ -273,7 +273,7 @@
    },
    {
     "it": "la panchina",
-    "es": "la banca"
+    "es": "el banco"
    },
    {
     "it": "dietro",
@@ -515,13 +515,13 @@
   "tipo": "menú de bar",
   "titulo": "Una mattina al bar",
   "it": [
-   "Sono le otto. Giulia entra in un bar vicino all'ufficio. Il cameriere dice: «Buongiorno! Che cosa desidera?».",
+   "Sono le otto. Giulia entra in un bar vicino all'ufficio. Il cameriere dice: «Buongiorno! Vuole ordinare?».",
    "Giulia: «Buongiorno. Vorrei un cappuccino e un cornetto, per favore».\nIl cameriere: «Subito! Vuole anche un'acqua?».\nGiulia: «No, grazie. Posso pagare con la carta?».\nIl cameriere: «Sì, certo».",
    "Poi Giulia deve lavorare. Non può restare molto al bar. Mangia il cornetto e beve il cappuccino in dieci minuti. Dice: «Il conto, per favore!». Il cameriere risponde: «Sono due euro e ottanta».",
    "Giulia vuole tornare domani: il cappuccino è buonissimo."
   ],
   "es": [
-   "Son las ocho. Giulia entra a un bar cerca de la oficina. El camarero dice: «¡Buenos días! ¿Qué desea?».",
+   "Son las ocho. Giulia entra a un bar cerca de la oficina. El camarero dice: «¡Buenos días! ¿Quiere pedir?».",
    "Giulia: «Buenos días. Quisiera un capuchino y un croissant, por favor».\nEl camarero: «¡Enseguida! ¿Quiere también un agua?».\nGiulia: «No, gracias. ¿Puedo pagar con tarjeta?».\nEl camarero: «Sí, claro».",
    "Después Giulia tiene que trabajar. No puede quedarse mucho en el bar. Come el croissant y toma el capuchino en diez minutos. Dice: «¡La cuenta, por favor!». El camarero responde: «Son dos euros con ochenta».",
    "Giulia quiere volver mañana: el capuchino está buenísimo."
@@ -596,7 +596,7 @@
     "why": "«Sono due euro e ottanta»."
    }
   ],
-  "palabras": 86
+  "palabras": 85
  },
  "u05#A": {
   "tipo": "indicaciones",
@@ -1043,7 +1043,7 @@
    "Dopo il lavoro torna a casa. Alle sette cucina la cena: di solito fa la pasta. Poi guarda la televisione o legge un libro. Va a letto verso le undici. Il sabato, invece, si sveglia tardi e va al mercato."
   ],
   "es": [
-   "Marco se despierta a las siete y se levanta enseguida. Se lava, se viste y toma desayuno con un café y una galleta. A las ocho sale de casa y toma el bus para ir a la oficina.",
+   "Marco se despierta a las siete y se levanta enseguida. Se lava, se viste y desayuna con un café y una galleta. A las ocho sale de casa y toma el bus para ir a la oficina.",
    "Trabaja de nueve a cinco. Al mediodía come un sándwich con los colegas. En la tarde tiene muchas reuniones, pero a veces también tiene un poco de tiempo para conversar con los amigos.",
    "Después del trabajo vuelve a casa. A las siete cocina la cena: por lo general hace pasta. Luego ve televisión o lee un libro. Se acuesta como a las once. El sábado, en cambio, se despierta tarde y va al mercado."
   ],
@@ -1298,7 +1298,7 @@
    "En el norte: en la mañana hay neblina y hace frío, la temperatura es de tres grados. En la tarde hay sol, pero sigue fresco. En la montaña nieva.",
    "En el centro: el cielo está nublado. Hacia la noche llueve. En Roma hay doce grados.",
    "En el sur: hace buen tiempo y hay mucho sol. En Nápoles hay dieciocho grados. El mar está calmo.",
-   "Consejo: en el norte lleva un abrigo y una bufanda; en el centro lleva el paraguas; en el sur puedes ponerte una polera ligera. ¡Buen día y buen viaje!"
+   "Consejo: en el norte lleva un abrigo y una bufanda; en el centro lleva el paraguas; en el sur puedes ponerte una camiseta ligera. ¡Buen día y buen viaje!"
   ],
   "claves": [
    {
@@ -1371,5 +1371,1691 @@
    }
   ],
   "palabras": 90
+ },
+ "u09": {
+  "tipo": "diario del fin de semana",
+  "titulo": "Il mio fine settimana",
+  "it": [
+   "Sabato mattina mi sono svegliata tardi. Ho fatto colazione con calma e ho letto il giornale. Poi sono uscita e ho fatto la spesa al mercato: ho comprato pane, formaggio e dei pomodori molto belli.",
+   "Nel pomeriggio ho incontrato Giulia. Siamo andate al cinema e abbiamo visto un film divertente. Dopo il film abbiamo mangiato una pizza insieme. Non siamo tornate a casa tardi, perché eravamo stanche.",
+   "Domenica ho pulito la casa e ho telefonato a mia nonna. Lei mi ha raccontato una storia della sua giovinezza. Ho cucinato la cena per la famiglia: tutti hanno mangiato molto e hanno detto che era buonissima. È stato un fine settimana bellissimo!"
+  ],
+  "es": [
+   "El sábado en la mañana me desperté tarde. Desayuné con calma y leí el diario. Luego salí e hice las compras en el mercado: compré pan, queso y unos tomates muy lindos.",
+   "En la tarde me encontré con Giulia. Fuimos al cine y vimos una película divertida. Después de la película comimos una pizza juntas. No volvimos tarde a casa, porque estábamos cansadas.",
+   "El domingo limpié la casa y llamé por teléfono a mi abuela. Ella me contó una historia de su juventud. Cociné la cena para la familia: todos comieron mucho y dijeron que estaba buenísima. ¡Fue un fin de semana lindísimo!"
+  ],
+  "claves": [
+   {
+    "it": "la spesa",
+    "es": "las compras"
+   },
+   {
+    "it": "incontrare",
+    "es": "encontrarse con"
+   },
+   {
+    "it": "pulire",
+    "es": "limpiar"
+   },
+   {
+    "it": "raccontare",
+    "es": "contar"
+   },
+   {
+    "it": "la giovinezza",
+    "es": "la juventud"
+   },
+   {
+    "it": "divertente",
+    "es": "divertido"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué compró la autora en el mercado?",
+    "options": [
+     "pane, formaggio e pomodori",
+     "pesce e verdura",
+     "solo frutta"
+    ],
+    "answer": 0,
+    "why": "«pane, formaggio e dei pomodori»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué hicieron Giulia y la autora después del cine?",
+    "options": [
+     "tornarono a casa",
+     "mangiarono una pizza",
+     "fecero una passeggiata"
+    ],
+    "answer": 1,
+    "why": "«abbiamo mangiato una pizza insieme»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Por qué no volvieron tarde a casa?",
+    "options": [
+     "erano stanche",
+     "pioveva",
+     "il cinema era chiuso"
+    ],
+    "answer": 0,
+    "why": "«perché eravamo stanche»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Quién le contó una historia de su juventud?",
+    "accepted": [
+     "sua nonna",
+     "la nonna",
+     "la nonna"
+    ],
+    "why": "«Lei mi ha raccontato una storia della sua giovinezza»."
+   }
+  ],
+  "palabras": 110
+ },
+ "u10": {
+  "tipo": "relato de viaje",
+  "titulo": "Una settimana a Venezia",
+  "it": [
+   "L'anno scorso sono andato a Venezia con mia sorella. Siamo partiti in treno da Milano e dopo due ore e mezza siamo arrivati. Faceva freddo, ma il cielo era azzurro e la città era bellissima.",
+   "Abbiamo dormito in un piccolo albergo vicino al Canal Grande. La camera era piccola, ma pulita, e la signora della reception era molto gentile. Ogni mattina facevamo colazione sul terrazzo.",
+   "Abbiamo visitato la basilica di San Marco, abbiamo preso il vaporetto e abbiamo camminato per ore tra i ponti. Una sera siamo andati in un ristorante dove ho mangiato il miglior risotto della mia vita.",
+   "Quando siamo partiti eravamo tristi, ma molto contenti. Voglio tornare presto!"
+  ],
+  "es": [
+   "El año pasado fui a Venecia con mi hermana. Salimos en tren desde Milán y después de dos horas y media llegamos. Hacía frío, pero el cielo era azul y la ciudad era hermosísima.",
+   "Dormimos en un pequeño hotel cerca del Gran Canal. La habitación era pequeña, pero limpia, y la señora de la recepción era muy amable. Cada mañana desayunábamos en la terraza.",
+   "Visitamos la basílica de San Marcos, tomamos el vaporetto y caminamos por horas entre los puentes. Una noche fuimos a un restaurante donde comí el mejor risotto de mi vida.",
+   "Cuando nos fuimos estábamos tristes, pero muy contentos. ¡Quiero volver pronto!"
+  ],
+  "claves": [
+   {
+    "it": "partire",
+    "es": "salir / partir"
+   },
+   {
+    "it": "l'albergo",
+    "es": "el hotel"
+   },
+   {
+    "it": "pulito",
+    "es": "limpio"
+   },
+   {
+    "it": "il ponte",
+    "es": "el puente"
+   },
+   {
+    "it": "il terrazzo",
+    "es": "la terraza"
+   },
+   {
+    "it": "camminare",
+    "es": "caminar"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Con quién viajó el autor?",
+    "options": [
+     "con sua sorella",
+     "con un amico",
+     "da solo"
+    ],
+    "answer": 0,
+    "why": "«con mia sorella»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cómo era el tiempo?",
+    "options": [
+     "faceva caldo",
+     "faceva freddo, ma il cielo era azzurro",
+     "pioveva"
+    ],
+    "answer": 1,
+    "why": "«Faceva freddo, ma il cielo era azzurro»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Dónde desayunaban?",
+    "options": [
+     "in camera",
+     "al bar",
+     "sul terrazzo"
+    ],
+    "answer": 2,
+    "why": "«facevamo colazione sul terrazzo»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuánto duró el viaje en tren?",
+    "accepted": [
+     "due ore e mezza",
+     "due ore e mezzo"
+    ],
+    "why": "«dopo due ore e mezza»."
+   }
+  ],
+  "palabras": 111
+ },
+ "u11": {
+  "tipo": "cuento breve",
+  "titulo": "Il gatto di Nonna Rosa",
+  "it": [
+   "C'era una volta una vecchia signora, Nonna Rosa, che viveva in una casetta vicino al bosco. Aveva un gatto grigio che si chiamava Pepe. Ogni mattina Pepe usciva dalla casa e tornava a mezzogiorno.",
+   "Un giorno, però, Pepe non è tornato. Nonna Rosa era preoccupata. Ha cercato nel giardino, ha chiamato il gatto per ore, ma Pepe non c'era. La sera è andata a letto triste.",
+   "La mattina dopo ha sentito un rumore alla porta. Ha aperto e ha visto Pepe: aveva in bocca un piccolo pesce! Il gatto lo ha messo davanti ai suoi piedi, come un regalo.",
+   "Nonna Rosa ha sorriso, ha preso il gatto in braccio e ha detto: «Che bravo che sei!». Da quel giorno Pepe ha portato un pesce ogni venerdì."
+  ],
+  "es": [
+   "Había una vez una anciana, la abuela Rosa, que vivía en una casita cerca del bosque. Tenía un gato gris que se llamaba Pepe. Cada mañana Pepe salía de la casa y volvía al mediodía.",
+   "Un día, sin embargo, Pepe no volvió. La abuela Rosa estaba preocupada. Buscó en el jardín, llamó al gato por horas, pero Pepe no estaba. En la noche se fue a la cama triste.",
+   "A la mañana siguiente oyó un ruido en la puerta. Abrió y vio a Pepe: ¡tenía en la boca un pececito! El gato lo puso delante de sus pies, como un regalo.",
+   "La abuela Rosa sonrió, tomó al gato en brazos y dijo: «¡Qué bueno eres!». Desde ese día Pepe trajo un pescado todos los viernes."
+  ],
+  "claves": [
+   {
+    "it": "c'era una volta",
+    "es": "había una vez"
+   },
+   {
+    "it": "il bosco",
+    "es": "el bosque"
+   },
+   {
+    "it": "preoccupato",
+    "es": "preocupado"
+   },
+   {
+    "it": "il rumore",
+    "es": "el ruido"
+   },
+   {
+    "it": "il regalo",
+    "es": "el regalo"
+   },
+   {
+    "it": "sorridere",
+    "es": "sonreír"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Cómo se llamaba el gato?",
+    "options": [
+     "Pepe",
+     "Rosa",
+     "Mimì"
+    ],
+    "answer": 0,
+    "why": "«un gatto grigio che si chiamava Pepe»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Por qué estaba triste la abuela una noche?",
+    "options": [
+     "il gatto era malato",
+     "il gatto non è tornato",
+     "non aveva pesce"
+    ],
+    "answer": 1,
+    "why": "«Pepe non è tornato»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué tenía el gato en la boca?",
+    "options": [
+     "un pesce",
+     "un topo",
+     "un osso"
+    ],
+    "answer": 0,
+    "why": "«aveva in bocca un piccolo pesce»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuándo trajo el gato un pescado después?",
+    "accepted": [
+     "ogni venerdì",
+     "il venerdì"
+    ],
+    "why": "«Pepe ha portato un pesce ogni venerdì»."
+   }
+  ],
+  "palabras": 126
+ },
+ "u12": {
+  "tipo": "folleto de mercado",
+  "titulo": "Il mercato di Campo dei Fiori",
+  "it": [
+   "IL MERCATO DI CAMPO DEI FIORI\nDa più di centocinquanta anni il mercato è il cuore di Roma. Ogni mattina, dal lunedì al sabato, i venditori preparano le loro bancarelle con frutta, verdura, fiori, spezie e pesce fresco.",
+   "Che cosa comprare?\nLe verdure sono più fresche e più economiche che al supermercato. I pomodori romani sono i più saporiti. Il pesce è migliore la mattina presto, quando arriva dal mare.",
+   "Consigli per i visitatori:\n• Arrivate prima delle dieci: dopo, c'è più gente e le cose più buone finiscono.\n• Portate una borsa grande e un po' di monete.\n• Non abbiate paura di chiedere un assaggio: è normale!",
+   "Il mercato chiude alle due del pomeriggio. La domenica è chiuso."
+  ],
+  "es": [
+   "EL MERCADO DE CAMPO DEI FIORI\nDesde hace más de ciento cincuenta años el mercado es el corazón de Roma. Cada mañana, de lunes a sábado, los vendedores preparan sus puestos con fruta, verdura, flores, especias y pescado fresco.",
+   "¿Qué comprar?\nLas verduras son más frescas y más baratas que en el supermercado. Los tomates romanos son los más sabrosos. El pescado es mejor temprano en la mañana, cuando llega del mar.",
+   "Consejos para los visitantes:\n• Lleguen antes de las diez: después hay más gente y las cosas más ricas se acaban.\n• Traigan una bolsa grande y unas monedas.\n• No tengan miedo de pedir una probadita: ¡es normal!",
+   "El mercado cierra a las dos de la tarde. El domingo está cerrado."
+  ],
+  "claves": [
+   {
+    "it": "la bancarella",
+    "es": "el puesto"
+   },
+   {
+    "it": "il venditore",
+    "es": "el vendedor"
+   },
+   {
+    "it": "economico",
+    "es": "barato"
+   },
+   {
+    "it": "saporito",
+    "es": "sabroso"
+   },
+   {
+    "it": "l'assaggio",
+    "es": "la probadita"
+   },
+   {
+    "it": "le monete",
+    "es": "las monedas"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué es más fresco que en el supermercado?",
+    "options": [
+     "il pesce",
+     "le verdure",
+     "i fiori"
+    ],
+    "answer": 1,
+    "why": "«Le verdure sono più fresche»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuándo es mejor el pescado?",
+    "options": [
+     "di sera",
+     "a mezzogiorno",
+     "la mattina presto"
+    ],
+    "answer": 2,
+    "why": "«Il pesce è migliore la mattina presto»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Hasta qué hora hay que llegar según el consejo?",
+    "options": [
+     "prima delle dieci",
+     "prima delle due",
+     "dopo le dieci"
+    ],
+    "answer": 0,
+    "why": "«Arrivate prima delle dieci»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué día está cerrado el mercado?",
+    "accepted": [
+     "la domenica",
+     "domenica"
+    ],
+    "why": "«La domenica è chiuso»."
+   }
+  ],
+  "palabras": 117
+ },
+ "u28": {
+  "tipo": "menú de restaurante",
+  "titulo": "Ristorante Da Gino",
+  "it": [
+   "RISTORANTE DA GINO — MENÙ DEL GIORNO",
+   "ANTIPASTI\nBruschetta con pomodoro — 5 €\nProsciutto e melone — 8 €",
+   "PRIMI\nSpaghetti alla carbonara — 10 €\nLasagne al forno — 11 €\nRisotto ai funghi (vegetariano) — 11 €",
+   "SECONDI\nPollo arrosto con patate — 14 €\nPesce del giorno con verdure — 16 €",
+   "DOLCI\nTiramisù — 5 €\nGelato (tre gusti) — 4 €",
+   "Il coperto costa 2 €. Le bevande sono escluse. Il servizio è compreso.",
+   "Allergie? Parlate con il cameriere: vi consiglierà il piatto giusto.",
+   "Il cameriere: «Buonasera! Avete già scelto?»\nCliente: «Sì. Per me le lasagne e poi il pollo con le patate. Per la mia amica il risotto ai funghi.»\nIl cameriere: «Benissimo. E da bere?»\nCliente: «Una bottiglia d'acqua naturale, per favore.»"
+  ],
+  "es": [
+   "RESTAURANTE DA GINO — MENÚ DEL DÍA",
+   "ENTRADAS\nBruschetta con tomate — 5 €\nJamón y melón — 8 €",
+   "PRIMEROS PLATOS\nEspaguetis a la carbonara — 10 €\nLasaña al horno — 11 €\nRisotto de hongos (vegetariano) — 11 €",
+   "SEGUNDOS PLATOS\nPollo asado con papas — 14 €\nPescado del día con verduras — 16 €",
+   "POSTRES\nTiramisú — 5 €\nHelado (tres sabores) — 4 €",
+   "El cubierto cuesta 2 €. Las bebidas no están incluidas. El servicio está incluido.",
+   "¿Alergias? Hablen con el camarero: les recomendará el plato adecuado.",
+   "El camarero: «¡Buenas noches! ¿Ya eligieron?»\nCliente: «Sí. Para mí las lasañas y después el pollo con papas. Para mi amiga el risotto de hongos.»\nEl camarero: «Muy bien. ¿Y para beber?»\nCliente: «Una botella de agua sin gas, por favor.»"
+  ],
+  "claves": [
+   {
+    "it": "il primo",
+    "es": "el primer plato"
+   },
+   {
+    "it": "il secondo",
+    "es": "el segundo plato"
+   },
+   {
+    "it": "il dolce",
+    "es": "el postre"
+   },
+   {
+    "it": "il coperto",
+    "es": "el cubierto"
+   },
+   {
+    "it": "compreso",
+    "es": "incluido"
+   },
+   {
+    "it": "il gusto",
+    "es": "el sabor"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué plato es vegetariano?",
+    "options": [
+     "le lasagne",
+     "il risotto ai funghi",
+     "gli spaghetti"
+    ],
+    "answer": 1,
+    "why": "«Risotto ai funghi (vegetariano)»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuánto cuesta el pescado del día?",
+    "options": [
+     "14 €",
+     "11 €",
+     "16 €"
+    ],
+    "answer": 2,
+    "why": "«Pesce del giorno con verdure — 16 €»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué NO está incluido en el precio?",
+    "options": [
+     "il servizio",
+     "le bevande",
+     "il pane"
+    ],
+    "answer": 1,
+    "why": "«Le bevande sono escluse»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuántos sabores tiene el helado?",
+    "accepted": [
+     "tre",
+     "3"
+    ],
+    "why": "«Gelato (tre gusti)»."
+   }
+  ],
+  "palabras": 100
+ },
+ "u13": {
+  "tipo": "mail de devolución",
+  "titulo": "Una e-mail per restituire un prodotto",
+  "it": [
+   "Oggetto: Richiesta di restituzione ordine n. 4521",
+   "Gentile servizio clienti,",
+   "vi scrivo perché ho ricevuto la mia ordinazione ieri, ma purtroppo il prodotto non va bene. Avevo ordinato un paio di scarpe nere, numero 39, ma nel pacco ho trovato un paio di scarpe marroni, numero 41.",
+   "Ho controllato il mio ordine e ho visto che avevo indicato il colore e il numero giusti. Credo che ci sia stato un errore nella spedizione.",
+   "Vorrei restituire le scarpe e ricevere quelle giuste, oppure avere un rimborso. Allego una foto del pacco e della ricevuta. Aspetto una vostra risposta entro qualche giorno.",
+   "Cordiali saluti,\nElena Conti"
+  ],
+  "es": [
+   "Asunto: Solicitud de devolución del pedido n.º 4521",
+   "Estimado servicio al cliente:",
+   "Les escribo porque recibí mi pedido ayer, pero lamentablemente el producto no está bien. Había pedido un par de zapatos negros, número 39, pero en el paquete encontré un par de zapatos café, número 41.",
+   "Revisé mi pedido y vi que había indicado el color y el número correctos. Creo que hubo un error en el envío.",
+   "Quisiera devolver los zapatos y recibir los correctos, o bien un reembolso. Adjunto una foto del paquete y del recibo. Espero su respuesta en unos días.",
+   "Cordiales saludos,\nElena Conti"
+  ],
+  "claves": [
+   {
+    "it": "restituire",
+    "es": "devolver"
+   },
+   {
+    "it": "l'ordinazione",
+    "es": "el pedido"
+   },
+   {
+    "it": "la spedizione",
+    "es": "el envío"
+   },
+   {
+    "it": "il rimborso",
+    "es": "el reembolso"
+   },
+   {
+    "it": "allegare",
+    "es": "adjuntar"
+   },
+   {
+    "it": "la ricevuta",
+    "es": "el recibo"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué había pedido Elena?",
+    "options": [
+     "scarpe nere, numero 39",
+     "scarpe marroni, numero 41",
+     "una borsa nera"
+    ],
+    "answer": 0,
+    "why": "«un paio di scarpe nere, numero 39»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué recibió en realidad?",
+    "options": [
+     "scarpe nere",
+     "un altro prodotto",
+     "scarpe marroni, numero 41"
+    ],
+    "answer": 2,
+    "why": "«scarpe marroni, numero 41»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué cree Elena que pasó?",
+    "options": [
+     "un errore nella spedizione",
+     "che il prodotto è vecchio",
+     "che ha sbagliato lei"
+    ],
+    "answer": 0,
+    "why": "«un errore nella spedizione»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué adjunta al mail?",
+    "accepted": [
+     "una foto del pacco e della ricevuta",
+     "una foto e la ricevuta"
+    ],
+    "why": "«Allego una foto del pacco e della ricevuta»."
+   }
+  ],
+  "palabras": 101
+ },
+ "u14#A": {
+  "tipo": "receta",
+  "titulo": "Spaghetti al pomodoro",
+  "it": [
+   "SPAGHETTI AL POMODORO (per quattro persone)",
+   "Ingredienti: 400 grammi di spaghetti, 500 grammi di pomodori maturi, due spicchi d'aglio, olio, sale, basilico.",
+   "Prima di tutto metti l'acqua in una pentola grande e portala a ebollizione. Intanto taglia i pomodori a pezzetti e schiaccia l'aglio.",
+   "In una padella scalda un po' d'olio, aggiungi l'aglio e i pomodori e cuoci per quindici minuti a fuoco basso. Aggiungi un po' di sale.",
+   "Quando l'acqua bolle, butta la pasta e cuocila per dieci minuti. Poi scola gli spaghetti e mettili nella padella con il sugo. Mescola bene e aggiungi qualche foglia di basilico. Servi subito! Buon appetito!"
+  ],
+  "es": [
+   "ESPAGUETIS AL TOMATE (para cuatro personas)",
+   "Ingredientes: 400 gramos de espaguetis, 500 gramos de tomates maduros, dos dientes de ajo, aceite, sal, albahaca.",
+   "Primero pon el agua en una olla grande y llévala a hervir. Mientras tanto corta los tomates en trocitos y aplasta el ajo.",
+   "En una sartén calienta un poco de aceite, agrega el ajo y los tomates y cocina quince minutos a fuego bajo. Agrega un poco de sal.",
+   "Cuando el agua hierva, echa la pasta y cuécela diez minutos. Luego escurre los espaguetis y ponlos en la sartén con la salsa. Mezcla bien y agrega unas hojas de albahaca. ¡Sirve enseguida! ¡Buen provecho!"
+  ],
+  "claves": [
+   {
+    "it": "la pentola",
+    "es": "la olla"
+   },
+   {
+    "it": "tagliare",
+    "es": "cortar"
+   },
+   {
+    "it": "la padella",
+    "es": "la sartén"
+   },
+   {
+    "it": "scolare",
+    "es": "escurrir"
+   },
+   {
+    "it": "il sugo",
+    "es": "la salsa"
+   },
+   {
+    "it": "mescolare",
+    "es": "mezclar"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Cuántos gramos de tomates se necesitan?",
+    "options": [
+     "quattrocento",
+     "cinquecento",
+     "duecento"
+    ],
+    "answer": 1,
+    "why": "«500 grammi di pomodori maturi»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuánto tiempo se cocinan los tomates?",
+    "options": [
+     "dieci minuti",
+     "cinque minuti",
+     "quindici minuti"
+    ],
+    "answer": 2,
+    "why": "«cuoci per quindici minuti»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué se hace con la pasta cuando está cocida?",
+    "options": [
+     "si scola",
+     "si butta",
+     "si mangia fredda"
+    ],
+    "answer": 0,
+    "why": "«scola gli spaghetti»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué se agrega al final?",
+    "accepted": [
+     "qualche foglia di basilico",
+     "basilico"
+    ],
+    "why": "«aggiungi qualche foglia di basilico»."
+   }
+  ],
+  "palabras": 101
+ },
+ "u14#B": {
+  "tipo": "instrucciones",
+  "titulo": "Come usare la lavatrice",
+  "it": [
+   "Come usare la lavatrice",
+   "1. Separa i vestiti bianchi da quelli colorati. Non lavare mai insieme i vestiti nuovi e quelli chiari.\n2. Controlla le tasche: se trovi monete o carta, toglile.\n3. Apri lo sportello e metti i vestiti dentro. Non riempire troppo la lavatrice.\n4. Metti il detersivo nel cassetto, in alto a sinistra.\n5. Chiudi lo sportello e scegli il programma. Per i vestiti normali usa il programma a quaranta gradi.\n6. Premi il pulsante verde per cominciare.\n7. Quando il programma finisce, aspetta due minuti, poi apri lo sportello e stendi i vestiti.",
+   "Attenzione: non aprire lo sportello durante il lavaggio! Alla fine il bucato è pulito e profumato."
+  ],
+  "es": [
+   "Cómo usar la lavadora",
+   "1. Separa la ropa blanca de la de color. Nunca laves juntas la ropa nueva y la clara.\n2. Revisa los bolsillos: si encuentras monedas o papel, sácalos.\n3. Abre la puerta y pon la ropa adentro. No llenes demasiado la lavadora.\n4. Pon el detergente en el cajón, arriba a la izquierda.\n5. Cierra la puerta y elige el programa. Para la ropa normal usa el programa de cuarenta grados.\n6. Presiona el botón verde para comenzar.\n7. Cuando el programa termine, espera dos minutos, luego abre la puerta y tiende la ropa.",
+   "Atención: ¡no abras la puerta durante el lavado! Al final la ropa queda limpia y perfumada."
+  ],
+  "claves": [
+   {
+    "it": "la lavatrice",
+    "es": "la lavadora"
+   },
+   {
+    "it": "lo sportello",
+    "es": "la puerta"
+   },
+   {
+    "it": "il detersivo",
+    "es": "el detergente"
+   },
+   {
+    "it": "il cassetto",
+    "es": "el cajón"
+   },
+   {
+    "it": "stendere",
+    "es": "tender"
+   },
+   {
+    "it": "il lavaggio",
+    "es": "el lavado"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué hay que separar antes de lavar?",
+    "options": [
+     "i vestiti bianchi da quelli colorati",
+     "i vestiti vecchi da quelli nuovi",
+     "le scarpe dai vestiti"
+    ],
+    "answer": 0,
+    "why": "«Separa i vestiti bianchi da quelli colorati»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Dónde se pone el detergente?",
+    "options": [
+     "nel cassetto",
+     "nelle tasche",
+     "sopra i vestiti"
+    ],
+    "answer": 0,
+    "why": "«nel cassetto, in alto a sinistra»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué botón se presiona para empezar?",
+    "options": [
+     "quello rosso",
+     "quello blu",
+     "quello verde"
+    ],
+    "answer": 2,
+    "why": "«Premi il pulsante verde»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué no hay que hacer durante el lavado?",
+    "accepted": [
+     "aprire lo sportello",
+     "non aprire lo sportello"
+    ],
+    "why": "«non aprire lo sportello durante il lavaggio»."
+   }
+  ],
+  "palabras": 106
+ },
+ "u15#A": {
+  "tipo": "agenda y planes",
+  "titulo": "La mia agenda",
+  "it": [
+   "Questa settimana è molto piena. Lunedì devo andare dal dentista alle quattro e poi ho una riunione di lavoro. Martedì voglio fare la spesa e cucinare qualcosa di buono per la cena.",
+   "Mercoledì sera ho un appuntamento con Marta: andremo a vedere una mostra di fotografia. Giovedì dovrò lavorare fino a tardi, perché abbiamo una consegna importante.",
+   "Venerdì sarò libero. Penso di prendere un treno alle nove per andare dai miei genitori: staremo insieme tutto il fine settimana. Probabilmente faremo una gita sul lago, se il tempo sarà bello.",
+   "Domenica sera tornerò a casa e preparerò le cose per la settimana prossima. Mi piace avere un programma, ma spero di avere anche un po' di tempo per riposare!"
+  ],
+  "es": [
+   "Esta semana está muy llena. El lunes tengo que ir al dentista a las cuatro y después tengo una reunión de trabajo. El martes quiero hacer las compras y cocinar algo rico para la cena.",
+   "El miércoles en la noche tengo una cita con Marta: iremos a ver una exposición de fotografía. El jueves tendré que trabajar hasta tarde, porque tenemos una entrega importante.",
+   "El viernes estaré libre. Pienso tomar un tren a las nueve para ir donde mis padres: estaremos juntos todo el fin de semana. Probablemente haremos un paseo al lago, si el tiempo está bueno.",
+   "El domingo en la noche volveré a casa y prepararé las cosas para la semana próxima. Me gusta tener un programa, pero espero tener también un poco de tiempo para descansar."
+  ],
+  "claves": [
+   {
+    "it": "l'appuntamento",
+    "es": "la cita"
+   },
+   {
+    "it": "la mostra",
+    "es": "la exposición"
+   },
+   {
+    "it": "la consegna",
+    "es": "la entrega"
+   },
+   {
+    "it": "la gita",
+    "es": "el paseo"
+   },
+   {
+    "it": "il programma",
+    "es": "el programa"
+   },
+   {
+    "it": "riposare",
+    "es": "descansar"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué tiene el lunes a las cuatro?",
+    "options": [
+     "una riunione",
+     "un appuntamento con Marta",
+     "il dentista"
+    ],
+    "answer": 2,
+    "why": "«devo andare dal dentista alle quattro»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué hará con Marta el miércoles?",
+    "options": [
+     "vedere una mostra",
+     "cucinare",
+     "prendere un treno"
+    ],
+    "answer": 0,
+    "why": "«andremo a vedere una mostra di fotografia»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Por qué trabajará hasta tarde el jueves?",
+    "options": [
+     "perché ha una consegna importante",
+     "perché è in ritardo",
+     "perché Marta è malata"
+    ],
+    "answer": 0,
+    "why": "«abbiamo una consegna importante»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Adónde irá el fin de semana?",
+    "accepted": [
+     "dai suoi genitori",
+     "dai genitori"
+    ],
+    "why": "«per andare dai miei genitori»."
+   }
+  ],
+  "palabras": 118
+ },
+ "u15#B": {
+  "tipo": "invitación",
+  "titulo": "Un invito a una festa",
+  "it": [
+   "Ciao a tutti!",
+   "Il prossimo sabato 15 novembre faccio una festa per il mio compleanno. Compio trent'anni e voglio festeggiare con le persone più care.",
+   "La festa comincia alle otto di sera a casa mia, in via Dante 12. Se arrivate in metropolitana, scendete alla fermata «Duomo»: da lì sono solo cinque minuti a piedi.",
+   "Cucinerò io: ci sarà un grande buffet con pizza, lasagne e tante cose da mangiare. Se volete, portate qualcosa da bere. Ci sarà anche la musica, e forse balleremo!",
+   "Per favore, confermate entro mercoledì: scrivetemi un messaggio o telefonatemi. Se non potete venire, nessun problema!",
+   "Non vedo l'ora di vedervi. Un abbraccio, Davide"
+  ],
+  "es": [
+   "¡Hola a todos!",
+   "El próximo sábado 15 de noviembre hago una fiesta por mi cumpleaños. Cumplo treinta años y quiero celebrar con las personas más queridas.",
+   "La fiesta empieza a las ocho de la noche en mi casa, en calle Dante 12. Si llegan en metro, bájense en la estación «Duomo»: desde ahí son solo cinco minutos a pie.",
+   "Cocinaré yo: habrá un gran buffet con pizza, lasañas y muchas cosas para comer. Si quieren, traigan algo para beber. También habrá música, ¡y quizás bailaremos!",
+   "Por favor, confirmen antes del miércoles: escríbanme un mensaje o llámenme. Si no pueden venir, ¡no hay problema!",
+   "Tengo muchas ganas de verlos. Un abrazo, Davide"
+  ],
+  "claves": [
+   {
+    "it": "festeggiare",
+    "es": "celebrar"
+   },
+   {
+    "it": "il compleanno",
+    "es": "el cumpleaños"
+   },
+   {
+    "it": "la fermata",
+    "es": "la parada / la estación"
+   },
+   {
+    "it": "scendere",
+    "es": "bajar"
+   },
+   {
+    "it": "confermare",
+    "es": "confirmar"
+   },
+   {
+    "it": "non vedo l'ora",
+    "es": "tengo muchas ganas"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Cuántos años cumple Davide?",
+    "options": [
+     "venticinque",
+     "trenta",
+     "quaranta"
+    ],
+    "answer": 1,
+    "why": "«Compio trent'anni»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Dónde hay que bajarse del metro?",
+    "options": [
+     "alla fermata «Duomo»",
+     "in via Dante",
+     "a casa di Davide"
+    ],
+    "answer": 0,
+    "why": "«scendete alla fermata «Duomo»»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué habrá en la fiesta?",
+    "options": [
+     "solo musica",
+     "un ristorante",
+     "un buffet e musica"
+    ],
+    "answer": 2,
+    "why": "«un grande buffet... Ci sarà anche la musica»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Hasta cuándo hay que confirmar?",
+    "accepted": [
+     "entro mercoledì",
+     "mercoledì"
+    ],
+    "why": "«confermate entro mercoledì»."
+   }
+  ],
+  "palabras": 106
+ },
+ "u16": {
+  "tipo": "prospecto de un remedio",
+  "titulo": "Foglietto illustrativo",
+  "it": [
+   "TACHIFLU — compresse da 500 mg",
+   "A che cosa serve\nQuesto medicinale serve per abbassare la febbre e per il mal di testa e il mal di gola.",
+   "Come si usa\nGli adulti possono prendere una compressa ogni sei ore, con un bicchiere d'acqua. Non prendere più di quattro compresse al giorno. I bambini sotto i dodici anni non devono prenderlo senza parlare con il medico.",
+   "Attenzione\nNon usare questo medicinale se sei allergico al paracetamolo. Se hai problemi al fegato o allo stomaco, chiedi al medico o al farmacista. Se il mal di testa non passa dopo tre giorni, smetti di prenderlo e vai dal dottore.",
+   "Come conservarlo\nTieni la scatola in un posto asciutto, fuori dalla portata dei bambini."
+  ],
+  "es": [
+   "TACHIFLU — comprimidos de 500 mg",
+   "Para qué sirve\nEste medicamento sirve para bajar la fiebre y para el dolor de cabeza y el dolor de garganta.",
+   "Cómo se usa\nLos adultos pueden tomar un comprimido cada seis horas, con un vaso de agua. No tomar más de cuatro comprimidos al día. Los niños menores de doce años no deben tomarlo sin hablar con el médico.",
+   "Atención\nNo uses este medicamento si eres alérgico al paracetamol. Si tienes problemas del hígado o del estómago, consulta al médico o al farmacéutico. Si el dolor de cabeza no se pasa después de tres días, deja de tomarlo y ve al doctor.",
+   "Cómo conservarlo\nGuarda la caja en un lugar seco, fuera del alcance de los niños."
+  ],
+  "claves": [
+   {
+    "it": "la compressa",
+    "es": "el comprimido"
+   },
+   {
+    "it": "la febbre",
+    "es": "la fiebre"
+   },
+   {
+    "it": "il mal di gola",
+    "es": "el dolor de garganta"
+   },
+   {
+    "it": "il medico",
+    "es": "el médico"
+   },
+   {
+    "it": "allergico",
+    "es": "alérgico"
+   },
+   {
+    "it": "il fegato",
+    "es": "el hígado"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Para qué sirve el medicamento?",
+    "options": [
+     "per dormire",
+     "per abbassare la febbre e il mal di testa",
+     "per la tosse"
+    ],
+    "answer": 1,
+    "why": "«per abbassare la febbre e per il mal di testa»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cada cuánto puede tomar un adulto una pastilla?",
+    "options": [
+     "ogni sei ore",
+     "ogni dodici ore",
+     "ogni ora"
+    ],
+    "answer": 0,
+    "why": "«una compressa ogni sei ore»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué hay que hacer si el dolor sigue tras tres días?",
+    "options": [
+     "prendere più compresse",
+     "smettere e andare dal dottore",
+     "aspettare ancora una settimana"
+    ],
+    "answer": 1,
+    "why": "«smetti di prenderlo e vai dal dottore»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuántas pastillas como máximo al día?",
+    "accepted": [
+     "quattro",
+     "4"
+    ],
+    "why": "«Non prendere più di quattro compresse al giorno»."
+   }
+  ],
+  "palabras": 119
+ },
+ "u17": {
+  "tipo": "anuncio de alquiler",
+  "titulo": "Cercasi coinquilino",
+  "it": [
+   "CERCASI COINQUILINO — Milano, zona Navigli",
+   "Affitto una camera in un bellissimo appartamento condiviso con altre due persone. La camera è luminosa, grande e arredata: ha un letto, un armadio, una scrivania e un balcone sul cortile.",
+   "L'appartamento è al terzo piano, c'è l'ascensore e si trova a dieci minuti a piedi dalla metropolitana. La cucina e il bagno sono in comune. C'è la connessione internet veloce.",
+   "Il prezzo è di 480 euro al mese, spese incluse. Chiedo un deposito di due mesi.",
+   "Cerco una persona tranquilla, pulita e responsabile, preferibilmente studente o lavoratore. Se non hai animali domestici, meglio ancora!",
+   "La zona è molto viva: vicino ci sono molti bar, ristoranti e negozi. La domenica c'è un piccolo mercato sul canale. Per chi ama uscire la sera, è il posto ideale.",
+   "Per vedere la camera, scrivi a: casanavigli@example.com"
+  ],
+  "es": [
+   "SE BUSCA COMPAÑERO DE DEPARTAMENTO — Milán, zona Navigli",
+   "Alquilo una habitación en un hermoso departamento compartido con otras dos personas. La habitación es luminosa, grande y amueblada: tiene una cama, un clóset, un escritorio y un balcón al patio.",
+   "El departamento está en el tercer piso, hay ascensor y queda a diez minutos a pie del metro. La cocina y el baño son compartidos. Hay conexión a internet rápida.",
+   "El precio es de 480 euros al mes, gastos incluidos. Pido un depósito de dos meses.",
+   "Busco una persona tranquila, limpia y responsable, de preferencia estudiante o trabajador. Si no tienes mascotas, ¡mejor aún!",
+   "La zona es muy animada: cerca hay muchos bares, restaurantes y tiendas. El domingo hay un pequeño mercado junto al canal. Para quien ama salir en la noche, es el lugar ideal.",
+   "Para ver la habitación, escribe a: casanavigli@example.com"
+  ],
+  "claves": [
+   {
+    "it": "cercasi",
+    "es": "se busca"
+   },
+   {
+    "it": "arredato",
+    "es": "amueblado"
+   },
+   {
+    "it": "l'ascensore",
+    "es": "el ascensor"
+   },
+   {
+    "it": "condiviso",
+    "es": "compartido"
+   },
+   {
+    "it": "il deposito",
+    "es": "el depósito"
+   },
+   {
+    "it": "la scrivania",
+    "es": "el escritorio"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿En qué piso está el departamento?",
+    "options": [
+     "al secondo",
+     "al terzo",
+     "al quarto"
+    ],
+    "answer": 1,
+    "why": "«al terzo piano»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué tiene la habitación?",
+    "options": [
+     "un letto, un armadio, una scrivania e un balcone",
+     "solo un letto",
+     "una cucina privata"
+    ],
+    "answer": 0,
+    "why": "Lista de muebles del anuncio."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué persona busca el anunciante?",
+    "options": [
+     "una persona chiassosa",
+     "una famiglia",
+     "una persona tranquilla e responsabile"
+    ],
+    "answer": 2,
+    "why": "«tranquilla, pulita e responsabile»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuánto cuesta al mes?",
+    "accepted": [
+     "480 euro",
+     "quattrocentottanta euro"
+    ],
+    "why": "«480 euro al mese, spese incluse»."
+   }
+  ],
+  "palabras": 139
+ },
+ "u18": {
+  "tipo": "mail formal e informal",
+  "titulo": "Due e-mail",
+  "it": [
+   "E-mail 1 (formale)\nOggetto: Richiesta di informazioni",
+   "Gentile dottoressa Bianchi,",
+   "mi chiamo Paolo Neri e sono interessato al corso di italiano che offrite in autunno. Potrebbe dirmi quando comincia e quanto costa? Inoltre vorrei sapere se è possibile fare una lezione di prova.",
+   "La ringrazio in anticipo e resto in attesa di una Sua risposta. Se preferisce, può rispondermi anche per telefono.",
+   "Cordiali saluti,\nPaolo Neri",
+   "E-mail 2 (informale)\nOggetto: Sabato sera?",
+   "Ciao Fede!",
+   "Come stai? Io benissimo! Senti, sabato sera sei libero? Vorrei invitarti a cena da me: faccio la pasta! Puoi portare anche Giorgia, se vuole. Dimmi se vieni, così preparo tutto. Se preferisci, possiamo andare anche in pizzeria. Non preoccuparti per il vino: lo porto io.",
+   "Un abbraccio forte,\nPaolo"
+  ],
+  "es": [
+   "Correo 1 (formal)\nAsunto: Solicitud de información",
+   "Estimada doctora Bianchi:",
+   "Me llamo Paolo Neri y estoy interesado en el curso de italiano que ofrecen en otoño. ¿Podría decirme cuándo comienza y cuánto cuesta? Además quisiera saber si es posible tomar una clase de prueba.",
+   "Le agradezco de antemano y quedo a la espera de su respuesta. Si prefiere, puede responderme también por teléfono.",
+   "Cordiales saludos,\nPaolo Neri",
+   "Correo 2 (informal)\nAsunto: ¿Sábado en la noche?",
+   "¡Hola Fede!",
+   "¿Cómo estás? ¡Yo muy bien! Oye, ¿el sábado en la noche estás libre? Quisiera invitarte a cenar a mi casa: ¡hago pasta! Puedes traer también a Giorgia, si quiere. Dime si vienes, así preparo todo. Si prefieres, podemos ir también a una pizzería. No te preocupes por el vino: lo llevo yo.",
+   "Un abrazo fuerte,\nPaolo"
+  ],
+  "claves": [
+   {
+    "it": "gentile",
+    "es": "estimado"
+   },
+   {
+    "it": "la ringrazio",
+    "es": "le agradezco"
+   },
+   {
+    "it": "in anticipo",
+    "es": "de antemano"
+   },
+   {
+    "it": "senti",
+    "es": "oye"
+   },
+   {
+    "it": "la lezione di prova",
+    "es": "la clase de prueba"
+   },
+   {
+    "it": "cordiali saluti",
+    "es": "cordiales saludos"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué quiere saber Paolo en el primer correo?",
+    "options": [
+     "quando comincia il corso e quanto costa",
+     "dove abita la dottoressa",
+     "se c'è una festa"
+    ],
+    "answer": 0,
+    "why": "«quando comincia e quanto costa»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cómo saluda en el correo formal?",
+    "options": [
+     "Ciao Fede!",
+     "Gentile dottoressa Bianchi",
+     "Un abbraccio"
+    ],
+    "answer": 1,
+    "why": "«Gentile dottoressa Bianchi»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué propone en el correo informal?",
+    "options": [
+     "andare al cinema",
+     "fare una lezione",
+     "una cena a casa sua"
+    ],
+    "answer": 2,
+    "why": "«invitarti a cena da me»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué cocinará Paolo?",
+    "accepted": [
+     "la pasta",
+     "pasta"
+    ],
+    "why": "«faccio la pasta»."
+   }
+  ],
+  "palabras": 123
+ },
+ "u19": {
+  "tipo": "reglas de un lugar",
+  "titulo": "Regole della residenza universitaria",
+  "it": [
+   "REGOLE DELLA RESIDENZA UNIVERSITARIA",
+   "Per vivere bene insieme, tutti devono rispettare queste regole.",
+   "1. Dopo le 23.00 bisogna fare silenzio nei corridoi e nelle camere. Non si può ascoltare la musica ad alto volume.\n2. La cucina comune deve essere sempre pulita. Se usi un piatto, lavalo subito. Non lasciare mai la spazzatura fuori dal cestino.\n3. Non è permesso fumare dentro l'edificio, nemmeno nelle camere.\n4. Gli ospiti possono rimanere fino alle 22.00. Se qualcuno vuole dormire da te, devi avvisare il portiere.\n5. Se rompi qualcosa, devi dirlo subito alla direzione.\n6. Quando esci per più di un giorno, spegni le luci e chiudi bene la finestra.\n7. Rispetta i vicini: sono come una famiglia.",
+   "Chi non rispetta le regole può ricevere un avvertimento. Grazie per la collaborazione!"
+  ],
+  "es": [
+   "REGLAS DE LA RESIDENCIA UNIVERSITARIA",
+   "Para vivir bien juntos, todos deben respetar estas reglas.",
+   "1. Después de las 23.00 hay que guardar silencio en los pasillos y en las habitaciones. No se puede escuchar música a alto volumen.\n2. La cocina común debe estar siempre limpia. Si usas un plato, lávalo enseguida. Nunca dejes la basura fuera del basurero.\n3. No está permitido fumar dentro del edificio, ni siquiera en las habitaciones.\n4. Las visitas pueden quedarse hasta las 22.00. Si alguien quiere dormir contigo, debes avisar al conserje.\n5. Si rompes algo, debes decirlo enseguida a la dirección.\n6. Cuando salgas por más de un día, apaga las luces y cierra bien la ventana.\n7. Respeta a los vecinos: son como una familia.",
+   "Quien no respete las reglas puede recibir una advertencia. ¡Gracias por la colaboración!"
+  ],
+  "claves": [
+   {
+    "it": "il silenzio",
+    "es": "el silencio"
+   },
+   {
+    "it": "la spazzatura",
+    "es": "la basura"
+   },
+   {
+    "it": "gli ospiti",
+    "es": "las visitas"
+   },
+   {
+    "it": "il portiere",
+    "es": "el conserje"
+   },
+   {
+    "it": "l'avvertimento",
+    "es": "la advertencia"
+   },
+   {
+    "it": "è permesso",
+    "es": "está permitido"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Desde qué hora hay que guardar silencio?",
+    "options": [
+     "dalle 20.00",
+     "dalle 23.00",
+     "dalle 22.00"
+    ],
+    "answer": 1,
+    "why": "«Dopo le 23.00 bisogna fare silenzio»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Hasta qué hora pueden quedarse las visitas?",
+    "options": [
+     "fino alle 22.00",
+     "fino alle 23.00",
+     "fino a mezzanotte"
+    ],
+    "answer": 0,
+    "why": "«Gli ospiti possono rimanere fino alle 22.00»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué hay que hacer si se rompe algo?",
+    "options": [
+     "ripararlo da soli",
+     "dirlo subito alla direzione",
+     "non dire niente"
+    ],
+    "answer": 1,
+    "why": "«dirlo subito alla direzione»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué hay que hacer al salir más de un día?",
+    "accepted": [
+     "spegnere le luci e chiudere la finestra",
+     "spegnere le luci"
+    ],
+    "why": "«spegni le luci e chiudi bene la finestra»."
+   }
+  ],
+  "palabras": 121
+ },
+ "u20": {
+  "tipo": "conversación transcrita",
+  "titulo": "Una telefonata dal medico",
+  "it": [
+   "— Studio medico Ferri, buongiorno.\n— Buongiorno. Vorrei prenotare una visita, se possibile.\n— Certo. Ha già un medico di famiglia da noi?\n— Sì, il dottor Ferri. Sono la signora Costa.\n— Mi dica, signora. Qual è il problema?\n— Da una settimana ho un forte mal di schiena e, se resto seduta a lungo, il dolore peggiora. Ho già preso delle medicine, ma non mi sento meglio.\n— Capisco. Il dottore può riceverla giovedì pomeriggio, alle quindici e trenta. Va bene?\n— Giovedì non posso: lavoro fino alle sei. Avete un posto venerdì mattina?\n— Un attimo, controllo… Sì, venerdì alle nove e quindici.\n— Perfetto, la ringrazio. Devo portare qualcosa?\n— Porti la tessera sanitaria e, se li ha, gli esami precedenti.\n— Va bene. Grazie e arrivederci.\n— Arrivederci, signora Costa."
+  ],
+  "es": [
+   "— Consulta médica Ferri, buenos días.\n— Buenos días. Quisiera pedir una hora, si es posible.\n— Claro. ¿Ya tiene un médico de cabecera con nosotros?\n— Sí, el doctor Ferri. Soy la señora Costa.\n— Dígame, señora. ¿Cuál es el problema?\n— Desde hace una semana tengo un fuerte dolor de espalda y, si me quedo sentada mucho rato, el dolor empeora. Ya tomé unos remedios, pero no me siento mejor.\n— Entiendo. El doctor puede atenderla el jueves en la tarde, a las quince treinta. ¿Le parece bien?\n— El jueves no puedo: trabajo hasta las seis. ¿Tienen un cupo el viernes en la mañana?\n— Un momento, reviso… Sí, el viernes a las nueve y quince.\n— Perfecto, se lo agradezco. ¿Debo llevar algo?\n— Lleve la tarjeta de salud y, si los tiene, los exámenes anteriores.\n— Está bien. Gracias y hasta luego.\n— Hasta luego, señora Costa."
+  ],
+  "claves": [
+   {
+    "it": "prenotare",
+    "es": "reservar / pedir hora"
+   },
+   {
+    "it": "il medico di famiglia",
+    "es": "el médico de cabecera"
+   },
+   {
+    "it": "il mal di schiena",
+    "es": "el dolor de espalda"
+   },
+   {
+    "it": "peggiorare",
+    "es": "empeorar"
+   },
+   {
+    "it": "la tessera sanitaria",
+    "es": "la tarjeta de salud"
+   },
+   {
+    "it": "gli esami",
+    "es": "los exámenes"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué problema tiene la señora Costa?",
+    "options": [
+     "mal di testa",
+     "mal di schiena",
+     "mal di gola"
+    ],
+    "answer": 1,
+    "why": "«un forte mal di schiena»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Por qué no puede ir el jueves?",
+    "options": [
+     "lavora fino alle sei",
+     "è in vacanza",
+     "il dottore non c'è"
+    ],
+    "answer": 0,
+    "why": "«Giovedì non posso: lavoro fino alle sei»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuándo es su cita?",
+    "options": [
+     "giovedì alle 15.30",
+     "venerdì alle 9.15",
+     "venerdì alle 15.30"
+    ],
+    "answer": 1,
+    "why": "«venerdì alle nove e quindici»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué debe llevar?",
+    "accepted": [
+     "la tessera sanitaria",
+     "la tessera sanitaria e gli esami"
+    ],
+    "why": "«Porti la tessera sanitaria»."
+   }
+  ],
+  "palabras": 122
+ },
+ "u24": {
+  "tipo": "relato largo",
+  "titulo": "Il mio primo anno in Italia",
+  "it": [
+   "Quando sono arrivato in Italia, un anno fa, non conoscevo quasi nessuno e parlavo pochissimo la lingua. Avevo studiato un po' a casa, ma capire la gente era molto difficile: parlavano veloce e usavano parole che non conoscevo.",
+   "I primi mesi sono stati duri. Mi sentivo stanco e spesso triste. Però ogni giorno cercavo di parlare con qualcuno: con la signora del bar, con il vicino, con i colleghi. Sbagliavo molto, ma loro erano pazienti e mi correggevano con un sorriso.",
+   "Dopo sei mesi ho trovato un lavoro in una libreria. Lì ho conosciuto Elena, che è diventata una grande amica. Mi ha aiutato a capire le abitudini italiane e mi ha invitato a cena dalla sua famiglia.",
+   "Oggi vivo in un appartamento con due amici, lavoro e studio la sera. Parlo ancora con errori, ma riesco a spiegare quello che penso. Se guardo indietro, sono molto orgoglioso di me. L'anno prossimo voglio viaggiare in tutta l'Italia: so che sarà un'altra bella avventura!"
+  ],
+  "es": [
+   "Cuando llegué a Italia, hace un año, no conocía casi a nadie y hablaba poquísimo el idioma. Había estudiado un poco en casa, pero entender a la gente era muy difícil: hablaban rápido y usaban palabras que no conocía.",
+   "Los primeros meses fueron duros. Me sentía cansado y a menudo triste. Pero cada día trataba de hablar con alguien: con la señora del bar, con el vecino, con los colegas. Me equivocaba mucho, pero ellos eran pacientes y me corregían con una sonrisa.",
+   "Después de seis meses encontré trabajo en una librería. Ahí conocí a Elena, que se convirtió en una gran amiga. Me ayudó a entender las costumbres italianas y me invitó a cenar con su familia.",
+   "Hoy vivo en un departamento con dos amigos, trabajo y estudio en la noche. Todavía hablo con errores, pero logro explicar lo que pienso. Si miro hacia atrás, estoy muy orgulloso de mí. El próximo año quiero viajar por toda Italia: ¡sé que será otra linda aventura!"
+  ],
+  "claves": [
+   {
+    "it": "duri",
+    "es": "duros"
+   },
+   {
+    "it": "sbagliare",
+    "es": "equivocarse"
+   },
+   {
+    "it": "correggere",
+    "es": "corregir"
+   },
+   {
+    "it": "l'abitudine",
+    "es": "la costumbre"
+   },
+   {
+    "it": "riesco a",
+    "es": "logro"
+   },
+   {
+    "it": "orgoglioso",
+    "es": "orgulloso"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué era lo más difícil al llegar?",
+    "options": [
+     "trovare casa",
+     "capire la gente",
+     "trovare lavoro"
+    ],
+    "answer": 1,
+    "why": "«capire la gente era molto difficile»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cómo reaccionaba la gente cuando se equivocaba?",
+    "options": [
+     "si arrabbiava",
+     "rideva di lui",
+     "lo correggeva con un sorriso"
+    ],
+    "answer": 2,
+    "why": "«mi correggevano con un sorriso»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Dónde encontró trabajo?",
+    "options": [
+     "in una libreria",
+     "in un bar",
+     "in un ufficio"
+    ],
+    "answer": 0,
+    "why": "«un lavoro in una libreria»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué quiere hacer el próximo año?",
+    "accepted": [
+     "viaggiare in tutta l'Italia",
+     "viaggiare per l'Italia"
+    ],
+    "why": "«voglio viaggiare in tutta l'Italia»."
+   }
+  ],
+  "palabras": 163
+ },
+ "u21": {
+  "tipo": "mensaje",
+  "titulo": "Un messaggio a un'amica",
+  "it": [
+   "Ciao Chiara! Scusa se non ti ho scritto prima: sono stata molto occupata. Ti racconto le novità!",
+   "La settimana scorsa ho cambiato lavoro. Prima lavoravo in un negozio, ma gli orari erano troppo lunghi e tornavo sempre a casa stanchissima. Adesso lavoro in un ufficio: guadagno un po' di più e il sabato sono libera!",
+   "Ho anche cominciato un corso di pittura. Non sono brava, ma mi piace molto e ho conosciuto persone simpatiche. Se vuoi, potresti venire con me la prossima volta. Qui il tempo è bellissimo e ogni giorno esco a camminare nel parco.",
+   "E tu? Come stai? Ti sei già abituata alla nuova città? Mi manchi tanto! Se hai tempo, chiamami domenica, così ci raccontiamo tutto con calma.",
+   "Un bacio grande,\nValentina"
+  ],
+  "es": [
+   "¡Hola Chiara! Disculpa por no haberte escrito antes: estuve muy ocupada. ¡Te cuento las novedades!",
+   "La semana pasada cambié de trabajo. Antes trabajaba en una tienda, pero los horarios eran demasiado largos y siempre volvía a casa cansadísima. Ahora trabajo en una oficina: gano un poco más y ¡el sábado estoy libre!",
+   "También empecé un curso de pintura. No soy buena, pero me gusta mucho y conocí a gente simpática. Si quieres, podrías venir conmigo la próxima vez. Aquí el tiempo está hermosísimo y cada día salgo a caminar al parque.",
+   "¿Y tú? ¿Cómo estás? ¿Ya te acostumbraste a la nueva ciudad? ¡Te extraño mucho! Si tienes tiempo, llámame el domingo, así nos contamos todo con calma.",
+   "Un beso grande,\nValentina"
+  ],
+  "claves": [
+   {
+    "it": "occupata",
+    "es": "ocupada"
+   },
+   {
+    "it": "le novità",
+    "es": "las novedades"
+   },
+   {
+    "it": "guadagnare",
+    "es": "ganar"
+   },
+   {
+    "it": "abituarsi",
+    "es": "acostumbrarse"
+   },
+   {
+    "it": "mi manchi",
+    "es": "te extraño"
+   },
+   {
+    "it": "con calma",
+    "es": "con calma"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Por qué cambió de trabajo Valentina?",
+    "options": [
+     "gli orari erano troppo lunghi",
+     "non guadagnava",
+     "non le piaceva il capo"
+    ],
+    "answer": 0,
+    "why": "«gli orari erano troppo lunghi»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué curso empezó?",
+    "options": [
+     "di cucina",
+     "di pittura",
+     "di italiano"
+    ],
+    "answer": 1,
+    "why": "«un corso di pittura»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué le propone a Chiara?",
+    "options": [
+     "andare al corso con lei",
+     "cambiare lavoro",
+     "tornare in città"
+    ],
+    "answer": 0,
+    "why": "«potresti venire con me la prossima volta»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuándo le pide que la llame?",
+    "accepted": [
+     "domenica",
+     "la domenica"
+    ],
+    "why": "«chiamami domenica»."
+   }
+  ],
+  "palabras": 125
+ },
+ "u22": {
+  "tipo": "columna de opinión corta",
+  "titulo": "Meno telefono, più vita",
+  "it": [
+   "Ieri, in treno, ho contato quante persone guardavano il telefono: quasi tutte. Nessuno parlava, nessuno guardava fuori dal finestrino. Mi sono chiesto: quando abbiamo smesso di guardarci negli occhi?",
+   "Non dico che il telefono sia un nemico. Mi permette di lavorare, di chiamare mia madre che vive lontano, di trovare una strada. Il problema è l'abitudine: lo prendiamo in mano cento volte al giorno, anche quando non serve.",
+   "Secondo me, dovremmo darci delle regole semplici. Per esempio, niente telefono a tavola. Niente telefono nelle prime ore del mattino. E una passeggiata al giorno senza di lui.",
+   "Alcuni pensano che io sia troppo severo, e forse hanno ragione. Ma ho provato per una settimana e ho notato che dormo meglio, parlo di più con le persone e mi sento meno nervoso. Perché non provare anche voi?"
+  ],
+  "es": [
+   "Ayer, en el tren, conté cuántas personas miraban el teléfono: casi todas. Nadie hablaba, nadie miraba por la ventanilla. Me pregunté: ¿cuándo dejamos de mirarnos a los ojos?",
+   "No digo que el teléfono sea un enemigo. Me permite trabajar, llamar a mi madre que vive lejos, encontrar una calle. El problema es el hábito: lo tomamos en la mano cien veces al día, incluso cuando no hace falta.",
+   "En mi opinión, deberíamos ponernos reglas simples. Por ejemplo, nada de teléfono en la mesa. Nada de teléfono en las primeras horas de la mañana. Y un paseo al día sin él.",
+   "Algunos piensan que soy demasiado severo, y quizás tengan razón. Pero lo probé durante una semana y noté que duermo mejor, hablo más con las personas y me siento menos nervioso. ¿Por qué no lo prueban ustedes también?"
+  ],
+  "claves": [
+   {
+    "it": "il finestrino",
+    "es": "la ventanilla"
+   },
+   {
+    "it": "il nemico",
+    "es": "el enemigo"
+   },
+   {
+    "it": "l'abitudine",
+    "es": "el hábito"
+   },
+   {
+    "it": "secondo me",
+    "es": "en mi opinión"
+   },
+   {
+    "it": "severo",
+    "es": "severo"
+   },
+   {
+    "it": "hanno ragione",
+    "es": "tienen razón"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué observó el autor en el tren?",
+    "options": [
+     "quasi tutti guardavano il telefono",
+     "tutti parlavano",
+     "nessuno viaggiava"
+    ],
+    "answer": 0,
+    "why": "«quasi tutte»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuál es el problema según el autor?",
+    "options": [
+     "il telefono è inutile",
+     "l'abitudine di usarlo troppo",
+     "il prezzo"
+    ],
+    "answer": 1,
+    "why": "«Il problema è l'abitudine»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué cambió en el autor tras una semana?",
+    "options": [
+     "dorme meglio e si sente meno nervoso",
+     "lavora di più",
+     "ha comprato un nuovo telefono"
+    ],
+    "answer": 0,
+    "why": "«dormo meglio... mi sento meno nervoso»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué regla propone para la mesa?",
+    "accepted": [
+     "niente telefono a tavola",
+     "niente telefono"
+    ],
+    "why": "«niente telefono a tavola»."
+   }
+  ],
+  "palabras": 135
+ },
+ "u23": {
+  "tipo": "carta de consejo",
+  "titulo": "Una lettera di consigli",
+  "it": [
+   "Cara Sofia,",
+   "ho letto la tua lettera con attenzione e capisco che questo momento è difficile. Dici che non sai se accettare il lavoro a Torino o restare qui con la tua famiglia. Provo a darti qualche consiglio, anche se la decisione, alla fine, è solo tua.",
+   "Se fossi in te, prima di tutto scriverei su un foglio i vantaggi e gli svantaggi di ogni scelta. Poi chiederei più informazioni sul lavoro: lo stipendio, gli orari, le possibilità di crescere. Se l'azienda è seria, risponderà volentieri.",
+   "Parla anche con le persone che ami. Non devi fare quello che vogliono loro, ma ascoltare la loro opinione può aiutarti a vedere cose che non vedi.",
+   "Infine, ricorda che nessuna scelta è per sempre. Se andrai a Torino e non sarai felice, potrai sempre tornare. Se resterai, ci saranno altre occasioni. Qualunque cosa scelga, io sarò con te.",
+   "Un abbraccio forte,\nMarta"
+  ],
+  "es": [
+   "Querida Sofía:",
+   "leí tu carta con atención y entiendo que este momento es difícil. Dices que no sabes si aceptar el trabajo en Turín o quedarte aquí con tu familia. Intento darte algunos consejos, aunque la decisión, al final, es solo tuya.",
+   "Si yo fuera tú, antes que nada escribiría en una hoja las ventajas y desventajas de cada opción. Luego pediría más información sobre el trabajo: el sueldo, los horarios, las posibilidades de crecer. Si la empresa es seria, responderá con gusto.",
+   "Habla también con las personas que amas. No tienes que hacer lo que ellas quieran, pero escuchar su opinión puede ayudarte a ver cosas que no ves.",
+   "Por último, recuerda que ninguna decisión es para siempre. Si vas a Turín y no eres feliz, siempre podrás volver. Si te quedas, habrá otras oportunidades. Elijas lo que elijas, yo estaré contigo.",
+   "Un abrazo fuerte,\nMarta"
+  ],
+  "claves": [
+   {
+    "it": "il consiglio",
+    "es": "el consejo"
+   },
+   {
+    "it": "lo stipendio",
+    "es": "el sueldo"
+   },
+   {
+    "it": "il vantaggio",
+    "es": "la ventaja"
+   },
+   {
+    "it": "accettare",
+    "es": "aceptar"
+   },
+   {
+    "it": "se fossi in te",
+    "es": "si yo fuera tú"
+   },
+   {
+    "it": "l'occasione",
+    "es": "la oportunidad"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué duda tiene Sofía?",
+    "options": [
+     "se cambiare casa",
+     "se accettare il lavoro a Torino o restare",
+     "se studiare"
+    ],
+    "answer": 1,
+    "why": "«accettare il lavoro a Torino o restare qui»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué consejo da Marta primero?",
+    "options": [
+     "scrivere vantaggi e svantaggi",
+     "partire subito",
+     "dimenticare il problema"
+    ],
+    "answer": 0,
+    "why": "«scriverei su un foglio i vantaggi e gli svantaggi»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué dice Marta de las decisiones?",
+    "options": [
+     "sono sempre difficili",
+     "nessuna scelta è per sempre",
+     "bisogna scegliere subito"
+    ],
+    "answer": 1,
+    "why": "«nessuna scelta è per sempre»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué promete Marta al final?",
+    "accepted": [
+     "di essere con lei",
+     "sarò con te"
+    ],
+    "why": "«io sarò con te»."
+   }
+  ],
+  "palabras": 149
  }
 }
