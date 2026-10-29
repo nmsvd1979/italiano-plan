@@ -33,7 +33,9 @@ export function blockRoute(step: CourseStep, day: CycleDay, block: Block): { to:
     case "reading": return { to: href(`/lectura/${unit}${q()}`), label: "Leer el texto" };
     case "readq": return { to: href(`/lectura/${unit}${q({ mode: "preguntas" })}`), label: "Responder preguntas" };
     case "dictation": return { to: href(`/dictado/${unit}${q()}`), label: "Empezar dictado" };
-    case "shadowing": return { to: href(`/shadowing/${unit}${q()}`), label: "Abrir estudio" };
+    // Shadowing propio (sin conexión) con los diálogos y textos de la app. El de YouTube es un extra del día 7 (input libre).
+    case "shadowing": return { to: href(`/shadowing-propio/${unit}${q()}`), label: "Empezar shadowing" };
+    case "input": return { to: href(`/shadowing/${unit}${q()}`), label: "Shadowing con video (extra)" };
     case "writing": return { to: href(`/escritura/${unit}${q()}`), label: "Escribir" };
     case "cando": return { to: href(`/unidad/${unit}`), label: "Ver «Puedo…»" };
     case "review": return { to: href(`/repaso${q()}`), label: "Repasar" };
