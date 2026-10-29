@@ -66,8 +66,8 @@ describe("daysOf: la estructura de 04 §D1", () => {
   it("los bloques sin herramienta ni contenido quedan «en preparación» y no tienen ruta", () => {
     const unit = getUnit("u04")!;
     const soon = daysOf(step("u04")).flatMap((d) => d.blocks.filter((b) => isSoon(b, unit)));
-    expect(soon.map((b) => b.id)).toEqual(expect.arrayContaining(["own", "shorttext", "speed", "text", "questions", "retell"]));
-    expect(blockRoute(step("u04"), daysOf(step("u04"))[4], soon.find((b) => b.id === "text")!)).toBeUndefined();
+    expect(soon.map((b) => b.id)).toEqual(expect.arrayContaining(["own", "shorttext", "speed", "retell"]));
+    expect(blockRoute(step("u04"), daysOf(step("u04"))[2], soon.find((b) => b.id === "shorttext")!)).toBeUndefined();
   });
 });
 
@@ -103,7 +103,7 @@ describe("partes A y B", () => {
 describe("el día y la semana", () => {
   it("un día se completa con sus bloques core; los recomendados y los «en preparación» no lo bloquean", () => {
     const s = step("u04");
-    const day5 = daysOf(s)[4]; // el texto graduado (core) aún no existe
+    const day5 = daysOf(s)[4];
     expect(dayComplete(s, day5, progress())).toBe(false);
     expect(dayComplete(s, day5, progress(doCore("u04", 5)))).toBe(true);
   });
@@ -171,8 +171,8 @@ describe("mensaje de fin de día", () => {
     const keys = doCore("u04", 5);
     const p = progress(keys);
     const shown = [{ step: step("u04"), day: daysOf(step("u04"))[4] }];
-    // día 5: palabras y shadowing existen; texto y preguntas están en preparación
-    expect(recommendedLeft(shown, p, false)).toBe(2);
+    // día 5: preguntas del texto, palabras y shadowing son recomendados
+    expect(recommendedLeft(shown, p, false)).toBe(3);
   });
 });
 
@@ -292,5 +292,52 @@ describe("migración desde la app anterior (14 §8)", () => {
 
   it("todas las unidades están en el curso y el ciclo de las listas solo usa unidades listas", () => {
     expect(new Set(COURSE.map((s) => s.unit))).toEqual(new Set(UNITS.map((u) => u.id)));
+  });
+});
+
+describe("texto graduado, preguntas y práctica sin pista en el ciclo", () => {
+  const day = (id: string, n: number) => daysOf(step(id))[n - 1];
+  const block = (id: string, n: number, blockId: string) => day(id, n).blocks.find((b) => b.id === blockId)!;
+
+  it("el día 5 tiene el texto (esencial, 9 min) y sus preguntas (recomendadas, 4 min) como bloques reales", () => {
+    for (const s of COURSE) {
+      const unit = getUnit(s.unit)!;
+      const text = block(s.id, 5, "text");
+      const qs = block(s.id, 5, "questions");
+      expect([text.kind, text.core, text.minutes]).toEqual(["reading", true, 9]);
+      expect([qs.kind, qs.core, qs.minutes]).toEqual(["readq", false, 4]);
+      expect(isSoon(text, unit)).toBe(false);
+      expect(isSoon(qs, unit)).toBe(false);
+    }
+  });
+
+  it("el día 3 usa la práctica sin pista con 7 ejercicios; el día 2 sigue con la práctica guiada de gramática", () => {
+    const varied = block("u04", 3, "varied");
+    expect([varied.kind, varied.core, varied.size]).toEqual(["sinpista", true, 7]);
+    expect(block("u04", 2, "guided").kind).toBe("practice");
+    const route = blockRoute(step("u02#A"), day("u02#A", 3), block("u02#A", 3, "varied"))!;
+    expect(route.to).toContain("/variada/u02");
+    expect(route.to).toContain("part=A");
+    expect(route.to).toContain("n=7");
+    expect(route.to).toContain(`k=${encodeURIComponent("u02#A.d3.varied")}`);
+  });
+
+  it("los ids de los bloques no cambian, así que las marcas existentes siguen valiendo", () => {
+    expect(blockKey("u04", 3, "varied")).toBe("u04.d3.varied");
+    expect(blockKey("u04", 5, "text")).toBe("u04.d5.text");
+    expect(blockKey("u04", 5, "questions")).toBe("u04.d5.questions");
+    // marca nueva
+    expect(blockDone(step("u04"), 3, block("u04", 3, "varied"), progress(["u04.d3.varied"], {}, 1))).toBe(true);
+    // la práctica de la app anterior sigue dando por hecha la práctica variada
+    expect(blockDone(step("u04"), 3, block("u04", 3, "varied"), progress(legacyKeys("u04").filter((k) => k.endsWith(".practice"))))).toBe(true);
+  });
+
+  it("completar el texto y sus preguntas cierra el día 5; las preguntas no son necesarias para el modo corto", () => {
+    const s = step("u04");
+    const unit = getUnit("u04")!;
+    const p = progress(["u04.d5.srs", "u04.d5.text"]);
+    expect(dayComplete(s, daysOf(s)[4], p)).toBe(true);
+    expect(visibleBlocks(daysOf(s)[4], unit, true).map((b) => b.id)).toEqual(["srs", "text"]);
+    expect(dayComplete(s, daysOf(s)[4], progress(["u04.d5.srs"]))).toBe(false);
   });
 });

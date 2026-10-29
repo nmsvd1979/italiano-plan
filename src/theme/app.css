@@ -350,3 +350,13 @@ textarea.input.writing { resize: vertical; min-height: 140px; line-height: 1.5; 
 .indicators li::before { content: "○ "; color: var(--text-faint); }
 .indicators li.ok::before { content: "● "; color: var(--good); }
 .indicators b { color: var(--text); }
+
+/* Práctica sin pista: ordenar palabras */
+.order-line { min-height: 52px; padding: 12px 14px; border-radius: var(--radius-md); border: 1.5px dashed var(--border-strong); background: var(--surface-2); font-size: 18px; font-weight: 700; line-height: 1.4; }
+.order-bank { display: flex; flex-wrap: wrap; gap: 8px; }
+.order-bank .chip { min-height: 44px; font-size: 16px; font-weight: 600; }
+.order-bank .chip[disabled] { opacity: 0.35; }
+
+/* Texto graduado */
+.reading-p { font-size: 17px; line-height: 1.6; }
+.key-word { padding: 0 2px; border: 0; border-bottom: 2px solid var(--accent); background: var(--accent-soft); color: inherit; font: inherit; border-radius: 3px; }

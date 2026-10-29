@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { exercisesOf, findExercise, unitNumber } from "../../content/grammar";
@@ -11,6 +11,11 @@ import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice
 import { recordFailure } from "../../domain/srs";
 import { ReviewState, buildSession, recordResult } from "../../domain/review";
 import { getReview, saveReview } from "../../domain/storage";
+import { loadSinPistaContent } from "../../content/lazy";
+import type { SinPista } from "../../content/sinpista";
+import { loadSinPista, pickReview } from "../../domain/sinpistaState";
+import { saveAnswer } from "../sinpista/SinPistaScreen";
+import { SinPistaRunner, type SinPistaSummary } from "../sinpista/SinPistaRunner";
 import { Icon } from "../../ui/Icon";
 import { ExerciseRunner, RunnerItem, Summary } from "./ExerciseRunner";
 
@@ -33,6 +38,20 @@ export function PracticeScreen({ mode, unit = "", part = null, size = SIZE }: Pr
   const meta = getUnit(unit);
   const [review, setReview] = useState<ReviewState>(() => getReview());
   const [summary, setSummary] = useState<Summary | null>(null);
+  // Repaso mixto y repaso dirigido: después de la gramática, ejercicios sin pista que no salieron o que fallaste.
+  const [extra, setExtra] = useState<SinPista[]>([]);
+  const [extraSummary, setExtraSummary] = useState<SinPistaSummary | null>(null);
+
+  useEffect(() => {
+    if (mode === "practice") return;
+    let cancelled = false;
+    void loadSinPistaContent().then((m) => {
+      if (cancelled) return;
+      const all = m.SINPISTA_UNITS.flatMap((u) => m.getSinPista(u));
+      setExtra(pickReview(all, loadSinPista(window.localStorage), mode));
+    });
+    return () => { cancelled = true; };
+  }, [mode]);
 
   const [items] = useState<RunnerItem[]>(() => {
     const learned = learnedUnits(progress);
@@ -90,9 +109,15 @@ export function PracticeScreen({ mode, unit = "", part = null, size = SIZE }: Pr
       </header>
 
       <section className="card">
-        {summary ? (
+        {summary && extra.length > 0 && !extraSummary ? (
+          <div className="stack">
+            <div className="eyebrow">Ahora, sin pista</div>
+            <SinPistaRunner items={extra} onAnswer={saveAnswer} onFinish={setExtraSummary} finishLabel="Ver resultado" />
+          </div>
+        ) : summary ? (
           <div className="stack">
             <div className="score">{summary.correct} de {summary.total}</div>
+            {extraSummary && <p className="sub">Sin pista: {extraSummary.correct} de {extraSummary.total}.</p>}
             <p className="sub">
               {summary.missed.length === 0
                 ? "Sin errores. Muy bien."

@@ -28,7 +28,7 @@ const BLOCK_MINUTES = blockMinutes();
 /** Actividad de la que avisa cada pantalla → tipo de bloque del ciclo que la cumple. */
 const KIND_OF_ACTIVITY: Record<string, BlockKind> = {
   lesson: "lesson", practice: "practice", review: "review", shadow: "shadowing", vocab: "vocab", dialogue: "dialogue",
-  dictation: "dictation", pron: "pron", writing: "writing", srs: "srs",
+  dictation: "dictation", pron: "pron", writing: "writing", srs: "srs", sinpista: "sinpista", reading: "reading", readq: "readq",
 };
 
 interface AppState {

@@ -476,6 +476,9 @@ export function catchupItems(unit: UnitMeta, state: ContinuityState): CatchupIte
       unit: unit.id, blockId: b.id, name: b.name, minutes: Math.min(b.minutes, CATCHUP_MAX_MINUTES), soon,
       done: rec.catchup.done.includes(b.id),
       ...(!soon && b.kind === "dialogue" ? { to: `/dialogo/${unit.id}?c=${unit.id}.${b.id}` } : {}),
+      ...(!soon && (b.kind === "reading" || b.kind === "readq")
+        ? { to: `/lectura/${unit.id}?${step.part ? `part=${step.part}&` : ""}${b.kind === "readq" ? "mode=preguntas&" : ""}c=${unit.id}.${b.id}` }
+        : {}),
     }];
   });
 }
