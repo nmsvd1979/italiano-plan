@@ -5,11 +5,23 @@
 **Qué cambió respecto a la versión anterior.** Ya no hay piloto con u01–u04 ni «puntos de control» que detengan el trabajo. La auditoría de las 24 unidades **está hecha** (`08`, `auditoria/`), el temario está **decidido** (`13`) y la continuidad con tu progreso **está diseñada** (`14`). Se construye todo; los datos de uso sirven para **afinar** (§4), no para autorizar el paso siguiente.
 
 ## 1. Principios de construcción
-1. **La app es usable en cada fusión.** Lo existente sigue funcionando hasta que su reemplazo esté probado (por ejemplo, `sessionsOf()` se retira solo cuando `daysOf()` y la migración tienen pruebas).
+1. **La app no se usa hasta el lanzamiento (decisión del usuario, 29-oct-2026).** Nadie estudia con ella mientras se construye, así que no hay progreso real que proteger, ni orden «para que siga siendo usable», ni activación gradual. Se sigue exigiendo que `main` compile y pase las pruebas en cada fusión; lo que ya no se exige es que cada fusión sea una versión cómoda de estudiar. Ver §1b.
 2. **Nada se estudia «para probar».** Ninguna unidad hace de piloto: el contenido nuevo y el motor se prueban con pruebas automáticas y con tu uso real normal.
 3. **Un tema por pull request**, siempre sin push a `main`. El usuario prueba en el iPhone lo que solo ahí se puede probar y fusiona él.
 4. **El contenido y el código van en carriles separados**: se pueden escribir en paralelo porque se unen por datos (`course.ts`, esquemas de `07`).
 5. **Lo que no se puede verificar desde la nube se dice** (`09`) y no se marca como verificado.
+
+## 1b. Qué cambia al no usarse la app hasta el lanzamiento
+| Antes | Ahora |
+|---|---|
+| Activar u25–u28 (`ready:true`) por etapas para no cambiar la semana de Hoy | Todas las unidades pasan a `ready:true` juntas en el PR de lanzamiento |
+| Copia de seguridad antes de cada prueba y miedo a perder avance | Sin datos que proteger: se puede usar «Borrar progreso» al probar. Única copia que importa: la del lanzamiento |
+| Avance anterior (u01, 17/22) aplicado con botón opcional | Se carga **una sola vez** al lanzamiento, desde la copia que exporte el usuario; después se retira la capa de compatibilidad (`sessionsOf`, mapa `legacy`, botón de siembra) |
+| G3, G4, etc. en lotes pequeños para que el usuario los pruebe | Se escriben completos por carril; el contenido lo validan las pruebas automáticas y la pasada G-R, no el usuario |
+| Una prueba del usuario por PR | Solo se prueba en el iPhone lo que **solo ahí** se puede probar (voz, offline, micrófono, audio) y **una prueba final de aceptación** con todo junto |
+| Piezas de continuidad (H2) para quien ya estudió | H2 queda cerrada con lo fusionado; no se amplía. No habrá más PR de claridad sobre ella |
+
+**Puerta de lanzamiento (todo debe cumplirse):** (1) todos los carriles A–G fusionados; (2) G-R sin errores bloqueantes; (3) audio generado y descarga sin conexión probada de principio a fin; (4) simulación de 60 días del repaso en verde; (5) prueba final de aceptación en el iPhone (instalar de cero, recorrer una semana completa, mini-prueba, repaso, modo corto); (6) PR de lanzamiento: `ready:true` en todas las unidades, carga del avance del usuario y retiro del código de compatibilidad; (7) el usuario exporta una copia y empieza a usarla.
 
 ## 2. Carriles y dependencias
 ```
@@ -111,6 +123,7 @@ Vive en `auditoria/_backlog.md` (ids `H-…`). Cada PR de contenido cierra los i
 | 2026-10-27 (noche) | **G2 hecho:** los ítems de u02, u03, u05, u06, u07, u14 y u15 quedan repartidos entre su semana A y B (`src/content/partes.ts`, con `partes.test.ts`); el repaso SRS y los pasos de prueba se llamaban «Palabras nuevas» pero la actividad se llama «Palabras de la unidad» (texto para Prompt D) | Desbloquea el Prompt D (ciclo de 7 días) | 11, 13, `src/content/` | Claude |
 | 2026-10-28 | **G1 u26 hecha** (personas y familia) con fuentes V1/V2 en `revision-fuentes.md`; el ciclo de 7 días (PR #22) está fusionado; pendientes: voz del iPhone y activar u25–u28 en el flujo | Avance del plan | 11, `revision-fuentes.md`, `src/content/nuevas/` | Claude |
 | 2026-10-28 (noche) | **G1 u27 hecha** (tiempo libre, *sapere/conoscere*, clima e indefinidos) con fuentes en `revision-fuentes.md`; la voz del iPhone quedó resuelta (PR #23) y u26 fusionada (PR #24) | Avance del plan | 11, `revision-fuentes.md`, `src/content/nuevas/` | Claude |
+| 2026-10-29 | **La app no se usa hasta el lanzamiento:** se agrega §1b (puerta de lanzamiento), se retira la activación gradual de unidades y el cuidado del avance, y el repaso se amplía (botón «Practicar más» y base de palabras con frase, G3 completa) | El usuario indicó que solo usará la app cuando todo esté listo | 11 | Usuario (pedido) |
 | 2026-10-28 (noche, 2.ª) | **G1 u28 hecha** (comer fuera): con ella quedan escritas las cuatro unidades nuevas u25–u28; pendiente decidir cuándo pasan a `ready:true` | Cierra el carril G1 | 11, `revision-fuentes.md`, `src/content/nuevas/` | Claude |
 
 ## 9. Esfuerzo relativo (sin fechas inventadas)

@@ -1,0 +1,202 @@
+## u05
+=il treno|Il treno parte alle otto.|El tren sale a las ocho.
+=l'autobus|L'autobus è in ritardo.|El bus está atrasado.
+=la metropolitana|Prendo la metropolitana per andare al lavoro.|Tomo el metro para ir al trabajo.
+=il biglietto|Vorrei un biglietto per Roma.|Quisiera un boleto para Roma.
+=la fermata|La fermata è dopo il semaforo.|La parada está después del semáforo.
+=l'aeroporto|L'aeroporto è fuori città.|El aeropuerto está fuera de la ciudad.
+=il binario|Il treno arriva al binario tre.|El tren llega al andén tres.
+=a destra|Giri a destra.|Doble a la derecha.
+=a sinistra|La banca è a sinistra.|El banco está a la izquierda.
+=dritto|Vada dritto fino alla piazza.|Siga derecho hasta la plaza.
+=l'angolo|La farmacia è all'angolo.|La farmacia está en la esquina.
+=il semaforo|Al semaforo giri a destra.|En el semáforo doble a la derecha.
+=la mappa|Cerco una mappa della città.|Busco un mapa de la ciudad.
+=l'uscita|L'uscita è dietro l'angolo.|La salida está a la vuelta de la esquina.
+=l'entrata|L'entrata è in via Roma.|La entrada está en la calle Roma.
+=partire|Partiamo domani mattina.|Salimos mañana en la mañana.
+=arrivare|Arrivo alle nove.|Llego a las nueve.
+=salire|Saliamo sull'autobus.|Subimos al bus.
+=scendere|Scendo alla prossima fermata.|Me bajo en la próxima parada.
+=il burro|In italiano «burro» vuol dire mantequilla.|En italiano «burro» quiere decir mantequilla.
++frecuente|il centro|el centro|Vado in centro in autobus.|Voy al centro en bus.
++frecuente|la direzione|la dirección|In che direzione devo andare?|¿En qué dirección debo ir?
++frecuente|il ritardo|el atraso|Il treno ha dieci minuti di ritardo.|El tren tiene diez minutos de atraso.
++frecuente|l'arrivo|la llegada|L'arrivo è alle sei.|La llegada es a las seis.
++frecuente|il volo|el vuelo|Il volo parte alle dieci.|El vuelo sale a las diez.
++frecuente|il taxi|el taxi|Prendo un taxi per l'aeroporto.|Tomo un taxi al aeropuerto.
++frecuente|guidare|conducir|Mio padre guida con prudenza.|Mi padre conduce con cuidado.
++frecuente|cercare|buscar|Cerco la stazione.|Busco la estación.
++frecuente|indicare|indicar|Può indicarmi la strada?|¿Puede indicarme el camino?
++frecuente|lungo|largo (de longitud)|Il viaggio è molto lungo.|El viaje es muy largo.
++frecuente|largo|ancho|La strada è larga.|La calle es ancha.
++frecuente|il traffico|el tráfico|C'è molto traffico oggi.|Hay mucho tráfico hoy.
++frecuente|perdersi|perderse|Mi sono perso in centro.|Me perdí en el centro.
++unidad|il tram|el tranvía|Il tram passa ogni dieci minuti.|El tranvía pasa cada diez minutos.
++frecuente|in orario|a la hora / puntual|Il treno è in orario.|El tren está a la hora.
++unidad|a piedi|a pie|Vado a scuola a piedi.|Voy a la escuela a pie.
++unidad|il passaporto|el pasaporte|Ho il passaporto nella borsa.|Tengo el pasaporte en el bolso.
++unidad|la coincidenza|la combinación / el transbordo|Perdo la coincidenza a Milano.|Pierdo la combinación en Milán.
++unidad|la bicicletta|la bicicleta|Vado al lavoro in bicicletta.|Voy al trabajo en bicicleta.
++unidad|parcheggiare|estacionar|Non posso parcheggiare qui.|No puedo estacionar aquí.
++unidad|la patente|la licencia de conducir|Ho la patente da due anni.|Tengo la licencia de conducir hace dos años.
++unidad|la benzina|la gasolina|La macchina ha poca benzina.|El auto tiene poca gasolina.
++unidad|il cartello|el letrero|Leggo il cartello all'ingresso.|Leo el letrero en la entrada.
++unidad|il pedone|el peatón|Il pedone attraversa la strada.|El peatón cruza la calle.
++unidad|andata e ritorno|ida y vuelta|Un biglietto di andata e ritorno, per favore.|Un boleto de ida y vuelta, por favor.
++unidad|il mezzo di trasporto|el medio de transporte|Il treno è il mio mezzo preferito.|El tren es mi medio preferido.
++unidad|il capolinea|el término de la línea|Scendo al capolinea.|Me bajo en el término de la línea.
++unidad|convalidare|validar (el boleto)|Devi convalidare il biglietto.|Tienes que validar el boleto.
++unidad|il turista|el turista|Il turista chiede la strada.|El turista pregunta por el camino.
++unidad|la prossima fermata|la próxima parada|Scendiamo alla prossima fermata.|Nos bajamos en la próxima parada.
+## u06
+=rosso|La macchina rossa è mia.|El auto rojo es mío.
+=giallo|Il sole è giallo.|El sol es amarillo.
+=verde|Mi piace la giacca verde.|Me gusta la chaqueta verde.
+=azzurro|Il cielo è azzurro.|El cielo es celeste.
+=bianco|Porto una camicia bianca.|Llevo una camisa blanca.
+=nero|Ho una borsa nera.|Tengo un bolso negra.
+=grigio|Il cappotto grigio è elegante.|El abrigo gris es elegante.
+=marrone|Le scarpe marroni costano poco.|Los zapatos cafés cuestan poco.
+=la maglietta|Compro una maglietta blu.|Compro una camiseta azul.
+=la camicia|La camicia è troppo stretta.|La camisa es demasiado ajustada.
+=i pantaloni|I pantaloni sono lunghi.|Los pantalones son largos.
+=la gonna|La gonna è corta.|La falda es corta.
+=il vestito|Il vestito è molto bello.|El vestido es muy bonito.
+=la giacca|Che bella giacca!|¡Qué bonita chaqueta!
+=le scarpe|Le scarpe nuove sono comode.|Los zapatos nuevos son cómodos.
+=la borsa|La borsa è sul letto.|La bolso está sobre la cama.
+=il cappello|Il cappello è di mio nonno.|El sombrero es de mi abuelo.
+=la taglia|Che taglia porta?|¿Qué talla usa?
+=il negozio|Il negozio apre alle nove.|La tienda abre a las nueve.
+=il camerino|Posso provare nel camerino?|¿Puedo probarme esto en el probador?
++frecuente|il colore|el color|Che colore preferisci?|¿Qué color prefieres?
++frecuente|grande|grande|Questa borsa è troppo grande.|Esta bolso es demasiado grande.
++frecuente|piccolo|pequeño|Cerco una taglia più piccola.|Busco una talla más pequeña.
++frecuente|nuovo|nuevo|Ho un vestito nuovo.|Tengo un vestido nuevo.
++frecuente|bello|bonito|È una giacca molto bella.|Es una chaqueta muy bonita.
++frecuente|brutto|feo|Il cappello è brutto.|El sombrero es feo.
++frecuente|corto|corto|I capelli di Anna sono corti.|El pelo de Anna es corto.
++frecuente|stretto|ajustado / angosto|Queste scarpe sono strette.|Estos zapatos están apretados.
++frecuente|comodo|cómodo|Il divano è comodo.|El sofá es cómodo.
++frecuente|mio|mío / mi|Questo è il mio cappotto.|Este es mi abrigo.
++frecuente|tuo|tuyo / tu|È tua questa borsa?|¿Es tuya este bolso?
++frecuente|suo|suyo / su|La sua giacca è nera.|Su chaqueta es negra.
++frecuente|nostro|nuestro|Il nostro negozio è in centro.|Nuestra tienda está en el centro.
++frecuente|questo|este|Questo vestito mi piace.|Este vestido me gusta.
++frecuente|quello|aquel / ese|Quella camicia è bella.|Esa camisa es bonita.
++frecuente|blu|azul oscuro|Porto un cappotto blu.|Llevo un abrigo azul.
++frecuente|indossare|vestir / ponerse|Oggi indosso una giacca nera.|Hoy visto una chaqueta negra.
++unidad|rosa|rosado|La maglietta rosa è nuova.|La camiseta rosada es nueva.
++unidad|arancione|naranjo|Mi piace il colore arancione.|Me gusta el color naranjo.
++unidad|viola|morado|Porto una sciarpa viola.|Llevo una bufanda morada.
++unidad|il cappotto|el abrigo|Il cappotto è caldo.|El abrigo es abrigado.
++unidad|il maglione|el suéter|Questo maglione è di lana.|Este suéter es de lana.
++unidad|i jeans|los jeans|I jeans sono troppo larghi.|Los jeans son demasiado anchos.
++unidad|i calzini|los calcetines|Cerco dei calzini bianchi.|Busco calcetines blancos.
++unidad|la sciarpa|la bufanda|La sciarpa è di mia madre.|La bufanda es de mi madre.
++unidad|lo sconto|el descuento|C'è uno sconto del dieci per cento.|Hay un descuento del diez por ciento.
++unidad|il commesso|el vendedor|Il commesso mi aiuta a scegliere.|El vendedor me ayuda a elegir.
++unidad|stare bene|quedar bien|Ti sta bene questo vestito.|Te queda bien este vestido.
++unidad|la cintura|el cinturón / la cintura|Cerco una cintura nera.|Busco un cinturón negro.
++unidad|i saldi|las liquidaciones|A gennaio ci sono i saldi.|En enero hay liquidaciones.
+## u07
+=svegliarsi|Mi sveglio alle sette.|Me despierto a las siete.
+=alzarsi|Mi alzo subito.|Me levanto de inmediato.
+=lavarsi|Mi lavo con l'acqua fredda.|Me lavo con agua fría.
+=vestirsi|Mi vesto in cinque minuti.|Me visto en cinco minutos.
+=pettinarsi|Mi pettino davanti allo specchio.|Me peino frente al espejo.
+=farsi la doccia|Mi faccio la doccia la sera.|Me ducho en la noche.
+=addormentarsi|Mi addormento tardi.|Me duermo tarde.
+=riposarsi|Domenica mi riposo a casa.|El domingo descanso en casa.
+=lavorare|Lavoro in un ufficio.|Trabajo en una oficina.
+=studiare|Studio italiano ogni sera.|Estudio italiano cada noche.
+=tornare|Torno a casa alle sei.|Vuelvo a casa a las seis.
+=cucinare|Mi piace cucinare per gli amici.|Me gusta cocinar para los amigos.
+=presto|Mi alzo presto.|Me levanto temprano.
+=tardi|Oggi è tardi: devo andare.|Hoy es tarde: tengo que irme.
+=di solito|Di solito faccio colazione al bar.|Normalmente desayuno en el bar.
+=prima|Prima mi lavo, poi faccio colazione.|Primero me lavo, después desayuno.
+=poi|Prima studio, poi esco.|Primero estudio, después salgo.
+=dopo|Dopo cena guardo la TV.|Después de la cena veo televisión.
+=stanco|Sono stanco dopo il lavoro.|Estoy cansado después del trabajo.
+=subito|Vengo subito!|¡Voy de inmediato!
++frecuente|dormire|dormir|Dormo sette ore ogni notte.|Duermo siete horas cada noche.
++frecuente|preparare|preparar|Preparo la colazione per tutti.|Preparo el desayuno para todos.
++frecuente|pulire|limpiar|Pulisco la casa il sabato.|Limpio la casa los sábados.
++unidad|lavare|lavar|Lavo i piatti dopo cena.|Lavo los platos después de la cena.
++frecuente|mettersi|ponerse|Mi metto le scarpe e esco.|Me pongo los zapatos y salgo.
++unidad|sedersi|sentarse|Mi siedo sul divano.|Me siento en el sofá.
++frecuente|sentirsi|sentirse|Mi sento molto bene oggi.|Me siento muy bien hoy.
++frecuente|chiamarsi|llamarse|Come ti chiami?|¿Cómo te llamas?
++frecuente|il sonno|el sueño|Ho molto sonno.|Tengo mucho sueño.
++frecuente|la pausa|la pausa / el descanso|Faccio una pausa di dieci minuti.|Hago una pausa de diez minutos.
++frecuente|l'ufficio|la oficina|L'ufficio è in centro.|La oficina está en el centro.
++frecuente|la lezione|la clase|La lezione comincia alle nove.|La clase empieza a las nueve.
++frecuente|la giornata|el día (su duración)|È stata una bella giornata.|Fue un bonito día.
++frecuente|il fine settimana|el fin de semana|Nel fine settimana resto a casa.|El fin de semana me quedo en casa.
++frecuente|la spesa|las compras (de comida)|Faccio la spesa il sabato.|Hago las compras el sábado.
++unidad|togliersi|sacarse|Mi tolgo il cappotto.|Me saco el abrigo.
++unidad|divertirsi|divertirse|Ci divertiamo molto in vacanza.|Nos divertimos mucho en las vacaciones.
++unidad|annoiarsi|aburrirse|Non mi annoio mai con loro.|Nunca me aburro con ellos.
++unidad|la sveglia|el despertador|La sveglia suona alle sei.|El despertador suena a las seis.
++unidad|la routine|la rutina|La mia routine è semplice.|Mi rutina es simple.
++unidad|cenare|cenar|Ceniamo alle otto.|Cenamos a las ocho.
++unidad|fare la spesa|hacer las compras|Faccio la spesa al supermercato.|Hago las compras en el supermercado.
++unidad|lavarsi i denti|lavarse los dientes|Mi lavo i denti dopo cena.|Me lavo los dientes después de la cena.
++unidad|radersi|afeitarse|Mi rado ogni mattina.|Me afeito cada mañana.
++unidad|truccarsi|maquillarse|Si trucca prima di uscire.|Ella se maquilla antes de salir.
++unidad|rilassarsi|relajarse|Mi rilasso con la musica.|Me relajo con música.
++unidad|preoccuparsi|preocuparse|Non ti preoccupare!|¡No te preocupes!
++unidad|incontrarsi|encontrarse|Ci incontriamo alle cinque.|Nos encontramos a las cinco.
++unidad|arrabbiarsi|enojarse|Mio fratello si arrabbia subito.|Mi hermano se enoja rápido.
++unidad|innamorarsi|enamorarse|Si innamora facilmente.|Ella se enamora fácilmente.
+## u08
+=dove|Dove abiti?|¿Dónde vives?
+=quando|Quando parti?|¿Cuándo sales?
+=come|Come ti chiami?|¿Cómo te llamas?
+=perché|Perché studi italiano?|¿Por qué estudias italiano?
+=chi|Chi è quel ragazzo?|¿Quién es ese chico?
+=che cosa|Che cosa mangi?|¿Qué comes?
+=quanto|Quanto costa un caffè?|¿Cuánto cuesta un café?
+=quale|Quale preferisci?|¿Cuál prefieres?
+=sempre|Mangio sempre alle otto.|Siempre como a las ocho.
+=spesso|Vado spesso al cinema.|Voy a menudo al cine.
+=qualche volta|Qualche volta esco con gli amici.|A veces salgo con los amigos.
+=mai|Non vado mai in palestra.|Nunca voy al gimnasio.
+=niente|Non ho niente da fare.|No tengo nada que hacer.
+=nessuno|Non c'è nessuno in casa.|No hay nadie en la casa.
+=molto|Studio molto.|Estudio mucho.
+=poco|Ho poco tempo.|Tengo poco tiempo.
+=troppo|Questo caffè è troppo caldo.|Este café está demasiado caliente.
+=abbastanza|Parlo abbastanza bene.|Hablo bastante bien.
+=ogni giorno|Ogni giorno studio mezz'ora.|Cada día estudio media hora.
+=tutti i giorni|Tutti i giorni prendo l'autobus.|Todos los días tomo el bus.
++frecuente|qualcuno|alguien|C'è qualcuno alla porta.|Hay alguien en la puerta.
++frecuente|nulla|nada (literario)|Non è successo nulla.|No pasó nada.
++frecuente|neanche|ni siquiera / tampoco|Non ho neanche un euro.|No tengo ni un euro.
++frecuente|solo|solo / solamente|Ho solo cinque minuti.|Solo tengo cinco minutos.
++frecuente|più|más|Voglio più tempo.|Quiero más tiempo.
++frecuente|meno|menos|Oggi lavoro meno.|Hoy trabajo menos.
++frecuente|tanto|mucho / tanto|Ti voglio tanto bene.|Te quiero mucho.
++frecuente|tutti|todos|Tutti sono qui.|Todos están aquí.
++frecuente|alcuni|algunos|Alcuni amici arrivano domani.|Algunos amigos llegan mañana.
++frecuente|altro|otro|Vorrei un altro caffè.|Quisiera otro café.
++frecuente|quanti|cuántos|Quanti anni hai?|¿Cuántos años tienes?
++frecuente|quante|cuántas|Quante ore dormi?|¿Cuántas horas duermes?
++frecuente|come mai|cómo es que|Come mai sei qui?|¿Cómo es que estás aquí?
++frecuente|con chi|con quién|Con chi vai al cinema?|¿Con quién vas al cine?
++frecuente|di chi|de quién|Di chi è questa borsa?|¿De quién es este bolso?
++frecuente|per chi|para quién|Per chi è il regalo?|¿Para quién es el regalo?
++unidad|da dove|de dónde|Da dove vieni?|¿De dónde vienes?
++unidad|a che cosa|a qué|A che cosa pensi?|¿En qué piensas?
++unidad|non... più|ya no|Non fumo più.|Ya no fumo.
++unidad|non... ancora|todavía no|Non ho ancora mangiato.|Todavía no he comido.
++unidad|non... mai|nunca|Non bevo mai caffè.|Nunca tomo café.
++unidad|non... niente|nada|Non voglio niente.|No quiero nada.
++unidad|non... nessuno|nadie|Non vedo nessuno.|No veo a nadie.
++unidad|ogni tanto|de vez en cuando|Ogni tanto vado al mare.|De vez en cuando voy a la playa.
++unidad|raramente|rara vez|Esco raramente la sera.|Rara vez salgo en la noche.
++unidad|affatto|en absoluto|Non è affatto difficile.|No es difícil en absoluto.
++unidad|una volta alla settimana|una vez a la semana|Vado in palestra una volta alla settimana.|Voy al gimnasio una vez a la semana.
++unidad|che cos'è?|¿qué es?|Che cos'è questo?|¿Qué es esto?

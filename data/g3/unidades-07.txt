@@ -1,0 +1,203 @@
+## u21
+=prestare|Ti presto la penna.|Te presto el lápiz.
+=dare|Te lo do domani.|Te lo doy mañana.
+=dire|Glielo dico io.|Se lo digo yo.
+=mandare|Te la mando stasera.|Te la mando esta noche.
+=spiegare|Ve lo spiego dopo.|Se lo explico después.
+=mostrare|Mi mostra la camera?|¿Me muestra la habitación?
+=portare|Ce lo porta il cameriere.|Nos lo trae el camarero.
+=restituire|Glieli restituisco domani.|Se los devuelvo mañana.
+=consegnare|Gliela consegno oggi.|Se la entrego hoy.
+=il consiglio|Me lo ha dato un amico.|Me lo dio un amigo.
+=la penna|Mi presti la penna?|¿Me prestas el lápiz?
+=il numero|Gliel'ho dato ieri.|Se lo di ayer.
+=il favore|Me lo fai questo favore?|¿Me haces este favor?
+=lo scontrino|Me lo dà, per favore?|¿Me lo da, por favor?
+=il pacco|Il pacco te lo mando domani.|El paquete te lo mando mañana.
+=la guida|La guida ce la presta la reception.|La guía nos la presta la recepción.
+=subito|Te lo spedisco subito.|Te lo despacho de inmediato.
+=volentieri|Te lo presto volentieri.|Te lo presto con gusto.
+=ancora una volta|Te lo ripeto ancora una volta.|Te lo repito una vez más.
+=spesso|Me lo chiede spesso.|Me lo pide a menudo.
++frecuente|me lo|me lo|Me lo dai?|¿Me lo das?
++frecuente|te lo|te lo|Te lo dico domani.|Te lo digo mañana.
++frecuente|ce lo|nos lo|Ce lo porta subito.|Nos lo trae de inmediato.
++frecuente|ve lo|se lo (a ustedes)|Ve lo mando domani.|Se lo mando mañana.
++frecuente|me la|me la|Me la presti?|¿Me la prestas?
++frecuente|te la|te la|Te la regalo.|Te la regalo.
++frecuente|me li|me los|Me li dai?|¿Me los das?
++frecuente|me le|me las|Me le mostri?|¿Me las muestras?
++frecuente|me ne|me de eso|Me ne dai un po'?|¿Me das un poco?
++frecuente|ce ne|nos de eso|Ce ne servono due.|Nos hacen falta dos.
++frecuente|ovviamente|obviamente|Ovviamente te lo presto.|Obviamente te lo presto.
++frecuente|certamente|ciertamente|Certamente, glielo dico.|Por supuesto, se lo digo.
++frecuente|insegnare|enseñar|Mi insegna l'italiano.|Me enseña italiano.
++frecuente|far vedere|mostrar|Ti faccio vedere la foto.|Te muestro la foto.
++frecuente|far sapere|avisar / hacer saber|Ti faccio sapere domani.|Te aviso mañana.
++unidad|glielo|se lo (a él/ella/usted)|Glielo spedisco oggi.|Se lo despacho hoy.
++unidad|gliela|se la (a él/ella/usted)|Gliela porto domani.|Se la llevo mañana.
++unidad|glieli|se los (a él/ella/usted)|Glieli mando subito.|Se los mando de inmediato.
++unidad|gliene|le de eso|Gliene parlo io.|Yo le hablo de eso.
++unidad|te ne|te de eso|Te ne compro uno.|Te compro uno.
++unidad|comunicare|comunicar|Gli comunico la data.|Le comunico la fecha.
++unidad|affidare|confiar / encargar|Gli affido le chiavi.|Le confío las llaves.
++unidad|l'ombrello|el paraguas|Ti presto l'ombrello.|Te presto el paraguas.
++unidad|il portafoglio|la billetera|Ho dimenticato il portafoglio.|Olvidé la billetera.
++unidad|gli occhiali|las gafas|Mi presti gli occhiali?|¿Me prestas las gafas?
++unidad|la macchina fotografica|la cámara fotográfica|Ti porto la macchina fotografica.|Te llevo la cámara fotográfica.
++unidad|le chiavi|las llaves|Te le do domani.|Te las doy mañana.
++unidad|con piacere|con gusto|Te lo dico con piacere.|Te lo digo con gusto.
++unidad|senz'altro|sin duda|Glielo dico senz'altro.|Se lo digo sin duda.
++unidad|figurati|ni lo pienses|Grazie! — Figurati!|¡Gracias! — ¡No hay de qué!
+## u22
+=pensare|Penso che sia una buona idea.|Pienso que es una buena idea.
+=credere|Credo che Marco sia a casa.|Creo que Marco está en casa.
+=sperare|Spero che tu stia bene.|Espero que estés bien.
+=dubitare|Dubito che venga.|Dudo que venga.
+=sembrare|Sembra che piova.|Parece que llueve.
+=preferire|Preferisco che tu venga domani.|Prefiero que vengas mañana.
+=immaginare|Immagino che sia stanco.|Imagino que está cansado.
+=bisogna|Bisogna che tu studi di più.|Es necesario que estudies más.
+=importante|È importante che tu venga.|Es importante que vengas.
+=possibile|È possibile che arrivi tardi.|Es posible que llegue tarde.
+=probabile|È probabile che domani piova.|Es probable que mañana llueva.
+=sicuro|Sono sicuro che è vero.|Estoy seguro de que es verdad.
+=vero|Non è vero!|¡No es verdad!
+=falso|Questa notizia è falsa.|Esta noticia es falsa.
+=l'opinione|Qual è la tua opinione?|¿Cuál es tu opinión?
+=avere ragione|Hai ragione tu.|Tienes razón.
+=avere torto|Credo che abbia torto.|Creo que está equivocado.
+=d'accordo|Sono d'accordo con te.|Estoy de acuerdo contigo.
+=secondo me|Secondo me, è troppo caro.|Según yo, es demasiado caro.
+=contento|Sono contento che tu sia qui.|Estoy contento de que estés aquí.
++frecuente|che tu sia|que seas|Spero che tu sia felice.|Espero que seas feliz.
++frecuente|che abbia|que tenga|Penso che abbia ragione.|Pienso que tiene razón.
++frecuente|che faccia|que haga|Spero che faccia bel tempo.|Espero que haga buen tiempo.
++frecuente|che vada|que vaya|Credo che vada a casa.|Creo que va a casa.
++frecuente|che venga|que venga|Spero che venga alla festa.|Espero que venga a la fiesta.
++frecuente|che possa|que pueda|Spero che possa aiutarci.|Espero que pueda ayudarnos.
++frecuente|che voglia|que quiera|Non credo che voglia venire.|No creo que quiera venir.
++frecuente|che sappia|que sepa|Dubito che sappia la verità.|Dudo que sepa la verdad.
++frecuente|temere|temer|Temo che sia troppo tardi.|Temo que sea demasiado tarde.
++frecuente|desiderare|desear|Desidero che tutto vada bene.|Deseo que todo vaya bien.
++frecuente|ammettere|admitir|Devo ammettere che hai ragione.|Debo admitir que tienes razón.
++unidad|supporre|suponer|Suppongo che sia vero.|Supongo que es verdad.
++frecuente|pare che|parece que|Pare che domani nevichi.|Parece que mañana nevará.
++frecuente|sembra che|parece que|Sembra che sia stanca.|Parece que está cansada.
++frecuente|è meglio che|es mejor que|È meglio che tu resti a casa.|Es mejor que te quedes en casa.
++frecuente|bisogna che|hay que / es necesario que|Bisogna che tu parta presto.|Es necesario que salgas temprano.
++frecuente|qualunque|cualquier|Qualunque cosa succeda, ti aiuto.|Pase lo que pase, te ayudo.
++frecuente|il dubbio|la duda|Ho un dubbio.|Tengo una duda.
++unidad|affinché|para que|Te lo spiego affinché tu capisca.|Te lo explico para que entiendas.
++unidad|benché|aunque|Benché sia tardi, esco.|Aunque sea tarde, salgo.
++unidad|sebbene|aunque|Sebbene sia stanco, lavoro.|Aunque esté cansado, trabajo.
++unidad|purché|con tal de que|Vengo purché ci sia tempo.|Voy con tal de que haya tiempo.
++unidad|a meno che|a menos que|Vengo, a meno che non piova.|Voy, a menos que llueva.
++unidad|prima che|antes de que|Telefono prima che parta.|Llamo antes de que salga.
++unidad|senza che|sin que|Esce senza che nessuno lo veda.|Sale sin que nadie lo vea.
++unidad|chiunque|quienquiera|Chiunque può partecipare.|Cualquiera puede participar.
++unidad|ovunque|dondequiera|Ovunque vada, trovo amici.|Donde vaya, encuentro amigos.
++unidad|la certezza|la certeza|Non ho nessuna certezza.|No tengo ninguna certeza.
++unidad|è probabile che|es probable que|È probabile che piova.|Es probable que llueva.
++unidad|è importante che|es importante que|È importante che tu studi.|Es importante que estudies.
+## u23
+=se|Se piove, resto a casa.|Si llueve, me quedo en casa.
+=magari|Magari avessi più tempo!|¡Ojalá tuviera más tiempo!
+=ricco|Se fossi ricco, viaggerei sempre.|Si fuera rico, viajaría siempre.
+=i soldi|Se avessi più soldi, comprerei una casa.|Si tuviera más dinero, compraría una casa.
+=la lotteria|Se vincessi la lotteria, smetterei di lavorare.|Si ganara la lotería, dejaría de trabajar.
+=vincere|Se vincessi, sarei felicissimo.|Si ganara, sería feliz.
+=il sogno|Il mio sogno è vivere al mare.|Mi sueño es vivir junto al mar.
+=la possibilità|Se avessi la possibilità, partirei.|Si tuviera la posibilidad, me iría.
+=l'occasione|Se ci fosse l'occasione, andrei.|Si hubiera la ocasión, iría.
+=il lavoro|Se cambiassi lavoro, guadagnerei di più.|Si cambiara de trabajo, ganaría más.
+=la scelta|Se potessi scegliere, resterei qui.|Si pudiera elegir, me quedaría aquí.
+=viaggiare|Se potessi, viaggerei ogni mese.|Si pudiera, viajaría cada mes.
+=comprare|Se avessi soldi, comprerei una macchina.|Si tuviera dinero, compraría un auto.
+=restare|Se potessi, resterei qui per sempre.|Si pudiera, me quedaría aquí para siempre.
+=cambiare|Se potessi, cambierei città.|Si pudiera, cambiaría de ciudad.
+=risparmiare|Se risparmiassi di più, potrei viaggiare.|Si ahorrara más, podría viajar.
+=se fossi in te|Se fossi in te, studierei di più.|Si yo fuera tú, estudiaría más.
+=sarebbe bello|Sarebbe bello vivere a Roma.|Sería bonito vivir en Roma.
+=probabilmente|Probabilmente verrò, se non piove.|Probablemente vendré, si no llueve.
+=mai|Non vado mai al mare, ma se potessi ci andrei sempre.|Nunca voy a la playa, pero si pudiera iría siempre.
++frecuente|se avessi|si tuviera|Se avessi tempo, verrei.|Si tuviera tiempo, vendría.
++frecuente|se potessi|si pudiera|Se potessi, partirei oggi.|Si pudiera, saldría hoy.
++frecuente|se fossi|si fuera|Se fossi libero, uscirei.|Si estuviera libre, saldría.
++unidad|se vincessi|si ganara|Se vincessi, farei una festa.|Si ganara, haría una fiesta.
++unidad|se piove|si llueve|Se piove, restiamo a casa.|Si llueve, nos quedamos en casa.
++frecuente|altrimenti|de lo contrario|Studia, altrimenti non passi l'esame.|Estudia, de lo contrario no apruebas el examen.
++frecuente|oppure|o bien|Vieni in treno oppure in macchina?|¿Vienes en tren o en auto?
++frecuente|la fortuna|la suerte / la fortuna|Che fortuna!|¡Qué suerte!
++frecuente|fortunato|afortunado|Sono molto fortunato.|Soy muy afortunado.
++frecuente|il successo|el éxito|Il film ha avuto molto successo.|La película tuvo mucho éxito.
++frecuente|la carriera|la carrera profesional|Voglio fare carriera.|Quiero hacer carrera.
++frecuente|guadagnare|ganar (dinero)|Guadagno abbastanza bene.|Gano bastante bien.
++unidad|lo stipendio|el sueldo|Lo stipendio è basso.|El sueldo es bajo.
++frecuente|l'azienda|la empresa|Lavoro in un'azienda italiana.|Trabajo en una empresa italiana.
++unidad|se avrò tempo|si tengo tiempo|Se avrò tempo, verrò.|Si tengo tiempo, iré.
++unidad|a condizione che|con la condición de que|Vengo a condizione che ci siano tutti.|Voy con la condición de que estén todos.
++unidad|in caso di|en caso de|In caso di pioggia, restiamo qui.|En caso de lluvia, nos quedamos aquí.
++unidad|in quel caso|en ese caso|In quel caso, resto a casa.|En ese caso, me quedo en casa.
++unidad|fantasticare|fantasear|Mi piace fantasticare sul futuro.|Me gusta fantasear sobre el futuro.
++unidad|rimpiangere|lamentar / añorar|Non rimpiango nulla.|No lamento nada.
++unidad|il rimpianto|el arrepentimiento|Ho un solo rimpianto.|Tengo un solo arrepentimiento.
++unidad|sfortunato|desafortunado|Sono stato sfortunato.|Fui desafortunado.
++unidad|rischiare|arriesgar|Non voglio rischiare.|No quiero arriesgar.
++unidad|la sfida|el desafío|È una grande sfida.|Es un gran desafío.
++unidad|ricominciare|empezar de nuevo|Vorrei ricominciare da zero.|Quisiera empezar de cero.
++unidad|il risparmio|el ahorro|I risparmi sono pochi.|Los ahorros son pocos.
++unidad|la ricchezza|la riqueza|La ricchezza non è tutto.|La riqueza no lo es todo.
++unidad|ereditare|heredar|Ha ereditato una casa.|Heredó una casa.
++unidad|l'imprenditore|el empresario|L'imprenditore apre un negozio.|El empresario abre una tienda.
+## u24
+=prima|Prima ho studiato, poi ho cenato.|Primero estudié, después cené.
+=poi|Poi siamo usciti.|Después salimos.
+=dopo|Dopo il corso ho parlato con Marco.|Después del curso hablé con Marco.
+=alla fine|Alla fine sono rimasto a casa.|Al final me quedé en casa.
+=mentre|Mentre studiavo, ascoltavo musica.|Mientras estudiaba, escuchaba música.
+=perché|Non sono venuto perché ero stanco.|No vine porque estaba cansado.
+=quindi|Avevo fame, quindi ho mangiato.|Tenía hambre, así que comí.
+=però|Studio molto, però sbaglio ancora.|Estudio mucho, pero todavía me equivoco.
+=infatti|Parla bene: infatti ha vissuto a Roma.|Habla bien: de hecho vivió en Roma.
+=per esempio|Mi piacciono i dolci, per esempio il tiramisù.|Me gustan los dulces, por ejemplo el tiramisú.
+=secondo me|Secondo me, l'italiano è facile.|Según yo, el italiano es fácil.
+=in realtà|In realtà non lo sapevo.|En realidad no lo sabía.
+=purtroppo|Purtroppo non posso venire.|Lamentablemente no puedo venir.
+=per fortuna|Per fortuna non ha piovuto.|Por suerte no llovió.
+=comunque|Comunque, è andata bene.|De todos modos, salió bien.
+=l'esperienza|È stata un'esperienza bellissima.|Fue una experiencia hermosísima.
+=il ricordo|Ho un bel ricordo di quel viaggio.|Tengo un bonito recuerdo de ese viaje.
+=imparare|Imparo cinque parole al giorno.|Aprendo cinco palabras al día.
+=migliorare|Il mio italiano sta migliorando.|Mi italiano está mejorando.
+=la vacanza|La vacanza è stata bellissima.|Las vacaciones fueron hermosísimas.
++frecuente|presentare|presentar|Presento il mio progetto.|Presento mi proyecto.
++frecuente|il risultato|el resultado|Il risultato è buono.|El resultado es bueno.
++frecuente|il livello|el nivel|Il mio livello è A2.|Mi nivel es A2.
++frecuente|il corso|el curso|Il corso finisce a dicembre.|El curso termina en diciembre.
++frecuente|l'esame|el examen|Domani ho un esame.|Mañana tengo un examen.
++frecuente|la prova|la prueba|Faccio una prova finale.|Hago una prueba final.
++frecuente|superare|superar / aprobar|Ho superato l'esame.|Aprobé el examen.
++frecuente|il voto|la nota|Ho preso un bel voto.|Saqué una buena nota.
++unidad|il progresso|el progreso|Faccio progressi ogni giorno.|Hago progresos cada día.
++frecuente|l'errore|el error|Ho fatto un errore.|Cometí un error.
++frecuente|sbagliare|equivocarse|Sbaglio ancora qualche volta.|Todavía me equivoco a veces.
++unidad|correggere|corregir|Correggo gli errori.|Corrijo los errores.
++frecuente|la pratica|la práctica|La pratica è importante.|La práctica es importante.
++frecuente|concludere|concluir|Concludo con un esempio.|Concluyo con un ejemplo.
++unidad|la conclusione|la conclusión|Ecco la conclusione.|Aquí está la conclusión.
++unidad|la presentazione|la presentación|La presentazione dura cinque minuti.|La presentación dura cinco minutos.
++unidad|il traguardo|la meta|Ho raggiunto un bel traguardo.|Alcancé una bonita meta.
++unidad|esercitarsi|practicar / ejercitarse|Mi esercito ogni giorno.|Practico cada día.
++unidad|ripassare|repasar|Ripasso le parole nuove.|Repaso las palabras nuevas.
++unidad|la grammatica|la gramática|La grammatica è difficile ma utile.|La gramática es difícil pero útil.
++unidad|il vocabolario|el vocabulario|Il mio vocabolario cresce.|Mi vocabulario crece.
++unidad|la pronuncia|la pronunciación|La pronuncia è importante.|La pronunciación es importante.
++unidad|l'ascolto|la comprensión auditiva|Faccio un esercizio di ascolto.|Hago un ejercicio de comprensión auditiva.
++unidad|la lettura|la lectura|La lettura mi aiuta molto.|La lectura me ayuda mucho.
++unidad|la scrittura|la escritura|La scrittura è più difficile.|La escritura es más difícil.
++unidad|il dizionario|el diccionario|Cerco la parola nel dizionario.|Busco la palabra en el diccionario.
++unidad|tradurre|traducir|Traduco la frase in spagnolo.|Traduzco la frase al español.
++unidad|la traduzione|la traducción|La traduzione è corretta.|La traducción es correcta.
++unidad|riassumere|resumir|Riassumo il testo in poche righe.|Resumo el texto en pocas líneas.
++unidad|il riassunto|el resumen|Scrivo un riassunto.|Escribo un resumen.

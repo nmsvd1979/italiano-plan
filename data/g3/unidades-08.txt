@@ -1,0 +1,210 @@
+## u25
+=il nome|Il mio nome è Nicolás.|Mi nombre es Nicolás.
+=il cognome|Qual è il suo cognome?|¿Cuál es su apellido?
+=la lettera|La prima lettera è la «a».|La primera letra es la «a».
+=l'alfabeto|L'alfabeto italiano ha ventuno lettere.|El alfabeto italiano tiene veintiuna letras.
+=la vocale|La «a» è una vocale.|La «a» es una vocal.
+=la consonante|La «b» è una consonante.|La «b» es una consonante.
+=l'accento|L'accento è sulla «a» finale.|El acento está en la «a» final.
+=capire|Capisco un po' di italiano.|Entiendo un poco de italiano.
+=ripetere|Può ripetere, per favore?|¿Puede repetir, por favor?
+=scrivere|Come si scrive il suo nome?|¿Cómo se escribe su nombre?
+=piano|Parli più piano, per favore.|Hable más despacio, por favor.
+=zero|Il mio numero finisce con zero.|Mi número termina en cero.
+=uno|Uno, due, tre!|¡Uno, dos, tres!
+=due|Ho due fratelli.|Tengo dos hermanos.
+=tre|Abito al terzo piano: tre scale.|Vivo en el tercer piso: tres escaleras.
+=quattro|Siamo in quattro.|Somos cuatro.
+=cinque|Ho cinque euro.|Tengo cinco euros.
+=sei|Sono le sei.|Son las seis.
+=sette|La settimana ha sette giorni.|La semana tiene siete días.
+=otto|Esco alle otto.|Salgo a las ocho.
+=nove|Il treno parte alle nove.|El tren sale a las nueve.
+=dieci|Dieci minuti, per favore.|Diez minutos, por favor.
++frecuente|significare|significar|Che cosa significa questa parola?|¿Qué significa esta palabra?
++unidad|pronunciare|pronunciar|Come si pronuncia questa parola?|¿Cómo se pronuncia esta palabra?
++unidad|la doppia|la letra doble|«Anno» si scrive con la doppia «n».|«Anno» se escribe con doble «n».
++frecuente|il punto|el punto|Metto un punto alla fine.|Pongo un punto al final.
++frecuente|la data di nascita|la fecha de nacimiento|La mia data di nascita è il tre marzo.|Mi fecha de nacimiento es el tres de marzo.
++frecuente|il numero di telefono|el número de teléfono|Mi dà il suo numero di telefono?|¿Me da su número de teléfono?
++frecuente|ho bisogno di|necesito|Ho bisogno di aiuto.|Necesito ayuda.
++frecuente|mi serve|necesito / me hace falta|Mi serve una penna.|Necesito un lápiz.
++unidad|dov'è?|¿dónde está?|Dov'è il bagno?|¿Dónde está el baño?
++frecuente|può aiutarmi?|¿puede ayudarme?|Scusi, può aiutarmi?|Disculpe, ¿puede ayudarme?
++frecuente|più lentamente|más lentamente|Può parlare più lentamente?|¿Puede hablar más lentamente?
++frecuente|non parlo bene|no hablo bien|Non parlo bene italiano.|No hablo bien italiano.
++frecuente|non ho capito|no entendí|Scusi, non ho capito.|Disculpe, no entendí.
++unidad|come si scrive?|¿cómo se escribe?|Come si scrive «gnocchi»?|¿Cómo se escribe «gnocchi»?
++unidad|come si pronuncia?|¿cómo se pronuncia?|Come si pronuncia «cena»?|¿Cómo se pronuncia «cena»?
++unidad|come si dice?|¿cómo se dice?|Come si dice «gracias»?|¿Cómo se dice «gracias»?
++unidad|che cosa significa?|¿qué significa?|Che cosa significa «prego»?|¿Qué significa «prego»?
++unidad|può ripetere?|¿puede repetir?|Scusi, può ripetere?|Disculpe, ¿puede repetir?
++unidad|parla inglese?|¿habla inglés?|Scusi, parla inglese?|Disculpe, ¿habla inglés?
++unidad|la sillaba|la sílaba|La parola «casa» ha due sillabe.|La palabra «casa» tiene dos sílabas.
++unidad|maiuscola|mayúscula|Scrivo il nome con la maiuscola.|Escribo el nombre con mayúscula.
++unidad|minuscola|minúscula|Qui va la lettera minuscola.|Aquí va la letra minúscula.
++unidad|la virgola|la coma|Metto una virgola qui.|Pongo una coma aquí.
++unidad|la chiocciola|la arroba (@)|L'indirizzo ha la chiocciola.|La dirección lleva arroba.
++unidad|il trattino|el guion|Il cognome ha un trattino.|El apellido lleva un guion.
++unidad|la carta d'identità|la cédula de identidad|Ho la carta d'identità.|Tengo la cédula de identidad.
++unidad|il luogo di nascita|el lugar de nacimiento|Il mio luogo di nascita è Santiago.|Mi lugar de nacimiento es Santiago.
++unidad|sillabare|deletrear|Può sillabare il suo cognome?|¿Puede deletrear su apellido?
++unidad|l'indirizzo email|el correo electrónico|Qual è il suo indirizzo email?|¿Cuál es su correo electrónico?
+## u26
+=la famiglia|La mia famiglia è piccola.|Mi familia es pequeña.
+=il padre|Mio padre è ingegnere.|Mi padre es ingeniero.
+=la madre|Mia madre è insegnante.|Mi madre es profesora.
+=i genitori|I miei genitori abitano a Santiago.|Mis padres viven en Santiago.
+=il fratello|Ho un fratello più grande.|Tengo un hermano mayor.
+=la sorella|Mia sorella ha venti anni.|Mi hermana tiene veinte años.
+=il figlio|Hanno un figlio di cinque anni.|Tienen un hijo de cinco años.
+=la figlia|Sua figlia è molto simpatica.|Su hija es muy simpática.
+=il nonno|Mio nonno ha settant'anni.|Mi abuelo tiene setenta años.
+=la nonna|Mia nonna cucina benissimo.|Mi abuela cocina muy bien.
+=lo zio|Mio zio vive in Italia.|Mi tío vive en Italia.
+=la zia|Mia zia è dottoressa.|Mi tía es doctora.
+=il cugino|Mio cugino ha la mia età.|Mi primo tiene mi edad.
+=il marito|Il marito di Anna è alto.|El marido de Anna es alto.
+=la moglie|Sua moglie è italiana.|Su esposa es italiana.
+=alto|Mio fratello è molto alto.|Mi hermano es muy alto.
+=basso|Mia sorella è un po' bassa.|Mi hermana es un poco baja.
+=simpatico|Il mio vicino è simpatico.|Mi vecino es simpático.
+=i capelli|Ha i capelli lunghi.|Tiene el pelo largo.
+=gli occhi|Ha gli occhi verdi.|Tiene los ojos verdes.
+=il lavoro|Il mio lavoro è interessante.|Mi trabajo es interesante.
+=l'insegnante|L'insegnante è molto paziente.|El profesor es muy paciente.
++unidad|la cugina|la prima|Mia cugina studia a Roma.|Mi prima estudia en Roma.
++frecuente|il nipote|el sobrino / el nieto|Mio nipote ha tre anni.|Mi sobrino tiene tres años.
++frecuente|la mamma|la mamá|La mamma prepara la cena.|Mamá prepara la cena.
++frecuente|il papà|el papá|Il papà lavora molto.|Papá trabaja mucho.
++frecuente|sposato|casado|Mio fratello è sposato.|Mi hermano está casado.
++unidad|magro|delgado|Mio zio è molto magro.|Mi tío es muy delgado.
++frecuente|intelligente|inteligente|Mia sorella è molto intelligente.|Mi hermana es muy inteligente.
++frecuente|serio|serio|Il mio capo è molto serio.|Mi jefe es muy serio.
++unidad|generoso|generoso|Mio nonno è generoso.|Mi abuelo es generoso.
++unidad|allegro|alegre|Mia zia è sempre allegra.|Mi tía siempre está alegre.
++frecuente|il professore|el profesor|Il professore spiega la lezione.|El profesor explica la lección.
++frecuente|lo studente|el estudiante|Lo studente fa una domanda.|El estudiante hace una pregunta.
++frecuente|biondo|rubio|Mia sorella è bionda.|Mi hermana es rubia.
++unidad|timido|tímido|Mio cugino è timido.|Mi primo es tímido.
++unidad|la studentessa|la estudiante|La studentessa legge un libro.|La estudiante lee un libro.
++unidad|il fidanzato|el novio|Il fidanzato di Anna è italiano.|El novio de Anna es italiano.
++unidad|la fidanzata|la novia|La mia fidanzata studia medicina.|Mi novia estudia medicina.
++unidad|il suocero|el suegro|Mio suocero abita a Torino.|Mi suegro vive en Turín.
++unidad|il cognato|el cuñado|Mio cognato è dentista.|Mi cuñado es dentista.
++unidad|single|soltero|Mia cugina è single.|Mi prima está soltera.
++unidad|castano|castaño|Ha i capelli castani.|Tiene el pelo castaño.
++unidad|antipatico|antipático|Il capo è un po' antipatico.|El jefe es un poco antipático.
++unidad|pigro|perezoso|Mio fratello è pigro.|Mi hermano es perezoso.
++unidad|l'avvocato|el abogado|Mio zio è avvocato.|Mi tío es abogado.
++unidad|l'ingegnere|el ingeniero|Mio padre è ingegnere.|Mi padre es ingeniero.
++unidad|l'infermiere|el enfermero|L'infermiere è molto gentile.|El enfermero es muy amable.
++unidad|l'impiegato|el empleado|Mio cognato è impiegato in banca.|Mi cuñado es empleado de banco.
++unidad|il pensionato|el jubilado|Mio nonno è pensionato.|Mi abuelo es jubilado.
++unidad|il cuoco|el cocinero|Il cuoco prepara la cena.|El cocinero prepara la cena.
+## u27
+=il tempo libero|Nel tempo libero leggo.|En mi tiempo libre leo.
+=la primavera|In primavera fa bel tempo.|En primavera hace buen tiempo.
+=l'autunno|In autunno piove spesso.|En otoño llueve a menudo.
+=il sole|Oggi c'è il sole.|Hoy hay sol.
+=la pioggia|La pioggia non mi piace.|La lluvia no me gusta.
+=la neve|In montagna c'è la neve.|En la montaña hay nieve.
+=il vento|Oggi c'è molto vento.|Hoy hay mucho viento.
+=caldo|In estate fa molto caldo.|En verano hace mucho calor.
+=freddo|In inverno fa freddo.|En invierno hace frío.
+=nuvoloso|Il cielo è nuvoloso.|El cielo está nublado.
+=suonare|Suono la chitarra.|Toco la guitarra.
+=il calcio|Il sabato gioco a calcio.|Los sábados juego fútbol.
+=lo sport|Lo sport mi piace molto.|Me gusta mucho el deporte.
+=la musica|Ascolto musica ogni giorno.|Escucho música todos los días.
+=il film|Stasera guardo un film.|Esta noche veo una película.
+=camminare|Mi piace camminare nel parco.|Me gusta caminar por el parque.
+=ballare|Non so ballare.|No sé bailar.
+=cantare|Canto sotto la doccia.|Canto en la ducha.
+=nuotare|Nuoto in piscina il martedì.|Nado en la piscina los martes.
+=correre|Corro ogni mattina.|Corro cada mañana.
+=ogni|Ogni sabato vado al mercato.|Cada sábado voy al mercado.
+=qualche|Ho qualche libro in italiano.|Tengo algunos libros en italiano.
++frecuente|il cinema|el cine|Stasera andiamo al cinema.|Esta noche vamos al cine.
++frecuente|il teatro|el teatro|Il teatro è in centro.|El teatro está en el centro.
++frecuente|il concerto|el concierto|Il concerto è sabato sera.|El concierto es el sábado en la noche.
++frecuente|la partita|el partido|Guardiamo la partita insieme.|Vemos el partido juntos.
++frecuente|la passeggiata|el paseo|Faccio una passeggiata dopo cena.|Doy un paseo después de la cena.
++frecuente|la squadra|el equipo|La mia squadra ha vinto.|Mi equipo ganó.
++frecuente|sapere|saber|Non so nuotare.|No sé nadar.
++unidad|il clima|el clima|Il clima è mite.|El clima es templado.
++frecuente|la temperatura|la temperatura|La temperatura è bassa.|La temperatura es baja.
++unidad|la nebbia|la niebla|Oggi c'è nebbia.|Hoy hay niebla.
++unidad|il temporale|la tormenta|Arriva un temporale.|Viene una tormenta.
++unidad|fotografare|fotografiar|Mi piace fotografare i paesaggi.|Me gusta fotografiar paisajes.
++frecuente|disegnare|dibujar|Mia sorella disegna molto bene.|Mi hermana dibuja muy bien.
++frecuente|la mostra|la exposición|Visitiamo una mostra d'arte.|Visitamos una exposición de arte.
++unidad|il passatempo|el pasatiempo|Il mio passatempo è leggere.|Mi pasatiempo es leer.
++unidad|la palestra|el gimnasio|Vado in palestra tre volte alla settimana.|Voy al gimnasio tres veces por semana.
++unidad|il tennis|el tenis|Gioco a tennis il sabato.|Juego tenis los sábados.
++unidad|l'hobby|el hobby|Il mio hobby è la fotografia.|Mi hobby es la fotografía.
++unidad|la serie TV|la serie de televisión|Guardo una serie TV italiana.|Veo una serie de televisión italiana.
++unidad|dipingere|pintar|Mi piace dipingere paesaggi.|Me gusta pintar paisajes.
++unidad|i videogiochi|los videojuegos|Non gioco ai videogiochi.|No juego videojuegos.
++unidad|la pesca|la pesca|Mio nonno ama la pesca.|Mi abuelo ama la pesca.
++unidad|il ciclismo|el ciclismo|Il ciclismo è molto popolare.|El ciclismo es muy popular.
++unidad|fa bel tempo|hace buen tiempo|Oggi fa bel tempo.|Hoy hace buen tiempo.
++unidad|fa brutto tempo|hace mal tiempo|Domani fa brutto tempo.|Mañana hace mal tiempo.
++unidad|c'è il sole|hay sol|A Roma c'è il sole.|En Roma hay sol.
++unidad|nevica|nieva|In montagna nevica.|En la montaña nieva.
++unidad|i gradi|los grados|Ci sono trenta gradi.|Hay treinta grados.
++unidad|il tifoso|el hincha|Mio fratello è un tifoso della Roma.|Mi hermano es hincha de la Roma.
++unidad|fare una passeggiata|dar un paseo|Facciamo una passeggiata?|¿Damos un paseo?
+## u28
+=il primo|Come primo prendo la pasta.|De primero pido pasta.
+=il secondo|Come secondo prendo il pesce.|De segundo pido pescado.
+=il contorno|Come contorno, le patate.|De acompañamiento, papas.
+=il coperto|Il coperto costa due euro.|El cubierto cuesta dos euros.
+=il ristorante|Prenoto un tavolo al ristorante.|Reservo una mesa en el restaurante.
+=il piatto|Qual è il piatto del giorno?|¿Cuál es el plato del día?
+=la bevanda|Quali bevande avete?|¿Qué bebidas tienen?
+=ordinare|Siamo pronti per ordinare.|Estamos listos para pedir.
+=consigliare|Che cosa ci consiglia?|¿Qué nos recomienda?
+=l'allergia|Ho un'allergia alle noci.|Tengo alergia a las nueces.
+=vegetariano|Sono vegetariano.|Soy vegetariano.
+=senza|Un caffè senza zucchero.|Un café sin azúcar.
+=il riso|Prendo il riso con i funghi.|Pido arroz con setas.
+=la zuppa|La zuppa è calda.|La sopa está caliente.
+=l'insalata|Un'insalata mista, per favore.|Una ensalada mixta, por favor.
+=le uova|Non mangio le uova.|No como huevos.
+=la noce|Il dolce contiene noci.|El postre contiene nueces.
+=il pollo|Prendo il pollo arrosto.|Pido pollo asado.
+=la torta|La torta di mele è buonissima.|La torta de manzana es riquísima.
+=il gelato|Vorrei un gelato al limone.|Quisiera un helado de limón.
+=il servizio|Il servizio è incluso?|¿El servicio está incluido?
+=la forchetta|Manca una forchetta.|Falta un tenedor.
++unidad|il tovagliolo|la servilleta|Può portarmi un tovagliolo?|¿Puede traerme una servilleta?
++frecuente|la cameriera|la mesera|La cameriera porta il menù.|La mesera trae el menú.
++unidad|il dessert|el postre|Come dessert, un gelato.|De postre, un helado.
++unidad|fritto|frito|Il pesce fritto è ottimo.|El pescado frito es excelente.
++frecuente|dolce|dulce|La torta è molto dolce.|La torta es muy dulce.
++unidad|amaro|amargo|Il caffè è amaro.|El café es amargo.
++frecuente|il sapore|el sabor|Il sapore è delizioso.|El sabor es delicioso.
++unidad|crudo|crudo|Il prosciutto crudo è buonissimo.|El jamón crudo es riquísimo.
++unidad|cotto|cocido|Il pesce è ben cotto.|El pescado está bien cocido.
++frecuente|il locale|el local|Il locale è molto carino.|El local es muy bonito.
++unidad|la specialità|la especialidad|Qual è la specialità della casa?|¿Cuál es la especialidad de la casa?
++unidad|il piatto tipico|el plato típico|Vorrei provare un piatto tipico.|Quisiera probar un plato típico.
++unidad|vegano|vegano|Mia sorella è vegana.|Mi hermana es vegana.
++unidad|il piatto del giorno|el plato del día|Il piatto del giorno è lasagna.|El plato del día es lasaña.
++unidad|la lista dei vini|la carta de vinos|Posso vedere la lista dei vini?|¿Puedo ver la carta de vinos?
++unidad|il vino della casa|el vino de la casa|Prendiamo il vino della casa.|Pedimos el vino de la casa.
++unidad|alla griglia|a la parrilla|Prendo il pesce alla griglia.|Pido pescado a la parrilla.
++unidad|al forno|al horno|Le patate al forno sono buone.|Las papas al horno son ricas.
++unidad|piccante|picante|La salsa è troppo piccante.|La salsa es demasiado picante.
++unidad|senza glutine|sin gluten|Avete pasta senza glutine?|¿Tienen pasta sin gluten?
++unidad|l'intolleranza|la intolerancia|Ho un'intolleranza al lattosio.|Tengo intolerancia a la lactosa.
++unidad|dividere il conto|dividir la cuenta|Possiamo dividere il conto?|¿Podemos dividir la cuenta?
++unidad|alla romana|a la romana|Facciamo alla romana.|Dividimos en partes iguales.
++unidad|mi può portare|me puede traer|Mi può portare dell'acqua?|¿Me puede traer agua?
++unidad|siamo in quattro|somos cuatro|Buonasera, siamo in quattro.|Buenas noches, somos cuatro.
++unidad|c'è un tavolo libero?|¿hay una mesa libre?|Scusi, c'è un tavolo libero?|Disculpe, ¿hay una mesa libre?
++unidad|il menù del giorno|el menú del día|Il menù del giorno costa quindici euro.|El menú del día cuesta quince euros.
++unidad|al sangue|jugoso (poco cocido)|La bistecca al sangue, per favore.|El bistec jugoso, por favor.
++unidad|ben cotto|bien cocido|La carne ben cotta, grazie.|La carne bien cocida, gracias.
++unidad|la trattoria|la trattoria|Mangiamo in una trattoria.|Comemos en una trattoria.

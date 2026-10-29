@@ -14,7 +14,7 @@
   },
   {
    "it": "ciao",
-   "es": "hola / chao (con amigos)"
+   "es": "hola / adiós (con amigos)"
   },
   {
    "it": "arrivederci",
@@ -88,7 +88,7 @@
   },
   {
    "it": "l'appartamento",
-   "es": "el departamento"
+   "es": "el apartamento"
   },
   {
    "it": "la camera",
@@ -1330,11 +1330,11 @@
  "u17": [
   {
    "it": "l'affitto",
-   "es": "el alquiler / el arriendo"
+   "es": "el alquiler"
   },
   {
    "it": "affittare",
-   "es": "alquilar / arrendar"
+   "es": "alquilar"
   },
   {
    "it": "il contratto",
@@ -1828,7 +1828,7 @@
   },
   {
    "it": "sarebbe bello",
-   "es": "sería lindo"
+   "es": "sería bonito"
   },
   {
    "it": "probabilmente",

@@ -1,0 +1,9898 @@
+{
+"u01": {
+"enrich": {
+"buongiorno": {
+"ex": "Buongiorno, signora! Come sta?",
+"exEs": "¡Buenos días, señora! ¿Cómo está usted?",
+"tag": "frecuente"
+},
+"buonasera": {
+"ex": "Buonasera, signor Rossi. Prego, entri.",
+"exEs": "Buenas tardes, señor Rossi. Adelante, pase.",
+"tag": "frecuente"
+},
+"buonanotte": {
+"ex": "Buonanotte, mamma! A domani.",
+"exEs": "¡Buenas noches, mamá! Hasta mañana.",
+"tag": "frecuente"
+},
+"ciao": {
+"ex": "Ciao, Luca! Come stai?",
+"exEs": "¡Hola, Luca! ¿Cómo estás?",
+"tag": "frecuente"
+},
+"arrivederci": {
+"ex": "Arrivederci e grazie di tutto.",
+"exEs": "Hasta luego y gracias por todo.",
+"tag": "frecuente"
+},
+"grazie": {
+"ex": "Grazie mille per l'aiuto.",
+"exEs": "Muchas gracias por la ayuda.",
+"tag": "frecuente"
+},
+"prego": {
+"ex": "Grazie! — Prego, di niente.",
+"exEs": "¡Gracias! — De nada.",
+"tag": "frecuente"
+},
+"scusi": {
+"ex": "Scusi, dov'è la stazione?",
+"exEs": "Disculpe, ¿dónde está la estación?",
+"tag": "frecuente"
+},
+"scusa": {
+"ex": "Scusa, non ho capito.",
+"exEs": "Perdona, no entendí.",
+"tag": "frecuente"
+},
+"per favore": {
+"ex": "Un caffè, per favore.",
+"exEs": "Un café, por favor.",
+"tag": "frecuente"
+},
+"piacere": {
+"ex": "Piacere, mi chiamo Marco.",
+"exEs": "Mucho gusto, me llamo Marco.",
+"tag": "frecuente"
+},
+"come stai?": {
+"ex": "Ciao Anna, come stai?",
+"exEs": "Hola, Anna, ¿cómo estás?",
+"tag": "frecuente"
+},
+"come sta?": {
+"ex": "Buongiorno, professore, come sta?",
+"exEs": "Buenos días, profesor, ¿cómo está usted?",
+"tag": "frecuente"
+},
+"bene": {
+"ex": "Sto bene, grazie. E tu?",
+"exEs": "Estoy bien, gracias. ¿Y tú?",
+"tag": "frecuente"
+},
+"male": {
+"ex": "Oggi sto male: ho la febbre.",
+"exEs": "Hoy estoy mal: tengo fiebre.",
+"tag": "frecuente"
+},
+"il signore": {
+"ex": "Il signore è di Roma.",
+"exEs": "El señor es de Roma.",
+"tag": "frecuente"
+},
+"la signora": {
+"ex": "La signora Bianchi è molto gentile.",
+"exEs": "La señora Bianchi es muy amable.",
+"tag": "frecuente"
+},
+"mi chiamo": {
+"ex": "Mi chiamo Nicolás e sono cileno.",
+"exEs": "Me llamo Nicolás y soy chileno.",
+"tag": "frecuente"
+},
+"lo straniero": {
+"ex": "Sono straniero, parlo poco italiano.",
+"exEs": "Soy extranjero, hablo poco italiano.",
+"tag": "frecuente"
+},
+"la lingua": {
+"ex": "L'italiano è una bella lingua.",
+"exEs": "El italiano es un idioma bonito.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "sì",
+"es": "sí",
+"ex": "Sì, sono io.",
+"exEs": "Sí, soy yo.",
+"tag": "frecuente",
+"n": 54
+},
+{
+"it": "no",
+"es": "no",
+"ex": "No, grazie.",
+"exEs": "No, gracias.",
+"tag": "frecuente",
+"n": 23
+},
+{
+"it": "io",
+"es": "yo",
+"ex": "Io sono cileno.",
+"exEs": "Yo soy chileno.",
+"tag": "frecuente",
+"n": 30
+},
+{
+"it": "tu",
+"es": "tú",
+"ex": "Tu sei molto gentile.",
+"exEs": "Tú eres muy amable.",
+"tag": "frecuente",
+"n": 38
+},
+{
+"it": "lui",
+"es": "él",
+"ex": "Lui è italiano.",
+"exEs": "Él es italiano.",
+"tag": "frecuente",
+"n": 85
+},
+{
+"it": "lei",
+"es": "ella / usted (formal)",
+"ex": "Lei è la signora Rossi.",
+"exEs": "Ella es la señora Rossi.",
+"tag": "frecuente",
+"n": 56
+},
+{
+"it": "noi",
+"es": "nosotros",
+"ex": "Noi siamo studenti.",
+"exEs": "Nosotros somos estudiantes.",
+"tag": "frecuente",
+"n": 112
+},
+{
+"it": "voi",
+"es": "ustedes / vosotros",
+"ex": "Voi siete di Milano?",
+"exEs": "¿Ustedes son de Milán?",
+"tag": "frecuente",
+"n": 152
+},
+{
+"it": "loro",
+"es": "ellos / ellas",
+"ex": "Loro sono amici.",
+"exEs": "Ellos son amigos.",
+"tag": "frecuente",
+"n": 125
+},
+{
+"it": "essere",
+"es": "ser / estar",
+"ex": "Essere gentili è importante.",
+"exEs": "Ser amable es importante.",
+"tag": "frecuente",
+"n": 51
+},
+{
+"it": "anche",
+"es": "también",
+"ex": "Anche io sono stanco.",
+"exEs": "Yo también estoy cansado.",
+"tag": "frecuente",
+"n": 69
+},
+{
+"it": "ma",
+"es": "pero",
+"ex": "Sono stanco, ma contento.",
+"exEs": "Estoy cansado, pero contento.",
+"tag": "frecuente",
+"n": 19
+},
+{
+"it": "e",
+"es": "y",
+"ex": "Marco e Anna sono amici.",
+"exEs": "Marco y Anna son amigos.",
+"tag": "frecuente",
+"n": 1
+},
+{
+"it": "parlare",
+"es": "hablar",
+"ex": "Parlo un po' di italiano.",
+"exEs": "Hablo un poco de italiano.",
+"tag": "frecuente",
+"n": 189
+},
+{
+"it": "l'amico",
+"es": "el amigo",
+"ex": "Marco è un amico di Luca.",
+"exEs": "Marco es un amigo de Luca.",
+"tag": "frecuente",
+"n": 164
+},
+{
+"it": "l'amica",
+"es": "la amiga",
+"ex": "Anna è la mia amica.",
+"exEs": "Anna es mi amiga.",
+"tag": "frecuente",
+"n": 679
+},
+{
+"it": "certo",
+"es": "claro / por supuesto",
+"ex": "Certo, volentieri!",
+"exEs": "¡Claro, con gusto!",
+"tag": "frecuente",
+"n": 131
+},
+{
+"it": "ecco",
+"es": "aquí está / he aquí",
+"ex": "Ecco il mio nome.",
+"exEs": "Aquí está mi nombre.",
+"tag": "frecuente",
+"n": 188
+},
+{
+"it": "tutto",
+"es": "todo",
+"ex": "Va tutto bene.",
+"exEs": "Todo va bien.",
+"tag": "frecuente",
+"n": 43
+},
+{
+"it": "benvenuto",
+"es": "bienvenido",
+"ex": "Benvenuto in Italia!",
+"exEs": "¡Bienvenido a Italia!",
+"tag": "unidad",
+"n": 1379
+},
+{
+"it": "salve",
+"es": "hola (neutro)",
+"ex": "Salve, mi chiamo Paolo.",
+"exEs": "Hola, me llamo Paolo.",
+"tag": "unidad",
+"n": 419
+},
+{
+"it": "buona giornata",
+"es": "que tengas un buen día",
+"ex": "Grazie e buona giornata!",
+"exEs": "¡Gracias y que tenga un buen día!",
+"tag": "unidad",
+"n": 701
+},
+{
+"it": "a domani",
+"es": "hasta mañana",
+"ex": "Ciao, a domani!",
+"exEs": "¡Adiós, hasta mañana!",
+"tag": "unidad",
+"n": 341
+},
+{
+"it": "ci vediamo",
+"es": "nos vemos",
+"ex": "Ci vediamo presto.",
+"exEs": "Nos vemos pronto.",
+"tag": "unidad",
+"n": 353
+},
+{
+"it": "mi dispiace",
+"es": "lo siento",
+"ex": "Mi dispiace, non capisco.",
+"exEs": "Lo siento, no entiendo.",
+"tag": "unidad",
+"n": 186
+},
+{
+"it": "non capisco",
+"es": "no entiendo",
+"ex": "Scusi, non capisco.",
+"exEs": "Disculpe, no entiendo.",
+"tag": "unidad",
+"n": 322
+},
+{
+"it": "di dove sei?",
+"es": "¿de dónde eres?",
+"ex": "Di dove sei? — Sono di Santiago.",
+"exEs": "¿De dónde eres? — Soy de Santiago.",
+"tag": "unidad",
+"n": 108
+},
+{
+"it": "cileno",
+"es": "chileno",
+"ex": "Sono cileno e abito a Santiago.",
+"exEs": "Soy chileno y vivo en Santiago.",
+"tag": "unidad",
+"n": 45910
+},
+{
+"it": "italiano",
+"es": "italiano / el idioma italiano",
+"ex": "Studio italiano ogni giorno.",
+"exEs": "Estudio italiano todos los días.",
+"tag": "unidad",
+"n": 3836
+},
+{
+"it": "va bene",
+"es": "está bien / de acuerdo",
+"ex": "Va bene, grazie.",
+"exEs": "Está bien, gracias.",
+"tag": "unidad",
+"n": 63
+}
+]
+},
+"u02": {
+"enrich": {
+"la casa": {
+"ex": "La mia casa è piccola ma carina.",
+"exEs": "Mi casa es pequeña pero bonita.",
+"tag": "frecuente"
+},
+"l'appartamento": {
+"ex": "Cerco un appartamento in centro.",
+"exEs": "Busco un apartamento en el centro.",
+"tag": "frecuente"
+},
+"la camera": {
+"ex": "La camera ha una finestra grande.",
+"exEs": "La habitación tiene una ventana grande.",
+"tag": "frecuente"
+},
+"la cucina": {
+"ex": "In cucina c'è un tavolo.",
+"exEs": "En la cocina hay una mesa.",
+"tag": "frecuente"
+},
+"il bagno": {
+"ex": "Il bagno è a destra.",
+"exEs": "El baño está a la derecha.",
+"tag": "frecuente"
+},
+"il soggiorno": {
+"ex": "Nel soggiorno c'è un divano.",
+"exEs": "En la sala hay un sofá.",
+"tag": "unidad"
+},
+"la finestra": {
+"ex": "Apro la finestra: fa caldo.",
+"exEs": "Abro la ventana: hace calor.",
+"tag": "frecuente"
+},
+"la porta": {
+"ex": "La porta è chiusa.",
+"exEs": "La puerta está cerrada.",
+"tag": "frecuente"
+},
+"il tavolo": {
+"ex": "Il tavolo è vicino alla finestra.",
+"exEs": "La mesa está cerca de la ventana.",
+"tag": "frecuente"
+},
+"la sedia": {
+"ex": "Ci sono quattro sedie.",
+"exEs": "Hay cuatro sillas.",
+"tag": "frecuente"
+},
+"il letto": {
+"ex": "Il letto è comodo.",
+"exEs": "La cama es cómoda.",
+"tag": "frecuente"
+},
+"il quartiere": {
+"ex": "Abito in un quartiere tranquillo.",
+"exEs": "Vivo en un barrio tranquilo.",
+"tag": "frecuente"
+},
+"la strada": {
+"ex": "La strada è molto lunga.",
+"exEs": "La calle es muy larga.",
+"tag": "frecuente"
+},
+"la piazza": {
+"ex": "Ci vediamo in piazza.",
+"exEs": "Nos vemos en la plaza.",
+"tag": "frecuente"
+},
+"il supermercato": {
+"ex": "Il supermercato è aperto fino alle nove.",
+"exEs": "El supermercado está abierto hasta las nueve.",
+"tag": "unidad"
+},
+"la farmacia": {
+"ex": "C'è una farmacia vicino alla stazione.",
+"exEs": "Hay una farmacia cerca de la estación.",
+"tag": "unidad"
+},
+"la stazione": {
+"ex": "La stazione è lontana da qui.",
+"exEs": "La estación está lejos de aquí.",
+"tag": "frecuente"
+},
+"il parco": {
+"ex": "Nel parco ci sono molti bambini.",
+"exEs": "En el parque hay muchos niños.",
+"tag": "frecuente"
+},
+"vicino": {
+"ex": "La scuola è vicino a casa mia.",
+"exEs": "La escuela está cerca de mi casa.",
+"tag": "frecuente"
+},
+"lontano": {
+"ex": "Il mare è lontano.",
+"exEs": "El mar está lejos.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "avere",
+"es": "tener / haber",
+"ex": "Ho una sorella e due fratelli.",
+"exEs": "Tengo una hermana y dos hermanos.",
+"tag": "frecuente",
+"n": 212,
+"part": "A"
+},
+{
+"it": "il libro",
+"es": "el libro",
+"ex": "Sul tavolo c'è un libro.",
+"exEs": "Sobre la mesa hay un libro.",
+"tag": "frecuente",
+"n": 677,
+"part": "B"
+},
+{
+"it": "la cosa",
+"es": "la cosa",
+"ex": "Che cosa c'è nella borsa?",
+"exEs": "¿Qué hay en el bolso?",
+"tag": "frecuente",
+"n": 21,
+"part": "A"
+},
+{
+"it": "l'uomo",
+"es": "el hombre",
+"ex": "Un uomo è alla porta.",
+"exEs": "Un hombre está en la puerta.",
+"tag": "frecuente",
+"n": 159,
+"part": "B"
+},
+{
+"it": "la donna",
+"es": "la mujer",
+"ex": "Una donna parla con il cameriere.",
+"exEs": "Una mujer habla con el camarero.",
+"tag": "frecuente",
+"n": 271,
+"part": "A"
+},
+{
+"it": "il bambino",
+"es": "el niño",
+"ex": "Il bambino gioca nel parco.",
+"exEs": "El niño juega en el parque.",
+"tag": "frecuente",
+"n": 362,
+"part": "B"
+},
+{
+"it": "la bambina",
+"es": "la niña",
+"ex": "La bambina ha un cane.",
+"exEs": "La niña tiene un perro.",
+"tag": "frecuente",
+"n": 754,
+"part": "A"
+},
+{
+"it": "il ragazzo",
+"es": "el chico",
+"ex": "Il ragazzo è nel soggiorno.",
+"exEs": "El chico está en la sala.",
+"tag": "frecuente",
+"n": 279,
+"part": "B"
+},
+{
+"it": "la ragazza",
+"es": "la chica",
+"ex": "La ragazza abita in questo quartiere.",
+"exEs": "La chica vive en este barrio.",
+"tag": "frecuente",
+"n": 276,
+"part": "A"
+},
+{
+"it": "il posto",
+"es": "el lugar / el asiento",
+"ex": "C'è un posto libero?",
+"exEs": "¿Hay un asiento libre?",
+"tag": "frecuente",
+"n": 166,
+"part": "B"
+},
+{
+"it": "il mondo",
+"es": "el mundo",
+"ex": "Il mondo è grande.",
+"exEs": "El mundo es grande.",
+"tag": "frecuente",
+"n": 266,
+"part": "A"
+},
+{
+"it": "la vita",
+"es": "la vida",
+"ex": "La vita in città è cara.",
+"exEs": "La vida en la ciudad es cara.",
+"tag": "frecuente",
+"n": 137,
+"part": "B"
+},
+{
+"it": "la macchina",
+"es": "el auto",
+"ex": "La macchina è davanti a casa.",
+"exEs": "El auto está delante de la casa.",
+"tag": "frecuente",
+"n": 350,
+"part": "A"
+},
+{
+"it": "la mano",
+"es": "la mano",
+"ex": "Ho una borsa in mano.",
+"exEs": "Tengo una bolsa en la mano.",
+"tag": "frecuente",
+"n": 356,
+"part": "B"
+},
+{
+"it": "la testa",
+"es": "la cabeza",
+"ex": "Ho mal di testa.",
+"exEs": "Me duele la cabeza.",
+"tag": "frecuente",
+"n": 291,
+"part": "A"
+},
+{
+"it": "qui",
+"es": "aquí",
+"ex": "Siediti qui, per favore.",
+"exEs": "Siéntate aquí, por favor.",
+"tag": "frecuente",
+"n": 35,
+"part": "B"
+},
+{
+"it": "là",
+"es": "allá",
+"ex": "Il bagno è là.",
+"exEs": "El baño está allá.",
+"tag": "frecuente",
+"n": 588,
+"part": "A"
+},
+{
+"it": "dentro",
+"es": "dentro",
+"ex": "La chiave è dentro la borsa.",
+"exEs": "La llave está dentro de el bolso.",
+"tag": "frecuente",
+"n": 250,
+"part": "B"
+},
+{
+"it": "c'è",
+"es": "hay (singular)",
+"ex": "In casa c'è un balcone.",
+"exEs": "En la casa hay un balcón.",
+"tag": "unidad",
+"n": null,
+"part": "A"
+},
+{
+"it": "ci sono",
+"es": "hay (plural)",
+"ex": "In cucina ci sono due sedie.",
+"exEs": "En la cocina hay dos sillas.",
+"tag": "unidad",
+"n": 31,
+"part": "B"
+},
+{
+"it": "l'armadio",
+"es": "el armario",
+"ex": "I vestiti sono nell'armadio.",
+"exEs": "La ropa está en el armario.",
+"tag": "unidad",
+"n": 3309,
+"part": "A"
+},
+{
+"it": "il divano",
+"es": "el sofá",
+"ex": "Il divano è nel soggiorno.",
+"exEs": "El sofá está en la sala.",
+"tag": "unidad",
+"n": 2417,
+"part": "B"
+},
+{
+"it": "la scrivania",
+"es": "el escritorio",
+"ex": "Studio alla scrivania.",
+"exEs": "Estudio en el escritorio.",
+"tag": "unidad",
+"n": 2427,
+"part": "A"
+},
+{
+"it": "il frigorifero",
+"es": "el refrigerador",
+"ex": "Il latte è nel frigorifero.",
+"exEs": "La leche está en el refrigerador.",
+"tag": "unidad",
+"n": 8660,
+"part": "B"
+},
+{
+"it": "la doccia",
+"es": "la ducha",
+"ex": "Faccio la doccia la mattina.",
+"exEs": "Me doy una ducha en la mañana.",
+"tag": "unidad",
+"n": 2014,
+"part": "A"
+},
+{
+"it": "il balcone",
+"es": "el balcón",
+"ex": "Sul balcone ci sono dei fiori.",
+"exEs": "En el balcón hay flores.",
+"tag": "unidad",
+"n": 8974,
+"part": "B"
+},
+{
+"it": "la camera da letto",
+"es": "el dormitorio",
+"ex": "La camera da letto è piccola.",
+"exEs": "El dormitorio es pequeño.",
+"tag": "unidad",
+"n": 786,
+"part": "A"
+},
+{
+"it": "lo specchio",
+"es": "el espejo",
+"ex": "Mi guardo nello specchio.",
+"exEs": "Me miro en el espejo.",
+"tag": "unidad",
+"n": 3047,
+"part": "B"
+},
+{
+"it": "la banca",
+"es": "el banco",
+"ex": "La banca è in piazza.",
+"exEs": "El banco está en la plaza.",
+"tag": "unidad",
+"n": 1390,
+"part": "A"
+},
+{
+"it": "l'edificio",
+"es": "el edificio",
+"ex": "L'edificio ha cinque piani.",
+"exEs": "El edificio tiene cinco pisos.",
+"tag": "unidad",
+"n": 1455,
+"part": "B"
+}
+]
+},
+"u03": {
+"enrich": {
+"venti": {
+"ex": "Ci sono venti studenti in classe.",
+"exEs": "Hay veinte estudiantes en la clase.",
+"tag": "frecuente"
+},
+"trenta": {
+"ex": "Il caffè costa trenta centesimi.",
+"exEs": "El café cuesta treinta centavos.",
+"tag": "unidad"
+},
+"cento": {
+"ex": "Un secolo sono cento anni.",
+"exEs": "Un siglo son cien años.",
+"tag": "frecuente"
+},
+"mille": {
+"ex": "Il biglietto costa mille pesos.",
+"exEs": "El boleto cuesta mil pesos.",
+"tag": "frecuente"
+},
+"l'ora": {
+"ex": "Che ora è?",
+"exEs": "¿Qué hora es?",
+"tag": "frecuente"
+},
+"il minuto": {
+"ex": "Aspetto solo un minuto.",
+"exEs": "Espero solo un minuto.",
+"tag": "frecuente"
+},
+"mezzogiorno": {
+"ex": "A mezzogiorno pranzo con Anna.",
+"exEs": "Al mediodía almuerzo con Anna.",
+"tag": "unidad"
+},
+"mezzanotte": {
+"ex": "Il film finisce a mezzanotte.",
+"exEs": "La película termina a medianoche.",
+"tag": "frecuente"
+},
+"oggi": {
+"ex": "Oggi è sabato.",
+"exEs": "Hoy es sábado.",
+"tag": "frecuente"
+},
+"domani": {
+"ex": "Domani lavoro fino alle sei.",
+"exEs": "Mañana trabajo hasta las seis.",
+"tag": "frecuente"
+},
+"ieri": {
+"ex": "Ieri sono stato a casa.",
+"exEs": "Ayer estuve en casa.",
+"tag": "frecuente"
+},
+"la settimana": {
+"ex": "La settimana ha sette giorni.",
+"exEs": "La semana tiene siete días.",
+"tag": "frecuente"
+},
+"il mese": {
+"ex": "Questo mese lavoro molto.",
+"exEs": "Este mes trabajo mucho.",
+"tag": "frecuente"
+},
+"l'anno": {
+"ex": "L'anno ha dodici mesi.",
+"exEs": "El año tiene doce meses.",
+"tag": "frecuente"
+},
+"il giorno": {
+"ex": "Che giorno è oggi?",
+"exEs": "¿Qué día es hoy?",
+"tag": "frecuente"
+},
+"la mattina": {
+"ex": "La mattina bevo un caffè.",
+"exEs": "En la mañana tomo un café.",
+"tag": "frecuente"
+},
+"il pomeriggio": {
+"ex": "Il pomeriggio studio italiano.",
+"exEs": "En la tarde estudio italiano.",
+"tag": "frecuente"
+},
+"la sera": {
+"ex": "La sera guardo un film.",
+"exEs": "En la noche veo una película.",
+"tag": "frecuente"
+},
+"il prezzo": {
+"ex": "Il prezzo è molto buono.",
+"exEs": "El precio es muy bueno.",
+"tag": "frecuente"
+},
+"costare": {
+"ex": "Quanto costa questo libro?",
+"exEs": "¿Cuánto cuesta este libro?",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "adesso",
+"es": "ahora",
+"ex": "Adesso sono a casa.",
+"exEs": "Ahora estoy en casa.",
+"tag": "frecuente",
+"n": 157,
+"part": "A"
+},
+{
+"it": "la notte",
+"es": "la noche",
+"ex": "La notte dormo otto ore.",
+"exEs": "En la noche duermo ocho horas.",
+"tag": "frecuente",
+"n": 289,
+"part": "B"
+},
+{
+"it": "il momento",
+"es": "el momento",
+"ex": "Un momento, per favore.",
+"exEs": "Un momento, por favor.",
+"tag": "frecuente",
+"n": 218,
+"part": "A"
+},
+{
+"it": "la data",
+"es": "la fecha",
+"ex": "Qual è la data di oggi?",
+"exEs": "¿Cuál es la fecha de hoy?",
+"tag": "frecuente",
+"n": 1318,
+"part": "B"
+},
+{
+"it": "la metà",
+"es": "la mitad",
+"ex": "Mangio la metà della pizza.",
+"exEs": "Me como la mitad de la pizza.",
+"tag": "frecuente",
+"n": 1668,
+"part": "A"
+},
+{
+"it": "il quarto",
+"es": "el cuarto / el cuarto de hora",
+"ex": "Sono le tre e un quarto.",
+"exEs": "Son las tres y cuarto.",
+"tag": "frecuente",
+"n": 2374,
+"part": "B"
+},
+{
+"it": "quaranta",
+"es": "cuarenta",
+"ex": "Ho quaranta euro.",
+"exEs": "Tengo cuarenta euros.",
+"tag": "unidad",
+"n": 7809,
+"part": "A"
+},
+{
+"it": "cinquanta",
+"es": "cincuenta",
+"ex": "Il biglietto costa cinquanta euro.",
+"exEs": "El boleto cuesta cincuenta euros.",
+"tag": "unidad",
+"n": 5304,
+"part": "B"
+},
+{
+"it": "sessanta",
+"es": "sesenta",
+"ex": "Un'ora ha sessanta minuti.",
+"exEs": "Una hora tiene sesenta minutos.",
+"tag": "unidad",
+"n": 11207,
+"part": "A"
+},
+{
+"it": "settanta",
+"es": "setenta",
+"ex": "Mia nonna ha settanta anni.",
+"exEs": "Mi abuela tiene setenta años.",
+"tag": "unidad",
+"n": 15727,
+"part": "B"
+},
+{
+"it": "ottanta",
+"es": "ochenta",
+"ex": "Il treno va a ottanta chilometri all'ora.",
+"exEs": "El tren va a ochenta kilómetros por hora.",
+"tag": "unidad",
+"n": 11318,
+"part": "A"
+},
+{
+"it": "novanta",
+"es": "noventa",
+"ex": "Il libro costa novanta euro.",
+"exEs": "El libro cuesta noventa euros.",
+"tag": "unidad",
+"n": 12170,
+"part": "B"
+},
+{
+"it": "duecento",
+"es": "doscientos",
+"ex": "Ci sono duecento persone.",
+"exEs": "Hay doscientas personas.",
+"tag": "unidad",
+"n": 8688,
+"part": "A"
+},
+{
+"it": "martedì",
+"es": "martes",
+"ex": "Martedì ho lezione di italiano.",
+"exEs": "El martes tengo clase de italiano.",
+"tag": "unidad",
+"n": 6043,
+"part": "B"
+},
+{
+"it": "mercoledì",
+"es": "miércoles",
+"ex": "Mercoledì lavoro fino a tardi.",
+"exEs": "El miércoles trabajo hasta tarde.",
+"tag": "unidad",
+"n": 7377,
+"part": "A"
+},
+{
+"it": "giovedì",
+"es": "jueves",
+"ex": "Giovedì incontro un amico.",
+"exEs": "El jueves me junto con un amigo.",
+"tag": "unidad",
+"n": 5974,
+"part": "B"
+},
+{
+"it": "venerdì",
+"es": "viernes",
+"ex": "Venerdì sera esco con gli amici.",
+"exEs": "El viernes en la noche salgo con los amigos.",
+"tag": "unidad",
+"n": 3835,
+"part": "A"
+},
+{
+"it": "sabato",
+"es": "sábado",
+"ex": "Sabato mattina vado al mercato.",
+"exEs": "El sábado en la mañana voy al mercado.",
+"tag": "frecuente",
+"n": 1999,
+"part": "B"
+},
+{
+"it": "l'orologio",
+"es": "el reloj",
+"ex": "L'orologio è sul tavolo.",
+"exEs": "El reloj está sobre la mesa.",
+"tag": "unidad",
+"n": 2024,
+"part": "A"
+},
+{
+"it": "il calendario",
+"es": "el calendario",
+"ex": "Guardo il calendario: oggi è il due.",
+"exEs": "Miro el calendario: hoy es dos.",
+"tag": "unidad",
+"n": 7614,
+"part": "B"
+},
+{
+"it": "l'euro",
+"es": "el euro",
+"ex": "Un caffè costa un euro.",
+"exEs": "Un café cuesta un euro.",
+"tag": "unidad",
+"n": 4424,
+"part": "A"
+},
+{
+"it": "il centesimo",
+"es": "el centavo de euro",
+"ex": "Il caffè costa ottanta centesimi.",
+"exEs": "El café cuesta ochenta centavos.",
+"tag": "unidad",
+"n": 5685,
+"part": "B"
+},
+{
+"it": "gennaio",
+"es": "enero",
+"ex": "A gennaio fa freddo.",
+"exEs": "En enero hace frío.",
+"tag": "unidad",
+"n": 6396,
+"part": "A"
+},
+{
+"it": "dicembre",
+"es": "diciembre",
+"ex": "Il Natale è a dicembre.",
+"exEs": "La Navidad es en diciembre.",
+"tag": "unidad",
+"n": 6074,
+"part": "B"
+},
+{
+"it": "che ora è?",
+"es": "¿qué hora es?",
+"ex": "Scusi, che ora è?",
+"exEs": "Disculpe, ¿qué hora es?",
+"tag": "unidad",
+"n": 55,
+"part": "A"
+},
+{
+"it": "quanto costa?",
+"es": "¿cuánto cuesta?",
+"ex": "Quanto costa questa borsa?",
+"exEs": "¿Cuánto cuesta este bolso?",
+"tag": "unidad",
+"n": 140,
+"part": "B"
+},
+{
+"it": "a che ora?",
+"es": "¿a qué hora?",
+"ex": "A che ora è la cena?",
+"exEs": "¿A qué hora es la cena?",
+"tag": "unidad",
+"n": 3,
+"part": "A"
+},
+{
+"it": "il compleanno",
+"es": "el cumpleaños",
+"ex": "Il mio compleanno è a marzo.",
+"exEs": "Mi cumpleaños es en marzo.",
+"tag": "unidad",
+"n": 1013,
+"part": "B"
+},
+{
+"it": "il resto",
+"es": "el cambio",
+"ex": "Ecco il resto: due euro.",
+"exEs": "Aquí está el cambio: dos euros.",
+"tag": "unidad",
+"n": 582,
+"part": "A"
+},
+{
+"it": "cominciare",
+"es": "empezar",
+"ex": "La lezione comincia alle nove.",
+"exEs": "La clase empieza a las nueve.",
+"tag": "frecuente",
+"n": 1484,
+"part": "B"
+},
+{
+"it": "finire",
+"es": "terminar",
+"ex": "Il film finisce alle undici.",
+"exEs": "La película termina a las once.",
+"tag": "frecuente",
+"n": 331,
+"part": "A"
+},
+{
+"it": "durare",
+"es": "durar",
+"ex": "Il viaggio dura due ore.",
+"exEs": "El viaje dura dos horas.",
+"tag": "frecuente",
+"n": 1103,
+"part": "B"
+},
+{
+"it": "passare",
+"es": "pasar",
+"ex": "Il tempo passa in fretta.",
+"exEs": "El tiempo pasa rápido.",
+"tag": "frecuente",
+"n": 409,
+"part": "A"
+}
+]
+},
+"u04": {
+"enrich": {
+"il caffè": {
+"ex": "Prendo un caffè, per favore.",
+"exEs": "Tomo un café, por favor.",
+"tag": "frecuente"
+},
+"il cappuccino": {
+"ex": "Al mattino bevo un cappuccino.",
+"exEs": "En la mañana tomo un capuchino.",
+"tag": "unidad"
+},
+"il cornetto": {
+"ex": "Vorrei un cornetto alla crema.",
+"exEs": "Quisiera un croissant de crema.",
+"tag": "unidad"
+},
+"l'acqua": {
+"ex": "Un'acqua naturale, grazie.",
+"exEs": "Un agua sin gas, gracias.",
+"tag": "frecuente"
+},
+"il vino": {
+"ex": "Un bicchiere di vino rosso.",
+"exEs": "Un vaso de vino tinto.",
+"tag": "frecuente"
+},
+"la birra": {
+"ex": "Una birra piccola, per favore.",
+"exEs": "Una cerveza chica, por favor.",
+"tag": "frecuente"
+},
+"il panino": {
+"ex": "Mangio un panino con il formaggio.",
+"exEs": "Como un sándwich con queso.",
+"tag": "frecuente"
+},
+"la pasta": {
+"ex": "La pasta è pronta.",
+"exEs": "La pasta está lista.",
+"tag": "unidad"
+},
+"il conto": {
+"ex": "Il conto, per favore.",
+"exEs": "La cuenta, por favor.",
+"tag": "frecuente"
+},
+"il menù": {
+"ex": "Posso avere il menù?",
+"exEs": "¿Puedo ver el menú?",
+"tag": "unidad"
+},
+"il cameriere": {
+"ex": "Il cameriere porta il caffè.",
+"exEs": "El camarero trae el café.",
+"tag": "unidad"
+},
+"la colazione": {
+"ex": "Faccio colazione alle sette.",
+"exEs": "Desayuno a las siete.",
+"tag": "frecuente"
+},
+"il pranzo": {
+"ex": "A pranzo mangio pasta.",
+"exEs": "Al almuerzo como pasta.",
+"tag": "frecuente"
+},
+"la cena": {
+"ex": "La cena è alle otto.",
+"exEs": "La cena es a las ocho.",
+"tag": "frecuente"
+},
+"l'antipasto": {
+"ex": "Come antipasto prendo il prosciutto.",
+"exEs": "De entrada pido jamón.",
+"tag": "unidad"
+},
+"il dolce": {
+"ex": "Come dolce, un gelato.",
+"exEs": "De postre, un helado.",
+"tag": "frecuente"
+},
+"il bicchiere": {
+"ex": "Un bicchiere d'acqua, per favore.",
+"exEs": "Un vaso de agua, por favor.",
+"tag": "frecuente"
+},
+"la bottiglia": {
+"ex": "Una bottiglia di acqua frizzante.",
+"exEs": "Una botella de agua con gas.",
+"tag": "frecuente"
+},
+"prenotare": {
+"ex": "Vorrei prenotare un tavolo per due.",
+"exEs": "Quisiera reservar una mesa para dos.",
+"tag": "unidad"
+},
+"vorrei": {
+"ex": "Vorrei un caffè, per favore.",
+"exEs": "Quisiera un café, por favor.",
+"tag": "frecuente"
+},
+"qualcos'altro": {
+"ex": "Desidera qualcos'altro?",
+"exEs": "¿Desea algo más?",
+"tag": "unidad"
+}
+},
+"extra": [
+{
+"it": "volere",
+"es": "querer",
+"ex": "Voglio un panino.",
+"exEs": "Quiero un sándwich.",
+"tag": "frecuente",
+"n": 689
+},
+{
+"it": "potere",
+"es": "poder",
+"ex": "Posso avere il conto?",
+"exEs": "¿Puedo pedir la cuenta?",
+"tag": "frecuente",
+"n": 507
+},
+{
+"it": "dovere",
+"es": "deber / tener que",
+"ex": "Devo prenotare un tavolo.",
+"exEs": "Tengo que reservar una mesa.",
+"tag": "frecuente",
+"n": 108
+},
+{
+"it": "il tè",
+"es": "el té",
+"ex": "Bevo un tè caldo.",
+"exEs": "Tomo un té caliente.",
+"tag": "frecuente",
+"n": 2242
+},
+{
+"it": "il cibo",
+"es": "la comida",
+"ex": "Il cibo italiano è buono.",
+"exEs": "La comida italiana es buena.",
+"tag": "frecuente",
+"n": 770
+},
+{
+"it": "la fame",
+"es": "el hambre",
+"ex": "Ho molta fame.",
+"exEs": "Tengo mucha hambre.",
+"tag": "frecuente",
+"n": 945
+},
+{
+"it": "la sete",
+"es": "la sed",
+"ex": "Ho sete: vorrei dell'acqua.",
+"exEs": "Tengo sed: quisiera agua.",
+"tag": "unidad",
+"n": 3946
+},
+{
+"it": "aperto",
+"es": "abierto",
+"ex": "Il bar è aperto.",
+"exEs": "El bar está abierto.",
+"tag": "frecuente",
+"n": 1184
+},
+{
+"it": "chiuso",
+"es": "cerrado",
+"ex": "Il ristorante è chiuso.",
+"exEs": "El restaurante está cerrado.",
+"tag": "frecuente",
+"n": 967
+},
+{
+"it": "buono",
+"es": "rico / bueno",
+"ex": "Il caffè è buono.",
+"exEs": "El café está rico.",
+"tag": "frecuente",
+"n": 703
+},
+{
+"it": "il pasto",
+"es": "la comida (una comida)",
+"ex": "Il pranzo è il pasto principale.",
+"exEs": "El almuerzo es la comida principal.",
+"tag": "unidad",
+"n": 3765
+},
+{
+"it": "il bar",
+"es": "el bar / la cafetería",
+"ex": "Ci vediamo al bar.",
+"exEs": "Nos vemos en el bar.",
+"tag": "frecuente",
+"n": 971
+},
+{
+"it": "offrire",
+"es": "invitar / ofrecer",
+"ex": "Offro io il caffè.",
+"exEs": "Yo invito el café.",
+"tag": "frecuente",
+"n": 3365
+},
+{
+"it": "naturale",
+"es": "natural / sin gas",
+"ex": "Un'acqua naturale, per favore.",
+"exEs": "Un agua sin gas, por favor.",
+"tag": "frecuente",
+"n": 2079
+},
+{
+"it": "il succo",
+"es": "el jugo",
+"ex": "Un succo d'arancia, grazie.",
+"exEs": "Un jugo de naranja, gracias.",
+"tag": "unidad",
+"n": 3638
+},
+{
+"it": "assaggiare",
+"es": "probar (comida)",
+"ex": "Vuoi assaggiare la torta?",
+"exEs": "¿Quieres probar la torta?",
+"tag": "unidad",
+"n": 8323
+},
+{
+"it": "la cassa",
+"es": "la caja",
+"ex": "Si paga alla cassa.",
+"exEs": "Se paga en la caja.",
+"tag": "unidad",
+"n": 3626
+},
+{
+"it": "la pizza",
+"es": "la pizza",
+"ex": "Vorrei una pizza margherita.",
+"exEs": "Quisiera una pizza margarita.",
+"tag": "frecuente",
+"n": 2369
+},
+{
+"it": "squisito",
+"es": "exquisito",
+"ex": "Il dolce è squisito.",
+"exEs": "El postre está exquisito.",
+"tag": "unidad",
+"n": 13586
+},
+{
+"it": "la tazza",
+"es": "la taza",
+"ex": "Una tazza di tè, per favore.",
+"exEs": "Una taza de té, por favor.",
+"tag": "unidad",
+"n": 2539
+},
+{
+"it": "l'espresso",
+"es": "el café expreso",
+"ex": "Un espresso, grazie.",
+"exEs": "Un expreso, gracias.",
+"tag": "unidad",
+"n": 6392
+},
+{
+"it": "la mancia",
+"es": "la propina",
+"ex": "Lascio una piccola mancia.",
+"exEs": "Dejo una propina pequeña.",
+"tag": "unidad",
+"n": 7274
+},
+{
+"it": "buon appetito",
+"es": "que aproveche",
+"ex": "Buon appetito a tutti!",
+"exEs": "¡Que aproveche a todos!",
+"tag": "unidad",
+"n": 4870
+},
+{
+"it": "salute!",
+"es": "¡salud!",
+"ex": "Salute! Alla nostra!",
+"exEs": "¡Salud! ¡Por nosotros!",
+"tag": "unidad",
+"n": null
+},
+{
+"it": "in contanti",
+"es": "en efectivo",
+"ex": "Pago in contanti.",
+"exEs": "Pago en efectivo.",
+"tag": "unidad",
+"n": 2738
+},
+{
+"it": "la carta di credito",
+"es": "la tarjeta de crédito",
+"ex": "Posso pagare con la carta di credito?",
+"exEs": "¿Puedo pagar con tarjeta de crédito?",
+"tag": "unidad",
+"n": 2366
+},
+{
+"it": "frizzante",
+"es": "con gas",
+"ex": "Un'acqua frizzante, per favore.",
+"exEs": "Un agua con gas, por favor.",
+"tag": "unidad",
+"n": 17222
+},
+{
+"it": "un tavolo per due",
+"es": "una mesa para dos",
+"ex": "Vorrei un tavolo per due.",
+"exEs": "Quisiera una mesa para dos.",
+"tag": "unidad",
+"n": 1229
+},
+{
+"it": "il caffè macchiato",
+"es": "el café con un poco de leche",
+"ex": "Prendo un caffè macchiato.",
+"exEs": "Pido un café con un poco de leche.",
+"tag": "unidad",
+"n": 11320
+},
+{
+"it": "la merenda",
+"es": "la merienda",
+"ex": "Ai bambini piace la merenda.",
+"exEs": "A los niños les gusta la merienda.",
+"tag": "unidad",
+"n": 17594
+}
+]
+},
+"u05": {
+"enrich": {
+"il treno": {
+"ex": "Il treno parte alle otto.",
+"exEs": "El tren sale a las ocho.",
+"tag": "frecuente"
+},
+"l'autobus": {
+"ex": "L'autobus è in ritardo.",
+"exEs": "El bus está atrasado.",
+"tag": "frecuente"
+},
+"la metropolitana": {
+"ex": "Prendo la metropolitana per andare al lavoro.",
+"exEs": "Tomo el metro para ir al trabajo.",
+"tag": "unidad"
+},
+"il biglietto": {
+"ex": "Vorrei un biglietto per Roma.",
+"exEs": "Quisiera un boleto para Roma.",
+"tag": "frecuente"
+},
+"la fermata": {
+"ex": "La fermata è dopo il semaforo.",
+"exEs": "La parada está después del semáforo.",
+"tag": "frecuente"
+},
+"l'aeroporto": {
+"ex": "L'aeroporto è fuori città.",
+"exEs": "El aeropuerto está fuera de la ciudad.",
+"tag": "frecuente"
+},
+"il binario": {
+"ex": "Il treno arriva al binario tre.",
+"exEs": "El tren llega al andén tres.",
+"tag": "unidad"
+},
+"a destra": {
+"ex": "Giri a destra.",
+"exEs": "Doble a la derecha.",
+"tag": "frecuente"
+},
+"a sinistra": {
+"ex": "La banca è a sinistra.",
+"exEs": "El banco está a la izquierda.",
+"tag": "frecuente"
+},
+"dritto": {
+"ex": "Vada dritto fino alla piazza.",
+"exEs": "Siga derecho hasta la plaza.",
+"tag": "frecuente"
+},
+"l'angolo": {
+"ex": "La farmacia è all'angolo.",
+"exEs": "La farmacia está en la esquina.",
+"tag": "frecuente"
+},
+"il semaforo": {
+"ex": "Al semaforo giri a destra.",
+"exEs": "En el semáforo doble a la derecha.",
+"tag": "unidad"
+},
+"la mappa": {
+"ex": "Cerco una mappa della città.",
+"exEs": "Busco un mapa de la ciudad.",
+"tag": "frecuente"
+},
+"l'uscita": {
+"ex": "L'uscita è dietro l'angolo.",
+"exEs": "La salida está a la vuelta de la esquina.",
+"tag": "frecuente"
+},
+"l'entrata": {
+"ex": "L'entrata è in via Roma.",
+"exEs": "La entrada está en la calle Roma.",
+"tag": "frecuente"
+},
+"partire": {
+"ex": "Partiamo domani mattina.",
+"exEs": "Salimos mañana en la mañana.",
+"tag": "frecuente"
+},
+"arrivare": {
+"ex": "Arrivo alle nove.",
+"exEs": "Llego a las nueve.",
+"tag": "frecuente"
+},
+"salire": {
+"ex": "Saliamo sull'autobus.",
+"exEs": "Subimos al bus.",
+"tag": "frecuente"
+},
+"scendere": {
+"ex": "Scendo alla prossima fermata.",
+"exEs": "Me bajo en la próxima parada.",
+"tag": "frecuente"
+},
+"il burro": {
+"ex": "In italiano «burro» vuol dire mantequilla.",
+"exEs": "En italiano «burro» quiere decir mantequilla.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "il centro",
+"es": "el centro",
+"ex": "Vado in centro in autobus.",
+"exEs": "Voy al centro en bus.",
+"tag": "frecuente",
+"n": 882,
+"part": "A"
+},
+{
+"it": "la direzione",
+"es": "la dirección",
+"ex": "In che direzione devo andare?",
+"exEs": "¿En qué dirección debo ir?",
+"tag": "frecuente",
+"n": 2111,
+"part": "B"
+},
+{
+"it": "il ritardo",
+"es": "el atraso",
+"ex": "Il treno ha dieci minuti di ritardo.",
+"exEs": "El tren tiene diez minutos de atraso.",
+"tag": "frecuente",
+"n": 969,
+"part": "A"
+},
+{
+"it": "l'arrivo",
+"es": "la llegada",
+"ex": "L'arrivo è alle sei.",
+"exEs": "La llegada es a las seis.",
+"tag": "frecuente",
+"n": 747,
+"part": "B"
+},
+{
+"it": "il volo",
+"es": "el vuelo",
+"ex": "Il volo parte alle dieci.",
+"exEs": "El vuelo sale a las diez.",
+"tag": "frecuente",
+"n": 1244,
+"part": "A"
+},
+{
+"it": "il taxi",
+"es": "el taxi",
+"ex": "Prendo un taxi per l'aeroporto.",
+"exEs": "Tomo un taxi al aeropuerto.",
+"tag": "frecuente",
+"n": 1741,
+"part": "B"
+},
+{
+"it": "guidare",
+"es": "conducir",
+"ex": "Mio padre guida con prudenza.",
+"exEs": "Mi padre conduce con cuidado.",
+"tag": "frecuente",
+"n": 1423,
+"part": "A"
+},
+{
+"it": "cercare",
+"es": "buscar",
+"ex": "Cerco la stazione.",
+"exEs": "Busco la estación.",
+"tag": "frecuente",
+"n": 315,
+"part": "B"
+},
+{
+"it": "indicare",
+"es": "indicar",
+"ex": "Può indicarmi la strada?",
+"exEs": "¿Puede indicarme el camino?",
+"tag": "frecuente",
+"n": 4915,
+"part": "A"
+},
+{
+"it": "lungo",
+"es": "largo (de longitud)",
+"ex": "Il viaggio è molto lungo.",
+"exEs": "El viaje es muy largo.",
+"tag": "frecuente",
+"n": 707,
+"part": "B"
+},
+{
+"it": "largo",
+"es": "ancho",
+"ex": "La strada è larga.",
+"exEs": "La calle es ancha.",
+"tag": "frecuente",
+"n": 3698,
+"part": "A"
+},
+{
+"it": "il traffico",
+"es": "el tráfico",
+"ex": "C'è molto traffico oggi.",
+"exEs": "Hay mucho tráfico hoy.",
+"tag": "frecuente",
+"n": 2436,
+"part": "B"
+},
+{
+"it": "perdersi",
+"es": "perderse",
+"ex": "Mi sono perso in centro.",
+"exEs": "Me perdí en el centro.",
+"tag": "frecuente",
+"n": 2356,
+"part": "A"
+},
+{
+"it": "il tram",
+"es": "el tranvía",
+"ex": "Il tram passa ogni dieci minuti.",
+"exEs": "El tranvía pasa cada diez minutos.",
+"tag": "unidad",
+"n": 12529,
+"part": "B"
+},
+{
+"it": "in orario",
+"es": "a la hora / puntual",
+"ex": "Il treno è in orario.",
+"exEs": "El tren está a la hora.",
+"tag": "frecuente",
+"n": 3410,
+"part": "A"
+},
+{
+"it": "a piedi",
+"es": "a pie",
+"ex": "Vado a scuola a piedi.",
+"exEs": "Voy a la escuela a pie.",
+"tag": "unidad",
+"n": 567,
+"part": "B"
+},
+{
+"it": "il passaporto",
+"es": "el pasaporte",
+"ex": "Ho il passaporto nella borsa.",
+"exEs": "Tengo el pasaporte en el bolso.",
+"tag": "unidad",
+"n": 4615,
+"part": "A"
+},
+{
+"it": "la coincidenza",
+"es": "la combinación / el transbordo",
+"ex": "Perdo la coincidenza a Milano.",
+"exEs": "Pierdo la combinación en Milán.",
+"tag": "unidad",
+"n": 2987,
+"part": "B"
+},
+{
+"it": "la bicicletta",
+"es": "la bicicleta",
+"ex": "Vado al lavoro in bicicletta.",
+"exEs": "Voy al trabajo en bicicleta.",
+"tag": "unidad",
+"n": 5112,
+"part": "A"
+},
+{
+"it": "parcheggiare",
+"es": "estacionar",
+"ex": "Non posso parcheggiare qui.",
+"exEs": "No puedo estacionar aquí.",
+"tag": "unidad",
+"n": 2512,
+"part": "B"
+},
+{
+"it": "la patente",
+"es": "la licencia de conducir",
+"ex": "Ho la patente da due anni.",
+"exEs": "Tengo la licencia de conducir hace dos años.",
+"tag": "unidad",
+"n": 4065,
+"part": "A"
+},
+{
+"it": "la benzina",
+"es": "la gasolina",
+"ex": "La macchina ha poca benzina.",
+"exEs": "El auto tiene poca gasolina.",
+"tag": "unidad",
+"n": 3010,
+"part": "B"
+},
+{
+"it": "il cartello",
+"es": "el letrero",
+"ex": "Leggo il cartello all'ingresso.",
+"exEs": "Leo el letrero en la entrada.",
+"tag": "unidad",
+"n": 3671,
+"part": "A"
+},
+{
+"it": "il pedone",
+"es": "el peatón",
+"ex": "Il pedone attraversa la strada.",
+"exEs": "El peatón cruza la calle.",
+"tag": "unidad",
+"n": 21569,
+"part": "B"
+},
+{
+"it": "andata e ritorno",
+"es": "ida y vuelta",
+"ex": "Un biglietto di andata e ritorno, per favore.",
+"exEs": "Un boleto de ida y vuelta, por favor.",
+"tag": "unidad",
+"n": 1431,
+"part": "A"
+},
+{
+"it": "il mezzo di trasporto",
+"es": "el medio de transporte",
+"ex": "Il treno è il mio mezzo preferito.",
+"exEs": "El tren es mi medio preferido.",
+"tag": "unidad",
+"n": 4742,
+"part": "B"
+},
+{
+"it": "il capolinea",
+"es": "el término de la línea",
+"ex": "Scendo al capolinea.",
+"exEs": "Me bajo en el término de la línea.",
+"tag": "unidad",
+"n": 19651,
+"part": "A"
+},
+{
+"it": "convalidare",
+"es": "validar (el boleto)",
+"ex": "Devi convalidare il biglietto.",
+"exEs": "Tienes que validar el boleto.",
+"tag": "unidad",
+"n": null,
+"part": "B"
+},
+{
+"it": "il turista",
+"es": "el turista",
+"ex": "Il turista chiede la strada.",
+"exEs": "El turista pregunta por el camino.",
+"tag": "unidad",
+"n": 12684,
+"part": "A"
+},
+{
+"it": "la prossima fermata",
+"es": "la próxima parada",
+"ex": "Scendiamo alla prossima fermata.",
+"exEs": "Nos bajamos en la próxima parada.",
+"tag": "unidad",
+"n": 3226,
+"part": "B"
+}
+]
+},
+"u06": {
+"enrich": {
+"rosso": {
+"ex": "La macchina rossa è mia.",
+"exEs": "El auto rojo es mío.",
+"tag": "frecuente"
+},
+"giallo": {
+"ex": "Il sole è giallo.",
+"exEs": "El sol es amarillo.",
+"tag": "frecuente"
+},
+"verde": {
+"ex": "Mi piace la giacca verde.",
+"exEs": "Me gusta la chaqueta verde.",
+"tag": "frecuente"
+},
+"azzurro": {
+"ex": "Il cielo è azzurro.",
+"exEs": "El cielo es celeste.",
+"tag": "frecuente"
+},
+"bianco": {
+"ex": "Porto una camicia bianca.",
+"exEs": "Llevo una camisa blanca.",
+"tag": "frecuente"
+},
+"nero": {
+"ex": "Ho una borsa nera.",
+"exEs": "Tengo un bolso negra.",
+"tag": "frecuente"
+},
+"grigio": {
+"ex": "Il cappotto grigio è elegante.",
+"exEs": "El abrigo gris es elegante.",
+"tag": "frecuente"
+},
+"marrone": {
+"ex": "Le scarpe marroni costano poco.",
+"exEs": "Los zapatos cafés cuestan poco.",
+"tag": "unidad"
+},
+"la maglietta": {
+"ex": "Compro una maglietta blu.",
+"exEs": "Compro una camiseta azul.",
+"tag": "frecuente"
+},
+"la camicia": {
+"ex": "La camicia è troppo stretta.",
+"exEs": "La camisa es demasiado ajustada.",
+"tag": "frecuente"
+},
+"i pantaloni": {
+"ex": "I pantaloni sono lunghi.",
+"exEs": "Los pantalones son largos.",
+"tag": "frecuente"
+},
+"la gonna": {
+"ex": "La gonna è corta.",
+"exEs": "La falda es corta.",
+"tag": "unidad"
+},
+"il vestito": {
+"ex": "Il vestito è molto bello.",
+"exEs": "El vestido es muy bonito.",
+"tag": "frecuente"
+},
+"la giacca": {
+"ex": "Che bella giacca!",
+"exEs": "¡Qué bonita chaqueta!",
+"tag": "frecuente"
+},
+"le scarpe": {
+"ex": "Le scarpe nuove sono comode.",
+"exEs": "Los zapatos nuevos son cómodos.",
+"tag": "frecuente"
+},
+"la borsa": {
+"ex": "La borsa è sul letto.",
+"exEs": "La bolso está sobre la cama.",
+"tag": "frecuente"
+},
+"il cappello": {
+"ex": "Il cappello è di mio nonno.",
+"exEs": "El sombrero es de mi abuelo.",
+"tag": "frecuente"
+},
+"la taglia": {
+"ex": "Che taglia porta?",
+"exEs": "¿Qué talla usa?",
+"tag": "frecuente"
+},
+"il negozio": {
+"ex": "Il negozio apre alle nove.",
+"exEs": "La tienda abre a las nueve.",
+"tag": "frecuente"
+},
+"il camerino": {
+"ex": "Posso provare nel camerino?",
+"exEs": "¿Puedo probarme esto en el probador?",
+"tag": "unidad"
+}
+},
+"extra": [
+{
+"it": "il colore",
+"es": "el color",
+"ex": "Che colore preferisci?",
+"exEs": "¿Qué color prefieres?",
+"tag": "frecuente",
+"n": 1598,
+"part": "A"
+},
+{
+"it": "grande",
+"es": "grande",
+"ex": "Questa borsa è troppo grande.",
+"exEs": "Esta bolso es demasiado grande.",
+"tag": "frecuente",
+"n": 227,
+"part": "B"
+},
+{
+"it": "piccolo",
+"es": "pequeño",
+"ex": "Cerco una taglia più piccola.",
+"exEs": "Busco una talla más pequeña.",
+"tag": "frecuente",
+"n": 446,
+"part": "A"
+},
+{
+"it": "nuovo",
+"es": "nuevo",
+"ex": "Ho un vestito nuovo.",
+"exEs": "Tengo un vestido nuevo.",
+"tag": "frecuente",
+"n": 199,
+"part": "B"
+},
+{
+"it": "bello",
+"es": "bonito",
+"ex": "È una giacca molto bella.",
+"exEs": "Es una chaqueta muy bonita.",
+"tag": "frecuente",
+"n": 309,
+"part": "A"
+},
+{
+"it": "brutto",
+"es": "feo",
+"ex": "Il cappello è brutto.",
+"exEs": "El sombrero es feo.",
+"tag": "frecuente",
+"n": 889,
+"part": "B"
+},
+{
+"it": "corto",
+"es": "corto",
+"ex": "I capelli di Anna sono corti.",
+"exEs": "El pelo de Anna es corto.",
+"tag": "frecuente",
+"n": 3585,
+"part": "A"
+},
+{
+"it": "stretto",
+"es": "ajustado / angosto",
+"ex": "Queste scarpe sono strette.",
+"exEs": "Estos zapatos están apretados.",
+"tag": "frecuente",
+"n": 3219,
+"part": "B"
+},
+{
+"it": "comodo",
+"es": "cómodo",
+"ex": "Il divano è comodo.",
+"exEs": "El sofá es cómodo.",
+"tag": "frecuente",
+"n": 2516,
+"part": "A"
+},
+{
+"it": "mio",
+"es": "mío / mi",
+"ex": "Questo è il mio cappotto.",
+"exEs": "Este es mi abrigo.",
+"tag": "frecuente",
+"n": 40,
+"part": "B"
+},
+{
+"it": "tuo",
+"es": "tuyo / tu",
+"ex": "È tua questa borsa?",
+"exEs": "¿Es tuya este bolso?",
+"tag": "frecuente",
+"n": 81,
+"part": "A"
+},
+{
+"it": "suo",
+"es": "suyo / su",
+"ex": "La sua giacca è nera.",
+"exEs": "Su chaqueta es negra.",
+"tag": "frecuente",
+"n": 92,
+"part": "B"
+},
+{
+"it": "nostro",
+"es": "nuestro",
+"ex": "Il nostro negozio è in centro.",
+"exEs": "Nuestra tienda está en el centro.",
+"tag": "frecuente",
+"n": 224,
+"part": "A"
+},
+{
+"it": "questo",
+"es": "este",
+"ex": "Questo vestito mi piace.",
+"exEs": "Este vestido me gusta.",
+"tag": "frecuente",
+"n": 33,
+"part": "B"
+},
+{
+"it": "quello",
+"es": "aquel / ese",
+"ex": "Quella camicia è bella.",
+"exEs": "Esa camisa es bonita.",
+"tag": "frecuente",
+"n": 65,
+"part": "A"
+},
+{
+"it": "blu",
+"es": "azul oscuro",
+"ex": "Porto un cappotto blu.",
+"exEs": "Llevo un abrigo azul.",
+"tag": "frecuente",
+"n": 1483,
+"part": "B"
+},
+{
+"it": "indossare",
+"es": "vestir / ponerse",
+"ex": "Oggi indosso una giacca nera.",
+"exEs": "Hoy visto una chaqueta negra.",
+"tag": "frecuente",
+"n": 2744,
+"part": "A"
+},
+{
+"it": "rosa",
+"es": "rosado",
+"ex": "La maglietta rosa è nuova.",
+"exEs": "La camiseta rosada es nueva.",
+"tag": "unidad",
+"n": 2011,
+"part": "B"
+},
+{
+"it": "arancione",
+"es": "naranjo",
+"ex": "Mi piace il colore arancione.",
+"exEs": "Me gusta el color naranjo.",
+"tag": "unidad",
+"n": 8696,
+"part": "A"
+},
+{
+"it": "viola",
+"es": "morado",
+"ex": "Porto una sciarpa viola.",
+"exEs": "Llevo una bufanda morada.",
+"tag": "unidad",
+"n": 5342,
+"part": "B"
+},
+{
+"it": "il cappotto",
+"es": "el abrigo",
+"ex": "Il cappotto è caldo.",
+"exEs": "El abrigo es abrigado.",
+"tag": "unidad",
+"n": 4156,
+"part": "A"
+},
+{
+"it": "il maglione",
+"es": "el suéter",
+"ex": "Questo maglione è di lana.",
+"exEs": "Este suéter es de lana.",
+"tag": "unidad",
+"n": 7481,
+"part": "B"
+},
+{
+"it": "i jeans",
+"es": "los jeans",
+"ex": "I jeans sono troppo larghi.",
+"exEs": "Los jeans son demasiado anchos.",
+"tag": "unidad",
+"n": 5640,
+"part": "A"
+},
+{
+"it": "i calzini",
+"es": "los calcetines",
+"ex": "Cerco dei calzini bianchi.",
+"exEs": "Busco calcetines blancos.",
+"tag": "unidad",
+"n": 6308,
+"part": "B"
+},
+{
+"it": "la sciarpa",
+"es": "la bufanda",
+"ex": "La sciarpa è di mia madre.",
+"exEs": "La bufanda es de mi madre.",
+"tag": "unidad",
+"n": 8910,
+"part": "A"
+},
+{
+"it": "lo sconto",
+"es": "el descuento",
+"ex": "C'è uno sconto del dieci per cento.",
+"exEs": "Hay un descuento del diez por ciento.",
+"tag": "unidad",
+"n": 6422,
+"part": "B"
+},
+{
+"it": "il commesso",
+"es": "el vendedor",
+"ex": "Il commesso mi aiuta a scegliere.",
+"exEs": "El vendedor me ayuda a elegir.",
+"tag": "unidad",
+"n": 2218,
+"part": "A"
+},
+{
+"it": "stare bene",
+"es": "quedar bien",
+"ex": "Ti sta bene questo vestito.",
+"exEs": "Te queda bien este vestido.",
+"tag": "unidad",
+"n": 70,
+"part": "B"
+},
+{
+"it": "la cintura",
+"es": "el cinturón / la cintura",
+"ex": "Cerco una cintura nera.",
+"exEs": "Busco un cinturón negro.",
+"tag": "unidad",
+"n": 3643,
+"part": "A"
+},
+{
+"it": "i saldi",
+"es": "las liquidaciones",
+"ex": "A gennaio ci sono i saldi.",
+"exEs": "En enero hay liquidaciones.",
+"tag": "unidad",
+"n": 16358,
+"part": "B"
+}
+]
+},
+"u07": {
+"enrich": {
+"svegliarsi": {
+"ex": "Mi sveglio alle sette.",
+"exEs": "Me despierto a las siete.",
+"tag": "frecuente"
+},
+"alzarsi": {
+"ex": "Mi alzo subito.",
+"exEs": "Me levanto de inmediato.",
+"tag": "frecuente"
+},
+"lavarsi": {
+"ex": "Mi lavo con l'acqua fredda.",
+"exEs": "Me lavo con agua fría.",
+"tag": "unidad"
+},
+"vestirsi": {
+"ex": "Mi vesto in cinque minuti.",
+"exEs": "Me visto en cinco minutos.",
+"tag": "frecuente"
+},
+"pettinarsi": {
+"ex": "Mi pettino davanti allo specchio.",
+"exEs": "Me peino frente al espejo.",
+"tag": "unidad"
+},
+"farsi la doccia": {
+"ex": "Mi faccio la doccia la sera.",
+"exEs": "Me ducho en la noche.",
+"tag": "frecuente"
+},
+"addormentarsi": {
+"ex": "Mi addormento tardi.",
+"exEs": "Me duermo tarde.",
+"tag": "unidad"
+},
+"riposarsi": {
+"ex": "Domenica mi riposo a casa.",
+"exEs": "El domingo descanso en casa.",
+"tag": "frecuente"
+},
+"lavorare": {
+"ex": "Lavoro in un ufficio.",
+"exEs": "Trabajo en una oficina.",
+"tag": "frecuente"
+},
+"studiare": {
+"ex": "Studio italiano ogni sera.",
+"exEs": "Estudio italiano cada noche.",
+"tag": "frecuente"
+},
+"tornare": {
+"ex": "Torno a casa alle sei.",
+"exEs": "Vuelvo a casa a las seis.",
+"tag": "frecuente"
+},
+"cucinare": {
+"ex": "Mi piace cucinare per gli amici.",
+"exEs": "Me gusta cocinar para los amigos.",
+"tag": "frecuente"
+},
+"presto": {
+"ex": "Mi alzo presto.",
+"exEs": "Me levanto temprano.",
+"tag": "frecuente"
+},
+"tardi": {
+"ex": "Oggi è tardi: devo andare.",
+"exEs": "Hoy es tarde: tengo que irme.",
+"tag": "frecuente"
+},
+"di solito": {
+"ex": "Di solito faccio colazione al bar.",
+"exEs": "Normalmente desayuno en el bar.",
+"tag": "frecuente"
+},
+"prima": {
+"ex": "Prima mi lavo, poi faccio colazione.",
+"exEs": "Primero me lavo, después desayuno.",
+"tag": "frecuente"
+},
+"poi": {
+"ex": "Prima studio, poi esco.",
+"exEs": "Primero estudio, después salgo.",
+"tag": "frecuente"
+},
+"dopo": {
+"ex": "Dopo cena guardo la TV.",
+"exEs": "Después de la cena veo televisión.",
+"tag": "frecuente"
+},
+"stanco": {
+"ex": "Sono stanco dopo il lavoro.",
+"exEs": "Estoy cansado después del trabajo.",
+"tag": "frecuente"
+},
+"subito": {
+"ex": "Vengo subito!",
+"exEs": "¡Voy de inmediato!",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "dormire",
+"es": "dormir",
+"ex": "Dormo sette ore ogni notte.",
+"exEs": "Duermo siete horas cada noche.",
+"tag": "frecuente",
+"n": 713,
+"part": "A"
+},
+{
+"it": "preparare",
+"es": "preparar",
+"ex": "Preparo la colazione per tutti.",
+"exEs": "Preparo el desayuno para todos.",
+"tag": "frecuente",
+"n": 2110,
+"part": "B"
+},
+{
+"it": "pulire",
+"es": "limpiar",
+"ex": "Pulisco la casa il sabato.",
+"exEs": "Limpio la casa los sábados.",
+"tag": "frecuente",
+"n": 2265,
+"part": "A"
+},
+{
+"it": "lavare",
+"es": "lavar",
+"ex": "Lavo i piatti dopo cena.",
+"exEs": "Lavo los platos después de la cena.",
+"tag": "unidad",
+"n": 5300,
+"part": "B"
+},
+{
+"it": "mettersi",
+"es": "ponerse",
+"ex": "Mi metto le scarpe e esco.",
+"exEs": "Me pongo los zapatos y salgo.",
+"tag": "frecuente",
+"n": 843,
+"part": "A"
+},
+{
+"it": "sedersi",
+"es": "sentarse",
+"ex": "Mi siedo sul divano.",
+"exEs": "Me siento en el sofá.",
+"tag": "unidad",
+"n": 1516,
+"part": "B"
+},
+{
+"it": "sentirsi",
+"es": "sentirse",
+"ex": "Mi sento molto bene oggi.",
+"exEs": "Me siento muy bien hoy.",
+"tag": "frecuente",
+"n": 229,
+"part": "A"
+},
+{
+"it": "chiamarsi",
+"es": "llamarse",
+"ex": "Come ti chiami?",
+"exEs": "¿Cómo te llamas?",
+"tag": "frecuente",
+"n": 444,
+"part": "B"
+},
+{
+"it": "il sonno",
+"es": "el sueño",
+"ex": "Ho molto sonno.",
+"exEs": "Tengo mucho sueño.",
+"tag": "frecuente",
+"n": 2633,
+"part": "A"
+},
+{
+"it": "la pausa",
+"es": "la pausa / el descanso",
+"ex": "Faccio una pausa di dieci minuti.",
+"exEs": "Hago una pausa de diez minutos.",
+"tag": "frecuente",
+"n": 1549,
+"part": "B"
+},
+{
+"it": "l'ufficio",
+"es": "la oficina",
+"ex": "L'ufficio è in centro.",
+"exEs": "La oficina está en el centro.",
+"tag": "frecuente",
+"n": 527,
+"part": "A"
+},
+{
+"it": "la lezione",
+"es": "la clase",
+"ex": "La lezione comincia alle nove.",
+"exEs": "La clase empieza a las nueve.",
+"tag": "frecuente",
+"n": 1304,
+"part": "B"
+},
+{
+"it": "la giornata",
+"es": "el día (su duración)",
+"ex": "È stata una bella giornata.",
+"exEs": "Fue un bonito día.",
+"tag": "frecuente",
+"n": 701,
+"part": "A"
+},
+{
+"it": "il fine settimana",
+"es": "el fin de semana",
+"ex": "Nel fine settimana resto a casa.",
+"exEs": "El fin de semana me quedo en casa.",
+"tag": "frecuente",
+"n": 420,
+"part": "B"
+},
+{
+"it": "la spesa",
+"es": "las compras (de comida)",
+"ex": "Faccio la spesa il sabato.",
+"exEs": "Hago las compras el sábado.",
+"tag": "frecuente",
+"n": 4168,
+"part": "A"
+},
+{
+"it": "togliersi",
+"es": "sacarse",
+"ex": "Mi tolgo il cappotto.",
+"exEs": "Me saco el abrigo.",
+"tag": "unidad",
+"n": 7524,
+"part": "B"
+},
+{
+"it": "divertirsi",
+"es": "divertirse",
+"ex": "Ci divertiamo molto in vacanza.",
+"exEs": "Nos divertimos mucho en las vacaciones.",
+"tag": "unidad",
+"n": 2789,
+"part": "A"
+},
+{
+"it": "annoiarsi",
+"es": "aburrirse",
+"ex": "Non mi annoio mai con loro.",
+"exEs": "Nunca me aburro con ellos.",
+"tag": "unidad",
+"n": 11794,
+"part": "B"
+},
+{
+"it": "la sveglia",
+"es": "el despertador",
+"ex": "La sveglia suona alle sei.",
+"exEs": "El despertador suena a las seis.",
+"tag": "unidad",
+"n": 1687,
+"part": "A"
+},
+{
+"it": "la routine",
+"es": "la rutina",
+"ex": "La mia routine è semplice.",
+"exEs": "Mi rutina es simple.",
+"tag": "unidad",
+"n": 5859,
+"part": "B"
+},
+{
+"it": "cenare",
+"es": "cenar",
+"ex": "Ceniamo alle otto.",
+"exEs": "Cenamos a las ocho.",
+"tag": "unidad",
+"n": 592,
+"part": "A"
+},
+{
+"it": "fare la spesa",
+"es": "hacer las compras",
+"ex": "Faccio la spesa al supermercato.",
+"exEs": "Hago las compras en el supermercado.",
+"tag": "unidad",
+"n": 4168,
+"part": "B"
+},
+{
+"it": "lavarsi i denti",
+"es": "lavarse los dientes",
+"ex": "Mi lavo i denti dopo cena.",
+"exEs": "Me lavo los dientes después de la cena.",
+"tag": "unidad",
+"n": 7851,
+"part": "A"
+},
+{
+"it": "radersi",
+"es": "afeitarse",
+"ex": "Mi rado ogni mattina.",
+"exEs": "Me afeito cada mañana.",
+"tag": "unidad",
+"n": 16848,
+"part": "B"
+},
+{
+"it": "truccarsi",
+"es": "maquillarse",
+"ex": "Si trucca prima di uscire.",
+"exEs": "Ella se maquilla antes de salir.",
+"tag": "unidad",
+"n": 2336,
+"part": "A"
+},
+{
+"it": "rilassarsi",
+"es": "relajarse",
+"ex": "Mi rilasso con la musica.",
+"exEs": "Me relajo con música.",
+"tag": "unidad",
+"n": 8684,
+"part": "B"
+},
+{
+"it": "preoccuparsi",
+"es": "preocuparse",
+"ex": "Non ti preoccupare!",
+"exEs": "¡No te preocupes!",
+"tag": "unidad",
+"n": 1585,
+"part": "A"
+},
+{
+"it": "incontrarsi",
+"es": "encontrarse",
+"ex": "Ci incontriamo alle cinque.",
+"exEs": "Nos encontramos a las cinco.",
+"tag": "unidad",
+"n": 908,
+"part": "B"
+},
+{
+"it": "arrabbiarsi",
+"es": "enojarse",
+"ex": "Mio fratello si arrabbia subito.",
+"exEs": "Mi hermano se enoja rápido.",
+"tag": "unidad",
+"n": 1426,
+"part": "A"
+},
+{
+"it": "innamorarsi",
+"es": "enamorarse",
+"ex": "Si innamora facilmente.",
+"exEs": "Ella se enamora fácilmente.",
+"tag": "unidad",
+"n": 2013,
+"part": "B"
+}
+]
+},
+"u08": {
+"enrich": {
+"dove": {
+"ex": "Dove abiti?",
+"exEs": "¿Dónde vives?",
+"tag": "frecuente"
+},
+"quando": {
+"ex": "Quando parti?",
+"exEs": "¿Cuándo sales?",
+"tag": "frecuente"
+},
+"come": {
+"ex": "Come ti chiami?",
+"exEs": "¿Cómo te llamas?",
+"tag": "frecuente"
+},
+"perché": {
+"ex": "Perché studi italiano?",
+"exEs": "¿Por qué estudias italiano?",
+"tag": "frecuente"
+},
+"chi": {
+"ex": "Chi è quel ragazzo?",
+"exEs": "¿Quién es ese chico?",
+"tag": "frecuente"
+},
+"che cosa": {
+"ex": "Che cosa mangi?",
+"exEs": "¿Qué comes?",
+"tag": "frecuente"
+},
+"quanto": {
+"ex": "Quanto costa un caffè?",
+"exEs": "¿Cuánto cuesta un café?",
+"tag": "frecuente"
+},
+"quale": {
+"ex": "Quale preferisci?",
+"exEs": "¿Cuál prefieres?",
+"tag": "frecuente"
+},
+"sempre": {
+"ex": "Mangio sempre alle otto.",
+"exEs": "Siempre como a las ocho.",
+"tag": "frecuente"
+},
+"spesso": {
+"ex": "Vado spesso al cinema.",
+"exEs": "Voy a menudo al cine.",
+"tag": "frecuente"
+},
+"qualche volta": {
+"ex": "Qualche volta esco con gli amici.",
+"exEs": "A veces salgo con los amigos.",
+"tag": "frecuente"
+},
+"mai": {
+"ex": "Non vado mai in palestra.",
+"exEs": "Nunca voy al gimnasio.",
+"tag": "frecuente"
+},
+"niente": {
+"ex": "Non ho niente da fare.",
+"exEs": "No tengo nada que hacer.",
+"tag": "frecuente"
+},
+"nessuno": {
+"ex": "Non c'è nessuno in casa.",
+"exEs": "No hay nadie en la casa.",
+"tag": "frecuente"
+},
+"molto": {
+"ex": "Studio molto.",
+"exEs": "Estudio mucho.",
+"tag": "frecuente"
+},
+"poco": {
+"ex": "Ho poco tempo.",
+"exEs": "Tengo poco tiempo.",
+"tag": "frecuente"
+},
+"troppo": {
+"ex": "Questo caffè è troppo caldo.",
+"exEs": "Este café está demasiado caliente.",
+"tag": "frecuente"
+},
+"abbastanza": {
+"ex": "Parlo abbastanza bene.",
+"exEs": "Hablo bastante bien.",
+"tag": "frecuente"
+},
+"ogni giorno": {
+"ex": "Ogni giorno studio mezz'ora.",
+"exEs": "Cada día estudio media hora.",
+"tag": "frecuente"
+},
+"tutti i giorni": {
+"ex": "Tutti i giorni prendo l'autobus.",
+"exEs": "Todos los días tomo el bus.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "qualcuno",
+"es": "alguien",
+"ex": "C'è qualcuno alla porta.",
+"exEs": "Hay alguien en la puerta.",
+"tag": "frecuente",
+"n": 149
+},
+{
+"it": "nulla",
+"es": "nada (literario)",
+"ex": "Non è successo nulla.",
+"exEs": "No pasó nada.",
+"tag": "frecuente",
+"n": 269
+},
+{
+"it": "neanche",
+"es": "ni siquiera / tampoco",
+"ex": "Non ho neanche un euro.",
+"exEs": "No tengo ni un euro.",
+"tag": "frecuente",
+"n": 370
+},
+{
+"it": "solo",
+"es": "solo / solamente",
+"ex": "Ho solo cinque minuti.",
+"exEs": "Solo tengo cinco minutos.",
+"tag": "frecuente",
+"n": 39
+},
+{
+"it": "più",
+"es": "más",
+"ex": "Voglio più tempo.",
+"exEs": "Quiero más tiempo.",
+"tag": "frecuente",
+"n": 78
+},
+{
+"it": "meno",
+"es": "menos",
+"ex": "Oggi lavoro meno.",
+"exEs": "Hoy trabajo menos.",
+"tag": "frecuente",
+"n": 319
+},
+{
+"it": "tanto",
+"es": "mucho / tanto",
+"ex": "Ti voglio tanto bene.",
+"exEs": "Te quiero mucho.",
+"tag": "frecuente",
+"n": 203
+},
+{
+"it": "tutti",
+"es": "todos",
+"ex": "Tutti sono qui.",
+"exEs": "Todos están aquí.",
+"tag": "frecuente",
+"n": 72
+},
+{
+"it": "alcuni",
+"es": "algunos",
+"ex": "Alcuni amici arrivano domani.",
+"exEs": "Algunos amigos llegan mañana.",
+"tag": "frecuente",
+"n": 699
+},
+{
+"it": "altro",
+"es": "otro",
+"ex": "Vorrei un altro caffè.",
+"exEs": "Quisiera otro café.",
+"tag": "frecuente",
+"n": 120
+},
+{
+"it": "quanti",
+"es": "cuántos",
+"ex": "Quanti anni hai?",
+"exEs": "¿Cuántos años tienes?",
+"tag": "frecuente",
+"n": 607
+},
+{
+"it": "quante",
+"es": "cuántas",
+"ex": "Quante ore dormi?",
+"exEs": "¿Cuántas horas duermes?",
+"tag": "frecuente",
+"n": 988
+},
+{
+"it": "come mai",
+"es": "cómo es que",
+"ex": "Come mai sei qui?",
+"exEs": "¿Cómo es que estás aquí?",
+"tag": "frecuente",
+"n": 66
+},
+{
+"it": "con chi",
+"es": "con quién",
+"ex": "Con chi vai al cinema?",
+"exEs": "¿Con quién vas al cine?",
+"tag": "frecuente",
+"n": 75
+},
+{
+"it": "di chi",
+"es": "de quién",
+"ex": "Di chi è questa borsa?",
+"exEs": "¿De quién es este bolso?",
+"tag": "frecuente",
+"n": 75
+},
+{
+"it": "per chi",
+"es": "para quién",
+"ex": "Per chi è il regalo?",
+"exEs": "¿Para quién es el regalo?",
+"tag": "frecuente",
+"n": 75
+},
+{
+"it": "da dove",
+"es": "de dónde",
+"ex": "Da dove vieni?",
+"exEs": "¿De dónde vienes?",
+"tag": "unidad",
+"n": 108
+},
+{
+"it": "a che cosa",
+"es": "a qué",
+"ex": "A che cosa pensi?",
+"exEs": "¿En qué piensas?",
+"tag": "unidad",
+"n": 21
+},
+{
+"it": "non... più",
+"es": "ya no",
+"ex": "Non fumo più.",
+"exEs": "Ya no fumo.",
+"tag": "unidad",
+"n": 78
+},
+{
+"it": "non... ancora",
+"es": "todavía no",
+"ex": "Non ho ancora mangiato.",
+"exEs": "Todavía no he comido.",
+"tag": "unidad",
+"n": 100
+},
+{
+"it": "non... mai",
+"es": "nunca",
+"ex": "Non bevo mai caffè.",
+"exEs": "Nunca tomo café.",
+"tag": "unidad",
+"n": 66
+},
+{
+"it": "non... niente",
+"es": "nada",
+"ex": "Non voglio niente.",
+"exEs": "No quiero nada.",
+"tag": "unidad",
+"n": 93
+},
+{
+"it": "non... nessuno",
+"es": "nadie",
+"ex": "Non vedo nessuno.",
+"exEs": "No veo a nadie.",
+"tag": "unidad",
+"n": 167
+},
+{
+"it": "ogni tanto",
+"es": "de vez en cuando",
+"ex": "Ogni tanto vado al mare.",
+"exEs": "De vez en cuando voy a la playa.",
+"tag": "unidad",
+"n": 203
+},
+{
+"it": "raramente",
+"es": "rara vez",
+"ex": "Esco raramente la sera.",
+"exEs": "Rara vez salgo en la noche.",
+"tag": "unidad",
+"n": 7850
+},
+{
+"it": "affatto",
+"es": "en absoluto",
+"ex": "Non è affatto difficile.",
+"exEs": "No es difícil en absoluto.",
+"tag": "unidad",
+"n": 1173
+},
+{
+"it": "una volta alla settimana",
+"es": "una vez a la semana",
+"ex": "Vado in palestra una volta alla settimana.",
+"exEs": "Voy al gimnasio una vez a la semana.",
+"tag": "unidad",
+"n": 420
+},
+{
+"it": "che cos'è?",
+"es": "¿qué es?",
+"ex": "Che cos'è questo?",
+"exEs": "¿Qué es esto?",
+"tag": "unidad",
+"n": 3
+}
+]
+},
+"u09": {
+"enrich": {
+"mangiare": {
+"ex": "Ieri ho mangiato una pizza.",
+"exEs": "Ayer comí una pizza.",
+"tag": "frecuente"
+},
+"bere": {
+"ex": "Ho bevuto un caffè.",
+"exEs": "Tomé un café.",
+"tag": "frecuente"
+},
+"comprare": {
+"ex": "Ho comprato un libro.",
+"exEs": "Compré un libro.",
+"tag": "frecuente"
+},
+"vedere": {
+"ex": "Ho visto un bel film.",
+"exEs": "Vi una buena película.",
+"tag": "frecuente"
+},
+"fare": {
+"ex": "Ho fatto una passeggiata.",
+"exEs": "Di un paseo.",
+"tag": "frecuente"
+},
+"prendere": {
+"ex": "Ho preso il treno delle otto.",
+"exEs": "Tomé el tren de las ocho.",
+"tag": "frecuente"
+},
+"scrivere": {
+"ex": "Ho scritto una email.",
+"exEs": "Escribí un correo.",
+"tag": "frecuente"
+},
+"leggere": {
+"ex": "Ho letto un libro in italiano.",
+"exEs": "Leí un libro en italiano.",
+"tag": "frecuente"
+},
+"dire": {
+"ex": "Che cosa hai detto?",
+"exEs": "¿Qué dijiste?",
+"tag": "frecuente"
+},
+"aprire": {
+"ex": "Ho aperto la finestra.",
+"exEs": "Abrí la ventana.",
+"tag": "frecuente"
+},
+"chiudere": {
+"ex": "Ho chiuso la porta a chiave.",
+"exEs": "Cerré la puerta con llave.",
+"tag": "frecuente"
+},
+"perdere": {
+"ex": "Ho perso il telefono.",
+"exEs": "Perdí el teléfono.",
+"tag": "frecuente"
+},
+"visitare": {
+"ex": "Abbiamo visitato Firenze.",
+"exEs": "Visitamos Florencia.",
+"tag": "frecuente"
+},
+"già": {
+"ex": "Ho già mangiato.",
+"exEs": "Ya comí.",
+"tag": "frecuente"
+},
+"ancora": {
+"ex": "Non ho ancora finito.",
+"exEs": "Todavía no he terminado.",
+"tag": "frecuente"
+},
+"scorso": {
+"ex": "Il mese scorso sono stato a Roma.",
+"exEs": "El mes pasado estuve en Roma.",
+"tag": "frecuente"
+},
+"fa": {
+"ex": "Ho comprato la casa due anni fa.",
+"exEs": "Compré la casa hace dos años.",
+"tag": "frecuente"
+},
+"provare": {
+"ex": "Ho provato il tiramisù.",
+"exEs": "Probé el tiramisú.",
+"tag": "frecuente"
+},
+"ricevere": {
+"ex": "Ho ricevuto un messaggio.",
+"exEs": "Recibí un mensaje.",
+"tag": "frecuente"
+},
+"spendere": {
+"ex": "Ho speso troppo.",
+"exEs": "Gasté demasiado.",
+"tag": "unidad"
+}
+},
+"extra": [
+{
+"it": "dimenticare",
+"es": "olvidar",
+"ex": "Ho dimenticato le chiavi.",
+"exEs": "Olvidé las llaves.",
+"tag": "frecuente",
+"n": 974
+},
+{
+"it": "mettere",
+"es": "poner",
+"ex": "Ho messo il latte nel frigorifero.",
+"exEs": "Puse la leche en el refrigerador.",
+"tag": "frecuente",
+"n": 627
+},
+{
+"it": "lasciare",
+"es": "dejar",
+"ex": "Ho lasciato la borsa a casa.",
+"exEs": "Dejé el bolso en casa.",
+"tag": "frecuente",
+"n": 458
+},
+{
+"it": "vendere",
+"es": "vender",
+"ex": "Hanno venduto la macchina.",
+"exEs": "Vendieron el auto.",
+"tag": "frecuente",
+"n": 1705
+},
+{
+"it": "rompere",
+"es": "romper",
+"ex": "Ho rotto un bicchiere.",
+"exEs": "Rompí un vaso.",
+"tag": "frecuente",
+"n": 2858
+},
+{
+"it": "usare",
+"es": "usar",
+"ex": "Ho usato la carta di credito.",
+"exEs": "Usé la tarjeta de crédito.",
+"tag": "frecuente",
+"n": 716
+},
+{
+"it": "iniziare",
+"es": "comenzar",
+"ex": "Il corso è iniziato ieri.",
+"exEs": "El curso comenzó ayer.",
+"tag": "frecuente",
+"n": 623
+},
+{
+"it": "fatto",
+"es": "hecho (de fare)",
+"ex": "Che cosa hai fatto ieri?",
+"exEs": "¿Qué hiciste ayer?",
+"tag": "frecuente",
+"n": 49
+},
+{
+"it": "detto",
+"es": "dicho (de dire)",
+"ex": "Mi ha detto la verità.",
+"exEs": "Me dijo la verdad.",
+"tag": "frecuente",
+"n": 61
+},
+{
+"it": "visto",
+"es": "visto (de vedere)",
+"ex": "Hai visto Marco?",
+"exEs": "¿Viste a Marco?",
+"tag": "frecuente",
+"n": 148
+},
+{
+"it": "preso",
+"es": "tomado (de prendere)",
+"ex": "Ho preso un taxi.",
+"exEs": "Tomé un taxi.",
+"tag": "frecuente",
+"n": 268
+},
+{
+"it": "scritto",
+"es": "escrito (de scrivere)",
+"ex": "Ho scritto a mia madre.",
+"exEs": "Le escribí a mi madre.",
+"tag": "frecuente",
+"n": 645
+},
+{
+"it": "letto",
+"es": "leído (de leggere)",
+"ex": "Hai letto questo libro?",
+"exEs": "¿Leíste este libro?",
+"tag": "frecuente",
+"n": 330
+},
+{
+"it": "messo",
+"es": "puesto (de mettere)",
+"ex": "Dove hai messo le chiavi?",
+"exEs": "¿Dónde pusiste las llaves?",
+"tag": "frecuente",
+"n": 445
+},
+{
+"it": "perso",
+"es": "perdido (de perdere)",
+"ex": "Ho perso l'autobus.",
+"exEs": "Perdí el bus.",
+"tag": "frecuente",
+"n": 421
+},
+{
+"it": "speso",
+"es": "gastado (de spendere)",
+"ex": "Quanto hai speso?",
+"exEs": "¿Cuánto gastaste?",
+"tag": "unidad",
+"n": 4374
+},
+{
+"it": "avuto",
+"es": "tenido (de avere)",
+"ex": "Ho avuto una bella idea.",
+"exEs": "Tuve una buena idea.",
+"tag": "frecuente",
+"n": 261
+},
+{
+"it": "ultimo",
+"es": "último",
+"ex": "È l'ultimo treno.",
+"exEs": "Es el último tren.",
+"tag": "frecuente",
+"n": 598
+},
+{
+"it": "la prima volta",
+"es": "la primera vez",
+"ex": "È la prima volta che vengo qui.",
+"exEs": "Es la primera vez que vengo aquí.",
+"tag": "frecuente",
+"n": 155
+},
+{
+"it": "il passato",
+"es": "el pasado",
+"ex": "Non parlo del passato.",
+"exEs": "No hablo del pasado.",
+"tag": "frecuente",
+"n": 409
+},
+{
+"it": "rotto",
+"es": "roto (de rompere)",
+"ex": "Il telefono è rotto.",
+"exEs": "El teléfono está roto.",
+"tag": "unidad",
+"n": 1237
+},
+{
+"it": "bevuto",
+"es": "bebido (de bere)",
+"ex": "Ho bevuto troppo caffè.",
+"exEs": "Tomé demasiado café.",
+"tag": "unidad",
+"n": 1745
+},
+{
+"it": "ieri sera",
+"es": "anoche",
+"ex": "Ieri sera ho cenato fuori.",
+"exEs": "Anoche cené afuera.",
+"tag": "unidad",
+"n": 453
+},
+{
+"it": "stamattina",
+"es": "esta mañana",
+"ex": "Stamattina ho studiato un'ora.",
+"exEs": "Esta mañana estudié una hora.",
+"tag": "unidad",
+"n": 1097
+},
+{
+"it": "stasera",
+"es": "esta noche",
+"ex": "Stasera esco con gli amici.",
+"exEs": "Esta noche salgo con los amigos.",
+"tag": "unidad",
+"n": 425
+},
+{
+"it": "l'anno scorso",
+"es": "el año pasado",
+"ex": "L'anno scorso ho visitato Napoli.",
+"exEs": "El año pasado visité Nápoles.",
+"tag": "unidad",
+"n": 1406
+},
+{
+"it": "una settimana fa",
+"es": "hace una semana",
+"ex": "Sono arrivato una settimana fa.",
+"exEs": "Llegué hace una semana.",
+"tag": "unidad",
+"n": 420
+},
+{
+"it": "l'altro ieri",
+"es": "anteayer",
+"ex": "L'altro ieri ho incontrato Paolo.",
+"exEs": "Anteayer me encontré con Paolo.",
+"tag": "unidad",
+"n": 453
+},
+{
+"it": "finora",
+"es": "hasta ahora",
+"ex": "Finora ho studiato molto.",
+"exEs": "Hasta ahora he estudiado mucho.",
+"tag": "unidad",
+"n": 2247
+},
+{
+"it": "stato",
+"es": "estado / sido (de essere)",
+"ex": "Sono stato a Milano.",
+"exEs": "Estuve en Milán.",
+"tag": "unidad",
+"n": 70
+}
+]
+},
+"u10": {
+"enrich": {
+"andare": {
+"ex": "Domani vado al mare.",
+"exEs": "Mañana voy a la playa.",
+"tag": "frecuente"
+},
+"venire": {
+"ex": "Vieni con noi?",
+"exEs": "¿Vienes con nosotros?",
+"tag": "frecuente"
+},
+"uscire": {
+"ex": "Sono uscito alle otto.",
+"exEs": "Salí a las ocho.",
+"tag": "frecuente"
+},
+"entrare": {
+"ex": "Sono entrato nel museo.",
+"exEs": "Entré al museo.",
+"tag": "frecuente"
+},
+"restare": {
+"ex": "Sono restato a casa.",
+"exEs": "Me quedé en casa.",
+"tag": "frecuente"
+},
+"nascere": {
+"ex": "Sono nato a Santiago.",
+"exEs": "Nací en Santiago.",
+"tag": "frecuente"
+},
+"diventare": {
+"ex": "È diventato medico.",
+"exEs": "Se hizo médico.",
+"tag": "frecuente"
+},
+"il viaggio": {
+"ex": "Il viaggio è stato bellissimo.",
+"exEs": "El viaje fue hermosísimo.",
+"tag": "frecuente"
+},
+"le vacanze": {
+"ex": "Le vacanze sono finite.",
+"exEs": "Las vacaciones terminaron.",
+"tag": "frecuente"
+},
+"la valigia": {
+"ex": "Ho fatto la valigia ieri.",
+"exEs": "Hice la maleta ayer.",
+"tag": "frecuente"
+},
+"il mare": {
+"ex": "Il mare è calmo.",
+"exEs": "El mar está calmo.",
+"tag": "frecuente"
+},
+"la montagna": {
+"ex": "In estate andiamo in montagna.",
+"exEs": "En verano vamos a la montaña.",
+"tag": "frecuente"
+},
+"l'albergo": {
+"ex": "L'albergo è vicino alla stazione.",
+"exEs": "El hotel está cerca de la estación.",
+"tag": "frecuente"
+},
+"l'aereo": {
+"ex": "L'aereo è partito in ritardo.",
+"exEs": "El avión salió atrasado.",
+"tag": "frecuente"
+},
+"la città": {
+"ex": "Roma è una città bellissima.",
+"exEs": "Roma es una ciudad hermosísima.",
+"tag": "frecuente"
+},
+"il paese": {
+"ex": "Il mio paese è lungo e stretto.",
+"exEs": "Mi país es largo y angosto.",
+"tag": "frecuente"
+},
+"domenica": {
+"ex": "Domenica siamo andati al lago.",
+"exEs": "El domingo fuimos al lago.",
+"tag": "frecuente"
+},
+"lunedì": {
+"ex": "Lunedì sono tornato al lavoro.",
+"exEs": "El lunes volví al trabajo.",
+"tag": "unidad"
+},
+"la spiaggia": {
+"ex": "La spiaggia è molto grande.",
+"exEs": "La playa es muy grande.",
+"tag": "frecuente"
+},
+"la partenza": {
+"ex": "La partenza è alle sei.",
+"exEs": "La salida es a las seis.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "andato",
+"es": "ido (de andare)",
+"ex": "Sono andato al mercato.",
+"exEs": "Fui al mercado.",
+"tag": "frecuente",
+"n": 363
+},
+{
+"it": "venuto",
+"es": "venido (de venire)",
+"ex": "Sei venuto da solo?",
+"exEs": "¿Viniste solo?",
+"tag": "frecuente",
+"n": 452
+},
+{
+"it": "uscito",
+"es": "salido (de uscire)",
+"ex": "Maria è uscita presto.",
+"exEs": "Maria salió temprano.",
+"tag": "frecuente",
+"n": 1250
+},
+{
+"it": "rimasto",
+"es": "quedado (de rimanere)",
+"ex": "Sono rimasto a casa tutto il giorno.",
+"exEs": "Me quedé en casa todo el día.",
+"tag": "frecuente",
+"n": 1093
+},
+{
+"it": "nato",
+"es": "nacido (de nascere)",
+"ex": "Mia sorella è nata a marzo.",
+"exEs": "Mi hermana nació en marzo.",
+"tag": "frecuente",
+"n": 1637
+},
+{
+"it": "morto",
+"es": "muerto",
+"ex": "Il suo cane è morto.",
+"exEs": "Su perro murió.",
+"tag": "frecuente",
+"n": 314
+},
+{
+"it": "partito",
+"es": "salido (de partire)",
+"ex": "Il treno è già partito.",
+"exEs": "El tren ya salió.",
+"tag": "frecuente",
+"n": 2044
+},
+{
+"it": "arrivato",
+"es": "llegado (de arrivare)",
+"ex": "Sono arrivato ieri.",
+"exEs": "Llegué ayer.",
+"tag": "frecuente",
+"n": 665
+},
+{
+"it": "rimanere",
+"es": "quedarse",
+"ex": "Voglio rimanere qui.",
+"exEs": "Quiero quedarme aquí.",
+"tag": "frecuente",
+"n": 956
+},
+{
+"it": "morire",
+"es": "morir",
+"ex": "Tutti dobbiamo morire un giorno.",
+"exEs": "Todos tenemos que morir algún día.",
+"tag": "frecuente",
+"n": 532
+},
+{
+"it": "il museo",
+"es": "el museo",
+"ex": "Il museo è chiuso il lunedì.",
+"exEs": "El museo cierra los lunes.",
+"tag": "frecuente",
+"n": 3609
+},
+{
+"it": "la chiesa",
+"es": "la iglesia",
+"ex": "La chiesa è in piazza.",
+"exEs": "La iglesia está en la plaza.",
+"tag": "frecuente",
+"n": 1191
+},
+{
+"it": "il lago",
+"es": "el lago",
+"ex": "Il lago è molto bello.",
+"exEs": "El lago es muy bonito.",
+"tag": "frecuente",
+"n": 2489
+},
+{
+"it": "l'isola",
+"es": "la isla",
+"ex": "Siamo andati su un'isola.",
+"exEs": "Fuimos a una isla.",
+"tag": "frecuente",
+"n": 1644
+},
+{
+"it": "la campagna",
+"es": "el campo",
+"ex": "Vivo in campagna.",
+"exEs": "Vivo en el campo.",
+"tag": "frecuente",
+"n": 1769
+},
+{
+"it": "la foto",
+"es": "la foto",
+"ex": "Faccio una foto al castello.",
+"exEs": "Le tomo una foto al castillo.",
+"tag": "frecuente",
+"n": 496
+},
+{
+"it": "la prenotazione",
+"es": "la reserva",
+"ex": "Ho fatto la prenotazione online.",
+"exEs": "Hice la reserva por internet.",
+"tag": "unidad",
+"n": 9752
+},
+{
+"it": "il castello",
+"es": "el castillo",
+"ex": "Il castello è molto antico.",
+"exEs": "El castillo es muy antiguo.",
+"tag": "unidad",
+"n": 2629
+},
+{
+"it": "la gita",
+"es": "la excursión",
+"ex": "Domenica facciamo una gita.",
+"exEs": "El domingo hacemos una excursión.",
+"tag": "unidad",
+"n": 5170
+},
+{
+"it": "il bagaglio",
+"es": "el equipaje",
+"ex": "Il bagaglio è pesante.",
+"exEs": "El equipaje es pesado.",
+"tag": "unidad",
+"n": 9394
+},
+{
+"it": "il fiume",
+"es": "el río",
+"ex": "Il fiume attraversa la città.",
+"exEs": "El río atraviesa la ciudad.",
+"tag": "unidad",
+"n": 1764
+},
+{
+"it": "il panorama",
+"es": "el paisaje",
+"ex": "Dal balcone c'è un bel panorama.",
+"exEs": "Desde el balcón hay una bonita vista.",
+"tag": "unidad",
+"n": 9432
+},
+{
+"it": "fare le valigie",
+"es": "hacer las maletas",
+"ex": "Domani devo fare le valigie.",
+"exEs": "Mañana tengo que hacer las maletas.",
+"tag": "unidad",
+"n": 4715
+},
+{
+"it": "il weekend",
+"es": "el fin de semana",
+"ex": "Questo weekend vado al mare.",
+"exEs": "Este fin de semana voy a la playa.",
+"tag": "unidad",
+"n": 2327
+},
+{
+"it": "la crociera",
+"es": "el crucero",
+"ex": "Mia zia ha fatto una crociera.",
+"exEs": "Mi tía hizo un crucero.",
+"tag": "unidad",
+"n": 7746
+},
+{
+"it": "il campeggio",
+"es": "el camping",
+"ex": "In estate andiamo in campeggio.",
+"exEs": "En verano vamos al camping.",
+"tag": "unidad",
+"n": 4421
+},
+{
+"it": "l'ostello",
+"es": "el hostal",
+"ex": "Dormo in un ostello economico.",
+"exEs": "Duermo en un hostal económico.",
+"tag": "unidad",
+"n": 23198
+},
+{
+"it": "il villaggio",
+"es": "el pueblo / la aldea",
+"ex": "Il villaggio è sulla montagna.",
+"exEs": "El pueblo está en la montaña.",
+"tag": "unidad",
+"n": 1885
+},
+{
+"it": "la capitale",
+"es": "la capital",
+"ex": "Roma è la capitale d'Italia.",
+"exEs": "Roma es la capital de Italia.",
+"tag": "unidad",
+"n": 4770
+},
+{
+"it": "il confine",
+"es": "la frontera",
+"ex": "Il confine è vicino.",
+"exEs": "La frontera está cerca.",
+"tag": "unidad",
+"n": 3032
+}
+]
+},
+"u11": {
+"enrich": {
+"da piccolo": {
+"ex": "Da piccolo giocavo nel cortile.",
+"exEs": "De niño jugaba en el patio.",
+"tag": "frecuente"
+},
+"una volta": {
+"ex": "Una volta abitavo in campagna.",
+"exEs": "Antes vivía en el campo.",
+"tag": "frecuente"
+},
+"allora": {
+"ex": "Allora non c'erano i telefonini.",
+"exEs": "En esa época no había celulares.",
+"tag": "frecuente"
+},
+"mentre": {
+"ex": "Mentre mangiavo, è arrivato Marco.",
+"exEs": "Mientras comía, llegó Marco.",
+"tag": "frecuente"
+},
+"l'infanzia": {
+"ex": "L'infanzia è un bel ricordo.",
+"exEs": "La infancia es un bonito recuerdo.",
+"tag": "frecuente"
+},
+"la scuola": {
+"ex": "A scuola avevo molti amici.",
+"exEs": "En el escuela tenía muchos amigos.",
+"tag": "frecuente"
+},
+"giocare": {
+"ex": "Giocavo a calcio ogni giorno.",
+"exEs": "Jugaba a la pelota todos los días.",
+"tag": "frecuente"
+},
+"ricordare": {
+"ex": "Ricordo la casa dei miei nonni.",
+"exEs": "Recuerdo la casa de mis abuelos.",
+"tag": "frecuente"
+},
+"il nonno": {
+"ex": "Il nonno raccontava belle storie.",
+"exEs": "El abuelo contaba bonitas historias.",
+"tag": "frecuente"
+},
+"la nonna": {
+"ex": "La nonna cucinava benissimo.",
+"exEs": "La abuela cocinaba muy bien.",
+"tag": "frecuente"
+},
+"vecchio": {
+"ex": "La casa era molto vecchia.",
+"exEs": "La casa era muy vieja.",
+"tag": "frecuente"
+},
+"giovane": {
+"ex": "Mio padre era giovane allora.",
+"exEs": "Mi padre era joven entonces.",
+"tag": "frecuente"
+},
+"abitare": {
+"ex": "Abitavamo in una casa piccola.",
+"exEs": "Vivíamos en una casa pequeña.",
+"tag": "frecuente"
+},
+"il giardino": {
+"ex": "Nel giardino c'era un albero.",
+"exEs": "En el jardín había un árbol.",
+"tag": "frecuente"
+},
+"la famiglia": {
+"ex": "La mia famiglia era numerosa.",
+"exEs": "Mi familia era numerosa.",
+"tag": "frecuente"
+},
+"piovere": {
+"ex": "D'inverno pioveva sempre.",
+"exEs": "En invierno llovía siempre.",
+"tag": "unidad"
+},
+"il freddo": {
+"ex": "Faceva molto freddo.",
+"exEs": "Hacía mucho frío.",
+"tag": "frecuente"
+},
+"il caldo": {
+"ex": "D'estate faceva caldo.",
+"exEs": "En verano hacía calor.",
+"tag": "frecuente"
+},
+"l'estate": {
+"ex": "L'estate andavamo al mare.",
+"exEs": "En verano íbamos a la playa.",
+"tag": "frecuente"
+},
+"l'inverno": {
+"ex": "L'inverno era lungo.",
+"exEs": "El invierno era largo.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "ero",
+"es": "yo era / estaba",
+"ex": "Ero un bambino felice.",
+"exEs": "Era un niño feliz.",
+"tag": "frecuente",
+"n": 219
+},
+{
+"it": "avevo",
+"es": "yo tenía",
+"ex": "Avevo un cane che si chiamava Bobi.",
+"exEs": "Tenía un perro que se llamaba Bobi.",
+"tag": "frecuente",
+"n": 242
+},
+{
+"it": "facevo",
+"es": "yo hacía",
+"ex": "Facevo i compiti dopo scuola.",
+"exEs": "Hacía las tareas después del escuela.",
+"tag": "frecuente",
+"n": 1985
+},
+{
+"it": "dicevo",
+"es": "yo decía",
+"ex": "Dicevo sempre la verità.",
+"exEs": "Siempre decía la verdad.",
+"tag": "frecuente",
+"n": 2270
+},
+{
+"it": "c'era",
+"es": "había (pasado)",
+"ex": "C'era una volta un re.",
+"exEs": "Había una vez un rey.",
+"tag": "unidad",
+"n": null
+},
+{
+"it": "il gioco",
+"es": "el juego",
+"ex": "Il mio gioco preferito era il calcio.",
+"exEs": "Mi juego preferido era el fútbol.",
+"tag": "frecuente",
+"n": 577
+},
+{
+"it": "il compagno",
+"es": "el compañero",
+"ex": "Il mio compagno di classe si chiamava Luca.",
+"exEs": "Mi compañero de curso se llamaba Luca.",
+"tag": "frecuente",
+"n": 1972
+},
+{
+"it": "la storia",
+"es": "la historia",
+"ex": "Mi raccontava una storia ogni sera.",
+"exEs": "Me contaba una historia cada noche.",
+"tag": "frecuente",
+"n": 312
+},
+{
+"it": "la memoria",
+"es": "la memoria",
+"ex": "Ho una buona memoria.",
+"exEs": "Tengo buena memoria.",
+"tag": "frecuente",
+"n": 1553
+},
+{
+"it": "il periodo",
+"es": "el período",
+"ex": "Era un periodo difficile.",
+"exEs": "Era un período difícil.",
+"tag": "frecuente",
+"n": 1344
+},
+{
+"it": "crescere",
+"es": "crecer",
+"ex": "Sono cresciuto in campagna.",
+"exEs": "Crecí en el campo.",
+"tag": "frecuente",
+"n": 2186
+},
+{
+"it": "felice",
+"es": "feliz",
+"ex": "Ero molto felice.",
+"exEs": "Era muy feliz.",
+"tag": "frecuente",
+"n": 388
+},
+{
+"it": "triste",
+"es": "triste",
+"ex": "Quel giorno ero triste.",
+"exEs": "Ese día estaba triste.",
+"tag": "frecuente",
+"n": 1114
+},
+{
+"it": "il carattere",
+"es": "el carácter",
+"ex": "Aveva un carattere forte.",
+"exEs": "Tenía un carácter fuerte.",
+"tag": "frecuente",
+"n": 4399
+},
+{
+"it": "il compito",
+"es": "la tarea",
+"ex": "Il compito era facile.",
+"exEs": "La tarea era fácil.",
+"tag": "frecuente",
+"n": 1624
+},
+{
+"it": "bevevo",
+"es": "yo bebía",
+"ex": "Da piccolo bevevo molto latte.",
+"exEs": "De niño tomaba mucha leche.",
+"tag": "unidad",
+"n": 19759
+},
+{
+"it": "la maestra",
+"es": "la profesora (de primaria)",
+"ex": "La maestra era molto gentile.",
+"exEs": "La profesora era muy amable.",
+"tag": "unidad",
+"n": 5981
+},
+{
+"it": "il cortile",
+"es": "el patio",
+"ex": "Giocavamo nel cortile.",
+"exEs": "Jugábamos en el patio.",
+"tag": "unidad",
+"n": 4452
+},
+{
+"it": "il quaderno",
+"es": "el cuaderno",
+"ex": "Scrivevo nel quaderno.",
+"exEs": "Escribía en el cuaderno.",
+"tag": "unidad",
+"n": 12197
+},
+{
+"it": "il cartone animato",
+"es": "los dibujos animados",
+"ex": "Guardavo i cartoni animati.",
+"exEs": "Veía dibujos animados.",
+"tag": "unidad",
+"n": 18404
+},
+{
+"it": "all'improvviso",
+"es": "de repente",
+"ex": "All'improvviso ha cominciato a piovere.",
+"exEs": "De repente empezó a llover.",
+"tag": "unidad",
+"n": null
+},
+{
+"it": "a quel tempo",
+"es": "en aquel tiempo",
+"ex": "A quel tempo abitavo a Roma.",
+"exEs": "En aquel tiempo vivía en Roma.",
+"tag": "unidad",
+"n": 132
+},
+{
+"it": "in quel periodo",
+"es": "en ese período",
+"ex": "In quel periodo lavoravo molto.",
+"exEs": "En ese período trabajaba mucho.",
+"tag": "unidad",
+"n": 1344
+},
+{
+"it": "quando ero piccolo",
+"es": "cuando era pequeño",
+"ex": "Quando ero piccolo, giocavo sempre.",
+"exEs": "Cuando era pequeño, jugaba siempre.",
+"tag": "unidad",
+"n": 446
+},
+{
+"it": "ogni estate",
+"es": "cada verano",
+"ex": "Ogni estate andavamo in montagna.",
+"exEs": "Cada verano íbamos a la montaña.",
+"tag": "unidad",
+"n": 1756
+},
+{
+"it": "assomigliare",
+"es": "parecerse",
+"ex": "Assomiglio a mio padre.",
+"exEs": "Me parezco a mi padre.",
+"tag": "unidad",
+"n": 4413
+},
+{
+"it": "tranquillo",
+"es": "tranquilo",
+"ex": "Il paese era tranquillo.",
+"exEs": "El pueblo era tranquilo.",
+"tag": "unidad",
+"n": 1065
+},
+{
+"it": "povero",
+"es": "pobre",
+"ex": "Una volta eravamo poveri.",
+"exEs": "Antes éramos pobres.",
+"tag": "unidad",
+"n": 1645
+},
+{
+"it": "divertente",
+"es": "entretenido",
+"ex": "Era un gioco divertente.",
+"exEs": "Era un juego entretenido.",
+"tag": "unidad",
+"n": 546
+},
+{
+"it": "noioso",
+"es": "aburrido",
+"ex": "Il film era noioso.",
+"exEs": "La película era aburrida.",
+"tag": "unidad",
+"n": 3435
+}
+]
+},
+"u12": {
+"enrich": {
+"il mercato": {
+"ex": "Il mercato è aperto il sabato.",
+"exEs": "El mercado está abierto los sábados.",
+"tag": "frecuente"
+},
+"la frutta": {
+"ex": "Mangio molta frutta.",
+"exEs": "Como mucha fruta.",
+"tag": "frecuente"
+},
+"la verdura": {
+"ex": "La verdura è fresca.",
+"exEs": "La verdura está fresca.",
+"tag": "unidad"
+},
+"il pomodoro": {
+"ex": "Compro un chilo di pomodori.",
+"exEs": "Compro un kilo de tomates.",
+"tag": "unidad"
+},
+"la mela": {
+"ex": "La mela è matura.",
+"exEs": "La manzana está madura.",
+"tag": "unidad"
+},
+"il formaggio": {
+"ex": "Il formaggio italiano è buonissimo.",
+"exEs": "El queso italiano es riquísimo.",
+"tag": "frecuente"
+},
+"il pane": {
+"ex": "Il pane è caldo.",
+"exEs": "El pan está caliente.",
+"tag": "frecuente"
+},
+"il latte": {
+"ex": "Bevo il latte a colazione.",
+"exEs": "Tomo leche en el desayuno.",
+"tag": "frecuente"
+},
+"l'uovo (pl. le uova)": {
+"ex": "Per la torta servono due uova.",
+"exEs": "Para la torta se necesitan dos huevos.",
+"tag": "unidad"
+},
+"la carne": {
+"ex": "Non mangio molta carne.",
+"exEs": "No como mucha carne.",
+"tag": "frecuente"
+},
+"il pesce": {
+"ex": "Il pesce è più caro della carne.",
+"exEs": "El pescado es más caro que la carne.",
+"tag": "frecuente"
+},
+"le patate": {
+"ex": "Vorrei un chilo di patate.",
+"exEs": "Quisiera un kilo de papas.",
+"tag": "frecuente"
+},
+"la cipolla": {
+"ex": "Tagliamo la cipolla.",
+"exEs": "Cortamos la cebolla.",
+"tag": "unidad"
+},
+"l'olio": {
+"ex": "L'olio d'oliva è buono.",
+"exEs": "El aceite de oliva es bueno.",
+"tag": "frecuente"
+},
+"il sale": {
+"ex": "Manca il sale.",
+"exEs": "Falta sal.",
+"tag": "frecuente"
+},
+"lo zucchero": {
+"ex": "Metto poco zucchero nel caffè.",
+"exEs": "Pongo poca azúcar en el café.",
+"tag": "frecuente"
+},
+"il chilo": {
+"ex": "Un chilo di mele, per favore.",
+"exEs": "Un kilo de manzanas, por favor.",
+"tag": "unidad"
+},
+"l'etto": {
+"ex": "Due etti di prosciutto, per favore.",
+"exEs": "Doscientos gramos de jamón, por favor.",
+"tag": "unidad"
+},
+"economico": {
+"ex": "Questo mercato è più economico.",
+"exEs": "Este mercado es más barato.",
+"tag": "frecuente"
+},
+"caro": {
+"ex": "Il pesce è troppo caro.",
+"exEs": "El pescado es demasiado caro.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "migliore",
+"es": "mejor",
+"ex": "È la migliore pizza della città.",
+"exEs": "Es la mejor pizza de la ciudad.",
+"tag": "frecuente",
+"n": 398
+},
+{
+"it": "peggiore",
+"es": "peor",
+"ex": "È il peggiore giorno della settimana.",
+"exEs": "Es el peor día de la semana.",
+"tag": "frecuente",
+"n": 1744
+},
+{
+"it": "meglio",
+"es": "mejor (adv.)",
+"ex": "Oggi sto meglio.",
+"exEs": "Hoy estoy mejor.",
+"tag": "frecuente",
+"n": 172
+},
+{
+"it": "peggio",
+"es": "peor (adv.)",
+"ex": "Ieri stavo peggio.",
+"exEs": "Ayer estaba peor.",
+"tag": "frecuente",
+"n": 932
+},
+{
+"it": "maggiore",
+"es": "mayor",
+"ex": "Mio fratello maggiore ha trent'anni.",
+"exEs": "Mi hermano mayor tiene treinta años.",
+"tag": "frecuente",
+"n": 1255
+},
+{
+"it": "minore",
+"es": "menor",
+"ex": "La mia sorella minore studia.",
+"exEs": "Mi hermana menor estudia.",
+"tag": "frecuente",
+"n": 4105
+},
+{
+"it": "ottimo",
+"es": "óptimo / excelente",
+"ex": "Il vino è ottimo.",
+"exEs": "El vino es excelente.",
+"tag": "frecuente",
+"n": 655
+},
+{
+"it": "fresco",
+"es": "fresco",
+"ex": "Il pesce è fresco oggi.",
+"exEs": "El pescado está fresco hoy.",
+"tag": "frecuente",
+"n": 3886
+},
+{
+"it": "maturo",
+"es": "maduro",
+"ex": "Le pesche sono mature.",
+"exEs": "Los duraznos están maduros.",
+"tag": "unidad",
+"n": 9269
+},
+{
+"it": "salato",
+"es": "salado",
+"ex": "La zuppa è troppo salata.",
+"exEs": "La sopa está demasiado salada.",
+"tag": "unidad",
+"n": 16756
+},
+{
+"it": "un po' di",
+"es": "un poco de",
+"ex": "Vorrei un po' di formaggio.",
+"exEs": "Quisiera un poco de queso.",
+"tag": "frecuente",
+"n": 1525
+},
+{
+"it": "la banana",
+"es": "el plátano",
+"ex": "Una banana al giorno.",
+"exEs": "Un plátano al día.",
+"tag": "unidad",
+"n": 6707
+},
+{
+"it": "il limone",
+"es": "el limón",
+"ex": "Metto un po' di limone sul pesce.",
+"exEs": "Pongo un poco de limón en el pescado.",
+"tag": "unidad",
+"n": 7283
+},
+{
+"it": "basso",
+"es": "bajo",
+"ex": "Qui i prezzi sono bassi.",
+"exEs": "Aquí los precios son bajos.",
+"tag": "frecuente",
+"n": 1599
+},
+{
+"it": "il venditore",
+"es": "el vendedor",
+"ex": "Il venditore del mercato è simpatico.",
+"exEs": "El vendedor del mercado es simpático.",
+"tag": "unidad",
+"n": 6709
+},
+{
+"it": "l'arancia",
+"es": "la naranja",
+"ex": "Compro un chilo di arance.",
+"exEs": "Compro un kilo de naranjas.",
+"tag": "unidad",
+"n": 7860
+},
+{
+"it": "la fragola",
+"es": "la fresa",
+"ex": "Le fragole sono dolci.",
+"exEs": "Las fresas son dulces.",
+"tag": "unidad",
+"n": 12912
+},
+{
+"it": "l'uva",
+"es": "la uva",
+"ex": "L'uva è molto dolce.",
+"exEs": "La uva es muy dulce.",
+"tag": "unidad",
+"n": 7986
+},
+{
+"it": "la carota",
+"es": "la zanahoria",
+"ex": "Metto una carota nella zuppa.",
+"exEs": "Pongo una zanahoria en la sopa.",
+"tag": "unidad",
+"n": 12899
+},
+{
+"it": "la farina",
+"es": "la harina",
+"ex": "Per il pane serve la farina.",
+"exEs": "Para el pan se necesita harina.",
+"tag": "unidad",
+"n": 8955
+},
+{
+"it": "il pepe",
+"es": "la pimienta",
+"ex": "Aggiungo sale e pepe.",
+"exEs": "Agrego sal y pimienta.",
+"tag": "unidad",
+"n": 8229
+},
+{
+"it": "il prosciutto",
+"es": "el jamón",
+"ex": "Un panino con prosciutto e formaggio.",
+"exEs": "Un sándwich con jamón y queso.",
+"tag": "unidad",
+"n": 7257
+},
+{
+"it": "la bistecca",
+"es": "el bistec",
+"ex": "Mangio una bistecca con patate.",
+"exEs": "Como un bistec con papas.",
+"tag": "unidad",
+"n": 6176
+},
+{
+"it": "il maiale",
+"es": "el cerdo",
+"ex": "Non mangio carne di maiale.",
+"exEs": "No como carne de cerdo.",
+"tag": "unidad",
+"n": 2510
+},
+{
+"it": "la bilancia",
+"es": "la balanza",
+"ex": "Il venditore usa la bilancia.",
+"exEs": "El vendedor usa la balanza.",
+"tag": "unidad",
+"n": 14669
+},
+{
+"it": "il sacchetto",
+"es": "la bolsa",
+"ex": "Vuole un sacchetto?",
+"exEs": "¿Quiere una bolsa?",
+"tag": "unidad",
+"n": 6949
+},
+{
+"it": "mezzo chilo",
+"es": "medio kilo",
+"ex": "Mezzo chilo di pasta, grazie.",
+"exEs": "Medio kilo de pasta, gracias.",
+"tag": "unidad",
+"n": 8142
+},
+{
+"it": "la bancarella",
+"es": "el puesto (de mercado)",
+"ex": "Compro la frutta alla bancarella.",
+"exEs": "Compro la fruta en el puesto.",
+"tag": "unidad",
+"n": 26675
+},
+{
+"it": "biologico",
+"es": "orgánico",
+"ex": "Preferisco la verdura biologica.",
+"exEs": "Prefiero la verdura orgánica.",
+"tag": "unidad",
+"n": 7696
+},
+{
+"it": "la scadenza",
+"es": "la fecha de vencimiento",
+"ex": "Controllo la scadenza del latte.",
+"exEs": "Reviso la fecha de vencimiento de la leche.",
+"tag": "unidad",
+"n": 7651
+}
+]
+},
+"u13": {
+"enrich": {
+"il regalo": {
+"ex": "Ho comprato un regalo per Anna.",
+"exEs": "Compré un regalo para Anna.",
+"tag": "frecuente"
+},
+"la lettera": {
+"ex": "Le scrivo una lettera.",
+"exEs": "Le escribo una carta.",
+"tag": "frecuente"
+},
+"telefonare": {
+"ex": "Ti telefono domani.",
+"exEs": "Te llamo mañana.",
+"tag": "frecuente"
+},
+"chiamare": {
+"ex": "Lo chiamo subito.",
+"exEs": "Lo llamo de inmediato.",
+"tag": "frecuente"
+},
+"aiutare": {
+"ex": "Mi aiuti con la valigia?",
+"exEs": "¿Me ayudas con la maleta?",
+"tag": "frecuente"
+},
+"dare": {
+"ex": "Ti do il mio numero.",
+"exEs": "Te doy mi número.",
+"tag": "frecuente"
+},
+"mandare": {
+"ex": "Le mando un messaggio.",
+"exEs": "Le mando un mensaje.",
+"tag": "frecuente"
+},
+"portare": {
+"ex": "Ti porto un regalo.",
+"exEs": "Te traigo un regalo.",
+"tag": "frecuente"
+},
+"invitare": {
+"ex": "Li invito a cena.",
+"exEs": "Los invito a cenar.",
+"tag": "frecuente"
+},
+"conoscere": {
+"ex": "La conosco da due anni.",
+"exEs": "La conozco hace dos años.",
+"tag": "frecuente"
+},
+"trovare": {
+"ex": "Non lo trovo.",
+"exEs": "No lo encuentro.",
+"tag": "frecuente"
+},
+"incontrare": {
+"ex": "Li incontro in piazza.",
+"exEs": "Me encuentro con ellos en la plaza.",
+"tag": "frecuente"
+},
+"restituire": {
+"ex": "Ti restituisco il libro domani.",
+"exEs": "Te devuelvo el libro mañana.",
+"tag": "unidad"
+},
+"cambiare": {
+"ex": "Cambio idea.",
+"exEs": "Cambio de idea.",
+"tag": "frecuente"
+},
+"pagare": {
+"ex": "Pago io il conto.",
+"exEs": "Yo pago la cuenta.",
+"tag": "frecuente"
+},
+"l'indirizzo": {
+"ex": "Mi dai il tuo indirizzo?",
+"exEs": "¿Me das tu dirección?",
+"tag": "frecuente"
+},
+"lo scontrino": {
+"ex": "Posso avere lo scontrino?",
+"exEs": "¿Puedo tener el recibo?",
+"tag": "unidad"
+},
+"il cliente": {
+"ex": "Il cliente aspetta alla cassa.",
+"exEs": "El cliente espera en la caja.",
+"tag": "frecuente"
+},
+"regalare": {
+"ex": "Regalo un libro a mio fratello.",
+"exEs": "Le regalo un libro a mi hermano.",
+"tag": "frecuente"
+},
+"chiedere": {
+"ex": "Ti chiedo un favore.",
+"exEs": "Te pido un favor.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "mi",
+"es": "me / a mí",
+"ex": "Mi chiami stasera?",
+"exEs": "¿Me llamas esta noche?",
+"tag": "frecuente",
+"n": 13
+},
+{
+"it": "ti",
+"es": "te / a ti",
+"ex": "Ti ringrazio per il regalo.",
+"exEs": "Te agradezco el regalo.",
+"tag": "frecuente",
+"n": 25
+},
+{
+"it": "lo",
+"es": "lo",
+"ex": "Lo vedo ogni giorno.",
+"exEs": "Lo veo todos los días.",
+"tag": "frecuente",
+"n": 20
+},
+{
+"it": "la",
+"es": "la",
+"ex": "La vedo domani.",
+"exEs": "La veo mañana.",
+"tag": "frecuente",
+"n": 5
+},
+{
+"it": "li",
+"es": "los",
+"ex": "Li vedo spesso.",
+"exEs": "Los veo a menudo.",
+"tag": "frecuente",
+"n": 129
+},
+{
+"it": "le",
+"es": "las / le (a ella)",
+"ex": "Le dico la verità.",
+"exEs": "Le digo la verdad.",
+"tag": "frecuente",
+"n": 24
+},
+{
+"it": "gli",
+"es": "le (a él) / les",
+"ex": "Gli telefono stasera.",
+"exEs": "Le llamo esta noche.",
+"tag": "frecuente",
+"n": 57
+},
+{
+"it": "vi",
+"es": "los / les (a ustedes)",
+"ex": "Vi aspetto alle otto.",
+"exEs": "Los espero a las ocho.",
+"tag": "frecuente",
+"n": 135
+},
+{
+"it": "ringraziare",
+"es": "agradecer",
+"ex": "Ti voglio ringraziare.",
+"exEs": "Te quiero agradecer.",
+"tag": "frecuente",
+"n": 1287
+},
+{
+"it": "salutare",
+"es": "saludar",
+"ex": "Saluto sempre i vicini.",
+"exEs": "Siempre saludo a los vecinos.",
+"tag": "frecuente",
+"n": 1100
+},
+{
+"it": "abbracciare",
+"es": "abrazar",
+"ex": "Abbraccio mia madre.",
+"exEs": "Abrazo a mi madre.",
+"tag": "unidad",
+"n": 4640
+},
+{
+"it": "accompagnare",
+"es": "acompañar",
+"ex": "Ti accompagno alla stazione.",
+"exEs": "Te acompaño a la estación.",
+"tag": "frecuente",
+"n": 4034
+},
+{
+"it": "informare",
+"es": "informar",
+"ex": "Vi informo domani.",
+"exEs": "Les informo mañana.",
+"tag": "unidad",
+"n": 4133
+},
+{
+"it": "convincere",
+"es": "convencer",
+"ex": "Mi hai convinto.",
+"exEs": "Me convenciste.",
+"tag": "frecuente",
+"n": 3185
+},
+{
+"it": "sorprendere",
+"es": "sorprender",
+"ex": "La notizia mi ha sorpreso.",
+"exEs": "La noticia me sorprendió.",
+"tag": "frecuente",
+"n": 3977
+},
+{
+"it": "la sorpresa",
+"es": "la sorpresa",
+"ex": "Che bella sorpresa!",
+"exEs": "¡Qué bonita sorpresa!",
+"tag": "frecuente",
+"n": 916
+},
+{
+"it": "gli auguri",
+"es": "los saludos / los deseos",
+"ex": "Tanti auguri di buon compleanno!",
+"exEs": "¡Feliz cumpleaños!",
+"tag": "frecuente",
+"n": 2683
+},
+{
+"it": "avvisare",
+"es": "avisar",
+"ex": "Ti avviso quando arrivo.",
+"exEs": "Te aviso cuando llegue.",
+"tag": "unidad",
+"n": 4558
+},
+{
+"it": "disturbare",
+"es": "molestar",
+"ex": "Scusi se la disturbo.",
+"exEs": "Disculpe si la molesto.",
+"tag": "unidad",
+"n": 2267
+},
+{
+"it": "la cartolina",
+"es": "la postal",
+"ex": "Ti mando una cartolina da Roma.",
+"exEs": "Te mando una postal desde Roma.",
+"tag": "unidad",
+"n": 9795
+},
+{
+"it": "il fiore",
+"es": "la flor",
+"ex": "Compro un fiore per mia nonna.",
+"exEs": "Compro una flor para mi abuela.",
+"tag": "unidad",
+"n": 4044
+},
+{
+"it": "il mazzo di fiori",
+"es": "el ramo de flores",
+"ex": "Porto un mazzo di fiori.",
+"exEs": "Llevo un ramo de flores.",
+"tag": "unidad",
+"n": 8977
+},
+{
+"it": "il cioccolatino",
+"es": "el bombón",
+"ex": "Le regalo dei cioccolatini.",
+"exEs": "Le regalo unos bombones.",
+"tag": "unidad",
+"n": 23661
+},
+{
+"it": "il pacchetto",
+"es": "el paquetito",
+"ex": "Ecco un pacchetto per te.",
+"exEs": "Aquí hay un paquetito para ti.",
+"tag": "unidad",
+"n": 4771
+},
+{
+"it": "il destinatario",
+"es": "el destinatario",
+"ex": "Scrivo il nome del destinatario.",
+"exEs": "Escribo el nombre del destinatario.",
+"tag": "unidad",
+"n": 26998
+},
+{
+"it": "la busta",
+"es": "el sobre",
+"ex": "Metto la lettera nella busta.",
+"exEs": "Pongo la carta en el sobre.",
+"tag": "unidad",
+"n": 3794
+},
+{
+"it": "il francobollo",
+"es": "la sello",
+"ex": "Mi serve un francobollo.",
+"exEs": "Necesito una sello.",
+"tag": "unidad",
+"n": 22311
+},
+{
+"it": "la posta",
+"es": "el correo",
+"ex": "Porto la posta all'ufficio.",
+"exEs": "Llevo el correo a la oficina.",
+"tag": "unidad",
+"n": 2452
+},
+{
+"it": "l'ufficio postale",
+"es": "la oficina de correos",
+"ex": "L'ufficio postale è in via Roma.",
+"exEs": "La oficina de correos está en la calle Roma.",
+"tag": "unidad",
+"n": 6686
+}
+]
+},
+"u14": {
+"enrich": {
+"girare": {
+"ex": "Giri a destra al semaforo.",
+"exEs": "Doble a la derecha en el semáforo.",
+"tag": "frecuente"
+},
+"continuare": {
+"ex": "Continui dritto per cento metri.",
+"exEs": "Siga derecho cien metros.",
+"tag": "frecuente"
+},
+"attraversare": {
+"ex": "Attraversi la piazza.",
+"exEs": "Cruce la plaza.",
+"tag": "frecuente"
+},
+"fermarsi": {
+"ex": "Si fermi qui, per favore.",
+"exEs": "Deténgase aquí, por favor.",
+"tag": "frecuente"
+},
+"il ponte": {
+"ex": "Attraversi il ponte.",
+"exEs": "Cruce el puente.",
+"tag": "frecuente"
+},
+"la via": {
+"ex": "La via è chiusa al traffico.",
+"exEs": "La calle está cerrada al tráfico.",
+"tag": "frecuente"
+},
+"la rotonda": {
+"ex": "Alla rotonda prenda la seconda uscita.",
+"exEs": "En la rotonda tome la segunda salida.",
+"tag": "unidad"
+},
+"di fronte a": {
+"ex": "La farmacia è di fronte alla banca.",
+"exEs": "La farmacia está frente al banco.",
+"tag": "frecuente"
+},
+"accanto a": {
+"ex": "Il bar è accanto al cinema.",
+"exEs": "El bar está al lado del cine.",
+"tag": "frecuente"
+},
+"dietro": {
+"ex": "Dietro la chiesa c'è un parco.",
+"exEs": "Detrás de la iglesia hay un parque.",
+"tag": "frecuente"
+},
+"la fetta": {
+"ex": "Vorrei una fetta di torta.",
+"exEs": "Quisiera un trozo de torta.",
+"tag": "unidad"
+},
+"la ricetta": {
+"ex": "La ricetta è molto semplice.",
+"exEs": "La receta es muy simple.",
+"tag": "unidad"
+},
+"aspettare": {
+"ex": "Mi aspetti qui!",
+"exEs": "¡Espéreme aquí!",
+"tag": "frecuente"
+},
+"ascoltare": {
+"ex": "Ascolta bene!",
+"exEs": "¡Escucha bien!",
+"tag": "frecuente"
+},
+"guardare": {
+"ex": "Guarda questa foto!",
+"exEs": "¡Mira esta foto!",
+"tag": "frecuente"
+},
+"ripetere": {
+"ex": "Ripeta, per favore.",
+"exEs": "Repita, por favor.",
+"tag": "frecuente"
+},
+"piano": {
+"ex": "Parli più piano, per favore.",
+"exEs": "Hable más despacio, por favor.",
+"tag": "frecuente"
+},
+"in fretta": {
+"ex": "Non mangiare in fretta!",
+"exEs": "¡No comas rápido!",
+"tag": "frecuente"
+},
+"fino a": {
+"ex": "Vada dritto fino al ponte.",
+"exEs": "Siga derecho hasta el puente.",
+"tag": "frecuente"
+},
+"il marciapiede": {
+"ex": "Camminiamo sul marciapiede.",
+"exEs": "Caminamos por la vereda.",
+"tag": "unidad"
+}
+},
+"extra": [
+{
+"it": "ci",
+"es": "nos / allí (pronombre ci)",
+"ex": "Ci vado domani.",
+"exEs": "Voy allí mañana.",
+"tag": "frecuente",
+"n": 31,
+"part": "A"
+},
+{
+"it": "ne",
+"es": "de eso / de ello",
+"ex": "Ne voglio due.",
+"exEs": "Quiero dos de esos.",
+"tag": "frecuente",
+"n": 58,
+"part": "B"
+},
+{
+"it": "vai",
+"es": "ve (imperativo de andare)",
+"ex": "Vai dritto e poi gira a sinistra.",
+"exEs": "Ve derecho y luego dobla a la izquierda.",
+"tag": "frecuente",
+"n": 206,
+"part": "A"
+},
+{
+"it": "vieni",
+"es": "ven",
+"ex": "Vieni qui, per favore.",
+"exEs": "Ven aquí, por favor.",
+"tag": "frecuente",
+"n": 247,
+"part": "B"
+},
+{
+"it": "dai",
+"es": "vamos / dale",
+"ex": "Dai, andiamo!",
+"exEs": "¡Dale, vamos!",
+"tag": "frecuente",
+"n": 174,
+"part": "A"
+},
+{
+"it": "senti",
+"es": "oye / escucha",
+"ex": "Senti, mi puoi aiutare?",
+"exEs": "Oye, ¿me puedes ayudar?",
+"tag": "frecuente",
+"n": 229,
+"part": "B"
+},
+{
+"it": "attento",
+"es": "atento / cuidado",
+"ex": "Stai attento alla strada!",
+"exEs": "¡Ten cuidado con la calle!",
+"tag": "frecuente",
+"n": 970,
+"part": "A"
+},
+{
+"it": "attenzione",
+"es": "atención / cuidado",
+"ex": "Attenzione, c'è un gradino!",
+"exEs": "¡Cuidado, hay un escalón!",
+"tag": "frecuente",
+"n": 648,
+"part": "B"
+},
+{
+"it": "avanti",
+"es": "adelante",
+"ex": "Avanti, entra pure!",
+"exEs": "¡Adelante, entra!",
+"tag": "frecuente",
+"n": 321,
+"part": "A"
+},
+{
+"it": "indietro",
+"es": "atrás",
+"ex": "Torna indietro di due passi.",
+"exEs": "Vuelve dos pasos atrás.",
+"tag": "frecuente",
+"n": 441,
+"part": "B"
+},
+{
+"it": "fermo",
+"es": "quieto / detenido",
+"ex": "Stai fermo!",
+"exEs": "¡Quédate quieto!",
+"tag": "frecuente",
+"n": 830,
+"part": "A"
+},
+{
+"it": "su",
+"es": "arriba / sobre",
+"ex": "Vai su, c'è un balcone.",
+"exEs": "Sube, hay un balcón.",
+"tag": "frecuente",
+"n": 109,
+"part": "B"
+},
+{
+"it": "giù",
+"es": "abajo",
+"ex": "Scendi giù, ti aspetto.",
+"exEs": "Baja, te espero.",
+"tag": "frecuente",
+"n": 725,
+"part": "A"
+},
+{
+"it": "tagliare",
+"es": "cortar",
+"ex": "Taglio il pane a fette.",
+"exEs": "Corto el pan en rebanadas.",
+"tag": "frecuente",
+"n": 2054,
+"part": "B"
+},
+{
+"it": "cuocere",
+"es": "cocer",
+"ex": "Cuocio la pasta per dieci minuti.",
+"exEs": "Cuezo la pasta diez minutos.",
+"tag": "unidad",
+"n": 6502,
+"part": "A"
+},
+{
+"it": "mescolare",
+"es": "mezclar / revolver",
+"ex": "Mescola bene la salsa.",
+"exEs": "Revuelve bien la salsa.",
+"tag": "unidad",
+"n": 21811,
+"part": "B"
+},
+{
+"it": "bollire",
+"es": "hervir",
+"ex": "L'acqua bolle.",
+"exEs": "El agua hierve.",
+"tag": "unidad",
+"n": 9114,
+"part": "A"
+},
+{
+"it": "versare",
+"es": "verter / servir",
+"ex": "Versa l'olio nella padella.",
+"exEs": "Vierte el aceite en la sartén.",
+"tag": "unidad",
+"n": 528,
+"part": "B"
+},
+{
+"it": "il forno",
+"es": "el horno",
+"ex": "Metti la torta nel forno.",
+"exEs": "Pon la torta en el horno.",
+"tag": "unidad",
+"n": 4908,
+"part": "A"
+},
+{
+"it": "la pentola",
+"es": "la olla",
+"ex": "Metto l'acqua nella pentola.",
+"exEs": "Pongo el agua en la olla.",
+"tag": "unidad",
+"n": 9780,
+"part": "B"
+},
+{
+"it": "la padella",
+"es": "la sartén",
+"ex": "La padella è calda.",
+"exEs": "La sartén está caliente.",
+"tag": "unidad",
+"n": 12784,
+"part": "A"
+},
+{
+"it": "il coltello",
+"es": "el cuchillo",
+"ex": "Il coltello è sul tavolo.",
+"exEs": "El cuchillo está sobre la mesa.",
+"tag": "unidad",
+"n": 1696,
+"part": "B"
+},
+{
+"it": "il cucchiaio",
+"es": "la cuchara",
+"ex": "Un cucchiaio di zucchero.",
+"exEs": "Una cucharada de azúcar.",
+"tag": "unidad",
+"n": 8637,
+"part": "A"
+},
+{
+"it": "stia attento",
+"es": "tenga cuidado (formal)",
+"ex": "Stia attento alla strada!",
+"exEs": "¡Tenga cuidado con la calle!",
+"tag": "unidad",
+"n": 970,
+"part": "B"
+},
+{
+"it": "mi dica",
+"es": "dígame (formal)",
+"ex": "Mi dica, cosa desidera?",
+"exEs": "Dígame, ¿qué desea?",
+"tag": "unidad",
+"n": 608,
+"part": "A"
+},
+{
+"it": "prenda",
+"es": "tome (formal)",
+"ex": "Prenda la prima a destra.",
+"exEs": "Tome la primera a la derecha.",
+"tag": "unidad",
+"n": 1579,
+"part": "B"
+},
+{
+"it": "vada",
+"es": "vaya (formal)",
+"ex": "Vada dritto.",
+"exEs": "Vaya derecho.",
+"tag": "unidad",
+"n": 647,
+"part": "A"
+},
+{
+"it": "il coperchio",
+"es": "la tapa",
+"ex": "Metti il coperchio sulla pentola.",
+"exEs": "Pon la tapa sobre la olla.",
+"tag": "unidad",
+"n": 15699,
+"part": "B"
+},
+{
+"it": "le istruzioni",
+"es": "las instrucciones",
+"ex": "Leggo le istruzioni con attenzione.",
+"exEs": "Leo las instrucciones con atención.",
+"tag": "unidad",
+"n": 3753,
+"part": "A"
+}
+]
+},
+"u15": {
+"enrich": {
+"il futuro": {
+"ex": "Il futuro mi piace.",
+"exEs": "Me gusta el futuro.",
+"tag": "frecuente"
+},
+"il progetto": {
+"ex": "Ho un progetto importante.",
+"exEs": "Tengo un proyecto importante.",
+"tag": "frecuente"
+},
+"il sogno": {
+"ex": "Il mio sogno è vivere in Italia.",
+"exEs": "Mi sueño es vivir en Italia.",
+"tag": "frecuente"
+},
+"l'anno prossimo": {
+"ex": "L'anno prossimo andrò a Roma.",
+"exEs": "El próximo año iré a Roma.",
+"tag": "frecuente"
+},
+"la prossima settimana": {
+"ex": "La prossima settimana avrò un esame.",
+"exEs": "La próxima semana tendré un examen.",
+"tag": "frecuente"
+},
+"tra una settimana": {
+"ex": "Parto tra una settimana.",
+"exEs": "Salgo en una semana.",
+"tag": "frecuente"
+},
+"forse": {
+"ex": "Forse domani pioverà.",
+"exEs": "Quizás mañana llueva.",
+"tag": "frecuente"
+},
+"probabilmente": {
+"ex": "Probabilmente arriverò tardi.",
+"exEs": "Probablemente llegaré tarde.",
+"tag": "frecuente"
+},
+"sicuramente": {
+"ex": "Sicuramente verrò alla festa.",
+"exEs": "Seguro que iré a la fiesta.",
+"tag": "frecuente"
+},
+"sperare": {
+"ex": "Spero di vederti presto.",
+"exEs": "Espero verte pronto.",
+"tag": "frecuente"
+},
+"il consiglio": {
+"ex": "Ho bisogno di un consiglio.",
+"exEs": "Necesito un consejo.",
+"tag": "frecuente"
+},
+"potrebbe": {
+"ex": "Potrebbe aiutarmi?",
+"exEs": "¿Podría ayudarme?",
+"tag": "frecuente"
+},
+"dovresti": {
+"ex": "Dovresti studiare di più.",
+"exEs": "Deberías estudiar más.",
+"tag": "frecuente"
+},
+"magari": {
+"ex": "Magari fosse vero!",
+"exEs": "¡Ojalá fuera verdad!",
+"tag": "frecuente"
+},
+"il favore": {
+"ex": "Mi fai un favore?",
+"exEs": "¿Me haces un favor?",
+"tag": "frecuente"
+},
+"l'invito": {
+"ex": "Grazie per l'invito.",
+"exEs": "Gracias por la invitación.",
+"tag": "frecuente"
+},
+"la festa": {
+"ex": "La festa sarà sabato.",
+"exEs": "La fiesta será el sábado.",
+"tag": "frecuente"
+},
+"il programma": {
+"ex": "Qual è il programma di domani?",
+"exEs": "¿Cuál es el programa de mañana?",
+"tag": "frecuente"
+},
+"decidere": {
+"ex": "Domani deciderò.",
+"exEs": "Mañana decidiré.",
+"tag": "frecuente"
+},
+"organizzare": {
+"ex": "Organizzo una cena per sabato.",
+"exEs": "Organizo una cena para el sábado.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "sarò",
+"es": "seré / estaré",
+"ex": "Domani sarò a casa.",
+"exEs": "Mañana estaré en casa.",
+"tag": "frecuente",
+"n": 943,
+"part": "A"
+},
+{
+"it": "avrò",
+"es": "tendré",
+"ex": "Avrò più tempo l'anno prossimo.",
+"exEs": "Tendré más tiempo el próximo año.",
+"tag": "frecuente",
+"n": 1859,
+"part": "B"
+},
+{
+"it": "andrò",
+"es": "iré",
+"ex": "Andrò in Italia in estate.",
+"exEs": "Iré a Italia en verano.",
+"tag": "frecuente",
+"n": 1816,
+"part": "A"
+},
+{
+"it": "farò",
+"es": "haré",
+"ex": "Farò una torta per la festa.",
+"exEs": "Haré una torta para la fiesta.",
+"tag": "frecuente",
+"n": 600,
+"part": "B"
+},
+{
+"it": "verrò",
+"es": "vendré",
+"ex": "Verrò con te.",
+"exEs": "Iré contigo.",
+"tag": "frecuente",
+"n": 3897,
+"part": "A"
+},
+{
+"it": "sarebbe",
+"es": "sería",
+"ex": "Sarebbe bello viaggiare insieme.",
+"exEs": "Sería bonito viajar juntos.",
+"tag": "frecuente",
+"n": 193,
+"part": "B"
+},
+{
+"it": "avrei",
+"es": "tendría",
+"ex": "Avrei bisogno di aiuto.",
+"exEs": "Necesitaría ayuda.",
+"tag": "frecuente",
+"n": 305,
+"part": "A"
+},
+{
+"it": "farei",
+"es": "haría",
+"ex": "Io farei un'altra scelta.",
+"exEs": "Yo haría otra elección.",
+"tag": "frecuente",
+"n": 1282,
+"part": "B"
+},
+{
+"it": "prossimo",
+"es": "próximo",
+"ex": "Il prossimo treno parte alle dieci.",
+"exEs": "El próximo tren sale a las diez.",
+"tag": "frecuente",
+"n": 821,
+"part": "A"
+},
+{
+"it": "tra poco",
+"es": "en un rato",
+"ex": "Arrivo tra poco.",
+"exEs": "Llego en un rato.",
+"tag": "frecuente",
+"n": 499,
+"part": "B"
+},
+{
+"it": "più tardi",
+"es": "más tarde",
+"ex": "Ti chiamo più tardi.",
+"exEs": "Te llamo más tarde.",
+"tag": "frecuente",
+"n": 448,
+"part": "A"
+},
+{
+"it": "un giorno",
+"es": "algún día",
+"ex": "Un giorno vivrò a Roma.",
+"exEs": "Algún día viviré en Roma.",
+"tag": "frecuente",
+"n": 178,
+"part": "B"
+},
+{
+"it": "l'obiettivo",
+"es": "el objetivo",
+"ex": "Il mio obiettivo è parlare bene.",
+"exEs": "Mi objetivo es hablar bien.",
+"tag": "frecuente",
+"n": 1635,
+"part": "A"
+},
+{
+"it": "il desiderio",
+"es": "el deseo",
+"ex": "Il mio desiderio è viaggiare.",
+"exEs": "Mi deseo es viajar.",
+"tag": "frecuente",
+"n": 1925,
+"part": "B"
+},
+{
+"it": "la speranza",
+"es": "la esperanza",
+"ex": "C'è ancora speranza.",
+"exEs": "Todavía hay esperanza.",
+"tag": "frecuente",
+"n": 1356,
+"part": "A"
+},
+{
+"it": "in futuro",
+"es": "en el futuro",
+"ex": "In futuro vorrei lavorare in Italia.",
+"exEs": "En el futuro quisiera trabajar en Italia.",
+"tag": "unidad",
+"n": 767,
+"part": "B"
+},
+{
+"it": "pianificare",
+"es": "planificar",
+"ex": "Pianifico il viaggio con cura.",
+"exEs": "Planifico el viaje con cuidado.",
+"tag": "unidad",
+"n": 5838,
+"part": "A"
+},
+{
+"it": "la previsione",
+"es": "el pronóstico",
+"ex": "Le previsioni dicono sole.",
+"exEs": "El pronóstico dice sol.",
+"tag": "unidad",
+"n": 18160,
+"part": "B"
+},
+{
+"it": "chissà",
+"es": "quién sabe",
+"ex": "Chissà dove sarà domani!",
+"exEs": "¡Quién sabe dónde estará mañana!",
+"tag": "unidad",
+"n": 2444,
+"part": "A"
+},
+{
+"it": "il piano",
+"es": "el plan",
+"ex": "Ho un piano per le vacanze.",
+"exEs": "Tengo un plan para las vacaciones.",
+"tag": "unidad",
+"n": 349,
+"part": "B"
+},
+{
+"it": "avere intenzione di",
+"es": "tener la intención de",
+"ex": "Ho intenzione di studiare di più.",
+"exEs": "Tengo la intención de estudiar más.",
+"tag": "unidad",
+"n": 782,
+"part": "A"
+},
+{
+"it": "avere voglia di",
+"es": "tener ganas de",
+"ex": "Ho voglia di un gelato.",
+"exEs": "Tengo ganas de un helado.",
+"tag": "unidad",
+"n": 626,
+"part": "B"
+},
+{
+"it": "la voglia",
+"es": "las ganas",
+"ex": "Non ho voglia di uscire.",
+"exEs": "No tengo ganas de salir.",
+"tag": "unidad",
+"n": 626,
+"part": "A"
+},
+{
+"it": "il rischio",
+"es": "el riesgo",
+"ex": "C'è il rischio di perdere il treno.",
+"exEs": "Hay riesgo de perder el tren.",
+"tag": "unidad",
+"n": 1357,
+"part": "B"
+},
+{
+"it": "fra un mese",
+"es": "en un mes",
+"ex": "Fra un mese parto.",
+"exEs": "En un mes me voy.",
+"tag": "unidad",
+"n": 831,
+"part": "A"
+},
+{
+"it": "il prossimo anno",
+"es": "el próximo año",
+"ex": "Il prossimo anno cambio lavoro.",
+"exEs": "El próximo año cambio de trabajo.",
+"tag": "unidad",
+"n": 821,
+"part": "B"
+},
+{
+"it": "l'idea",
+"es": "la idea",
+"ex": "Ho una buona idea.",
+"exEs": "Tengo una buena idea.",
+"tag": "unidad",
+"n": 239,
+"part": "A"
+},
+{
+"it": "il cambiamento",
+"es": "el cambio",
+"ex": "Il cambiamento mi spaventa un po'.",
+"exEs": "El cambio me asusta un poco.",
+"tag": "unidad",
+"n": 3052,
+"part": "B"
+},
+{
+"it": "l'avvenire",
+"es": "el porvenir",
+"ex": "Penso all'avvenire.",
+"exEs": "Pienso en el porvenir.",
+"tag": "unidad",
+"n": 6764,
+"part": "A"
+}
+]
+},
+"u16": {
+"enrich": {
+"il medico": {
+"ex": "Devo andare dal medico.",
+"exEs": "Tengo que ir al médico.",
+"tag": "frecuente"
+},
+"la medicina": {
+"ex": "Prendo la medicina due volte al giorno.",
+"exEs": "Tomo el remedio dos veces al día.",
+"tag": "frecuente"
+},
+"la compressa": {
+"ex": "Una compressa ogni otto ore.",
+"exEs": "Una pastilla cada ocho horas.",
+"tag": "unidad"
+},
+"lo sciroppo": {
+"ex": "Lo sciroppo è per la tosse.",
+"exEs": "El jarabe es para la tos.",
+"tag": "unidad"
+},
+"la febbre": {
+"ex": "Ho la febbre da ieri.",
+"exEs": "Tengo fiebre desde ayer.",
+"tag": "frecuente"
+},
+"la tosse": {
+"ex": "Ho una brutta tosse.",
+"exEs": "Tengo una tos fea.",
+"tag": "unidad"
+},
+"il raffreddore": {
+"ex": "Ho il raffreddore.",
+"exEs": "Estoy resfriado.",
+"tag": "unidad"
+},
+"il mal di testa": {
+"ex": "Ho mal di testa.",
+"exEs": "Me duele la cabeza.",
+"tag": "frecuente"
+},
+"il mal di gola": {
+"ex": "Ho mal di gola.",
+"exEs": "Me duele la garganta.",
+"tag": "frecuente"
+},
+"la schiena": {
+"ex": "Mi fa male la schiena.",
+"exEs": "Me duele la espalda.",
+"tag": "frecuente"
+},
+"la gola": {
+"ex": "Mi fa male la gola.",
+"exEs": "Me duele la garganta.",
+"tag": "frecuente"
+},
+"lo stomaco": {
+"ex": "Ho mal di stomaco.",
+"exEs": "Me duele el estómago.",
+"tag": "frecuente"
+},
+"il dente": {
+"ex": "Mi fa male un dente.",
+"exEs": "Me duele un diente.",
+"tag": "frecuente"
+},
+"l'ambulanza": {
+"ex": "Chiamo l'ambulanza!",
+"exEs": "¡Llamo a la ambulancia!",
+"tag": "frecuente"
+},
+"il pronto soccorso": {
+"ex": "Vado al pronto soccorso.",
+"exEs": "Voy a urgencias.",
+"tag": "frecuente"
+},
+"l'emergenza": {
+"ex": "È un'emergenza!",
+"exEs": "¡Es una emergencia!",
+"tag": "frecuente"
+},
+"aiuto!": {
+"ex": "Aiuto! Mi sento male!",
+"exEs": "¡Ayuda! ¡Me siento mal!",
+"tag": "unidad"
+},
+"stare male": {
+"ex": "Oggi sto male.",
+"exEs": "Hoy estoy mal.",
+"tag": "frecuente"
+},
+"riposare": {
+"ex": "Il medico dice di riposare.",
+"exEs": "El médico dice que descanse.",
+"tag": "frecuente"
+},
+"la ricetta": {
+"ex": "Il medico mi dà la ricetta.",
+"exEs": "El médico me da la receta.",
+"tag": "unidad"
+},
+"servire": {
+"ex": "Mi serve una medicina.",
+"exEs": "Necesito un remedio.",
+"tag": "frecuente"
+},
+"niente": {
+"ex": "Non è niente di grave.",
+"exEs": "No es nada grave.",
+"tag": "frecuente"
+},
+"qualcosa": {
+"ex": "Ho qualcosa per il mal di testa?",
+"exEs": "¿Tienes algo para el dolor de cabeza?",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "il corpo",
+"es": "el cuerpo",
+"ex": "Il corpo ha bisogno di riposo.",
+"exEs": "El cuerpo necesita descanso.",
+"tag": "frecuente",
+"n": 493
+},
+{
+"it": "il braccio",
+"es": "el brazo",
+"ex": "Mi fa male il braccio.",
+"exEs": "Me duele el brazo.",
+"tag": "frecuente",
+"n": 1186
+},
+{
+"it": "la gamba",
+"es": "la pierna",
+"ex": "Ho una gamba rotta.",
+"exEs": "Tengo una pierna rota.",
+"tag": "frecuente",
+"n": 1366
+},
+{
+"it": "il piede",
+"es": "el pie",
+"ex": "Mi fa male il piede.",
+"exEs": "Me duele el pie.",
+"tag": "frecuente",
+"n": 1581
+},
+{
+"it": "il naso",
+"es": "la nariz",
+"ex": "Ho il naso chiuso.",
+"exEs": "Tengo la nariz tapada.",
+"tag": "frecuente",
+"n": 1558
+},
+{
+"it": "la bocca",
+"es": "la boca",
+"ex": "Apra la bocca, per favore.",
+"exEs": "Abra la boca, por favor.",
+"tag": "frecuente",
+"n": 796
+},
+{
+"it": "il cuore",
+"es": "el corazón",
+"ex": "Il cuore batte forte.",
+"exEs": "El corazón late fuerte.",
+"tag": "frecuente",
+"n": 449
+},
+{
+"it": "la salute",
+"es": "la salud",
+"ex": "La salute è importante.",
+"exEs": "La salud es importante.",
+"tag": "frecuente",
+"n": 1100
+},
+{
+"it": "il dolore",
+"es": "el dolor",
+"ex": "Ho un dolore forte alla schiena.",
+"exEs": "Tengo un dolor fuerte en la espalda.",
+"tag": "frecuente",
+"n": 927
+},
+{
+"it": "il sangue",
+"es": "la sangre",
+"ex": "C'è del sangue sulla mano.",
+"exEs": "Hay sangre en la mano.",
+"tag": "frecuente",
+"n": 443
+},
+{
+"it": "l'ospedale",
+"es": "el hospital",
+"ex": "L'ospedale è vicino.",
+"exEs": "El hospital está cerca.",
+"tag": "frecuente",
+"n": 642
+},
+{
+"it": "il dottore",
+"es": "el doctor",
+"ex": "Il dottore arriva subito.",
+"exEs": "El doctor llega de inmediato.",
+"tag": "frecuente",
+"n": 538
+},
+{
+"it": "il paziente",
+"es": "el paciente",
+"ex": "Il paziente dorme.",
+"exEs": "El paciente duerme.",
+"tag": "frecuente",
+"n": 1197
+},
+{
+"it": "la visita",
+"es": "la consulta",
+"ex": "Ho una visita alle tre.",
+"exEs": "Tengo una consulta a las tres.",
+"tag": "frecuente",
+"n": 1208
+},
+{
+"it": "fare male",
+"es": "doler",
+"ex": "Mi fa male la testa.",
+"exEs": "Me duele la cabeza.",
+"tag": "frecuente",
+"n": 200
+},
+{
+"it": "l'orecchio",
+"es": "el oído / la oreja",
+"ex": "Mi fa male l'orecchio.",
+"exEs": "Me duele el oído.",
+"tag": "unidad",
+"n": 3477
+},
+{
+"it": "il collo",
+"es": "el cuello",
+"ex": "Ho il collo rigido.",
+"exEs": "Tengo el cuello rígido.",
+"tag": "unidad",
+"n": 1457
+},
+{
+"it": "la pelle",
+"es": "la piel",
+"ex": "La pelle è secca.",
+"exEs": "La piel está seca.",
+"tag": "unidad",
+"n": 1273
+},
+{
+"it": "il dito",
+"es": "el dedo",
+"ex": "Mi fa male un dito.",
+"exEs": "Me duele un dedo.",
+"tag": "unidad",
+"n": 2113
+},
+{
+"it": "la malattia",
+"es": "la enfermedad",
+"ex": "Ha una malattia leggera.",
+"exEs": "Tiene una enfermedad leve.",
+"tag": "unidad",
+"n": 1751
+},
+{
+"it": "guarire",
+"es": "sanar",
+"ex": "Guarirò presto.",
+"exEs": "Me sanaré pronto.",
+"tag": "unidad",
+"n": 5541
+},
+{
+"it": "curare",
+"es": "tratar / curar",
+"ex": "Il medico cura i pazienti.",
+"exEs": "El médico trata a los pacientes.",
+"tag": "unidad",
+"n": 656
+},
+{
+"it": "peggiorare",
+"es": "empeorar",
+"ex": "La tosse sta peggiorando.",
+"exEs": "La tos está empeorando.",
+"tag": "unidad",
+"n": 1744
+},
+{
+"it": "la ferita",
+"es": "la herida",
+"ex": "La ferita è profonda.",
+"exEs": "La herida es profunda.",
+"tag": "unidad",
+"n": 1582
+},
+{
+"it": "l'influenza",
+"es": "la gripe",
+"ex": "Ho l'influenza.",
+"exEs": "Tengo gripe.",
+"tag": "unidad",
+"n": 3067
+},
+{
+"it": "il dentista",
+"es": "el dentista",
+"ex": "Vado dal dentista martedì.",
+"exEs": "Voy al dentista el martes.",
+"tag": "unidad",
+"n": 5857
+},
+{
+"it": "la pressione",
+"es": "la presión",
+"ex": "Il medico misura la pressione.",
+"exEs": "El médico mide la presión.",
+"tag": "unidad",
+"n": 1373
+},
+{
+"it": "l'assicurazione",
+"es": "el seguro",
+"ex": "Ho un'assicurazione sanitaria.",
+"exEs": "Tengo un seguro de salud.",
+"tag": "unidad",
+"n": 2890
+},
+{
+"it": "la tessera sanitaria",
+"es": "la tarjeta de salud",
+"ex": "Porto la tessera sanitaria.",
+"exEs": "Llevo la tarjeta de salud.",
+"tag": "unidad",
+"n": 9428
+}
+]
+},
+"u17": {
+"enrich": {
+"l'affitto": {
+"ex": "L'affitto costa seicento euro al mese.",
+"exEs": "El alquiler cuesta seiscientos euros al mes.",
+"tag": "frecuente"
+},
+"affittare": {
+"ex": "Voglio affittare un appartamento.",
+"exEs": "Quiero alquilar un apartamento.",
+"tag": "frecuente"
+},
+"il contratto": {
+"ex": "Leggo bene il contratto.",
+"exEs": "Leo bien el contrato.",
+"tag": "frecuente"
+},
+"la caparra": {
+"ex": "La caparra è di due mesi.",
+"exEs": "El depósito es de dos meses.",
+"tag": "unidad"
+},
+"le spese": {
+"ex": "Le spese sono incluse?",
+"exEs": "¿Los gastos comunes están incluidos?",
+"tag": "frecuente"
+},
+"il padrone di casa": {
+"ex": "Il padrone di casa abita al terzo piano.",
+"exEs": "El dueño de casa vive en el tercer piso.",
+"tag": "frecuente"
+},
+"arredato": {
+"ex": "L'appartamento è arredato.",
+"exEs": "El apartamento está amueblado.",
+"tag": "unidad"
+},
+"il piano": {
+"ex": "Abito al quarto piano.",
+"exEs": "Vivo en el cuarto piso.",
+"tag": "frecuente"
+},
+"il piano terra": {
+"ex": "Il negozio è al piano terra.",
+"exEs": "La tienda está en el primer piso.",
+"tag": "frecuente"
+},
+"l'ascensore": {
+"ex": "L'ascensore non funziona.",
+"exEs": "El ascensor no funciona.",
+"tag": "frecuente"
+},
+"il riscaldamento": {
+"ex": "Il riscaldamento è centralizzato.",
+"exEs": "La calefacción es central.",
+"tag": "unidad"
+},
+"la lavatrice": {
+"ex": "La lavatrice è in bagno.",
+"exEs": "La lavadora está en el baño.",
+"tag": "unidad"
+},
+"il rubinetto": {
+"ex": "Il rubinetto perde.",
+"exEs": "La llave de agua gotea.",
+"tag": "unidad"
+},
+"la chiave": {
+"ex": "Ho perso la chiave.",
+"exEs": "Perdí la llave.",
+"tag": "frecuente"
+},
+"il modulo": {
+"ex": "Compilo il modulo.",
+"exEs": "Relleno el formulario.",
+"tag": "unidad"
+},
+"firmare": {
+"ex": "Firmo qui, giusto?",
+"exEs": "Firmo aquí, ¿cierto?",
+"tag": "frecuente"
+},
+"compilare": {
+"ex": "Devo compilare questo modulo.",
+"exEs": "Tengo que rellenar este formulario.",
+"tag": "unidad"
+},
+"il documento": {
+"ex": "Ho portato tutti i documenti.",
+"exEs": "Traje todos los documentos.",
+"tag": "frecuente"
+},
+"il codice fiscale": {
+"ex": "Mi serve il codice fiscale.",
+"exEs": "Necesito el código fiscal.",
+"tag": "unidad"
+},
+"l'appuntamento": {
+"ex": "Ho un appuntamento alle dieci.",
+"exEs": "Tengo una cita a las diez.",
+"tag": "frecuente"
+},
+"lo sportello": {
+"ex": "Lo sportello apre alle otto.",
+"exEs": "La ventanilla abre a las ocho.",
+"tag": "unidad"
+},
+"mancare": {
+"ex": "Manca un documento.",
+"exEs": "Falta un documento.",
+"tag": "frecuente"
+},
+"funzionare": {
+"ex": "La lavatrice non funziona.",
+"exEs": "La lavadora no funciona.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "il proprietario",
+"es": "el propietario",
+"ex": "Il proprietario vende la casa.",
+"exEs": "El propietario vende la casa.",
+"tag": "frecuente",
+"n": 2358
+},
+{
+"it": "la luce",
+"es": "la luz",
+"ex": "La luce non funziona.",
+"exEs": "La luz no funciona.",
+"tag": "frecuente",
+"n": 735
+},
+{
+"it": "il gas",
+"es": "el gas",
+"ex": "Il gas è incluso nelle spese.",
+"exEs": "El gas está incluido en los gastos.",
+"tag": "frecuente",
+"n": 2250
+},
+{
+"it": "la domanda",
+"es": "la solicitud / la pregunta",
+"ex": "Presento la domanda oggi.",
+"exEs": "Presento la solicitud hoy.",
+"tag": "frecuente",
+"n": 535
+},
+{
+"it": "la richiesta",
+"es": "la petición",
+"ex": "Ho fatto una richiesta al comune.",
+"exEs": "Hice una petición a la municipalidad.",
+"tag": "frecuente",
+"n": 1793
+},
+{
+"it": "la copia",
+"es": "la copia",
+"ex": "Mi serve una copia del documento.",
+"exEs": "Necesito una copia del documento.",
+"tag": "frecuente",
+"n": 2571
+},
+{
+"it": "la firma",
+"es": "la firma",
+"ex": "Manca la firma.",
+"exEs": "Falta la firma.",
+"tag": "frecuente",
+"n": 2805
+},
+{
+"it": "il comune",
+"es": "la municipalidad",
+"ex": "Il comune è in piazza.",
+"exEs": "La municipalidad está en la plaza.",
+"tag": "frecuente",
+"n": 1325
+},
+{
+"it": "la stanza",
+"es": "la habitación / la habitación",
+"ex": "Cerco una stanza in affitto.",
+"exEs": "Busco una habitación en alquiler.",
+"tag": "frecuente",
+"n": 484
+},
+{
+"it": "la zona",
+"es": "la zona",
+"ex": "La zona è tranquilla.",
+"exEs": "La zona es tranquila.",
+"tag": "frecuente",
+"n": 1042
+},
+{
+"it": "la fila",
+"es": "la fila",
+"ex": "C'è molta fila allo sportello.",
+"exEs": "Hay mucha fila en la ventanilla.",
+"tag": "frecuente",
+"n": 1698
+},
+{
+"it": "rinnovare",
+"es": "renovar",
+"ex": "Devo rinnovare il contratto.",
+"exEs": "Tengo que renovar el contrato.",
+"tag": "unidad",
+"n": 17587
+},
+{
+"it": "la scala",
+"es": "la escalera",
+"ex": "Salgo per la scala.",
+"exEs": "Subo por la escalera.",
+"tag": "frecuente",
+"n": 2853
+},
+{
+"it": "luminoso",
+"es": "luminoso",
+"ex": "L'appartamento è molto luminoso.",
+"exEs": "El apartamento es muy luminoso.",
+"tag": "unidad",
+"n": 10399
+},
+{
+"it": "l'inquilino",
+"es": "el inquilino",
+"ex": "L'inquilino paga l'affitto il primo del mese.",
+"exEs": "El inquilino paga el alquiler el primero del mes.",
+"tag": "unidad",
+"n": 15390
+},
+{
+"it": "la bolletta",
+"es": "la cuenta (luz, gas)",
+"ex": "La bolletta della luce è alta.",
+"exEs": "La cuenta de la luz es alta.",
+"tag": "unidad",
+"n": 12883
+},
+{
+"it": "il contatore",
+"es": "el medidor",
+"ex": "Leggo il contatore del gas.",
+"exEs": "Leo el medidor del gas.",
+"tag": "unidad",
+"n": 21509
+},
+{
+"it": "la residenza",
+"es": "la residencia",
+"ex": "Chiedo la residenza in città.",
+"exEs": "Solicito la residencia en la ciudad.",
+"tag": "unidad",
+"n": 7454
+},
+{
+"it": "la fotocopia",
+"es": "la fotocopia",
+"ex": "Faccio una fotocopia del passaporto.",
+"exEs": "Hago una fotocopia del pasaporte.",
+"tag": "unidad",
+"n": 35193
+},
+{
+"it": "il certificato",
+"es": "el certificado",
+"ex": "Mi serve un certificato.",
+"exEs": "Necesito un certificado.",
+"tag": "unidad",
+"n": 5856
+},
+{
+"it": "l'originale",
+"es": "el original",
+"ex": "Porto l'originale e la copia.",
+"exEs": "Llevo el original y la copia.",
+"tag": "unidad",
+"n": 2775
+},
+{
+"it": "il deposito",
+"es": "el depósito",
+"ex": "Il deposito è di mille euro.",
+"exEs": "El depósito es de mil euros.",
+"tag": "unidad",
+"n": 3858
+},
+{
+"it": "il trasloco",
+"es": "la mudanza",
+"ex": "Il trasloco è sabato.",
+"exEs": "La mudanza es el sábado.",
+"tag": "unidad",
+"n": 13521
+},
+{
+"it": "traslocare",
+"es": "mudarse",
+"ex": "Traslochiamo a marzo.",
+"exEs": "Nos mudamos en marzo.",
+"tag": "unidad",
+"n": 13521
+},
+{
+"it": "il preavviso",
+"es": "el aviso previo",
+"ex": "Servono due mesi di preavviso.",
+"exEs": "Se necesitan dos meses de aviso previo.",
+"tag": "unidad",
+"n": 6531
+},
+{
+"it": "disdire",
+"es": "cancelar (un contrato)",
+"ex": "Voglio disdire il contratto.",
+"exEs": "Quiero cancelar el contrato.",
+"tag": "unidad",
+"n": 18692
+},
+{
+"it": "la cantina",
+"es": "la bodega",
+"ex": "La cantina è al piano terra.",
+"exEs": "La bodega está en el primer piso.",
+"tag": "unidad",
+"n": 4382
+},
+{
+"it": "il garage",
+"es": "el garaje",
+"ex": "Il garage è nel palazzo.",
+"exEs": "El garaje está en el edificio.",
+"tag": "unidad",
+"n": 3025
+},
+{
+"it": "rumoroso",
+"es": "ruidoso",
+"ex": "Il quartiere è rumoroso.",
+"exEs": "El barrio es ruidoso.",
+"tag": "unidad",
+"n": 14914
+},
+{
+"it": "il metro quadro",
+"es": "el metro cuadrado",
+"ex": "L'appartamento ha sessanta metri quadri.",
+"exEs": "El apartamento tiene sesenta metros cuadrados.",
+"tag": "unidad",
+"n": 3288
+}
+]
+},
+"u18": {
+"enrich": {
+"pronto": {
+"ex": "Pronto, chi parla?",
+"exEs": "Aló, ¿quién habla?",
+"tag": "frecuente"
+},
+"il cellulare": {
+"ex": "Ho il cellulare scarico.",
+"exEs": "Tengo el celular sin batería.",
+"tag": "frecuente"
+},
+"il numero": {
+"ex": "Qual è il tuo numero?",
+"exEs": "¿Cuál es tu número?",
+"tag": "frecuente"
+},
+"la chiamata": {
+"ex": "Aspetto una chiamata importante.",
+"exEs": "Espero una llamada importante.",
+"tag": "frecuente"
+},
+"richiamare": {
+"ex": "La richiamo più tardi.",
+"exEs": "La llamo más tarde.",
+"tag": "frecuente"
+},
+"rispondere": {
+"ex": "Non risponde al telefono.",
+"exEs": "No contesta el teléfono.",
+"tag": "frecuente"
+},
+"il messaggio": {
+"ex": "Ti mando un messaggio.",
+"exEs": "Te mando un mensaje.",
+"tag": "frecuente"
+},
+"la linea": {
+"ex": "La linea è occupata.",
+"exEs": "La línea está ocupada.",
+"tag": "frecuente"
+},
+"un attimo": {
+"ex": "Un attimo, per favore.",
+"exEs": "Un momento, por favor.",
+"tag": "frecuente"
+},
+"l'email": {
+"ex": "Ti scrivo un'email.",
+"exEs": "Te escribo un correo.",
+"tag": "frecuente"
+},
+"l'allegato": {
+"ex": "Trovi l'allegato qui sotto.",
+"exEs": "Encuentras el adjunto aquí abajo.",
+"tag": "unidad"
+},
+"inviare": {
+"ex": "Invio il documento oggi.",
+"exEs": "Envío el documento hoy.",
+"tag": "frecuente"
+},
+"allegare": {
+"ex": "Allego il mio curriculum.",
+"exEs": "Adjunto mi currículum.",
+"tag": "unidad"
+},
+"la risposta": {
+"ex": "Aspetto la sua risposta.",
+"exEs": "Espero su respuesta.",
+"tag": "frecuente"
+},
+"gentile": {
+"ex": "Gentile signora Rossi, la contatto per l'appartamento.",
+"exEs": "Estimada señora Rossi, la contacto por el apartamento.",
+"tag": "frecuente"
+},
+"cordiali saluti": {
+"ex": "Cordiali saluti, Marco Bianchi.",
+"exEs": "Atentos saludos, Marco Bianchi.",
+"tag": "unidad"
+},
+"un abbraccio": {
+"ex": "Un abbraccio, Anna.",
+"exEs": "Un abrazo, Anna.",
+"tag": "unidad"
+},
+"a presto": {
+"ex": "Ciao, a presto!",
+"exEs": "¡Adiós, hasta pronto!",
+"tag": "frecuente"
+},
+"a dopo": {
+"ex": "Ci vediamo, a dopo!",
+"exEs": "¡Nos vemos, hasta luego!",
+"tag": "frecuente"
+},
+"sentire": {
+"ex": "Ti sento male.",
+"exEs": "Te escucho mal.",
+"tag": "frecuente"
+},
+"tra": {
+"ex": "Ti chiamo tra cinque minuti.",
+"exEs": "Te llamo en cinco minutos.",
+"tag": "frecuente"
+},
+"l'informazione": {
+"ex": "Vorrei un'informazione.",
+"exEs": "Quisiera una información.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "il telefono",
+"es": "el teléfono",
+"ex": "Il telefono squilla.",
+"exEs": "El teléfono suena.",
+"tag": "frecuente",
+"n": 497
+},
+{
+"it": "internet",
+"es": "internet",
+"ex": "Non c'è internet qui.",
+"exEs": "Aquí no hay internet.",
+"tag": "frecuente",
+"n": 1963
+},
+{
+"it": "il computer",
+"es": "el computadora",
+"ex": "Il computer è nuovo.",
+"exEs": "El computadora es nuevo.",
+"tag": "frecuente",
+"n": 1104
+},
+{
+"it": "il sito",
+"es": "el sitio web",
+"ex": "Guardo il sito dell'università.",
+"exEs": "Reviso el sitio de la universidad.",
+"tag": "frecuente",
+"n": 2509
+},
+{
+"it": "occupato",
+"es": "ocupado",
+"ex": "Il numero è occupato.",
+"exEs": "El número está ocupado.",
+"tag": "frecuente",
+"n": 1966
+},
+{
+"it": "il segnale",
+"es": "la señal",
+"ex": "Qui non c'è segnale.",
+"exEs": "Aquí no hay señal.",
+"tag": "frecuente",
+"n": 1478
+},
+{
+"it": "scaricare",
+"es": "descargar",
+"ex": "Scarico il documento.",
+"exEs": "Descargo el documento.",
+"tag": "unidad",
+"n": 5238
+},
+{
+"it": "il codice",
+"es": "el código",
+"ex": "Mi dà il codice, per favore?",
+"exEs": "¿Me da el código, por favor?",
+"tag": "frecuente",
+"n": 1252
+},
+{
+"it": "il file",
+"es": "el archivo",
+"ex": "Ti mando il file.",
+"exEs": "Te mando el archivo.",
+"tag": "frecuente",
+"n": 2455
+},
+{
+"it": "l'oggetto",
+"es": "el asunto / el objeto",
+"ex": "L'oggetto dell'email è chiaro.",
+"exEs": "El asunto del correo es claro.",
+"tag": "frecuente",
+"n": 2962
+},
+{
+"it": "il profilo",
+"es": "el perfil",
+"ex": "Aggiorno il mio profilo.",
+"exEs": "Actualizo mi perfil.",
+"tag": "frecuente",
+"n": 2876
+},
+{
+"it": "la rete",
+"es": "la red",
+"ex": "La rete non funziona.",
+"exEs": "La red no funciona.",
+"tag": "frecuente",
+"n": 2293
+},
+{
+"it": "lo schermo",
+"es": "la pantalla",
+"ex": "Lo schermo è rotto.",
+"exEs": "La pantalla está rota.",
+"tag": "unidad",
+"n": 4106
+},
+{
+"it": "la batteria",
+"es": "la batería",
+"ex": "La batteria è scarica.",
+"exEs": "La batería está descargada.",
+"tag": "unidad",
+"n": 4249
+},
+{
+"it": "il caricabatterie",
+"es": "el cargador",
+"ex": "Ho dimenticato il caricabatterie.",
+"exEs": "Olvidé el cargador.",
+"tag": "unidad",
+"n": 30228
+},
+{
+"it": "il wifi",
+"es": "el wifi",
+"ex": "Qual è la password del wifi?",
+"exEs": "¿Cuál es la contraseña del wifi?",
+"tag": "unidad",
+"n": 38742
+},
+{
+"it": "la password",
+"es": "la contraseña",
+"ex": "Ho dimenticato la password.",
+"exEs": "Olvidé la contraseña.",
+"tag": "unidad",
+"n": 4956
+},
+{
+"it": "il link",
+"es": "el enlace",
+"ex": "Ti mando il link.",
+"exEs": "Te mando el enlace.",
+"tag": "unidad",
+"n": 9217
+},
+{
+"it": "la segreteria",
+"es": "el buzón de voz",
+"ex": "Lascio un messaggio in segreteria.",
+"exEs": "Dejo un mensaje en el buzón de voz.",
+"tag": "unidad",
+"n": 4241
+},
+{
+"it": "squillare",
+"es": "sonar (el teléfono)",
+"ex": "Il telefono squilla ma nessuno risponde.",
+"exEs": "El teléfono suena pero nadie contesta.",
+"tag": "unidad",
+"n": 7386
+},
+{
+"it": "la ricarica",
+"es": "la recarga",
+"ex": "Faccio la ricarica del telefono.",
+"exEs": "Recargo el teléfono.",
+"tag": "unidad",
+"n": 20292
+},
+{
+"it": "il mittente",
+"es": "el remitente",
+"ex": "Il mittente è Marco.",
+"exEs": "El remitente es Marco.",
+"tag": "unidad",
+"n": 17512
+},
+{
+"it": "in copia",
+"es": "con copia",
+"ex": "Metto Anna in copia.",
+"exEs": "Pongo a Anna con copia.",
+"tag": "unidad",
+"n": 2571
+},
+{
+"it": "in allegato",
+"es": "adjunto",
+"ex": "In allegato trova il modulo.",
+"exEs": "Adjunto encontrará el formulario.",
+"tag": "unidad",
+"n": 23424
+},
+{
+"it": "distinti saluti",
+"es": "atentos saludos",
+"ex": "Distinti saluti, Luca Verdi.",
+"exEs": "Atentos saludos, Luca Verdi.",
+"tag": "unidad",
+"n": 21531
+},
+{
+"it": "le scrivo per",
+"es": "le escribo para",
+"ex": "Le scrivo per chiedere un'informazione.",
+"exEs": "Le escribo para pedir una información.",
+"tag": "unidad",
+"n": 4347
+},
+{
+"it": "la prego di",
+"es": "le ruego que",
+"ex": "La prego di rispondere presto.",
+"exEs": "Le ruego que responda pronto.",
+"tag": "unidad",
+"n": 226
+},
+{
+"it": "restare in linea",
+"es": "mantenerse en la línea",
+"ex": "Resti in linea, per favore.",
+"exEs": "Permanezca en la línea, por favor.",
+"tag": "unidad",
+"n": 1054
+},
+{
+"it": "non c'è campo",
+"es": "no hay señal",
+"ex": "Qui non c'è campo.",
+"exEs": "Aquí no hay señal.",
+"tag": "unidad",
+"n": 734
+},
+{
+"it": "la videochiamata",
+"es": "la videollamada",
+"ex": "Facciamo una videochiamata?",
+"exEs": "¿Hacemos una videollamada?",
+"tag": "unidad",
+"n": 47198
+}
+]
+},
+"u19": {
+"enrich": {
+"la parola": {
+"ex": "Non conosco questa parola.",
+"exEs": "No conozco esta palabra.",
+"tag": "frecuente"
+},
+"la frase": {
+"ex": "Ripeta la frase, per favore.",
+"exEs": "Repita la frase, por favor.",
+"tag": "frecuente"
+},
+"il tempo": {
+"ex": "Non ho tempo oggi.",
+"exEs": "Hoy no tengo tiempo.",
+"tag": "frecuente"
+},
+"da quanto tempo?": {
+"ex": "Da quanto tempo studi italiano?",
+"exEs": "¿Hace cuánto tiempo estudias italiano?",
+"tag": "frecuente"
+},
+"da": {
+"ex": "Abito qui da due anni.",
+"exEs": "Vivo aquí hace dos años.",
+"tag": "frecuente"
+},
+"fa": {
+"ex": "Sono arrivato tre giorni fa.",
+"exEs": "Llegué hace tres días.",
+"tag": "frecuente"
+},
+"da poco": {
+"ex": "Studio italiano da poco.",
+"exEs": "Estudio italiano hace poco.",
+"tag": "frecuente"
+},
+"da molto": {
+"ex": "Lavoro qui da molto.",
+"exEs": "Trabajo aquí hace mucho.",
+"tag": "frecuente"
+},
+"appena": {
+"ex": "Sono appena arrivato.",
+"exEs": "Acabo de llegar.",
+"tag": "frecuente"
+},
+"ormai": {
+"ex": "Ormai parlo abbastanza bene.",
+"exEs": "Ya hablo bastante bien.",
+"tag": "frecuente"
+},
+"stare per": {
+"ex": "Sto per uscire.",
+"exEs": "Estoy por salir.",
+"tag": "frecuente"
+},
+"entrare": {
+"ex": "Si prega di entrare uno alla volta.",
+"exEs": "Se ruega entrar de a uno.",
+"tag": "frecuente"
+},
+"vietato": {
+"ex": "È vietato fumare.",
+"exEs": "Está prohibido fumar.",
+"tag": "unidad"
+},
+"permesso?": {
+"ex": "Permesso? Posso entrare?",
+"exEs": "¿Con permiso? ¿Puedo entrar?",
+"tag": "unidad"
+},
+"l'ingresso": {
+"ex": "L'ingresso è gratuito.",
+"exEs": "La entrada es gratuita.",
+"tag": "frecuente"
+},
+"l'orario": {
+"ex": "L'orario del museo è dalle nove alle cinque.",
+"exEs": "El horario del museo es de nueve a cinco.",
+"tag": "frecuente"
+},
+"la regola": {
+"ex": "Rispetto le regole.",
+"exEs": "Respeto las reglas.",
+"tag": "frecuente"
+},
+"di solito": {
+"ex": "Di solito si cena alle otto.",
+"exEs": "Normalmente se cena a las ocho.",
+"tag": "frecuente"
+},
+"una volta": {
+"ex": "Una volta al mese vado al cinema.",
+"exEs": "Una vez al mes voy al cine.",
+"tag": "frecuente"
+},
+"davvero": {
+"ex": "Davvero? Non lo sapevo!",
+"exEs": "¿De verdad? ¡No lo sabía!",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "si può",
+"es": "se puede",
+"ex": "Si può fotografare?",
+"exEs": "¿Se puede fotografiar?",
+"tag": "frecuente",
+"n": 228
+},
+{
+"it": "non si può",
+"es": "no se puede",
+"ex": "Non si può parcheggiare qui.",
+"exEs": "No se puede estacionar aquí.",
+"tag": "frecuente",
+"n": 228
+},
+{
+"it": "si deve",
+"es": "se debe",
+"ex": "Si deve prenotare prima.",
+"exEs": "Se debe reservar antes.",
+"tag": "frecuente",
+"n": 222
+},
+{
+"it": "è meglio",
+"es": "es mejor",
+"ex": "È meglio arrivare presto.",
+"exEs": "Es mejor llegar temprano.",
+"tag": "frecuente",
+"n": 172
+},
+{
+"it": "è necessario",
+"es": "es necesario",
+"ex": "È necessario avere il biglietto.",
+"exEs": "Es necesario tener el boleto.",
+"tag": "frecuente",
+"n": 1163
+},
+{
+"it": "da quando",
+"es": "desde cuando",
+"ex": "Da quando abiti qui?",
+"exEs": "¿Desde cuándo vives aquí?",
+"tag": "frecuente",
+"n": 53
+},
+{
+"it": "da sempre",
+"es": "desde siempre",
+"ex": "Mi piace l'Italia da sempre.",
+"exEs": "Me gusta Italia desde siempre.",
+"tag": "frecuente",
+"n": 119
+},
+{
+"it": "ci vuole",
+"es": "se necesita (singular)",
+"ex": "Ci vuole un'ora per arrivare.",
+"exEs": "Se necesita una hora para llegar.",
+"tag": "frecuente",
+"n": 176
+},
+{
+"it": "ci vogliono",
+"es": "se necesitan (plural)",
+"ex": "Ci vogliono due ore.",
+"exEs": "Se necesitan dos horas.",
+"tag": "frecuente",
+"n": 611
+},
+{
+"it": "il pericolo",
+"es": "el peligro",
+"ex": "C'è un pericolo?",
+"exEs": "¿Hay peligro?",
+"tag": "frecuente",
+"n": 1109
+},
+{
+"it": "pericoloso",
+"es": "peligroso",
+"ex": "È pericoloso attraversare qui.",
+"exEs": "Es peligroso cruzar aquí.",
+"tag": "frecuente",
+"n": 1289
+},
+{
+"it": "la sicurezza",
+"es": "la seguridad",
+"ex": "La sicurezza è importante.",
+"exEs": "La seguridad es importante.",
+"tag": "frecuente",
+"n": 605
+},
+{
+"it": "il rumore",
+"es": "el ruido",
+"ex": "C'è molto rumore.",
+"exEs": "Hay mucho ruido.",
+"tag": "frecuente",
+"n": 1526
+},
+{
+"it": "il silenzio",
+"es": "el silencio",
+"ex": "In biblioteca si fa silenzio.",
+"exEs": "En la biblioteca se guarda silencio.",
+"tag": "frecuente",
+"n": 1066
+},
+{
+"it": "fumare",
+"es": "fumar",
+"ex": "Non fumo da due anni.",
+"exEs": "No fumo hace dos años.",
+"tag": "frecuente",
+"n": 2302
+},
+{
+"it": "si dice",
+"es": "se dice",
+"ex": "Come si dice «gracias» in italiano?",
+"exEs": "¿Cómo se dice «gracias» en italiano?",
+"tag": "unidad",
+"n": 233
+},
+{
+"it": "è proibito",
+"es": "está prohibido",
+"ex": "È proibito entrare con il cane.",
+"exEs": "Está prohibido entrar con perro.",
+"tag": "unidad",
+"n": 5942
+},
+{
+"it": "è permesso",
+"es": "está permitido",
+"ex": "È permesso scattare foto.",
+"exEs": "Está permitido sacar fotos.",
+"tag": "unidad",
+"n": 797
+},
+{
+"it": "è obbligatorio",
+"es": "es obligatorio",
+"ex": "È obbligatorio il biglietto.",
+"exEs": "El boleto es obligatorio.",
+"tag": "unidad",
+"n": 14469
+},
+{
+"it": "la multa",
+"es": "la multa",
+"ex": "Ho preso una multa.",
+"exEs": "Me pusieron una multa.",
+"tag": "unidad",
+"n": 6283
+},
+{
+"it": "l'avviso",
+"es": "el aviso",
+"ex": "Leggo l'avviso sulla porta.",
+"exEs": "Leo el aviso en la puerta.",
+"tag": "unidad",
+"n": 4558
+},
+{
+"it": "il divieto",
+"es": "la prohibición",
+"ex": "Il divieto di sosta è chiaro.",
+"exEs": "La prohibición de estacionar es clara.",
+"tag": "unidad",
+"n": 11532
+},
+{
+"it": "da tanto tempo",
+"es": "hace mucho tiempo",
+"ex": "Ti aspetto da tanto tempo.",
+"exEs": "Te espero hace mucho tiempo.",
+"tag": "unidad",
+"n": 203
+},
+{
+"it": "essere in grado di",
+"es": "ser capaz de",
+"ex": "Sono in grado di parlare italiano.",
+"exEs": "Soy capaz de hablar italiano.",
+"tag": "unidad",
+"n": 844
+},
+{
+"it": "l'uscita di emergenza",
+"es": "la salida de emergencia",
+"ex": "L'uscita di emergenza è a destra.",
+"exEs": "La salida de emergencia está a la derecha.",
+"tag": "unidad",
+"n": 1494
+}
+]
+},
+"u20": {
+"enrich": {
+"perché": {
+"ex": "Perché non vieni?",
+"exEs": "¿Por qué no vienes?",
+"tag": "frecuente"
+},
+"quindi": {
+"ex": "Sono stanco, quindi vado a letto.",
+"exEs": "Estoy cansado, así que me acuesto.",
+"tag": "frecuente"
+},
+"però": {
+"ex": "È bello, però costa troppo.",
+"exEs": "Es bonito, pero cuesta demasiado.",
+"tag": "frecuente"
+},
+"invece": {
+"ex": "Io invece preferisco il tè.",
+"exEs": "Yo, en cambio, prefiero el té.",
+"tag": "frecuente"
+},
+"allora": {
+"ex": "Allora, che cosa facciamo?",
+"exEs": "Entonces, ¿qué hacemos?",
+"tag": "frecuente"
+},
+"comunque": {
+"ex": "Comunque, grazie lo stesso.",
+"exEs": "De todos modos, gracias igual.",
+"tag": "frecuente"
+},
+"insomma": {
+"ex": "Insomma, è andata bene.",
+"exEs": "En fin, salió bien.",
+"tag": "frecuente"
+},
+"magari": {
+"ex": "Magari ci vediamo domani.",
+"exEs": "Ojalá nos veamos mañana.",
+"tag": "frecuente"
+},
+"raccontare": {
+"ex": "Mi racconta la sua giornata.",
+"exEs": "Me cuenta su día.",
+"tag": "frecuente"
+},
+"chiedere": {
+"ex": "Mi ha chiesto dove abito.",
+"exEs": "Me preguntó dónde vivo.",
+"tag": "frecuente"
+},
+"domandare": {
+"ex": "Gli ho domandato l'ora.",
+"exEs": "Le pregunté la hora.",
+"tag": "frecuente"
+},
+"rispondere": {
+"ex": "Mi ha risposto subito.",
+"exEs": "Me respondió de inmediato.",
+"tag": "frecuente"
+},
+"dire": {
+"ex": "Mi ha detto la verità.",
+"exEs": "Me dijo la verdad.",
+"tag": "frecuente"
+},
+"spiegare": {
+"ex": "Il professore spiega la regola.",
+"exEs": "El profesor explica la regla.",
+"tag": "frecuente"
+},
+"promettere": {
+"ex": "Mi ha promesso di venire.",
+"exEs": "Me prometió venir.",
+"tag": "frecuente"
+},
+"aggiungere": {
+"ex": "Ha aggiunto che era stanca.",
+"exEs": "Agregó que estaba cansada.",
+"tag": "frecuente"
+},
+"ripetere": {
+"ex": "Ha ripetuto la domanda.",
+"exEs": "Repitió la pregunta.",
+"tag": "frecuente"
+},
+"la notizia": {
+"ex": "Ho una bella notizia.",
+"exEs": "Tengo una buena noticia.",
+"tag": "frecuente"
+},
+"la domanda": {
+"ex": "Ho una domanda.",
+"exEs": "Tengo una pregunta.",
+"tag": "frecuente"
+},
+"secondo": {
+"ex": "Secondo me, hai ragione.",
+"exEs": "Según yo, tienes razón.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "che",
+"es": "que",
+"ex": "Dice che è stanco.",
+"exEs": "Dice que está cansado.",
+"tag": "frecuente",
+"n": 3
+},
+{
+"it": "se",
+"es": "si",
+"ex": "Mi ha chiesto se vengo.",
+"exEs": "Me preguntó si voy.",
+"tag": "frecuente",
+"n": 26
+},
+{
+"it": "perciò",
+"es": "por eso",
+"ex": "Ho fame, perciò mangio.",
+"exEs": "Tengo hambre, por eso como.",
+"tag": "frecuente",
+"n": 1316
+},
+{
+"it": "dunque",
+"es": "entonces / por lo tanto",
+"ex": "Penso, dunque sono.",
+"exEs": "Pienso, luego existo.",
+"tag": "frecuente",
+"n": 1120
+},
+{
+"it": "tuttavia",
+"es": "sin embargo",
+"ex": "È caro, tuttavia lo compro.",
+"exEs": "Es caro, sin embargo lo compro.",
+"tag": "frecuente",
+"n": 2468
+},
+{
+"it": "anzi",
+"es": "más bien / al contrario",
+"ex": "Non è difficile, anzi è facile.",
+"exEs": "No es difícil, al contrario, es fácil.",
+"tag": "frecuente",
+"n": 1602
+},
+{
+"it": "eppure",
+"es": "y sin embargo",
+"ex": "Studia molto, eppure sbaglia.",
+"exEs": "Estudia mucho y sin embargo se equivoca.",
+"tag": "frecuente",
+"n": 1869
+},
+{
+"it": "poiché",
+"es": "puesto que",
+"ex": "Poiché piove, restiamo a casa.",
+"exEs": "Puesto que llueve, nos quedamos en casa.",
+"tag": "frecuente",
+"n": 5709
+},
+{
+"it": "anche se",
+"es": "aunque",
+"ex": "Esco anche se piove.",
+"exEs": "Salgo aunque llueva.",
+"tag": "frecuente",
+"n": 69
+},
+{
+"it": "nonostante",
+"es": "a pesar de",
+"ex": "Nonostante la pioggia, usciamo.",
+"exEs": "A pesar de la lluvia, salimos.",
+"tag": "frecuente",
+"n": 1767
+},
+{
+"it": "cioè",
+"es": "es decir",
+"ex": "Domani, cioè lunedì.",
+"exEs": "Mañana, es decir, el lunes.",
+"tag": "frecuente",
+"n": 977
+},
+{
+"it": "inoltre",
+"es": "además",
+"ex": "Inoltre, ho poco tempo.",
+"exEs": "Además, tengo poco tiempo.",
+"tag": "frecuente",
+"n": 1416
+},
+{
+"it": "infine",
+"es": "finalmente",
+"ex": "Infine, sono arrivato.",
+"exEs": "Finalmente, llegué.",
+"tag": "frecuente",
+"n": 5028
+},
+{
+"it": "per questo",
+"es": "por eso",
+"ex": "Per questo non sono venuto.",
+"exEs": "Por eso no vine.",
+"tag": "frecuente",
+"n": 33
+},
+{
+"it": "oltre a",
+"es": "además de",
+"ex": "Oltre a italiano, studio francese.",
+"exEs": "Además de italiano, estudio francés.",
+"tag": "frecuente",
+"n": 787
+},
+{
+"it": "siccome",
+"es": "como (causal)",
+"ex": "Siccome ero stanco, sono rimasto a casa.",
+"exEs": "Como estaba cansado, me quedé en casa.",
+"tag": "unidad",
+"n": 4566
+},
+{
+"it": "visto che",
+"es": "ya que",
+"ex": "Visto che sei qui, ti aiuto.",
+"exEs": "Ya que estás aquí, te ayudo.",
+"tag": "unidad",
+"n": 148
+},
+{
+"it": "dato che",
+"es": "dado que",
+"ex": "Dato che è tardi, andiamo.",
+"exEs": "Dado que es tarde, nos vamos.",
+"tag": "unidad",
+"n": 299
+},
+{
+"it": "ossia",
+"es": "o sea",
+"ex": "Domani, ossia sabato.",
+"exEs": "Mañana, o sea, el sábado.",
+"tag": "unidad",
+"n": 15082
+},
+{
+"it": "del resto",
+"es": "por lo demás",
+"ex": "Del resto, non ho nulla da dire.",
+"exEs": "Por lo demás, no tengo nada que decir.",
+"tag": "unidad",
+"n": 582
+},
+{
+"it": "in fondo",
+"es": "en el fondo",
+"ex": "In fondo, hai ragione.",
+"exEs": "En el fondo, tienes razón.",
+"tag": "unidad",
+"n": 818
+},
+{
+"it": "innanzitutto",
+"es": "ante todo",
+"ex": "Innanzitutto, grazie per l'invito.",
+"exEs": "Ante todo, gracias por la invitación.",
+"tag": "unidad",
+"n": 6342
+},
+{
+"it": "in conclusione",
+"es": "en conclusión",
+"ex": "In conclusione, è stata una bella serata.",
+"exEs": "En conclusión, fue una bonita velada.",
+"tag": "unidad",
+"n": 5294
+},
+{
+"it": "ha detto che",
+"es": "dijo que",
+"ex": "Ha detto che arriva alle otto.",
+"exEs": "Dijo que llega a las ocho.",
+"tag": "unidad",
+"n": 61
+},
+{
+"it": "ha chiesto se",
+"es": "preguntó si",
+"ex": "Ha chiesto se c'è posto.",
+"exEs": "Preguntó si hay lugar.",
+"tag": "unidad",
+"n": 395
+},
+{
+"it": "ha risposto che",
+"es": "respondió que",
+"ex": "Ha risposto che non può.",
+"exEs": "Respondió que no puede.",
+"tag": "unidad",
+"n": 1759
+},
+{
+"it": "ha spiegato che",
+"es": "explicó que",
+"ex": "Ha spiegato che il treno è in ritardo.",
+"exEs": "Explicó que el tren está atrasado.",
+"tag": "unidad",
+"n": 3954
+},
+{
+"it": "mi ha detto di",
+"es": "me dijo que (orden)",
+"ex": "Mi ha detto di aspettare.",
+"exEs": "Me dijo que esperara.",
+"tag": "unidad",
+"n": 61
+},
+{
+"it": "ha aggiunto che",
+"es": "agregó que",
+"ex": "Ha aggiunto che è stanco.",
+"exEs": "Agregó que está cansado.",
+"tag": "unidad",
+"n": 6750
+},
+{
+"it": "riferire",
+"es": "informar / transmitir",
+"ex": "Devo riferire un messaggio.",
+"exEs": "Tengo que transmitir un mensaje.",
+"tag": "unidad",
+"n": 7157
+}
+]
+},
+"u21": {
+"enrich": {
+"prestare": {
+"ex": "Ti presto la penna.",
+"exEs": "Te presto el lápiz.",
+"tag": "frecuente"
+},
+"dare": {
+"ex": "Te lo do domani.",
+"exEs": "Te lo doy mañana.",
+"tag": "frecuente"
+},
+"dire": {
+"ex": "Glielo dico io.",
+"exEs": "Se lo digo yo.",
+"tag": "frecuente"
+},
+"mandare": {
+"ex": "Te la mando stasera.",
+"exEs": "Te la mando esta noche.",
+"tag": "frecuente"
+},
+"spiegare": {
+"ex": "Ve lo spiego dopo.",
+"exEs": "Se lo explico después.",
+"tag": "frecuente"
+},
+"mostrare": {
+"ex": "Mi mostra la camera?",
+"exEs": "¿Me muestra la habitación?",
+"tag": "frecuente"
+},
+"portare": {
+"ex": "Ce lo porta il cameriere.",
+"exEs": "Nos lo trae el camarero.",
+"tag": "frecuente"
+},
+"restituire": {
+"ex": "Glieli restituisco domani.",
+"exEs": "Se los devuelvo mañana.",
+"tag": "unidad"
+},
+"consegnare": {
+"ex": "Gliela consegno oggi.",
+"exEs": "Se la entrego hoy.",
+"tag": "frecuente"
+},
+"il consiglio": {
+"ex": "Me lo ha dato un amico.",
+"exEs": "Me lo dio un amigo.",
+"tag": "frecuente"
+},
+"la penna": {
+"ex": "Mi presti la penna?",
+"exEs": "¿Me prestas el lápiz?",
+"tag": "frecuente"
+},
+"il numero": {
+"ex": "Gliel'ho dato ieri.",
+"exEs": "Se lo di ayer.",
+"tag": "frecuente"
+},
+"il favore": {
+"ex": "Me lo fai questo favore?",
+"exEs": "¿Me haces este favor?",
+"tag": "frecuente"
+},
+"lo scontrino": {
+"ex": "Me lo dà, per favore?",
+"exEs": "¿Me lo da, por favor?",
+"tag": "unidad"
+},
+"il pacco": {
+"ex": "Il pacco te lo mando domani.",
+"exEs": "El paquete te lo mando mañana.",
+"tag": "frecuente"
+},
+"la guida": {
+"ex": "La guida ce la presta la reception.",
+"exEs": "La guía nos la presta la recepción.",
+"tag": "frecuente"
+},
+"subito": {
+"ex": "Te lo spedisco subito.",
+"exEs": "Te lo despacho de inmediato.",
+"tag": "frecuente"
+},
+"volentieri": {
+"ex": "Te lo presto volentieri.",
+"exEs": "Te lo presto con gusto.",
+"tag": "frecuente"
+},
+"ancora una volta": {
+"ex": "Te lo ripeto ancora una volta.",
+"exEs": "Te lo repito una vez más.",
+"tag": "frecuente"
+},
+"spesso": {
+"ex": "Me lo chiede spesso.",
+"exEs": "Me lo pide a menudo.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "me lo",
+"es": "me lo",
+"ex": "Me lo dai?",
+"exEs": "¿Me lo das?",
+"tag": "frecuente",
+"n": 42
+},
+{
+"it": "te lo",
+"es": "te lo",
+"ex": "Te lo dico domani.",
+"exEs": "Te lo digo mañana.",
+"tag": "frecuente",
+"n": 45
+},
+{
+"it": "ce lo",
+"es": "nos lo",
+"ex": "Ce lo porta subito.",
+"exEs": "Nos lo trae de inmediato.",
+"tag": "frecuente",
+"n": 198
+},
+{
+"it": "ve lo",
+"es": "se lo (a ustedes)",
+"ex": "Ve lo mando domani.",
+"exEs": "Se lo mando mañana.",
+"tag": "frecuente",
+"n": 905
+},
+{
+"it": "me la",
+"es": "me la",
+"ex": "Me la presti?",
+"exEs": "¿Me la prestas?",
+"tag": "frecuente",
+"n": 42
+},
+{
+"it": "te la",
+"es": "te la",
+"ex": "Te la regalo.",
+"exEs": "Te la regalo.",
+"tag": "frecuente",
+"n": 45
+},
+{
+"it": "me li",
+"es": "me los",
+"ex": "Me li dai?",
+"exEs": "¿Me los das?",
+"tag": "frecuente",
+"n": 129
+},
+{
+"it": "me le",
+"es": "me las",
+"ex": "Me le mostri?",
+"exEs": "¿Me las muestras?",
+"tag": "frecuente",
+"n": 42
+},
+{
+"it": "me ne",
+"es": "me de eso",
+"ex": "Me ne dai un po'?",
+"exEs": "¿Me das un poco?",
+"tag": "frecuente",
+"n": 58
+},
+{
+"it": "ce ne",
+"es": "nos de eso",
+"ex": "Ce ne servono due.",
+"exEs": "Nos hacen falta dos.",
+"tag": "frecuente",
+"n": 198
+},
+{
+"it": "ovviamente",
+"es": "obviamente",
+"ex": "Ovviamente te lo presto.",
+"exEs": "Obviamente te lo presto.",
+"tag": "frecuente",
+"n": 803
+},
+{
+"it": "certamente",
+"es": "ciertamente",
+"ex": "Certamente, glielo dico.",
+"exEs": "Por supuesto, se lo digo.",
+"tag": "frecuente",
+"n": 1134
+},
+{
+"it": "insegnare",
+"es": "enseñar",
+"ex": "Mi insegna l'italiano.",
+"exEs": "Me enseña italiano.",
+"tag": "frecuente",
+"n": 1798
+},
+{
+"it": "far vedere",
+"es": "mostrar",
+"ex": "Ti faccio vedere la foto.",
+"exEs": "Te muestro la foto.",
+"tag": "frecuente",
+"n": 361
+},
+{
+"it": "far sapere",
+"es": "avisar / hacer saber",
+"ex": "Ti faccio sapere domani.",
+"exEs": "Te aviso mañana.",
+"tag": "frecuente",
+"n": 361
+},
+{
+"it": "glielo",
+"es": "se lo (a él/ella/usted)",
+"ex": "Glielo spedisco oggi.",
+"exEs": "Se lo despacho hoy.",
+"tag": "unidad",
+"n": 894
+},
+{
+"it": "gliela",
+"es": "se la (a él/ella/usted)",
+"ex": "Gliela porto domani.",
+"exEs": "Se la llevo mañana.",
+"tag": "unidad",
+"n": 4029
+},
+{
+"it": "glieli",
+"es": "se los (a él/ella/usted)",
+"ex": "Glieli mando subito.",
+"exEs": "Se los mando de inmediato.",
+"tag": "unidad",
+"n": 7685
+},
+{
+"it": "gliene",
+"es": "le de eso",
+"ex": "Gliene parlo io.",
+"exEs": "Yo le hablo de eso.",
+"tag": "unidad",
+"n": 3271
+},
+{
+"it": "te ne",
+"es": "te de eso",
+"ex": "Te ne compro uno.",
+"exEs": "Te compro uno.",
+"tag": "unidad",
+"n": 58
+},
+{
+"it": "comunicare",
+"es": "comunicar",
+"ex": "Gli comunico la data.",
+"exEs": "Le comunico la fecha.",
+"tag": "unidad",
+"n": 4570
+},
+{
+"it": "affidare",
+"es": "confiar / encargar",
+"ex": "Gli affido le chiavi.",
+"exEs": "Le confío las llaves.",
+"tag": "unidad",
+"n": 8279
+},
+{
+"it": "l'ombrello",
+"es": "el paraguas",
+"ex": "Ti presto l'ombrello.",
+"exEs": "Te presto el paraguas.",
+"tag": "unidad",
+"n": 9765
+},
+{
+"it": "il portafoglio",
+"es": "la billetera",
+"ex": "Ho dimenticato il portafoglio.",
+"exEs": "Olvidé la billetera.",
+"tag": "unidad",
+"n": 4565
+},
+{
+"it": "gli occhiali",
+"es": "las gafas",
+"ex": "Mi presti gli occhiali?",
+"exEs": "¿Me prestas las gafas?",
+"tag": "unidad",
+"n": 2502
+},
+{
+"it": "la macchina fotografica",
+"es": "la cámara fotográfica",
+"ex": "Ti porto la macchina fotografica.",
+"exEs": "Te llevo la cámara fotográfica.",
+"tag": "unidad",
+"n": 6967
+},
+{
+"it": "le chiavi",
+"es": "las llaves",
+"ex": "Te le do domani.",
+"exEs": "Te las doy mañana.",
+"tag": "unidad",
+"n": 1446
+},
+{
+"it": "con piacere",
+"es": "con gusto",
+"ex": "Te lo dico con piacere.",
+"exEs": "Te lo digo con gusto.",
+"tag": "unidad",
+"n": 238
+},
+{
+"it": "senz'altro",
+"es": "sin duda",
+"ex": "Glielo dico senz'altro.",
+"exEs": "Se lo digo sin duda.",
+"tag": "unidad",
+"n": null
+},
+{
+"it": "figurati",
+"es": "ni lo pienses",
+"ex": "Grazie! — Figurati!",
+"exEs": "¡Gracias! — ¡No hay de qué!",
+"tag": "unidad",
+"n": 2907
+}
+]
+},
+"u22": {
+"enrich": {
+"pensare": {
+"ex": "Penso che sia una buona idea.",
+"exEs": "Pienso que es una buena idea.",
+"tag": "frecuente"
+},
+"credere": {
+"ex": "Credo che Marco sia a casa.",
+"exEs": "Creo que Marco está en casa.",
+"tag": "frecuente"
+},
+"sperare": {
+"ex": "Spero che tu stia bene.",
+"exEs": "Espero que estés bien.",
+"tag": "frecuente"
+},
+"dubitare": {
+"ex": "Dubito che venga.",
+"exEs": "Dudo que venga.",
+"tag": "frecuente"
+},
+"sembrare": {
+"ex": "Sembra che piova.",
+"exEs": "Parece que llueve.",
+"tag": "frecuente"
+},
+"preferire": {
+"ex": "Preferisco che tu venga domani.",
+"exEs": "Prefiero que vengas mañana.",
+"tag": "frecuente"
+},
+"immaginare": {
+"ex": "Immagino che sia stanco.",
+"exEs": "Imagino que está cansado.",
+"tag": "frecuente"
+},
+"bisogna": {
+"ex": "Bisogna che tu studi di più.",
+"exEs": "Es necesario que estudies más.",
+"tag": "frecuente"
+},
+"importante": {
+"ex": "È importante che tu venga.",
+"exEs": "Es importante que vengas.",
+"tag": "frecuente"
+},
+"possibile": {
+"ex": "È possibile che arrivi tardi.",
+"exEs": "Es posible que llegue tarde.",
+"tag": "frecuente"
+},
+"probabile": {
+"ex": "È probabile che domani piova.",
+"exEs": "Es probable que mañana llueva.",
+"tag": "frecuente"
+},
+"sicuro": {
+"ex": "Sono sicuro che è vero.",
+"exEs": "Estoy seguro de que es verdad.",
+"tag": "frecuente"
+},
+"vero": {
+"ex": "Non è vero!",
+"exEs": "¡No es verdad!",
+"tag": "frecuente"
+},
+"falso": {
+"ex": "Questa notizia è falsa.",
+"exEs": "Esta noticia es falsa.",
+"tag": "frecuente"
+},
+"l'opinione": {
+"ex": "Qual è la tua opinione?",
+"exEs": "¿Cuál es tu opinión?",
+"tag": "frecuente"
+},
+"avere ragione": {
+"ex": "Hai ragione tu.",
+"exEs": "Tienes razón.",
+"tag": "frecuente"
+},
+"avere torto": {
+"ex": "Credo che abbia torto.",
+"exEs": "Creo que está equivocado.",
+"tag": "frecuente"
+},
+"d'accordo": {
+"ex": "Sono d'accordo con te.",
+"exEs": "Estoy de acuerdo contigo.",
+"tag": "unidad"
+},
+"secondo me": {
+"ex": "Secondo me, è troppo caro.",
+"exEs": "Según yo, es demasiado caro.",
+"tag": "frecuente"
+},
+"contento": {
+"ex": "Sono contento che tu sia qui.",
+"exEs": "Estoy contento de que estés aquí.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "che tu sia",
+"es": "que seas",
+"ex": "Spero che tu sia felice.",
+"exEs": "Espero que seas feliz.",
+"tag": "frecuente",
+"n": 83
+},
+{
+"it": "che abbia",
+"es": "que tenga",
+"ex": "Penso che abbia ragione.",
+"exEs": "Pienso que tiene razón.",
+"tag": "frecuente",
+"n": 217
+},
+{
+"it": "che faccia",
+"es": "que haga",
+"ex": "Spero che faccia bel tempo.",
+"exEs": "Espero que haga buen tiempo.",
+"tag": "frecuente",
+"n": 275
+},
+{
+"it": "che vada",
+"es": "que vaya",
+"ex": "Credo che vada a casa.",
+"exEs": "Creo que va a casa.",
+"tag": "frecuente",
+"n": 647
+},
+{
+"it": "che venga",
+"es": "que venga",
+"ex": "Spero che venga alla festa.",
+"exEs": "Espero que venga a la fiesta.",
+"tag": "frecuente",
+"n": 863
+},
+{
+"it": "che possa",
+"es": "que pueda",
+"ex": "Spero che possa aiutarci.",
+"exEs": "Espero que pueda ayudarnos.",
+"tag": "frecuente",
+"n": 475
+},
+{
+"it": "che voglia",
+"es": "que quiera",
+"ex": "Non credo che voglia venire.",
+"exEs": "No creo que quiera venir.",
+"tag": "frecuente",
+"n": 626
+},
+{
+"it": "che sappia",
+"es": "que sepa",
+"ex": "Dubito che sappia la verità.",
+"exEs": "Dudo que sepa la verdad.",
+"tag": "frecuente",
+"n": 948
+},
+{
+"it": "temere",
+"es": "temer",
+"ex": "Temo che sia troppo tardi.",
+"exEs": "Temo que sea demasiado tarde.",
+"tag": "frecuente",
+"n": 1275
+},
+{
+"it": "desiderare",
+"es": "desear",
+"ex": "Desidero che tutto vada bene.",
+"exEs": "Deseo que todo vaya bien.",
+"tag": "frecuente",
+"n": 2434
+},
+{
+"it": "ammettere",
+"es": "admitir",
+"ex": "Devo ammettere che hai ragione.",
+"exEs": "Debo admitir que tienes razón.",
+"tag": "frecuente",
+"n": 2937
+},
+{
+"it": "supporre",
+"es": "suponer",
+"ex": "Suppongo che sia vero.",
+"exEs": "Supongo que es verdad.",
+"tag": "unidad",
+"n": 13334
+},
+{
+"it": "pare che",
+"es": "parece que",
+"ex": "Pare che domani nevichi.",
+"exEs": "Parece que mañana nevará.",
+"tag": "frecuente",
+"n": 124
+},
+{
+"it": "sembra che",
+"es": "parece que",
+"ex": "Sembra che sia stanca.",
+"exEs": "Parece que está cansada.",
+"tag": "frecuente",
+"n": 177
+},
+{
+"it": "è meglio che",
+"es": "es mejor que",
+"ex": "È meglio che tu resti a casa.",
+"exEs": "Es mejor que te quedes en casa.",
+"tag": "frecuente",
+"n": 172
+},
+{
+"it": "bisogna che",
+"es": "hay que / es necesario que",
+"ex": "Bisogna che tu parta presto.",
+"exEs": "Es necesario que salgas temprano.",
+"tag": "frecuente",
+"n": 975
+},
+{
+"it": "qualunque",
+"es": "cualquier",
+"ex": "Qualunque cosa succeda, ti aiuto.",
+"exEs": "Pase lo que pase, te ayudo.",
+"tag": "frecuente",
+"n": 737
+},
+{
+"it": "il dubbio",
+"es": "la duda",
+"ex": "Ho un dubbio.",
+"exEs": "Tengo una duda.",
+"tag": "frecuente",
+"n": 1491
+},
+{
+"it": "affinché",
+"es": "para que",
+"ex": "Te lo spiego affinché tu capisca.",
+"exEs": "Te lo explico para que entiendas.",
+"tag": "unidad",
+"n": 6900
+},
+{
+"it": "benché",
+"es": "aunque",
+"ex": "Benché sia tardi, esco.",
+"exEs": "Aunque sea tarde, salgo.",
+"tag": "unidad",
+"n": 16549
+},
+{
+"it": "sebbene",
+"es": "aunque",
+"ex": "Sebbene sia stanco, lavoro.",
+"exEs": "Aunque esté cansado, trabajo.",
+"tag": "unidad",
+"n": 4463
+},
+{
+"it": "purché",
+"es": "con tal de que",
+"ex": "Vengo purché ci sia tempo.",
+"exEs": "Voy con tal de que haya tiempo.",
+"tag": "unidad",
+"n": 14433
+},
+{
+"it": "a meno che",
+"es": "a menos que",
+"ex": "Vengo, a meno che non piova.",
+"exEs": "Voy, a menos que llueva.",
+"tag": "unidad",
+"n": 319
+},
+{
+"it": "prima che",
+"es": "antes de que",
+"ex": "Telefono prima che parta.",
+"exEs": "Llamo antes de que salga.",
+"tag": "unidad",
+"n": 90
+},
+{
+"it": "senza che",
+"es": "sin que",
+"ex": "Esce senza che nessuno lo veda.",
+"exEs": "Sale sin que nadie lo vea.",
+"tag": "unidad",
+"n": 181
+},
+{
+"it": "chiunque",
+"es": "quienquiera",
+"ex": "Chiunque può partecipare.",
+"exEs": "Cualquiera puede participar.",
+"tag": "unidad",
+"n": 669
+},
+{
+"it": "ovunque",
+"es": "dondequiera",
+"ex": "Ovunque vada, trovo amici.",
+"exEs": "Donde vaya, encuentro amigos.",
+"tag": "unidad",
+"n": 1142
+},
+{
+"it": "la certezza",
+"es": "la certeza",
+"ex": "Non ho nessuna certezza.",
+"exEs": "No tengo ninguna certeza.",
+"tag": "unidad",
+"n": 4797
+},
+{
+"it": "è probabile che",
+"es": "es probable que",
+"ex": "È probabile che piova.",
+"exEs": "Es probable que llueva.",
+"tag": "unidad",
+"n": 2780
+},
+{
+"it": "è importante che",
+"es": "es importante que",
+"ex": "È importante che tu studi.",
+"exEs": "Es importante que estudies.",
+"tag": "unidad",
+"n": 417
+}
+]
+},
+"u23": {
+"enrich": {
+"se": {
+"ex": "Se piove, resto a casa.",
+"exEs": "Si llueve, me quedo en casa.",
+"tag": "frecuente"
+},
+"magari": {
+"ex": "Magari avessi più tempo!",
+"exEs": "¡Ojalá tuviera más tiempo!",
+"tag": "frecuente"
+},
+"ricco": {
+"ex": "Se fossi ricco, viaggerei sempre.",
+"exEs": "Si fuera rico, viajaría siempre.",
+"tag": "frecuente"
+},
+"i soldi": {
+"ex": "Se avessi più soldi, comprerei una casa.",
+"exEs": "Si tuviera más dinero, compraría una casa.",
+"tag": "frecuente"
+},
+"la lotteria": {
+"ex": "Se vincessi la lotteria, smetterei di lavorare.",
+"exEs": "Si ganara la lotería, dejaría de trabajar.",
+"tag": "unidad"
+},
+"vincere": {
+"ex": "Se vincessi, sarei felicissimo.",
+"exEs": "Si ganara, sería feliz.",
+"tag": "frecuente"
+},
+"il sogno": {
+"ex": "Il mio sogno è vivere al mare.",
+"exEs": "Mi sueño es vivir junto al mar.",
+"tag": "frecuente"
+},
+"la possibilità": {
+"ex": "Se avessi la possibilità, partirei.",
+"exEs": "Si tuviera la posibilidad, me iría.",
+"tag": "frecuente"
+},
+"l'occasione": {
+"ex": "Se ci fosse l'occasione, andrei.",
+"exEs": "Si hubiera la ocasión, iría.",
+"tag": "frecuente"
+},
+"il lavoro": {
+"ex": "Se cambiassi lavoro, guadagnerei di più.",
+"exEs": "Si cambiara de trabajo, ganaría más.",
+"tag": "frecuente"
+},
+"la scelta": {
+"ex": "Se potessi scegliere, resterei qui.",
+"exEs": "Si pudiera elegir, me quedaría aquí.",
+"tag": "frecuente"
+},
+"viaggiare": {
+"ex": "Se potessi, viaggerei ogni mese.",
+"exEs": "Si pudiera, viajaría cada mes.",
+"tag": "frecuente"
+},
+"comprare": {
+"ex": "Se avessi soldi, comprerei una macchina.",
+"exEs": "Si tuviera dinero, compraría un auto.",
+"tag": "frecuente"
+},
+"restare": {
+"ex": "Se potessi, resterei qui per sempre.",
+"exEs": "Si pudiera, me quedaría aquí para siempre.",
+"tag": "frecuente"
+},
+"cambiare": {
+"ex": "Se potessi, cambierei città.",
+"exEs": "Si pudiera, cambiaría de ciudad.",
+"tag": "frecuente"
+},
+"risparmiare": {
+"ex": "Se risparmiassi di più, potrei viaggiare.",
+"exEs": "Si ahorrara más, podría viajar.",
+"tag": "unidad"
+},
+"se fossi in te": {
+"ex": "Se fossi in te, studierei di più.",
+"exEs": "Si yo fuera tú, estudiaría más.",
+"tag": "frecuente"
+},
+"sarebbe bello": {
+"ex": "Sarebbe bello vivere a Roma.",
+"exEs": "Sería bonito vivir en Roma.",
+"tag": "frecuente"
+},
+"probabilmente": {
+"ex": "Probabilmente verrò, se non piove.",
+"exEs": "Probablemente vendré, si no llueve.",
+"tag": "frecuente"
+},
+"mai": {
+"ex": "Non vado mai al mare, ma se potessi ci andrei sempre.",
+"exEs": "Nunca voy a la playa, pero si pudiera iría siempre.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "se avessi",
+"es": "si tuviera",
+"ex": "Se avessi tempo, verrei.",
+"exEs": "Si tuviera tiempo, vendría.",
+"tag": "frecuente",
+"n": 547
+},
+{
+"it": "se potessi",
+"es": "si pudiera",
+"ex": "Se potessi, partirei oggi.",
+"exEs": "Si pudiera, saldría hoy.",
+"tag": "frecuente",
+"n": 1397
+},
+{
+"it": "se fossi",
+"es": "si fuera",
+"ex": "Se fossi libero, uscirei.",
+"exEs": "Si estuviera libre, saldría.",
+"tag": "frecuente",
+"n": 476
+},
+{
+"it": "se vincessi",
+"es": "si ganara",
+"ex": "Se vincessi, farei una festa.",
+"exEs": "Si ganara, haría una fiesta.",
+"tag": "unidad",
+"n": 37437
+},
+{
+"it": "se piove",
+"es": "si llueve",
+"ex": "Se piove, restiamo a casa.",
+"exEs": "Si llueve, nos quedamos en casa.",
+"tag": "unidad",
+"n": 7169
+},
+{
+"it": "altrimenti",
+"es": "de lo contrario",
+"ex": "Studia, altrimenti non passi l'esame.",
+"exEs": "Estudia, de lo contrario no apruebas el examen.",
+"tag": "frecuente",
+"n": 1079
+},
+{
+"it": "oppure",
+"es": "o bien",
+"ex": "Vieni in treno oppure in macchina?",
+"exEs": "¿Vienes en tren o en auto?",
+"tag": "frecuente",
+"n": 859
+},
+{
+"it": "la fortuna",
+"es": "la suerte / la fortuna",
+"ex": "Che fortuna!",
+"exEs": "¡Qué suerte!",
+"tag": "frecuente",
+"n": 584
+},
+{
+"it": "fortunato",
+"es": "afortunado",
+"ex": "Sono molto fortunato.",
+"exEs": "Soy muy afortunado.",
+"tag": "frecuente",
+"n": 1480
+},
+{
+"it": "il successo",
+"es": "el éxito",
+"ex": "Il film ha avuto molto successo.",
+"exEs": "La película tuvo mucho éxito.",
+"tag": "frecuente",
+"n": 205
+},
+{
+"it": "la carriera",
+"es": "la carrera profesional",
+"ex": "Voglio fare carriera.",
+"exEs": "Quiero hacer carrera.",
+"tag": "frecuente",
+"n": 1482
+},
+{
+"it": "guadagnare",
+"es": "ganar (dinero)",
+"ex": "Guadagno abbastanza bene.",
+"exEs": "Gano bastante bien.",
+"tag": "frecuente",
+"n": 3167
+},
+{
+"it": "lo stipendio",
+"es": "el sueldo",
+"ex": "Lo stipendio è basso.",
+"exEs": "El sueldo es bajo.",
+"tag": "unidad",
+"n": 4276
+},
+{
+"it": "l'azienda",
+"es": "la empresa",
+"ex": "Lavoro in un'azienda italiana.",
+"exEs": "Trabajo en una empresa italiana.",
+"tag": "frecuente",
+"n": 1998
+},
+{
+"it": "se avrò tempo",
+"es": "si tengo tiempo",
+"ex": "Se avrò tempo, verrò.",
+"exEs": "Si tengo tiempo, iré.",
+"tag": "unidad",
+"n": 1859
+},
+{
+"it": "a condizione che",
+"es": "con la condición de que",
+"ex": "Vengo a condizione che ci siano tutti.",
+"exEs": "Voy con la condición de que estén todos.",
+"tag": "unidad",
+"n": 3354
+},
+{
+"it": "in caso di",
+"es": "en caso de",
+"ex": "In caso di pioggia, restiamo qui.",
+"exEs": "En caso de lluvia, nos quedamos aquí.",
+"tag": "unidad",
+"n": 253
+},
+{
+"it": "in quel caso",
+"es": "en ese caso",
+"ex": "In quel caso, resto a casa.",
+"exEs": "En ese caso, me quedo en casa.",
+"tag": "unidad",
+"n": 253
+},
+{
+"it": "fantasticare",
+"es": "fantasear",
+"ex": "Mi piace fantasticare sul futuro.",
+"exEs": "Me gusta fantasear sobre el futuro.",
+"tag": "unidad",
+"n": 468
+},
+{
+"it": "rimpiangere",
+"es": "lamentar / añorar",
+"ex": "Non rimpiango nulla.",
+"exEs": "No lamento nada.",
+"tag": "unidad",
+"n": 18517
+},
+{
+"it": "il rimpianto",
+"es": "el arrepentimiento",
+"ex": "Ho un solo rimpianto.",
+"exEs": "Tengo un solo arrepentimiento.",
+"tag": "unidad",
+"n": 10578
+},
+{
+"it": "sfortunato",
+"es": "desafortunado",
+"ex": "Sono stato sfortunato.",
+"exEs": "Fui desafortunado.",
+"tag": "unidad",
+"n": 9737
+},
+{
+"it": "rischiare",
+"es": "arriesgar",
+"ex": "Non voglio rischiare.",
+"exEs": "No quiero arriesgar.",
+"tag": "unidad",
+"n": 1357
+},
+{
+"it": "la sfida",
+"es": "el desafío",
+"ex": "È una grande sfida.",
+"exEs": "Es un gran desafío.",
+"tag": "unidad",
+"n": 3224
+},
+{
+"it": "ricominciare",
+"es": "empezar de nuevo",
+"ex": "Vorrei ricominciare da zero.",
+"exEs": "Quisiera empezar de cero.",
+"tag": "unidad",
+"n": 3149
+},
+{
+"it": "il risparmio",
+"es": "el ahorro",
+"ex": "I risparmi sono pochi.",
+"exEs": "Los ahorros son pocos.",
+"tag": "unidad",
+"n": 11055
+},
+{
+"it": "la ricchezza",
+"es": "la riqueza",
+"ex": "La ricchezza non è tutto.",
+"exEs": "La riqueza no lo es todo.",
+"tag": "unidad",
+"n": 7661
+},
+{
+"it": "ereditare",
+"es": "heredar",
+"ex": "Ha ereditato una casa.",
+"exEs": "Heredó una casa.",
+"tag": "unidad",
+"n": 8830
+},
+{
+"it": "l'imprenditore",
+"es": "el empresario",
+"ex": "L'imprenditore apre un negozio.",
+"exEs": "El empresario abre una tienda.",
+"tag": "unidad",
+"n": 12292
+}
+]
+},
+"u24": {
+"enrich": {
+"prima": {
+"ex": "Prima ho studiato, poi ho cenato.",
+"exEs": "Primero estudié, después cené.",
+"tag": "frecuente"
+},
+"poi": {
+"ex": "Poi siamo usciti.",
+"exEs": "Después salimos.",
+"tag": "frecuente"
+},
+"dopo": {
+"ex": "Dopo il corso ho parlato con Marco.",
+"exEs": "Después del curso hablé con Marco.",
+"tag": "frecuente"
+},
+"alla fine": {
+"ex": "Alla fine sono rimasto a casa.",
+"exEs": "Al final me quedé en casa.",
+"tag": "frecuente"
+},
+"mentre": {
+"ex": "Mentre studiavo, ascoltavo musica.",
+"exEs": "Mientras estudiaba, escuchaba música.",
+"tag": "frecuente"
+},
+"perché": {
+"ex": "Non sono venuto perché ero stanco.",
+"exEs": "No vine porque estaba cansado.",
+"tag": "frecuente"
+},
+"quindi": {
+"ex": "Avevo fame, quindi ho mangiato.",
+"exEs": "Tenía hambre, así que comí.",
+"tag": "frecuente"
+},
+"però": {
+"ex": "Studio molto, però sbaglio ancora.",
+"exEs": "Estudio mucho, pero todavía me equivoco.",
+"tag": "frecuente"
+},
+"infatti": {
+"ex": "Parla bene: infatti ha vissuto a Roma.",
+"exEs": "Habla bien: de hecho vivió en Roma.",
+"tag": "frecuente"
+},
+"per esempio": {
+"ex": "Mi piacciono i dolci, per esempio il tiramisù.",
+"exEs": "Me gustan los dulces, por ejemplo el tiramisú.",
+"tag": "frecuente"
+},
+"secondo me": {
+"ex": "Secondo me, l'italiano è facile.",
+"exEs": "Según yo, el italiano es fácil.",
+"tag": "frecuente"
+},
+"in realtà": {
+"ex": "In realtà non lo sapevo.",
+"exEs": "En realidad no lo sabía.",
+"tag": "frecuente"
+},
+"purtroppo": {
+"ex": "Purtroppo non posso venire.",
+"exEs": "Lamentablemente no puedo venir.",
+"tag": "frecuente"
+},
+"per fortuna": {
+"ex": "Per fortuna non ha piovuto.",
+"exEs": "Por suerte no llovió.",
+"tag": "frecuente"
+},
+"comunque": {
+"ex": "Comunque, è andata bene.",
+"exEs": "De todos modos, salió bien.",
+"tag": "frecuente"
+},
+"l'esperienza": {
+"ex": "È stata un'esperienza bellissima.",
+"exEs": "Fue una experiencia hermosísima.",
+"tag": "frecuente"
+},
+"il ricordo": {
+"ex": "Ho un bel ricordo di quel viaggio.",
+"exEs": "Tengo un bonito recuerdo de ese viaje.",
+"tag": "frecuente"
+},
+"imparare": {
+"ex": "Imparo cinque parole al giorno.",
+"exEs": "Aprendo cinco palabras al día.",
+"tag": "frecuente"
+},
+"migliorare": {
+"ex": "Il mio italiano sta migliorando.",
+"exEs": "Mi italiano está mejorando.",
+"tag": "frecuente"
+},
+"la vacanza": {
+"ex": "La vacanza è stata bellissima.",
+"exEs": "Las vacaciones fueron hermosísimas.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "presentare",
+"es": "presentar",
+"ex": "Presento il mio progetto.",
+"exEs": "Presento mi proyecto.",
+"tag": "frecuente",
+"n": 1296
+},
+{
+"it": "il risultato",
+"es": "el resultado",
+"ex": "Il risultato è buono.",
+"exEs": "El resultado es bueno.",
+"tag": "frecuente",
+"n": 2419
+},
+{
+"it": "il livello",
+"es": "el nivel",
+"ex": "Il mio livello è A2.",
+"exEs": "Mi nivel es A2.",
+"tag": "frecuente",
+"n": 1200
+},
+{
+"it": "il corso",
+"es": "el curso",
+"ex": "Il corso finisce a dicembre.",
+"exEs": "El curso termina en diciembre.",
+"tag": "frecuente",
+"n": 1089
+},
+{
+"it": "l'esame",
+"es": "el examen",
+"ex": "Domani ho un esame.",
+"exEs": "Mañana tengo un examen.",
+"tag": "frecuente",
+"n": 2039
+},
+{
+"it": "la prova",
+"es": "la prueba",
+"ex": "Faccio una prova finale.",
+"exEs": "Hago una prueba final.",
+"tag": "frecuente",
+"n": 543
+},
+{
+"it": "superare",
+"es": "superar / aprobar",
+"ex": "Ho superato l'esame.",
+"exEs": "Aprobé el examen.",
+"tag": "frecuente",
+"n": 2772
+},
+{
+"it": "il voto",
+"es": "la nota",
+"ex": "Ho preso un bel voto.",
+"exEs": "Saqué una buena nota.",
+"tag": "frecuente",
+"n": 2816
+},
+{
+"it": "il progresso",
+"es": "el progreso",
+"ex": "Faccio progressi ogni giorno.",
+"exEs": "Hago progresos cada día.",
+"tag": "unidad",
+"n": 7107
+},
+{
+"it": "l'errore",
+"es": "el error",
+"ex": "Ho fatto un errore.",
+"exEs": "Cometí un error.",
+"tag": "frecuente",
+"n": 912
+},
+{
+"it": "sbagliare",
+"es": "equivocarse",
+"ex": "Sbaglio ancora qualche volta.",
+"exEs": "Todavía me equivoco a veces.",
+"tag": "frecuente",
+"n": 682
+},
+{
+"it": "correggere",
+"es": "corregir",
+"ex": "Correggo gli errori.",
+"exEs": "Corrijo los errores.",
+"tag": "unidad",
+"n": 12536
+},
+{
+"it": "la pratica",
+"es": "la práctica",
+"ex": "La pratica è importante.",
+"exEs": "La práctica es importante.",
+"tag": "frecuente",
+"n": 1882
+},
+{
+"it": "concludere",
+"es": "concluir",
+"ex": "Concludo con un esempio.",
+"exEs": "Concluyo con un ejemplo.",
+"tag": "frecuente",
+"n": 6036
+},
+{
+"it": "la conclusione",
+"es": "la conclusión",
+"ex": "Ecco la conclusione.",
+"exEs": "Aquí está la conclusión.",
+"tag": "unidad",
+"n": 5294
+},
+{
+"it": "la presentazione",
+"es": "la presentación",
+"ex": "La presentazione dura cinque minuti.",
+"exEs": "La presentación dura cinco minutos.",
+"tag": "unidad",
+"n": 5162
+},
+{
+"it": "il traguardo",
+"es": "la meta",
+"ex": "Ho raggiunto un bel traguardo.",
+"exEs": "Alcancé una bonita meta.",
+"tag": "unidad",
+"n": 9223
+},
+{
+"it": "esercitarsi",
+"es": "practicar / ejercitarse",
+"ex": "Mi esercito ogni giorno.",
+"exEs": "Practico cada día.",
+"tag": "unidad",
+"n": 1116
+},
+{
+"it": "ripassare",
+"es": "repasar",
+"ex": "Ripasso le parole nuove.",
+"exEs": "Repaso las palabras nuevas.",
+"tag": "unidad",
+"n": 17933
+},
+{
+"it": "la grammatica",
+"es": "la gramática",
+"ex": "La grammatica è difficile ma utile.",
+"exEs": "La gramática es difícil pero útil.",
+"tag": "unidad",
+"n": 23102
+},
+{
+"it": "il vocabolario",
+"es": "el vocabulario",
+"ex": "Il mio vocabolario cresce.",
+"exEs": "Mi vocabulario crece.",
+"tag": "unidad",
+"n": 19134
+},
+{
+"it": "la pronuncia",
+"es": "la pronunciación",
+"ex": "La pronuncia è importante.",
+"exEs": "La pronunciación es importante.",
+"tag": "unidad",
+"n": 10298
+},
+{
+"it": "l'ascolto",
+"es": "la comprensión auditiva",
+"ex": "Faccio un esercizio di ascolto.",
+"exEs": "Hago un ejercicio de comprensión auditiva.",
+"tag": "unidad",
+"n": 2491
+},
+{
+"it": "la lettura",
+"es": "la lectura",
+"ex": "La lettura mi aiuta molto.",
+"exEs": "La lectura me ayuda mucho.",
+"tag": "unidad",
+"n": 5647
+},
+{
+"it": "la scrittura",
+"es": "la escritura",
+"ex": "La scrittura è più difficile.",
+"exEs": "La escritura es más difícil.",
+"tag": "unidad",
+"n": 7546
+},
+{
+"it": "il dizionario",
+"es": "el diccionario",
+"ex": "Cerco la parola nel dizionario.",
+"exEs": "Busco la palabra en el diccionario.",
+"tag": "unidad",
+"n": 14237
+},
+{
+"it": "tradurre",
+"es": "traducir",
+"ex": "Traduco la frase in spagnolo.",
+"exEs": "Traduzco la frase al español.",
+"tag": "unidad",
+"n": 1930
+},
+{
+"it": "la traduzione",
+"es": "la traducción",
+"ex": "La traduzione è corretta.",
+"exEs": "La traducción es correcta.",
+"tag": "unidad",
+"n": 447
+},
+{
+"it": "riassumere",
+"es": "resumir",
+"ex": "Riassumo il testo in poche righe.",
+"exEs": "Resumo el texto en pocas líneas.",
+"tag": "unidad",
+"n": 24356
+},
+{
+"it": "il riassunto",
+"es": "el resumen",
+"ex": "Scrivo un riassunto.",
+"exEs": "Escribo un resumen.",
+"tag": "unidad",
+"n": 15892
+}
+]
+},
+"u25": {
+"enrich": {
+"il nome": {
+"ex": "Il mio nome è Nicolás.",
+"exEs": "Mi nombre es Nicolás.",
+"tag": "frecuente"
+},
+"il cognome": {
+"ex": "Qual è il suo cognome?",
+"exEs": "¿Cuál es su apellido?",
+"tag": "frecuente"
+},
+"la lettera": {
+"ex": "La prima lettera è la «a».",
+"exEs": "La primera letra es la «a».",
+"tag": "frecuente"
+},
+"l'alfabeto": {
+"ex": "L'alfabeto italiano ha ventuno lettere.",
+"exEs": "El alfabeto italiano tiene veintiuna letras.",
+"tag": "unidad"
+},
+"la vocale": {
+"ex": "La «a» è una vocale.",
+"exEs": "La «a» es una vocal.",
+"tag": "unidad"
+},
+"la consonante": {
+"ex": "La «b» è una consonante.",
+"exEs": "La «b» es una consonante.",
+"tag": "unidad"
+},
+"l'accento": {
+"ex": "L'accento è sulla «a» finale.",
+"exEs": "El acento está en la «a» final.",
+"tag": "unidad"
+},
+"capire": {
+"ex": "Capisco un po' di italiano.",
+"exEs": "Entiendo un poco de italiano.",
+"tag": "frecuente"
+},
+"ripetere": {
+"ex": "Può ripetere, per favore?",
+"exEs": "¿Puede repetir, por favor?",
+"tag": "frecuente"
+},
+"scrivere": {
+"ex": "Come si scrive il suo nome?",
+"exEs": "¿Cómo se escribe su nombre?",
+"tag": "frecuente"
+},
+"piano": {
+"ex": "Parli più piano, per favore.",
+"exEs": "Hable más despacio, por favor.",
+"tag": "frecuente"
+},
+"zero": {
+"ex": "Il mio numero finisce con zero.",
+"exEs": "Mi número termina en cero.",
+"tag": "frecuente"
+},
+"uno": {
+"ex": "Uno, due, tre!",
+"exEs": "¡Uno, dos, tres!",
+"tag": "frecuente"
+},
+"due": {
+"ex": "Ho due fratelli.",
+"exEs": "Tengo dos hermanos.",
+"tag": "frecuente"
+},
+"tre": {
+"ex": "Abito al terzo piano: tre scale.",
+"exEs": "Vivo en el tercer piso: tres escaleras.",
+"tag": "frecuente"
+},
+"quattro": {
+"ex": "Siamo in quattro.",
+"exEs": "Somos cuatro.",
+"tag": "frecuente"
+},
+"cinque": {
+"ex": "Ho cinque euro.",
+"exEs": "Tengo cinco euros.",
+"tag": "frecuente"
+},
+"sei": {
+"ex": "Sono le sei.",
+"exEs": "Son las seis.",
+"tag": "frecuente"
+},
+"sette": {
+"ex": "La settimana ha sette giorni.",
+"exEs": "La semana tiene siete días.",
+"tag": "frecuente"
+},
+"otto": {
+"ex": "Esco alle otto.",
+"exEs": "Salgo a las ocho.",
+"tag": "frecuente"
+},
+"nove": {
+"ex": "Il treno parte alle nove.",
+"exEs": "El tren sale a las nueve.",
+"tag": "frecuente"
+},
+"dieci": {
+"ex": "Dieci minuti, per favore.",
+"exEs": "Diez minutos, por favor.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "significare",
+"es": "significar",
+"ex": "Che cosa significa questa parola?",
+"exEs": "¿Qué significa esta palabra?",
+"tag": "frecuente",
+"n": 433
+},
+{
+"it": "pronunciare",
+"es": "pronunciar",
+"ex": "Come si pronuncia questa parola?",
+"exEs": "¿Cómo se pronuncia esta palabra?",
+"tag": "unidad",
+"n": 10259
+},
+{
+"it": "la doppia",
+"es": "la letra doble",
+"ex": "«Anno» si scrive con la doppia «n».",
+"exEs": "«Anno» se escribe con doble «n».",
+"tag": "unidad",
+"n": 5011
+},
+{
+"it": "il punto",
+"es": "el punto",
+"ex": "Metto un punto alla fine.",
+"exEs": "Pongo un punto al final.",
+"tag": "frecuente",
+"n": 390
+},
+{
+"it": "la data di nascita",
+"es": "la fecha de nacimiento",
+"ex": "La mia data di nascita è il tre marzo.",
+"exEs": "Mi fecha de nacimiento es el tres de marzo.",
+"tag": "frecuente",
+"n": 3072
+},
+{
+"it": "il numero di telefono",
+"es": "el número de teléfono",
+"ex": "Mi dà il suo numero di telefono?",
+"exEs": "¿Me da su número de teléfono?",
+"tag": "frecuente",
+"n": 497
+},
+{
+"it": "ho bisogno di",
+"es": "necesito",
+"ex": "Ho bisogno di aiuto.",
+"exEs": "Necesito ayuda.",
+"tag": "frecuente",
+"n": 162
+},
+{
+"it": "mi serve",
+"es": "necesito / me hace falta",
+"ex": "Mi serve una penna.",
+"exEs": "Necesito un lápiz.",
+"tag": "frecuente",
+"n": 292
+},
+{
+"it": "dov'è?",
+"es": "¿dónde está?",
+"ex": "Dov'è il bagno?",
+"exEs": "¿Dónde está el baño?",
+"tag": "unidad",
+"n": null
+},
+{
+"it": "può aiutarmi?",
+"es": "¿puede ayudarme?",
+"ex": "Scusi, può aiutarmi?",
+"exEs": "Disculpe, ¿puede ayudarme?",
+"tag": "frecuente",
+"n": 228
+},
+{
+"it": "più lentamente",
+"es": "más lentamente",
+"ex": "Può parlare più lentamente?",
+"exEs": "¿Puede hablar más lentamente?",
+"tag": "frecuente",
+"n": 2623
+},
+{
+"it": "non parlo bene",
+"es": "no hablo bien",
+"ex": "Non parlo bene italiano.",
+"exEs": "No hablo bien italiano.",
+"tag": "frecuente",
+"n": 1111
+},
+{
+"it": "non ho capito",
+"es": "no entendí",
+"ex": "Scusi, non ho capito.",
+"exEs": "Disculpe, no entendí.",
+"tag": "frecuente",
+"n": 288
+},
+{
+"it": "come si scrive?",
+"es": "¿cómo se escribe?",
+"ex": "Come si scrive «gnocchi»?",
+"exEs": "¿Cómo se escribe «gnocchi»?",
+"tag": "unidad",
+"n": 29
+},
+{
+"it": "come si pronuncia?",
+"es": "¿cómo se pronuncia?",
+"ex": "Come si pronuncia «cena»?",
+"exEs": "¿Cómo se pronuncia «cena»?",
+"tag": "unidad",
+"n": 29
+},
+{
+"it": "come si dice?",
+"es": "¿cómo se dice?",
+"ex": "Come si dice «gracias»?",
+"exEs": "¿Cómo se dice «gracias»?",
+"tag": "unidad",
+"n": 29
+},
+{
+"it": "che cosa significa?",
+"es": "¿qué significa?",
+"ex": "Che cosa significa «prego»?",
+"exEs": "¿Qué significa «prego»?",
+"tag": "unidad",
+"n": 21
+},
+{
+"it": "può ripetere?",
+"es": "¿puede repetir?",
+"ex": "Scusi, può ripetere?",
+"exEs": "Disculpe, ¿puede repetir?",
+"tag": "unidad",
+"n": 228
+},
+{
+"it": "parla inglese?",
+"es": "¿habla inglés?",
+"ex": "Scusi, parla inglese?",
+"exEs": "Disculpe, ¿habla inglés?",
+"tag": "unidad",
+"n": 526
+},
+{
+"it": "la sillaba",
+"es": "la sílaba",
+"ex": "La parola «casa» ha due sillabe.",
+"exEs": "La palabra «casa» tiene dos sílabas.",
+"tag": "unidad",
+"n": 36452
+},
+{
+"it": "maiuscola",
+"es": "mayúscula",
+"ex": "Scrivo il nome con la maiuscola.",
+"exEs": "Escribo el nombre con mayúscula.",
+"tag": "unidad",
+"n": 22656
+},
+{
+"it": "minuscola",
+"es": "minúscula",
+"ex": "Qui va la lettera minuscola.",
+"exEs": "Aquí va la letra minúscula.",
+"tag": "unidad",
+"n": 15303
+},
+{
+"it": "la virgola",
+"es": "la coma",
+"ex": "Metto una virgola qui.",
+"exEs": "Pongo una coma aquí.",
+"tag": "unidad",
+"n": 15686
+},
+{
+"it": "la chiocciola",
+"es": "la arroba (@)",
+"ex": "L'indirizzo ha la chiocciola.",
+"exEs": "La dirección lleva arroba.",
+"tag": "unidad",
+"n": null
+},
+{
+"it": "il trattino",
+"es": "el guion",
+"ex": "Il cognome ha un trattino.",
+"exEs": "El apellido lleva un guion.",
+"tag": "unidad",
+"n": 25000
+},
+{
+"it": "la carta d'identità",
+"es": "la cédula de identidad",
+"ex": "Ho la carta d'identità.",
+"exEs": "Tengo la cédula de identidad.",
+"tag": "unidad",
+"n": 1033
+},
+{
+"it": "il luogo di nascita",
+"es": "el lugar de nacimiento",
+"ex": "Il mio luogo di nascita è Santiago.",
+"exEs": "Mi lugar de nacimiento es Santiago.",
+"tag": "unidad",
+"n": 3072
+},
+{
+"it": "sillabare",
+"es": "deletrear",
+"ex": "Può sillabare il suo cognome?",
+"exEs": "¿Puede deletrear su apellido?",
+"tag": "unidad",
+"n": 31693
+},
+{
+"it": "l'indirizzo email",
+"es": "el correo electrónico",
+"ex": "Qual è il suo indirizzo email?",
+"exEs": "¿Cuál es su correo electrónico?",
+"tag": "unidad",
+"n": 3693
+}
+]
+},
+"u26": {
+"enrich": {
+"la famiglia": {
+"ex": "La mia famiglia è piccola.",
+"exEs": "Mi familia es pequeña.",
+"tag": "frecuente"
+},
+"il padre": {
+"ex": "Mio padre è ingegnere.",
+"exEs": "Mi padre es ingeniero.",
+"tag": "frecuente"
+},
+"la madre": {
+"ex": "Mia madre è insegnante.",
+"exEs": "Mi madre es profesora.",
+"tag": "frecuente"
+},
+"i genitori": {
+"ex": "I miei genitori abitano a Santiago.",
+"exEs": "Mis padres viven en Santiago.",
+"tag": "frecuente"
+},
+"il fratello": {
+"ex": "Ho un fratello più grande.",
+"exEs": "Tengo un hermano mayor.",
+"tag": "frecuente"
+},
+"la sorella": {
+"ex": "Mia sorella ha venti anni.",
+"exEs": "Mi hermana tiene veinte años.",
+"tag": "frecuente"
+},
+"il figlio": {
+"ex": "Hanno un figlio di cinque anni.",
+"exEs": "Tienen un hijo de cinco años.",
+"tag": "frecuente"
+},
+"la figlia": {
+"ex": "Sua figlia è molto simpatica.",
+"exEs": "Su hija es muy simpática.",
+"tag": "frecuente"
+},
+"il nonno": {
+"ex": "Mio nonno ha settant'anni.",
+"exEs": "Mi abuelo tiene setenta años.",
+"tag": "frecuente"
+},
+"la nonna": {
+"ex": "Mia nonna cucina benissimo.",
+"exEs": "Mi abuela cocina muy bien.",
+"tag": "frecuente"
+},
+"lo zio": {
+"ex": "Mio zio vive in Italia.",
+"exEs": "Mi tío vive en Italia.",
+"tag": "frecuente"
+},
+"la zia": {
+"ex": "Mia zia è dottoressa.",
+"exEs": "Mi tía es doctora.",
+"tag": "frecuente"
+},
+"il cugino": {
+"ex": "Mio cugino ha la mia età.",
+"exEs": "Mi primo tiene mi edad.",
+"tag": "frecuente"
+},
+"il marito": {
+"ex": "Il marito di Anna è alto.",
+"exEs": "El marido de Anna es alto.",
+"tag": "frecuente"
+},
+"la moglie": {
+"ex": "Sua moglie è italiana.",
+"exEs": "Su esposa es italiana.",
+"tag": "frecuente"
+},
+"alto": {
+"ex": "Mio fratello è molto alto.",
+"exEs": "Mi hermano es muy alto.",
+"tag": "frecuente"
+},
+"basso": {
+"ex": "Mia sorella è un po' bassa.",
+"exEs": "Mi hermana es un poco baja.",
+"tag": "frecuente"
+},
+"simpatico": {
+"ex": "Il mio vicino è simpatico.",
+"exEs": "Mi vecino es simpático.",
+"tag": "frecuente"
+},
+"i capelli": {
+"ex": "Ha i capelli lunghi.",
+"exEs": "Tiene el pelo largo.",
+"tag": "frecuente"
+},
+"gli occhi": {
+"ex": "Ha gli occhi verdi.",
+"exEs": "Tiene los ojos verdes.",
+"tag": "frecuente"
+},
+"il lavoro": {
+"ex": "Il mio lavoro è interessante.",
+"exEs": "Mi trabajo es interesante.",
+"tag": "frecuente"
+},
+"l'insegnante": {
+"ex": "L'insegnante è molto paziente.",
+"exEs": "El profesor es muy paciente.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "la cugina",
+"es": "la prima",
+"ex": "Mia cugina studia a Roma.",
+"exEs": "Mi prima estudia en Roma.",
+"tag": "unidad",
+"n": 4338
+},
+{
+"it": "il nipote",
+"es": "el sobrino / el nieto",
+"ex": "Mio nipote ha tre anni.",
+"exEs": "Mi sobrino tiene tres años.",
+"tag": "frecuente",
+"n": 1714
+},
+{
+"it": "la mamma",
+"es": "la mamá",
+"ex": "La mamma prepara la cena.",
+"exEs": "Mamá prepara la cena.",
+"tag": "frecuente",
+"n": 191
+},
+{
+"it": "il papà",
+"es": "el papá",
+"ex": "Il papà lavora molto.",
+"exEs": "Papá trabaja mucho.",
+"tag": "frecuente",
+"n": 424
+},
+{
+"it": "sposato",
+"es": "casado",
+"ex": "Mio fratello è sposato.",
+"exEs": "Mi hermano está casado.",
+"tag": "frecuente",
+"n": 1319
+},
+{
+"it": "magro",
+"es": "delgado",
+"ex": "Mio zio è molto magro.",
+"exEs": "Mi tío es muy delgado.",
+"tag": "unidad",
+"n": 9100
+},
+{
+"it": "intelligente",
+"es": "inteligente",
+"ex": "Mia sorella è molto intelligente.",
+"exEs": "Mi hermana es muy inteligente.",
+"tag": "frecuente",
+"n": 1219
+},
+{
+"it": "serio",
+"es": "serio",
+"ex": "Il mio capo è molto serio.",
+"exEs": "Mi jefe es muy serio.",
+"tag": "frecuente",
+"n": 474
+},
+{
+"it": "generoso",
+"es": "generoso",
+"ex": "Mio nonno è generoso.",
+"exEs": "Mi abuelo es generoso.",
+"tag": "unidad",
+"n": 5315
+},
+{
+"it": "allegro",
+"es": "alegre",
+"ex": "Mia zia è sempre allegra.",
+"exEs": "Mi tía siempre está alegre.",
+"tag": "unidad",
+"n": 8379
+},
+{
+"it": "il professore",
+"es": "el profesor",
+"ex": "Il professore spiega la lezione.",
+"exEs": "El profesor explica la lección.",
+"tag": "frecuente",
+"n": 1618
+},
+{
+"it": "lo studente",
+"es": "el estudiante",
+"ex": "Lo studente fa una domanda.",
+"exEs": "El estudiante hace una pregunta.",
+"tag": "frecuente",
+"n": 3200
+},
+{
+"it": "biondo",
+"es": "rubio",
+"ex": "Mia sorella è bionda.",
+"exEs": "Mi hermana es rubia.",
+"tag": "frecuente",
+"n": 10624
+},
+{
+"it": "timido",
+"es": "tímido",
+"ex": "Mio cugino è timido.",
+"exEs": "Mi primo es tímido.",
+"tag": "unidad",
+"n": 7356
+},
+{
+"it": "la studentessa",
+"es": "la estudiante",
+"ex": "La studentessa legge un libro.",
+"exEs": "La estudiante lee un libro.",
+"tag": "unidad",
+"n": 5893
+},
+{
+"it": "il fidanzato",
+"es": "el novio",
+"ex": "Il fidanzato di Anna è italiano.",
+"exEs": "El novio de Anna es italiano.",
+"tag": "unidad",
+"n": 1619
+},
+{
+"it": "la fidanzata",
+"es": "la novia",
+"ex": "La mia fidanzata studia medicina.",
+"exEs": "Mi novia estudia medicina.",
+"tag": "unidad",
+"n": 1920
+},
+{
+"it": "il suocero",
+"es": "el suegro",
+"ex": "Mio suocero abita a Torino.",
+"exEs": "Mi suegro vive en Turín.",
+"tag": "unidad",
+"n": 12043
+},
+{
+"it": "il cognato",
+"es": "el cuñado",
+"ex": "Mio cognato è dentista.",
+"exEs": "Mi cuñado es dentista.",
+"tag": "unidad",
+"n": 7526
+},
+{
+"it": "single",
+"es": "soltero",
+"ex": "Mia cugina è single.",
+"exEs": "Mi prima está soltera.",
+"tag": "unidad",
+"n": 2824
+},
+{
+"it": "castano",
+"es": "castaño",
+"ex": "Ha i capelli castani.",
+"exEs": "Tiene el pelo castaño.",
+"tag": "unidad",
+"n": 38935
+},
+{
+"it": "antipatico",
+"es": "antipático",
+"ex": "Il capo è un po' antipatico.",
+"exEs": "El jefe es un poco antipático.",
+"tag": "unidad",
+"n": 19535
+},
+{
+"it": "pigro",
+"es": "perezoso",
+"ex": "Mio fratello è pigro.",
+"exEs": "Mi hermano es perezoso.",
+"tag": "unidad",
+"n": 10924
+},
+{
+"it": "l'avvocato",
+"es": "el abogado",
+"ex": "Mio zio è avvocato.",
+"exEs": "Mi tío es abogado.",
+"tag": "unidad",
+"n": 709
+},
+{
+"it": "l'ingegnere",
+"es": "el ingeniero",
+"ex": "Mio padre è ingegnere.",
+"exEs": "Mi padre es ingeniero.",
+"tag": "unidad",
+"n": 5545
+},
+{
+"it": "l'infermiere",
+"es": "el enfermero",
+"ex": "L'infermiere è molto gentile.",
+"exEs": "El enfermero es muy amable.",
+"tag": "unidad",
+"n": 4621
+},
+{
+"it": "l'impiegato",
+"es": "el empleado",
+"ex": "Mio cognato è impiegato in banca.",
+"exEs": "Mi cuñado es empleado de banco.",
+"tag": "unidad",
+"n": 4839
+},
+{
+"it": "il pensionato",
+"es": "el jubilado",
+"ex": "Mio nonno è pensionato.",
+"exEs": "Mi abuelo es jubilado.",
+"tag": "unidad",
+"n": 26822
+},
+{
+"it": "il cuoco",
+"es": "el cocinero",
+"ex": "Il cuoco prepara la cena.",
+"exEs": "El cocinero prepara la cena.",
+"tag": "unidad",
+"n": 6502
+}
+]
+},
+"u27": {
+"enrich": {
+"il tempo libero": {
+"ex": "Nel tempo libero leggo.",
+"exEs": "En mi tiempo libre leo.",
+"tag": "frecuente"
+},
+"la primavera": {
+"ex": "In primavera fa bel tempo.",
+"exEs": "En primavera hace buen tiempo.",
+"tag": "frecuente"
+},
+"l'autunno": {
+"ex": "In autunno piove spesso.",
+"exEs": "En otoño llueve a menudo.",
+"tag": "unidad"
+},
+"il sole": {
+"ex": "Oggi c'è il sole.",
+"exEs": "Hoy hay sol.",
+"tag": "frecuente"
+},
+"la pioggia": {
+"ex": "La pioggia non mi piace.",
+"exEs": "La lluvia no me gusta.",
+"tag": "frecuente"
+},
+"la neve": {
+"ex": "In montagna c'è la neve.",
+"exEs": "En la montaña hay nieve.",
+"tag": "frecuente"
+},
+"il vento": {
+"ex": "Oggi c'è molto vento.",
+"exEs": "Hoy hay mucho viento.",
+"tag": "frecuente"
+},
+"caldo": {
+"ex": "In estate fa molto caldo.",
+"exEs": "En verano hace mucho calor.",
+"tag": "frecuente"
+},
+"freddo": {
+"ex": "In inverno fa freddo.",
+"exEs": "En invierno hace frío.",
+"tag": "frecuente"
+},
+"nuvoloso": {
+"ex": "Il cielo è nuvoloso.",
+"exEs": "El cielo está nublado.",
+"tag": "unidad"
+},
+"suonare": {
+"ex": "Suono la chitarra.",
+"exEs": "Toco la guitarra.",
+"tag": "frecuente"
+},
+"il calcio": {
+"ex": "Il sabato gioco a calcio.",
+"exEs": "Los sábados juego fútbol.",
+"tag": "frecuente"
+},
+"lo sport": {
+"ex": "Lo sport mi piace molto.",
+"exEs": "Me gusta mucho el deporte.",
+"tag": "frecuente"
+},
+"la musica": {
+"ex": "Ascolto musica ogni giorno.",
+"exEs": "Escucho música todos los días.",
+"tag": "frecuente"
+},
+"il film": {
+"ex": "Stasera guardo un film.",
+"exEs": "Esta noche veo una película.",
+"tag": "frecuente"
+},
+"camminare": {
+"ex": "Mi piace camminare nel parco.",
+"exEs": "Me gusta caminar por el parque.",
+"tag": "frecuente"
+},
+"ballare": {
+"ex": "Non so ballare.",
+"exEs": "No sé bailar.",
+"tag": "frecuente"
+},
+"cantare": {
+"ex": "Canto sotto la doccia.",
+"exEs": "Canto en la ducha.",
+"tag": "frecuente"
+},
+"nuotare": {
+"ex": "Nuoto in piscina il martedì.",
+"exEs": "Nado en la piscina los martes.",
+"tag": "unidad"
+},
+"correre": {
+"ex": "Corro ogni mattina.",
+"exEs": "Corro cada mañana.",
+"tag": "frecuente"
+},
+"ogni": {
+"ex": "Ogni sabato vado al mercato.",
+"exEs": "Cada sábado voy al mercado.",
+"tag": "frecuente"
+},
+"qualche": {
+"ex": "Ho qualche libro in italiano.",
+"exEs": "Tengo algunos libros en italiano.",
+"tag": "frecuente"
+}
+},
+"extra": [
+{
+"it": "il cinema",
+"es": "el cine",
+"ex": "Stasera andiamo al cinema.",
+"exEs": "Esta noche vamos al cine.",
+"tag": "frecuente",
+"n": 1947
+},
+{
+"it": "il teatro",
+"es": "el teatro",
+"ex": "Il teatro è in centro.",
+"exEs": "El teatro está en el centro.",
+"tag": "frecuente",
+"n": 2492
+},
+{
+"it": "il concerto",
+"es": "el concierto",
+"ex": "Il concerto è sabato sera.",
+"exEs": "El concierto es el sábado en la noche.",
+"tag": "frecuente",
+"n": 2794
+},
+{
+"it": "la partita",
+"es": "el partido",
+"ex": "Guardiamo la partita insieme.",
+"exEs": "Vemos el partido juntos.",
+"tag": "frecuente",
+"n": 1048
+},
+{
+"it": "la passeggiata",
+"es": "el paseo",
+"ex": "Faccio una passeggiata dopo cena.",
+"exEs": "Doy un paseo después de la cena.",
+"tag": "frecuente",
+"n": 2829
+},
+{
+"it": "la squadra",
+"es": "el equipo",
+"ex": "La mia squadra ha vinto.",
+"exEs": "Mi equipo ganó.",
+"tag": "frecuente",
+"n": 559
+},
+{
+"it": "sapere",
+"es": "saber",
+"ex": "Non so nuotare.",
+"exEs": "No sé nadar.",
+"tag": "frecuente",
+"n": 234
+},
+{
+"it": "il clima",
+"es": "el clima",
+"ex": "Il clima è mite.",
+"exEs": "El clima es templado.",
+"tag": "unidad",
+"n": 8223
+},
+{
+"it": "la temperatura",
+"es": "la temperatura",
+"ex": "La temperatura è bassa.",
+"exEs": "La temperatura es baja.",
+"tag": "frecuente",
+"n": 3933
+},
+{
+"it": "la nebbia",
+"es": "la niebla",
+"ex": "Oggi c'è nebbia.",
+"exEs": "Hoy hay niebla.",
+"tag": "unidad",
+"n": 6420
+},
+{
+"it": "il temporale",
+"es": "la tormenta",
+"ex": "Arriva un temporale.",
+"exEs": "Viene una tormenta.",
+"tag": "unidad",
+"n": 4200
+},
+{
+"it": "fotografare",
+"es": "fotografiar",
+"ex": "Mi piace fotografare i paesaggi.",
+"exEs": "Me gusta fotografiar paisajes.",
+"tag": "unidad",
+"n": 6733
+},
+{
+"it": "disegnare",
+"es": "dibujar",
+"ex": "Mia sorella disegna molto bene.",
+"exEs": "Mi hermana dibuja muy bien.",
+"tag": "frecuente",
+"n": 3920
+},
+{
+"it": "la mostra",
+"es": "la exposición",
+"ex": "Visitiamo una mostra d'arte.",
+"exEs": "Visitamos una exposición de arte.",
+"tag": "frecuente",
+"n": 2049
+},
+{
+"it": "il passatempo",
+"es": "el pasatiempo",
+"ex": "Il mio passatempo è leggere.",
+"exEs": "Mi pasatiempo es leer.",
+"tag": "unidad",
+"n": 15573
+},
+{
+"it": "la palestra",
+"es": "el gimnasio",
+"ex": "Vado in palestra tre volte alla settimana.",
+"exEs": "Voy al gimnasio tres veces por semana.",
+"tag": "unidad",
+"n": 3077
+},
+{
+"it": "il tennis",
+"es": "el tenis",
+"ex": "Gioco a tennis il sabato.",
+"exEs": "Juego tenis los sábados.",
+"tag": "unidad",
+"n": 5934
+},
+{
+"it": "l'hobby",
+"es": "el hobby",
+"ex": "Il mio hobby è la fotografia.",
+"exEs": "Mi hobby es la fotografía.",
+"tag": "unidad",
+"n": 6606
+},
+{
+"it": "la serie TV",
+"es": "la serie de televisión",
+"ex": "Guardo una serie TV italiana.",
+"exEs": "Veo una serie de televisión italiana.",
+"tag": "unidad",
+"n": 1417
+},
+{
+"it": "dipingere",
+"es": "pintar",
+"ex": "Mi piace dipingere paesaggi.",
+"exEs": "Me gusta pintar paisajes.",
+"tag": "unidad",
+"n": 6901
+},
+{
+"it": "i videogiochi",
+"es": "los videojuegos",
+"ex": "Non gioco ai videogiochi.",
+"exEs": "No juego videojuegos.",
+"tag": "unidad",
+"n": 10190
+},
+{
+"it": "la pesca",
+"es": "la pesca",
+"ex": "Mio nonno ama la pesca.",
+"exEs": "Mi abuelo ama la pesca.",
+"tag": "unidad",
+"n": 3875
+},
+{
+"it": "il ciclismo",
+"es": "el ciclismo",
+"ex": "Il ciclismo è molto popolare.",
+"exEs": "El ciclismo es muy popular.",
+"tag": "unidad",
+"n": 42251
+},
+{
+"it": "fa bel tempo",
+"es": "hace buen tiempo",
+"ex": "Oggi fa bel tempo.",
+"exEs": "Hoy hace buen tiempo.",
+"tag": "unidad",
+"n": 383
+},
+{
+"it": "fa brutto tempo",
+"es": "hace mal tiempo",
+"ex": "Domani fa brutto tempo.",
+"exEs": "Mañana hace mal tiempo.",
+"tag": "unidad",
+"n": 889
+},
+{
+"it": "c'è il sole",
+"es": "hay sol",
+"ex": "A Roma c'è il sole.",
+"exEs": "En Roma hay sol.",
+"tag": "unidad",
+"n": 893
+},
+{
+"it": "nevica",
+"es": "nieva",
+"ex": "In montagna nevica.",
+"exEs": "En la montaña nieva.",
+"tag": "unidad",
+"n": 21499
+},
+{
+"it": "i gradi",
+"es": "los grados",
+"ex": "Ci sono trenta gradi.",
+"exEs": "Hay treinta grados.",
+"tag": "unidad",
+"n": 3173
+},
+{
+"it": "il tifoso",
+"es": "el hincha",
+"ex": "Mio fratello è un tifoso della Roma.",
+"exEs": "Mi hermano es hincha de la Roma.",
+"tag": "unidad",
+"n": 23801
+},
+{
+"it": "fare una passeggiata",
+"es": "dar un paseo",
+"ex": "Facciamo una passeggiata?",
+"exEs": "¿Damos un paseo?",
+"tag": "unidad",
+"n": 2829
+}
+]
+},
+"u28": {
+"enrich": {
+"il primo": {
+"ex": "Come primo prendo la pasta.",
+"exEs": "De primero pido pasta.",
+"tag": "frecuente"
+},
+"il secondo": {
+"ex": "Come secondo prendo il pesce.",
+"exEs": "De segundo pido pescado.",
+"tag": "frecuente"
+},
+"il contorno": {
+"ex": "Come contorno, le patate.",
+"exEs": "De acompañamiento, papas.",
+"tag": "unidad"
+},
+"il coperto": {
+"ex": "Il coperto costa due euro.",
+"exEs": "El cubierto cuesta dos euros.",
+"tag": "unidad"
+},
+"il ristorante": {
+"ex": "Prenoto un tavolo al ristorante.",
+"exEs": "Reservo una mesa en el restaurante.",
+"tag": "frecuente"
+},
+"il piatto": {
+"ex": "Qual è il piatto del giorno?",
+"exEs": "¿Cuál es el plato del día?",
+"tag": "frecuente"
+},
+"la bevanda": {
+"ex": "Quali bevande avete?",
+"exEs": "¿Qué bebidas tienen?",
+"tag": "unidad"
+},
+"ordinare": {
+"ex": "Siamo pronti per ordinare.",
+"exEs": "Estamos listos para pedir.",
+"tag": "frecuente"
+},
+"consigliare": {
+"ex": "Che cosa ci consiglia?",
+"exEs": "¿Qué nos recomienda?",
+"tag": "frecuente"
+},
+"l'allergia": {
+"ex": "Ho un'allergia alle noci.",
+"exEs": "Tengo alergia a las nueces.",
+"tag": "unidad"
+},
+"vegetariano": {
+"ex": "Sono vegetariano.",
+"exEs": "Soy vegetariano.",
+"tag": "unidad"
+},
+"senza": {
+"ex": "Un caffè senza zucchero.",
+"exEs": "Un café sin azúcar.",
+"tag": "frecuente"
+},
+"il riso": {
+"ex": "Prendo il riso con i funghi.",
+"exEs": "Pido arroz con setas.",
+"tag": "frecuente"
+},
+"la zuppa": {
+"ex": "La zuppa è calda.",
+"exEs": "La sopa está caliente.",
+"tag": "frecuente"
+},
+"l'insalata": {
+"ex": "Un'insalata mista, per favore.",
+"exEs": "Una ensalada mixta, por favor.",
+"tag": "unidad"
+},
+"le uova": {
+"ex": "Non mangio le uova.",
+"exEs": "No como huevos.",
+"tag": "frecuente"
+},
+"la noce": {
+"ex": "Il dolce contiene noci.",
+"exEs": "El postre contiene nueces.",
+"tag": "unidad"
+},
+"il pollo": {
+"ex": "Prendo il pollo arrosto.",
+"exEs": "Pido pollo asado.",
+"tag": "frecuente"
+},
+"la torta": {
+"ex": "La torta di mele è buonissima.",
+"exEs": "La torta de manzana es riquísima.",
+"tag": "frecuente"
+},
+"il gelato": {
+"ex": "Vorrei un gelato al limone.",
+"exEs": "Quisiera un helado de limón.",
+"tag": "frecuente"
+},
+"il servizio": {
+"ex": "Il servizio è incluso?",
+"exEs": "¿El servicio está incluido?",
+"tag": "frecuente"
+},
+"la forchetta": {
+"ex": "Manca una forchetta.",
+"exEs": "Falta un tenedor.",
+"tag": "unidad"
+}
+},
+"extra": [
+{
+"it": "il tovagliolo",
+"es": "la servilleta",
+"ex": "Può portarmi un tovagliolo?",
+"exEs": "¿Puede traerme una servilleta?",
+"tag": "unidad",
+"n": 14541
+},
+{
+"it": "la cameriera",
+"es": "la mesera",
+"ex": "La cameriera porta il menù.",
+"exEs": "La mesera trae el menú.",
+"tag": "frecuente",
+"n": 3350
+},
+{
+"it": "il dessert",
+"es": "el postre",
+"ex": "Come dessert, un gelato.",
+"exEs": "De postre, un helado.",
+"tag": "unidad",
+"n": 7875
+},
+{
+"it": "fritto",
+"es": "frito",
+"ex": "Il pesce fritto è ottimo.",
+"exEs": "El pescado frito es excelente.",
+"tag": "unidad",
+"n": 8032
+},
+{
+"it": "dolce",
+"es": "dulce",
+"ex": "La torta è molto dolce.",
+"exEs": "La torta es muy dulce.",
+"tag": "frecuente",
+"n": 996
+},
+{
+"it": "amaro",
+"es": "amargo",
+"ex": "Il caffè è amaro.",
+"exEs": "El café es amargo.",
+"tag": "unidad",
+"n": 10346
+},
+{
+"it": "il sapore",
+"es": "el sabor",
+"ex": "Il sapore è delizioso.",
+"exEs": "El sabor es delicioso.",
+"tag": "frecuente",
+"n": 3906
+},
+{
+"it": "crudo",
+"es": "crudo",
+"ex": "Il prosciutto crudo è buonissimo.",
+"exEs": "El jamón crudo es riquísimo.",
+"tag": "unidad",
+"n": 15609
+},
+{
+"it": "cotto",
+"es": "cocido",
+"ex": "Il pesce è ben cotto.",
+"exEs": "El pescado está bien cocido.",
+"tag": "unidad",
+"n": 10169
+},
+{
+"it": "il locale",
+"es": "el local",
+"ex": "Il locale è molto carino.",
+"exEs": "El local es muy bonito.",
+"tag": "frecuente",
+"n": 1504
+},
+{
+"it": "la specialità",
+"es": "la especialidad",
+"ex": "Qual è la specialità della casa?",
+"exEs": "¿Cuál es la especialidad de la casa?",
+"tag": "unidad",
+"n": 10299
+},
+{
+"it": "il piatto tipico",
+"es": "el plato típico",
+"ex": "Vorrei provare un piatto tipico.",
+"exEs": "Quisiera probar un plato típico.",
+"tag": "unidad",
+"n": 4809
+},
+{
+"it": "vegano",
+"es": "vegano",
+"ex": "Mia sorella è vegana.",
+"exEs": "Mi hermana es vegana.",
+"tag": "unidad",
+"n": 22111
+},
+{
+"it": "il piatto del giorno",
+"es": "el plato del día",
+"ex": "Il piatto del giorno è lasagna.",
+"exEs": "El plato del día es lasaña.",
+"tag": "unidad",
+"n": 2464
+},
+{
+"it": "la lista dei vini",
+"es": "la carta de vinos",
+"ex": "Posso vedere la lista dei vini?",
+"exEs": "¿Puedo ver la carta de vinos?",
+"tag": "unidad",
+"n": 12188
+},
+{
+"it": "il vino della casa",
+"es": "el vino de la casa",
+"ex": "Prendiamo il vino della casa.",
+"exEs": "Pedimos el vino de la casa.",
+"tag": "unidad",
+"n": 1294
+},
+{
+"it": "alla griglia",
+"es": "a la parrilla",
+"ex": "Prendo il pesce alla griglia.",
+"exEs": "Pido pescado a la parrilla.",
+"tag": "unidad",
+"n": 8073
+},
+{
+"it": "al forno",
+"es": "al horno",
+"ex": "Le patate al forno sono buone.",
+"exEs": "Las papas al horno son ricas.",
+"tag": "unidad",
+"n": 4908
+},
+{
+"it": "piccante",
+"es": "picante",
+"ex": "La salsa è troppo piccante.",
+"exEs": "La salsa es demasiado picante.",
+"tag": "unidad",
+"n": 7387
+},
+{
+"it": "senza glutine",
+"es": "sin gluten",
+"ex": "Avete pasta senza glutine?",
+"exEs": "¿Tienen pasta sin gluten?",
+"tag": "unidad",
+"n": 15897
+},
+{
+"it": "l'intolleranza",
+"es": "la intolerancia",
+"ex": "Ho un'intolleranza al lattosio.",
+"exEs": "Tengo intolerancia a la lactosa.",
+"tag": "unidad",
+"n": 33010
+},
+{
+"it": "dividere il conto",
+"es": "dividir la cuenta",
+"ex": "Possiamo dividere il conto?",
+"exEs": "¿Podemos dividir la cuenta?",
+"tag": "unidad",
+"n": 6264
+},
+{
+"it": "alla romana",
+"es": "a la romana",
+"ex": "Facciamo alla romana.",
+"exEs": "Dividimos en partes iguales.",
+"tag": "unidad",
+"n": 14189
+},
+{
+"it": "mi può portare",
+"es": "me puede traer",
+"ex": "Mi può portare dell'acqua?",
+"exEs": "¿Me puede traer agua?",
+"tag": "unidad",
+"n": 308
+},
+{
+"it": "siamo in quattro",
+"es": "somos cuatro",
+"ex": "Buonasera, siamo in quattro.",
+"exEs": "Buenas noches, somos cuatro.",
+"tag": "unidad",
+"n": 519
+},
+{
+"it": "c'è un tavolo libero?",
+"es": "¿hay una mesa libre?",
+"ex": "Scusi, c'è un tavolo libero?",
+"exEs": "Disculpe, ¿hay una mesa libre?",
+"tag": "unidad",
+"n": 1229
+},
+{
+"it": "il menù del giorno",
+"es": "el menú del día",
+"ex": "Il menù del giorno costa quindici euro.",
+"exEs": "El menú del día cuesta quince euros.",
+"tag": "unidad",
+"n": 12458
+},
+{
+"it": "al sangue",
+"es": "jugoso (poco cocido)",
+"ex": "La bistecca al sangue, per favore.",
+"exEs": "El bistec jugoso, por favor.",
+"tag": "unidad",
+"n": 443
+},
+{
+"it": "ben cotto",
+"es": "bien cocido",
+"ex": "La carne ben cotta, grazie.",
+"exEs": "La carne bien cocida, gracias.",
+"tag": "unidad",
+"n": 10169
+},
+{
+"it": "la trattoria",
+"es": "la trattoria",
+"ex": "Mangiamo in una trattoria.",
+"exEs": "Comemos en una trattoria.",
+"tag": "unidad",
+"n": 31623
+}
+]
+}
+}
