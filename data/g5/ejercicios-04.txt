@@ -26,15 +26,15 @@ d|— Corri! Il treno ___ partire!|sta per;sta;è per|Acción inminente: «sta p
 l|Si può entrare?|¿Se puede entrar?;¿Puedo entrar?;¿Se debe entrar?|El «si» impersonal equivale a «se».
 ## u20
 o|Marco dijo que llega mañana.|Marco ha detto che arriva domani.|chi|Discurso indirecto: «ha detto che…».
-o|Creo que es una buena idea.|Penso che sia una buona idea.|è|Después de «penso che» se usa el congiuntivo: sia.
+o|En mi opinión es una buena idea.|Secondo me è una buona idea.|penso|«Secondo me» va seguido de una frase normal.
 t|Dijo que estaba cansado.|Ha detto che era stanco.|En el discurso indirecto el tiempo retrocede: era.
 t|Aunque llueve, salgo.|Anche se piove, esco.|«Anche se» = aunque.
-t|Creo que tiene razón.|Penso che abbia ragione. / Credo che abbia ragione.|Congiuntivo: abbia.
-f|Penso che è giusto.|Penso che sia giusto.|Después de «penso che» va el congiuntivo.
+t|En mi opinión tiene razón.|Secondo me ha ragione. / Secondo me lui ha ragione.|«Avere ragione» = tener razón.
+f|Prima di uscito, chiudo la finestra.|Prima di uscire, chiudo la finestra.|Después de «prima di» va el infinitivo.
 f|Ha detto che verrò domani.|Ha detto che verrà domani.|La persona que dijo habla de otro: verrà.
 x|Pasa a discurso indirecto: «Sono stanco», dice Luca.|Luca dice che è stanco.|Dice che + verbo en 3.ª persona.
 x|Une con «perché»: Resto a casa. Piove.|Resto a casa perché piove.|«Perché» une causa y efecto.
-d|— Credo che Marco ___ ragione. // — Anch'io.|abbia;ha;avere|Después de «credo che»: congiuntivo.
+d|— Secondo me Marco ___ ragione. // — Anch'io.|ha;è;fa|«Avere ragione» = tener razón.
 d|— Resto a casa ___ sono stanco. // — Capisco.|perché;però;anche|«Perché» expresa causa.
 l|Ha detto che arriva tardi.|Dijo que llega tarde.;Dijo que llegó tarde.;Dice que llega temprano.|«Arriva tardi» = llega tarde.
 ## u24

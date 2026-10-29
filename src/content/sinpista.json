@@ -3198,13 +3198,13 @@
   {
    "id": "u20-s02",
    "type": "order",
-   "why": "Después de «penso che» se usa el congiuntivo: sia.",
-   "prompt": "Creo que es una buena idea.",
+   "why": "«Secondo me» va seguido de una frase normal.",
+   "prompt": "En mi opinión es una buena idea.",
    "answers": [
-    "Penso che sia una buona idea."
+    "Secondo me è una buona idea."
    ],
    "extra": [
-    "è"
+    "penso"
    ]
   },
   {
@@ -3228,20 +3228,20 @@
   {
    "id": "u20-s05",
    "type": "translate",
-   "why": "Congiuntivo: abbia.",
-   "prompt": "Creo que tiene razón.",
+   "why": "«Avere ragione» = tener razón.",
+   "prompt": "En mi opinión tiene razón.",
    "answers": [
-    "Penso che abbia ragione.",
-    "Credo che abbia ragione."
+    "Secondo me ha ragione.",
+    "Secondo me lui ha ragione."
    ]
   },
   {
    "id": "u20-s06",
    "type": "fix",
-   "why": "Después de «penso che» va el congiuntivo.",
-   "prompt": "Penso che è giusto.",
+   "why": "Después de «prima di» va el infinitivo.",
+   "prompt": "Prima di uscito, chiudo la finestra.",
    "answers": [
-    "Penso che sia giusto."
+    "Prima di uscire, chiudo la finestra."
    ]
   },
   {
@@ -3274,15 +3274,15 @@
   {
    "id": "u20-s10",
    "type": "dialog",
-   "why": "Después de «credo che»: congiuntivo.",
+   "why": "«Avere ragione» = tener razón.",
    "answer": 0,
    "options": [
-    "abbia",
     "ha",
-    "avere"
+    "è",
+    "fa"
    ],
    "lines": [
-    "— Credo che Marco ___ ragione.",
+    "— Secondo me Marco ___ ragione.",
     "— Anch'io."
    ]
   },

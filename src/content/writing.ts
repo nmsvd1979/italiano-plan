@@ -182,18 +182,18 @@ const WRITING: Record<string, WritingTask> = {
   },
   u24: {
     prompt: "Proyecto final: cuenta un viaje o una experiencia completa. Di dónde fuiste, cómo era, qué hiciste, qué piensas y qué harás o harías.",
-    model: "L'anno scorso sono andata in Italia con un'amica. Faceva caldo e c'era molta gente. Prima abbiamo visitato Roma, poi siamo andate a Firenze in treno. Penso che sia stata un'esperienza bellissima. Se avessi più tempo, resterei un mese. Spero di tornare l'anno prossimo.",
+    model: "L'anno scorso sono andata in Italia con un'amica. Faceva caldo e il cielo era azzurro. Prima abbiamo visitato Roma, poi siamo andate a Firenze in treno. Penso che sia stata un'esperienza bellissima. Se avessi più tempo, resterei un mese. Spero di tornare l'anno prossimo.",
     checklist: [
       "Usé passato prossimo para los hechos e imperfetto para describir.",
       "Usé al menos dos conectores (*prima, poi, perché, mentre, però*).",
-      "Di mi opinión con *penso che* + congiuntivo.",
+      "Di mi opinión con *secondo me*.",
       "Usé un plan (*spero di…, tornerò*) o una hipótesis (*se avessi…, resterei*).",
     ],
     minChars: 120,
   },
   u20: {
     prompt: "Cuenta lo que te dijo un amigo y da tu opinión, usando al menos tres conectores.",
-    model: "Ieri Marco mi ha detto che era stanco, quindi non è venuto alla festa. Mi ha chiesto se volevo andare da lui, però avevo molto lavoro. Comunque penso che sia stata una buona decisione.",
+    model: "Ieri Marco mi ha detto che era stanco, quindi non è venuto alla festa. Mi ha chiesto se volevo andare da lui, però avevo molto lavoro. Comunque secondo me è stata una buona decisione.",
     checklist: [
       "Usé *ha detto che* / *ha chiesto se* para contar lo que dijeron.",
       "Los verbos del discurso indirecto bajan un paso (*era, volevo*).",

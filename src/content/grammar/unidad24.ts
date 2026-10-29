@@ -56,7 +56,7 @@ export const unidad24: Lesson = {
     },
     {
       "kind": "p",
-      "text": "**Cómo contar una experiencia.** 1) Sitúa: *L'anno scorso sono andato in Italia con un amico.* 2) Describe el fondo con imperfetto: *Faceva caldo e c'era molta gente.* 3) Cuenta los hechos con passato prossimo: *Siamo arrivati a Roma e abbiamo visitato il Colosseo.* 4) Da tu opinión: *Penso che sia stata un'esperienza bellissima.* 5) Mira adelante: *Spero di tornare l'anno prossimo.* Enlaza con *prima, poi, dopo, alla fine, mentre, perché, quindi, però*. Para reconocer: *sia stata* (fue) es el congiuntivo del pasado, formado con *essere* en congiuntivo + participio; lo oirás mucho, y por ahora basta con entenderlo."
+      "text": "**Cómo contar una experiencia.** 1) Sitúa: *L'anno scorso sono andato in Italia con un amico.* 2) Describe el fondo con imperfetto: *Faceva caldo e il cielo era azzurro.* 3) Cuenta los hechos con passato prossimo: *Siamo arrivati a Roma e abbiamo visitato il Colosseo.* 4) Da tu opinión: *Penso che sia stata un'esperienza bellissima.* 5) Mira adelante: *Spero di tornare l'anno prossimo.* Enlaza con *prima, poi, dopo, alla fine, mentre, perché, quindi, però*. Para reconocer: *sia stata* (fue) es el congiuntivo del pasado, formado con *essere* en congiuntivo + participio; lo oirás mucho, y por ahora basta con entenderlo."
     },
     {
       "kind": "p",
@@ -111,8 +111,8 @@ export const unidad24: Lesson = {
       "es": "El año pasado fui a Italia con un amigo."
     },
     {
-      "it": "Faceva caldo e c'era molta gente.",
-      "es": "Hacía calor y había mucha gente."
+      "it": "Faceva caldo e il cielo era azzurro.",
+      "es": "Hacía calor y el cielo era azul."
     },
     {
       "it": "Prima abbiamo visitato il Colosseo, poi abbiamo mangiato.",
@@ -134,7 +134,7 @@ export const unidad24: Lesson = {
   "notice": [
     {
       "type": "choice",
-      "prompt": "«Faceva caldo e c'era molta gente.» ¿Qué hace esta frase?",
+      "prompt": "«Faceva caldo e il cielo era azzurro.» ¿Qué hace esta frase?",
       "options": [
         "Describe el fondo de la escena",
         "Cuenta un hecho puntual",

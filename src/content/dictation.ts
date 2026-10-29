@@ -185,7 +185,7 @@ const DICTATION: Record<string, DictationItem[]> = {
   ],
   u24: [
     { it: "L'anno scorso sono andato in Italia con un amico.", es: "El año pasado fui a Italia con un amigo." },
-    { it: "Faceva caldo e c'era molta gente.", es: "Hacía calor y había mucha gente." },
+    { it: "Faceva caldo e il cielo era azzurro.", es: "Hacía calor y el cielo era azul." },
     { it: "Prima abbiamo visitato il Colosseo, poi abbiamo mangiato.", es: "Primero visitamos el Coliseo y después comimos." },
     { it: "Penso che sia stata un'esperienza bellissima.", es: "Pienso que fue una experiencia hermosísima." },
     { it: "Se avessi più tempo, resterei un mese.", es: "Si tuviera más tiempo, me quedaría un mes." },
@@ -197,7 +197,7 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Mi ha detto che era stanco.", es: "Me dijo que estaba cansado." },
     { it: "Mi ha chiesto se parlo italiano.", es: "Me preguntó si hablo italiano." },
     { it: "Io bevo caffè, lui invece tè.", es: "Yo tomo café, él en cambio té." },
-    { it: "Penso che sia una buona idea.", es: "Pienso que es una buena idea." },
+    { it: "Secondo me è una buona idea.", es: "En mi opinión es una buena idea." },
   ],
 };
 

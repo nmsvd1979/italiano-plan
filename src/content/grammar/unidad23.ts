@@ -205,7 +205,7 @@ export const unidad23: Lesson = {
     },
     {
       "type": "fill",
-      "prompt": "Se potessi, ___ qui. (io, restare, condizionale)",
+      "prompt": "Se potessi, ___ qui. (io, restare)",
       "answers": [
         "resterei"
       ],
@@ -213,7 +213,7 @@ export const unidad23: Lesson = {
     },
     {
       "type": "fill",
-      "prompt": "Se avessi tempo, ___ di più. (io, viaggiare, condizionale)",
+      "prompt": "Se avessi tempo, ___ di più. (io, viaggiare)",
       "answers": [
         "viaggerei"
       ],

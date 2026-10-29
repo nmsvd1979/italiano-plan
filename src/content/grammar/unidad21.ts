@@ -160,7 +160,7 @@ export const unidad21: Lesson = {
     },
     {
       "type": "fill",
-      "prompt": "Ti piace la mia giacca? ___ presto domani. (a ti, la chaqueta)",
+      "prompt": "Ti serve la mia giacca? ___ presto domani. (a ti, la chaqueta)",
       "answers": [
         "Te la"
       ],
