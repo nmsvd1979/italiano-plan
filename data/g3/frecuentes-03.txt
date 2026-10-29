@@ -1,0 +1,123 @@
+## adjetivos y adverbios
+adj|antico|antiguo|Roma è una città antica.|Roma es una ciudad antigua.
+adj|ampio|amplio|La camera è ampia e luminosa.|La habitación es amplia y luminosa.
+adj|attuale|actual|Il problema è molto attuale.|El problema es muy actual.
+adj|bravo|bueno (en algo) / hábil|Sei molto bravo in italiano.|Eres muy bueno en italiano.
+adj|breve|breve|Faccio un breve riassunto.|Hago un resumen breve.
+adj|buio|oscuro|La stanza è buia.|La habitación está oscura.
+adj|capace|capaz|È una persona capace.|Es una persona capaz.
+adj|cattivo|malo|Il tempo è cattivo.|El tiempo está malo.
+adj|centrale|central|Abito in una zona centrale.|Vivo en una zona central.
+adj|chiaro|claro|La spiegazione è chiara.|La explicación es clara.
+adj|civile|civil|Lo stato civile è «sposato».|El estado civil es «casado».
+adj|completo|completo|Il corso è completo.|El curso está completo.
+adj|continuo|continuo|C'è un rumore continuo.|Hay un ruido continuo.
+adj|contrario|contrario|Sono di opinione contraria.|Soy de opinión contraria.
+adj|destro|derecho|Ho male al piede destro.|Me duele el pie derecho.
+adj|sinistro|izquierdo|Ho male al braccio sinistro.|Me duele el brazo izquierdo.
+adj|difficile|difícil|Il test è difficile.|La prueba es difícil.
+adj|facile|fácil|L'italiano non è difficile: è facile!|El italiano no es difícil: ¡es fácil!
+adj|diretto|directo|È un treno diretto.|Es un tren directo.
+adj|diverso|diferente|Sono due cose diverse.|Son dos cosas diferentes.
+adj|duro|duro|Il pane è duro.|El pan está duro.
+adj|elettrico|eléctrico|Ho un'auto elettrica.|Tengo un auto eléctrico.
+adj|enorme|enorme|La casa è enorme.|La casa es enorme.
+adj|estero|extranjero|Vivo all'estero.|Vivo en el extranjero.
+adj|famoso|famoso|È un cantante famoso.|Es un cantante famoso.
+adj|forte|fuerte|Il caffè è forte.|El café es fuerte.
+adj|generale|general|Faccio un controllo generale.|Hago un control general.
+adj|giusto|justo / correcto|La risposta è giusta.|La respuesta es correcta.
+adj|grave|grave|Non è niente di grave.|No es nada grave.
+adj|grosso|grande / grueso|È un problema grosso.|Es un problema grande.
+adj|impossibile|imposible|È impossibile arrivare in tempo.|Es imposible llegar a tiempo.
+adj|improvviso|repentino|Un cambiamento improvviso.|Un cambio repentino.
+adj|inglese|inglés|Parlo inglese e spagnolo.|Hablo inglés y español.
+adj|interessante|interesante|Il libro è interessante.|El libro es interesante.
+adj|internazionale|internacional|È un aeroporto internazionale.|Es un aeropuerto internacional.
+adj|interno|interno|Il cortile interno è tranquillo.|El patio interior es tranquilo.
+adj|intero|entero|Ho studiato un giorno intero.|Estudié un día entero.
+adj|inutile|inútil|È inutile aspettare.|Es inútil esperar.
+adj|leggero|ligero / liviano|La valigia è leggera.|La maleta es liviana.
+adj|libero|libre|Il tavolo è libero.|La mesa está libre.
+adj|medio|medio|La temperatura media è venti gradi.|La temperatura media es veinte grados.
+adj|moderno|moderno|L'appartamento è moderno.|El apartamento es moderno.
+adj|necessario|necesario|È necessario prenotare.|Es necesario reservar.
+adj|normale|normal|È un giorno normale.|Es un día normal.
+adj|noto|conocido|È un ristorante molto noto.|Es un restaurante muy conocido.
+adj|nudo|desnudo|Il bambino è nudo.|El niño está desnudo.
+adj|numeroso|numeroso|È una famiglia numerosa.|Es una familia numerosa.
+adj|perfetto|perfecto|Il tempo è perfetto.|El tiempo es perfecto.
+adj|personale|personal|È una domanda personale.|Es una pregunta personal.
+adj|pieno|lleno|Il treno è pieno.|El tren está lleno.
+adj|preciso|preciso|Sono le tre precise.|Son las tres en punto.
+adj|presente|presente|Sono presente alla riunione.|Estoy presente en la reunión.
+adj|principale|principal|La strada principale è chiusa.|La calle principal está cerrada.
+adj|privato|privado|È una proprietà privata.|Es una propiedad privada.
+adj|profondo|profundo|Il lago è profondo.|El lago es profundo.
+adj|pubblico|público|È un giardino pubblico.|Es un jardín público.
+adj|puro|puro|L'aria di montagna è pura.|El aire de montaña es puro.
+adj|rapido|rápido|Il treno è rapido.|El tren es rápido.
+adj|reale|real|È una storia reale.|Es una historia real.
+adj|recente|reciente|Una notizia recente.|Una noticia reciente.
+adj|romano|romano|Il piatto è tipico romano.|El plato es típico romano.
+adj|semplice|simple|La ricetta è semplice.|La receta es simple.
+adj|sereno|sereno / despejado|Il cielo è sereno.|El cielo está despejado.
+adj|simile|similar|Siamo simili.|Somos similares.
+adj|sociale|social|È un problema sociale.|Es un problema social.
+adj|solito|habitual|Il solito caffè, per favore.|El café de siempre, por favor.
+adj|sottile|delgado / fino|La fetta è molto sottile.|La rebanada es muy delgada.
+adj|speciale|especial|È un giorno speciale.|Es un día especial.
+adj|strano|extraño|Che cosa strana!|¡Qué cosa extraña!
+adj|straordinario|extraordinario|È un panorama straordinario.|Es un paisaje extraordinario.
+adj|stupido|tonto|Che errore stupido!|¡Qué error tonto!
+adj|superiore|superior|Il piano superiore è libero.|El piso superior está libre.
+adj|tale|tal|Una tale occasione è rara.|Una ocasión así es rara.
+adj|tecnico|técnico|Ho un problema tecnico.|Tengo un problema técnico.
+adj|unico|único|È l'unico treno.|Es el único tren.
+adj|utile|útil|È una app molto utile.|Es una app muy útil.
+adj|vario|variado|Il menù è vario.|El menú es variado.
+adj|vasto|vasto|Il parco è vasto.|El parque es vasto.
+adj|vivo|vivo|Il pesce è ancora vivo.|El pescado todavía está vivo.
+adj|vuoto|vacío|Il bicchiere è vuoto.|El vaso está vacío.
+adj|zitto|callado|Sta' zitto, per favore.|Quédate callado, por favor.
+adv|addirittura|incluso|È addirittura gratis!|¡Es incluso gratis!
+adv|almeno|al menos|Almeno dimmi il tuo nome.|Al menos dime tu nombre.
+adv|appunto|justamente|È appunto quello che pensavo.|Es justamente lo que pensaba.
+adv|assai|bastante / muy|È assai interessante.|Es bastante interesante.
+adv|circa|aproximadamente|Ci vogliono circa due ore.|Se necesitan aproximadamente dos horas.
+adv|completamente|completamente|Sono completamente d'accordo.|Estoy completamente de acuerdo.
+adv|finalmente|finalmente|Finalmente sei arrivato!|¡Por fin llegaste!
+adv|insieme|juntos|Studiamo insieme.|Estudiamos juntos.
+adv|intanto|mientras tanto|Intanto io preparo il caffè.|Mientras tanto yo preparo el café.
+adv|naturalmente|naturalmente|Naturalmente vengo anch'io.|Naturalmente yo también voy.
+adv|nemmeno|ni siquiera|Non ho nemmeno un minuto.|No tengo ni un minuto.
+adv|neppure|ni siquiera|Non ho neppure fame.|Ni siquiera tengo hambre.
+adv|parecchio|bastante / mucho|Ho parecchio lavoro.|Tengo bastante trabajo.
+adv|perfino|incluso|Perfino i bambini lo sanno.|Incluso los niños lo saben.
+adv|piuttosto|bastante / más bien|Fa piuttosto freddo.|Hace bastante frío.
+adv|pure|también / adelante|Entri pure!|¡Pase no más!
+adv|quasi|casi|Sono quasi arrivato.|Casi llegué.
+adv|soprattutto|sobre todo|Mi piace soprattutto la pasta.|Me gusta sobre todo la pasta.
+adv|specialmente|especialmente|Mi piace specialmente il pesce.|Me gusta especialmente el pescado.
+adv|veramente|de verdad|È veramente buono.|Está muy rico de verdad.
+adv|qua|aquí|Vieni qua!|¡Ven acá!
+adv|lì|allí|Il bar è lì.|El bar está allí.
+adv|fuori|afuera|Aspetto fuori.|Espero afuera.
+adv|sopra|arriba / sobre|Il libro è sopra il tavolo.|El libro está sobre la mesa.
+adv|sotto|abajo / bajo|Il gatto è sotto il letto.|El gato está bajo la cama.
+adv|davanti|delante|Mi siedo davanti.|Me siento adelante.
+adv|intorno|alrededor|Guardo intorno.|Miro alrededor.
+adv|oltre|más allá / además|Oltre il ponte c'è la stazione.|Más allá del puente está la estación.
+adv|durante|durante|Durante il viaggio dormo.|Durante el viaje duermo.
+adv|entro|dentro de (plazo)|Ti rispondo entro domani.|Te respondo a más tardar mañana.
+adv|finché|hasta que|Aspetto finché arrivi.|Espero hasta que llegues.
+adv|fra|entre / en (tiempo)|Torno fra una settimana.|Vuelvo en una semana.
+adv|contro|contra|Il muro è contro la strada.|El muro está contra la calle.
+adv|verso|hacia|Vado verso la stazione.|Voy hacia la estación.
+adv|presso|junto a / en casa de|Lavoro presso una banca.|Trabajo en un banco.
+adv|con|con|Vado al cinema con Anna.|Voy al cine con Anna.
+adv|né|ni|Non mangio né carne né pesce.|No como ni carne ni pescado.
+adv|eccetera|etcétera|Compro pane, latte, eccetera.|Compro pan, leche, etcétera.
+adv|ah|ah|Ah, ho capito!|¡Ah, entendí!
+adv|eh|eh|Eh? Non ho sentito.|¿Eh? No escuché.
+adv|oh|oh|Oh, che bello!|¡Oh, qué bonito!

@@ -164,7 +164,7 @@ const dialogue: Dialogue = {
     { who: "A", it: "Tua sorella è alta?", es: "¿Tu hermana es alta?" },
     { who: "B", it: "Sì, è molto alta e ha i capelli biondi e lunghi.", es: "Sí, es muy alta y tiene el pelo rubio y largo." },
     { who: "A", it: "Io ho i capelli castani e gli occhi verdi.", es: "Yo tengo el pelo castaño y los ojos verdes." },
-    { who: "B", it: "Che bello! Allora ci vediamo domani, ciao!", es: "¡Qué lindo! Entonces nos vemos mañana, ¡chao!" },
+    { who: "B", it: "Che bello! Allora ci vediamo domani, ciao!", es: "¡Qué bonito! Entonces nos vemos mañana, ¡chao!" },
   ],
 };
 
