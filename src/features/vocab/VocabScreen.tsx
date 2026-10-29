@@ -2,13 +2,13 @@ import { useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
-import { getVocab } from "../../content/vocab";
 import type { CoursePart } from "../../content/course";
-import { forPart } from "../../domain/parts";
+import type { VocabWord } from "../../content/vocab";
+import { shownWords, wordsForScreen } from "../../domain/vocabWords";
 import { toISODate } from "../../domain/dates";
 import { buildVocabQuiz, toQuizletText } from "../../domain/vocabQuiz";
 import { Icon } from "../../ui/Icon";
-import { say } from "../../ui/speech";
+import { say, speak } from "../../ui/speech";
 import { ExerciseRunner, RunnerItem, Summary } from "../grammar/ExerciseRunner";
 
 const QUIZ_SIZE = 10;
@@ -28,10 +28,32 @@ async function copy(text: string): Promise<boolean> {
   }
 }
 
+const TAG_LABEL = { unidad: "Del tema", frecuente: "De uso general" } as const;
+
+function WordRow({ word: v }: { word: VocabWord }) {
+  return (
+    <div className="vocab-row">
+      <button type="button" className="audio-btn" onClick={() => say(v.it)} aria-label={`Escuchar: ${v.it}`}>
+        <Icon name="sound" size={18} />
+      </button>
+      <span className="vocab-it">{v.it}{v.tag && <small className="vocab-tag">{TAG_LABEL[v.tag]}</small>}</span>
+      <span className="vocab-es">{v.es}</span>
+      {v.ex && (
+        <span className="vocab-ex">
+          <button type="button" className="audio-btn" onClick={() => speak(v.ex!)} aria-label={`Escuchar la frase: ${v.ex}`}>
+            <Icon name="sound" size={16} />
+          </button>
+          <span><em>{v.ex}</em><br />{v.exEs}</span>
+        </span>
+      )}
+    </div>
+  );
+}
+
 export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | null }) {
   const { today, completeActivity } = useApp();
-  const all = getVocab(unit);
-  const vocab = all && forPart(unit, part, "vocab", all).map(({ item }) => item);
+  const sections = wordsForScreen(unit, part);
+  const vocab = sections && shownWords(sections);
   const meta = getUnit(unit);
   const [stage, setStage] = useState<"learn" | "quiz" | "done">("learn");
   const [summary, setSummary] = useState<Summary | null>(null);
@@ -56,7 +78,7 @@ export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | 
         </a>
         <div>
           <div className="eyebrow">Unidad {meta?.n} · Palabras</div>
-          <h1 className="title">{vocab.length} palabras para esta unidad</h1>
+          <h1 className="title">Palabras de la unidad</h1>
         </div>
       </header>
 
@@ -64,20 +86,18 @@ export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | 
         <>
           <section className="card stack">
             <p className="sub">
-              Escucha cada palabra y dila en voz alta antes de mirar el significado. Si no hay grabación nativa, suena la voz del sistema.
+              {vocab.length} palabras. Escucha cada palabra y dila en voz alta antes de mirar el significado. Si no hay grabación nativa, suena la voz del sistema.
             </p>
-            <div className="vocab-list">
-              {vocab.map((v) => (
-                <div key={v.it} className="vocab-row">
-                  <button type="button" className="audio-btn" onClick={() => say(v.it)} aria-label={`Escuchar: ${v.it}`}>
-                    <Icon name="sound" size={18} />
-                  </button>
-                  <span className="vocab-it">{v.it}</span>
-                  <span className="vocab-es">{v.es}</span>
-                </div>
-              ))}
-            </div>
           </section>
+
+          {([["Palabras base", sections.base], ["Más palabras", sections.more]] as const).map(([title, list]) => list.length > 0 && (
+            <section key={title} className="card stack" aria-label={title}>
+              <div className="eyebrow">{title} · {list.length}</div>
+              <div className="vocab-list">
+                {list.map((v) => <WordRow key={v.it} word={v} />)}
+              </div>
+            </section>
+          ))}
 
           <section className="card stack">
             <div className="eyebrow">Para tu Quizlet</div>

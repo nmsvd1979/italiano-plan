@@ -1,16 +1,17 @@
 import { useState } from "react";
-import { loadSrs, saveSrs } from "../../domain/srs";
+import { generalOn, loadSrs, saveSrs } from "../../domain/srs";
 import { LIMITS } from "../../domain/srsQueue";
 
-/** Opciones del repaso espaciado: por ahora, el mazo extra de Quizlet (desactivado por defecto). */
+/** Opciones del repaso espaciado: el mazo general de frecuencia (activado por defecto). */
 export function SrsCard() {
   const [state, setState] = useState(() => loadSrs(window.localStorage));
-  const cards = Object.values(state.cards);
-  const extra = cards.filter((c) => c.deck === "quizlet").length;
-  const on = !!state.options?.quizlet;
+  // Las tarjetas del antiguo mazo de Quizlet siguen guardadas, pero ya no se cuentan ni se muestran.
+  const cards = Object.values(state.cards).filter((c) => c.deck !== "quizlet");
+  const general = cards.filter((c) => c.deck === "general").length;
+  const on = generalOn(state);
 
   const toggle = () => {
-    const next = { ...state, options: { ...state.options, quizlet: !on } };
+    const next = { ...state, options: { ...state.options, general: !on } };
     saveSrs(next, window.localStorage);
     setState(next);
   };
@@ -23,11 +24,11 @@ export function SrsCard() {
       </p>
       <label className="row" style={{ alignItems: "center", gap: 10 }}>
         <input type="checkbox" checked={on} onChange={toggle} style={{ width: 24, height: 24 }} />
-        <span>Mazo extra de Quizlet: {LIMITS.quizletNewPerDay} palabras nuevas al día</span>
+        <span>Mazo general de frecuencia: {LIMITS.generalNewPerDay} palabras nuevas al día</span>
       </label>
       <p className="sub">
-        Palabras del mazo de 1.400 términos que todavía no están en las unidades. Solo tarjetas de reconocer.
-        {extra > 0 ? ` Ya empezaste ${extra}.` : ""} Si lo apagas, no salen más nuevas y las que ya empezaste siguen su repaso.
+        Palabras comunes del italiano que no pertenecen a una unidad concreta, de las más frecuentes a las menos, con una frase de ejemplo.
+        {general > 0 ? ` Ya empezaste ${general}.` : ""} Si lo apagas, no salen más nuevas y las que ya empezaste siguen su repaso.
       </p>
     </section>
   );
