@@ -25,7 +25,7 @@ d|— Buongiorno, signor Verdi. Come ___? // — Bene, grazie, e Lei?|sta;stai;s
 d|— Ciao! Sono Marta. E tu? // — Io ___ Luca.|sono;sei;è|Con «io» se usa «sono».
 l|Lei è italiana.|Ella es italiana.;Tú eres italiana.;Él es italiano.|«Lei è» = ella es; «italiana» es femenino.
 ## u02
-o@A|Hay un parque cerca de la casa.|C'è un parco vicino alla casa.|ci|Con un solo elemento se usa «c'è» (hay).
+o@A|Hay un parque cerca de la casa.|C'è un parco vicino alla casa. / Vicino alla casa c'è un parco.|ci|Con un solo elemento se usa «c'è» (hay).
 t@A|Hay dos sillas.|Ci sono due sedie.|Con plural se usa «ci sono».
 t@A|Hay una farmacia en la plaza.|C'è una farmacia in piazza. / C'è una farmacia nella piazza.|Un solo elemento: «c'è».
 f@A|Nel soggiorno c'è due sedie.|Nel soggiorno ci sono due sedie.|Con dos elementos hace falta «ci sono».
@@ -64,7 +64,7 @@ d|— Buongiorno! Vuole ordinare? // — Sì, ___ un panino, per favore.|vorrei;
 d|— Perché non vieni? // — Perché ___ lavorare.|devo;devi;deve|La respuesta es en primera persona: «devo».
 l|Voglio un caffè.|Quiero un café.;Tengo un café.;Quiere un café.|«Voglio» = quiero.
 ## u05
-o@A|Voy a Roma en tren.|Vado a Roma in treno.|da|Ciudad: «a»; medio de transporte: «in».
+o@A|Voy a Roma en tren.|Vado a Roma in treno. / In treno vado a Roma.|da|Ciudad: «a»; medio de transporte: «in».
 t@A|Voy a casa de Marco.|Vado da Marco.|Para ir a casa de una persona se usa «da».
 t@A|Vivo en Italia.|Vivo in Italia.|Con países se usa «in».
 f@A|Vado in Roma.|Vado a Roma.|Con ciudades se usa «a».
