@@ -51,6 +51,8 @@ export const KEYS_V2 = {
   seedApplied: "italianPlan.v2.seedApplied",
   /** Intentos de la mini-prueba de cada semana del curso (docs/v2/04 D3). */
   miniTests: "italianPlan.v2.miniTests",
+  /** Tiempo real medido por bloque (domain/timing.ts). */
+  timing: "italianPlan.v2.timing",
 } as const;
 
 /** Repaso espaciado propio (docs/v2/02 B2): tarjetas, historial y opciones, en un solo valor JSON. */
@@ -227,6 +229,7 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS_V2.seedApplied);
   store.removeItem(KEYS_V2.miniTests);
   store.removeItem(KEYS_V2.progress);
+  store.removeItem(KEYS_V2.timing);
   store.removeItem(SRS_KEY);
 }
 

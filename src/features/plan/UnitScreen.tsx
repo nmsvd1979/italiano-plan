@@ -1,14 +1,17 @@
 import { useApp } from "../../app/state";
+import { useSrsCards } from "../../app/blockTimer";
 import { goBack } from "../../app/route";
 import { COURSE } from "../../content/course";
 import { getPhase, getUnit } from "../../content/curriculum";
 import { internalRoute } from "../../app/links";
 import { legacyNote, legacyNoteText } from "../../domain/continuity";
 import { blockDone, daysOf, isSoon, unitCycleProgress } from "../../domain/cycle";
+import { estimatedMinutes } from "../../domain/minutes";
 import { Icon } from "../../ui/Icon";
 
 export function UnitScreen({ id }: { id: string }) {
-  const { steps, course, rawCourse, canDo, toggleCanDo } = useApp();
+  const { steps, course, rawCourse, canDo, toggleCanDo, progress, today } = useApp();
+  const srsCards = useSrsCards(progress, today);
   const unit = getUnit(id);
   if (!unit) return <p className="sub">No existe esa unidad.</p>;
 
@@ -83,7 +86,7 @@ export function UnitScreen({ id }: { id: string }) {
                       const done = !soon && blockDone(step, day.day, b, course);
                       return (
                         <li key={b.id} className={done ? "done" : ""}>
-                          <Icon name={done ? "check" : b.icon} size={16} /> {b.name} <span>· {soon ? "en preparación" : `${b.minutes} min`}{b.core && !soon ? " · esencial" : ""}</span>
+                          <Icon name={done ? "check" : b.icon} size={16} /> {b.name} <span>· {soon ? "en preparación" : `${estimatedMinutes(b, srsCards)} min`}{b.core && !soon ? " · esencial" : ""}</span>
                         </li>
                       );
                     })}

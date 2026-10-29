@@ -1,5 +1,6 @@
 import { createContext, ReactNode, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { requestPersistence } from "./persist";
+import { useBlockTimer } from "./blockTimer";
 import { routeQuery } from "./route";
 import { getUnit, type UnitMeta } from "../content/curriculum";
 import { Progress, Step, buildSteps } from "../domain/curriculum";
@@ -91,6 +92,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [mini, setMini] = useState<MiniTests>(() => getMiniTests());
   const [continuity, setContinuity] = useState<ContinuityState>(() => loadContinuity(window.localStorage));
   const [today, setToday] = useState(() => startOfDay(new Date()));
+
+  useBlockTimer();
 
   // Pide que el navegador no borre los datos de la app si hay poco espacio.
   useEffect(() => { void requestPersistence(); ensureSrs(window.localStorage); }, []);
