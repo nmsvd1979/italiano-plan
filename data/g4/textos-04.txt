@@ -1,0 +1,240 @@
+## u14#A
+tipo: receta
+titulo: Spaghetti al pomodoro
+testo:
+SPAGHETTI AL POMODORO (per quattro persone)
+
+Ingredienti: 400 grammi di spaghetti, 500 grammi di pomodori maturi, due spicchi d'aglio, olio, sale, basilico.
+
+Prima di tutto metti l'acqua in una pentola grande e portala a ebollizione. Intanto taglia i pomodori a pezzetti e schiaccia l'aglio.
+
+In una padella scalda un po' d'olio, aggiungi l'aglio e i pomodori e cuoci per quindici minuti a fuoco basso. Aggiungi un po' di sale.
+
+Quando l'acqua bolle, butta la pasta e cuocila per dieci minuti. Poi scola gli spaghetti e mettili nella padella con il sugo. Mescola bene e aggiungi qualche foglia di basilico. Servi subito! Buon appetito!
+es:
+ESPAGUETIS AL TOMATE (para cuatro personas)
+
+Ingredientes: 400 gramos de espaguetis, 500 gramos de tomates maduros, dos dientes de ajo, aceite, sal, albahaca.
+
+Primero pon el agua en una olla grande y llévala a hervir. Mientras tanto corta los tomates en trocitos y aplasta el ajo.
+
+En un sartén calienta un poco de aceite, agrega el ajo y los tomates y cocina quince minutos a fuego bajo. Agrega un poco de sal.
+
+Cuando el agua hierva, echa la pasta y cuécela diez minutos. Luego escurre los espaguetis y ponlos en el sartén con la salsa. Mezcla bien y agrega unas hojas de albahaca. ¡Sirve enseguida! ¡Buen provecho!
+claves: la pentola=la olla; tagliare=cortar; la padella=el sartén; scolare=escurrir; il sugo=la salsa; mescolare=mezclar
+p1: ¿Cuántos gramos de tomates se necesitan? | quattrocento | cinquecento | duecento | b | «500 grammi di pomodori maturi».
+p2: ¿Cuánto tiempo se cocinan los tomates? | dieci minuti | cinque minuti | quindici minuti | c | «cuoci per quindici minuti».
+p3: ¿Qué se hace con la pasta cuando está cocida? | si scola | si butta | si mangia fredda | a | «scola gli spaghetti».
+p4: ¿Qué se agrega al final? | qualche foglia di basilico / basilico | «aggiungi qualche foglia di basilico».
+## u14#B
+tipo: instrucciones
+titulo: Come usare la lavatrice
+testo:
+Come usare la lavatrice
+
+1. Separa i vestiti bianchi da quelli colorati. Non lavare mai insieme i vestiti nuovi e quelli chiari.
+2. Controlla le tasche: se trovi monete o carta, toglile.
+3. Apri lo sportello e metti i vestiti dentro. Non riempire troppo la lavatrice.
+4. Metti il detersivo nel cassetto, in alto a sinistra.
+5. Chiudi lo sportello e scegli il programma. Per i vestiti normali usa il programma a quaranta gradi.
+6. Premi il pulsante verde per cominciare.
+7. Quando il programma finisce, aspetta due minuti, poi apri lo sportello e stendi i vestiti.
+
+Attenzione: non aprire lo sportello durante il lavaggio! Alla fine il bucato è pulito e profumato.
+es:
+Cómo usar la lavadora
+
+1. Separa la ropa blanca de la de color. Nunca laves juntas la ropa nueva y la clara.
+2. Revisa los bolsillos: si encuentras monedas o papel, sácalos.
+3. Abre la puerta y pon la ropa adentro. No llenes demasiado la lavadora.
+4. Pon el detergente en el cajón, arriba a la izquierda.
+5. Cierra la puerta y elige el programa. Para la ropa normal usa el programa de cuarenta grados.
+6. Presiona el botón verde para comenzar.
+7. Cuando el programa termine, espera dos minutos, luego abre la puerta y tiende la ropa.
+
+Atención: ¡no abras la puerta durante el lavado! Al final la ropa queda limpia y perfumada.
+claves: la lavatrice=la lavadora; lo sportello=la puerta; il detersivo=el detergente; il cassetto=el cajón; stendere=tender; il lavaggio=el lavado
+p1: ¿Qué hay que separar antes de lavar? | i vestiti bianchi da quelli colorati | i vestiti vecchi da quelli nuovi | le scarpe dai vestiti | a | «Separa i vestiti bianchi da quelli colorati».
+p2: ¿Dónde se pone el detergente? | nel cassetto | nelle tasche | sopra i vestiti | a | «nel cassetto, in alto a sinistra».
+p3: ¿Qué botón se presiona para empezar? | quello rosso | quello blu | quello verde | c | «Premi il pulsante verde».
+p4: ¿Qué no hay que hacer durante el lavado? | aprire lo sportello / non aprire lo sportello | «non aprire lo sportello durante il lavaggio».
+## u15#A
+tipo: agenda y planes
+titulo: La mia agenda
+testo:
+Questa settimana è molto piena. Lunedì devo andare dal dentista alle quattro e poi ho una riunione di lavoro. Martedì voglio fare la spesa e cucinare qualcosa di buono per la cena.
+
+Mercoledì sera ho un appuntamento con Marta: andremo a vedere una mostra di fotografia. Giovedì dovrò lavorare fino a tardi, perché abbiamo una consegna importante.
+
+Venerdì sarò libero. Penso di prendere un treno alle nove per andare dai miei genitori: staremo insieme tutto il fine settimana. Probabilmente faremo una gita sul lago, se il tempo sarà bello.
+
+Domenica sera tornerò a casa e preparerò le cose per la settimana prossima. Mi piace avere un programma, ma spero di avere anche un po' di tempo per riposare!
+es:
+Esta semana está muy llena. El lunes tengo que ir al dentista a las cuatro y después tengo una reunión de trabajo. El martes quiero hacer las compras y cocinar algo rico para la cena.
+
+El miércoles en la noche tengo una cita con Marta: iremos a ver una exposición de fotografía. El jueves tendré que trabajar hasta tarde, porque tenemos una entrega importante.
+
+El viernes estaré libre. Pienso tomar un tren a las nueve para ir donde mis padres: estaremos juntos todo el fin de semana. Probablemente haremos un paseo al lago, si el tiempo está bueno.
+
+El domingo en la noche volveré a casa y prepararé las cosas para la semana próxima. Me gusta tener un programa, pero espero tener también un poco de tiempo para descansar.
+claves: l'appuntamento=la cita; la mostra=la exposición; la consegna=la entrega; la gita=el paseo; il programma=el programa; riposare=descansar
+p1: ¿Qué tiene el lunes a las cuatro? | una riunione | un appuntamento con Marta | il dentista | c | «devo andare dal dentista alle quattro».
+p2: ¿Qué hará con Marta el miércoles? | vedere una mostra | cucinare | prendere un treno | a | «andremo a vedere una mostra di fotografia».
+p3: ¿Por qué trabajará hasta tarde el jueves? | perché ha una consegna importante | perché è in ritardo | perché Marta è malata | a | «abbiamo una consegna importante».
+p4: ¿Adónde irá el fin de semana? | dai suoi genitori / dai genitori | «per andare dai miei genitori».
+## u15#B
+tipo: invitación
+titulo: Un invito a una festa
+testo:
+Ciao a tutti!
+
+Il prossimo sabato 15 novembre faccio una festa per il mio compleanno. Compio trent'anni e voglio festeggiare con le persone più care.
+
+La festa comincia alle otto di sera a casa mia, in via Dante 12. Se arrivate in metropolitana, scendete alla fermata «Duomo»: da lì sono solo cinque minuti a piedi.
+
+Cucinerò io: ci sarà un grande buffet con pizza, lasagne e tante cose da mangiare. Se volete, portate qualcosa da bere. Ci sarà anche la musica, e forse balleremo!
+
+Per favore, confermate entro mercoledì: scrivetemi un messaggio o telefonatemi. Se non potete venire, nessun problema!
+
+Non vedo l'ora di vedervi. Un abbraccio, Davide
+es:
+¡Hola a todos!
+
+El próximo sábado 15 de noviembre hago una fiesta por mi cumpleaños. Cumplo treinta años y quiero celebrar con las personas más queridas.
+
+La fiesta empieza a las ocho de la noche en mi casa, en calle Dante 12. Si llegan en metro, bájense en la estación «Duomo»: desde ahí son solo cinco minutos a pie.
+
+Cocinaré yo: habrá un gran buffet con pizza, lasañas y muchas cosas para comer. Si quieren, traigan algo para beber. También habrá música, ¡y quizás bailaremos!
+
+Por favor, confirmen antes del miércoles: escríbanme un mensaje o llámenme. Si no pueden venir, ¡no hay problema!
+
+Tengo muchas ganas de verlos. Un abrazo, Davide
+claves: festeggiare=celebrar; il compleanno=el cumpleaños; la fermata=la parada / la estación; scendere=bajar; confermare=confirmar; non vedo l'ora=tengo muchas ganas
+p1: ¿Cuántos años cumple Davide? | venticinque | trenta | quaranta | b | «Compio trent'anni».
+p2: ¿Dónde hay que bajarse del metro? | alla fermata «Duomo» | in via Dante | a casa di Davide | a | «scendete alla fermata «Duomo»».
+p3: ¿Qué habrá en la fiesta? | solo musica | un ristorante | un buffet e musica | c | «un grande buffet... Ci sarà anche la musica».
+p4: ¿Hasta cuándo hay que confirmar? | entro mercoledì / mercoledì | «confermate entro mercoledì».
+## u16
+tipo: prospecto de un remedio
+titulo: Foglietto illustrativo
+testo:
+TACHIFLU — compresse da 500 mg
+
+A che cosa serve
+Questo medicinale serve per abbassare la febbre e per il mal di testa e il mal di gola.
+
+Come si usa
+Gli adulti possono prendere una compressa ogni sei ore, con un bicchiere d'acqua. Non prendere più di quattro compresse al giorno. I bambini sotto i dodici anni non devono prenderlo senza parlare con il medico.
+
+Attenzione
+Non usare questo medicinale se sei allergico al paracetamolo. Se hai problemi al fegato o allo stomaco, chiedi al medico o al farmacista. Se il mal di testa non passa dopo tre giorni, smetti di prenderlo e vai dal dottore.
+
+Come conservarlo
+Tieni la scatola in un posto asciutto, fuori dalla portata dei bambini.
+es:
+TACHIFLU — comprimidos de 500 mg
+
+Para qué sirve
+Este medicamento sirve para bajar la fiebre y para el dolor de cabeza y el dolor de garganta.
+
+Cómo se usa
+Los adultos pueden tomar un comprimido cada seis horas, con un vaso de agua. No tomar más de cuatro comprimidos al día. Los niños menores de doce años no deben tomarlo sin hablar con el médico.
+
+Atención
+No use este medicamento si es alérgico al paracetamol. Si tiene problemas al hígado o al estómago, consulte al médico o al farmacéutico. Si el dolor de cabeza no se pasa después de tres días, deje de tomarlo y vaya al doctor.
+
+Cómo conservarlo
+Guarde la caja en un lugar seco, fuera del alcance de los niños.
+claves: la compressa=el comprimido; la febbre=la fiebre; il mal di gola=el dolor de garganta; il medico=el médico; allergico=alérgico; il fegato=el hígado
+p1: ¿Para qué sirve el medicamento? | per dormire | per abbassare la febbre e il mal di testa | per la tosse | b | «per abbassare la febbre e per il mal di testa».
+p2: ¿Cada cuánto puede tomar un adulto una pastilla? | ogni sei ore | ogni dodici ore | ogni ora | a | «una compressa ogni sei ore».
+p3: ¿Qué hay que hacer si el dolor sigue tras tres días? | prendere più compresse | smettere e andare dal dottore | aspettare ancora una settimana | b | «smetti di prenderlo e vai dal dottore».
+p4: ¿Cuántas pastillas como máximo al día? | quattro / 4 | «Non prendere più di quattro compresse al giorno».
+## u17
+tipo: anuncio de alquiler
+titulo: Cercasi coinquilino
+testo:
+CERCASI COINQUILINO — Milano, zona Navigli
+
+Affitto una camera in un bellissimo appartamento condiviso con altre due persone. La camera è luminosa, grande e arredata: ha un letto, un armadio, una scrivania e un balcone sul cortile.
+
+L'appartamento è al terzo piano, c'è l'ascensore e si trova a dieci minuti a piedi dalla metropolitana. La cucina e il bagno sono in comune. C'è la connessione internet veloce.
+
+Il prezzo è di 480 euro al mese, spese incluse. Chiedo un deposito di due mesi.
+
+Cerco una persona tranquilla, pulita e responsabile, preferibilmente studente o lavoratore. Se non hai animali domestici, meglio ancora!
+
+La zona è molto viva: vicino ci sono molti bar, ristoranti e negozi. La domenica c'è un piccolo mercato sul canale. Per chi ama uscire la sera, è il posto ideale.
+
+Per vedere la camera, scrivi a: casanavigli@example.com
+es:
+SE BUSCA COMPAÑERO DE DEPARTAMENTO — Milán, zona Navigli
+
+Arriendo una habitación en un hermoso departamento compartido con otras dos personas. La habitación es luminosa, grande y amoblada: tiene una cama, un clóset, un escritorio y un balcón al patio.
+
+El departamento está en el tercer piso, hay ascensor y queda a diez minutos a pie del metro. La cocina y el baño son compartidos. Hay conexión a internet rápida.
+
+El precio es de 480 euros al mes, gastos incluidos. Pido un depósito de dos meses.
+
+Busco una persona tranquila, limpia y responsable, de preferencia estudiante o trabajador. Si no tienes mascotas, ¡mejor aún!
+
+La zona es muy animada: cerca hay muchos bares, restaurantes y tiendas. El domingo hay un pequeño mercado junto al canal. Para quien ama salir en la noche, es el lugar ideal.
+
+Para ver la habitación, escribe a: casanavigli@example.com
+claves: cercasi=se busca; arredato=amoblado; l'ascensore=el ascensor; condiviso=compartido; il deposito=el depósito; la scrivania=el escritorio
+p1: ¿En qué piso está el departamento? | al secondo | al terzo | al quarto | b | «al terzo piano».
+p2: ¿Qué tiene la habitación? | un letto, un armadio, una scrivania e un balcone | solo un letto | una cucina privata | a | Lista de muebles del anuncio.
+p3: ¿Qué persona busca el anunciante? | una persona chiassosa | una famiglia | una persona tranquilla e responsabile | c | «tranquilla, pulita e responsabile».
+p4: ¿Cuánto cuesta al mes? | 480 euro / quattrocentottanta euro | «480 euro al mese, spese incluse».
+## u18
+tipo: mail formal e informal
+titulo: Due e-mail
+testo:
+E-mail 1 (formale)
+Oggetto: Richiesta di informazioni
+
+Gentile dottoressa Bianchi,
+
+mi chiamo Paolo Neri e sono interessato al corso di italiano che offrite in autunno. Potrebbe dirmi quando comincia e quanto costa? Inoltre vorrei sapere se è possibile fare una lezione di prova.
+
+La ringrazio in anticipo e resto in attesa di una Sua risposta. Se preferisce, può rispondermi anche per telefono.
+
+Cordiali saluti,
+Paolo Neri
+
+E-mail 2 (informale)
+Oggetto: Sabato sera?
+
+Ciao Fede!
+
+Come stai? Io benissimo! Senti, sabato sera sei libero? Vorrei invitarti a cena da me: faccio la pasta! Puoi portare anche Giorgia, se vuole. Dimmi se vieni, così preparo tutto. Se preferisci, possiamo andare anche in pizzeria. Non preoccuparti per il vino: lo porto io.
+
+Un abbraccio forte,
+Paolo
+es:
+Correo 1 (formal)
+Asunto: Solicitud de información
+
+Estimada doctora Bianchi:
+
+Me llamo Paolo Neri y estoy interesado en el curso de italiano que ofrecen en otoño. ¿Podría decirme cuándo comienza y cuánto cuesta? Además quisiera saber si es posible tomar una clase de prueba.
+
+Le agradezco de antemano y quedo a la espera de su respuesta. Si prefiere, puede responderme también por teléfono.
+
+Cordiales saludos,
+Paolo Neri
+
+Correo 2 (informal)
+Asunto: ¿Sábado en la noche?
+
+¡Hola Fede!
+
+¿Cómo estás? ¡Yo muy bien! Oye, ¿el sábado en la noche estás libre? Quisiera invitarte a cenar a mi casa: ¡hago pasta! Puedes traer también a Giorgia, si quiere. Dime si vienes, así preparo todo. Si prefieres, podemos ir también a una pizzería. No te preocupes por el vino: lo llevo yo.
+
+Un abrazo fuerte,
+Paolo
+claves: gentile=estimado; la ringrazio=le agradezco; in anticipo=de antemano; senti=oye; la lezione di prova=la clase de prueba; cordiali saluti=cordiales saludos
+p1: ¿Qué quiere saber Paolo en el primer correo? | quando comincia il corso e quanto costa | dove abita la dottoressa | se c'è una festa | a | «quando comincia e quanto costa».
+p2: ¿Cómo saluda en el correo formal? | Ciao Fede! | Gentile dottoressa Bianchi | Un abbraccio | b | «Gentile dottoressa Bianchi».
+p3: ¿Qué propone en el correo informal? | andare al cinema | fare una lezione | una cena a casa sua | c | «invitarti a cena da me».
+p4: ¿Qué cocinará Paolo? | la pasta / pasta | «faccio la pasta».

@@ -96,10 +96,9 @@ def build(t, errs):
     for rx, nm in ((REGIONAL, "chilenismo"), (VOSEO, "voseo")):
         mm = rx.search(alltxt)
         if mm: e(f"{nm}: «{mm.group(0)}»")
-    for s in it:
-        last = s.split("\n")[-1]
-        if not re.search(r"[.!?»:),€\d]$", last) and not last.isupper() and len(last.split()) > 3:
-            e(f"párrafo sin cierre: «{last[:40]}»")
+    last = it[-1].split("\n")[-1] if it else ""
+    if not re.search(r"[.!?»:),€\d]$|@\S+$|, [A-Z]\w+$", last) and not last.isupper() and len(last.split()) > 3:
+        e(f"el texto no termina bien: «{last[-40:]}»")
     return {"id": uid, "tipo": t.get("tipo"), "titulo": t.get("titulo"), "it": it, "es": es,
             "claves": claves, "preguntas": pre, "palabras": words}
 
