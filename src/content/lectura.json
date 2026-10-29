@@ -1,0 +1,1375 @@
+{
+ "u25": {
+  "tipo": "cartel y mensaje corto",
+  "titulo": "Benvenuti alla scuola di italiano",
+  "it": [
+   "BENVENUTI ALLA SCUOLA DI ITALIANO\nLezione uno: lunedì, ore nove. Aula tre.\nPortate una penna e un quaderno.\nSe non capite, dite: «Scusi, può ripetere?».\nSe non conoscete una parola, chiedete: «Come si dice?».",
+   "Messaggio di Marta, la maestra:\n«Ciao a tutti! Mi chiamo Marta. Il mio cognome è Rossi: erre, o, doppia esse, i. Parlo piano. A domani!»"
+  ],
+  "es": [
+   "BIENVENIDOS A LA ESCUELA DE ITALIANO\nLección uno: lunes, a las nueve. Sala tres.\nTraigan un lápiz y un cuaderno.\nSi no entienden, digan: «Disculpe, ¿puede repetir?».\nSi no conocen una palabra, pregunten: «¿Cómo se dice?».",
+   "Mensaje de Marta, la profesora:\n«¡Hola a todos! Me llamo Marta. Mi apellido es Rossi: erre, o, doble ese, i. Hablo despacio. ¡Hasta mañana!»"
+  ],
+  "claves": [
+   {
+    "it": "la lezione",
+    "es": "la clase"
+   },
+   {
+    "it": "l'aula",
+    "es": "la sala"
+   },
+   {
+    "it": "il quaderno",
+    "es": "el cuaderno"
+   },
+   {
+    "it": "ripetere",
+    "es": "repetir"
+   },
+   {
+    "it": "la parola",
+    "es": "la palabra"
+   },
+   {
+    "it": "il cognome",
+    "es": "el apellido"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿A qué hora es la lección uno?",
+    "options": [
+     "alle otto",
+     "alle nove",
+     "alle dieci"
+    ],
+    "answer": 1,
+    "why": "El cartel dice «ore nove»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué hay que llevar a clase?",
+    "options": [
+     "un libro",
+     "una borsa",
+     "una penna e un quaderno"
+    ],
+    "answer": 2,
+    "why": "«Portate una penna e un quaderno»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué se dice si no se entiende algo?",
+    "options": [
+     "Scusi, può ripetere?",
+     "Come si dice?",
+     "A domani!"
+    ],
+    "answer": 0,
+    "why": "Para pedir que repitan se usa «Scusi, può ripetere?»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuál es el apellido de la profesora?",
+    "accepted": [
+     "Rossi"
+    ],
+    "why": "El apellido es Rossi; Marta es su nombre."
+   }
+  ],
+  "palabras": 59
+ },
+ "u01": {
+  "tipo": "presentación escrita",
+  "titulo": "Mi presento",
+  "it": [
+   "Ciao! Mi chiamo Lucía e sono cilena. Sono di Santiago, ma adesso sono a Roma. Sono una studentessa. Ho venti anni.",
+   "Questo è il mio amico Paolo. Paolo è italiano, è di Napoli. Lui è simpatico e molto gentile. Oggi siamo insieme in un bar.",
+   "Paolo dice: «Piacere! Come stai?». Io rispondo: «Sto bene, grazie, e tu?». Poi lui dice: «Anche io sto bene. Sei stanca?». «No, non sono stanca. Sono contenta!»"
+  ],
+  "es": [
+   "¡Hola! Me llamo Lucía y soy chilena. Soy de Santiago, pero ahora estoy en Roma. Soy estudiante. Tengo veinte años.",
+   "Este es mi amigo Paolo. Paolo es italiano, es de Nápoles. Él es simpático y muy amable. Hoy estamos juntos en un bar.",
+   "Paolo dice: «¡Mucho gusto! ¿Cómo estás?». Yo respondo: «Estoy bien, gracias, ¿y tú?». Luego él dice: «Yo también estoy bien. ¿Estás cansada?». «No, no estoy cansada. ¡Estoy contenta!»"
+  ],
+  "claves": [
+   {
+    "it": "sono",
+    "es": "soy / estoy"
+   },
+   {
+    "it": "anche io",
+    "es": "yo también"
+   },
+   {
+    "it": "la studentessa",
+    "es": "la estudiante"
+   },
+   {
+    "it": "simpatico",
+    "es": "simpático"
+   },
+   {
+    "it": "gentile",
+    "es": "amable"
+   },
+   {
+    "it": "stanca",
+    "es": "cansada"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿De dónde es Lucía?",
+    "options": [
+     "di Roma",
+     "di Napoli",
+     "di Santiago"
+    ],
+    "answer": 2,
+    "why": "«Sono di Santiago»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Dónde está Lucía ahora?",
+    "options": [
+     "a Roma",
+     "a Santiago",
+     "a Napoli"
+    ],
+    "answer": 0,
+    "why": "«adesso sono a Roma»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cómo es Paolo?",
+    "options": [
+     "simpatico e gentile",
+     "stanco e triste",
+     "cileno"
+    ],
+    "answer": 0,
+    "why": "«Lui è simpatico e molto gentile»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuántos años tiene Lucía?",
+    "accepted": [
+     "venti",
+     "20"
+    ],
+    "why": "Lucía tiene veinte años."
+   }
+  ],
+  "palabras": 72
+ },
+ "u02#A": {
+  "tipo": "aviso de alojamiento",
+  "titulo": "Appartamento in affitto",
+  "it": [
+   "AFFITTASI APPARTAMENTO\nL'appartamento è al secondo piano di una casa vicino alla stazione. Ha una camera, un bagno, una cucina e un soggiorno. Nel soggiorno c'è un divano e ci sono due sedie. In cucina c'è un tavolo e c'è un frigorifero.",
+   "Ci sono due finestre grandi e un balcone. Il quartiere è tranquillo. Vicino all'appartamento ci sono un supermercato, una farmacia e un parco.",
+   "Non ci sono animali. Il prezzo è seicento euro al mese."
+  ],
+  "es": [
+   "SE ARRIENDA APARTAMENTO\nEl apartamento está en el segundo piso de una casa cerca de la estación. Tiene una habitación, un baño, una cocina y una sala. En la sala hay un sofá y hay dos sillas. En la cocina hay una mesa y hay un refrigerador.",
+   "Hay dos ventanas grandes y un balcón. El barrio es tranquilo. Cerca del apartamento hay un supermercado, una farmacia y un parque.",
+   "No se admiten animales. El precio es seiscientos euros al mes."
+  ],
+  "claves": [
+   {
+    "it": "affittasi",
+    "es": "se alquila"
+   },
+   {
+    "it": "il piano",
+    "es": "el piso"
+   },
+   {
+    "it": "la camera",
+    "es": "la habitación"
+   },
+   {
+    "it": "il soggiorno",
+    "es": "la sala"
+   },
+   {
+    "it": "il balcone",
+    "es": "el balcón"
+   },
+   {
+    "it": "il quartiere",
+    "es": "el barrio"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿En qué piso está el apartamento?",
+    "options": [
+     "al primo piano",
+     "al secondo piano",
+     "al terzo piano"
+    ],
+    "answer": 1,
+    "why": "«al secondo piano»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué hay en la sala?",
+    "options": [
+     "un tavolo",
+     "un letto",
+     "un divano e due sedie"
+    ],
+    "answer": 2,
+    "why": "«Nel soggiorno c'è un divano e ci sono due sedie»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué hay cerca del apartamento?",
+    "options": [
+     "un cinema",
+     "un supermercato, una farmacia e un parco",
+     "una scuola"
+    ],
+    "answer": 1,
+    "why": "Lista de lugares cercanos."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuánto cuesta al mes?",
+    "accepted": [
+     "600 euro",
+     "seicento"
+    ],
+    "why": "El texto dice «seicento euro al mese»."
+   }
+  ],
+  "palabras": 76
+ },
+ "u02#B": {
+  "tipo": "descripción de un barrio",
+  "titulo": "Il mio quartiere",
+  "it": [
+   "Abito in un quartiere piccolo ma bello. Nella piazza ci sono molti bar e due negozi. Il mercato è il sabato mattina: ci sono la frutta, la verdura e i fiori.",
+   "Vicino alla piazza c'è un parco. Nel parco ci sono i bambini, gli uomini e le donne con i cani. Sotto gli alberi ci sono delle panchine.",
+   "Dietro la chiesa c'è la scuola. Davanti alla scuola ci sono due biciclette. Fuori dal quartiere c'è la stazione: è lontana, ma c'è un autobus.",
+   "Mi piace molto il mio quartiere. Mi piacciono i bar e il parco."
+  ],
+  "es": [
+   "Vivo en un barrio pequeño pero bonito. En la plaza hay muchos bares y dos tiendas. El mercado es el sábado en la mañana: hay fruta, verdura y flores.",
+   "Cerca de la plaza hay un parque. En el parque hay niños, hombres y mujeres con perros. Bajo los árboles hay unas bancas.",
+   "Detrás de la iglesia está la escuela. Delante de la escuela hay dos bicicletas. Fuera del barrio está la estación: está lejos, pero hay un bus.",
+   "Me gusta mucho mi barrio. Me gustan los bares y el parque."
+  ],
+  "claves": [
+   {
+    "it": "il mercato",
+    "es": "el mercado"
+   },
+   {
+    "it": "la panchina",
+    "es": "la banca"
+   },
+   {
+    "it": "dietro",
+    "es": "detrás de"
+   },
+   {
+    "it": "davanti a",
+    "es": "delante de"
+   },
+   {
+    "it": "fuori da",
+    "es": "fuera de"
+   },
+   {
+    "it": "lontana",
+    "es": "lejos"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Cuándo es el mercado?",
+    "options": [
+     "il sabato mattina",
+     "la domenica",
+     "il lunedì sera"
+    ],
+    "answer": 0,
+    "why": "«Il mercato è il sabato mattina»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué hay detrás de la iglesia?",
+    "options": [
+     "la scuola",
+     "la stazione",
+     "il parco"
+    ],
+    "answer": 0,
+    "why": "«Dietro la chiesa c'è la scuola»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cómo se llega a la estación?",
+    "options": [
+     "a piedi, è vicina",
+     "con l'autobus, è lontana",
+     "in bicicletta"
+    ],
+    "answer": 1,
+    "why": "La estación es lejana, pero hay un autobús."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué le gusta del barrio a la persona?",
+    "accepted": [
+     "i bar e il parco",
+     "il parco",
+     "i bar"
+    ],
+    "why": "«Mi piacciono i bar e il parco»."
+   }
+  ],
+  "palabras": 96
+ },
+ "u03#A": {
+  "tipo": "horario de tren",
+  "titulo": "Orario dei treni",
+  "it": [
+   "STAZIONE DI FIRENZE — Treni per Roma\nTreno 1: parte alle 6.45, arriva alle 8.50. Binario 3.\nTreno 2: parte alle 9.15, arriva alle 11.30. Binario 5.\nTreno 3: parte alle 12.30, arriva alle 14.40. Binario 3.\nTreno 4: parte alle 18.00, arriva alle 20.10. Binario 2.",
+   "Il biglietto costa trenta euro. Il treno delle 9.15 è un po' più veloce. Il treno delle 18.00 è l'ultimo.",
+   "Attenzione: il treno delle 12.30 ha dieci minuti di ritardo."
+  ],
+  "es": [
+   "ESTACIÓN DE FLORENCIA — Trenes a Roma\nTren 1: sale a las 6.45, llega a las 8.50. Andén 3.\nTren 2: sale a las 9.15, llega a las 11.30. Andén 5.\nTren 3: sale a las 12.30, llega a las 14.40. Andén 3.\nTren 4: sale a las 18.00, llega a las 20.10. Andén 2.",
+   "El boleto cuesta treinta euros. El tren de las 9.15 es un poco más rápido. El tren de las 18.00 es el último.",
+   "Atención: el tren de las 12.30 tiene diez minutos de atraso."
+  ],
+  "claves": [
+   {
+    "it": "parte",
+    "es": "sale"
+   },
+   {
+    "it": "arriva",
+    "es": "llega"
+   },
+   {
+    "it": "il binario",
+    "es": "el andén"
+   },
+   {
+    "it": "il biglietto",
+    "es": "el boleto"
+   },
+   {
+    "it": "l'ultimo",
+    "es": "el último"
+   },
+   {
+    "it": "il ritardo",
+    "es": "el atraso"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿A qué hora sale el primer tren?",
+    "options": [
+     "alle 6.45",
+     "alle 9.15",
+     "alle 12.30"
+    ],
+    "answer": 0,
+    "why": "«Treno 1: parte alle 6.45»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿En qué andén sale el tren de las 9.15?",
+    "options": [
+     "binario 2",
+     "binario 3",
+     "binario 5"
+    ],
+    "answer": 2,
+    "why": "«Treno 2... Binario 5»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuál es el último tren?",
+    "options": [
+     "il treno delle 12.30",
+     "il treno delle 6.45",
+     "il treno delle 18.00"
+    ],
+    "answer": 2,
+    "why": "«Il treno delle 18.00 è l'ultimo»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuánto cuesta el boleto?",
+    "accepted": [
+     "trenta euro",
+     "30 euro"
+    ],
+    "why": "«Il biglietto costa trenta euro»."
+   }
+  ],
+  "palabras": 57
+ },
+ "u03#B": {
+  "tipo": "ticket y menú de precios",
+  "titulo": "Al bar",
+  "it": [
+   "BAR CENTRALE — oggi è venerdì 14 marzo\nCaffè: 1,20 €\nCappuccino: 1,50 €\nCornetto: 1,30 €\nPanino con prosciutto: 4,50 €\nAcqua: 1 €\nSucco d'arancia: 3 €",
+   "Scontrino numero 128\nUn cappuccino 1,50\nUn cornetto 1,30\nTotale: 2,80 €\nPagato: 5 €. Resto: 2,20 €\nData: 14/03, ore 8.15.",
+   "Oggi Marco è al bar. Prende un cappuccino e un cornetto. Paga con cinque euro e il cameriere dà il resto.",
+   "Il bar apre alle sei e chiude alle venti."
+  ],
+  "es": [
+   "BAR CENTRALE — hoy es viernes 14 de marzo\nCafé: 1,20 €\nCapuchino: 1,50 €\nCroissant: 1,30 €\nSándwich con jamón: 4,50 €\nAgua: 1 €\nJugo de naranja: 3 €",
+   "Ticket número 128\nUn capuchino 1,50\nUn croissant 1,30\nTotal: 2,80 €\nPagado: 5 €. Cambio: 2,20 €\nFecha: 14/03, 8.15 horas.",
+   "Hoy Marco está en el bar. Toma un capuchino y un croissant. Paga con cinco euros y el camarero da el cambio.",
+   "El bar abre a las seis y cierra a las veinte."
+  ],
+  "claves": [
+   {
+    "it": "lo scontrino",
+    "es": "el ticket"
+   },
+   {
+    "it": "il totale",
+    "es": "el total"
+   },
+   {
+    "it": "il resto",
+    "es": "el cambio"
+   },
+   {
+    "it": "pagato",
+    "es": "pagado"
+   },
+   {
+    "it": "apre",
+    "es": "abre"
+   },
+   {
+    "it": "chiude",
+    "es": "cierra"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Cuánto cuesta un cornetto?",
+    "options": [
+     "1,20 €",
+     "1,30 €",
+     "1,50 €"
+    ],
+    "answer": 1,
+    "why": "«Cornetto: 1,30 €»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué se compró según el ticket?",
+    "options": [
+     "un caffè e un panino",
+     "un succo e un'acqua",
+     "un cappuccino e un cornetto"
+    ],
+    "answer": 2,
+    "why": "Cappuccino 1,50 y cornetto 1,30."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuánto fue el cambio (il resto)?",
+    "options": [
+     "2,20 €",
+     "2,80 €",
+     "5 €"
+    ],
+    "answer": 0,
+    "why": "5 − 2,80 = 2,20."
+   },
+   {
+    "kind": "short",
+    "q": "¿A qué hora cierra el bar?",
+    "accepted": [
+     "alle venti",
+     "alle 20"
+    ],
+    "why": "«chiude alle venti»."
+   }
+  ],
+  "palabras": 56
+ },
+ "u04": {
+  "tipo": "menú de bar",
+  "titulo": "Una mattina al bar",
+  "it": [
+   "Sono le otto. Giulia entra in un bar vicino all'ufficio. Il cameriere dice: «Buongiorno! Che cosa desidera?».",
+   "Giulia: «Buongiorno. Vorrei un cappuccino e un cornetto, per favore».\nIl cameriere: «Subito! Vuole anche un'acqua?».\nGiulia: «No, grazie. Posso pagare con la carta?».\nIl cameriere: «Sì, certo».",
+   "Poi Giulia deve lavorare. Non può restare molto al bar. Mangia il cornetto e beve il cappuccino in dieci minuti. Dice: «Il conto, per favore!». Il cameriere risponde: «Sono due euro e ottanta».",
+   "Giulia vuole tornare domani: il cappuccino è buonissimo."
+  ],
+  "es": [
+   "Son las ocho. Giulia entra a un bar cerca de la oficina. El camarero dice: «¡Buenos días! ¿Qué desea?».",
+   "Giulia: «Buenos días. Quisiera un capuchino y un croissant, por favor».\nEl camarero: «¡Enseguida! ¿Quiere también un agua?».\nGiulia: «No, gracias. ¿Puedo pagar con tarjeta?».\nEl camarero: «Sí, claro».",
+   "Después Giulia tiene que trabajar. No puede quedarse mucho en el bar. Come el croissant y toma el capuchino en diez minutos. Dice: «¡La cuenta, por favor!». El camarero responde: «Son dos euros con ochenta».",
+   "Giulia quiere volver mañana: el capuchino está buenísimo."
+  ],
+  "claves": [
+   {
+    "it": "vorrei",
+    "es": "quisiera"
+   },
+   {
+    "it": "subito",
+    "es": "enseguida"
+   },
+   {
+    "it": "la carta",
+    "es": "la tarjeta"
+   },
+   {
+    "it": "il conto",
+    "es": "la cuenta"
+   },
+   {
+    "it": "deve",
+    "es": "tiene que"
+   },
+   {
+    "it": "buonissimo",
+    "es": "buenísimo"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué pide Giulia?",
+    "options": [
+     "un cappuccino e un cornetto",
+     "un caffè",
+     "un panino"
+    ],
+    "answer": 0,
+    "why": "«Vorrei un cappuccino e un cornetto»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cómo quiere pagar?",
+    "options": [
+     "in contanti",
+     "con la carta",
+     "non paga"
+    ],
+    "answer": 1,
+    "why": "«Posso pagare con la carta?»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Por qué no se queda mucho en el bar?",
+    "options": [
+     "è stanca",
+     "il bar chiude",
+     "deve lavorare"
+    ],
+    "answer": 2,
+    "why": "«Deve lavorare»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuánto paga?",
+    "accepted": [
+     "due euro e ottanta",
+     "2,80"
+    ],
+    "why": "«Sono due euro e ottanta»."
+   }
+  ],
+  "palabras": 86
+ },
+ "u05#A": {
+  "tipo": "indicaciones",
+  "titulo": "Come arrivare in piazza",
+  "it": [
+   "Per arrivare alla piazza dalla stazione, segui queste indicazioni.",
+   "Esci dalla stazione e vai sempre dritto per cento metri. Al semaforo gira a destra. Poi attraversa la strada e continua fino alla farmacia. Dopo la farmacia prendi la prima strada a sinistra.",
+   "La piazza è in fondo alla strada, di fronte alla chiesa. Il museo è accanto alla chiesa. È aperto dalle nove alle cinque.",
+   "Se non trovi la strada, chiedi: «Scusi, dov'è la piazza?». Di solito le persone sono gentili e rispondono con piacere. A piedi ci vogliono dieci minuti."
+  ],
+  "es": [
+   "Para llegar a la plaza desde la estación, sigue estas indicaciones.",
+   "Sal de la estación y ve siempre derecho cien metros. En el semáforo gira a la derecha. Luego cruza la calle y sigue hasta la farmacia. Después de la farmacia toma la primera calle a la izquierda.",
+   "La plaza está al final de la calle, frente a la iglesia. El museo está al lado de la iglesia. Está abierto de nueve a cinco.",
+   "Si no encuentras la calle, pregunta: «Disculpe, ¿dónde está la plaza?». Por lo general las personas son amables y responden con gusto. A pie se demoran diez minutos."
+  ],
+  "claves": [
+   {
+    "it": "dritto",
+    "es": "derecho"
+   },
+   {
+    "it": "il semaforo",
+    "es": "el semáforo"
+   },
+   {
+    "it": "girare",
+    "es": "girar"
+   },
+   {
+    "it": "accanto a",
+    "es": "al lado de"
+   },
+   {
+    "it": "di fronte a",
+    "es": "frente a"
+   },
+   {
+    "it": "in fondo a",
+    "es": "al final de"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué hay que hacer en el semáforo?",
+    "options": [
+     "girare a sinistra",
+     "andare dritto",
+     "girare a destra"
+    ],
+    "answer": 2,
+    "why": "«Al semaforo gira a destra»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Dónde está el museo?",
+    "options": [
+     "accanto alla chiesa",
+     "in stazione",
+     "dopo la farmacia"
+    ],
+    "answer": 0,
+    "why": "«Il museo è accanto alla chiesa»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuánto se demora a pie?",
+    "options": [
+     "cinque minuti",
+     "dieci minuti",
+     "un'ora"
+    ],
+    "answer": 1,
+    "why": "«A piedi ci vogliono dieci minuti»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué se pregunta si no se encuentra la calle?",
+    "accepted": [
+     "scusi, dov'è la piazza",
+     "dov'è la piazza"
+    ],
+    "why": "Es la frase que sugiere el texto."
+   }
+  ],
+  "palabras": 91
+ },
+ "u05#B": {
+  "tipo": "señalización y aviso",
+  "titulo": "Avvisi in città",
+  "it": [
+   "AVVISI\nBiblioteca comunale: aperta dal lunedì al venerdì, dalle 9 alle 18. Il sabato è aperta solo la mattina. La domenica è chiusa.",
+   "VIETATO FUMARE nel parco.\nVIETATO ENTRARE con la bicicletta.\nUSCITA a destra. ENTRATA a sinistra.",
+   "Attenzione: oggi la farmacia è chiusa per lavori. La farmacia più vicina è in via Garibaldi, a duecento metri da qui. Vai dritto, poi gira a sinistra.",
+   "Per informazioni chiedi all'ufficio turistico, in piazza, accanto al museo. Le persone che lavorano lì parlano anche inglese e sono molto gentili."
+  ],
+  "es": [
+   "AVISOS\nBiblioteca municipal: abierta de lunes a viernes, de 9 a 18. El sábado está abierta solo en la mañana. El domingo está cerrada.",
+   "PROHIBIDO FUMAR en el parque.\nPROHIBIDO ENTRAR con bicicleta.\nSALIDA a la derecha. ENTRADA a la izquierda.",
+   "Atención: hoy la farmacia está cerrada por obras. La farmacia más cercana está en calle Garibaldi, a doscientos metros de aquí. Ve derecho, luego gira a la izquierda.",
+   "Para información pregunta en la oficina de turismo, en la plaza, al lado del museo. Las personas que trabajan allí hablan también inglés y son muy amables."
+  ],
+  "claves": [
+   {
+    "it": "vietato",
+    "es": "prohibido"
+   },
+   {
+    "it": "aperta",
+    "es": "abierta"
+   },
+   {
+    "it": "chiusa",
+    "es": "cerrada"
+   },
+   {
+    "it": "l'uscita",
+    "es": "la salida"
+   },
+   {
+    "it": "l'entrata",
+    "es": "la entrada"
+   },
+   {
+    "it": "i lavori",
+    "es": "las obras"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Cuándo está cerrada la biblioteca?",
+    "options": [
+     "il sabato",
+     "la domenica",
+     "il venerdì"
+    ],
+    "answer": 1,
+    "why": "«La domenica è chiusa»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué está prohibido en el parque?",
+    "options": [
+     "fumare",
+     "mangiare",
+     "giocare"
+    ],
+    "answer": 0,
+    "why": "«Vietato fumare nel parco»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Por qué está cerrada la farmacia hoy?",
+    "options": [
+     "per lavori",
+     "per una festa",
+     "è domenica"
+    ],
+    "answer": 0,
+    "why": "«chiusa per lavori»."
+   },
+   {
+    "kind": "short",
+    "q": "¿A cuántos metros está la farmacia más cercana?",
+    "accepted": [
+     "duecento",
+     "200"
+    ],
+    "why": "«a duecento metri da qui»."
+   }
+  ],
+  "palabras": 85
+ },
+ "u06#A": {
+  "tipo": "etiqueta de producto",
+  "titulo": "Etichetta di un prodotto",
+  "it": [
+   "OLIO EXTRA VERGINE DI OLIVA\nProdotto in Italia, in Toscana.\nContenuto: un litro.\nPrezzo: otto euro e cinquanta.\nDa consumare entro dicembre.\nConservare in un posto fresco, lontano dalla luce.",
+   "È un olio buono e leggero, con un sapore deciso. È ottimo sull'insalata, sulla pasta e sul pane. Non è adatto per friggere. Una bottiglia basta per un mese, per una famiglia di quattro persone.",
+   "Famiglia Bianchi: «Compriamo questo olio da molti anni. Costa un po' di più, ma è fresco e buono. Per noi è il migliore!»"
+  ],
+  "es": [
+   "ACEITE DE OLIVA EXTRA VIRGEN\nProducido en Italia, en la Toscana.\nContenido: un litro.\nPrecio: ocho euros con cincuenta.\nConsumir antes de diciembre.\nConservar en un lugar fresco, lejos de la luz.",
+   "Es un aceite bueno y ligero, de sabor intenso. Es excelente en la ensalada, en la pasta y en el pan. No es apto para freír. Una botella alcanza para un mes, para una familia de cuatro personas.",
+   "Familia Bianchi: «Compramos este aceite desde hace muchos años. Cuesta un poco más, pero es fresco y bueno. ¡Para nosotros es el mejor!»"
+  ],
+  "claves": [
+   {
+    "it": "l'olio",
+    "es": "el aceite"
+   },
+   {
+    "it": "il sapore",
+    "es": "el sabor"
+   },
+   {
+    "it": "fresco",
+    "es": "fresco"
+   },
+   {
+    "it": "entro",
+    "es": "antes de / hasta"
+   },
+   {
+    "it": "il litro",
+    "es": "el litro"
+   },
+   {
+    "it": "friggere",
+    "es": "freír"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Dónde se produce el aceite?",
+    "options": [
+     "in Sicilia",
+     "in Toscana",
+     "in Spagna"
+    ],
+    "answer": 1,
+    "why": "«Prodotto in Italia, in Toscana»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cómo se debe conservar?",
+    "options": [
+     "in frigorifero",
+     "al sole",
+     "in un posto fresco"
+    ],
+    "answer": 2,
+    "why": "«in un posto fresco, lontano dalla luce»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Para qué no sirve este aceite?",
+    "options": [
+     "per l'insalata",
+     "per friggere",
+     "per il pane"
+    ],
+    "answer": 1,
+    "why": "«Non è adatto per friggere»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuánto cuesta el aceite?",
+    "accepted": [
+     "otto euro e cinquanta",
+     "8,50"
+    ],
+    "why": "«otto euro e cinquanta»."
+   }
+  ],
+  "palabras": 88
+ },
+ "u06#B": {
+  "tipo": "anuncio de tienda",
+  "titulo": "Offerte della settimana",
+  "it": [
+   "SUPERMERCATO VERDE — OFFERTE DELLA SETTIMANA",
+   "Pasta: 1 € al chilo.\nPomodori: 2 € al chilo.\nMele: 1,80 € al chilo.\nFormaggio: 12 € al chilo.\nPane fresco: 2 € al chilo.",
+   "Oggi comprate due chili di mele e il terzo chilo è gratis!",
+   "Il supermercato è aperto tutti i giorni dalle 8 alle 20, anche la domenica. Se avete la carta del negozio, pagate meno. Potete pagare in contanti o con la carta di credito.",
+   "Venite a trovarci: vi aspettiamo con tante cose buone! Se non trovate qualcosa, chiedete alla signora alla cassa: è sempre pronta ad aiutarvi."
+  ],
+  "es": [
+   "SUPERMERCADO VERDE — OFERTAS DE LA SEMANA",
+   "Pasta: 1 € el kilo.\nTomates: 2 € el kilo.\nManzanas: 1,80 € el kilo.\nQueso: 12 € el kilo.\nPan fresco: 2 € el kilo.",
+   "¡Hoy compren dos kilos de manzanas y el tercer kilo es gratis!",
+   "El supermercado está abierto todos los días de 8 a 20, también el domingo. Si tienen la tarjeta de la tienda, pagan menos. Pueden pagar en efectivo o con tarjeta de crédito.",
+   "Vengan a visitarnos: ¡los esperamos con muchas cosas buenas! Si no encuentran algo, pregunten a la señora de la caja: siempre está lista para ayudarlos."
+  ],
+  "claves": [
+   {
+    "it": "le offerte",
+    "es": "las ofertas"
+   },
+   {
+    "it": "il chilo",
+    "es": "el kilo"
+   },
+   {
+    "it": "gratis",
+    "es": "gratis"
+   },
+   {
+    "it": "il formaggio",
+    "es": "el queso"
+   },
+   {
+    "it": "in contanti",
+    "es": "en efectivo"
+   },
+   {
+    "it": "tutti i giorni",
+    "es": "todos los días"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Cuánto cuestan los tomates al kilo?",
+    "options": [
+     "1 €",
+     "2 €",
+     "1,80 €"
+    ],
+    "answer": 1,
+    "why": "«Pomodori: 2 € al chilo»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué es gratis si compras dos kilos de manzanas?",
+    "options": [
+     "il pane",
+     "il formaggio",
+     "il terzo chilo"
+    ],
+    "answer": 2,
+    "why": "«il terzo chilo è gratis»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuándo está abierto el supermercado?",
+    "options": [
+     "tutti i giorni, anche la domenica",
+     "solo il sabato",
+     "non la domenica"
+    ],
+    "answer": 0,
+    "why": "«tutti i giorni... anche la domenica»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cómo se puede pagar?",
+    "accepted": [
+     "in contanti",
+     "con la carta",
+     "in contanti o con la carta"
+    ],
+    "why": "«in contanti o con la carta di credito»."
+   }
+  ],
+  "palabras": 86
+ },
+ "u26": {
+  "tipo": "descripción de una persona",
+  "titulo": "La mia famiglia",
+  "it": [
+   "Mi chiamo Sara e ho trentadue anni. Sono alta e magra, ho i capelli lunghi e castani e gli occhi verdi. Sono una persona simpatica e un po' timida.",
+   "Mio marito si chiama Luca. Lui è alto, ha i capelli corti e neri ed è molto sportivo. Ha trentacinque anni e lavora in un ospedale. È un uomo allegro e generoso.",
+   "Abbiamo una figlia, Anna. Ha cinque anni ed è bionda come suo nonno. Anna è vivace e curiosa: fa molte domande. Il suo colore preferito è il giallo.",
+   "Mia madre abita vicino a noi. Ha sessant'anni, è dolce e paziente. Ogni domenica mangiamo tutti insieme a casa sua."
+  ],
+  "es": [
+   "Me llamo Sara y tengo treinta y dos años. Soy alta y delgada, tengo el pelo largo y castaño y los ojos verdes. Soy una persona simpática y un poco tímida.",
+   "Mi marido se llama Luca. Él es alto, tiene el pelo corto y negro y es muy deportista. Tiene treinta y cinco años y trabaja en un hospital. Es un hombre alegre y generoso.",
+   "Tenemos una hija, Anna. Tiene cinco años y es rubia como su abuelo. Anna es vivaz y curiosa: hace muchas preguntas. Su color favorito es el amarillo.",
+   "Mi madre vive cerca de nosotros. Tiene sesenta años, es dulce y paciente. Todos los domingos comemos juntos en su casa."
+  ],
+  "claves": [
+   {
+    "it": "i capelli",
+    "es": "el pelo"
+   },
+   {
+    "it": "gli occhi",
+    "es": "los ojos"
+   },
+   {
+    "it": "timida",
+    "es": "tímida"
+   },
+   {
+    "it": "biondo",
+    "es": "rubio"
+   },
+   {
+    "it": "vivace",
+    "es": "vivaz"
+   },
+   {
+    "it": "paziente",
+    "es": "paciente"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Cómo tiene el pelo Sara?",
+    "options": [
+     "corti e neri",
+     "lunghi e castani",
+     "biondi"
+    ],
+    "answer": 1,
+    "why": "«capelli lunghi e castani»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Dónde trabaja Luca?",
+    "options": [
+     "in una scuola",
+     "in un ospedale",
+     "in un bar"
+    ],
+    "answer": 1,
+    "why": "«lavora in un ospedale»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cómo es Anna?",
+    "options": [
+     "timida",
+     "triste",
+     "vivace e curiosa"
+    ],
+    "answer": 2,
+    "why": "«Anna è vivace e curiosa»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuándo comen todos juntos en casa de la madre?",
+    "accepted": [
+     "ogni domenica",
+     "la domenica"
+    ],
+    "why": "«Ogni domenica mangiamo tutti insieme»."
+   }
+  ],
+  "palabras": 109
+ },
+ "u07#A": {
+  "tipo": "día de una persona",
+  "titulo": "La giornata di Marco",
+  "it": [
+   "Marco si sveglia alle sette e si alza subito. Si lava, si veste e fa colazione con un caffè e un biscotto. Alle otto esce di casa e prende l'autobus per andare in ufficio.",
+   "Lavora dalle nove alle cinque. A mezzogiorno mangia un panino con i colleghi. Il pomeriggio ha molte riunioni, ma a volte ha anche un po' di tempo per parlare con gli amici.",
+   "Dopo il lavoro torna a casa. Alle sette cucina la cena: di solito fa la pasta. Poi guarda la televisione o legge un libro. Va a letto verso le undici. Il sabato, invece, si sveglia tardi e va al mercato."
+  ],
+  "es": [
+   "Marco se despierta a las siete y se levanta enseguida. Se lava, se viste y toma desayuno con un café y una galleta. A las ocho sale de casa y toma el bus para ir a la oficina.",
+   "Trabaja de nueve a cinco. Al mediodía come un sándwich con los colegas. En la tarde tiene muchas reuniones, pero a veces también tiene un poco de tiempo para conversar con los amigos.",
+   "Después del trabajo vuelve a casa. A las siete cocina la cena: por lo general hace pasta. Luego ve televisión o lee un libro. Se acuesta como a las once. El sábado, en cambio, se despierta tarde y va al mercado."
+  ],
+  "claves": [
+   {
+    "it": "svegliarsi",
+    "es": "despertarse"
+   },
+   {
+    "it": "alzarsi",
+    "es": "levantarse"
+   },
+   {
+    "it": "vestirsi",
+    "es": "vestirse"
+   },
+   {
+    "it": "la colazione",
+    "es": "el desayuno"
+   },
+   {
+    "it": "la riunione",
+    "es": "la reunión"
+   },
+   {
+    "it": "la cena",
+    "es": "la cena"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿A qué hora se despierta Marco?",
+    "options": [
+     "alle sette",
+     "alle otto",
+     "alle nove"
+    ],
+    "answer": 0,
+    "why": "«si sveglia alle sette»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cómo va a la oficina?",
+    "options": [
+     "in macchina",
+     "a piedi",
+     "con l'autobus"
+    ],
+    "answer": 2,
+    "why": "«prende l'autobus»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué hace Marco después de la cena?",
+    "options": [
+     "va in palestra",
+     "guarda la televisione o legge",
+     "esce con gli amici"
+    ],
+    "answer": 1,
+    "why": "«guarda la televisione o legge un libro»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué hace el sábado?",
+    "accepted": [
+     "va al mercato",
+     "si sveglia tardi e va al mercato"
+    ],
+    "why": "«va al mercato»."
+   }
+  ],
+  "palabras": 106
+ },
+ "u07#B": {
+  "tipo": "mensaje «qué estás haciendo»",
+  "titulo": "Messaggi con un'amica",
+  "it": [
+   "Giulia: Ciao Anna! Cosa stai facendo?\nAnna: Ciao! Sto cucinando una torta per il compleanno di mia madre. E tu?\nGiulia: Io sto aspettando l'autobus. Sono in ritardo!\nAnna: Dove stai andando?\nGiulia: Sto andando in biblioteca. Devo studiare per l'esame.\nAnna: Non stai lavorando oggi?\nGiulia: No, oggi è sabato. Lavoro dal lunedì al venerdì.\nAnna: Ah, certo! Allora vieni da me stasera? Sto invitando anche Paolo.\nGiulia: Volentieri! Che cosa porto?\nAnna: Porta solo il vino. La torta è già pronta.\nGiulia: Perfetto, a stasera!"
+  ],
+  "es": [
+   "Giulia: ¡Hola Anna! ¿Qué estás haciendo?\nAnna: ¡Hola! Estoy cocinando una torta para el cumpleaños de mi madre. ¿Y tú?\nGiulia: Yo estoy esperando el bus. ¡Voy atrasada!\nAnna: ¿Adónde vas?\nGiulia: Voy a la biblioteca. Tengo que estudiar para el examen.\nAnna: ¿No estás trabajando hoy?\nGiulia: No, hoy es sábado. Trabajo de lunes a viernes.\nAnna: ¡Ah, claro! Entonces, ¿vienes a mi casa esta noche? También estoy invitando a Paolo.\nGiulia: ¡Con gusto! ¿Qué llevo?\nAnna: Lleva solo el vino. La torta ya está lista.\nGiulia: Perfecto, ¡hasta esta noche!"
+  ],
+  "claves": [
+   {
+    "it": "sto cucinando",
+    "es": "estoy cocinando"
+   },
+   {
+    "it": "aspettare",
+    "es": "esperar"
+   },
+   {
+    "it": "in ritardo",
+    "es": "atrasada"
+   },
+   {
+    "it": "l'esame",
+    "es": "el examen"
+   },
+   {
+    "it": "volentieri",
+    "es": "con gusto"
+   },
+   {
+    "it": "invitare",
+    "es": "invitar"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué está haciendo Anna?",
+    "options": [
+     "studia",
+     "cucina una torta",
+     "aspetta l'autobus"
+    ],
+    "answer": 1,
+    "why": "«Sto cucinando una torta»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Por qué va Giulia a la biblioteca?",
+    "options": [
+     "per studiare",
+     "per lavorare",
+     "per incontrare Paolo"
+    ],
+    "answer": 0,
+    "why": "«Devo studiare per l'esame»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Por qué Giulia no trabaja hoy?",
+    "options": [
+     "è in ritardo",
+     "è malata",
+     "è sabato"
+    ],
+    "answer": 2,
+    "why": "«oggi è sabato»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué debe llevar Giulia?",
+    "accepted": [
+     "il vino",
+     "solo il vino"
+    ],
+    "why": "«Porta solo il vino»."
+   }
+  ],
+  "palabras": 87
+ },
+ "u08": {
+  "tipo": "entrevista corta",
+  "titulo": "Un'intervista",
+  "it": [
+   "La giornalista intervista Carlo, un cuoco di Bologna.",
+   "— Carlo, da quanto tempo lavori in cucina?\n— Lavoro in cucina da quindici anni. Ho iniziato quando avevo vent'anni.\n— Che cosa ti piace di più del tuo lavoro?\n— Mi piace inventare piatti nuovi. Ma è anche un lavoro faticoso: stiamo in piedi molte ore.\n— Che cosa hai fatto ieri?\n— Ieri sono andato al mercato molto presto. Ho comprato il pesce e la verdura. Poi ho preparato il menù e ho cucinato per cinquanta persone.\n— E domani?\n— Domani sono libero! Vado al mare con i miei figli.\n— Grazie, Carlo, e buon riposo!"
+  ],
+  "es": [
+   "La periodista entrevista a Carlo, un cocinero de Bolonia.",
+   "— Carlo, ¿desde hace cuánto trabajas en la cocina?\n— Trabajo en la cocina desde hace quince años. Empecé cuando tenía veinte años.\n— ¿Qué es lo que más te gusta de tu trabajo?\n— Me gusta inventar platos nuevos. Pero también es un trabajo agotador: estamos de pie muchas horas.\n— ¿Qué hiciste ayer?\n— Ayer fui al mercado muy temprano. Compré el pescado y la verdura. Luego preparé el menú y cociné para cincuenta personas.\n— ¿Y mañana?\n— ¡Mañana estoy libre! Voy a la playa con mis hijos.\n— Gracias, Carlo, ¡y que descanses!"
+  ],
+  "claves": [
+   {
+    "it": "il cuoco",
+    "es": "el cocinero"
+   },
+   {
+    "it": "faticoso",
+    "es": "agotador"
+   },
+   {
+    "it": "inventare",
+    "es": "inventar"
+   },
+   {
+    "it": "il pesce",
+    "es": "el pescado"
+   },
+   {
+    "it": "ho comprato",
+    "es": "compré"
+   },
+   {
+    "it": "libero",
+    "es": "libre"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Desde hace cuánto trabaja Carlo en la cocina?",
+    "options": [
+     "da quindici anni",
+     "da cinque anni",
+     "da venti anni"
+    ],
+    "answer": 0,
+    "why": "«da quindici anni»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué le gusta más de su trabajo?",
+    "options": [
+     "andare al mercato",
+     "inventare piatti nuovi",
+     "lavorare la domenica"
+    ],
+    "answer": 1,
+    "why": "«Mi piace inventare piatti nuovi»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Para cuántas personas cocinó ayer?",
+    "options": [
+     "per venti",
+     "per quindici",
+     "per cinquanta"
+    ],
+    "answer": 2,
+    "why": "«per cinquanta persone»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué hará mañana?",
+    "accepted": [
+     "va al mare con i figli",
+     "andrà al mare con i suoi figli"
+    ],
+    "why": "«Domani... Vado al mare con i miei figli»."
+   }
+  ],
+  "palabras": 98
+ },
+ "u27": {
+  "tipo": "pronóstico del tiempo",
+  "titulo": "Che tempo fa?",
+  "it": [
+   "PREVISIONI DEL TEMPO PER DOMANI",
+   "Al nord: la mattina c'è nebbia e fa freddo, la temperatura è di tre gradi. Nel pomeriggio c'è il sole, ma resta fresco. In montagna nevica.",
+   "Al centro: il cielo è nuvoloso. Verso sera piove. A Roma ci sono dodici gradi.",
+   "Al sud: fa bel tempo e c'è molto sole. A Napoli ci sono diciotto gradi. Il mare è calmo.",
+   "Consiglio: al nord porta un cappotto e una sciarpa; al centro porta l'ombrello; al sud puoi mettere una maglietta leggera. Buona giornata e buon viaggio!"
+  ],
+  "es": [
+   "PRONÓSTICO DEL TIEMPO PARA MAÑANA",
+   "En el norte: en la mañana hay neblina y hace frío, la temperatura es de tres grados. En la tarde hay sol, pero sigue fresco. En la montaña nieva.",
+   "En el centro: el cielo está nublado. Hacia la noche llueve. En Roma hay doce grados.",
+   "En el sur: hace buen tiempo y hay mucho sol. En Nápoles hay dieciocho grados. El mar está calmo.",
+   "Consejo: en el norte lleva un abrigo y una bufanda; en el centro lleva el paraguas; en el sur puedes ponerte una polera ligera. ¡Buen día y buen viaje!"
+  ],
+  "claves": [
+   {
+    "it": "la nebbia",
+    "es": "la neblina"
+   },
+   {
+    "it": "nevicare",
+    "es": "nevicar"
+   },
+   {
+    "it": "nuvoloso",
+    "es": "nublado"
+   },
+   {
+    "it": "piove",
+    "es": "llueve"
+   },
+   {
+    "it": "l'ombrello",
+    "es": "el paraguas"
+   },
+   {
+    "it": "la sciarpa",
+    "es": "la bufanda"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué tiempo hace en el norte por la mañana?",
+    "options": [
+     "sole e caldo",
+     "nebbia e freddo",
+     "pioggia"
+    ],
+    "answer": 1,
+    "why": "«c'è nebbia e fa freddo»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuándo llueve en el centro?",
+    "options": [
+     "verso sera",
+     "al mattino",
+     "tutto il giorno"
+    ],
+    "answer": 0,
+    "why": "«Verso sera piove»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué se aconseja llevar al centro?",
+    "options": [
+     "il cappotto",
+     "la maglietta",
+     "l'ombrello"
+    ],
+    "answer": 2,
+    "why": "«al centro porta l'ombrello»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuántos grados hay en Nápoles?",
+    "accepted": [
+     "diciotto",
+     "18"
+    ],
+    "why": "«A Napoli ci sono diciotto gradi»."
+   }
+  ],
+  "palabras": 90
+ }
+}

@@ -1,0 +1,196 @@
+## u25
+tipo: cartel y mensaje corto
+titulo: Benvenuti alla scuola di italiano
+testo:
+BENVENUTI ALLA SCUOLA DI ITALIANO
+Lezione uno: lunedì, ore nove. Aula tre.
+Portate una penna e un quaderno.
+Se non capite, dite: «Scusi, può ripetere?».
+Se non conoscete una parola, chiedete: «Come si dice?».
+
+Messaggio di Marta, la maestra:
+«Ciao a tutti! Mi chiamo Marta. Il mio cognome è Rossi: erre, o, doppia esse, i. Parlo piano. A domani!»
+es:
+BIENVENIDOS A LA ESCUELA DE ITALIANO
+Lección uno: lunes, a las nueve. Sala tres.
+Traigan un lápiz y un cuaderno.
+Si no entienden, digan: «Disculpe, ¿puede repetir?».
+Si no conocen una palabra, pregunten: «¿Cómo se dice?».
+
+Mensaje de Marta, la profesora:
+«¡Hola a todos! Me llamo Marta. Mi apellido es Rossi: erre, o, doble ese, i. Hablo despacio. ¡Hasta mañana!»
+claves: la lezione=la clase; l'aula=la sala; il quaderno=el cuaderno; ripetere=repetir; la parola=la palabra; il cognome=el apellido
+p1: ¿A qué hora es la lección uno? | alle otto | alle nove | alle dieci | b | El cartel dice «ore nove».
+p2: ¿Qué hay que llevar a clase? | un libro | una borsa | una penna e un quaderno | c | «Portate una penna e un quaderno».
+p3: ¿Qué se dice si no se entiende algo? | Scusi, può ripetere? | Come si dice? | A domani! | a | Para pedir que repitan se usa «Scusi, può ripetere?».
+p4: ¿Cuál es el apellido de la profesora? | Rossi | El apellido es Rossi; Marta es su nombre.
+## u01
+tipo: presentación escrita
+titulo: Mi presento
+testo:
+Ciao! Mi chiamo Lucía e sono cilena. Sono di Santiago, ma adesso sono a Roma. Sono una studentessa. Ho venti anni.
+
+Questo è il mio amico Paolo. Paolo è italiano, è di Napoli. Lui è simpatico e molto gentile. Oggi siamo insieme in un bar.
+
+Paolo dice: «Piacere! Come stai?». Io rispondo: «Sto bene, grazie, e tu?». Poi lui dice: «Anche io sto bene. Sei stanca?». «No, non sono stanca. Sono contenta!»
+es:
+¡Hola! Me llamo Lucía y soy chilena. Soy de Santiago, pero ahora estoy en Roma. Soy estudiante. Tengo veinte años.
+
+Este es mi amigo Paolo. Paolo es italiano, es de Nápoles. Él es simpático y muy amable. Hoy estamos juntos en un bar.
+
+Paolo dice: «¡Mucho gusto! ¿Cómo estás?». Yo respondo: «Estoy bien, gracias, ¿y tú?». Luego él dice: «Yo también estoy bien. ¿Estás cansada?». «No, no estoy cansada. ¡Estoy contenta!»
+claves: sono=soy / estoy; anche io=yo también; la studentessa=la estudiante; simpatico=simpático; gentile=amable; stanca=cansada
+p1: ¿De dónde es Lucía? | di Roma | di Napoli | di Santiago | c | «Sono di Santiago».
+p2: ¿Dónde está Lucía ahora? | a Roma | a Santiago | a Napoli | a | «adesso sono a Roma».
+p3: ¿Cómo es Paolo? | simpatico e gentile | stanco e triste | cileno | a | «Lui è simpatico e molto gentile».
+p4: ¿Cuántos años tiene Lucía? | venti / 20 | Lucía tiene veinte años.
+## u02#A
+tipo: aviso de alojamiento
+titulo: Appartamento in affitto
+testo:
+AFFITTASI APPARTAMENTO
+L'appartamento è al secondo piano di una casa vicino alla stazione. Ha una camera, un bagno, una cucina e un soggiorno. Nel soggiorno c'è un divano e ci sono due sedie. In cucina c'è un tavolo e c'è un frigorifero.
+
+Ci sono due finestre grandi e un balcone. Il quartiere è tranquillo. Vicino all'appartamento ci sono un supermercato, una farmacia e un parco.
+
+Non ci sono animali. Il prezzo è seicento euro al mese.
+es:
+SE ARRIENDA APARTAMENTO
+El apartamento está en el segundo piso de una casa cerca de la estación. Tiene una habitación, un baño, una cocina y una sala. En la sala hay un sofá y hay dos sillas. En la cocina hay una mesa y hay un refrigerador.
+
+Hay dos ventanas grandes y un balcón. El barrio es tranquilo. Cerca del apartamento hay un supermercado, una farmacia y un parque.
+
+No se admiten animales. El precio es seiscientos euros al mes.
+claves: affittasi=se alquila; il piano=el piso; la camera=la habitación; il soggiorno=la sala; il balcone=el balcón; il quartiere=el barrio
+p1: ¿En qué piso está el apartamento? | al primo piano | al secondo piano | al terzo piano | b | «al secondo piano».
+p2: ¿Qué hay en la sala? | un tavolo | un letto | un divano e due sedie | c | «Nel soggiorno c'è un divano e ci sono due sedie».
+p3: ¿Qué hay cerca del apartamento? | un cinema | un supermercato, una farmacia e un parco | una scuola | b | Lista de lugares cercanos.
+p4: ¿Cuánto cuesta al mes? | 600 euro / seicento | El texto dice «seicento euro al mese».
+## u02#B
+tipo: descripción de un barrio
+titulo: Il mio quartiere
+testo:
+Abito in un quartiere piccolo ma bello. Nella piazza ci sono molti bar e due negozi. Il mercato è il sabato mattina: ci sono la frutta, la verdura e i fiori.
+
+Vicino alla piazza c'è un parco. Nel parco ci sono i bambini, gli uomini e le donne con i cani. Sotto gli alberi ci sono delle panchine.
+
+Dietro la chiesa c'è la scuola. Davanti alla scuola ci sono due biciclette. Fuori dal quartiere c'è la stazione: è lontana, ma c'è un autobus.
+
+Mi piace molto il mio quartiere. Mi piacciono i bar e il parco.
+es:
+Vivo en un barrio pequeño pero bonito. En la plaza hay muchos bares y dos tiendas. El mercado es el sábado en la mañana: hay fruta, verdura y flores.
+
+Cerca de la plaza hay un parque. En el parque hay niños, hombres y mujeres con perros. Bajo los árboles hay unas bancas.
+
+Detrás de la iglesia está la escuela. Delante de la escuela hay dos bicicletas. Fuera del barrio está la estación: está lejos, pero hay un bus.
+
+Me gusta mucho mi barrio. Me gustan los bares y el parque.
+claves: il mercato=el mercado; la panchina=la banca; dietro=detrás de; davanti a=delante de; fuori da=fuera de; lontana=lejos
+p1: ¿Cuándo es el mercado? | il sabato mattina | la domenica | il lunedì sera | a | «Il mercato è il sabato mattina».
+p2: ¿Qué hay detrás de la iglesia? | la scuola | la stazione | il parco | a | «Dietro la chiesa c'è la scuola».
+p3: ¿Cómo se llega a la estación? | a piedi, è vicina | con l'autobus, è lontana | in bicicletta | b | La estación es lejana, pero hay un autobús.
+p4: ¿Qué le gusta del barrio a la persona? | i bar e il parco / il parco / i bar | «Mi piacciono i bar e il parco».
+## u03#A
+tipo: horario de tren
+titulo: Orario dei treni
+testo:
+STAZIONE DI FIRENZE — Treni per Roma
+Treno 1: parte alle 6.45, arriva alle 8.50. Binario 3.
+Treno 2: parte alle 9.15, arriva alle 11.30. Binario 5.
+Treno 3: parte alle 12.30, arriva alle 14.40. Binario 3.
+Treno 4: parte alle 18.00, arriva alle 20.10. Binario 2.
+
+Il biglietto costa trenta euro. Il treno delle 9.15 è un po' più veloce. Il treno delle 18.00 è l'ultimo.
+
+Attenzione: il treno delle 12.30 ha dieci minuti di ritardo.
+es:
+ESTACIÓN DE FLORENCIA — Trenes a Roma
+Tren 1: sale a las 6.45, llega a las 8.50. Andén 3.
+Tren 2: sale a las 9.15, llega a las 11.30. Andén 5.
+Tren 3: sale a las 12.30, llega a las 14.40. Andén 3.
+Tren 4: sale a las 18.00, llega a las 20.10. Andén 2.
+
+El boleto cuesta treinta euros. El tren de las 9.15 es un poco más rápido. El tren de las 18.00 es el último.
+
+Atención: el tren de las 12.30 tiene diez minutos de atraso.
+claves: parte=sale; arriva=llega; il binario=el andén; il biglietto=el boleto; l'ultimo=el último; il ritardo=el atraso
+p1: ¿A qué hora sale el primer tren? | alle 6.45 | alle 9.15 | alle 12.30 | a | «Treno 1: parte alle 6.45».
+p2: ¿En qué andén sale el tren de las 9.15? | binario 2 | binario 3 | binario 5 | c | «Treno 2... Binario 5».
+p3: ¿Cuál es el último tren? | il treno delle 12.30 | il treno delle 6.45 | il treno delle 18.00 | c | «Il treno delle 18.00 è l'ultimo».
+p4: ¿Cuánto cuesta el boleto? | trenta euro / 30 euro | «Il biglietto costa trenta euro».
+## u03#B
+tipo: ticket y menú de precios
+titulo: Al bar
+testo:
+BAR CENTRALE — oggi è venerdì 14 marzo
+Caffè: 1,20 €
+Cappuccino: 1,50 €
+Cornetto: 1,30 €
+Panino con prosciutto: 4,50 €
+Acqua: 1 €
+Succo d'arancia: 3 €
+
+Scontrino numero 128
+Un cappuccino 1,50
+Un cornetto 1,30
+Totale: 2,80 €
+Pagato: 5 €. Resto: 2,20 €
+Data: 14/03, ore 8.15.
+
+Oggi Marco è al bar. Prende un cappuccino e un cornetto. Paga con cinque euro e il cameriere dà il resto.
+
+Il bar apre alle sei e chiude alle venti.
+es:
+BAR CENTRALE — hoy es viernes 14 de marzo
+Café: 1,20 €
+Capuchino: 1,50 €
+Croissant: 1,30 €
+Sándwich con jamón: 4,50 €
+Agua: 1 €
+Jugo de naranja: 3 €
+
+Ticket número 128
+Un capuchino 1,50
+Un croissant 1,30
+Total: 2,80 €
+Pagado: 5 €. Cambio: 2,20 €
+Fecha: 14/03, 8.15 horas.
+
+Hoy Marco está en el bar. Toma un capuchino y un croissant. Paga con cinco euros y el camarero da el cambio.
+
+El bar abre a las seis y cierra a las veinte.
+claves: lo scontrino=el ticket; il totale=el total; il resto=el cambio; pagato=pagado; apre=abre; chiude=cierra
+p1: ¿Cuánto cuesta un cornetto? | 1,20 € | 1,30 € | 1,50 € | b | «Cornetto: 1,30 €».
+p2: ¿Qué se compró según el ticket? | un caffè e un panino | un succo e un'acqua | un cappuccino e un cornetto | c | Cappuccino 1,50 y cornetto 1,30.
+p3: ¿Cuánto fue el cambio (il resto)? | 2,20 € | 2,80 € | 5 € | a | 5 − 2,80 = 2,20.
+p4: ¿A qué hora cierra el bar? | alle venti / alle 20 | «chiude alle venti».
+## u04
+tipo: menú de bar
+titulo: Una mattina al bar
+testo:
+Sono le otto. Giulia entra in un bar vicino all'ufficio. Il cameriere dice: «Buongiorno! Che cosa desidera?».
+
+Giulia: «Buongiorno. Vorrei un cappuccino e un cornetto, per favore».
+Il cameriere: «Subito! Vuole anche un'acqua?».
+Giulia: «No, grazie. Posso pagare con la carta?».
+Il cameriere: «Sì, certo».
+
+Poi Giulia deve lavorare. Non può restare molto al bar. Mangia il cornetto e beve il cappuccino in dieci minuti. Dice: «Il conto, per favore!». Il cameriere risponde: «Sono due euro e ottanta».
+
+Giulia vuole tornare domani: il cappuccino è buonissimo.
+es:
+Son las ocho. Giulia entra a un bar cerca de la oficina. El camarero dice: «¡Buenos días! ¿Qué desea?».
+
+Giulia: «Buenos días. Quisiera un capuchino y un croissant, por favor».
+El camarero: «¡Enseguida! ¿Quiere también un agua?».
+Giulia: «No, gracias. ¿Puedo pagar con tarjeta?».
+El camarero: «Sí, claro».
+
+Después Giulia tiene que trabajar. No puede quedarse mucho en el bar. Come el croissant y toma el capuchino en diez minutos. Dice: «¡La cuenta, por favor!». El camarero responde: «Son dos euros con ochenta».
+
+Giulia quiere volver mañana: el capuchino está buenísimo.
+claves: vorrei=quisiera; subito=enseguida; la carta=la tarjeta; il conto=la cuenta; deve=tiene que; buonissimo=buenísimo
+p1: ¿Qué pide Giulia? | un cappuccino e un cornetto | un caffè | un panino | a | «Vorrei un cappuccino e un cornetto».
+p2: ¿Cómo quiere pagar? | in contanti | con la carta | non paga | b | «Posso pagare con la carta?».
+p3: ¿Por qué no se queda mucho en el bar? | è stanca | il bar chiude | deve lavorare | c | «Deve lavorare».
+p4: ¿Cuánto paga? | due euro e ottanta / 2,80 | «Sono due euro e ottanta».
