@@ -157,7 +157,7 @@ export const unidad22: Lesson = {
     },
     {
       "it": "Penso di avere ragione.",
-      "es": "Creo tener razón."
+      "es": "Creo que tengo razón."
     }
   ],
   "notice": [
@@ -229,52 +229,70 @@ export const unidad22: Lesson = {
       "why": "*Venire → venga*."
     },
     {
-      "type": "fill",
-      "prompt": "Penso che loro ___ a casa. (essere)",
-      "answers": [
-        "siano"
+      "type": "choice",
+      "prompt": "«Penso che loro siano a casa.» ¿Qué verbo está en congiuntivo?",
+      "options": [
+        "penso",
+        "siano",
+        "casa"
       ],
-      "why": "*Essere → siano*."
+      "answer": 1,
+      "why": "*Siano* es el congiuntivo de *essere* (loro)."
     },
     {
-      "type": "fill",
-      "prompt": "Credo che voi ___ molto bene. (parlare)",
-      "answers": [
-        "parliate"
+      "type": "choice",
+      "prompt": "«Credo che voi parliate molto bene.» ¿Qué significa?",
+      "options": [
+        "Creo que ustedes hablan muy bien.",
+        "Creo que ustedes hablaron muy bien.",
+        "Quiero que ustedes hablen muy bien."
       ],
-      "why": "*Parlare → parliate* con *voi*."
+      "answer": 0,
+      "why": "*Credo che* + congiuntivo expresa una opinión: creo que hablan muy bien."
     },
     {
-      "type": "fill",
-      "prompt": "Spero che Anna ___ presto. (arrivare)",
-      "answers": [
-        "arrivi"
+      "type": "choice",
+      "prompt": "«Spero che Anna arrivi presto.» ¿Qué significa?",
+      "options": [
+        "Anna llegó pronto.",
+        "Espero que Anna llegue pronto.",
+        "Anna llega pronto."
       ],
-      "why": "*Arrivare → arrivi*."
+      "answer": 1,
+      "why": "*Spero che* introduce un deseo: espero que llegue."
     },
     {
-      "type": "fill",
-      "prompt": "È importante che noi ___ in tempo. (arrivare)",
-      "answers": [
-        "arriviamo"
+      "type": "choice",
+      "prompt": "«È importante che noi arriviamo in tempo.» ¿Qué expresa?",
+      "options": [
+        "Algo que se considera importante",
+        "Un recuerdo del pasado",
+        "Una pregunta"
       ],
-      "why": "Con *noi* es igual al presente: *arriviamo*."
+      "answer": 0,
+      "why": "*È importante che* + congiuntivo = es importante que."
     },
     {
-      "type": "fill",
-      "prompt": "Credo che lui ___ la verità. (dire)",
-      "answers": [
-        "dica"
+      "type": "choice",
+      "prompt": "«Credo che lui dica la verità.» ¿Cuál es el infinitivo de *dica*?",
+      "options": [
+        "dare",
+        "dividere",
+        "dire"
       ],
-      "why": "*Dire → dica*."
+      "answer": 2,
+      "why": "*Dica* es el congiuntivo de *dire*."
     },
     {
-      "type": "fill",
-      "prompt": "Voglio che loro ___ qui. (restare)",
-      "answers": [
-        "restino"
+      "type": "choice",
+      "prompt": "«Voglio che loro restino qui.» ¿Qué quiere la persona?",
+      "options": [
+        "Que ellos se queden aquí",
+        "Quedarse ella aquí",
+        "Que ellos se vayan"
       ],
-      "why": "*Restare → restino*."
+      "answer": 0,
+      "why": "*Voglio che* + congiuntivo: quiero que se queden."
     },
     {
       "type": "fill",
@@ -285,12 +303,15 @@ export const unidad22: Lesson = {
       "why": "Mismo sujeto: *di* + infinitivo."
     },
     {
-      "type": "fill",
-      "prompt": "Credo che lei ___ a Roma. (andare)",
-      "answers": [
-        "vada"
+      "type": "choice",
+      "prompt": "«Credo che lei vada a Roma.» ¿Cuál es el infinitivo de *vada*?",
+      "options": [
+        "vedere",
+        "andare",
+        "avere"
       ],
-      "why": "*Andare → vada*."
+      "answer": 1,
+      "why": "*Vada* es el congiuntivo de *andare*."
     },
     {
       "type": "fill",
@@ -324,7 +345,7 @@ export const unidad22: Lesson = {
     },
     {
       "type": "choice",
-      "prompt": "«Creo tener razón»",
+      "prompt": "«Creo que tengo razón»",
       "options": [
         "Credo di avere ragione.",
         "Credo che avere ragione.",
