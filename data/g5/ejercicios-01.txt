@@ -1,0 +1,91 @@
+## u25
+o|¿Cómo se escribe tu nombre?|Come si scrive il tuo nome?|dice|«Si scrive» es la forma impersonal para preguntar la ortografía.
+o|Disculpe, ¿puede repetir, por favor?|Scusi, può ripetere, per favore?|puoi|Con «Scusi» se usa «può» (forma de cortesía).
+t|No entiendo.|Non capisco. / Io non capisco.|Verbo capire: «io capisco»; la negación va antes del verbo.
+t|Me llamo Ana.|Mi chiamo Ana. / Io mi chiamo Ana.|En italiano se dice «mi chiamo» (literalmente «me llamo»).
+t|¿Cómo se dice «agua» en italiano?|Come si dice acqua in italiano? / Come si dice «acqua» in italiano?|Para preguntar una palabra: «Come si dice…?».
+f|Io non capire.|Non capisco. / Io non capisco.|El verbo se conjuga: «io capisco», no el infinitivo.
+f|Ciao, io chiamo Marta.|Ciao, mi chiamo Marta. / Ciao, io mi chiamo Marta.|Falta el «mi»: «mi chiamo».
+x|Escribe la palabra que se deletrea: ci, a, esse, a.|casa|C-A-S-A se lee «ci, a, esse, a».
+x|Deletrea «ciao» con los nombres de las letras.|ci i a o / ci, i, a, o|La c se llama «ci», la i «i», la a «a» y la o «o».
+d|— Come ti chiami? // — ___ Marco. // — Piacere!|Mi chiamo;Ti chiami;Sono chiamo|Para presentarte: «Mi chiamo…».
+d|— Come si scrive «ciao»? // — ___: ci, i, a, o. // — Grazie!|Si scrive;Si chiama;Si dice|«Si scrive» responde a «Come si scrive?».
+l|Mi chiamo Marta.|Me llamo Marta.;Soy de Marta.;Hola, Marta.|«Mi chiamo» equivale a «me llamo».
+## u01
+o|Encantado, soy Paolo y soy italiano.|Piacere, sono Paolo e sono italiano.|è|«Sono» es la primera persona de essere.
+o|¿Cómo está, señora Rossi?|Come sta, signora Rossi?|stai|Con «Lei» (formal) se usa «sta».
+t|¿Cómo estás?|Come stai?|Con «tu», el verbo stare es «stai».
+t|Ella es de Roma.|Lei è di Roma. / È di Roma.|«Lei è» (ella es); «di» indica el origen.
+t|Nosotros somos estudiantes.|Noi siamo studenti. / Siamo studenti. / Noi siamo studentesse. / Siamo studentesse.|«Siamo» es la primera persona del plural de essere.
+f|Tu sono stanco.|Tu sei stanco. / Sei stanco.|Con «tu» se usa «sei», no «sono».
+f|Come stai, signora?|Come sta, signora?|A una señora (Lei) se le dice «sta», no «stai».
+x|Pasa de «tú» a «Lei»: Come stai?|Come sta? / Come sta Lei?|Lei usa la forma de la tercera persona: «sta».
+x|Cambia a «noi»: Io sono contento.|Noi siamo contenti. / Siamo contenti.|Con «noi»: «siamo»; el adjetivo va en plural.
+d|— Buongiorno, signor Verdi. Come ___? // — Bene, grazie, e Lei?|sta;stai;sto|A un señor (Lei) se le pregunta «Come sta?».
+d|— Ciao! Sono Marta. E tu? // — Io ___ Luca.|sono;sei;è|Con «io» se usa «sono».
+l|Lei è italiana.|Ella es italiana.;Tú eres italiana.;Él es italiano.|«Lei è» = ella es; «italiana» es femenino.
+## u02
+o@A|Hay un parque cerca de la casa.|C'è un parco vicino alla casa. / Vicino alla casa c'è un parco.|ci|Con un solo elemento se usa «c'è» (hay).
+t@A|Hay dos sillas.|Ci sono due sedie.|Con plural se usa «ci sono».
+t@A|Hay una farmacia en la plaza.|C'è una farmacia in piazza. / C'è una farmacia nella piazza.|Un solo elemento: «c'è».
+f@A|Nel soggiorno c'è due sedie.|Nel soggiorno ci sono due sedie.|Con dos elementos hace falta «ci sono».
+x@A|Cambia a «due»: C'è una finestra.|Ci sono due finestre.|Plural: «ci sono» y «finestre».
+d@A|— Che cosa c'è in camera? // — C'è ___ letto e un armadio.|un;una;uno|«letto» es masculino y empieza con consonante: «un».
+o@B|Me gusta el parque.|Mi piace il parco.|piacciono|«Piace» con un solo objeto singular.
+t@B|Me gustan los gatos.|Mi piacciono i gatti.|Con plural: «piacciono».
+f@B|Mi piace i bar.|Mi piacciono i bar.|Los bares son plural: «piacciono».
+x@B|Cambia a «noi»: Io ho una casa.|Noi abbiamo una casa. / Abbiamo una casa.|Avere con «noi»: «abbiamo».
+d@B|— Hai fratelli? // — Sì, ___ una sorella.|ho;hai;ha|Con «io» se usa «ho».
+l@B|Mi piacciono i bar.|Me gustan los bares.;Me gusta el bar.;Tengo bares.|«Piacciono» concuerda con «i bar» (plural).
+## u03
+o@A|Cuesta veinte euros con cincuenta.|Costa venti euro e cinquanta.|trenta|Los precios se dicen con «e»: «venti euro e cinquanta».
+t@A|Son treinta y cinco euros.|Sono trentacinque euro.|Los números compuestos se escriben juntos: «trentacinque».
+t@A|Cuesta doce euros.|Costa dodici euro.|Doce = dodici.
+f@A|Costa trentauno euro.|Costa trentuno euro.|Con «uno» se pierde la vocal: «trentuno».
+x@A|Escribe con letras: 45 euro|quarantacinque euro / quarantacinque|Cuarenta y cinco: quarantacinque.
+d@A|— Quanto costa il caffè? // — Il caffè ___ un euro e venti.|costa;costano;sono|«Il caffè» es singular: «costa».
+o@B|Son las ocho y media.|Sono le otto e mezza.|è|Para la hora: «Sono le…» salvo la una.
+t@B|¿Qué hora es?|Che ora è? / Che ore sono?|Las dos formas se usan.
+f@B|Sono le una e dieci.|È l'una e dieci.|Para la una se usa «È l'una».
+x@B|Di' la fecha: 14/03.|il quattordici marzo / è il quattordici marzo|Fecha: «il» + número + mes.
+d@B|— Che ore sono? // — ___ le tre e un quarto.|Sono;È;Ha|Para las tres: «Sono le tre».
+l@B|Il treno parte alle nove.|El tren sale a las nueve.;El tren llega a las nueve.;El tren sale a las diez.|«Parte» = sale; «alle nove» = a las nueve.
+## u04
+o|Quisiera un café, por favor.|Vorrei un caffè, per favore.|voglio|«Vorrei» es la forma cortés de pedir.
+o|¿Puedo pagar con tarjeta?|Posso pagare con la carta?|vuoi|«Posso» + infinitivo para pedir permiso.
+t|Quiero un cappuccino.|Voglio un cappuccino. / Vorrei un cappuccino.|Volere: «voglio»; para ser cortés, «vorrei».
+t|Tengo que trabajar.|Devo lavorare. / Io devo lavorare.|Dovere: «devo» + infinitivo.
+t|No podemos entrar.|Non possiamo entrare. / Noi non possiamo entrare.|Potere con «noi»: «possiamo».
+f|Io vuole un caffè.|Io voglio un caffè. / Voglio un caffè.|Con «io»: «voglio».
+f|Loro devono lavorano.|Loro devono lavorare. / Devono lavorare.|Después de dovere va el infinitivo.
+x|Cambia a «noi»: Io posso venire.|Noi possiamo venire. / Possiamo venire.|Potere con «noi»: «possiamo».
+x|Hazlo más cortés con «vorrei»: Voglio un'acqua.|Vorrei un'acqua.|«Vorrei» suaviza el pedido.
+d|— Buongiorno! Vuole ordinare? // — Sì, ___ un panino, per favore.|vorrei;vorresti;vogliono|Para pedir con cortesía: «vorrei».
+d|— Perché non vieni? // — Perché ___ lavorare.|devo;devi;deve|La respuesta es en primera persona: «devo».
+l|Voglio un caffè.|Quiero un café.;Tengo un café.;Quiere un café.|«Voglio» = quiero.
+## u05
+o@A|Voy a Roma en tren.|Vado a Roma in treno. / In treno vado a Roma.|da|Ciudad: «a»; medio de transporte: «in».
+t@A|Voy a casa de Marco.|Vado da Marco.|Para ir a casa de una persona se usa «da».
+t@A|Vivo en Italia.|Vivo in Italia.|Con países se usa «in».
+f@A|Vado in Roma.|Vado a Roma.|Con ciudades se usa «a».
+x@A|Cambia «Roma» por «Italia»: Vado a Roma.|Vado in Italia.|Con países: «in».
+d@A|— Scusi, dov'è la stazione? // — ___ sempre dritto e poi giri a destra.|Vada;Vado;Andiamo|Con «Lei» el imperativo es «Vada».
+o@B|El museo está al lado de la iglesia.|Il museo è accanto alla chiesa.|nella|«Accanto a» + a + la = «alla».
+t@B|Voy al supermercado.|Vado al supermercato.|a + il = «al».
+f@B|Vado nel cinema.|Vado al cinema.|Con «cinema» se usa «a» (al cinema).
+x@B|Une las palabras: il libro di + il professore.|Il libro del professore.|di + il = «del».
+d@B|— Dove vai? // — Vado ___ dentista.|dal;al;nel|Ir a casa o consulta de una persona: «da» + il = «dal».
+l@B|Il burro è in frigorifero.|La mantequilla está en el refrigerador.;El burro está en el refrigerador.;El vaso está en la heladera.|Falso amigo: «burro» = mantequilla.
+## u06
+o@A|Esta es mi bolsa.|Questa è la mia borsa.|il|Los posesivos llevan artículo: «la mia».
+t@A|Es mi casa.|È la mia casa. / È casa mia.|Posesivo: «la mia casa» o «casa mia».
+t@A|Tu madre es simpática.|Tua madre è simpatica.|Con un familiar en singular no lleva artículo: «tua madre».
+f@A|Il mio madre è alta.|Mia madre è alta.|«Madre» es femenino y, como familiar singular, va sin artículo.
+x@A|Cambia a «mio»: Questa è la tua penna.|Questa è la mia penna.|«Penna» es femenino: «mia».
+d@A|— Di chi è questo libro? // — È ___.|mio;mia;miei|«Libro» es masculino singular: «mio».
+o@B|Esa chaqueta negra es muy elegante.|Quella giacca nera è molto elegante.|quel|«Giacca» es femenino: «quella».
+t@B|Esta camisa es azul.|Questa camicia è blu. / Questa camicia è azzurra.|«Blu» no cambia; «azzurra» concuerda.
+f@B|Quel scarpe sono belle.|Quelle scarpe sono belle.|«Scarpe» es femenino plural: «quelle».
+x@B|Pon en plural: Questa gonna è rossa.|Queste gonne sono rosse.|Plural: queste, gonne, sono, rosse.
+d@B|— Quale giacca preferisci? // — ___ nera.|Quella;Quello;Quelli|«Giacca» es femenino singular: «quella».
+l@B|Mi piace questa camicia.|Me gusta esta camisa.;Me gustan estas camisas.;Me gusta esa chaqueta.|«Questa camicia» = esta camisa.

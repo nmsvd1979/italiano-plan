@@ -1,0 +1,91 @@
+## u26
+o|Mi hermana es alta y rubia.|Mia sorella è alta e bionda.|biondo|«Sorella» es femenino: alta, bionda.
+o|Mi padre es médico.|Mio padre fa il medico.|è|Para la profesión se dice «fa il…» o «è…».
+t|Mi hermano es ingeniero.|Mio fratello è ingegnere.|Con un familiar singular no lleva artículo: «mio fratello».
+t|Ella tiene los ojos verdes.|Ha gli occhi verdi. / Lei ha gli occhi verdi.|«Occhi» es plural: «gli occhi verdi».
+t|¿A qué te dedicas?|Che lavoro fai? / Che lavoro fa?|Se pregunta por el trabajo con «Che lavoro fai?».
+f|Mia sorella ha i capelli biondo.|Mia sorella ha i capelli biondi.|«Capelli» es plural: «biondi».
+f|I miei nonno sono simpatici.|I miei nonni sono simpatici.|Con «i miei» el sustantivo va en plural: «nonni».
+x|Pon en femenino: Mio zio è alto e magro.|Mia zia è alta e magra.|Zio → zia; alto → alta; magro → magra.
+x|Pon en plural: Il mio amico è simpatico.|I miei amici sono simpatici.|Plural: i miei amici sono simpatici.
+d|— Che lavoro fa tuo padre? // — ___ il medico.|Fa;Ha;Sono|«Fare il medico» = ser médico.
+d|— Com'è tua madre? // — ___ bassa e ha i capelli castani.|È;Ha;Fa|Para describir cómo es alguien: «È…».
+l|Ha gli occhi verdi.|Tiene los ojos verdes.;Tiene el pelo verde.;Tiene los ojos azules.|«Occhi» = ojos.
+## u07
+o@A|Me despierto a las siete y me levanto enseguida.|Mi sveglio alle sette e mi alzo subito.|si|Los verbos reflexivos llevan «mi» con «io».
+t@A|Me levanto a las siete.|Mi alzo alle sette. / Io mi alzo alle sette.|Alzarsi: «mi alzo».
+t@A|Él se lava los dientes.|Si lava i denti. / Lui si lava i denti.|Con «lui» el reflexivo es «si».
+f@A|Io si lavo ogni mattina.|Io mi lavo ogni mattina. / Mi lavo ogni mattina.|Con «io» el pronombre es «mi».
+x@A|Cambia a «lui»: Mi vesto in fretta.|Si veste in fretta. / Lui si veste in fretta.|Con «lui»: «si veste».
+d@A|— A che ora ___? // — Mi sveglio alle sei.|ti svegli;mi sveglio;si sveglia|La pregunta a «tu» usa «ti svegli».
+o@B|Estoy comiendo una pizza.|Sto mangiando una pizza.|sono|«Stare» + gerundio indica una acción en curso.
+t@B|Estoy estudiando italiano.|Sto studiando italiano. / Io sto studiando italiano.|«Sto» + gerundio (studiando).
+f@B|Sto mangio una pizza.|Sto mangiando una pizza.|Después de «stare» va el gerundio.
+x@B|Cambia a «loro»: Sto leggendo un libro.|Stanno leggendo un libro. / Loro stanno leggendo un libro.|Stare con «loro»: «stanno».
+d@B|— Che cosa stai facendo? // — ___ cucinando.|Sto;Sono;Ho|«Sto» + gerundio.
+l@B|Sto aspettando l'autobus.|Estoy esperando el bus.;Estoy tomando el bus.;Voy a esperar el bus.|«Aspettare» = esperar.
+## u08
+o|Nunca voy solo al cine.|Non vado mai al cinema da solo. / Da solo non vado mai al cinema.|sempre|La negación doble: «non… mai».
+o|¿Cuántos hermanos tienes?|Quanti fratelli hai?|quante|«Quanti» concuerda con «fratelli» (masculino plural).
+t|No tengo hambre.|Non ho fame. / Io non ho fame.|«Avere fame» = tener hambre.
+t|¿Cuánto cuesta esto?|Quanto costa questo?|«Quanto» no cambia con el singular.
+t|Siempre desayuno en casa.|Faccio sempre colazione a casa. / Io faccio sempre colazione a casa.|«Fare colazione» = desayunar.
+f|Non ho nessuno amico.|Non ho nessun amico.|«Nessun» antes de un sustantivo masculino.
+f|Vado mai al cinema.|Non vado mai al cinema.|Con «mai» después del verbo hace falta «non».
+x|Niega: Parlo italiano.|Non parlo italiano.|La negación se pone antes del verbo.
+x|Pasa a pregunta: Tu hai due fratelli.|Hai due fratelli? / Tu hai due fratelli?|La pregunta se marca con la entonación.
+d|— Quante volte vai in palestra? // — ___ volte a settimana.|Tre;Molto;Spesso|«Quante volte» pide un número.
+d|— Mangi carne? // — No, ___ mangio carne.|non;mai;niente|Para negar el verbo: «non».
+l|Non vado mai al mare.|Nunca voy a la playa.;Siempre voy a la playa.;A veces voy a la playa.|«Non… mai» = nunca.
+## u27
+o|En mi tiempo libre me gusta leer.|Nel tempo libero mi piace leggere. / Mi piace leggere nel tempo libero.|piacciono|«Mi piace» + infinitivo.
+o|Hoy hay sol y hace calor.|Oggi c'è il sole e fa caldo. / C'è il sole e fa caldo oggi.|è|Para el clima: «c'è il sole» y «fa caldo».
+t|Sé nadar.|So nuotare. / Io so nuotare.|«Sapere» + infinitivo = saber hacer algo.
+t|Conozco a tu hermano.|Conosco tuo fratello.|«Conoscere» se usa con personas.
+t|Hoy llueve.|Oggi piove.|«Piovere» es el verbo de la lluvia.
+f|Io conosco nuotare.|Io so nuotare. / So nuotare.|Con un infinitivo se usa «sapere».
+f|So Marco da molti anni.|Conosco Marco da molti anni.|Con personas se usa «conoscere».
+x|Cambia a «noi»: So cucinare.|Sappiamo cucinare. / Noi sappiamo cucinare.|Sapere con «noi»: «sappiamo».
+x|Niega con «nessuno»: Qualcuno è in casa.|Nessuno è in casa. / Non c'è nessuno in casa.|«Qualcuno» se niega con «nessuno».
+d|— Sai suonare la chitarra? // — Sì, ___ un po'.|so;conosco;sono|«Sapere» para habilidades.
+d|— Che tempo fa? // — ___ freddo e nevica.|Fa;È;Ha|Para el tiempo: «Fa freddo».
+l|Fa bel tempo.|Hace buen tiempo.;Hace mal tiempo.;Está lloviendo.|«Fa bel tempo» = hace buen tiempo.
+## u09
+o|Ayer comí una pizza.|Ieri ho mangiato una pizza. / Ho mangiato una pizza ieri.|sono|El pasado con «avere»: ho + participio.
+o|Compramos el pan.|Abbiamo comprato il pane.|siamo|«Abbiamo» + participio comprato.
+t|Compré pan y queso.|Ho comprato pane e formaggio. / Io ho comprato pane e formaggio.|Ho + participio de comprare.
+t|Ella vio una película.|Ha visto un film. / Lei ha visto un film.|Ha + visto (participio irregular de vedere).
+t|¿Qué hiciste ayer?|Che cosa hai fatto ieri? / Cosa hai fatto ieri?|Fatto es el participio de fare.
+f|Ieri ho mangio la pasta.|Ieri ho mangiato la pasta.|Después de «ho» va el participio: mangiato.
+f|Maria ha prendato un caffè.|Maria ha preso un caffè.|Prendere tiene participio irregular: preso.
+x|Pasa a pasado: Mangio una mela.|Ho mangiato una mela.|Presente → ho + participio.
+x|Pasa a pasado: Loro vedono un film.|Hanno visto un film. / Loro hanno visto un film.|Avere con «loro»: hanno visto.
+d|— Che cosa ___ ieri sera? // — Ho guardato la tv.|hai fatto;sei fatto;fai fatto|Con «avere»: hai fatto.
+d|— Hai già mangiato? // — Sì, ___ una pizza.|ho mangiato;sono mangiato;mangio|Mangiare usa «avere».
+l|Abbiamo visto un bel film.|Vimos una buena película.;Veremos una buena película.;Vi una buena película.|«Abbiamo visto» = vimos.
+## u10
+o|Ayer fuimos al mar.|Siamo andati al mare ieri. / Ieri siamo andati al mare.|abbiamo|«Andare» usa «essere» y el participio concuerda.
+o|María llegó a las ocho.|Maria è arrivata alle otto. / Alle otto Maria è arrivata.|ha|«Arrivare» usa essere: è arrivata (femenino).
+t|Fui a Roma.|Sono andato a Roma. / Sono andata a Roma.|Andare + essere; el participio concuerda con quien habla.
+t|Ellas llegaron tarde.|Sono arrivate tardi. / Loro sono arrivate tardi.|Plural femenino: arrivate.
+t|Nos quedamos en casa.|Siamo rimasti a casa. / Siamo rimaste a casa. / Siamo stati a casa. / Siamo state a casa.|Rimanere y stare usan essere.
+f|Maria è andato a Venezia.|Maria è andata a Venezia.|El participio concuerda con el sujeto femenino.
+f|Ieri ho andato al cinema.|Ieri sono andato al cinema. / Ieri sono andata al cinema.|Andare usa essere, no avere.
+x|Pasa a pasado: Maria parte alle sette.|Maria è partita alle sette.|Partire usa essere: è partita.
+x|Pasa a pasado: Loro tornano a casa.|Sono tornati a casa. / Loro sono tornati a casa. / Sono tornate a casa. / Loro sono tornate a casa.|Tornare usa essere y concuerda.
+d|— Maria, dove ___ andata ieri? // — Al mare.|sei;hai;ha|Con «andata» se usa «essere».
+d|— Luca ___ arrivato? // — Sì, è arrivato alle sei.|è;ha;sono|Con «Luca» (él): «è arrivato».
+l|Siamo partiti presto.|Salimos temprano.;Saldremos temprano.;Llegamos temprano.|«Siamo partiti» = salimos.
+## u11
+o|Cuando era pequeño jugaba siempre afuera.|Quando ero piccolo giocavo sempre fuori. / Giocavo sempre fuori quando ero piccolo.|ho|El imperfecto describe hábitos del pasado.
+o|Llovía cuando salí.|Pioveva quando sono uscito. / Quando sono uscito pioveva.|piove|Imperfecto (pioveva) + passato prossimo (sono uscito).
+t|De niño vivía en Santiago.|Da bambino vivevo a Santiago. / Quando ero bambino vivevo a Santiago.|El imperfecto de vivere: vivevo.
+t|Hacía frío y llovía.|Faceva freddo e pioveva.|Descripciones del pasado en imperfecto.
+t|Mientras comía, sonó el teléfono.|Mentre mangiavo, ha squillato il telefono.|Imperfecto (mangiavo) + acción puntual (ha squillato).
+f|Quando ero piccolo, ho giocato sempre.|Quando ero piccolo, giocavo sempre.|Para el hábito se usa el imperfecto.
+f|Mentre cucinavo, ho ascoltavo la musica.|Mentre cucinavo, ascoltavo la musica.|No se mezcla «ho» con el imperfecto.
+x|Pasa a imperfecto: Vivo a Roma.|Vivevo a Roma.|Vivere → vivevo.
+x|Pasa a imperfecto: Siamo felici.|Eravamo felici.|Essere → eravamo.
+d|— Da piccola ___ sempre dai nonni. // — Che bello!|andavo;sono andata;vado|El hábito del pasado usa el imperfecto.
+d|— Che tempo faceva ieri? // — ___ freddo e pioveva.|Faceva;Ha fatto;Farà|Descripción del clima: imperfecto.
+l|Quando ero piccolo vivevo a Roma.|Cuando era pequeño vivía en Roma.;Cuando era pequeño visité Roma.;Cuando sea pequeño viviré en Roma.|«Vivevo» = vivía.
