@@ -1,0 +1,1538 @@
+{
+ "steps": {
+  "u25": {
+   "title": "Vocales puras y acento de la palabra",
+   "tip": "Las cinco vocales italianas son puras y cortas: no las conviertas en diptongos ni las dejes caer al final (*mamma*, no \"mam\"). El acento cae casi siempre en la penúltima sílaba (*CAsa*); la tilde escrita aparece solo cuando cae en la última (*città, caffè*). A veces la tilde distingue palabras: *papa* (el Papa) y *papà* (papá).",
+   "pairs": [
+    [
+     "papa",
+     "papà"
+    ],
+    [
+     "ancora",
+     "àncora"
+    ],
+    [
+     "capitano",
+     "càpitano"
+    ]
+   ],
+   "words": [
+    "casa",
+    "mamma",
+    "nome",
+    "ciao",
+    "sì",
+    "tè",
+    "caffè",
+    "città"
+   ]
+  },
+  "u01": {
+   "title": "C y G: suaves y duras",
+   "tip": "*C* y *g* suenan suaves ante *e / i* (*cena*, *gelato*) y duras ante *a / o / u* o con *h* (*chi*, *ghiaccio*). *Ci* suena como \"chi\" de \"chino\"; *chi* como \"qui\" de \"quiso\". El error típico es leer *gelato* con jota.",
+   "pairs": [
+    [
+     "chi",
+     "ci"
+    ],
+    [
+     "cane",
+     "cena"
+    ],
+    [
+     "gatto",
+     "gelato"
+    ],
+    [
+     "ghiaccio",
+     "giacca"
+    ]
+   ],
+   "words": [
+    "cena",
+    "cinema",
+    "gelato",
+    "giorno",
+    "chiesa",
+    "ghiaccio",
+    "ciao"
+   ]
+  },
+  "u02#A": {
+   "title": "Consonantes dobles (I)",
+   "tip": "La consonante doble se pronuncia más larga: la boca se cierra un instante antes de soltar el sonido. *Pala* (pala) no es lo mismo que *palla* (pelota). En español no existe esta diferencia, por eso hay que entrenar el oído.",
+   "pairs": [
+    [
+     "palla",
+     "pala"
+    ],
+    [
+     "nonno",
+     "nono"
+    ],
+    [
+     "sette",
+     "sete"
+    ],
+    [
+     "pena",
+     "penna"
+    ]
+   ],
+   "words": [
+    "palla",
+    "nonno",
+    "sette",
+    "penna",
+    "mamma",
+    "bello",
+    "anno",
+    "tutto"
+   ]
+  },
+  "u02#B": {
+   "title": "B y V",
+   "tip": "En el español de muchos países *b* y *v* suenan igual. En italiano son distintas: la *b* junta los labios; la *v* apoya los dientes de arriba sobre el labio de abajo, como en \"fuego\" pero con voz. Compara *bene* (bien) con *vene* (venas).",
+   "pairs": [
+    [
+     "bacca",
+     "vacca"
+    ],
+    [
+     "buoi",
+     "vuoi"
+    ],
+    [
+     "abete",
+     "avete"
+    ],
+    [
+     "bene",
+     "vene"
+    ],
+    [
+     "basta",
+     "vasta"
+    ]
+   ],
+   "words": [
+    "bene",
+    "vino",
+    "bello",
+    "vita",
+    "bicchiere",
+    "valigia",
+    "birra",
+    "voce"
+   ]
+  },
+  "u03#A": {
+   "title": "La tilde final: acento en la última sílaba",
+   "tip": "Cuando la palabra termina en vocal acentuada, el acento se oye fuerte al final y se escribe con tilde: *città*, *caffè*, *perché*, *lunedì*. Compara *parlo* (hablo) con *parlò* (habló) y *metà* (mitad) con *meta* (destino).",
+   "pairs": [
+    [
+     "capitò",
+     "capito"
+    ],
+    [
+     "parlò",
+     "parlo"
+    ],
+    [
+     "finì",
+     "fini"
+    ],
+    [
+     "metà",
+     "meta"
+    ]
+   ],
+   "words": [
+    "città",
+    "caffè",
+    "perché",
+    "lunedì",
+    "università",
+    "ventitré",
+    "già",
+    "così"
+   ]
+  },
+  "u03#B": {
+   "title": "QU: la u se oye",
+   "tip": "En *quaranta*, *quindici* y *quattro* la *u* se pronuncia (suena \"kw\"). No digas \"karanta\". Compara *quasi* (casi) con *casi* (casos), y *quella* (esa) con *cella* (celda).",
+   "pairs": [
+    [
+     "quanto",
+     "tanto"
+    ],
+    [
+     "quasi",
+     "casi"
+    ],
+    [
+     "quella",
+     "cella"
+    ]
+   ],
+   "words": [
+    "quaranta",
+    "quindici",
+    "quattro",
+    "quinto",
+    "quanto",
+    "quando",
+    "questo",
+    "quello"
+   ]
+  },
+  "u04": {
+   "title": "R simple y RR doble",
+   "tip": "La *r* italiana es una vibración corta (*caro*, *sera*); la *rr* es una vibración más larga (*carro*, *serra*). Alarga la vibración, no solo la vocal. Compara *coro* (coro) con *corro* (corro).",
+   "pairs": [
+    [
+     "caro",
+     "carro"
+    ],
+    [
+     "sera",
+     "serra"
+    ],
+    [
+     "coro",
+     "corro"
+    ]
+   ],
+   "words": [
+    "Roma",
+    "rosso",
+    "ristorante",
+    "birra",
+    "terra",
+    "carta",
+    "burro",
+    "correre"
+   ]
+  },
+  "u05#A": {
+   "title": "S + consonante",
+   "tip": "En italiano *s* + consonante se pronuncia pegada, sin una *e* delante: *studente*, no \"estudente\"; *Spagna*, no \"España\". Es un error muy común en hispanohablantes.",
+   "pairs": [],
+   "words": [
+    "studente",
+    "scuola",
+    "Spagna",
+    "stazione",
+    "spesa",
+    "sport",
+    "strada",
+    "specchio"
+   ]
+  },
+  "u05#B": {
+   "title": "La Z",
+   "tip": "La *z* italiana suena /ts/ (*pizza*, *grazie*) o /dz/ (*zero*, *zona*). No es la \"z\" española ni una \"s\". Dentro de la palabra suele ser doble: *pizza*, *mezzo*.",
+   "pairs": [
+    [
+     "pazzo",
+     "passo"
+    ],
+    [
+     "mezzo",
+     "messo"
+    ],
+    [
+     "pozzo",
+     "posso"
+    ]
+   ],
+   "words": [
+    "pizza",
+    "grazie",
+    "zero",
+    "zio",
+    "lezione",
+    "ragazzo",
+    "azione",
+    "pezzo"
+   ]
+  },
+  "u06#A": {
+   "title": "CH, GH frente a CI, GI",
+   "tip": "*Ch* y *gh* delante de *e / i* suenan como *k* y *g* dura: *chi* (quién), distinto de *ci* (nos / allí); *che* (qué) distinto de *ce*. En cambio *gi* es suave: *giro* (vuelta) frente a *ghiro* (lirón).",
+   "pairs": [
+    [
+     "chi",
+     "ci"
+    ],
+    [
+     "che",
+     "ce"
+    ],
+    [
+     "giallo",
+     "gallo"
+    ],
+    [
+     "ghiro",
+     "giro"
+    ]
+   ],
+   "words": [
+    "chiaro",
+    "chiesa",
+    "chitarra",
+    "ghiaccio",
+    "cena",
+    "cinema",
+    "gelato",
+    "giacca"
+   ]
+  },
+  "u06#B": {
+   "title": "GN: la eñe italiana",
+   "tip": "*Gn* suena como la \"ñ\" del español: *bagno*, *gnocchi*, *montagna*. No se separa en dos sonidos (\"bag-no\"). Compara *sogno* (sueño de dormir) con *sonno* (sueño, ganas de dormir) y *legna* (leña) con *lena* (energía).",
+   "pairs": [
+    [
+     "sogno",
+     "sonno"
+    ],
+    [
+     "cagna",
+     "canna"
+    ],
+    [
+     "legna",
+     "lena"
+    ]
+   ],
+   "words": [
+    "bagno",
+    "gnocchi",
+    "ragno",
+    "signora",
+    "lavagna",
+    "montagna",
+    "insegnare",
+    "ogni"
+   ]
+  },
+  "u26": {
+   "title": "GLI",
+   "tip": "*Gli* es una *l* palatal: apoya la parte media de la lengua contra el paladar, como si dijeras *l* e *i* a la vez (*famiglia, figlio*). No lo leas como \"y\" ni como \"gl\" separado. Contrasta *gli* con *li*, y *moglie* con *molle*.",
+   "pairs": [
+    [
+     "gli",
+     "li"
+    ],
+    [
+     "figli",
+     "fili"
+    ],
+    [
+     "molle",
+     "moglie"
+    ]
+   ],
+   "words": [
+    "famiglia",
+    "figlio",
+    "figlia",
+    "figli",
+    "moglie",
+    "meglio",
+    "foglio",
+    "miglio"
+   ]
+  },
+  "u07#A": {
+   "title": "SC ante e / i",
+   "tip": "*Sc* ante *e / i* suena como \"sh\" suave (*pesce*, *scena*, *uscire*). Ante *a / o / u* o con *h* es *sk* (*scuola*, *schiena*). Compara *scena* (escena) con *cena* (cena).",
+   "pairs": [
+    [
+     "sci",
+     "ci"
+    ],
+    [
+     "scena",
+     "cena"
+    ],
+    [
+     "pesce",
+     "pece"
+    ]
+   ],
+   "words": [
+    "pesce",
+    "scena",
+    "sciarpa",
+    "scimmia",
+    "uscire",
+    "scegliere",
+    "scendere",
+    "conoscere"
+   ]
+  },
+  "u07#B": {
+   "title": "La H es muda",
+   "tip": "En italiano la *h* no se pronuncia: *ho, hai, ha, hanno* suenan como *o, ai, a, anno*. Solo sirve para distinguir palabras escritas: *ho* (tengo) / *o* (o), *ha* (tiene) / *a* (a), *hanno* (tienen) / *anno* (año).",
+   "pairs": [
+    [
+     "ho",
+     "o"
+    ],
+    [
+     "ha",
+     "a"
+    ],
+    [
+     "hanno",
+     "anno"
+    ],
+    [
+     "hai",
+     "ai"
+    ]
+   ],
+   "words": [
+    "ho",
+    "hai",
+    "ha",
+    "hanno",
+    "anno",
+    "ora",
+    "entrata",
+    "orario"
+   ]
+  },
+  "u08": {
+   "title": "La entonación de la pregunta",
+   "tip": "En italiano la pregunta casi no cambia el orden de las palabras: lo que la marca es la entonación, que sube al final. Compara *Vieni.* (afirmación) con *Vieni?* (pregunta). Imita la melodía, no solo las palabras.",
+   "pairs": [
+    [
+     "Hai fame.",
+     "Hai fame?"
+    ],
+    [
+     "Vieni.",
+     "Vieni?"
+    ],
+    [
+     "Parli italiano.",
+     "Parli italiano?"
+    ]
+   ],
+   "words": [
+    "Hai fame?",
+    "Vieni?",
+    "Sei stanco?",
+    "Parli italiano?",
+    "Dove vai?",
+    "Quanto costa?",
+    "Come stai?",
+    "Che ore sono?"
+   ]
+  },
+  "u27": {
+   "title": "S sorda y S sonora",
+   "tip": "La *s* entre vocales suele sonar sonora, como la *s* de \"mismo\" pronunciada con voz (*casa, rosa, museo*); la *ss* es siempre sorda (*cassa, rossa*). Al comienzo de palabra es sorda (*sole, sera*). Compara *rosa* con *rossa* y *mese* con *messe*.",
+   "pairs": [
+    [
+     "casa",
+     "cassa"
+    ],
+    [
+     "rosa",
+     "rossa"
+    ],
+    [
+     "mese",
+     "messe"
+    ]
+   ],
+   "words": [
+    "casa",
+    "rosa",
+    "cosa",
+    "museo",
+    "paese",
+    "esame",
+    "sole",
+    "sapere"
+   ]
+  },
+  "u09": {
+   "title": "Dobles en los participios",
+   "tip": "Varios participios muy usados del passato prossimo llevan consonante doble: *fatto, detto, messo, letto, scritto, rotto*. Mantén la consonante larga para no confundirlos con otras palabras: *fatto* (hecho) frente a *fato* (destino).",
+   "pairs": [
+    [
+     "fato",
+     "fatto"
+    ],
+    [
+     "tuta",
+     "tutta"
+    ],
+    [
+     "sonno",
+     "sono"
+    ]
+   ],
+   "words": [
+    "detto",
+    "letto",
+    "scritto",
+    "fatto",
+    "messo",
+    "rotto",
+    "visto",
+    "preso"
+   ]
+  },
+  "u10": {
+   "title": "La vocal final: -o, -a, -i, -e",
+   "tip": "En italiano la vocal final indica género y número, así que no se puede \"comer\": *andato* (él) y *andata* (ella) se distinguen solo por la última vocal. Pronúnciala clara aunque no lleve el acento. Compara *parto* (me voy) con *parte* (se va).",
+   "pairs": [
+    [
+     "andato",
+     "andata"
+    ],
+    [
+     "amico",
+     "amici"
+    ],
+    [
+     "arrivati",
+     "arrivate"
+    ],
+    [
+     "parto",
+     "parte"
+    ]
+   ],
+   "words": [
+    "andato",
+    "andata",
+    "andati",
+    "andate",
+    "partito",
+    "partita",
+    "tornato",
+    "arrivata"
+   ]
+  },
+  "u11": {
+   "title": "El acento en las formas verbales",
+   "tip": "En el imperfecto el acento cae en la sílaba *-va-*: *parLAvamo*, *manGIAvamo*, *aNDAvamo*, aunque la palabra sea larga. Y la tilde cambia el tiempo: *parlo* (hablo) frente a *parlò* (habló).",
+   "pairs": [
+    [
+     "parlo",
+     "parlò"
+    ],
+    [
+     "arrivo",
+     "arrivò"
+    ]
+   ],
+   "words": [
+    "parlavamo",
+    "mangiavamo",
+    "andavamo",
+    "facevamo",
+    "eravamo",
+    "avevamo",
+    "c'era",
+    "pioveva"
+   ]
+  },
+  "u12": {
+   "title": "-ISSIMO y su acento",
+   "tip": "El superlativo con *-issimo* se acentúa en la *-is-*: *bel-LIS-si-mo*, *buo-NIS-si-mo*. La *s* es doble y larga. No lo acentúes en la sílaba de la raíz.",
+   "pairs": [
+    [
+     "buono",
+     "buonissimo"
+    ],
+    [
+     "alto",
+     "altissimo"
+    ],
+    [
+     "grande",
+     "grandissimo"
+    ]
+   ],
+   "words": [
+    "bellissimo",
+    "buonissimo",
+    "carissimo",
+    "altissimo",
+    "grandissimo",
+    "tantissimo",
+    "pochissimo",
+    "ottimo"
+   ]
+  },
+  "u28": {
+   "title": "Nonna y nona, panna y pane",
+   "tip": "En la mesa italiana las consonantes dobles cambian el plato: *nonna* (abuela) y *nona* (novena), *panna* (crema) y *pane* (pan), *tonno* (atún) y *tono* (tono). Alarga la consonante doble.",
+   "pairs": [
+    [
+     "nonna",
+     "nona"
+    ],
+    [
+     "panna",
+     "pane"
+    ],
+    [
+     "tonno",
+     "tono"
+    ],
+    [
+     "pollo",
+     "polo"
+    ]
+   ],
+   "words": [
+    "antipasto",
+    "primo",
+    "secondo",
+    "contorno",
+    "dolce",
+    "tonno",
+    "pollo",
+    "coperto"
+   ]
+  },
+  "u13": {
+   "title": "La elisión: l'ho visto",
+   "tip": "Cuando el pronombre se junta con *ho / hai / ha / abbiamo*, se une en un solo golpe de voz: *l'ho visto* suena \"lo visto\" pegado, sin pausa. La *h* no suena. Compara *lo* con *l'ho*, y *la* con *l'ha*.",
+   "pairs": [
+    [
+     "lo",
+     "l'ho"
+    ],
+    [
+     "la",
+     "l'ha"
+    ]
+   ],
+   "words": [
+    "l'ho",
+    "l'hai",
+    "l'ha",
+    "l'abbiamo",
+    "l'ho visto",
+    "l'ho comprato",
+    "non l'ho capito",
+    "li ho comprati"
+   ]
+  },
+  "u14#A": {
+   "title": "CE / CI frente a CHE / CHI",
+   "tip": "*Ci* y *ce* son suaves (*ch* de \"chico\"); *chi* y *che* son duras (*k*). En *ci vuole* y *ci vogliono* el *ci* es suave. Compara *ci* (nos / allí) con *chi* (quién) y *ce* (nos) con *che* (qué).",
+   "pairs": [
+    [
+     "ci",
+     "chi"
+    ],
+    [
+     "ce",
+     "che"
+    ]
+   ],
+   "words": [
+    "ci vuole",
+    "ci vogliono",
+    "ce l'ho",
+    "ce n'è",
+    "c'è",
+    "che cosa",
+    "chi è",
+    "ne voglio"
+   ]
+  },
+  "u14#B": {
+   "title": "Dammi y dimmi: la doble M",
+   "tip": "En los imperativos con pronombre la *m* es doble y se alarga: *DAM-mi*, *DIM-mi*, *FAM-mi*. Cambiar *a* por *i* cambia el verbo: *dammi* (dame) y *dimmi* (dime).",
+   "pairs": [
+    [
+     "dammi",
+     "dimmi"
+    ],
+    [
+     "dammelo",
+     "dimmelo"
+    ],
+    [
+     "dallo",
+     "dillo"
+    ]
+   ],
+   "words": [
+    "dammi",
+    "dimmi",
+    "fammi",
+    "dammelo",
+    "dimmelo",
+    "fammelo",
+    "aspetta",
+    "ascolta"
+   ]
+  },
+  "u15#A": {
+   "title": "El futuro acaba en vocal acentuada",
+   "tip": "Las formas del futuro de *io* y *lui / lei* terminan con acento fuerte en la última sílaba y llevan tilde: *parlerò* (hablaré), *parlerà* (hablará). Compara *andrò* con *andrà*: solo cambia la vocal acentuada.",
+   "pairs": [
+    [
+     "parlerò",
+     "parlerà"
+    ],
+    [
+     "andrò",
+     "andrà"
+    ],
+    [
+     "sarò",
+     "sarà"
+    ],
+    [
+     "finirò",
+     "finirà"
+    ]
+   ],
+   "words": [
+    "parlerò",
+    "parlerà",
+    "andrò",
+    "andrà",
+    "sarò",
+    "sarà",
+    "farò",
+    "farà"
+   ]
+  },
+  "u15#B": {
+   "title": "-REI y -REBBE",
+   "tip": "El condicional de cortesía termina en *-rei* (yo) y *-rebbe* (él / ella); la *bb* es doble y larga. El acento está antes: *voRREI*, *voRREBbe*, *poTREbbe*.",
+   "pairs": [
+    [
+     "vorrei",
+     "vorrebbe"
+    ],
+    [
+     "potrei",
+     "potrebbe"
+    ],
+    [
+     "farei",
+     "farebbe"
+    ],
+    [
+     "sarei",
+     "sarebbe"
+    ]
+   ],
+   "words": [
+    "vorrei",
+    "vorresti",
+    "vorrebbe",
+    "potrei",
+    "potresti",
+    "potrebbe",
+    "sarebbe",
+    "piacerebbe"
+   ]
+  },
+  "u16": {
+   "title": "SCH y las dobles de la salud",
+   "tip": "Fíjate en las dobles de *febbre* y *tosse*, y en *sch*: en *schiena* suena *sk* (la *h* mantiene el sonido duro), mientras que *sce* en *scena* suena como *sh*. Compara *schema* (esquema) con *scema* (tonto) y *pesche* (duraznos) con *pesce* (pescado).",
+   "pairs": [
+    [
+     "schema",
+     "scema"
+    ],
+    [
+     "pesche",
+     "pesce"
+    ]
+   ],
+   "words": [
+    "schiena",
+    "stomaco",
+    "febbre",
+    "tosse",
+    "gola",
+    "medico",
+    "ambulanza",
+    "farmacia"
+   ]
+  },
+  "u17": {
+   "title": "Cadenas de consonantes",
+   "tip": "Los ordinales juntan consonantes que hay que pronunciar una por una: *quin-to*, *ses-to*, *set-ti-mo*, *ot-ta-vo*. No las simplifiques ni insertes una vocal entre ellas. La doble se alarga.",
+   "pairs": [],
+   "words": [
+    "terzo",
+    "quarto",
+    "quinto",
+    "sesto",
+    "settimo",
+    "ottavo",
+    "nono",
+    "decimo"
+   ]
+  },
+  "u18": {
+   "title": "Palabras con acento en la antepenúltima",
+   "tip": "Algunas palabras muy comunes llevan el acento en la antepenúltima sílaba (*sdrucciole*): *TEle-fo-no*, *NU-me-ro*, *CAme-ra*, *CEL-lu-la-re*. No las lleves a la penúltima. Compara *telefono* (teléfono) con *telefonò* (llamó).",
+   "pairs": [
+    [
+     "telefono",
+     "telefonò"
+    ],
+    [
+     "numero",
+     "numerò"
+    ]
+   ],
+   "words": [
+    "telefono",
+    "numero",
+    "camera",
+    "cellulare",
+    "attimo",
+    "pronto",
+    "messaggio",
+    "gentile"
+   ]
+  },
+  "u19": {
+   "title": "La ligazón: palabras que se pegan",
+   "tip": "En italiano hablado las palabras se pegan sin pausa: *da quanto tempo* suena casi como una sola palabra. Practica frases completas con un solo golpe de voz y sin cortar entre palabras; la última vocal de una palabra se une con la primera de la siguiente.",
+   "pairs": [],
+   "words": [
+    "da quanto tempo",
+    "da due anni",
+    "un po' di tempo",
+    "sta per partire",
+    "si può entrare",
+    "come si dice",
+    "che ora è",
+    "da dove vieni"
+   ]
+  },
+  "u20": {
+   "title": "El acento final de los conectores",
+   "tip": "Los conectores con tilde final se acentúan en la última sílaba: *perché*, *però*, *così*. En *quindi* y *comunque* la *u* se oye (*kw*). En *insomma* la *mm* es doble. Compara *però* (pero) con *pero* (peral).",
+   "pairs": [
+    [
+     "però",
+     "pero"
+    ]
+   ],
+   "words": [
+    "perché",
+    "però",
+    "così",
+    "quindi",
+    "comunque",
+    "insomma",
+    "invece",
+    "infatti"
+   ]
+  },
+  "u24": {
+   "title": "Repaso final de sonidos",
+   "tip": "Última vuelta con todo lo visto: consonantes dobles, *c / g* suaves y duras, *gli*, *z*, *r / rr*, *b / v* y la *h* muda. Escucha cada par y repite en voz alta imitando la duración de las consonantes.",
+   "pairs": [
+    [
+     "palla",
+     "pala"
+    ],
+    [
+     "caro",
+     "carro"
+    ],
+    [
+     "chi",
+     "ci"
+    ],
+    [
+     "gli",
+     "li"
+    ],
+    [
+     "pazzo",
+     "passo"
+    ],
+    [
+     "casa",
+     "cassa"
+    ],
+    [
+     "nonno",
+     "nono"
+    ]
+   ],
+   "words": [
+    "cena",
+    "gelato",
+    "pizza",
+    "famiglia",
+    "viaggio",
+    "bene",
+    "vino",
+    "ho"
+   ]
+  },
+  "u21": {
+   "title": "GLI en glielo y doble M",
+   "tip": "En *glielo*, *gliela*, *gliene* la *gl* es la misma *l* palatal de *famiglia*: la lengua apoyada en el paladar. En *dammelo* y *dimmelo* la *m* es doble y se alarga: *dam-ME-lo*. Habla despacio y pega las sílabas, como si fuera una sola palabra.",
+   "pairs": [],
+   "words": [
+    "glielo",
+    "gliela",
+    "gliene",
+    "dammelo",
+    "dimmelo",
+    "spiegarmelo",
+    "portarmelo",
+    "famiglia"
+   ]
+  },
+  "u22": {
+   "title": "Vocales juntas: sia, abbia",
+   "tip": "En *sia*, *abbia*, *siate* y *siamo* las vocales van pegadas en una sola sílaba (*SIA*, *AB-bia*). No separes la *i* como en español: es una vocal rápida y corta. Compara *sei* (eres) con *sai* (sabes), y *mia* (mía) con *mai* (nunca).",
+   "pairs": [
+    [
+     "sei",
+     "sai"
+    ],
+    [
+     "mai",
+     "mia"
+    ]
+   ],
+   "words": [
+    "sia",
+    "abbia",
+    "stia",
+    "venga",
+    "vada",
+    "faccia",
+    "possa",
+    "siamo"
+   ]
+  },
+  "u23": {
+   "title": "SS y ZZ en el subjuntivo",
+   "tip": "El *-ssi* de *avessi, fossi, potessi* lleva una *s* doble sorda, larga: *a-VES-si*. No la suavices como una *z* española. Compara *pozzo* (pozo, con *zz*) con *posso* (puedo, con *ss*) y *mezzo* (medio) con *messo* (puesto).",
+   "pairs": [
+    [
+     "pozzo",
+     "posso"
+    ],
+    [
+     "mezzo",
+     "messo"
+    ]
+   ],
+   "words": [
+    "avessi",
+    "fossi",
+    "potessi",
+    "volessi",
+    "facessi",
+    "viaggerei",
+    "comprerei",
+    "resterei"
+   ]
+  }
+ },
+ "gloss": {
+  "messo": "puesto",
+  "sete": "sed",
+  "vorrebbe": "querría",
+  "andata": "ida (ella)",
+  "pollo": "pollo",
+  "sarei": "sería",
+  "finì": "terminó",
+  "parli italiano.": "Hablas italiano.",
+  "che cosa": "qué cosa",
+  "faccia": "haga",
+  "viaggio": "viaje",
+  "canna": "caña",
+  "pena": "pena",
+  "gelato": "helado",
+  "bicchiere": "vaso",
+  "scegliere": "elegir",
+  "vacca": "vaca",
+  "caro": "querido / caro",
+  "ristorante": "restaurante",
+  "scritto": "escrito",
+  "hanno": "tienen",
+  "terzo": "tercero",
+  "cosa": "cosa",
+  "sarò": "seré",
+  "sesto": "sexto",
+  "ancora": "todavía",
+  "gola": "garganta",
+  "casi": "casos",
+  "cane": "perro",
+  "fammelo": "házmelo",
+  "finirà": "terminará",
+  "un po' di tempo": "un poco de tiempo",
+  "fossi": "fuera",
+  "basta": "basta",
+  "sport": "deporte",
+  "arrivata": "llegada",
+  "tuta": "buzo",
+  "amico": "amigo",
+  "portarmelo": "llevármelo",
+  "potrei": "podría",
+  "dimmelo": "dímelo",
+  "andate": "idas",
+  "àncora": "ancla",
+  "ottavo": "octavo",
+  "telefono": "teléfono",
+  "gliela": "se la",
+  "cagna": "perra",
+  "dolce": "postre",
+  "venga": "venga",
+  "avessi": "tuviera",
+  "lunedì": "lunes",
+  "attimo": "instante",
+  "ci vuole": "hace falta",
+  "detto": "dicho",
+  "partita": "salida (ella)",
+  "l'ho visto": "lo vi",
+  "insomma": "en fin",
+  "rotto": "roto",
+  "montagna": "montaña",
+  "uscire": "salir",
+  "gli": "a él / los",
+  "giro": "vuelta",
+  "famiglia": "familia",
+  "capitano": "capitán",
+  "caffè": "el café",
+  "dimmi": "dime",
+  "ghiro": "lirón",
+  "lavagna": "pizarra",
+  "birra": "cerveza",
+  "sia": "sea",
+  "andati": "idos",
+  "correre": "correr",
+  "ambulanza": "ambulancia",
+  "avevamo": "teníamos",
+  "ce l'ho": "lo tengo",
+  "passo": "paso",
+  "capito": "entendido",
+  "conoscere": "conocer",
+  "finirò": "terminaré",
+  "meta": "meta",
+  "pizza": "pizza",
+  "visto": "visto",
+  "anno": "año",
+  "coperto": "cubierto",
+  "andato": "ido (él)",
+  "invece": "en cambio",
+  "perché": "porque / por qué",
+  "bello": "bonito",
+  "ventitré": "veintitrés",
+  "paese": "país",
+  "vorresti": "querrías",
+  "fammi": "hazme",
+  "tono": "tono",
+  "settimo": "séptimo",
+  "tutto": "todo",
+  "facevamo": "hacíamos",
+  "hai fame?": "¿Tienes hambre?",
+  "tutta": "toda",
+  "cena": "cena",
+  "glielo": "se lo",
+  "ce": "nos",
+  "spagna": "España",
+  "andrò": "iré",
+  "sapere": "saber",
+  "da dove vieni": "de dónde vienes",
+  "bellissimo": "hermosísimo",
+  "scema": "tonto",
+  "nonno": "abuelo",
+  "arrivate": "llegadas",
+  "foglio": "hoja",
+  "l'ha": "la tiene / la ha",
+  "arrivò": "llegó",
+  "quattro": "cuatro",
+  "altissimo": "altísimo",
+  "possa": "pueda",
+  "grazie": "gracias",
+  "arrivo": "llego",
+  "stazione": "la estación",
+  "sarebbe": "sería (él)",
+  "pesche": "duraznos",
+  "farmacia": "la farmacia",
+  "farà": "hará",
+  "li ho comprati": "los compré",
+  "parli italiano?": "¿Hablas italiano?",
+  "stia": "esté",
+  "pala": "pala",
+  "voce": "voz",
+  "gliene": "se lo (de eso)",
+  "cinema": "cine",
+  "amici": "amigos",
+  "giallo": "amarillo",
+  "parto": "salgo",
+  "piacerebbe": "gustaría",
+  "o": "o",
+  "scimmia": "mono",
+  "ottimo": "excelente",
+  "contorno": "guarnición",
+  "da due anni": "desde hace dos años",
+  "vino": "el vino",
+  "orario": "horario",
+  "gallo": "gallo",
+  "potresti": "podrías",
+  "chitarra": "guitarra",
+  "aspetta": "espera",
+  "numero": "el número",
+  "ciao": "hola / adiós (con amigos)",
+  "bene": "bien",
+  "scuola": "la escuela",
+  "che": "qué / que",
+  "bacca": "baya",
+  "tè": "té",
+  "parlò": "habló",
+  "spesa": "compra",
+  "terra": "tierra",
+  "pezzo": "pedazo",
+  "vita": "vida",
+  "quinto": "quinto",
+  "sogno": "sueño (soñar) / sueño",
+  "capitò": "sucedió",
+  "pece": "brea",
+  "polo": "polo",
+  "sì": "sí",
+  "pero": "peral",
+  "scena": "escena",
+  "ragazzo": "muchacho",
+  "vorrei": "quisiera",
+  "esame": "examen",
+  "chi è": "quién es",
+  "ce n'è": "hay (de eso)",
+  "vasta": "vasta",
+  "insegnare": "enseñar",
+  "mangiavamo": "comíamos",
+  "studente": "estudiante",
+  "figlio": "hijo",
+  "viaggerei": "viajaría",
+  "quanto costa?": "¿Cuánto cuesta?",
+  "sta per partire": "está por salir",
+  "l'ho comprato": "lo compré",
+  "primo": "primer plato",
+  "roma": "Roma",
+  "museo": "museo",
+  "chiaro": "claro",
+  "ragno": "araña",
+  "comprerei": "compraría",
+  "carta": "papel / carta",
+  "spiegarmelo": "explicármelo",
+  "scendere": "bajar",
+  "parlerà": "hablará",
+  "volessi": "quisiera",
+  "siamo": "somos",
+  "l'abbiamo": "lo hemos",
+  "sei stanco?": "¿Estás cansado?",
+  "vieni.": "Vienes.",
+  "rossa": "roja",
+  "ci vogliono": "hacen falta",
+  "secondo": "segundo plato",
+  "ascolta": "escucha",
+  "abbia": "tenga",
+  "nonna": "abuela",
+  "papa": "el Papa",
+  "potessi": "pudiera",
+  "dallo": "dalo",
+  "ne voglio": "quiero (de eso)",
+  "burro": "mantequilla",
+  "cella": "celda",
+  "tantissimo": "muchísimo",
+  "parlo": "hablo",
+  "farei": "haría",
+  "pazzo": "loco",
+  "entrata": "la entrada",
+  "dillo": "dilo",
+  "che ore sono?": "¿Qué hora es?",
+  "sciarpa": "bufanda",
+  "sono": "soy / son",
+  "nono": "noveno",
+  "che ora è": "qué hora es",
+  "parlerò": "hablaré",
+  "come si dice": "cómo se dice",
+  "sai": "sabes",
+  "sette": "siete",
+  "sera": "tarde / noche",
+  "parte": "sale",
+  "grandissimo": "grandísimo",
+  "università": "universidad",
+  "quanto": "cuánto",
+  "li": "allí",
+  "rosa": "rosa",
+  "miglio": "milla / mijo",
+  "chi": "quién",
+  "però": "pero",
+  "vene": "venas",
+  "numerò": "numeró",
+  "camera": "la habitación",
+  "da quanto tempo": "desde hace cuánto tiempo",
+  "abete": "abeto",
+  "mezzo": "medio",
+  "azione": "acción",
+  "ora": "hora / ahora",
+  "ogni": "cada",
+  "letto": "leído / cama",
+  "avete": "ustedes tienen",
+  "serra": "invernadero",
+  "chiesa": "iglesia",
+  "messe": "cosecha",
+  "figli": "hijos",
+  "mai": "nunca",
+  "eravamo": "éramos",
+  "corro": "corro",
+  "quando": "cuándo",
+  "mamma": "mamá",
+  "gnocchi": "ñoquis",
+  "càpitano": "ocurren / suceden",
+  "antipasto": "entrada",
+  "sarà": "será",
+  "telefonò": "llamó por teléfono",
+  "pochissimo": "poquísimo",
+  "ci": "nos / allí",
+  "c'è": "hay",
+  "legna": "leña",
+  "tornato": "vuelto",
+  "sole": "sol",
+  "rosso": "rojo",
+  "potrebbe": "podría (él / usted)",
+  "a": "a",
+  "fini": "fines",
+  "buono": "bueno",
+  "comunque": "de todos modos",
+  "cassa": "caja",
+  "città": "la ciudad",
+  "zio": "tío",
+  "gatto": "gato",
+  "tosse": "tos",
+  "quello": "aquel / ese",
+  "questo": "este",
+  "zero": "cero",
+  "buonissimo": "buenísimo",
+  "nona": "novena",
+  "casa": "casa",
+  "mia": "mía",
+  "mese": "mes",
+  "tanto": "tanto",
+  "febbre": "fiebre",
+  "sonno": "sueño (ganas de dormir)",
+  "farò": "haré",
+  "valigia": "maleta",
+  "gentile": "amable",
+  "facessi": "hiciera",
+  "sci": "esquí",
+  "lena": "energía",
+  "signora": "la señora",
+  "vieni?": "¿Vienes?",
+  "preso": "tomado",
+  "quella": "esa",
+  "come stai?": "¿Cómo estás?",
+  "molle": "blando",
+  "parlavamo": "hablábamos",
+  "pioveva": "llovía",
+  "pesce": "pescado",
+  "carro": "carreta / vagón",
+  "dove vai?": "¿Adónde vas?",
+  "specchio": "espejo",
+  "giorno": "el día",
+  "l'ho": "lo tengo / lo he",
+  "messaggio": "mensaje",
+  "partito": "salido (él)",
+  "la": "la",
+  "vada": "vaya",
+  "alto": "alto",
+  "ghiaccio": "hielo",
+  "carissimo": "carísimo",
+  "tonno": "atún",
+  "panna": "crema",
+  "stomaco": "estómago",
+  "coro": "coro",
+  "ha": "tiene",
+  "quaranta": "cuarenta",
+  "hai": "tienes",
+  "arrivati": "llegados",
+  "andavamo": "íbamos",
+  "c'era": "había",
+  "penna": "pluma",
+  "lezione": "lección",
+  "moglie": "esposa",
+  "quasi": "casi",
+  "papà": "papá",
+  "decimo": "décimo",
+  "ai": "a los",
+  "l'hai": "lo has",
+  "pane": "pan",
+  "schema": "esquema",
+  "resterei": "me quedaría",
+  "cellulare": "celular",
+  "già": "ya",
+  "palla": "pelota",
+  "ho": "tengo",
+  "lo": "lo",
+  "così": "así",
+  "fatto": "hecho",
+  "andrà": "irá",
+  "metà": "mitad",
+  "medico": "médico",
+  "fato": "destino",
+  "farebbe": "haría (él)",
+  "hai fame.": "Tienes hambre.",
+  "quindi": "por eso",
+  "meglio": "mejor",
+  "sei": "seis / eres",
+  "figlia": "hija",
+  "posso": "puedo",
+  "infatti": "en efecto",
+  "giacca": "chaqueta",
+  "vuoi": "quieres",
+  "dammi": "dame",
+  "nome": "nombre",
+  "buoi": "bueyes",
+  "si può entrare": "se puede entrar",
+  "strada": "calle",
+  "non l'ho capito": "no lo entendí",
+  "grande": "grande",
+  "pronto": "aló / listo",
+  "quindici": "quince",
+  "pozzo": "pozo",
+  "bagno": "el baño",
+  "dammelo": "dámelo",
+  "quarto": "cuarto",
+  "fili": "hilos",
+  "schiena": "espalda"
+ },
+ "audioPending": [
+  "Che ore sono?",
+  "Come stai?",
+  "Dove vai?",
+  "Hai fame.",
+  "Hai fame?",
+  "Parli italiano.",
+  "Parli italiano?",
+  "Quanto costa?",
+  "Roma",
+  "Sei stanco?",
+  "Vieni.",
+  "Vieni?",
+  "a",
+  "abbia",
+  "ai",
+  "altissimo",
+  "alto",
+  "amici",
+  "amico",
+  "andata",
+  "andate",
+  "andati",
+  "andato",
+  "andavamo",
+  "andrà",
+  "andrò",
+  "arrivata",
+  "arrivate",
+  "arrivati",
+  "arrivo",
+  "arrivò",
+  "ascolta",
+  "aspetta",
+  "avessi",
+  "avevamo",
+  "basta",
+  "bellissimo",
+  "buonissimo",
+  "c'era",
+  "c'è",
+  "cagna",
+  "canna",
+  "capito",
+  "capitò",
+  "carissimo",
+  "carta",
+  "casi",
+  "ce",
+  "ce l'ho",
+  "ce n'è",
+  "cella",
+  "che cosa",
+  "che ora è",
+  "chi è",
+  "chiaro",
+  "chitarra",
+  "ci vogliono",
+  "ci vuole",
+  "come si dice",
+  "comprerei",
+  "contorno",
+  "coperto",
+  "coro",
+  "correre",
+  "corro",
+  "così",
+  "càpitano",
+  "da dove vieni",
+  "da due anni",
+  "da quanto tempo",
+  "dallo",
+  "dammelo",
+  "dammi",
+  "decimo",
+  "dillo",
+  "dimmelo",
+  "dimmi",
+  "eravamo",
+  "facessi",
+  "facevamo",
+  "fammelo",
+  "fammi",
+  "farebbe",
+  "farei",
+  "farà",
+  "farò",
+  "fato",
+  "fatto",
+  "figli",
+  "figlia",
+  "fili",
+  "fini",
+  "finirà",
+  "finirò",
+  "finì",
+  "foglio",
+  "ghiro",
+  "giro",
+  "gliene",
+  "gnocchi",
+  "grande",
+  "grandissimo",
+  "infatti",
+  "insegnare",
+  "l'abbiamo",
+  "l'ha",
+  "l'hai",
+  "l'ho",
+  "l'ho comprato",
+  "l'ho visto",
+  "la",
+  "lavagna",
+  "legna",
+  "lena",
+  "li ho comprati",
+  "lo",
+  "mangiavamo",
+  "meglio",
+  "messe",
+  "messo",
+  "meta",
+  "metà",
+  "miglio",
+  "moglie",
+  "molle",
+  "ne voglio",
+  "nome",
+  "non l'ho capito",
+  "nona",
+  "numerò",
+  "o",
+  "ogni",
+  "orario",
+  "ottavo",
+  "ottimo",
+  "papa",
+  "papà",
+  "parlavamo",
+  "parlerà",
+  "parlerò",
+  "parlo",
+  "parlò",
+  "parte",
+  "partita",
+  "partito",
+  "parto",
+  "pece",
+  "pero",
+  "pesche",
+  "piacerebbe",
+  "pioveva",
+  "pochissimo",
+  "pollo",
+  "polo",
+  "portarmelo",
+  "possa",
+  "posso",
+  "potessi",
+  "potrebbe",
+  "potrei",
+  "potresti",
+  "preso",
+  "primo",
+  "quasi",
+  "quattro",
+  "quella",
+  "resterei",
+  "ristorante",
+  "rossa",
+  "sapere",
+  "sarebbe",
+  "sarei",
+  "sarà",
+  "sarò",
+  "scegliere",
+  "scema",
+  "scena",
+  "schema",
+  "scimmia",
+  "serra",
+  "sesto",
+  "settimo",
+  "si può entrare",
+  "sole",
+  "spiegarmelo",
+  "sta per partire",
+  "stia",
+  "sì",
+  "tantissimo",
+  "telefonò",
+  "terra",
+  "tonno",
+  "tono",
+  "tornato",
+  "tutta",
+  "tutto",
+  "tè",
+  "un po' di tempo",
+  "vada",
+  "vasta",
+  "vene",
+  "venga",
+  "ventitré",
+  "viaggerei",
+  "visto",
+  "vita",
+  "voce",
+  "volessi",
+  "vorrebbe",
+  "vorrei",
+  "vorresti",
+  "àncora"
+ ]
+}
