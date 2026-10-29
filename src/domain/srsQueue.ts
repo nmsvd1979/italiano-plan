@@ -1,5 +1,5 @@
 import { UNITS } from "../content/curriculum";
-import { addDays, diffInDays, parseISODate, toISODate } from "./dates";
+import { addDays, diffInDays, formatDateHuman, parseISODate, toISODate } from "./dates";
 import type { Progress } from "./curriculum";
 import { wordsSeen } from "./cycle";
 import { dayOf, cardId, type CardKind, type SrsCard, type SrsState } from "./srs";
@@ -137,4 +137,30 @@ export function answeredToday(state: SrsState, today: Date): number {
 /** Unidades cuyo bloque «Palabras de la unidad» ya hiciste (en el ciclo nuevo o en la app anterior), en orden de currículo. */
 export function eligibleUnits(progress: Pick<Progress, "done">): string[] {
   return UNITS.filter((u) => u.ready && wordsSeen(u.id, progress.done)).map((u) => u.id);
+}
+
+export interface NextDue {
+  /** Día (AAAA-MM-DD) en que vence la próxima tarjeta pendiente. */
+  date: string;
+  /** Días desde hoy. */
+  days: number;
+  /** Tarjetas que vencen ese día. */
+  count: number;
+}
+
+/** La próxima tarjeta que vencerá después de hoy, o null si no hay ninguna. */
+export function nextDue(state: SrsState, today: Date): NextDue | null {
+  const todayISO = toISODate(today);
+  const later = Object.values(state.cards).map((c) => dayOf(c.fsrs.due)).filter((d) => d > todayISO).sort();
+  if (later.length === 0) return null;
+  const date = later[0];
+  return { date, days: diffInDays(parseISODate(date), today), count: later.filter((d) => d === date).length };
+}
+
+/** Texto de «Nada por repasar ahora»: cuándo vence la próxima tarjeta y cuántas vencen ese día. */
+export function nothingToReviewText(next: NextDue | null): string {
+  if (!next) return "No quedan tarjetas vencidas ni palabras nuevas para hoy.";
+  const cards = `${next.count} ${next.count === 1 ? "tarjeta" : "tarjetas"}`;
+  const when = next.days === 1 ? "mañana" : `el ${formatDateHuman(parseISODate(next.date))}`;
+  return `Hoy no vence ninguna tarjeta. La próxima vence ${when}: ${cards}.`;
 }

@@ -4,7 +4,7 @@ import { goBack, href } from "../../app/route";
 import { CORE_WEEKS } from "../../content/course";
 import { UNITS } from "../../content/curriculum";
 import {
-  Gap, UnitView, backupRecent, diagnosticSessions, setPostponed, setUsePrevious, startDiagnostic, startHere, startingPoint,
+  Gap, NO_GAPS_TEXT, PREVIOUS_PLAN_NO_GAPS_TEXT, UnitView, backupRecent, diagnosticSessions, setPostponed, setUsePrevious, startDiagnostic, startHere, startingPoint,
 } from "../../domain/continuity";
 import { planSeed } from "../../domain/continuitySeed";
 import { formatDateHuman } from "../../domain/dates";
@@ -232,6 +232,13 @@ export function StartingPoint() {
               )}
             </div>
           ))}
+        </section>
+      )}
+
+      {point.gaps.length === 0 && point.catchup.length === 0 && (
+        <section className="card stack">
+          <div className="eyebrow">Huecos por cerrar</div>
+          <p className="sub">{continuity.usePrevious ? PREVIOUS_PLAN_NO_GAPS_TEXT : NO_GAPS_TEXT}</p>
         </section>
       )}
 
