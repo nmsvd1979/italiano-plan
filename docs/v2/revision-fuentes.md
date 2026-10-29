@@ -94,25 +94,15 @@ Contenido en `src/content/nuevas/u28.ts`; se conecta sola a los registros porque
 **Evitado a propósito (sin fuente):** *Cosa prende?* y *Cosa desidera?* (siguen en `dudas-italiano.md`; la fuente de Colanguage tampoco los trae), *Un tavolo per due, per favore* como frase única (se usa *Avete un tavolo per due?*), cifras de propina o de coperto por persona (la fuente dice 1–3 euros por persona, pero varía), y femeninos de profesiones.
 **Sin audio todavía:** ninguna palabra nueva de pronunciación necesita entrar en `AUDIO_PENDING`, salvo *nona*, que ya estaba. *Cameriere, dolce, conto, pasta, carne, pesce, nonna, nono, pane, panna, sete, sette* ya tienen audio.
 
-## G3 — Lista ampliada de palabras (29-oct-2026)
+## G4 · Textos graduados (29-oct-2026, rama `feat/g4-textos-graduados`)
+35 textos de lectura, uno por paso del curso (32 semanas + 3 del puente), en `data/g4/textos-*.txt`. `scripts/g4-compilar.py` los valida y genera `src/content/lectura.json`; `src/content/lectura.ts` los expone (`getLectura(id)`, `checkShortAnswer`); `lectura.test.ts` revisa 214 condiciones. Cada texto lleva traducción párrafo a párrafo, 4–8 palabras clave y 4 preguntas (3 de opción múltiple + 1 de respuesta breve con respuestas aceptadas y explicación).
 
-**Qué es.** Cada una de las 28 unidades pasa de ~20 palabras a ~50, todas con frase de ejemplo en italiano y su traducción, y aparece un mazo general de palabras de uso frecuente que no pertenecen a ninguna unidad.
-
-| Pieza | Cantidad | Dónde |
-|---|---|---|
-| Palabras del núcleo con frase de ejemplo | 577 (todas las de u01–u28) | `src/content/vocab-g3.json` → `enrich` |
-| Palabras nuevas por unidad | 829 (25 a 33 por unidad) | `src/content/vocab-g3.json` → `extra` |
-| Mazo general de frecuencia | 574 | `src/content/base-frecuente.json` (se carga solo cuando se necesita) |
-| Fuente editable | `data/g3/unidades-*.txt`, `data/g3/frecuentes-*.txt` | compiladas con `scripts/g3-compilar.py` |
-
-**Etiquetas.** `unidad` = palabra propia del tema de la unidad; `frecuente` = palabra de uso general. Una palabra cuenta como frecuente si su forma más frecuente (o la de sus formas verbales) está entre las 4.000 primeras de FrequencyWords (subtítulos), lo que equivale aproximadamente a los 2.000 lemas más frecuentes, o si está en la lista de 1.000 palabras comunes de napolux. Resultado: 62 % de las palabras de las unidades son de uso general (100 % de las del núcleo que lo son por naturaleza, 46 % de las nuevas, que son más temáticas); el mazo general es 100 % de uso general.
-
-**Verificación (nivel V1, automática).** `scripts/g3-compilar.py` comprueba: que cada palabra y cada frase usen solo formas que existen en las listas de frecuencia (detecta erratas), puntuación final, sin repetir palabras (ni entre unidades ni con el mazo general), etiquetas coherentes con la frecuencia, ejemplos para todas las palabras del núcleo. `src/content/vocab-g3.test.ts` añade: 45–55 palabras por unidad, español sin voseo ni regionalismos, reparto A/B en las siete unidades partidas, ≥ 55 % de uso general, y el mazo general sin pisar las unidades. **No es V2 ni V3:** las frases las escribió una sola pasada. Pendiente: G-R (segunda pasada independiente) de todo G3 antes de generar audio.
-
-**Palabras que las listas no confirman** (se revisan en G-R; hasta entonces sin audio propio): *convalidare* (el billete del tren; alternativa *obliterare*/*timbrare*), *chiocciola* (la @), *consonante*, *centralizzato*, *sillabare*, *traslocare*, *telefonini*, *tiramisù*, nombre propio *Bobi*. Las formas verbales conjugadas que aparecen en las frases (*cuocio*, *guarirò*, *pianifico*, *riassumo*, *studierei*, *viaggerei*, *partirei*) son regulares.
-
-**Español neutro.** Se evitaron chilenismos (*polera*, *pololo*, *frutilla*, *bencina*, *boleta*, *plata*, *pieza*, *flojo*…); la prueba los detecta. Se corrigieron también cinco glosas antiguas (*chao*, *departamento*, *arriendo*, *arrendar*, *lindo*) y una frase de u26.
-
-**Mazo de Quizlet.** Se revisó `data/quizlet-1400.json` como posible base y **no se usa**: tiene glosas incorrectas (por ejemplo «carmesí = claro» para *rosso lampone*, «encima de» para *attraverso*, «pedir (en restaurante)» para «ordinare /») y palabras muy poco útiles para A1–A2 (*rincrescere*, *vantarsi*, *scavare*). El mazo general se hizo desde cero con las listas de frecuencia.
-
-**Cómo se usa desde el código.** `getVocab(unit)` sigue devolviendo las palabras del núcleo (ahora con `ex`, `exEs`, `tag`); `getWords(unit)` devuelve el núcleo más la ampliación (con `extra` y, en las unidades partidas, `part`: A o B); `loadGeneralDeck()` carga el mazo general. Hasta que Code cambie la app para usar `getWords`, la app se comporta como antes.
+| Decisión | Detalle |
+|---|---|
+| Largo | 55–250 palabras. El plan decía 100–250, pero con el léxico de la primera fase (u25, u01–u04) 100 palabras obligan a usar vocabulario aún no enseñado; el mínimo sube con las fases (55 hasta u04, 80 hasta u08, 100 hasta u16, 120 desde u17). |
+| Tipos de texto | Los de `docs/v2/13` (cartel, presentación, aviso, horario, menú, receta, mail, prospecto, columna, carta…). |
+| Verificación | **V1** (automática): las 600+ formas distintas se compararon con `it_50k` de FrequencyWords; las que están fuera del rango 12 000 (≈120) se revisaron una por una y son formas correctas del italiano (flexiones de verbos y adjetivos, vocabulario temático como *lasagne, risotto, basilico, compresse, semaforo*) o nombres propios y datos de ejemplo. Sin erratas. |
+| Español | Neutro, con tuteo; se evitaron regionalismos (*polera, arriendo, amoblado, sartén* masculino, *echar de menos*, *tomar desayuno*). El validador y la prueba detectan voseo y los más comunes. |
+| Evitado a propósito | *Che cosa desidera?* (no confirmado, sigue en `dudas-italiano.md`): el camarero pregunta *Vuole ordinare?*. |
+| Pendiente | Medir que ≥ 95 % de las palabras de cada texto estén enseñadas hasta esa semana (necesita el léxico acumulado de G3, que llega con el PR #30), y la segunda pasada independiente (G-R). |
+| Conexión | Aún no está conectado a la app: Code lo conecta al día 5 del ciclo (bloques «Texto graduado» y «Preguntas del texto»). |

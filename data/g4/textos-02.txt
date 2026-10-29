@@ -1,0 +1,256 @@
+## u05#A
+tipo: indicaciones
+titulo: Come arrivare in piazza
+testo:
+Per arrivare alla piazza dalla stazione, segui queste indicazioni.
+
+Esci dalla stazione e vai sempre dritto per cento metri. Al semaforo gira a destra. Poi attraversa la strada e continua fino alla farmacia. Dopo la farmacia prendi la prima strada a sinistra.
+
+La piazza è in fondo alla strada, di fronte alla chiesa. Il museo è accanto alla chiesa. È aperto dalle nove alle cinque.
+
+Se non trovi la strada, chiedi: «Scusi, dov'è la piazza?». Di solito le persone sono gentili e rispondono con piacere. A piedi ci vogliono dieci minuti.
+es:
+Para llegar a la plaza desde la estación, sigue estas indicaciones.
+
+Sal de la estación y ve siempre derecho cien metros. En el semáforo gira a la derecha. Luego cruza la calle y sigue hasta la farmacia. Después de la farmacia toma la primera calle a la izquierda.
+
+La plaza está al final de la calle, frente a la iglesia. El museo está al lado de la iglesia. Está abierto de nueve a cinco.
+
+Si no encuentras la calle, pregunta: «Disculpe, ¿dónde está la plaza?». Por lo general las personas son amables y responden con gusto. A pie se demoran diez minutos.
+claves: dritto=derecho; il semaforo=el semáforo; girare=girar; accanto a=al lado de; di fronte a=frente a; in fondo a=al final de
+p1: ¿Qué hay que hacer en el semáforo? | girare a sinistra | andare dritto | girare a destra | c | «Al semaforo gira a destra».
+p2: ¿Dónde está el museo? | accanto alla chiesa | in stazione | dopo la farmacia | a | «Il museo è accanto alla chiesa».
+p3: ¿Cuánto se demora a pie? | cinque minuti | dieci minuti | un'ora | b | «A piedi ci vogliono dieci minuti».
+p4: ¿Qué se pregunta si no se encuentra la calle? | scusi, dov'è la piazza / dov'è la piazza | Es la frase que sugiere el texto.
+## u05#B
+tipo: señalización y aviso
+titulo: Avvisi in città
+testo:
+AVVISI
+Biblioteca comunale: aperta dal lunedì al venerdì, dalle 9 alle 18. Il sabato è aperta solo la mattina. La domenica è chiusa.
+
+VIETATO FUMARE nel parco.
+VIETATO ENTRARE con la bicicletta.
+USCITA a destra. ENTRATA a sinistra.
+
+Attenzione: oggi la farmacia è chiusa per lavori. La farmacia più vicina è in via Garibaldi, a duecento metri da qui. Vai dritto, poi gira a sinistra.
+
+Per informazioni chiedi all'ufficio turistico, in piazza, accanto al museo. Le persone che lavorano lì parlano anche inglese e sono molto gentili.
+es:
+AVISOS
+Biblioteca municipal: abierta de lunes a viernes, de 9 a 18. El sábado está abierta solo en la mañana. El domingo está cerrada.
+
+PROHIBIDO FUMAR en el parque.
+PROHIBIDO ENTRAR con bicicleta.
+SALIDA a la derecha. ENTRADA a la izquierda.
+
+Atención: hoy la farmacia está cerrada por obras. La farmacia más cercana está en calle Garibaldi, a doscientos metros de aquí. Ve derecho, luego gira a la izquierda.
+
+Para información pregunta en la oficina de turismo, en la plaza, al lado del museo. Las personas que trabajan allí hablan también inglés y son muy amables.
+claves: vietato=prohibido; aperta=abierta; chiusa=cerrada; l'uscita=la salida; l'entrata=la entrada; i lavori=las obras
+p1: ¿Cuándo está cerrada la biblioteca? | il sabato | la domenica | il venerdì | b | «La domenica è chiusa».
+p2: ¿Qué está prohibido en el parque? | fumare | mangiare | giocare | a | «Vietato fumare nel parco».
+p3: ¿Por qué está cerrada la farmacia hoy? | per lavori | per una festa | è domenica | a | «chiusa per lavori».
+p4: ¿A cuántos metros está la farmacia más cercana? | duecento / 200 | «a duecento metri da qui».
+## u06#A
+tipo: etiqueta de producto
+titulo: Etichetta di un prodotto
+testo:
+OLIO EXTRA VERGINE DI OLIVA
+Prodotto in Italia, in Toscana.
+Contenuto: un litro.
+Prezzo: otto euro e cinquanta.
+Da consumare entro dicembre.
+Conservare in un posto fresco, lontano dalla luce.
+
+È un olio buono e leggero, con un sapore deciso. È ottimo sull'insalata, sulla pasta e sul pane. Non è adatto per friggere. Una bottiglia basta per un mese, per una famiglia di quattro persone.
+
+Famiglia Bianchi: «Compriamo questo olio da molti anni. Costa un po' di più, ma è fresco e buono. Per noi è il migliore!»
+es:
+ACEITE DE OLIVA EXTRA VIRGEN
+Producido en Italia, en la Toscana.
+Contenido: un litro.
+Precio: ocho euros con cincuenta.
+Consumir antes de diciembre.
+Conservar en un lugar fresco, lejos de la luz.
+
+Es un aceite bueno y ligero, de sabor intenso. Es excelente en la ensalada, en la pasta y en el pan. No es apto para freír. Una botella alcanza para un mes, para una familia de cuatro personas.
+
+Familia Bianchi: «Compramos este aceite desde hace muchos años. Cuesta un poco más, pero es fresco y bueno. ¡Para nosotros es el mejor!»
+claves: l'olio=el aceite; il sapore=el sabor; fresco=fresco; entro=antes de / hasta; il litro=el litro; friggere=freír
+p1: ¿Dónde se produce el aceite? | in Sicilia | in Toscana | in Spagna | b | «Prodotto in Italia, in Toscana».
+p2: ¿Cómo se debe conservar? | in frigorifero | al sole | in un posto fresco | c | «in un posto fresco, lontano dalla luce».
+p3: ¿Para qué no sirve este aceite? | per l'insalata | per friggere | per il pane | b | «Non è adatto per friggere».
+p4: ¿Cuánto cuesta el aceite? | otto euro e cinquanta / 8,50 | «otto euro e cinquanta».
+## u06#B
+tipo: anuncio de tienda
+titulo: Offerte della settimana
+testo:
+SUPERMERCATO VERDE — OFFERTE DELLA SETTIMANA
+
+Pasta: 1 € al chilo.
+Pomodori: 2 € al chilo.
+Mele: 1,80 € al chilo.
+Formaggio: 12 € al chilo.
+Pane fresco: 2 € al chilo.
+
+Oggi comprate due chili di mele e il terzo chilo è gratis!
+
+Il supermercato è aperto tutti i giorni dalle 8 alle 20, anche la domenica. Se avete la carta del negozio, pagate meno. Potete pagare in contanti o con la carta di credito.
+
+Venite a trovarci: vi aspettiamo con tante cose buone! Se non trovate qualcosa, chiedete alla signora alla cassa: è sempre pronta ad aiutarvi.
+es:
+SUPERMERCADO VERDE — OFERTAS DE LA SEMANA
+
+Pasta: 1 € el kilo.
+Tomates: 2 € el kilo.
+Manzanas: 1,80 € el kilo.
+Queso: 12 € el kilo.
+Pan fresco: 2 € el kilo.
+
+¡Hoy compren dos kilos de manzanas y el tercer kilo es gratis!
+
+El supermercado está abierto todos los días de 8 a 20, también el domingo. Si tienen la tarjeta de la tienda, pagan menos. Pueden pagar en efectivo o con tarjeta de crédito.
+
+Vengan a visitarnos: ¡los esperamos con muchas cosas buenas! Si no encuentran algo, pregunten a la señora de la caja: siempre está lista para ayudarlos.
+claves: le offerte=las ofertas; il chilo=el kilo; gratis=gratis; il formaggio=el queso; in contanti=en efectivo; tutti i giorni=todos los días
+p1: ¿Cuánto cuestan los tomates al kilo? | 1 € | 2 € | 1,80 € | b | «Pomodori: 2 € al chilo».
+p2: ¿Qué es gratis si compras dos kilos de manzanas? | il pane | il formaggio | il terzo chilo | c | «il terzo chilo è gratis».
+p3: ¿Cuándo está abierto el supermercado? | tutti i giorni, anche la domenica | solo il sabato | non la domenica | a | «tutti i giorni... anche la domenica».
+p4: ¿Cómo se puede pagar? | in contanti / con la carta / in contanti o con la carta | «in contanti o con la carta di credito».
+## u26
+tipo: descripción de una persona
+titulo: La mia famiglia
+testo:
+Mi chiamo Sara e ho trentadue anni. Sono alta e magra, ho i capelli lunghi e castani e gli occhi verdi. Sono una persona simpatica e un po' timida.
+
+Mio marito si chiama Luca. Lui è alto, ha i capelli corti e neri ed è molto sportivo. Ha trentacinque anni e lavora in un ospedale. È un uomo allegro e generoso.
+
+Abbiamo una figlia, Anna. Ha cinque anni ed è bionda come suo nonno. Anna è vivace e curiosa: fa molte domande. Il suo colore preferito è il giallo.
+
+Mia madre abita vicino a noi. Ha sessant'anni, è dolce e paziente. Ogni domenica mangiamo tutti insieme a casa sua.
+es:
+Me llamo Sara y tengo treinta y dos años. Soy alta y delgada, tengo el pelo largo y castaño y los ojos verdes. Soy una persona simpática y un poco tímida.
+
+Mi marido se llama Luca. Él es alto, tiene el pelo corto y negro y es muy deportista. Tiene treinta y cinco años y trabaja en un hospital. Es un hombre alegre y generoso.
+
+Tenemos una hija, Anna. Tiene cinco años y es rubia como su abuelo. Anna es vivaz y curiosa: hace muchas preguntas. Su color favorito es el amarillo.
+
+Mi madre vive cerca de nosotros. Tiene sesenta años, es dulce y paciente. Todos los domingos comemos juntos en su casa.
+claves: i capelli=el pelo; gli occhi=los ojos; timida=tímida; biondo=rubio; vivace=vivaz; paziente=paciente
+p1: ¿Cómo tiene el pelo Sara? | corti e neri | lunghi e castani | biondi | b | «capelli lunghi e castani».
+p2: ¿Dónde trabaja Luca? | in una scuola | in un ospedale | in un bar | b | «lavora in un ospedale».
+p3: ¿Cómo es Anna? | timida | triste | vivace e curiosa | c | «Anna è vivace e curiosa».
+p4: ¿Cuándo comen todos juntos en casa de la madre? | ogni domenica / la domenica | «Ogni domenica mangiamo tutti insieme».
+## u07#A
+tipo: día de una persona
+titulo: La giornata di Marco
+testo:
+Marco si sveglia alle sette e si alza subito. Si lava, si veste e fa colazione con un caffè e un biscotto. Alle otto esce di casa e prende l'autobus per andare in ufficio.
+
+Lavora dalle nove alle cinque. A mezzogiorno mangia un panino con i colleghi. Il pomeriggio ha molte riunioni, ma a volte ha anche un po' di tempo per parlare con gli amici.
+
+Dopo il lavoro torna a casa. Alle sette cucina la cena: di solito fa la pasta. Poi guarda la televisione o legge un libro. Va a letto verso le undici. Il sabato, invece, si sveglia tardi e va al mercato.
+es:
+Marco se despierta a las siete y se levanta enseguida. Se lava, se viste y desayuna con un café y una galleta. A las ocho sale de casa y toma el bus para ir a la oficina.
+
+Trabaja de nueve a cinco. Al mediodía come un sándwich con los colegas. En la tarde tiene muchas reuniones, pero a veces también tiene un poco de tiempo para conversar con los amigos.
+
+Después del trabajo vuelve a casa. A las siete cocina la cena: por lo general hace pasta. Luego ve televisión o lee un libro. Se acuesta como a las once. El sábado, en cambio, se despierta tarde y va al mercado.
+claves: svegliarsi=despertarse; alzarsi=levantarse; vestirsi=vestirse; la colazione=el desayuno; la riunione=la reunión; la cena=la cena
+p1: ¿A qué hora se despierta Marco? | alle sette | alle otto | alle nove | a | «si sveglia alle sette».
+p2: ¿Cómo va a la oficina? | in macchina | a piedi | con l'autobus | c | «prende l'autobus».
+p3: ¿Qué hace Marco después de la cena? | va in palestra | guarda la televisione o legge | esce con gli amici | b | «guarda la televisione o legge un libro».
+p4: ¿Qué hace el sábado? | va al mercato / si sveglia tardi e va al mercato | «va al mercato».
+## u07#B
+tipo: mensaje «qué estás haciendo»
+titulo: Messaggi con un'amica
+testo:
+Giulia: Ciao Anna! Cosa stai facendo?
+Anna: Ciao! Sto cucinando una torta per il compleanno di mia madre. E tu?
+Giulia: Io sto aspettando l'autobus. Sono in ritardo!
+Anna: Dove stai andando?
+Giulia: Sto andando in biblioteca. Devo studiare per l'esame.
+Anna: Non stai lavorando oggi?
+Giulia: No, oggi è sabato. Lavoro dal lunedì al venerdì.
+Anna: Ah, certo! Allora vieni da me stasera? Sto invitando anche Paolo.
+Giulia: Volentieri! Che cosa porto?
+Anna: Porta solo il vino. La torta è già pronta.
+Giulia: Perfetto, a stasera!
+es:
+Giulia: ¡Hola Anna! ¿Qué estás haciendo?
+Anna: ¡Hola! Estoy cocinando una torta para el cumpleaños de mi madre. ¿Y tú?
+Giulia: Yo estoy esperando el bus. ¡Voy atrasada!
+Anna: ¿Adónde vas?
+Giulia: Voy a la biblioteca. Tengo que estudiar para el examen.
+Anna: ¿No estás trabajando hoy?
+Giulia: No, hoy es sábado. Trabajo de lunes a viernes.
+Anna: ¡Ah, claro! Entonces, ¿vienes a mi casa esta noche? También estoy invitando a Paolo.
+Giulia: ¡Con gusto! ¿Qué llevo?
+Anna: Lleva solo el vino. La torta ya está lista.
+Giulia: Perfecto, ¡hasta esta noche!
+claves: sto cucinando=estoy cocinando; aspettare=esperar; in ritardo=atrasada; l'esame=el examen; volentieri=con gusto; invitare=invitar
+p1: ¿Qué está haciendo Anna? | studia | cucina una torta | aspetta l'autobus | b | «Sto cucinando una torta».
+p2: ¿Por qué va Giulia a la biblioteca? | per studiare | per lavorare | per incontrare Paolo | a | «Devo studiare per l'esame».
+p3: ¿Por qué Giulia no trabaja hoy? | è in ritardo | è malata | è sabato | c | «oggi è sabato».
+p4: ¿Qué debe llevar Giulia? | il vino / solo il vino | «Porta solo il vino».
+## u08
+tipo: entrevista corta
+titulo: Un'intervista
+testo:
+La giornalista intervista Carlo, un cuoco di Bologna.
+
+— Carlo, da quanto tempo lavori in cucina?
+— Lavoro in cucina da quindici anni. Ho iniziato quando avevo vent'anni.
+— Che cosa ti piace di più del tuo lavoro?
+— Mi piace inventare piatti nuovi. Ma è anche un lavoro faticoso: stiamo in piedi molte ore.
+— Che cosa hai fatto ieri?
+— Ieri sono andato al mercato molto presto. Ho comprato il pesce e la verdura. Poi ho preparato il menù e ho cucinato per cinquanta persone.
+— E domani?
+— Domani sono libero! Vado al mare con i miei figli.
+— Grazie, Carlo, e buon riposo!
+es:
+La periodista entrevista a Carlo, un cocinero de Bolonia.
+
+— Carlo, ¿desde hace cuánto trabajas en la cocina?
+— Trabajo en la cocina desde hace quince años. Empecé cuando tenía veinte años.
+— ¿Qué es lo que más te gusta de tu trabajo?
+— Me gusta inventar platos nuevos. Pero también es un trabajo agotador: estamos de pie muchas horas.
+— ¿Qué hiciste ayer?
+— Ayer fui al mercado muy temprano. Compré el pescado y la verdura. Luego preparé el menú y cociné para cincuenta personas.
+— ¿Y mañana?
+— ¡Mañana estoy libre! Voy a la playa con mis hijos.
+— Gracias, Carlo, ¡y que descanses!
+claves: il cuoco=el cocinero; faticoso=agotador; inventare=inventar; il pesce=el pescado; ho comprato=compré; libero=libre
+p1: ¿Desde hace cuánto trabaja Carlo en la cocina? | da quindici anni | da cinque anni | da venti anni | a | «da quindici anni».
+p2: ¿Qué le gusta más de su trabajo? | andare al mercato | inventare piatti nuovi | lavorare la domenica | b | «Mi piace inventare piatti nuovi».
+p3: ¿Para cuántas personas cocinó ayer? | per venti | per quindici | per cinquanta | c | «per cinquanta persone».
+p4: ¿Qué hará mañana? | va al mare con i figli / andrà al mare con i suoi figli | «Domani... Vado al mare con i miei figli».
+## u27
+tipo: pronóstico del tiempo
+titulo: Che tempo fa?
+testo:
+PREVISIONI DEL TEMPO PER DOMANI
+
+Al nord: la mattina c'è nebbia e fa freddo, la temperatura è di tre gradi. Nel pomeriggio c'è il sole, ma resta fresco. In montagna nevica.
+
+Al centro: il cielo è nuvoloso. Verso sera piove. A Roma ci sono dodici gradi.
+
+Al sud: fa bel tempo e c'è molto sole. A Napoli ci sono diciotto gradi. Il mare è calmo.
+
+Consiglio: al nord porta un cappotto e una sciarpa; al centro porta l'ombrello; al sud puoi mettere una maglietta leggera. Buona giornata e buon viaggio!
+es:
+PRONÓSTICO DEL TIEMPO PARA MAÑANA
+
+En el norte: en la mañana hay neblina y hace frío, la temperatura es de tres grados. En la tarde hay sol, pero sigue fresco. En la montaña nieva.
+
+En el centro: el cielo está nublado. Hacia la noche llueve. En Roma hay doce grados.
+
+En el sur: hace buen tiempo y hay mucho sol. En Nápoles hay dieciocho grados. El mar está calmo.
+
+Consejo: en el norte lleva un abrigo y una bufanda; en el centro lleva el paraguas; en el sur puedes ponerte una camiseta ligera. ¡Buen día y buen viaje!
+claves: la nebbia=la neblina; nevicare=nevicar; nuvoloso=nublado; piove=llueve; l'ombrello=el paraguas; la sciarpa=la bufanda
+p1: ¿Qué tiempo hace en el norte por la mañana? | sole e caldo | nebbia e freddo | pioggia | b | «c'è nebbia e fa freddo».
+p2: ¿Cuándo llueve en el centro? | verso sera | al mattino | tutto il giorno | a | «Verso sera piove».
+p3: ¿Qué se aconseja llevar al centro? | il cappotto | la maglietta | l'ombrello | c | «al centro porta l'ombrello».
+p4: ¿Cuántos grados hay en Nápoles? | diciotto / 18 | «A Napoli ci sono diciotto gradi».

@@ -1,0 +1,184 @@
+## u19
+tipo: reglas de un lugar
+titulo: Regole della residenza universitaria
+testo:
+REGOLE DELLA RESIDENZA UNIVERSITARIA
+
+Per vivere bene insieme, tutti devono rispettare queste regole.
+
+1. Dopo le 23.00 bisogna fare silenzio nei corridoi e nelle camere. Non si può ascoltare la musica ad alto volume.
+2. La cucina comune deve essere sempre pulita. Se usi un piatto, lavalo subito. Non lasciare mai la spazzatura fuori dal cestino.
+3. Non è permesso fumare dentro l'edificio, nemmeno nelle camere.
+4. Gli ospiti possono rimanere fino alle 22.00. Se qualcuno vuole dormire da te, devi avvisare il portiere.
+5. Se rompi qualcosa, devi dirlo subito alla direzione.
+6. Quando esci per più di un giorno, spegni le luci e chiudi bene la finestra.
+7. Rispetta i vicini: sono come una famiglia.
+
+Chi non rispetta le regole può ricevere un avvertimento. Grazie per la collaborazione!
+es:
+REGLAS DE LA RESIDENCIA UNIVERSITARIA
+
+Para vivir bien juntos, todos deben respetar estas reglas.
+
+1. Después de las 23.00 hay que guardar silencio en los pasillos y en las habitaciones. No se puede escuchar música a alto volumen.
+2. La cocina común debe estar siempre limpia. Si usas un plato, lávalo enseguida. Nunca dejes la basura fuera del basurero.
+3. No está permitido fumar dentro del edificio, ni siquiera en las habitaciones.
+4. Las visitas pueden quedarse hasta las 22.00. Si alguien quiere dormir contigo, debes avisar al conserje.
+5. Si rompes algo, debes decirlo enseguida a la dirección.
+6. Cuando salgas por más de un día, apaga las luces y cierra bien la ventana.
+7. Respeta a los vecinos: son como una familia.
+
+Quien no respete las reglas puede recibir una advertencia. ¡Gracias por la colaboración!
+claves: il silenzio=el silencio; la spazzatura=la basura; gli ospiti=las visitas; il portiere=el conserje; l'avvertimento=la advertencia; è permesso=está permitido
+p1: ¿Desde qué hora hay que guardar silencio? | dalle 20.00 | dalle 23.00 | dalle 22.00 | b | «Dopo le 23.00 bisogna fare silenzio».
+p2: ¿Hasta qué hora pueden quedarse las visitas? | fino alle 22.00 | fino alle 23.00 | fino a mezzanotte | a | «Gli ospiti possono rimanere fino alle 22.00».
+p3: ¿Qué hay que hacer si se rompe algo? | ripararlo da soli | dirlo subito alla direzione | non dire niente | b | «dirlo subito alla direzione».
+p4: ¿Qué hay que hacer al salir más de un día? | spegnere le luci e chiudere la finestra / spegnere le luci | «spegni le luci e chiudi bene la finestra».
+## u20
+tipo: conversación transcrita
+titulo: Una telefonata dal medico
+testo:
+— Studio medico Ferri, buongiorno.
+— Buongiorno. Vorrei prenotare una visita, se possibile.
+— Certo. Ha già un medico di famiglia da noi?
+— Sì, il dottor Ferri. Sono la signora Costa.
+— Mi dica, signora. Qual è il problema?
+— Da una settimana ho un forte mal di schiena e, se resto seduta a lungo, il dolore peggiora. Ho già preso delle medicine, ma non mi sento meglio.
+— Capisco. Il dottore può riceverla giovedì pomeriggio, alle quindici e trenta. Va bene?
+— Giovedì non posso: lavoro fino alle sei. Avete un posto venerdì mattina?
+— Un attimo, controllo… Sì, venerdì alle nove e quindici.
+— Perfetto, la ringrazio. Devo portare qualcosa?
+— Porti la tessera sanitaria e, se li ha, gli esami precedenti.
+— Va bene. Grazie e arrivederci.
+— Arrivederci, signora Costa.
+es:
+— Consulta médica Ferri, buenos días.
+— Buenos días. Quisiera pedir una hora, si es posible.
+— Claro. ¿Ya tiene un médico de cabecera con nosotros?
+— Sí, el doctor Ferri. Soy la señora Costa.
+— Dígame, señora. ¿Cuál es el problema?
+— Desde hace una semana tengo un fuerte dolor de espalda y, si me quedo sentada mucho rato, el dolor empeora. Ya tomé unos remedios, pero no me siento mejor.
+— Entiendo. El doctor puede atenderla el jueves en la tarde, a las quince treinta. ¿Le parece bien?
+— El jueves no puedo: trabajo hasta las seis. ¿Tienen un cupo el viernes en la mañana?
+— Un momento, reviso… Sí, el viernes a las nueve y quince.
+— Perfecto, se lo agradezco. ¿Debo llevar algo?
+— Lleve la tarjeta de salud y, si los tiene, los exámenes anteriores.
+— Está bien. Gracias y hasta luego.
+— Hasta luego, señora Costa.
+claves: prenotare=reservar / pedir hora; il medico di famiglia=el médico de cabecera; il mal di schiena=el dolor de espalda; peggiorare=empeorar; la tessera sanitaria=la tarjeta de salud; gli esami=los exámenes
+p1: ¿Qué problema tiene la señora Costa? | mal di testa | mal di schiena | mal di gola | b | «un forte mal di schiena».
+p2: ¿Por qué no puede ir el jueves? | lavora fino alle sei | è in vacanza | il dottore non c'è | a | «Giovedì non posso: lavoro fino alle sei».
+p3: ¿Cuándo es su cita? | giovedì alle 15.30 | venerdì alle 9.15 | venerdì alle 15.30 | b | «venerdì alle nove e quindici».
+p4: ¿Qué debe llevar? | la tessera sanitaria / la tessera sanitaria e gli esami | «Porti la tessera sanitaria».
+## u24
+tipo: relato largo
+titulo: Il mio primo anno in Italia
+testo:
+Quando sono arrivato in Italia, un anno fa, non conoscevo quasi nessuno e parlavo pochissimo la lingua. Avevo studiato un po' a casa, ma capire la gente era molto difficile: parlavano veloce e usavano parole che non conoscevo.
+
+I primi mesi sono stati duri. Mi sentivo stanco e spesso triste. Però ogni giorno cercavo di parlare con qualcuno: con la signora del bar, con il vicino, con i colleghi. Sbagliavo molto, ma loro erano pazienti e mi correggevano con un sorriso.
+
+Dopo sei mesi ho trovato un lavoro in una libreria. Lì ho conosciuto Elena, che è diventata una grande amica. Mi ha aiutato a capire le abitudini italiane e mi ha invitato a cena dalla sua famiglia.
+
+Oggi vivo in un appartamento con due amici, lavoro e studio la sera. Parlo ancora con errori, ma riesco a spiegare quello che penso. Se guardo indietro, sono molto orgoglioso di me. L'anno prossimo voglio viaggiare in tutta l'Italia: so che sarà un'altra bella avventura!
+es:
+Cuando llegué a Italia, hace un año, no conocía casi a nadie y hablaba poquísimo el idioma. Había estudiado un poco en casa, pero entender a la gente era muy difícil: hablaban rápido y usaban palabras que no conocía.
+
+Los primeros meses fueron duros. Me sentía cansado y a menudo triste. Pero cada día trataba de hablar con alguien: con la señora del bar, con el vecino, con los colegas. Me equivocaba mucho, pero ellos eran pacientes y me corregían con una sonrisa.
+
+Después de seis meses encontré trabajo en una librería. Ahí conocí a Elena, que se convirtió en una gran amiga. Me ayudó a entender las costumbres italianas y me invitó a cenar con su familia.
+
+Hoy vivo en un departamento con dos amigos, trabajo y estudio en la noche. Todavía hablo con errores, pero logro explicar lo que pienso. Si miro hacia atrás, estoy muy orgulloso de mí. El próximo año quiero viajar por toda Italia: ¡sé que será otra linda aventura!
+claves: duri=duros; sbagliare=equivocarse; correggere=corregir; l'abitudine=la costumbre; riesco a=logro; orgoglioso=orgulloso
+p1: ¿Qué era lo más difícil al llegar? | trovare casa | capire la gente | trovare lavoro | b | «capire la gente era molto difficile».
+p2: ¿Cómo reaccionaba la gente cuando se equivocaba? | si arrabbiava | rideva di lui | lo correggeva con un sorriso | c | «mi correggevano con un sorriso».
+p3: ¿Dónde encontró trabajo? | in una libreria | in un bar | in un ufficio | a | «un lavoro in una libreria».
+p4: ¿Qué quiere hacer el próximo año? | viaggiare in tutta l'Italia / viaggiare per l'Italia | «voglio viaggiare in tutta l'Italia».
+## u21
+tipo: mensaje
+titulo: Un messaggio a un'amica
+testo:
+Ciao Chiara! Scusa se non ti ho scritto prima: sono stata molto occupata. Ti racconto le novità!
+
+La settimana scorsa ho cambiato lavoro. Prima lavoravo in un negozio, ma gli orari erano troppo lunghi e tornavo sempre a casa stanchissima. Adesso lavoro in un ufficio: guadagno un po' di più e il sabato sono libera!
+
+Ho anche cominciato un corso di pittura. Non sono brava, ma mi piace molto e ho conosciuto persone simpatiche. Se vuoi, potresti venire con me la prossima volta. Qui il tempo è bellissimo e ogni giorno esco a camminare nel parco.
+
+E tu? Come stai? Ti sei già abituata alla nuova città? Mi manchi tanto! Se hai tempo, chiamami domenica, così ci raccontiamo tutto con calma.
+
+Un bacio grande,
+Valentina
+es:
+¡Hola Chiara! Disculpa por no haberte escrito antes: estuve muy ocupada. ¡Te cuento las novedades!
+
+La semana pasada cambié de trabajo. Antes trabajaba en una tienda, pero los horarios eran demasiado largos y siempre volvía a casa cansadísima. Ahora trabajo en una oficina: gano un poco más y ¡el sábado estoy libre!
+
+También empecé un curso de pintura. No soy buena, pero me gusta mucho y conocí a gente simpática. Si quieres, podrías venir conmigo la próxima vez. Aquí el tiempo está hermosísimo y cada día salgo a caminar al parque.
+
+¿Y tú? ¿Cómo estás? ¿Ya te acostumbraste a la nueva ciudad? ¡Te extraño mucho! Si tienes tiempo, llámame el domingo, así nos contamos todo con calma.
+
+Un beso grande,
+Valentina
+claves: occupata=ocupada; le novità=las novedades; guadagnare=ganar; abituarsi=acostumbrarse; mi manchi=te extraño; con calma=con calma
+p1: ¿Por qué cambió de trabajo Valentina? | gli orari erano troppo lunghi | non guadagnava | non le piaceva il capo | a | «gli orari erano troppo lunghi».
+p2: ¿Qué curso empezó? | di cucina | di pittura | di italiano | b | «un corso di pittura».
+p3: ¿Qué le propone a Chiara? | andare al corso con lei | cambiare lavoro | tornare in città | a | «potresti venire con me la prossima volta».
+p4: ¿Cuándo le pide que la llame? | domenica / la domenica | «chiamami domenica».
+## u22
+tipo: columna de opinión corta
+titulo: Meno telefono, più vita
+testo:
+Ieri, in treno, ho contato quante persone guardavano il telefono: quasi tutte. Nessuno parlava, nessuno guardava fuori dal finestrino. Mi sono chiesto: quando abbiamo smesso di guardarci negli occhi?
+
+Non dico che il telefono sia un nemico. Mi permette di lavorare, di chiamare mia madre che vive lontano, di trovare una strada. Il problema è l'abitudine: lo prendiamo in mano cento volte al giorno, anche quando non serve.
+
+Secondo me, dovremmo darci delle regole semplici. Per esempio, niente telefono a tavola. Niente telefono nelle prime ore del mattino. E una passeggiata al giorno senza di lui.
+
+Alcuni pensano che io sia troppo severo, e forse hanno ragione. Ma ho provato per una settimana e ho notato che dormo meglio, parlo di più con le persone e mi sento meno nervoso. Perché non provare anche voi?
+es:
+Ayer, en el tren, conté cuántas personas miraban el teléfono: casi todas. Nadie hablaba, nadie miraba por la ventanilla. Me pregunté: ¿cuándo dejamos de mirarnos a los ojos?
+
+No digo que el teléfono sea un enemigo. Me permite trabajar, llamar a mi madre que vive lejos, encontrar una calle. El problema es el hábito: lo tomamos en la mano cien veces al día, incluso cuando no hace falta.
+
+En mi opinión, deberíamos ponernos reglas simples. Por ejemplo, nada de teléfono en la mesa. Nada de teléfono en las primeras horas de la mañana. Y un paseo al día sin él.
+
+Algunos piensan que soy demasiado severo, y quizás tengan razón. Pero lo probé durante una semana y noté que duermo mejor, hablo más con las personas y me siento menos nervioso. ¿Por qué no lo prueban ustedes también?
+claves: il finestrino=la ventanilla; il nemico=el enemigo; l'abitudine=el hábito; secondo me=en mi opinión; severo=severo; hanno ragione=tienen razón
+p1: ¿Qué observó el autor en el tren? | quasi tutti guardavano il telefono | tutti parlavano | nessuno viaggiava | a | «quasi tutte».
+p2: ¿Cuál es el problema según el autor? | il telefono è inutile | l'abitudine di usarlo troppo | il prezzo | b | «Il problema è l'abitudine».
+p3: ¿Qué cambió en el autor tras una semana? | dorme meglio e si sente meno nervoso | lavora di più | ha comprato un nuovo telefono | a | «dormo meglio... mi sento meno nervoso».
+p4: ¿Qué regla propone para la mesa? | niente telefono a tavola / niente telefono | «niente telefono a tavola».
+## u23
+tipo: carta de consejo
+titulo: Una lettera di consigli
+testo:
+Cara Sofia,
+
+ho letto la tua lettera con attenzione e capisco che questo momento è difficile. Dici che non sai se accettare il lavoro a Torino o restare qui con la tua famiglia. Provo a darti qualche consiglio, anche se la decisione, alla fine, è solo tua.
+
+Se fossi in te, prima di tutto scriverei su un foglio i vantaggi e gli svantaggi di ogni scelta. Poi chiederei più informazioni sul lavoro: lo stipendio, gli orari, le possibilità di crescere. Se l'azienda è seria, risponderà volentieri.
+
+Parla anche con le persone che ami. Non devi fare quello che vogliono loro, ma ascoltare la loro opinione può aiutarti a vedere cose che non vedi.
+
+Infine, ricorda che nessuna scelta è per sempre. Se andrai a Torino e non sarai felice, potrai sempre tornare. Se resterai, ci saranno altre occasioni. Qualunque cosa scelga, io sarò con te.
+
+Un abbraccio forte,
+Marta
+es:
+Querida Sofía:
+
+leí tu carta con atención y entiendo que este momento es difícil. Dices que no sabes si aceptar el trabajo en Turín o quedarte aquí con tu familia. Intento darte algunos consejos, aunque la decisión, al final, es solo tuya.
+
+Si yo fuera tú, antes que nada escribiría en una hoja las ventajas y desventajas de cada opción. Luego pediría más información sobre el trabajo: el sueldo, los horarios, las posibilidades de crecer. Si la empresa es seria, responderá con gusto.
+
+Habla también con las personas que amas. No tienes que hacer lo que ellas quieran, pero escuchar su opinión puede ayudarte a ver cosas que no ves.
+
+Por último, recuerda que ninguna decisión es para siempre. Si vas a Turín y no eres feliz, siempre podrás volver. Si te quedas, habrá otras oportunidades. Elijas lo que elijas, yo estaré contigo.
+
+Un abrazo fuerte,
+Marta
+claves: il consiglio=el consejo; lo stipendio=el sueldo; il vantaggio=la ventaja; accettare=aceptar; se fossi in te=si yo fuera tú; l'occasione=la oportunidad
+p1: ¿Qué duda tiene Sofía? | se cambiare casa | se accettare il lavoro a Torino o restare | se studiare | b | «accettare il lavoro a Torino o restare qui».
+p2: ¿Qué consejo da Marta primero? | scrivere vantaggi e svantaggi | partire subito | dimenticare il problema | a | «scriverei su un foglio i vantaggi e gli svantaggi».
+p3: ¿Qué dice Marta de las decisiones? | sono sempre difficili | nessuna scelta è per sempre | bisogna scegliere subito | b | «nessuna scelta è per sempre».
+p4: ¿Qué promete Marta al final? | di essere con lei / sarò con te | «io sarò con te».

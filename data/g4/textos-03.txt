@@ -1,0 +1,200 @@
+## u09
+tipo: diario del fin de semana
+titulo: Il mio fine settimana
+testo:
+Sabato mattina mi sono svegliata tardi. Ho fatto colazione con calma e ho letto il giornale. Poi sono uscita e ho fatto la spesa al mercato: ho comprato pane, formaggio e dei pomodori molto belli.
+
+Nel pomeriggio ho incontrato Giulia. Siamo andate al cinema e abbiamo visto un film divertente. Dopo il film abbiamo mangiato una pizza insieme. Non siamo tornate a casa tardi, perché eravamo stanche.
+
+Domenica ho pulito la casa e ho telefonato a mia nonna. Lei mi ha raccontato una storia della sua giovinezza. Ho cucinato la cena per la famiglia: tutti hanno mangiato molto e hanno detto che era buonissima. È stato un fine settimana bellissimo!
+es:
+El sábado en la mañana me desperté tarde. Desayuné con calma y leí el diario. Luego salí e hice las compras en el mercado: compré pan, queso y unos tomates muy lindos.
+
+En la tarde me encontré con Giulia. Fuimos al cine y vimos una película divertida. Después de la película comimos una pizza juntas. No volvimos tarde a casa, porque estábamos cansadas.
+
+El domingo limpié la casa y llamé por teléfono a mi abuela. Ella me contó una historia de su juventud. Cociné la cena para la familia: todos comieron mucho y dijeron que estaba buenísima. ¡Fue un fin de semana lindísimo!
+claves: la spesa=las compras; incontrare=encontrarse con; pulire=limpiar; raccontare=contar; la giovinezza=la juventud; divertente=divertido
+p1: ¿Qué compró la autora en el mercado? | pane, formaggio e pomodori | pesce e verdura | solo frutta | a | «pane, formaggio e dei pomodori».
+p2: ¿Qué hicieron Giulia y la autora después del cine? | tornarono a casa | mangiarono una pizza | fecero una passeggiata | b | «abbiamo mangiato una pizza insieme».
+p3: ¿Por qué no volvieron tarde a casa? | erano stanche | pioveva | il cinema era chiuso | a | «perché eravamo stanche».
+p4: ¿Quién le contó una historia de su juventud? | sua nonna / la nonna / la nonna | «Lei mi ha raccontato una storia della sua giovinezza».
+## u10
+tipo: relato de viaje
+titulo: Una settimana a Venezia
+testo:
+L'anno scorso sono andato a Venezia con mia sorella. Siamo partiti in treno da Milano e dopo due ore e mezza siamo arrivati. Faceva freddo, ma il cielo era azzurro e la città era bellissima.
+
+Abbiamo dormito in un piccolo albergo vicino al Canal Grande. La camera era piccola, ma pulita, e la signora della reception era molto gentile. Ogni mattina facevamo colazione sul terrazzo.
+
+Abbiamo visitato la basilica di San Marco, abbiamo preso il vaporetto e abbiamo camminato per ore tra i ponti. Una sera siamo andati in un ristorante dove ho mangiato il miglior risotto della mia vita.
+
+Quando siamo partiti eravamo tristi, ma molto contenti. Voglio tornare presto!
+es:
+El año pasado fui a Venecia con mi hermana. Salimos en tren desde Milán y después de dos horas y media llegamos. Hacía frío, pero el cielo era azul y la ciudad era hermosísima.
+
+Dormimos en un pequeño hotel cerca del Gran Canal. La habitación era pequeña, pero limpia, y la señora de la recepción era muy amable. Cada mañana desayunábamos en la terraza.
+
+Visitamos la basílica de San Marcos, tomamos el vaporetto y caminamos por horas entre los puentes. Una noche fuimos a un restaurante donde comí el mejor risotto de mi vida.
+
+Cuando nos fuimos estábamos tristes, pero muy contentos. ¡Quiero volver pronto!
+claves: partire=salir / partir; l'albergo=el hotel; pulito=limpio; il ponte=el puente; il terrazzo=la terraza; camminare=caminar
+p1: ¿Con quién viajó el autor? | con sua sorella | con un amico | da solo | a | «con mia sorella».
+p2: ¿Cómo era el tiempo? | faceva caldo | faceva freddo, ma il cielo era azzurro | pioveva | b | «Faceva freddo, ma il cielo era azzurro».
+p3: ¿Dónde desayunaban? | in camera | al bar | sul terrazzo | c | «facevamo colazione sul terrazzo».
+p4: ¿Cuánto duró el viaje en tren? | due ore e mezza / due ore e mezzo | «dopo due ore e mezza».
+## u11
+tipo: cuento breve
+titulo: Il gatto di Nonna Rosa
+testo:
+C'era una volta una vecchia signora, Nonna Rosa, che viveva in una casetta vicino al bosco. Aveva un gatto grigio che si chiamava Pepe. Ogni mattina Pepe usciva dalla casa e tornava a mezzogiorno.
+
+Un giorno, però, Pepe non è tornato. Nonna Rosa era preoccupata. Ha cercato nel giardino, ha chiamato il gatto per ore, ma Pepe non c'era. La sera è andata a letto triste.
+
+La mattina dopo ha sentito un rumore alla porta. Ha aperto e ha visto Pepe: aveva in bocca un piccolo pesce! Il gatto lo ha messo davanti ai suoi piedi, come un regalo.
+
+Nonna Rosa ha sorriso, ha preso il gatto in braccio e ha detto: «Che bravo che sei!». Da quel giorno Pepe ha portato un pesce ogni venerdì.
+es:
+Había una vez una anciana, la abuela Rosa, que vivía en una casita cerca del bosque. Tenía un gato gris que se llamaba Pepe. Cada mañana Pepe salía de la casa y volvía al mediodía.
+
+Un día, sin embargo, Pepe no volvió. La abuela Rosa estaba preocupada. Buscó en el jardín, llamó al gato por horas, pero Pepe no estaba. En la noche se fue a la cama triste.
+
+A la mañana siguiente oyó un ruido en la puerta. Abrió y vio a Pepe: ¡tenía en la boca un pececito! El gato lo puso delante de sus pies, como un regalo.
+
+La abuela Rosa sonrió, tomó al gato en brazos y dijo: «¡Qué bueno eres!». Desde ese día Pepe trajo un pescado todos los viernes.
+claves: c'era una volta=había una vez; il bosco=el bosque; preoccupato=preocupado; il rumore=el ruido; il regalo=el regalo; sorridere=sonreír
+p1: ¿Cómo se llamaba el gato? | Pepe | Rosa | Mimì | a | «un gatto grigio che si chiamava Pepe».
+p2: ¿Por qué estaba triste la abuela una noche? | il gatto era malato | il gatto non è tornato | non aveva pesce | b | «Pepe non è tornato».
+p3: ¿Qué tenía el gato en la boca? | un pesce | un topo | un osso | a | «aveva in bocca un piccolo pesce».
+p4: ¿Cuándo trajo el gato un pescado después? | ogni venerdì / il venerdì | «Pepe ha portato un pesce ogni venerdì».
+## u12
+tipo: folleto de mercado
+titulo: Il mercato di Campo dei Fiori
+testo:
+IL MERCATO DI CAMPO DEI FIORI
+Da più di centocinquanta anni il mercato è il cuore di Roma. Ogni mattina, dal lunedì al sabato, i venditori preparano le loro bancarelle con frutta, verdura, fiori, spezie e pesce fresco.
+
+Che cosa comprare?
+Le verdure sono più fresche e più economiche che al supermercato. I pomodori romani sono i più saporiti. Il pesce è migliore la mattina presto, quando arriva dal mare.
+
+Consigli per i visitatori:
+• Arrivate prima delle dieci: dopo, c'è più gente e le cose più buone finiscono.
+• Portate una borsa grande e un po' di monete.
+• Non abbiate paura di chiedere un assaggio: è normale!
+
+Il mercato chiude alle due del pomeriggio. La domenica è chiuso.
+es:
+EL MERCADO DE CAMPO DEI FIORI
+Desde hace más de ciento cincuenta años el mercado es el corazón de Roma. Cada mañana, de lunes a sábado, los vendedores preparan sus puestos con fruta, verdura, flores, especias y pescado fresco.
+
+¿Qué comprar?
+Las verduras son más frescas y más baratas que en el supermercado. Los tomates romanos son los más sabrosos. El pescado es mejor temprano en la mañana, cuando llega del mar.
+
+Consejos para los visitantes:
+• Lleguen antes de las diez: después hay más gente y las cosas más ricas se acaban.
+• Traigan una bolsa grande y unas monedas.
+• No tengan miedo de pedir una probadita: ¡es normal!
+
+El mercado cierra a las dos de la tarde. El domingo está cerrado.
+claves: la bancarella=el puesto; il venditore=el vendedor; economico=barato; saporito=sabroso; l'assaggio=la probadita; le monete=las monedas
+p1: ¿Qué es más fresco que en el supermercado? | il pesce | le verdure | i fiori | b | «Le verdure sono più fresche».
+p2: ¿Cuándo es mejor el pescado? | di sera | a mezzogiorno | la mattina presto | c | «Il pesce è migliore la mattina presto».
+p3: ¿Hasta qué hora hay que llegar según el consejo? | prima delle dieci | prima delle due | dopo le dieci | a | «Arrivate prima delle dieci».
+p4: ¿Qué día está cerrado el mercado? | la domenica / domenica | «La domenica è chiuso».
+## u28
+tipo: menú de restaurante
+titulo: Ristorante Da Gino
+testo:
+RISTORANTE DA GINO — MENÙ DEL GIORNO
+
+ANTIPASTI
+Bruschetta con pomodoro — 5 €
+Prosciutto e melone — 8 €
+
+PRIMI
+Spaghetti alla carbonara — 10 €
+Lasagne al forno — 11 €
+Risotto ai funghi (vegetariano) — 11 €
+
+SECONDI
+Pollo arrosto con patate — 14 €
+Pesce del giorno con verdure — 16 €
+
+DOLCI
+Tiramisù — 5 €
+Gelato (tre gusti) — 4 €
+
+Il coperto costa 2 €. Le bevande sono escluse. Il servizio è compreso.
+
+Allergie? Parlate con il cameriere: vi consiglierà il piatto giusto.
+
+Il cameriere: «Buonasera! Avete già scelto?»
+Cliente: «Sì. Per me le lasagne e poi il pollo con le patate. Per la mia amica il risotto ai funghi.»
+Il cameriere: «Benissimo. E da bere?»
+Cliente: «Una bottiglia d'acqua naturale, per favore.»
+es:
+RESTAURANTE DA GINO — MENÚ DEL DÍA
+
+ENTRADAS
+Bruschetta con tomate — 5 €
+Jamón y melón — 8 €
+
+PRIMEROS PLATOS
+Espaguetis a la carbonara — 10 €
+Lasaña al horno — 11 €
+Risotto de hongos (vegetariano) — 11 €
+
+SEGUNDOS PLATOS
+Pollo asado con papas — 14 €
+Pescado del día con verduras — 16 €
+
+POSTRES
+Tiramisú — 5 €
+Helado (tres sabores) — 4 €
+
+El cubierto cuesta 2 €. Las bebidas no están incluidas. El servicio está incluido.
+
+¿Alergias? Hablen con el camarero: les recomendará el plato adecuado.
+
+El camarero: «¡Buenas noches! ¿Ya eligieron?»
+Cliente: «Sí. Para mí las lasañas y después el pollo con papas. Para mi amiga el risotto de hongos.»
+El camarero: «Muy bien. ¿Y para beber?»
+Cliente: «Una botella de agua sin gas, por favor.»
+claves: il primo=el primer plato; il secondo=el segundo plato; il dolce=el postre; il coperto=el cubierto; compreso=incluido; il gusto=el sabor
+p1: ¿Qué plato es vegetariano? | le lasagne | il risotto ai funghi | gli spaghetti | b | «Risotto ai funghi (vegetariano)».
+p2: ¿Cuánto cuesta el pescado del día? | 14 € | 11 € | 16 € | c | «Pesce del giorno con verdure — 16 €».
+p3: ¿Qué NO está incluido en el precio? | il servizio | le bevande | il pane | b | «Le bevande sono escluse».
+p4: ¿Cuántos sabores tiene el helado? | tre / 3 | «Gelato (tre gusti)».
+## u13
+tipo: mail de devolución
+titulo: Una e-mail per restituire un prodotto
+testo:
+Oggetto: Richiesta di restituzione ordine n. 4521
+
+Gentile servizio clienti,
+
+vi scrivo perché ho ricevuto la mia ordinazione ieri, ma purtroppo il prodotto non va bene. Avevo ordinato un paio di scarpe nere, numero 39, ma nel pacco ho trovato un paio di scarpe marroni, numero 41.
+
+Ho controllato il mio ordine e ho visto che avevo indicato il colore e il numero giusti. Credo che ci sia stato un errore nella spedizione.
+
+Vorrei restituire le scarpe e ricevere quelle giuste, oppure avere un rimborso. Allego una foto del pacco e della ricevuta. Aspetto una vostra risposta entro qualche giorno.
+
+Cordiali saluti,
+Elena Conti
+es:
+Asunto: Solicitud de devolución del pedido n.º 4521
+
+Estimado servicio al cliente:
+
+Les escribo porque recibí mi pedido ayer, pero lamentablemente el producto no está bien. Había pedido un par de zapatos negros, número 39, pero en el paquete encontré un par de zapatos café, número 41.
+
+Revisé mi pedido y vi que había indicado el color y el número correctos. Creo que hubo un error en el envío.
+
+Quisiera devolver los zapatos y recibir los correctos, o bien un reembolso. Adjunto una foto del paquete y del recibo. Espero su respuesta en unos días.
+
+Cordiales saludos,
+Elena Conti
+claves: restituire=devolver; l'ordinazione=el pedido; la spedizione=el envío; il rimborso=el reembolso; allegare=adjuntar; la ricevuta=el recibo
+p1: ¿Qué había pedido Elena? | scarpe nere, numero 39 | scarpe marroni, numero 41 | una borsa nera | a | «un paio di scarpe nere, numero 39».
+p2: ¿Qué recibió en realidad? | scarpe nere | un altro prodotto | scarpe marroni, numero 41 | c | «scarpe marroni, numero 41».
+p3: ¿Qué cree Elena que pasó? | un errore nella spedizione | che il prodotto è vecchio | che ha sbagliato lei | a | «un errore nella spedizione».
+p4: ¿Qué adjunta al mail? | una foto del pacco e della ricevuta / una foto e la ricevuta | «Allego una foto del pacco e della ricevuta».
