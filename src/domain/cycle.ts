@@ -1,4 +1,4 @@
-import { COURSE, type CourseStep } from "../content/course";
+import { COURSE, type CoursePart, type CourseStep } from "../content/course";
 import { getUnit, sessionsOf, type UnitMeta } from "../content/curriculum";
 import type { IconKey } from "../content/plan";
 import type { MiniTests } from "./storage";
@@ -375,11 +375,23 @@ export function blockMinutes(): Map<string, number> {
   return map;
 }
 
+const WORDS_BLOCKS: [number, string][] = [[1, "words"], [3, "words3"], [4, "words4"], [5, "words5"]];
+
 /** Las palabras de la unidad ya se mostraron (el primer bloque de palabras de alguna semana, o la actividad antigua). */
 export function wordsSeen(unitId: string, done: ReadonlySet<string>): boolean {
   if (done.has(`${unitId}.s2.vocab`)) return true;
-  const places: [number, string][] = [[1, "words"], [3, "words3"], [4, "words4"], [5, "words5"]];
-  return COURSE.some((s) => s.unit === unitId && places.some(([day, id]) => done.has(blockKey(s.id, day, id))));
+  return COURSE.some((s) => s.unit === unitId && WORDS_BLOCKS.some(([day, id]) => done.has(blockKey(s.id, day, id))));
+}
+
+/**
+ * En una unidad partida en dos semanas: en cuáles ya se mostraron las palabras. null si la unidad no está partida
+ * (no hay nada que distinguir). La actividad antigua cuenta como ambas semanas.
+ */
+export function partsSeen(unitId: string, done: ReadonlySet<string>): CoursePart[] | null {
+  const steps = COURSE.filter((s) => s.unit === unitId);
+  if (!steps.some((s) => s.part)) return null;
+  if (done.has(`${unitId}.s2.vocab`)) return ["A", "B"];
+  return steps.flatMap((s) => (s.part && WORDS_BLOCKS.some(([day, id]) => done.has(blockKey(s.id, day, id))) ? [s.part] : []));
 }
 
 /** Bloques recomendados (no esenciales) que existen y siguen pendientes en los días mostrados. En modo corto no se muestran, así que son 0. */

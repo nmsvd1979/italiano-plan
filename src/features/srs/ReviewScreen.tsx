@@ -3,14 +3,17 @@ import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { Icon } from "../../ui/Icon";
 import { say, speak } from "../../ui/speech";
+import { loadGeneralDeck, type GeneralWord } from "../../content/vocab";
 import {
-  applyReview, loadSrs, newSrsCard, rerateLast, saveSrs, unlockProdCards, type RatingValue, type SrsCard, type SrsState,
+  applyReview, generalOn, loadSrs, newSrsCard, rerateLast, saveSrs, unlockProdCards, type RatingValue, type SrsCard, type SrsState,
 } from "../../domain/srs";
 import {
-  choicesFor, emptyContext, loadQuizletDeck, resolveCard, type DeckContext, type QuizletEntry, type Resolved,
+  choicesFor, contextOf, emptyContext, resolveCard, type DeckContext, type Resolved,
 } from "../../domain/srsDeck";
 import { easyRating, gradeWriting, ratingForChoice, ratingForWriting, typoRating, type WriteGrade } from "../../domain/srsGrade";
-import { LIMITS, answeredToday, buildQueue, eligibleUnits, nextDue, nothingToReviewText, type QueueItem } from "../../domain/srsQueue";
+import {
+  LIMITS, answeredToday, buildExtraBatch, buildQueue, eligibleUnits, nextDue, nothingToReviewText, seenPartsOf, type QueueItem,
+} from "../../domain/srsQueue";
 
 const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
 
@@ -36,28 +39,30 @@ function fullSentence(r: Extract<Resolved, { kind: "cloze" }>): string {
 export function ReviewScreen() {
   const { today, progress, completeActivity } = useApp();
   const units = useMemo(() => eligibleUnits(progress), [progress]);
+  const seenParts = useMemo(() => seenPartsOf(progress), [progress]);
   const [srs, setSrs] = useState<SrsState>(() => loadSrs(window.localStorage));
   const [ctx, setCtx] = useState<DeckContext>(emptyContext);
-  const [quizlet, setQuizlet] = useState<QuizletEntry[]>([]);
+  const [general, setGeneral] = useState<GeneralWord[]>([]);
   const [ready, setReady] = useState(false);
   const [batch, setBatch] = useState<Entry[]>([]);
   const [index, setIndex] = useState(0);
   const [info, setInfo] = useState<{ postponed: number; blocked: boolean } | null>(null);
   const [done, setDone] = useState(false);
+  const [extraMode, setExtraMode] = useState(false);
   const marked = useRef(false);
   const latest = useRef(srs);
   latest.current = srs;
 
-  const needsDeck = !!srs.options?.quizlet || Object.values(srs.cards).some((c) => c.deck === "quizlet");
+  const needsDeck = generalOn(srs) || Object.values(srs.cards).some((c) => c.deck === "general");
 
-  // El mazo extra se baja solo si está activado o ya hay tarjetas suyas.
+  // El mazo general se baja solo si está activado o ya hay tarjetas suyas (import dinámico: no pesa en la carga inicial).
   useEffect(() => {
     let cancelled = false;
     (async () => {
-      const entries = needsDeck ? await loadQuizletDeck() : [];
+      const words = needsDeck ? await loadGeneralDeck() : [];
       if (cancelled) return;
-      setQuizlet(entries);
-      setCtx({ quizlet: new Map(entries.map((q) => [`q${q.n}`, q])) });
+      setGeneral(words);
+      setCtx(contextOf(words));
       setReady(true);
     })();
     return () => { cancelled = true; };
@@ -65,11 +70,15 @@ export function ReviewScreen() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const makeBatch = (state: SrsState, deck: DeckContext, entries: QuizletEntry[]) => {
-    const q = buildQueue({ state, today, eligibleUnits: units, quizlet: entries });
+  const queueInput = (state: SrsState, words: GeneralWord[]) => ({ state, today, eligibleUnits: units, general: words, seenParts });
+
+  const makeBatch = (state: SrsState, deck: DeckContext, words: GeneralWord[], extra = false) => {
+    const q = buildQueue(queueInput(state, words));
     const now = new Date();
     const picked: Entry[] = [];
-    for (const item of q.items as QueueItem[]) {
+    const items = extra ? buildExtraBatch(queueInput(state, words)).items : q.items;
+    setExtraMode(extra);
+    for (const item of items as QueueItem[]) {
       if (picked.length >= LIMITS.session) break;
       const card = item.type === "due" ? item.card : newSrsCard(item.candidate, now);
       const resolved = resolveCard(card, deck);
@@ -78,11 +87,11 @@ export function ReviewScreen() {
     setBatch(picked);
     setIndex(0);
     setDone(picked.length === 0);
-    setInfo({ postponed: q.postponed, blocked: q.newBlocked });
+    setInfo(extra ? null : { postponed: q.postponed, blocked: q.newBlocked });
   };
 
   useEffect(() => {
-    if (ready) makeBatch(latest.current, ctx, quizlet);
+    if (ready) makeBatch(latest.current, ctx, general);
     // Una sola vez cuando el mazo está listo.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ready]);
@@ -103,7 +112,9 @@ export function ReviewScreen() {
 
   const answered = answeredToday(srs, today);
   // «Seguir repasando» solo aparece si hay algo que armar: tarjetas vencidas o palabras nuevas.
-  const canContinue = buildQueue({ state: srs, today, eligibleUnits: units, quizlet }).items.length > 0;
+  const canContinue = buildQueue(queueInput(srs, general)).items.length > 0;
+  // Cuando ya no queda nada del día se ofrece «Practicar más».
+  const extra = canContinue ? null : buildExtraBatch(queueInput(srs, general));
 
   const header = (
     <header className="screen-head">
@@ -148,11 +159,20 @@ export function ReviewScreen() {
                 ? "Las tarjetas nuevas salen de las palabras del bloque «Palabras de la unidad». Haz ese bloque en Hoy y vuelve."
                 : nothingToReviewText(nextDue(srs, today))}
           </p>
+          {extra && extra.blocked === "cap" && (
+            <p className="sub">Llegaste al tope de {LIMITS.extraPerDay} tarjetas extra de hoy. Mañana puedes seguir.</p>
+          )}
+          {extra && extra.blocked === "empty" && (
+            <p className="sub">Ya no quedan palabras nuevas disponibles. Tampoco hay tarjetas que venzan en los próximos {LIMITS.extraAheadDays} días.</p>
+          )}
           {answered >= LIMITS.warnAt && (
             <p className="note"><Icon name="info" size={16} /><span>Ya llevas {answered} tarjetas hoy: es un buen momento para parar.</span></p>
           )}
           <div className="row">
-            {canContinue && <button className="btn" type="button" onClick={() => makeBatch(srs, ctx, quizlet)}>Seguir repasando</button>}
+            {canContinue && <button className="btn" type="button" onClick={() => makeBatch(srs, ctx, general)}>Seguir repasando</button>}
+            {extra && extra.items.length > 0 && (
+              <button className="btn" type="button" onClick={() => makeBatch(srs, ctx, general, true)}>Practicar más ({extra.items.length})</button>
+            )}
             <a className="btn primary" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
           </div>
         </section>
@@ -165,7 +185,7 @@ export function ReviewScreen() {
           ctx={ctx}
           units={units}
           onAnswer={(rating, ms) => {
-            const next = unlockProdCards(applyReview(latest.current, entry.card, rating, new Date(), ms), new Date());
+            const next = unlockProdCards(applyReview(latest.current, entry.card, rating, new Date(), ms, extraMode), new Date());
             commit(next);
           }}
           onRerate={(rating, ms) => commit(rerateLast(latest.current, entry.card, rating, new Date(), ms))}
@@ -260,7 +280,7 @@ function CardView({ entry, position, total, ctx, units, onAnswer, onRerate, onNe
         <div className="bar"><i style={{ width: `${((position - 1 + (rating ? 1 : 0)) / total) * 100}%` }} /></div>
         <span>{position} de {total}</span>
       </div>
-      <div className="eyebrow">{KIND_LABEL[card.kind]}{card.deck === "quizlet" ? " · Mazo extra" : ""}</div>
+      <div className="eyebrow">{KIND_LABEL[card.kind]}{card.deck === "general" ? " · Mazo general" : ""}</div>
 
       <section className="card stack">
         <div className="hero-row">
@@ -318,6 +338,14 @@ function CardView({ entry, position, total, ctx, units, onAnswer, onRerate, onNe
             {correct ? (writeGrade === "close" ? "Casi: revisa tildes y apóstrofos" : "¡Correcto!") : "No era esa"}
           </div>
           {resolved.kind === "recog" && <p><strong>{resolved.it}</strong> = {resolved.es}</p>}
+          {resolved.kind === "recog" && resolved.ex && (
+            <p className="row" style={{ alignItems: "center", gap: 8 }}>
+              <button type="button" className="audio-btn" onClick={() => speak(resolved.ex!)} aria-label="Escuchar la frase">
+                <Icon name="sound" size={18} />
+              </button>
+              <span><em>{resolved.ex}</em> {resolved.exEs}</span>
+            </p>
+          )}
           {resolved.kind === "prod" && <p>Respuesta: <strong>{resolved.it}</strong></p>}
           {resolved.kind === "cloze" && <><p>Frase completa: <strong>{fullSentence(resolved)}</strong></p><p>{resolved.why.replace(/\*/g, "")}</p></>}
           {resolved.kind === "listen" && <p>{resolved.es}</p>}

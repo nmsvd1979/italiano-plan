@@ -330,6 +330,9 @@ button.chip { font-family: inherit; cursor: pointer; }
 .vocab-row .audio-btn { grid-row: span 2; }
 .vocab-it { font-weight: 800; font-size: 16px; }
 .vocab-es { font-size: 14px; color: var(--text-dim); }
+.vocab-tag { margin-left: 8px; font-weight: 600; font-size: 11px; color: var(--text-faint); }
+.vocab-ex { grid-column: 1 / -1; display: flex; align-items: flex-start; gap: 10px; margin-top: 6px; font-size: 14px; color: var(--text-dim); }
+.vocab-ex .audio-btn { grid-row: auto; width: 32px; height: 32px; }
 textarea.input.writing { resize: vertical; min-height: 140px; line-height: 1.5; }
 .dialogue { display: flex; flex-direction: column; gap: 14px; }
 .dline { display: flex; flex-direction: column; gap: 4px; max-width: 92%; }

@@ -26,13 +26,13 @@ export interface SrsCard {
   /** `${kind}:${itemId}` */
   id: string;
   kind: CardKind;
-  /** Palabra (`u04:il-tavolo`), ejercicio (`u04-e03`), frase de dictado (`u04:d-vorrei-un-caffe`) o `q123` (mazo extra). */
+  /** Palabra (`u04:il-tavolo`), ejercicio (`u04-e03`), frase de dictado (`u04:d-vorrei-un-caffe`) o `g:avere` (mazo general). */
   itemId: string;
   unit: string;
   fsrs: FsrsData;
   createdAt: string;
-  /** Tarjeta del mazo extra de Quizlet. */
-  deck?: "quizlet";
+  /** Mazo al que pertenece: «general» (frecuencia) o «quizlet» (mazo antiguo, ya retirado: se conserva pero se ignora). */
+  deck?: "general" | "quizlet";
   /** Creada con estado inicial sembrado desde el progreso previo (fase H2). */
   source?: "seed";
 }
@@ -43,6 +43,8 @@ export interface SrsLogEntry {
   rating: RatingValue;
   /** Milisegundos que tardó en responder. */
   ms: number;
+  /** Respondida en «Practicar más» (cuenta para el tope diario de tarjetas extra). */
+  extra?: true;
 }
 
 export interface SrsState {
@@ -50,8 +52,12 @@ export interface SrsState {
   cards: Record<string, SrsCard>;
   /** Máximo LOG_MAX entradas: se recortan las más viejas. */
   log: SrsLogEntry[];
-  options?: { quizlet?: boolean };
+  /** `quizlet` ya no se usa. `general` (mazo general de frecuencia) está activado salvo que valga false. */
+  options?: { quizlet?: boolean; general?: boolean };
 }
+
+/** El mazo general viene activado de fábrica: solo se apaga si la persona lo desactivó. */
+export const generalOn = (state: SrsState): boolean => state.options?.general !== false;
 
 export const LOG_MAX = 3000;
 /** La tarjeta de producir se desbloquea cuando la de reconocer llega a esta estabilidad (días). */
@@ -110,7 +116,7 @@ interface NewCardInput {
   kind: CardKind;
   itemId: string;
   unit: string;
-  deck?: "quizlet";
+  deck?: "general";
 }
 
 /** Tarjeta nueva, vence ahora. */
@@ -150,12 +156,12 @@ export function rateCard(card: SrsCard, rating: RatingValue, now: Date): SrsCard
 const trim = (log: SrsLogEntry[]): SrsLogEntry[] => (log.length > LOG_MAX ? log.slice(log.length - LOG_MAX) : log);
 
 /** Guarda la respuesta: actualiza la tarjeta y agrega la entrada al historial. */
-export function applyReview(state: SrsState, card: SrsCard, rating: RatingValue, now: Date, ms: number): SrsState {
+export function applyReview(state: SrsState, card: SrsCard, rating: RatingValue, now: Date, ms: number, extra = false): SrsState {
   const next = rateCard(card, rating, now);
   return {
     ...state,
     cards: { ...state.cards, [card.id]: next },
-    log: trim([...state.log, { cardId: card.id, at: now.toISOString(), rating, ms }]),
+    log: trim([...state.log, { cardId: card.id, at: now.toISOString(), rating, ms, ...(extra ? { extra: true as const } : {}) }]),
   };
 }
 
@@ -167,7 +173,7 @@ export function rerateLast(state: SrsState, before: SrsCard, rating: RatingValue
   const next = rateCard(before, rating, now);
   const log = [...state.log];
   const last = log[log.length - 1];
-  const entry: SrsLogEntry = { cardId: before.id, at: now.toISOString(), rating, ms };
+  const entry: SrsLogEntry = { cardId: before.id, at: now.toISOString(), rating, ms, ...(last?.cardId === before.id && last.extra ? { extra: true as const } : {}) };
   if (last && last.cardId === before.id) log[log.length - 1] = entry;
   else log.push(entry);
   return { ...state, cards: { ...state.cards, [before.id]: next }, log: trim(log) };
@@ -180,7 +186,7 @@ export function rerateLast(state: SrsState, before: SrsCard, rating: RatingValue
 export function unlockProdCards(state: SrsState, now: Date): SrsState {
   let cards = state.cards;
   for (const c of Object.values(state.cards)) {
-    if (c.kind !== "recog" || c.deck === "quizlet" || c.fsrs.stability < PROD_UNLOCK_STABILITY) continue;
+    if (c.kind !== "recog" || c.deck || c.fsrs.stability < PROD_UNLOCK_STABILITY) continue;
     if (c.source === "seed" && c.fsrs.reps < 2) continue;
     const id = cardId("prod", c.itemId);
     if (cards[id]) continue;

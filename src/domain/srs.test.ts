@@ -94,8 +94,8 @@ describe("tarjetas y FSRS", () => {
     expect(unlockProdCards(after, day(1))).toBe(after);
   });
 
-  it("las tarjetas del mazo extra no generan tarjeta de producir", () => {
-    const c = newSrsCard({ kind: "recog", itemId: "q1", unit: "extra", deck: "quizlet" }, day(0));
+  it("las tarjetas del mazo general (y las del antiguo mazo de Quizlet) no generan tarjeta de producir", () => {
+    const c = { ...newSrsCard({ kind: "recog", itemId: "q1", unit: "extra" }, day(0)), deck: "quizlet" as const };
     const s: SrsState = { ...emptySrs(), cards: { [c.id]: { ...c, fsrs: { ...c.fsrs, stability: 30 } } } };
     expect(unlockProdCards(s, day(1))).toBe(s);
   });
@@ -120,7 +120,7 @@ describe("contenido de las tarjetas", () => {
   it("resuelve palabra, completar (de un ejercicio fill) y dictado; null si ya no existe", () => {
     const w = u01[0];
     expect(resolveCard(newSrsCard({ kind: "recog", itemId: w.itemId, unit: "u01" }, day(0)), emptyContext()))
-      .toEqual({ kind: "recog", it: w.it, es: w.es });
+      .toMatchObject({ kind: "recog", it: w.it, es: w.es });
     expect(resolveCard(newSrsCard({ kind: "recog", itemId: "u01:no-existe", unit: "u01" }, day(0)), emptyContext())).toBeNull();
     const cloze = resolveCard(newSrsCard({ kind: "cloze", itemId: "u01-e00", unit: "u01" }, day(0)), emptyContext());
     if (cloze) expect(cloze.kind).toBe("cloze");
@@ -194,14 +194,6 @@ describe("cola diaria", () => {
     const near = buildQueue({ state, today: day(1), eligibleUnits: [] }); // solo 2 días: sin límite
     expect(near.postponed).toBe(0);
     expect(near.items).toHaveLength(50);
-  });
-
-  it("el mazo extra: desactivado por defecto; activado, 5 nuevas por día y solo recog", () => {
-    const quizlet = Array.from({ length: 30 }, (_, i) => ({ it: `p${i}`, es: `s${i}`, n: i + 1, enApp: null }));
-    expect(buildQueue({ state: emptySrs(), today: day(0), eligibleUnits: [], quizlet }).items).toHaveLength(0);
-    const on = buildQueue({ state: { ...emptySrs(), options: { quizlet: true } }, today: day(0), eligibleUnits: [], quizlet });
-    expect(on.items).toHaveLength(5);
-    expect(on.items.every((i) => i.type === "new" && i.candidate.deck === "quizlet" && i.candidate.kind === "recog")).toBe(true);
   });
 
   it("answeredToday cuenta solo las respuestas del día", () => {
