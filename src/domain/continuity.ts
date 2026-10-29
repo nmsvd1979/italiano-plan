@@ -179,6 +179,50 @@ function legacyKeys(unit: UnitMeta): string[] {
   return sessionsOf(unit).flatMap((s) => s.activities.map((a) => `${unit.id}.s${s.index}.${a.id}`));
 }
 
+/* ───────────── textos que explican el avance (fix/claridad-continuidad) ───────────── */
+
+export interface LegacyNote {
+  /** Actividades de la app anterior marcadas en la unidad. */
+  done: number;
+  /** Actividades de la app anterior que tiene la unidad. */
+  total: number;
+  /** Bloques del ciclo nuevo que esas marcas dan por hechos (con las mismas reglas de `blockDone`). */
+  blocks: number;
+  /** Bloques del ciclo nuevo de la unidad (los que no están «en preparación»). */
+  cycleTotal: number;
+}
+
+/**
+ * Qué equivale el avance de la app anterior en el ciclo nuevo, o null si la unidad no tiene marcas de la app anterior.
+ * `raw` es el progreso SIN la capa de continuidad. Solo explica: no cambia qué bloques se dan por hechos.
+ */
+export function legacyNote(unit: UnitMeta, raw: CourseProgress): LegacyNote | null {
+  const keys = legacyKeys(unit);
+  const marked = keys.filter((k) => raw.done.has(k));
+  if (marked.length === 0) return null;
+  const onlyLegacy: CourseProgress = { done: new Set(marked), startUnit: raw.startUnit, mini: {} };
+  const cycle = unitCycleProgress(unit.id, onlyLegacy);
+  return { done: marked.length, total: keys.length, blocks: cycle.done, cycleTotal: cycle.total };
+}
+
+export function legacyNoteText(n: LegacyNote): string {
+  const head = `Tu avance anterior: ${n.done} de ${n.total} actividades de la versión anterior.`;
+  const blocks = `${n.blocks} ${n.blocks === 1 ? "bloque marcado" : "bloques marcados"}`;
+  return n.blocks >= n.cycleTotal
+    ? `${head} En el ciclo nuevo la unidad cuenta como hecha (${blocks}).`
+    : `${head} En el ciclo nuevo equivalen a ${blocks}; los demás bloques son nuevos.`;
+}
+
+/** Qué hace el botón de «volver al plan anterior» / «usar de nuevo mi punto de partida» (Ajustes). */
+export function usePreviousHelp(usePrevious: boolean): string {
+  return usePrevious
+    ? "Ahora el plan usa solo tus marcas. «Usar de nuevo mi punto de partida» vuelve a aplicar lo que decidiste en Tu punto de partida; tampoco borra nada."
+    : "«Volver al plan anterior»: el plan usa solo tus marcas y deja de lado lo que decidiste en Tu punto de partida; no borra nada.";
+}
+
+export const NO_GAPS_TEXT = "No tienes huecos por cerrar: ninguna unidad quedó pendiente.";
+export const PREVIOUS_PLAN_NO_GAPS_TEXT = "Mientras uses el plan anterior no se muestran huecos ni puesta al día.";
+
 /* ───────────── diagnóstico opcional (14 §4) ───────────── */
 
 export const DIAGNOSTIC_SIZE = 8;

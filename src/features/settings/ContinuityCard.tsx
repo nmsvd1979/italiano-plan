@@ -1,6 +1,6 @@
 import { useApp } from "../../app/state";
 import { href } from "../../app/route";
-import { setUsePrevious } from "../../domain/continuity";
+import { setUsePrevious, usePreviousHelp } from "../../domain/continuity";
 
 /** Entrada a «Tu punto de partida» y «Volver al plan anterior» (docs/v2/14 §5). Ninguno de los dos borra nada. */
 export function ContinuityCard() {
@@ -15,11 +15,7 @@ export function ContinuityCard() {
       <button type="button" className="btn block" onClick={() => updateContinuity((c) => setUsePrevious(c, !c.usePrevious))}>
         {continuity.usePrevious ? "Usar de nuevo mi punto de partida" : "Volver al plan anterior"}
       </button>
-      <p className="sub">
-        {continuity.usePrevious
-          ? "Ahora el plan usa solo tus marcas, como antes."
-          : "«Volver al plan anterior» hace que el plan use solo tus marcas, como antes. No borra tus marcas, el diagnóstico ni las tarjetas."}
-      </p>
+      <p className="sub">{usePreviousHelp(continuity.usePrevious)}</p>
     </section>
   );
 }

@@ -3,17 +3,19 @@ import { goBack } from "../../app/route";
 import { COURSE } from "../../content/course";
 import { getPhase, getUnit } from "../../content/curriculum";
 import { internalRoute } from "../../app/links";
+import { legacyNote, legacyNoteText } from "../../domain/continuity";
 import { blockDone, daysOf, isSoon, unitCycleProgress } from "../../domain/cycle";
 import { Icon } from "../../ui/Icon";
 
 export function UnitScreen({ id }: { id: string }) {
-  const { steps, course, canDo, toggleCanDo } = useApp();
+  const { steps, course, rawCourse, canDo, toggleCanDo } = useApp();
   const unit = getUnit(id);
   if (!unit) return <p className="sub">No existe esa unidad.</p>;
 
   const phase = getPhase(unit.phase);
   const up = unitCycleProgress(unit.id, course);
   const marked = canDo[unit.id] ?? [];
+  const note = unit.ready ? legacyNote(unit, rawCourse) : null;
   const mine = steps.filter((s) => s.unit.id === unit.id);
 
   return (
@@ -61,6 +63,13 @@ export function UnitScreen({ id }: { id: string }) {
               })}
             </div>
           </section>
+
+          {note && (
+            <p className="note">
+              <Icon name="info" size={16} />
+              <span>{legacyNoteText(note)}</span>
+            </p>
+          )}
 
           {COURSE.filter((c) => c.unit === unit.id).map((step) => (
             <section key={step.id} className="card stack">

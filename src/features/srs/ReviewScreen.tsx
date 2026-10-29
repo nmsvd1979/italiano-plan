@@ -10,7 +10,7 @@ import {
   choicesFor, emptyContext, loadQuizletDeck, resolveCard, type DeckContext, type QuizletEntry, type Resolved,
 } from "../../domain/srsDeck";
 import { easyRating, gradeWriting, ratingForChoice, ratingForWriting, typoRating, type WriteGrade } from "../../domain/srsGrade";
-import { LIMITS, answeredToday, buildQueue, eligibleUnits, type QueueItem } from "../../domain/srsQueue";
+import { LIMITS, answeredToday, buildQueue, eligibleUnits, nextDue, nothingToReviewText, type QueueItem } from "../../domain/srsQueue";
 
 const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
 
@@ -102,6 +102,8 @@ export function ReviewScreen() {
   };
 
   const answered = answeredToday(srs, today);
+  // «Seguir repasando» solo aparece si hay algo que armar: tarjetas vencidas o palabras nuevas.
+  const canContinue = buildQueue({ state: srs, today, eligibleUnits: units, quizlet }).items.length > 0;
 
   const header = (
     <header className="screen-head">
@@ -144,13 +146,13 @@ export function ReviewScreen() {
               ? `Respondiste ${batch.length} tarjetas. Llevas ${answered} hoy.`
               : units.length === 0 && Object.keys(srs.cards).length === 0
                 ? "Las tarjetas nuevas salen de las palabras del bloque «Palabras de la unidad». Haz ese bloque en Hoy y vuelve."
-                : "No quedan tarjetas vencidas ni palabras nuevas para hoy."}
+                : nothingToReviewText(nextDue(srs, today))}
           </p>
           {answered >= LIMITS.warnAt && (
             <p className="note"><Icon name="info" size={16} /><span>Ya llevas {answered} tarjetas hoy: es un buen momento para parar.</span></p>
           )}
           <div className="row">
-            <button className="btn" type="button" onClick={() => makeBatch(srs, ctx, quizlet)}>Seguir repasando</button>
+            {canContinue && <button className="btn" type="button" onClick={() => makeBatch(srs, ctx, quizlet)}>Seguir repasando</button>}
             <a className="btn primary" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
           </div>
         </section>
