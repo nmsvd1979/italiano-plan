@@ -97,8 +97,9 @@ def build(t, errs):
         mm = rx.search(alltxt)
         if mm: e(f"{nm}: «{mm.group(0)}»")
     for s in it:
-        if not re.search(r"[.!?»:)€\d]$", s.split("\n")[-1]) and not s.split("\n")[-1].isupper():
-            e(f"párrafo sin cierre: «{s.split(chr(10))[-1][:40]}»")
+        last = s.split("\n")[-1]
+        if not re.search(r"[.!?»:),€\d]$", last) and not last.isupper() and len(last.split()) > 3:
+            e(f"párrafo sin cierre: «{last[:40]}»")
     return {"id": uid, "tipo": t.get("tipo"), "titulo": t.get("titulo"), "it": it, "es": es,
             "claves": claves, "preguntas": pre, "palabras": words}
 
