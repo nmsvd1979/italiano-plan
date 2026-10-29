@@ -377,3 +377,7 @@ textarea.input.writing { resize: vertical; min-height: 140px; line-height: 1.5; 
 .compare-text { white-space: pre-wrap; line-height: 1.5; }
 .target-form { background: var(--accent-soft); color: inherit; border-radius: 3px; padding: 0 2px; font-weight: 700; }
 .frames { padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+
+/* Grabar y comparar */
+.btn.rec-on { background: var(--bad); border-color: var(--bad); color: #fff; }
+audio { width: 100%; }

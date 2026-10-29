@@ -1,4 +1,4 @@
-import { KEYS, KEYS_V2, SRS_KEY, type KV } from "./storage";
+import { KEYS, KEYS_V2, LOG_KEY, SRS_KEY, type KV } from "./storage";
 
 // Copia de seguridad del progreso: un JSON con todas las claves italianPlan.* tal como están guardadas.
 // Versión 2: incluye las claves italianPlan.v2.*. Las copias de versión 1 (solo claves antiguas) se siguen
@@ -66,6 +66,7 @@ const JSON_KEYS: Record<string, Shape> = {
   [KEYS_V2.timing]: "object",
   [KEYS_V2.sinpista]: "object",
   [KEYS_V2.writingFix]: "object",
+  [LOG_KEY]: "array",
   [SRS_KEY]: "object",
 };
 

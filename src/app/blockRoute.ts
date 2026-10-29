@@ -17,9 +17,16 @@ export function blockRoute(step: CourseStep, day: CycleDay, block: Block): { to:
   };
   switch (block.kind) {
     case "srs": return { to: href(`/tarjetas${q()}`), label: "Repasar tarjetas" };
-    case "dialogue": return { to: href(`/dialogo/${unit}${q()}`), label: "Abrir diálogo" };
+    case "dialogue":
+      // El diálogo con rol (día 4) graba y compara; los demás bloques de diálogo solo leen y escuchan.
+      return block.id === "roleplay"
+        ? { to: href(`/dialogo/${unit}${q({ mode: "rol" })}`), label: "Empezar la escena" }
+        : { to: href(`/dialogo/${unit}${q()}`), label: "Abrir diálogo" };
     case "vocab": return { to: href(`/vocabulario/${unit}${q()}`), label: "Ver palabras" };
-    case "pron": return { to: href(`/pronunciacion/${unit}${q()}`), label: "Practicar sonidos" };
+    case "pron":
+      return block.id === "compare"
+        ? { to: href(`/pronunciacion/${unit}${q({ mode: "comparar" })}`), label: "Repetir y comparar" }
+        : { to: href(`/pronunciacion/${unit}${q()}`), label: "Practicar sonidos" };
     case "lesson": return { to: href(`/gramatica/${unit}${q()}`), label: "Empezar lección" };
     case "practice": return { to: href(`/practica/${unit}${q({ n: block.size })}`), label: "Practicar" };
     case "sinpista": return { to: href(`/variada/${unit}${q({ n: block.size })}`), label: "Practicar" };

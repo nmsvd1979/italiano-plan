@@ -59,6 +59,9 @@ export const KEYS_V2 = {
   writingFix: "italianPlan.v2.writingFix",
 } as const;
 
+/** Registro de actividad (domain/activityLog.ts, docs/v2/06 F1): arreglo JSON, máximo 2000 entradas. */
+export const LOG_KEY = "italianPlan.log.v1";
+
 /** Repaso espaciado propio (docs/v2/02 B2): tarjetas, historial y opciones, en un solo valor JSON. */
 export const SRS_KEY = "italianPlan.srs.v1";
 
@@ -236,6 +239,7 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS_V2.timing);
   store.removeItem(KEYS_V2.sinpista);
   store.removeItem(KEYS_V2.writingFix);
+  store.removeItem(LOG_KEY);
   store.removeItem(SRS_KEY);
 }
 
