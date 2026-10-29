@@ -6,13 +6,17 @@ import { Progress, Step, buildSteps } from "../domain/curriculum";
 import {
   CourseProgress, Block, blockDone, blockKey, blockMinutes, currentSlot, daysFor, isSoon, readySteps, type BlockKind,
 } from "../domain/cycle";
+import {
+  ContinuityState, courseWithContinuity, loadContinuity, markCatchup, saveContinuity, viewsOf,
+} from "../domain/continuity";
+import { applySeedReview } from "../domain/continuitySeed";
 import { miniPassed } from "../domain/miniTest";
 import { parseISODate, startOfDay, toISODate } from "../domain/dates";
 import { doneKeys, keysOn } from "../domain/progress";
 import { applySeed } from "../domain/seed";
 import { ensureSrs } from "../domain/srs";
 import {
-  CanDo, Completions, MiniTests, Settings, addMiniAttempt, clearAll, getMiniTests, clearProgress, getCanDo, getCompletions, getSettings, getSkipped,
+  CanDo, Completions, MiniTests, Settings, addMiniAttempt, clearAll, getMiniTests, clearProgress, getCanDo, getCompletions, getPhaseTests, getSettings, getSkipped,
   getStartDateISO, getStartUnit, removeKeyEverywhere, saveCanDo, saveSettings, saveSkipped, saveStartUnit,
   setCompletion, setStartDateISO,
 } from "../domain/storage";
@@ -33,6 +37,14 @@ interface AppState {
   progress: Progress;
   /** Progreso del ciclo de 7 días (marcas nuevas y equivalentes de la app anterior). */
   course: CourseProgress;
+  /** El mismo progreso sin la capa de continuidad: solo lo que marcaste (para calcular el estado de cada unidad). */
+  rawCourse: CourseProgress;
+  /** Decisiones de «Tu punto de partida» (italianPlan.v2.progress). */
+  continuity: ContinuityState;
+  /** Cambia las decisiones de continuidad y las guarda. Solo escribe italianPlan.v2.progress. */
+  updateContinuity: (change: (state: ContinuityState) => ContinuityState) => void;
+  /** Siembra el repaso espaciado con las unidades dominadas o por repasar. Devuelve cuántas tarjetas agregó. */
+  seedReview: () => number;
   /** Unidad de la semana en curso, o null si terminaste lo disponible. */
   current: UnitMeta | null;
   /** Registra un intento de mini-prueba. Devuelve si se aprobó (≥ 75 %). */
@@ -77,6 +89,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [canDo, setCanDo] = useState<CanDo>(() => getCanDo());
   const [settings, setSettings] = useState<Settings>(() => getSettings());
   const [mini, setMini] = useState<MiniTests>(() => getMiniTests());
+  const [continuity, setContinuity] = useState<ContinuityState>(() => loadContinuity(window.localStorage));
   const [today, setToday] = useState(() => startOfDay(new Date()));
 
   // Pide que el navegador no borre los datos de la app si hay poco espacio.
@@ -103,7 +116,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
     () => ({ done: doneKeys(completions), skipped: new Set(skippedList), startUnit }),
     [completions, skippedList, startUnit],
   );
-  const course = useMemo<CourseProgress>(() => ({ done: progress.done, startUnit, mini }), [progress.done, startUnit, mini]);
+  const rawCourse = useMemo<CourseProgress>(() => ({ done: progress.done, startUnit, mini }), [progress.done, startUnit, mini]);
+  // Los tests de fase se leen al calcular: no cambian con las marcas, pero sí con cada completions nuevo.
+  const course = useMemo<CourseProgress>(
+    () => courseWithContinuity(rawCourse, getPhaseTests(), continuity),
+    [rawCourse, continuity, completions],
+  );
   const current = useMemo(() => {
     const slot = currentSlot(course);
     return slot ? getUnit(slot.step.unit) ?? null : null;
@@ -136,7 +154,29 @@ export function AppProvider({ children }: { children: ReactNode }) {
    * Una pantalla avisa que terminó su actividad. Si se abrió desde un bloque de Hoy (`?k=clave`), se marca ese bloque;
    * si no, el primer bloque pendiente de ese tipo en la unidad. Devuelve false si no había nada que marcar.
    */
+  const updateContinuity = useCallback((change: (state: ContinuityState) => ContinuityState) => {
+    setContinuity((prev) => {
+      const next = change(prev);
+      if (next !== prev) saveContinuity(window.localStorage, next);
+      return next;
+    });
+  }, []);
+
+  const seedReview = useCallback(() => {
+    const views = viewsOf(rawCourse, getPhaseTests(), continuity);
+    const added = applySeedReview(window.localStorage, views);
+    setContinuity(loadContinuity(window.localStorage));
+    return added;
+  }, [rawCourse, continuity]);
+
   const completeActivity = useCallback((activityId: string, unitId?: string) => {
+    // Puesta al día (`?c=u04.repeat`): se anota en italianPlan.v2.progress, no en las marcas del plan.
+    const c = routeQuery().get("c");
+    if (c) {
+      const [unit, blockId] = c.split(".");
+      updateContinuity((state) => markCatchup(state, unit, blockId));
+      return true;
+    }
     const k = routeQuery().get("k");
     if (k && BLOCK_MINUTES.has(k)) {
       if (!progress.done.has(k)) setDone(k, true);
@@ -157,7 +197,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       }
     }
     return false;
-  }, [progress, course, setDone]);
+  }, [progress, course, setDone, updateContinuity]);
 
   const recordMini = useCallback((stepId: string, correct: number, total: number, markKey?: string) => {
     const passed = miniPassed(correct, total);
@@ -190,6 +230,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const resetProgress = useCallback(() => {
     clearProgress();
+    setContinuity(loadContinuity(window.localStorage));
     setMini({});
     setCompletions({});
     setSkippedList([]);
@@ -198,6 +239,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const resetAll = useCallback(() => {
     clearAll();
+    setContinuity(loadContinuity(window.localStorage));
     setMini({});
     setCompletions({});
     setSkippedList([]);
@@ -208,11 +250,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo<AppState>(
     () => ({
-      startDate, today, steps: STEPS, progress, course, current, recordMini, doneToday, completions, settings, canDo, setStart, setDone,
+      startDate, today, steps: STEPS, progress, course, rawCourse, continuity, updateContinuity, seedReview, current, recordMini, doneToday, completions, settings, canDo, setStart, setDone,
       setSkipped, completeActivity, setStartUnit, toggleCanDo, patchSettings, applyAdvance, resetProgress,
       resetAll,
     }),
-    [startDate, today, progress, course, current, recordMini, doneToday, completions, settings, canDo, setStart, setDone, setSkipped,
+    [startDate, today, progress, course, rawCourse, continuity, updateContinuity, seedReview, current, recordMini, doneToday, completions, settings, canDo, setStart, setDone, setSkipped,
       completeActivity, setStartUnit, toggleCanDo, patchSettings, applyAdvance, resetProgress, resetAll],
   );
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

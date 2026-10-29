@@ -226,6 +226,7 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS.writing);
   store.removeItem(KEYS_V2.seedApplied);
   store.removeItem(KEYS_V2.miniTests);
+  store.removeItem(KEYS_V2.progress);
   store.removeItem(SRS_KEY);
 }
 

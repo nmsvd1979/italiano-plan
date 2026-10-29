@@ -10,6 +10,7 @@ import { diffInDays, parseISODate, toISODate } from "../../domain/dates";
 import { computeStreak, daysSinceLastStudy } from "../../domain/progress";
 import { backupAdvice } from "../../domain/backup";
 import { canOfferSeed } from "../../domain/seed";
+import { nextCatchup, startingPoint } from "../../domain/continuity";
 import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
 import { getPhaseTests, getReview } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
@@ -58,6 +59,7 @@ export function Today() {
       <OfflineBanner />
       <BackupReminder />
       <SeedOffer />
+      <ContinuityNotices />
 
       {unit && first && !finished && (
         <a href={href(`/unidad/${unit.id}`)} className="unit-head">
@@ -164,6 +166,47 @@ function SeedOffer() {
   );
 }
 
+/**
+ * Continuidad (docs/v2/14): invitación a revisar «Tu punto de partida» mientras no lo hayas decidido, aviso del plan anterior
+ * y el bloque de puesta al día (hasta 8 min, solo en modo normal). No escribe nada por sí sola.
+ */
+function ContinuityNotices() {
+  const { rawCourse, continuity, settings } = useApp();
+  const point = useMemo(() => startingPoint(rawCourse, getPhaseTests(), continuity), [rawCourse, continuity]);
+  const catchup = settings.shortMode ? null : nextCatchup(continuity, point.catchup);
+  return (
+    <>
+      {continuity.usePrevious && (
+        <a className="card flat review-card" href={href("/punto-de-partida")}>
+          <div>
+            <div className="eyebrow">Plan anterior</div>
+            <p className="sub">Estás usando el plan anterior: solo cuentan tus marcas. Toca para volver a Tu punto de partida.</p>
+          </div>
+          <Icon name="info" size={22} />
+        </a>
+      )}
+      {!continuity.usePrevious && !continuity.decision && point.hasMarks && (
+        <a className="card flat review-card" href={href("/punto-de-partida")}>
+          <div>
+            <div className="eyebrow">Tu punto de partida</div>
+            <p className="sub">Ya tienes avance. Mira qué unidades cuentan como dominadas, parciales o por empezar. No cambia tus marcas.</p>
+          </div>
+          <Icon name="map" size={22} />
+        </a>
+      )}
+      {catchup?.to && (
+        <a className="card flat review-card" href={href(catchup.to)}>
+          <div>
+            <div className="eyebrow">Puesta al día · {catchup.minutes} min</div>
+            <p className="sub">{catchup.name} de la unidad {Number(catchup.unit.slice(1))}: lo nuevo de esta versión. Es opcional.</p>
+          </div>
+          <Icon name="mic" size={22} />
+        </a>
+      )}
+    </>
+  );
+}
+
 /** «Hoy tengo poco tiempo»: solo los bloques esenciales. Se recuerda hasta que se cambie. */
 function ShortModeCard() {
   const { settings, patchSettings, today } = useApp();
@@ -245,7 +288,7 @@ function DayCard({ slot }: { slot: Slot }) {
     <section className="card">
       <div className="hero-row">
         <div>
-          <div className="eyebrow">{unit.title}{partLabel(slot.step.part)}</div>
+          <div className="eyebrow">{unit.title}{partLabel(slot.step.part)}{course.continuity?.compressed.has(slot.step.id) ? " · hueco por cerrar" : ""}</div>
           <h2 className="title" style={{ marginTop: 4 }}>{title}</h2>
           <p className="sub">
             {minutes} min · {complete ? "esencial hecho" : `${doneCount} de ${live.length} hechos`}
