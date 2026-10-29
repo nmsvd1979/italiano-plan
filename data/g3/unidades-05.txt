@@ -1,0 +1,203 @@
+## u13
+=il regalo|Ho comprato un regalo per Anna.|Compré un regalo para Anna.
+=la lettera|Le scrivo una lettera.|Le escribo una carta.
+=telefonare|Ti telefono domani.|Te llamo mañana.
+=chiamare|Lo chiamo subito.|Lo llamo de inmediato.
+=aiutare|Mi aiuti con la valigia?|¿Me ayudas con la maleta?
+=dare|Ti do il mio numero.|Te doy mi número.
+=mandare|Le mando un messaggio.|Le mando un mensaje.
+=portare|Ti porto un regalo.|Te traigo un regalo.
+=invitare|Li invito a cena.|Los invito a cenar.
+=conoscere|La conosco da due anni.|La conozco hace dos años.
+=trovare|Non lo trovo.|No lo encuentro.
+=incontrare|Li incontro in piazza.|Me encuentro con ellos en la plaza.
+=restituire|Ti restituisco il libro domani.|Te devuelvo el libro mañana.
+=cambiare|Cambio idea.|Cambio de idea.
+=pagare|Pago io il conto.|Yo pago la cuenta.
+=l'indirizzo|Mi dai il tuo indirizzo?|¿Me das tu dirección?
+=lo scontrino|Posso avere lo scontrino?|¿Puedo tener el recibo?
+=il cliente|Il cliente aspetta alla cassa.|El cliente espera en la caja.
+=regalare|Regalo un libro a mio fratello.|Le regalo un libro a mi hermano.
+=chiedere|Ti chiedo un favore.|Te pido un favor.
++frecuente|mi|me / a mí|Mi chiami stasera?|¿Me llamas esta noche?
++frecuente|ti|te / a ti|Ti ringrazio per il regalo.|Te agradezco el regalo.
++frecuente|lo|lo|Lo vedo ogni giorno.|Lo veo todos los días.
++frecuente|la|la|La vedo domani.|La veo mañana.
++frecuente|li|los|Li vedo spesso.|Los veo a menudo.
++frecuente|le|las / le (a ella)|Le dico la verità.|Le digo la verdad.
++frecuente|gli|le (a él) / les|Gli telefono stasera.|Le llamo esta noche.
++frecuente|vi|los / les (a ustedes)|Vi aspetto alle otto.|Los espero a las ocho.
++frecuente|ringraziare|agradecer|Ti voglio ringraziare.|Te quiero agradecer.
++frecuente|salutare|saludar|Saluto sempre i vicini.|Siempre saludo a los vecinos.
++unidad|abbracciare|abrazar|Abbraccio mia madre.|Abrazo a mi madre.
++frecuente|accompagnare|acompañar|Ti accompagno alla stazione.|Te acompaño a la estación.
++unidad|informare|informar|Vi informo domani.|Les informo mañana.
++frecuente|convincere|convencer|Mi hai convinto.|Me convenciste.
++frecuente|sorprendere|sorprender|La notizia mi ha sorpreso.|La noticia me sorprendió.
++frecuente|la sorpresa|la sorpresa|Che bella sorpresa!|¡Qué bonita sorpresa!
++frecuente|gli auguri|los saludos / los deseos|Tanti auguri di buon compleanno!|¡Feliz cumpleaños!
++unidad|avvisare|avisar|Ti avviso quando arrivo.|Te aviso cuando llegue.
++unidad|disturbare|molestar|Scusi se la disturbo.|Disculpe si la molesto.
++unidad|la cartolina|la postal|Ti mando una cartolina da Roma.|Te mando una postal desde Roma.
++unidad|il fiore|la flor|Compro un fiore per mia nonna.|Compro una flor para mi abuela.
++unidad|il mazzo di fiori|el ramo de flores|Porto un mazzo di fiori.|Llevo un ramo de flores.
++unidad|il cioccolatino|el bombón|Le regalo dei cioccolatini.|Le regalo unos bombones.
++unidad|il pacchetto|el paquetito|Ecco un pacchetto per te.|Aquí hay un paquetito para ti.
++unidad|il destinatario|el destinatario|Scrivo il nome del destinatario.|Escribo el nombre del destinatario.
++unidad|la busta|el sobre|Metto la lettera nella busta.|Pongo la carta en el sobre.
++unidad|il francobollo|la sello|Mi serve un francobollo.|Necesito una sello.
++unidad|la posta|el correo|Porto la posta all'ufficio.|Llevo el correo a la oficina.
++unidad|l'ufficio postale|la oficina de correos|L'ufficio postale è in via Roma.|La oficina de correos está en la calle Roma.
+## u14
+=girare|Giri a destra al semaforo.|Doble a la derecha en el semáforo.
+=continuare|Continui dritto per cento metri.|Siga derecho cien metros.
+=attraversare|Attraversi la piazza.|Cruce la plaza.
+=fermarsi|Si fermi qui, per favore.|Deténgase aquí, por favor.
+=il ponte|Attraversi il ponte.|Cruce el puente.
+=la via|La via è chiusa al traffico.|La calle está cerrada al tráfico.
+=la rotonda|Alla rotonda prenda la seconda uscita.|En la rotonda tome la segunda salida.
+=di fronte a|La farmacia è di fronte alla banca.|La farmacia está frente al banco.
+=accanto a|Il bar è accanto al cinema.|El bar está al lado del cine.
+=dietro|Dietro la chiesa c'è un parco.|Detrás de la iglesia hay un parque.
+=la fetta|Vorrei una fetta di torta.|Quisiera un trozo de torta.
+=la ricetta|La ricetta è molto semplice.|La receta es muy simple.
+=aspettare|Mi aspetti qui!|¡Espéreme aquí!
+=ascoltare|Ascolta bene!|¡Escucha bien!
+=guardare|Guarda questa foto!|¡Mira esta foto!
+=ripetere|Ripeta, per favore.|Repita, por favor.
+=piano|Parli più piano, per favore.|Hable más despacio, por favor.
+=in fretta|Non mangiare in fretta!|¡No comas rápido!
+=fino a|Vada dritto fino al ponte.|Siga derecho hasta el puente.
+=il marciapiede|Camminiamo sul marciapiede.|Caminamos por la vereda.
++frecuente|ci|nos / allí (pronombre ci)|Ci vado domani.|Voy allí mañana.
++frecuente|ne|de eso / de ello|Ne voglio due.|Quiero dos de esos.
++frecuente|vai|ve (imperativo de andare)|Vai dritto e poi gira a sinistra.|Ve derecho y luego dobla a la izquierda.
++frecuente|vieni|ven|Vieni qui, per favore.|Ven aquí, por favor.
++frecuente|dai|vamos / dale|Dai, andiamo!|¡Dale, vamos!
++frecuente|senti|oye / escucha|Senti, mi puoi aiutare?|Oye, ¿me puedes ayudar?
++frecuente|attento|atento / cuidado|Stai attento alla strada!|¡Ten cuidado con la calle!
++frecuente|attenzione|atención / cuidado|Attenzione, c'è un gradino!|¡Cuidado, hay un escalón!
++frecuente|avanti|adelante|Avanti, entra pure!|¡Adelante, entra!
++frecuente|indietro|atrás|Torna indietro di due passi.|Vuelve dos pasos atrás.
++frecuente|fermo|quieto / detenido|Stai fermo!|¡Quédate quieto!
++frecuente|su|arriba / sobre|Vai su, c'è un balcone.|Sube, hay un balcón.
++frecuente|giù|abajo|Scendi giù, ti aspetto.|Baja, te espero.
++frecuente|tagliare|cortar|Taglio il pane a fette.|Corto el pan en rebanadas.
++unidad|cuocere|cocer|Cuocio la pasta per dieci minuti.|Cuezo la pasta diez minutos.
++unidad|mescolare|mezclar / revolver|Mescola bene la salsa.|Revuelve bien la salsa.
++unidad|bollire|hervir|L'acqua bolle.|El agua hierve.
++unidad|versare|verter / servir|Versa l'olio nella padella.|Vierte el aceite en la sartén.
++unidad|il forno|el horno|Metti la torta nel forno.|Pon la torta en el horno.
++unidad|la pentola|la olla|Metto l'acqua nella pentola.|Pongo el agua en la olla.
++unidad|la padella|la sartén|La padella è calda.|La sartén está caliente.
++unidad|il coltello|el cuchillo|Il coltello è sul tavolo.|El cuchillo está sobre la mesa.
++unidad|il cucchiaio|la cuchara|Un cucchiaio di zucchero.|Una cucharada de azúcar.
++unidad|stia attento|tenga cuidado (formal)|Stia attento alla strada!|¡Tenga cuidado con la calle!
++unidad|mi dica|dígame (formal)|Mi dica, cosa desidera?|Dígame, ¿qué desea?
++unidad|prenda|tome (formal)|Prenda la prima a destra.|Tome la primera a la derecha.
++unidad|vada|vaya (formal)|Vada dritto.|Vaya derecho.
++unidad|il coperchio|la tapa|Metti il coperchio sulla pentola.|Pon la tapa sobre la olla.
++unidad|le istruzioni|las instrucciones|Leggo le istruzioni con attenzione.|Leo las instrucciones con atención.
+## u15
+=il futuro|Il futuro mi piace.|Me gusta el futuro.
+=il progetto|Ho un progetto importante.|Tengo un proyecto importante.
+=il sogno|Il mio sogno è vivere in Italia.|Mi sueño es vivir en Italia.
+=l'anno prossimo|L'anno prossimo andrò a Roma.|El próximo año iré a Roma.
+=la prossima settimana|La prossima settimana avrò un esame.|La próxima semana tendré un examen.
+=tra una settimana|Parto tra una settimana.|Salgo en una semana.
+=forse|Forse domani pioverà.|Quizás mañana llueva.
+=probabilmente|Probabilmente arriverò tardi.|Probablemente llegaré tarde.
+=sicuramente|Sicuramente verrò alla festa.|Seguro que iré a la fiesta.
+=sperare|Spero di vederti presto.|Espero verte pronto.
+=il consiglio|Ho bisogno di un consiglio.|Necesito un consejo.
+=potrebbe|Potrebbe aiutarmi?|¿Podría ayudarme?
+=dovresti|Dovresti studiare di più.|Deberías estudiar más.
+=magari|Magari fosse vero!|¡Ojalá fuera verdad!
+=il favore|Mi fai un favore?|¿Me haces un favor?
+=l'invito|Grazie per l'invito.|Gracias por la invitación.
+=la festa|La festa sarà sabato.|La fiesta será el sábado.
+=il programma|Qual è il programma di domani?|¿Cuál es el programa de mañana?
+=decidere|Domani deciderò.|Mañana decidiré.
+=organizzare|Organizzo una cena per sabato.|Organizo una cena para el sábado.
++frecuente|sarò|seré / estaré|Domani sarò a casa.|Mañana estaré en casa.
++frecuente|avrò|tendré|Avrò più tempo l'anno prossimo.|Tendré más tiempo el próximo año.
++frecuente|andrò|iré|Andrò in Italia in estate.|Iré a Italia en verano.
++frecuente|farò|haré|Farò una torta per la festa.|Haré una torta para la fiesta.
++frecuente|verrò|vendré|Verrò con te.|Iré contigo.
++frecuente|sarebbe|sería|Sarebbe bello viaggiare insieme.|Sería bonito viajar juntos.
++frecuente|avrei|tendría|Avrei bisogno di aiuto.|Necesitaría ayuda.
++frecuente|farei|haría|Io farei un'altra scelta.|Yo haría otra elección.
++frecuente|prossimo|próximo|Il prossimo treno parte alle dieci.|El próximo tren sale a las diez.
++frecuente|tra poco|en un rato|Arrivo tra poco.|Llego en un rato.
++frecuente|più tardi|más tarde|Ti chiamo più tardi.|Te llamo más tarde.
++frecuente|un giorno|algún día|Un giorno vivrò a Roma.|Algún día viviré en Roma.
++frecuente|l'obiettivo|el objetivo|Il mio obiettivo è parlare bene.|Mi objetivo es hablar bien.
++frecuente|il desiderio|el deseo|Il mio desiderio è viaggiare.|Mi deseo es viajar.
++frecuente|la speranza|la esperanza|C'è ancora speranza.|Todavía hay esperanza.
++unidad|in futuro|en el futuro|In futuro vorrei lavorare in Italia.|En el futuro quisiera trabajar en Italia.
++unidad|pianificare|planificar|Pianifico il viaggio con cura.|Planifico el viaje con cuidado.
++unidad|la previsione|el pronóstico|Le previsioni dicono sole.|El pronóstico dice sol.
++unidad|chissà|quién sabe|Chissà dove sarà domani!|¡Quién sabe dónde estará mañana!
++unidad|il piano|el plan|Ho un piano per le vacanze.|Tengo un plan para las vacaciones.
++unidad|avere intenzione di|tener la intención de|Ho intenzione di studiare di più.|Tengo la intención de estudiar más.
++unidad|avere voglia di|tener ganas de|Ho voglia di un gelato.|Tengo ganas de un helado.
++unidad|la voglia|las ganas|Non ho voglia di uscire.|No tengo ganas de salir.
++unidad|il rischio|el riesgo|C'è il rischio di perdere il treno.|Hay riesgo de perder el tren.
++unidad|fra un mese|en un mes|Fra un mese parto.|En un mes me voy.
++unidad|il prossimo anno|el próximo año|Il prossimo anno cambio lavoro.|El próximo año cambio de trabajo.
++unidad|l'idea|la idea|Ho una buona idea.|Tengo una buena idea.
++unidad|il cambiamento|el cambio|Il cambiamento mi spaventa un po'.|El cambio me asusta un poco.
++unidad|l'avvenire|el porvenir|Penso all'avvenire.|Pienso en el porvenir.
+## u16
+=il medico|Devo andare dal medico.|Tengo que ir al médico.
+=la medicina|Prendo la medicina due volte al giorno.|Tomo el remedio dos veces al día.
+=la compressa|Una compressa ogni otto ore.|Una pastilla cada ocho horas.
+=lo sciroppo|Lo sciroppo è per la tosse.|El jarabe es para la tos.
+=la febbre|Ho la febbre da ieri.|Tengo fiebre desde ayer.
+=la tosse|Ho una brutta tosse.|Tengo una tos fea.
+=il raffreddore|Ho il raffreddore.|Estoy resfriado.
+=il mal di testa|Ho mal di testa.|Me duele la cabeza.
+=il mal di gola|Ho mal di gola.|Me duele la garganta.
+=la schiena|Mi fa male la schiena.|Me duele la espalda.
+=la gola|Mi fa male la gola.|Me duele la garganta.
+=lo stomaco|Ho mal di stomaco.|Me duele el estómago.
+=il dente|Mi fa male un dente.|Me duele un diente.
+=l'ambulanza|Chiamo l'ambulanza!|¡Llamo a la ambulancia!
+=il pronto soccorso|Vado al pronto soccorso.|Voy a urgencias.
+=l'emergenza|È un'emergenza!|¡Es una emergencia!
+=aiuto!|Aiuto! Mi sento male!|¡Ayuda! ¡Me siento mal!
+=stare male|Oggi sto male.|Hoy estoy mal.
+=riposare|Il medico dice di riposare.|El médico dice que descanse.
+=la ricetta|Il medico mi dà la ricetta.|El médico me da la receta.
+=servire|Mi serve una medicina.|Necesito un remedio.
+=niente|Non è niente di grave.|No es nada grave.
+=qualcosa|Ho qualcosa per il mal di testa?|¿Tienes algo para el dolor de cabeza?
++frecuente|il corpo|el cuerpo|Il corpo ha bisogno di riposo.|El cuerpo necesita descanso.
++frecuente|il braccio|el brazo|Mi fa male il braccio.|Me duele el brazo.
++frecuente|la gamba|la pierna|Ho una gamba rotta.|Tengo una pierna rota.
++frecuente|il piede|el pie|Mi fa male il piede.|Me duele el pie.
++frecuente|il naso|la nariz|Ho il naso chiuso.|Tengo la nariz tapada.
++frecuente|la bocca|la boca|Apra la bocca, per favore.|Abra la boca, por favor.
++frecuente|il cuore|el corazón|Il cuore batte forte.|El corazón late fuerte.
++frecuente|la salute|la salud|La salute è importante.|La salud es importante.
++frecuente|il dolore|el dolor|Ho un dolore forte alla schiena.|Tengo un dolor fuerte en la espalda.
++frecuente|il sangue|la sangre|C'è del sangue sulla mano.|Hay sangre en la mano.
++frecuente|l'ospedale|el hospital|L'ospedale è vicino.|El hospital está cerca.
++frecuente|il dottore|el doctor|Il dottore arriva subito.|El doctor llega de inmediato.
++frecuente|il paziente|el paciente|Il paziente dorme.|El paciente duerme.
++frecuente|la visita|la consulta|Ho una visita alle tre.|Tengo una consulta a las tres.
++frecuente|fare male|doler|Mi fa male la testa.|Me duele la cabeza.
++unidad|l'orecchio|el oído / la oreja|Mi fa male l'orecchio.|Me duele el oído.
++unidad|il collo|el cuello|Ho il collo rigido.|Tengo el cuello rígido.
++unidad|la pelle|la piel|La pelle è secca.|La piel está seca.
++unidad|il dito|el dedo|Mi fa male un dito.|Me duele un dedo.
++unidad|la malattia|la enfermedad|Ha una malattia leggera.|Tiene una enfermedad leve.
++unidad|guarire|sanar|Guarirò presto.|Me sanaré pronto.
++unidad|curare|tratar / curar|Il medico cura i pazienti.|El médico trata a los pacientes.
++unidad|peggiorare|empeorar|La tosse sta peggiorando.|La tos está empeorando.
++unidad|la ferita|la herida|La ferita è profonda.|La herida es profunda.
++unidad|l'influenza|la gripe|Ho l'influenza.|Tengo gripe.
++unidad|il dentista|el dentista|Vado dal dentista martedì.|Voy al dentista el martes.
++unidad|la pressione|la presión|Il medico misura la pressione.|El médico mide la presión.
++unidad|l'assicurazione|el seguro|Ho un'assicurazione sanitaria.|Tengo un seguro de salud.
++unidad|la tessera sanitaria|la tarjeta de salud|Porto la tessera sanitaria.|Llevo la tarjeta de salud.

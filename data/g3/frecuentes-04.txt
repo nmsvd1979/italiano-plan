@@ -1,0 +1,81 @@
+## numeros, meses, expresiones y otros
+num|undici|once|Ci sono undici persone.|Hay once personas.
+num|dodici|doce|Dodici mesi fanno un anno.|Doce meses hacen un año.
+num|tredici|trece|Mio figlio ha tredici anni.|Mi hijo tiene trece años.
+num|quattordici|catorce|Sono le quattordici.|Son las catorce horas.
+num|quindici|quince|Il treno parte tra quindici minuti.|El tren sale en quince minutos.
+num|sedici|dieciséis|Ho sedici euro.|Tengo dieciséis euros.
+num|diciassette|diecisiete|Abito al diciassettesimo piano.|Vivo en el piso diecisiete.
+num|diciotto|dieciocho|A diciotto anni si è maggiorenni.|A los dieciocho años se es mayor de edad.
+num|diciannove|diecinueve|Sono nato nel mille novecento ottantasei.|Nací en mil novecientos ochenta y seis.
+num|ventuno|veintiuno|Ho ventuno anni.|Tengo veintiún años.
+num|cinquecento|quinientos|Questo costa cinquecento euro.|Esto cuesta quinientos euros.
+num|terzo|tercero|È il terzo giorno.|Es el tercer día.
+num|quinto|quinto|È la quinta lezione.|Es la quinta lección.
+num|sesto|sexto|Domani è il sesto giorno.|Mañana es el sexto día.
+num|una dozzina|una docena|Compro una dozzina di uova.|Compro una docena de huevos.
+mes|febbraio|febrero|A febbraio fa ancora freddo.|En febrero todavía hace frío.
+mes|marzo|marzo|A marzo comincia la primavera.|En marzo empieza la primavera.
+mes|aprile|abril|Ad aprile piove spesso.|En abril llueve a menudo.
+mes|maggio|mayo|Maggio è un mese bellissimo.|Mayo es un mes hermosísimo.
+mes|giugno|junio|A giugno comincia l'estate.|En junio empieza el verano.
+mes|luglio|julio|A luglio fa molto caldo.|En julio hace mucho calor.
+mes|agosto|agosto|Ad agosto molti negozi chiudono.|En agosto muchas tiendas cierran.
+mes|settembre|septiembre|A settembre ricomincia la scuola.|En septiembre vuelven las clases.
+mes|ottobre|octubre|A ottobre cadono le foglie.|En octubre caen las hojas.
+mes|novembre|noviembre|A novembre piove molto.|En noviembre llueve mucho.
+mes|il Natale|la Navidad|A Natale siamo tutti insieme.|En Navidad estamos todos juntos.
+exp|mi piace|me gusta|Mi piace il caffè.|Me gusta el café.
+exp|mi piacciono|me gustan|Mi piacciono i film italiani.|Me gustan las películas italianas.
+exp|non mi piace|no me gusta|Non mi piace il freddo.|No me gusta el frío.
+exp|ti piace?|¿te gusta?|Ti piace questa canzone?|¿Te gusta esta canción?
+exp|a me piace|a mí me gusta|A me piace camminare.|A mí me gusta caminar.
+exp|mi sembra|me parece|Mi sembra una buona idea.|Me parece una buena idea.
+exp|ho voglia di|tengo ganas de|Ho voglia di un caffè.|Tengo ganas de un café.
+exp|non importa|no importa|Non importa, grazie lo stesso.|No importa, gracias igual.
+exp|non fa niente|no pasa nada|Scusa! — Non fa niente.|¡Perdona! — No pasa nada.
+exp|che peccato|qué pena|Non vieni? Che peccato!|¿No vienes? ¡Qué pena!
+exp|che bello|qué bonito|Che bello vederti!|¡Qué bonito verte!
+exp|per me|para mí|Per me un caffè, grazie.|Para mí un café, gracias.
+exp|a mio parere|a mi parecer|A mio parere è giusto.|A mi parecer es justo.
+exp|un sacco di|un montón de|Ho un sacco di cose da fare.|Tengo un montón de cosas que hacer.
+exp|un paio di|un par de|Ho un paio di domande.|Tengo un par de preguntas.
+exp|nel frattempo|mientras tanto|Nel frattempo preparo la cena.|Mientras tanto preparo la cena.
+exp|a volte|a veces|A volte esco la sera.|A veces salgo en la noche.
+exp|stanotte|esta noche (pasada o próxima)|Stanotte ho dormito bene.|Anoche dormí bien.
+exp|domattina|mañana por la mañana|Domattina parto presto.|Mañana en la mañana salgo temprano.
+exp|stavolta|esta vez|Stavolta pago io.|Esta vez pago yo.
+exp|laggiù|allá abajo|Il mare è laggiù.|El mar está allá abajo.
+n|il paio|el par|Un paio di scarpe nuove.|Un par de zapatos nuevos.
+n|la canzone|la canción|Questa canzone è bellissima.|Esta canción es hermosísima.
+n|la serata|la velada|È stata una bella serata.|Fue una bonita velada.
+n|la radio|la radio|Ascolto la radio in macchina.|Escucho la radio en el auto.
+n|il video|el video|Guardo un video su internet.|Veo un video en internet.
+n|la coppia|la pareja|Sono una bella coppia.|Son una bonita pareja.
+n|la sensazione|la sensación|Ho una strana sensazione.|Tengo una sensación extraña.
+n|la piscina|la piscina|Nuoto in piscina.|Nado en la piscina.
+n|il pavimento|el piso|Il pavimento è freddo.|El piso está frío.
+n|il tetto|el techo|Il tetto è rosso.|El techo es rojo.
+n|la barca|el bote|Andiamo in barca.|Vamos en bote.
+n|il test|la prueba|Domani c'è il test.|Mañana hay prueba.
+n|l'hotel|el hotel|L'hotel è vicino al mare.|El hotel está cerca del mar.
+adj|fantastico|fantástico|Il concerto è stato fantastico.|El concierto fue fantástico.
+adj|incredibile|increíble|È incredibile!|¡Es increíble!
+adj|terribile|terrible|Il traffico è terribile.|El tráfico es terrible.
+adj|meraviglioso|maravilloso|Il paesaggio è meraviglioso.|El paisaje es maravilloso.
+adj|carino|bonito / simpático|Che carino!|¡Qué bonito!
+adj|bellissimo|hermosísimo|È un posto bellissimo.|Es un lugar hermosísimo.
+adj|orribile|horrible|Il tempo è orribile.|El tiempo es horrible.
+adv|semplicemente|simplemente|È semplicemente perfetto.|Es simplemente perfecto.
+adv|praticamente|prácticamente|Sono praticamente pronto.|Estoy prácticamente listo.
+adv|decisamente|decididamente|È decisamente meglio.|Es decididamente mejor.
+adv|assolutamente|absolutamente|Assolutamente no!|¡Absolutamente no!
+adv|esattamente|exactamente|Esattamente!|¡Exactamente!
+adv|chiaramente|claramente|Parla chiaramente.|Habla claramente.
+adv|immediatamente|inmediatamente|Vengo immediatamente.|Voy inmediatamente.
+adv|lentamente|lentamente|Parla lentamente, per favore.|Habla lentamente, por favor.
+adv|velocemente|rápidamente|Cammina velocemente.|Camina rápidamente.
+adv|facilmente|fácilmente|Si impara facilmente.|Se aprende fácilmente.
+adv|ultimamente|últimamente|Ultimamente studio di più.|Últimamente estudio más.
+v|stare|estar / quedarse|Come stai? Sto bene.|¿Cómo estás? Estoy bien.
+v|parere|parecer|Pare che sia vero.|Parece que es verdad.

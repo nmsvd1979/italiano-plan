@@ -1,0 +1,4594 @@
+[
+{
+"it": "unire",
+"es": "unir",
+"ex": "Uniamo le forze.",
+"exEs": "Unimos fuerzas.",
+"pos": "v",
+"n": 12
+},
+{
+"it": "con",
+"es": "con",
+"ex": "Vado al cinema con Anna.",
+"exEs": "Voy al cine con Anna.",
+"pos": "adv",
+"n": 22
+},
+{
+"it": "ti piace?",
+"es": "¿te gusta?",
+"ex": "Ti piace questa canzone?",
+"exEs": "¿Te gusta esta canción?",
+"pos": "exp",
+"n": 25
+},
+{
+"it": "per me",
+"es": "para mí",
+"ex": "Per me un caffè, grazie.",
+"exEs": "Para mí un café, gracias.",
+"pos": "exp",
+"n": 42
+},
+{
+"it": "oh",
+"es": "oh",
+"ex": "Oh, che bello!",
+"exEs": "¡Oh, qué bonito!",
+"pos": "adv",
+"n": 59
+},
+{
+"it": "stare",
+"es": "estar / quedarse",
+"ex": "Come stai? Sto bene.",
+"exEs": "¿Cómo estás? Estoy bien.",
+"pos": "v",
+"n": 70
+},
+{
+"it": "non fa niente",
+"es": "no pasa nada",
+"ex": "Scusa! — Non fa niente.",
+"exEs": "¡Perdona! — No pasa nada.",
+"pos": "exp",
+"n": 103
+},
+{
+"it": "fuori",
+"es": "afuera",
+"ex": "Aspetto fuori.",
+"exEs": "Espero afuera.",
+"pos": "adv",
+"n": 142
+},
+{
+"it": "la parte",
+"es": "la parte",
+"ex": "Una parte del lavoro è facile.",
+"exEs": "Una parte del trabajo es fácil.",
+"pos": "n",
+"n": 147
+},
+{
+"it": "il bisogno",
+"es": "la necesidad",
+"ex": "Ho bisogno di riposo.",
+"exEs": "Necesito descanso.",
+"pos": "n",
+"n": 162
+},
+{
+"it": "mi sembra",
+"es": "me parece",
+"ex": "Mi sembra una buona idea.",
+"exEs": "Me parece una buena idea.",
+"pos": "exp",
+"n": 177
+},
+{
+"it": "il modo",
+"es": "el modo / la manera",
+"ex": "In che modo?",
+"exEs": "¿De qué manera?",
+"pos": "n",
+"n": 180
+},
+{
+"it": "giusto",
+"es": "justo / correcto",
+"ex": "La risposta è giusta.",
+"exEs": "La respuesta es correcta.",
+"pos": "adj",
+"n": 208
+},
+{
+"it": "il tipo",
+"es": "el tipo",
+"ex": "Che tipo di film ti piace?",
+"exEs": "¿Qué tipo de película te gusta?",
+"pos": "n",
+"n": 225
+},
+{
+"it": "pregare",
+"es": "rogar / rezar",
+"ex": "Ti prego, aiutami!",
+"exEs": "¡Te ruego, ayúdame!",
+"pos": "v",
+"n": 226
+},
+{
+"it": "mi piace",
+"es": "me gusta",
+"ex": "Mi piace il caffè.",
+"exEs": "Me gusta el café.",
+"pos": "exp",
+"n": 238
+},
+{
+"it": "non mi piace",
+"es": "no me gusta",
+"ex": "Non mi piace il freddo.",
+"exEs": "No me gusta el frío.",
+"pos": "exp",
+"n": 238
+},
+{
+"it": "a me piace",
+"es": "a mí me gusta",
+"ex": "A me piace camminare.",
+"exEs": "A mí me gusta caminar.",
+"pos": "exp",
+"n": 238
+},
+{
+"it": "la gente",
+"es": "la gente",
+"ex": "C'è molta gente in strada.",
+"exEs": "Hay mucha gente en la calle.",
+"pos": "n",
+"n": 245
+},
+{
+"it": "il caso",
+"es": "el caso",
+"ex": "In questo caso, aspettiamo.",
+"exEs": "En este caso, esperamos.",
+"pos": "n",
+"n": 253
+},
+{
+"it": "la forza",
+"es": "la fuerza",
+"ex": "Ho poca forza oggi.",
+"exEs": "Tengo poca fuerza hoy.",
+"pos": "n",
+"n": 254
+},
+{
+"it": "il problema",
+"es": "el problema",
+"ex": "Nessun problema!",
+"exEs": "¡Ningún problema!",
+"pos": "n",
+"n": 262
+},
+{
+"it": "bastare",
+"es": "bastar",
+"ex": "Basta così, grazie.",
+"exEs": "Basta así, gracias.",
+"pos": "v",
+"n": 273
+},
+{
+"it": "insieme",
+"es": "juntos",
+"ex": "Studiamo insieme.",
+"exEs": "Estudiamos juntos.",
+"pos": "adv",
+"n": 274
+},
+{
+"it": "la faccia",
+"es": "la cara",
+"ex": "Ho la faccia stanca.",
+"exEs": "Tengo la cara cansada.",
+"pos": "n",
+"n": 275
+},
+{
+"it": "ah",
+"es": "ah",
+"ex": "Ah, ho capito!",
+"exEs": "¡Ah, entendí!",
+"pos": "adv",
+"n": 283
+},
+{
+"it": "la ragione",
+"es": "la razón",
+"ex": "Hai ragione.",
+"exEs": "Tienes razón.",
+"pos": "n",
+"n": 285
+},
+{
+"it": "capitare",
+"es": "ocurrir / pasar por casualidad",
+"ex": "Se capita a Roma, mi chiami.",
+"exEs": "Si pasa por Roma, llámeme.",
+"pos": "v",
+"n": 288
+},
+{
+"it": "a volte",
+"es": "a veces",
+"ex": "A volte esco la sera.",
+"exEs": "A veces salgo en la noche.",
+"pos": "exp",
+"n": 290
+},
+{
+"it": "sotto",
+"es": "abajo / bajo",
+"ex": "Il gatto è sotto il letto.",
+"exEs": "El gato está bajo la cama.",
+"pos": "adv",
+"n": 294
+},
+{
+"it": "eh",
+"es": "eh",
+"ex": "Eh? Non ho sentito.",
+"exEs": "¿Eh? No escuché.",
+"pos": "adv",
+"n": 295
+},
+{
+"it": "che bello",
+"es": "qué bonito",
+"ex": "Che bello vederti!",
+"exEs": "¡Qué bonito verte!",
+"pos": "exp",
+"n": 309
+},
+{
+"it": "succedere",
+"es": "suceder",
+"ex": "Che cosa succede?",
+"exEs": "¿Qué sucede?",
+"pos": "v",
+"n": 313
+},
+{
+"it": "la persona",
+"es": "la persona",
+"ex": "È una persona simpatica.",
+"exEs": "Es una persona simpática.",
+"pos": "n",
+"n": 317
+},
+{
+"it": "la polizia",
+"es": "la policía",
+"ex": "Chiamo la polizia.",
+"exEs": "Llamo a la policía.",
+"pos": "n",
+"n": 325
+},
+{
+"it": "lì",
+"es": "allí",
+"ex": "Il bar è lì.",
+"exEs": "El bar está allí.",
+"pos": "adv",
+"n": 326
+},
+{
+"it": "la fine",
+"es": "el fin / el final",
+"ex": "La fine del film è bella.",
+"exEs": "El final de la película es bonito.",
+"pos": "n",
+"n": 334
+},
+{
+"it": "la paura",
+"es": "el miedo",
+"ex": "Ho paura del buio.",
+"exEs": "Tengo miedo a la oscuridad.",
+"pos": "n",
+"n": 336
+},
+{
+"it": "il capo",
+"es": "el jefe",
+"ex": "Il mio capo è gentile.",
+"exEs": "Mi jefe es amable.",
+"pos": "n",
+"n": 344
+},
+{
+"it": "l'amore",
+"es": "el amor",
+"ex": "L'amore è importante.",
+"exEs": "El amor es importante.",
+"pos": "n",
+"n": 345
+},
+{
+"it": "nemmeno",
+"es": "ni siquiera",
+"ex": "Non ho nemmeno un minuto.",
+"exEs": "No tengo ni un minuto.",
+"pos": "adv",
+"n": 355
+},
+{
+"it": "il giro",
+"es": "la vuelta",
+"ex": "Facciamo un giro in centro.",
+"exEs": "Damos una vuelta por el centro.",
+"pos": "n",
+"n": 372
+},
+{
+"it": "la morte",
+"es": "la muerte",
+"ex": "La morte di un amico è triste.",
+"exEs": "La muerte de un amigo es triste.",
+"pos": "n",
+"n": 373
+},
+{
+"it": "qua",
+"es": "aquí",
+"ex": "Vieni qua!",
+"exEs": "¡Ven acá!",
+"pos": "adv",
+"n": 375
+},
+{
+"it": "quasi",
+"es": "casi",
+"ex": "Sono quasi arrivato.",
+"exEs": "Casi llegué.",
+"pos": "adv",
+"n": 381
+},
+{
+"it": "contro",
+"es": "contra",
+"ex": "Il muro è contro la strada.",
+"exEs": "El muro está contra la calle.",
+"pos": "adv",
+"n": 386
+},
+{
+"it": "colpire",
+"es": "golpear / impresionar",
+"ex": "La notizia mi ha colpito.",
+"exEs": "La noticia me impresionó.",
+"pos": "v",
+"n": 389
+},
+{
+"it": "la colpa",
+"es": "la culpa",
+"ex": "Non è colpa mia.",
+"exEs": "No es culpa mía.",
+"pos": "n",
+"n": 389
+},
+{
+"it": "almeno",
+"es": "al menos",
+"ex": "Almeno dimmi il tuo nome.",
+"exEs": "Al menos dime tu nombre.",
+"pos": "adv",
+"n": 404
+},
+{
+"it": "salvare",
+"es": "salvar",
+"ex": "Salvo il documento sul computer.",
+"exEs": "Guardo el documento en el computadora.",
+"pos": "v",
+"n": 419
+},
+{
+"it": "importare",
+"es": "importar",
+"ex": "Non importa!",
+"exEs": "¡No importa!",
+"pos": "v",
+"n": 440
+},
+{
+"it": "non importa",
+"es": "no importa",
+"ex": "Non importa, grazie lo stesso.",
+"exEs": "No importa, gracias igual.",
+"pos": "exp",
+"n": 440
+},
+{
+"it": "difficile",
+"es": "difícil",
+"ex": "Il test è difficile.",
+"exEs": "La prueba es difícil.",
+"pos": "adj",
+"n": 460
+},
+{
+"it": "fantastico",
+"es": "fantástico",
+"ex": "Il concerto è stato fantastico.",
+"exEs": "El concierto fue fantástico.",
+"pos": "adj",
+"n": 468
+},
+{
+"it": "veramente",
+"es": "de verdad",
+"ex": "È veramente buono.",
+"exEs": "Está muy rico de verdad.",
+"pos": "adv",
+"n": 471
+},
+{
+"it": "forte",
+"es": "fuerte",
+"ex": "Il caffè è forte.",
+"exEs": "El café es fuerte.",
+"pos": "adj",
+"n": 486
+},
+{
+"it": "amare",
+"es": "amar",
+"ex": "Amo la mia famiglia.",
+"exEs": "Amo a mi familia.",
+"pos": "v",
+"n": 489
+},
+{
+"it": "la roba",
+"es": "las cosas",
+"ex": "Ho tanta roba da portare.",
+"exEs": "Tengo muchas cosas que llevar.",
+"pos": "n",
+"n": 490
+},
+{
+"it": "a mio parere",
+"es": "a mi parecer",
+"ex": "A mio parere è giusto.",
+"exEs": "A mi parecer es justo.",
+"pos": "exp",
+"n": 494
+},
+{
+"it": "parere",
+"es": "parecer",
+"ex": "Pare che sia vero.",
+"exEs": "Parece que es verdad.",
+"pos": "v",
+"n": 494
+},
+{
+"it": "un sacco di",
+"es": "un montón de",
+"ex": "Ho un sacco di cose da fare.",
+"exEs": "Tengo un montón de cosas que hacer.",
+"pos": "exp",
+"n": 504
+},
+{
+"it": "strano",
+"es": "extraño",
+"ex": "Che cosa strana!",
+"exEs": "¡Qué cosa extraña!",
+"pos": "adj",
+"n": 509
+},
+{
+"it": "bravo",
+"es": "bueno (en algo) / hábil",
+"ex": "Sei molto bravo in italiano.",
+"exEs": "Eres muy bueno en italiano.",
+"pos": "adj",
+"n": 514
+},
+{
+"it": "il senso",
+"es": "el sentido",
+"ex": "Non ha senso.",
+"exEs": "No tiene sentido.",
+"pos": "n",
+"n": 517
+},
+{
+"it": "il genere",
+"es": "el género / el tipo",
+"ex": "Che genere di musica ascolti?",
+"exEs": "¿Qué género de música escuchas?",
+"pos": "n",
+"n": 518
+},
+{
+"it": "pure",
+"es": "también / adelante",
+"ex": "Entri pure!",
+"exEs": "¡Pase no más!",
+"pos": "adv",
+"n": 523
+},
+{
+"it": "verso",
+"es": "hacia",
+"ex": "Vado verso la stazione.",
+"exEs": "Voy hacia la estación.",
+"pos": "adv",
+"n": 528
+},
+{
+"it": "la guerra",
+"es": "la guerra",
+"ex": "La guerra è finita.",
+"exEs": "La guerra terminó.",
+"pos": "n",
+"n": 537
+},
+{
+"it": "vivere",
+"es": "vivir",
+"ex": "Vivo a Santiago.",
+"exEs": "Vivo en Santiago.",
+"pos": "v",
+"n": 541
+},
+{
+"it": "la vista",
+"es": "la vista",
+"ex": "Dalla camera c'è una bella vista.",
+"exEs": "Desde la habitación hay una bonita vista.",
+"pos": "n",
+"n": 542
+},
+{
+"it": "un paio di",
+"es": "un par de",
+"ex": "Ho un paio di domande.",
+"exEs": "Tengo un par de preguntas.",
+"pos": "exp",
+"n": 549
+},
+{
+"it": "il paio",
+"es": "el par",
+"ex": "Un paio di scarpe nuove.",
+"exEs": "Un par de zapatos nuevos.",
+"pos": "n",
+"n": 549
+},
+{
+"it": "contare",
+"es": "contar",
+"ex": "Conto fino a dieci.",
+"exEs": "Cuento hasta diez.",
+"pos": "v",
+"n": 550
+},
+{
+"it": "il mezzo",
+"es": "el medio / la mitad",
+"ex": "Il treno è il mezzo più veloce.",
+"exEs": "El tren es el medio más rápido.",
+"pos": "n",
+"n": 555
+},
+{
+"it": "unico",
+"es": "único",
+"ex": "È l'unico treno.",
+"exEs": "Es el único tren.",
+"pos": "adj",
+"n": 557
+},
+{
+"it": "esattamente",
+"es": "exactamente",
+"ex": "Esattamente!",
+"exEs": "¡Exactamente!",
+"pos": "adv",
+"n": 558
+},
+{
+"it": "sopra",
+"es": "arriba / sobre",
+"ex": "Il libro è sopra il tavolo.",
+"exEs": "El libro está sobre la mesa.",
+"pos": "adv",
+"n": 568
+},
+{
+"it": "il motivo",
+"es": "el motivo",
+"ex": "Qual è il motivo?",
+"exEs": "¿Cuál es el motivo?",
+"pos": "n",
+"n": 569
+},
+{
+"it": "perfetto",
+"es": "perfecto",
+"ex": "Il tempo è perfetto.",
+"exEs": "El tiempo es perfecto.",
+"pos": "adj",
+"n": 578
+},
+{
+"it": "la mente",
+"es": "la mente",
+"ex": "Ho la mente libera.",
+"exEs": "Tengo la mente despejada.",
+"pos": "n",
+"n": 580
+},
+{
+"it": "trattare",
+"es": "tratar",
+"ex": "Il libro tratta di storia.",
+"exEs": "El libro trata de historia.",
+"pos": "v",
+"n": 585
+},
+{
+"it": "il controllo",
+"es": "el control",
+"ex": "Faccio un controllo.",
+"exEs": "Hago un control.",
+"pos": "n",
+"n": 595
+},
+{
+"it": "facile",
+"es": "fácil",
+"ex": "L'italiano non è difficile: è facile!",
+"exEs": "El italiano no es difícil: ¡es fácil!",
+"pos": "adj",
+"n": 599
+},
+{
+"it": "davanti",
+"es": "delante",
+"ex": "Mi siedo davanti.",
+"exEs": "Me siento adelante.",
+"pos": "adv",
+"n": 602
+},
+{
+"it": "il matrimonio",
+"es": "el matrimonio / la boda",
+"ex": "Il matrimonio è a giugno.",
+"exEs": "La boda es en junio.",
+"pos": "n",
+"n": 609
+},
+{
+"it": "il fuoco",
+"es": "el fuego",
+"ex": "Accendo il fuoco.",
+"exEs": "Enciendo el fuego.",
+"pos": "n",
+"n": 614
+},
+{
+"it": "l'inizio",
+"es": "el comienzo",
+"ex": "L'inizio del film è lento.",
+"exEs": "El comienzo de la película es lento.",
+"pos": "n",
+"n": 623
+},
+{
+"it": "la causa",
+"es": "la causa",
+"ex": "Qual è la causa del problema?",
+"exEs": "¿Cuál es la causa del problema?",
+"pos": "n",
+"n": 625
+},
+{
+"it": "ho voglia di",
+"es": "tengo ganas de",
+"ex": "Ho voglia di un caffè.",
+"exEs": "Tengo ganas de un café.",
+"pos": "exp",
+"n": 626
+},
+{
+"it": "vivo",
+"es": "vivo",
+"ex": "Il pesce è ancora vivo.",
+"exEs": "El pescado todavía está vivo.",
+"pos": "adj",
+"n": 637
+},
+{
+"it": "il presidente",
+"es": "el presidente",
+"ex": "Il presidente parla in televisione.",
+"exEs": "El presidente habla en televisión.",
+"pos": "n",
+"n": 638
+},
+{
+"it": "la situazione",
+"es": "la situación",
+"ex": "La situazione è difficile.",
+"exEs": "La situación es difícil.",
+"pos": "n",
+"n": 651
+},
+{
+"it": "la cura",
+"es": "el cuidado / el tratamiento",
+"ex": "Ha bisogno di cure.",
+"exEs": "Necesita cuidados.",
+"pos": "n",
+"n": 656
+},
+{
+"it": "durante",
+"es": "durante",
+"ex": "Durante il viaggio dormo.",
+"exEs": "Durante el viaje duermo.",
+"pos": "adv",
+"n": 657
+},
+{
+"it": "la pace",
+"es": "la paz",
+"ex": "Voglio pace e silenzio.",
+"exEs": "Quiero paz y silencio.",
+"pos": "n",
+"n": 671
+},
+{
+"it": "volare",
+"es": "volar",
+"ex": "Gli uccelli volano.",
+"exEs": "Los pájaros vuelan.",
+"pos": "v",
+"n": 689
+},
+{
+"it": "assolutamente",
+"es": "absolutamente",
+"ex": "Assolutamente no!",
+"exEs": "¡Absolutamente no!",
+"pos": "adv",
+"n": 691
+},
+{
+"it": "piuttosto",
+"es": "bastante / más bien",
+"ex": "Fa piuttosto freddo.",
+"exEs": "Hace bastante frío.",
+"pos": "adv",
+"n": 702
+},
+{
+"it": "stupido",
+"es": "tonto",
+"ex": "Che errore stupido!",
+"exEs": "¡Qué error tonto!",
+"pos": "adj",
+"n": 715
+},
+{
+"it": "il cielo",
+"es": "el cielo",
+"ex": "Il cielo è azzurro.",
+"exEs": "El cielo es celeste.",
+"pos": "n",
+"n": 718
+},
+{
+"it": "l'aria",
+"es": "el aire",
+"ex": "Apro la finestra per l'aria.",
+"exEs": "Abro la ventana por el aire.",
+"pos": "n",
+"n": 721
+},
+{
+"it": "la voce",
+"es": "la voz",
+"ex": "Ha una voce bellissima.",
+"exEs": "Tiene una voz hermosísima.",
+"pos": "n",
+"n": 722
+},
+{
+"it": "il cane",
+"es": "el perro",
+"ex": "Il cane dorme sul divano.",
+"exEs": "El perro duerme en el sofá.",
+"pos": "n",
+"n": 730
+},
+{
+"it": "il campo",
+"es": "el campo / la cancha",
+"ex": "I bambini giocano nel campo.",
+"exEs": "Los niños juegan en el campo.",
+"pos": "n",
+"n": 734
+},
+{
+"it": "fra",
+"es": "entre / en (tiempo)",
+"ex": "Torno fra una settimana.",
+"exEs": "Vuelvo en una semana.",
+"pos": "adv",
+"n": 740
+},
+{
+"it": "il gruppo",
+"es": "el grupo",
+"ex": "Siamo un bel gruppo.",
+"exEs": "Somos un buen grupo.",
+"pos": "n",
+"n": 745
+},
+{
+"it": "il passo",
+"es": "el paso",
+"ex": "Faccio un passo avanti.",
+"exEs": "Doy un paso adelante.",
+"pos": "n",
+"n": 751
+},
+{
+"it": "l'onore",
+"es": "el honor",
+"ex": "Per me è un onore.",
+"exEs": "Para mí es un honor.",
+"pos": "n",
+"n": 758
+},
+{
+"it": "la verità",
+"es": "la verdad",
+"ex": "Dimmi la verità.",
+"exEs": "Dime la verdad.",
+"pos": "n",
+"n": 760
+},
+{
+"it": "la fretta",
+"es": "la prisa",
+"ex": "Ho fretta, scusa.",
+"exEs": "Tengo prisa, perdona.",
+"pos": "n",
+"n": 771
+},
+{
+"it": "finalmente",
+"es": "finalmente",
+"ex": "Finalmente sei arrivato!",
+"exEs": "¡Por fin llegaste!",
+"pos": "adv",
+"n": 773
+},
+{
+"it": "solito",
+"es": "habitual",
+"ex": "Il solito caffè, per favore.",
+"exEs": "El café de siempre, por favor.",
+"pos": "adj",
+"n": 776
+},
+{
+"it": "l'intenzione",
+"es": "la intención",
+"ex": "Non era mia intenzione.",
+"exEs": "No era mi intención.",
+"pos": "n",
+"n": 782
+},
+{
+"it": "speciale",
+"es": "especial",
+"ex": "È un giorno speciale.",
+"exEs": "Es un día especial.",
+"pos": "adj",
+"n": 783
+},
+{
+"it": "oltre",
+"es": "más allá / además",
+"ex": "Oltre il ponte c'è la stazione.",
+"exEs": "Más allá del puente está la estación.",
+"pos": "adv",
+"n": 787
+},
+{
+"it": "semplice",
+"es": "simple",
+"ex": "La ricetta è semplice.",
+"exEs": "La receta es simple.",
+"pos": "adj",
+"n": 788
+},
+{
+"it": "riguardare",
+"es": "concernir",
+"ex": "Questo non mi riguarda.",
+"exEs": "Esto no me concierne.",
+"pos": "v",
+"n": 790
+},
+{
+"it": "l'aspetto",
+"es": "el aspecto",
+"ex": "Ha un aspetto giovane.",
+"exEs": "Tiene un aspecto joven.",
+"pos": "n",
+"n": 792
+},
+{
+"it": "chiaro",
+"es": "claro",
+"ex": "La spiegazione è chiara.",
+"exEs": "La explicación es clara.",
+"pos": "adj",
+"n": 794
+},
+{
+"it": "l'ordine",
+"es": "el orden / la orden",
+"ex": "Metto tutto in ordine.",
+"exEs": "Pongo todo en orden.",
+"pos": "n",
+"n": 801
+},
+{
+"it": "circa",
+"es": "aproximadamente",
+"ex": "Ci vogliono circa due ore.",
+"exEs": "Se necesitan aproximadamente dos horas.",
+"pos": "adv",
+"n": 802
+},
+{
+"it": "il Natale",
+"es": "la Navidad",
+"ex": "A Natale siamo tutti insieme.",
+"exEs": "En Navidad estamos todos juntos.",
+"pos": "mes",
+"n": 806
+},
+{
+"it": "l'occhio",
+"es": "el ojo",
+"ex": "Ho un occhio stanco.",
+"exEs": "Tengo un ojo cansado.",
+"pos": "n",
+"n": 810
+},
+{
+"it": "il sistema",
+"es": "el sistema",
+"ex": "Il sistema non funziona.",
+"exEs": "El sistema no funciona.",
+"pos": "n",
+"n": 816
+},
+{
+"it": "il fondo",
+"es": "el fondo",
+"ex": "Il bagno è in fondo al corridoio.",
+"exEs": "El baño está al fondo del pasillo.",
+"pos": "n",
+"n": 818
+},
+{
+"it": "fermare",
+"es": "detener",
+"ex": "Fermo la macchina.",
+"exEs": "Detengo el auto.",
+"pos": "v",
+"n": 830
+},
+{
+"it": "la nave",
+"es": "el barco",
+"ex": "La nave parte dal porto.",
+"exEs": "El barco sale del puerto.",
+"pos": "n",
+"n": 846
+},
+{
+"it": "liberare",
+"es": "liberar",
+"ex": "Libero il tavolo per voi.",
+"exEs": "Dejo libre la mesa para ustedes.",
+"pos": "v",
+"n": 850
+},
+{
+"it": "libero",
+"es": "libre",
+"ex": "Il tavolo è libero.",
+"exEs": "La mesa está libre.",
+"pos": "adj",
+"n": 850
+},
+{
+"it": "il pezzo",
+"es": "el trozo",
+"ex": "Un pezzo di pane, per favore.",
+"exEs": "Un trozo de pan, por favor.",
+"pos": "n",
+"n": 853
+},
+{
+"it": "il segreto",
+"es": "el secreto",
+"ex": "È un segreto!",
+"exEs": "¡Es un secreto!",
+"pos": "n",
+"n": 854
+},
+{
+"it": "il colpo",
+"es": "el golpe",
+"ex": "Ho preso un colpo alla testa.",
+"exEs": "Me di un golpe en la cabeza.",
+"pos": "n",
+"n": 855
+},
+{
+"it": "mi piacciono",
+"es": "me gustan",
+"ex": "Mi piacciono i film italiani.",
+"exEs": "Me gustan las películas italianas.",
+"pos": "exp",
+"n": 857
+},
+{
+"it": "il porto",
+"es": "el puerto",
+"ex": "La nave arriva al porto.",
+"exEs": "El barco llega al puerto.",
+"pos": "n",
+"n": 858
+},
+{
+"it": "completamente",
+"es": "completamente",
+"ex": "Sono completamente d'accordo.",
+"exEs": "Estoy completamente de acuerdo.",
+"pos": "adv",
+"n": 860
+},
+{
+"it": "finché",
+"es": "hasta que",
+"ex": "Aspetto finché arrivi.",
+"exEs": "Espero hasta que llegues.",
+"pos": "adv",
+"n": 867
+},
+{
+"it": "interessare",
+"es": "interesar",
+"ex": "Mi interessa la storia.",
+"exEs": "Me interesa la historia.",
+"pos": "v",
+"n": 870
+},
+{
+"it": "generale",
+"es": "general",
+"ex": "Faccio un controllo generale.",
+"exEs": "Hago un control general.",
+"pos": "adj",
+"n": 871
+},
+{
+"it": "tenere",
+"es": "tener / sujetar",
+"ex": "Tengo la borsa in mano.",
+"exEs": "Tengo el bolso en la mano.",
+"pos": "v",
+"n": 873
+},
+{
+"it": "semplicemente",
+"es": "simplemente",
+"ex": "È semplicemente perfetto.",
+"exEs": "Es simplemente perfecto.",
+"pos": "adv",
+"n": 880
+},
+{
+"it": "la specie",
+"es": "la especie",
+"ex": "Questa specie vive nel mare.",
+"exEs": "Esta especie vive en el mar.",
+"pos": "n",
+"n": 883
+},
+{
+"it": "sognare",
+"es": "soñar",
+"ex": "Sogno di vivere a Roma.",
+"exEs": "Sueño con vivir en Roma.",
+"pos": "v",
+"n": 885
+},
+{
+"it": "carino",
+"es": "bonito / simpático",
+"ex": "Che carino!",
+"exEs": "¡Qué bonito!",
+"pos": "adj",
+"n": 887
+},
+{
+"it": "incredibile",
+"es": "increíble",
+"ex": "È incredibile!",
+"exEs": "¡Es increíble!",
+"pos": "adj",
+"n": 892
+},
+{
+"it": "la legge",
+"es": "la ley",
+"ex": "La legge è uguale per tutti.",
+"exEs": "La ley es igual para todos.",
+"pos": "n",
+"n": 895
+},
+{
+"it": "la scena",
+"es": "la escena",
+"ex": "La scena finale è bellissima.",
+"exEs": "La escena final es hermosísima.",
+"pos": "n",
+"n": 899
+},
+{
+"it": "zitto",
+"es": "callado",
+"ex": "Sta' zitto, per favore.",
+"exEs": "Quédate callado, por favor.",
+"pos": "adj",
+"n": 907
+},
+{
+"it": "il rapporto",
+"es": "la relación / el informe",
+"ex": "Ho un buon rapporto con lui.",
+"exEs": "Tengo una buena relación con él.",
+"pos": "n",
+"n": 911
+},
+{
+"it": "personale",
+"es": "personal",
+"ex": "È una domanda personale.",
+"exEs": "Es una pregunta personal.",
+"pos": "adj",
+"n": 929
+},
+{
+"it": "pieno",
+"es": "lleno",
+"ex": "Il treno è pieno.",
+"exEs": "El tren está lleno.",
+"pos": "adj",
+"n": 937
+},
+{
+"it": "diverso",
+"es": "diferente",
+"ex": "Sono due cose diverse.",
+"exEs": "Son dos cosas diferentes.",
+"pos": "adj",
+"n": 938
+},
+{
+"it": "la realtà",
+"es": "la realidad",
+"ex": "In realtà non è così.",
+"exEs": "En realidad no es así.",
+"pos": "n",
+"n": 941
+},
+{
+"it": "normale",
+"es": "normal",
+"ex": "È un giorno normale.",
+"exEs": "Es un día normal.",
+"pos": "adj",
+"n": 944
+},
+{
+"it": "la posizione",
+"es": "la posición",
+"ex": "La posizione dell'albergo è ottima.",
+"exEs": "La ubicación del hotel es excelente.",
+"pos": "n",
+"n": 954
+},
+{
+"it": "la compagnia",
+"es": "la compañía",
+"ex": "Mi piace la tua compagnia.",
+"exEs": "Me gusta tu compañía.",
+"pos": "n",
+"n": 957
+},
+{
+"it": "terribile",
+"es": "terrible",
+"ex": "Il traffico è terribile.",
+"exEs": "El tráfico es terrible.",
+"pos": "adj",
+"n": 968
+},
+{
+"it": "impossibile",
+"es": "imposible",
+"ex": "È impossibile arrivare in tempo.",
+"exEs": "Es imposible llegar a tiempo.",
+"pos": "adj",
+"n": 976
+},
+{
+"it": "lo studio",
+"es": "el estudio",
+"ex": "Lo studio richiede tempo.",
+"exEs": "El estudio requiere tiempo.",
+"pos": "n",
+"n": 978
+},
+{
+"it": "intorno",
+"es": "alrededor",
+"ex": "Guardo intorno.",
+"exEs": "Miro alrededor.",
+"pos": "adv",
+"n": 990
+},
+{
+"it": "il video",
+"es": "el video",
+"ex": "Guardo un video su internet.",
+"exEs": "Veo un video en internet.",
+"pos": "n",
+"n": 991
+},
+{
+"it": "grosso",
+"es": "grande / grueso",
+"ex": "È un problema grosso.",
+"exEs": "Es un problema grande.",
+"pos": "adj",
+"n": 994
+},
+{
+"it": "il coraggio",
+"es": "el valor",
+"ex": "Ci vuole coraggio.",
+"exEs": "Se necesita valor.",
+"pos": "n",
+"n": 999
+},
+{
+"it": "interessante",
+"es": "interesante",
+"ex": "Il libro è interessante.",
+"exEs": "El libro es interesante.",
+"pos": "adj",
+"n": 1000
+},
+{
+"it": "il peccato",
+"es": "el pecado / la lástima",
+"ex": "Che peccato!",
+"exEs": "¡Qué lástima!",
+"pos": "n",
+"n": 1001
+},
+{
+"it": "che peccato",
+"es": "qué pena",
+"ex": "Non vieni? Che peccato!",
+"exEs": "¿No vienes? ¡Qué pena!",
+"pos": "exp",
+"n": 1001
+},
+{
+"it": "la questione",
+"es": "el asunto",
+"ex": "È una questione importante.",
+"exEs": "Es un asunto importante.",
+"pos": "n",
+"n": 1002
+},
+{
+"it": "la sala",
+"es": "la sala",
+"ex": "La sala è piena di gente.",
+"exEs": "La sala está llena de gente.",
+"pos": "n",
+"n": 1007
+},
+{
+"it": "la base",
+"es": "la base",
+"ex": "Questa è la base della grammatica.",
+"exEs": "Esta es la base de la gramática.",
+"pos": "n",
+"n": 1008
+},
+{
+"it": "la relazione",
+"es": "la relación",
+"ex": "La relazione tra loro è buona.",
+"exEs": "La relación entre ellos es buena.",
+"pos": "n",
+"n": 1015
+},
+{
+"it": "valere",
+"es": "valer",
+"ex": "Il biglietto vale due ore.",
+"exEs": "El boleto vale dos horas.",
+"pos": "v",
+"n": 1020
+},
+{
+"it": "il diritto",
+"es": "el derecho",
+"ex": "Abbiamo il diritto di sapere.",
+"exEs": "Tenemos derecho a saber.",
+"pos": "n",
+"n": 1022
+},
+{
+"it": "il denaro",
+"es": "el dinero",
+"ex": "Non ho molto denaro.",
+"exEs": "No tengo mucho dinero.",
+"pos": "n",
+"n": 1027
+},
+{
+"it": "riuscire",
+"es": "lograr",
+"ex": "Non riesco a dormire.",
+"exEs": "No logro dormir.",
+"pos": "v",
+"n": 1028
+},
+{
+"it": "la serata",
+"es": "la velada",
+"ex": "È stata una bella serata.",
+"exEs": "Fue una bonita velada.",
+"pos": "n",
+"n": 1030
+},
+{
+"it": "vestire",
+"es": "vestir",
+"ex": "Vesto mio figlio.",
+"exEs": "Visto a mi hijo.",
+"pos": "v",
+"n": 1032
+},
+{
+"it": "la carta",
+"es": "el papel / la carta",
+"ex": "Scrivo su un foglio di carta.",
+"exEs": "Escribo en una hoja de papel.",
+"pos": "n",
+"n": 1033
+},
+{
+"it": "intendere",
+"es": "querer decir / entender",
+"ex": "Che cosa intendi?",
+"exEs": "¿Qué quieres decir?",
+"pos": "v",
+"n": 1044
+},
+{
+"it": "lo spazio",
+"es": "el espacio",
+"ex": "C'è poco spazio qui.",
+"exEs": "Hay poco espacio aquí.",
+"pos": "n",
+"n": 1050
+},
+{
+"it": "scappare",
+"es": "escapar",
+"ex": "Il gatto scappa dalla finestra.",
+"exEs": "El gato se escapa por la ventana.",
+"pos": "v",
+"n": 1061
+},
+{
+"it": "simile",
+"es": "similar",
+"ex": "Siamo simili.",
+"exEs": "Somos similares.",
+"pos": "adj",
+"n": 1069
+},
+{
+"it": "la ricerca",
+"es": "la búsqueda / la investigación",
+"ex": "Faccio una ricerca su internet.",
+"exEs": "Hago una búsqueda en internet.",
+"pos": "n",
+"n": 1073
+},
+{
+"it": "esistere",
+"es": "existir",
+"ex": "Esiste una soluzione.",
+"exEs": "Existe una solución.",
+"pos": "v",
+"n": 1077
+},
+{
+"it": "scoprire",
+"es": "descubrir",
+"ex": "Scopro un ristorante nuovo.",
+"exEs": "Descubro un restaurante nuevo.",
+"pos": "v",
+"n": 1078
+},
+{
+"it": "il luogo",
+"es": "el lugar",
+"ex": "Questo è un luogo tranquillo.",
+"exEs": "Este es un lugar tranquilo.",
+"pos": "n",
+"n": 1081
+},
+{
+"it": "la canzone",
+"es": "la canción",
+"ex": "Questa canzone è bellissima.",
+"exEs": "Esta canción es hermosísima.",
+"pos": "n",
+"n": 1085
+},
+{
+"it": "pubblico",
+"es": "público",
+"ex": "È un giardino pubblico.",
+"exEs": "Es un jardín público.",
+"pos": "adj",
+"n": 1087
+},
+{
+"it": "né",
+"es": "ni",
+"ex": "Non mangio né carne né pesce.",
+"exEs": "No como ni carne ni pescado.",
+"pos": "adv",
+"n": 1095
+},
+{
+"it": "scherzare",
+"es": "bromear",
+"ex": "Scherzo, non è vero!",
+"exEs": "¡Bromeo, no es verdad!",
+"pos": "v",
+"n": 1096
+},
+{
+"it": "il test",
+"es": "la prueba",
+"ex": "Domani c'è il test.",
+"exEs": "Mañana hay prueba.",
+"pos": "n",
+"n": 1099
+},
+{
+"it": "il contatto",
+"es": "el contacto",
+"ex": "Resto in contatto con loro.",
+"exEs": "Sigo en contacto con ellos.",
+"pos": "n",
+"n": 1108
+},
+{
+"it": "entro",
+"es": "dentro de (plazo)",
+"ex": "Ti rispondo entro domani.",
+"exEs": "Te respondo a más tardar mañana.",
+"pos": "adv",
+"n": 1110
+},
+{
+"it": "la guardia",
+"es": "el guardia",
+"ex": "La guardia controlla i documenti.",
+"exEs": "El guardia revisa los documentos.",
+"pos": "n",
+"n": 1121
+},
+{
+"it": "il governo",
+"es": "el gobierno",
+"ex": "Il governo annuncia nuove regole.",
+"exEs": "El gobierno anuncia nuevas reglas.",
+"pos": "n",
+"n": 1146
+},
+{
+"it": "l'oro",
+"es": "el oro",
+"ex": "L'anello è d'oro.",
+"exEs": "El anillo es de oro.",
+"pos": "n",
+"n": 1148
+},
+{
+"it": "duro",
+"es": "duro",
+"ex": "Il pane è duro.",
+"exEs": "El pan está duro.",
+"pos": "adj",
+"n": 1149
+},
+{
+"it": "la decisione",
+"es": "la decisión",
+"ex": "Prendo una decisione.",
+"exEs": "Tomo una decisión.",
+"pos": "n",
+"n": 1151
+},
+{
+"it": "la forma",
+"es": "la forma",
+"ex": "La torta ha una forma rotonda.",
+"exEs": "La torta tiene forma redonda.",
+"pos": "n",
+"n": 1153
+},
+{
+"it": "l'esempio",
+"es": "el ejemplo",
+"ex": "Ecco un esempio.",
+"exEs": "Aquí hay un ejemplo.",
+"pos": "n",
+"n": 1155
+},
+{
+"it": "stanotte",
+"es": "esta noche (pasada o próxima)",
+"ex": "Stanotte ho dormito bene.",
+"exEs": "Anoche dormí bien.",
+"pos": "exp",
+"n": 1158
+},
+{
+"it": "necessario",
+"es": "necesario",
+"ex": "È necessario prenotare.",
+"exEs": "Es necesario reservar.",
+"pos": "adj",
+"n": 1163
+},
+{
+"it": "attaccare",
+"es": "atacar / pegar",
+"ex": "Attacco il manifesto al muro.",
+"exEs": "Pego el cartel en el muro.",
+"pos": "v",
+"n": 1171
+},
+{
+"it": "reale",
+"es": "real",
+"ex": "È una storia reale.",
+"exEs": "Es una historia real.",
+"pos": "adj",
+"n": 1177
+},
+{
+"it": "lo spettacolo",
+"es": "el espectáculo",
+"ex": "Lo spettacolo comincia alle nove.",
+"exEs": "El espectáculo comienza a las nueve.",
+"pos": "n",
+"n": 1206
+},
+{
+"it": "il processo",
+"es": "el proceso",
+"ex": "Il processo è lungo.",
+"exEs": "El proceso es largo.",
+"pos": "n",
+"n": 1216
+},
+{
+"it": "il direttore",
+"es": "el director",
+"ex": "Il direttore è in ufficio.",
+"exEs": "El director está en la oficina.",
+"pos": "n",
+"n": 1218
+},
+{
+"it": "rendere",
+"es": "hacer / devolver",
+"ex": "Questo mi rende felice.",
+"exEs": "Esto me hace feliz.",
+"pos": "v",
+"n": 1221
+},
+{
+"it": "la classe",
+"es": "la clase / el curso",
+"ex": "La classe è molto numerosa.",
+"exEs": "La clase es muy numerosa.",
+"pos": "n",
+"n": 1223
+},
+{
+"it": "la stagione",
+"es": "la estación (del año)",
+"ex": "La mia stagione preferita è la primavera.",
+"exEs": "Mi estación preferida es la primavera.",
+"pos": "n",
+"n": 1230
+},
+{
+"it": "il cavallo",
+"es": "el caballo",
+"ex": "Il cavallo corre nel prato.",
+"exEs": "El caballo corre en el prado.",
+"pos": "n",
+"n": 1234
+},
+{
+"it": "inglese",
+"es": "inglés",
+"ex": "Parlo inglese e spagnolo.",
+"exEs": "Hablo inglés y español.",
+"pos": "adj",
+"n": 1243
+},
+{
+"it": "la differenza",
+"es": "la diferencia",
+"ex": "Qual è la differenza?",
+"exEs": "¿Cuál es la diferencia?",
+"pos": "n",
+"n": 1247
+},
+{
+"it": "il lato",
+"es": "el lado",
+"ex": "Il bar è dall'altro lato della strada.",
+"exEs": "El bar está al otro lado de la calle.",
+"pos": "n",
+"n": 1253
+},
+{
+"it": "l'hotel",
+"es": "el hotel",
+"ex": "L'hotel è vicino al mare.",
+"exEs": "El hotel está cerca del mar.",
+"pos": "n",
+"n": 1254
+},
+{
+"it": "interno",
+"es": "interno",
+"ex": "Il cortile interno è tranquillo.",
+"exEs": "El patio interior es tranquilo.",
+"pos": "adj",
+"n": 1274
+},
+{
+"it": "giudicare",
+"es": "juzgar",
+"ex": "Non giudicare dalle apparenze.",
+"exEs": "No juzgues por las apariencias.",
+"pos": "v",
+"n": 1283
+},
+{
+"it": "la luna",
+"es": "la luna",
+"ex": "Stasera c'è la luna piena.",
+"exEs": "Esta noche hay luna llena.",
+"pos": "n",
+"n": 1286
+},
+{
+"it": "presente",
+"es": "presente",
+"ex": "Sono presente alla riunione.",
+"exEs": "Estoy presente en la reunión.",
+"pos": "adj",
+"n": 1296
+},
+{
+"it": "la barca",
+"es": "el bote",
+"ex": "Andiamo in barca.",
+"exEs": "Vamos en bote.",
+"pos": "n",
+"n": 1300
+},
+{
+"it": "intero",
+"es": "entero",
+"ex": "Ho studiato un giorno intero.",
+"exEs": "Estudié un día entero.",
+"pos": "adj",
+"n": 1305
+},
+{
+"it": "il nord",
+"es": "el norte",
+"ex": "Milano è nel nord.",
+"exEs": "Milán está en el norte.",
+"pos": "n",
+"n": 1312
+},
+{
+"it": "sposare",
+"es": "casarse con",
+"ex": "Marco sposa Anna a giugno.",
+"exEs": "Marco se casa con Anna en junio.",
+"pos": "v",
+"n": 1319
+},
+{
+"it": "la radio",
+"es": "la radio",
+"ex": "Ascolto la radio in macchina.",
+"exEs": "Escucho la radio en el auto.",
+"pos": "n",
+"n": 1323
+},
+{
+"it": "cattivo",
+"es": "malo",
+"ex": "Il tempo è cattivo.",
+"exEs": "El tiempo está malo.",
+"pos": "adj",
+"n": 1326
+},
+{
+"it": "smettere",
+"es": "dejar de",
+"ex": "Smetto di fumare.",
+"exEs": "Dejo de fumar.",
+"pos": "v",
+"n": 1328
+},
+{
+"it": "l'energia",
+"es": "la energía",
+"ex": "Ho molta energia oggi.",
+"exEs": "Tengo mucha energía hoy.",
+"pos": "n",
+"n": 1345
+},
+{
+"it": "segnare",
+"es": "marcar / anotar",
+"ex": "Segno la data sul calendario.",
+"exEs": "Marco la fecha en el calendario.",
+"pos": "v",
+"n": 1346
+},
+{
+"it": "il segno",
+"es": "la señal / el signo",
+"ex": "Faccio un segno con la mano.",
+"exEs": "Hago una señal con la mano.",
+"pos": "n",
+"n": 1346
+},
+{
+"it": "bellissimo",
+"es": "hermosísimo",
+"ex": "È un posto bellissimo.",
+"exEs": "Es un lugar hermosísimo.",
+"pos": "adj",
+"n": 1352
+},
+{
+"it": "soprattutto",
+"es": "sobre todo",
+"ex": "Mi piace soprattutto la pasta.",
+"exEs": "Me gusta sobre todo la pasta.",
+"pos": "adv",
+"n": 1360
+},
+{
+"it": "toccare",
+"es": "tocar",
+"ex": "Non toccare il forno!",
+"exEs": "¡No toques el horno!",
+"pos": "v",
+"n": 1362
+},
+{
+"it": "seguire",
+"es": "seguir",
+"ex": "Seguo un corso di italiano.",
+"exEs": "Sigo un curso de italiano.",
+"pos": "v",
+"n": 1375
+},
+{
+"it": "il maestro",
+"es": "el maestro",
+"ex": "Il maestro spiega la lezione.",
+"exEs": "El maestro explica la lección.",
+"pos": "n",
+"n": 1377
+},
+{
+"it": "tale",
+"es": "tal",
+"ex": "Una tale occasione è rara.",
+"exEs": "Una ocasión así es rara.",
+"pos": "adj",
+"n": 1395
+},
+{
+"it": "ottenere",
+"es": "obtener",
+"ex": "Ottengo il visto domani.",
+"exEs": "Obtengo la visa mañana.",
+"pos": "v",
+"n": 1396
+},
+{
+"it": "piangere",
+"es": "llorar",
+"ex": "Il bambino piange.",
+"exEs": "El niño llora.",
+"pos": "v",
+"n": 1403
+},
+{
+"it": "il sud",
+"es": "el sur",
+"ex": "Napoli è nel sud.",
+"exEs": "Nápoles está en el sur.",
+"pos": "n",
+"n": 1410
+},
+{
+"it": "la serie",
+"es": "la serie",
+"ex": "Una serie di errori.",
+"exEs": "Una serie de errores.",
+"pos": "n",
+"n": 1417
+},
+{
+"it": "orribile",
+"es": "horrible",
+"ex": "Il tempo è orribile.",
+"exEs": "El tiempo es horrible.",
+"pos": "adj",
+"n": 1429
+},
+{
+"it": "ritornare",
+"es": "volver",
+"ex": "Ritorno a casa tardi.",
+"exEs": "Vuelvo a casa tarde.",
+"pos": "v",
+"n": 1431
+},
+{
+"it": "enorme",
+"es": "enorme",
+"ex": "La casa è enorme.",
+"exEs": "La casa es enorme.",
+"pos": "adj",
+"n": 1434
+},
+{
+"it": "naturalmente",
+"es": "naturalmente",
+"ex": "Naturalmente vengo anch'io.",
+"exEs": "Naturalmente yo también voy.",
+"pos": "adv",
+"n": 1441
+},
+{
+"it": "il destino",
+"es": "el destino",
+"ex": "Credo nel destino.",
+"exEs": "Creo en el destino.",
+"pos": "n",
+"n": 1450
+},
+{
+"it": "saltare",
+"es": "saltar",
+"ex": "Salto la corda.",
+"exEs": "Salto la cuerda.",
+"pos": "v",
+"n": 1452
+},
+{
+"it": "la difesa",
+"es": "la defensa",
+"ex": "La difesa della squadra è forte.",
+"exEs": "La defensa del equipo es fuerte.",
+"pos": "n",
+"n": 1458
+},
+{
+"it": "la fiducia",
+"es": "la confianza",
+"ex": "Ho fiducia in te.",
+"exEs": "Confío en ti.",
+"pos": "n",
+"n": 1461
+},
+{
+"it": "scegliere",
+"es": "elegir",
+"ex": "Scelgo il vestito rosso.",
+"exEs": "Elijo el vestido rojo.",
+"pos": "v",
+"n": 1470
+},
+{
+"it": "l'arte",
+"es": "el arte",
+"ex": "Amo l'arte italiana.",
+"exEs": "Amo el arte italiano.",
+"pos": "n",
+"n": 1473
+},
+{
+"it": "il discorso",
+"es": "el discurso",
+"ex": "Il discorso è molto lungo.",
+"exEs": "El discurso es muy largo.",
+"pos": "n",
+"n": 1475
+},
+{
+"it": "il muro",
+"es": "el muro",
+"ex": "Il muro è bianco.",
+"exEs": "El muro es blanco.",
+"pos": "n",
+"n": 1485
+},
+{
+"it": "la giustizia",
+"es": "la justicia",
+"ex": "Voglio giustizia.",
+"exEs": "Quiero justicia.",
+"pos": "n",
+"n": 1495
+},
+{
+"it": "immediatamente",
+"es": "inmediatamente",
+"ex": "Vengo immediatamente.",
+"exEs": "Voy inmediatamente.",
+"pos": "adv",
+"n": 1496
+},
+{
+"it": "l'odore",
+"es": "el olor",
+"ex": "Che buon odore!",
+"exEs": "¡Qué rico olor!",
+"pos": "n",
+"n": 1497
+},
+{
+"it": "contrario",
+"es": "contrario",
+"ex": "Sono di opinione contraria.",
+"exEs": "Soy de opinión contraria.",
+"pos": "adj",
+"n": 1501
+},
+{
+"it": "terzo",
+"es": "tercero",
+"ex": "È il terzo giorno.",
+"exEs": "Es el tercer día.",
+"pos": "num",
+"n": 1502
+},
+{
+"it": "preoccupare",
+"es": "preocupar",
+"ex": "Mi preoccupa il futuro.",
+"exEs": "Me preocupa el futuro.",
+"pos": "v",
+"n": 1503
+},
+{
+"it": "notare",
+"es": "notar",
+"ex": "Noto che sei stanco.",
+"exEs": "Noto que estás cansado.",
+"pos": "v",
+"n": 1510
+},
+{
+"it": "evitare",
+"es": "evitar",
+"ex": "Evito il traffico.",
+"exEs": "Evito el tráfico.",
+"pos": "v",
+"n": 1514
+},
+{
+"it": "lo spirito",
+"es": "el espíritu",
+"ex": "Ha molto spirito.",
+"exEs": "Tiene mucho ingenio.",
+"pos": "n",
+"n": 1515
+},
+{
+"it": "praticamente",
+"es": "prácticamente",
+"ex": "Sono praticamente pronto.",
+"exEs": "Estoy prácticamente listo.",
+"pos": "adv",
+"n": 1523
+},
+{
+"it": "la coppia",
+"es": "la pareja",
+"ex": "Sono una bella coppia.",
+"exEs": "Son una bonita pareja.",
+"pos": "n",
+"n": 1546
+},
+{
+"it": "ridere",
+"es": "reír",
+"ex": "Rido con gli amici.",
+"exEs": "Me río con los amigos.",
+"pos": "v",
+"n": 1547
+},
+{
+"it": "grave",
+"es": "grave",
+"ex": "Non è niente di grave.",
+"exEs": "No es nada grave.",
+"pos": "adj",
+"n": 1551
+},
+{
+"it": "la costa",
+"es": "la costa",
+"ex": "Viviamo sulla costa.",
+"exEs": "Vivimos en la costa.",
+"pos": "n",
+"n": 1569
+},
+{
+"it": "laggiù",
+"es": "allá abajo",
+"ex": "Il mare è laggiù.",
+"exEs": "El mar está allá abajo.",
+"pos": "exp",
+"n": 1570
+},
+{
+"it": "l'albero",
+"es": "el árbol",
+"ex": "Nel giardino c'è un grande albero.",
+"exEs": "En el jardín hay un árbol grande.",
+"pos": "n",
+"n": 1574
+},
+{
+"it": "la natura",
+"es": "la naturaleza",
+"ex": "Amo la natura.",
+"exEs": "Amo la naturaleza.",
+"pos": "n",
+"n": 1593
+},
+{
+"it": "inutile",
+"es": "inútil",
+"ex": "È inutile aspettare.",
+"exEs": "Es inútil esperar.",
+"pos": "adj",
+"n": 1595
+},
+{
+"it": "l'uso",
+"es": "el uso",
+"ex": "L'uso del telefono è vietato.",
+"exEs": "El uso del teléfono está prohibido.",
+"pos": "n",
+"n": 1600
+},
+{
+"it": "utile",
+"es": "útil",
+"ex": "È una app molto utile.",
+"exEs": "Es una app muy útil.",
+"pos": "adj",
+"n": 1608
+},
+{
+"it": "la sensazione",
+"es": "la sensación",
+"ex": "Ho una strana sensazione.",
+"exEs": "Tengo una sensación extraña.",
+"pos": "n",
+"n": 1620
+},
+{
+"it": "breve",
+"es": "breve",
+"ex": "Faccio un breve riassunto.",
+"exEs": "Hago un resumen breve.",
+"pos": "adj",
+"n": 1642
+},
+{
+"it": "risolvere",
+"es": "resolver",
+"ex": "Risolvo il problema.",
+"exEs": "Resuelvo el problema.",
+"pos": "v",
+"n": 1643
+},
+{
+"it": "stavolta",
+"es": "esta vez",
+"ex": "Stavolta pago io.",
+"exEs": "Esta vez pago yo.",
+"pos": "exp",
+"n": 1646
+},
+{
+"it": "affrontare",
+"es": "enfrentar",
+"ex": "Devo affrontare il problema.",
+"exEs": "Tengo que enfrentar el problema.",
+"pos": "v",
+"n": 1648
+},
+{
+"it": "l'opera",
+"es": "la obra / la ópera",
+"ex": "Vediamo un'opera al teatro.",
+"exEs": "Vemos una ópera en el teatro.",
+"pos": "n",
+"n": 1650
+},
+{
+"it": "baciare",
+"es": "besar",
+"ex": "Bacio mia madre sulla guancia.",
+"exEs": "Beso a mi madre en la mejilla.",
+"pos": "v",
+"n": 1654
+},
+{
+"it": "improvviso",
+"es": "repentino",
+"ex": "Un cambiamento improvviso.",
+"exEs": "Un cambio repentino.",
+"pos": "adj",
+"n": 1663
+},
+{
+"it": "il fianco",
+"es": "el costado",
+"ex": "Mi fa male il fianco.",
+"exEs": "Me duele el costado.",
+"pos": "n",
+"n": 1665
+},
+{
+"it": "accettare",
+"es": "aceptar",
+"ex": "Accetto l'invito.",
+"exEs": "Acepto la invitación.",
+"pos": "v",
+"n": 1667
+},
+{
+"it": "continuo",
+"es": "continuo",
+"ex": "C'è un rumore continuo.",
+"exEs": "Hay un ruido continuo.",
+"pos": "adj",
+"n": 1669
+},
+{
+"it": "pesare",
+"es": "pesar",
+"ex": "La valigia pesa venti chili.",
+"exEs": "La maleta pesa veinte kilos.",
+"pos": "v",
+"n": 1670
+},
+{
+"it": "il peso",
+"es": "el peso",
+"ex": "Il peso della valigia è alto.",
+"exEs": "El peso de la maleta es alto.",
+"pos": "n",
+"n": 1670
+},
+{
+"it": "la corsa",
+"es": "la carrera",
+"ex": "La corsa è alle otto.",
+"exEs": "La carrera es a las ocho.",
+"pos": "n",
+"n": 1673
+},
+{
+"it": "la soluzione",
+"es": "la solución",
+"ex": "Ho trovato la soluzione.",
+"exEs": "Encontré la solución.",
+"pos": "n",
+"n": 1675
+},
+{
+"it": "meraviglioso",
+"es": "maravilloso",
+"ex": "Il paesaggio è meraviglioso.",
+"exEs": "El paisaje es maravilloso.",
+"pos": "adj",
+"n": 1682
+},
+{
+"it": "svegliare",
+"es": "despertar",
+"ex": "Sveglio mio fratello alle sette.",
+"exEs": "Despierto a mi hermano a las siete.",
+"pos": "v",
+"n": 1687
+},
+{
+"it": "ultimamente",
+"es": "últimamente",
+"ex": "Ultimamente studio di più.",
+"exEs": "Últimamente estudio más.",
+"pos": "adv",
+"n": 1689
+},
+{
+"it": "creare",
+"es": "crear",
+"ex": "Creo un nuovo progetto.",
+"exEs": "Creo un nuevo proyecto.",
+"pos": "v",
+"n": 1690
+},
+{
+"it": "dipendere",
+"es": "depender",
+"ex": "Dipende dal tempo.",
+"exEs": "Depende del clima.",
+"pos": "v",
+"n": 1693
+},
+{
+"it": "lo scopo",
+"es": "el propósito",
+"ex": "Qual è lo scopo del viaggio?",
+"exEs": "¿Cuál es el propósito del viaje?",
+"pos": "n",
+"n": 1695
+},
+{
+"it": "l'effetto",
+"es": "el efecto",
+"ex": "L'effetto è immediato.",
+"exEs": "El efecto es inmediato.",
+"pos": "n",
+"n": 1700
+},
+{
+"it": "centrale",
+"es": "central",
+"ex": "Abito in una zona centrale.",
+"exEs": "Vivo en una zona central.",
+"pos": "adj",
+"n": 1708
+},
+{
+"it": "la stampa",
+"es": "la prensa",
+"ex": "La stampa parla del concerto.",
+"exEs": "La prensa habla del concierto.",
+"pos": "n",
+"n": 1722
+},
+{
+"it": "buio",
+"es": "oscuro",
+"ex": "La stanza è buia.",
+"exEs": "La habitación está oscura.",
+"pos": "adj",
+"n": 1749
+},
+{
+"it": "il gatto",
+"es": "el gato",
+"ex": "Il gatto è sul letto.",
+"exEs": "El gato está en la cama.",
+"pos": "n",
+"n": 1752
+},
+{
+"it": "chiaramente",
+"es": "claramente",
+"ex": "Parla chiaramente.",
+"exEs": "Habla claramente.",
+"pos": "adv",
+"n": 1780
+},
+{
+"it": "capace",
+"es": "capaz",
+"ex": "È una persona capace.",
+"exEs": "Es una persona capaz.",
+"pos": "adj",
+"n": 1782
+},
+{
+"it": "l'importanza",
+"es": "la importancia",
+"ex": "È una questione di grande importanza.",
+"exEs": "Es un asunto de gran importancia.",
+"pos": "n",
+"n": 1785
+},
+{
+"it": "mantenere",
+"es": "mantener",
+"ex": "Mantengo la calma.",
+"exEs": "Mantengo la calma.",
+"pos": "v",
+"n": 1791
+},
+{
+"it": "parecchio",
+"es": "bastante / mucho",
+"ex": "Ho parecchio lavoro.",
+"exEs": "Tengo bastante trabajo.",
+"pos": "adv",
+"n": 1794
+},
+{
+"it": "principale",
+"es": "principal",
+"ex": "La strada principale è chiusa.",
+"exEs": "La calle principal está cerrada.",
+"pos": "adj",
+"n": 1796
+},
+{
+"it": "decisamente",
+"es": "decididamente",
+"ex": "È decisamente meglio.",
+"exEs": "Es decididamente mejor.",
+"pos": "adv",
+"n": 1810
+},
+{
+"it": "il valore",
+"es": "el valor",
+"ex": "Il valore di questo quadro è alto.",
+"exEs": "El valor de este cuadro es alto.",
+"pos": "n",
+"n": 1819
+},
+{
+"it": "la bellezza",
+"es": "la belleza",
+"ex": "Ammiro la bellezza di Firenze.",
+"exEs": "Admiro la belleza de Florencia.",
+"pos": "n",
+"n": 1832
+},
+{
+"it": "il pensiero",
+"es": "el pensamiento",
+"ex": "Un pensiero gentile.",
+"exEs": "Un pensamiento amable.",
+"pos": "n",
+"n": 1842
+},
+{
+"it": "la conoscenza",
+"es": "el conocimiento",
+"ex": "La conoscenza dell'italiano aiuta.",
+"exEs": "El conocimiento del italiano ayuda.",
+"pos": "n",
+"n": 1845
+},
+{
+"it": "tirare",
+"es": "tirar",
+"ex": "Tiro la corda.",
+"exEs": "Tiro de la cuerda.",
+"pos": "v",
+"n": 1872
+},
+{
+"it": "cadere",
+"es": "caer",
+"ex": "Sono caduto per strada.",
+"exEs": "Me caí en la calle.",
+"pos": "v",
+"n": 1873
+},
+{
+"it": "lo sguardo",
+"es": "la mirada",
+"ex": "Ha uno sguardo dolce.",
+"exEs": "Tiene una mirada dulce.",
+"pos": "n",
+"n": 1876
+},
+{
+"it": "il milione",
+"es": "el millón",
+"ex": "Roma ha tre milioni di abitanti.",
+"exEs": "Roma tiene tres millones de habitantes.",
+"pos": "n",
+"n": 1878
+},
+{
+"it": "il palazzo",
+"es": "el edificio / el palacio",
+"ex": "Il palazzo è antico.",
+"exEs": "El edificio es antiguo.",
+"pos": "n",
+"n": 1898
+},
+{
+"it": "privato",
+"es": "privado",
+"ex": "È una proprietà privata.",
+"exEs": "Es una propiedad privada.",
+"pos": "adj",
+"n": 1899
+},
+{
+"it": "il popolo",
+"es": "el pueblo",
+"ex": "Il popolo italiano è ospitale.",
+"exEs": "El pueblo italiano es hospitalario.",
+"pos": "n",
+"n": 1932
+},
+{
+"it": "l'età",
+"es": "la edad",
+"ex": "Alla mia età è difficile cambiare.",
+"exEs": "A mi edad es difícil cambiar.",
+"pos": "n",
+"n": 1941
+},
+{
+"it": "il tetto",
+"es": "el techo",
+"ex": "Il tetto è rosso.",
+"exEs": "El techo es rojo.",
+"pos": "n",
+"n": 1950
+},
+{
+"it": "la stella",
+"es": "la estrella",
+"ex": "Di notte vedo le stelle.",
+"exEs": "En la noche veo las estrellas.",
+"pos": "n",
+"n": 1952
+},
+{
+"it": "la politica",
+"es": "la política",
+"ex": "Non parlo di politica.",
+"exEs": "No hablo de política.",
+"pos": "n",
+"n": 1955
+},
+{
+"it": "meritare",
+"es": "merecer",
+"ex": "Meriti un premio.",
+"exEs": "Mereces un premio.",
+"pos": "v",
+"n": 1973
+},
+{
+"it": "la società",
+"es": "la sociedad",
+"ex": "La società cambia.",
+"exEs": "La sociedad cambia.",
+"pos": "n",
+"n": 1974
+},
+{
+"it": "vuoto",
+"es": "vacío",
+"ex": "Il bicchiere è vuoto.",
+"exEs": "El vaso está vacío.",
+"pos": "adj",
+"n": 1994
+},
+{
+"it": "l'animale",
+"es": "el animal",
+"ex": "Il cane è un animale simpatico.",
+"exEs": "El perro es un animal simpático.",
+"pos": "n",
+"n": 1996
+},
+{
+"it": "completo",
+"es": "completo",
+"ex": "Il corso è completo.",
+"exEs": "El curso está completo.",
+"pos": "adj",
+"n": 2007
+},
+{
+"it": "l'erba",
+"es": "el césped",
+"ex": "L'erba è verde.",
+"exEs": "El césped es verde.",
+"pos": "n",
+"n": 2027
+},
+{
+"it": "il viso",
+"es": "el rostro",
+"ex": "Ha un viso simpatico.",
+"exEs": "Tiene un rostro simpático.",
+"pos": "n",
+"n": 2028
+},
+{
+"it": "la distanza",
+"es": "la distancia",
+"ex": "La distanza è di dieci chilometri.",
+"exEs": "La distancia es de diez kilómetros.",
+"pos": "n",
+"n": 2033
+},
+{
+"it": "la pagina",
+"es": "la página",
+"ex": "Apri il libro a pagina dieci.",
+"exEs": "Abre el libro en la página diez.",
+"pos": "n",
+"n": 2048
+},
+{
+"it": "velocemente",
+"es": "rápidamente",
+"ex": "Cammina velocemente.",
+"exEs": "Camina rápidamente.",
+"pos": "adv",
+"n": 2055
+},
+{
+"it": "il termine",
+"es": "el término",
+"ex": "Che termine hai usato?",
+"exEs": "¿Qué término usaste?",
+"pos": "n",
+"n": 2067
+},
+{
+"it": "il giornale",
+"es": "el diario",
+"ex": "Leggo il giornale ogni mattina.",
+"exEs": "Leo el diario cada mañana.",
+"pos": "n",
+"n": 2072
+},
+{
+"it": "la libertà",
+"es": "la libertad",
+"ex": "Amo la libertà.",
+"exEs": "Amo la libertad.",
+"pos": "n",
+"n": 2090
+},
+{
+"it": "l'immagine",
+"es": "la imagen",
+"ex": "Questa immagine è bellissima.",
+"exEs": "Esta imagen es hermosísima.",
+"pos": "n",
+"n": 2094
+},
+{
+"it": "il padrone",
+"es": "el dueño / el patrón",
+"ex": "Il padrone del cane è qui.",
+"exEs": "El dueño del perro está aquí.",
+"pos": "n",
+"n": 2101
+},
+{
+"it": "il mattino",
+"es": "la mañana",
+"ex": "Al mattino mi alzo presto.",
+"exEs": "En la mañana me levanto temprano.",
+"pos": "n",
+"n": 2128
+},
+{
+"it": "il ministro",
+"es": "el ministro",
+"ex": "Il ministro parla alla radio.",
+"exEs": "El ministro habla en la radio.",
+"pos": "n",
+"n": 2133
+},
+{
+"it": "la presenza",
+"es": "la presencia",
+"ex": "La presenza è obbligatoria.",
+"exEs": "La asistencia es obligatoria.",
+"pos": "n",
+"n": 2149
+},
+{
+"it": "discutere",
+"es": "discutir",
+"ex": "Discutiamo del programma.",
+"exEs": "Discutimos el programa.",
+"pos": "v",
+"n": 2157
+},
+{
+"it": "domattina",
+"es": "mañana por la mañana",
+"ex": "Domattina parto presto.",
+"exEs": "Mañana en la mañana salgo temprano.",
+"pos": "exp",
+"n": 2167
+},
+{
+"it": "accadere",
+"es": "ocurrir",
+"ex": "Che cosa è accaduto ieri?",
+"exEs": "¿Qué ocurrió ayer?",
+"pos": "v",
+"n": 2183
+},
+{
+"it": "l'articolo",
+"es": "el artículo",
+"ex": "Leggo un articolo sul giornale.",
+"exEs": "Leo un artículo en el diario.",
+"pos": "n",
+"n": 2185
+},
+{
+"it": "l'interesse",
+"es": "el interés",
+"ex": "Ho interesse per la storia.",
+"exEs": "Tengo interés por la historia.",
+"pos": "n",
+"n": 2224
+},
+{
+"it": "profondo",
+"es": "profundo",
+"ex": "Il lago è profondo.",
+"exEs": "El lago es profundo.",
+"pos": "adj",
+"n": 2244
+},
+{
+"it": "la lotta",
+"es": "la lucha",
+"ex": "La lotta continua.",
+"exEs": "La lucha continúa.",
+"pos": "n",
+"n": 2253
+},
+{
+"it": "diretto",
+"es": "directo",
+"ex": "È un treno diretto.",
+"exEs": "Es un tren directo.",
+"pos": "adj",
+"n": 2271
+},
+{
+"it": "costruire",
+"es": "construir",
+"ex": "Costruiscono un nuovo ponte.",
+"exEs": "Construyen un nuevo puente.",
+"pos": "v",
+"n": 2292
+},
+{
+"it": "la crisi",
+"es": "la crisis",
+"ex": "C'è una crisi economica.",
+"exEs": "Hay una crisis económica.",
+"pos": "n",
+"n": 2303
+},
+{
+"it": "raggiungere",
+"es": "alcanzar",
+"ex": "Raggiungo la stazione a piedi.",
+"exEs": "Llego a la estación a pie.",
+"pos": "v",
+"n": 2305
+},
+{
+"it": "la gioia",
+"es": "la alegría",
+"ex": "Che gioia vederti!",
+"exEs": "¡Qué alegría verte!",
+"pos": "n",
+"n": 2319
+},
+{
+"it": "la maniera",
+"es": "la manera",
+"ex": "È una maniera semplice.",
+"exEs": "Es una manera simple.",
+"pos": "n",
+"n": 2321
+},
+{
+"it": "nascondere",
+"es": "esconder",
+"ex": "Nascondo il regalo nell'armadio.",
+"exEs": "Escondo el regalo en el armario.",
+"pos": "v",
+"n": 2341
+},
+{
+"it": "superiore",
+"es": "superior",
+"ex": "Il piano superiore è libero.",
+"exEs": "El piso superior está libre.",
+"pos": "adj",
+"n": 2351
+},
+{
+"it": "recente",
+"es": "reciente",
+"ex": "Una notizia recente.",
+"exEs": "Una noticia reciente.",
+"pos": "adj",
+"n": 2367
+},
+{
+"it": "il movimento",
+"es": "el movimiento",
+"ex": "Il movimento fa bene.",
+"exEs": "El movimiento hace bien.",
+"pos": "n",
+"n": 2377
+},
+{
+"it": "assicurare",
+"es": "asegurar",
+"ex": "Ti assicuro che è vero.",
+"exEs": "Te aseguro que es verdad.",
+"pos": "v",
+"n": 2399
+},
+{
+"it": "abbandonare",
+"es": "abandonar",
+"ex": "Non voglio abbandonare il progetto.",
+"exEs": "No quiero abandonar el proyecto.",
+"pos": "v",
+"n": 2400
+},
+{
+"it": "facilmente",
+"es": "fácilmente",
+"ex": "Si impara facilmente.",
+"exEs": "Se aprende fácilmente.",
+"pos": "adv",
+"n": 2401
+},
+{
+"it": "neppure",
+"es": "ni siquiera",
+"ex": "Non ho neppure fame.",
+"exEs": "Ni siquiera tengo hambre.",
+"pos": "adv",
+"n": 2423
+},
+{
+"it": "il pavimento",
+"es": "el piso",
+"ex": "Il pavimento è freddo.",
+"exEs": "El piso está frío.",
+"pos": "n",
+"n": 2430
+},
+{
+"it": "famoso",
+"es": "famoso",
+"ex": "È un cantante famoso.",
+"exEs": "Es un cantante famoso.",
+"pos": "adj",
+"n": 2433
+},
+{
+"it": "specialmente",
+"es": "especialmente",
+"ex": "Mi piace specialmente il pesce.",
+"exEs": "Me gusta especialmente el pescado.",
+"pos": "adv",
+"n": 2451
+},
+{
+"it": "la proposta",
+"es": "la propuesta",
+"ex": "Accetto la tua proposta.",
+"exEs": "Acepto tu propuesta.",
+"pos": "n",
+"n": 2466
+},
+{
+"it": "nel frattempo",
+"es": "mientras tanto",
+"ex": "Nel frattempo preparo la cena.",
+"exEs": "Mientras tanto preparo la cena.",
+"pos": "exp",
+"n": 2482
+},
+{
+"it": "tentare",
+"es": "intentar",
+"ex": "Tento di nuovo.",
+"exEs": "Lo intento de nuevo.",
+"pos": "v",
+"n": 2498
+},
+{
+"it": "la pietra",
+"es": "la piedra",
+"ex": "Il muro è di pietra.",
+"exEs": "El muro es de piedra.",
+"pos": "n",
+"n": 2507
+},
+{
+"it": "il volto",
+"es": "el rostro",
+"ex": "Il volto è pallido.",
+"exEs": "El rostro está pálido.",
+"pos": "n",
+"n": 2541
+},
+{
+"it": "permettere",
+"es": "permitir",
+"ex": "Mi permetta di presentarmi.",
+"exEs": "Permítame presentarme.",
+"pos": "v",
+"n": 2546
+},
+{
+"it": "l'ombra",
+"es": "la sombra",
+"ex": "Mi siedo all'ombra.",
+"exEs": "Me siento a la sombra.",
+"pos": "n",
+"n": 2560
+},
+{
+"it": "la piscina",
+"es": "la piscina",
+"ex": "Nuoto in piscina.",
+"exEs": "Nado en la piscina.",
+"pos": "n",
+"n": 2561
+},
+{
+"it": "la tavola",
+"es": "la mesa (para comer)",
+"ex": "A tavola si parla!",
+"exEs": "¡En la mesa se conversa!",
+"pos": "n",
+"n": 2565
+},
+{
+"it": "limitare",
+"es": "limitar",
+"ex": "Devo limitare il caffè.",
+"exEs": "Tengo que limitar el café.",
+"pos": "v",
+"n": 2578
+},
+{
+"it": "il limite",
+"es": "el límite",
+"ex": "Il limite di velocità è cinquanta.",
+"exEs": "El límite de velocidad es cincuenta.",
+"pos": "n",
+"n": 2578
+},
+{
+"it": "l'impressione",
+"es": "la impresión",
+"ex": "Ho l'impressione che sia tardi.",
+"exEs": "Tengo la impresión de que es tarde.",
+"pos": "n",
+"n": 2601
+},
+{
+"it": "dimostrare",
+"es": "demostrar",
+"ex": "Voglio dimostrare che è possibile.",
+"exEs": "Quiero demostrar que es posible.",
+"pos": "v",
+"n": 2606
+},
+{
+"it": "il terreno",
+"es": "el terreno",
+"ex": "Hanno comprato un terreno.",
+"exEs": "Compraron un terreno.",
+"pos": "n",
+"n": 2607
+},
+{
+"it": "perfino",
+"es": "incluso",
+"ex": "Perfino i bambini lo sanno.",
+"exEs": "Incluso los niños lo saben.",
+"pos": "adv",
+"n": 2621
+},
+{
+"it": "lentamente",
+"es": "lentamente",
+"ex": "Parla lentamente, per favore.",
+"exEs": "Habla lentamente, por favor.",
+"pos": "adv",
+"n": 2623
+},
+{
+"it": "togliere",
+"es": "quitar",
+"ex": "Tolgo il cappello.",
+"exEs": "Me saco el sombrero.",
+"pos": "v",
+"n": 2649
+},
+{
+"it": "l'epoca",
+"es": "la época",
+"ex": "Era un'epoca difficile.",
+"exEs": "Era una época difícil.",
+"pos": "n",
+"n": 2660
+},
+{
+"it": "fuggire",
+"es": "huir",
+"ex": "Il ladro fugge via.",
+"exEs": "El ladrón huye.",
+"pos": "v",
+"n": 2708
+},
+{
+"it": "l'università",
+"es": "la universidad",
+"ex": "Studio all'università.",
+"exEs": "Estudio en la universidad.",
+"pos": "n",
+"n": 2713
+},
+{
+"it": "il bosco",
+"es": "el bosque",
+"ex": "Camminiamo nel bosco.",
+"exEs": "Caminamos por el bosque.",
+"pos": "n",
+"n": 2719
+},
+{
+"it": "preciso",
+"es": "preciso",
+"ex": "Sono le tre precise.",
+"exEs": "Son las tres en punto.",
+"pos": "adj",
+"n": 2750
+},
+{
+"it": "il secolo",
+"es": "el siglo",
+"ex": "Il castello è del secolo XV.",
+"exEs": "El castillo es del siglo XV.",
+"pos": "n",
+"n": 2763
+},
+{
+"it": "muovere",
+"es": "mover",
+"ex": "Non muovere la sedia.",
+"exEs": "No muevas la silla.",
+"pos": "v",
+"n": 2792
+},
+{
+"it": "buttare",
+"es": "botar / tirar",
+"ex": "Butto la spazzatura.",
+"exEs": "Boto la basura.",
+"pos": "v",
+"n": 2796
+},
+{
+"it": "l'attività",
+"es": "la actividad",
+"ex": "Ogni giorno faccio un'attività nuova.",
+"exEs": "Cada día hago una actividad nueva.",
+"pos": "n",
+"n": 2837
+},
+{
+"it": "la scienza",
+"es": "la ciencia",
+"ex": "Mi interessa la scienza.",
+"exEs": "Me interesa la ciencia.",
+"pos": "n",
+"n": 2856
+},
+{
+"it": "la passione",
+"es": "la pasión",
+"ex": "Ho una passione per la musica.",
+"exEs": "Tengo pasión por la música.",
+"pos": "n",
+"n": 2866
+},
+{
+"it": "il gusto",
+"es": "el gusto / el sabor",
+"ex": "Il gelato ha un buon gusto.",
+"exEs": "El helado tiene buen sabor.",
+"pos": "n",
+"n": 2881
+},
+{
+"it": "il filo",
+"es": "el hilo",
+"ex": "Taglio il filo.",
+"exEs": "Corto el hilo.",
+"pos": "n",
+"n": 2900
+},
+{
+"it": "la fabbrica",
+"es": "la fábrica",
+"ex": "Mio padre lavora in una fabbrica.",
+"exEs": "Mi padre trabaja en una fábrica.",
+"pos": "n",
+"n": 2909
+},
+{
+"it": "lanciare",
+"es": "lanzar",
+"ex": "Lancio la palla a mio fratello.",
+"exEs": "Lanzo la pelota a mi hermano.",
+"pos": "v",
+"n": 2914
+},
+{
+"it": "il titolo",
+"es": "el título",
+"ex": "Il titolo del libro è bello.",
+"exEs": "El título del libro es bonito.",
+"pos": "n",
+"n": 2915
+},
+{
+"it": "l'istante",
+"es": "el instante",
+"ex": "Un istante, per favore.",
+"exEs": "Un instante, por favor.",
+"pos": "n",
+"n": 2931
+},
+{
+"it": "la spalla",
+"es": "el hombro",
+"ex": "Mi fa male la spalla.",
+"exEs": "Me duele el hombro.",
+"pos": "n",
+"n": 2983
+},
+{
+"it": "il giudizio",
+"es": "el juicio / la opinión",
+"ex": "Il mio giudizio è positivo.",
+"exEs": "Mi opinión es positiva.",
+"pos": "n",
+"n": 2996
+},
+{
+"it": "il personaggio",
+"es": "el personaje",
+"ex": "Il personaggio principale è un medico.",
+"exEs": "El personaje principal es un médico.",
+"pos": "n",
+"n": 2999
+},
+{
+"it": "l'ambiente",
+"es": "el ambiente / el medio ambiente",
+"ex": "Proteggiamo l'ambiente.",
+"exEs": "Protejamos el medio ambiente.",
+"pos": "n",
+"n": 3019
+},
+{
+"it": "sociale",
+"es": "social",
+"ex": "È un problema sociale.",
+"exEs": "Es un problema social.",
+"pos": "adj",
+"n": 3041
+},
+{
+"it": "dodici",
+"es": "doce",
+"ex": "Dodici mesi fanno un anno.",
+"exEs": "Doce meses hacen un año.",
+"pos": "num",
+"n": 3069
+},
+{
+"it": "soffrire",
+"es": "sufrir",
+"ex": "Soffro il caldo.",
+"exEs": "Sufro el calor.",
+"pos": "v",
+"n": 3112
+},
+{
+"it": "legare",
+"es": "atar",
+"ex": "Lego le scarpe.",
+"exEs": "Me amarro los zapatos.",
+"pos": "v",
+"n": 3144
+},
+{
+"it": "civile",
+"es": "civil",
+"ex": "Lo stato civile è «sposato».",
+"exEs": "El estado civil es «casado».",
+"pos": "adj",
+"n": 3163
+},
+{
+"it": "l'attore",
+"es": "el actor",
+"ex": "L'attore è molto famoso.",
+"exEs": "El actor es muy famoso.",
+"pos": "n",
+"n": 3168
+},
+{
+"it": "il ferro",
+"es": "el hierro",
+"ex": "Il ponte è di ferro.",
+"exEs": "El puente es de hierro.",
+"pos": "n",
+"n": 3197
+},
+{
+"it": "partecipare",
+"es": "participar",
+"ex": "Partecipo al corso.",
+"exEs": "Participo en el curso.",
+"pos": "v",
+"n": 3211
+},
+{
+"it": "gridare",
+"es": "gritar",
+"ex": "Non gridare, per favore.",
+"exEs": "No grites, por favor.",
+"pos": "v",
+"n": 3243
+},
+{
+"it": "la figura",
+"es": "la figura",
+"ex": "Vedo una figura nel buio.",
+"exEs": "Veo una figura en la oscuridad.",
+"pos": "n",
+"n": 3255
+},
+{
+"it": "considerare",
+"es": "considerar",
+"ex": "Considero questa idea molto buona.",
+"exEs": "Considero muy buena esta idea.",
+"pos": "v",
+"n": 3266
+},
+{
+"it": "il metro",
+"es": "el metro",
+"ex": "La stanza è lunga cinque metri.",
+"exEs": "La habitación mide cinco metros.",
+"pos": "n",
+"n": 3268
+},
+{
+"it": "intanto",
+"es": "mientras tanto",
+"ex": "Intanto io preparo il caffè.",
+"exEs": "Mientras tanto yo preparo el café.",
+"pos": "adv",
+"n": 3272
+},
+{
+"it": "il prodotto",
+"es": "el producto",
+"ex": "È un prodotto italiano.",
+"exEs": "Es un producto italiano.",
+"pos": "n",
+"n": 3283
+},
+{
+"it": "il quadro",
+"es": "el cuadro",
+"ex": "Il quadro è appeso al muro.",
+"exEs": "El cuadro está colgado en el muro.",
+"pos": "n",
+"n": 3288
+},
+{
+"it": "battere",
+"es": "golpear / batir",
+"ex": "Batto alla porta.",
+"exEs": "Golpeo la puerta.",
+"pos": "v",
+"n": 3310
+},
+{
+"it": "resistere",
+"es": "resistir",
+"ex": "Non resisto al gelato.",
+"exEs": "No resisto un helado.",
+"pos": "v",
+"n": 3342
+},
+{
+"it": "la condizione",
+"es": "la condición",
+"ex": "Le condizioni sono buone.",
+"exEs": "Las condiciones son buenas.",
+"pos": "n",
+"n": 3354
+},
+{
+"it": "rifiutare",
+"es": "rechazar",
+"ex": "Rifiuto l'offerta.",
+"exEs": "Rechazo la oferta.",
+"pos": "v",
+"n": 3378
+},
+{
+"it": "straordinario",
+"es": "extraordinario",
+"ex": "È un panorama straordinario.",
+"exEs": "Es un paisaje extraordinario.",
+"pos": "adj",
+"n": 3430
+},
+{
+"it": "la folla",
+"es": "la multitud",
+"ex": "C'è molta folla in piazza.",
+"exEs": "Hay mucha gente en la plaza.",
+"pos": "n",
+"n": 3438
+},
+{
+"it": "destro",
+"es": "derecho",
+"ex": "Ho male al piede destro.",
+"exEs": "Me duele el pie derecho.",
+"pos": "adj",
+"n": 3455
+},
+{
+"it": "nudo",
+"es": "desnudo",
+"ex": "Il bambino è nudo.",
+"exEs": "El niño está desnudo.",
+"pos": "adj",
+"n": 3483
+},
+{
+"it": "il territorio",
+"es": "el territorio",
+"ex": "Il territorio è grande.",
+"exEs": "El territorio es grande.",
+"pos": "n",
+"n": 3500
+},
+{
+"it": "raccogliere",
+"es": "recoger",
+"ex": "Raccolgo le mele.",
+"exEs": "Recojo las manzanas.",
+"pos": "v",
+"n": 3501
+},
+{
+"it": "bruciare",
+"es": "quemar",
+"ex": "La pizza si sta bruciando!",
+"exEs": "¡La pizza se está quemando!",
+"pos": "v",
+"n": 3504
+},
+{
+"it": "alzare",
+"es": "levantar",
+"ex": "Alzo la mano per rispondere.",
+"exEs": "Levanto la mano para responder.",
+"pos": "v",
+"n": 3549
+},
+{
+"it": "la volontà",
+"es": "la voluntad",
+"ex": "Ci vuole buona volontà.",
+"exEs": "Se necesita buena voluntad.",
+"pos": "n",
+"n": 3637
+},
+{
+"it": "la massa",
+"es": "la masa",
+"ex": "Mescolo la massa per il pane.",
+"exEs": "Mezclo la masa para el pan.",
+"pos": "n",
+"n": 3640
+},
+{
+"it": "quindici",
+"es": "quince",
+"ex": "Il treno parte tra quindici minuti.",
+"exEs": "El tren sale en quince minutos.",
+"pos": "num",
+"n": 3662
+},
+{
+"it": "annunciare",
+"es": "anunciar",
+"ex": "Annunciano un nuovo treno.",
+"exEs": "Anuncian un nuevo tren.",
+"pos": "v",
+"n": 3664
+},
+{
+"it": "il gesto",
+"es": "el gesto",
+"ex": "Un gesto gentile.",
+"exEs": "Un gesto amable.",
+"pos": "n",
+"n": 3690
+},
+{
+"it": "appunto",
+"es": "justamente",
+"ex": "È appunto quello che pensavo.",
+"exEs": "Es justamente lo que pensaba.",
+"pos": "adv",
+"n": 3719
+},
+{
+"it": "riprendere",
+"es": "retomar",
+"ex": "Riprendo il lavoro lunedì.",
+"exEs": "Retomo el trabajo el lunes.",
+"pos": "v",
+"n": 3808
+},
+{
+"it": "richiedere",
+"es": "pedir / solicitar",
+"ex": "Richiedo un documento.",
+"exEs": "Solicito un documento.",
+"pos": "v",
+"n": 3813
+},
+{
+"it": "la produzione",
+"es": "la producción",
+"ex": "La produzione di vino è alta.",
+"exEs": "La producción de vino es alta.",
+"pos": "n",
+"n": 3839
+},
+{
+"it": "lo scrittore",
+"es": "el escritor",
+"ex": "Lo scrittore presenta il suo libro.",
+"exEs": "El escritor presenta su libro.",
+"pos": "n",
+"n": 3847
+},
+{
+"it": "addirittura",
+"es": "incluso",
+"ex": "È addirittura gratis!",
+"exEs": "¡Es incluso gratis!",
+"pos": "adv",
+"n": 3849
+},
+{
+"it": "la poesia",
+"es": "la poesía",
+"ex": "Leggo una poesia.",
+"exEs": "Leo un poema.",
+"pos": "n",
+"n": 3850
+},
+{
+"it": "sinistro",
+"es": "izquierdo",
+"ex": "Ho male al braccio sinistro.",
+"exEs": "Me duele el brazo izquierdo.",
+"pos": "adj",
+"n": 3853
+},
+{
+"it": "l'espressione",
+"es": "la expresión",
+"ex": "Imparo una nuova espressione.",
+"exEs": "Aprendo una expresión nueva.",
+"pos": "n",
+"n": 3905
+},
+{
+"it": "la fatica",
+"es": "el esfuerzo / el cansancio",
+"ex": "Faccio fatica a svegliarmi.",
+"exEs": "Me cuesta despertarme.",
+"pos": "n",
+"n": 3924
+},
+{
+"it": "la qualità",
+"es": "la calidad",
+"ex": "La qualità è ottima.",
+"exEs": "La calidad es excelente.",
+"pos": "n",
+"n": 4053
+},
+{
+"it": "noto",
+"es": "conocido",
+"ex": "È un ristorante molto noto.",
+"exEs": "Es un restaurante muy conocido.",
+"pos": "adj",
+"n": 4063
+},
+{
+"it": "la villa",
+"es": "la casa de campo / la quinta",
+"ex": "La villa ha un grande giardino.",
+"exEs": "La quinta tiene un jardín grande.",
+"pos": "n",
+"n": 4067
+},
+{
+"it": "la cultura",
+"es": "la cultura",
+"ex": "La cultura italiana mi piace.",
+"exEs": "Me gusta la cultura italiana.",
+"pos": "n",
+"n": 4092
+},
+{
+"it": "la fantasia",
+"es": "la fantasía",
+"ex": "Hai molta fantasia.",
+"exEs": "Tienes mucha imaginación.",
+"pos": "n",
+"n": 4108
+},
+{
+"it": "settembre",
+"es": "septiembre",
+"ex": "A settembre ricomincia la scuola.",
+"exEs": "En septiembre vuelven las clases.",
+"pos": "mes",
+"n": 4119
+},
+{
+"it": "la difficoltà",
+"es": "la dificultad",
+"ex": "Ho qualche difficoltà.",
+"exEs": "Tengo alguna dificultad.",
+"pos": "n",
+"n": 4151
+},
+{
+"it": "tacere",
+"es": "callar",
+"ex": "Preferisco tacere.",
+"exEs": "Prefiero callar.",
+"pos": "v",
+"n": 4152
+},
+{
+"it": "il tono",
+"es": "el tono",
+"ex": "Il suo tono è gentile.",
+"exEs": "Su tono es amable.",
+"pos": "n",
+"n": 4167
+},
+{
+"it": "puro",
+"es": "puro",
+"ex": "L'aria di montagna è pura.",
+"exEs": "El aire de montaña es puro.",
+"pos": "adj",
+"n": 4170
+},
+{
+"it": "coprire",
+"es": "cubrir / tapar",
+"ex": "Copro il pane con un panno.",
+"exEs": "Cubro el pan con un paño.",
+"pos": "v",
+"n": 4174
+},
+{
+"it": "aumentare",
+"es": "aumentar",
+"ex": "I prezzi aumentano ogni anno.",
+"exEs": "Los precios aumentan cada año.",
+"pos": "v",
+"n": 4182
+},
+{
+"it": "ritrovare",
+"es": "volver a encontrar",
+"ex": "Ho ritrovato le chiavi.",
+"exEs": "Volví a encontrar las llaves.",
+"pos": "v",
+"n": 4217
+},
+{
+"it": "la comunicazione",
+"es": "la comunicación",
+"ex": "La comunicazione è importante.",
+"exEs": "La comunicación es importante.",
+"pos": "n",
+"n": 4237
+},
+{
+"it": "rappresentare",
+"es": "representar",
+"ex": "Il disegno rappresenta una casa.",
+"exEs": "El dibujo representa una casa.",
+"pos": "v",
+"n": 4277
+},
+{
+"it": "procedere",
+"es": "proceder",
+"ex": "Procediamo con calma.",
+"exEs": "Procedamos con calma.",
+"pos": "v",
+"n": 4321
+},
+{
+"it": "la misura",
+"es": "la medida",
+"ex": "Prendo le misure della stanza.",
+"exEs": "Tomo las medidas de la habitación.",
+"pos": "n",
+"n": 4344
+},
+{
+"it": "trasformare",
+"es": "transformar",
+"ex": "Trasformo la stanza in uno studio.",
+"exEs": "Transformo la habitación en un estudio.",
+"pos": "v",
+"n": 4346
+},
+{
+"it": "il confronto",
+"es": "la comparación",
+"ex": "Facciamo un confronto.",
+"exEs": "Hagamos una comparación.",
+"pos": "n",
+"n": 4358
+},
+{
+"it": "difendere",
+"es": "defender",
+"ex": "Difendo la mia opinione.",
+"exEs": "Defiendo mi opinión.",
+"pos": "v",
+"n": 4372
+},
+{
+"it": "il monte",
+"es": "el monte",
+"ex": "Saliamo sul monte.",
+"exEs": "Subimos al monte.",
+"pos": "n",
+"n": 4428
+},
+{
+"it": "attuale",
+"es": "actual",
+"ex": "Il problema è molto attuale.",
+"exEs": "El problema es muy actual.",
+"pos": "adj",
+"n": 4441
+},
+{
+"it": "il mestiere",
+"es": "el oficio",
+"ex": "Che mestiere fai?",
+"exEs": "¿Qué oficio tienes?",
+"pos": "n",
+"n": 4455
+},
+{
+"it": "lo sforzo",
+"es": "el esfuerzo",
+"ex": "Fai uno sforzo!",
+"exEs": "¡Haz un esfuerzo!",
+"pos": "n",
+"n": 4462
+},
+{
+"it": "sesto",
+"es": "sexto",
+"ex": "Domani è il sesto giorno.",
+"exEs": "Mañana es el sexto día.",
+"pos": "num",
+"n": 4467
+},
+{
+"it": "avvicinare",
+"es": "acercar",
+"ex": "Avvicino la sedia al tavolo.",
+"exEs": "Acerco la silla a la mesa.",
+"pos": "v",
+"n": 4500
+},
+{
+"it": "internazionale",
+"es": "internacional",
+"ex": "È un aeroporto internazionale.",
+"exEs": "Es un aeropuerto internacional.",
+"pos": "adj",
+"n": 4513
+},
+{
+"it": "il cittadino",
+"es": "el ciudadano",
+"ex": "Il cittadino paga le tasse.",
+"exEs": "El ciudadano paga impuestos.",
+"pos": "n",
+"n": 4561
+},
+{
+"it": "gettare",
+"es": "lanzar / botar",
+"ex": "Getto la carta nel cestino.",
+"exEs": "Boto el papel en el basurero.",
+"pos": "v",
+"n": 4574
+},
+{
+"it": "riconoscere",
+"es": "reconocer",
+"ex": "Ti ho riconosciuto subito.",
+"exEs": "Te reconocí de inmediato.",
+"pos": "v",
+"n": 4631
+},
+{
+"it": "undici",
+"es": "once",
+"ex": "Ci sono undici persone.",
+"exEs": "Hay once personas.",
+"pos": "num",
+"n": 4654
+},
+{
+"it": "accendere",
+"es": "encender",
+"ex": "Accendo la luce.",
+"exEs": "Enciendo la luz.",
+"pos": "v",
+"n": 4657
+},
+{
+"it": "stabilire",
+"es": "establecer",
+"ex": "Stabiliamo la data.",
+"exEs": "Fijamos la fecha.",
+"pos": "v",
+"n": 4680
+},
+{
+"it": "spegnere",
+"es": "apagar",
+"ex": "Spengo il telefono.",
+"exEs": "Apago el teléfono.",
+"pos": "v",
+"n": 4703
+},
+{
+"it": "impedire",
+"es": "impedir",
+"ex": "La pioggia impedisce di uscire.",
+"exEs": "La lluvia impide salir.",
+"pos": "v",
+"n": 4761
+},
+{
+"it": "il principio",
+"es": "el principio",
+"ex": "In principio non capivo niente.",
+"exEs": "Al principio no entendía nada.",
+"pos": "n",
+"n": 4782
+},
+{
+"it": "luglio",
+"es": "julio",
+"ex": "A luglio fa molto caldo.",
+"exEs": "En julio hace mucho calor.",
+"pos": "mes",
+"n": 4792
+},
+{
+"it": "una dozzina",
+"es": "una docena",
+"ex": "Compro una dozzina di uova.",
+"exEs": "Compro una docena de huevos.",
+"pos": "num",
+"n": 4804
+},
+{
+"it": "l'origine",
+"es": "el origen",
+"ex": "Qual è l'origine di questa parola?",
+"exEs": "¿Cuál es el origen de esta palabra?",
+"pos": "n",
+"n": 4812
+},
+{
+"it": "tecnico",
+"es": "técnico",
+"ex": "Ho un problema tecnico.",
+"exEs": "Tengo un problema técnico.",
+"pos": "adj",
+"n": 4841
+},
+{
+"it": "la sede",
+"es": "la sede",
+"ex": "La sede dell'azienda è a Milano.",
+"exEs": "La sede de la empresa está en Milán.",
+"pos": "n",
+"n": 4874
+},
+{
+"it": "estero",
+"es": "extranjero",
+"ex": "Vivo all'estero.",
+"exEs": "Vivo en el extranjero.",
+"pos": "adj",
+"n": 4887
+},
+{
+"it": "la collina",
+"es": "la colina",
+"ex": "La casa è sulla collina.",
+"exEs": "La casa está en la colina.",
+"pos": "n",
+"n": 4898
+},
+{
+"it": "sorridere",
+"es": "sonreír",
+"ex": "Sorrido a tutti.",
+"exEs": "Le sonrío a todos.",
+"pos": "v",
+"n": 4914
+},
+{
+"it": "quinto",
+"es": "quinto",
+"ex": "È la quinta lezione.",
+"exEs": "Es la quinta lección.",
+"pos": "num",
+"n": 4920
+},
+{
+"it": "avvertire",
+"es": "avisar / advertir",
+"ex": "Ti avverto: fa freddo.",
+"exEs": "Te advierto: hace frío.",
+"pos": "v",
+"n": 4921
+},
+{
+"it": "leggero",
+"es": "ligero / liviano",
+"ex": "La valigia è leggera.",
+"exEs": "La maleta es liviana.",
+"pos": "adj",
+"n": 4969
+},
+{
+"it": "la valle",
+"es": "el valle",
+"ex": "La valle è verde.",
+"exEs": "El valle es verde.",
+"pos": "n",
+"n": 4972
+},
+{
+"it": "lo sviluppo",
+"es": "el desarrollo",
+"ex": "Lo sviluppo del progetto è rapido.",
+"exEs": "El desarrollo del proyecto es rápido.",
+"pos": "n",
+"n": 4990
+},
+{
+"it": "maggio",
+"es": "mayo",
+"ex": "Maggio è un mese bellissimo.",
+"exEs": "Mayo es un mes hermosísimo.",
+"pos": "mes",
+"n": 5013
+},
+{
+"it": "antico",
+"es": "antiguo",
+"ex": "Roma è una città antica.",
+"exEs": "Roma es una ciudad antigua.",
+"pos": "adj",
+"n": 5029
+},
+{
+"it": "spingere",
+"es": "empujar",
+"ex": "Spingo la porta.",
+"exEs": "Empujo la puerta.",
+"pos": "v",
+"n": 5067
+},
+{
+"it": "lo strumento",
+"es": "el instrumento",
+"ex": "Il piano è uno strumento bello.",
+"exEs": "El piano es un instrumento bonito.",
+"pos": "n",
+"n": 5094
+},
+{
+"it": "giugno",
+"es": "junio",
+"ex": "A giugno comincia l'estate.",
+"exEs": "En junio empieza el verano.",
+"pos": "mes",
+"n": 5192
+},
+{
+"it": "ottobre",
+"es": "octubre",
+"ex": "A ottobre cadono le foglie.",
+"exEs": "En octubre caen las hojas.",
+"pos": "mes",
+"n": 5205
+},
+{
+"it": "aprile",
+"es": "abril",
+"ex": "Ad aprile piove spesso.",
+"exEs": "En abril llueve a menudo.",
+"pos": "mes",
+"n": 5309
+},
+{
+"it": "medio",
+"es": "medio",
+"ex": "La temperatura media è venti gradi.",
+"exEs": "La temperatura media es veinte grados.",
+"pos": "adj",
+"n": 5356
+},
+{
+"it": "presso",
+"es": "junto a / en casa de",
+"ex": "Lavoro presso una banca.",
+"exEs": "Trabajo en un banco.",
+"pos": "adv",
+"n": 5369
+},
+{
+"it": "sostenere",
+"es": "sostener / apoyar",
+"ex": "Sostengo il mio amico.",
+"exEs": "Apoyo a mi amigo.",
+"pos": "v",
+"n": 5372
+},
+{
+"it": "l'industria",
+"es": "la industria",
+"ex": "L'industria italiana è famosa.",
+"exEs": "La industria italiana es famosa.",
+"pos": "n",
+"n": 5412
+},
+{
+"it": "la funzione",
+"es": "la función",
+"ex": "Qual è la funzione di questo tasto?",
+"exEs": "¿Cuál es la función de esta tecla?",
+"pos": "n",
+"n": 5420
+},
+{
+"it": "rivelare",
+"es": "revelar",
+"ex": "Non rivelo il segreto.",
+"exEs": "No revelo el secreto.",
+"pos": "v",
+"n": 5467
+},
+{
+"it": "la patria",
+"es": "la patria",
+"ex": "Amo la mia patria.",
+"exEs": "Amo mi patria.",
+"pos": "n",
+"n": 5496
+},
+{
+"it": "la parete",
+"es": "la pared",
+"ex": "La parete è bianca.",
+"exEs": "La pared es blanca.",
+"pos": "n",
+"n": 5516
+},
+{
+"it": "la pianta",
+"es": "la planta",
+"ex": "Annaffio le piante.",
+"exEs": "Riego las plantas.",
+"pos": "n",
+"n": 5525
+},
+{
+"it": "apparire",
+"es": "aparecer",
+"ex": "Il sole appare dopo la pioggia.",
+"exEs": "El sol aparece después de la lluvia.",
+"pos": "v",
+"n": 5535
+},
+{
+"it": "l'autore",
+"es": "el autor",
+"ex": "L'autore del libro è italiano.",
+"exEs": "El autor del libro es italiano.",
+"pos": "n",
+"n": 5612
+},
+{
+"it": "riempire",
+"es": "llenar",
+"ex": "Riempio il bicchiere d'acqua.",
+"exEs": "Lleno el vaso de agua.",
+"pos": "v",
+"n": 5627
+},
+{
+"it": "la conseguenza",
+"es": "la consecuencia",
+"ex": "Ci sono conseguenze.",
+"exEs": "Hay consecuencias.",
+"pos": "n",
+"n": 5641
+},
+{
+"it": "assistere",
+"es": "asistir",
+"ex": "Assisto a una lezione.",
+"exEs": "Asisto a una clase.",
+"pos": "v",
+"n": 5665
+},
+{
+"it": "esprimere",
+"es": "expresar",
+"ex": "Esprimo la mia opinione.",
+"exEs": "Expreso mi opinión.",
+"pos": "v",
+"n": 5680
+},
+{
+"it": "novembre",
+"es": "noviembre",
+"ex": "A novembre piove molto.",
+"exEs": "En noviembre llueve mucho.",
+"pos": "mes",
+"n": 5738
+},
+{
+"it": "porre",
+"es": "poner / plantear",
+"ex": "Pongo una domanda.",
+"exEs": "Planteo una pregunta.",
+"pos": "v",
+"n": 5861
+},
+{
+"it": "agosto",
+"es": "agosto",
+"ex": "Ad agosto molti negozi chiudono.",
+"exEs": "En agosto muchas tiendas cierran.",
+"pos": "mes",
+"n": 5877
+},
+{
+"it": "il frutto",
+"es": "el fruto",
+"ex": "Questo albero dà frutti dolci.",
+"exEs": "Este árbol da frutos dulces.",
+"pos": "n",
+"n": 5887
+},
+{
+"it": "marzo",
+"es": "marzo",
+"ex": "A marzo comincia la primavera.",
+"exEs": "En marzo empieza la primavera.",
+"pos": "mes",
+"n": 5970
+},
+{
+"it": "il sentimento",
+"es": "el sentimiento",
+"ex": "Un sentimento forte.",
+"exEs": "Un sentimiento fuerte.",
+"pos": "n",
+"n": 6001
+},
+{
+"it": "contenere",
+"es": "contener",
+"ex": "La borsa contiene un libro.",
+"exEs": "La bolso contiene un libro.",
+"pos": "v",
+"n": 6038
+},
+{
+"it": "comprendere",
+"es": "comprender",
+"ex": "Comprendo la tua situazione.",
+"exEs": "Comprendo tu situación.",
+"pos": "v",
+"n": 6042
+},
+{
+"it": "osservare",
+"es": "observar",
+"ex": "Osservo la gente in piazza.",
+"exEs": "Observo a la gente en la plaza.",
+"pos": "v",
+"n": 6092
+},
+{
+"it": "insistere",
+"es": "insistir",
+"ex": "Insisto: pago io.",
+"exEs": "Insisto: pago yo.",
+"pos": "v",
+"n": 6104
+},
+{
+"it": "dividere",
+"es": "dividir",
+"ex": "Dividiamo la torta in otto parti.",
+"exEs": "Dividimos la torta en ocho partes.",
+"pos": "v",
+"n": 6264
+},
+{
+"it": "condurre",
+"es": "conducir / llevar",
+"ex": "Questa strada conduce al mare.",
+"exEs": "Este camino lleva al mar.",
+"pos": "v",
+"n": 6329
+},
+{
+"it": "l'elemento",
+"es": "el elemento",
+"ex": "Questo è un elemento importante.",
+"exEs": "Este es un elemento importante.",
+"pos": "n",
+"n": 6395
+},
+{
+"it": "la regione",
+"es": "la región",
+"ex": "La Toscana è una bella regione.",
+"exEs": "La Toscana es una bonita región.",
+"pos": "n",
+"n": 6445
+},
+{
+"it": "sedici",
+"es": "dieciséis",
+"ex": "Ho sedici euro.",
+"exEs": "Tengo dieciséis euros.",
+"pos": "num",
+"n": 6490
+},
+{
+"it": "il fenomeno",
+"es": "el fenómeno",
+"ex": "È un fenomeno interessante.",
+"exEs": "Es un fenómeno interesante.",
+"pos": "n",
+"n": 6493
+},
+{
+"it": "la costruzione",
+"es": "la construcción",
+"ex": "La costruzione dura un anno.",
+"exEs": "La construcción dura un año.",
+"pos": "n",
+"n": 6540
+},
+{
+"it": "la riva",
+"es": "la orilla",
+"ex": "Ci sediamo sulla riva del fiume.",
+"exEs": "Nos sentamos en la orilla del río.",
+"pos": "n",
+"n": 6566
+},
+{
+"it": "il prato",
+"es": "el prado",
+"ex": "Ci sediamo sul prato.",
+"exEs": "Nos sentamos en el césped.",
+"pos": "n",
+"n": 6568
+},
+{
+"it": "sottile",
+"es": "delgado / fino",
+"ex": "La fetta è molto sottile.",
+"exEs": "La rebanada es muy delgada.",
+"pos": "adj",
+"n": 6623
+},
+{
+"it": "scorrere",
+"es": "correr / fluir",
+"ex": "Il fiume scorre lentamente.",
+"exEs": "El río corre lentamente.",
+"pos": "v",
+"n": 6757
+},
+{
+"it": "eccetera",
+"es": "etcétera",
+"ex": "Compro pane, latte, eccetera.",
+"exEs": "Compro pan, leche, etcétera.",
+"pos": "adv",
+"n": 6758
+},
+{
+"it": "ridurre",
+"es": "reducir",
+"ex": "Riduco le spese.",
+"exEs": "Reduzco los gastos.",
+"pos": "v",
+"n": 6809
+},
+{
+"it": "provocare",
+"es": "provocar",
+"ex": "La pioggia provoca traffico.",
+"exEs": "La lluvia provoca tráfico.",
+"pos": "v",
+"n": 6883
+},
+{
+"it": "rapido",
+"es": "rápido",
+"ex": "Il treno è rapido.",
+"exEs": "El tren es rápido.",
+"pos": "adj",
+"n": 7108
+},
+{
+"it": "elettrico",
+"es": "eléctrico",
+"ex": "Ho un'auto elettrica.",
+"exEs": "Tengo un auto eléctrico.",
+"pos": "adj",
+"n": 7204
+},
+{
+"it": "produrre",
+"es": "producir",
+"ex": "Questa fabbrica produce pasta.",
+"exEs": "Esta fábrica produce pasta.",
+"pos": "v",
+"n": 7206
+},
+{
+"it": "febbraio",
+"es": "febrero",
+"ex": "A febbraio fa ancora freddo.",
+"exEs": "En febrero todavía hace frío.",
+"pos": "mes",
+"n": 7276
+},
+{
+"it": "il poeta",
+"es": "el poeta",
+"ex": "Dante è un poeta italiano.",
+"exEs": "Dante es un poeta italiano.",
+"pos": "n",
+"n": 7366
+},
+{
+"it": "tredici",
+"es": "trece",
+"ex": "Mio figlio ha tredici anni.",
+"exEs": "Mi hijo tiene trece años.",
+"pos": "num",
+"n": 7402
+},
+{
+"it": "scomparire",
+"es": "desaparecer",
+"ex": "Il sole scompare dietro la montagna.",
+"exEs": "El sol desaparece tras la montaña.",
+"pos": "v",
+"n": 7576
+},
+{
+"it": "celebrare",
+"es": "celebrar",
+"ex": "Celebriamo il compleanno.",
+"exEs": "Celebramos el cumpleaños.",
+"pos": "v",
+"n": 7863
+},
+{
+"it": "descrivere",
+"es": "describir",
+"ex": "Descrivo la mia casa.",
+"exEs": "Describo mi casa.",
+"pos": "v",
+"n": 7942
+},
+{
+"it": "moderno",
+"es": "moderno",
+"ex": "L'appartamento è moderno.",
+"exEs": "El apartamento es moderno.",
+"pos": "adj",
+"n": 8439
+},
+{
+"it": "diciotto",
+"es": "dieciocho",
+"ex": "A diciotto anni si è maggiorenni.",
+"exEs": "A los dieciocho años se es mayor de edad.",
+"pos": "num",
+"n": 8481
+},
+{
+"it": "stringere",
+"es": "apretar",
+"ex": "Stringo la mano al professore.",
+"exEs": "Le doy la mano al profesor.",
+"pos": "v",
+"n": 8513
+},
+{
+"it": "allontanare",
+"es": "alejar",
+"ex": "Allontano il cane dalla porta.",
+"exEs": "Alejo al perro de la puerta.",
+"pos": "v",
+"n": 8606
+},
+{
+"it": "romano",
+"es": "romano",
+"ex": "Il piatto è tipico romano.",
+"exEs": "El plato es típico romano.",
+"pos": "adj",
+"n": 8645
+},
+{
+"it": "quattordici",
+"es": "catorce",
+"ex": "Sono le quattordici.",
+"exEs": "Son las catorce horas.",
+"pos": "num",
+"n": 8742
+},
+{
+"it": "la necessità",
+"es": "la necesidad",
+"ex": "È una necessità.",
+"exEs": "Es una necesidad.",
+"pos": "n",
+"n": 9033
+},
+{
+"it": "concedere",
+"es": "conceder",
+"ex": "Mi concede un minuto?",
+"exEs": "¿Me concede un minuto?",
+"pos": "v",
+"n": 9063
+},
+{
+"it": "escludere",
+"es": "excluir",
+"ex": "Non escludo nessuna possibilità.",
+"exEs": "No excluyo ninguna posibilidad.",
+"pos": "v",
+"n": 9255
+},
+{
+"it": "prevedere",
+"es": "prever",
+"ex": "Prevedo molto lavoro.",
+"exEs": "Preveo mucho trabajo.",
+"pos": "v",
+"n": 9280
+},
+{
+"it": "diciassette",
+"es": "diecisiete",
+"ex": "Abito al diciassettesimo piano.",
+"exEs": "Vivo en el piso diecisiete.",
+"pos": "num",
+"n": 9418
+},
+{
+"it": "distinguere",
+"es": "distinguir",
+"ex": "Non distinguo i due colori.",
+"exEs": "No distingo los dos colores.",
+"pos": "v",
+"n": 9438
+},
+{
+"it": "godere",
+"es": "disfrutar",
+"ex": "Godo il sole in spiaggia.",
+"exEs": "Disfruto del sol en la playa.",
+"pos": "v",
+"n": 9475
+},
+{
+"it": "assai",
+"es": "bastante / muy",
+"ex": "È assai interessante.",
+"exEs": "Es bastante interesante.",
+"pos": "adv",
+"n": 9814
+},
+{
+"it": "la foglia",
+"es": "la hoja (de árbol)",
+"ex": "Le foglie sono gialle in autunno.",
+"exEs": "Las hojas son amarillas en otoño.",
+"pos": "n",
+"n": 9831
+},
+{
+"it": "possedere",
+"es": "poseer",
+"ex": "Possiede due case.",
+"exEs": "Posee dos casas.",
+"pos": "v",
+"n": 9908
+},
+{
+"it": "ritenere",
+"es": "considerar / creer",
+"ex": "Ritengo che sia giusto.",
+"exEs": "Considero que es justo.",
+"pos": "v",
+"n": 10431
+},
+{
+"it": "proporre",
+"es": "proponer",
+"ex": "Propongo di andare al mare.",
+"exEs": "Propongo ir a la playa.",
+"pos": "v",
+"n": 10959
+},
+{
+"it": "accorgersi",
+"es": "darse cuenta",
+"ex": "Mi sono accorto dell'errore.",
+"exEs": "Me di cuenta del error.",
+"pos": "v",
+"n": 11014
+},
+{
+"it": "ampio",
+"es": "amplio",
+"ex": "La camera è ampia e luminosa.",
+"exEs": "La habitación es amplia y luminosa.",
+"pos": "adj",
+"n": 11682
+},
+{
+"it": "sereno",
+"es": "sereno / despejado",
+"ex": "Il cielo è sereno.",
+"exEs": "El cielo está despejado.",
+"pos": "adj",
+"n": 12321
+},
+{
+"it": "riunire",
+"es": "reunir",
+"ex": "Riuniamo gli amici a cena.",
+"exEs": "Reunimos a los amigos a cenar.",
+"pos": "v",
+"n": 12854
+},
+{
+"it": "cinquecento",
+"es": "quinientos",
+"ex": "Questo costa cinquecento euro.",
+"exEs": "Esto cuesta quinientos euros.",
+"pos": "num",
+"n": 12881
+},
+{
+"it": "offendere",
+"es": "ofender",
+"ex": "Non volevo offenderti.",
+"exEs": "No quería ofenderte.",
+"pos": "v",
+"n": 12896
+},
+{
+"it": "vasto",
+"es": "vasto",
+"ex": "Il parco è vasto.",
+"exEs": "El parque es vasto.",
+"pos": "adj",
+"n": 14066
+},
+{
+"it": "diciannove",
+"es": "diecinueve",
+"ex": "Sono nato nel mille novecento ottantasei.",
+"exEs": "Nací en mil novecientos ochenta y seis.",
+"pos": "num",
+"n": 14495
+},
+{
+"it": "giungere",
+"es": "llegar",
+"ex": "Giungiamo a Roma di sera.",
+"exEs": "Llegamos a Roma en la noche.",
+"pos": "v",
+"n": 16151
+},
+{
+"it": "appartenere",
+"es": "pertenecer",
+"ex": "Questo libro appartiene a Marco.",
+"exEs": "Este libro pertenece a Marco.",
+"pos": "v",
+"n": 16354
+},
+{
+"it": "ventuno",
+"es": "veintiuno",
+"ex": "Ho ventuno anni.",
+"exEs": "Tengo veintiún años.",
+"pos": "num",
+"n": 22958
+},
+{
+"it": "vario",
+"es": "variado",
+"ex": "Il menù è vario.",
+"exEs": "El menú es variado.",
+"pos": "adj",
+"n": 35359
+},
+{
+"it": "numeroso",
+"es": "numeroso",
+"ex": "È una famiglia numerosa.",
+"exEs": "Es una familia numerosa.",
+"pos": "adj",
+"n": 49082
+}
+]

@@ -1,0 +1,234 @@
+## sustantivos
+n|l'albero|el árbol|Nel giardino c'è un grande albero.|En el jardín hay un árbol grande.
+n|l'ambiente|el ambiente / el medio ambiente|Proteggiamo l'ambiente.|Protejamos el medio ambiente.
+n|l'amore|el amor|L'amore è importante.|El amor es importante.
+n|l'animale|el animal|Il cane è un animale simpatico.|El perro es un animal simpático.
+n|l'aria|el aire|Apro la finestra per l'aria.|Abro la ventana por el aire.
+n|l'arte|el arte|Amo l'arte italiana.|Amo el arte italiano.
+n|l'articolo|el artículo|Leggo un articolo sul giornale.|Leo un artículo en el diario.
+n|l'aspetto|el aspecto|Ha un aspetto giovane.|Tiene un aspecto joven.
+n|l'attività|la actividad|Ogni giorno faccio un'attività nuova.|Cada día hago una actividad nueva.
+n|l'attore|el actor|L'attore è molto famoso.|El actor es muy famoso.
+n|l'autore|el autor|L'autore del libro è italiano.|El autor del libro es italiano.
+n|la base|la base|Questa è la base della grammatica.|Esta es la base de la gramática.
+n|la bellezza|la belleza|Ammiro la bellezza di Firenze.|Admiro la belleza de Florencia.
+n|il bisogno|la necesidad|Ho bisogno di riposo.|Necesito descanso.
+n|il bosco|el bosque|Camminiamo nel bosco.|Caminamos por el bosque.
+n|il campo|el campo / la cancha|I bambini giocano nel campo.|Los niños juegan en el campo.
+n|il cane|el perro|Il cane dorme sul divano.|El perro duerme en el sofá.
+n|il gatto|el gato|Il gatto è sul letto.|El gato está en la cama.
+n|il capo|el jefe|Il mio capo è gentile.|Mi jefe es amable.
+n|la carta|el papel / la carta|Scrivo su un foglio di carta.|Escribo en una hoja de papel.
+n|il caso|el caso|In questo caso, aspettiamo.|En este caso, esperamos.
+n|la causa|la causa|Qual è la causa del problema?|¿Cuál es la causa del problema?
+n|il cavallo|el caballo|Il cavallo corre nel prato.|El caballo corre en el prado.
+n|il cielo|el cielo|Il cielo è azzurro.|El cielo es celeste.
+n|il cittadino|el ciudadano|Il cittadino paga le tasse.|El ciudadano paga impuestos.
+n|la classe|la clase / el curso|La classe è molto numerosa.|La clase es muy numerosa.
+n|la collina|la colina|La casa è sulla collina.|La casa está en la colina.
+n|la colpa|la culpa|Non è colpa mia.|No es culpa mía.
+n|il colpo|el golpe|Ho preso un colpo alla testa.|Me di un golpe en la cabeza.
+n|la compagnia|la compañía|Mi piace la tua compagnia.|Me gusta tu compañía.
+n|la comunicazione|la comunicación|La comunicazione è importante.|La comunicación es importante.
+n|la condizione|la condición|Le condizioni sono buone.|Las condiciones son buenas.
+n|il confronto|la comparación|Facciamo un confronto.|Hagamos una comparación.
+n|la conoscenza|el conocimiento|La conoscenza dell'italiano aiuta.|El conocimiento del italiano ayuda.
+n|la conseguenza|la consecuencia|Ci sono conseguenze.|Hay consecuencias.
+n|il contatto|el contacto|Resto in contatto con loro.|Sigo en contacto con ellos.
+n|il controllo|el control|Faccio un controllo.|Hago un control.
+n|il coraggio|el valor|Ci vuole coraggio.|Se necesita valor.
+n|la corsa|la carrera|La corsa è alle otto.|La carrera es a las ocho.
+n|la costa|la costa|Viviamo sulla costa.|Vivimos en la costa.
+n|la costruzione|la construcción|La costruzione dura un anno.|La construcción dura un año.
+n|la crisi|la crisis|C'è una crisi economica.|Hay una crisis económica.
+n|la cultura|la cultura|La cultura italiana mi piace.|Me gusta la cultura italiana.
+n|la cura|el cuidado / el tratamiento|Ha bisogno di cure.|Necesita cuidados.
+n|la decisione|la decisión|Prendo una decisione.|Tomo una decisión.
+n|il denaro|el dinero|Non ho molto denaro.|No tengo mucho dinero.
+n|il destino|el destino|Credo nel destino.|Creo en el destino.
+n|la difesa|la defensa|La difesa della squadra è forte.|La defensa del equipo es fuerte.
+n|la differenza|la diferencia|Qual è la differenza?|¿Cuál es la diferencia?
+n|la difficoltà|la dificultad|Ho qualche difficoltà.|Tengo alguna dificultad.
+n|il direttore|el director|Il direttore è in ufficio.|El director está en la oficina.
+n|il diritto|el derecho|Abbiamo il diritto di sapere.|Tenemos derecho a saber.
+n|il discorso|el discurso|Il discorso è molto lungo.|El discurso es muy largo.
+n|la distanza|la distancia|La distanza è di dieci chilometri.|La distancia es de diez kilómetros.
+n|l'effetto|el efecto|L'effetto è immediato.|El efecto es inmediato.
+n|l'elemento|el elemento|Questo è un elemento importante.|Este es un elemento importante.
+n|l'energia|la energía|Ho molta energia oggi.|Tengo mucha energía hoy.
+n|l'epoca|la época|Era un'epoca difficile.|Era una época difícil.
+n|l'erba|el césped|L'erba è verde.|El césped es verde.
+n|l'esempio|el ejemplo|Ecco un esempio.|Aquí hay un ejemplo.
+n|l'espressione|la expresión|Imparo una nuova espressione.|Aprendo una expresión nueva.
+n|l'età|la edad|Alla mia età è difficile cambiare.|A mi edad es difícil cambiar.
+n|la fabbrica|la fábrica|Mio padre lavora in una fabbrica.|Mi padre trabaja en una fábrica.
+n|la faccia|la cara|Ho la faccia stanca.|Tengo la cara cansada.
+n|la fantasia|la fantasía|Hai molta fantasia.|Tienes mucha imaginación.
+n|la fatica|el esfuerzo / el cansancio|Faccio fatica a svegliarmi.|Me cuesta despertarme.
+n|il fenomeno|el fenómeno|È un fenomeno interessante.|Es un fenómeno interesante.
+n|il ferro|el hierro|Il ponte è di ferro.|El puente es de hierro.
+n|il fianco|el costado|Mi fa male il fianco.|Me duele el costado.
+n|la fiducia|la confianza|Ho fiducia in te.|Confío en ti.
+n|la figura|la figura|Vedo una figura nel buio.|Veo una figura en la oscuridad.
+n|il filo|el hilo|Taglio il filo.|Corto el hilo.
+n|la fine|el fin / el final|La fine del film è bella.|El final de la película es bonito.
+n|la foglia|la hoja (de árbol)|Le foglie sono gialle in autunno.|Las hojas son amarillas en otoño.
+n|la folla|la multitud|C'è molta folla in piazza.|Hay mucha gente en la plaza.
+n|il fondo|el fondo|Il bagno è in fondo al corridoio.|El baño está al fondo del pasillo.
+n|la forma|la forma|La torta ha una forma rotonda.|La torta tiene forma redonda.
+n|la forza|la fuerza|Ho poca forza oggi.|Tengo poca fuerza hoy.
+n|la fretta|la prisa|Ho fretta, scusa.|Tengo prisa, perdona.
+n|il frutto|el fruto|Questo albero dà frutti dolci.|Este árbol da frutos dulces.
+n|la funzione|la función|Qual è la funzione di questo tasto?|¿Cuál es la función de esta tecla?
+n|il fuoco|el fuego|Accendo il fuoco.|Enciendo el fuego.
+n|il genere|el género / el tipo|Che genere di musica ascolti?|¿Qué género de música escuchas?
+n|la gente|la gente|C'è molta gente in strada.|Hay mucha gente en la calle.
+n|il gesto|el gesto|Un gesto gentile.|Un gesto amable.
+n|la gioia|la alegría|Che gioia vederti!|¡Qué alegría verte!
+n|il giornale|el diario|Leggo il giornale ogni mattina.|Leo el diario cada mañana.
+n|il giro|la vuelta|Facciamo un giro in centro.|Damos una vuelta por el centro.
+n|il giudizio|el juicio / la opinión|Il mio giudizio è positivo.|Mi opinión es positiva.
+n|la giustizia|la justicia|Voglio giustizia.|Quiero justicia.
+n|il governo|el gobierno|Il governo annuncia nuove regole.|El gobierno anuncia nuevas reglas.
+n|il gruppo|el grupo|Siamo un bel gruppo.|Somos un buen grupo.
+n|la guardia|el guardia|La guardia controlla i documenti.|El guardia revisa los documentos.
+n|la guerra|la guerra|La guerra è finita.|La guerra terminó.
+n|il gusto|el gusto / el sabor|Il gelato ha un buon gusto.|El helado tiene buen sabor.
+n|l'immagine|la imagen|Questa immagine è bellissima.|Esta imagen es hermosísima.
+n|l'importanza|la importancia|È una questione di grande importanza.|Es un asunto de gran importancia.
+n|l'impressione|la impresión|Ho l'impressione che sia tardi.|Tengo la impresión de que es tarde.
+n|l'industria|la industria|L'industria italiana è famosa.|La industria italiana es famosa.
+n|l'inizio|el comienzo|L'inizio del film è lento.|El comienzo de la película es lento.
+n|l'intenzione|la intención|Non era mia intenzione.|No era mi intención.
+n|l'interesse|el interés|Ho interesse per la storia.|Tengo interés por la historia.
+n|l'istante|el instante|Un istante, per favore.|Un instante, por favor.
+n|il lato|el lado|Il bar è dall'altro lato della strada.|El bar está al otro lado de la calle.
+n|la legge|la ley|La legge è uguale per tutti.|La ley es igual para todos.
+n|la libertà|la libertad|Amo la libertà.|Amo la libertad.
+n|il limite|el límite|Il limite di velocità è cinquanta.|El límite de velocidad es cincuenta.
+n|la lotta|la lucha|La lotta continua.|La lucha continúa.
+n|la luna|la luna|Stasera c'è la luna piena.|Esta noche hay luna llena.
+n|il luogo|el lugar|Questo è un luogo tranquillo.|Este es un lugar tranquilo.
+n|il maestro|el maestro|Il maestro spiega la lezione.|El maestro explica la lección.
+n|la maniera|la manera|È una maniera semplice.|Es una manera simple.
+n|il modo|el modo / la manera|In che modo?|¿De qué manera?
+n|la massa|la masa|Mescolo la massa per il pane.|Mezclo la masa para el pan.
+n|il matrimonio|el matrimonio / la boda|Il matrimonio è a giugno.|La boda es en junio.
+n|il mattino|la mañana|Al mattino mi alzo presto.|En la mañana me levanto temprano.
+n|la mente|la mente|Ho la mente libera.|Tengo la mente despejada.
+n|il mestiere|el oficio|Che mestiere fai?|¿Qué oficio tienes?
+n|il metro|el metro|La stanza è lunga cinque metri.|La habitación mide cinco metros.
+n|il mezzo|el medio / la mitad|Il treno è il mezzo più veloce.|El tren es el medio más rápido.
+n|il milione|el millón|Roma ha tre milioni di abitanti.|Roma tiene tres millones de habitantes.
+n|il ministro|el ministro|Il ministro parla alla radio.|El ministro habla en la radio.
+n|la misura|la medida|Prendo le misure della stanza.|Tomo las medidas de la habitación.
+n|il monte|el monte|Saliamo sul monte.|Subimos al monte.
+n|la morte|la muerte|La morte di un amico è triste.|La muerte de un amigo es triste.
+n|il motivo|el motivo|Qual è il motivo?|¿Cuál es el motivo?
+n|il movimento|el movimiento|Il movimento fa bene.|El movimiento hace bien.
+n|il muro|el muro|Il muro è bianco.|El muro es blanco.
+n|la natura|la naturaleza|Amo la natura.|Amo la naturaleza.
+n|la nave|el barco|La nave parte dal porto.|El barco sale del puerto.
+n|la necessità|la necesidad|È una necessità.|Es una necesidad.
+n|il nord|el norte|Milano è nel nord.|Milán está en el norte.
+n|il sud|el sur|Napoli è nel sud.|Nápoles está en el sur.
+n|l'occhio|el ojo|Ho un occhio stanco.|Tengo un ojo cansado.
+n|l'odore|el olor|Che buon odore!|¡Qué rico olor!
+n|l'ombra|la sombra|Mi siedo all'ombra.|Me siento a la sombra.
+n|l'onore|el honor|Per me è un onore.|Para mí es un honor.
+n|l'opera|la obra / la ópera|Vediamo un'opera al teatro.|Vemos una ópera en el teatro.
+n|l'ordine|el orden / la orden|Metto tutto in ordine.|Pongo todo en orden.
+n|l'origine|el origen|Qual è l'origine di questa parola?|¿Cuál es el origen de esta palabra?
+n|l'oro|el oro|L'anello è d'oro.|El anillo es de oro.
+n|la pace|la paz|Voglio pace e silenzio.|Quiero paz y silencio.
+n|il padrone|el dueño / el patrón|Il padrone del cane è qui.|El dueño del perro está aquí.
+n|la pagina|la página|Apri il libro a pagina dieci.|Abre el libro en la página diez.
+n|il palazzo|el edificio / el palacio|Il palazzo è antico.|El edificio es antiguo.
+n|la parete|la pared|La parete è bianca.|La pared es blanca.
+n|la parte|la parte|Una parte del lavoro è facile.|Una parte del trabajo es fácil.
+n|la passione|la pasión|Ho una passione per la musica.|Tengo pasión por la música.
+n|il passo|el paso|Faccio un passo avanti.|Doy un paso adelante.
+n|la patria|la patria|Amo la mia patria.|Amo mi patria.
+n|la paura|el miedo|Ho paura del buio.|Tengo miedo a la oscuridad.
+n|il peccato|el pecado / la lástima|Che peccato!|¡Qué lástima!
+n|il pensiero|el pensamiento|Un pensiero gentile.|Un pensamiento amable.
+n|la persona|la persona|È una persona simpatica.|Es una persona simpática.
+n|il personaggio|el personaje|Il personaggio principale è un medico.|El personaje principal es un médico.
+n|il peso|el peso|Il peso della valigia è alto.|El peso de la maleta es alto.
+n|il pezzo|el trozo|Un pezzo di pane, per favore.|Un trozo de pan, por favor.
+n|la pianta|la planta|Annaffio le piante.|Riego las plantas.
+n|la pietra|la piedra|Il muro è di pietra.|El muro es de piedra.
+n|la poesia|la poesía|Leggo una poesia.|Leo un poema.
+n|il poeta|el poeta|Dante è un poeta italiano.|Dante es un poeta italiano.
+n|la politica|la política|Non parlo di politica.|No hablo de política.
+n|la polizia|la policía|Chiamo la polizia.|Llamo a la policía.
+n|il popolo|el pueblo|Il popolo italiano è ospitale.|El pueblo italiano es hospitalario.
+n|il porto|el puerto|La nave arriva al porto.|El barco llega al puerto.
+n|la posizione|la posición|La posizione dell'albergo è ottima.|La ubicación del hotel es excelente.
+n|il prato|el prado|Ci sediamo sul prato.|Nos sentamos en el césped.
+n|la presenza|la presencia|La presenza è obbligatoria.|La asistencia es obligatoria.
+n|il presidente|el presidente|Il presidente parla in televisione.|El presidente habla en televisión.
+n|il principio|el principio|In principio non capivo niente.|Al principio no entendía nada.
+n|il problema|el problema|Nessun problema!|¡Ningún problema!
+n|il processo|el proceso|Il processo è lungo.|El proceso es largo.
+n|il prodotto|el producto|È un prodotto italiano.|Es un producto italiano.
+n|la produzione|la producción|La produzione di vino è alta.|La producción de vino es alta.
+n|la proposta|la propuesta|Accetto la tua proposta.|Acepto tu propuesta.
+n|la qualità|la calidad|La qualità è ottima.|La calidad es excelente.
+n|il quadro|el cuadro|Il quadro è appeso al muro.|El cuadro está colgado en el muro.
+n|la questione|el asunto|È una questione importante.|Es un asunto importante.
+n|il rapporto|la relación / el informe|Ho un buon rapporto con lui.|Tengo una buena relación con él.
+n|la ragione|la razón|Hai ragione.|Tienes razón.
+n|la realtà|la realidad|In realtà non è così.|En realidad no es así.
+n|la regione|la región|La Toscana è una bella regione.|La Toscana es una bonita región.
+n|la relazione|la relación|La relazione tra loro è buona.|La relación entre ellos es buena.
+n|la ricerca|la búsqueda / la investigación|Faccio una ricerca su internet.|Hago una búsqueda en internet.
+n|la riva|la orilla|Ci sediamo sulla riva del fiume.|Nos sentamos en la orilla del río.
+n|la roba|las cosas|Ho tanta roba da portare.|Tengo muchas cosas que llevar.
+n|la sala|la sala|La sala è piena di gente.|La sala está llena de gente.
+n|la scena|la escena|La scena finale è bellissima.|La escena final es hermosísima.
+n|la scienza|la ciencia|Mi interessa la scienza.|Me interesa la ciencia.
+n|lo scopo|el propósito|Qual è lo scopo del viaggio?|¿Cuál es el propósito del viaje?
+n|lo scrittore|el escritor|Lo scrittore presenta il suo libro.|El escritor presenta su libro.
+n|il secolo|el siglo|Il castello è del secolo XV.|El castillo es del siglo XV.
+n|la sede|la sede|La sede dell'azienda è a Milano.|La sede de la empresa está en Milán.
+n|il segno|la señal / el signo|Faccio un segno con la mano.|Hago una señal con la mano.
+n|il segreto|el secreto|È un segreto!|¡Es un secreto!
+n|il senso|el sentido|Non ha senso.|No tiene sentido.
+n|il sentimento|el sentimiento|Un sentimento forte.|Un sentimiento fuerte.
+n|la serie|la serie|Una serie di errori.|Una serie de errores.
+n|lo sforzo|el esfuerzo|Fai uno sforzo!|¡Haz un esfuerzo!
+n|lo sguardo|la mirada|Ha uno sguardo dolce.|Tiene una mirada dulce.
+n|il sistema|el sistema|Il sistema non funziona.|El sistema no funciona.
+n|la situazione|la situación|La situazione è difficile.|La situación es difícil.
+n|la società|la sociedad|La società cambia.|La sociedad cambia.
+n|la soluzione|la solución|Ho trovato la soluzione.|Encontré la solución.
+n|la spalla|el hombro|Mi fa male la spalla.|Me duele el hombro.
+n|lo spazio|el espacio|C'è poco spazio qui.|Hay poco espacio aquí.
+n|la specie|la especie|Questa specie vive nel mare.|Esta especie vive en el mar.
+n|lo spettacolo|el espectáculo|Lo spettacolo comincia alle nove.|El espectáculo comienza a las nueve.
+n|lo spirito|el espíritu|Ha molto spirito.|Tiene mucho ingenio.
+n|la stagione|la estación (del año)|La mia stagione preferita è la primavera.|Mi estación preferida es la primavera.
+n|la stampa|la prensa|La stampa parla del concerto.|La prensa habla del concierto.
+n|la stella|la estrella|Di notte vedo le stelle.|En la noche veo las estrellas.
+n|lo strumento|el instrumento|Il piano è uno strumento bello.|El piano es un instrumento bonito.
+n|lo studio|el estudio|Lo studio richiede tempo.|El estudio requiere tiempo.
+n|lo sviluppo|el desarrollo|Lo sviluppo del progetto è rapido.|El desarrollo del proyecto es rápido.
+n|la tavola|la mesa (para comer)|A tavola si parla!|¡En la mesa se conversa!
+n|il termine|el término|Che termine hai usato?|¿Qué término usaste?
+n|il terreno|el terreno|Hanno comprato un terreno.|Compraron un terreno.
+n|il territorio|el territorio|Il territorio è grande.|El territorio es grande.
+n|il tipo|el tipo|Che tipo di film ti piace?|¿Qué tipo de película te gusta?
+n|il titolo|el título|Il titolo del libro è bello.|El título del libro es bonito.
+n|il tono|el tono|Il suo tono è gentile.|Su tono es amable.
+n|l'università|la universidad|Studio all'università.|Estudio en la universidad.
+n|l'uso|el uso|L'uso del telefono è vietato.|El uso del teléfono está prohibido.
+n|la valle|el valle|La valle è verde.|El valle es verde.
+n|il valore|el valor|Il valore di questo quadro è alto.|El valor de este cuadro es alto.
+n|la verità|la verdad|Dimmi la verità.|Dime la verdad.
+n|la villa|la casa de campo / la quinta|La villa ha un grande giardino.|La quinta tiene un jardín grande.
+n|il viso|el rostro|Ha un viso simpatico.|Tiene un rostro simpático.
+n|la vista|la vista|Dalla camera c'è una bella vista.|Desde la habitación hay una bonita vista.
+n|la voce|la voz|Ha una voce bellissima.|Tiene una voz hermosísima.
+n|la volontà|la voluntad|Ci vuole buona volontà.|Se necesita buena voluntad.
+n|il volto|el rostro|Il volto è pallido.|El rostro está pálido.

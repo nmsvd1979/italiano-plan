@@ -1,0 +1,51 @@
+## u01
+=buongiorno|Buongiorno, signora! Come sta?|¡Buenos días, señora! ¿Cómo está usted?
+=buonasera|Buonasera, signor Rossi. Prego, entri.|Buenas tardes, señor Rossi. Adelante, pase.
+=buonanotte|Buonanotte, mamma! A domani.|¡Buenas noches, mamá! Hasta mañana.
+=ciao|Ciao, Luca! Come stai?|¡Hola, Luca! ¿Cómo estás?
+=arrivederci|Arrivederci e grazie di tutto.|Hasta luego y gracias por todo.
+=grazie|Grazie mille per l'aiuto.|Muchas gracias por la ayuda.
+=prego|Grazie! — Prego, di niente.|¡Gracias! — De nada.
+=scusi|Scusi, dov'è la stazione?|Disculpe, ¿dónde está la estación?
+=scusa|Scusa, non ho capito.|Perdona, no entendí.
+=per favore|Un caffè, per favore.|Un café, por favor.
+=piacere|Piacere, mi chiamo Marco.|Mucho gusto, me llamo Marco.
+=come stai?|Ciao Anna, come stai?|Hola, Anna, ¿cómo estás?
+=come sta?|Buongiorno, professore, come sta?|Buenos días, profesor, ¿cómo está usted?
+=bene|Sto bene, grazie. E tu?|Estoy bien, gracias. ¿Y tú?
+=male|Oggi sto male: ho la febbre.|Hoy estoy mal: tengo fiebre.
+=il signore|Il signore è di Roma.|El señor es de Roma.
+=la signora|La signora Bianchi è molto gentile.|La señora Bianchi es muy amable.
+=mi chiamo|Mi chiamo Nicolás e sono cileno.|Me llamo Nicolás y soy chileno.
+=lo straniero|Sono straniero, parlo poco italiano.|Soy extranjero, hablo poco italiano.
+=la lingua|L'italiano è una bella lingua.|El italiano es un idioma bonito.
++frecuente|sì|sí|Sì, sono io.|Sí, soy yo.
++frecuente|no|no|No, grazie.|No, gracias.
++frecuente|io|yo|Io sono cileno.|Yo soy chileno.
++frecuente|tu|tú|Tu sei molto gentile.|Tú eres muy amable.
++frecuente|lui|él|Lui è italiano.|Él es italiano.
++frecuente|lei|ella / usted (formal)|Lei è la signora Rossi.|Ella es la señora Rossi.
++frecuente|noi|nosotros|Noi siamo studenti.|Nosotros somos estudiantes.
++frecuente|voi|ustedes / vosotros|Voi siete di Milano?|¿Ustedes son de Milán?
++frecuente|loro|ellos / ellas|Loro sono amici.|Ellos son amigos.
++frecuente|essere|ser / estar|Essere gentili è importante.|Ser amable es importante.
++frecuente|anche|también|Anche io sono stanco.|Yo también estoy cansado.
++frecuente|ma|pero|Sono stanco, ma contento.|Estoy cansado, pero contento.
++frecuente|e|y|Marco e Anna sono amici.|Marco y Anna son amigos.
++frecuente|parlare|hablar|Parlo un po' di italiano.|Hablo un poco de italiano.
++frecuente|l'amico|el amigo|Marco è un amico di Luca.|Marco es un amigo de Luca.
++frecuente|l'amica|la amiga|Anna è la mia amica.|Anna es mi amiga.
++frecuente|certo|claro / por supuesto|Certo, volentieri!|¡Claro, con gusto!
++frecuente|ecco|aquí está / he aquí|Ecco il mio nome.|Aquí está mi nombre.
++frecuente|tutto|todo|Va tutto bene.|Todo va bien.
++unidad|benvenuto|bienvenido|Benvenuto in Italia!|¡Bienvenido a Italia!
++unidad|salve|hola (neutro)|Salve, mi chiamo Paolo.|Hola, me llamo Paolo.
++unidad|buona giornata|que tengas un buen día|Grazie e buona giornata!|¡Gracias y que tenga un buen día!
++unidad|a domani|hasta mañana|Ciao, a domani!|¡Adiós, hasta mañana!
++unidad|ci vediamo|nos vemos|Ci vediamo presto.|Nos vemos pronto.
++unidad|mi dispiace|lo siento|Mi dispiace, non capisco.|Lo siento, no entiendo.
++unidad|non capisco|no entiendo|Scusi, non capisco.|Disculpe, no entiendo.
++unidad|di dove sei?|¿de dónde eres?|Di dove sei? — Sono di Santiago.|¿De dónde eres? — Soy de Santiago.
++unidad|cileno|chileno|Sono cileno e abito a Santiago.|Soy chileno y vivo en Santiago.
++unidad|italiano|italiano / el idioma italiano|Studio italiano ogni giorno.|Estudio italiano todos los días.
++unidad|va bene|está bien / de acuerdo|Va bene, grazie.|Está bien, gracias.

@@ -1,0 +1,157 @@
+## u02
+=la casa|La mia casa è piccola ma carina.|Mi casa es pequeña pero bonita.
+=l'appartamento|Cerco un appartamento in centro.|Busco un apartamento en el centro.
+=la camera|La camera ha una finestra grande.|La habitación tiene una ventana grande.
+=la cucina|In cucina c'è un tavolo.|En la cocina hay una mesa.
+=il bagno|Il bagno è a destra.|El baño está a la derecha.
+=il soggiorno|Nel soggiorno c'è un divano.|En la sala hay un sofá.
+=la finestra|Apro la finestra: fa caldo.|Abro la ventana: hace calor.
+=la porta|La porta è chiusa.|La puerta está cerrada.
+=il tavolo|Il tavolo è vicino alla finestra.|La mesa está cerca de la ventana.
+=la sedia|Ci sono quattro sedie.|Hay cuatro sillas.
+=il letto|Il letto è comodo.|La cama es cómoda.
+=il quartiere|Abito in un quartiere tranquillo.|Vivo en un barrio tranquilo.
+=la strada|La strada è molto lunga.|La calle es muy larga.
+=la piazza|Ci vediamo in piazza.|Nos vemos en la plaza.
+=il supermercato|Il supermercato è aperto fino alle nove.|El supermercado está abierto hasta las nueve.
+=la farmacia|C'è una farmacia vicino alla stazione.|Hay una farmacia cerca de la estación.
+=la stazione|La stazione è lontana da qui.|La estación está lejos de aquí.
+=il parco|Nel parco ci sono molti bambini.|En el parque hay muchos niños.
+=vicino|La scuola è vicino a casa mia.|La escuela está cerca de mi casa.
+=lontano|Il mare è lontano.|El mar está lejos.
++frecuente|avere|tener / haber|Ho una sorella e due fratelli.|Tengo una hermana y dos hermanos.
++frecuente|il libro|el libro|Sul tavolo c'è un libro.|Sobre la mesa hay un libro.
++frecuente|la cosa|la cosa|Che cosa c'è nella borsa?|¿Qué hay en el bolso?
++frecuente|l'uomo|el hombre|Un uomo è alla porta.|Un hombre está en la puerta.
++frecuente|la donna|la mujer|Una donna parla con il cameriere.|Una mujer habla con el camarero.
++frecuente|il bambino|el niño|Il bambino gioca nel parco.|El niño juega en el parque.
++frecuente|la bambina|la niña|La bambina ha un cane.|La niña tiene un perro.
++frecuente|il ragazzo|el chico|Il ragazzo è nel soggiorno.|El chico está en la sala.
++frecuente|la ragazza|la chica|La ragazza abita in questo quartiere.|La chica vive en este barrio.
++frecuente|il posto|el lugar / el asiento|C'è un posto libero?|¿Hay un asiento libre?
++frecuente|il mondo|el mundo|Il mondo è grande.|El mundo es grande.
++frecuente|la vita|la vida|La vita in città è cara.|La vida en la ciudad es cara.
++frecuente|la macchina|el auto|La macchina è davanti a casa.|El auto está delante de la casa.
++frecuente|la mano|la mano|Ho una borsa in mano.|Tengo una bolsa en la mano.
++frecuente|la testa|la cabeza|Ho mal di testa.|Me duele la cabeza.
++frecuente|qui|aquí|Siediti qui, per favore.|Siéntate aquí, por favor.
++frecuente|là|allá|Il bagno è là.|El baño está allá.
++frecuente|dentro|dentro|La chiave è dentro la borsa.|La llave está dentro de el bolso.
++unidad|c'è|hay (singular)|In casa c'è un balcone.|En la casa hay un balcón.
++unidad|ci sono|hay (plural)|In cucina ci sono due sedie.|En la cocina hay dos sillas.
++unidad|l'armadio|el armario|I vestiti sono nell'armadio.|La ropa está en el armario.
++unidad|il divano|el sofá|Il divano è nel soggiorno.|El sofá está en la sala.
++unidad|la scrivania|el escritorio|Studio alla scrivania.|Estudio en el escritorio.
++unidad|il frigorifero|el refrigerador|Il latte è nel frigorifero.|La leche está en el refrigerador.
++unidad|la doccia|la ducha|Faccio la doccia la mattina.|Me doy una ducha en la mañana.
++unidad|il balcone|el balcón|Sul balcone ci sono dei fiori.|En el balcón hay flores.
++unidad|la camera da letto|el dormitorio|La camera da letto è piccola.|El dormitorio es pequeño.
++unidad|lo specchio|el espejo|Mi guardo nello specchio.|Me miro en el espejo.
++unidad|la banca|el banco|La banca è in piazza.|El banco está en la plaza.
++unidad|l'edificio|el edificio|L'edificio ha cinque piani.|El edificio tiene cinco pisos.
+## u03
+=venti|Ci sono venti studenti in classe.|Hay veinte estudiantes en la clase.
+=trenta|Il caffè costa trenta centesimi.|El café cuesta treinta centavos.
+=cento|Un secolo sono cento anni.|Un siglo son cien años.
+=mille|Il biglietto costa mille pesos.|El boleto cuesta mil pesos.
+=l'ora|Che ora è?|¿Qué hora es?
+=il minuto|Aspetto solo un minuto.|Espero solo un minuto.
+=mezzogiorno|A mezzogiorno pranzo con Anna.|Al mediodía almuerzo con Anna.
+=mezzanotte|Il film finisce a mezzanotte.|La película termina a medianoche.
+=oggi|Oggi è sabato.|Hoy es sábado.
+=domani|Domani lavoro fino alle sei.|Mañana trabajo hasta las seis.
+=ieri|Ieri sono stato a casa.|Ayer estuve en casa.
+=la settimana|La settimana ha sette giorni.|La semana tiene siete días.
+=il mese|Questo mese lavoro molto.|Este mes trabajo mucho.
+=l'anno|L'anno ha dodici mesi.|El año tiene doce meses.
+=il giorno|Che giorno è oggi?|¿Qué día es hoy?
+=la mattina|La mattina bevo un caffè.|En la mañana tomo un café.
+=il pomeriggio|Il pomeriggio studio italiano.|En la tarde estudio italiano.
+=la sera|La sera guardo un film.|En la noche veo una película.
+=il prezzo|Il prezzo è molto buono.|El precio es muy bueno.
+=costare|Quanto costa questo libro?|¿Cuánto cuesta este libro?
++frecuente|adesso|ahora|Adesso sono a casa.|Ahora estoy en casa.
++frecuente|la notte|la noche|La notte dormo otto ore.|En la noche duermo ocho horas.
++frecuente|il momento|el momento|Un momento, per favore.|Un momento, por favor.
++frecuente|la data|la fecha|Qual è la data di oggi?|¿Cuál es la fecha de hoy?
++frecuente|la metà|la mitad|Mangio la metà della pizza.|Me como la mitad de la pizza.
++frecuente|il quarto|el cuarto / el cuarto de hora|Sono le tre e un quarto.|Son las tres y cuarto.
++unidad|quaranta|cuarenta|Ho quaranta euro.|Tengo cuarenta euros.
++unidad|cinquanta|cincuenta|Il biglietto costa cinquanta euro.|El boleto cuesta cincuenta euros.
++unidad|sessanta|sesenta|Un'ora ha sessanta minuti.|Una hora tiene sesenta minutos.
++unidad|settanta|setenta|Mia nonna ha settanta anni.|Mi abuela tiene setenta años.
++unidad|ottanta|ochenta|Il treno va a ottanta chilometri all'ora.|El tren va a ochenta kilómetros por hora.
++unidad|novanta|noventa|Il libro costa novanta euro.|El libro cuesta noventa euros.
++unidad|duecento|doscientos|Ci sono duecento persone.|Hay doscientas personas.
++unidad|martedì|martes|Martedì ho lezione di italiano.|El martes tengo clase de italiano.
++unidad|mercoledì|miércoles|Mercoledì lavoro fino a tardi.|El miércoles trabajo hasta tarde.
++unidad|giovedì|jueves|Giovedì incontro un amico.|El jueves me junto con un amigo.
++unidad|venerdì|viernes|Venerdì sera esco con gli amici.|El viernes en la noche salgo con los amigos.
++frecuente|sabato|sábado|Sabato mattina vado al mercato.|El sábado en la mañana voy al mercado.
++unidad|l'orologio|el reloj|L'orologio è sul tavolo.|El reloj está sobre la mesa.
++unidad|il calendario|el calendario|Guardo il calendario: oggi è il due.|Miro el calendario: hoy es dos.
++unidad|l'euro|el euro|Un caffè costa un euro.|Un café cuesta un euro.
++unidad|il centesimo|el centavo de euro|Il caffè costa ottanta centesimi.|El café cuesta ochenta centavos.
++unidad|gennaio|enero|A gennaio fa freddo.|En enero hace frío.
++unidad|dicembre|diciembre|Il Natale è a dicembre.|La Navidad es en diciembre.
++unidad|che ora è?|¿qué hora es?|Scusi, che ora è?|Disculpe, ¿qué hora es?
++unidad|quanto costa?|¿cuánto cuesta?|Quanto costa questa borsa?|¿Cuánto cuesta este bolso?
++unidad|a che ora?|¿a qué hora?|A che ora è la cena?|¿A qué hora es la cena?
++unidad|il compleanno|el cumpleaños|Il mio compleanno è a marzo.|Mi cumpleaños es en marzo.
++unidad|il resto|el cambio|Ecco il resto: due euro.|Aquí está el cambio: dos euros.
++frecuente|cominciare|empezar|La lezione comincia alle nove.|La clase empieza a las nueve.
++frecuente|finire|terminar|Il film finisce alle undici.|La película termina a las once.
++frecuente|durare|durar|Il viaggio dura due ore.|El viaje dura dos horas.
++frecuente|passare|pasar|Il tempo passa in fretta.|El tiempo pasa rápido.
+## u04
+=il caffè|Prendo un caffè, per favore.|Tomo un café, por favor.
+=il cappuccino|Al mattino bevo un cappuccino.|En la mañana tomo un capuchino.
+=il cornetto|Vorrei un cornetto alla crema.|Quisiera un croissant de crema.
+=l'acqua|Un'acqua naturale, grazie.|Un agua sin gas, gracias.
+=il vino|Un bicchiere di vino rosso.|Un vaso de vino tinto.
+=la birra|Una birra piccola, per favore.|Una cerveza chica, por favor.
+=il panino|Mangio un panino con il formaggio.|Como un sándwich con queso.
+=la pasta|La pasta è pronta.|La pasta está lista.
+=il conto|Il conto, per favore.|La cuenta, por favor.
+=il menù|Posso avere il menù?|¿Puedo ver el menú?
+=il cameriere|Il cameriere porta il caffè.|El camarero trae el café.
+=la colazione|Faccio colazione alle sette.|Desayuno a las siete.
+=il pranzo|A pranzo mangio pasta.|Al almuerzo como pasta.
+=la cena|La cena è alle otto.|La cena es a las ocho.
+=l'antipasto|Come antipasto prendo il prosciutto.|De entrada pido jamón.
+=il dolce|Come dolce, un gelato.|De postre, un helado.
+=il bicchiere|Un bicchiere d'acqua, per favore.|Un vaso de agua, por favor.
+=la bottiglia|Una bottiglia di acqua frizzante.|Una botella de agua con gas.
+=prenotare|Vorrei prenotare un tavolo per due.|Quisiera reservar una mesa para dos.
+=vorrei|Vorrei un caffè, per favore.|Quisiera un café, por favor.
+=qualcos'altro|Desidera qualcos'altro?|¿Desea algo más?
++frecuente|volere|querer|Voglio un panino.|Quiero un sándwich.
++frecuente|potere|poder|Posso avere il conto?|¿Puedo pedir la cuenta?
++frecuente|dovere|deber / tener que|Devo prenotare un tavolo.|Tengo que reservar una mesa.
++frecuente|il tè|el té|Bevo un tè caldo.|Tomo un té caliente.
++frecuente|il cibo|la comida|Il cibo italiano è buono.|La comida italiana es buena.
++frecuente|la fame|el hambre|Ho molta fame.|Tengo mucha hambre.
++unidad|la sete|la sed|Ho sete: vorrei dell'acqua.|Tengo sed: quisiera agua.
++frecuente|aperto|abierto|Il bar è aperto.|El bar está abierto.
++frecuente|chiuso|cerrado|Il ristorante è chiuso.|El restaurante está cerrado.
++frecuente|buono|rico / bueno|Il caffè è buono.|El café está rico.
++unidad|il pasto|la comida (una comida)|Il pranzo è il pasto principale.|El almuerzo es la comida principal.
++frecuente|il bar|el bar / la cafetería|Ci vediamo al bar.|Nos vemos en el bar.
++frecuente|offrire|invitar / ofrecer|Offro io il caffè.|Yo invito el café.
++frecuente|naturale|natural / sin gas|Un'acqua naturale, per favore.|Un agua sin gas, por favor.
++unidad|il succo|el jugo|Un succo d'arancia, grazie.|Un jugo de naranja, gracias.
++unidad|assaggiare|probar (comida)|Vuoi assaggiare la torta?|¿Quieres probar la torta?
++unidad|la cassa|la caja|Si paga alla cassa.|Se paga en la caja.
++frecuente|la pizza|la pizza|Vorrei una pizza margherita.|Quisiera una pizza margarita.
++unidad|squisito|exquisito|Il dolce è squisito.|El postre está exquisito.
++unidad|la tazza|la taza|Una tazza di tè, per favore.|Una taza de té, por favor.
++unidad|l'espresso|el café expreso|Un espresso, grazie.|Un expreso, gracias.
++unidad|la mancia|la propina|Lascio una piccola mancia.|Dejo una propina pequeña.
++unidad|buon appetito|que aproveche|Buon appetito a tutti!|¡Que aproveche a todos!
++unidad|salute!|¡salud!|Salute! Alla nostra!|¡Salud! ¡Por nosotros!
++unidad|in contanti|en efectivo|Pago in contanti.|Pago en efectivo.
++unidad|la carta di credito|la tarjeta de crédito|Posso pagare con la carta di credito?|¿Puedo pagar con tarjeta de crédito?
++unidad|frizzante|con gas|Un'acqua frizzante, per favore.|Un agua con gas, por favor.
++unidad|un tavolo per due|una mesa para dos|Vorrei un tavolo per due.|Quisiera una mesa para dos.
++unidad|il caffè macchiato|el café con un poco de leche|Prendo un caffè macchiato.|Pido un café con un poco de leche.
++unidad|la merenda|la merienda|Ai bambini piace la merenda.|A los niños les gusta la merienda.

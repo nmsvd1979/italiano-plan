@@ -1,0 +1,140 @@
+## verbos
+v|abbandonare|abandonar|Non voglio abbandonare il progetto.|No quiero abandonar el proyecto.
+v|accadere|ocurrir|Che cosa è accaduto ieri?|¿Qué ocurrió ayer?
+v|accendere|encender|Accendo la luce.|Enciendo la luz.
+v|spegnere|apagar|Spengo il telefono.|Apago el teléfono.
+v|accettare|aceptar|Accetto l'invito.|Acepto la invitación.
+v|accorgersi|darse cuenta|Mi sono accorto dell'errore.|Me di cuenta del error.
+v|affrontare|enfrentar|Devo affrontare il problema.|Tengo que enfrentar el problema.
+v|allontanare|alejar|Allontano il cane dalla porta.|Alejo al perro de la puerta.
+v|alzare|levantar|Alzo la mano per rispondere.|Levanto la mano para responder.
+v|amare|amar|Amo la mia famiglia.|Amo a mi familia.
+v|annunciare|anunciar|Annunciano un nuovo treno.|Anuncian un nuevo tren.
+v|apparire|aparecer|Il sole appare dopo la pioggia.|El sol aparece después de la lluvia.
+v|appartenere|pertenecer|Questo libro appartiene a Marco.|Este libro pertenece a Marco.
+v|assicurare|asegurar|Ti assicuro che è vero.|Te aseguro que es verdad.
+v|assistere|asistir|Assisto a una lezione.|Asisto a una clase.
+v|attaccare|atacar / pegar|Attacco il manifesto al muro.|Pego el cartel en el muro.
+v|aumentare|aumentar|I prezzi aumentano ogni anno.|Los precios aumentan cada año.
+v|avvertire|avisar / advertir|Ti avverto: fa freddo.|Te advierto: hace frío.
+v|avvicinare|acercar|Avvicino la sedia al tavolo.|Acerco la silla a la mesa.
+v|baciare|besar|Bacio mia madre sulla guancia.|Beso a mi madre en la mejilla.
+v|bastare|bastar|Basta così, grazie.|Basta así, gracias.
+v|battere|golpear / batir|Batto alla porta.|Golpeo la puerta.
+v|bruciare|quemar|La pizza si sta bruciando!|¡La pizza se está quemando!
+v|buttare|botar / tirar|Butto la spazzatura.|Boto la basura.
+v|cadere|caer|Sono caduto per strada.|Me caí en la calle.
+v|capitare|ocurrir / pasar por casualidad|Se capita a Roma, mi chiami.|Si pasa por Roma, llámeme.
+v|celebrare|celebrar|Celebriamo il compleanno.|Celebramos el cumpleaños.
+v|colpire|golpear / impresionar|La notizia mi ha colpito.|La noticia me impresionó.
+v|comprendere|comprender|Comprendo la tua situazione.|Comprendo tu situación.
+v|concedere|conceder|Mi concede un minuto?|¿Me concede un minuto?
+v|condurre|conducir / llevar|Questa strada conduce al mare.|Este camino lleva al mar.
+v|considerare|considerar|Considero questa idea molto buona.|Considero muy buena esta idea.
+v|contare|contar|Conto fino a dieci.|Cuento hasta diez.
+v|contenere|contener|La borsa contiene un libro.|La bolso contiene un libro.
+v|coprire|cubrir / tapar|Copro il pane con un panno.|Cubro el pan con un paño.
+v|costruire|construir|Costruiscono un nuovo ponte.|Construyen un nuevo puente.
+v|creare|crear|Creo un nuovo progetto.|Creo un nuevo proyecto.
+v|descrivere|describir|Descrivo la mia casa.|Describo mi casa.
+v|difendere|defender|Difendo la mia opinione.|Defiendo mi opinión.
+v|dimostrare|demostrar|Voglio dimostrare che è possibile.|Quiero demostrar que es posible.
+v|dipendere|depender|Dipende dal tempo.|Depende del clima.
+v|discutere|discutir|Discutiamo del programma.|Discutimos el programa.
+v|distinguere|distinguir|Non distinguo i due colori.|No distingo los dos colores.
+v|dividere|dividir|Dividiamo la torta in otto parti.|Dividimos la torta en ocho partes.
+v|escludere|excluir|Non escludo nessuna possibilità.|No excluyo ninguna posibilidad.
+v|esistere|existir|Esiste una soluzione.|Existe una solución.
+v|esprimere|expresar|Esprimo la mia opinione.|Expreso mi opinión.
+v|evitare|evitar|Evito il traffico.|Evito el tráfico.
+v|fermare|detener|Fermo la macchina.|Detengo el auto.
+v|fuggire|huir|Il ladro fugge via.|El ladrón huye.
+v|gettare|lanzar / botar|Getto la carta nel cestino.|Boto el papel en el basurero.
+v|giudicare|juzgar|Non giudicare dalle apparenze.|No juzgues por las apariencias.
+v|giungere|llegar|Giungiamo a Roma di sera.|Llegamos a Roma en la noche.
+v|godere|disfrutar|Godo il sole in spiaggia.|Disfruto del sol en la playa.
+v|gridare|gritar|Non gridare, per favore.|No grites, por favor.
+v|impedire|impedir|La pioggia impedisce di uscire.|La lluvia impide salir.
+v|importare|importar|Non importa!|¡No importa!
+v|insistere|insistir|Insisto: pago io.|Insisto: pago yo.
+v|intendere|querer decir / entender|Che cosa intendi?|¿Qué quieres decir?
+v|interessare|interesar|Mi interessa la storia.|Me interesa la historia.
+v|lanciare|lanzar|Lancio la palla a mio fratello.|Lanzo la pelota a mi hermano.
+v|legare|atar|Lego le scarpe.|Me amarro los zapatos.
+v|liberare|liberar|Libero il tavolo per voi.|Dejo libre la mesa para ustedes.
+v|limitare|limitar|Devo limitare il caffè.|Tengo que limitar el café.
+v|mantenere|mantener|Mantengo la calma.|Mantengo la calma.
+v|meritare|merecer|Meriti un premio.|Mereces un premio.
+v|muovere|mover|Non muovere la sedia.|No muevas la silla.
+v|nascondere|esconder|Nascondo il regalo nell'armadio.|Escondo el regalo en el armario.
+v|notare|notar|Noto che sei stanco.|Noto que estás cansado.
+v|offendere|ofender|Non volevo offenderti.|No quería ofenderte.
+v|osservare|observar|Osservo la gente in piazza.|Observo a la gente en la plaza.
+v|ottenere|obtener|Ottengo il visto domani.|Obtengo la visa mañana.
+v|partecipare|participar|Partecipo al corso.|Participo en el curso.
+v|permettere|permitir|Mi permetta di presentarmi.|Permítame presentarme.
+v|pesare|pesar|La valigia pesa venti chili.|La maleta pesa veinte kilos.
+v|piangere|llorar|Il bambino piange.|El niño llora.
+v|porre|poner / plantear|Pongo una domanda.|Planteo una pregunta.
+v|possedere|poseer|Possiede due case.|Posee dos casas.
+v|pregare|rogar / rezar|Ti prego, aiutami!|¡Te ruego, ayúdame!
+v|preoccupare|preocupar|Mi preoccupa il futuro.|Me preocupa el futuro.
+v|prevedere|prever|Prevedo molto lavoro.|Preveo mucho trabajo.
+v|procedere|proceder|Procediamo con calma.|Procedamos con calma.
+v|produrre|producir|Questa fabbrica produce pasta.|Esta fábrica produce pasta.
+v|proporre|proponer|Propongo di andare al mare.|Propongo ir a la playa.
+v|provocare|provocar|La pioggia provoca traffico.|La lluvia provoca tráfico.
+v|raccogliere|recoger|Raccolgo le mele.|Recojo las manzanas.
+v|raggiungere|alcanzar|Raggiungo la stazione a piedi.|Llego a la estación a pie.
+v|rappresentare|representar|Il disegno rappresenta una casa.|El dibujo representa una casa.
+v|rendere|hacer / devolver|Questo mi rende felice.|Esto me hace feliz.
+v|resistere|resistir|Non resisto al gelato.|No resisto un helado.
+v|richiedere|pedir / solicitar|Richiedo un documento.|Solicito un documento.
+v|riconoscere|reconocer|Ti ho riconosciuto subito.|Te reconocí de inmediato.
+v|ridere|reír|Rido con gli amici.|Me río con los amigos.
+v|ridurre|reducir|Riduco le spese.|Reduzco los gastos.
+v|riempire|llenar|Riempio il bicchiere d'acqua.|Lleno el vaso de agua.
+v|rifiutare|rechazar|Rifiuto l'offerta.|Rechazo la oferta.
+v|riguardare|concernir|Questo non mi riguarda.|Esto no me concierne.
+v|riprendere|retomar|Riprendo il lavoro lunedì.|Retomo el trabajo el lunes.
+v|risolvere|resolver|Risolvo il problema.|Resuelvo el problema.
+v|ritenere|considerar / creer|Ritengo che sia giusto.|Considero que es justo.
+v|ritornare|volver|Ritorno a casa tardi.|Vuelvo a casa tarde.
+v|ritrovare|volver a encontrar|Ho ritrovato le chiavi.|Volví a encontrar las llaves.
+v|riunire|reunir|Riuniamo gli amici a cena.|Reunimos a los amigos a cenar.
+v|riuscire|lograr|Non riesco a dormire.|No logro dormir.
+v|rivelare|revelar|Non rivelo il segreto.|No revelo el secreto.
+v|saltare|saltar|Salto la corda.|Salto la cuerda.
+v|salvare|salvar|Salvo il documento sul computer.|Guardo el documento en el computadora.
+v|scappare|escapar|Il gatto scappa dalla finestra.|El gato se escapa por la ventana.
+v|scegliere|elegir|Scelgo il vestito rosso.|Elijo el vestido rojo.
+v|scherzare|bromear|Scherzo, non è vero!|¡Bromeo, no es verdad!
+v|scomparire|desaparecer|Il sole scompare dietro la montagna.|El sol desaparece tras la montaña.
+v|scoprire|descubrir|Scopro un ristorante nuovo.|Descubro un restaurante nuevo.
+v|scorrere|correr / fluir|Il fiume scorre lentamente.|El río corre lentamente.
+v|segnare|marcar / anotar|Segno la data sul calendario.|Marco la fecha en el calendario.
+v|seguire|seguir|Seguo un corso di italiano.|Sigo un curso de italiano.
+v|smettere|dejar de|Smetto di fumare.|Dejo de fumar.
+v|sognare|soñar|Sogno di vivere a Roma.|Sueño con vivir en Roma.
+v|soffrire|sufrir|Soffro il caldo.|Sufro el calor.
+v|sorridere|sonreír|Sorrido a tutti.|Le sonrío a todos.
+v|sostenere|sostener / apoyar|Sostengo il mio amico.|Apoyo a mi amigo.
+v|spingere|empujar|Spingo la porta.|Empujo la puerta.
+v|sposare|casarse con|Marco sposa Anna a giugno.|Marco se casa con Anna en junio.
+v|stabilire|establecer|Stabiliamo la data.|Fijamos la fecha.
+v|stringere|apretar|Stringo la mano al professore.|Le doy la mano al profesor.
+v|succedere|suceder|Che cosa succede?|¿Qué sucede?
+v|svegliare|despertar|Sveglio mio fratello alle sette.|Despierto a mi hermano a las siete.
+v|tacere|callar|Preferisco tacere.|Prefiero callar.
+v|tenere|tener / sujetar|Tengo la borsa in mano.|Tengo el bolso en la mano.
+v|tentare|intentar|Tento di nuovo.|Lo intento de nuevo.
+v|tirare|tirar|Tiro la corda.|Tiro de la cuerda.
+v|toccare|tocar|Non toccare il forno!|¡No toques el horno!
+v|togliere|quitar|Tolgo il cappello.|Me saco el sombrero.
+v|trasformare|transformar|Trasformo la stanza in uno studio.|Transformo la habitación en un estudio.
+v|trattare|tratar|Il libro tratta di storia.|El libro trata de historia.
+v|unire|unir|Uniamo le forze.|Unimos fuerzas.
+v|valere|valer|Il biglietto vale due ore.|El boleto vale dos horas.
+v|vestire|vestir|Vesto mio figlio.|Visto a mi hijo.
+v|vivere|vivir|Vivo a Santiago.|Vivo en Santiago.
+v|volare|volar|Gli uccelli volano.|Los pájaros vuelan.

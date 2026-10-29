@@ -1,0 +1,204 @@
+## u17
+=l'affitto|L'affitto costa seicento euro al mese.|El alquiler cuesta seiscientos euros al mes.
+=affittare|Voglio affittare un appartamento.|Quiero alquilar un apartamento.
+=il contratto|Leggo bene il contratto.|Leo bien el contrato.
+=la caparra|La caparra è di due mesi.|El depósito es de dos meses.
+=le spese|Le spese sono incluse?|¿Los gastos comunes están incluidos?
+=il padrone di casa|Il padrone di casa abita al terzo piano.|El dueño de casa vive en el tercer piso.
+=arredato|L'appartamento è arredato.|El apartamento está amueblado.
+=il piano|Abito al quarto piano.|Vivo en el cuarto piso.
+=il piano terra|Il negozio è al piano terra.|La tienda está en el primer piso.
+=l'ascensore|L'ascensore non funziona.|El ascensor no funciona.
+=il riscaldamento|Il riscaldamento è centralizzato.|La calefacción es central.
+=la lavatrice|La lavatrice è in bagno.|La lavadora está en el baño.
+=il rubinetto|Il rubinetto perde.|La llave de agua gotea.
+=la chiave|Ho perso la chiave.|Perdí la llave.
+=il modulo|Compilo il modulo.|Relleno el formulario.
+=firmare|Firmo qui, giusto?|Firmo aquí, ¿cierto?
+=compilare|Devo compilare questo modulo.|Tengo que rellenar este formulario.
+=il documento|Ho portato tutti i documenti.|Traje todos los documentos.
+=il codice fiscale|Mi serve il codice fiscale.|Necesito el código fiscal.
+=l'appuntamento|Ho un appuntamento alle dieci.|Tengo una cita a las diez.
+=lo sportello|Lo sportello apre alle otto.|La ventanilla abre a las ocho.
+=mancare|Manca un documento.|Falta un documento.
+=funzionare|La lavatrice non funziona.|La lavadora no funciona.
++frecuente|il proprietario|el propietario|Il proprietario vende la casa.|El propietario vende la casa.
++frecuente|la luce|la luz|La luce non funziona.|La luz no funciona.
++frecuente|il gas|el gas|Il gas è incluso nelle spese.|El gas está incluido en los gastos.
++frecuente|la domanda|la solicitud / la pregunta|Presento la domanda oggi.|Presento la solicitud hoy.
++frecuente|la richiesta|la petición|Ho fatto una richiesta al comune.|Hice una petición a la municipalidad.
++frecuente|la copia|la copia|Mi serve una copia del documento.|Necesito una copia del documento.
++frecuente|la firma|la firma|Manca la firma.|Falta la firma.
++frecuente|il comune|la municipalidad|Il comune è in piazza.|La municipalidad está en la plaza.
++frecuente|la stanza|la habitación / la habitación|Cerco una stanza in affitto.|Busco una habitación en alquiler.
++frecuente|la zona|la zona|La zona è tranquilla.|La zona es tranquila.
++frecuente|la fila|la fila|C'è molta fila allo sportello.|Hay mucha fila en la ventanilla.
++unidad|rinnovare|renovar|Devo rinnovare il contratto.|Tengo que renovar el contrato.
++frecuente|la scala|la escalera|Salgo per la scala.|Subo por la escalera.
++unidad|luminoso|luminoso|L'appartamento è molto luminoso.|El apartamento es muy luminoso.
++unidad|l'inquilino|el inquilino|L'inquilino paga l'affitto il primo del mese.|El inquilino paga el alquiler el primero del mes.
++unidad|la bolletta|la cuenta (luz, gas)|La bolletta della luce è alta.|La cuenta de la luz es alta.
++unidad|il contatore|el medidor|Leggo il contatore del gas.|Leo el medidor del gas.
++unidad|la residenza|la residencia|Chiedo la residenza in città.|Solicito la residencia en la ciudad.
++unidad|la fotocopia|la fotocopia|Faccio una fotocopia del passaporto.|Hago una fotocopia del pasaporte.
++unidad|il certificato|el certificado|Mi serve un certificato.|Necesito un certificado.
++unidad|l'originale|el original|Porto l'originale e la copia.|Llevo el original y la copia.
++unidad|il deposito|el depósito|Il deposito è di mille euro.|El depósito es de mil euros.
++unidad|il trasloco|la mudanza|Il trasloco è sabato.|La mudanza es el sábado.
++unidad|traslocare|mudarse|Traslochiamo a marzo.|Nos mudamos en marzo.
++unidad|il preavviso|el aviso previo|Servono due mesi di preavviso.|Se necesitan dos meses de aviso previo.
++unidad|disdire|cancelar (un contrato)|Voglio disdire il contratto.|Quiero cancelar el contrato.
++unidad|la cantina|la bodega|La cantina è al piano terra.|La bodega está en el primer piso.
++unidad|il garage|el garaje|Il garage è nel palazzo.|El garaje está en el edificio.
++unidad|rumoroso|ruidoso|Il quartiere è rumoroso.|El barrio es ruidoso.
++unidad|il metro quadro|el metro cuadrado|L'appartamento ha sessanta metri quadri.|El apartamento tiene sesenta metros cuadrados.
+## u18
+=pronto|Pronto, chi parla?|Aló, ¿quién habla?
+=il cellulare|Ho il cellulare scarico.|Tengo el celular sin batería.
+=il numero|Qual è il tuo numero?|¿Cuál es tu número?
+=la chiamata|Aspetto una chiamata importante.|Espero una llamada importante.
+=richiamare|La richiamo più tardi.|La llamo más tarde.
+=rispondere|Non risponde al telefono.|No contesta el teléfono.
+=il messaggio|Ti mando un messaggio.|Te mando un mensaje.
+=la linea|La linea è occupata.|La línea está ocupada.
+=un attimo|Un attimo, per favore.|Un momento, por favor.
+=l'email|Ti scrivo un'email.|Te escribo un correo.
+=l'allegato|Trovi l'allegato qui sotto.|Encuentras el adjunto aquí abajo.
+=inviare|Invio il documento oggi.|Envío el documento hoy.
+=allegare|Allego il mio curriculum.|Adjunto mi currículum.
+=la risposta|Aspetto la sua risposta.|Espero su respuesta.
+=gentile|Gentile signora Rossi, la contatto per l'appartamento.|Estimada señora Rossi, la contacto por el apartamento.
+=cordiali saluti|Cordiali saluti, Marco Bianchi.|Atentos saludos, Marco Bianchi.
+=un abbraccio|Un abbraccio, Anna.|Un abrazo, Anna.
+=a presto|Ciao, a presto!|¡Adiós, hasta pronto!
+=a dopo|Ci vediamo, a dopo!|¡Nos vemos, hasta luego!
+=sentire|Ti sento male.|Te escucho mal.
+=tra|Ti chiamo tra cinque minuti.|Te llamo en cinco minutos.
+=l'informazione|Vorrei un'informazione.|Quisiera una información.
++frecuente|il telefono|el teléfono|Il telefono squilla.|El teléfono suena.
++frecuente|internet|internet|Non c'è internet qui.|Aquí no hay internet.
++frecuente|il computer|el computadora|Il computer è nuovo.|El computadora es nuevo.
++frecuente|il sito|el sitio web|Guardo il sito dell'università.|Reviso el sitio de la universidad.
++frecuente|occupato|ocupado|Il numero è occupato.|El número está ocupado.
++frecuente|il segnale|la señal|Qui non c'è segnale.|Aquí no hay señal.
++unidad|scaricare|descargar|Scarico il documento.|Descargo el documento.
++frecuente|il codice|el código|Mi dà il codice, per favore?|¿Me da el código, por favor?
++frecuente|il file|el archivo|Ti mando il file.|Te mando el archivo.
++frecuente|l'oggetto|el asunto / el objeto|L'oggetto dell'email è chiaro.|El asunto del correo es claro.
++frecuente|il profilo|el perfil|Aggiorno il mio profilo.|Actualizo mi perfil.
++frecuente|la rete|la red|La rete non funziona.|La red no funciona.
++unidad|lo schermo|la pantalla|Lo schermo è rotto.|La pantalla está rota.
++unidad|la batteria|la batería|La batteria è scarica.|La batería está descargada.
++unidad|il caricabatterie|el cargador|Ho dimenticato il caricabatterie.|Olvidé el cargador.
++unidad|il wifi|el wifi|Qual è la password del wifi?|¿Cuál es la contraseña del wifi?
++unidad|la password|la contraseña|Ho dimenticato la password.|Olvidé la contraseña.
++unidad|il link|el enlace|Ti mando il link.|Te mando el enlace.
++unidad|la segreteria|el buzón de voz|Lascio un messaggio in segreteria.|Dejo un mensaje en el buzón de voz.
++unidad|squillare|sonar (el teléfono)|Il telefono squilla ma nessuno risponde.|El teléfono suena pero nadie contesta.
++unidad|la ricarica|la recarga|Faccio la ricarica del telefono.|Recargo el teléfono.
++unidad|il mittente|el remitente|Il mittente è Marco.|El remitente es Marco.
++unidad|in copia|con copia|Metto Anna in copia.|Pongo a Anna con copia.
++unidad|in allegato|adjunto|In allegato trova il modulo.|Adjunto encontrará el formulario.
++unidad|distinti saluti|atentos saludos|Distinti saluti, Luca Verdi.|Atentos saludos, Luca Verdi.
++unidad|le scrivo per|le escribo para|Le scrivo per chiedere un'informazione.|Le escribo para pedir una información.
++unidad|la prego di|le ruego que|La prego di rispondere presto.|Le ruego que responda pronto.
++unidad|restare in linea|mantenerse en la línea|Resti in linea, per favore.|Permanezca en la línea, por favor.
++unidad|non c'è campo|no hay señal|Qui non c'è campo.|Aquí no hay señal.
++unidad|la videochiamata|la videollamada|Facciamo una videochiamata?|¿Hacemos una videollamada?
+## u19
+=la parola|Non conosco questa parola.|No conozco esta palabra.
+=la frase|Ripeta la frase, per favore.|Repita la frase, por favor.
+=il tempo|Non ho tempo oggi.|Hoy no tengo tiempo.
+=da quanto tempo?|Da quanto tempo studi italiano?|¿Hace cuánto tiempo estudias italiano?
+=da|Abito qui da due anni.|Vivo aquí hace dos años.
+=fa|Sono arrivato tre giorni fa.|Llegué hace tres días.
+=da poco|Studio italiano da poco.|Estudio italiano hace poco.
+=da molto|Lavoro qui da molto.|Trabajo aquí hace mucho.
+=appena|Sono appena arrivato.|Acabo de llegar.
+=ormai|Ormai parlo abbastanza bene.|Ya hablo bastante bien.
+=stare per|Sto per uscire.|Estoy por salir.
+=entrare|Si prega di entrare uno alla volta.|Se ruega entrar de a uno.
+=vietato|È vietato fumare.|Está prohibido fumar.
+=permesso?|Permesso? Posso entrare?|¿Con permiso? ¿Puedo entrar?
+=l'ingresso|L'ingresso è gratuito.|La entrada es gratuita.
+=l'orario|L'orario del museo è dalle nove alle cinque.|El horario del museo es de nueve a cinco.
+=la regola|Rispetto le regole.|Respeto las reglas.
+=di solito|Di solito si cena alle otto.|Normalmente se cena a las ocho.
+=una volta|Una volta al mese vado al cinema.|Una vez al mes voy al cine.
+=davvero|Davvero? Non lo sapevo!|¿De verdad? ¡No lo sabía!
++frecuente|si può|se puede|Si può fotografare?|¿Se puede fotografiar?
++frecuente|non si può|no se puede|Non si può parcheggiare qui.|No se puede estacionar aquí.
++frecuente|si deve|se debe|Si deve prenotare prima.|Se debe reservar antes.
++frecuente|è meglio|es mejor|È meglio arrivare presto.|Es mejor llegar temprano.
++frecuente|è necessario|es necesario|È necessario avere il biglietto.|Es necesario tener el boleto.
++frecuente|da quando|desde cuando|Da quando abiti qui?|¿Desde cuándo vives aquí?
++frecuente|da sempre|desde siempre|Mi piace l'Italia da sempre.|Me gusta Italia desde siempre.
++frecuente|ci vuole|se necesita (singular)|Ci vuole un'ora per arrivare.|Se necesita una hora para llegar.
++frecuente|ci vogliono|se necesitan (plural)|Ci vogliono due ore.|Se necesitan dos horas.
++frecuente|il pericolo|el peligro|C'è un pericolo?|¿Hay peligro?
++frecuente|pericoloso|peligroso|È pericoloso attraversare qui.|Es peligroso cruzar aquí.
++frecuente|la sicurezza|la seguridad|La sicurezza è importante.|La seguridad es importante.
++frecuente|il rumore|el ruido|C'è molto rumore.|Hay mucho ruido.
++frecuente|il silenzio|el silencio|In biblioteca si fa silenzio.|En la biblioteca se guarda silencio.
++frecuente|fumare|fumar|Non fumo da due anni.|No fumo hace dos años.
++unidad|si dice|se dice|Come si dice «gracias» in italiano?|¿Cómo se dice «gracias» en italiano?
++unidad|è proibito|está prohibido|È proibito entrare con il cane.|Está prohibido entrar con perro.
++unidad|è permesso|está permitido|È permesso scattare foto.|Está permitido sacar fotos.
++unidad|è obbligatorio|es obligatorio|È obbligatorio il biglietto.|El boleto es obligatorio.
++unidad|la multa|la multa|Ho preso una multa.|Me pusieron una multa.
++unidad|l'avviso|el aviso|Leggo l'avviso sulla porta.|Leo el aviso en la puerta.
++unidad|il divieto|la prohibición|Il divieto di sosta è chiaro.|La prohibición de estacionar es clara.
++unidad|da tanto tempo|hace mucho tiempo|Ti aspetto da tanto tempo.|Te espero hace mucho tiempo.
++unidad|essere in grado di|ser capaz de|Sono in grado di parlare italiano.|Soy capaz de hablar italiano.
++unidad|l'uscita di emergenza|la salida de emergencia|L'uscita di emergenza è a destra.|La salida de emergencia está a la derecha.
+## u20
+=perché|Perché non vieni?|¿Por qué no vienes?
+=quindi|Sono stanco, quindi vado a letto.|Estoy cansado, así que me acuesto.
+=però|È bello, però costa troppo.|Es bonito, pero cuesta demasiado.
+=invece|Io invece preferisco il tè.|Yo, en cambio, prefiero el té.
+=allora|Allora, che cosa facciamo?|Entonces, ¿qué hacemos?
+=comunque|Comunque, grazie lo stesso.|De todos modos, gracias igual.
+=insomma|Insomma, è andata bene.|En fin, salió bien.
+=magari|Magari ci vediamo domani.|Ojalá nos veamos mañana.
+=raccontare|Mi racconta la sua giornata.|Me cuenta su día.
+=chiedere|Mi ha chiesto dove abito.|Me preguntó dónde vivo.
+=domandare|Gli ho domandato l'ora.|Le pregunté la hora.
+=rispondere|Mi ha risposto subito.|Me respondió de inmediato.
+=dire|Mi ha detto la verità.|Me dijo la verdad.
+=spiegare|Il professore spiega la regola.|El profesor explica la regla.
+=promettere|Mi ha promesso di venire.|Me prometió venir.
+=aggiungere|Ha aggiunto che era stanca.|Agregó que estaba cansada.
+=ripetere|Ha ripetuto la domanda.|Repitió la pregunta.
+=la notizia|Ho una bella notizia.|Tengo una buena noticia.
+=la domanda|Ho una domanda.|Tengo una pregunta.
+=secondo|Secondo me, hai ragione.|Según yo, tienes razón.
++frecuente|che|que|Dice che è stanco.|Dice que está cansado.
++frecuente|se|si|Mi ha chiesto se vengo.|Me preguntó si voy.
++frecuente|perciò|por eso|Ho fame, perciò mangio.|Tengo hambre, por eso como.
++frecuente|dunque|entonces / por lo tanto|Penso, dunque sono.|Pienso, luego existo.
++frecuente|tuttavia|sin embargo|È caro, tuttavia lo compro.|Es caro, sin embargo lo compro.
++frecuente|anzi|más bien / al contrario|Non è difficile, anzi è facile.|No es difícil, al contrario, es fácil.
++frecuente|eppure|y sin embargo|Studia molto, eppure sbaglia.|Estudia mucho y sin embargo se equivoca.
++frecuente|poiché|puesto que|Poiché piove, restiamo a casa.|Puesto que llueve, nos quedamos en casa.
++frecuente|anche se|aunque|Esco anche se piove.|Salgo aunque llueva.
++frecuente|nonostante|a pesar de|Nonostante la pioggia, usciamo.|A pesar de la lluvia, salimos.
++frecuente|cioè|es decir|Domani, cioè lunedì.|Mañana, es decir, el lunes.
++frecuente|inoltre|además|Inoltre, ho poco tempo.|Además, tengo poco tiempo.
++frecuente|infine|finalmente|Infine, sono arrivato.|Finalmente, llegué.
++frecuente|per questo|por eso|Per questo non sono venuto.|Por eso no vine.
++frecuente|oltre a|además de|Oltre a italiano, studio francese.|Además de italiano, estudio francés.
++unidad|siccome|como (causal)|Siccome ero stanco, sono rimasto a casa.|Como estaba cansado, me quedé en casa.
++unidad|visto che|ya que|Visto che sei qui, ti aiuto.|Ya que estás aquí, te ayudo.
++unidad|dato che|dado que|Dato che è tardi, andiamo.|Dado que es tarde, nos vamos.
++unidad|ossia|o sea|Domani, ossia sabato.|Mañana, o sea, el sábado.
++unidad|del resto|por lo demás|Del resto, non ho nulla da dire.|Por lo demás, no tengo nada que decir.
++unidad|in fondo|en el fondo|In fondo, hai ragione.|En el fondo, tienes razón.
++unidad|innanzitutto|ante todo|Innanzitutto, grazie per l'invito.|Ante todo, gracias por la invitación.
++unidad|in conclusione|en conclusión|In conclusione, è stata una bella serata.|En conclusión, fue una bonita velada.
++unidad|ha detto che|dijo que|Ha detto che arriva alle otto.|Dijo que llega a las ocho.
++unidad|ha chiesto se|preguntó si|Ha chiesto se c'è posto.|Preguntó si hay lugar.
++unidad|ha risposto che|respondió que|Ha risposto che non può.|Respondió que no puede.
++unidad|ha spiegato che|explicó que|Ha spiegato che il treno è in ritardo.|Explicó que el tren está atrasado.
++unidad|mi ha detto di|me dijo que (orden)|Mi ha detto di aspettare.|Me dijo que esperara.
++unidad|ha aggiunto che|agregó que|Ha aggiunto che è stanco.|Agregó que está cansado.
++unidad|riferire|informar / transmitir|Devo riferire un messaggio.|Tengo que transmitir un mensaje.

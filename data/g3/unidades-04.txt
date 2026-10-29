@@ -1,0 +1,204 @@
+## u09
+=mangiare|Ieri ho mangiato una pizza.|Ayer comí una pizza.
+=bere|Ho bevuto un caffè.|Tomé un café.
+=comprare|Ho comprato un libro.|Compré un libro.
+=vedere|Ho visto un bel film.|Vi una buena película.
+=fare|Ho fatto una passeggiata.|Di un paseo.
+=prendere|Ho preso il treno delle otto.|Tomé el tren de las ocho.
+=scrivere|Ho scritto una email.|Escribí un correo.
+=leggere|Ho letto un libro in italiano.|Leí un libro en italiano.
+=dire|Che cosa hai detto?|¿Qué dijiste?
+=aprire|Ho aperto la finestra.|Abrí la ventana.
+=chiudere|Ho chiuso la porta a chiave.|Cerré la puerta con llave.
+=perdere|Ho perso il telefono.|Perdí el teléfono.
+=visitare|Abbiamo visitato Firenze.|Visitamos Florencia.
+=già|Ho già mangiato.|Ya comí.
+=ancora|Non ho ancora finito.|Todavía no he terminado.
+=scorso|Il mese scorso sono stato a Roma.|El mes pasado estuve en Roma.
+=fa|Ho comprato la casa due anni fa.|Compré la casa hace dos años.
+=provare|Ho provato il tiramisù.|Probé el tiramisú.
+=ricevere|Ho ricevuto un messaggio.|Recibí un mensaje.
+=spendere|Ho speso troppo.|Gasté demasiado.
++frecuente|dimenticare|olvidar|Ho dimenticato le chiavi.|Olvidé las llaves.
++frecuente|mettere|poner|Ho messo il latte nel frigorifero.|Puse la leche en el refrigerador.
++frecuente|lasciare|dejar|Ho lasciato la borsa a casa.|Dejé el bolso en casa.
++frecuente|vendere|vender|Hanno venduto la macchina.|Vendieron el auto.
++frecuente|rompere|romper|Ho rotto un bicchiere.|Rompí un vaso.
++frecuente|usare|usar|Ho usato la carta di credito.|Usé la tarjeta de crédito.
++frecuente|iniziare|comenzar|Il corso è iniziato ieri.|El curso comenzó ayer.
++frecuente|fatto|hecho (de fare)|Che cosa hai fatto ieri?|¿Qué hiciste ayer?
++frecuente|detto|dicho (de dire)|Mi ha detto la verità.|Me dijo la verdad.
++frecuente|visto|visto (de vedere)|Hai visto Marco?|¿Viste a Marco?
++frecuente|preso|tomado (de prendere)|Ho preso un taxi.|Tomé un taxi.
++frecuente|scritto|escrito (de scrivere)|Ho scritto a mia madre.|Le escribí a mi madre.
++frecuente|letto|leído (de leggere)|Hai letto questo libro?|¿Leíste este libro?
++frecuente|messo|puesto (de mettere)|Dove hai messo le chiavi?|¿Dónde pusiste las llaves?
++frecuente|perso|perdido (de perdere)|Ho perso l'autobus.|Perdí el bus.
++unidad|speso|gastado (de spendere)|Quanto hai speso?|¿Cuánto gastaste?
++frecuente|avuto|tenido (de avere)|Ho avuto una bella idea.|Tuve una buena idea.
++frecuente|ultimo|último|È l'ultimo treno.|Es el último tren.
++frecuente|la prima volta|la primera vez|È la prima volta che vengo qui.|Es la primera vez que vengo aquí.
++frecuente|il passato|el pasado|Non parlo del passato.|No hablo del pasado.
++unidad|rotto|roto (de rompere)|Il telefono è rotto.|El teléfono está roto.
++unidad|bevuto|bebido (de bere)|Ho bevuto troppo caffè.|Tomé demasiado café.
++unidad|ieri sera|anoche|Ieri sera ho cenato fuori.|Anoche cené afuera.
++unidad|stamattina|esta mañana|Stamattina ho studiato un'ora.|Esta mañana estudié una hora.
++unidad|stasera|esta noche|Stasera esco con gli amici.|Esta noche salgo con los amigos.
++unidad|l'anno scorso|el año pasado|L'anno scorso ho visitato Napoli.|El año pasado visité Nápoles.
++unidad|una settimana fa|hace una semana|Sono arrivato una settimana fa.|Llegué hace una semana.
++unidad|l'altro ieri|anteayer|L'altro ieri ho incontrato Paolo.|Anteayer me encontré con Paolo.
++unidad|finora|hasta ahora|Finora ho studiato molto.|Hasta ahora he estudiado mucho.
++unidad|stato|estado / sido (de essere)|Sono stato a Milano.|Estuve en Milán.
+## u10
+=andare|Domani vado al mare.|Mañana voy a la playa.
+=venire|Vieni con noi?|¿Vienes con nosotros?
+=uscire|Sono uscito alle otto.|Salí a las ocho.
+=entrare|Sono entrato nel museo.|Entré al museo.
+=restare|Sono restato a casa.|Me quedé en casa.
+=nascere|Sono nato a Santiago.|Nací en Santiago.
+=diventare|È diventato medico.|Se hizo médico.
+=il viaggio|Il viaggio è stato bellissimo.|El viaje fue hermosísimo.
+=le vacanze|Le vacanze sono finite.|Las vacaciones terminaron.
+=la valigia|Ho fatto la valigia ieri.|Hice la maleta ayer.
+=il mare|Il mare è calmo.|El mar está calmo.
+=la montagna|In estate andiamo in montagna.|En verano vamos a la montaña.
+=l'albergo|L'albergo è vicino alla stazione.|El hotel está cerca de la estación.
+=l'aereo|L'aereo è partito in ritardo.|El avión salió atrasado.
+=la città|Roma è una città bellissima.|Roma es una ciudad hermosísima.
+=il paese|Il mio paese è lungo e stretto.|Mi país es largo y angosto.
+=domenica|Domenica siamo andati al lago.|El domingo fuimos al lago.
+=lunedì|Lunedì sono tornato al lavoro.|El lunes volví al trabajo.
+=la spiaggia|La spiaggia è molto grande.|La playa es muy grande.
+=la partenza|La partenza è alle sei.|La salida es a las seis.
++frecuente|andato|ido (de andare)|Sono andato al mercato.|Fui al mercado.
++frecuente|venuto|venido (de venire)|Sei venuto da solo?|¿Viniste solo?
++frecuente|uscito|salido (de uscire)|Maria è uscita presto.|Maria salió temprano.
++frecuente|rimasto|quedado (de rimanere)|Sono rimasto a casa tutto il giorno.|Me quedé en casa todo el día.
++frecuente|nato|nacido (de nascere)|Mia sorella è nata a marzo.|Mi hermana nació en marzo.
++frecuente|morto|muerto|Il suo cane è morto.|Su perro murió.
++frecuente|partito|salido (de partire)|Il treno è già partito.|El tren ya salió.
++frecuente|arrivato|llegado (de arrivare)|Sono arrivato ieri.|Llegué ayer.
++frecuente|rimanere|quedarse|Voglio rimanere qui.|Quiero quedarme aquí.
++frecuente|morire|morir|Tutti dobbiamo morire un giorno.|Todos tenemos que morir algún día.
++frecuente|il museo|el museo|Il museo è chiuso il lunedì.|El museo cierra los lunes.
++frecuente|la chiesa|la iglesia|La chiesa è in piazza.|La iglesia está en la plaza.
++frecuente|il lago|el lago|Il lago è molto bello.|El lago es muy bonito.
++frecuente|l'isola|la isla|Siamo andati su un'isola.|Fuimos a una isla.
++frecuente|la campagna|el campo|Vivo in campagna.|Vivo en el campo.
++frecuente|la foto|la foto|Faccio una foto al castello.|Le tomo una foto al castillo.
++unidad|la prenotazione|la reserva|Ho fatto la prenotazione online.|Hice la reserva por internet.
++unidad|il castello|el castillo|Il castello è molto antico.|El castillo es muy antiguo.
++unidad|la gita|la excursión|Domenica facciamo una gita.|El domingo hacemos una excursión.
++unidad|il bagaglio|el equipaje|Il bagaglio è pesante.|El equipaje es pesado.
++unidad|il fiume|el río|Il fiume attraversa la città.|El río atraviesa la ciudad.
++unidad|il panorama|el paisaje|Dal balcone c'è un bel panorama.|Desde el balcón hay una bonita vista.
++unidad|fare le valigie|hacer las maletas|Domani devo fare le valigie.|Mañana tengo que hacer las maletas.
++unidad|il weekend|el fin de semana|Questo weekend vado al mare.|Este fin de semana voy a la playa.
++unidad|la crociera|el crucero|Mia zia ha fatto una crociera.|Mi tía hizo un crucero.
++unidad|il campeggio|el camping|In estate andiamo in campeggio.|En verano vamos al camping.
++unidad|l'ostello|el hostal|Dormo in un ostello economico.|Duermo en un hostal económico.
++unidad|il villaggio|el pueblo / la aldea|Il villaggio è sulla montagna.|El pueblo está en la montaña.
++unidad|la capitale|la capital|Roma è la capitale d'Italia.|Roma es la capital de Italia.
++unidad|il confine|la frontera|Il confine è vicino.|La frontera está cerca.
+## u11
+=da piccolo|Da piccolo giocavo nel cortile.|De niño jugaba en el patio.
+=una volta|Una volta abitavo in campagna.|Antes vivía en el campo.
+=allora|Allora non c'erano i telefonini.|En esa época no había celulares.
+=mentre|Mentre mangiavo, è arrivato Marco.|Mientras comía, llegó Marco.
+=l'infanzia|L'infanzia è un bel ricordo.|La infancia es un bonito recuerdo.
+=la scuola|A scuola avevo molti amici.|En el escuela tenía muchos amigos.
+=giocare|Giocavo a calcio ogni giorno.|Jugaba a la pelota todos los días.
+=ricordare|Ricordo la casa dei miei nonni.|Recuerdo la casa de mis abuelos.
+=il nonno|Il nonno raccontava belle storie.|El abuelo contaba bonitas historias.
+=la nonna|La nonna cucinava benissimo.|La abuela cocinaba muy bien.
+=vecchio|La casa era molto vecchia.|La casa era muy vieja.
+=giovane|Mio padre era giovane allora.|Mi padre era joven entonces.
+=abitare|Abitavamo in una casa piccola.|Vivíamos en una casa pequeña.
+=il giardino|Nel giardino c'era un albero.|En el jardín había un árbol.
+=la famiglia|La mia famiglia era numerosa.|Mi familia era numerosa.
+=piovere|D'inverno pioveva sempre.|En invierno llovía siempre.
+=il freddo|Faceva molto freddo.|Hacía mucho frío.
+=il caldo|D'estate faceva caldo.|En verano hacía calor.
+=l'estate|L'estate andavamo al mare.|En verano íbamos a la playa.
+=l'inverno|L'inverno era lungo.|El invierno era largo.
++frecuente|ero|yo era / estaba|Ero un bambino felice.|Era un niño feliz.
++frecuente|avevo|yo tenía|Avevo un cane che si chiamava Bobi.|Tenía un perro que se llamaba Bobi.
++frecuente|facevo|yo hacía|Facevo i compiti dopo scuola.|Hacía las tareas después del escuela.
++frecuente|dicevo|yo decía|Dicevo sempre la verità.|Siempre decía la verdad.
++unidad|c'era|había (pasado)|C'era una volta un re.|Había una vez un rey.
++frecuente|il gioco|el juego|Il mio gioco preferito era il calcio.|Mi juego preferido era el fútbol.
++frecuente|il compagno|el compañero|Il mio compagno di classe si chiamava Luca.|Mi compañero de curso se llamaba Luca.
++frecuente|la storia|la historia|Mi raccontava una storia ogni sera.|Me contaba una historia cada noche.
++frecuente|la memoria|la memoria|Ho una buona memoria.|Tengo buena memoria.
++frecuente|il periodo|el período|Era un periodo difficile.|Era un período difícil.
++frecuente|crescere|crecer|Sono cresciuto in campagna.|Crecí en el campo.
++frecuente|felice|feliz|Ero molto felice.|Era muy feliz.
++frecuente|triste|triste|Quel giorno ero triste.|Ese día estaba triste.
++frecuente|il carattere|el carácter|Aveva un carattere forte.|Tenía un carácter fuerte.
++frecuente|il compito|la tarea|Il compito era facile.|La tarea era fácil.
++unidad|bevevo|yo bebía|Da piccolo bevevo molto latte.|De niño tomaba mucha leche.
++unidad|la maestra|la profesora (de primaria)|La maestra era molto gentile.|La profesora era muy amable.
++unidad|il cortile|el patio|Giocavamo nel cortile.|Jugábamos en el patio.
++unidad|il quaderno|el cuaderno|Scrivevo nel quaderno.|Escribía en el cuaderno.
++unidad|il cartone animato|los dibujos animados|Guardavo i cartoni animati.|Veía dibujos animados.
++unidad|all'improvviso|de repente|All'improvviso ha cominciato a piovere.|De repente empezó a llover.
++unidad|a quel tempo|en aquel tiempo|A quel tempo abitavo a Roma.|En aquel tiempo vivía en Roma.
++unidad|in quel periodo|en ese período|In quel periodo lavoravo molto.|En ese período trabajaba mucho.
++unidad|quando ero piccolo|cuando era pequeño|Quando ero piccolo, giocavo sempre.|Cuando era pequeño, jugaba siempre.
++unidad|ogni estate|cada verano|Ogni estate andavamo in montagna.|Cada verano íbamos a la montaña.
++unidad|assomigliare|parecerse|Assomiglio a mio padre.|Me parezco a mi padre.
++unidad|tranquillo|tranquilo|Il paese era tranquillo.|El pueblo era tranquilo.
++unidad|povero|pobre|Una volta eravamo poveri.|Antes éramos pobres.
++unidad|divertente|entretenido|Era un gioco divertente.|Era un juego entretenido.
++unidad|noioso|aburrido|Il film era noioso.|La película era aburrida.
+## u12
+=il mercato|Il mercato è aperto il sabato.|El mercado está abierto los sábados.
+=la frutta|Mangio molta frutta.|Como mucha fruta.
+=la verdura|La verdura è fresca.|La verdura está fresca.
+=il pomodoro|Compro un chilo di pomodori.|Compro un kilo de tomates.
+=la mela|La mela è matura.|La manzana está madura.
+=il formaggio|Il formaggio italiano è buonissimo.|El queso italiano es riquísimo.
+=il pane|Il pane è caldo.|El pan está caliente.
+=il latte|Bevo il latte a colazione.|Tomo leche en el desayuno.
+=l'uovo (pl. le uova)|Per la torta servono due uova.|Para la torta se necesitan dos huevos.
+=la carne|Non mangio molta carne.|No como mucha carne.
+=il pesce|Il pesce è più caro della carne.|El pescado es más caro que la carne.
+=le patate|Vorrei un chilo di patate.|Quisiera un kilo de papas.
+=la cipolla|Tagliamo la cipolla.|Cortamos la cebolla.
+=l'olio|L'olio d'oliva è buono.|El aceite de oliva es bueno.
+=il sale|Manca il sale.|Falta sal.
+=lo zucchero|Metto poco zucchero nel caffè.|Pongo poca azúcar en el café.
+=il chilo|Un chilo di mele, per favore.|Un kilo de manzanas, por favor.
+=l'etto|Due etti di prosciutto, per favore.|Doscientos gramos de jamón, por favor.
+=economico|Questo mercato è più economico.|Este mercado es más barato.
+=caro|Il pesce è troppo caro.|El pescado es demasiado caro.
++frecuente|migliore|mejor|È la migliore pizza della città.|Es la mejor pizza de la ciudad.
++frecuente|peggiore|peor|È il peggiore giorno della settimana.|Es el peor día de la semana.
++frecuente|meglio|mejor (adv.)|Oggi sto meglio.|Hoy estoy mejor.
++frecuente|peggio|peor (adv.)|Ieri stavo peggio.|Ayer estaba peor.
++frecuente|maggiore|mayor|Mio fratello maggiore ha trent'anni.|Mi hermano mayor tiene treinta años.
++frecuente|minore|menor|La mia sorella minore studia.|Mi hermana menor estudia.
++frecuente|ottimo|óptimo / excelente|Il vino è ottimo.|El vino es excelente.
++frecuente|fresco|fresco|Il pesce è fresco oggi.|El pescado está fresco hoy.
++unidad|maturo|maduro|Le pesche sono mature.|Los duraznos están maduros.
++unidad|salato|salado|La zuppa è troppo salata.|La sopa está demasiado salada.
++frecuente|un po' di|un poco de|Vorrei un po' di formaggio.|Quisiera un poco de queso.
++unidad|la banana|el plátano|Una banana al giorno.|Un plátano al día.
++unidad|il limone|el limón|Metto un po' di limone sul pesce.|Pongo un poco de limón en el pescado.
++frecuente|basso|bajo|Qui i prezzi sono bassi.|Aquí los precios son bajos.
++unidad|il venditore|el vendedor|Il venditore del mercato è simpatico.|El vendedor del mercado es simpático.
++unidad|l'arancia|la naranja|Compro un chilo di arance.|Compro un kilo de naranjas.
++unidad|la fragola|la fresa|Le fragole sono dolci.|Las fresas son dulces.
++unidad|l'uva|la uva|L'uva è molto dolce.|La uva es muy dulce.
++unidad|la carota|la zanahoria|Metto una carota nella zuppa.|Pongo una zanahoria en la sopa.
++unidad|la farina|la harina|Per il pane serve la farina.|Para el pan se necesita harina.
++unidad|il pepe|la pimienta|Aggiungo sale e pepe.|Agrego sal y pimienta.
++unidad|il prosciutto|el jamón|Un panino con prosciutto e formaggio.|Un sándwich con jamón y queso.
++unidad|la bistecca|el bistec|Mangio una bistecca con patate.|Como un bistec con papas.
++unidad|il maiale|el cerdo|Non mangio carne di maiale.|No como carne de cerdo.
++unidad|la bilancia|la balanza|Il venditore usa la bilancia.|El vendedor usa la balanza.
++unidad|il sacchetto|la bolsa|Vuole un sacchetto?|¿Quiere una bolsa?
++unidad|mezzo chilo|medio kilo|Mezzo chilo di pasta, grazie.|Medio kilo de pasta, gracias.
++unidad|la bancarella|el puesto (de mercado)|Compro la frutta alla bancarella.|Compro la fruta en el puesto.
++unidad|biologico|orgánico|Preferisco la verdura biologica.|Prefiero la verdura orgánica.
++unidad|la scadenza|la fecha de vencimiento|Controllo la scadenza del latte.|Reviso la fecha de vencimiento de la leche.
