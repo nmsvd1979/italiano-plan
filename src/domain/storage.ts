@@ -55,6 +55,8 @@ export const KEYS_V2 = {
   timing: "italianPlan.v2.timing",
   /** Rotación de la práctica sin pista (domain/sinpistaState.ts): qué ejercicios ya salieron y cuáles fallaste. */
   sinpista: "italianPlan.v2.sinpista",
+  /** Versiones corregidas con Claude y su reescritura a los 3 días (domain/writingFix.ts). */
+  writingFix: "italianPlan.v2.writingFix",
 } as const;
 
 /** Repaso espaciado propio (docs/v2/02 B2): tarjetas, historial y opciones, en un solo valor JSON. */
@@ -233,6 +235,7 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS_V2.progress);
   store.removeItem(KEYS_V2.timing);
   store.removeItem(KEYS_V2.sinpista);
+  store.removeItem(KEYS_V2.writingFix);
   store.removeItem(SRS_KEY);
 }
 
