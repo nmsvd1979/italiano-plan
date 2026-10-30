@@ -14,6 +14,7 @@ import { UnitScreen } from "./features/plan/UnitScreen";
 import { RolePlayScreen } from "./features/dialogue/RolePlayScreen";
 import { PronCompareScreen } from "./features/pronunciation/PronCompareScreen";
 import { PronunciationScreen } from "./features/pronunciation/PronunciationScreen";
+import { OwnShadowingScreen } from "./features/shadowing/OwnShadowingScreen";
 import { ShadowingScreen } from "./features/shadowing/ShadowingScreen";
 import { PhaseTestScreen } from "./features/checkpoint/PhaseTestScreen";
 import { DiagnosticScreen } from "./features/partida/DiagnosticScreen";
@@ -65,6 +66,8 @@ function Screens() {
       ? <PronCompareScreen key={`pron-cmp-${pron[1]}`} unit={pron[1]} />
       : <PronunciationScreen key={`pron-${pron[1]}`} unit={pron[1]} />;
   }
+  const own = route.match(new RegExp(`^/shadowing-propio/${UNIT}$`));
+  if (own) return <OwnShadowingScreen key={`shadow-own-${own[1]}${partKey}`} unit={own[1]} part={part} />;
   const shadow = route.match(new RegExp(`^/shadowing/${UNIT}$`));
   if (shadow) return <ShadowingScreen key={`shadow-${shadow[1]}`} unit={shadow[1]} />;
   const vocab = route.match(new RegExp(`^/vocabulario/${UNIT}$`));

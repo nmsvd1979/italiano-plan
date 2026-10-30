@@ -99,7 +99,7 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
       { id: "text", kind: "reading", name: "Texto graduado", minutes: 9, core: true, icon: "book" },
       { id: "questions", kind: "readq", name: "Preguntas del texto", minutes: 4, core: false, icon: "target" },
       words("words5"),
-      { id: "shadowing", kind: "shadowing", name: "Shadowing", minutes: 6, core: false, icon: "mic", needsInternet: true, legacy: ["shadow"] },
+      { id: "shadowing", kind: "shadowing", name: "Shadowing", minutes: 6, core: false, icon: "mic", legacy: ["shadow"] },
     ],
   },
   {

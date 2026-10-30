@@ -50,9 +50,9 @@ describe("daysOf: la estructura de 04 §D1", () => {
     expect(daysOf(step("u04")).map((d) => d.name)).toEqual(["Entrar", "Regla", "Practicar", "Hablar", "Leer y escuchar", "Producir", "Consolidar"]);
   });
 
-  it("solo el shadowing y el input libre necesitan internet; el resto funciona sin conexión", () => {
+  it("solo el input libre (con el shadowing de YouTube como extra) necesita internet; el resto, incluido el shadowing propio, funciona sin conexión", () => {
     const net = daysOf(step("u04")).flatMap((d) => d.blocks).filter((b) => b.needsInternet).map((b) => b.kind);
-    expect([...new Set(net)].sort()).toEqual(["input", "shadowing"]);
+    expect([...new Set(net)].sort()).toEqual(["input"]);
     const s = step("u04");
     for (const d of daysOf(s)) {
       for (const b of d.blocks) {

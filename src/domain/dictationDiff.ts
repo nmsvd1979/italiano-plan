@@ -21,9 +21,7 @@ export const LEVEL_HELP: Record<DictationLevel, string> = {
   completo: "Escucha y escribe la frase completa.",
 };
 
-/** Velocidad de la voz: normal y lenta (el 75 % de la normal). */
-export const NORMAL_RATE = 0.9;
-export const SLOW_RATE = NORMAL_RATE * 0.75;
+export { NORMAL_RATE, SLOW_RATE } from "./speechRate";
 
 export interface Token {
   /** Tal como se escribió, con su puntuación pegada (para mostrarla). */
