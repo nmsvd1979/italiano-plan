@@ -5,7 +5,14 @@ export interface DictationItem {
   es: string;
 }
 
-/** Frases cortas (A1-A2) con el vocabulario y la gramática de cada unidad. */
+/**
+ * Frases cortas (A1-A2) con el vocabulario y la gramática de cada unidad.
+ *
+ * Límites de contenido (docs/v2/05 E3), pendientes de escribir; el código ya funciona con lo que hay:
+ * - E3 pide 10 frases por unidad; hoy hay 6 (más en las unidades nuevas). Con menos frases el dictado simplemente es más corto.
+ * - E3 pide, en u01–u03, un dictado de números a velocidad («Números y frases a velocidad», día 4, hoy «en preparación»):
+ *   faltan los ítems (cifras y precios para escribir). Cuando existan, ese bloque deja de ser `soon`.
+ */
 const DICTATION: Record<string, DictationItem[]> = {
   u01: [
     { it: "Buongiorno, sono Laura.", es: "Buenos días, soy Laura." },
