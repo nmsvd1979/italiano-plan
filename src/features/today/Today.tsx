@@ -13,6 +13,8 @@ import { dayMinutes, endedShort, estimatedMinutes, type DayBlock } from "../../d
 import { loadTimings } from "../../domain/timing";
 import { backupAdvice } from "../../domain/backup";
 import { canOfferSeed } from "../../domain/seed";
+import { AREA_NAME, type Area } from "../../domain/evaluation";
+import { reinforcementAreas } from "../../domain/panel";
 import { loadFixes, rewritesDue } from "../../domain/writingFix";
 import { nextCatchup, startingPoint } from "../../domain/continuity";
 import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
@@ -73,6 +75,7 @@ export function Today() {
       <SeedOffer />
       <ContinuityNotices />
       <RewriteDue />
+      <Reinforcement />
 
       {unit && first && !finished && (
         <a href={href(`/unidad/${unit.id}`)} className="unit-head">
@@ -133,6 +136,40 @@ export function Today() {
         </>
       )}
     </>
+  );
+}
+
+/** Refuerzo de la fase: las áreas por debajo de 70 % en la prueba de la fase anterior ofrecen práctica extra de esa área. */
+function Reinforcement() {
+  const { current } = useApp();
+  if (!current) return null;
+  if (current.id === "u24") {
+    return (
+      <section className="card stack">
+        <div className="eyebrow">Fin del núcleo</div>
+        <p className="sub">Estás en la última unidad. Cuando termines, la prueba de nivel A2 (25–30 min) mide dónde quedaste.</p>
+        <a className="btn" href={href("/prueba-nivel")} style={{ textAlign: "center", textDecoration: "none" }}>Prueba de nivel A2</a>
+      </section>
+    );
+  }
+  const areas = reinforcementAreas(getPhaseTests(), current.phase);
+  if (areas.length === 0) return null;
+  const u = current.id;
+  const to: Record<Area, [string, string]> = {
+    lectura: [`/lectura/${u}`, "Leer un texto"],
+    escucha: [`/dictado/${u}`, "Hacer un dictado"],
+    gramatica: ["/repaso", "Repaso mixto"],
+    vocabulario: ["/tarjetas", "Repaso espaciado"],
+    produccion: [`/escritura/${u}`, "Escribir"],
+  };
+  return (
+    <section className="card stack">
+      <div className="eyebrow">Refuerzo de esta fase</div>
+      <p className="sub">En la prueba de la fase anterior te costaron: {areas.map((a) => AREA_NAME[a].toLowerCase()).join(", ")}. Suma un poco de práctica extra cuando tengas tiempo.</p>
+      <div className="row" style={{ flexWrap: "wrap" }}>
+        {areas.map((a) => <a key={a} className="chip primary" href={href(to[a][0])}>{AREA_NAME[a]}: {to[a][1]}</a>)}
+      </div>
+    </section>
   );
 }
 
