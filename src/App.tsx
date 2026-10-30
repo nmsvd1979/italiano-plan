@@ -16,6 +16,7 @@ import { PronCompareScreen } from "./features/pronunciation/PronCompareScreen";
 import { PronunciationScreen } from "./features/pronunciation/PronunciationScreen";
 import { OwnShadowingScreen } from "./features/shadowing/OwnShadowingScreen";
 import { ShadowingScreen } from "./features/shadowing/ShadowingScreen";
+import { LevelTestScreen } from "./features/checkpoint/LevelTestScreen";
 import { PhaseTestScreen } from "./features/checkpoint/PhaseTestScreen";
 import { DiagnosticScreen } from "./features/partida/DiagnosticScreen";
 import { DirectedReview } from "./features/partida/DirectedReview";
@@ -86,6 +87,7 @@ function Screens() {
   if (mini) return <MiniTestScreen key={`mini-${mini[1]}${q.get("step")}${q.get("a")}`} unit={mini[1]} />;
   const test = route.match(/^\/test\/([1-6])$/);
   if (test) return <PhaseTestScreen key={`test-${test[1]}`} phase={Number(test[1])} />;
+  if (route === "/prueba-nivel") return <LevelTestScreen key="level" />;
   if (route === "/tarjetas") return <ReviewScreen key="srs" />;
   if (route === "/repaso") return <PracticeScreen key="review" mode="review" />;
   if (route === "/repaso-pendiente") return <PracticeScreen key="due" mode="due" />;

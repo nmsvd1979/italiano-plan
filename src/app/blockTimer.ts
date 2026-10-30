@@ -2,6 +2,8 @@ import { useEffect, useMemo } from "react";
 import { routeQuery } from "./route";
 import { blockMinutes } from "../domain/cycle";
 import { BlockClock, addTiming, ensureTimings } from "../domain/timing";
+import { addMinutes, parseBlockKey } from "../domain/activityLog";
+import { toISODate } from "../domain/dates";
 import { loadSrs } from "../domain/srs";
 import { buildQueue, eligibleUnits } from "../domain/srsQueue";
 import type { Progress } from "../domain/curriculum";
@@ -26,7 +28,11 @@ export function useBlockTimer(): void {
 
     const flush = () => {
       const slice = clock?.take();
-      if (clock && slice) addTiming(window.localStorage, clock.key, slice);
+      if (clock && slice) {
+        addTiming(window.localStorage, clock.key, slice);
+        const b = parseBlockKey(clock.key);
+        if (b) addMinutes(window.localStorage, toISODate(new Date()), b.unit, b.activity, slice.ms / 60000);
+      }
     };
     const sync = () => {
       const k = openBlock();

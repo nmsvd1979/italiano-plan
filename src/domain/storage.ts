@@ -57,6 +57,8 @@ export const KEYS_V2 = {
   sinpista: "italianPlan.v2.sinpista",
   /** Versiones corregidas con Claude y su reescritura a los 3 días (domain/writingFix.ts). */
   writingFix: "italianPlan.v2.writingFix",
+  /** Intentos de la prueba de nivel A2 (domain/evaluation.ts). */
+  levelTests: "italianPlan.v2.levelTests",
 } as const;
 
 /** Registro de actividad (domain/activityLog.ts, docs/v2/06 F1): arreglo JSON, máximo 2000 entradas. */
@@ -189,6 +191,8 @@ export interface PhaseTestResult {
   correct: number;
   total: number;
   byTopic: Record<string, { correct: number; total: number }>;
+  /** Resultado por área (lectura, escucha, gramática, vocabulario, producción). Falta en los tests anteriores a la fase F. */
+  byArea?: Record<string, { correct: number; total: number }>;
 }
 /** Historial de tests de fase, por número de fase. */
 export type PhaseTests = Record<string, PhaseTestResult[]>;
@@ -239,6 +243,7 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS_V2.timing);
   store.removeItem(KEYS_V2.sinpista);
   store.removeItem(KEYS_V2.writingFix);
+  store.removeItem(KEYS_V2.levelTests);
   store.removeItem(LOG_KEY);
   store.removeItem(SRS_KEY);
 }
@@ -247,4 +252,14 @@ export function clearAll(store: KV = defaultStore()): void {
   clearProgress(store);
   store.removeItem(KEYS.startDate);
   store.removeItem(KEYS.startUnit);
+}
+
+/** Intentos de la prueba de nivel A2, del más antiguo al más nuevo. */
+export function getLevelTests(store: KV = defaultStore()): { date: string; correct: number; total: number; byArea: Record<string, { correct: number; total: number }> }[] {
+  const v = readJSON<unknown>(store, KEYS_V2.levelTests, []);
+  return Array.isArray(v) ? v : [];
+}
+
+export function addLevelTest(result: { date: string; correct: number; total: number; byArea: Record<string, { correct: number; total: number }> }, store: KV = defaultStore()): void {
+  store.setItem(KEYS_V2.levelTests, JSON.stringify([...getLevelTests(store), result]));
 }
