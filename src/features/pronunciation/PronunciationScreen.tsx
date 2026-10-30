@@ -4,7 +4,7 @@ import { goBack } from "../../app/route";
 import { audioFiles, getPronUnit } from "../../content/pronunciation";
 import { getUnit } from "../../content/curriculum";
 import { toISODate } from "../../domain/dates";
-import { buildTrials } from "../../domain/pronunciation";
+import { buildTrials, retryTrial } from "../../domain/pronunciation";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
 import { SoundTrials } from "./SoundTrials";
@@ -18,6 +18,7 @@ export function PronunciationScreen({ unit }: { unit: string }) {
   const meta = getUnit(unit);
   const [trials] = useState(() => (data ? buildTrials(data.pairs, audioFiles, TRIALS, `${toISODate(today)}:pron:${unit}`) : []));
   const [score, setScore] = useState(0);
+  const [attempts, setAttempts] = useState(0);
   const [stage, setStage] = useState<"listen" | "repeat">(trials.length === 0 ? "repeat" : "listen");
 
   if (!data) return <p className="sub">No existe la práctica de esa unidad.</p>;
@@ -50,16 +51,18 @@ export function PronunciationScreen({ unit }: { unit: string }) {
         <section className="card">
           <SoundTrials
             trials={trials}
+            retry={(failed, attempt) => retryTrial(failed, data.pairs, audioFiles, `${toISODate(today)}:retry:${unit}:${attempt}`)}
             doneLabel="Seguir"
             onDone={(results) => {
               setScore(results.filter(Boolean).length);
+              setAttempts(results.length);
               setStage("repeat");
             }}
           />
         </section>
       ) : (
         <>
-          {trials.length > 0 && <p className="score-line">Acertaste {score} de {trials.length}</p>}
+          {trials.length > 0 && <p className="score-line">Acertaste {score} de {attempts}</p>}
           <section className="card stack">
             <div className="eyebrow">Repite en voz alta</div>
             <p className="sub">Toca cada palabra, escúchala y dila en voz alta justo después. Imita la duración de las consonantes.</p>

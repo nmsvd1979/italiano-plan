@@ -1,19 +1,22 @@
 import { useState } from "react";
 import { GLOSS } from "../../content/pronunciation";
-import type { Trial } from "../../domain/pronunciation";
+import { MAX_TRIALS, type Trial } from "../../domain/pronunciation";
 import { Icon } from "../../ui/Icon";
 import { playFile } from "../../ui/audio";
 import { WordButton } from "./WordButton";
 
 interface Props {
   trials: Trial[];
+  /** Si falla un intento: otro intento del mismo contraste (docs/v2/05 E2). Sin esto la serie no crece. */
+  retry?: (failed: Trial, attempt: number) => Trial | null;
   /** Se llama al terminar, con un acierto/error por intento. */
   onDone: (results: boolean[]) => void;
   doneLabel: string;
 }
 
 /** "¿Qué palabra escuchaste?": suena una palabra de un par mínimo y eliges cuál era. */
-export function SoundTrials({ trials, onDone, doneLabel }: Props) {
+export function SoundTrials({ trials: initial, retry, onDone, doneLabel }: Props) {
+  const [trials, setTrials] = useState(initial);
   const [index, setIndex] = useState(0);
   const [picked, setPicked] = useState<string | null>(null);
   const [results, setResults] = useState<boolean[]>([]);
@@ -26,6 +29,11 @@ export function SoundTrials({ trials, onDone, doneLabel }: Props) {
     if (answered) return;
     setPicked(word);
     setResults((r) => [...r, word === trial.target]);
+    // Un contraste fallado vuelve enseguida, con otra voz, hasta un máximo de intentos.
+    if (word !== trial.target && retry && trials.length < MAX_TRIALS) {
+      const again = retry(trial, trials.length);
+      if (again) setTrials((t) => [...t.slice(0, index + 1), again, ...t.slice(index + 1)]);
+    }
   };
   const next = () => {
     if (last) {
@@ -64,7 +72,7 @@ export function SoundTrials({ trials, onDone, doneLabel }: Props) {
               {picked === trial.target ? "¡Correcto!" : `Sonaba «${trial.target}»`}
             </div>
             <p>Escúchalas otra vez, una después de la otra:</p>
-            <div className="row">{trial.options.map((o) => <WordButton key={o} word={o} />)}</div>
+            <div className="row">{trial.options.map((o) => <WordButton key={o} word={o} nativeOnly />)}</div>
           </div>
           <button className="btn primary block" type="button" onClick={next}>{last ? doneLabel : "Siguiente"}</button>
         </>
