@@ -7,9 +7,10 @@ import {
   applyReview, loadSrs, newSrsCard, rerateLast, saveSrs, unlockProdCards, type RatingValue, type SrsCard, type SrsState,
 } from "../../domain/srs";
 import {
-  choicesFor, emptyContext, loadQuizletDeck, resolveCard, type DeckContext, type QuizletEntry, type Resolved,
+  choicesFor, emptyContext, loadQuizletDeck, loadSinPistaMap, resolveCard, type DeckContext, type QuizletEntry, type Resolved,
 } from "../../domain/srsDeck";
 import { easyRating, gradeWriting, ratingForChoice, ratingForWriting, typoRating, type WriteGrade } from "../../domain/srsGrade";
+import { isSinPistaId } from "../../domain/sinpistaSrs";
 import { LIMITS, answeredToday, buildQueue, eligibleUnits, nextDue, nothingToReviewText, type QueueItem } from "../../domain/srsQueue";
 
 const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
@@ -57,7 +58,9 @@ export function ReviewScreen() {
       const entries = needsDeck ? await loadQuizletDeck() : [];
       if (cancelled) return;
       setQuizlet(entries);
-      setCtx({ quizlet: new Map(entries.map((q) => [`q${q.n}`, q])) });
+      const sinpista = Object.values(srs.cards).some((c) => isSinPistaId(c.itemId)) ? await loadSinPistaMap() : undefined;
+      if (cancelled) return;
+      setCtx({ quizlet: new Map(entries.map((q) => [`q${q.n}`, q])), sinpista });
       setReady(true);
     })();
     return () => { cancelled = true; };

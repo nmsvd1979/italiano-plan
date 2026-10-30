@@ -1,6 +1,8 @@
 import { findExercise, type Fill } from "../content/grammar";
 import { getDictation } from "../content/dictation";
 import { getVocab } from "../content/vocab";
+import type { SinPista } from "../content/sinpista";
+import { isSinPistaId, resolveSinPista } from "./sinpistaSrs";
 import { rng, shuffle } from "./review";
 import type { SrsCard } from "./srs";
 
@@ -49,6 +51,14 @@ export async function loadQuizletDeck(): Promise<QuizletEntry[]> {
 
 export interface DeckContext {
   quizlet: ReadonlyMap<string, QuizletEntry>;
+  /** Ejercicios sin pista por id; se cargan solo si hay tarjetas que vienen de ahí. */
+  sinpista?: ReadonlyMap<string, SinPista>;
+}
+
+/** Los ejercicios sin pista se cargan solo si alguna tarjeta viene de ahí. */
+export async function loadSinPistaMap(): Promise<ReadonlyMap<string, SinPista>> {
+  const mod = await import("../content/sinpista");
+  return new Map(mod.SINPISTA_UNITS.flatMap((u) => mod.getSinPista(u)).map((e) => [e.id, e]));
 }
 
 export const emptyContext = (): DeckContext => ({ quizlet: new Map() });
@@ -67,6 +77,10 @@ export function resolveCard(card: SrsCard, ctx: DeckContext): Resolved | null {
     }
     const w = wordsOfUnit(card.unit).find((x) => x.itemId === card.itemId);
     return w ? { kind: card.kind, it: w.it, es: w.es } : null;
+  }
+  if (isSinPistaId(card.itemId)) {
+    const ex = ctx.sinpista?.get(card.itemId);
+    return ex ? resolveSinPista(ex) : null;
   }
   if (card.kind === "cloze") {
     const e = findExercise(card.itemId)?.exercise;

@@ -7,6 +7,8 @@ import { DialogueScreen } from "./features/dialogue/DialogueScreen";
 import { DictationScreen } from "./features/dictation/DictationScreen";
 import { LessonScreen } from "./features/grammar/LessonScreen";
 import { PracticeScreen } from "./features/grammar/PracticeScreen";
+import { LecturaScreen } from "./features/lectura/LecturaScreen";
+import { SinPistaScreen } from "./features/sinpista/SinPistaScreen";
 import { PlanScreen } from "./features/plan/PlanScreen";
 import { UnitScreen } from "./features/plan/UnitScreen";
 import { PronunciationScreen } from "./features/pronunciation/PronunciationScreen";
@@ -48,6 +50,13 @@ function Screens() {
   if (lesson) return <LessonScreen key={`lesson-${lesson[1]}${partKey}`} unit={lesson[1]} part={part} />;
   const practice = route.match(new RegExp(`^/practica/${UNIT}$`));
   if (practice) return <PracticeScreen key={`practice-${practice[1]}${partKey}${size ?? ""}`} mode="practice" unit={practice[1]} part={part} size={size} />;
+  const varied = route.match(new RegExp(`^/variada/${UNIT}$`));
+  if (varied) return <SinPistaScreen key={`variada-${varied[1]}${partKey}${size ?? ""}`} unit={varied[1]} part={part} size={size} />;
+  const lectura = route.match(new RegExp(`^/lectura/${UNIT}$`));
+  if (lectura) {
+    const mode = q.get("mode") === "preguntas" ? "preguntas" : "texto";
+    return <LecturaScreen key={`lectura-${lectura[1]}${partKey}${mode}`} unit={lectura[1]} part={part} mode={mode} />;
+  }
   const pron = route.match(new RegExp(`^/pronunciacion/${UNIT}$`));
   if (pron) return <PronunciationScreen key={`pron-${pron[1]}`} unit={pron[1]} />;
   const shadow = route.match(new RegExp(`^/shadowing/${UNIT}$`));

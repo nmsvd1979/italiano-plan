@@ -33,3 +33,17 @@ describe("precache (necesita `npm run build` previo; lo comprueba también el po
     expect(bytes).toBeLessThan(MAX_PRECACHE_BYTES);
   });
 });
+
+describe("carga diferida de los textos y la práctica sin pista (necesita `npm run build` previo)", () => {
+  const assets = path.join(ROOT, "dist", "assets");
+  it.skipIf(!existsSync(assets))("lectura.json y sinpista.json van en trozos propios, no en el paquete principal", () => {
+    const js = readdirSync(assets).filter((f) => f.endsWith(".js"));
+    const main = readFileSync(path.join(assets, js.find((f) => f.startsWith("index-"))!), "utf8");
+    const lectura = JSON.parse(readFileSync(path.join(ROOT, "src", "content", "lectura.json"), "utf8")) as Record<string, { titulo: string }>;
+    const titulo = Object.values(lectura)[0].titulo;
+    expect(main).not.toContain(titulo);
+    expect(main).not.toContain("Piacere, sono Paolo e sono italiano");
+    expect(js.some((f) => f.startsWith("lectura-"))).toBe(true);
+    expect(js.some((f) => f.startsWith("sinpista-"))).toBe(true);
+  });
+});

@@ -387,7 +387,9 @@ describe("puesta al día de capas nuevas (14 §5)", () => {
     expect(items.map((i) => i.blockId)).toEqual(["repeat", "text", "questions", "own"]);
     const repeat = items.find((i) => i.blockId === "repeat")!;
     expect(repeat).toMatchObject({ soon: false, done: false, to: "/dialogo/u04?c=u04.repeat" });
-    expect(items.filter((i) => i.soon).map((i) => i.blockId)).toEqual(["text", "questions", "own"]);
+    expect(items.filter((i) => i.soon).map((i) => i.blockId)).toEqual(["own"]);
+    expect(items.find((i) => i.blockId === "text")!.to).toBe("/lectura/u04?c=u04.text");
+    expect(items.find((i) => i.blockId === "questions")!.to).toBe("/lectura/u04?mode=preguntas&c=u04.questions");
     for (const i of items) expect(i.minutes).toBeLessThanOrEqual(CATCHUP_MAX_MINUTES);
   });
 
@@ -399,7 +401,7 @@ describe("puesta al día de capas nuevas (14 §5)", () => {
     expect(point.catchup.map((c) => c.view.unit.id)).toEqual(["u04", "u03", "u02", "u01"]);
     expect(nextCatchup(state, point.catchup)?.unit).toBe("u04");
     let s2 = state;
-    for (const u of ["u04", "u03", "u02", "u01"]) s2 = markCatchup(s2, u, "repeat");
+    for (const u of ["u04", "u03", "u02", "u01"]) for (const id of ["repeat", "text", "questions"]) s2 = markCatchup(s2, u, id);
     expect(nextCatchup(s2, startingPoint(raw, tests, s2).catchup)).toBeNull();
     expect(markCatchup(s2, "u04", "repeat")).toBe(s2);
     expect(nextCatchup(setUsePrevious(state, true), point.catchup)).toBeNull();

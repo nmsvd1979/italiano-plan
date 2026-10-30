@@ -22,6 +22,9 @@ export function blockRoute(step: CourseStep, day: CycleDay, block: Block): { to:
     case "pron": return { to: href(`/pronunciacion/${unit}${q()}`), label: "Practicar sonidos" };
     case "lesson": return { to: href(`/gramatica/${unit}${q()}`), label: "Empezar lección" };
     case "practice": return { to: href(`/practica/${unit}${q({ n: block.size })}`), label: "Practicar" };
+    case "sinpista": return { to: href(`/variada/${unit}${q({ n: block.size })}`), label: "Practicar" };
+    case "reading": return { to: href(`/lectura/${unit}${q()}`), label: "Leer el texto" };
+    case "readq": return { to: href(`/lectura/${unit}${q({ mode: "preguntas" })}`), label: "Responder preguntas" };
     case "dictation": return { to: href(`/dictado/${unit}${q()}`), label: "Empezar dictado" };
     case "shadowing": return { to: href(`/shadowing/${unit}${q()}`), label: "Abrir estudio" };
     case "writing": return { to: href(`/escritura/${unit}${q()}`), label: "Escribir" };

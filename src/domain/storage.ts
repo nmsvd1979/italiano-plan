@@ -53,6 +53,8 @@ export const KEYS_V2 = {
   miniTests: "italianPlan.v2.miniTests",
   /** Tiempo real medido por bloque (domain/timing.ts). */
   timing: "italianPlan.v2.timing",
+  /** Rotación de la práctica sin pista (domain/sinpistaState.ts): qué ejercicios ya salieron y cuáles fallaste. */
+  sinpista: "italianPlan.v2.sinpista",
 } as const;
 
 /** Repaso espaciado propio (docs/v2/02 B2): tarjetas, historial y opciones, en un solo valor JSON. */
@@ -230,6 +232,7 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS_V2.miniTests);
   store.removeItem(KEYS_V2.progress);
   store.removeItem(KEYS_V2.timing);
+  store.removeItem(KEYS_V2.sinpista);
   store.removeItem(SRS_KEY);
 }
 

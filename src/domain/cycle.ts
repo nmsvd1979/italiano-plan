@@ -10,7 +10,7 @@ import type { MiniTests } from "./storage";
 
 export type BlockKind =
   | "srs" | "dialogue" | "vocab" | "pron" | "lesson" | "practice" | "dictation" | "shadowing" | "writing"
-  | "cando" | "review" | "mini" | "input" | "failed" | "soon";
+  | "cando" | "review" | "mini" | "input" | "failed" | "soon" | "reading" | "readq" | "sinpista";
 
 export interface Block {
   /** Único dentro del día. */
@@ -75,7 +75,7 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
     name: "Practicar",
     blocks: [
       srs,
-      { id: "varied", kind: "practice", name: "Práctica variada", minutes: 7, core: true, icon: "book", size: 7, legacy: ["practice"] },
+      { id: "varied", kind: "sinpista", name: "Práctica variada", minutes: 7, core: true, icon: "book", size: 7, legacy: ["practice"] },
       words("words3"),
       { id: "dictation", kind: "dictation", name: "Dictado", minutes: 6, core: false, icon: "ear", needs: "dictation", legacy: ["dictation"] },
       soon("shorttext", "Texto corto nuevo", 6),
@@ -95,8 +95,8 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
     name: "Leer y escuchar",
     blocks: [
       srs,
-      soon("text", "Texto graduado", 9, true),
-      soon("questions", "Preguntas del texto", 4),
+      { id: "text", kind: "reading", name: "Texto graduado", minutes: 9, core: true, icon: "book" },
+      { id: "questions", kind: "readq", name: "Preguntas del texto", minutes: 4, core: false, icon: "target" },
       words("words5"),
       { id: "shadowing", kind: "shadowing", name: "Shadowing", minutes: 6, core: false, icon: "mic", needsInternet: true, legacy: ["shadow"] },
     ],
