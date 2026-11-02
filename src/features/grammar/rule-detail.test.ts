@@ -62,7 +62,7 @@ describe("regla con «Más detalle»", () => {
     for (const unit of ["u16", "u17"]) {
       const lesson = LESSONS.find((l) => l.unit === unit)!;
       const { main, detail } = splitRule(lesson.rule);
-      expect(main.map((b) => b.kind), unit).toEqual(unit === "u17" ? ["p", "p", "table"] : ["p", "table"]);
+      expect(main.map((b) => b.kind), unit).toEqual(unit === "u17" ? ["p", "p", "table"] : ["p", "table", "p"]); // u16 deja visible «Pedir ayuda»
       expect(lesson.rule[0].detail, unit).toBeUndefined();
       expect(detail.length, unit).toBeGreaterThan(0);
     }
