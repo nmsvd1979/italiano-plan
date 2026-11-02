@@ -86,7 +86,6 @@ export const unidad16: Lesson = {
     },
     {
       "kind": "p",
-      "detail": true,
       "text": "**Pedir ayuda.** *Aiuto!* · *Mi serve un medico.* (necesito un médico; *servire* funciona como *piacere*: *Mi servono le medicine*) · *Chiami un'ambulanza!* · *Dov'è il pronto soccorso?* (urgencias) · *Ho bisogno di aiuto.* En Italia el número único de emergencias es el *112*; la ambulancia (*118*) y la policía (*113*) también funcionan."
     }
   ],
