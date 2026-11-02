@@ -1,10 +1,14 @@
 // Formato de las lecciones de gramática.
 // Texto con formato mínimo: **negrita** y *cursiva* (las palabras en italiano van en cursiva).
 
-export type Block =
+export type Block = (
   | { kind: "p"; text: string }
   | { kind: "table"; head: string[]; rows: string[][] }
-  | { kind: "list"; items: string[] };
+  | { kind: "list"; items: string[] }
+) & {
+  /** Bloque de «Más detalle»: plegado al abrir la lección, se despliega con un botón. */
+  detail?: true;
+};
 
 export interface Choice {
   type: "choice";

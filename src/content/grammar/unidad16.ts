@@ -76,10 +76,12 @@ export const unidad16: Lesson = {
     },
     {
       "kind": "p",
+      "detail": true,
       "text": "**Lo que te dicen el médico y el farmacéutico** suele venir en forma de *Lei* (la que viste en la unidad 14): *Prenda una compressa due volte al giorno. Beva molta acqua. Riposi. Non faccia sforzi.* O con *deve*: *Deve restare a letto.* Para el horario: *prima / dopo i pasti* (antes / después de las comidas), *ogni otto ore* (cada ocho horas), *tre volte al giorno* (tres veces al día), *la mattina e la sera*."
     },
     {
       "kind": "p",
+      "detail": true,
       "text": "**Indefinidos útiles:** *qualcosa* (algo), *niente* (nada), *qualcuno* (alguien), *nessuno* (nadie). Con *niente* y *nessuno* detrás del verbo el italiano pide *non* antes: *Non ho niente. Non c'è nessuno.* Si van antes del verbo, no hay *non*: *Nessuno risponde.* Para tranquilizar: *Non è niente di grave.* (no es nada grave)."
     },
     {
