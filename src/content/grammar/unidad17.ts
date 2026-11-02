@@ -11,6 +11,7 @@ export const unidad17: Lesson = {
     },
     {
       "kind": "p",
+      "detail": true,
       "text": "**Los pisos usan ordinales.** Concuerdan en género y número como un adjetivo:"
     },
     {
@@ -55,18 +56,22 @@ export const unidad17: Lesson = {
     },
     {
       "kind": "p",
+      "detail": true,
       "text": "La planta baja es *il piano terra*. En Italia el primer piso (*primo piano*) está un nivel **sobre** la calle, no a nivel de calle."
     },
     {
       "kind": "p",
+      "detail": true,
       "text": "**Relativo che.** Une dos frases y no cambia nunca (sirve para personas y cosas, sujeto u objeto): *L'appartamento che ho visto è luminoso.* · *La persona che abita sopra è simpatica.* Para lugares se usa *dove*: *Il quartiere dove abito è tranquillo.*"
     },
     {
       "kind": "p",
+      "detail": true,
       "text": "**Problemas en la casa.** *Non funziona il riscaldamento.* (no funciona la calefacción) · *Manca l'acqua calda.* (falta agua caliente) · *Mancano le chiavi.* (faltan las llaves). *Mancare* funciona como *piacere*: lo que falta es el sujeto, y el verbo concuerda con él. También: *Il rubinetto perde.* (la llave gotea) · *Si è rotto il frigorifero.* (se rompió el refrigerador)."
     },
     {
       "kind": "p",
+      "detail": true,
       "text": "**Trámites.** *Ho bisogno di un documento.* · *Per il contratto ci vuole il codice fiscale.* / *ci vogliono due documenti.* (*ci vuole* + singular, *ci vogliono* + plural: hace falta) · *Devo compilare il modulo e firmare qui.* · *Vorrei prendere un appuntamento.* (sacar una cita / hora)."
     }
   ],

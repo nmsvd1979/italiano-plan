@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
-import { Block, getLesson } from "../../content/grammar";
+import { getLesson } from "../../content/grammar";
 import { getUnit } from "../../content/curriculum";
 import type { CoursePart } from "../../content/course";
 import { forPart } from "../../domain/parts";
@@ -10,25 +10,7 @@ import { Rich } from "../../ui/Rich";
 import { AudioButton } from "../../ui/AudioButton";
 import { VoiceNotice } from "../../ui/VoiceNotice";
 import { ExerciseRunner, RunnerItem } from "./ExerciseRunner";
-
-function RuleBlock({ block }: { block: Block }) {
-  if (block.kind === "p") return <p className="rule-p"><Rich text={block.text} /></p>;
-  if (block.kind === "list") {
-    return <ul className="rule-list">{block.items.map((t) => <li key={t}><Rich text={t} /></li>)}</ul>;
-  }
-  return (
-    <div className="table-scroll">
-      <table className="rule-table">
-        <thead><tr>{block.head.map((h, i) => <th key={i}><Rich text={h} /></th>)}</tr></thead>
-        <tbody>
-          {block.rows.map((row, r) => (
-            <tr key={r}>{row.map((c, i) => <td key={i}><Rich text={c} /></td>)}</tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
-}
+import { RuleSection } from "./RuleSection";
 
 export function LessonScreen({ unit, part }: { unit: string; part?: CoursePart | null }) {
   const { completeActivity } = useApp();
@@ -67,7 +49,7 @@ export function LessonScreen({ unit, part }: { unit: string; part?: CoursePart |
 
       <section className="card stack">
         <div className="eyebrow">La regla</div>
-        {lesson.rule.map((b, i) => <RuleBlock key={i} block={b} />)}
+        <RuleSection rule={lesson.rule} unit={unit} />
       </section>
 
       <section className="callout">
