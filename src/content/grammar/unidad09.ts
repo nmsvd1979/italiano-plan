@@ -42,6 +42,10 @@ export const unidad09: Lesson = {
         ["avuto", "dato", "chiesto", "risposto", "deciso", "vinto", "speso", "conosciuto"],
       ],
     },
+    {
+      kind: "p",
+      text: "**Contar en orden.** Para ordenar lo que hiciste usa *prima* (primero), *poi* (luego), *dopo* (después) y *alla fine* (al final): *Prima ho mangiato, poi ho studiato.* *Dopo cena ho guardato un film.*",
+    },
   ],
   transfer:
     "Con *avere* te va a salir natural porque el español usa *haber* (*he comido*). Dos diferencias: en italiano *ho mangiato* sirve tanto para \"he comido\" como para \"comí\" (ayer: *Ieri ho mangiato la pizza*), y *già / mai / ancora* se meten en el medio: *Ho già mangiato*, es lo más frecuente (*Ho mangiato già* también se oye, pero menos).",
@@ -52,6 +56,8 @@ export const unidad09: Lesson = {
     { it: "Non ho ancora visto la Fontana di Trevi.", es: "Todavía no vi la Fontana di Trevi." },
     { it: "Hai mai provato il tiramisù?", es: "¿Probaste alguna vez el tiramisú?" },
     { it: "Che cosa avete fatto sabato?", es: "¿Qué hicieron el sábado?" },
+    { it: "Prima ho mangiato, poi ho studiato.", es: "Primero comí, luego estudié." },
+    { it: "Alla fine ho dormito.", es: "Al final dormí." },
   ],
   notice: [
     {
@@ -113,5 +119,8 @@ export const unidad09: Lesson = {
     { type: "fill", prompt: "Ho ___ la verità. (dire)", answers: ["detto"], why: "*Dire → detto*." },
     { type: "fill", prompt: "Hai ___ la partita? (vincere)", answers: ["vinto"], why: "*Vincere → vinto*." },
     { type: "fill", prompt: "Abbiamo ___ molto. (spendere)", answers: ["speso"], why: "*Spendere → speso*." },
+    {type: "fill", prompt: "Prima ho mangiato, ___ ho studiato. (luego)", answers: ["poi"], why: "*Poi* = luego."},
+    {type: "fill", prompt: "___ ho lavorato, poi ho mangiato. (primero)", answers: ["Prima", "prima"], why: "*Prima* = primero."},
+    {type: "choice", prompt: "«Después de la cena vi una película.»", options: ["Dopo cena ho guardato un film.", "Dopo cena guardato ho un film.", "Dopo cena sono guardato un film."], answer: 0, why: "*Dopo* + passato prossimo con *avere*."},
   ],
 };

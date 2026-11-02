@@ -38,6 +38,10 @@ export const unidad11: Lesson = {
       kind: "p",
       text: "Se combinan en la misma frase: *Mentre camminavo (acción de fondo), ho visto (hecho puntual) il Colosseo.* Pistas del imperfetto: *di solito, sempre, ogni giorno, da piccolo, mentre*.",
     },
+    {
+      kind: "p",
+      text: "**C'era / c'erano** (había). Es el imperfetto de *c'è / ci sono* y sirve para describir cómo era un lugar en el pasado: *C'era un parco vicino a casa mia.* (Había un parque cerca de mi casa.) *C'erano molti alberi.* (Había muchos árboles.) Va en singular con una cosa (*c'era*) y en plural con varias (*c'erano*). *Non c'era nessuno.* = No había nadie.",
+    },
   ],
   transfer:
     "Esto lo sabes hacer en español: *comía* ≈ *mangiavo* (imperfetto) y *comí / he comido* ≈ *ho mangiato* (passato prossimo). La diferencia es que en italiano existe un pasado remoto (*mangiai*), pero en la conversación diaria, sobre todo en el norte, se usa el passato prossimo, que cubre los dos casos.",
@@ -48,6 +52,9 @@ export const unidad11: Lesson = {
     { it: "Ieri sera siamo andati al ristorante.", es: "Anoche fuimos al restaurante." },
     { it: "Di solito mangiavamo alle otto.", es: "Generalmente comíamos a las ocho." },
     { it: "Quando ero giovane, viaggiavo molto.", es: "Cuando era joven, viajaba mucho." },
+    { it: "C'era un parco vicino a casa mia.", es: "Había un parque cerca de mi casa." },
+    { it: "C'erano molti alberi e pochi negozi.", es: "Había muchos árboles y pocas tiendas." },
+    { it: "Non c'era nessuno in strada.", es: "No había nadie en la calle." },
   ],
   notice: [
     {
@@ -111,5 +118,13 @@ export const unidad11: Lesson = {
     {type: "fill", prompt: "Che cosa ___ da bambina? (tu, fare)", answers: ["facevi"], why: "*Fare → facevi* (irregular)."},
     {type: "choice", prompt: "«Estaba cansado, por eso me acosté»", options: ["Ero stanco, per questo sono andato a letto", "Sono stato stanco, per questo andavo a letto", "Ero stanco, per questo andavo a letto"], answer: 0, why: "Estado: imperfetto (*ero*); hecho puntual: passato prossimo."},
     {type: "choice", prompt: "«Un día, mientras comía, sonó el teléfono»", options: ["Un giorno, mentre mangiavo, ha suonato il telefono", "Un giorno, mentre ho mangiato, suonava il telefono", "Un giorno, mentre mangiavo, suonava il telefono"], answer: 0, why: "*Mangiavo* es el fondo; *ha suonato*, el hecho puntual."},
+    {type: "fill", prompt: "Nella mia città ___ un cinema vicino alla piazza. (había)", answers: ["c'era"], why: "*C'era* + singular: había."},
+    {type: "fill", prompt: "Nel giardino ___ molti fiori. (habían)", answers: ["c'erano"], why: "*C'erano* + plural: había muchos."},
+    {type: "fill", prompt: "Quando sono arrivato, in piazza ___ molte persone. (había)", answers: ["c'erano"], why: "Plural (*molte persone*): *c'erano*."},
+    {type: "fill", prompt: "Ieri a casa non ___ nessuno. (había)", answers: ["c'era"], why: "*Non c'era nessuno* = no había nadie."},
+    {type: "choice", prompt: "«Había un parque cerca de mi casa.»", options: ["C'era un parco vicino a casa mia.", "C'è un parco vicino a casa mia.", "Ci era un parco vicino a casa mia."], answer: 0, why: "Descripción del pasado: *c'era*."},
+    {type: "choice", prompt: "«Había dos bares en la plaza.»", options: ["C'erano due bar in piazza.", "C'era due bar in piazza.", "Ci sono due bar in piazza."], answer: 0, why: "Plural en el pasado: *c'erano*."},
+    {type: "choice", prompt: "«De niño, en mi barrio había muchos niños.»", options: ["Da bambino, nel mio quartiere c'erano molti bambini.", "Da bambino, nel mio quartiere c'era molti bambini.", "Da bambino, nel mio quartiere ci sono molti bambini."], answer: 0, why: "Plural (*molti bambini*) en el pasado: *c'erano*."},
+    {type: "choice", prompt: "¿Cuál de estas frases habla del pasado?", options: ["C'erano molte macchine.", "Ci sono molte macchine.", "C'è una macchina."], answer: 0, why: "*C'erano* es imperfetto: describe el pasado."},
   ],
 };

@@ -48,6 +48,10 @@ export const unidad12: Lesson = {
       kind: "p",
       text: "Se usa en frases afirmativas: *Vorrei del pane e dei pomodori.* En negativas se omite: *Non ho pane. Non voglio pomodori.*",
     },
+    {
+      kind: "p",
+      text: "**Pronombres tónicos.** Después de una preposición (*con, per, di, da, a*) no se usan *mi, ti*, sino *me, te, lui, lei, noi, voi, loro*: *Vieni con me?* (¿Vienes conmigo?) *Questo regalo è per te.* *Esco con lui.* *Penso a voi.* Atención: *con me* y *con te* equivalen a «conmigo» y «contigo».",
+    },
   ],
   transfer:
     "En español siempre dices *más… que*; en italiano, con un sustantivo o pronombre usas *di*: *più alto di me* (no *che me*). *Bene* y *buono* no son lo mismo: *Parla meglio* (adverbio), pero *il caffè migliore* (adjetivo). El superlativo lleva artículo: *il più caro*. Y el partitivo no existe en español (*quiero pan*): en italiano *Vorrei del pane* es frecuente pero no obligatorio (*Vorrei pane* también se dice), y en frases negativas normalmente se omite.",
@@ -61,6 +65,9 @@ export const unidad12: Lesson = {
     { it: "Vorrei del pane e dei pomodori.", es: "Quisiera pan y unos tomates." },
     { it: "Hai dell'acqua?", es: "¿Tienes agua?" },
     { it: "Questo è il vestito più caro del negozio.", es: "Este es el vestido más caro de la tienda." },
+    { it: "Vieni con me?", es: "¿Vienes conmigo?" },
+    { it: "Questo regalo è per te.", es: "Este regalo es para ti." },
+    { it: "Esco con lui e con lei.", es: "Salgo con él y con ella." },
   ],
   notice: [
     {
@@ -130,5 +137,10 @@ export const unidad12: Lesson = {
       answer: 0,
       why: "Con un verbo se usa el adverbio: *meglio*.",
     },
+    {type: "fill", prompt: "Questo regalo è per ___. (ti)", answers: ["te"], why: "Después de *per*: *te*."},
+    {type: "fill", prompt: "Vieni con ___ al cinema? (mí)", answers: ["me"], why: "*Con me* = conmigo."},
+    {type: "fill", prompt: "Esco con ___ domani. (ellos)", answers: ["loro"], why: "*Con loro* = con ellos."},
+    {type: "choice", prompt: "«Es para nosotros.»", options: ["È per noi.", "È per ci.", "È per nostri."], answer: 0, why: "Tras preposición: *noi*."},
+    {type: "choice", prompt: "«Voy con ella.»", options: ["Vado con lei.", "Vado con la.", "Vado con le."], answer: 0, why: "Tónico: *lei*."},
   ],
 };
