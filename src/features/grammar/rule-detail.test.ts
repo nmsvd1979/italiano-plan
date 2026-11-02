@@ -58,11 +58,11 @@ describe("regla con «Más detalle»", () => {
     expect(detail.map((b) => b.kind)).toEqual(["p", "table", "list"]);
   });
 
-  it("u16 y u17: primer párrafo y primera tabla visibles, el resto en detalle", () => {
+  it("u16 y u17: regla corta visible (en u17 incluye la frase que introduce la tabla), el resto en detalle", () => {
     for (const unit of ["u16", "u17"]) {
       const lesson = LESSONS.find((l) => l.unit === unit)!;
       const { main, detail } = splitRule(lesson.rule);
-      expect(main.map((b) => b.kind), unit).toEqual(["p", "table"]);
+      expect(main.map((b) => b.kind), unit).toEqual(unit === "u17" ? ["p", "p", "table"] : ["p", "table"]);
       expect(lesson.rule[0].detail, unit).toBeUndefined();
       expect(detail.length, unit).toBeGreaterThan(0);
     }

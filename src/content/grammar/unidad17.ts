@@ -11,7 +11,6 @@ export const unidad17: Lesson = {
     },
     {
       "kind": "p",
-      "detail": true,
       "text": "**Los pisos usan ordinales.** Concuerdan en género y número como un adjetivo:"
     },
     {
