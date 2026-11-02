@@ -91,7 +91,7 @@ Non ti sento bene.|No te oigo bien.
 ## u19
 In Italia si cena tardi.|En Italia se cena tarde.
 Aspetto da venti minuti.|Espero desde hace veinte minutos.
-Sto per uscire di casa.|Estoy por salir de casa.
+Sto per uscire di casa.|Estoy a punto de salir de casa.
 Qui non si fuma.|Aquí no se fuma.
 ## u20
 Prima faccio la spesa, poi cucino.|Primero hago las compras, luego cocino.

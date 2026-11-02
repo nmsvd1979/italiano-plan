@@ -116,7 +116,7 @@
 =da molto|Lavoro qui da molto.|Trabajo aquí hace mucho.
 =appena|Sono appena arrivato.|Acabo de llegar.
 =ormai|Ormai parlo abbastanza bene.|Ya hablo bastante bien.
-=stare per|Sto per uscire.|Estoy por salir.
+=stare per|Sto per uscire.|Estoy a punto de salir.
 =entrare|Si prega di entrare uno alla volta.|Se ruega entrar de a uno.
 =vietato|È vietato fumare.|Está prohibido fumar.
 =permesso?|Permesso? Posso entrare?|¿Con permiso? ¿Puedo entrar?

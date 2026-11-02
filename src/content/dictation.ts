@@ -239,7 +239,7 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Come si dice grazie in spagnolo?", es: "¿Cómo se dice «grazie» en español?" },
     { it: "In Italia si cena tardi.", es: "En Italia se cena tarde." },
     { it: "Aspetto da venti minuti.", es: "Espero desde hace veinte minutos." },
-    { it: "Sto per uscire di casa.", es: "Estoy por salir de casa." },
+    { it: "Sto per uscire di casa.", es: "Estoy a punto de salir de casa." },
     { it: "Qui non si fuma.", es: "Aquí no se fuma." },
   ],
   u21: [
