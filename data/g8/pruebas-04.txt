@@ -1,0 +1,141 @@
+## u14
+L@A|Vai in biblioteca? Sì, ci vado ogni giorno. Ci resto due ore. Vuoi venirci con me domani?|¿Cuánto tiempo se queda allí?|Dos horas|Un día|Toda la tarde|«Ci resto due ore».
+L@A|Hai delle mele? Sì, ne ho tre. Ne vuoi una? No, grazie, ne ho già mangiate due oggi.|¿Cuántas manzanas tiene?|Tres|Dos|Una|«Ne ho tre».
+L@A|Sei mai stato a Venezia? Sì, ci sono andato l'anno scorso e ci sono rimasto una settimana.|¿Cuánto se quedó en Venecia?|Una semana|Un año|Un día|«Ci sono rimasto una settimana».
+E@A|Ci vado domani.|¿Qué dice?|Que va allí mañana|Que viene de allí|Que no va|«Ci» = allí.
+E@A|Ne voglio due.|¿Qué dice?|Que quiere dos (de eso)|Que quiere uno|Que no quiere nada|«Ne» = de ello.
+E@A|Quanti ne hai?|¿Qué pregunta?|Cuántos tienes|Dónde los tienes|Quién los tiene|«Quanti ne hai?» = ¿cuántos tienes?
+C@A|«Voy allí mañana.»|Ci vado domani.;Lo vado domani.;Ne vado domani.|«Ci» = allí.
+C@A|«Tengo tres (de ellos).»|Ne ho tre.;Ci ho tre.;Lo ho tre.|«Ne» + cantidad.
+C@A|«¿Cuántos quieres?»|Quanti ne vuoi?;Quanti ci vuoi?;Quanti lo vuoi?|«Ne» con cantidad.
+F@A|Hai dei libri? Sì, ___ ho molti. (de ellos)|ne|«Ne» sustituye «de ellos».
+L@B|Per andare alla posta, prendi la prima strada a sinistra. Poi vai sempre dritto e attraversa la piazza.|¿Qué hay que cruzar?|La plaza|La calle principal|El puente|«Attraversa la piazza».
+L@B|Scusi, mi dica! Può girare a destra e poi andare dritto? Prenda la seconda strada. Poi si fermi al semaforo.|¿Dónde se detiene?|En el semáforo|En la esquina|En la plaza|«Si fermi al semaforo».
+L@B|Marta, aspetta! Non correre. Parla più piano e guarda la strada. Poi attraversa con calma.|¿Qué le pide a Marta?|Que no corra|Que corra|Que se detenga lejos|«Non correre».
+E@B|Prenda la prima a sinistra.|¿Qué dice?|Que tome la primera a la izquierda|Que tome la segunda a la derecha|Que se detenga|«Prenda» = tome (Lei).
+E@B|Non parlare così forte!|¿Qué dice?|Que no hables tan fuerte|Que hables fuerte|Que hables bajito|«Non parlare» = no hables.
+E@B|Apri la finestra, per favore.|¿Qué dice?|Que abras la ventana|Que cierres la ventana|Que mires por la ventana|«Apri» = abre.
+C@B|«Habla más despacio.» (tú)|Parla più piano.;Parli più piano.;Parlare più piano.|Imperativo tú: «parla».
+C@B|«Gire a la derecha.» (Lei)|Giri a destra.;Gira a destra.;Girare a destra.|Con Lei: «giri».
+C@B|«No fumes.» (tú)|Non fumare.;Non fuma.;Non fumi.|Negativo tú: «non» + infinitivo.
+F@B|Scusi, ___ a sinistra. (girare, Lei)|giri|Imperativo de cortesía: «giri».
+## u15
+L@A|L'anno prossimo andrò in Italia. Partirò a settembre e resterò tre mesi. Studierò italiano ogni giorno.|¿Cuánto tiempo se quedará?|Tres meses|Un año|Un mes|«Resterò tre mesi».
+L@A|Domani farà bel tempo. Usciremo presto e andremo al mare. Mangeremo il pesce e torneremo la sera.|¿Qué comerán?|Pescado|Pizza|Carne|«Mangeremo il pesce».
+L@A|Che ore saranno? Saranno le otto, credo. Marco sarà già a casa e avrà fame.|¿Qué suposición hacen?|Que Marco ya está en casa|Que Marco llegará mañana|Que Marco no tiene hambre|El futuro expresa suposición: «sarà già a casa».
+E@A|Domani partirò.|¿Qué dice?|Que mañana partirá|Que ayer partió|Que parte ahora|«Partirò» = partiré.
+E@A|Verremo alla tua festa.|¿Qué dice?|Que vendrán a tu fiesta|Que no vendrán|Que ya vinieron|«Verremo» = vendremos.
+E@A|Avrai fame.|¿Qué dice?|Que probablemente tienes hambre|Que tuviste hambre|Que no tienes hambre|El futuro expresa suposición.
+C@A|«Mañana estudiaré.»|Domani studierò.;Domani studiaro.;Domani studio erò.|Futuro de «studiare»: «studierò».
+C@A|«Iremos a Roma.»|Andremo a Roma.;Anderemo a Roma.;Andaremo a Roma.|Futuro irregular: «andremo».
+C@A|«Seré feliz.»|Sarò felice.;Esserò felice.;Sero felice.|Futuro de «essere»: «sarò».
+F@A|L'anno prossimo ___ in Italia. (andare, io)|andrò|Futuro irregular: «andrò».
+L@B|Vorrei un tavolo per due persone, per favore. Potrebbe darmi il menù? Vorremmo anche dell'acqua.|¿Qué piden?|Una mesa para dos, el menú y agua|Una cuenta|Un taxi|«Un tavolo per due… il menù… acqua».
+L@B|Se hai tempo, vieni con noi al lago. Se piove, restiamo a casa. Che ne dici?|¿Qué harán si llueve?|Quedarse en casa|Ir al lago|Cancelar el viaje|«Se piove, restiamo a casa».
+L@B|Sei stanco? Dovresti dormire di più. Io farei una passeggiata e poi andrei a letto presto.|¿Qué consejo da?|Dormir más|Beber café|Trabajar más|«Dovresti dormire di più».
+E@B|Vorrei un caffè, per favore.|¿Qué dice?|Que pide un café con cortesía|Que ya tomó café|Que no quiere café|«Vorrei» = quisiera.
+E@B|Potresti aiutarmi?|¿Qué dice?|Que si podrías ayudarlo|Que ya te ayudó|Que no necesita ayuda|«Potresti» = ¿podrías?
+E@B|Ti andrebbe di venire al cinema?|¿Qué dice?|Que te invita al cine|Que no quiere ir|Que ya fue al cine|«Ti andrebbe di…?» = ¿te gustaría…?
+C@B|«Deberías descansar.»|Dovresti riposare.;Dovrei riposare.;Devi riposare.|Consejo: condizionale «dovresti».
+C@B|«Me gustaría salir.»|Vorrei uscire.;Voglio usciro.;Vorrò uscire.|Cortesía: «vorrei».
+C@B|«Si estás cansado, descansa.»|Se sei stanco, riposa.;Se sei stanco, riposi.;Se sarai stanco, riposo.|«Se» + presente + imperativo.
+F@B|___ un caffè, per favore. (me gustaría)|Vorrei|«Vorrei» pide con cortesía.
+## u16
+L|Mi fa male la testa e ho la febbre. Vado in farmacia e compro delle medicine. Se non passa, chiamo il medico.|¿Qué hará si no se le pasa?|Llamar al médico|Ir a trabajar|Salir a correr|«Se non passa, chiamo il medico».
+L|Dottore, ho mal di gola da tre giorni. Ho anche la tosse. Prenda due compresse al giorno e beva molta acqua.|¿Qué debe hacer el paciente?|Tomar dos pastillas al día|Dormir diez horas|No beber agua|«Prenda due compresse al giorno».
+L|Aiuto! Mio padre sta male. Chiamate l'ambulanza! Il numero è centododici. L'indirizzo è via Roma, numero cinque.|¿Qué número se llama?|112|118|911|El texto dice «centododici».
+E|Mi fa male lo stomaco.|¿Qué dice?|Que le duele el estómago|Que le duele la cabeza|Que no le duele nada|«Lo stomaco» = estómago.
+E|Ho bisogno di un medico.|¿Qué dice?|Que necesita un médico|Que es médico|Que no quiere médico|«Ho bisogno di» = necesito.
+E|Chiami un'ambulanza, per favore!|¿Qué dice?|Que llamen una ambulancia|Que se la llevan|Que no pasa nada|«Chiami» = llame.
+C|«Me duele la cabeza.»|Mi fa male la testa.;Ho male la testa.;Sono male la testa.|«Mi fa male» + parte del cuerpo.
+C|«Tengo fiebre.»|Ho la febbre.;Sono la febbre.;Fa la febbre.|«Avere la febbre».
+C|«Necesito una receta.»|Ho bisogno di una ricetta.;Ho bisogno una ricetta.;Ho bisogno da una ricetta.|«Avere bisogno di».
+F|Mi fa ___ la schiena. (mal)|male|«Mi fa male».
+## u17
+L|Cerco un appartamento in affitto. Ha due camere e un bagno? Quanto costa al mese? Settecento euro, più le spese.|¿Cuánto cuesta al mes?|700 euros más gastos|700 euros todo incluido|1000 euros|«Settecento euro, più le spese».
+L|Il contratto dura un anno. Devo pagare l'affitto entro il cinque del mese. La caparra è di due mesi.|¿Hasta cuándo se paga el alquiler?|Hasta el cinco de cada mes|Hasta el diez|Hasta fin de mes|«Entro il cinque del mese».
+L|Per aprire un conto in banca ho bisogno di un documento e del codice fiscale. Poi compilo un modulo.|¿Qué necesita para abrir una cuenta?|Documento y código fiscal|Solo dinero|Una carta|«Un documento e del codice fiscale».
+E|Cerco una casa in affitto.|¿Qué dice?|Que busca una casa para arrendar|Que vende una casa|Que compra una casa|«In affitto» = para arrendar.
+E|Dove devo firmare?|¿Qué pregunta?|Dónde debe firmar|Dónde debe pagar|Dónde debe esperar|«Firmare» = firmar.
+E|L'affitto è di seicento euro.|¿Qué dice?|Que el alquiler es de 600 euros|Que el alquiler es de 60 euros|Que no hay alquiler|«Seicento» = 600.
+C|«Quisiera ver el departamento.»|Vorrei vedere l'appartamento.;Voglio vedere appartamento.;Vorrei vedo l'appartamento.|«Vorrei» + infinitivo.
+C|«El contrato dura un año.»|Il contratto dura un anno.;Il contratto durare un anno.;Il contratto è un anno.|Verbo conjugado: «dura».
+C|«La caparra» significa…|depósito de garantía;pago mensual;gasto común|«Caparra» = depósito.
+F|Devo pagare l'___. (el alquiler)|affitto|«Affitto» = alquiler.
+## u18
+L|Pronto? Sono Marco. Posso parlare con la signora Bianchi? Mi dispiace, non è in ufficio. Richiama domani.|¿Qué le dicen a Marco?|Que llame mañana|Que espere|Que venga a la oficina|«Richiama domani».
+L|Ciao Anna, scusa il ritardo. Sono nel traffico e arrivo tra dieci minuti. Ci vediamo davanti al cinema. Baci, Luca|¿Dónde se encuentran?|Frente al cine|En su casa|En el tráfico|«Davanti al cinema».
+L|Gentile signor Neri, le scrivo per chiedere informazioni sul corso. Può mandarmi il programma? Cordiali saluti, Elena Conti.|¿Qué pide en el mail?|El programa del curso|Un descuento|La dirección|«Può mandarmi il programma?».
+E|Non ti sento bene.|¿Qué dice?|Que no te oye bien|Que no te ve|Que no te conoce|«Non ti sento» = no te oigo.
+E|Posso richiamare più tardi?|¿Qué pregunta?|Si puede devolver la llamada más tarde|Si puede llamar ahora|Si puede enviar un mensaje|«Richiamare» = volver a llamar.
+E|Ti mando un messaggio.|¿Qué dice?|Que te envía un mensaje|Que no te escribe|Que te llama|«Ti mando» = te envío.
+C|Contestas el teléfono.|Pronto?;Buongiorno!;Prego?|«Pronto?» es la fórmula al contestar.
+C|«Cordiali saluti» va…|al final de un mail formal;al inicio de un mail;en un mensaje de WhatsApp a un amigo|Es una despedida formal.
+C|«Ci sentiamo domani.»|Hablamos mañana;Nos vimos ayer;Nos vemos hoy|«Ci sentiamo» = nos hablamos.
+F|___? Sono Anna. (al teléfono)|Pronto|«Pronto?» se dice al contestar.
+## u19
+L|In Italia si mangia tardi. Di solito si cena alle otto. Si beve il caffè dopo mangiato, ma non si prende il cappuccino.|¿Qué no se toma después de comer?|El capuchino|El café|El té|«Non si prende il cappuccino».
+L|Studio italiano da sei mesi. Abito qui da un anno e lavoro in questa azienda da due anni.|¿Desde hace cuánto estudia italiano?|Seis meses|Un año|Dos años|«Studio italiano da sei mesi».
+L|Sto per uscire, ma il telefono squilla. Sto per rispondere quando smette. Poi esco.|¿Qué estaba a punto de hacer?|Salir|Dormir|Comer|«Sto per uscire».
+E|Qui si parla italiano.|¿Qué dice?|Que aquí se habla italiano|Que aquí habla un italiano|Que no se habla italiano|«Si parla» = se habla.
+E|Aspetto da dieci minuti.|¿Qué dice?|Que espera hace diez minutos|Que esperará diez minutos|Que esperó diez minutos ayer|«Da dieci minuti» = hace diez minutos.
+E|Sto per partire.|¿Qué dice?|Que está por partir|Que acaba de partir|Que no parte|«Sto per» = estoy por.
+C|«Aquí no se fuma.»|Qui non si fuma.;Qui non fuma.;Qui si non fuma.|Impersonal: «si» + verbo.
+C|«Vivo aquí desde hace un año.»|Abito qui da un anno.;Abito qui per un anno.;Ho abitato qui da un anno.|«Da» + presente.
+C|«Estoy por llamar.»|Sto per chiamare.;Sto chiamando per.;Sono per chiamare.|«Stare per» + infinitivo.
+F|In Italia ___ mangia tardi. (se)|si|Impersonal: «si mangia».
+## u20
+L|Prima faccio la spesa, poi cucino. Mentre cucino, ascolto la radio. Alla fine mangio con mia sorella.|¿Qué hace mientras cocina?|Escucha la radio|Hace las compras|Come|«Mentre cucino, ascolto la radio».
+L|Non vengo perché sono stanco, ma domani ci vediamo. Secondo me è una buona idea. Sono d'accordo con te.|¿Por qué no viene?|Porque está cansado|Porque no quiere|Porque está enfermo|«Non vengo perché sono stanco».
+L|Piove, quindi resto a casa. Invece mio fratello esce lo stesso. Che peccato! Voleva venire con noi.|¿Qué hace el hermano?|Sale igual|Se queda en casa|Duerme|«Mio fratello esce lo stesso».
+E|Prima di uscire, chiudo la porta.|¿Qué dice?|Que antes de salir cierra la puerta|Que después de salir cierra|Que no sale|«Prima di uscire».
+E|Secondo me è troppo caro.|¿Qué dice?|Que en su opinión es muy caro|Que es barato|Que no sabe el precio|«Secondo me» = en mi opinión.
+E|Mi ha detto che era stanco.|¿Qué dice?|Que le dijo que estaba cansado|Que está cansado ahora|Que no dijo nada|«Ha detto che» = dijo que.
+C|«Luego cocino.»|Poi cucino.;Prima cucino.;Mentre cucino.|«Poi» = luego.
+C|«Estoy de acuerdo.»|Sono d'accordo.;Ho d'accordo.;Sono accordo.|«Essere d'accordo».
+C|«¡Qué pena!»|Che peccato!;Che peccata!;Che pena!|Expresión fija.
+F|Non esco ___ piove. (porque)|perché|«Perché» = porque.
+## u24
+L|L'anno scorso sono andata in Italia con un'amica. Faceva caldo e il cielo era azzurro. Abbiamo visitato Roma e Firenze. Penso che sia stata un'esperienza bellissima.|¿Cómo fue el cielo?|Azul|Nublado|Gris|«Il cielo era azzurro».
+L|Domani parto per Napoli. Vorrei prenotare una camera per due notti. Se avessi più tempo, resterei una settimana.|¿Cuántas noches reserva?|Dos|Siete|Una|«Una camera per due notti».
+L|Quando ero piccolo, abitavo a Roma. Ora abito a Santiago e studio italiano. Spero di tornare in Italia l'anno prossimo.|¿Qué espera hacer?|Volver a Italia|Quedarse en Santiago|Ir a Madrid|«Spero di tornare in Italia».
+E|Sono stato a Milano due volte.|¿Qué dice?|Que estuvo en Milán dos veces|Que vive en Milán|Que irá a Milán|«Sono stato» = estuve.
+E|Spero che voi stiate bene.|¿Qué dice?|Que espera que ustedes estén bien|Que sabe que estás bien|Que no espera nada|«Spero che» + congiuntivo.
+E|Se avessi tempo, viaggerei di più.|¿Qué dice?|Que si tuviera tiempo viajaría más|Que viaja mucho|Que no quiere viajar|Hipótesis irreal.
+C|«Ayer fui al mercado.»|Ieri sono andato al mercato.;Ieri ho andato al mercato.;Ieri andavo al mercato.|Hecho concreto con «andare»: essere.
+C|«Cuando era niño, jugaba.»|Da bambino giocavo.;Da bambino ho giocato.;Da bambino giocherò.|Hábito del pasado: imperfetto.
+C|«Pienso que es verdad.»|Penso che sia vero.;Penso che è vero.;Penso che sarà vero.|«Penso che» + congiuntivo.
+F|Ieri ___ andato al cinema. (yo, masculino)|sono|Con «andare»: «sono andato».
+## u21
+L|Mi presti la penna? Sì, te la presto. Me la dai domani? Certo, te la do domani.|¿Cuándo se la da?|Mañana|Hoy|Ayer|«Te la do domani».
+L|Marco vuole il mio libro. Glielo do domani. Poi gli presto anche il quaderno: glielo porto lunedì.|¿Cuándo le lleva el cuaderno?|El lunes|Mañana|El martes|«Glielo porto lunedì».
+L|Hai mandato la lettera a Giulia? Sì, gliel'ho mandata ieri. Me l'ha detto lei che l'ha ricevuta.|¿Cuándo la mandó?|Ayer|Hoy|Mañana|«Gliel'ho mandata ieri».
+E|Me lo dici domani?|¿Qué dice?|Que le pide que se lo diga mañana|Que ya se lo dijo|Que no quiere saberlo|«Me lo» = a mí, eso.
+E|Te la mando stasera.|¿Qué dice?|Que te la envía esta noche|Que no te la envía|Que te la envió ayer|«Te la mando».
+E|Glielo spiego io.|¿Qué dice?|Que se lo explica él mismo|Que no lo explica|Que se lo explicaron|«Glielo» = a él/ella, eso.
+C|«Te lo doy.»|Te lo do.;Ti lo do.;Lo te do.|«Ti» + «lo» = «te lo».
+C|«Se lo digo a ella.»|Glielo dico.;Gliela dico.;Lo le dico.|«Glielo» une le + lo.
+C|«Me la presta.»|Me la presta.;Mi la presta.;La mi presta.|«Mi» + «la» = «me la».
+F|Ti serve la mia giacca? ___ presto domani. (te la)|Te la|«Te la presto».
+## u22
+L|Penso che Marco sia in ritardo. Spero che arrivi presto. Credo che abbia un problema con il treno.|¿Qué espera la persona?|Que llegue pronto|Que no llegue|Que llame|«Spero che arrivi presto».
+L|È importante che voi studiate ogni giorno. Voglio che impariate bene. Non credo che sia difficile.|¿Qué quiere la persona?|Que aprendan bien|Que estudien menos|Que no estudien|«Voglio che impariate bene».
+L|Dubito che Luca venga domani. Mi sembra che sia occupato. Spero che stia bene.|¿Qué espera de Luca?|Que esté bien|Que venga|Que llame|«Spero che stia bene».
+E|Penso che sia vero.|¿Qué dice?|Que piensa que es verdad|Que sabe que es verdad|Que no piensa nada|«Penso che sia».
+E|Voglio che tu venga.|¿Qué dice?|Que quiere que vengas|Que quiere ir|Que no quiere que vengas|«Voglio che tu venga».
+E|Spero che piova domani.|¿Qué dice?|Que espera que llueva mañana|Que llueve hoy|Que no espera lluvia|«Spero che piova».
+C|«Creo que él tiene razón.»|Credo che lui abbia ragione.;Credo che lui ha ragione.;Credo che lui avesse ragione.|«Credo che» + congiuntivo.
+C|«Quiero que ustedes lleguen.»|Voglio che arriviate.;Voglio che arrivate.;Voglio arrivate.|«Voglio che» + congiuntivo.
+C|¿Qué significa «che sia»?|que sea;que es;que será|«Sia» = sea (congiuntivo de essere).
+F|Penso che lei ___ a casa. (essere)|sia|«Sia» de «essere».
+## u23
+L|Se avessi tempo, viaggerei di più. Se fossi ricco, comprerei una casa al mare. Ma ora lavoro e non ho tempo.|¿Qué compraría si fuera rico?|Una casa en el mar|Un auto|Un barco|«Comprerei una casa al mare».
+L|Se Marco studiasse di più, passerebbe l'esame. Ma non studia e quindi forse non lo passerà.|¿Qué pasaría si Marco estudiara más?|Pasaría el examen|Perdería el examen|No haría nada|«Passerebbe l'esame».
+L|Se potessi, resterei qui per sempre. Se fossi in te, andrei dal medico. Se avessi un consiglio, direi: riposa.|¿Qué haría la persona en lugar del otro?|Ir al médico|Quedarse|Trabajar|«Se fossi in te, andrei dal medico».
+E|Se avessi più tempo, verrei volentieri.|¿Qué dice?|Que si tuviera más tiempo vendría con gusto|Que viene siempre|Que no vendrá nunca|«Se avessi… verrei».
+E|Se fossi ricco, viaggerei molto.|¿Qué dice?|Que si fuera rico viajaría mucho|Que es rico|Que viaja siempre|«Se fossi… viaggerei».
+E|Se piove, resto a casa.|¿Qué dice?|Que si llueve se queda en casa|Que si lloviera se quedaría|Que no sale nunca|Con «se» + presente la hipótesis es real.
+C|«Si tuviera dinero, viajaría.»|Se avessi soldi, viaggerei.;Se avrei soldi, viaggerei.;Se ho soldi, viaggerei.|Congiuntivo imperfetto + condizionale.
+C|«Si pudiera, iría.»|Se potessi, andrei.;Se potrei, andrei.;Se posso, andrei.|Nunca condizionale después de «se».
+C|¿Cuál es el congiuntivo imperfetto de «essere» (io)?|fossi;sia;sarei|«Fossi» = fuera.
+F|Se ___ tempo, viaggerei. (avere, io)|avessi|Congiuntivo imperfetto: «avessi».

@@ -1,0 +1,4108 @@
+{
+ "u25": {
+  "lectura": [
+   {
+    "text": "Aula due. Lezione: martedì, ore dieci. Portate un quaderno. Se non capite, chiedete: «Come si dice?».",
+    "q": "¿Qué hay que hacer si no se entiende una palabra?",
+    "options": [
+     "Preguntar «Come si dice?»",
+     "Llevar un cuaderno",
+     "Esperar hasta el martes"
+    ],
+    "answer": 0,
+    "why": "El texto indica preguntar «Come si dice?»."
+   },
+   {
+    "text": "Ciao! Mi chiamo Paolo. Il mio cognome è Neri: enne, e, erre, i. Parlo piano.",
+    "q": "¿Cómo habla Paolo?",
+    "options": [
+     "Muy rápido",
+     "Despacio",
+     "En voz baja y rápido"
+    ],
+    "answer": 1,
+    "why": "«Parlo piano» significa hablo despacio."
+   },
+   {
+    "text": "Scusi, può ripetere? Non capisco bene. Parla più piano, per favore. Grazie mille!",
+    "q": "¿Qué pide la persona?",
+    "options": [
+     "Que escriban su nombre",
+     "Que le den un cuaderno",
+     "Que hablen más despacio"
+    ],
+    "answer": 2,
+    "why": "«Parla più piano» = hable más despacio."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Come si scrive il tuo cognome?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Cómo se escribe tu apellido",
+     "Cómo te llamas",
+     "Dónde vives"
+    ],
+    "answer": 0,
+    "why": "«Come si scrive» pregunta por la ortografía."
+   },
+   {
+    "it": "Non capisco, può ripetere?",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que entiende todo",
+     "Que no entiende y pide repetir",
+     "Que quiere un café"
+    ],
+    "answer": 1,
+    "why": "«Non capisco» = no entiendo; «può ripetere» = ¿puede repetir?"
+   },
+   {
+    "it": "Mi chiamo Giulia, piacere.",
+    "q": "¿Qué dice la persona?",
+    "options": [
+     "Se despide",
+     "Pide ayuda",
+     "Se presenta"
+    ],
+    "answer": 2,
+    "why": "«Mi chiamo… piacere» es una presentación."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "¿Cómo dices «No entiendo»?",
+    "options": [
+     "Non capisco",
+     "Non capire",
+     "Io no capisco"
+    ],
+    "answer": 0,
+    "why": "La negación va antes del verbo conjugado: «Non capisco»."
+   },
+   {
+    "type": "choice",
+    "prompt": "Para pedir a alguien formal que repita dices…",
+    "options": [
+     "Scusi, puoi ripetere?",
+     "Scusi, può ripetere?",
+     "Scusi, può ripetire?"
+    ],
+    "answer": 1,
+    "why": "Con «Scusi» se usa la forma de cortesía «può»."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ciao, ___ chiamo Anna. (me)",
+    "answers": [
+     "mi"
+    ],
+    "why": "«Mi chiamo» = me llamo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Come ___ scrive il tuo nome? (impersonal)",
+    "answers": [
+     "si"
+    ],
+    "why": "«Come si scrive…?» pregunta cómo se escribe."
+   }
+  ]
+ },
+ "u01": {
+  "lectura": [
+   {
+    "text": "Buongiorno, signora Rossi! Come sta? Bene, grazie, e Lei? Anch'io sto bene.",
+    "q": "¿Cómo tratan las dos personas a la señora Rossi?",
+    "options": [
+     "De tu, con confianza",
+     "Por el nombre de pila",
+     "De Lei, con cortesía"
+    ],
+    "answer": 2,
+    "why": "«Come sta?» y «Lei» son formas de cortesía."
+   },
+   {
+    "text": "Ciao, Marco! Come stai? Così così, sono stanco. Tu sei di Roma? No, sono di Milano.",
+    "q": "¿De dónde es Marco?",
+    "options": [
+     "De Milán",
+     "De Roma",
+     "De Santiago"
+    ],
+    "answer": 0,
+    "why": "Marco responde «sono di Milano»."
+   },
+   {
+    "text": "Lei è la dottoressa Costa. È italiana. Io sono cileno e sono di Santiago.",
+    "q": "¿De dónde es el hablante?",
+    "options": [
+     "De Roma",
+     "De Santiago de Chile",
+     "De Milán"
+    ],
+    "answer": 1,
+    "why": "«Io sono cileno e sono di Santiago»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Buonasera, come sta?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Dónde vive usted",
+     "Cómo se llama usted",
+     "Cómo está usted"
+    ],
+    "answer": 2,
+    "why": "«Come sta?» es la pregunta de cortesía."
+   },
+   {
+    "it": "Sei italiano o cileno?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Si es italiano o chileno",
+     "Cuántos años tiene",
+     "Dónde trabaja"
+    ],
+    "answer": 0,
+    "why": "«Sei… o…?» ofrece dos opciones de nacionalidad."
+   },
+   {
+    "it": "Noi siamo di Napoli.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que van a Nápoles",
+     "Que son de Nápoles",
+     "Que no son de Nápoles"
+    ],
+    "answer": 1,
+    "why": "«Siamo di Napoli» = somos de Nápoles."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "Con un desconocido mayor preguntas…",
+    "options": [
+     "Come stai?",
+     "Come sto?",
+     "Come sta?"
+    ],
+    "answer": 2,
+    "why": "Con desconocidos se usa Lei: «Come sta?»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Ellos son chilenos.»",
+    "options": [
+     "Loro sono cileni.",
+     "Loro siamo cileni.",
+     "Loro è cileni."
+    ],
+    "answer": 0,
+    "why": "Con loro, el verbo es «sono»."
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Qué significa «Piacere!» al conocer a alguien?",
+    "options": [
+     "Gracias",
+     "Mucho gusto",
+     "Adiós"
+    ],
+    "answer": 1,
+    "why": "«Piacere» = mucho gusto."
+   },
+   {
+    "type": "fill",
+    "prompt": "Tu ___ italiano? (ser)",
+    "answers": [
+     "sei"
+    ],
+    "why": "Con «tu»: «sei»."
+   }
+  ]
+ },
+ "u02": {
+  "lectura": [
+   {
+    "text": "In classe ci sono un tavolo, una sedia e due studenti. Il professore ha un libro rosso.",
+    "q": "¿Cuántos estudiantes hay?",
+    "options": [
+     "Uno",
+     "Tres",
+     "Dos"
+    ],
+    "answer": 2,
+    "why": "«Due studenti».",
+    "part": "A"
+   },
+   {
+    "text": "Nella mia casa c'è una cucina e ci sono tre camere. Io ho due fratelli.",
+    "q": "¿Cuántas habitaciones hay?",
+    "options": [
+     "Tres",
+     "Dos",
+     "Una"
+    ],
+    "answer": 0,
+    "why": "«Ci sono tre camere».",
+    "part": "A"
+   },
+   {
+    "text": "Marta ha un cane e due gatti. Non ha una macchina. Ha una bicicletta.",
+    "q": "¿Qué NO tiene Marta?",
+    "options": [
+     "Un perro",
+     "Un auto",
+     "Una bicicleta"
+    ],
+    "answer": 1,
+    "why": "«Non ha una macchina».",
+    "part": "A"
+   },
+   {
+    "text": "Mi piace la pizza. Non mi piacciono gli spaghetti. Mi piace anche il caffè.",
+    "q": "¿Qué NO le gusta?",
+    "options": [
+     "La pizza",
+     "El café",
+     "Los espaguetis"
+    ],
+    "answer": 2,
+    "why": "«Non mi piacciono gli spaghetti».",
+    "part": "B"
+   },
+   {
+    "text": "Alla festa ci sono due uomini e tre donne. Le donne parlano con gli amici.",
+    "q": "¿Cuántas mujeres hay?",
+    "options": [
+     "Tres",
+     "Dos",
+     "Cinco"
+    ],
+    "answer": 0,
+    "why": "«Tre donne».",
+    "part": "B"
+   },
+   {
+    "text": "Laura: «Ti piace il cinema?» Luca: «Sì, mi piace molto. Mi piacciono i film italiani.»",
+    "q": "¿Qué le gusta a Luca?",
+    "options": [
+     "Solo el teatro",
+     "El cine y las películas italianas",
+     "Nada"
+    ],
+    "answer": 1,
+    "why": "Luca dice que le gusta mucho el cine.",
+    "part": "B"
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Nella stanza c'è una lampada.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que hay dos lámparas",
+     "Que no hay lámpara",
+     "Que en la habitación hay una lámpara"
+    ],
+    "answer": 2,
+    "why": "«C'è» introduce un singular.",
+    "part": "A"
+   },
+   {
+    "it": "Ci sono molti studenti.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que hay muchos estudiantes",
+     "Que hay un estudiante",
+     "Que no hay estudiantes"
+    ],
+    "answer": 0,
+    "why": "«Ci sono» introduce un plural.",
+    "part": "A"
+   },
+   {
+    "it": "Ho una sorella e due fratelli.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que tiene dos hermanas",
+     "Que tiene una hermana y dos hermanos",
+     "Que no tiene hermanos"
+    ],
+    "answer": 1,
+    "why": "«Ho una sorella e due fratelli».",
+    "part": "A"
+   },
+   {
+    "it": "Mi piace il gelato.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que no le gusta el helado",
+     "Que quiere comprar helado",
+     "Que le gusta el helado"
+    ],
+    "answer": 2,
+    "why": "«Mi piace» + singular.",
+    "part": "B"
+   },
+   {
+    "it": "Non mi piacciono i cani.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que no le gustan los perros",
+     "Que le gustan los perros",
+     "Que tiene un perro"
+    ],
+    "answer": 0,
+    "why": "«Non mi piacciono» + plural.",
+    "part": "B"
+   },
+   {
+    "it": "Ti piace la musica italiana?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Si tocas música",
+     "Si te gusta la música italiana",
+     "Si compras discos"
+    ],
+    "answer": 1,
+    "why": "«Ti piace…?» = ¿te gusta…?",
+    "part": "B"
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Hay un libro sobre la mesa.»",
+    "options": [
+     "Ci sono un libro sul tavolo.",
+     "C'è uno libro sul tavolo.",
+     "C'è un libro sul tavolo."
+    ],
+    "answer": 2,
+    "why": "Singular: «c'è».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Qué artículo va con «zaino»?",
+    "options": [
+     "uno zaino",
+     "un zaino",
+     "una zaino"
+    ],
+    "answer": 0,
+    "why": "Con z- se usa «uno».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cuál es el plural de «amico»?",
+    "options": [
+     "amiche",
+     "amici",
+     "amicos"
+    ],
+    "answer": 1,
+    "why": "Los masculinos en -o hacen plural en -i.",
+    "part": "A"
+   },
+   {
+    "type": "fill",
+    "prompt": "Noi ___ due figli. (avere)",
+    "answers": [
+     "abbiamo"
+    ],
+    "why": "«Noi abbiamo».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Me gustan los libros.»",
+    "options": [
+     "Mi piace i libri.",
+     "Mi piacciono il libro.",
+     "Mi piacciono i libri."
+    ],
+    "answer": 2,
+    "why": "Plural: «piacciono».",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cuál es el plural de «uomo»?",
+    "options": [
+     "uomini",
+     "uomi",
+     "uomos"
+    ],
+    "answer": 0,
+    "why": "Plural irregular: «uomini».",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cuál es el plural de «amica»?",
+    "options": [
+     "amice",
+     "amiche",
+     "amichi"
+    ],
+    "answer": 1,
+    "why": "Los femeninos en -ca hacen plural en -che.",
+    "part": "B"
+   },
+   {
+    "type": "fill",
+    "prompt": "Mi ___ la musica. (gustar, singular)",
+    "answers": [
+     "piace"
+    ],
+    "why": "Con un singular: «piace».",
+    "part": "B"
+   }
+  ]
+ },
+ "u03": {
+  "lectura": [
+   {
+    "text": "Sono le otto e mezza. Il treno parte alle nove meno un quarto. Abbiamo ancora venti minuti.",
+    "q": "¿A qué hora sale el tren?",
+    "options": [
+     "A las nueve y media",
+     "A las ocho y media",
+     "A las nueve menos cuarto"
+    ],
+    "answer": 2,
+    "why": "«Alle nove meno un quarto».",
+    "part": "A"
+   },
+   {
+    "text": "Il negozio apre alle nove e chiude alle diciannove. A mezzogiorno è chiuso.",
+    "q": "¿A qué hora cierra el negocio?",
+    "options": [
+     "A las diecinueve",
+     "A las nueve",
+     "Al mediodía"
+    ],
+    "answer": 0,
+    "why": "«Chiude alle diciannove».",
+    "part": "A"
+   },
+   {
+    "text": "Luca ha ventitré anni. Sua sorella ne ha quindici. La nonna ha ottant'anni.",
+    "q": "¿Cuántos años tiene la hermana?",
+    "options": [
+     "Veintitrés",
+     "Quince",
+     "Ochenta"
+    ],
+    "answer": 1,
+    "why": "«Ne ha quindici».",
+    "part": "A"
+   },
+   {
+    "text": "Oggi è lunedì, il dodici marzo. Il mio compleanno è il ventitré aprile. Pago il biglietto dieci euro.",
+    "q": "¿Cuándo es el cumpleaños?",
+    "options": [
+     "El 12 de marzo",
+     "El 23 de marzo",
+     "El 23 de abril"
+    ],
+    "answer": 2,
+    "why": "«Il ventitré aprile».",
+    "part": "B"
+   },
+   {
+    "text": "Il caffè costa un euro e venti. Il cornetto costa un euro e cinquanta. Pago due euro e settanta in tutto.",
+    "q": "¿Cuánto cuesta el cornetto?",
+    "options": [
+     "Un euro con cincuenta",
+     "Un euro con veinte",
+     "Dos euros con setenta"
+    ],
+    "answer": 0,
+    "why": "«Un euro e cinquanta».",
+    "part": "B"
+   },
+   {
+    "text": "Il corso comincia a settembre e finisce a giugno. Le lezioni sono il martedì e il giovedì.",
+    "q": "¿Qué días hay clase?",
+    "options": [
+     "Lunes y miércoles",
+     "Martes y jueves",
+     "Solo martes"
+    ],
+    "answer": 1,
+    "why": "«Il martedì e il giovedì».",
+    "part": "B"
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Sono le tre e dieci.",
+    "q": "¿Qué hora es?",
+    "options": [
+     "Las diez y tres",
+     "Las tres menos diez",
+     "Las tres y diez"
+    ],
+    "answer": 2,
+    "why": "«Le tre e dieci».",
+    "part": "A"
+   },
+   {
+    "it": "Ho quarantasette anni.",
+    "q": "¿Cuántos años tiene?",
+    "options": [
+     "Cuarenta y siete",
+     "Cuarenta y cuatro",
+     "Cincuenta y siete"
+    ],
+    "answer": 0,
+    "why": "«Quarantasette» = 47.",
+    "part": "A"
+   },
+   {
+    "it": "Il film comincia alle sette meno un quarto.",
+    "q": "¿A qué hora empieza?",
+    "options": [
+     "A las siete y cuarto",
+     "A las siete menos cuarto",
+     "A las seis"
+    ],
+    "answer": 1,
+    "why": "«Meno un quarto» = menos cuarto.",
+    "part": "A"
+   },
+   {
+    "it": "Il primo gennaio è festa.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que el 1 de enero hay clase",
+     "Que el primero de mayo es feriado",
+     "Que el 1 de enero es feriado"
+    ],
+    "answer": 2,
+    "why": "«Il primo gennaio».",
+    "part": "B"
+   },
+   {
+    "it": "Quanto costa? Cinque euro.",
+    "q": "¿Cuánto cuesta?",
+    "options": [
+     "Cinco euros",
+     "Cincuenta euros",
+     "Quince euros"
+    ],
+    "answer": 0,
+    "why": "«Cinque euro».",
+    "part": "B"
+   },
+   {
+    "it": "Domani è venerdì.",
+    "q": "¿Qué día es mañana?",
+    "options": [
+     "Domingo",
+     "Viernes",
+     "Jueves"
+    ],
+    "answer": 1,
+    "why": "«Venerdì» = viernes.",
+    "part": "B"
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "¿Cómo dices «las dos y media»?",
+    "options": [
+     "È le due e mezza.",
+     "Sono la due e mezza.",
+     "Sono le due e mezza."
+    ],
+    "answer": 2,
+    "why": "Con 2 o más: «sono le…».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Es la una.»",
+    "options": [
+     "È l'una.",
+     "Sono l'una.",
+     "Sono le una."
+    ],
+    "answer": 0,
+    "why": "La una es singular: «è l'una».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Qué número es «sessantotto»?",
+    "options": [
+     "86",
+     "68",
+     "78"
+    ],
+    "answer": 1,
+    "why": "«Sessanta» + «otto» = 68.",
+    "part": "A"
+   },
+   {
+    "type": "fill",
+    "prompt": "Sono ___ cinque. (las)",
+    "answers": [
+     "le"
+    ],
+    "why": "«Sono le cinque».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«El 5 de mayo»",
+    "options": [
+     "cinque il maggio",
+     "il maggio cinque",
+     "il cinque maggio"
+    ],
+    "answer": 2,
+    "why": "Primero el día, luego el mes.",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cómo preguntas el precio?",
+    "options": [
+     "Quanto costa?",
+     "Quanti costa?",
+     "Come costa?"
+    ],
+    "answer": 0,
+    "why": "«Quanto costa?» = ¿cuánto cuesta?",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Qué mes es «agosto»?",
+    "options": [
+     "Octubre",
+     "Agosto",
+     "Abril"
+    ],
+    "answer": 1,
+    "why": "«Agosto» = agosto.",
+    "part": "B"
+   },
+   {
+    "type": "fill",
+    "prompt": "Oggi è ___. (martes)",
+    "answers": [
+     "martedì"
+    ],
+    "why": "Martes se escribe «martedì», con tilde.",
+    "part": "B"
+   }
+  ]
+ },
+ "u04": {
+  "lectura": [
+   {
+    "text": "Voglio un caffè, ma non posso: devo lavorare. Alle sei posso uscire. Allora vorrei una birra.",
+    "q": "¿Por qué no puede tomar café ahora?",
+    "options": [
+     "Porque no le gusta",
+     "Porque no hay café",
+     "Porque tiene que trabajar"
+    ],
+    "answer": 2,
+    "why": "«Devo lavorare» = tengo que trabajar."
+   },
+   {
+    "text": "Giulia lavora in una banca. Esce alle cinque, prende l'autobus e torna a casa. La sera guarda la televisione.",
+    "q": "¿Qué hace Giulia por la noche?",
+    "options": [
+     "Mira televisión",
+     "Trabaja en el banco",
+     "Toma el autobús"
+    ],
+    "answer": 0,
+    "why": "«La sera guarda la televisione»."
+   },
+   {
+    "text": "Io mangio pasta, tu mangi pizza e lui mangia pesce. Noi beviamo acqua. Loro bevono vino.",
+    "q": "¿Qué beben ellos?",
+    "options": [
+     "Agua",
+     "Vino",
+     "Café"
+    ],
+    "answer": 1,
+    "why": "«Loro bevono vino»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Vorrei un tè, per favore.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que no quiere té",
+     "Que ya tomó té",
+     "Que quiere un té"
+    ],
+    "answer": 2,
+    "why": "«Vorrei» = quisiera."
+   },
+   {
+    "it": "Non posso venire domani.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que no puede venir mañana",
+     "Que no quiere venir",
+     "Que debe venir"
+    ],
+    "answer": 0,
+    "why": "«Non posso» = no puedo."
+   },
+   {
+    "it": "Dobbiamo studiare molto.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que quieren estudiar",
+     "Que deben estudiar mucho",
+     "Que no estudian"
+    ],
+    "answer": 1,
+    "why": "«Dobbiamo» = debemos."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Ellos quieren salir.»",
+    "options": [
+     "Loro vuole uscire.",
+     "Loro volete uscire.",
+     "Loro vogliono uscire."
+    ],
+    "answer": 2,
+    "why": "Con loro: «vogliono»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Tú puedes ayudarme.»",
+    "options": [
+     "Puoi aiutarmi.",
+     "Può aiutarmi tu.",
+     "Posso aiutarmi."
+    ],
+    "answer": 0,
+    "why": "Con tu: «puoi»."
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cuál es la forma de cortesía?",
+    "options": [
+     "Voglio un caffè.",
+     "Vorrei un caffè.",
+     "Io caffè."
+    ],
+    "answer": 1,
+    "why": "«Vorrei» es más amable que «voglio»."
+   },
+   {
+    "type": "fill",
+    "prompt": "Noi ___ studiare. (deber)",
+    "answers": [
+     "dobbiamo"
+    ],
+    "why": "«Noi dobbiamo»."
+   }
+  ]
+ },
+ "u05": {
+  "lectura": [
+   {
+    "text": "Vado in banca alle nove. Poi torno a casa a piedi. Alle tre vado dal medico con mia sorella.",
+    "q": "¿Adónde va a las tres?",
+    "options": [
+     "Al banco",
+     "A la casa",
+     "Al médico"
+    ],
+    "answer": 2,
+    "why": "«Vado dal medico».",
+    "part": "A"
+   },
+   {
+    "text": "Oggi esco con gli amici. Andiamo al cinema e poi in pizzeria. Domani vengo da te.",
+    "q": "¿Adónde irá mañana?",
+    "options": [
+     "A casa de la otra persona",
+     "Al cine",
+     "A la pizzería"
+    ],
+    "answer": 0,
+    "why": "«Vengo da te» = voy a tu casa.",
+    "part": "A"
+   },
+   {
+    "text": "Il treno per Roma parte dal binario cinque. Io vado a Roma in treno, mia madre va in macchina.",
+    "q": "¿Cómo va la madre a Roma?",
+    "options": [
+     "En tren",
+     "En auto",
+     "A pie"
+    ],
+    "answer": 1,
+    "why": "«Mia madre va in macchina».",
+    "part": "A"
+   },
+   {
+    "text": "Cerco una camera per due notti. Voglio il burro per la colazione. Il caffè è molto caldo.",
+    "q": "¿Qué busca para el desayuno?",
+    "options": [
+     "Una habitación",
+     "Café frío",
+     "Mantequilla"
+    ],
+    "answer": 2,
+    "why": "«Burro» es mantequilla, no el animal.",
+    "part": "B"
+   },
+   {
+    "text": "Per andare alla stazione vai dritto, poi giri a destra. La stazione è in fondo alla strada.",
+    "q": "¿Dónde gira?",
+    "options": [
+     "A la derecha",
+     "A la izquierda",
+     "Sigue derecho"
+    ],
+    "answer": 0,
+    "why": "«Giri a destra» = giras a la derecha.",
+    "part": "B"
+   },
+   {
+    "text": "Scusi, dov'è la farmacia? È qui vicino: va a sinistra e poi sempre dritto, circa cento metri.",
+    "q": "¿Dónde queda la farmacia?",
+    "options": [
+     "Lejos, a la derecha",
+     "Cerca, a la izquierda y derecho",
+     "En la estación"
+    ],
+    "answer": 1,
+    "why": "«Qui vicino» = aquí cerca.",
+    "part": "B"
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Vado a scuola in bicicletta.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que va a pie",
+     "Que viene del colegio",
+     "Que va al colegio en bicicleta"
+    ],
+    "answer": 2,
+    "why": "«In bicicletta» = en bicicleta.",
+    "part": "A"
+   },
+   {
+    "it": "Vengo dal supermercato.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que viene del supermercado",
+     "Que va al supermercado",
+     "Que trabaja allí"
+    ],
+    "answer": 0,
+    "why": "«Dal» = del (lugar de origen).",
+    "part": "A"
+   },
+   {
+    "it": "Domani andiamo al mare.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que ayer fueron a la playa",
+     "Que mañana van a la playa",
+     "Que no van"
+    ],
+    "answer": 1,
+    "why": "«Al mare» = a la playa.",
+    "part": "A"
+   },
+   {
+    "it": "Gira a destra e poi vai dritto.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que gires a la izquierda",
+     "Que te detengas",
+     "Que gires a la derecha y sigas derecho"
+    ],
+    "answer": 2,
+    "why": "«A destra» = a la derecha.",
+    "part": "B"
+   },
+   {
+    "it": "La camera è al secondo piano.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que la habitación está en el segundo piso",
+     "Que la cámara está rota",
+     "Que el segundo piso está cerrado"
+    ],
+    "answer": 0,
+    "why": "«Camera» = habitación.",
+    "part": "B"
+   },
+   {
+    "it": "Dov'è la fermata dell'autobus?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "A qué hora pasa el autobús",
+     "Dónde está la parada del autobús",
+     "Cuánto cuesta el autobús"
+    ],
+    "answer": 1,
+    "why": "«Dov'è» = ¿dónde está?",
+    "part": "B"
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Voy a Roma.»",
+    "options": [
+     "Vado in Roma.",
+     "Vado da Roma.",
+     "Vado a Roma."
+    ],
+    "answer": 2,
+    "why": "Con ciudades se usa «a».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Voy a casa de Marco.»",
+    "options": [
+     "Vado da Marco.",
+     "Vado a Marco.",
+     "Vado in Marco."
+    ],
+    "answer": 0,
+    "why": "Con personas se usa «da».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Del banco» se dice…",
+    "options": [
+     "della banca",
+     "dalla banca",
+     "alla banca"
+    ],
+    "answer": 1,
+    "why": "Da + la = dalla.",
+    "part": "A"
+   },
+   {
+    "type": "fill",
+    "prompt": "Vado ___ cinema. (al)",
+    "answers": [
+     "al"
+    ],
+    "why": "A + il = al.",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«¿Dónde está el banco?»",
+    "options": [
+     "Dove è banca?",
+     "Dov'è il banca?",
+     "Dov'è la banca?"
+    ],
+    "answer": 2,
+    "why": "«Dov'è» + artículo.",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "«A la izquierda»",
+    "options": [
+     "a sinistra",
+     "a sinistro",
+     "in sinistra"
+    ],
+    "answer": 0,
+    "why": "«A sinistra».",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Burro» en italiano significa…",
+    "options": [
+     "burro",
+     "mantequilla",
+     "pan"
+    ],
+    "answer": 1,
+    "why": "Falso amigo: «burro» = mantequilla.",
+    "part": "B"
+   },
+   {
+    "type": "fill",
+    "prompt": "Gira a ___ e poi vai dritto. (derecha)",
+    "answers": [
+     "destra"
+    ],
+    "why": "«A destra» = a la derecha.",
+    "part": "B"
+   }
+  ]
+ },
+ "u06": {
+  "lectura": [
+   {
+    "text": "Questa è mia sorella Elena. Quei ragazzi sono i suoi amici. Il suo ragazzo si chiama Davide.",
+    "q": "¿Quién es Davide?",
+    "options": [
+     "El hermano de Elena",
+     "Un amigo del hablante",
+     "El novio de Elena"
+    ],
+    "answer": 2,
+    "why": "«Il suo ragazzo» = su novio.",
+    "part": "A"
+   },
+   {
+    "text": "Questo è il mio telefono, quello è il tuo. I miei libri sono sul tavolo, i tuoi sono nella borsa.",
+    "q": "¿Dónde están los libros del hablante?",
+    "options": [
+     "Sobre la mesa",
+     "En la cartera",
+     "En el teléfono"
+    ],
+    "answer": 0,
+    "why": "«I miei libri sono sul tavolo».",
+    "part": "A"
+   },
+   {
+    "text": "Mio padre lavora a Milano. Mia madre è in pensione. I nostri nonni abitano a Napoli.",
+    "q": "¿Dónde viven los abuelos?",
+    "options": [
+     "En Milán",
+     "En Nápoles",
+     "En Roma"
+    ],
+    "answer": 1,
+    "why": "«I nostri nonni abitano a Napoli».",
+    "part": "A"
+   },
+   {
+    "text": "Ho una giacca nera e una camicia bianca. I pantaloni sono blu. Cerco una taglia media.",
+    "q": "¿De qué color es la chaqueta?",
+    "options": [
+     "Blanca",
+     "Azul",
+     "Negra"
+    ],
+    "answer": 2,
+    "why": "«Una giacca nera».",
+    "part": "B"
+   },
+   {
+    "text": "Questa gonna è troppo corta, ma le scarpe sono comode e belle. Prendo le scarpe, non la gonna.",
+    "q": "¿Qué compra?",
+    "options": [
+     "Los zapatos",
+     "La falda",
+     "Las dos cosas"
+    ],
+    "answer": 0,
+    "why": "«Prendo le scarpe».",
+    "part": "B"
+   },
+   {
+    "text": "Marco è alto e magro. Ha i capelli corti e gli occhi verdi. Porta un cappotto grigio.",
+    "q": "¿Cómo tiene los ojos Marco?",
+    "options": [
+     "Grises",
+     "Verdes",
+     "Cortos"
+    ],
+    "answer": 1,
+    "why": "«Gli occhi verdi».",
+    "part": "B"
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Questa è la mia macchina.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que ese es tu auto",
+     "Que es el auto de ella",
+     "Que ese es su auto"
+    ],
+    "answer": 2,
+    "why": "«La mia» = mi.",
+    "part": "A"
+   },
+   {
+    "it": "Quel libro è tuo?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Si ese libro es tuyo",
+     "Si quiere comprar el libro",
+     "Dónde está el libro"
+    ],
+    "answer": 0,
+    "why": "«Tuo» = tuyo.",
+    "part": "A"
+   },
+   {
+    "it": "I nostri amici sono qui.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que sus amigos están aquí",
+     "Que nuestros amigos están aquí",
+     "Que mis amigos no están"
+    ],
+    "answer": 1,
+    "why": "«I nostri» = nuestros.",
+    "part": "A"
+   },
+   {
+    "it": "Ha gli occhi azzurri.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que tiene los ojos negros",
+     "Que tiene el pelo azul",
+     "Que tiene los ojos azules"
+    ],
+    "answer": 2,
+    "why": "«Azzurri» = azules (claro).",
+    "part": "B"
+   },
+   {
+    "it": "Vorrei una taglia più grande.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que quiere una talla más grande",
+     "Que quiere una más pequeña",
+     "Que no quiere ropa"
+    ],
+    "answer": 0,
+    "why": "«Più grande» = más grande.",
+    "part": "B"
+   },
+   {
+    "it": "La maglietta è rossa.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que la camiseta es blanca",
+     "Que la camiseta es roja",
+     "Que no tiene camiseta"
+    ],
+    "answer": 1,
+    "why": "«Rossa» = roja.",
+    "part": "B"
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Mi hermano»",
+    "options": [
+     "il mio fratello",
+     "mia fratello",
+     "mio fratello"
+    ],
+    "answer": 2,
+    "why": "Con familia singular no se usa artículo.",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Esos libros» (lejos)",
+    "options": [
+     "quei libri",
+     "questi libri",
+     "quegli libri"
+    ],
+    "answer": 0,
+    "why": "«Quei» con masculino plural.",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Tus amigos»",
+    "options": [
+     "i tue amici",
+     "i tuoi amici",
+     "le tuoi amici"
+    ],
+    "answer": 1,
+    "why": "Posesivo plural masculino: «i tuoi».",
+    "part": "A"
+   },
+   {
+    "type": "fill",
+    "prompt": "Questa è ___ casa. (nuestra)",
+    "answers": [
+     "nostra"
+    ],
+    "why": "Femenino singular: «nostra».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Una casa grande»",
+    "options": [
+     "una casa grando",
+     "un casa grande",
+     "una casa grande"
+    ],
+    "answer": 2,
+    "why": "«Grande» es igual en masculino y femenino.",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Zapatos negros»",
+    "options": [
+     "scarpe nere",
+     "scarpe neri",
+     "scarpa nere"
+    ],
+    "answer": 0,
+    "why": "Femenino plural: «nere».",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cómo se dice «verde» en plural masculino?",
+    "options": [
+     "verdes",
+     "verdi",
+     "verdo"
+    ],
+    "answer": 1,
+    "why": "Los adjetivos en -e hacen plural en -i.",
+    "part": "B"
+   },
+   {
+    "type": "fill",
+    "prompt": "Le scarpe sono ___. (blancas)",
+    "answers": [
+     "bianche"
+    ],
+    "why": "Femenino plural: «bianche».",
+    "part": "B"
+   }
+  ]
+ },
+ "u26": {
+  "lectura": [
+   {
+    "text": "Mi chiamo Sara. Ho due fratelli e una sorella. Mio padre fa l'ingegnere, mia madre è maestra.",
+    "q": "¿Qué hace el padre de Sara?",
+    "options": [
+     "Es maestro",
+     "Es médico",
+     "Es ingeniero"
+    ],
+    "answer": 2,
+    "why": "«Mio padre fa l'ingegnere»."
+   },
+   {
+    "text": "Giorgio è basso e ha i capelli neri. Lavora in un ospedale: è infermiere. È molto simpatico.",
+    "q": "¿Dónde trabaja Giorgio?",
+    "options": [
+     "En un hospital",
+     "En una escuela",
+     "En un banco"
+    ],
+    "answer": 0,
+    "why": "«Lavora in un ospedale»."
+   },
+   {
+    "text": "Mia nonna ha settant'anni. È gentile e allegra. Abita con mio zio, che è cuoco.",
+    "q": "¿Qué hace el tío?",
+    "options": [
+     "Es médico",
+     "Es cocinero",
+     "Es maestro"
+    ],
+    "answer": 1,
+    "why": "«Mio zio è cuoco»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Che lavoro fai?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Dónde vives",
+     "Cuántos años tienes",
+     "A qué te dedicas"
+    ],
+    "answer": 2,
+    "why": "«Che lavoro fai?» = ¿en qué trabajas?"
+   },
+   {
+    "it": "Mia sorella è alta e bionda.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que su hermana es alta y rubia",
+     "Que su hermana es baja y morena",
+     "Que su hermana es rubia y baja"
+    ],
+    "answer": 0,
+    "why": "«Alta e bionda»."
+   },
+   {
+    "it": "Faccio il medico.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que va al médico",
+     "Que es médico",
+     "Que busca un médico"
+    ],
+    "answer": 1,
+    "why": "«Faccio il medico» = soy médico."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Es muy simpático.»",
+    "options": [
+     "È molto simpatica.",
+     "È molti simpatico.",
+     "È molto simpatico."
+    ],
+    "answer": 2,
+    "why": "Masculino singular: «simpatico»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Mi tío es cocinero.»",
+    "options": [
+     "Mio zio è cuoco.",
+     "Mio zio fa cuoco.",
+     "Il mio zio è cuoco."
+    ],
+    "answer": 0,
+    "why": "Con familia singular, sin artículo."
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Qué significa «nipote»?",
+    "options": [
+     "Cuñado",
+     "Sobrino o nieto",
+     "Primo"
+    ],
+    "answer": 1,
+    "why": "«Nipote» = sobrino o nieto, según el contexto."
+   },
+   {
+    "type": "fill",
+    "prompt": "Mia madre ___ maestra. (ser)",
+    "answers": [
+     "è"
+    ],
+    "why": "«È maestra»."
+   }
+  ]
+ },
+ "u07": {
+  "lectura": [
+   {
+    "text": "Mi sveglio alle sette, mi lavo e mi vesto. Poi faccio colazione. Alle otto esco di casa.",
+    "q": "¿Qué hace después de vestirse?",
+    "options": [
+     "Sale de casa",
+     "Se lava",
+     "Desayuna"
+    ],
+    "answer": 2,
+    "why": "«Poi faccio colazione».",
+    "part": "A"
+   },
+   {
+    "text": "La domenica Marta si alza tardi. Non si sveglia presto. Alle undici si prepara e va a pranzo.",
+    "q": "¿Cuándo se levanta Marta?",
+    "options": [
+     "Tarde",
+     "Temprano",
+     "A las siete"
+    ],
+    "answer": 0,
+    "why": "«Si alza tardi».",
+    "part": "A"
+   },
+   {
+    "text": "Io mi riposo il pomeriggio. Mio marito si riposa la sera. I bambini vanno a letto alle nove.",
+    "q": "¿Cuándo se acuestan los niños?",
+    "options": [
+     "A las ocho",
+     "A las nueve",
+     "A las diez"
+    ],
+    "answer": 1,
+    "why": "«Vanno a letto alle nove».",
+    "part": "A"
+   },
+   {
+    "text": "Sto leggendo un libro. Mia sorella sta guardando la televisione. Noi stiamo mangiando.",
+    "q": "¿Qué está haciendo la hermana?",
+    "options": [
+     "Leyendo un libro",
+     "Comiendo",
+     "Mirando televisión"
+    ],
+    "answer": 2,
+    "why": "«Sta guardando la televisione».",
+    "part": "B"
+   },
+   {
+    "text": "Pronto? Sono Anna. Che cosa stai facendo? Sto cucinando. Vieni a cena? Sì, volentieri!",
+    "q": "¿Qué está haciendo la persona que contesta?",
+    "options": [
+     "Cocinando",
+     "Cenando",
+     "Mirando televisión"
+    ],
+    "answer": 0,
+    "why": "«Sto cucinando».",
+    "part": "B"
+   },
+   {
+    "text": "Oggi sto bene. Ieri ero stanco, ma oggi sono qui in ufficio e sto lavorando con calma.",
+    "q": "¿Cómo está hoy?",
+    "options": [
+     "Cansado",
+     "Bien",
+     "Mal"
+    ],
+    "answer": 1,
+    "why": "«Oggi sto bene».",
+    "part": "B"
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Mi alzo alle sei.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que se acuesta a las seis",
+     "Que se despierta a las siete",
+     "Que se levanta a las seis"
+    ],
+    "answer": 2,
+    "why": "«Mi alzo» = me levanto.",
+    "part": "A"
+   },
+   {
+    "it": "Ci vestiamo e usciamo.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que se visten y salen",
+     "Que se acuestan",
+     "Que llegan a casa"
+    ],
+    "answer": 0,
+    "why": "«Ci vestiamo» = nos vestimos.",
+    "part": "A"
+   },
+   {
+    "it": "Si lava le mani.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que lava la ropa",
+     "Que se lava las manos",
+     "Que no se lava"
+    ],
+    "answer": 1,
+    "why": "«Si lava» = se lava.",
+    "part": "A"
+   },
+   {
+    "it": "Sto parlando con un amico.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que va a hablar con un amigo",
+     "Que habló con un amigo",
+     "Que está hablando con un amigo"
+    ],
+    "answer": 2,
+    "why": "«Sto parlando» = estoy hablando.",
+    "part": "B"
+   },
+   {
+    "it": "Che cosa state facendo?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Qué están haciendo",
+     "Adónde van",
+     "Quiénes son"
+    ],
+    "answer": 0,
+    "why": "«State facendo» = están haciendo.",
+    "part": "B"
+   },
+   {
+    "it": "Faccio colazione alle otto.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que cena a las ocho",
+     "Que desayuna a las ocho",
+     "Que se acuesta a las ocho"
+    ],
+    "answer": 1,
+    "why": "«Faccio colazione» = desayuno.",
+    "part": "B"
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Ellos se levantan.»",
+    "options": [
+     "Loro si alza.",
+     "Loro ci alzano.",
+     "Loro si alzano."
+    ],
+    "answer": 2,
+    "why": "Con loro: «si alzano».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Yo me llamo Luca.»",
+    "options": [
+     "Mi chiamo Luca.",
+     "Si chiamo Luca.",
+     "Ti chiamo Luca."
+    ],
+    "answer": 0,
+    "why": "Con io: «mi».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Tú te despiertas»",
+    "options": [
+     "si svegli",
+     "ti svegli",
+     "mi svegli"
+    ],
+    "answer": 1,
+    "why": "Con tu: «ti».",
+    "part": "A"
+   },
+   {
+    "type": "fill",
+    "prompt": "Io ___ sveglio alle sette. (me)",
+    "answers": [
+     "mi"
+    ],
+    "why": "«Mi sveglio».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Estoy estudiando.»",
+    "options": [
+     "Sono studiando.",
+     "Studio stando.",
+     "Sto studiando."
+    ],
+    "answer": 2,
+    "why": "«Stare» + gerundio.",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Ellos están comiendo.»",
+    "options": [
+     "Stanno mangiando.",
+     "Sta mangiando.",
+     "Stanno mangiano."
+    ],
+    "answer": 0,
+    "why": "Con loro: «stanno».",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cómo está tu hermana? (¿Cómo se encuentra?)",
+    "options": [
+     "Come è tua sorella?",
+     "Come sta tua sorella?",
+     "Come fa tua sorella?"
+    ],
+    "answer": 1,
+    "why": "«Come sta?» pregunta por el estado.",
+    "part": "B"
+   },
+   {
+    "type": "fill",
+    "prompt": "Noi ___ guardando un film. (estar)",
+    "answers": [
+     "stiamo"
+    ],
+    "why": "Con noi: «stiamo».",
+    "part": "B"
+   }
+  ]
+ },
+ "u08": {
+  "lectura": [
+   {
+    "text": "Quando vai in palestra? Vado spesso il lunedì, ma non vado mai la domenica. A volte vado anche il sabato.",
+    "q": "¿Cuándo no va nunca?",
+    "options": [
+     "El lunes",
+     "El sábado",
+     "El domingo"
+    ],
+    "answer": 2,
+    "why": "«Non vado mai la domenica»."
+   },
+   {
+    "text": "Non ho molto tempo e non ho niente da fare. Ho poche amiche, ma bevo sempre un caffè con loro.",
+    "q": "¿Qué hace siempre?",
+    "options": [
+     "Toma café con ellas",
+     "Trabaja",
+     "Va a la playa"
+    ],
+    "answer": 0,
+    "why": "«Bevo sempre un caffè»."
+   },
+   {
+    "text": "Quanti anni hai? Dove abiti? Che lavoro fai? Sono tante domande! Rispondo volentieri.",
+    "q": "¿Qué siente la persona sobre las preguntas?",
+    "options": [
+     "Que son pocas",
+     "Que son muchas pero responde con gusto",
+     "Que no quiere responder"
+    ],
+    "answer": 1,
+    "why": "«Sono tante domande… volentieri»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Non vado mai al cinema.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que siempre va al cine",
+     "Que va a veces",
+     "Que nunca va al cine"
+    ],
+    "answer": 2,
+    "why": "«Non… mai» = nunca."
+   },
+   {
+    "it": "Quanto costa questo? Troppo caro!",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que es demasiado caro",
+     "Que es barato",
+     "Que es gratis"
+    ],
+    "answer": 0,
+    "why": "«Troppo» = demasiado."
+   },
+   {
+    "it": "Che cosa fai di bello?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Dónde vives",
+     "Qué haces de bueno / qué planes tienes",
+     "Cuánto cuesta"
+    ],
+    "answer": 1,
+    "why": "Pregunta informal por qué haces."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Nunca como carne.»",
+    "options": [
+     "Mangio mai carne.",
+     "Non mangio sempre carne.",
+     "Non mangio mai carne."
+    ],
+    "answer": 2,
+    "why": "La negación «non» va antes del verbo."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Muchos libros»",
+    "options": [
+     "molti libri",
+     "molto libri",
+     "molta libri"
+    ],
+    "answer": 0,
+    "why": "Con plural: «molti»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«A veces voy al cine.»",
+    "options": [
+     "Mai vado al cinema.",
+     "A volte vado al cinema.",
+     "Sempre vado al cinema."
+    ],
+    "answer": 1,
+    "why": "«A volte» = a veces."
+   },
+   {
+    "type": "fill",
+    "prompt": "Non ho ___ da fare. (nada)",
+    "answers": [
+     "niente"
+    ],
+    "why": "«Non… niente» = nada."
+   }
+  ]
+ },
+ "u27": {
+  "lectura": [
+   {
+    "text": "Nel tempo libero Paolo gioca a calcio e suona la chitarra. Sa cucinare bene e conosce molti ristoranti.",
+    "q": "¿Qué sabe hacer bien Paolo?",
+    "options": [
+     "Jugar al fútbol",
+     "Tocar piano",
+     "Cocinar"
+    ],
+    "answer": 2,
+    "why": "«Sa cucinare bene»."
+   },
+   {
+    "text": "Oggi piove e fa freddo. Non esco. Resto a casa a leggere. Domani c'è il sole e fa caldo.",
+    "q": "¿Qué tiempo hace mañana?",
+    "options": [
+     "Sol y calor",
+     "Lluvia y frío",
+     "Nieve"
+    ],
+    "answer": 0,
+    "why": "«C'è il sole e fa caldo»."
+   },
+   {
+    "text": "Conosci Marco? No, non lo conosco, ma so che abita vicino. Qualcuno sa dove vive?",
+    "q": "¿Qué sabe la persona de Marco?",
+    "options": [
+     "Dónde vive exactamente",
+     "Que vive cerca",
+     "Que es su amigo"
+    ],
+    "answer": 1,
+    "why": "«So che abita vicino»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Non so nuotare.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que no quiere nadar",
+     "Que nada mucho",
+     "Que no sabe nadar"
+    ],
+    "answer": 2,
+    "why": "«Non so» = no sé."
+   },
+   {
+    "it": "Conosco Roma molto bene.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que conoce muy bien Roma",
+     "Que vive en Roma",
+     "Que va a Roma"
+    ],
+    "answer": 0,
+    "why": "«Conosco» = conozco."
+   },
+   {
+    "it": "Oggi c'è il sole.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que llueve hoy",
+     "Que hay sol hoy",
+     "Que hace frío"
+    ],
+    "answer": 1,
+    "why": "«C'è il sole»."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Sé jugar al tenis.»",
+    "options": [
+     "Conosco giocare a tennis.",
+     "So il tennis giocare.",
+     "So giocare a tennis."
+    ],
+    "answer": 2,
+    "why": "«Sapere» + infinitivo."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Conozco a Luca.»",
+    "options": [
+     "Conosco Luca.",
+     "So Luca.",
+     "Conoscio Luca."
+    ],
+    "answer": 0,
+    "why": "«Conoscere» para personas y lugares."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Hace frío»",
+    "options": [
+     "Ha freddo.",
+     "Fa freddo.",
+     "È freddo."
+    ],
+    "answer": 1,
+    "why": "El clima usa «fa»."
+   },
+   {
+    "type": "fill",
+    "prompt": "Non ___ nuotare. (saber, io)",
+    "answers": [
+     "so"
+    ],
+    "why": "«So» de sapere."
+   }
+  ]
+ },
+ "u09": {
+  "lectura": [
+   {
+    "text": "Ieri ho lavorato tutto il giorno. Ho mangiato un panino e ho bevuto un caffè. La sera ho guardato un film.",
+    "q": "¿Qué hizo anoche?",
+    "options": [
+     "Trabajó todo el día",
+     "Comió un sándwich",
+     "Vio una película"
+    ],
+    "answer": 2,
+    "why": "«La sera ho guardato un film»."
+   },
+   {
+    "text": "Il fine settimana abbiamo visitato Firenze. Abbiamo mangiato molto bene e abbiamo comprato dei regali per gli amici.",
+    "q": "¿Qué compraron?",
+    "options": [
+     "Regalos para los amigos",
+     "Comida",
+     "Ropa"
+    ],
+    "answer": 0,
+    "why": "«Abbiamo comprato dei regali»."
+   },
+   {
+    "text": "Marco non ha dormito bene. Ha avuto mal di testa e non ha finito il lavoro. Poi ha chiamato il medico.",
+    "q": "¿A quién llamó Marco?",
+    "options": [
+     "A un amigo",
+     "Al médico",
+     "A su jefe"
+    ],
+    "answer": 1,
+    "why": "«Ha chiamato il medico»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Ho comprato una giacca nuova.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que va a comprar una chaqueta",
+     "Que vende una chaqueta",
+     "Que compró una chaqueta nueva"
+    ],
+    "answer": 2,
+    "why": "«Ho comprato» = compré."
+   },
+   {
+    "it": "Abbiamo finito il lavoro.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que terminaron el trabajo",
+     "Que empiezan el trabajo",
+     "Que no terminaron"
+    ],
+    "answer": 0,
+    "why": "«Abbiamo finito» = terminamos."
+   },
+   {
+    "it": "Hai mangiato?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Qué vas a comer",
+     "Si comiste",
+     "Dónde comes"
+    ],
+    "answer": 1,
+    "why": "«Hai mangiato?» = ¿comiste?"
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Ayer estudié.»",
+    "options": [
+     "Ieri studiato ho.",
+     "Ieri sono studiato.",
+     "Ieri ho studiato."
+    ],
+    "answer": 2,
+    "why": "Passato prossimo con avere."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Ellos vieron la película.»",
+    "options": [
+     "Hanno visto il film.",
+     "Ha visto il film loro.",
+     "Hanno veduto il film."
+    ],
+    "answer": 0,
+    "why": "«Vedere» → «visto»."
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cuál es el participio de «fare»?",
+    "options": [
+     "fato",
+     "fatto",
+     "fare"
+    ],
+    "answer": 1,
+    "why": "«Fare» → «fatto»."
+   },
+   {
+    "type": "fill",
+    "prompt": "Noi ___ mangiato la pizza. (avere)",
+    "answers": [
+     "abbiamo"
+    ],
+    "why": "«Abbiamo mangiato»."
+   }
+  ]
+ },
+ "u10": {
+  "lectura": [
+   {
+    "text": "Ieri Giulia è andata al mercato. È tornata a casa alle due. I suoi amici sono arrivati alle tre.",
+    "q": "¿Cuándo llegaron los amigos?",
+    "options": [
+     "A las dos",
+     "Ayer por la mañana",
+     "A las tres"
+    ],
+    "answer": 2,
+    "why": "«Sono arrivati alle tre»."
+   },
+   {
+    "text": "Siamo partiti da Roma alle otto e siamo arrivati a Venezia a mezzogiorno. Sono rimasta là due giorni.",
+    "q": "¿Cuánto tiempo se quedó en Venecia?",
+    "options": [
+     "Dos días",
+     "Un día",
+     "Una semana"
+    ],
+    "answer": 0,
+    "why": "«Sono rimasta là due giorni»."
+   },
+   {
+    "text": "Luca è uscito di casa presto. È salito sul treno ed è sceso a Torino. Poi è andato in ufficio.",
+    "q": "¿Adónde fue Luca al final?",
+    "options": [
+     "A Roma",
+     "A la oficina",
+     "A casa"
+    ],
+    "answer": 1,
+    "why": "«È andato in ufficio»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Sono andata al cinema.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que un hombre fue al cine",
+     "Que va a ir al cine",
+     "Que una mujer fue al cine"
+    ],
+    "answer": 2,
+    "why": "«Andata» (femenino) indica que habla una mujer."
+   },
+   {
+    "it": "Siamo arrivati tardi.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que llegaron tarde",
+     "Que llegan temprano",
+     "Que no llegaron"
+    ],
+    "answer": 0,
+    "why": "«Siamo arrivati» = llegamos."
+   },
+   {
+    "it": "Sei rimasto a casa?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Si saliste de casa",
+     "Si te quedaste en casa",
+     "Si vuelves a casa"
+    ],
+    "answer": 1,
+    "why": "«Rimasto» = quedado."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Ella llegó ayer.»",
+    "options": [
+     "Ha arrivato ieri.",
+     "È arrivato ieri.",
+     "È arrivata ieri."
+    ],
+    "answer": 2,
+    "why": "Con arrivare: essere + concordancia."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Nosotras fuimos a Roma.»",
+    "options": [
+     "Siamo andate a Roma.",
+     "Abbiamo andato a Roma.",
+     "Siamo andati a Roma."
+    ],
+    "answer": 0,
+    "why": "Ellas: «andate»."
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cuál es el participio de «venire»?",
+    "options": [
+     "venito",
+     "venuto",
+     "venato"
+    ],
+    "answer": 1,
+    "why": "«Venire» → «venuto»."
+   },
+   {
+    "type": "fill",
+    "prompt": "Maria è ___ a casa. (tornare, f.)",
+    "answers": [
+     "tornata"
+    ],
+    "why": "Femenino: «tornata»."
+   }
+  ]
+ },
+ "u11": {
+  "lectura": [
+   {
+    "text": "Da bambino abitavo a Napoli. Giocavo sempre in strada con i miei amici. Un giorno sono caduto e ho pianto.",
+    "q": "¿Qué pasó un día?",
+    "options": [
+     "Se mudó",
+     "Ganó un juego",
+     "Se cayó y lloró"
+    ],
+    "answer": 2,
+    "why": "«Un giorno sono caduto e ho pianto»."
+   },
+   {
+    "text": "Quando sono arrivata, mia madre cucinava e mio padre guardava la televisione. Ho salutato e ho mangiato con loro.",
+    "q": "¿Qué hacía el padre al llegar ella?",
+    "options": [
+     "Miraba televisión",
+     "Cocinaba",
+     "Dormía"
+    ],
+    "answer": 0,
+    "why": "«Mio padre guardava la televisione»."
+   },
+   {
+    "text": "Ieri pioveva e faceva freddo. Siamo rimasti a casa. Abbiamo giocato a carte e abbiamo bevuto tè.",
+    "q": "¿Cómo estaba el clima?",
+    "options": [
+     "Hacía sol",
+     "Llovía y hacía frío",
+     "Hacía calor"
+    ],
+    "answer": 1,
+    "why": "«Pioveva e faceva freddo»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Quando ero piccolo, giocavo a calcio.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que ahora juega al fútbol",
+     "Que jugó un partido",
+     "Que de pequeño jugaba al fútbol"
+    ],
+    "answer": 2,
+    "why": "«Giocavo» es un hábito del pasado."
+   },
+   {
+    "it": "Ieri ho visto Marco.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que ayer vio a Marco",
+     "Que veía a Marco siempre",
+     "Que verá a Marco"
+    ],
+    "answer": 0,
+    "why": "«Ho visto» = hecho concreto."
+   },
+   {
+    "it": "Mentre mangiavo, è arrivato Luca.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que Luca comía cuando llegó",
+     "Que Luca llegó mientras comía",
+     "Que nadie llegó"
+    ],
+    "answer": 1,
+    "why": "«Mangiavo» = comía; «è arrivato» = llegó."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Yo vivía en Roma.»",
+    "options": [
+     "Ho abitato a Roma.",
+     "Abitaro a Roma.",
+     "Abitavo a Roma."
+    ],
+    "answer": 2,
+    "why": "Descripción del pasado: imperfetto."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Ayer compré un libro.»",
+    "options": [
+     "Ieri ho comprato un libro.",
+     "Ieri compravo un libro.",
+     "Ieri comprato un libro."
+    ],
+    "answer": 0,
+    "why": "Hecho concreto: passato prossimo."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Mientras él dormía, yo leía.»",
+    "options": [
+     "Mentre lui ha dormito, io leggevo.",
+     "Mentre lui dormiva, io leggevo.",
+     "Mentre lui dormiva, io ho letto."
+    ],
+    "answer": 1,
+    "why": "Dos acciones simultáneas: imperfetto."
+   },
+   {
+    "type": "fill",
+    "prompt": "Da piccola ___ sempre in giardino. (giocare, io)",
+    "answers": [
+     "giocavo"
+    ],
+    "why": "Imperfetto de «giocare»."
+   }
+  ]
+ },
+ "u12": {
+  "lectura": [
+   {
+    "text": "Roma è più grande di Firenze, ma Firenze è più piccola e più tranquilla. Per me Firenze è la città più bella.",
+    "q": "¿Cuál es la más bonita según la persona?",
+    "options": [
+     "Roma",
+     "Ninguna",
+     "Florencia"
+    ],
+    "answer": 2,
+    "why": "«Firenze è la città più bella»."
+   },
+   {
+    "text": "Compro un chilo di pane, due etti di prosciutto e del formaggio. Bevo dell'acqua. Non voglio del vino.",
+    "q": "¿Qué no quiere?",
+    "options": [
+     "Vino",
+     "Agua",
+     "Queso"
+    ],
+    "answer": 0,
+    "why": "«Non voglio del vino»."
+   },
+   {
+    "text": "Questa borsa costa quaranta euro, quella costa trenta. Quella è meno cara, ma questa è migliore.",
+    "q": "¿Cuál es más barata?",
+    "options": [
+     "La que cuesta cuarenta",
+     "La que cuesta treinta",
+     "Cuestan lo mismo"
+    ],
+    "answer": 1,
+    "why": "«Quella è meno cara»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Marco è più alto di Luca.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que Luca es más alto",
+     "Que son igual de altos",
+     "Que Marco es más alto que Luca"
+    ],
+    "answer": 2,
+    "why": "«Più… di» = más que."
+   },
+   {
+    "it": "Questo è il ristorante migliore della città.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que es el mejor restaurante",
+     "Que es el más caro",
+     "Que es el único"
+    ],
+    "answer": 0,
+    "why": "«Il migliore» = el mejor."
+   },
+   {
+    "it": "Vorrei del pane, per favore.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que no quiere pan",
+     "Que quiere un poco de pan",
+     "Que vende pan"
+    ],
+    "answer": 1,
+    "why": "«Del pane» = un poco de pan."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Más rápido que yo»",
+    "options": [
+     "più veloce che me",
+     "più veloce da me",
+     "più veloce di me"
+    ],
+    "answer": 2,
+    "why": "Comparativo: «più… di»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Un poco de agua»",
+    "options": [
+     "dell'acqua",
+     "del acqua",
+     "della acqua"
+    ],
+    "answer": 0,
+    "why": "Partitivo con acqua: «dell'»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«La mejor pizza»",
+    "options": [
+     "la pizza più migliore",
+     "la pizza migliore",
+     "la pizza più buona migliore"
+    ],
+    "answer": 1,
+    "why": "«Migliore» ya es comparativo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Anna è ___ alta di Carla. (más)",
+    "answers": [
+     "più"
+    ],
+    "why": "«Più… di» = más… que."
+   }
+  ]
+ },
+ "u28": {
+  "lectura": [
+   {
+    "text": "Mia nonna ha sete: beve un bicchiere d'acqua. Mio nonno ha fame e mangia un panino. Poi tutti insieme guardiamo la televisione.",
+    "q": "¿Quién tiene sed?",
+    "options": [
+     "El abuelo",
+     "El hablante",
+     "La abuela"
+    ],
+    "answer": 2,
+    "why": "«Mia nonna ha sete»."
+   },
+   {
+    "text": "Nel negozio vedo un cappello nero e un cappotto grigio. Il cappello costa venti euro, il cappotto costa cento euro. Compro il cappello.",
+    "q": "¿Qué compra?",
+    "options": [
+     "El sombrero",
+     "El abrigo",
+     "Las dos cosas"
+    ],
+    "answer": 0,
+    "why": "«Compro il cappello»."
+   },
+   {
+    "text": "Mia sorella ha una penna blu. Scrive una lettera a sua nonna e dice: «Che pena non vederti!». Poi spedisce la lettera.",
+    "q": "¿Con qué escribe la hermana?",
+    "options": [
+     "Con un lápiz",
+     "Con una pluma azul",
+     "Con un teclado"
+    ],
+    "answer": 1,
+    "why": "«Ha una penna blu»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Ho sete.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que tiene siete años",
+     "Que tiene hambre",
+     "Que tiene sed"
+    ],
+    "answer": 2,
+    "why": "«Sete» con una t = sed."
+   },
+   {
+    "it": "Ho sette anni.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que tiene siete años",
+     "Que tiene sed",
+     "Que tiene setenta años"
+    ],
+    "answer": 0,
+    "why": "«Sette» con doble t = siete."
+   },
+   {
+    "it": "Mio nonno è in casa.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que su abuela está en casa",
+     "Que su abuelo está en casa",
+     "Que su padre está en casa"
+    ],
+    "answer": 1,
+    "why": "«Nonno» con doble n = abuelo."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "¿Cuál palabra significa «sombrero»?",
+    "options": [
+     "capello",
+     "capelo",
+     "cappello"
+    ],
+    "answer": 2,
+    "why": "«Cappello» = sombrero; «capello» = pelo."
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cuál palabra significa «sed»?",
+    "options": [
+     "sete",
+     "sette",
+     "setta"
+    ],
+    "answer": 0,
+    "why": "«Sete» = sed; «sette» = siete."
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cuál palabra significa «carro»?",
+    "options": [
+     "caro",
+     "carro",
+     "caru"
+    ],
+    "answer": 1,
+    "why": "«Carro» con doble r; «caro» = querido o costoso."
+   },
+   {
+    "type": "fill",
+    "prompt": "Scrivo con una ___. (bolígrafo, pluma)",
+    "answers": [
+     "penna"
+    ],
+    "why": "«Penna» se escribe con doble n."
+   }
+  ]
+ },
+ "u13": {
+  "lectura": [
+   {
+    "text": "Marco ha comprato dei fiori. Li ha dati a Giulia. Lei li ha messi in un vaso e gli ha mandato un messaggio.",
+    "q": "¿Qué hizo Giulia con las flores?",
+    "options": [
+     "Las tiró",
+     "Las vendió",
+     "Las puso en un jarrón"
+    ],
+    "answer": 2,
+    "why": "«Li ha messi in un vaso»."
+   },
+   {
+    "text": "Chiara cerca le chiavi. Le trovo io, le prendo e le do a lei. Poi mi dice grazie e mi saluta.",
+    "q": "¿Quién encuentra las llaves?",
+    "options": [
+     "El hablante",
+     "Chiara",
+     "Un amigo"
+    ],
+    "answer": 0,
+    "why": "«Le trovo io»."
+   },
+   {
+    "text": "Conosci Luca? Lo vedo ogni giorno. Gli parlo spesso e gli scrivo un messaggio la sera.",
+    "q": "¿Cuándo le escribe un mensaje?",
+    "options": [
+     "En la mañana",
+     "En la noche",
+     "Nunca"
+    ],
+    "answer": 1,
+    "why": "«Gli scrivo un messaggio la sera»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Lo vedo domani.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que lo vio ayer",
+     "Que no lo ve",
+     "Que lo ve mañana"
+    ],
+    "answer": 2,
+    "why": "«Lo vedo» = lo veo."
+   },
+   {
+    "it": "Ti telefono stasera.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que te llama esta noche",
+     "Que te llamó ayer",
+     "Que no te llama"
+    ],
+    "answer": 0,
+    "why": "«Ti telefono» = te llamo."
+   },
+   {
+    "it": "Le compro un regalo.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que lo compra él",
+     "Que le compra un regalo (a ella)",
+     "Que lo vende"
+    ],
+    "answer": 1,
+    "why": "«Le» = a ella."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Lo compro.»",
+    "options": [
+     "La compro.",
+     "Lo comprano.",
+     "Lo compro."
+    ],
+    "answer": 2,
+    "why": "Masculino singular: «lo»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Le doy un libro.» (a ella)",
+    "options": [
+     "Le do un libro.",
+     "La do un libro.",
+     "Lo do un libro."
+    ],
+    "answer": 0,
+    "why": "Indirecto: «le»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Los veo.» (a ellos)",
+    "options": [
+     "Lo vedo.",
+     "Li vedo.",
+     "Le vedo."
+    ],
+    "answer": 1,
+    "why": "Masculino plural: «li»."
+   },
+   {
+    "type": "fill",
+    "prompt": "Marco? ___ vedo domani. (lo)",
+    "answers": [
+     "Lo"
+    ],
+    "why": "Pronombre directo."
+   }
+  ]
+ },
+ "u14": {
+  "lectura": [
+   {
+    "text": "Vai in biblioteca? Sì, ci vado ogni giorno. Ci resto due ore. Vuoi venirci con me domani?",
+    "q": "¿Cuánto tiempo se queda allí?",
+    "options": [
+     "Un día",
+     "Toda la tarde",
+     "Dos horas"
+    ],
+    "answer": 2,
+    "why": "«Ci resto due ore».",
+    "part": "A"
+   },
+   {
+    "text": "Hai delle mele? Sì, ne ho tre. Ne vuoi una? No, grazie, ne ho già mangiate due oggi.",
+    "q": "¿Cuántas manzanas tiene?",
+    "options": [
+     "Tres",
+     "Dos",
+     "Una"
+    ],
+    "answer": 0,
+    "why": "«Ne ho tre».",
+    "part": "A"
+   },
+   {
+    "text": "Sei mai stato a Venezia? Sì, ci sono andato l'anno scorso e ci sono rimasto una settimana.",
+    "q": "¿Cuánto se quedó en Venecia?",
+    "options": [
+     "Un año",
+     "Una semana",
+     "Un día"
+    ],
+    "answer": 1,
+    "why": "«Ci sono rimasto una settimana».",
+    "part": "A"
+   },
+   {
+    "text": "Per andare alla posta, prendi la prima strada a sinistra. Poi vai sempre dritto e attraversa la piazza.",
+    "q": "¿Qué hay que cruzar?",
+    "options": [
+     "La calle principal",
+     "El puente",
+     "La plaza"
+    ],
+    "answer": 2,
+    "why": "«Attraversa la piazza».",
+    "part": "B"
+   },
+   {
+    "text": "Scusi, mi dica! Può girare a destra e poi andare dritto? Prenda la seconda strada. Poi si fermi al semaforo.",
+    "q": "¿Dónde se detiene?",
+    "options": [
+     "En el semáforo",
+     "En la esquina",
+     "En la plaza"
+    ],
+    "answer": 0,
+    "why": "«Si fermi al semaforo».",
+    "part": "B"
+   },
+   {
+    "text": "Marta, aspetta! Non correre. Parla più piano e guarda la strada. Poi attraversa con calma.",
+    "q": "¿Qué le pide a Marta?",
+    "options": [
+     "Que corra",
+     "Que no corra",
+     "Que se detenga lejos"
+    ],
+    "answer": 1,
+    "why": "«Non correre».",
+    "part": "B"
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Ci vado domani.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que viene de allí",
+     "Que no va",
+     "Que va allí mañana"
+    ],
+    "answer": 2,
+    "why": "«Ci» = allí.",
+    "part": "A"
+   },
+   {
+    "it": "Ne voglio due.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que quiere dos (de eso)",
+     "Que quiere uno",
+     "Que no quiere nada"
+    ],
+    "answer": 0,
+    "why": "«Ne» = de ello.",
+    "part": "A"
+   },
+   {
+    "it": "Quanti ne hai?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Dónde los tienes",
+     "Cuántos tienes",
+     "Quién los tiene"
+    ],
+    "answer": 1,
+    "why": "«Quanti ne hai?» = ¿cuántos tienes?",
+    "part": "A"
+   },
+   {
+    "it": "Prenda la prima a sinistra.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que tome la segunda a la derecha",
+     "Que se detenga",
+     "Que tome la primera a la izquierda"
+    ],
+    "answer": 2,
+    "why": "«Prenda» = tome (Lei).",
+    "part": "B"
+   },
+   {
+    "it": "Non parlare così forte!",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que no hables tan fuerte",
+     "Que hables fuerte",
+     "Que hables bajito"
+    ],
+    "answer": 0,
+    "why": "«Non parlare» = no hables.",
+    "part": "B"
+   },
+   {
+    "it": "Apri la finestra, per favore.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que cierres la ventana",
+     "Que abras la ventana",
+     "Que mires por la ventana"
+    ],
+    "answer": 1,
+    "why": "«Apri» = abre.",
+    "part": "B"
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Voy allí mañana.»",
+    "options": [
+     "Lo vado domani.",
+     "Ne vado domani.",
+     "Ci vado domani."
+    ],
+    "answer": 2,
+    "why": "«Ci» = allí.",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Tengo tres (de ellos).»",
+    "options": [
+     "Ne ho tre.",
+     "Ci ho tre.",
+     "Lo ho tre."
+    ],
+    "answer": 0,
+    "why": "«Ne» + cantidad.",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«¿Cuántos quieres?»",
+    "options": [
+     "Quanti ci vuoi?",
+     "Quanti ne vuoi?",
+     "Quanti lo vuoi?"
+    ],
+    "answer": 1,
+    "why": "«Ne» con cantidad.",
+    "part": "A"
+   },
+   {
+    "type": "fill",
+    "prompt": "Hai dei libri? Sì, ___ ho molti. (de ellos)",
+    "answers": [
+     "ne"
+    ],
+    "why": "«Ne» sustituye «de ellos».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Habla más despacio.» (tú)",
+    "options": [
+     "Parli più piano.",
+     "Parlare più piano.",
+     "Parla più piano."
+    ],
+    "answer": 2,
+    "why": "Imperativo tú: «parla».",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Gire a la derecha.» (Lei)",
+    "options": [
+     "Giri a destra.",
+     "Gira a destra.",
+     "Girare a destra."
+    ],
+    "answer": 0,
+    "why": "Con Lei: «giri».",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "«No fumes.» (tú)",
+    "options": [
+     "Non fuma.",
+     "Non fumare.",
+     "Non fumi."
+    ],
+    "answer": 1,
+    "why": "Negativo tú: «non» + infinitivo.",
+    "part": "B"
+   },
+   {
+    "type": "fill",
+    "prompt": "Scusi, ___ a sinistra. (girare, Lei)",
+    "answers": [
+     "giri"
+    ],
+    "why": "Imperativo de cortesía: «giri».",
+    "part": "B"
+   }
+  ]
+ },
+ "u15": {
+  "lectura": [
+   {
+    "text": "L'anno prossimo andrò in Italia. Partirò a settembre e resterò tre mesi. Studierò italiano ogni giorno.",
+    "q": "¿Cuánto tiempo se quedará?",
+    "options": [
+     "Un año",
+     "Un mes",
+     "Tres meses"
+    ],
+    "answer": 2,
+    "why": "«Resterò tre mesi».",
+    "part": "A"
+   },
+   {
+    "text": "Domani farà bel tempo. Usciremo presto e andremo al mare. Mangeremo il pesce e torneremo la sera.",
+    "q": "¿Qué comerán?",
+    "options": [
+     "Pescado",
+     "Pizza",
+     "Carne"
+    ],
+    "answer": 0,
+    "why": "«Mangeremo il pesce».",
+    "part": "A"
+   },
+   {
+    "text": "Che ore saranno? Saranno le otto, credo. Marco sarà già a casa e avrà fame.",
+    "q": "¿Qué suposición hacen?",
+    "options": [
+     "Que Marco llegará mañana",
+     "Que Marco ya está en casa",
+     "Que Marco no tiene hambre"
+    ],
+    "answer": 1,
+    "why": "El futuro expresa suposición: «sarà già a casa».",
+    "part": "A"
+   },
+   {
+    "text": "Vorrei un tavolo per due persone, per favore. Potrebbe darmi il menù? Vorremmo anche dell'acqua.",
+    "q": "¿Qué piden?",
+    "options": [
+     "Una cuenta",
+     "Un taxi",
+     "Una mesa para dos, el menú y agua"
+    ],
+    "answer": 2,
+    "why": "«Un tavolo per due… il menù… acqua».",
+    "part": "B"
+   },
+   {
+    "text": "Se hai tempo, vieni con noi al lago. Se piove, restiamo a casa. Che ne dici?",
+    "q": "¿Qué harán si llueve?",
+    "options": [
+     "Quedarse en casa",
+     "Ir al lago",
+     "Cancelar el viaje"
+    ],
+    "answer": 0,
+    "why": "«Se piove, restiamo a casa».",
+    "part": "B"
+   },
+   {
+    "text": "Sei stanco? Dovresti dormire di più. Io farei una passeggiata e poi andrei a letto presto.",
+    "q": "¿Qué consejo da?",
+    "options": [
+     "Beber café",
+     "Dormir más",
+     "Trabajar más"
+    ],
+    "answer": 1,
+    "why": "«Dovresti dormire di più».",
+    "part": "B"
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Domani partirò.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que ayer partió",
+     "Que parte ahora",
+     "Que mañana partirá"
+    ],
+    "answer": 2,
+    "why": "«Partirò» = partiré.",
+    "part": "A"
+   },
+   {
+    "it": "Verremo alla tua festa.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que vendrán a tu fiesta",
+     "Que no vendrán",
+     "Que ya vinieron"
+    ],
+    "answer": 0,
+    "why": "«Verremo» = vendremos.",
+    "part": "A"
+   },
+   {
+    "it": "Avrai fame.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que tuviste hambre",
+     "Que probablemente tienes hambre",
+     "Que no tienes hambre"
+    ],
+    "answer": 1,
+    "why": "El futuro expresa suposición.",
+    "part": "A"
+   },
+   {
+    "it": "Vorrei un caffè, per favore.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que ya tomó café",
+     "Que no quiere café",
+     "Que pide un café con cortesía"
+    ],
+    "answer": 2,
+    "why": "«Vorrei» = quisiera.",
+    "part": "B"
+   },
+   {
+    "it": "Potresti aiutarmi?",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que si podrías ayudarlo",
+     "Que ya te ayudó",
+     "Que no necesita ayuda"
+    ],
+    "answer": 0,
+    "why": "«Potresti» = ¿podrías?",
+    "part": "B"
+   },
+   {
+    "it": "Ti andrebbe di venire al cinema?",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que no quiere ir",
+     "Que te invita al cine",
+     "Que ya fue al cine"
+    ],
+    "answer": 1,
+    "why": "«Ti andrebbe di…?» = ¿te gustaría…?",
+    "part": "B"
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Mañana estudiaré.»",
+    "options": [
+     "Domani studiaro.",
+     "Domani studio erò.",
+     "Domani studierò."
+    ],
+    "answer": 2,
+    "why": "Futuro de «studiare»: «studierò».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Iremos a Roma.»",
+    "options": [
+     "Andremo a Roma.",
+     "Anderemo a Roma.",
+     "Andaremo a Roma."
+    ],
+    "answer": 0,
+    "why": "Futuro irregular: «andremo».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Seré feliz.»",
+    "options": [
+     "Esserò felice.",
+     "Sarò felice.",
+     "Sero felice."
+    ],
+    "answer": 1,
+    "why": "Futuro de «essere»: «sarò».",
+    "part": "A"
+   },
+   {
+    "type": "fill",
+    "prompt": "L'anno prossimo ___ in Italia. (andare, io)",
+    "answers": [
+     "andrò"
+    ],
+    "why": "Futuro irregular: «andrò».",
+    "part": "A"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Deberías descansar.»",
+    "options": [
+     "Dovrei riposare.",
+     "Devi riposare.",
+     "Dovresti riposare."
+    ],
+    "answer": 2,
+    "why": "Consejo: condizionale «dovresti».",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Me gustaría salir.»",
+    "options": [
+     "Vorrei uscire.",
+     "Voglio usciro.",
+     "Vorrò uscire."
+    ],
+    "answer": 0,
+    "why": "Cortesía: «vorrei».",
+    "part": "B"
+   },
+   {
+    "type": "choice",
+    "prompt": "«Si estás cansado, descansa.»",
+    "options": [
+     "Se sei stanco, riposi.",
+     "Se sei stanco, riposa.",
+     "Se sarai stanco, riposo."
+    ],
+    "answer": 1,
+    "why": "«Se» + presente + imperativo.",
+    "part": "B"
+   },
+   {
+    "type": "fill",
+    "prompt": "___ un caffè, per favore. (me gustaría)",
+    "answers": [
+     "Vorrei"
+    ],
+    "why": "«Vorrei» pide con cortesía.",
+    "part": "B"
+   }
+  ]
+ },
+ "u16": {
+  "lectura": [
+   {
+    "text": "Mi fa male la testa e ho la febbre. Vado in farmacia e compro delle medicine. Se non passa, chiamo il medico.",
+    "q": "¿Qué hará si no se le pasa?",
+    "options": [
+     "Ir a trabajar",
+     "Salir a correr",
+     "Llamar al médico"
+    ],
+    "answer": 2,
+    "why": "«Se non passa, chiamo il medico»."
+   },
+   {
+    "text": "Dottore, ho mal di gola da tre giorni. Ho anche la tosse. Prenda due compresse al giorno e beva molta acqua.",
+    "q": "¿Qué debe hacer el paciente?",
+    "options": [
+     "Tomar dos pastillas al día",
+     "Dormir diez horas",
+     "No beber agua"
+    ],
+    "answer": 0,
+    "why": "«Prenda due compresse al giorno»."
+   },
+   {
+    "text": "Aiuto! Mio padre sta male. Chiamate l'ambulanza! Il numero è centododici. L'indirizzo è via Roma, numero cinque.",
+    "q": "¿Qué número se llama?",
+    "options": [
+     "118",
+     "112",
+     "911"
+    ],
+    "answer": 1,
+    "why": "El texto dice «centododici»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Mi fa male lo stomaco.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que le duele la cabeza",
+     "Que no le duele nada",
+     "Que le duele el estómago"
+    ],
+    "answer": 2,
+    "why": "«Lo stomaco» = estómago."
+   },
+   {
+    "it": "Ho bisogno di un medico.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que necesita un médico",
+     "Que es médico",
+     "Que no quiere médico"
+    ],
+    "answer": 0,
+    "why": "«Ho bisogno di» = necesito."
+   },
+   {
+    "it": "Chiami un'ambulanza, per favore!",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que se la llevan",
+     "Que llamen una ambulancia",
+     "Que no pasa nada"
+    ],
+    "answer": 1,
+    "why": "«Chiami» = llame."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Me duele la cabeza.»",
+    "options": [
+     "Ho male la testa.",
+     "Sono male la testa.",
+     "Mi fa male la testa."
+    ],
+    "answer": 2,
+    "why": "«Mi fa male» + parte del cuerpo."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Tengo fiebre.»",
+    "options": [
+     "Ho la febbre.",
+     "Sono la febbre.",
+     "Fa la febbre."
+    ],
+    "answer": 0,
+    "why": "«Avere la febbre»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Necesito una receta.»",
+    "options": [
+     "Ho bisogno una ricetta.",
+     "Ho bisogno di una ricetta.",
+     "Ho bisogno da una ricetta."
+    ],
+    "answer": 1,
+    "why": "«Avere bisogno di»."
+   },
+   {
+    "type": "fill",
+    "prompt": "Mi fa ___ la schiena. (mal)",
+    "answers": [
+     "male"
+    ],
+    "why": "«Mi fa male»."
+   }
+  ]
+ },
+ "u17": {
+  "lectura": [
+   {
+    "text": "Cerco un appartamento in affitto. Ha due camere e un bagno? Quanto costa al mese? Settecento euro, più le spese.",
+    "q": "¿Cuánto cuesta al mes?",
+    "options": [
+     "700 euros todo incluido",
+     "1000 euros",
+     "700 euros más gastos"
+    ],
+    "answer": 2,
+    "why": "«Settecento euro, più le spese»."
+   },
+   {
+    "text": "Il contratto dura un anno. Devo pagare l'affitto entro il cinque del mese. La caparra è di due mesi.",
+    "q": "¿Hasta cuándo se paga el alquiler?",
+    "options": [
+     "Hasta el cinco de cada mes",
+     "Hasta el diez",
+     "Hasta fin de mes"
+    ],
+    "answer": 0,
+    "why": "«Entro il cinque del mese»."
+   },
+   {
+    "text": "Per aprire un conto in banca ho bisogno di un documento e del codice fiscale. Poi compilo un modulo.",
+    "q": "¿Qué necesita para abrir una cuenta?",
+    "options": [
+     "Solo dinero",
+     "Documento y código fiscal",
+     "Una carta"
+    ],
+    "answer": 1,
+    "why": "«Un documento e del codice fiscale»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Cerco una casa in affitto.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que vende una casa",
+     "Que compra una casa",
+     "Que busca una casa para arrendar"
+    ],
+    "answer": 2,
+    "why": "«In affitto» = para arrendar."
+   },
+   {
+    "it": "Dove devo firmare?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Dónde debe firmar",
+     "Dónde debe pagar",
+     "Dónde debe esperar"
+    ],
+    "answer": 0,
+    "why": "«Firmare» = firmar."
+   },
+   {
+    "it": "L'affitto è di seicento euro.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que el alquiler es de 60 euros",
+     "Que el alquiler es de 600 euros",
+     "Que no hay alquiler"
+    ],
+    "answer": 1,
+    "why": "«Seicento» = 600."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Quisiera ver el departamento.»",
+    "options": [
+     "Voglio vedere appartamento.",
+     "Vorrei vedo l'appartamento.",
+     "Vorrei vedere l'appartamento."
+    ],
+    "answer": 2,
+    "why": "«Vorrei» + infinitivo."
+   },
+   {
+    "type": "choice",
+    "prompt": "«El contrato dura un año.»",
+    "options": [
+     "Il contratto dura un anno.",
+     "Il contratto durare un anno.",
+     "Il contratto è un anno."
+    ],
+    "answer": 0,
+    "why": "Verbo conjugado: «dura»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«La caparra» significa…",
+    "options": [
+     "pago mensual",
+     "depósito de garantía",
+     "gasto común"
+    ],
+    "answer": 1,
+    "why": "«Caparra» = depósito."
+   },
+   {
+    "type": "fill",
+    "prompt": "Devo pagare l'___. (el alquiler)",
+    "answers": [
+     "affitto"
+    ],
+    "why": "«Affitto» = alquiler."
+   }
+  ]
+ },
+ "u18": {
+  "lectura": [
+   {
+    "text": "Pronto? Sono Marco. Posso parlare con la signora Bianchi? Mi dispiace, non è in ufficio. Richiama domani.",
+    "q": "¿Qué le dicen a Marco?",
+    "options": [
+     "Que espere",
+     "Que venga a la oficina",
+     "Que llame mañana"
+    ],
+    "answer": 2,
+    "why": "«Richiama domani»."
+   },
+   {
+    "text": "Ciao Anna, scusa il ritardo. Sono nel traffico e arrivo tra dieci minuti. Ci vediamo davanti al cinema. Baci, Luca",
+    "q": "¿Dónde se encuentran?",
+    "options": [
+     "Frente al cine",
+     "En su casa",
+     "En el tráfico"
+    ],
+    "answer": 0,
+    "why": "«Davanti al cinema»."
+   },
+   {
+    "text": "Gentile signor Neri, le scrivo per chiedere informazioni sul corso. Può mandarmi il programma? Cordiali saluti, Elena Conti.",
+    "q": "¿Qué pide en el mail?",
+    "options": [
+     "Un descuento",
+     "El programa del curso",
+     "La dirección"
+    ],
+    "answer": 1,
+    "why": "«Può mandarmi il programma?»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Non ti sento bene.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que no te ve",
+     "Que no te conoce",
+     "Que no te oye bien"
+    ],
+    "answer": 2,
+    "why": "«Non ti sento» = no te oigo."
+   },
+   {
+    "it": "Posso richiamare più tardi?",
+    "q": "¿Qué pregunta?",
+    "options": [
+     "Si puede devolver la llamada más tarde",
+     "Si puede llamar ahora",
+     "Si puede enviar un mensaje"
+    ],
+    "answer": 0,
+    "why": "«Richiamare» = volver a llamar."
+   },
+   {
+    "it": "Ti mando un messaggio.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que no te escribe",
+     "Que te envía un mensaje",
+     "Que te llama"
+    ],
+    "answer": 1,
+    "why": "«Ti mando» = te envío."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "Contestas el teléfono.",
+    "options": [
+     "Buongiorno!",
+     "Prego?",
+     "Pronto?"
+    ],
+    "answer": 2,
+    "why": "«Pronto?» es la fórmula al contestar."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Cordiali saluti» va…",
+    "options": [
+     "al final de un mail formal",
+     "al inicio de un mail",
+     "en un mensaje de WhatsApp a un amigo"
+    ],
+    "answer": 0,
+    "why": "Es una despedida formal."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Ci sentiamo domani.»",
+    "options": [
+     "Nos vimos ayer",
+     "Hablamos mañana",
+     "Nos vemos hoy"
+    ],
+    "answer": 1,
+    "why": "«Ci sentiamo» = nos hablamos."
+   },
+   {
+    "type": "fill",
+    "prompt": "___? Sono Anna. (al teléfono)",
+    "answers": [
+     "Pronto"
+    ],
+    "why": "«Pronto?» se dice al contestar."
+   }
+  ]
+ },
+ "u19": {
+  "lectura": [
+   {
+    "text": "In Italia si mangia tardi. Di solito si cena alle otto. Si beve il caffè dopo mangiato, ma non si prende il cappuccino.",
+    "q": "¿Qué no se toma después de comer?",
+    "options": [
+     "El café",
+     "El té",
+     "El capuchino"
+    ],
+    "answer": 2,
+    "why": "«Non si prende il cappuccino»."
+   },
+   {
+    "text": "Studio italiano da sei mesi. Abito qui da un anno e lavoro in questa azienda da due anni.",
+    "q": "¿Desde hace cuánto estudia italiano?",
+    "options": [
+     "Seis meses",
+     "Un año",
+     "Dos años"
+    ],
+    "answer": 0,
+    "why": "«Studio italiano da sei mesi»."
+   },
+   {
+    "text": "Sto per uscire, ma il telefono squilla. Sto per rispondere quando smette. Poi esco.",
+    "q": "¿Qué estaba a punto de hacer?",
+    "options": [
+     "Dormir",
+     "Salir",
+     "Comer"
+    ],
+    "answer": 1,
+    "why": "«Sto per uscire»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Qui si parla italiano.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que aquí habla un italiano",
+     "Que no se habla italiano",
+     "Que aquí se habla italiano"
+    ],
+    "answer": 2,
+    "why": "«Si parla» = se habla."
+   },
+   {
+    "it": "Aspetto da dieci minuti.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que espera hace diez minutos",
+     "Que esperará diez minutos",
+     "Que esperó diez minutos ayer"
+    ],
+    "answer": 0,
+    "why": "«Da dieci minuti» = hace diez minutos."
+   },
+   {
+    "it": "Sto per partire.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que acaba de partir",
+     "Que está por partir",
+     "Que no parte"
+    ],
+    "answer": 1,
+    "why": "«Sto per» = estoy por."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Aquí no se fuma.»",
+    "options": [
+     "Qui non fuma.",
+     "Qui si non fuma.",
+     "Qui non si fuma."
+    ],
+    "answer": 2,
+    "why": "Impersonal: «si» + verbo."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Vivo aquí desde hace un año.»",
+    "options": [
+     "Abito qui da un anno.",
+     "Abito qui per un anno.",
+     "Ho abitato qui da un anno."
+    ],
+    "answer": 0,
+    "why": "«Da» + presente."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Estoy por llamar.»",
+    "options": [
+     "Sto chiamando per.",
+     "Sto per chiamare.",
+     "Sono per chiamare."
+    ],
+    "answer": 1,
+    "why": "«Stare per» + infinitivo."
+   },
+   {
+    "type": "fill",
+    "prompt": "In Italia ___ mangia tardi. (se)",
+    "answers": [
+     "si"
+    ],
+    "why": "Impersonal: «si mangia»."
+   }
+  ]
+ },
+ "u20": {
+  "lectura": [
+   {
+    "text": "Prima faccio la spesa, poi cucino. Mentre cucino, ascolto la radio. Alla fine mangio con mia sorella.",
+    "q": "¿Qué hace mientras cocina?",
+    "options": [
+     "Hace las compras",
+     "Come",
+     "Escucha la radio"
+    ],
+    "answer": 2,
+    "why": "«Mentre cucino, ascolto la radio»."
+   },
+   {
+    "text": "Non vengo perché sono stanco, ma domani ci vediamo. Secondo me è una buona idea. Sono d'accordo con te.",
+    "q": "¿Por qué no viene?",
+    "options": [
+     "Porque está cansado",
+     "Porque no quiere",
+     "Porque está enfermo"
+    ],
+    "answer": 0,
+    "why": "«Non vengo perché sono stanco»."
+   },
+   {
+    "text": "Piove, quindi resto a casa. Invece mio fratello esce lo stesso. Che peccato! Voleva venire con noi.",
+    "q": "¿Qué hace el hermano?",
+    "options": [
+     "Se queda en casa",
+     "Sale igual",
+     "Duerme"
+    ],
+    "answer": 1,
+    "why": "«Mio fratello esce lo stesso»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Prima di uscire, chiudo la porta.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que después de salir cierra",
+     "Que no sale",
+     "Que antes de salir cierra la puerta"
+    ],
+    "answer": 2,
+    "why": "«Prima di uscire»."
+   },
+   {
+    "it": "Secondo me è troppo caro.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que en su opinión es muy caro",
+     "Que es barato",
+     "Que no sabe el precio"
+    ],
+    "answer": 0,
+    "why": "«Secondo me» = en mi opinión."
+   },
+   {
+    "it": "Mi ha detto che era stanco.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que está cansado ahora",
+     "Que le dijo que estaba cansado",
+     "Que no dijo nada"
+    ],
+    "answer": 1,
+    "why": "«Ha detto che» = dijo que."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Luego cocino.»",
+    "options": [
+     "Prima cucino.",
+     "Mentre cucino.",
+     "Poi cucino."
+    ],
+    "answer": 2,
+    "why": "«Poi» = luego."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Estoy de acuerdo.»",
+    "options": [
+     "Sono d'accordo.",
+     "Ho d'accordo.",
+     "Sono accordo."
+    ],
+    "answer": 0,
+    "why": "«Essere d'accordo»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«¡Qué pena!»",
+    "options": [
+     "Che peccata!",
+     "Che peccato!",
+     "Che pena!"
+    ],
+    "answer": 1,
+    "why": "Expresión fija."
+   },
+   {
+    "type": "fill",
+    "prompt": "Non esco ___ piove. (porque)",
+    "answers": [
+     "perché"
+    ],
+    "why": "«Perché» = porque."
+   }
+  ]
+ },
+ "u24": {
+  "lectura": [
+   {
+    "text": "L'anno scorso sono andata in Italia con un'amica. Faceva caldo e il cielo era azzurro. Abbiamo visitato Roma e Firenze. Penso che sia stata un'esperienza bellissima.",
+    "q": "¿Cómo fue el cielo?",
+    "options": [
+     "Nublado",
+     "Gris",
+     "Azul"
+    ],
+    "answer": 2,
+    "why": "«Il cielo era azzurro»."
+   },
+   {
+    "text": "Domani parto per Napoli. Vorrei prenotare una camera per due notti. Se avessi più tempo, resterei una settimana.",
+    "q": "¿Cuántas noches reserva?",
+    "options": [
+     "Dos",
+     "Siete",
+     "Una"
+    ],
+    "answer": 0,
+    "why": "«Una camera per due notti»."
+   },
+   {
+    "text": "Quando ero piccolo, abitavo a Roma. Ora abito a Santiago e studio italiano. Spero di tornare in Italia l'anno prossimo.",
+    "q": "¿Qué espera hacer?",
+    "options": [
+     "Quedarse en Santiago",
+     "Volver a Italia",
+     "Ir a Madrid"
+    ],
+    "answer": 1,
+    "why": "«Spero di tornare in Italia»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Sono stato a Milano due volte.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que vive en Milán",
+     "Que irá a Milán",
+     "Que estuvo en Milán dos veces"
+    ],
+    "answer": 2,
+    "why": "«Sono stato» = estuve."
+   },
+   {
+    "it": "Spero che voi stiate bene.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que espera que ustedes estén bien",
+     "Que sabe que estás bien",
+     "Que no espera nada"
+    ],
+    "answer": 0,
+    "why": "«Spero che» + congiuntivo."
+   },
+   {
+    "it": "Se avessi tempo, viaggerei di più.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que viaja mucho",
+     "Que si tuviera tiempo viajaría más",
+     "Que no quiere viajar"
+    ],
+    "answer": 1,
+    "why": "Hipótesis irreal."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Ayer fui al mercado.»",
+    "options": [
+     "Ieri ho andato al mercato.",
+     "Ieri andavo al mercato.",
+     "Ieri sono andato al mercato."
+    ],
+    "answer": 2,
+    "why": "Hecho concreto con «andare»: essere."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Cuando era niño, jugaba.»",
+    "options": [
+     "Da bambino giocavo.",
+     "Da bambino ho giocato.",
+     "Da bambino giocherò."
+    ],
+    "answer": 0,
+    "why": "Hábito del pasado: imperfetto."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Pienso que es verdad.»",
+    "options": [
+     "Penso che è vero.",
+     "Penso che sia vero.",
+     "Penso che sarà vero."
+    ],
+    "answer": 1,
+    "why": "«Penso che» + congiuntivo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ieri ___ andato al cinema. (yo, masculino)",
+    "answers": [
+     "sono"
+    ],
+    "why": "Con «andare»: «sono andato»."
+   }
+  ]
+ },
+ "u21": {
+  "lectura": [
+   {
+    "text": "Mi presti la penna? Sì, te la presto. Me la dai domani? Certo, te la do domani.",
+    "q": "¿Cuándo se la da?",
+    "options": [
+     "Hoy",
+     "Ayer",
+     "Mañana"
+    ],
+    "answer": 2,
+    "why": "«Te la do domani»."
+   },
+   {
+    "text": "Marco vuole il mio libro. Glielo do domani. Poi gli presto anche il quaderno: glielo porto lunedì.",
+    "q": "¿Cuándo le lleva el cuaderno?",
+    "options": [
+     "El lunes",
+     "Mañana",
+     "El martes"
+    ],
+    "answer": 0,
+    "why": "«Glielo porto lunedì»."
+   },
+   {
+    "text": "Hai mandato la lettera a Giulia? Sì, gliel'ho mandata ieri. Me l'ha detto lei che l'ha ricevuta.",
+    "q": "¿Cuándo la mandó?",
+    "options": [
+     "Hoy",
+     "Ayer",
+     "Mañana"
+    ],
+    "answer": 1,
+    "why": "«Gliel'ho mandata ieri»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Me lo dici domani?",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que ya se lo dijo",
+     "Que no quiere saberlo",
+     "Que le pide que se lo diga mañana"
+    ],
+    "answer": 2,
+    "why": "«Me lo» = a mí, eso."
+   },
+   {
+    "it": "Te la mando stasera.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que te la envía esta noche",
+     "Que no te la envía",
+     "Que te la envió ayer"
+    ],
+    "answer": 0,
+    "why": "«Te la mando»."
+   },
+   {
+    "it": "Glielo spiego io.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que no lo explica",
+     "Que se lo explica él mismo",
+     "Que se lo explicaron"
+    ],
+    "answer": 1,
+    "why": "«Glielo» = a él/ella, eso."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Te lo doy.»",
+    "options": [
+     "Ti lo do.",
+     "Lo te do.",
+     "Te lo do."
+    ],
+    "answer": 2,
+    "why": "«Ti» + «lo» = «te lo»."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Se lo digo a ella.»",
+    "options": [
+     "Glielo dico.",
+     "Gliela dico.",
+     "Lo le dico."
+    ],
+    "answer": 0,
+    "why": "«Glielo» une le + lo."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Me la presta.»",
+    "options": [
+     "Mi la presta.",
+     "Me la presta.",
+     "La mi presta."
+    ],
+    "answer": 1,
+    "why": "«Mi» + «la» = «me la»."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ti serve la mia giacca? ___ presto domani. (te la)",
+    "answers": [
+     "Te la"
+    ],
+    "why": "«Te la presto»."
+   }
+  ]
+ },
+ "u22": {
+  "lectura": [
+   {
+    "text": "Penso che Marco sia in ritardo. Spero che arrivi presto. Credo che abbia un problema con il treno.",
+    "q": "¿Qué espera la persona?",
+    "options": [
+     "Que no llegue",
+     "Que llame",
+     "Que llegue pronto"
+    ],
+    "answer": 2,
+    "why": "«Spero che arrivi presto»."
+   },
+   {
+    "text": "È importante che voi studiate ogni giorno. Voglio che impariate bene. Non credo che sia difficile.",
+    "q": "¿Qué quiere la persona?",
+    "options": [
+     "Que aprendan bien",
+     "Que estudien menos",
+     "Que no estudien"
+    ],
+    "answer": 0,
+    "why": "«Voglio che impariate bene»."
+   },
+   {
+    "text": "Dubito che Luca venga domani. Mi sembra che sia occupato. Spero che stia bene.",
+    "q": "¿Qué espera de Luca?",
+    "options": [
+     "Que venga",
+     "Que esté bien",
+     "Que llame"
+    ],
+    "answer": 1,
+    "why": "«Spero che stia bene»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Penso che sia vero.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que sabe que es verdad",
+     "Que no piensa nada",
+     "Que piensa que es verdad"
+    ],
+    "answer": 2,
+    "why": "«Penso che sia»."
+   },
+   {
+    "it": "Voglio che tu venga.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que quiere que vengas",
+     "Que quiere ir",
+     "Que no quiere que vengas"
+    ],
+    "answer": 0,
+    "why": "«Voglio che tu venga»."
+   },
+   {
+    "it": "Spero che piova domani.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que llueve hoy",
+     "Que espera que llueva mañana",
+     "Que no espera lluvia"
+    ],
+    "answer": 1,
+    "why": "«Spero che piova»."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Creo que él tiene razón.»",
+    "options": [
+     "Credo che lui ha ragione.",
+     "Credo che lui avesse ragione.",
+     "Credo che lui abbia ragione."
+    ],
+    "answer": 2,
+    "why": "«Credo che» + congiuntivo."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Quiero que ustedes lleguen.»",
+    "options": [
+     "Voglio che arriviate.",
+     "Voglio che arrivate.",
+     "Voglio arrivate."
+    ],
+    "answer": 0,
+    "why": "«Voglio che» + congiuntivo."
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Qué significa «che sia»?",
+    "options": [
+     "que es",
+     "que sea",
+     "que será"
+    ],
+    "answer": 1,
+    "why": "«Sia» = sea (congiuntivo de essere)."
+   },
+   {
+    "type": "fill",
+    "prompt": "Penso che lei ___ a casa. (essere)",
+    "answers": [
+     "sia"
+    ],
+    "why": "«Sia» de «essere»."
+   }
+  ]
+ },
+ "u23": {
+  "lectura": [
+   {
+    "text": "Se avessi tempo, viaggerei di più. Se fossi ricco, comprerei una casa al mare. Ma ora lavoro e non ho tempo.",
+    "q": "¿Qué compraría si fuera rico?",
+    "options": [
+     "Un auto",
+     "Un barco",
+     "Una casa en el mar"
+    ],
+    "answer": 2,
+    "why": "«Comprerei una casa al mare»."
+   },
+   {
+    "text": "Se Marco studiasse di più, passerebbe l'esame. Ma non studia e quindi forse non lo passerà.",
+    "q": "¿Qué pasaría si Marco estudiara más?",
+    "options": [
+     "Pasaría el examen",
+     "Perdería el examen",
+     "No haría nada"
+    ],
+    "answer": 0,
+    "why": "«Passerebbe l'esame»."
+   },
+   {
+    "text": "Se potessi, resterei qui per sempre. Se fossi in te, andrei dal medico. Se avessi un consiglio, direi: riposa.",
+    "q": "¿Qué haría la persona en lugar del otro?",
+    "options": [
+     "Quedarse",
+     "Ir al médico",
+     "Trabajar"
+    ],
+    "answer": 1,
+    "why": "«Se fossi in te, andrei dal medico»."
+   }
+  ],
+  "escucha": [
+   {
+    "it": "Se avessi più tempo, verrei volentieri.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que viene siempre",
+     "Que no vendrá nunca",
+     "Que si tuviera más tiempo vendría con gusto"
+    ],
+    "answer": 2,
+    "why": "«Se avessi… verrei»."
+   },
+   {
+    "it": "Se fossi ricco, viaggerei molto.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que si fuera rico viajaría mucho",
+     "Que es rico",
+     "Que viaja siempre"
+    ],
+    "answer": 0,
+    "why": "«Se fossi… viaggerei»."
+   },
+   {
+    "it": "Se piove, resto a casa.",
+    "q": "¿Qué dice?",
+    "options": [
+     "Que si lloviera se quedaría",
+     "Que si llueve se queda en casa",
+     "Que no sale nunca"
+    ],
+    "answer": 1,
+    "why": "Con «se» + presente la hipótesis es real."
+   }
+  ],
+  "gramatica": [
+   {
+    "type": "choice",
+    "prompt": "«Si tuviera dinero, viajaría.»",
+    "options": [
+     "Se avrei soldi, viaggerei.",
+     "Se ho soldi, viaggerei.",
+     "Se avessi soldi, viaggerei."
+    ],
+    "answer": 2,
+    "why": "Congiuntivo imperfetto + condizionale."
+   },
+   {
+    "type": "choice",
+    "prompt": "«Si pudiera, iría.»",
+    "options": [
+     "Se potessi, andrei.",
+     "Se potrei, andrei.",
+     "Se posso, andrei."
+    ],
+    "answer": 0,
+    "why": "Nunca condizionale después de «se»."
+   },
+   {
+    "type": "choice",
+    "prompt": "¿Cuál es el congiuntivo imperfetto de «essere» (io)?",
+    "options": [
+     "sia",
+     "fossi",
+     "sarei"
+    ],
+    "answer": 1,
+    "why": "«Fossi» = fuera."
+   },
+   {
+    "type": "fill",
+    "prompt": "Se ___ tempo, viaggerei. (avere, io)",
+    "answers": [
+     "avessi"
+    ],
+    "why": "Congiuntivo imperfetto: «avessi»."
+   }
+  ]
+ }
+}
