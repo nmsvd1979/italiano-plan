@@ -26,11 +26,11 @@ d|— Il coperto è incluso? // — No, ___ due euro a persona.|costa;costano;co
 l|Sono vegetariano.|Soy vegetariano.;Soy vegano.;Soy alérgico.|«Vegetariano» = vegetariano.
 ## u13
 o|Lo compro mañana en el mercado.|Lo compro domani al mercato.|la|«Lo» sustituye a un objeto masculino.
-o|Le di el libro ayer.|Le ho dato il libro ieri.|gli|«Le» es el pronombre indirecto femenino (a ella).
+o|A ella le di el libro ayer.|Le ho dato il libro ieri.|gli|«Le» es el pronombre indirecto femenino (a ella).
 t|La veo cada día.|La vedo ogni giorno.|«La» reemplaza a una persona femenina.
 t|Le escribo un mensaje.|Le scrivo un messaggio. / Gli scrivo un messaggio.|Pronombre indirecto: le (a ella) o gli (a él).
 t|Los compré ayer.|Li ho comprati ieri.|Con «li» el participio concuerda: comprati.
-f|Ho visto lui ieri.|L'ho visto ieri. / Lo ho visto ieri.|El pronombre va antes del verbo y se apostrofa: l'ho.
+f|Ho visto lui ieri.|L'ho visto ieri.|El pronombre va antes del verbo y se apostrofa: l'ho.
 f|Gli ho dato un regalo a Maria.|Le ho dato un regalo a Maria. / Le ho dato un regalo.|A una mujer se le dice «le».
 x|Reemplaza con pronombre: Compro il pane.|Lo compro.|«Il pane» → lo.
 x|Reemplaza con pronombre: Scrivo a Marco.|Gli scrivo.|A él (indirecto) → gli.
