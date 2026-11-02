@@ -65,7 +65,7 @@ const lesson: Lesson = {
       type: "choice",
       prompt: "«Sa dov'è la stazione?» ¿Qué pregunta?",
       options: ["Si alguien sabe dónde está la estación", "Si alguien conoce a alguien de la estación", "Si la estación está abierta"],
-      answer: 1,
+      answer: 0,
       why: "*Sapere* + *dove* = saber dónde está algo.",
     },
     {

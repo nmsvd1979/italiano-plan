@@ -249,7 +249,7 @@ En el centro: el cielo está nublado. Hacia la noche llueve. En Roma hay doce gr
 En el sur: hace buen tiempo y hay mucho sol. En Nápoles hay dieciocho grados. El mar está calmo.
 
 Consejo: en el norte lleva un abrigo y una bufanda; en el centro lleva el paraguas; en el sur puedes ponerte una camiseta ligera. ¡Buen día y buen viaje!
-claves: la nebbia=la neblina; nevicare=nevicar; nuvoloso=nublado; piove=llueve; l'ombrello=el paraguas; la sciarpa=la bufanda
+claves: la nebbia=la neblina; nevicare=nevar; nuvoloso=nublado; piove=llueve; l'ombrello=el paraguas; la sciarpa=la bufanda
 p1: ¿Qué tiempo hace en el norte por la mañana? | sole e caldo | nebbia e freddo | pioggia | b | «c'è nebbia e fa freddo».
 p2: ¿Cuándo llueve en el centro? | verso sera | al mattino | tutto il giorno | a | «Verso sera piove».
 p3: ¿Qué se aconseja llevar al centro? | il cappotto | la maglietta | l'ombrello | c | «al centro porta l'ombrello».

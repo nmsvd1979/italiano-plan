@@ -196,7 +196,7 @@ const WRITING: Record<string, WritingTask> = {
     checklist: [
       "Usé passato prossimo para los hechos e imperfetto para describir.",
       "Usé al menos dos conectores (*prima, poi, perché, mentre, però*).",
-      "Di mi opinión con *secondo me*.",
+      "Di mi opinión con *secondo me* o *penso che*.",
       "Usé un plan (*spero di…, tornerò*) o una hipótesis (*se avessi…, resterei*).",
     ],
     minChars: 120,
@@ -208,7 +208,7 @@ const WRITING: Record<string, WritingTask> = {
       "Usé *ha detto che* / *ha chiesto se* para contar lo que dijeron.",
       "Los verbos del discurso indirecto bajan un paso (*era, volevo*).",
       "Usé al menos tres conectores (*quindi, però, comunque, perché, invece*).",
-      "Di mi opinión con *penso che* + congiuntivo.",
+      "Di mi opinión con *secondo me*.",
     ],
     minChars: 100,
   },

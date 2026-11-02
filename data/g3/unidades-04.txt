@@ -5,7 +5,7 @@
 =vedere|Ho visto un bel film.|Vi una buena película.
 =fare|Ho fatto una passeggiata.|Di un paseo.
 =prendere|Ho preso il treno delle otto.|Tomé el tren de las ocho.
-=scrivere|Ho scritto una email.|Escribí un correo.
+=scrivere|Ho scritto un'email.|Escribí un correo.
 =leggere|Ho letto un libro in italiano.|Leí un libro en italiano.
 =dire|Che cosa hai detto?|¿Qué dijiste?
 =aprire|Ho aperto la finestra.|Abrí la ventana.
@@ -72,7 +72,7 @@
 =la partenza|La partenza è alle sei.|La salida es a las seis.
 +frecuente|andato|ido (de andare)|Sono andato al mercato.|Fui al mercado.
 +frecuente|venuto|venido (de venire)|Sei venuto da solo?|¿Viniste solo?
-+frecuente|uscito|salido (de uscire)|Maria è uscita presto.|Maria salió temprano.
++frecuente|uscito|salido (de uscire)|Maria è uscita presto.|María salió temprano.
 +frecuente|rimasto|quedado (de rimanere)|Sono rimasto a casa tutto il giorno.|Me quedé en casa todo el día.
 +frecuente|nato|nacido (de nascere)|Mia sorella è nata a marzo.|Mi hermana nació en marzo.
 +frecuente|morto|muerto|Il suo cane è morto.|Su perro murió.
@@ -106,7 +106,7 @@
 =allora|Allora non c'erano i telefonini.|En esa época no había celulares.
 =mentre|Mentre mangiavo, è arrivato Marco.|Mientras comía, llegó Marco.
 =l'infanzia|L'infanzia è un bel ricordo.|La infancia es un bonito recuerdo.
-=la scuola|A scuola avevo molti amici.|En el escuela tenía muchos amigos.
+=la scuola|A scuola avevo molti amici.|En la escuela tenía muchos amigos.
 =giocare|Giocavo a calcio ogni giorno.|Jugaba a la pelota todos los días.
 =ricordare|Ricordo la casa dei miei nonni.|Recuerdo la casa de mis abuelos.
 =il nonno|Il nonno raccontava belle storie.|El abuelo contaba bonitas historias.
@@ -123,7 +123,7 @@
 =l'inverno|L'inverno era lungo.|El invierno era largo.
 +frecuente|ero|yo era / estaba|Ero un bambino felice.|Era un niño feliz.
 +frecuente|avevo|yo tenía|Avevo un cane che si chiamava Bobi.|Tenía un perro que se llamaba Bobi.
-+frecuente|facevo|yo hacía|Facevo i compiti dopo scuola.|Hacía las tareas después del escuela.
++frecuente|facevo|yo hacía|Facevo i compiti dopo scuola.|Hacía las tareas después de la escuela.
 +frecuente|dicevo|yo decía|Dicevo sempre la verità.|Siempre decía la verdad.
 +unidad|c'era|había (pasado)|C'era una volta un re.|Había una vez un rey.
 +frecuente|il gioco|el juego|Il mio gioco preferito era il calcio.|Mi juego preferido era el fútbol.

@@ -1,5 +1,5 @@
 ## u21
-=prestare|Ti presto la penna.|Te presto el lápiz.
+=prestare|Ti presto la penna.|Te presto el bolígrafo.
 =dare|Te lo do domani.|Te lo doy mañana.
 =dire|Glielo dico io.|Se lo digo yo.
 =mandare|Te la mando stasera.|Te la mando esta noche.
@@ -9,7 +9,7 @@
 =restituire|Glieli restituisco domani.|Se los devuelvo mañana.
 =consegnare|Gliela consegno oggi.|Se la entrego hoy.
 =il consiglio|Me lo ha dato un amico.|Me lo dio un amigo.
-=la penna|Mi presti la penna?|¿Me prestas el lápiz?
+=la penna|Mi presti la penna?|¿Me prestas el bolígrafo?
 =il numero|Gliel'ho dato ieri.|Se lo di ayer.
 =il favore|Me lo fai questo favore?|¿Me haces este favor?
 =lo scontrino|Me lo dà, per favore?|¿Me lo da, por favor?
@@ -43,7 +43,7 @@
 +unidad|affidare|confiar / encargar|Gli affido le chiavi.|Le confío las llaves.
 +unidad|l'ombrello|el paraguas|Ti presto l'ombrello.|Te presto el paraguas.
 +unidad|il portafoglio|la billetera|Ho dimenticato il portafoglio.|Olvidé la billetera.
-+unidad|gli occhiali|las gafas|Mi presti gli occhiali?|¿Me prestas las gafas?
++unidad|gli occhiali|los anteojos|Mi presti gli occhiali?|¿Me prestas los anteojos?
 +unidad|la macchina fotografica|la cámara fotográfica|Ti porto la macchina fotografica.|Te llevo la cámara fotográfica.
 +unidad|le chiavi|las llaves|Te le do domani.|Te las doy mañana.
 +unidad|con piacere|con gusto|Te lo dico con piacere.|Te lo digo con gusto.

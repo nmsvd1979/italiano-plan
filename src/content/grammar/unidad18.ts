@@ -89,7 +89,7 @@ export const unidad18: Lesson = {
       "text": "**Recíproco.** Para hablar de cosas que se hacen entre dos: *ci sentiamo* (nos hablamos), *ci vediamo* (nos vemos), *ci scriviamo* (nos escribimos). *Ci sentiamo domani!* es una despedida muy común."
     }
   ],
-  "transfer": "En español contestas *aló*, *bueno* o *diga*; en italiano es *Pronto?* (que también significa *listo*). Con *tra* (dentro de) no uses *in*: *tra dieci minuti*, no *in dieci minuti* (eso diría cuánto tarda algo). *Telefonare* lleva *a* y el pronombre indirecto (*gli telefono*); *chiamare* lleva pronombre directo (*lo chiamo*). Y en un mail formal, *Le / Suo / Sua* se escriben con mayúscula.",
+  "transfer": "En español contestas *aló*, *bueno* o *diga*; en italiano es *Pronto?* (que también significa *listo*). Con *tra* (dentro de) no uses *in*: *tra dieci minuti*, no *in dieci minuti* (eso diría cuánto tarda algo). *Telefonare* lleva *a* y el pronombre indirecto (*gli telefono*); *chiamare* lleva pronombre directo (*lo chiamo*). Y en un mail formal, *Le / Suo / Sua* suelen escribirse con mayúscula (convención opcional).",
   "examples": [
     {
       "it": "Pronto? Sono Laura. Posso parlare con Marco?",

@@ -51,7 +51,7 @@ Loro sono partiti ieri sera.|Ellos partieron ayer por la noche.
 ## u11
 Quando ero bambina, giocavo in giardino.|Cuando era niña, jugaba en el jardín.
 Mentre cucinavo, è squillato il telefono.|Mientras cocinaba, sonó el teléfono.
-Pioveva, quindi sono rimasto a casa.|Llovía, así que me quedé en casa.
+Pioveva e sono rimasto a casa.|Llovía y me quedé en casa.
 Da giovane andavo spesso al mare.|De joven iba a menudo a la playa.
 ## u12
 Marco è più alto di Luca.|Marco es más alto que Luca.
@@ -91,7 +91,7 @@ Non ti sento bene.|No te oigo bien.
 ## u19
 In Italia si cena tardi.|En Italia se cena tarde.
 Aspetto da venti minuti.|Espero desde hace veinte minutos.
-Sto per uscire di casa.|Estoy por salir de casa.
+Sto per uscire di casa.|Estoy a punto de salir de casa.
 Qui non si fuma.|Aquí no se fuma.
 ## u20
 Prima faccio la spesa, poi cucino.|Primero hago las compras, luego cocino.

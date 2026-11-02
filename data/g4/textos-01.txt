@@ -13,7 +13,7 @@ Messaggio di Marta, la maestra:
 es:
 BIENVENIDOS A LA ESCUELA DE ITALIANO
 Lección uno: lunes, a las nueve. Sala tres.
-Traigan un lápiz y un cuaderno.
+Traigan un bolígrafo y un cuaderno.
 Si no entienden, digan: «Disculpe, ¿puede repetir?».
 Si no conocen una palabra, pregunten: «¿Cómo se dice?».
 
@@ -60,7 +60,7 @@ El apartamento está en el segundo piso de una casa cerca de la estación. Tiene
 
 Hay dos ventanas grandes y un balcón. El barrio es tranquilo. Cerca del apartamento hay un supermercado, una farmacia y un parque.
 
-No se admiten animales. El precio es seiscientos euros al mes.
+No hay animales. El precio es seiscientos euros al mes.
 claves: affittasi=se alquila; il piano=el piso; la camera=la habitación; il soggiorno=la sala; il balcone=el balcón; il quartiere=el barrio
 p1: ¿En qué piso está el apartamento? | al primo piano | al secondo piano | al terzo piano | b | «al secondo piano».
 p2: ¿Qué hay en la sala? | un tavolo | un letto | un divano e due sedie | c | «Nel soggiorno c'è un divano e ci sono due sedie».
@@ -100,7 +100,7 @@ Treno 2: parte alle 9.15, arriva alle 11.30. Binario 5.
 Treno 3: parte alle 12.30, arriva alle 14.40. Binario 3.
 Treno 4: parte alle 18.00, arriva alle 20.10. Binario 2.
 
-Il biglietto costa trenta euro. Il treno delle 9.15 è un po' più veloce. Il treno delle 18.00 è l'ultimo.
+Il biglietto costa trenta euro. Il treno delle 6.45 è un po' più veloce. Il treno delle 18.00 è l'ultimo.
 
 Attenzione: il treno delle 12.30 ha dieci minuti di ritardo.
 es:
@@ -110,7 +110,7 @@ Tren 2: sale a las 9.15, llega a las 11.30. Andén 5.
 Tren 3: sale a las 12.30, llega a las 14.40. Andén 3.
 Tren 4: sale a las 18.00, llega a las 20.10. Andén 2.
 
-El boleto cuesta treinta euros. El tren de las 9.15 es un poco más rápido. El tren de las 18.00 es el último.
+El boleto cuesta treinta euros. El tren de las 6.45 es un poco más rápido. El tren de las 18.00 es el último.
 
 Atención: el tren de las 12.30 tiene diez minutos de atraso.
 claves: parte=sale; arriva=llega; il binario=el andén; il biglietto=el boleto; l'ultimo=el último; il ritardo=el atraso

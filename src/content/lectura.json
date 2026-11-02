@@ -7,7 +7,7 @@
    "Messaggio di Marta, la maestra:\n«Ciao a tutti! Mi chiamo Marta. Il mio cognome è Rossi: erre, o, doppia esse, i. Parlo piano. A domani!»"
   ],
   "es": [
-   "BIENVENIDOS A LA ESCUELA DE ITALIANO\nLección uno: lunes, a las nueve. Sala tres.\nTraigan un lápiz y un cuaderno.\nSi no entienden, digan: «Disculpe, ¿puede repetir?».\nSi no conocen una palabra, pregunten: «¿Cómo se dice?».",
+   "BIENVENIDOS A LA ESCUELA DE ITALIANO\nLección uno: lunes, a las nueve. Sala tres.\nTraigan un bolígrafo y un cuaderno.\nSi no entienden, digan: «Disculpe, ¿puede repetir?».\nSi no conocen una palabra, pregunten: «¿Cómo se dice?».",
    "Mensaje de Marta, la profesora:\n«¡Hola a todos! Me llamo Marta. Mi apellido es Rossi: erre, o, doble ese, i. Hablo despacio. ¡Hasta mañana!»"
   ],
   "claves": [
@@ -177,7 +177,7 @@
   "es": [
    "SE ALQUILA APARTAMENTO\nEl apartamento está en el segundo piso de una casa cerca de la estación. Tiene una habitación, un baño, una cocina y una sala. En la sala hay un sofá y hay dos sillas. En la cocina hay una mesa y hay un refrigerador.",
    "Hay dos ventanas grandes y un balcón. El barrio es tranquilo. Cerca del apartamento hay un supermercado, una farmacia y un parque.",
-   "No se admiten animales. El precio es seiscientos euros al mes."
+   "No hay animales. El precio es seiscientos euros al mes."
   ],
   "claves": [
    {
@@ -344,12 +344,12 @@
   "titulo": "Orario dei treni",
   "it": [
    "STAZIONE DI FIRENZE — Treni per Roma\nTreno 1: parte alle 6.45, arriva alle 8.50. Binario 3.\nTreno 2: parte alle 9.15, arriva alle 11.30. Binario 5.\nTreno 3: parte alle 12.30, arriva alle 14.40. Binario 3.\nTreno 4: parte alle 18.00, arriva alle 20.10. Binario 2.",
-   "Il biglietto costa trenta euro. Il treno delle 9.15 è un po' più veloce. Il treno delle 18.00 è l'ultimo.",
+   "Il biglietto costa trenta euro. Il treno delle 6.45 è un po' più veloce. Il treno delle 18.00 è l'ultimo.",
    "Attenzione: il treno delle 12.30 ha dieci minuti di ritardo."
   ],
   "es": [
    "ESTACIÓN DE FLORENCIA — Trenes a Roma\nTren 1: sale a las 6.45, llega a las 8.50. Andén 3.\nTren 2: sale a las 9.15, llega a las 11.30. Andén 5.\nTren 3: sale a las 12.30, llega a las 14.40. Andén 3.\nTren 4: sale a las 18.00, llega a las 20.10. Andén 2.",
-   "El boleto cuesta treinta euros. El tren de las 9.15 es un poco más rápido. El tren de las 18.00 es el último.",
+   "El boleto cuesta treinta euros. El tren de las 6.45 es un poco más rápido. El tren de las 18.00 es el último.",
    "Atención: el tren de las 12.30 tiene diez minutos de atraso."
   ],
   "claves": [
@@ -1307,7 +1307,7 @@
    },
    {
     "it": "nevicare",
-    "es": "nevicar"
+    "es": "nevar"
    },
    {
     "it": "nuvoloso",
@@ -1427,9 +1427,9 @@
     "kind": "mc",
     "q": "¿Qué hicieron Giulia y la autora después del cine?",
     "options": [
-     "tornarono a casa",
-     "mangiarono una pizza",
-     "fecero una passeggiata"
+     "sono tornate a casa",
+     "hanno mangiato una pizza",
+     "hanno fatto una passeggiata"
     ],
     "answer": 1,
     "why": "«abbiamo mangiato una pizza insieme»."
@@ -1537,8 +1537,7 @@
     "kind": "short",
     "q": "¿Cuánto duró el viaje en tren?",
     "accepted": [
-     "due ore e mezza",
-     "due ore e mezzo"
+     "due ore e mezza"
     ],
     "why": "«dopo due ore e mezza»."
    }
@@ -1634,15 +1633,15 @@
  },
  "u12": {
   "tipo": "folleto de mercado",
-  "titulo": "Il mercato di Campo dei Fiori",
+  "titulo": "Il mercato di Campo de' Fiori",
   "it": [
-   "IL MERCATO DI CAMPO DEI FIORI\nDa più di centocinquanta anni il mercato è il cuore di Roma. Ogni mattina, dal lunedì al sabato, i venditori preparano le loro bancarelle con frutta, verdura, fiori, spezie e pesce fresco.",
+   "IL MERCATO DI CAMPO DE' FIORI\nDa più di centocinquanta anni il mercato è il cuore di Roma. Ogni mattina, dal lunedì al sabato, i venditori preparano le loro bancarelle con frutta, verdura, fiori, spezie e pesce fresco.",
    "Che cosa comprare?\nLe verdure sono più fresche e più economiche che al supermercato. I pomodori romani sono i più saporiti. Il pesce è migliore la mattina presto, quando arriva dal mare.",
    "Consigli per i visitatori:\n• Arrivate prima delle dieci: dopo, c'è più gente e le cose più buone finiscono.\n• Portate una borsa grande e un po' di monete.\n• Non abbiate paura di chiedere un assaggio: è normale!",
    "Il mercato chiude alle due del pomeriggio. La domenica è chiuso."
   ],
   "es": [
-   "EL MERCADO DE CAMPO DEI FIORI\nDesde hace más de ciento cincuenta años el mercado es el corazón de Roma. Cada mañana, de lunes a sábado, los vendedores preparan sus puestos con fruta, verdura, flores, especias y pescado fresco.",
+   "EL MERCADO DE CAMPO DE' FIORI\nDesde hace más de ciento cincuenta años el mercado es el corazón de Roma. Cada mañana, de lunes a sábado, los vendedores preparan sus puestos con fruta, verdura, flores, especias y pescado fresco.",
    "¿Qué comprar?\nLas verduras son más frescas y más baratas que en el supermercado. Los tomates romanos son los más sabrosos. El pescado es mejor temprano en la mañana, cuando llega del mar.",
    "Consejos para los visitantes:\n• Lleguen antes de las diez: después hay más gente y las cosas más ricas se acaban.\n• Traigan una bolsa grande y unas monedas.\n• No tengan miedo de pedir una probadita: ¡es normal!",
    "El mercado cierra a las dos de la tarde. El domingo está cerrado."

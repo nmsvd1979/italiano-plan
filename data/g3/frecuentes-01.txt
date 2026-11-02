@@ -105,7 +105,7 @@ v|riunire|reunir|Riuniamo gli amici a cena.|Reunimos a los amigos a cenar.
 v|riuscire|lograr|Non riesco a dormire.|No logro dormir.
 v|rivelare|revelar|Non rivelo il segreto.|No revelo el secreto.
 v|saltare|saltar|Salto la corda.|Salto la cuerda.
-v|salvare|salvar|Salvo il documento sul computer.|Guardo el documento en el computadora.
+v|salvare|salvar|Salvo il documento sul computer.|Guardo el documento en la computadora.
 v|scappare|escapar|Il gatto scappa dalla finestra.|El gato se escapa por la ventana.
 v|scegliere|elegir|Scelgo il vestito rosso.|Elijo el vestido rojo.
 v|scherzare|bromear|Scherzo, non è vero!|¡Bromeo, no es verdad!

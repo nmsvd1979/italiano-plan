@@ -6,7 +6,7 @@ E|Ho comprato una giacca nuova.|¿Qué dice?|Que compró una chaqueta nueva|Que 
 E|Abbiamo finito il lavoro.|¿Qué dice?|Que terminaron el trabajo|Que empiezan el trabajo|Que no terminaron|«Abbiamo finito» = terminamos.
 E|Hai mangiato?|¿Qué pregunta?|Si comiste|Qué vas a comer|Dónde comes|«Hai mangiato?» = ¿comiste?
 C|«Ayer estudié.»|Ieri ho studiato.;Ieri studiato ho.;Ieri sono studiato.|Passato prossimo con avere.
-C|«Ellos vieron la película.»|Hanno visto il film.;Ha visto il film loro.;Hanno veduto il film.|«Vedere» → «visto».
+C|«Ellos vieron la película.»|Hanno visto il film.;Ha visto il film loro.;Hanno vedito il film.|«Vedere» → «visto».
 C|¿Cuál es el participio de «fare»?|fatto;fato;fare|«Fare» → «fatto».
 F|Noi ___ mangiato la pizza. (avere)|abbiamo|«Abbiamo mangiato».
 ## u10
@@ -45,7 +45,7 @@ F|Anna è ___ alta di Carla. (más)|più|«Più… di» = más… que.
 ## u28
 L|Mia nonna ha sete: beve un bicchiere d'acqua. Mio nonno ha fame e mangia un panino. Poi tutti insieme guardiamo la televisione.|¿Quién tiene sed?|La abuela|El abuelo|El hablante|«Mia nonna ha sete».
 L|Nel negozio vedo un cappello nero e un cappotto grigio. Il cappello costa venti euro, il cappotto costa cento euro. Compro il cappello.|¿Qué compra?|El sombrero|El abrigo|Las dos cosas|«Compro il cappello».
-L|Mia sorella ha una penna blu. Scrive una lettera a sua nonna e dice: «Che pena non vederti!». Poi spedisce la lettera.|¿Con qué escribe la hermana?|Con una pluma azul|Con un lápiz|Con un teclado|«Ha una penna blu».
+L|Mia sorella ha una penna blu. Scrive una lettera a sua nonna e dice: «Che pena non vederti!». Poi spedisce la lettera.|¿Con qué escribe la hermana?|Con un bolígrafo azul|Con un lápiz|Con un teclado|«Ha una penna blu».
 E|Ho sete.|¿Qué dice?|Que tiene sed|Que tiene siete años|Que tiene hambre|«Sete» con una t = sed.
 E|Ho sette anni.|¿Qué dice?|Que tiene siete años|Que tiene sed|Que tiene setenta años|«Sette» con doble t = siete.
 E|Mio nonno è in casa.|¿Qué dice?|Que su abuelo está en casa|Que su abuela está en casa|Que su padre está en casa|«Nonno» con doble n = abuelo.
@@ -63,4 +63,4 @@ E|Le compro un regalo.|¿Qué dice?|Que le compra un regalo (a ella)|Que lo comp
 C|«Lo compro.»|Lo compro.;La compro.;Lo comprano.|Masculino singular: «lo».
 C|«Le doy un libro.» (a ella)|Le do un libro.;La do un libro.;Lo do un libro.|Indirecto: «le».
 C|«Los veo.» (a ellos)|Li vedo.;Lo vedo.;Le vedo.|Masculino plural: «li».
-F|Marco? ___ vedo domani. (lo)|Lo|Pronombre directo.
+F|Marco? ___ vedo domani. (pronombre directo, masculino)|Lo|Pronombre directo.

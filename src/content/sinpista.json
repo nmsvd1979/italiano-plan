@@ -2245,7 +2245,7 @@
    "id": "u13-s02",
    "type": "order",
    "why": "«Le» es el pronombre indirecto femenino (a ella).",
-   "prompt": "Le di el libro ayer.",
+   "prompt": "A ella le di el libro ayer.",
    "answers": [
     "Le ho dato il libro ieri."
    ],
@@ -2287,8 +2287,7 @@
    "why": "El pronombre va antes del verbo y se apostrofa: l'ho.",
    "prompt": "Ho visto lui ieri.",
    "answers": [
-    "L'ho visto ieri.",
-    "Lo ho visto ieri."
+    "L'ho visto ieri."
    ]
   },
   {

@@ -143,7 +143,7 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Ieri sera siamo andati al ristorante.", es: "Anoche fuimos al restaurante." },
     { it: "Quando ero bambina, giocavo in giardino.", es: "Cuando era niña, jugaba en el jardín." },
     { it: "Mentre cucinavo, è squillato il telefono.", es: "Mientras cocinaba, sonó el teléfono." },
-    { it: "Pioveva, quindi sono rimasto a casa.", es: "Llovía, así que me quedé en casa." },
+    { it: "Pioveva e sono rimasto a casa.", es: "Llovía y me quedé en casa." },
     { it: "Da giovane andavo spesso al mare.", es: "De joven iba a menudo a la playa." },
   ],
   u12: [
@@ -239,7 +239,7 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Come si dice grazie in spagnolo?", es: "¿Cómo se dice «grazie» en español?" },
     { it: "In Italia si cena tardi.", es: "En Italia se cena tarde." },
     { it: "Aspetto da venti minuti.", es: "Espero desde hace veinte minutos." },
-    { it: "Sto per uscire di casa.", es: "Estoy por salir de casa." },
+    { it: "Sto per uscire di casa.", es: "Estoy a punto de salir de casa." },
     { it: "Qui non si fuma.", es: "Aquí no se fuma." },
   ],
   u21: [

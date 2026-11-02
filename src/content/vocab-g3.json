@@ -606,7 +606,7 @@
 "it": "dentro",
 "es": "dentro",
 "ex": "La chiave è dentro la borsa.",
-"exEs": "La llave está dentro de el bolso.",
+"exEs": "La llave está dentro del bolso.",
 "tag": "frecuente",
 "n": 250,
 "part": "B"
@@ -1880,7 +1880,7 @@
 },
 "nero": {
 "ex": "Ho una borsa nera.",
-"exEs": "Tengo un bolso negra.",
+"exEs": "Tengo un bolso negro.",
 "tag": "frecuente"
 },
 "grigio": {
@@ -1930,7 +1930,7 @@
 },
 "la borsa": {
 "ex": "La borsa è sul letto.",
-"exEs": "La bolso está sobre la cama.",
+"exEs": "El bolso está sobre la cama.",
 "tag": "frecuente"
 },
 "il cappello": {
@@ -1968,7 +1968,7 @@
 "it": "grande",
 "es": "grande",
 "ex": "Questa borsa è troppo grande.",
-"exEs": "Esta bolso es demasiado grande.",
+"exEs": "Este bolso es demasiado grande.",
 "tag": "frecuente",
 "n": 227,
 "part": "B"
@@ -2049,7 +2049,7 @@
 "it": "tuo",
 "es": "tuyo / tu",
 "ex": "È tua questa borsa?",
-"exEs": "¿Es tuya este bolso?",
+"exEs": "¿Es tuyo este bolso?",
 "tag": "frecuente",
 "n": 81,
 "part": "A"
@@ -2966,7 +2966,7 @@
 "tag": "frecuente"
 },
 "scrivere": {
-"ex": "Ho scritto una email.",
+"ex": "Ho scritto un'email.",
 "exEs": "Escribí un correo.",
 "tag": "frecuente"
 },
@@ -3403,7 +3403,7 @@
 "it": "uscito",
 "es": "salido (de uscire)",
 "ex": "Maria è uscita presto.",
-"exEs": "Maria salió temprano.",
+"exEs": "María salió temprano.",
 "tag": "frecuente",
 "n": 1250
 },
@@ -3654,7 +3654,7 @@
 },
 "la scuola": {
 "ex": "A scuola avevo molti amici.",
-"exEs": "En el escuela tenía muchos amigos.",
+"exEs": "En la escuela tenía muchos amigos.",
 "tag": "frecuente"
 },
 "giocare": {
@@ -3749,7 +3749,7 @@
 "it": "facevo",
 "es": "yo hacía",
 "ex": "Facevo i compiti dopo scuola.",
-"exEs": "Hacía las tareas después del escuela.",
+"exEs": "Hacía las tareas después de la escuela.",
 "tag": "frecuente",
 "n": 1985
 },
@@ -4631,9 +4631,9 @@
 },
 {
 "it": "il francobollo",
-"es": "la sello",
+"es": "el sello",
 "ex": "Mi serve un francobollo.",
-"exEs": "Necesito una sello.",
+"exEs": "Necesito un sello.",
 "tag": "unidad",
 "n": 22311
 },
@@ -5502,8 +5502,8 @@
 "tag": "frecuente"
 },
 "qualcosa": {
-"ex": "Ho qualcosa per il mal di testa?",
-"exEs": "¿Tienes algo para el dolor de cabeza?",
+"ex": "Ha qualcosa per il mal di testa?",
+"exEs": "¿Tiene algo para el dolor de cabeza?",
 "tag": "frecuente"
 }
 },
@@ -5786,7 +5786,7 @@
 },
 "il piano terra": {
 "ex": "Il negozio è al piano terra.",
-"exEs": "La tienda está en el primer piso.",
+"exEs": "La tienda está en la planta baja.",
 "tag": "frecuente"
 },
 "l'ascensore": {
@@ -5927,7 +5927,7 @@
 },
 {
 "it": "la stanza",
-"es": "la habitación / la habitación",
+"es": "la habitación / el cuarto",
 "ex": "Cerco una stanza in affitto.",
 "exEs": "Busco una habitación en alquiler.",
 "tag": "frecuente",
@@ -6073,7 +6073,7 @@
 "it": "la cantina",
 "es": "la bodega",
 "ex": "La cantina è al piano terra.",
-"exEs": "La bodega está en el primer piso.",
+"exEs": "La bodega está en la planta baja.",
 "tag": "unidad",
 "n": 4382
 },
@@ -6235,9 +6235,9 @@
 },
 {
 "it": "il computer",
-"es": "el computadora",
+"es": "la computadora",
 "ex": "Il computer è nuovo.",
-"exEs": "El computadora es nuevo.",
+"exEs": "La computadora es nueva.",
 "tag": "frecuente",
 "n": 1104
 },
@@ -6513,7 +6513,7 @@
 },
 "stare per": {
 "ex": "Sto per uscire.",
-"exEs": "Estoy por salir.",
+"exEs": "Estoy a punto de salir.",
 "tag": "frecuente"
 },
 "entrare": {
@@ -6984,8 +6984,8 @@
 {
 "it": "oltre a",
 "es": "además de",
-"ex": "Oltre a italiano, studio francese.",
-"exEs": "Además de italiano, estudio francés.",
+"ex": "Oltre all'italiano, studio il francese.",
+"exEs": "Además del italiano, estudio francés.",
 "tag": "frecuente",
 "n": 787
 },
@@ -7115,7 +7115,7 @@
 "enrich": {
 "prestare": {
 "ex": "Ti presto la penna.",
-"exEs": "Te presto el lápiz.",
+"exEs": "Te presto el bolígrafo.",
 "tag": "frecuente"
 },
 "dare": {
@@ -7165,7 +7165,7 @@
 },
 "la penna": {
 "ex": "Mi presti la penna?",
-"exEs": "¿Me prestas el lápiz?",
+"exEs": "¿Me prestas el bolígrafo?",
 "tag": "frecuente"
 },
 "il numero": {
@@ -7409,9 +7409,9 @@
 },
 {
 "it": "gli occhiali",
-"es": "las gafas",
+"es": "los anteojos",
 "ex": "Mi presti gli occhiali?",
-"exEs": "¿Me prestas las gafas?",
+"exEs": "¿Me prestas los anteojos?",
 "tag": "unidad",
 "n": 2502
 },
@@ -8661,7 +8661,7 @@
 "it": "mi serve",
 "es": "necesito / me hace falta",
 "ex": "Mi serve una penna.",
-"exEs": "Necesito un lápiz.",
+"exEs": "Necesito un bolígrafo.",
 "tag": "frecuente",
 "n": 292
 },

@@ -42,7 +42,7 @@ C@B|¿Cuál es el plural de «uomo»?|uomini;uomi;uomos|Plural irregular: «uomi
 C@B|¿Cuál es el plural de «amica»?|amiche;amice;amichi|Los femeninos en -ca hacen plural en -che.
 F@B|Mi ___ la musica. (gustar, singular)|piace|Con un singular: «piace».
 ## u03
-L@A|Sono le otto e mezza. Il treno parte alle nove meno un quarto. Abbiamo ancora venti minuti.|¿A qué hora sale el tren?|A las nueve menos cuarto|A las nueve y media|A las ocho y media|«Alle nove meno un quarto».
+L@A|Sono le otto e mezza. Il treno parte alle nove meno un quarto. Abbiamo ancora quindici minuti.|¿A qué hora sale el tren?|A las nueve menos cuarto|A las nueve y media|A las ocho y media|«Alle nove meno un quarto».
 L@A|Il negozio apre alle nove e chiude alle diciannove. A mezzogiorno è chiuso.|¿A qué hora cierra el negocio?|A las diecinueve|A las nueve|Al mediodía|«Chiude alle diciannove».
 L@A|Luca ha ventitré anni. Sua sorella ne ha quindici. La nonna ha ottant'anni.|¿Cuántos años tiene la hermana?|Quince|Veintitrés|Ochenta|«Ne ha quindici».
 E@A|Sono le tre e dieci.|¿Qué hora es?|Las tres y diez|Las diez y tres|Las tres menos diez|«Le tre e dieci».

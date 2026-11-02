@@ -471,7 +471,7 @@
  "u03": {
   "lectura": [
    {
-    "text": "Sono le otto e mezza. Il treno parte alle nove meno un quarto. Abbiamo ancora venti minuti.",
+    "text": "Sono le otto e mezza. Il treno parte alle nove meno un quarto. Abbiamo ancora quindici minuti.",
     "q": "¿A qué hora sale el tren?",
     "options": [
      "A las nueve y media",
@@ -1013,7 +1013,7 @@
    },
    {
     "type": "fill",
-    "prompt": "Vado ___ cinema. (al)",
+    "prompt": "Vado ___ cinema. (a + il)",
     "answers": [
      "al"
     ],
@@ -1985,7 +1985,7 @@
     "options": [
      "Hanno visto il film.",
      "Ha visto il film loro.",
-     "Hanno veduto il film."
+     "Hanno vedito il film."
     ],
     "answer": 0,
     "why": "«Vedere» → «visto»."
@@ -2385,7 +2385,7 @@
     "q": "¿Con qué escribe la hermana?",
     "options": [
      "Con un lápiz",
-     "Con una pluma azul",
+     "Con un bolígrafo azul",
      "Con un teclado"
     ],
     "answer": 1,
@@ -2578,7 +2578,7 @@
    },
    {
     "type": "fill",
-    "prompt": "Marco? ___ vedo domani. (lo)",
+    "prompt": "Marco? ___ vedo domani. (pronombre directo, masculino)",
     "answers": [
      "Lo"
     ],
@@ -3303,7 +3303,7 @@
  "u18": {
   "lectura": [
    {
-    "text": "Pronto? Sono Marco. Posso parlare con la signora Bianchi? Mi dispiace, non è in ufficio. Richiama domani.",
+    "text": "Pronto? Sono Marco. Posso parlare con la signora Bianchi? Mi dispiace, non è in ufficio. Richiami domani.",
     "q": "¿Qué le dicen a Marco?",
     "options": [
      "Que espere",
@@ -3867,7 +3867,7 @@
    },
    {
     "type": "fill",
-    "prompt": "Ti serve la mia giacca? ___ presto domani. (te la)",
+    "prompt": "Ti serve la mia giacca? ___ presto domani. (a ti + la giacca)",
     "answers": [
      "Te la"
     ],

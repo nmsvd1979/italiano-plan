@@ -89,7 +89,7 @@ export const unidad16: Lesson = {
       "text": "**Pedir ayuda.** *Aiuto!* · *Mi serve un medico.* (necesito un médico; *servire* funciona como *piacere*: *Mi servono le medicine*) · *Chiami un'ambulanza!* · *Dov'è il pronto soccorso?* (urgencias) · *Ho bisogno di aiuto.* En Italia el número único de emergencias es el *112*; la ambulancia (*118*) y la policía (*113*) también funcionan."
     }
   ],
-  "transfer": "En español *me duele la cabeza*; en italiano lo más natural es *ho mal di testa* (sin artículo) o *mi fa male la testa* (con artículo). No digas *ho dolore la testa*. Con partes en plural el verbo cambia: *mi fanno male gli occhi*. Y con *niente / nessuno* después del verbo hace falta *non*: *non ho niente*, nunca *ho niente* (que significaría lo contrario de lo que quieres).",
+  "transfer": "En español *me duele la cabeza*; en italiano lo más natural es *ho mal di testa* (sin artículo) o *mi fa male la testa* (con artículo). No digas *ho dolore la testa*. Con partes en plural el verbo cambia: *mi fanno male gli occhi*. Y con *niente / nessuno* después del verbo hace falta *non*: *non ho niente*, nunca *ho niente* (sin *non* es incorrecto en el italiano estándar).",
   "examples": [
     {
       "it": "Ho mal di testa e ho la febbre.",
