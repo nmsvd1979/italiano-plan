@@ -60,10 +60,10 @@ palabras: chiaro, chiesa, chitarra, ghiaccio, cena, cinema, gelato, giacca
 glosas: ce=nos; ghiro=lirón; giro=vuelta; chiaro=claro; chitarra=guitarra
 ## u06B
 titulo: GN: la eñe italiana
-tip: *Gn* suena como la "ñ" del español: *bagno*, *gnocchi*, *montagna*. No se separa en dos sonidos ("bag-no"). Compara *sogno* (sueño de dormir) con *sonno* (sueño, ganas de dormir) y *legna* (leña) con *lena* (energía).
+tip: *Gn* suena como la "ñ" del español: *bagno*, *gnocchi*, *montagna*. No se separa en dos sonidos ("bag-no"). Compara *sogno* (lo que se sueña al dormir) con *sonno* (ganas de dormir) y *legna* (leña) con *lena* (energía).
 pares: sogno-sonno; cagna-canna; legna-lena
 palabras: bagno, gnocchi, ragno, signora, lavagna, montagna, insegnare, ogni
-glosas: sogno=sueño (soñar) / sueño; sonno=sueño (ganas de dormir); cagna=perra; canna=caña; legna=leña; lena=energía; ragno=araña; lavagna=pizarra; montagna=montaña; insegnare=enseñar; ogni=cada
+glosas: sogno=sueño (lo soñado) / sueño (yo sueño); sonno=sueño (ganas de dormir); cagna=perra; canna=caña; legna=leña; lena=energía; ragno=araña; lavagna=pizarra; montagna=montaña; insegnare=enseñar; ogni=cada
 ## u26
 titulo: GLI
 tip: *Gli* es una *l* palatal: apoya la parte media de la lengua contra el paladar, como si dijeras *l* e *i* a la vez (*famiglia, figlio*). No lo leas como "y" ni como "gl" separado. Contrasta *gli* con *li*, y *moglie* con *molle*.
@@ -99,7 +99,7 @@ titulo: Dobles en los participios
 tip: Varios participios muy usados del passato prossimo llevan consonante doble: *fatto, detto, messo, letto, scritto, rotto*. Mantén la consonante larga para no confundirlos con otras palabras: *fatto* (hecho) frente a *fato* (destino).
 pares: fato-fatto; tuta-tutta; sonno-sono
 palabras: detto, letto, scritto, fatto, messo, rotto, visto, preso
-glosas: tuta=buzo; tutta=toda; detto=dicho; letto=leído / cama; scritto=escrito; messo=puesto; rotto=roto; visto=visto; preso=tomado
+glosas: tuta=ropa deportiva; tutta=toda; detto=dicho; letto=leído / cama; scritto=escrito; messo=puesto; rotto=roto; visto=visto; preso=tomado
 ## u10
 titulo: La vocal final: -o, -a, -i, -e
 tip: En italiano la vocal final indica género y número, así que no se puede "comer": *andato* (él) y *andata* (ella) se distinguen solo por la última vocal. Pronúnciala clara aunque no lleve el acento. Compara *parto* (me voy) con *parte* (se va).
@@ -108,7 +108,7 @@ palabras: andato, andata, andati, andate, partito, partita, tornato, arrivata
 glosas: andato=ido (él); andata=ida (ella); andati=idos; andate=idas; amico=amigo; amici=amigos; arrivati=llegados; arrivate=llegadas; parto=salgo; parte=sale; partito=salido (él); partita=salida (ella); tornato=vuelto; arrivata=llegada
 ## u11
 titulo: El acento en las formas verbales
-tip: En el imperfecto el acento cae en la sílaba *-va-*: *parLAvamo*, *manGIAvamo*, *aNDAvamo*, aunque la palabra sea larga. Y la tilde cambia el tiempo: *parlo* (hablo) frente a *parlò* (habló).
+tip: En el imperfecto de *noi* el acento cae en la sílaba anterior a *-vamo*: *parLAvamo*, *manGIAvamo*, *aNDAvamo*, aunque la palabra sea larga. Y la tilde cambia el tiempo: *parlo* (hablo) frente a *parlò* (habló).
 pares: parlo-parlò; arrivo-arrivò
 palabras: parlavamo, mangiavamo, andavamo, facevamo, eravamo, avevamo, c'era, pioveva
 glosas: arrivò=llegó; parlavamo=hablábamos; mangiavamo=comíamos; andavamo=íbamos; facevamo=hacíamos; eravamo=éramos; avevamo=teníamos; c'era=había; pioveva=llovía
@@ -150,7 +150,7 @@ palabras: parlerò, parlerà, andrò, andrà, sarò, sarà, farò, farà
 glosas: parlerò=hablaré; parlerà=hablará; andrò=iré; andrà=irá; sarò=seré; sarà=será; finirò=terminaré; finirà=terminará; farò=haré; farà=hará
 ## u15B
 titulo: -REI y -REBBE
-tip: El condicional de cortesía termina en *-rei* (yo) y *-rebbe* (él / ella); la *bb* es doble y larga. El acento está antes: *voRREI*, *voRREBbe*, *poTREbbe*.
+tip: El condicional de cortesía termina en *-rei* (yo) y *-rebbe* (él / ella); la *bb* es doble y larga. El acento cae en la *e* de *-re-*: *voRREI*, *voRREBbe*, *poTREbbe*.
 pares: vorrei-vorrebbe; potrei-potrebbe; farei-farebbe; sarei-sarebbe
 palabras: vorrei, vorresti, vorrebbe, potrei, potresti, potrebbe, sarebbe, piacerebbe
 glosas: vorrei=quisiera; vorresti=querrías; vorrebbe=querría; potrei=podría; potresti=podrías; potrebbe=podría (él / usted); farei=haría; farebbe=haría (él); sarei=sería; sarebbe=sería (él); piacerebbe=gustaría
@@ -177,13 +177,13 @@ titulo: La ligazón: palabras que se pegan
 tip: En italiano hablado las palabras se pegan sin pausa: *da quanto tempo* suena casi como una sola palabra. Practica frases completas con un solo golpe de voz y sin cortar entre palabras; la última vocal de una palabra se une con la primera de la siguiente.
 pares:
 palabras: da quanto tempo, da due anni, un po' di tempo, sta per partire, si può entrare, come si dice, che ora è, da dove vieni
-glosas: da quanto tempo=desde hace cuánto tiempo; da due anni=desde hace dos años; un po' di tempo=un poco de tiempo; sta per partire=está por salir; si può entrare=se puede entrar; come si dice=cómo se dice; che ora è=qué hora es; da dove vieni=de dónde vienes
+glosas: da quanto tempo=desde hace cuánto tiempo; da due anni=desde hace dos años; un po' di tempo=un poco de tiempo; sta per partire=está a punto de salir; si può entrare=se puede entrar; come si dice=cómo se dice; che ora è=qué hora es; da dove vieni=de dónde vienes
 ## u20
 titulo: El acento final de los conectores
 tip: Los conectores con tilde final se acentúan en la última sílaba: *perché*, *però*, *così*. En *quindi* y *comunque* la *u* se oye (*kw*). En *insomma* la *mm* es doble. Compara *però* (pero) con *pero* (peral).
 pares: però-pero
 palabras: perché, però, così, quindi, comunque, insomma, invece, infatti
-glosas: pero=peral; perché=porque / por qué; però=pero; così=así; quindi=por eso; comunque=de todos modos; insomma=en fin; invece=en cambio; infatti=en efecto
+glosas: pero=peral; perché=porque / por qué; però=pero; così=así; quindi=por lo tanto; comunque=de todos modos; insomma=en fin; invece=en cambio; infatti=en efecto
 ## u24
 titulo: Repaso final de sonidos
 tip: Última vuelta con todo lo visto: consonantes dobles, *c / g* suaves y duras, *gli*, *z*, *r / rr*, *b / v* y la *h* muda. Escucha cada par y repite en voz alta imitando la duración de las consonantes.
@@ -192,13 +192,13 @@ palabras: cena, gelato, pizza, famiglia, viaggio, bene, vino, ho
 glosas: viaggio=viaje
 ## u21
 titulo: GLI en glielo y doble M
-tip: En *glielo*, *gliela*, *gliene* la *gl* es la misma *l* palatal de *famiglia*: la lengua apoyada en el paladar. En *dammelo* y *dimmelo* la *m* es doble y se alarga: *dam-ME-lo*. Habla despacio y pega las sílabas, como si fuera una sola palabra.
+tip: En *glielo*, *gliela*, *gliene* la *gl* es la misma *l* palatal de *famiglia*: la lengua apoyada en el paladar. En *dammelo* y *dimmelo* la *m* es doble y se alarga: *DAM-me-lo* (el acento sigue en la primera sílaba). Habla despacio y pega las sílabas, como si fuera una sola palabra.
 pares:
 palabras: glielo, gliela, gliene, dammelo, dimmelo, spiegarmelo, portarmelo, famiglia
 glosas:
 ## u22
 titulo: Vocales juntas: sia, abbia
-tip: En *sia*, *abbia*, *siate* y *siamo* las vocales van pegadas en una sola sílaba (*SIA*, *AB-bia*). No separes la *i* como en español: es una vocal rápida y corta. Compara *sei* (eres) con *sai* (sabes), y *mia* (mía) con *mai* (nunca).
+tip: En *sia* la *i* lleva el acento y se separa de la *a*: son dos sílabas (*SÌ-a*). En *abbia*, *siate* y *siamo* la *i* es una vocal rápida y corta, pegada a la siguiente (*AB-bia*). Compara *sei* (eres) con *sai* (sabes), y *mia* (mía) con *mai* (nunca).
 pares: sei-sai; mai-mia
 palabras: sia, abbia, stia, venga, vada, faccia, possa, siamo
 glosas:
