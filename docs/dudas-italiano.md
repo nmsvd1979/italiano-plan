@@ -49,7 +49,7 @@ Formas que se revisaron y **no se cambiaron sin fuente**, o que se cambiaron con
 | `data/g6/pron-secuencia.txt` (u27) | *s* sonora entre vocales (*cosa, paese, esame, museo*) | La pronunciación sorda / sonora de la *s* entre vocales varía por región; el texto dice «suele». No se cambió | media |
 | `data/g6/pron-secuencia.txt` (u06B) | *lena = energía* (par *legna-lena*) | Palabra poco frecuente y de registro literario; el par es válido pero no es útil para A1–A2 | media |
 | `src/content/dictation.ts` (u08) | *Che cosa fai di bello?* = «¿Qué haces de bueno?» | La traducción es literal; la equivalente natural es «¿Qué cuentas de bueno?» / «¿Qué tal?». No se cambió sin fuente | media |
-| `src/content/dictation.ts` (u11) | *Pioveva, quindi sono rimasto a casa.* | Usa *quindi*, que el curso enseña en u20 (orden del curso, no se toca) | alta |
-| `src/content/dictation.ts` (u12) | *Vorrei dell'acqua, per favore.* | Usa *vorrei* y el partitivo *dell'*, que el curso enseña en u15B; es una frase fija de cortesía, pero aparece antes de la unidad que la explica | media |
 
 Corregido en esta pasada y que **no** requiere fuente: concordancias en español, errores de traducción, un diálogo con precios incoherentes, una respuesta incorrecta en práctica sin pista y una en u27 (ver el PR).
+
+Resueltas el 2-nov-2026 tras la revisión: *Pioveva e sono rimasto a casa* (u11, ya no usa *quindi*, que se enseña en u20) y *Vorrei dell'acqua* (u12) queda como está: *vorrei* se enseña en u04 y el partitivo *dell'* en la propia u12.
