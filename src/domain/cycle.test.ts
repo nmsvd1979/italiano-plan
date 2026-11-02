@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { COURSE } from "../content/course";
 import { UNITS, getUnit, sessionsOf } from "../content/curriculum";
+import { getLesson } from "../content/grammar";
 import { AVANCE_INICIAL } from "../content/avance-inicial";
 import { blockResources, blockRoute } from "../app/blockRoute";
 import {
@@ -73,17 +74,18 @@ describe("daysOf: la estructura de 04 §D1", () => {
 
 describe("partes A y B", () => {
   it("cada parte recibe lo asignado más lo no asignado a ninguna; sin parte, todo", () => {
-    const list = Array.from({ length: 26 }, (_, i) => i);
+    const N = getLesson("u02")!.exercises.length;
+    const list = Array.from({ length: N }, (_, i) => i);
     const a = forPart("u02", "A", "exercises", list).map((x) => x.index);
     const b = forPart("u02", "B", "exercises", list).map((x) => x.index);
-    expect(forPart("u02", null, "exercises", list)).toHaveLength(26);
-    expect(forPart("u04", "A", "exercises", list)).toHaveLength(26); // u04 no se parte
+    expect(forPart("u02", null, "exercises", list)).toHaveLength(N);
+    expect(forPart("u04", "A", "exercises", list)).toHaveLength(N); // u04 no se parte
     const parts = getUnit("u02")!.parts!;
     for (const i of parts.A.exercises ?? []) expect(a).toContain(i);
     for (const i of parts.B.exercises ?? []) expect(b).toContain(i);
     // lo que es solo de B no está en A y viceversa
     for (const i of parts.B.exercises ?? []) if (!(parts.A.exercises ?? []).includes(i)) expect(a).not.toContain(i);
-    expect(new Set([...a, ...b]).size).toBe(26);
+    expect(new Set([...a, ...b]).size).toBe(N);
   });
 
   it("las rutas de una semana partida llevan la parte y la clave del bloque", () => {

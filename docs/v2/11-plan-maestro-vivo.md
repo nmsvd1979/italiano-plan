@@ -39,6 +39,7 @@ G  Contenido (carriles que no esperan al código):
    G0 correcciones de la auditoría  ► G1 unidades nuevas u25–u28  ► G2 partición A/B
    G3 vocabulario ~50 con frase     ► G4 textos graduados          ► G5 práctica sin pista
    G6 pronunciación (secuencia)     ► G7 puente B1 + u20 + u24
+   G8 reserva de ítems de prueba    ► G9 dictado de 6 a 10 frases
                     │
                     ▼
 G-R  Segunda pasada independiente (solo lo reescrito)  ──►  C  Audio (por lotes; solo de lo ya revisado)
@@ -66,6 +67,7 @@ Cada fila es un PR (o una tanda de PR del mismo tema). «Lo prueba el usuario» 
 | 10 | G4 | Textos graduados con preguntas (1 por semana) | 3, 5 | No |
 | 11 | G5, G6 | Práctica sin pista y secuencia de pronunciación | 3 | No |
 | 12 | G7 | u20 recortada, Puente a B1, u24 como proyecto final y prueba A2 | 5 | No |
+| 12b | G8, G9 | Reserva de 350 ítems de prueba (`pruebas.json`) y dictado de 10 frases por unidad | 3, 5 | No |
 | 13 | E | Dictado por niveles, escritura con tres capas, grabar y comparar, shadowing propio | 7 | Sí (micrófono) |
 | 14 | F | Mini-prueba, prueba de fase, prueba de nivel, panel | 7, 12 | Sí |
 | 15 | G-R | Segunda pasada independiente de lo reescrito | 9–12 | No |
@@ -125,6 +127,7 @@ Vive en `auditoria/_backlog.md` (ids `H-…`). Cada PR de contenido cierra los i
 | 2026-10-28 (noche) | **G1 u27 hecha** (tiempo libre, *sapere/conoscere*, clima e indefinidos) con fuentes en `revision-fuentes.md`; la voz del iPhone quedó resuelta (PR #23) y u26 fusionada (PR #24) | Avance del plan | 11, `revision-fuentes.md`, `src/content/nuevas/` | Claude |
 | 2026-10-29 | **La app no se usa hasta el lanzamiento:** se agrega §1b (puerta de lanzamiento), se retira la activación gradual de unidades y el cuidado del avance, y el repaso se amplía (botón «Practicar más» y base de palabras con frase, G3 completa) | El usuario indicó que solo usará la app cuando todo esté listo | 11 | Usuario (pedido) |
 | 2026-10-28 (noche, 2.ª) | **G1 u28 hecha** (comer fuera): con ella quedan escritas las cuatro unidades nuevas u25–u28; pendiente decidir cuándo pasan a `ready:true` | Cierra el carril G1 | 11, `revision-fuentes.md`, `src/content/nuevas/` | Claude |
+| 2026-11-02 | **G3–G9 hechos y fusionados** (vocabulario, textos, práctica sin pista, pronunciación, u20–u24, 350 ítems de prueba, dictado de 10 frases); los PR 38–42 de Code estaban apilados y no habían llegado a `main`, se rescataron con el PR #43; se agregan los carriles G8 y G9 | Se descubrieron huecos de contenido (ítems de prueba, dictado) y un error de fusión | 11, `src/content/` | Claude |
 
 ## 9. Esfuerzo relativo (sin fechas inventadas)
 S = una sesión corta · M = una sesión larga · L = varias sesiones.

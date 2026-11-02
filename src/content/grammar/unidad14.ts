@@ -41,6 +41,10 @@ export const unidad14: Lesson = {
         "*Scusi, dov'è la stazione?* (disculpe, ¿dónde está la estación?)",
       ],
     },
+    {
+      kind: "p",
+      text: "**Ci vuole / ci vogliono** = hace falta, se necesita (tiempo o cosas). *Ci vuole un'ora.* (Hace falta una hora.) *Ci vogliono due ore.* (Hacen falta dos horas.) *Quanto tempo ci vuole?* (¿Cuánto tiempo hace falta?) Va en singular con una cosa y en plural con varias.",
+    },
   ],
   transfer:
     "En español puedes decir *quiero dos* sin más; en italiano, si hablas de una cantidad de algo ya mencionado, hace falta *ne*: *Ne voglio due*, no *Voglio due*. Y para ser cortés con desconocidos usa la forma *Lei* (*Mi scusi*, *Mi dica*, *Vada dritto*), no la de *tu*.",
@@ -51,6 +55,8 @@ export const unidad14: Lesson = {
     { it: "Prenda la metro e scenda a Termini.", es: "Tome el metro y baje en Termini." },
     { it: "Dimmi dov'è la fermata.", es: "Dime dónde está la parada." },
     { it: "Non parlare così in fretta, per favore.", es: "No hables tan rápido, por favor." },
+    { it: "Ci vuole un'ora per arrivare.", es: "Hace falta una hora para llegar." },
+    { it: "Ci vogliono due documenti.", es: "Hacen falta dos documentos." },
   ],
   notice: [
     {
@@ -114,5 +120,10 @@ export const unidad14: Lesson = {
     {type: "fill", prompt: "Quanto pane vuoi? ___ voglio un chilo.", answers: ["Ne"], why: "*Ne* = de eso."},
     {type: "choice", prompt: "«Siga derecho hasta el semáforo» (a un desconocido)", options: ["Vada dritto fino al semaforo", "Vai dritto fino al semaforo", "Andare dritto fino al semaforo"], answer: 0, why: "Con *Lei*: *vada*."},
     {type: "choice", prompt: "«Dame un café» (a un amigo)", options: ["Dammi un caffè", "Dami un caffè", "Dà me un caffè"], answer: 0, why: "*Dammi* = *da'* + *mi*, con la *m* doble."},
+    {type: "fill", prompt: "Per arrivare ___ un'ora. (hace falta, singular)", answers: ["ci vuole"], why: "Singular: *ci vuole*."},
+    {type: "fill", prompt: "Per la torta ___ tre uova. (hacen falta)", answers: ["ci vogliono"], why: "Plural: *ci vogliono*."},
+    {type: "fill", prompt: "Quanto tempo ___? (hace falta)", answers: ["ci vuole"], why: "*Quanto tempo ci vuole?*"},
+    {type: "choice", prompt: "«Hacen falta dos horas.»", options: ["Ci vogliono due ore.", "Ci vuole due ore.", "Ci vuoi due ore."], answer: 0, why: "Plural: *ci vogliono*."},
+    {type: "choice", prompt: "«Hace falta un documento.»", options: ["Ci vuole un documento.", "Ci vogliono un documento.", "Ci voglio un documento."], answer: 0, why: "Singular: *ci vuole*."},
   ],
 };

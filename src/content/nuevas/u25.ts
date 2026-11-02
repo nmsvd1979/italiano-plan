@@ -154,6 +154,8 @@ const dialogue: Dialogue = {
     { who: "B", it: "Mi chiamo Marco. Piacere!", es: "Me llamo Marco. ¡Mucho gusto!" },
     { who: "A", it: "Piacere! Di dove sei?", es: "¡Mucho gusto! ¿De dónde eres?" },
     { who: "B", it: "Sono di Santiago, in Cile.", es: "Soy de Santiago, en Chile." },
+    { who: "A", it: "Parli già un po' di italiano?", es: "¿Hablas ya un poco de italiano?" },
+    { who: "B", it: "Un po'. Parlo piano e non capisco tutto.", es: "Un poco. Hablo despacio y no entiendo todo." },
     { who: "A", it: "Come si scrive «Santiago»?", es: "¿Cómo se escribe «Santiago»?" },
     { who: "B", it: "Esse, a, enne, ti, i, a, gi, o.", es: "S, a, n, t, i, a, g, o." },
     { who: "A", it: "Perfetto! Io sono di Verona.", es: "¡Perfecto! Yo soy de Verona." },

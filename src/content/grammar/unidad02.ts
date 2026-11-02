@@ -46,6 +46,10 @@ export const unidad02: Lesson = {
       kind: "p",
       text: "**Piacere con más personas.** *Ti piace il caffè?* (a ti), *Le piace il caffè?* (a usted, formal), *A Marco piace il caffè.* Después de *piace* puede ir un verbo en infinitivo: *Mi piace viaggiare.* Para contrastar se agrega *a me / a te*: *A me piace il caffè, e a te?*",
     },
+    {
+      kind: "p",
+      text: "**Dónde está algo.** *Sopra* (arriba / sobre), *sotto* (abajo / bajo), *davanti a* (delante de), *dietro* (detrás), *vicino a* (cerca de), *accanto a* (al lado de), *dentro* (dentro), *fuori* (fuera): *Il libro è sul tavolo.* *Il gatto è sotto la sedia.* *La banca è vicino alla piazza.*",
+    },
   ],
   transfer:
     "En español el artículo depende solo del género y el número; en italiano también de la letra inicial de la palabra siguiente: *il tavolo*, pero *lo zaino* y *l'amico*. Con *piacere* pasa lo mismo que con *gustar*: *mi piacciono i gelati* = me gustan los helados. No digas *io piaccio il gelato*.",
@@ -56,6 +60,8 @@ export const unidad02: Lesson = {
     { it: "Mi piace il caffè, ma non mi piacciono i dolci.", es: "Me gusta el café, pero no me gustan los dulces." },
     { it: "Hai fame? Io ho sete.", es: "¿Tienes hambre? Yo tengo sed." },
     { it: "Gli studenti hanno gli zaini.", es: "Los estudiantes tienen las mochilas." },
+    { it: "Il gatto è sotto la sedia.", es: "El gato está bajo la silla." },
+    { it: "La banca è vicino alla piazza.", es: "El banco está cerca de la plaza." },
   ],
   notice: [
     {
@@ -125,5 +131,9 @@ export const unidad02: Lesson = {
     { type: "fill", prompt: "Ci sono due ___ al bar. (uomo, plural)", answers: ["uomini"], why: "Plural irregular: *uomo → uomini*." },
     { type: "fill", prompt: "Le ___ arrivano. (amica, plural)", answers: ["amiche"], why: "*-ca → -che*: *amiche*." },
     { type: "choice", prompt: "«Los juegos» en italiano:", options: ["i giochi", "i gioci", "i gioche"], answer: 0, why: "*-co → -chi* cuando el acento cae en la penúltima: *giochi*." },
+    {type: "fill", prompt: "Il libro è ___ il tavolo. (sobre)", answers: ["sopra"], why: "*Sopra* = sobre."},
+    {type: "fill", prompt: "Il gatto è ___ la sedia. (bajo)", answers: ["sotto"], why: "*Sotto* = bajo."},
+    {type: "choice", prompt: "«El bar está al lado del banco.»", options: ["Il bar è accanto alla banca.", "Il bar è dentro alla banca.", "Il bar è sotto alla banca."], answer: 0, why: "*Accanto a* = al lado de."},
+    {type: "choice", prompt: "«Estoy fuera de casa.»", options: ["Sono fuori casa.", "Sono dentro casa.", "Sono sopra casa."], answer: 0, why: "*Fuori* = fuera."},
   ],
 };

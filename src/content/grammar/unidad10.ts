@@ -30,6 +30,10 @@ export const unidad10: Lesson = {
       kind: "p",
       text: "**Con un modal** (*volere, potere, dovere*) + infinitivo, en la lengua cuidada el modal toma el auxiliar del verbo que sigue: *Sono dovuta partire. Non sono potuto venire. Ho dovuto lavorare.* En la lengua hablada también se oye *Ho dovuto partire* y *Non ho potuto venire*.",
     },
+    {
+      kind: "p",
+      text: "**Piacere en el pasado.** *Piacere* usa *essere* y concuerda con lo que gusta: *Mi è piaciuto il film.* (Me gustó la película.) *Mi è piaciuta la città.* *Mi sono piaciuti i musei.* *Mi sono piaciute le strade.* Para preguntar: *Ti è piaciuto il viaggio?*",
+    },
   ],
   transfer:
     "Aquí está la trampa más grande del pasado. En español *he ido* usa *haber*, así que sale *ho andato*. Es incorrecto: es *sono andato*. Y el participio con *essere* concuerda en género y número, algo que el español no hace con *haber*.",
@@ -40,6 +44,9 @@ export const unidad10: Lesson = {
     { it: "Siete stati a Venezia?", es: "¿Estuvieron en Venecia?" },
     { it: "Le mie amiche sono partite domenica.", es: "Mis amigas se fueron el domingo." },
     { it: "Sono nato a Santiago.", es: "Nací en Santiago." },
+    { it: "Mi è piaciuto il film.", es: "Me gustó la película." },
+    { it: "Mi sono piaciuti i musei.", es: "Me gustaron los museos." },
+    { it: "Ti è piaciuta la città?", es: "¿Te gustó la ciudad?" },
   ],
   notice: [
     {
@@ -107,5 +114,11 @@ export const unidad10: Lesson = {
     { type: "fill", prompt: "Abbiamo ___ per due ore. (camminare)", answers: ["camminato"], why: "*Camminare → camminato*, con *avere*." },
     { type: "fill", prompt: "Ieri sono ___ andare via. (dovere)", answers: ["dovuto", "dovuta"], why: "Con *sono* + *andare*: *sono dovuto / dovuta andare*." },
     { type: "choice", prompt: "«Nadé en la piscina»", options: ["Ho nuotato in piscina.", "Sono nuotato in piscina.", "Ho nuotare in piscina."], answer: 0, why: "*Nuotare* usa *avere*: *ho nuotato*." },
+    {type: "fill", prompt: "Il film? Mi ___ piaciuto molto. (gustó)", answers: ["è"], why: "*Piacere* en passato usa *essere*: *mi è piaciuto*."},
+    {type: "fill", prompt: "La città mi è ___ molto. (gustó, participio femenino)", answers: ["piaciuta"], why: "La ciudad es femenino: *piaciuta*."},
+    {type: "fill", prompt: "I musei mi sono ___. (gustaron, participio)", answers: ["piaciuti"], why: "Masculino plural: *piaciuti*."},
+    {type: "choice", prompt: "«Me gustó el viaje.»", options: ["Mi è piaciuto il viaggio.", "Mi ha piaciuto il viaggio.", "Mi è piaciuta il viaggio."], answer: 0, why: "*Piacere* + *essere*; *viaggio* es masculino."},
+    {type: "choice", prompt: "«Me gustaron las calles.»", options: ["Mi sono piaciute le strade.", "Mi sono piaciuti le strade.", "Mi è piaciuta le strade."], answer: 0, why: "*Strade* es femenino plural: *piaciute*."},
+    {type: "choice", prompt: "«¿Te gustó la pizza?»", options: ["Ti è piaciuta la pizza?", "Ti è piaciuto la pizza?", "Hai piaciuto la pizza?"], answer: 0, why: "*Pizza* es femenino: *piaciuta*."},
   ],
 };

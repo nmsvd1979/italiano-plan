@@ -58,6 +58,10 @@ export const unidad07: Lesson = {
         ["loro", "fanno", "dicono", "danno", "stanno", "bevono"],
       ],
     },
+    {
+      kind: "p",
+      text: "**Fórmulas con ci (nos).** Para despedirte o quedar con alguien: *Ci vediamo domani!* (¡Nos vemos mañana!) *Ci sentiamo stasera.* (Hablamos esta noche.) *Ci vediamo alle otto.* Por ahora apréndelas como frases hechas.",
+    },
   ],
   transfer:
     "*Stare* no es *estar*. En español *estar* cubre lugar, estado y acción; en italiano el lugar y las características van con *essere* (*Sono a Milano*, *Sono stanco*), y *stare* queda para el bienestar (*Sto bene*) y la acción en curso (*Sto mangiando*). Para estar en un lugar usa *essere* (*Sono a Milano*); *stare a* + lugar significa quedarse (*Sto a casa*). El error típico es decir *Sto a Milano* con el sentido de \"estoy en Milán\", o *Sto stanco*.",
@@ -68,6 +72,8 @@ export const unidad07: Lesson = {
     { it: "Sono stanco, ma sto bene.", es: "Estoy cansado, pero estoy bien." },
     { it: "A che ora vi alzate la domenica?", es: "¿A qué hora se levantan los domingos?" },
     { it: "Sto aspettando il treno.", es: "Estoy esperando el tren." },
+    { it: "Ci vediamo domani!", es: "¡Nos vemos mañana!" },
+    { it: "Ci sentiamo stasera.", es: "Hablamos esta noche." },
   ],
   notice: [
     {
@@ -138,5 +144,8 @@ export const unidad07: Lesson = {
     { type: "fill", prompt: "Loro ___ a Roma. (stare)", answers: ["stanno"], why: "*Stare* con *loro*: *stanno*." },
     { type: "fill", prompt: "Lui ___ un regalo a Marco. (dare)", answers: ["dà"], why: "*Dare* con *lui*: *dà*, con tilde." },
     { type: "fill", prompt: "Noi ___ un'acqua. (bere)", answers: ["beviamo"], why: "*Bere* con *noi*: *beviamo*." },
+    {type: "choice", prompt: "Te despides de un amigo hasta mañana.", options: ["Ci vediamo domani!", "Mi vedo domani!", "Vedi domani!"], answer: 0, why: "*Ci vediamo* = nos vemos."},
+    {type: "choice", prompt: "«Hablamos esta noche.»", options: ["Ci sentiamo stasera.", "Mi sento stasera.", "Sentiamo stasera."], answer: 0, why: "*Ci sentiamo* = nos hablamos."},
+    {type: "fill", prompt: "___ vediamo alle otto! (nos)", answers: ["Ci", "ci"], why: "*Ci vediamo* = nos vemos."},
   ],
 };
