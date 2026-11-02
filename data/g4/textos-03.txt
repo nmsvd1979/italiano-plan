@@ -15,7 +15,7 @@ En la tarde me encontré con Giulia. Fuimos al cine y vimos una película divert
 El domingo limpié la casa y llamé por teléfono a mi abuela. Ella me contó una historia de su juventud. Cociné la cena para la familia: todos comieron mucho y dijeron que estaba buenísima. ¡Fue un fin de semana lindísimo!
 claves: la spesa=las compras; incontrare=encontrarse con; pulire=limpiar; raccontare=contar; la giovinezza=la juventud; divertente=divertido
 p1: ¿Qué compró la autora en el mercado? | pane, formaggio e pomodori | pesce e verdura | solo frutta | a | «pane, formaggio e dei pomodori».
-p2: ¿Qué hicieron Giulia y la autora después del cine? | tornarono a casa | mangiarono una pizza | fecero una passeggiata | b | «abbiamo mangiato una pizza insieme».
+p2: ¿Qué hicieron Giulia y la autora después del cine? | sono tornate a casa | hanno mangiato una pizza | hanno fatto una passeggiata | b | «abbiamo mangiato una pizza insieme».
 p3: ¿Por qué no volvieron tarde a casa? | erano stanche | pioveva | il cinema era chiuso | a | «perché eravamo stanche».
 p4: ¿Quién le contó una historia de su juventud? | sua nonna / la nonna / la nonna | «Lei mi ha raccontato una storia della sua giovinezza».
 ## u10
@@ -41,7 +41,7 @@ claves: partire=salir / partir; l'albergo=el hotel; pulito=limpio; il ponte=el p
 p1: ¿Con quién viajó el autor? | con sua sorella | con un amico | da solo | a | «con mia sorella».
 p2: ¿Cómo era el tiempo? | faceva caldo | faceva freddo, ma il cielo era azzurro | pioveva | b | «Faceva freddo, ma il cielo era azzurro».
 p3: ¿Dónde desayunaban? | in camera | al bar | sul terrazzo | c | «facevamo colazione sul terrazzo».
-p4: ¿Cuánto duró el viaje en tren? | due ore e mezza / due ore e mezzo | «dopo due ore e mezza».
+p4: ¿Cuánto duró el viaje en tren? | due ore e mezza | «dopo due ore e mezza».
 ## u11
 tipo: cuento breve
 titulo: Il gatto di Nonna Rosa
@@ -68,9 +68,9 @@ p3: ¿Qué tenía el gato en la boca? | un pesce | un topo | un osso | a | «ave
 p4: ¿Cuándo trajo el gato un pescado después? | ogni venerdì / il venerdì | «Pepe ha portato un pesce ogni venerdì».
 ## u12
 tipo: folleto de mercado
-titulo: Il mercato di Campo dei Fiori
+titulo: Il mercato di Campo de' Fiori
 testo:
-IL MERCATO DI CAMPO DEI FIORI
+IL MERCATO DI CAMPO DE' FIORI
 Da più di centocinquanta anni il mercato è il cuore di Roma. Ogni mattina, dal lunedì al sabato, i venditori preparano le loro bancarelle con frutta, verdura, fiori, spezie e pesce fresco.
 
 Che cosa comprare?
@@ -83,7 +83,7 @@ Consigli per i visitatori:
 
 Il mercato chiude alle due del pomeriggio. La domenica è chiuso.
 es:
-EL MERCADO DE CAMPO DEI FIORI
+EL MERCADO DE CAMPO DE' FIORI
 Desde hace más de ciento cincuenta años el mercado es el corazón de Roma. Cada mañana, de lunes a sábado, los vendedores preparan sus puestos con fruta, verdura, flores, especias y pescado fresco.
 
 ¿Qué comprar?
