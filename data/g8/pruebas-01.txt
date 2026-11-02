@@ -1,0 +1,75 @@
+## u25
+L|Aula due. Lezione: martedì, ore dieci. Portate un quaderno. Se non capite, chiedete: «Come si dice?».|¿Qué hay que hacer si no se entiende una palabra?|Preguntar «Come si dice?»|Llevar un cuaderno|Esperar hasta el martes|El texto indica preguntar «Come si dice?».
+L|Ciao! Mi chiamo Paolo. Il mio cognome è Neri: enne, e, erre, i. Parlo piano.|¿Cómo habla Paolo?|Despacio|Muy rápido|En voz baja y rápido|«Parlo piano» significa hablo despacio.
+L|Scusi, può ripetere? Non capisco bene. Parla più piano, per favore. Grazie mille!|¿Qué pide la persona?|Que hablen más despacio|Que escriban su nombre|Que le den un cuaderno|«Parla più piano» = hable más despacio.
+E|Come si scrive il tuo cognome?|¿Qué pregunta?|Cómo se escribe tu apellido|Cómo te llamas|Dónde vives|«Come si scrive» pregunta por la ortografía.
+E|Non capisco, può ripetere?|¿Qué dice?|Que no entiende y pide repetir|Que entiende todo|Que quiere un café|«Non capisco» = no entiendo; «può ripetere» = ¿puede repetir?
+E|Mi chiamo Giulia, piacere.|¿Qué dice la persona?|Se presenta|Se despide|Pide ayuda|«Mi chiamo… piacere» es una presentación.
+C|¿Cómo dices «No entiendo»?|Non capisco;Non capire;Io no capisco|La negación va antes del verbo conjugado: «Non capisco».
+C|Para pedir a alguien formal que repita dices…|Scusi, può ripetere?;Scusi, puoi ripetere?;Scusi, può ripetire?|Con «Scusi» se usa la forma de cortesía «può».
+F|Ciao, ___ chiamo Anna. (me)|mi|«Mi chiamo» = me llamo.
+F|Come ___ scrive il tuo nome? (impersonal)|si|«Come si scrive…?» pregunta cómo se escribe.
+## u01
+L|Buongiorno, signora Rossi! Come sta? Bene, grazie, e Lei? Anch'io sto bene.|¿Cómo tratan las dos personas a la señora Rossi?|De Lei, con cortesía|De tu, con confianza|Por el nombre de pila|«Come sta?» y «Lei» son formas de cortesía.
+L|Ciao, Marco! Come stai? Così così, sono stanco. Tu sei di Roma? No, sono di Milano.|¿De dónde es Marco?|De Milán|De Roma|De Santiago|Marco responde «sono di Milano».
+L|Lei è la dottoressa Costa. È italiana. Io sono cileno e sono di Santiago.|¿De dónde es el hablante?|De Santiago de Chile|De Roma|De Milán|«Io sono cileno e sono di Santiago».
+E|Buonasera, come sta?|¿Qué pregunta?|Cómo está usted|Dónde vive usted|Cómo se llama usted|«Come sta?» es la pregunta de cortesía.
+E|Sei italiano o cileno?|¿Qué pregunta?|Si es italiano o chileno|Cuántos años tiene|Dónde trabaja|«Sei… o…?» ofrece dos opciones de nacionalidad.
+E|Noi siamo di Napoli.|¿Qué dice?|Que son de Nápoles|Que van a Nápoles|Que no son de Nápoles|«Siamo di Napoli» = somos de Nápoles.
+C|Con un desconocido mayor preguntas…|Come sta?;Come stai?;Come sto?|Con desconocidos se usa Lei: «Come sta?».
+C|«Ellos son chilenos.»|Loro sono cileni.;Loro siamo cileni.;Loro è cileni.|Con loro, el verbo es «sono».
+C|¿Qué significa «Piacere!» al conocer a alguien?|Mucho gusto;Gracias;Adiós|«Piacere» = mucho gusto.
+F|Tu ___ italiano? (ser)|sei|Con «tu»: «sei».
+## u02
+L@A|In classe ci sono un tavolo, una sedia e due studenti. Il professore ha un libro rosso.|¿Cuántos estudiantes hay?|Dos|Uno|Tres|«Due studenti».
+L@A|Nella mia casa c'è una cucina e ci sono tre camere. Io ho due fratelli.|¿Cuántas habitaciones hay?|Tres|Dos|Una|«Ci sono tre camere».
+L@A|Marta ha un cane e due gatti. Non ha una macchina. Ha una bicicletta.|¿Qué NO tiene Marta?|Un auto|Un perro|Una bicicleta|«Non ha una macchina».
+E@A|Nella stanza c'è una lampada.|¿Qué dice?|Que en la habitación hay una lámpara|Que hay dos lámparas|Que no hay lámpara|«C'è» introduce un singular.
+E@A|Ci sono molti studenti.|¿Qué dice?|Que hay muchos estudiantes|Que hay un estudiante|Que no hay estudiantes|«Ci sono» introduce un plural.
+E@A|Ho una sorella e due fratelli.|¿Qué dice?|Que tiene una hermana y dos hermanos|Que tiene dos hermanas|Que no tiene hermanos|«Ho una sorella e due fratelli».
+C@A|«Hay un libro sobre la mesa.»|C'è un libro sul tavolo.;Ci sono un libro sul tavolo.;C'è uno libro sul tavolo.|Singular: «c'è».
+C@A|¿Qué artículo va con «zaino»?|uno zaino;un zaino;una zaino|Con z- se usa «uno».
+C@A|¿Cuál es el plural de «amico»?|amici;amiche;amicos|Los masculinos en -o hacen plural en -i.
+F@A|Noi ___ due figli. (avere)|abbiamo|«Noi abbiamo».
+L@B|Mi piace la pizza. Non mi piacciono gli spaghetti. Mi piace anche il caffè.|¿Qué NO le gusta?|Los espaguetis|La pizza|El café|«Non mi piacciono gli spaghetti».
+L@B|Alla festa ci sono due uomini e tre donne. Le donne parlano con gli amici.|¿Cuántas mujeres hay?|Tres|Dos|Cinco|«Tre donne».
+L@B|Laura: «Ti piace il cinema?» Luca: «Sì, mi piace molto. Mi piacciono i film italiani.»|¿Qué le gusta a Luca?|El cine y las películas italianas|Solo el teatro|Nada|Luca dice que le gusta mucho el cine.
+E@B|Mi piace il gelato.|¿Qué dice?|Que le gusta el helado|Que no le gusta el helado|Que quiere comprar helado|«Mi piace» + singular.
+E@B|Non mi piacciono i cani.|¿Qué dice?|Que no le gustan los perros|Que le gustan los perros|Que tiene un perro|«Non mi piacciono» + plural.
+E@B|Ti piace la musica italiana?|¿Qué pregunta?|Si te gusta la música italiana|Si tocas música|Si compras discos|«Ti piace…?» = ¿te gusta…?
+C@B|«Me gustan los libros.»|Mi piacciono i libri.;Mi piace i libri.;Mi piacciono il libro.|Plural: «piacciono».
+C@B|¿Cuál es el plural de «uomo»?|uomini;uomi;uomos|Plural irregular: «uomini».
+C@B|¿Cuál es el plural de «amica»?|amiche;amice;amichi|Los femeninos en -ca hacen plural en -che.
+F@B|Mi ___ la musica. (gustar, singular)|piace|Con un singular: «piace».
+## u03
+L@A|Sono le otto e mezza. Il treno parte alle nove meno un quarto. Abbiamo ancora venti minuti.|¿A qué hora sale el tren?|A las nueve menos cuarto|A las nueve y media|A las ocho y media|«Alle nove meno un quarto».
+L@A|Il negozio apre alle nove e chiude alle diciannove. A mezzogiorno è chiuso.|¿A qué hora cierra el negocio?|A las diecinueve|A las nueve|Al mediodía|«Chiude alle diciannove».
+L@A|Luca ha ventitré anni. Sua sorella ne ha quindici. La nonna ha ottant'anni.|¿Cuántos años tiene la hermana?|Quince|Veintitrés|Ochenta|«Ne ha quindici».
+E@A|Sono le tre e dieci.|¿Qué hora es?|Las tres y diez|Las diez y tres|Las tres menos diez|«Le tre e dieci».
+E@A|Ho quarantasette anni.|¿Cuántos años tiene?|Cuarenta y siete|Cuarenta y cuatro|Cincuenta y siete|«Quarantasette» = 47.
+E@A|Il film comincia alle sette meno un quarto.|¿A qué hora empieza?|A las siete menos cuarto|A las siete y cuarto|A las seis|«Meno un quarto» = menos cuarto.
+C@A|¿Cómo dices «las dos y media»?|Sono le due e mezza.;È le due e mezza.;Sono la due e mezza.|Con 2 o más: «sono le…».
+C@A|«Es la una.»|È l'una.;Sono l'una.;Sono le una.|La una es singular: «è l'una».
+C@A|¿Qué número es «sessantotto»?|68;86;78|«Sessanta» + «otto» = 68.
+F@A|Sono ___ cinque. (las)|le|«Sono le cinque».
+L@B|Oggi è lunedì, il dodici marzo. Il mio compleanno è il ventitré aprile. Pago il biglietto dieci euro.|¿Cuándo es el cumpleaños?|El 23 de abril|El 12 de marzo|El 23 de marzo|«Il ventitré aprile».
+L@B|Il caffè costa un euro e venti. Il cornetto costa un euro e cinquanta. Pago due euro e settanta in tutto.|¿Cuánto cuesta el cornetto?|Un euro con cincuenta|Un euro con veinte|Dos euros con setenta|«Un euro e cinquanta».
+L@B|Il corso comincia a settembre e finisce a giugno. Le lezioni sono il martedì e il giovedì.|¿Qué días hay clase?|Martes y jueves|Lunes y miércoles|Solo martes|«Il martedì e il giovedì».
+E@B|Il primo gennaio è festa.|¿Qué dice?|Que el 1 de enero es feriado|Que el 1 de enero hay clase|Que el primero de mayo es feriado|«Il primo gennaio».
+E@B|Quanto costa? Cinque euro.|¿Cuánto cuesta?|Cinco euros|Cincuenta euros|Quince euros|«Cinque euro».
+E@B|Domani è venerdì.|¿Qué día es mañana?|Viernes|Domingo|Jueves|«Venerdì» = viernes.
+C@B|«El 5 de mayo»|il cinque maggio;cinque il maggio;il maggio cinque|Primero el día, luego el mes.
+C@B|¿Cómo preguntas el precio?|Quanto costa?;Quanti costa?;Come costa?|«Quanto costa?» = ¿cuánto cuesta?
+C@B|¿Qué mes es «agosto»?|Agosto;Octubre;Abril|«Agosto» = agosto.
+F@B|Oggi è ___. (martes)|martedì|Martes se escribe «martedì», con tilde.
+## u04
+L|Voglio un caffè, ma non posso: devo lavorare. Alle sei posso uscire. Allora vorrei una birra.|¿Por qué no puede tomar café ahora?|Porque tiene que trabajar|Porque no le gusta|Porque no hay café|«Devo lavorare» = tengo que trabajar.
+L|Giulia lavora in una banca. Esce alle cinque, prende l'autobus e torna a casa. La sera guarda la televisione.|¿Qué hace Giulia por la noche?|Mira televisión|Trabaja en el banco|Toma el autobús|«La sera guarda la televisione».
+L|Io mangio pasta, tu mangi pizza e lui mangia pesce. Noi beviamo acqua. Loro bevono vino.|¿Qué beben ellos?|Vino|Agua|Café|«Loro bevono vino».
+E|Vorrei un tè, per favore.|¿Qué dice?|Que quiere un té|Que no quiere té|Que ya tomó té|«Vorrei» = quisiera.
+E|Non posso venire domani.|¿Qué dice?|Que no puede venir mañana|Que no quiere venir|Que debe venir|«Non posso» = no puedo.
+E|Dobbiamo studiare molto.|¿Qué dice?|Que deben estudiar mucho|Que quieren estudiar|Que no estudian|«Dobbiamo» = debemos.
+C|«Ellos quieren salir.»|Loro vogliono uscire.;Loro vuole uscire.;Loro volete uscire.|Con loro: «vogliono».
+C|«Tú puedes ayudarme.»|Puoi aiutarmi.;Può aiutarmi tu.;Posso aiutarmi.|Con tu: «puoi».
+C|¿Cuál es la forma de cortesía?|Vorrei un caffè.;Voglio un caffè.;Io caffè.|«Vorrei» es más amable que «voglio».
+F|Noi ___ studiare. (deber)|dobbiamo|«Noi dobbiamo».

@@ -1,0 +1,66 @@
+## u09
+L|Ieri ho lavorato tutto il giorno. Ho mangiato un panino e ho bevuto un caffè. La sera ho guardato un film.|¿Qué hizo anoche?|Vio una película|Trabajó todo el día|Comió un sándwich|«La sera ho guardato un film».
+L|Il fine settimana abbiamo visitato Firenze. Abbiamo mangiato molto bene e abbiamo comprato dei regali per gli amici.|¿Qué compraron?|Regalos para los amigos|Comida|Ropa|«Abbiamo comprato dei regali».
+L|Marco non ha dormito bene. Ha avuto mal di testa e non ha finito il lavoro. Poi ha chiamato il medico.|¿A quién llamó Marco?|Al médico|A un amigo|A su jefe|«Ha chiamato il medico».
+E|Ho comprato una giacca nuova.|¿Qué dice?|Que compró una chaqueta nueva|Que va a comprar una chaqueta|Que vende una chaqueta|«Ho comprato» = compré.
+E|Abbiamo finito il lavoro.|¿Qué dice?|Que terminaron el trabajo|Que empiezan el trabajo|Que no terminaron|«Abbiamo finito» = terminamos.
+E|Hai mangiato?|¿Qué pregunta?|Si comiste|Qué vas a comer|Dónde comes|«Hai mangiato?» = ¿comiste?
+C|«Ayer estudié.»|Ieri ho studiato.;Ieri studiato ho.;Ieri sono studiato.|Passato prossimo con avere.
+C|«Ellos vieron la película.»|Hanno visto il film.;Ha visto il film loro.;Hanno veduto il film.|«Vedere» → «visto».
+C|¿Cuál es el participio de «fare»?|fatto;fato;fare|«Fare» → «fatto».
+F|Noi ___ mangiato la pizza. (avere)|abbiamo|«Abbiamo mangiato».
+## u10
+L|Ieri Giulia è andata al mercato. È tornata a casa alle due. I suoi amici sono arrivati alle tre.|¿Cuándo llegaron los amigos?|A las tres|A las dos|Ayer por la mañana|«Sono arrivati alle tre».
+L|Siamo partiti da Roma alle otto e siamo arrivati a Venezia a mezzogiorno. Sono rimasta là due giorni.|¿Cuánto tiempo se quedó en Venecia?|Dos días|Un día|Una semana|«Sono rimasta là due giorni».
+L|Luca è uscito di casa presto. È salito sul treno ed è sceso a Torino. Poi è andato in ufficio.|¿Adónde fue Luca al final?|A la oficina|A Roma|A casa|«È andato in ufficio».
+E|Sono andata al cinema.|¿Qué dice?|Que una mujer fue al cine|Que un hombre fue al cine|Que va a ir al cine|«Andata» (femenino) indica que habla una mujer.
+E|Siamo arrivati tardi.|¿Qué dice?|Que llegaron tarde|Que llegan temprano|Que no llegaron|«Siamo arrivati» = llegamos.
+E|Sei rimasto a casa?|¿Qué pregunta?|Si te quedaste en casa|Si saliste de casa|Si vuelves a casa|«Rimasto» = quedado.
+C|«Ella llegó ayer.»|È arrivata ieri.;Ha arrivato ieri.;È arrivato ieri.|Con arrivare: essere + concordancia.
+C|«Nosotras fuimos a Roma.»|Siamo andate a Roma.;Abbiamo andato a Roma.;Siamo andati a Roma.|Ellas: «andate».
+C|¿Cuál es el participio de «venire»?|venuto;venito;venato|«Venire» → «venuto».
+F|Maria è ___ a casa. (tornare, f.)|tornata|Femenino: «tornata».
+## u11
+L|Da bambino abitavo a Napoli. Giocavo sempre in strada con i miei amici. Un giorno sono caduto e ho pianto.|¿Qué pasó un día?|Se cayó y lloró|Se mudó|Ganó un juego|«Un giorno sono caduto e ho pianto».
+L|Quando sono arrivata, mia madre cucinava e mio padre guardava la televisione. Ho salutato e ho mangiato con loro.|¿Qué hacía el padre al llegar ella?|Miraba televisión|Cocinaba|Dormía|«Mio padre guardava la televisione».
+L|Ieri pioveva e faceva freddo. Siamo rimasti a casa. Abbiamo giocato a carte e abbiamo bevuto tè.|¿Cómo estaba el clima?|Llovía y hacía frío|Hacía sol|Hacía calor|«Pioveva e faceva freddo».
+E|Quando ero piccolo, giocavo a calcio.|¿Qué dice?|Que de pequeño jugaba al fútbol|Que ahora juega al fútbol|Que jugó un partido|«Giocavo» es un hábito del pasado.
+E|Ieri ho visto Marco.|¿Qué dice?|Que ayer vio a Marco|Que veía a Marco siempre|Que verá a Marco|«Ho visto» = hecho concreto.
+E|Mentre mangiavo, è arrivato Luca.|¿Qué dice?|Que Luca llegó mientras comía|Que Luca comía cuando llegó|Que nadie llegó|«Mangiavo» = comía; «è arrivato» = llegó.
+C|«Yo vivía en Roma.»|Abitavo a Roma.;Ho abitato a Roma.;Abitaro a Roma.|Descripción del pasado: imperfetto.
+C|«Ayer compré un libro.»|Ieri ho comprato un libro.;Ieri compravo un libro.;Ieri comprato un libro.|Hecho concreto: passato prossimo.
+C|«Mientras él dormía, yo leía.»|Mentre lui dormiva, io leggevo.;Mentre lui ha dormito, io leggevo.;Mentre lui dormiva, io ho letto.|Dos acciones simultáneas: imperfetto.
+F|Da piccola ___ sempre in giardino. (giocare, io)|giocavo|Imperfetto de «giocare».
+## u12
+L|Roma è più grande di Firenze, ma Firenze è più piccola e più tranquilla. Per me Firenze è la città più bella.|¿Cuál es la más bonita según la persona?|Florencia|Roma|Ninguna|«Firenze è la città più bella».
+L|Compro un chilo di pane, due etti di prosciutto e del formaggio. Bevo dell'acqua. Non voglio del vino.|¿Qué no quiere?|Vino|Agua|Queso|«Non voglio del vino».
+L|Questa borsa costa quaranta euro, quella costa trenta. Quella è meno cara, ma questa è migliore.|¿Cuál es más barata?|La que cuesta treinta|La que cuesta cuarenta|Cuestan lo mismo|«Quella è meno cara».
+E|Marco è più alto di Luca.|¿Qué dice?|Que Marco es más alto que Luca|Que Luca es más alto|Que son igual de altos|«Più… di» = más que.
+E|Questo è il ristorante migliore della città.|¿Qué dice?|Que es el mejor restaurante|Que es el más caro|Que es el único|«Il migliore» = el mejor.
+E|Vorrei del pane, per favore.|¿Qué dice?|Que quiere un poco de pan|Que no quiere pan|Que vende pan|«Del pane» = un poco de pan.
+C|«Más rápido que yo»|più veloce di me;più veloce che me;più veloce da me|Comparativo: «più… di».
+C|«Un poco de agua»|dell'acqua;del acqua;della acqua|Partitivo con acqua: «dell'».
+C|«La mejor pizza»|la pizza migliore;la pizza più migliore;la pizza più buona migliore|«Migliore» ya es comparativo.
+F|Anna è ___ alta di Carla. (más)|più|«Più… di» = más… que.
+## u28
+L|Mia nonna ha sete: beve un bicchiere d'acqua. Mio nonno ha fame e mangia un panino. Poi tutti insieme guardiamo la televisione.|¿Quién tiene sed?|La abuela|El abuelo|El hablante|«Mia nonna ha sete».
+L|Nel negozio vedo un cappello nero e un cappotto grigio. Il cappello costa venti euro, il cappotto costa cento euro. Compro il cappello.|¿Qué compra?|El sombrero|El abrigo|Las dos cosas|«Compro il cappello».
+L|Mia sorella ha una penna blu. Scrive una lettera a sua nonna e dice: «Che pena non vederti!». Poi spedisce la lettera.|¿Con qué escribe la hermana?|Con una pluma azul|Con un lápiz|Con un teclado|«Ha una penna blu».
+E|Ho sete.|¿Qué dice?|Que tiene sed|Que tiene siete años|Que tiene hambre|«Sete» con una t = sed.
+E|Ho sette anni.|¿Qué dice?|Que tiene siete años|Que tiene sed|Que tiene setenta años|«Sette» con doble t = siete.
+E|Mio nonno è in casa.|¿Qué dice?|Que su abuelo está en casa|Que su abuela está en casa|Que su padre está en casa|«Nonno» con doble n = abuelo.
+C|¿Cuál palabra significa «sombrero»?|cappello;capello;capelo|«Cappello» = sombrero; «capello» = pelo.
+C|¿Cuál palabra significa «sed»?|sete;sette;setta|«Sete» = sed; «sette» = siete.
+C|¿Cuál palabra significa «carro»?|carro;caro;caru|«Carro» con doble r; «caro» = querido o costoso.
+F|Scrivo con una ___. (bolígrafo, pluma)|penna|«Penna» se escribe con doble n.
+## u13
+L|Marco ha comprato dei fiori. Li ha dati a Giulia. Lei li ha messi in un vaso e gli ha mandato un messaggio.|¿Qué hizo Giulia con las flores?|Las puso en un jarrón|Las tiró|Las vendió|«Li ha messi in un vaso».
+L|Chiara cerca le chiavi. Le trovo io, le prendo e le do a lei. Poi mi dice grazie e mi saluta.|¿Quién encuentra las llaves?|El hablante|Chiara|Un amigo|«Le trovo io».
+L|Conosci Luca? Lo vedo ogni giorno. Gli parlo spesso e gli scrivo un messaggio la sera.|¿Cuándo le escribe un mensaje?|En la noche|En la mañana|Nunca|«Gli scrivo un messaggio la sera».
+E|Lo vedo domani.|¿Qué dice?|Que lo ve mañana|Que lo vio ayer|Que no lo ve|«Lo vedo» = lo veo.
+E|Ti telefono stasera.|¿Qué dice?|Que te llama esta noche|Que te llamó ayer|Que no te llama|«Ti telefono» = te llamo.
+E|Le compro un regalo.|¿Qué dice?|Que le compra un regalo (a ella)|Que lo compra él|Que lo vende|«Le» = a ella.
+C|«Lo compro.»|Lo compro.;La compro.;Lo comprano.|Masculino singular: «lo».
+C|«Le doy un libro.» (a ella)|Le do un libro.;La do un libro.;Lo do un libro.|Indirecto: «le».
+C|«Los veo.» (a ellos)|Li vedo.;Lo vedo.;Le vedo.|Masculino plural: «li».
+F|Marco? ___ vedo domani. (lo)|Lo|Pronombre directo.

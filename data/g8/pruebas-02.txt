@@ -1,0 +1,96 @@
+## u05
+L@A|Vado in banca alle nove. Poi torno a casa a piedi. Alle tre vado dal medico con mia sorella.|¿Adónde va a las tres?|Al médico|Al banco|A la casa|«Vado dal medico».
+L@A|Oggi esco con gli amici. Andiamo al cinema e poi in pizzeria. Domani vengo da te.|¿Adónde irá mañana?|A casa de la otra persona|Al cine|A la pizzería|«Vengo da te» = voy a tu casa.
+L@A|Il treno per Roma parte dal binario cinque. Io vado a Roma in treno, mia madre va in macchina.|¿Cómo va la madre a Roma?|En auto|En tren|A pie|«Mia madre va in macchina».
+E@A|Vado a scuola in bicicletta.|¿Qué dice?|Que va al colegio en bicicleta|Que va a pie|Que viene del colegio|«In bicicletta» = en bicicleta.
+E@A|Vengo dal supermercato.|¿Qué dice?|Que viene del supermercado|Que va al supermercado|Que trabaja allí|«Dal» = del (lugar de origen).
+E@A|Domani andiamo al mare.|¿Qué dice?|Que mañana van a la playa|Que ayer fueron a la playa|Que no van|«Al mare» = a la playa.
+C@A|«Voy a Roma.»|Vado a Roma.;Vado in Roma.;Vado da Roma.|Con ciudades se usa «a».
+C@A|«Voy a casa de Marco.»|Vado da Marco.;Vado a Marco.;Vado in Marco.|Con personas se usa «da».
+C@A|«Del banco» se dice…|dalla banca;della banca;alla banca|Da + la = dalla.
+F@A|Vado ___ cinema. (al)|al|A + il = al.
+L@B|Cerco una camera per due notti. Voglio il burro per la colazione. Il caffè è molto caldo.|¿Qué busca para el desayuno?|Mantequilla|Una habitación|Café frío|«Burro» es mantequilla, no el animal.
+L@B|Per andare alla stazione vai dritto, poi giri a destra. La stazione è in fondo alla strada.|¿Dónde gira?|A la derecha|A la izquierda|Sigue derecho|«Giri a destra» = giras a la derecha.
+L@B|Scusi, dov'è la farmacia? È qui vicino: va a sinistra e poi sempre dritto, circa cento metri.|¿Dónde queda la farmacia?|Cerca, a la izquierda y derecho|Lejos, a la derecha|En la estación|«Qui vicino» = aquí cerca.
+E@B|Gira a destra e poi vai dritto.|¿Qué dice?|Que gires a la derecha y sigas derecho|Que gires a la izquierda|Que te detengas|«A destra» = a la derecha.
+E@B|La camera è al secondo piano.|¿Qué dice?|Que la habitación está en el segundo piso|Que la cámara está rota|Que el segundo piso está cerrado|«Camera» = habitación.
+E@B|Dov'è la fermata dell'autobus?|¿Qué pregunta?|Dónde está la parada del autobús|A qué hora pasa el autobús|Cuánto cuesta el autobús|«Dov'è» = ¿dónde está?
+C@B|«¿Dónde está el banco?»|Dov'è la banca?;Dove è banca?;Dov'è il banca?|«Dov'è» + artículo.
+C@B|«A la izquierda»|a sinistra;a sinistro;in sinistra|«A sinistra».
+C@B|«Burro» en italiano significa…|mantequilla;burro;pan|Falso amigo: «burro» = mantequilla.
+F@B|Gira a ___ e poi vai dritto. (derecha)|destra|«A destra» = a la derecha.
+## u06
+L@A|Questa è mia sorella Elena. Quei ragazzi sono i suoi amici. Il suo ragazzo si chiama Davide.|¿Quién es Davide?|El novio de Elena|El hermano de Elena|Un amigo del hablante|«Il suo ragazzo» = su novio.
+L@A|Questo è il mio telefono, quello è il tuo. I miei libri sono sul tavolo, i tuoi sono nella borsa.|¿Dónde están los libros del hablante?|Sobre la mesa|En la cartera|En el teléfono|«I miei libri sono sul tavolo».
+L@A|Mio padre lavora a Milano. Mia madre è in pensione. I nostri nonni abitano a Napoli.|¿Dónde viven los abuelos?|En Nápoles|En Milán|En Roma|«I nostri nonni abitano a Napoli».
+E@A|Questa è la mia macchina.|¿Qué dice?|Que ese es su auto|Que ese es tu auto|Que es el auto de ella|«La mia» = mi.
+E@A|Quel libro è tuo?|¿Qué pregunta?|Si ese libro es tuyo|Si quiere comprar el libro|Dónde está el libro|«Tuo» = tuyo.
+E@A|I nostri amici sono qui.|¿Qué dice?|Que nuestros amigos están aquí|Que sus amigos están aquí|Que mis amigos no están|«I nostri» = nuestros.
+C@A|«Mi hermano»|mio fratello;il mio fratello;mia fratello|Con familia singular no se usa artículo.
+C@A|«Esos libros» (lejos)|quei libri;questi libri;quegli libri|«Quei» con masculino plural.
+C@A|«Tus amigos»|i tuoi amici;i tue amici;le tuoi amici|Posesivo plural masculino: «i tuoi».
+F@A|Questa è ___ casa. (nuestra)|nostra|Femenino singular: «nostra».
+L@B|Ho una giacca nera e una camicia bianca. I pantaloni sono blu. Cerco una taglia media.|¿De qué color es la chaqueta?|Negra|Blanca|Azul|«Una giacca nera».
+L@B|Questa gonna è troppo corta, ma le scarpe sono comode e belle. Prendo le scarpe, non la gonna.|¿Qué compra?|Los zapatos|La falda|Las dos cosas|«Prendo le scarpe».
+L@B|Marco è alto e magro. Ha i capelli corti e gli occhi verdi. Porta un cappotto grigio.|¿Cómo tiene los ojos Marco?|Verdes|Grises|Cortos|«Gli occhi verdi».
+E@B|Ha gli occhi azzurri.|¿Qué dice?|Que tiene los ojos azules|Que tiene los ojos negros|Que tiene el pelo azul|«Azzurri» = azules (claro).
+E@B|Vorrei una taglia più grande.|¿Qué dice?|Que quiere una talla más grande|Que quiere una más pequeña|Que no quiere ropa|«Più grande» = más grande.
+E@B|La maglietta è rossa.|¿Qué dice?|Que la camiseta es roja|Que la camiseta es blanca|Que no tiene camiseta|«Rossa» = roja.
+C@B|«Una casa grande»|una casa grande;una casa grando;un casa grande|«Grande» es igual en masculino y femenino.
+C@B|«Zapatos negros»|scarpe nere;scarpe neri;scarpa nere|Femenino plural: «nere».
+C@B|¿Cómo se dice «verde» en plural masculino?|verdi;verdes;verdo|Los adjetivos en -e hacen plural en -i.
+F@B|Le scarpe sono ___. (blancas)|bianche|Femenino plural: «bianche».
+## u26
+L|Mi chiamo Sara. Ho due fratelli e una sorella. Mio padre fa l'ingegnere, mia madre è maestra.|¿Qué hace el padre de Sara?|Es ingeniero|Es maestro|Es médico|«Mio padre fa l'ingegnere».
+L|Giorgio è basso e ha i capelli neri. Lavora in un ospedale: è infermiere. È molto simpatico.|¿Dónde trabaja Giorgio?|En un hospital|En una escuela|En un banco|«Lavora in un ospedale».
+L|Mia nonna ha settant'anni. È gentile e allegra. Abita con mio zio, che è cuoco.|¿Qué hace el tío?|Es cocinero|Es médico|Es maestro|«Mio zio è cuoco».
+E|Che lavoro fai?|¿Qué pregunta?|A qué te dedicas|Dónde vives|Cuántos años tienes|«Che lavoro fai?» = ¿en qué trabajas?
+E|Mia sorella è alta e bionda.|¿Qué dice?|Que su hermana es alta y rubia|Que su hermana es baja y morena|Que su hermana es rubia y baja|«Alta e bionda».
+E|Faccio il medico.|¿Qué dice?|Que es médico|Que va al médico|Que busca un médico|«Faccio il medico» = soy médico.
+C|«Es muy simpático.»|È molto simpatico.;È molto simpatica.;È molti simpatico.|Masculino singular: «simpatico».
+C|«Mi tío es cocinero.»|Mio zio è cuoco.;Mio zio fa cuoco.;Il mio zio è cuoco.|Con familia singular, sin artículo.
+C|¿Qué significa «nipote»?|Sobrino o nieto;Cuñado;Primo|«Nipote» = sobrino o nieto, según el contexto.
+F|Mia madre ___ maestra. (ser)|è|«È maestra».
+## u07
+L@A|Mi sveglio alle sette, mi lavo e mi vesto. Poi faccio colazione. Alle otto esco di casa.|¿Qué hace después de vestirse?|Desayuna|Sale de casa|Se lava|«Poi faccio colazione».
+L@A|La domenica Marta si alza tardi. Non si sveglia presto. Alle undici si prepara e va a pranzo.|¿Cuándo se levanta Marta?|Tarde|Temprano|A las siete|«Si alza tardi».
+L@A|Io mi riposo il pomeriggio. Mio marito si riposa la sera. I bambini vanno a letto alle nove.|¿Cuándo se acuestan los niños?|A las nueve|A las ocho|A las diez|«Vanno a letto alle nove».
+E@A|Mi alzo alle sei.|¿Qué dice?|Que se levanta a las seis|Que se acuesta a las seis|Que se despierta a las siete|«Mi alzo» = me levanto.
+E@A|Ci vestiamo e usciamo.|¿Qué dice?|Que se visten y salen|Que se acuestan|Que llegan a casa|«Ci vestiamo» = nos vestimos.
+E@A|Si lava le mani.|¿Qué dice?|Que se lava las manos|Que lava la ropa|Que no se lava|«Si lava» = se lava.
+C@A|«Ellos se levantan.»|Loro si alzano.;Loro si alza.;Loro ci alzano.|Con loro: «si alzano».
+C@A|«Yo me llamo Luca.»|Mi chiamo Luca.;Si chiamo Luca.;Ti chiamo Luca.|Con io: «mi».
+C@A|«Tú te despiertas»|ti svegli;si svegli;mi svegli|Con tu: «ti».
+F@A|Io ___ sveglio alle sette. (me)|mi|«Mi sveglio».
+L@B|Sto leggendo un libro. Mia sorella sta guardando la televisione. Noi stiamo mangiando.|¿Qué está haciendo la hermana?|Mirando televisión|Leyendo un libro|Comiendo|«Sta guardando la televisione».
+L@B|Pronto? Sono Anna. Che cosa stai facendo? Sto cucinando. Vieni a cena? Sì, volentieri!|¿Qué está haciendo la persona que contesta?|Cocinando|Cenando|Mirando televisión|«Sto cucinando».
+L@B|Oggi sto bene. Ieri ero stanco, ma oggi sono qui in ufficio e sto lavorando con calma.|¿Cómo está hoy?|Bien|Cansado|Mal|«Oggi sto bene».
+E@B|Sto parlando con un amico.|¿Qué dice?|Que está hablando con un amigo|Que va a hablar con un amigo|Que habló con un amigo|«Sto parlando» = estoy hablando.
+E@B|Che cosa state facendo?|¿Qué pregunta?|Qué están haciendo|Adónde van|Quiénes son|«State facendo» = están haciendo.
+E@B|Faccio colazione alle otto.|¿Qué dice?|Que desayuna a las ocho|Que cena a las ocho|Que se acuesta a las ocho|«Faccio colazione» = desayuno.
+C@B|«Estoy estudiando.»|Sto studiando.;Sono studiando.;Studio stando.|«Stare» + gerundio.
+C@B|«Ellos están comiendo.»|Stanno mangiando.;Sta mangiando.;Stanno mangiano.|Con loro: «stanno».
+C@B|¿Cómo está tu hermana? (¿Cómo se encuentra?)|Come sta tua sorella?;Come è tua sorella?;Come fa tua sorella?|«Come sta?» pregunta por el estado.
+F@B|Noi ___ guardando un film. (estar)|stiamo|Con noi: «stiamo».
+## u08
+L|Quando vai in palestra? Vado spesso il lunedì, ma non vado mai la domenica. A volte vado anche il sabato.|¿Cuándo no va nunca?|El domingo|El lunes|El sábado|«Non vado mai la domenica».
+L|Non ho molto tempo e non ho niente da fare. Ho poche amiche, ma bevo sempre un caffè con loro.|¿Qué hace siempre?|Toma café con ellas|Trabaja|Va a la playa|«Bevo sempre un caffè».
+L|Quanti anni hai? Dove abiti? Che lavoro fai? Sono tante domande! Rispondo volentieri.|¿Qué siente la persona sobre las preguntas?|Que son muchas pero responde con gusto|Que son pocas|Que no quiere responder|«Sono tante domande… volentieri».
+E|Non vado mai al cinema.|¿Qué dice?|Que nunca va al cine|Que siempre va al cine|Que va a veces|«Non… mai» = nunca.
+E|Quanto costa questo? Troppo caro!|¿Qué dice?|Que es demasiado caro|Que es barato|Que es gratis|«Troppo» = demasiado.
+E|Che cosa fai di bello?|¿Qué pregunta?|Qué haces de bueno / qué planes tienes|Dónde vives|Cuánto cuesta|Pregunta informal por qué haces.
+C|«Nunca como carne.»|Non mangio mai carne.;Mangio mai carne.;Non mangio sempre carne.|La negación «non» va antes del verbo.
+C|«Muchos libros»|molti libri;molto libri;molta libri|Con plural: «molti».
+C|«A veces voy al cine.»|A volte vado al cinema.;Mai vado al cinema.;Sempre vado al cinema.|«A volte» = a veces.
+F|Non ho ___ da fare. (nada)|niente|«Non… niente» = nada.
+## u27
+L|Nel tempo libero Paolo gioca a calcio e suona la chitarra. Sa cucinare bene e conosce molti ristoranti.|¿Qué sabe hacer bien Paolo?|Cocinar|Jugar al fútbol|Tocar piano|«Sa cucinare bene».
+L|Oggi piove e fa freddo. Non esco. Resto a casa a leggere. Domani c'è il sole e fa caldo.|¿Qué tiempo hace mañana?|Sol y calor|Lluvia y frío|Nieve|«C'è il sole e fa caldo».
+L|Conosci Marco? No, non lo conosco, ma so che abita vicino. Qualcuno sa dove vive?|¿Qué sabe la persona de Marco?|Que vive cerca|Dónde vive exactamente|Que es su amigo|«So che abita vicino».
+E|Non so nuotare.|¿Qué dice?|Que no sabe nadar|Que no quiere nadar|Que nada mucho|«Non so» = no sé.
+E|Conosco Roma molto bene.|¿Qué dice?|Que conoce muy bien Roma|Que vive en Roma|Que va a Roma|«Conosco» = conozco.
+E|Oggi c'è il sole.|¿Qué dice?|Que hay sol hoy|Que llueve hoy|Que hace frío|«C'è il sole».
+C|«Sé jugar al tenis.»|So giocare a tennis.;Conosco giocare a tennis.;So il tennis giocare.|«Sapere» + infinitivo.
+C|«Conozco a Luca.»|Conosco Luca.;So Luca.;Conoscio Luca.|«Conoscere» para personas y lugares.
+C|«Hace frío»|Fa freddo.;Ha freddo.;È freddo.|El clima usa «fa».
+F|Non ___ nuotare. (saber, io)|so|«So» de sapere.
