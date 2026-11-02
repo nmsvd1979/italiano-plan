@@ -128,6 +128,7 @@ Vive en `auditoria/_backlog.md` (ids `H-…`). Cada PR de contenido cierra los i
 | 2026-10-29 | **La app no se usa hasta el lanzamiento:** se agrega §1b (puerta de lanzamiento), se retira la activación gradual de unidades y el cuidado del avance, y el repaso se amplía (botón «Practicar más» y base de palabras con frase, G3 completa) | El usuario indicó que solo usará la app cuando todo esté listo | 11 | Usuario (pedido) |
 | 2026-10-28 (noche, 2.ª) | **G1 u28 hecha** (comer fuera): con ella quedan escritas las cuatro unidades nuevas u25–u28; pendiente decidir cuándo pasan a `ready:true` | Cierra el carril G1 | 11, `revision-fuentes.md`, `src/content/nuevas/` | Claude |
 | 2026-11-02 | **G3–G9 hechos y fusionados** (vocabulario, textos, práctica sin pista, pronunciación, u20–u24, 350 ítems de prueba, dictado de 10 frases); los PR 38–42 de Code estaban apilados y no habían llegado a `main`, se rescataron con el PR #43; se agregan los carriles G8 y G9 | Se descubrieron huecos de contenido (ítems de prueba, dictado) y un error de fusión | 11, `src/content/` | Claude |
+| 2026-11-02 (tarde) | **Frases dudosas verificadas con fuentes** (5 confirmadas, 1 corregida: *più cinquanta euro di spese*); prompts finales de G-R y de «más detalle» (`docs/v2/16`); la auditoría G0 del lote 3 (u17–u24) queda absorbida por G-R | Cierre de la verificación y puesta en marcha de G-R | 11, 16, `auditoria/_verificacion.md`, `dudas-italiano.md` | Claude |
 
 ## 9. Esfuerzo relativo (sin fechas inventadas)
 S = una sesión corta · M = una sesión larga · L = varias sesiones.

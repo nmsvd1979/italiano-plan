@@ -11,7 +11,7 @@ Fuente: `_veredictos.md` (lectura completa) y `_temario.md`. «Fase» es la de `
 | H-all-03 | «Completar con pista» domina las 24 unidades | ejercicios sin pista, ordenar, corregir, transformar, completar diálogo | G | A | **hecho** (G5, #34): 336 ejercicios sin pista |
 | H-all-04 | Reciclaje bajo del vocabulario | textos y frases que reciclen cada palabra ≥ 3 veces | G | A | **hecho** (G4, #31): textos graduados; informe de léxico acumulado (media 91 %) |
 | H-all-05 | Diálogos cortos (15 de 24 fuera de 60–120 palabras) | ampliar u05 (26), u04 (35), u01–u03, u06–u07, u14 | G | M | **hecho** (G0-5): los 28 diálogos miden 60–120 palabras |
-| H-all-06 | Reglas largas | observar + regla corta + «más detalle» | G | M | abierto |
+| H-all-06 | Reglas largas | observar + regla corta + «más detalle» | G | M | prompt listo para Code (`docs/v2/16`) |
 | H-all-07 | Pares mínimos vacíos (u05, u19, u20, u21) y sin audio nativo en 5 unidades | secuencia nueva de contrastes (`13`) + audio | C, G | M | abierto |
 | H-all-08 | Input escaso: sin textos de lectura/escucha graduados | un texto graduado por semana, un tipo de texto A2 por unidad | G | A | **hecho** (G4, #31) |
 | H-all-09 | Ejemplos argentinos para usuario chileno (u01, u10) | cambiar a Santiago/Valparaíso, español chileno | G | L | u01 (G0-1) y u10 (G0-2) hechos; ejemplos de otros temas se revisan con G3–G5 |
