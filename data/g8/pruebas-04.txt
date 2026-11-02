@@ -63,7 +63,7 @@ C|«El contrato dura un año.»|Il contratto dura un anno.;Il contratto durare u
 C|«La caparra» significa…|depósito de garantía;pago mensual;gasto común|«Caparra» = depósito.
 F|Devo pagare l'___. (el alquiler)|affitto|«Affitto» = alquiler.
 ## u18
-L|Pronto? Sono Marco. Posso parlare con la signora Bianchi? Mi dispiace, non è in ufficio. Richiama domani.|¿Qué le dicen a Marco?|Que llame mañana|Que espere|Que venga a la oficina|«Richiama domani».
+L|Pronto? Sono Marco. Posso parlare con la signora Bianchi? Mi dispiace, non è in ufficio. Richiami domani.|¿Qué le dicen a Marco?|Que llame mañana|Que espere|Que venga a la oficina|«Richiama domani».
 L|Ciao Anna, scusa il ritardo. Sono nel traffico e arrivo tra dieci minuti. Ci vediamo davanti al cinema. Baci, Luca|¿Dónde se encuentran?|Frente al cine|En su casa|En el tráfico|«Davanti al cinema».
 L|Gentile signor Neri, le scrivo per chiedere informazioni sul corso. Può mandarmi il programma? Cordiali saluti, Elena Conti.|¿Qué pide en el mail?|El programa del curso|Un descuento|La dirección|«Può mandarmi il programma?».
 E|Non ti sento bene.|¿Qué dice?|Que no te oye bien|Que no te ve|Que no te conoce|«Non ti sento» = no te oigo.
@@ -116,7 +116,7 @@ E|Glielo spiego io.|¿Qué dice?|Que se lo explica él mismo|Que no lo explica|Q
 C|«Te lo doy.»|Te lo do.;Ti lo do.;Lo te do.|«Ti» + «lo» = «te lo».
 C|«Se lo digo a ella.»|Glielo dico.;Gliela dico.;Lo le dico.|«Glielo» une le + lo.
 C|«Me la presta.»|Me la presta.;Mi la presta.;La mi presta.|«Mi» + «la» = «me la».
-F|Ti serve la mia giacca? ___ presto domani. (te la)|Te la|«Te la presto».
+F|Ti serve la mia giacca? ___ presto domani. (a ti + la giacca)|Te la|«Te la presto».
 ## u22
 L|Penso che Marco sia in ritardo. Spero che arrivi presto. Credo che abbia un problema con il treno.|¿Qué espera la persona?|Que llegue pronto|Que no llegue|Que llame|«Spero che arrivi presto».
 L|È importante che voi studiate ogni giorno. Voglio che impariate bene. Non credo che sia difficile.|¿Qué quiere la persona?|Que aprendan bien|Que estudien menos|Que no estudien|«Voglio che impariate bene».

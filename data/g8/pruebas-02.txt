@@ -8,7 +8,7 @@ E@A|Domani andiamo al mare.|¿Qué dice?|Que mañana van a la playa|Que ayer fue
 C@A|«Voy a Roma.»|Vado a Roma.;Vado in Roma.;Vado da Roma.|Con ciudades se usa «a».
 C@A|«Voy a casa de Marco.»|Vado da Marco.;Vado a Marco.;Vado in Marco.|Con personas se usa «da».
 C@A|«Del banco» se dice…|dalla banca;della banca;alla banca|Da + la = dalla.
-F@A|Vado ___ cinema. (al)|al|A + il = al.
+F@A|Vado ___ cinema. (a + il)|al|A + il = al.
 L@B|Cerco una camera per due notti. Voglio il burro per la colazione. Il caffè è molto caldo.|¿Qué busca para el desayuno?|Mantequilla|Una habitación|Café frío|«Burro» es mantequilla, no el animal.
 L@B|Per andare alla stazione vai dritto, poi giri a destra. La stazione è in fondo alla strada.|¿Dónde gira?|A la derecha|A la izquierda|Sigue derecho|«Giri a destra» = giras a la derecha.
 L@B|Scusi, dov'è la farmacia? È qui vicino: va a sinistra e poi sempre dritto, circa cento metri.|¿Dónde queda la farmacia?|Cerca, a la izquierda y derecho|Lejos, a la derecha|En la estación|«Qui vicino» = aquí cerca.
