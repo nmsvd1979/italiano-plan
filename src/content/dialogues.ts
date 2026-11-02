@@ -317,7 +317,7 @@ const DIALOGUES: Record<string, Dialogue> = {
       l("B", "C'è l'ascensore?", "¿Hay ascensor?"),
       l("A", "Sì, e il riscaldamento è nuovo.", "Sí, y la calefacción es nueva."),
       l("B", "Quanto costa l'affitto al mese?", "¿Cuánto cuesta el alquiler al mes?"),
-      l("A", "Seicento euro, più cinquanta di spese.", "Seiscientos euros, más cincuenta de gastos."),
+      l("A", "Seicento euro, più cinquanta euro di spese.", "Seiscientos euros, más cincuenta euros de gastos."),
       l("B", "Va bene. Che documenti ci vogliono per il contratto?", "Está bien. ¿Qué documentos hacen falta para el contrato?"),
       l("A", "Ci vogliono il passaporto e il codice fiscale.", "Hacen falta el pasaporte y el código fiscal."),
       l("B", "Perfetto. Posso firmare domani?", "Perfecto. ¿Puedo firmar mañana?"),
