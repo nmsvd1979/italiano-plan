@@ -9,7 +9,7 @@ export interface DictationItem {
  * Frases cortas (A1-A2) con el vocabulario y la gramática de cada unidad.
  *
  * Límites de contenido (docs/v2/05 E3), pendientes de escribir; el código ya funciona con lo que hay:
- * - E3 pide 10 frases por unidad; hoy hay 6 (más en las unidades nuevas). Con menos frases el dictado simplemente es más corto.
+ * - E3 pide 10 frases por unidad; hoy hay 10 en u01–u24 (G9; las unidades nuevas traen las suyas). Con menos frases el dictado simplemente es más corto.
  * - E3 pide, en u01–u03, un dictado de números a velocidad («Números y frases a velocidad», día 4, hoy «en preparación»):
  *   faltan los ítems (cifras y precios para escribir). Cuando existan, ese bloque deja de ser `soon`.
  */
@@ -21,6 +21,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Siamo in vacanza.", es: "Estamos de vacaciones." },
     { it: "Mi chiamo Marco.", es: "Me llamo Marco." },
     { it: "Arrivederci e grazie.", es: "Hasta luego y gracias." },
+    { it: "Buonasera, come sta?", es: "Buenas tardes, ¿cómo está?" },
+    { it: "Piacere, sono Paolo.", es: "Mucho gusto, soy Paolo." },
+    { it: "Siete italiani o cileni?", es: "¿Son italianos o chilenos?" },
+    { it: "Sto bene, grazie, e Lei?", es: "Estoy bien, gracias, ¿y usted?" },
   ],
   u02: [
     { it: "Ci sono due bar in piazza.", es: "Hay dos bares en la plaza." },
@@ -29,6 +33,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Mi piace il caffè.", es: "Me gusta el café." },
     { it: "Gli studenti hanno gli zaini.", es: "Los estudiantes tienen las mochilas." },
     { it: "Hai fame?", es: "¿Tienes hambre?" },
+    { it: "Nella stanza c'è una lampada.", es: "En la habitación hay una lámpara." },
+    { it: "Mi piacciono i libri italiani.", es: "Me gustan los libros italianos." },
+    { it: "Abbiamo due fratelli e una sorella.", es: "Tenemos dos hermanos y una hermana." },
+    { it: "Non mi piace il pesce.", es: "No me gusta el pescado." },
   ],
   u03: [
     { it: "Sono le otto e mezza.", es: "Son las ocho y media." },
@@ -37,6 +45,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Oggi è il sei ottobre.", es: "Hoy es 6 de octubre." },
     { it: "Ho ventotto anni.", es: "Tengo 28 años." },
     { it: "Il museo apre alle nove.", es: "El museo abre a las nueve." },
+    { it: "Sono le tre e un quarto.", es: "Son las tres y cuarto." },
+    { it: "Domani è venerdì, il quindici maggio.", es: "Mañana es viernes, 15 de mayo." },
+    { it: "Quanto costa questo? Cinque euro.", es: "¿Cuánto cuesta esto? Cinco euros." },
+    { it: "Il negozio chiude alle diciannove.", es: "El negocio cierra a las 19:00." },
   ],
   u04: [
     { it: "Vorrei un caffè, per favore.", es: "Quisiera un café, por favor." },
@@ -45,6 +57,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Dobbiamo prenotare un tavolo.", es: "Tenemos que reservar una mesa." },
     { it: "Non capisco: può ripetere?", es: "No entiendo: ¿puede repetir?" },
     { it: "Finisco di lavorare alle otto.", es: "Termino de trabajar a las ocho." },
+    { it: "Posso aprire la finestra?", es: "¿Puedo abrir la ventana?" },
+    { it: "Non posso venire stasera.", es: "No puedo venir esta noche." },
+    { it: "Dobbiamo studiare per l'esame.", es: "Tenemos que estudiar para el examen." },
+    { it: "Voglio un bicchiere d'acqua.", es: "Quiero un vaso de agua." },
   ],
   u05: [
     { it: "Vado a Roma in treno.", es: "Voy a Roma en tren." },
@@ -53,6 +69,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Scendo alla prossima fermata.", es: "Bajo en la próxima parada." },
     { it: "Esco dall'hotel alle nove.", es: "Salgo del hotel a las nueve." },
     { it: "Vorrei una camera doppia.", es: "Quisiera una habitación doble." },
+    { it: "Vado in banca a piedi.", es: "Voy al banco a pie." },
+    { it: "Vengo dal supermercato.", es: "Vengo del supermercado." },
+    { it: "Dov'è la fermata dell'autobus?", es: "¿Dónde está la parada del autobús?" },
+    { it: "Giri a sinistra e poi vada dritto.", es: "Gire a la izquierda y luego siga derecho." },
   ],
   u06: [
     { it: "Questa borsa è mia.", es: "Este bolso es mío." },
@@ -61,6 +81,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Vorrei due magliette bianche.", es: "Quisiera dos camisetas blancas." },
     { it: "Che taglia porta?", es: "¿Qué talla usa?" },
     { it: "Di chi è questo zaino?", es: "¿De quién es esta mochila?" },
+    { it: "Quella è la mia macchina.", es: "Ese es mi auto." },
+    { it: "Questi pantaloni sono troppo lunghi.", es: "Estos pantalones son demasiado largos." },
+    { it: "Ho una giacca nera e una camicia bianca.", es: "Tengo una chaqueta negra y una camisa blanca." },
+    { it: "Mia sorella ha gli occhi verdi.", es: "Mi hermana tiene los ojos verdes." },
   ],
   u07: [
     { it: "Mi sveglio alle sette.", es: "Me despierto a las siete." },
@@ -69,6 +93,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Dopo cena mi lavo i denti.", es: "Después de cenar me lavo los dientes." },
     { it: "Sono stanco, ma sto bene.", es: "Estoy cansado, pero estoy bien." },
     { it: "Che cosa stai facendo?", es: "¿Qué estás haciendo?" },
+    { it: "Mi lavo e mi vesto.", es: "Me lavo y me visto." },
+    { it: "Sto guardando la televisione.", es: "Estoy mirando televisión." },
+    { it: "Mia madre si alza presto.", es: "Mi madre se levanta temprano." },
+    { it: "Stiamo mangiando con gli amici.", es: "Estamos comiendo con los amigos." },
   ],
   u08: [
     { it: "Dove abiti?", es: "¿Dónde vives?" },
@@ -77,6 +105,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Non c'è nessuno qui.", es: "No hay nadie aquí." },
     { it: "Vado spesso al mercato.", es: "Voy a menudo al mercado." },
     { it: "Quanti anni hai?", es: "¿Cuántos años tienes?" },
+    { it: "Non vado mai in palestra.", es: "Nunca voy al gimnasio." },
+    { it: "Che cosa fai di bello?", es: "¿Qué haces de bueno?" },
+    { it: "Ho molti amici e poco tempo.", es: "Tengo muchos amigos y poco tiempo." },
+    { it: "A volte bevo un tè la sera.", es: "A veces tomo un té por la noche." },
   ],
   u09: [
     { it: "Ieri ho visitato il Colosseo.", es: "Ayer visité el Coliseo." },
@@ -85,6 +117,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Non ho ancora visto la fontana.", es: "Todavía no vi la fuente." },
     { it: "Hai mai provato il tiramisù?", es: "¿Probaste alguna vez el tiramisú?" },
     { it: "Che cosa avete fatto sabato?", es: "¿Qué hicieron el sábado?" },
+    { it: "Ieri ho lavorato tutto il giorno.", es: "Ayer trabajé todo el día." },
+    { it: "Abbiamo bevuto un caffè insieme.", es: "Tomamos un café juntos." },
+    { it: "Ho finito il lavoro alle cinque.", es: "Terminé el trabajo a las cinco." },
+    { it: "Hanno comprato una macchina nuova.", es: "Compraron un auto nuevo." },
   ],
   u10: [
     { it: "Sono andata a Firenze in treno.", es: "Fui a Florencia en tren." },
@@ -93,6 +129,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Siete stati a Venezia?", es: "¿Estuvieron en Venecia?" },
     { it: "Le mie amiche sono partite.", es: "Mis amigas se fueron." },
     { it: "Sono nata a Milano.", es: "Nací en Milán." },
+    { it: "Maria è uscita di casa presto.", es: "María salió de casa temprano." },
+    { it: "Siamo rimasti a casa tutto il giorno.", es: "Nos quedamos en casa todo el día." },
+    { it: "Sei tornata tardi ieri?", es: "¿Volviste tarde ayer?" },
+    { it: "Loro sono partiti ieri sera.", es: "Ellos partieron ayer por la noche." },
   ],
   u11: [
     { it: "Da piccola abitavo a Torino.", es: "De chica vivía en Turín." },
@@ -101,6 +141,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Di solito mangiavamo alle otto.", es: "Normalmente comíamos a las ocho." },
     { it: "Quando ero giovane, viaggiavo molto.", es: "Cuando era joven, viajaba mucho." },
     { it: "Ieri sera siamo andati al ristorante.", es: "Anoche fuimos al restaurante." },
+    { it: "Quando ero bambina, giocavo in giardino.", es: "Cuando era niña, jugaba en el jardín." },
+    { it: "Mentre cucinavo, è squillato il telefono.", es: "Mientras cocinaba, sonó el teléfono." },
+    { it: "Pioveva, quindi sono rimasto a casa.", es: "Llovía, así que me quedé en casa." },
+    { it: "Da giovane andavo spesso al mare.", es: "De joven iba a menudo a la playa." },
   ],
   u12: [
     { it: "Roma è più grande di Torino.", es: "Roma es más grande que Turín." },
@@ -109,6 +153,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Vorrei del pane e dei pomodori.", es: "Quisiera pan y unos tomates." },
     { it: "Marco parla meglio di me.", es: "Marco habla mejor que yo." },
     { it: "Hai dell'acqua?", es: "¿Tienes agua?" },
+    { it: "Marco è più alto di Luca.", es: "Marco es más alto que Luca." },
+    { it: "Questa è la città più bella.", es: "Esta es la ciudad más bonita." },
+    { it: "Vorrei dell'acqua, per favore.", es: "Quisiera agua, por favor." },
+    { it: "Il treno è meno caro dell'aereo.", es: "El tren es menos caro que el avión." },
   ],
   u13: [
     { it: "La giacca è bella: la compro.", es: "La chaqueta es linda: la compro." },
@@ -117,6 +165,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Vorrei restituirlo.", es: "Quisiera devolverlo." },
     { it: "Glielo do domani.", es: "Se lo doy mañana." },
     { it: "Li ho comprati ieri.", es: "Los compré ayer." },
+    { it: "Lo vedo ogni giorno.", es: "Lo veo todos los días." },
+    { it: "Ti telefono stasera.", es: "Te llamo esta noche." },
+    { it: "Le compro un regalo.", es: "Le compro un regalo." },
+    { it: "Li chiamo domani.", es: "Los llamo mañana." },
   ],
   u14: [
     { it: "Vada dritto e giri a destra.", es: "Siga derecho y gire a la derecha." },
@@ -125,6 +177,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Prenda la metro.", es: "Tome el metro." },
     { it: "Dimmi dov'è la fermata.", es: "Dime dónde está la parada." },
     { it: "Non parlare così in fretta.", es: "No hables tan rápido." },
+    { it: "Ci vado domani.", es: "Voy allí mañana." },
+    { it: "Ne voglio due, grazie.", es: "Quiero dos, gracias." },
+    { it: "Apri la porta, per favore.", es: "Abre la puerta, por favor." },
+    { it: "Gira a destra e vai dritto.", es: "Gira a la derecha y sigue derecho." },
   ],
   u15: [
     { it: "Domani visiterò il Colosseo.", es: "Mañana visitaré el Coliseo." },
@@ -133,6 +189,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Vorrei prenotare un tavolo.", es: "Quisiera reservar una mesa." },
     { it: "Dovresti prendere un taxi.", es: "Deberías tomar un taxi." },
     { it: "Sarà in ritardo.", es: "Debe de estar atrasado." },
+    { it: "Domani partirò presto.", es: "Mañana partiré temprano." },
+    { it: "Verremo alla tua festa.", es: "Vendremos a tu fiesta." },
+    { it: "Potresti aiutarmi?", es: "¿Podrías ayudarme?" },
+    { it: "Se hai tempo, vieni con noi.", es: "Si tienes tiempo, ven con nosotros." },
   ],
   u16: [
     { it: "Ho mal di testa e un po' di febbre.", es: "Tengo dolor de cabeza y un poco de fiebre." },
@@ -141,6 +201,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Chiami un'ambulanza, per favore!", es: "¡Llame a una ambulancia, por favor!" },
     { it: "Non è niente di grave.", es: "No es nada grave." },
     { it: "Dov'è il pronto soccorso?", es: "¿Dónde están las urgencias?" },
+    { it: "Ho la tosse e il raffreddore.", es: "Tengo tos y resfriado." },
+    { it: "Mi fa male la schiena.", es: "Me duele la espalda." },
+    { it: "Ho bisogno di un medico.", es: "Necesito un médico." },
+    { it: "Prenda due compresse al giorno.", es: "Tome dos pastillas al día." },
   ],
   u17: [
     { it: "Cerco un appartamento in affitto.", es: "Busco un departamento / apartamento en alquiler." },
@@ -149,6 +213,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Il riscaldamento non funziona.", es: "La calefacción no funciona." },
     { it: "Per il contratto ci vogliono due documenti.", es: "Para el contrato hacen falta dos documentos." },
     { it: "Devo compilare il modulo e firmare qui.", es: "Debo rellenar el formulario y firmar aquí." },
+    { it: "Quanto costa l'affitto al mese?", es: "¿Cuánto cuesta el alquiler al mes?" },
+    { it: "Vorrei vedere l'appartamento.", es: "Quisiera ver el departamento." },
+    { it: "Il contratto dura un anno.", es: "El contrato dura un año." },
+    { it: "La cucina è piccola, ma luminosa.", es: "La cocina es pequeña, pero luminosa." },
   ],
   u18: [
     { it: "Pronto? Sono Laura, posso parlare con Marco?", es: "¿Aló? Soy Laura, ¿puedo hablar con Marco?" },
@@ -157,6 +225,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Ti richiamo tra dieci minuti.", es: "Te vuelvo a llamar dentro de diez minutos." },
     { it: "Le scrivo per chiedere un'informazione.", es: "Le escribo para pedir una información." },
     { it: "Ci sentiamo domani, a presto!", es: "¡Nos hablamos mañana, hasta pronto!" },
+    { it: "Posso richiamare più tardi?", es: "¿Puedo volver a llamar más tarde?" },
+    { it: "Ti mando un messaggio.", es: "Te envío un mensaje." },
+    { it: "Cordiali saluti e grazie mille.", es: "Cordiales saludos y muchas gracias." },
+    { it: "Non ti sento bene.", es: "No te oigo bien." },
   ],
   u19: [
     { it: "Qui si parla italiano.", es: "Aquí se habla italiano." },
@@ -165,6 +237,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Sono arrivato tre giorni fa.", es: "Llegué hace tres días." },
     { it: "Il treno sta per partire.", es: "El tren está por salir." },
     { it: "Come si dice grazie in spagnolo?", es: "¿Cómo se dice «grazie» en español?" },
+    { it: "In Italia si cena tardi.", es: "En Italia se cena tarde." },
+    { it: "Aspetto da venti minuti.", es: "Espero desde hace veinte minutos." },
+    { it: "Sto per uscire di casa.", es: "Estoy por salir de casa." },
+    { it: "Qui non si fuma.", es: "Aquí no se fuma." },
   ],
   u21: [
     { it: "Mi presti la penna? Sì, te la presto.", es: "¿Me prestas la pluma? Sí, te la presto." },
@@ -173,6 +249,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Puoi spiegarmelo ancora una volta?", es: "¿Puedes explicármelo otra vez?" },
     { it: "Me l'ha dato Marco.", es: "Me lo dio Marco." },
     { it: "Te ne do due.", es: "Te doy dos." },
+    { it: "Te la presto volentieri.", es: "Te la presto con gusto." },
+    { it: "Me lo dici domani?", es: "¿Me lo dices mañana?" },
+    { it: "Glielo porto lunedì.", es: "Se lo llevo el lunes." },
+    { it: "Gliel'ho mandata ieri.", es: "Se la envié ayer." },
   ],
   u22: [
     { it: "Penso che sia vero.", es: "Pienso que es verdad." },
@@ -181,6 +261,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Voglio che tu venga con noi.", es: "Quiero que vengas con nosotros." },
     { it: "È importante che arriviamo in tempo.", es: "Es importante que lleguemos a tiempo." },
     { it: "Penso di avere ragione.", es: "Creo tener razón." },
+    { it: "Credo che lui abbia un problema.", es: "Creo que él tiene un problema." },
+    { it: "Voglio che impariate bene.", es: "Quiero que aprendan bien." },
+    { it: "Spero che arrivi presto.", es: "Espero que llegue pronto." },
+    { it: "Dubito che Luca venga domani.", es: "Dudo que Luca venga mañana." },
   ],
   u23: [
     { it: "Se piove, resto a casa.", es: "Si llueve, me quedo en casa." },
@@ -189,6 +273,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Se fossi in te, andrei dal medico.", es: "Si yo fuera tú, iría al médico." },
     { it: "Magari potessi restare qui!", es: "¡Ojalá pudiera quedarme aquí!" },
     { it: "Se avrò tempo, verrò con te.", es: "Si tengo tiempo, iré contigo." },
+    { it: "Se potessi, resterei qui.", es: "Si pudiera, me quedaría aquí." },
+    { it: "Se Marco studiasse di più, passerebbe l'esame.", es: "Si Marco estudiara más, pasaría el examen." },
+    { it: "Se fossi libero, verrei volentieri.", es: "Si estuviera libre, vendría con gusto." },
+    { it: "Se avessimo più soldi, compreremmo una macchina.", es: "Si tuviéramos más dinero, compraríamos un auto." },
   ],
   u24: [
     { it: "L'anno scorso sono andato in Italia con un amico.", es: "El año pasado fui a Italia con un amigo." },
@@ -197,6 +285,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Penso che sia stata un'esperienza bellissima.", es: "Pienso que fue una experiencia hermosísima." },
     { it: "Se avessi più tempo, resterei un mese.", es: "Si tuviera más tiempo, me quedaría un mes." },
     { it: "Spero di tornare l'anno prossimo.", es: "Espero volver el año próximo." },
+    { it: "Domani parto per Napoli.", es: "Mañana parto a Nápoles." },
+    { it: "Vorrei prenotare una camera per due notti.", es: "Quisiera reservar una habitación para dos noches." },
+    { it: "Quando ero piccolo, abitavo a Roma.", es: "Cuando era pequeño, vivía en Roma." },
+    { it: "Penso che sia stato un bel viaggio.", es: "Pienso que fue un buen viaje." },
   ],
   u20: [
     { it: "Non vengo perché sono stanco.", es: "No voy porque estoy cansado." },
@@ -205,6 +297,10 @@ const DICTATION: Record<string, DictationItem[]> = {
     { it: "Mi ha chiesto se parlo italiano.", es: "Me preguntó si hablo italiano." },
     { it: "Io bevo caffè, lui invece tè.", es: "Yo tomo café, él en cambio té." },
     { it: "Secondo me è una buona idea.", es: "En mi opinión es una buena idea." },
+    { it: "Prima faccio la spesa, poi cucino.", es: "Primero hago las compras, luego cocino." },
+    { it: "Mentre cucino, ascolto la radio.", es: "Mientras cocino, escucho la radio." },
+    { it: "Sono d'accordo con te.", es: "Estoy de acuerdo contigo." },
+    { it: "Che peccato! Non puoi venire.", es: "¡Qué pena! No puedes venir." },
   ],
 };
 
