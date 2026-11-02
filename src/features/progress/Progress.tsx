@@ -9,6 +9,7 @@ import { getPhaseTests } from "../../domain/storage";
 import { loadTimings, withMeasured } from "../../domain/timing";
 import { Icon } from "../../ui/Icon";
 import { Tracker } from "../today/Tracker";
+import { Panel } from "./Panel";
 
 function Bar({ label, done, planned }: { label: string; done: number; planned: number }) {
   return (
@@ -116,6 +117,10 @@ export function Progress() {
           ))}
         </section>
       )}
+
+      <Panel />
+
+      <a className="btn block" href="#/prueba-nivel" style={{ textAlign: "center", textDecoration: "none" }}>Prueba de nivel A2</a>
 
       <section className="card stack">
         <div className="eyebrow">Últimos 90 días</div>
