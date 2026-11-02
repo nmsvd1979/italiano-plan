@@ -7,7 +7,7 @@
 =il padrone di casa|Il padrone di casa abita al terzo piano.|El dueño de casa vive en el tercer piso.
 =arredato|L'appartamento è arredato.|El apartamento está amueblado.
 =il piano|Abito al quarto piano.|Vivo en el cuarto piso.
-=il piano terra|Il negozio è al piano terra.|La tienda está en el primer piso.
+=il piano terra|Il negozio è al piano terra.|La tienda está en la planta baja.
 =l'ascensore|L'ascensore non funziona.|El ascensor no funciona.
 =il riscaldamento|Il riscaldamento è centralizzato.|La calefacción es central.
 =la lavatrice|La lavatrice è in bagno.|La lavadora está en el baño.
@@ -30,7 +30,7 @@
 +frecuente|la copia|la copia|Mi serve una copia del documento.|Necesito una copia del documento.
 +frecuente|la firma|la firma|Manca la firma.|Falta la firma.
 +frecuente|il comune|la municipalidad|Il comune è in piazza.|La municipalidad está en la plaza.
-+frecuente|la stanza|la habitación / la habitación|Cerco una stanza in affitto.|Busco una habitación en alquiler.
++frecuente|la stanza|la habitación / el cuarto|Cerco una stanza in affitto.|Busco una habitación en alquiler.
 +frecuente|la zona|la zona|La zona è tranquilla.|La zona es tranquila.
 +frecuente|la fila|la fila|C'è molta fila allo sportello.|Hay mucha fila en la ventanilla.
 +unidad|rinnovare|renovar|Devo rinnovare il contratto.|Tengo que renovar el contrato.
@@ -48,7 +48,7 @@
 +unidad|traslocare|mudarse|Traslochiamo a marzo.|Nos mudamos en marzo.
 +unidad|il preavviso|el aviso previo|Servono due mesi di preavviso.|Se necesitan dos meses de aviso previo.
 +unidad|disdire|cancelar (un contrato)|Voglio disdire il contratto.|Quiero cancelar el contrato.
-+unidad|la cantina|la bodega|La cantina è al piano terra.|La bodega está en el primer piso.
++unidad|la cantina|la bodega|La cantina è al piano terra.|La bodega está en la planta baja.
 +unidad|il garage|el garaje|Il garage è nel palazzo.|El garaje está en el edificio.
 +unidad|rumoroso|ruidoso|Il quartiere è rumoroso.|El barrio es ruidoso.
 +unidad|il metro quadro|el metro cuadrado|L'appartamento ha sessanta metri quadri.|El apartamento tiene sesenta metros cuadrados.
@@ -77,7 +77,7 @@
 =l'informazione|Vorrei un'informazione.|Quisiera una información.
 +frecuente|il telefono|el teléfono|Il telefono squilla.|El teléfono suena.
 +frecuente|internet|internet|Non c'è internet qui.|Aquí no hay internet.
-+frecuente|il computer|el computadora|Il computer è nuovo.|El computadora es nuevo.
++frecuente|il computer|la computadora|Il computer è nuovo.|La computadora es nueva.
 +frecuente|il sito|el sitio web|Guardo il sito dell'università.|Reviso el sitio de la universidad.
 +frecuente|occupato|ocupado|Il numero è occupato.|El número está ocupado.
 +frecuente|il segnale|la señal|Qui non c'è segnale.|Aquí no hay señal.
@@ -186,7 +186,7 @@
 +frecuente|inoltre|además|Inoltre, ho poco tempo.|Además, tengo poco tiempo.
 +frecuente|infine|finalmente|Infine, sono arrivato.|Finalmente, llegué.
 +frecuente|per questo|por eso|Per questo non sono venuto.|Por eso no vine.
-+frecuente|oltre a|además de|Oltre a italiano, studio francese.|Además de italiano, estudio francés.
++frecuente|oltre a|además de|Oltre all'italiano, studio il francese.|Además del italiano, estudio francés.
 +unidad|siccome|como (causal)|Siccome ero stanco, sono rimasto a casa.|Como estaba cansado, me quedé en casa.
 +unidad|visto che|ya que|Visto che sei qui, ti aiuto.|Ya que estás aquí, te ayudo.
 +unidad|dato che|dado que|Dato che è tardi, andiamo.|Dado que es tarde, nos vamos.

@@ -36,7 +36,7 @@
 +frecuente|la testa|la cabeza|Ho mal di testa.|Me duele la cabeza.
 +frecuente|qui|aquí|Siediti qui, per favore.|Siéntate aquí, por favor.
 +frecuente|là|allá|Il bagno è là.|El baño está allá.
-+frecuente|dentro|dentro|La chiave è dentro la borsa.|La llave está dentro de el bolso.
++frecuente|dentro|dentro|La chiave è dentro la borsa.|La llave está dentro del bolso.
 +unidad|c'è|hay (singular)|In casa c'è un balcone.|En la casa hay un balcón.
 +unidad|ci sono|hay (plural)|In cucina ci sono due sedie.|En la cocina hay dos sillas.
 +unidad|l'armadio|el armario|I vestiti sono nell'armadio.|La ropa está en el armario.

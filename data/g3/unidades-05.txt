@@ -45,7 +45,7 @@
 +unidad|il pacchetto|el paquetito|Ecco un pacchetto per te.|Aquí hay un paquetito para ti.
 +unidad|il destinatario|el destinatario|Scrivo il nome del destinatario.|Escribo el nombre del destinatario.
 +unidad|la busta|el sobre|Metto la lettera nella busta.|Pongo la carta en el sobre.
-+unidad|il francobollo|la sello|Mi serve un francobollo.|Necesito una sello.
++unidad|il francobollo|el sello|Mi serve un francobollo.|Necesito un sello.
 +unidad|la posta|el correo|Porto la posta all'ufficio.|Llevo el correo a la oficina.
 +unidad|l'ufficio postale|la oficina de correos|L'ufficio postale è in via Roma.|La oficina de correos está en la calle Roma.
 ## u14
@@ -171,7 +171,7 @@
 =la ricetta|Il medico mi dà la ricetta.|El médico me da la receta.
 =servire|Mi serve una medicina.|Necesito un remedio.
 =niente|Non è niente di grave.|No es nada grave.
-=qualcosa|Ho qualcosa per il mal di testa?|¿Tienes algo para el dolor de cabeza?
+=qualcosa|Ha qualcosa per il mal di testa?|¿Tiene algo para el dolor de cabeza?
 +frecuente|il corpo|el cuerpo|Il corpo ha bisogno di riposo.|El cuerpo necesita descanso.
 +frecuente|il braccio|el brazo|Mi fa male il braccio.|Me duele el brazo.
 +frecuente|la gamba|la pierna|Ho una gamba rotta.|Tengo una pierna rota.

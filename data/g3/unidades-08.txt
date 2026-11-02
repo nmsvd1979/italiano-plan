@@ -28,7 +28,7 @@
 +frecuente|la data di nascita|la fecha de nacimiento|La mia data di nascita è il tre marzo.|Mi fecha de nacimiento es el tres de marzo.
 +frecuente|il numero di telefono|el número de teléfono|Mi dà il suo numero di telefono?|¿Me da su número de teléfono?
 +frecuente|ho bisogno di|necesito|Ho bisogno di aiuto.|Necesito ayuda.
-+frecuente|mi serve|necesito / me hace falta|Mi serve una penna.|Necesito un lápiz.
++frecuente|mi serve|necesito / me hace falta|Mi serve una penna.|Necesito un bolígrafo.
 +unidad|dov'è?|¿dónde está?|Dov'è il bagno?|¿Dónde está el baño?
 +frecuente|può aiutarmi?|¿puede ayudarme?|Scusi, può aiutarmi?|Disculpe, ¿puede ayudarme?
 +frecuente|più lentamente|más lentamente|Può parlare più lentamente?|¿Puede hablar más lentamente?
