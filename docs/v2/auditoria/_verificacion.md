@@ -37,6 +37,12 @@ Ninguno de estos niveles equivale a «revisado por un nativo»; ese límite se m
 
 Conclusión: de 14 frases de la tabla, **3 confirmadas, 1 parcial, 6 sin confirmar y 4 sin consultar**. «Sin confirmar» significa que la fuente que abrí no la contiene; no prueba que esté mal. Ninguna se cambió de forma automática; los cambios van en G0 con su fuente, y no se genera audio de ninguna «sin confirmar».
 
+### 3b. Segunda pasada G-R (2-nov-2026): lo que se consultó de verdad
+| Forma | Resultado | Fuente |
+|---|---|---|
+| *sia* (u22, pronunciación) | **Confirmada:** se pronuncia `/ˈsi.a/`, con separación silábica *sì‧a* (dos sílabas, acento en la primera). La nota decía «una sola sílaba» y se corrigió | Espejo del Wiktionary en inglés (instantánea abril 2023): `https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/sia` |
+| *dammelo*, *abbia*, *siamo*, *siate* | **Sin consultar:** la página de Wiktionary en italiano y las demás páginas del espejo no estaban disponibles en la sesión. Ver `dudas-italiano.md` | — |
+
 ## 4. Videos de shadowing (u08, u10, u13, u14, u17, u19, u24): lo que se comprobó sin escuchar
 Se leyeron el inicio de las transcripciones automáticas (`docs/transcripciones/`) y las métricas (`docs/videos-metricas.md`).
 - **Comprobado:** los siete videos principales están en italiano (detección 97–100 %), son habla real de profesores o entrevistas, y tratan el tema de la unidad (excepto u17, ver abajo). Velocidad: u08 137 palabras/min (rápido para A2), u14 89 (lento, con muchas pausas), u19 127, u13 111, u10 120, u24 103, u17 118.

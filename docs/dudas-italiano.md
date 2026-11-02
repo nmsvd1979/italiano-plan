@@ -38,3 +38,18 @@ Frases que **no se pudieron confirmar** en las fuentes abiertas consultadas (no 
 - `Vuole altro?` (u04; sí figura *Vuole qualcos'altro?*, que es la que usa la app, y *Desidera altro?*) · `Credo di sì / di no` (u22) · `Siete state lì una settimana?` (u10) · `Gliene parlo io` (u21) · `Potresti consigliarmi un ristorante?` (u24).
 - Confirmadas el 2-nov-2026: `Cosa prende?` (u04), `Ecco il resto` (u03, como *Ed ecco il resto*), `Ecco a Lei` (u16), `Ci sentiamo dopo` (u07), `Ci sto!` (u15), `mi alleno` (u08), `la Sua` en mayúscula (convención opcional, u18). Parcial: `Le sta bene` (u13).
 - Corregida: `più cinquanta di spese` (u17) → *più cinquanta euro di spese*.
+
+## Segunda pasada G-R (rama `fix/gr-revision`, 2-nov-2026)
+Formas que se revisaron y **no se cambiaron sin fuente**, o que se cambiaron con fuente parcial. Confianza = qué tan seguro estoy de que hay un problema (o de que la corrección es correcta).
+
+| Archivo | Frase / punto | Problema | Confianza |
+|---|---|---|---|
+| `data/g6/pron-secuencia.txt` (u21) → `pron-sequence.json` | *dam-ME-lo* → corregido a *DAM-me-lo* | El acento de *dammelo* cae en la primera sílaba (igual que *DAM-mi* en u14B). Corregido por coherencia interna y regla general del imperativo con pronombres; **no** se pudo abrir una fuente de *dammelo* (el sitio de Wiktionary no estaba disponible). Pendiente de contraste | alta |
+| `data/g6/pron-secuencia.txt` (u22) | *abbia*, *siate*, *siamo*: «i breve pegada a la vocal siguiente» | De *sia* sí se confirmó (dos sílabas, `/ˈsi.a/`, ver `_verificacion.md`). Las otras tres formas no se consultaron | alta |
+| `data/g6/pron-secuencia.txt` (u27) | *s* sonora entre vocales (*cosa, paese, esame, museo*) | La pronunciación sorda / sonora de la *s* entre vocales varía por región; el texto dice «suele». No se cambió | media |
+| `data/g6/pron-secuencia.txt` (u06B) | *lena = energía* (par *legna-lena*) | Palabra poco frecuente y de registro literario; el par es válido pero no es útil para A1–A2 | media |
+| `src/content/dictation.ts` (u08) | *Che cosa fai di bello?* = «¿Qué haces de bueno?» | La traducción es literal; la equivalente natural es «¿Qué cuentas de bueno?» / «¿Qué tal?». No se cambió sin fuente | media |
+| `src/content/dictation.ts` (u11) | *Pioveva, quindi sono rimasto a casa.* | Usa *quindi*, que el curso enseña en u20 (orden del curso, no se toca) | alta |
+| `src/content/dictation.ts` (u12) | *Vorrei dell'acqua, per favore.* | Usa *vorrei* y el partitivo *dell'*, que el curso enseña en u15B; es una frase fija de cortesía, pero aparece antes de la unidad que la explica | media |
+
+Corregido en esta pasada y que **no** requiere fuente: concordancias en español, errores de traducción, un diálogo con precios incoherentes, una respuesta incorrecta en práctica sin pista y una en u27 (ver el PR).
