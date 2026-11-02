@@ -88,6 +88,7 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
       { id: "roleplay", kind: "dialogue", name: "Diálogo con rol", minutes: 11, core: true, icon: "chat", needs: "dialogue" },
       { id: "compare", kind: "pron", name: "Repetir y comparar pronunciación", minutes: 4, core: false, icon: "ear" },
       words("words4"),
+      // docs/v2/05 E3: dictado de números a velocidad en u01–u03. Faltan los ítems de contenido; sigue «en preparación».
       soon("speed", "Números y frases a velocidad", 4, false, "sound"),
     ],
   },
@@ -98,7 +99,7 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
       { id: "text", kind: "reading", name: "Texto graduado", minutes: 9, core: true, icon: "book" },
       { id: "questions", kind: "readq", name: "Preguntas del texto", minutes: 4, core: false, icon: "target" },
       words("words5"),
-      { id: "shadowing", kind: "shadowing", name: "Shadowing", minutes: 6, core: false, icon: "mic", needsInternet: true, legacy: ["shadow"] },
+      { id: "shadowing", kind: "shadowing", name: "Shadowing", minutes: 6, core: false, icon: "mic", legacy: ["shadow"] },
     ],
   },
   {

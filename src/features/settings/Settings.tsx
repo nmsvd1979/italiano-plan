@@ -6,6 +6,7 @@ import { RESOURCES } from "../../content/plan";
 import { toISODate } from "../../domain/dates";
 import type { ThemeChoice } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
+import { RecordingsCard } from "./RecordingsCard";
 import { BackupCard } from "./BackupCard";
 import { SrsCard } from "./SrsCard";
 import { VoiceCard } from "./VoiceCard";
@@ -131,6 +132,8 @@ export function Settings() {
       <SrsCard />
 
       <BackupCard />
+
+      <RecordingsCard />
 
       <ContinuityCard />
 

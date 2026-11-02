@@ -7,8 +7,18 @@ export interface WritingTask {
   model: string;
   /** Lista para corregirte tú mismo. */
   checklist: string[];
-  /** Mínimo de caracteres para dar el ejercicio por hecho. */
+  /** Mínimo de caracteres (referencia antigua). El mínimo que se exige es de palabras: `minWords`, o `minChars / 6` si no se fijó. */
   minChars: number;
+  // Datos de la corrección automática (docs/v2/05 E4). Todos son opcionales: si faltan, la app usa lo que hay y no inventa.
+  // Límite de contenido pendiente de escribir (por unidad): `mustInclude`, `frames` y `keywords` no existen todavía.
+  /** Mínimo de palabras. */
+  minWords?: number;
+  /** Formas meta que debe usar el texto: cada elemento es un grupo de alternativas aceptadas (basta una). */
+  mustInclude?: string[][];
+  /** Marcos de frase para las unidades del nivel «marcos» (ej. «Ayer yo ___ y después ___»). */
+  frames?: string[];
+  /** Palabras clave para reconstruir el texto (nivel «reconstruir»); si faltan, salen del modelo. */
+  keywords?: string[];
 }
 
 /** Cada consigna usa lo que la unidad enseña. Es producción guiada: tú corriges con la lista. */

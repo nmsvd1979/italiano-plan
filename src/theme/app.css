@@ -360,3 +360,24 @@ textarea.input.writing { resize: vertical; min-height: 140px; line-height: 1.5; 
 /* Texto graduado */
 .reading-p { font-size: 17px; line-height: 1.6; }
 .key-word { padding: 0 2px; border: 0; border-bottom: 2px solid var(--accent); background: var(--accent-soft); color: inherit; font: inherit; border-radius: 3px; }
+
+/* Dictado por niveles */
+.dict-sentence { font-size: 19px; font-weight: 700; line-height: 2.1; }
+.input.dict-hole { display: inline-block; width: auto; min-width: 64px; padding: 4px 8px; margin: 0 2px; font-size: 18px; text-align: center; }
+.dict-diff { font-size: 17px; font-weight: 700; line-height: 1.6; }
+.dict-missing { color: var(--bad); text-decoration: underline; text-decoration-thickness: 2px; }
+.dict-accent { color: var(--warn); text-decoration: underline wavy; }
+.dict-extra { color: var(--text-faint); text-decoration: line-through; }
+.dict-typed { font-weight: 600; }
+.dict-legend { font-size: 13px; opacity: 0.85; }
+
+/* Escritura con tres capas */
+.compare { display: grid; gap: 14px; }
+@media (min-width: 560px) { .compare { grid-template-columns: 1fr 1fr; } }
+.compare-text { white-space: pre-wrap; line-height: 1.5; }
+.target-form { background: var(--accent-soft); color: inherit; border-radius: 3px; padding: 0 2px; font-weight: 700; }
+.frames { padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+
+/* Grabar y comparar */
+.btn.rec-on { background: var(--bad); border-color: var(--bad); color: #fff; }
+audio { width: 100%; }

@@ -13,6 +13,9 @@ import { dayMinutes, endedShort, estimatedMinutes, type DayBlock } from "../../d
 import { loadTimings } from "../../domain/timing";
 import { backupAdvice } from "../../domain/backup";
 import { canOfferSeed } from "../../domain/seed";
+import { AREA_NAME, type Area } from "../../domain/evaluation";
+import { reinforcementAreas } from "../../domain/panel";
+import { loadFixes, rewritesDue } from "../../domain/writingFix";
 import { nextCatchup, startingPoint } from "../../domain/continuity";
 import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
 import { getPhaseTests, getReview } from "../../domain/storage";
@@ -71,6 +74,8 @@ export function Today() {
       <BackupReminder />
       <SeedOffer />
       <ContinuityNotices />
+      <RewriteDue />
+      <Reinforcement />
 
       {unit && first && !finished && (
         <a href={href(`/unidad/${unit.id}`)} className="unit-head">
@@ -131,6 +136,58 @@ export function Today() {
         </>
       )}
     </>
+  );
+}
+
+/** Refuerzo de la fase: las áreas por debajo de 70 % en la prueba de la fase anterior ofrecen práctica extra de esa área. */
+function Reinforcement() {
+  const { current } = useApp();
+  if (!current) return null;
+  if (current.id === "u24") {
+    return (
+      <section className="card stack">
+        <div className="eyebrow">Fin del núcleo</div>
+        <p className="sub">Estás en la última unidad. Cuando termines, la prueba de nivel A2 (25–30 min) mide dónde quedaste.</p>
+        <a className="btn" href={href("/prueba-nivel")} style={{ textAlign: "center", textDecoration: "none" }}>Prueba de nivel A2</a>
+      </section>
+    );
+  }
+  const areas = reinforcementAreas(getPhaseTests(), current.phase);
+  if (areas.length === 0) return null;
+  const u = current.id;
+  const to: Record<Area, [string, string]> = {
+    lectura: [`/lectura/${u}`, "Leer un texto"],
+    escucha: [`/dictado/${u}`, "Hacer un dictado"],
+    gramatica: ["/repaso", "Repaso mixto"],
+    vocabulario: ["/tarjetas", "Repaso espaciado"],
+    produccion: [`/escritura/${u}`, "Escribir"],
+  };
+  return (
+    <section className="card stack">
+      <div className="eyebrow">Refuerzo de esta fase</div>
+      <p className="sub">En la prueba de la fase anterior te costaron: {areas.map((a) => AREA_NAME[a].toLowerCase()).join(", ")}. Suma un poco de práctica extra cuando tengas tiempo.</p>
+      <div className="row" style={{ flexWrap: "wrap" }}>
+        {areas.map((a) => <a key={a} className="chip primary" href={href(to[a][0])}>{AREA_NAME[a]}: {to[a][1]}</a>)}
+      </div>
+    </section>
+  );
+}
+
+/** A los 3 días de guardar una versión corregida con Claude, se propone reescribir el texto desde la consigna en español. */
+function RewriteDue() {
+  const { today } = useApp();
+  const due = rewritesDue(loadFixes(window.localStorage), today);
+  if (due.length === 0) return null;
+  const unit = getUnit(due[0]);
+  return (
+    <section className="card stack">
+      <div className="eyebrow">Reescribir desde el español</div>
+      <p className="sub">
+        Hace unos días corregiste tu texto de la unidad {unit?.n}. ¿Lo escribes otra vez, sin mirar la versión corregida?
+        {due.length > 1 ? ` (Hay ${due.length} pendientes.)` : ""}
+      </p>
+      <a className="btn" href={href(`/escritura/${due[0]}?reescribir=1`)} style={{ textAlign: "center", textDecoration: "none" }}>Reescribir</a>
+    </section>
   );
 }
 

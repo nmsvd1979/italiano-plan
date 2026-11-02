@@ -11,8 +11,12 @@ import { LecturaScreen } from "./features/lectura/LecturaScreen";
 import { SinPistaScreen } from "./features/sinpista/SinPistaScreen";
 import { PlanScreen } from "./features/plan/PlanScreen";
 import { UnitScreen } from "./features/plan/UnitScreen";
+import { RolePlayScreen } from "./features/dialogue/RolePlayScreen";
+import { PronCompareScreen } from "./features/pronunciation/PronCompareScreen";
 import { PronunciationScreen } from "./features/pronunciation/PronunciationScreen";
+import { OwnShadowingScreen } from "./features/shadowing/OwnShadowingScreen";
 import { ShadowingScreen } from "./features/shadowing/ShadowingScreen";
+import { LevelTestScreen } from "./features/checkpoint/LevelTestScreen";
 import { PhaseTestScreen } from "./features/checkpoint/PhaseTestScreen";
 import { DiagnosticScreen } from "./features/partida/DiagnosticScreen";
 import { DirectedReview } from "./features/partida/DirectedReview";
@@ -58,21 +62,32 @@ function Screens() {
     return <LecturaScreen key={`lectura-${lectura[1]}${partKey}${mode}`} unit={lectura[1]} part={part} mode={mode} />;
   }
   const pron = route.match(new RegExp(`^/pronunciacion/${UNIT}$`));
-  if (pron) return <PronunciationScreen key={`pron-${pron[1]}`} unit={pron[1]} />;
+  if (pron) {
+    return q.get("mode") === "comparar"
+      ? <PronCompareScreen key={`pron-cmp-${pron[1]}`} unit={pron[1]} />
+      : <PronunciationScreen key={`pron-${pron[1]}`} unit={pron[1]} />;
+  }
+  const own = route.match(new RegExp(`^/shadowing-propio/${UNIT}$`));
+  if (own) return <OwnShadowingScreen key={`shadow-own-${own[1]}${partKey}`} unit={own[1]} part={part} />;
   const shadow = route.match(new RegExp(`^/shadowing/${UNIT}$`));
   if (shadow) return <ShadowingScreen key={`shadow-${shadow[1]}`} unit={shadow[1]} />;
   const vocab = route.match(new RegExp(`^/vocabulario/${UNIT}$`));
   if (vocab) return <VocabScreen key={`vocab-${vocab[1]}${partKey}`} unit={vocab[1]} part={part} />;
   const writing = route.match(new RegExp(`^/escritura/${UNIT}$`));
-  if (writing) return <WritingScreen key={`writing-${writing[1]}`} unit={writing[1]} />;
+  if (writing) return <WritingScreen key={`writing-${writing[1]}${q.get("reescribir") ?? ""}`} unit={writing[1]} rewrite={q.get("reescribir") === "1"} />;
   const dictation = route.match(new RegExp(`^/dictado/${UNIT}$`));
   if (dictation) return <DictationScreen key={`dictation-${dictation[1]}${partKey}`} unit={dictation[1]} part={part} />;
   const dialogue = route.match(new RegExp(`^/dialogo/${UNIT}$`));
-  if (dialogue) return <DialogueScreen key={`dialogue-${dialogue[1]}`} unit={dialogue[1]} />;
+  if (dialogue) {
+    return q.get("mode") === "rol"
+      ? <RolePlayScreen key={`rol-${dialogue[1]}${partKey}`} unit={dialogue[1]} part={part} />
+      : <DialogueScreen key={`dialogue-${dialogue[1]}`} unit={dialogue[1]} />;
+  }
   const mini = route.match(new RegExp(`^/miniprueba/${UNIT}$`));
   if (mini) return <MiniTestScreen key={`mini-${mini[1]}${q.get("step")}${q.get("a")}`} unit={mini[1]} />;
   const test = route.match(/^\/test\/([1-6])$/);
   if (test) return <PhaseTestScreen key={`test-${test[1]}`} phase={Number(test[1])} />;
+  if (route === "/prueba-nivel") return <LevelTestScreen key="level" />;
   if (route === "/tarjetas") return <ReviewScreen key="srs" />;
   if (route === "/repaso") return <PracticeScreen key="review" mode="review" />;
   if (route === "/repaso-pendiente") return <PracticeScreen key="due" mode="due" />;
