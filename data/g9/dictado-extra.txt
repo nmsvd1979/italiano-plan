@@ -1,0 +1,120 @@
+## u01
+Buonasera, come sta?|Buenas tardes, ¿cómo está?
+Piacere, sono Paolo.|Mucho gusto, soy Paolo.
+Siete italiani o cileni?|¿Son italianos o chilenos?
+Sto bene, grazie, e Lei?|Estoy bien, gracias, ¿y usted?
+## u02
+Nella stanza c'è una lampada.|En la habitación hay una lámpara.
+Mi piacciono i libri italiani.|Me gustan los libros italianos.
+Abbiamo due fratelli e una sorella.|Tenemos dos hermanos y una hermana.
+Non mi piace il pesce.|No me gusta el pescado.
+## u03
+Sono le tre e un quarto.|Son las tres y cuarto.
+Domani è venerdì, il quindici maggio.|Mañana es viernes, 15 de mayo.
+Quanto costa questo? Cinque euro.|¿Cuánto cuesta esto? Cinco euros.
+Il negozio chiude alle diciannove.|El negocio cierra a las 19:00.
+## u04
+Posso aprire la finestra?|¿Puedo abrir la ventana?
+Non posso venire stasera.|No puedo venir esta noche.
+Dobbiamo studiare per l'esame.|Tenemos que estudiar para el examen.
+Voglio un bicchiere d'acqua.|Quiero un vaso de agua.
+## u05
+Vado in banca a piedi.|Voy al banco a pie.
+Vengo dal supermercato.|Vengo del supermercado.
+Dov'è la fermata dell'autobus?|¿Dónde está la parada del autobús?
+Giri a sinistra e poi vada dritto.|Gire a la izquierda y luego siga derecho.
+## u06
+Quella è la mia macchina.|Ese es mi auto.
+Questi pantaloni sono troppo lunghi.|Estos pantalones son demasiado largos.
+Ho una giacca nera e una camicia bianca.|Tengo una chaqueta negra y una camisa blanca.
+Mia sorella ha gli occhi verdi.|Mi hermana tiene los ojos verdes.
+## u07
+Mi lavo e mi vesto.|Me lavo y me visto.
+Sto guardando la televisione.|Estoy mirando televisión.
+Mia madre si alza presto.|Mi madre se levanta temprano.
+Stiamo mangiando con gli amici.|Estamos comiendo con los amigos.
+## u08
+Non vado mai in palestra.|Nunca voy al gimnasio.
+Che cosa fai di bello?|¿Qué haces de bueno?
+Ho molti amici e poco tempo.|Tengo muchos amigos y poco tiempo.
+A volte bevo un tè la sera.|A veces tomo un té por la noche.
+## u09
+Ieri ho lavorato tutto il giorno.|Ayer trabajé todo el día.
+Abbiamo bevuto un caffè insieme.|Tomamos un café juntos.
+Ho finito il lavoro alle cinque.|Terminé el trabajo a las cinco.
+Hanno comprato una macchina nuova.|Compraron un auto nuevo.
+## u10
+Maria è uscita di casa presto.|María salió de casa temprano.
+Siamo rimasti a casa tutto il giorno.|Nos quedamos en casa todo el día.
+Sei tornata tardi ieri?|¿Volviste tarde ayer?
+Loro sono partiti ieri sera.|Ellos partieron ayer por la noche.
+## u11
+Quando ero bambina, giocavo in giardino.|Cuando era niña, jugaba en el jardín.
+Mentre cucinavo, è squillato il telefono.|Mientras cocinaba, sonó el teléfono.
+Pioveva, quindi sono rimasto a casa.|Llovía, así que me quedé en casa.
+Da giovane andavo spesso al mare.|De joven iba a menudo a la playa.
+## u12
+Marco è più alto di Luca.|Marco es más alto que Luca.
+Questa è la città più bella.|Esta es la ciudad más bonita.
+Vorrei dell'acqua, per favore.|Quisiera agua, por favor.
+Il treno è meno caro dell'aereo.|El tren es menos caro que el avión.
+## u13
+Lo vedo ogni giorno.|Lo veo todos los días.
+Ti telefono stasera.|Te llamo esta noche.
+Le compro un regalo.|Le compro un regalo.
+Li chiamo domani.|Los llamo mañana.
+## u14
+Ci vado domani.|Voy allí mañana.
+Ne voglio due, grazie.|Quiero dos, gracias.
+Apri la porta, per favore.|Abre la puerta, por favor.
+Gira a destra e vai dritto.|Gira a la derecha y sigue derecho.
+## u15
+Domani partirò presto.|Mañana partiré temprano.
+Verremo alla tua festa.|Vendremos a tu fiesta.
+Potresti aiutarmi?|¿Podrías ayudarme?
+Se hai tempo, vieni con noi.|Si tienes tiempo, ven con nosotros.
+## u16
+Ho la tosse e il raffreddore.|Tengo tos y resfriado.
+Mi fa male la schiena.|Me duele la espalda.
+Ho bisogno di un medico.|Necesito un médico.
+Prenda due compresse al giorno.|Tome dos pastillas al día.
+## u17
+Quanto costa l'affitto al mese?|¿Cuánto cuesta el alquiler al mes?
+Vorrei vedere l'appartamento.|Quisiera ver el departamento.
+Il contratto dura un anno.|El contrato dura un año.
+La cucina è piccola, ma luminosa.|La cocina es pequeña, pero luminosa.
+## u18
+Posso richiamare più tardi?|¿Puedo volver a llamar más tarde?
+Ti mando un messaggio.|Te envío un mensaje.
+Cordiali saluti e grazie mille.|Cordiales saludos y muchas gracias.
+Non ti sento bene.|No te oigo bien.
+## u19
+In Italia si cena tardi.|En Italia se cena tarde.
+Aspetto da venti minuti.|Espero desde hace veinte minutos.
+Sto per uscire di casa.|Estoy por salir de casa.
+Qui non si fuma.|Aquí no se fuma.
+## u20
+Prima faccio la spesa, poi cucino.|Primero hago las compras, luego cocino.
+Mentre cucino, ascolto la radio.|Mientras cocino, escucho la radio.
+Sono d'accordo con te.|Estoy de acuerdo contigo.
+Che peccato! Non puoi venire.|¡Qué pena! No puedes venir.
+## u21
+Te la presto volentieri.|Te la presto con gusto.
+Me lo dici domani?|¿Me lo dices mañana?
+Glielo porto lunedì.|Se lo llevo el lunes.
+Gliel'ho mandata ieri.|Se la envié ayer.
+## u22
+Credo che lui abbia un problema.|Creo que él tiene un problema.
+Voglio che impariate bene.|Quiero que aprendan bien.
+Spero che arrivi presto.|Espero que llegue pronto.
+Dubito che Luca venga domani.|Dudo que Luca venga mañana.
+## u23
+Se potessi, resterei qui.|Si pudiera, me quedaría aquí.
+Se Marco studiasse di più, passerebbe l'esame.|Si Marco estudiara más, pasaría el examen.
+Se fossi libero, verrei volentieri.|Si estuviera libre, vendría con gusto.
+Se avessimo più soldi, compreremmo una macchina.|Si tuviéramos más dinero, compraríamos un auto.
+## u24
+Domani parto per Napoli.|Mañana parto a Nápoles.
+Vorrei prenotare una camera per due notti.|Quisiera reservar una habitación para dos noches.
+Quando ero piccolo, abitavo a Roma.|Cuando era pequeño, vivía en Roma.
+Penso che sia stato un bel viaggio.|Pienso que fue un buen viaje.
