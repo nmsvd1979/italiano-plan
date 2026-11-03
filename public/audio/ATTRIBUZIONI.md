@@ -592,3 +592,7 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `notizia--happypheasant.mp3` — «notizia», voz de Happypheasant — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-Happypheasant-notizia.wav
 - `domanda--langpao.mp3` — «domanda», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-domanda.wav
 - `secondo--xana000.mp3` — «secondo», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-secondo.wav
+
+## Voces sintéticas (candidatas, prueba A/B de voz)
+
+- **Sintético — por definir.** Los dos candidatos de Piper (rhasspy/piper-voices, `it/it_IT`) no están elegidos: no se pudo abrir ninguna ficha de modelo, así que no se registra modelo ni licencia. Se completa aquí y en `docs/v2/decision-voz.md` antes de generar o subir cualquier mp3 a `public/audio-prueba/`.
