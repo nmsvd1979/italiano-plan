@@ -40,7 +40,8 @@ _Sin anotaciones._
 
 ## Verificación con fuentes (actualizado el 2-nov-2026, detalle en `docs/v2/auditoria/_verificacion.md` §3)
 Frases que **no se pudieron confirmar** en las fuentes abiertas consultadas (no significa que estén mal; significa que **no reciben audio** hasta que la segunda pasada G-R las revise o se reemplacen):
-- `Vuole altro?` (u04; sí figura *Vuole qualcos'altro?*, que es la que usa la app, y *Desidera altro?*) · `Credo di sì / di no` (u22) · `Siete state lì una settimana?` (u10) · `Gliene parlo io` (u21) · `Potresti consigliarmi un ristorante?` (u24).
+- `Vuole altro?` (u04; sí figura *Vuole qualcos'altro?*, que es la que usa la app, y *Desidera altro?*) · `Credo di no` (u22) · `Siete state lì una settimana?` (u10) · `Gliene parlo io` (u21) · `Potresti consigliarmi un ristorante?` (u24).
+- Confirmada el 3-nov-2026: `Credo di sì` (u22), [Gymglish](https://www.gymglish.com/en/saga-baldoria/italian-vocabulary/ci-sarai-domani-credo-di-si): «– Ci sarai domani? – Credo di sì!». Evidencia parcial (no cubre la frase entera, por eso siguen sin audio): `Gliene parlo io` (*Gliene ho parlato* = «le/lo he hablado de eso», [Wiktionary](https://en.wiktionary.com/wiki/gliene)); `Potresti consigliarmi un ristorante?` (la forma de cortesía *Potrebbe consigliarmi un ristorante?* figura en [FastItalian](https://fastitalianlearning.com/phrases/concierge-requests/potrebbe-consigliarmi-un-ristorante)); `Credo di no` (existe *non credo*, pero no se halló la frase). Sin evidencia: `Siete state lì una settimana?`.
 - Confirmadas el 2-nov-2026: `Cosa prende?` (u04), `Ecco il resto` (u03, como *Ed ecco il resto*), `Ecco a Lei` (u16), `Ci sentiamo dopo` (u07), `Ci sto!` (u15), `mi alleno` (u08), `la Sua` en mayúscula (convención opcional, u18). Parcial: `Le sta bene` (u13).
 - Corregida: `più cinquanta di spese` (u17) → *più cinquanta euro di spese*.
 

@@ -32,7 +32,8 @@ Ninguno de estos niveles equivale a «revisado por un nativo»; ese límite se m
 | *Ecco il resto* (u03) | **Confirmada** (2-nov-2026) en la forma *Ed ecco il resto* | [Italiano Bello, diálogo en el mercado](https://italiano-bello.com/en/italian-course/dialogo-al-mercato/): «Ed ecco il resto. Arrivederci!» |
 | *Ecco a Lei* (u16) | **Confirmada** (2-nov-2026) | [Italiano Bello, diálogo en el mercado](https://italiano-bello.com/en/italian-course/dialogo-al-mercato/): «Ecco a Lei.» |
 | *più cinquanta di spese* (u17) | **Corregida** (2-nov-2026): ahora *più cinquanta euro di spese* (la elipsis no se pudo confirmar; la forma completa es segura) | `src/content/dialogues.ts` |
-| *Credo di sì / di no* (u22) | **Sin confirmar** (las fuentes halladas no tratan esa construcción) | `dudas-italiano.md` |
+| *Credo di sì* (u22) | **Confirmada** (3-nov-2026) | [Gymglish](https://www.gymglish.com/en/saga-baldoria/italian-vocabulary/ci-sarai-domani-credo-di-si): «– Ci sarai domani? – Credo di sì!» |
+| *Credo di no* (u22) | **Sin confirmar** (no se halló la frase; solo *non credo*) | `dudas-italiano.md` |
 | *Ci sentiamo dopo cena?* (u07) | **Confirmada** la forma *ci sentiamo dopo* (se dice cuando no puedes hablar ahora) | [The Local, «Ci sentiamo»](https://www.thelocal.com/20201102/italian-expression-of-the-day-ci-sentiamo): «Ora non posso parlare, ci sentiamo dopo.» *Siete state lì una settimana?*, *Gliene parlo io* y *Potresti consigliarmi un ristorante?* siguen sin consultar (las fuentes abiertas no las tratan); son gramática estándar (pasado con *essere*, *gliene*, condizionale) y G-R las revisa |
 
 Conclusión: de 14 frases de la tabla, **3 confirmadas, 1 parcial, 6 sin confirmar y 4 sin consultar**. «Sin confirmar» significa que la fuente que abrí no la contiene; no prueba que esté mal. Ninguna se cambió de forma automática; los cambios van en G0 con su fuente, y no se genera audio de ninguna «sin confirmar».
