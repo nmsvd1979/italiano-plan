@@ -28,6 +28,7 @@ import { Setup } from "./features/setup/Setup";
 import { Today } from "./features/today/Today";
 import { VocabScreen } from "./features/vocab/VocabScreen";
 import { WritingScreen } from "./features/writing/WritingScreen";
+import { SystemVoiceHint } from "./ui/SystemVoiceHint";
 
 const UNIT = "(u\\d{2})";
 
@@ -100,6 +101,7 @@ export function App() {
       <main className="app">
         <Screens />
       </main>
+      <SystemVoiceHint />
     </AppProvider>
   );
 }

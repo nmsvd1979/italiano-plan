@@ -10,9 +10,10 @@ const index = JSON.parse(readFileSync(path.join(ROOT, "public", "audio-index.jso
 
 describe("public/audio-index.json (lo regenera `npm run build`; si falla, corre `node scripts/build-audio-index.mjs`)", () => {
   const files = readdirSync(AUDIO_DIR).filter((f) => f.endsWith(".mp3")).sort();
+  const clips = readdirSync(path.join(AUDIO_DIR, "tts")).filter((f) => f.endsWith(".mp3")).sort();
 
-  it("lista exactamente los mp3 de public/audio", () => {
-    expect(index.map((e) => e.url).sort()).toEqual(files.map((f) => `audio/${f}`).sort());
+  it("lista exactamente los mp3 de public/audio y los clips de public/audio/tts", () => {
+    expect(index.map((e) => e.url).sort()).toEqual([...files.map((f) => `audio/${f}`), ...clips.map((f) => `audio/tts/${f}`)].sort());
   });
   it("trae el peso real de cada archivo, que el gestor usa para validar la descarga", () => {
     for (const e of index) expect(e.bytes, e.url).toBe(statSync(path.join(ROOT, "public", e.url)).size);

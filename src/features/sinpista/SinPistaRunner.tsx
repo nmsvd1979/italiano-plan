@@ -4,7 +4,7 @@ import { checkText, orderBank } from "../../content/sinpistaCheck";
 import { optionOrder } from "../../domain/optionOrder";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
-import { speak, useItalianVoice } from "../../ui/speech";
+import { say, useItalianVoice } from "../../ui/speech";
 
 export interface SinPistaSummary {
   total: number;
@@ -59,7 +59,7 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
   );
 
   useEffect(() => {
-    if (ex.type === "listen" && voice !== "no") void speak(ex.prompt);
+    if (ex.type === "listen" && voice !== "no") say(ex.prompt);
   }, [ex, voice]);
 
   const chosen = picked.map((i) => bank[i]);
@@ -123,7 +123,7 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
         <div className="hero-row">
           <p className="runner-prompt">{ex.prompt}</p>
           {voice !== "no" && (
-            <button type="button" className="audio-btn" style={{ width: 56, height: 56 }} onClick={() => void speak(ex.prompt)} aria-label="Escuchar">
+            <button type="button" className="audio-btn" style={{ width: 56, height: 56 }} onClick={() => say(ex.prompt)} aria-label="Escuchar">
               <Icon name="sound" size={26} />
             </button>
           )}

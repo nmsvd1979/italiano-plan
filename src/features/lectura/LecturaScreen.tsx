@@ -9,7 +9,7 @@ import { blockKey } from "../../domain/cycle";
 import { optionOrder } from "../../domain/optionOrder";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
-import { speak, useItalianVoice } from "../../ui/speech";
+import { say, useItalianVoice } from "../../ui/speech";
 
 interface Props {
   unit: string;
@@ -60,7 +60,7 @@ export function ReadText({ lectura, onNext }: { lectura: Lectura; onNext: () => 
                 {shown.includes(i) ? "Ocultar traducción" : "Ver traducción"}
               </button>
               {voice !== "no" && (
-                <button type="button" className="chip" onClick={() => void speak(p.replace(/\n/g, " "))}>
+                <button type="button" className="chip" onClick={() => say(p.replace(/\n/g, " "))}>
                   Escuchar <Icon name="sound" size={14} />
                 </button>
               )}

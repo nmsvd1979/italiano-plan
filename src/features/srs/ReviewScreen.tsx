@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { Icon } from "../../ui/Icon";
-import { say, speak } from "../../ui/speech";
+import { say } from "../../ui/speech";
 import {
   applyReview, loadSrs, newSrsCard, rerateLast, saveSrs, unlockProdCards, type RatingValue, type SrsCard, type SrsState,
 } from "../../domain/srs";
@@ -249,8 +249,8 @@ function CardView({ entry, position, total, ctx, units, onAnswer, onRerate, onNe
           : "Escucha y escribe la frase";
 
   const play = () => {
-    if (resolved.kind === "cloze") speak(fullSentence(resolved));
-    else if (resolved.kind === "listen") speak(resolved.it);
+    if (resolved.kind === "cloze") say(fullSentence(resolved));
+    else if (resolved.kind === "listen") say(resolved.it);
     else say(resolved.it);
   };
 

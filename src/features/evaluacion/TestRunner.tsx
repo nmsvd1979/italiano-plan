@@ -3,7 +3,7 @@ import { AREA_NAME, pointsOf, type Area, type TestItem } from "../../domain/eval
 import { optionOrder } from "../../domain/optionOrder";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
-import { speak, useItalianVoice } from "../../ui/speech";
+import { say, useItalianVoice } from "../../ui/speech";
 
 export interface TestResult { item: TestItem; points: number }
 
@@ -25,7 +25,7 @@ export function TestRunner({ items, onAnswer, onFinish }: { items: TestItem[]; o
   const opts = item.area === "produccion" ? [] : item.area === "gramatica" ? (item.exercise.type === "choice" ? item.exercise.options : []) : item.options;
   const order = useMemo(() => optionOrder(opts.length, `${seed}:${item.id}`), [opts.length, seed, item.id]);
 
-  useEffect(() => { if (item.area === "escucha" && voice !== "no") void speak(item.it); }, [item, voice]);
+  useEffect(() => { if (item.area === "escucha" && voice !== "no") say(item.it); }, [item, voice]);
 
   const answer = (response: number | string) => {
     if (points !== null) return;
@@ -55,7 +55,7 @@ export function TestRunner({ items, onAnswer, onFinish }: { items: TestItem[]; o
       {item.area === "escucha" && (
         <div className="hero-row">
           <p className="sub">Escucha y responde.</p>
-          {voice !== "no" && <button type="button" className="audio-btn" style={{ width: 56, height: 56 }} onClick={() => void speak(item.it)} aria-label="Escuchar"><Icon name="sound" size={26} /></button>}
+          {voice !== "no" && <button type="button" className="audio-btn" style={{ width: 56, height: 56 }} onClick={() => say(item.it)} aria-label="Escuchar"><Icon name="sound" size={26} /></button>}
         </div>
       )}
       {item.area === "produccion" ? (

@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { audioFiles } from "../content/pronunciation";
-import { playFile } from "./audio";
+import ttsClips from "../content/ttsClips.json";
+import { NORMAL_RATE } from "../domain/speechRate";
+import { playFile, stopFile } from "./audio";
+import { ttsId } from "./ttsId";
 
 /** Lo mínimo que usamos de speechSynthesis; se inyecta para poder probar la espera de voces. */
 export interface SynthLike {
@@ -147,16 +150,47 @@ export function useItalianVoice(): VoiceStatus {
   return status;
 }
 
-/** Lee un texto con la voz italiana del sistema. */
-export async function speak(text: string, rate = 0.9): Promise<SpeakReport> {
+// Aviso discreto «voz del sistema»: se enciende cada vez que suena la voz del sistema (src/ui/SystemVoiceHint.tsx).
+let systemVoiceStamp = 0;
+const systemVoiceListeners = new Set<() => void>();
+const noteSystemVoice = () => {
+  systemVoiceStamp++;
+  systemVoiceListeners.forEach((cb) => cb());
+};
+export const subscribeSystemVoice = (cb: () => void): (() => void) => {
+  systemVoiceListeners.add(cb);
+  return () => systemVoiceListeners.delete(cb);
+};
+/** Cambia cada vez que suena la voz del sistema. */
+export const systemVoiceCount = (): number => systemVoiceStamp;
+
+/** Voz del sistema: `report` dice si arrancó; `end` termina cuando acaba de sonar (o enseguida si no arrancó). */
+function speakWithEnd(text: string, rate: number): { report: Promise<SpeakReport>; end: Promise<void> } {
+  noteSystemVoice();
   const synth = synthOrNull();
-  const first = await speakOn(synth, text, rate);
-  // Si la voz elegida no suena, se prueba una vez solo con el idioma it-IT y que el sistema decida.
-  if (first.used && (first.result === "silent" || first.result === "error")) {
-    const retry = await speakOn(synth, text, rate, undefined, 2500, true);
-    return retry.result === "started" ? { ...retry, used: null } : first;
-  }
-  return first;
+  let ended: () => void = () => {};
+  const end = new Promise<void>((r) => { ended = r; });
+  const make = (t: string) => {
+    const u = new SpeechSynthesisUtterance(t);
+    u.onend = () => ended();
+    return u;
+  };
+  const report = (async () => {
+    const first = await speakOn(synth, text, rate, make);
+    // Si la voz elegida no suena, se prueba una vez solo con el idioma it-IT y que el sistema decida.
+    const final: SpeakReport =
+      first.used && (first.result === "silent" || first.result === "error")
+        ? await speakOn(synth, text, rate, make, 2500, true).then((retry) => (retry.result === "started" ? { ...retry, used: null } : first))
+        : first;
+    if (final.result !== "started") ended();
+    return final;
+  })();
+  return { report, end };
+}
+
+/** Lee un texto con la voz italiana del sistema. */
+export function speak(text: string, rate = NORMAL_RATE): Promise<SpeakReport> {
+  return speakWithEnd(text, rate).report;
 }
 
 const ARTICLE = /^(?:(?:il|lo|la|i|gli|le|un|uno|una)\s+|l'|un')/i;
@@ -167,14 +201,60 @@ export function singleWord(text: string): string | null {
   return /^[a-zàèéìòù]+$/.test(bare) ? bare : null;
 }
 
-/** Audio nativo si existe para esa palabra suelta; si no, la voz del sistema. Devuelve cuál usó. */
-export function say(text: string, rate = 0.9): "native" | "system" {
+export type SaySource = "clip" | "native" | "system";
+
+const CLIP_IDS: ReadonlySet<string> = new Set(ttsClips);
+
+/** Archivo (relativo a public/audio) del clip de voz sintética de esta frase, o null si no hay. */
+export function clipFile(text: string): string | null {
+  const id = ttsId(text);
+  return CLIP_IDS.has(id) ? `tts/${id}.mp3` : null;
+}
+
+/** De dónde sale el sonido de este texto: (1) clip de la frase, (2) grabación nativa de la palabra suelta, (3) voz del sistema. */
+export function sourceOf(text: string): SaySource {
+  if (clipFile(text)) return "clip";
+  return nativeFiles(text).length > 0 ? "native" : "system";
+}
+
+/** Grabaciones nativas de la palabra suelta que es este texto (vacío si es una frase o no hay). */
+const nativeFiles = (text: string): string[] => {
   const word = singleWord(text);
-  const files = word ? audioFiles(word) : [];
-  if (files.length > 0) {
-    playFile(files[Math.floor(Math.random() * files.length)]);
-    return "native";
+  return word ? audioFiles(word) : [];
+};
+
+/** Corta todo lo que esté sonando (archivos y voz del sistema). */
+export function stopSpeech(): void {
+  stopFile();
+  // Solo si hay algo hablando: en iOS cancelar justo antes de hablar a veces deja la locución muda (ver speakOn).
+  const synth = synthOrNull();
+  if (synth && (synth.speaking || synth.pending)) synth.cancel();
+}
+
+/**
+ * Lo mismo que `say()`, pero la promesa termina cuando acaba de sonar (para encadenar líneas de un diálogo).
+ * `rate` es el de la voz del sistema; en un clip se traduce a velocidad de reproducción (0,9 → normal, 0,675 → 0,75×).
+ */
+export async function sayThrough(text: string, rate = NORMAL_RATE): Promise<SaySource> {
+  const source = sourceOf(text);
+  stopSpeech();
+  if (source !== "system") {
+    const natives = nativeFiles(text);
+    const file = source === "clip" ? clipFile(text)! : natives[Math.floor(Math.random() * natives.length)];
+    const outcome = await playFile(file, source === "clip" ? rate / NORMAL_RATE : 1);
+    if (outcome !== "failed") return source;
+    // Sin conexión y sin el audio descargado, o el archivo no cargó: se cae a la voz del sistema.
   }
-  void speak(text, rate);
+  await speakWithEnd(text, rate).end;
   return "system";
+}
+
+/**
+ * Dice el texto: (1) clip de voz sintética de la frase, (2) grabación nativa de la palabra suelta, (3) voz del sistema.
+ * Llamar desde un gesto del usuario (iOS). Devuelve la fuente elegida; si el archivo no carga, cae a la voz del sistema.
+ */
+export function say(text: string, rate = NORMAL_RATE): SaySource {
+  const source = sourceOf(text);
+  void sayThrough(text, rate);
+  return source;
 }

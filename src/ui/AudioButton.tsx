@@ -1,12 +1,17 @@
 import { useState } from "react";
 import { Icon } from "./Icon";
-import { speak } from "./speech";
+import { say, sourceOf, speak } from "./speech";
 
-/** Lee una frase con la voz italiana del sistema. Solo para ejemplos: no sirve para entrenar la pronunciación. */
+/** Dice una frase: clip de voz sintética si lo hay, si no la voz italiana del sistema. Solo para ejemplos: no sirve para entrenar la pronunciación. */
 export function AudioButton({ text, rate }: { text: string; rate?: number }) {
   const [failed, setFailed] = useState(false);
-  if (!("speechSynthesis" in window)) return null;
+  if (!("speechSynthesis" in window) && sourceOf(text) === "system") return null;
   const play = async () => {
+    if (sourceOf(text) !== "system") {
+      say(text, rate);
+      setFailed(false);
+      return;
+    }
     const r = await speak(text, rate);
     setFailed(r.result !== "started");
   };
