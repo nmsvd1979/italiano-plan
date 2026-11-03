@@ -2,7 +2,7 @@
 // y deja mp3 con nombres neutros en public/audio-prueba/: pNN-x.mp3 (candidato 1) y pNN-y.mp3 (candidato 2).
 //
 // Uso: node scripts/tts/compare.mjs <modelo-candidato-1.onnx> <modelo-candidato-2.onnx>
-// Requiere `piper` (pip install piper-tts) y `ffmpeg` en el PATH. Cada .onnx debe tener su .onnx.json al lado.
+// Requiere `piper` (pip install piper-tts) y `ffmpeg` en el PATH (o su ruta en la variable FFMPEG). Cada .onnx debe tener su .onnx.json al lado.
 // No imprime ni guarda qué voz es cuál en los nombres de archivo: eso queda en docs/v2/decision-voz.md.
 
 import { execFileSync } from "node:child_process";
@@ -29,7 +29,7 @@ for (const [modelo, sufijo] of [[m1, "x"], [m2, "y"]]) {
     const wav = path.join(tmp, `${f.id}-${sufijo}.wav`);
     execFileSync("piper", ["--model", modelo, "--output_file", wav], { input: f.it });
     // mono, 24 kHz, ~40 kbps
-    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", wav, "-ac", "1", "-ar", "24000", "-b:a", "40k", path.join(OUT, `${f.id}-${sufijo}.mp3`)]);
+    execFileSync(process.env.FFMPEG ?? "ffmpeg", ["-y", "-loglevel", "error", "-i", wav, "-ac", "1", "-ar", "24000", "-b:a", "40k", path.join(OUT, `${f.id}-${sufijo}.mp3`)]);
   }
 }
 rmSync(tmp, { recursive: true, force: true });
