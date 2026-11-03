@@ -11,6 +11,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "audio": "node scripts/fetch-lingualibre.mjs && node scripts/build-audio-index.mjs",
+    "tts:extraer": "node scripts/tts/extraer.mjs",
+    "tts:generar": "node scripts/tts/generar.mjs && node scripts/build-audio-index.mjs",
     "test:e2e": "playwright test",
     "audit": "npx --yes vite-node scripts/audit-unidades.ts"
   },

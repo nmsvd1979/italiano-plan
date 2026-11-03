@@ -13,7 +13,7 @@ import {
   type DictationDiff,
 } from "../../domain/dictationDiff";
 import { Icon } from "../../ui/Icon";
-import { speak } from "../../ui/speech";
+import { say } from "../../ui/speech";
 import { VoiceNotice } from "../../ui/VoiceNotice";
 
 const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
@@ -48,7 +48,7 @@ export function DictationScreen({ unit, part }: { unit: string; part?: CoursePar
 
   const play = (rate: number) => {
     setPlays((n) => n + 1);
-    void speak(item.it, rate);
+    say(item.it, rate);
   };
 
   const check = () => {

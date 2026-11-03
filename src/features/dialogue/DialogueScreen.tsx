@@ -1,24 +1,19 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import { getDialogue } from "../../content/dialogues";
 import { Icon } from "../../ui/Icon";
-import { speak, useItalianVoice } from "../../ui/speech";
+import { say, sayThrough, stopSpeech, useItalianVoice } from "../../ui/speech";
 
-/** Reproduce todas las líneas una tras otra con la voz del sistema. */
-function speakAll(lines: string[], onEnd: () => void): void {
-  const synth = window.speechSynthesis;
-  synth.cancel();
-  const voice = synth.getVoices().find((v) => v.lang.replace("_", "-").toLowerCase().startsWith("it"));
-  lines.forEach((text, i) => {
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "it-IT";
-    u.rate = 0.9;
-    if (voice) u.voice = voice;
-    if (i === lines.length - 1) u.onend = onEnd;
-    synth.speak(u);
-  });
+/** Reproduce todas las líneas una tras otra (clip, grabación nativa o voz del sistema, línea por línea). `run` cambia al cortar. */
+async function sayAll(lines: string[], run: { current: number }, onEnd: () => void): Promise<void> {
+  const mine = ++run.current;
+  for (const text of lines) {
+    await sayThrough(text);
+    if (run.current !== mine) return;
+  }
+  onEnd();
 }
 
 export function DialogueScreen({ unit }: { unit: string }) {
@@ -30,26 +25,29 @@ export function DialogueScreen({ unit }: { unit: string }) {
   const [revealed, setRevealed] = useState<number[]>([]);
   const [translations, setTranslations] = useState(true);
   const [playing, setPlaying] = useState(false);
+  const run = useRef(0);
 
   if (!dialogue) return <p className="sub">Esta unidad todavía no tiene diálogo.</p>;
 
   const reveal = (i: number) => {
     setRevealed((r) => (r.includes(i) ? r : [...r, i]));
-    speak(dialogue.lines[i].it);
+    say(dialogue.lines[i].it);
   };
 
   const playAll = () => {
     if (playing) {
-      window.speechSynthesis.cancel();
+      run.current++;
+      stopSpeech();
       setPlaying(false);
       return;
     }
     setPlaying(true);
-    speakAll(dialogue.lines.map((x) => x.it), () => setPlaying(false));
+    void sayAll(dialogue.lines.map((x) => x.it), run, () => setPlaying(false));
   };
 
   const finish = () => {
-    window.speechSynthesis?.cancel();
+    run.current++;
+    stopSpeech();
     completeActivity("dialogue", unit);
     window.location.hash = "#/";
   };
@@ -57,7 +55,7 @@ export function DialogueScreen({ unit }: { unit: string }) {
   return (
     <>
       <header className="screen-head">
-        <a className="back" href="#/" onClick={(e) => { e.preventDefault(); window.speechSynthesis?.cancel(); goBack(); }} aria-label="Volver">
+        <a className="back" href="#/" onClick={(e) => { e.preventDefault(); run.current++; stopSpeech(); goBack(); }} aria-label="Volver">
           <Icon name="arrowLeft" size={20} />
         </a>
         <div>
@@ -112,7 +110,7 @@ export function DialogueScreen({ unit }: { unit: string }) {
                 <>
                   <div className="dtext">
                     <span>{line.it}</span>
-                    <button type="button" className="audio-btn" onClick={() => speak(line.it)} aria-label={`Escuchar: ${line.it}`}>
+                    <button type="button" className="audio-btn" onClick={() => say(line.it)} aria-label={`Escuchar: ${line.it}`}>
                       <Icon name="sound" size={18} />
                     </button>
                   </div>

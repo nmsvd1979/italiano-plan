@@ -18,6 +18,12 @@ Vale una voz neuronal generada de antemano (marcada como sintética) o la voz de
 - Antes de usar cualquier voz, Code debe: abrir la ficha (`MODEL_CARD`) de esa voz, anotar la licencia del conjunto de datos y del modelo, y confirmar que permite uso y redistribución del audio generado. Si la licencia no está clara, esa voz no se usa.
 - Se genera en el Mac del usuario (Claude Code tiene red allí); en la nube de Claude este acceso suele estar bloqueado.
 
+## Estado (3-nov-2026)
+- C1/C2: decidida, voz `it_IT-serena-high` (ver `decision-voz.md`).
+- C3: hecha con `scripts/tts/extraer.mjs` (manifiesto `frases.json`, ids = sha1 de 12 caracteres del texto normalizado, no `s-u04-012`) y `scripts/tts/generar.mjs`.
+- C4: hecha en `src/ui/speech.ts` (`say()`); falta comprobarla en el iPhone.
+- C5 (selector de voz del sistema): sin hacer.
+
 ## C3. Generación en lote
 - Entrada: cada frase tiene un `id` estable (ver `07`: `s-u04-012`) y su texto italiano. Salida: `public/audio/tts/<id>.mp3`.
 - Conversión: wav → mp3 mono 24 kHz ~40 kbps con ffmpeg. Tamaño estimado: ~15–20 KB por clip; 1200 clips ≈ 20–25 MB.

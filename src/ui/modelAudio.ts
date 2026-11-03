@@ -1,4 +1,4 @@
-import { playFile } from "./audio";
+import { playFile, stopFile } from "./audio";
 
 // Reproducir y esperar a que termine, para poder alternar «Modelo → Tú».
 
@@ -7,6 +7,7 @@ let current: HTMLAudioElement | null = null;
 export function stopAudio(): void {
   current?.pause();
   current = null;
+  stopFile();
   if (typeof window !== "undefined") window.speechSynthesis?.cancel();
 }
 

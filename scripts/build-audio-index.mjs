@@ -5,9 +5,11 @@
 import { readFile, readdir, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { idDe } from "./tts/comun.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const AUDIO = path.join(ROOT, "public", "audio");
+const TTS = path.join(AUDIO, "tts");
 const OUT = path.join(ROOT, "public", "audio-index.json");
 
 const readJson = async (p) => JSON.parse(await readFile(path.join(ROOT, p), "utf8"));
@@ -37,6 +39,24 @@ export async function buildAudioIndex() {
   const index = [];
   for (const f of files) {
     index.push({ url: `audio/${f}`, bytes: (await stat(path.join(AUDIO, f))).size, unit: unitOfFile.get(f) ?? "" });
+  }
+
+  // Clips de voz sintética (public/audio/tts/, scripts/tts/generar.mjs): entran en el índice para que el gestor de descarga
+  // los baje a la caché `audio-v1` con el resto; `unit` es la primera unidad que usa la frase (scripts/tts/frases.json).
+  const unitOfClip = new Map();
+  try {
+    for (const f of (await readJson("scripts/tts/frases.json")).frases) unitOfClip.set(idDe(f.texto), (f.unidad ?? "").slice(0, 3));
+  } catch (err) {
+    if (err.code !== "ENOENT") throw err;
+  }
+  let clips = [];
+  try {
+    clips = (await readdir(TTS)).filter((f) => f.endsWith(".mp3")).sort();
+  } catch (err) {
+    if (err.code !== "ENOENT") throw err;
+  }
+  for (const f of clips) {
+    index.push({ url: `audio/tts/${f}`, bytes: (await stat(path.join(TTS, f))).size, unit: unitOfClip.get(f.slice(0, -4)) ?? "" });
   }
   return index;
 }

@@ -27,7 +27,8 @@ App personal para aprender italiano (A0→A2) de un hispanohablante chileno. PWA
 
 ## Audio y licencias
 - Grabaciones: Lingua Libre (CC BY-SA 4.0). Mantener `public/audio/ATTRIBUZIONI.md` al día. Si se agrega voz sintética, marcarla como sintética y registrar la licencia del modelo.
-- Respaldo en la app: `speak()` con la voz del sistema `it-IT`.
+- Frases: voz sintética Piper `it_IT-serena-high` (CC BY 4.0, decisión en `docs/v2/decision-voz.md`), clips en `public/audio/tts/<sha1[0..12]>.mp3`. `npm run tts:extraer` arma `scripts/tts/frases.json` (respeta `scripts/tts/exclusiones.json`, las frases sin confirmar de `docs/dudas-italiano.md`); `npm run tts:generar -- --modelo <it_IT-serena-high.onnx>` genera solo lo que cambió. Si cambias un texto en italiano, vuelve a correr ambos y commitea los clips.
+- `say(texto)` (`src/ui/speech.ts`): clip de la frase → grabación nativa de la palabra suelta → voz del sistema `it-IT` (muestra «voz del sistema»).
 
 ## Cosas que NO hacer
 - No borrar progreso del usuario ni cambiar las claves de `localStorage` sin migración.

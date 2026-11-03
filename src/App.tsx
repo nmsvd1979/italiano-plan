@@ -9,7 +9,6 @@ import { LessonScreen } from "./features/grammar/LessonScreen";
 import { PracticeScreen } from "./features/grammar/PracticeScreen";
 import { LecturaScreen } from "./features/lectura/LecturaScreen";
 import { SinPistaScreen } from "./features/sinpista/SinPistaScreen";
-import { PruebaVozScreen } from "./features/pruebaVoz/PruebaVozScreen";
 import { PlanScreen } from "./features/plan/PlanScreen";
 import { UnitScreen } from "./features/plan/UnitScreen";
 import { RolePlayScreen } from "./features/dialogue/RolePlayScreen";
@@ -29,6 +28,7 @@ import { Setup } from "./features/setup/Setup";
 import { Today } from "./features/today/Today";
 import { VocabScreen } from "./features/vocab/VocabScreen";
 import { WritingScreen } from "./features/writing/WritingScreen";
+import { SystemVoiceHint } from "./ui/SystemVoiceHint";
 
 const UNIT = "(u\\d{2})";
 
@@ -37,8 +37,6 @@ function Screens() {
   const route = useRoute();
   useReminder();
 
-  // Prueba A/B de voz (docs/v2/03 C1): fuera del flujo diario, solo por URL.
-  if (route === "/prueba-voz") return <PruebaVozScreen />;
   if (!startDate) return <Setup />;
   const q = routeQuery();
   const part: CoursePart | null = q.get("part") === "A" ? "A" : q.get("part") === "B" ? "B" : null;
@@ -103,6 +101,7 @@ export function App() {
       <main className="app">
         <Screens />
       </main>
+      <SystemVoiceHint />
     </AppProvider>
   );
 }

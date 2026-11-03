@@ -1,7 +1,9 @@
+import { readFileSync } from "node:fs";
 import { expect, test, type Page } from "@playwright/test";
 
 const BASE = "/italiano-plan/";
-const AUDIO_COUNT = 588;
+// Grabaciones nativas + clips de voz sintética: todo lo que lista public/audio-index.json.
+const AUDIO_COUNT = (JSON.parse(readFileSync("public/audio-index.json", "utf8")) as unknown[]).length;
 
 /** Entra directo a Hoy (con fecha de inicio) y espera a que el service worker controle la página. */
 async function open(page: Page, hash = "") {
