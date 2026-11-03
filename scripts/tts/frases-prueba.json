@@ -1,0 +1,12 @@
+[
+  { "id": "p01", "it": "Abitavo a Torino con i miei nonni.", "cubre": "geminadas (nonni)" },
+  { "id": "p02", "it": "Mi presti la penna? Sì, te la presto.", "cubre": "geminadas (penna), pregunta" },
+  { "id": "p03", "it": "Gli studenti hanno gli zaini.", "cubre": "«gli»" },
+  { "id": "p04", "it": "Buongiorno, signora! Benvenuta.", "cubre": "«gn»" },
+  { "id": "p05", "it": "Non mi piace il pesce.", "cubre": "«sc»" },
+  { "id": "p06", "it": "Ecco il resto: due euro e cinquanta. Buon viaggio!", "cubre": "c/g suaves y duras, números" },
+  { "id": "p07", "it": "Il treno parte alle diciotto e trenta.", "cubre": "números, hora" },
+  { "id": "p08", "it": "Piacere, signora Mora. Lei è italiana?", "cubre": "forma de Lei, pregunta" },
+  { "id": "p09", "it": "Bene, grazie. Ecco la chiave, camera dodici.", "cubre": "c/g duras y suaves, «chi»" },
+  { "id": "p10", "it": "Sì, ci sono tre studenti e un signore simpatico.", "cubre": "frase larga (9 palabras)" }
+]

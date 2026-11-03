@@ -23,7 +23,7 @@ export default defineConfig({
         // Solo la app (~0,7 MB): el audio se baja aparte con el gestor de descarga (src/app/offlineAudio.ts),
         // para que la instalación del service worker casi no pueda fallar. audio-index.json es la lista de ese gestor.
         globPatterns: ["**/*.{js,css,html,woff2,png,webmanifest}", "audio-index.json"],
-        globIgnores: ["audio/**"],
+        globIgnores: ["audio/**", "audio-prueba/**"],
         clientsClaim: true,
         runtimeCaching: [
           {
