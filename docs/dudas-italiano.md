@@ -7,6 +7,11 @@ Se resuelven en el chat (Claude.ai) o con una persona nativa, no "a ojo" en Code
 
 Ninguna por ahora: la revisión ortográfica (oct. 2026) no encontró frases dudosas.
 
+## Clips de voz sintética que suenan mal (revisión en el iPhone)
+Anota aquí el `id` del clip (nombre del mp3 en `public/audio/tts/`, y su texto en `public/audio/tts/index.json`), qué suena mal (palabra mal pronunciada, geminada, acento) y la frase. Aún no se ha escuchado ninguno en el iPhone.
+
+_Sin anotaciones._
+
 ## Revisión ortográfica de oct. 2026 (tarea 3)
 
 **Resultado: 0 correcciones y 0 dudas.** No hubo cambios en `src/content`.
