@@ -595,4 +595,7 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 
 ## Voces sintéticas (candidatas, prueba A/B de voz)
 
-- **Sintético — por definir.** Los dos candidatos de Piper (rhasspy/piper-voices, `it/it_IT`) no están elegidos: no se pudo abrir ninguna ficha de modelo, así que no se registra modelo ni licencia. Se completa aquí y en `docs/v2/decision-voz.md` antes de generar o subir cualquier mp3 a `public/audio-prueba/`.
+- **Sintético** — Piper, modelo `it_IT-serena-high` (rhasspy/piper-voices). Licencia del conjunto de datos y del modelo: **sin confirmar**.
+- **Sintético** — Piper, modelo `it_IT-paola-medium` (rhasspy/piper-voices). Licencia del conjunto de datos y del modelo: **sin confirmar**.
+
+Los mp3 de `public/audio-prueba/` no se suben al repositorio hasta confirmar estas licencias.
