@@ -1,17 +1,17 @@
 # Decisión de voz (docs/v2/03, C1/C2)
 
-**Estado: pendiente.** Candidatos elegidos y audio de prueba generado; falta confirmar las licencias.
+**Estado: pendiente.** Serena tiene licencia confirmada; paola queda fuera hasta aclarar la licencia de su dataset (y la del modelo base).
 
 ## Candidatos Piper (rhasspy/piper-voices, `it/it_IT`)
 
 | Voz | Calidad | Licencia (conjunto de datos / modelo) | Fuente / URL | ¿Se usa? |
 |---|---|---|---|---|
-| `it_IT-serena-high` (candidato 1, archivos `-x`) | high (22,05 kHz) | **Sin confirmar** (falta leer el MODEL_CARD) | https://huggingface.co/rhasspy/piper-voices/tree/main/it/it_IT/serena/high | pendiente de licencia |
-| `it_IT-paola-medium` (candidato 2, archivos `-y`) | medium (22,05 kHz) | **Sin confirmar** (falta leer el MODEL_CARD) | https://huggingface.co/rhasspy/piper-voices/tree/main/it/it_IT/paola/medium | pendiente de licencia |
+| `it_IT-serena-high` (candidato 1, archivos `-x`) | high (22,05 kHz) | Conjunto de datos: **CC-BY-4.0** (committa/serena-synthetic-it-27h). Modelo: entrenado desde cero; la ficha no declara una licencia propia | https://huggingface.co/rhasspy/piper-voices/blob/main/it/it_IT/serena/high/MODEL_CARD · dataset https://huggingface.co/datasets/committa/serena-synthetic-it-27h | **Sí** (con atribución CC BY 4.0) |
+| `it_IT-paola-medium` (candidato 2, archivos `-y`) | medium (22,05 kHz) | Conjunto de datos: la ficha dice solo «See URL» (paolapersico1/Voice-Dataset-Italian), sin licencia escrita. Modelo: ajustado desde la voz inglesa lessac (medium), cuya licencia tampoco se verificó | https://huggingface.co/rhasspy/piper-voices/blob/main/it/it_IT/paola/medium/MODEL_CARD · dataset https://huggingface.co/datasets/paolapersico1/Voice-Dataset-Italian | **No, mientras la licencia no esté clara** |
 
-Las URL siguen la estructura del repositorio y no se abrieron desde esta sesión. Los `.onnx` los bajó el usuario a su Mac; los mp3 de la prueba se generaron con ellos (20 archivos, ~264 KB).
+Las licencias salen de los MODEL_CARD, copiados por el usuario (esta sesión no llega a Hugging Face). La página del dataset de paola no se leyó. Los `.onnx` los bajó el usuario a su Mac; los mp3 de la prueba se generaron con ellos (20 archivos, ~264 KB).
 
-**Por qué falta la licencia:** al preparar la prueba, la sesión de Claude Code no pudo llegar a `huggingface.co` (el DNS no resuelve desde su entorno; `github.com` y `pypi.org` sí responden). Sin acceso no se abrió ningún `MODEL_CARD`, así que no se anota ninguna licencia: no se deduce de memoria. Regla de C2: una voz con licencia sin confirmar queda fuera.
+**Nota:** al preparar la prueba, la sesión de Claude Code no pudo llegar a `huggingface.co` (el DNS no resuelve desde su entorno; `github.com` y `pypi.org` sí responden). Sin acceso no se abrió ningún `MODEL_CARD`, así que no se anota ninguna licencia: no se deduce de memoria. Regla de C2: una voz con licencia sin confirmar queda fuera.
 
 **Para completarla:** abrir el `MODEL_CARD` de las dos voces, anotar licencia del conjunto de datos y del modelo y si permite usar y redistribuir el audio generado; si alguna no permite uso y redistribución del audio, queda fuera y se descartan sus mp3; completar la tabla y `public/audio/ATTRIBUZIONI.md`.
 
