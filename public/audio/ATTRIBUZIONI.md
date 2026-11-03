@@ -593,7 +593,8 @@ Grabaciones de hablantes nativos de [Lingua Libre](https://lingualibre.org/), pu
 - `domanda--langpao.mp3` — «domanda», voz de LangPao — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-LangPao-domanda.wav
 - `secondo--xana000.mp3` — «secondo», voz de XANA000 — https://commons.wikimedia.org/wiki/File:LL-Q652_(ita)-XANA000-secondo.wav
 
-## Voces sintéticas (candidatas, prueba A/B de voz)
+## Voces sintéticas
 
-- **Sintético** — Piper, modelo `it_IT-serena-high` (rhasspy/piper-voices), entrenado con el conjunto de datos [committa/serena-synthetic-it-27h](https://huggingface.co/datasets/committa/serena-synthetic-it-27h), licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Archivos `public/audio-prueba/pNN-x.mp3`.
-- **Sintético** — Piper, modelo `it_IT-paola-medium` (rhasspy/piper-voices), conjunto de datos [paolapersico1/Voice-Dataset-Italian](https://huggingface.co/datasets/paolapersico1/Voice-Dataset-Italian) (CC0-1.0), ajustado desde la voz `en_US-lessac-medium`, cuyo conjunto de datos (Blizzard 2013) se licencia solo para investigación. Uso en la prueba por decisión del usuario (app personal). Archivos `public/audio-prueba/pNN-y.mp3`. Revisar antes de generar en lote.
+Todos los clips de `public/audio/tts/` son **sintéticos** (no son grabaciones de personas).
+
+- **Sintético** — Voz sintética generada con Piper (modelo `it_IT-serena-high`, [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)), entrenado con [committa/serena-synthetic-it-27h](https://huggingface.co/datasets/committa/serena-synthetic-it-27h), licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Cubre los clips de `public/audio/tts/` (frases de dictado, diálogos, lecturas, ejemplos y escucha); el índice `public/audio/tts/index.json` lista cada clip con su texto, voz y licencia.
