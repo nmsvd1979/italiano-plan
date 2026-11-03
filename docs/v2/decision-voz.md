@@ -1,13 +1,13 @@
 # Decisión de voz (docs/v2/03, C1/C2)
 
-**Estado: pendiente.** Serena tiene licencia confirmada; paola tiene dataset CC0, pero queda fuera hasta verificar la licencia de la voz base lessac.
+**Estado: pendiente.** Serena tiene licencia confirmada; paola queda descartada (dataset CC0, pero parte de lessac, licencia solo de investigación). Falta un segundo candidato.
 
 ## Candidatos Piper (rhasspy/piper-voices, `it/it_IT`)
 
 | Voz | Calidad | Licencia (conjunto de datos / modelo) | Fuente / URL | ¿Se usa? |
 |---|---|---|---|---|
 | `it_IT-serena-high` (candidato 1, archivos `-x`) | high (22,05 kHz) | Conjunto de datos: **CC-BY-4.0** (committa/serena-synthetic-it-27h). Modelo: entrenado desde cero; la ficha no declara una licencia propia | https://huggingface.co/rhasspy/piper-voices/blob/main/it/it_IT/serena/high/MODEL_CARD · dataset https://huggingface.co/datasets/committa/serena-synthetic-it-27h | **Sí** (con atribución CC BY 4.0) |
-| `it_IT-paola-medium` (candidato 2, archivos `-y`) | medium (22,05 kHz) | Conjunto de datos: **CC0-1.0** (paolapersico1/Voice-Dataset-Italian; la ficha del modelo solo dice «See URL», la licencia se leyó en la página del dataset). Modelo: ajustado desde la voz inglesa lessac (medium), **cuya licencia aún no se verificó** | https://huggingface.co/rhasspy/piper-voices/blob/main/it/it_IT/paola/medium/MODEL_CARD · dataset https://huggingface.co/datasets/paolapersico1/Voice-Dataset-Italian | **Pendiente**: solo falta la licencia de la voz base lessac |
+| `it_IT-paola-medium` (candidato 2, archivos `-y`) | medium (22,05 kHz) | Conjunto de datos: **CC0-1.0** (paolapersico1/Voice-Dataset-Italian; la ficha del modelo solo dice «See URL», la licencia se leyó en la página del dataset). Modelo: ajustado desde la voz inglesa lessac (medium), **cuyo conjunto de datos (Blizzard 2013 / Lessac Technologies) se licencia solo «para fines de investigación»: excluye uso comercial, no es transferible y no permite que terceros usen el material** (https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/license.html) | https://huggingface.co/rhasspy/piper-voices/blob/main/it/it_IT/paola/medium/MODEL_CARD · dataset https://huggingface.co/datasets/paolapersico1/Voice-Dataset-Italian | **No**: la voz base solo permite uso de investigación; no se confirma que permita redistribuir audio de un modelo derivado |
 
 Las licencias salen de los MODEL_CARD, copiados por el usuario (esta sesión no llega a Hugging Face). La página del dataset de paola no se leyó. Los `.onnx` los bajó el usuario a su Mac; los mp3 de la prueba se generaron con ellos (20 archivos, ~264 KB).
 
