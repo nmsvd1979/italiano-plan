@@ -45,8 +45,9 @@ describe("videos de shadowing", () => {
       expect(v.main.id).not.toBe(v.alt.id);
     }
   });
-  it("todas las unidades disponibles tienen sus dos videos verificados (sin depender de la búsqueda guiada)", () => {
-    expect(READY_UNITS.filter((u) => !SHADOWING[u.id]).map((u) => u.id)).toEqual([]);
+  it("u01–u24 tienen sus dos videos verificados; u25–u28 siguen con búsqueda guiada hasta que haya videos revisados", () => {
+    expect(READY_UNITS.filter((u) => !SHADOWING[u.id]).map((u) => u.id)).toEqual(["u25", "u26", "u27", "u28"]);
+    for (const id of ["u25", "u26", "u27", "u28"]) expect(SHADOWING_SEARCH[id], id).toBeTruthy();
   });
   it("no se repite ningún video entre unidades", () => {
     const ids = Object.values(SHADOWING).flatMap((v) => [v.main.id, v.alt.id]);

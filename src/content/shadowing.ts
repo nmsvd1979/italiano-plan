@@ -36,9 +36,15 @@ export const SHADOWING: Record<string, { main: Video; alt: Video }> = {
 
 /**
  * Búsqueda guiada para las unidades sin video verificado: la app la muestra y tú pegas el link del video que elijas.
- * Hoy todas las unidades tienen video; si alguna vez agregas una unidad sin video, ponla aquí.
+ * u25–u28 aún no tienen video verificado (no hay candidatos en docs/videos-candidatos.md): la app muestra la búsqueda y
+ * pegas tu link. Cuando haya videos revisados, pásalos a SHADOWING y quita la entrada de aquí.
  */
-export const SHADOWING_SEARCH: Record<string, string> = {};
+export const SHADOWING_SEARCH: Record<string, string> = {
+  u25: "Easy Italian alfabeto italiano spelling",
+  u26: "Easy Italian la mia famiglia",
+  u27: "Easy Italian tempo libero hobby",
+  u28: "Easy Italian al ristorante ordinare",
+};
 
 /** Pasos del protocolo sobre un fragmento de 30-60 s (Kadota; Hamada). */
 export const STEPS = [

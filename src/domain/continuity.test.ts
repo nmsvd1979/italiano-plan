@@ -34,18 +34,6 @@ class FakeStore implements EnumerableKV {
 
 const NOW = new Date(2026, 9, 28, 10, 0, 0);
 
-/**
- * u25–u28 siguen con `ready: false` hasta que el carril de contenido las active. Estas pruebas corren con la bandera real
- * y también "como si ya estuvieran activas", que es como se comportará el plan cuando se fusionen.
- */
-function withReady<T>(ids: string[], fn: () => T): T {
-  const units = ids.map((id) => getUnit(id)!);
-  const before = units.map((u) => u.ready);
-  units.forEach((u) => { u.ready = true; });
-  try { return fn(); } finally { units.forEach((u, i) => { u.ready = before[i]; }); }
-}
-const NEW_UNITS = ["u25", "u26", "u27", "u28"];
-const firstReadyStep = () => COURSE.find((s) => getUnit(s.unit)?.ready)!.id;
 const OLD_KEYS: string[] = Object.values(KEYS);
 const oldKeysOf = (snap: Record<string, string>) => Object.fromEntries(Object.entries(snap).filter(([k]) => OLD_KEYS.includes(k)));
 
@@ -131,19 +119,16 @@ describe("estado de cada unidad desde las marcas (14 §3)", () => {
     for (const u of unitIds(5, 28)) expect(stateOf(s, u), u).toBe("nueva");
   });
 
-  it("(a) la cola sigue en u05A; con u25 activa, empieza en el hueco u25 comprimido a 3 días y después sigue en u05A", () => {
+  it("(a) con u25 activa, la cola empieza en el hueco u25 comprimido a 3 días y después sigue en u05A", () => {
     const { raw, tests, cont } = load(hastaU04());
     const point = startingPoint(raw, tests, startHere(cont, NOW));
     expect(point.gaps.map((g) => [g.step.id, g.length, g.done])).toEqual([["u25", 3, false]]);
-    expect(point.next?.step.id).toBe(getUnit("u25")!.ready ? "u25" : "u05#A");
-    withReady(["u25"], () => {
-      expect(startingPoint(raw, tests, startHere(cont, NOW)).next?.step.id).toBe("u25");
-      // Con u25 hecho, sigue u05A: ningún paso dominado (u01–u04) aparece pendiente.
-      const done = new Set(raw.done);
-      for (const d of compressedDays(COURSE.find((x) => x.id === "u25")!, 3)) for (const b of d.blocks) done.add(`u25.d${d.day}.${b.id}`);
-      const p2 = courseWithContinuity({ ...raw, done, mini: { ...raw.mini, u25: [{ date: "2026-10-28", correct: 8, total: 8, passed: true }] } }, tests, startHere(cont, NOW));
-      expect(currentSlot(p2)?.step.id).toBe("u05#A");
-    });
+    expect(point.next?.step.id).toBe("u25");
+    // Con u25 hecho, sigue u05A: ningún paso dominado (u01–u04) aparece pendiente.
+    const done = new Set(raw.done);
+    for (const d of compressedDays(COURSE.find((x) => x.id === "u25")!, 3)) for (const b of d.blocks) done.add(`u25.d${d.day}.${b.id}`);
+    const p2 = courseWithContinuity({ ...raw, done, mini: { ...raw.mini, u25: [{ date: "2026-10-28", correct: 8, total: 8, passed: true }] } }, tests, startHere(cont, NOW));
+    expect(currentSlot(p2)?.step.id).toBe("u05#A");
   });
 
   it("(b) u08 parcial, u04 completa por la prueba de fase, y las demás por marcas", () => {
@@ -329,12 +314,11 @@ describe("el plan con la continuidad", () => {
 /* ───────── huecos por cerrar ───────── */
 
 describe("huecos por cerrar (14 §5)", () => {
-  it("(c) hasta u16: u25 en 3 días, u26 y u27 en 4, y u28 en preparación", () => {
+  it("(c) hasta u16: u25 en 3 días, u26, u27 y u28 en 4, todos listos", () => {
     const { raw, tests, cont } = load(hastaU16());
     const gaps = overlayOf(raw, tests, startHere(cont, NOW)).gaps;
     expect(gaps.map((g) => [g.step.id, g.length])).toEqual([["u25", 3], ["u26", 4], ["u27", 4], ["u28", 4]]);
-    // Una unidad sin contenido figura como hueco "en preparación" y no estorba al plan.
-    expect(gaps.map((g) => g.ready)).toEqual(NEW_UNITS.map((id) => getUnit(id)!.ready));
+    expect(gaps.map((g) => g.ready)).toEqual([true, true, true, true]);
   });
 
   it("sin pasar su posición no hay huecos, y u25 no se comprime si estás por debajo de u03", () => {
@@ -355,7 +339,7 @@ describe("huecos por cerrar (14 §5)", () => {
     expect(compressedDays(step, 4)[0].blocks.map((b) => b.id).join()).toBe(full[0]);
   });
 
-  it("un hueco se completa con sus días comprimidos y la mini-prueba, y pospuesto espera al final del tramo", () => withReady(["u25", "u26", "u27"], () => {
+  it("un hueco se completa con sus días comprimidos y la mini-prueba, y pospuesto espera al final del tramo", () => {
     const { raw, tests, cont } = load(hastaU16());
     const state = startHere(cont, NOW);
     const course = courseWithContinuity(raw, tests, state);
@@ -375,7 +359,7 @@ describe("huecos por cerrar (14 §5)", () => {
     expect(weekComplete(u26, withMarks)).toBe(false);
     const passed = courseWithContinuity({ ...raw, done, mini: { u26: [{ date: "2026-10-28", correct: 8, total: 8, passed: true }] } }, tests, state);
     expect(weekComplete(u26, passed)).toBe(true);
-  }));
+  });
 });
 
 /* ───────── puesta al día ───────── */
@@ -615,9 +599,8 @@ describe("estado guardado", () => {
     const point = startingPoint(raw, tests, cont);
     expect(point.hasMarks).toBe(false);
     expect(diagnosticSessions(point.views)).toEqual([]);
-    expect(point.next?.step.id).toBe(firstReadyStep());
+    expect(point.next?.step.id).toBe("u25");
     expect(point.next?.day.day).toBe(1);
-    withReady(NEW_UNITS, () => expect(startingPoint(raw, tests, cont).next?.step.id).toBe("u25"));
   });
 
   it("la copia reciente es de menos de 14 días", () => {
@@ -636,8 +619,7 @@ describe("estado guardado", () => {
     const { raw, tests, cont } = load(s);
     const point = startingPoint(raw, tests, cont);
     expect(point.views.find((v) => v.unit.id === "u01")).toMatchObject({ verdict: null, diagnosable: true, pendingDiagnostic: true });
-    expect(point.next?.step.id).toBe(firstReadyStep());
-    withReady(NEW_UNITS, () => expect(startingPoint(raw, tests, cont).next?.step.id).toBe("u25"));
+    expect(point.next?.step.id).toBe("u25");
     expect(s.snapshot()).toEqual(before);
   });
 });

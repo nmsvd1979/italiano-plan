@@ -65,9 +65,9 @@ describe("orden del curso (COURSE)", () => {
     for (const s of COURSE) expect(UNITS.find((u) => u.id === s.unit)?.phase, s.id).toBe(s.phase);
   });
 
-  it("u25–u28 entran sin contenido (ready:false) y fuera del flujo; el resto de unidades sigue listo", () => {
-    for (const id of ["u25", "u26", "u27", "u28"]) expect(UNITS.find((u) => u.id === id)?.ready, id).toBe(false);
-    expect(UNITS.filter((u) => u.ready)).toHaveLength(24);
+  it("u25–u28 están activas (ready:true) y las 28 unidades están listas", () => {
+    for (const id of ["u25", "u26", "u27", "u28"]) expect(UNITS.find((u) => u.id === id)?.ready, id).toBe(true);
+    expect(UNITS.filter((u) => u.ready)).toHaveLength(28);
   });
 
   it("los ids y el orden de UNITS para u01–u24 no cambiaron", () => {

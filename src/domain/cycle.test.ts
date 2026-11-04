@@ -6,7 +6,7 @@ import { AVANCE_INICIAL } from "../content/avance-inicial";
 import { blockResources, blockRoute } from "../app/blockRoute";
 import {
   CourseProgress, PASS_RATIO, blockDone, blockKey, currentSlot, dayComplete, daysFor, daysOf, isSoon, remedialDays,
-  recommendedLeft, todaySlots, unitSettled, visibleBlocks, weekComplete, wordsSeen,
+  readySteps, recommendedLeft, todaySlots, unitSettled, visibleBlocks, weekComplete, wordsSeen,
 } from "./cycle";
 import { MINI_SIZE, miniItems, miniPassed } from "./miniTest";
 import { forPart } from "./parts";
@@ -18,12 +18,21 @@ const step = (id: string) => COURSE.find((s) => s.id === id)!;
 const progress = (done: Iterable<string> = [], mini: MiniTests = {}, startUnit = 1): CourseProgress => ({ done: new Set(done), startUnit, mini });
 const legacyKeys = (unit: string) => sessionsOf(getUnit(unit)!).flatMap((s) => s.activities.map((a) => `${unit}.s${s.index}.${a.id}`));
 const ids = (...n: number[]) => n.map((x) => `u${String(x).padStart(2, "0")}`);
+const PASSED = { date: "d", correct: 8, total: 8, passed: true };
+/** Avance de las semanas nuevas ya terminadas (u25 abre el curso; u26, u27 y u28 caen en F2 y F3). */
+const after = (newIds: string[], keys: Iterable<string> = [], mini: MiniTests = {}, startUnit = 1): CourseProgress =>
+  progress([...newIds.flatMap(weekDone), ...keys], { ...Object.fromEntries(newIds.map((id) => [id, [PASSED]])), ...mini }, startUnit);
 /** Marca todo lo esencial de un día con claves nuevas. */
 const doCore = (stepId: string, dayNo: number): string[] => {
   const s = step(stepId);
   const unit = getUnit(s.unit)!;
   return daysOf(s)[dayNo - 1].blocks.filter((b) => b.core && !isSoon(b, unit) && b.kind !== "mini").map((b) => blockKey(stepId, dayNo, b.id));
 };
+
+/** Los 7 días esenciales de una semana (la mini-prueba va aparte, en `mini`). */
+function weekDone(stepId: string): string[] {
+  return Array.from({ length: 7 }, (_, i) => doCore(stepId, i + 1)).flat();
+}
 
 describe("daysOf: la estructura de 04 §D1", () => {
   it("devuelve 7 días y todo bloque tiene minutos > 0, id único por día y clave única", () => {
@@ -121,14 +130,30 @@ describe("el día y la semana", () => {
     expect(Math.max(...mins)).toBeLessThanOrEqual(18);
   });
 
-  it("u25–u28 no aparecen en el flujo mientras estén ready:false", () => {
-    const firstOpen = todaySlots(progress(), new Set()).shown.map((x) => x.step.unit);
-    expect(firstOpen.some((u) => ["u25", "u26", "u27", "u28"].includes(u))).toBe(false);
-    expect(currentSlot(progress())?.step.id).toBe("u01");
+  it("u25–u28 entran al flujo en su orden del curso: u25 abre, u26 y u27 en F2, u28 en F3; u01–u24 conservan su orden", () => {
+    expect(readySteps().map((s) => s.id)).toEqual(COURSE.map((s) => s.id));
+    const order = readySteps().map((s) => s.unit);
+    const first = (u: string) => order.indexOf(u);
+    expect(first("u25")).toBe(0);
+    expect(first("u01")).toBeLessThan(first("u26"));
+    expect(first("u06")).toBeLessThan(first("u26"));
+    expect(first("u26")).toBeLessThan(first("u07"));
+    expect(first("u08")).toBeLessThan(first("u27"));
+    expect(first("u27")).toBeLessThan(first("u09"));
+    expect(first("u12")).toBeLessThan(first("u28"));
+    expect(first("u28")).toBeLessThan(first("u13"));
+    const old = [...new Set(order.filter((u) => u < "u25"))];
+    expect(old).toEqual([...ids(...Array.from({ length: 20 }, (_, i) => i + 1)), "u24", "u21", "u22", "u23"]);
+    expect(currentSlot(progress())?.step.id).toBe("u25");
+    expect(todaySlots(progress(), new Set()).shown.map((x) => x.step.unit)).toEqual(["u25"]);
+  });
+
+  it("con u25 hecha, el curso sigue en u01", () => {
+    expect(currentSlot(after(["u25"]))?.step.id).toBe("u01");
   });
 
   it("el plan avanza por progreso: no depende de ninguna fecha", () => {
-    const p = progress(doCore("u01", 1));
+    const p = after(["u25"], doCore("u01", 1));
     expect(todaySlots(p, new Set()).shown[0].day.day).toBe(2);
     expect(todaySlots(p, new Set()).shown[0].step.id).toBe("u01");
   });
@@ -139,7 +164,7 @@ describe("Hacer más hoy", () => {
     const empty = progress();
     expect(todaySlots(empty, new Set(), 3).shown).toHaveLength(1);
     const keys = doCore("u01", 1);
-    const p = progress(keys);
+    const p = after(["u25"], keys);
     // Hoy se hizo el día 1: sigue visible como hecho; con más, aparece el día 2, el 3…
     const today = new Set(keys);
     expect(todaySlots(p, today, 0).shown.map((x) => x.day.day)).toEqual([1]);
@@ -149,7 +174,7 @@ describe("Hacer más hoy", () => {
 
   it("cruza a la semana siguiente cuando termina la actual", () => {
     const all = Array.from({ length: 7 }, (_, i) => doCore("u01", i + 1)).flat();
-    const p = progress(all, { u01: [{ date: "d", correct: 8, total: 8, passed: true }] });
+    const p = after(["u25"], all, { u01: [{ date: "d", correct: 8, total: 8, passed: true }] });
     expect(weekComplete(step("u01"), p)).toBe(true);
     expect(currentSlot(p)?.step.id).toBe("u02#A");
   });
@@ -158,14 +183,14 @@ describe("Hacer más hoy", () => {
 describe("mensaje de fin de día", () => {
   it("con lo esencial hecho, cuenta los recomendados que quedan; en modo corto no quedan", () => {
     const keys = doCore("u04", 1);
-    const p = progress(keys, {}, 4);
+    const p = after(["u25"], keys, {}, 4);
     const shown = todaySlots(p, new Set(keys)).shown;
     expect(shown[0].step.id).toBe("u04");
     expect(shown.map((x) => x.day.day)).toEqual([1]);
     // día 1: palabras, sonido y repetir las líneas son recomendados
     expect(recommendedLeft(shown, p, false)).toBe(3);
     expect(recommendedLeft(shown, p, true)).toBe(0);
-    const more = progress([...keys, blockKey("u04", 1, "words"), blockKey("u04", 1, "sound"), blockKey("u04", 1, "repeat")], {}, 4);
+    const more = after(["u25"], [...keys, blockKey("u04", 1, "words"), blockKey("u04", 1, "sound"), blockKey("u04", 1, "repeat")], {}, 4);
     expect(recommendedLeft(shown, more, false)).toBe(0);
   });
 
@@ -196,7 +221,7 @@ describe("reglas de avance (04 §D3)", () => {
     expect(days.slice(7).map((d) => d.name)).toEqual(["Repaso dirigido", "Otra versión de la prueba"]);
     expect(days[8].blocks.some((b) => b.kind === "mini" && b.attempt === 1)).toBe(true);
     // lo que sigue es el repaso dirigido, no otra semana
-    expect(currentSlot(progress(base, failed, 4))?.day.day).toBe(8);
+    expect(currentSlot(after(["u25"], base, failed, 4))?.day.day).toBe(8);
     // aprobar en el segundo intento cierra la semana
     const retry: MiniTests = { u04: [...failed.u04, { date: "d", correct: 7, total: 8, passed: true }] };
     expect(weekComplete(step("u04"), progress(base, retry))).toBe(true);
@@ -224,19 +249,22 @@ describe("reglas de avance (04 §D3)", () => {
 describe("migración desde la app anterior (14 §8)", () => {
   const upTo = (n: number) => ids(...Array.from({ length: n }, (_, i) => i + 1)).flatMap(legacyKeys);
 
-  it("(a) hasta u04 completo: u01–u04 valen como hechas (A y B) y sigue u05 parte A", () => {
+  it("(a) hasta u04 completo: u01–u04 valen como hechas (A y B); u25 aparece primero y, con ella hecha, sigue u05 parte A", () => {
     const p = progress(upTo(4));
     for (const u of ids(1, 2, 3, 4)) expect(unitSettled(getUnit(u)!, p), u).toBe(true);
     for (const s of COURSE.filter((c) => ["u01", "u02", "u03", "u04"].includes(c.unit))) expect(weekComplete(s, p), s.id).toBe(true);
-    const cur = currentSlot(p)!;
+    expect(currentSlot(p)?.step.id).toBe("u25");
+    const cur = currentSlot(after(["u25"], upTo(4)))!;
     expect(cur.step.id).toBe("u05#A");
     expect(cur.day.day).toBe(1);
   });
 
   it("(b) u08 parcial con el repaso lleno y una prueba de fase aprobada: lo hecho no se pierde", () => {
     const partial = legacyKeys("u08").filter((k) => /\.s[123]\./.test(k));
-    const p = progress([...upTo(7), ...partial]);
+    const p = after(["u25", "u26"], [...upTo(7), ...partial]);
     expect(unitSettled(getUnit("u08")!, p)).toBe(false);
+    expect(currentSlot(progress([...upTo(7), ...partial]))?.step.id).toBe("u25");
+    expect(currentSlot(after(["u25"], [...upTo(7), ...partial]))?.step.id).toBe("u26");
     const cur = currentSlot(p)!;
     expect(cur.step.id).toBe("u08");
     // La lección y las palabras de las sesiones 1–3 cuentan como hechas en el ciclo nuevo.
@@ -250,8 +278,13 @@ describe("migración desde la app anterior (14 §8)", () => {
 
   it("(c) hasta u16 completo: sigue u17", () => {
     const p = progress(upTo(16));
-    expect(currentSlot(p)?.step.id).toBe("u17");
-    expect(COURSE.filter((s) => s.kind === "core" && s.unit <= "u16" && s.unit !== "u25" && s.unit !== "u26" && s.unit !== "u27" && s.unit !== "u28").every((s) => weekComplete(s, p))).toBe(true);
+    // Las semanas nuevas (u25–u28) quedan por hacer, en su orden, antes de seguir en u17.
+    const open = (q: CourseProgress) => COURSE.filter((s) => s.kind === "core" && s.unit <= "u16" && !weekComplete(s, q)).map((s) => s.id);
+    expect(open(p)).toEqual([]);
+    expect(currentSlot(p)?.step.id).toBe("u25");
+    const nuevas = ["u25", "u26", "u27", "u28"];
+    nuevas.forEach((id, i) => expect(currentSlot(after(nuevas.slice(0, i), upTo(16)))?.step.id).toBe(id));
+    expect(currentSlot(after(nuevas, upTo(16)))?.step.id).toBe("u17");
   });
 
   it("la semilla de avance (u01 sesiones 1–5, 17 de 22) es parcial: cuenta lo hecho y falta el diálogo", () => {
@@ -281,7 +314,9 @@ describe("migración desde la app anterior (14 §8)", () => {
   it("startUnit: las unidades anteriores a la inicial se dan por sabidas", () => {
     const p = progress([], {}, 3);
     expect(unitSettled(getUnit("u02")!, p)).toBe(true);
-    expect(currentSlot(p)?.step.id).toBe("u03#A");
+    // u25 no es anterior a la unidad inicial: se hace primero y después sigue u03.
+    expect(currentSlot(p)?.step.id).toBe("u25");
+    expect(currentSlot(after(["u25"], [], {}, 3))?.step.id).toBe("u03#A");
   });
 
   it("las palabras de la unidad se consideran mostradas con la actividad antigua o con el bloque nuevo", () => {
