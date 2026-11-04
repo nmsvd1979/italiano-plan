@@ -8,6 +8,7 @@ import { appendLog } from "../../domain/activityLog";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
 import { stopAudio } from "../../ui/modelAudio";
+import { sourceOf } from "../../ui/speech";
 import { CompareRow } from "../record/CompareRow";
 import { RecordTake } from "../record/RecordTake";
 import { SelfEval } from "../record/SelfEval";
@@ -83,7 +84,7 @@ export function PronCompareScreen({ unit }: { unit: string }) {
                   />
                 )}
                 <CompareRow text={w} file={file} url={takes[w]?.url} rate={0.8} />
-                {!file && <p className="sub">Esta palabra todavía no tiene grabación nativa: el modelo es la voz del sistema.</p>}
+                {!file && <p className="sub">Esta palabra todavía no tiene grabación nativa: el modelo es {sourceOf(w) === "clip" ? "una voz sintética" : "la voz del sistema"}.</p>}
               </section>
             );
           })}

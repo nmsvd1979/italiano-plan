@@ -153,7 +153,7 @@ export function useItalianVoice(): VoiceStatus {
 // Aviso discreto «voz del sistema»: se enciende cada vez que suena la voz del sistema (src/ui/SystemVoiceHint.tsx).
 let systemVoiceStamp = 0;
 const systemVoiceListeners = new Set<() => void>();
-const noteSystemVoice = () => {
+export const noteSystemVoice = () => {
   systemVoiceStamp++;
   systemVoiceListeners.forEach((cb) => cb());
 };
