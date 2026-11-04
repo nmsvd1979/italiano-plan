@@ -40,9 +40,9 @@ export default defineConfig({
         ],
       },
       manifest: {
-        name: "Italiano — Plan de 24 unidades",
+        name: "Italiano — Plan de italiano A0→A2",
         short_name: "Italiano",
-        description: "Plan adaptativo de 24 unidades para aprender italiano, con gramática, shadowing y pronunciación.",
+        description: "Plan de 28 unidades para aprender italiano de cero a A2, con gramática, repaso espaciado y pronunciación.",
         start_url: "/italiano-plan/",
         scope: "/italiano-plan/",
         display: "standalone",
