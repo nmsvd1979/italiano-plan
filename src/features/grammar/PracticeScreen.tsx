@@ -78,6 +78,14 @@ export function PracticeScreen({ mode, unit = "", part = null, size = SIZE }: Pr
     });
   });
 
+  // Repaso mixto o pendiente sin nada que repasar: el bloque del día queda hecho en lugar de exigir marcarlo a mano.
+  useEffect(() => {
+    if (mode === "practice" || items.length > 0) return;
+    completeActivity(mode === "review" ? "review" : "due");
+    // Una sola vez al abrir: `items` no cambia.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const onAnswer = (item: RunnerItem, grade: Grade) => {
     // Un "casi" (faltaba la tilde) cuenta como acierto en el puntaje pero vuelve a aparecer.
     // El fallo en un ejercicio de completar también entra al repaso espaciado como tarjeta cloze.
