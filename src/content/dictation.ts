@@ -9,7 +9,7 @@ export interface DictationItem {
  * Frases cortas (A1-A2) con el vocabulario y la gramática de cada unidad.
  *
  * Límites de contenido (docs/v2/05 E3), pendientes de escribir; el código ya funciona con lo que hay:
- * - E3 pide 10 frases por unidad; hoy hay 10 en u01–u24 (G9; las unidades nuevas traen las suyas). Con menos frases el dictado simplemente es más corto.
+ * - E3 pide 10 frases por unidad; hoy hay 10 en las 28 unidades (G9 y las unidades nuevas). Con menos frases el dictado simplemente es más corto.
  * - E3 pide, en u01–u03, un dictado de números a velocidad («Números y frases a velocidad», día 4, hoy «en preparación»):
  *   faltan los ítems (cifras y precios para escribir). Cuando existan, ese bloque deja de ser `soon`.
  */

@@ -102,7 +102,7 @@ export function StartingPoint() {
         ) : (
           <>
             <p className="sub">
-              Antes de decidir nada, guarda una copia: en Ajustes, toca «Copia de seguridad» y luego «Guardar copia».
+              Antes de decidir nada, guarda una copia: en Ajustes, toca «Copia de seguridad» y luego «Exportar copia».
               Esta pantalla no cambia ni borra tus marcas, pero la copia es tu seguro.
             </p>
             <a className="btn block" href={href("/ajustes")} style={{ textAlign: "center", textDecoration: "none" }}>Ir a Ajustes</a>

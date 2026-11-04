@@ -1,6 +1,6 @@
-# Italiano — plan adaptativo de 24 unidades
+# Italiano — plan de italiano A0→A2 (28 unidades)
 
-App personal (una sola persona, sin cuenta, sin servidor) para seguir un plan de italiano de 24 unidades (unos seis meses). Es una PWA: se instala en la pantalla de inicio del iPhone y todo se guarda en el `localStorage` de ese teléfono.
+App personal (una sola persona, sin cuenta, sin servidor) para aprender italiano de cero a A2, con un puente opcional a B1. Es una PWA: se instala en la pantalla de inicio del iPhone y todo se guarda en el `localStorage` de ese teléfono.
 
 Hecha con Vite + React + TypeScript. Publicada en GitHub Pages: <https://nmsvd1979.github.io/italiano-plan/>
 
@@ -8,28 +8,25 @@ Hecha con Vite + React + TypeScript. Publicada en GitHub Pages: <https://nmsvd19
 
 | Actividad | Cómo funciona |
 |---|---|
-| Vocabulario | Quizlet (externo): un set de 5000 palabras y tus tarjetas. Además, ~20 palabras por unidad con audio (nativo donde existe), quiz y botón «Copiar para Quizlet». |
-| Gramática | Una lección propia por unidad con regla, contraste con el español, ejemplos con audio y ejercicios con corrección inmediata. Los errados vuelven con repaso espaciado. |
-| Pronunciación | Pares mínimos con grabaciones nativas (Lingua Libre) y práctica de repetir en voz alta. |
-| Shadowing | Estudio sobre un video de Easy Italian por unidad, con 5 pasos, velocidad, fragmento en bucle y subtítulos que se pueden tapar. |
-| Dictado | Frases cortas por unidad: escuchas con la voz italiana del sistema y escribes (la tilde que falta cuenta como «casi»). |
-| Escritura guiada | Una consigna por unidad, lista para corregirte tú mismo y un texto modelo que se ve después de escribir. |
-| Diálogos | Un diálogo por unidad: lees, escuchas y dices en voz alta tu parte (ves solo la pista en español). |
-| Input | Podcasts en Spotify según la fase, con el número de episodio que toca. |
-| Checkpoints | Test de fase en las unidades 4, 8, 12, 16, 20 y 24, con puntaje por tema y nivel (firme / casi / a repasar). |
-| Progreso | Racha, avance por unidad y fase, ritmo (al día, detrás o adelante), fecha estimada de fin, mapa de calor de 90 días y recordatorio diario. |
+| Ciclo de 7 días | Cada semana del curso (35: 32 del núcleo y 3 del puente a B1) sigue siete días: entrar, regla, practicar, hablar, leer y escuchar, producir y consolidar. Cada bloque tiene su duración; los esenciales son ~108 de los ~188 min de la semana. |
+| Repaso espaciado | Tarjetas propias con `ts-fsrs`: palabras de la unidad (reconocer y escribir), y las frases que fallaste (completar, dictado). Hasta 8 palabras nuevas por día. |
+| Palabras | Día 1: las palabras de la unidad. Días 3 a 5: la ampliación con frase de ejemplo. |
+| Gramática | Una lección por unidad (partida en semana A y B en siete), con regla, contraste con el español, ejemplos con audio y ejercicios con corrección inmediata. Práctica guiada y práctica sin pista (12 ejercicios por unidad). |
+| Pronunciación | Un contraste nuevo por semana: pares mínimos con grabaciones nativas (Lingua Libre) y repetir y comparar con tu grabación. |
+| Dictado, lectura, escritura | Dictado de 10 frases por unidad con tres niveles, un texto graduado con preguntas por semana y escritura guiada con corrección. |
+| Diálogos y shadowing | Un diálogo por unidad (escuchar, repetir, hacer un papel y grabarte) y shadowing con las líneas del diálogo y del texto; el de video de YouTube es un extra. |
+| Pruebas | Mini-prueba semanal (≥ 75 % para avanzar), test de fase y prueba de nivel A2, con una reserva de ítems distintos de los de práctica. |
+| Audio | Clips de voz sintética Serena para las frases y grabaciones nativas para las palabras; sin ninguno, la voz italiana del sistema. Se baja aparte para usar la app sin conexión. |
+| Progreso | Racha, avance por unidad y fase, mapa de calor, copia de seguridad y «Tu punto de partida» para quien ya estudió. |
 
 ## Cómo avanza el plan
 
-No depende del calendario. El currículo es una lista ordenada de actividades: cada unidad tiene 6 sesiones, y la app siempre ofrece la primera actividad pendiente.
+No depende del calendario: la app siempre ofrece el primer día pendiente. Faltar un día no pierde nada.
 
-- **Faltar un día no pierde nada:** mañana sigue lo mismo.
-- **Adelantarse:** en Hoy eliges cuánto tiempo tienes (15, 30, 60 o 90 min) y la app arma el día con lo que sigue; "Si tienes más tiempo" suma más.
-- **Dejar algo para después** lo manda a Pendientes (máximo 3 a la vez, las más antiguas primero).
-- **Orden garantizado:** la práctica nunca va antes de su lección, y el test de fase espera a todas las lecciones de su fase.
-- **Ritmo y proyección:** en Ajustes eliges cuántas sesiones por semana quieres sostener; Hoy dice si vas al día y estima la fecha de fin con tu ritmo real de las últimas dos semanas.
-- **Unidades "pronto":** figuran en el Plan, pero el flujo diario las salta hasta que tengan contenido.
-- **Estado del contenido:** las 24 unidades tienen lección, vocabulario, dictado, escritura y diálogo. Pendientes de verificar a mano: el audio nativo de las palabras nuevas (ver «Audio») y un video de shadowing para las unidades 16 a 19 y 21 a 24.
+- **Modo corto:** solo los bloques esenciales. «Hacer más hoy» suma el día siguiente.
+- **Mini-prueba:** si no se aprueba, se agregan dos días de repaso dirigido y otra versión de la prueba.
+- **Continuidad:** quien ya marcó unidades en la versión anterior no las repite; las unidades nuevas (u25–u28) se cierran en versión comprimida.
+- **Contenido:** las 28 unidades están activas. Pendientes de verificar a mano: el audio de los clips, el italiano con fuentes (`docs/dudas-italiano.md`) y los videos de shadowing. La auditoría más reciente está en `docs/v2/auditoria/_final.md`.
 
 ## Desarrollo
 
@@ -45,7 +42,9 @@ Para abrirla desde el celular en la misma red: `npm run dev -- --host`.
 ## Dónde está cada cosa
 
 ```
-src/content/curriculum.ts      las 24 unidades, fases, objetivos "puedo…" y las 6 sesiones de cada una
+src/content/curriculum.ts      las 28 unidades, fases y objetivos "puedo…"
+src/content/course.ts          las 35 semanas del curso (orden y partes A/B)
+src/domain/cycle.ts            el ciclo de 7 días, el modo corto y las reglas de avance
 src/content/plan.ts            catálogo de actividades y recursos externos (editable a mano)
 src/content/grammar/           una lección por unidad
 src/content/vocab.json, dictation.ts, writing.ts, dialogues.ts   vocabulario, dictados, escritura y diálogos por unidad
