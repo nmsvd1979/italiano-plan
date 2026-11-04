@@ -158,6 +158,10 @@ export const unidad22: Lesson = {
     {
       "it": "Penso di avere ragione.",
       "es": "Creo que tengo razón."
+    },
+    {
+      "it": "Credo di sì.",
+      "es": "Creo que sí."
     }
   ],
   "notice": [
