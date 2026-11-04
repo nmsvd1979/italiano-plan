@@ -59,5 +59,7 @@ export default defineConfig({
   ],
   test: {
     include: ["src/**/*.test.ts"],
+    // Varias pruebas simulan meses de estudio o miles de escrituras; con los 45 archivos en paralelo pasaban de los 5 s por defecto.
+    testTimeout: 30_000,
   },
 });
