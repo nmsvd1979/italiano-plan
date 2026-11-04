@@ -2,8 +2,9 @@
 // La clave es el texto que la app le pasa a say() (normalizado: sin asteriscos, espacios colapsados).
 //
 // Fuentes: dictados, diálogos, lecturas (cada párrafo de `it`, que es lo que lee el botón «Escuchar»), ítems «listen» de sinpista,
-// ítems de escucha de pruebas y ejemplos de las lecciones. NO entran palabras sueltas del vocabulario ni pares mínimos
-// de pronunciación (esos usan audio nativo). Las frases sin confirmar (scripts/tts/exclusiones.json) se excluyen.
+// ítems de escucha de pruebas y ejemplos de las lecciones. Entran también las palabras de AUDIO_PENDING (pronunciación sin
+// grabación nativa), cada una como frase suelta. NO entran palabras sueltas del vocabulario ni pares mínimos
+// de pronunciación que sí tienen audio nativo. Las frases sin confirmar (scripts/tts/exclusiones.json) se excluyen.
 //
 // Uso: node scripts/tts/extraer.mjs
 
@@ -22,6 +23,7 @@ try {
   const { getDictation } = await server.ssrLoadModule("/src/content/dictation.ts");
   const { getDialogue } = await server.ssrLoadModule("/src/content/dialogues.ts");
   const { getLesson } = await server.ssrLoadModule("/src/content/grammar/index.ts");
+  const { AUDIO_PENDING, PRON_UNITS } = await server.ssrLoadModule("/src/content/pronunciation/index.ts");
 
   /** @type {{ fuente: string, texto: string, unidad: string }[]} */
   const crudo = [];
@@ -34,6 +36,10 @@ try {
   }
   for (const [u, t] of Object.entries(json("src/content/lectura.json"))) for (const p of t.it) add("lectura", u, p);
   for (const [u, items] of Object.entries(json("src/content/sinpista.json"))) for (const x of items) if (x.type === "listen") add("sinpista", u, x.prompt);
+  // Unidad de cada palabra pendiente: la primera cuya pronunciación la usa (para que el gestor de descarga la baje con su unidad).
+  const unidadDe = new Map();
+  for (const pu of PRON_UNITS) for (const w of [...pu.pairs.flat(), ...pu.words]) if (!unidadDe.has(w) || pu.unit < unidadDe.get(w)) unidadDe.set(w, pu.unit);
+  for (const w of AUDIO_PENDING) add("pendiente", unidadDe.get(w) ?? "u99", w);
   for (const [u, t] of Object.entries(json("src/content/pruebas.json"))) for (const x of t.escucha ?? []) add("prueba", u, x.it);
 
   const exclusiones = json("scripts/tts/exclusiones.json");
@@ -54,7 +60,7 @@ try {
 
   writeFileSync(path.join(ROOT, "scripts/tts/frases.json"), JSON.stringify({ frases, excluidas }, null, 1) + "\n");
 
-  const fuentes = ["dictado", "diálogo", "lectura", "sinpista", "prueba", "ejemplo"];
+  const fuentes = ["dictado", "diálogo", "lectura", "sinpista", "prueba", "ejemplo", "pendiente"];
   console.log("Por fuente (elementos leídos → textos distintos que entran, tras excluir):");
   for (const f of fuentes) {
     const leidos = crudo.filter((c) => c.fuente === f).length;

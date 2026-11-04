@@ -22,5 +22,13 @@
   {
     "frase": "Che cosa fai di bello?",
     "motivo": "Marcada con problema en la segunda pasada G-R (docs/dudas-italiano.md, u08: traducción literal)"
+  },
+  {
+    "frase": "dammelo",
+    "motivo": "Acento sin verificar (docs/dudas-italiano.md, pron-secuencia u21: no se pudo abrir una fuente de dammelo)"
+  },
+  {
+    "frase": "fato",
+    "motivo": "No es una palabra italiana: solo es el contraste de «fatto» en pares mínimos de AUDIO_PENDING"
   }
 ]
