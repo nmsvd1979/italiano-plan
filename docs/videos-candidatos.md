@@ -222,3 +222,23 @@ Nota: El candidato 3 (Easy Italian, real-life) habla rápido: 146 palabras/min.
 
 Nota: Unidad de repaso: se eligió un relato de viaje; ritmo del alterno es rápido (139 palabras/min).
 
+
+## u25–u28 (verificados en nov. 2026)
+
+Mismo filtro (2–10 min · oEmbed 200 · `playable_in_embed` · subtítulos en italiano) con yt-dlp. Los subtítulos medidos son automáticos, salvo donde se indica. No se vio ni escuchó ninguno. Descartados por no poderse incrustar (oEmbed 401): `mbqBIkncf_A`, `BoeMo8jql1A`, `DuHQvIyKtOI`, `RaR8hVFEbjA`. No tienen pista en italiano: `O8TmSXbmpSA`, `ozKm9fdz1n4`. Sin métricas (la pista automática no trae el formato medible): `B4aCxTWfHJI`, `-20MmZhxz7g`, `c81aPaN-ry0`.
+
+| Unidad | Rol | ID | Título | Canal | Min | Pal/min | Subt. it |
+|---|---|---|---|---|---|---|---|
+| u25 | principal | `358v1byyJxk` | Learn the Italian Alphabet Pronunciation with New Words! / Super Easy Italian | Easy Italian | 5.5 | 75 | auto |
+| u25 | alterno | `BkdmV20tBls` | The ITALIAN ALPHABET: how do you spell your name in Italian? | Ambra Connex-ita | 5.3 | 90 | auto |
+| u25 | candidato 3 | `UF1nqgmXwew` | Learn the Italian Alphabet: letters and sounds | Italy Made Easy | 4.5 | 90 | auto |
+| u26 | principal | `VD-k-zHCvM8` | Easy Italian: learn to talk about your family in Italian | Coffee Break Languages | 3.4 | 105 | auto |
+| u26 | alterno | `rs4NRGdANOM` | 41 Italian Words to Describe Yourself / Easy Italian 226 | Easy Italian | 9.0 | 91 | auto |
+| u26 | candidato 3 | `q4aVhx-qHtE` | How to Talk about Jobs in Italian | Easy Italian | 7.5 | 86 | auto |
+| u27 | principal | `nXjaywIsSNY` | Easy Italian: learn to talk about your hobbies and free time | Coffee Break Languages | 4.5 | 101 | auto |
+| u27 | alterno | `IelVaf_EnUw` | What's the weather like? Learn to talk about the weather | Italian Starter | 4.1 | 67 | auto |
+| u27 | candidato 3 | `iFIuzzzdW00` | CHE COSA FAI NEL TEMPO LIBERO? | Rafael Sozzi | 6.6 | 113 | auto |
+| u28 | principal | `z5xTBZvo9j0` | Al ristorante in Italia | Classe Italiana | 7.3 | 102 | manual + auto |
+| u28 | alterno | `TBZZ6T4LQPs` | 20 Italian Words for THE RESTAURANT | Italy Made Easy | 4.2 | 79 | manual + auto |
+
+Nota: u26 y u27 cubren dos temas cada una; principal y alterno se repartieron uno por tema. Los videos de u28 no tratan alergias; la parte de «avisar de una alergia» queda sin video propio.
