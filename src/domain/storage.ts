@@ -69,10 +69,20 @@ export const SRS_KEY = "italianPlan.srs.v1";
 
 const defaultStore = (): KV => window.localStorage;
 
+/** Mismo tipo que el valor por defecto: arreglo con arreglo, objeto simple con objeto simple. */
+function sameShape(value: unknown, fallback: unknown): boolean {
+  if (Array.isArray(fallback)) return Array.isArray(value);
+  if (typeof fallback === "object" && fallback !== null) return typeof value === "object" && value !== null && !Array.isArray(value);
+  return typeof value === typeof fallback;
+}
+
+/** Lee un JSON guardado; si está roto o es de otro tipo que el valor por defecto (`null`, un número…), devuelve el valor por defecto. */
 function readJSON<T>(store: KV, key: string, fallback: T): T {
   try {
     const raw = store.getItem(key);
-    return raw ? (JSON.parse(raw) as T) : fallback;
+    if (!raw) return fallback;
+    const value = JSON.parse(raw) as unknown;
+    return sameShape(value, fallback) ? (value as T) : fallback;
   } catch {
     return fallback;
   }
