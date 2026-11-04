@@ -376,10 +376,14 @@ export function blockMinutes(): Map<string, number> {
   return map;
 }
 
-/** Las palabras de la unidad ya se mostraron (el primer bloque de palabras de alguna semana, o la actividad antigua). */
+/**
+ * Las palabras de la unidad ya se mostraron (el primer bloque de palabras de alguna semana, o la actividad antigua).
+ * Hacer la lección (bloque esencial) también las habilita: en modo corto el bloque de palabras no se muestra y el repaso
+ * espaciado se quedaría sin tarjetas para siempre.
+ */
 export function wordsSeen(unitId: string, done: ReadonlySet<string>): boolean {
   if (done.has(`${unitId}.s2.vocab`)) return true;
-  const places: [number, string][] = [[1, "words"], [3, "words3"], [4, "words4"], [5, "words5"]];
+  const places: [number, string][] = [[1, "words"], [2, "lesson"], [3, "words3"], [4, "words4"], [5, "words5"]];
   return COURSE.some((s) => s.unit === unitId && places.some(([day, id]) => done.has(blockKey(s.id, day, id))));
 }
 
