@@ -1,11 +1,18 @@
+import { stepsOfUnit } from "../content/course";
 import { LESSONS, exercisesForUnits, unitNumber } from "../content/grammar";
+import { blockKey } from "./cycle";
 import { Progress } from "./curriculum";
 import { toISODate } from "./dates";
 import type { Candidate, ReviewState } from "./review";
 
-/** Unidades con lección ya vista (o anteriores a la unidad desde la que empezaste). */
+/**
+ * Unidades con lección ya vista (o anteriores a la unidad desde la que empezaste): la del ciclo de 7 días
+ * (`u04.d2.lesson`, `u02#A.d2.lesson`) o la de la app anterior (`u04.s2.lesson`).
+ */
 export function learnedUnits(p: Progress): string[] {
-  return LESSONS.filter((l) => p.done.has(`${l.unit}.s2.lesson`) || unitNumber(l.unit) < p.startUnit).map((l) => l.unit);
+  const seen = (unit: string) =>
+    p.done.has(`${unit}.s2.lesson`) || stepsOfUnit(unit).some((s) => p.done.has(blockKey(s.id, 2, "lesson")));
+  return LESSONS.filter((l) => seen(l.unit) || unitNumber(l.unit) < p.startUnit).map((l) => l.unit);
 }
 
 /** Ejercicios de las unidades dadas, con el número de unidad para ordenarlos. */

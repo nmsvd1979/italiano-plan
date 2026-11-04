@@ -51,4 +51,9 @@ describe("migración desde la app anterior", () => {
     const p = { done: new Set(["u01.s2.lesson"]), skipped: new Set<string>(), startUnit: 3 };
     expect(learnedUnits(p)).toEqual(["u01", "u02"]);
   });
+
+  it("la lección del ciclo de 7 días también cuenta (unidades enteras y partidas A/B)", () => {
+    const p = { done: new Set(["u25.d2.lesson", "u01.d2.lesson", "u02#A.d2.lesson", "u03#B.d3.lesson"]), skipped: new Set<string>(), startUnit: 1 };
+    expect(learnedUnits(p)).toEqual(["u01", "u02", "u25"]);
+  });
 });
