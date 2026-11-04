@@ -64,6 +64,13 @@
    ]
   },
   {
+   "texto": "abbia",
+   "unidad": "u22",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Abbiamo bevuto un caffè insieme.",
    "unidad": "u09",
    "fuentes": [
@@ -254,6 +261,13 @@
    ]
   },
   {
+   "texto": "allegato",
+   "unidad": "u18",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Allergie? Parlate con il cameriere: vi consiglierà il piatto giusto.",
    "unidad": "u28",
    "fuentes": [
@@ -307,6 +321,13 @@
    "unidad": "u12",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "amico",
+   "unidad": "u25",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -366,6 +387,13 @@
    ]
   },
   {
+   "texto": "arredato",
+   "unidad": "u17",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Arriva alle venti e dieci.",
    "unidad": "u03",
    "fuentes": [
@@ -419,6 +447,20 @@
    "unidad": "u05#B",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "autunno",
+   "unidad": "u27",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
+   "texto": "avessi",
+   "unidad": "u23",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -667,6 +709,13 @@
    "unidad": "u11",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "càpitano",
+   "unidad": "u11",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -1219,6 +1268,13 @@
    ]
   },
   {
+   "texto": "cina",
+   "unidad": "u25",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Circa dieci euro. La biglietteria è vicino all'ingresso.",
    "unidad": "u05",
    "fuentes": [
@@ -1322,6 +1378,13 @@
    "unidad": "u24",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "comprerei",
+   "unidad": "u23",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -1442,6 +1505,13 @@
    "unidad": "u15#B",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "cugino",
+   "unidad": "u26",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -1571,6 +1641,13 @@
    "unidad": "u02#B",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "dimmelo",
+   "unidad": "u21",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -2069,6 +2146,13 @@
    ]
   },
   {
+   "texto": "facessi",
+   "unidad": "u23",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Faceva caldo e il cielo era azzurro.",
    "unidad": "u24",
    "fuentes": [
@@ -2092,6 +2176,34 @@
    ]
   },
   {
+   "texto": "fatto",
+   "unidad": "u10",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
+   "texto": "figli",
+   "unidad": "u26",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
+   "texto": "figlia",
+   "unidad": "u26",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
+   "texto": "filo",
+   "unidad": "u26",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Finisco di lavorare alle otto.",
    "unidad": "u04",
    "fuentes": [
@@ -2103,6 +2215,13 @@
    "unidad": "u15",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "fratello",
+   "unidad": "u26",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -2216,6 +2335,13 @@
    "unidad": "u21",
    "fuentes": [
     "prueba"
+   ]
+  },
+  {
+   "texto": "gliene",
+   "unidad": "u21",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -2967,6 +3093,13 @@
    ]
   },
   {
+   "texto": "ingresso",
+   "unidad": "u19",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Io bevo caffè, lui invece tè.",
    "unidad": "u20",
    "fuentes": [
@@ -3071,6 +3204,13 @@
    "unidad": "u13",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "là",
+   "unidad": "u25",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -3447,6 +3587,20 @@
    ]
   },
   {
+   "texto": "messe",
+   "unidad": "u27",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
+   "texto": "messo",
+   "unidad": "u10",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Mi alzo alle sei.",
    "unidad": "u07",
    "fuentes": [
@@ -3765,6 +3919,20 @@
    "unidad": "u26",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "moglie",
+   "unidad": "u26",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
+   "texto": "molle",
+   "unidad": "u26",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -4119,10 +4287,24 @@
    ]
   },
   {
+   "texto": "nona",
+   "unidad": "u18",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Nonna Rosa ha sorriso, ha preso il gatto in braccio e ha detto: «Che bravo che sei!». Da quel giorno Pepe ha portato un pesce ogni venerdì.",
    "unidad": "u11",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "note",
+   "unidad": "u18",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -4183,10 +4365,38 @@
    ]
   },
   {
+   "texto": "orario",
+   "unidad": "u19",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
+   "texto": "paglia",
+   "unidad": "u26",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Paolo dice: «Piacere! Come stai?». Io rispondo: «Sto bene, grazie, e tu?». Poi lui dice: «Anche io sto bene. Sei stanca?». «No, non sono stanca. Sono contenta!»",
    "unidad": "u01",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "papa",
+   "unidad": "u11",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
+   "texto": "papà",
+   "unidad": "u11",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -4489,10 +4699,31 @@
    ]
   },
   {
+   "texto": "portarmelo",
+   "unidad": "u21",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Porto la quarantaquattro. Posso provare quella verde?",
    "unidad": "u06",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "possa",
+   "unidad": "u22",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
+   "texto": "posso",
+   "unidad": "u23",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -4553,6 +4784,13 @@
    "fuentes": [
     "dictado",
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "potessi",
+   "unidad": "u23",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -4705,6 +4943,13 @@
    "unidad": "u24",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "primavera",
+   "unidad": "u27",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -5071,6 +5316,13 @@
    ]
   },
   {
+   "texto": "resterei",
+   "unidad": "u23",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Resterò sei mesi. Prima farò un corso, poi cercherò un lavoro.",
    "unidad": "u15",
    "fuentes": [
@@ -5082,6 +5334,13 @@
    "unidad": "u18",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "richiamare",
+   "unidad": "u18",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -5100,10 +5359,24 @@
    ]
   },
   {
+   "texto": "rossa",
+   "unidad": "u27",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Sabato mattina mi sono svegliata tardi. Ho fatto colazione con calma e ho letto il giornale. Poi sono uscita e ho fatto la spesa al mercato: ho comprato pane, formaggio e dei pomodori molto belli.",
    "unidad": "u09",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "sano",
+   "unidad": "u25",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -5435,6 +5708,20 @@
    "unidad": "u28",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "serra",
+   "unidad": "u17",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
+   "texto": "sì",
+   "unidad": "u25",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -5963,6 +6250,13 @@
    ]
   },
   {
+   "texto": "sorella",
+   "unidad": "u26",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "SPAGHETTI AL POMODORO (per quattro persone)",
    "unidad": "u14#A",
    "fuentes": [
@@ -6015,10 +6309,24 @@
    ]
   },
   {
+   "texto": "spiegarmelo",
+   "unidad": "u21",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "STAZIONE DI FIRENZE — Treni per Roma Treno 1: parte alle 6.45, arriva alle 8.50. Binario 3. Treno 2: parte alle 9.15, arriva alle 11.30. Binario 5. Treno 3: parte alle 12.30, arriva alle 14.40. Binario 3. Treno 4: parte alle 18.00, arriva alle 20.10. Binario 2.",
    "unidad": "u03#A",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "stia",
+   "unidad": "u22",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -6149,6 +6457,13 @@
    ]
   },
   {
+   "texto": "tè",
+   "unidad": "u25",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Te la mando stasera.",
    "unidad": "u21",
    "fuentes": [
@@ -6181,6 +6496,13 @@
    "unidad": "u13",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "tetto",
+   "unidad": "u25",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -6264,11 +6586,25 @@
    ]
   },
   {
+   "texto": "tutta",
+   "unidad": "u16",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Tutti i giorni vado in palestra.",
    "unidad": "u27",
    "fuentes": [
     "dictado",
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "tutto",
+   "unidad": "u25",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -6391,6 +6727,13 @@
    ]
   },
   {
+   "texto": "vada",
+   "unidad": "u22",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Vada dritto e giri a destra al semaforo.",
    "unidad": "u14",
    "fuentes": [
@@ -6454,10 +6797,24 @@
    ]
   },
   {
+   "texto": "vano",
+   "unidad": "u25",
+   "fuentes": [
+    "pendiente"
+   ]
+  },
+  {
    "texto": "Venerdì sarò libero. Penso di prendere un treno alle nove per andare dai miei genitori: staremo insieme tutto il fine settimana. Probabilmente faremo una gita sul lago, se il tempo sarà bello.",
    "unidad": "u15#A",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "venga",
+   "unidad": "u22",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -6488,6 +6845,13 @@
    "unidad": "u13",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "viaggerei",
+   "unidad": "u23",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -6545,6 +6909,13 @@
    "unidad": "u04",
    "fuentes": [
     "sinpista"
+   ]
+  },
+  {
+   "texto": "volessi",
+   "unidad": "u23",
+   "fuentes": [
+    "pendiente"
    ]
   },
   {
@@ -6737,12 +7108,28 @@
    "motivo": "Marcada con problema en la segunda pasada G-R (docs/dudas-italiano.md, u08: traducción literal)"
   },
   {
+   "texto": "dammelo",
+   "unidad": "u21",
+   "fuentes": [
+    "pendiente"
+   ],
+   "motivo": "Acento sin verificar (docs/dudas-italiano.md, pron-secuencia u21: no se pudo abrir una fuente de dammelo)"
+  },
+  {
    "texto": "Domani andrò a Venezia in treno. Potresti consigliarmi un ristorante?",
    "unidad": "u24",
    "fuentes": [
     "diálogo"
    ],
    "motivo": "Sin confirmar en fuentes (docs/dudas-italiano.md, «Verificación con fuentes», u24)"
+  },
+  {
+   "texto": "fato",
+   "unidad": "u16",
+   "fuentes": [
+    "pendiente"
+   ],
+   "motivo": "No es una palabra italiana: solo es el contraste de «fatto» en pares mínimos de AUDIO_PENDING"
   },
   {
    "texto": "Siete state lì una settimana?",
