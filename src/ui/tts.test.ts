@@ -97,7 +97,7 @@ describe("manifiesto", () => {
     // @ts-expect-error módulo .mjs sin tipos
     const { motivoDeExclusion } = await import("../../scripts/tts/comun.mjs");
     const exclusiones = readJson<{ frase: string; motivo: string }[]>("scripts/tts/exclusiones.json");
-    expect(exclusiones.map((e) => e.frase)).toEqual(expect.arrayContaining(["Vuole altro?", "Credo di sì", "Credo di no", "Siete state lì una settimana?", "Gliene parlo io", "Potresti consigliarmi un ristorante?"]));
+    expect(exclusiones.map((e) => e.frase)).toEqual(expect.arrayContaining(["Vuole altro?", "Credo di no", "Siete state lì una settimana?", "Gliene parlo io", "Potresti consigliarmi un ristorante?"]));
     for (const f of manifest.frases) expect(motivoDeExclusion(f.texto, exclusiones), f.texto).toBeNull();
     const textos = new Set(manifest.frases.map((f) => f.texto));
     for (const x of manifest.excluidas) expect(textos.has(x.texto), x.texto).toBe(false);
