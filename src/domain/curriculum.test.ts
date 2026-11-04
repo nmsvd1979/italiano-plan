@@ -21,10 +21,11 @@ describe("currículo", () => {
     expect(UNITS.filter((u) => u.checkpoint).map((u) => u.n)).toEqual([4, 8, 12, 16, 20, 24]);
   });
 
-  it("u25–u28 se agregan después de u24, sin contenido y sin test de fase", () => {
+  it("u25–u28 se agregan después de u24, ya activas y sin test de fase", () => {
     const added = UNITS.filter((u) => u.n > 24);
     expect(added.map((u) => u.n)).toEqual([25, 26, 27, 28]);
-    expect(added.every((u) => !u.ready && !u.checkpoint)).toBe(true);
+    expect(added.every((u) => u.ready && !u.checkpoint)).toBe(true);
+    expect(UNITS.filter((u) => u.ready)).toHaveLength(28);
   });
 
   it("cada unidad tiene 6 sesiones y la última lleva repaso mixto o test, nunca ambos", () => {
@@ -68,9 +69,12 @@ describe("qué toca", () => {
     const lessons = requiresOf(test, steps);
     expect(lessons.length).toBeGreaterThan(1);
     expect(lessons.every((k) => k.endsWith(".s2.lesson") && steps.find((s) => s.key === k)!.unit.phase === test.unit.phase)).toBe(true);
-    const all = doneBefore(test.key);
+    // u25–u28 van al final de UNITS pero cuentan para su fase: su lección también se exige antes del test.
+    expect(lessons).toContain("u25.s2.lesson");
+    const all = [...new Set([...doneBefore(test.key), ...lessons])];
     expect(nextSteps(steps, withDone(all)).map((s) => s.key)).toContain(test.key);
     expect(nextSteps(steps, withDone(all.filter((k) => k !== lessons[0]))).map((s) => s.key)).not.toContain(test.key);
+    expect(nextSteps(steps, withDone(all.filter((k) => k !== "u25.s2.lesson"))).map((s) => s.key)).not.toContain(test.key);
   });
 
   it("faltar no cambia nada: sin marcas nuevas, lo que toca es lo mismo", () => {

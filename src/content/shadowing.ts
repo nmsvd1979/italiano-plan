@@ -32,6 +32,11 @@ export const SHADOWING: Record<string, { main: Video; alt: Video }> = {
   u22: { main: { id: "Zn31M2EMGbU", title: "Penso che… (congiuntivo)" }, alt: { id: "dpfYvT2qf3c", title: "Quando usare il congiuntivo presente" } },
   u23: { main: { id: "5LA0NEMt6OM", title: "Use the Italian 'Se'" }, alt: { id: "WGK1O7611e4", title: "Il periodo ipotetico" } },
   u24: { main: { id: "joM3YcvIVGA", title: "A Trip to Lake Como (short story)" }, alt: { id: "DGebFoumhAI", title: "Short Stories: Travel & Directions" } },
+  // u25–u28: verificados con yt-dlp en nov. 2026 (mismos criterios; métricas en docs/videos-candidatos.md).
+  u25: { main: { id: "358v1byyJxk", title: "The Italian Alphabet with New Words" }, alt: { id: "BkdmV20tBls", title: "The Italian Alphabet: How to Spell Your Name" } },
+  u26: { main: { id: "VD-k-zHCvM8", title: "Talk About Your Family in Italian" }, alt: { id: "rs4NRGdANOM", title: "41 Italian Words to Describe Yourself" } },
+  u27: { main: { id: "nXjaywIsSNY", title: "Talk About Your Hobbies and Free Time" }, alt: { id: "IelVaf_EnUw", title: "Che tempo fa? Talking About the Weather" } },
+  u28: { main: { id: "z5xTBZvo9j0", title: "Al ristorante in Italia" }, alt: { id: "TBZZ6T4LQPs", title: "20 Italian Words for the Restaurant" } },
 };
 
 /**

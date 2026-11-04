@@ -186,22 +186,22 @@ export const UNITS: UnitMeta[] = [
     "Puedo contar una experiencia completa: presente, pasado y planes.",
     "Puedo resolver situaciones de viaje y de vida diaria con seguridad.",
   ]),
-  // u25–u28: su contenido lo escribe el carril G1. Hasta entonces, "pronto" y fuera del flujo diario.
+  // u25–u28: unidades nuevas, ya con contenido y activas en el flujo diario.
   // El orden de estudio está en COURSE (course.ts), no en este arreglo.
-  u(25, "Alfabeto, deletreo, acento y supervivencia", false, [
+  u(25, "Alfabeto, deletreo, acento y supervivencia", true, [
     "Puedo presentarme y decir de dónde soy.",
     "Puedo deletrear mi nombre y pedir que me deletreen una palabra.",
     "Puedo decir que no entendí y pedir que repitan más despacio.",
   ], 1),
-  u(26, "Personas y familia", false, [
+  u(26, "Personas y familia", true, [
     "Puedo hablar de mi familia y describir a una persona.",
     "Puedo decir a qué me dedico y de qué país soy.",
   ], 2),
-  u(27, "Tiempo libre, gustos y clima", false, [
+  u(27, "Tiempo libre, gustos y clima", true, [
     "Puedo contar qué hago en mi tiempo libre.",
     "Puedo hablar del clima y de las estaciones.",
   ], 2),
-  u(28, "Comer fuera", false, [
+  u(28, "Comer fuera", true, [
     "Puedo entender un menú y pedir una comida completa.",
     "Puedo avisar de una alergia o preferencia y pedir la cuenta.",
   ], 3),
