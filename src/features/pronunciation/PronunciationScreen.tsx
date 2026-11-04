@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
-import { audioFiles, getPronUnit } from "../../content/pronunciation";
+import { audioFiles, getPronFor } from "../../content/pronunciation";
 import { getUnit } from "../../content/curriculum";
 import { toISODate } from "../../domain/dates";
 import { buildTrials, retryTrial } from "../../domain/pronunciation";
@@ -12,9 +12,9 @@ import { WordButton } from "./WordButton";
 
 const TRIALS = 8;
 
-export function PronunciationScreen({ unit }: { unit: string }) {
+export function PronunciationScreen({ unit, part = null }: { unit: string; part?: "A" | "B" | null }) {
   const { today, completeActivity } = useApp();
-  const data = getPronUnit(unit);
+  const data = getPronFor(unit, part);
   const meta = getUnit(unit);
   const [trials] = useState(() => (data ? buildTrials(data.pairs, audioFiles, TRIALS, `${toISODate(today)}:pron:${unit}`) : []));
   const [score, setScore] = useState(0);

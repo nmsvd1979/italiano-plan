@@ -1,10 +1,9 @@
 import { useState } from "react";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, routeQuery } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
-import { getVocab } from "../../content/vocab";
 import type { CoursePart } from "../../content/course";
-import { forPart } from "../../domain/parts";
+import { vocabForBlock } from "../../domain/vocabBlocks";
 import { toISODate } from "../../domain/dates";
 import { buildVocabQuiz, toQuizletText } from "../../domain/vocabQuiz";
 import { Icon } from "../../ui/Icon";
@@ -30,8 +29,9 @@ async function copy(text: string): Promise<boolean> {
 
 export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | null }) {
   const { today, completeActivity } = useApp();
-  const all = getVocab(unit);
-  const vocab = all && forPart(unit, part, "vocab", all).map(({ item }) => item);
+  // `?k=u04.d3.words3`: el último tramo dice qué bloque de palabras es (el día 1 trae las de la unidad; los días 3 a 5, la ampliación).
+  const blockId = routeQuery().get("k")?.split(".").pop();
+  const vocab = vocabForBlock(unit, part, blockId);
   const meta = getUnit(unit);
   const [stage, setStage] = useState<"learn" | "quiz" | "done">("learn");
   const [summary, setSummary] = useState<Summary | null>(null);
@@ -74,6 +74,7 @@ export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | 
                   </button>
                   <span className="vocab-it">{v.it}</span>
                   <span className="vocab-es">{v.es}</span>
+                  {v.ex && <span className="sub" style={{ gridColumn: 2, margin: 0, fontSize: 13 }}>{v.ex} · {v.exEs}</span>}
                 </div>
               ))}
             </div>

@@ -65,8 +65,8 @@ function Screens() {
   const pron = route.match(new RegExp(`^/pronunciacion/${UNIT}$`));
   if (pron) {
     return q.get("mode") === "comparar"
-      ? <PronCompareScreen key={`pron-cmp-${pron[1]}`} unit={pron[1]} />
-      : <PronunciationScreen key={`pron-${pron[1]}`} unit={pron[1]} />;
+      ? <PronCompareScreen key={`pron-cmp-${pron[1]}${partKey}`} unit={pron[1]} part={part} />
+      : <PronunciationScreen key={`pron-${pron[1]}${partKey}`} unit={pron[1]} part={part} />;
   }
   const own = route.match(new RegExp(`^/shadowing-propio/${UNIT}$`));
   if (own) return <OwnShadowingScreen key={`shadow-own-${own[1]}${partKey}`} unit={own[1]} part={part} />;
