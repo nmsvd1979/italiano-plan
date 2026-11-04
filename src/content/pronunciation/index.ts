@@ -13,15 +13,26 @@ export interface PronUnit {
 }
 
 import { NUEVAS } from "../nuevas";
+import { PRON_GLOSS, getPronStep } from "./sequence";
 
 export const PRON_UNITS = [...(unitsJson.units as PronUnit[]), ...NUEVAS.map((n) => n.pron)];
-export const GLOSS: Record<string, string> = { ...unitsJson.gloss, ...Object.assign({}, ...NUEVAS.map((n) => n.gloss)) };
+export const GLOSS: Record<string, string> = { ...PRON_GLOSS, ...unitsJson.gloss, ...Object.assign({}, ...NUEVAS.map((n) => n.gloss)) };
 
 /** Palabra (minúscula) → archivos de audio nativo disponibles (una voz por archivo). */
 const AUDIO = manifestJson as Record<string, string[]>;
 
 export function getPronUnit(unit: string): PronUnit | undefined {
   return PRON_UNITS.find((w) => w.unit === unit);
+}
+
+/**
+ * Pronunciación de una semana del curso (`u02` + parte A/B): el contraste propio de la semana (secuencia G6) y, si la semana
+ * no figura en la secuencia (por ejemplo, se abre desde la pantalla de la unidad), la pronunciación de la unidad.
+ */
+export function getPronFor(unit: string, part?: "A" | "B" | null): PronUnit | undefined {
+  const step = getPronStep(part ? `${unit}#${part}` : unit);
+  if (step) return { unit, title: step.title, tip: step.tip, pairs: step.pairs, words: step.words };
+  return getPronUnit(unit);
 }
 
 export function audioFiles(word: string): string[] {

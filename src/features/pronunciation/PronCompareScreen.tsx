@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
-import { GLOSS, audioFiles, getPronUnit } from "../../content/pronunciation";
+import { GLOSS, audioFiles, getPronFor } from "../../content/pronunciation";
 import { getUnit } from "../../content/curriculum";
 import { toISODate } from "../../domain/dates";
 import { appendLog } from "../../domain/activityLog";
@@ -18,9 +18,9 @@ import type { Take } from "../record/useRecorder";
 export const COMPARE_WORDS = 5;
 
 /** Repetir y comparar la pronunciación (docs/v2/05 E1/E2, día 4): oír el modelo nativo, grabarte, comparar y autoevaluarte. */
-export function PronCompareScreen({ unit }: { unit: string }) {
+export function PronCompareScreen({ unit, part = null }: { unit: string; part?: "A" | "B" | null }) {
   const { completeActivity, today } = useApp();
-  const data = getPronUnit(unit);
+  const data = getPronFor(unit, part);
   const meta = getUnit(unit);
   const [takes, setTakes] = useState<Record<string, Take>>({});
   const [noMic, setNoMic] = useState(false);

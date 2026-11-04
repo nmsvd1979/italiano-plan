@@ -13,6 +13,9 @@ export interface PronStep {
 
 const DATA = seq as unknown as { steps: Record<string, PronStep>; gloss: Record<string, string>; audioPending: string[] };
 
+/** Glosas de toda la secuencia (palabra en minúscula → significado). */
+export const PRON_GLOSS: Record<string, string> = DATA.gloss;
+
 export const PRON_STEP_IDS = Object.keys(DATA.steps);
 
 export function getPronStep(stepId: string): PronStep | undefined {
