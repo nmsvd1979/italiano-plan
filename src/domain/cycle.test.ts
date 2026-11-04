@@ -324,6 +324,9 @@ describe("migración desde la app anterior (14 §8)", () => {
     expect(wordsSeen("u04", new Set(["u04.d1.words"]))).toBe(true);
     expect(wordsSeen("u02", new Set(["u02#B.d3.words3"]))).toBe(true);
     expect(wordsSeen("u04", new Set())).toBe(false);
+    // En modo corto no se muestra el bloque de palabras: la lección (esencial) basta para que entren al repaso espaciado.
+    expect(wordsSeen("u04", new Set(["u04.d2.lesson"]))).toBe(true);
+    expect(wordsSeen("u02", new Set(["u02#A.d2.lesson"]))).toBe(true);
     expect(eligibleUnits({ done: new Set(["u02#A.d1.words"]) })).toEqual(["u02"]);
   });
 
