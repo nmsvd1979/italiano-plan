@@ -121,10 +121,16 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
   },
 ];
 
-/** Los 7 días de una semana del curso. */
+/**
+ * Los 7 días de una semana del curso. Los bloques `soon` (sin herramienta ni contenido) no se muestran ni suman minutos
+ * hasta que existan: así Hoy no lista cuatro filas «en preparación» cada semana (docs/v2/plan-b1/06).
+ */
 export function daysOf(step: CourseStep): CycleDay[] {
-  return DAY_TABLE.map((d, i) => ({ stepId: step.id, day: i + 1, name: d.name, blocks: d.blocks }));
+  return DAY_TABLE.map((d, i) => ({ stepId: step.id, day: i + 1, name: d.name, blocks: d.blocks.filter((b) => !b.soon) }));
 }
+
+/** Los bloques del ciclo que aún no existen (ocultos en `daysOf`). Al construir uno, se quita su `soon(...)` de DAY_TABLE. */
+export const PENDING_BLOCKS: readonly Block[] = DAY_TABLE.flatMap((d) => d.blocks.filter((b) => b.soon));
 
 /** Tras cada intento fallido de la mini-prueba: 2 días de repaso dirigido y una versión distinta de la prueba. */
 export function remedialDays(step: CourseStep, failures: number): CycleDay[] {
