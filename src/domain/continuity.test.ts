@@ -365,13 +365,13 @@ describe("huecos por cerrar (14 §5)", () => {
 /* ───────── puesta al día ───────── */
 
 describe("puesta al día de capas nuevas (14 §5)", () => {
-  it("ofrece lo que la app anterior no tenía; lo que no existe todavía figura en preparación", () => {
+  it("ofrece lo que la app anterior no tenía; lo que aún no existe no se ofrece", () => {
     const state = loadContinuity(new FakeStore());
     const items = catchupItems(getUnit("u04")!, state);
-    expect(items.map((i) => i.blockId)).toEqual(["repeat", "text", "questions", "own"]);
+    expect(items.map((i) => i.blockId)).toEqual(["repeat", "text", "questions"]);
     const repeat = items.find((i) => i.blockId === "repeat")!;
     expect(repeat).toMatchObject({ soon: false, done: false, to: "/dialogo/u04?c=u04.repeat" });
-    expect(items.filter((i) => i.soon).map((i) => i.blockId)).toEqual(["own"]);
+    expect(items.some((i) => i.soon)).toBe(false);
     expect(items.find((i) => i.blockId === "text")!.to).toBe("/lectura/u04?c=u04.text");
     expect(items.find((i) => i.blockId === "questions")!.to).toBe("/lectura/u04?mode=preguntas&c=u04.questions");
     for (const i of items) expect(i.minutes).toBeLessThanOrEqual(CATCHUP_MAX_MINUTES);

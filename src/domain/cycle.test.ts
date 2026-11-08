@@ -5,7 +5,7 @@ import { getLesson } from "../content/grammar";
 import { AVANCE_INICIAL } from "../content/avance-inicial";
 import { blockResources, blockRoute } from "../app/blockRoute";
 import {
-  CourseProgress, PASS_RATIO, blockDone, blockKey, currentSlot, dayComplete, daysFor, daysOf, isSoon, remedialDays,
+  CourseProgress, PASS_RATIO, PENDING_BLOCKS, blockDone, blockKey, currentSlot, dayComplete, daysFor, daysOf, isSoon, remedialDays,
   readySteps, recommendedLeft, todaySlots, unitSettled, visibleBlocks, weekComplete, wordsSeen,
 } from "./cycle";
 import { MINI_SIZE, miniItems, miniPassed } from "./miniTest";
@@ -45,13 +45,13 @@ describe("daysOf: la estructura de 04 §D1", () => {
     }
   });
 
-  it("la suma de bloques core por día está entre 12 y 18 min y la total entre 25 y 35", () => {
+  it("la suma de bloques core por día está entre 12 y 18 min y la total entre 23 y 35", () => {
     for (const d of daysOf(step("u04"))) {
       const core = d.blocks.filter((b) => b.core).reduce((n, b) => n + b.minutes, 0);
       const all = d.blocks.reduce((n, b) => n + b.minutes, 0);
       expect(core, `día ${d.day}`).toBeGreaterThanOrEqual(12);
       expect(core, `día ${d.day}`).toBeLessThanOrEqual(18);
-      expect(all, `día ${d.day}`).toBeGreaterThanOrEqual(25);
+      expect(all, `día ${d.day}`).toBeGreaterThanOrEqual(23);
       expect(all, `día ${d.day}`).toBeLessThanOrEqual(35);
     }
   });
@@ -73,11 +73,16 @@ describe("daysOf: la estructura de 04 §D1", () => {
     }
   });
 
-  it("los bloques sin herramienta ni contenido quedan «en preparación» y no tienen ruta", () => {
-    const unit = getUnit("u04")!;
-    const soon = daysOf(step("u04")).flatMap((d) => d.blocks.filter((b) => isSoon(b, unit)));
-    expect(soon.map((b) => b.id)).toEqual(expect.arrayContaining(["own", "shorttext", "speed", "retell"]));
-    expect(blockRoute(step("u04"), daysOf(step("u04"))[2], soon.find((b) => b.id === "shorttext")!)).toBeUndefined();
+  it("los bloques sin herramienta ni contenido no se muestran: quedan en PENDING_BLOCKS y no suman minutos", () => {
+    expect(PENDING_BLOCKS.map((b) => b.id)).toEqual(["own", "shorttext", "speed", "retell"]);
+    for (const s of COURSE) {
+      const blocks = daysOf(s).flatMap((d) => d.blocks);
+      expect(blocks.some((b) => b.soon), s.id).toBe(false);
+    }
+    // La semana con contenido real son 188 min (auditoría, medicion/minutos.ts); los 21 min de los bloques ocultos no se cuentan.
+    const week = (stepId: string) => daysOf(step(stepId)).flatMap((d) => d.blocks).reduce((n, b) => n + b.minutes, 0);
+    expect(week("u04")).toBe(188);
+    expect(PENDING_BLOCKS.reduce((n, b) => n + b.minutes, 0)).toBe(21);
   });
 });
 
