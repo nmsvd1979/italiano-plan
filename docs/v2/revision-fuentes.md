@@ -132,3 +132,15 @@ Un contraste nuevo por semana del curso (35 pasos) según la columna «Contraste
 | Verificación | **V1**: todas las palabras (salvo tres formas con tilde de estudio: *àncora, càpitano, numerò*) están en `it_50k`. Cada palabra tiene significado en español (de `units.json`, de los vocabularios del curso o de la glosa nueva). |
 | Audio | 212 de las 367 palabras y frases no tienen grabación nativa en el manifest (`audioPending` en el JSON). Se generan o se bajan en el carril C; no entran a `AUDIO_PENDING` de `index.ts` hasta que Code conecte la secuencia. |
 | Pendiente | Segunda pasada independiente (G-R). Los consejos de pronunciación son V1 (descripciones articulatorias estándar); no se contrastaron con una fuente externa por contraste. |
+
+## Plan B1 · Ejercicios de F1: u25 (+16), u01 (+10), u03 (+7), u04 (+10) (8-nov-2026, rama `contenido/ejercicios-f1`)
+43 ejercicios nuevos agregados **al final** de cada lista (los ids existentes no cambian; lo vigila `exercises.guard.test.ts`). Solo usan formas ya enseñadas en la lección o conjugaciones estándar de los verbos de la unidad.
+
+| Nivel | Qué se hizo |
+|---|---|
+| **V1** | Las palabras italianas de los 43 ejercicios se cotejaron con `napolux/paroleitaliane` (280.000 formas + nombres propios) y `it_50k`. Sin reconocer, ninguna es un error: *cinquantanove* (compuesto largo, legítimo), *dovo* y *cuu* (distractores incorrectos a propósito) y los morfemas *-iamo, -isc-*. Lo demás que salió es español de los enunciados |
+| **V2** | **No se consultó ninguna fuente nueva.** Los nombres de las letras (*ci, esse, erre, zeta, cu, gi*) y los números salen de la tabla de la lección de u25 y de las reglas de u03 (ya revisadas antes); las conjugaciones (*parlate, prende, dormiamo, posso, deve, vogliamo, chiedono, finite, devo*) son paradigmas estándar sin forma dudosa |
+| **V3** | Segunda pasada por otra sesión que solo vio la lista de ejercicios (sin el contexto de redacción), **de memoria y sin internet**. No marcó errores de italiano. Observaciones: (1) *vogliamo un tavolo* en restaurante suena brusco → **cambiado** a *Noi ___ mangiare una pizza*; (2) aceptar *quindici* en *Sono le sei e ___* → **aceptado** (u03 ya enseña *Alle diciassette e quindici*); (3) dijo que el distractor *Di dov'è?* es agramatical → **no se acepta**: es el trato formal correcto y la lección ya lo usa (*Di dov'è, signora?*), el enunciado dice que se habla con un amigo; (4) mayúsculas y tilde: el calificador ya las trata (*casi*) |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
+Esto **no es revisión de un nativo**: la V3 no consultó fuentes y es de una sola sesión.
