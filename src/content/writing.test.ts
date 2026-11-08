@@ -37,7 +37,21 @@ describe("consigna de escritura por semana", () => {
     expect(getWritingTexts(s)).toEqual({ u02: "testo A" });
   });
 
-  it.todo("en las 7 unidades partidas la consigna y el modelo de la semana B son distintos de los de la A (PR de contenido)");
+  it("en las 7 unidades partidas la consigna y el modelo de la semana B son distintos de los de la A", () => {
+    const partidas = COURSE.filter((s) => s.part === "B");
+    expect(partidas.map((s) => s.unit)).toEqual(["u02", "u03", "u05", "u06", "u07", "u14", "u15"]);
+    for (const s of partidas) {
+      const a = getWriting(s.unit, "A")!;
+      const b = getWriting(s.unit, "B")!;
+      expect(b, s.id).not.toBe(a);
+      expect(b.prompt, s.id).not.toBe(a.prompt);
+      expect(b.model, s.id).not.toBe(a.model);
+    }
+  });
+
+  it("las consignas B de nivel «marcos» traen sus marcos de frase", () => {
+    for (const u of ["u07", "u14"]) expect(getWriting(u, "B")!.frames?.length, u).toBeGreaterThanOrEqual(3);
+  });
 });
 
 describe("ampliación opcional del texto (extend)", () => {
