@@ -154,3 +154,14 @@ Solo dos monólogos, para probar la pantalla (`src/content/monologos.ts`). El re
 | Dudas | Ninguna nueva para `dudas-italiano.md` |
 
 No es revisión de un nativo.
+
+## Plan B1 · Audio de la fase 1 (8-nov-2026, rama `feat/audio-f1`)
+Clips de Serena para lo nuevo de las semanas 1 a 7 (`scripts/tts/alcance-nuevo.json`): frases de ejemplo del vocabulario (241), textos modelo de escritura (7), modelos de monólogo (7) y palabras de la pronunciación semanal sin grabación nativa (29).
+
+| Nivel | Qué se hizo |
+|---|---|
+| **V1** | Todas las palabras cotejadas con `napolux/paroleitaliane` e `it_50k`: solo salieron *Nicolás* (nombre con tilde española), *qualcos'* (apóstrofo) y *àncora* (forma con tilde de estudio, ya registrada) |
+| **V3** | Segunda pasada de otra sesión, de memoria y sin internet: 0 errores de italiano; **7 frases dudosas** → excluidas del audio y anotadas en `docs/dudas-italiano.md`. G3 estaba en el alcance de la pasada G-R (`docs/v2/16`); no se verificó aquí el resultado frase por frase |
+| Regla | Solo se sintetiza lo que no figura en `exclusiones.json` ni `dudas-italiano.md` |
+
+No es revisión de un nativo, y **nadie oyó los clips nuevos** hasta que los pruebes en el iPhone.
