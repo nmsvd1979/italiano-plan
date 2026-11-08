@@ -113,5 +113,8 @@ Protocolo de `12` §6 y `auditoria/_verificacion.md`: (V1) `scripts/verificar-fu
 - Si el audio suena bien (997 clips actuales + los nuevos) y si la PWA aguanta la caché en iOS: solo el iPhone.
 - Un umbral externo de B1: falta abrir la valoración del CILS B1 o un simulacro oficial.
 
+## Expectativa honesta de horas
+El curso suma unas 110 h nominales (≈ 100 h con los bloques que existen de verdad). Una referencia secundaria del FSI de EE. UU. (`11` §7) pone el italiano en su categoría más fácil para angloparlantes en ≈ 575–600 h de clase intensiva hasta un nivel profesional; no hay cifra para hispanohablantes, que parten con ventaja. Es solo un orden de magnitud, pero indica que **este curso llevará a A2 sólido y a la entrada del puente; llegar a un B1 funcional exigirá más horas y más contenido** (lectura y escucha en volumen, monólogos, vocabulario). Eso es lo que justifica seguir agregando contenido después de los dos meses.
+
 ## Cómo usar este plan
 Cada archivo se lee solo: empieza con «Qué es», «Evidencia», «Cómo se arma», «Cómo se verifica el italiano», «Tests nuevos», «Tamaño y orden», «Dependencias» y «Qué no se puede medir». Al aprobarse un PR, se anota en `docs/v2/11` §8 (registro) y se tacha aquí.
