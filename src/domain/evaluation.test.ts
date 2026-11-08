@@ -7,7 +7,7 @@ import { hasReserve, loadPruebas, pruebasDisponibles, validatePruebas, type Prue
 import { LOG_KEY, MINUTES_CAP, addMinutes, loadLog, parseBlockKey } from "./activityLog";
 import { BACKUP_APP, BACKUP_VERSION, buildBackup, parseBackup } from "./backup";
 import {
-  AREAS, MINI_TARGET, levelBattery, miniBattery, phaseBattery, pointsOf, scoreAreas, totalOf, vocabItems, weakAreas, type TestItem,
+  AREAS, MINI_TARGET, levelBattery, levelUnits, miniBattery, phaseBattery, objectiveTotalOf, pointsOf, scoreAreas, totalOf, vocabItems, weakAreas, type TestItem,
 } from "./evaluation";
 import { activeWords, areaAccuracy, recallRate, reinforcementAreas, strandMinutes, studiedDays, strandOf } from "./panel";
 import { emptySrs, newSrsCard, rateCard, applyReview } from "./srs";
@@ -112,15 +112,31 @@ describe("prueba de fase y de nivel", () => {
   });
 
   it("prueba de nivel: ≈ 30 ítems, y distinta de la de las fases", () => {
-    const all = READY_UNITS.filter((u) => u.n <= 24).map((u) => u.id);
+    const all = levelUnits();
     const sin = levelBattery(all, {}, srs, "level:0");
-    expect(sin.items).toHaveLength(24);
+    expect(sin.items).toHaveLength(all.length);
     expect(sin.items.every((i) => i.area === "gramatica")).toBe(true);
     const con = levelBattery(all, reserve(all), srs, "level:0");
     expect(con.items.length).toBeGreaterThanOrEqual(26);
     expect(con.items.length).toBeLessThanOrEqual(32);
     expect(con.missing).toEqual([]);
     expect(levelBattery(all, reserve(all), srs, "level:1").items.map((i) => i.id)).not.toEqual(con.items.map((i) => i.id));
+  });
+});
+
+describe("unidades de la prueba de nivel A2", () => {
+  it("son las del núcleo: incluyen u25–u28 y dejan fuera el puente a B1", () => {
+    const u = levelUnits();
+    for (const id of ["u25", "u26", "u27", "u28", "u24", "u01", "u20"]) expect(u).toContain(id);
+    for (const id of ["u21", "u22", "u23"]) expect(u).not.toContain(id);
+    expect(new Set(u).size).toBe(u.length);
+  });
+
+  it("la producción autoevaluada no cuenta en el total del aprobado", () => {
+    const scores = { gramatica: { correct: 8, total: 10 }, produccion: { correct: 0, total: 2 } };
+    expect(totalOf(scores)).toEqual({ correct: 8, total: 12 });
+    expect(objectiveTotalOf(scores)).toEqual({ correct: 8, total: 10 });
+    expect(objectiveTotalOf({})).toEqual({ correct: 0, total: 0 });
   });
 });
 

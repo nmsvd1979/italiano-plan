@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
-import { READY_UNITS } from "../../content/curriculum";
 import { loadPruebas } from "../../content/pruebas";
 import { toISODate } from "../../domain/dates";
 import { appendLog } from "../../domain/activityLog";
-import { AREAS, AREA_NAME, PASS_LEVEL, levelBattery, scoreAreas, totalOf, weakAreas, type AreaScores, type Battery } from "../../domain/evaluation";
+import { AREAS, AREA_NAME, PASS_LEVEL, levelBattery, levelUnits, objectiveTotalOf, scoreAreas, weakAreas, type AreaScores, type Battery } from "../../domain/evaluation";
 import { loadSrs } from "../../domain/srs";
 import { addLevelTest, getLevelTests } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
@@ -23,21 +22,21 @@ export function LevelTestScreen() {
     let off = false;
     void loadPruebas().then((p) => {
       if (off) return;
-      const units = READY_UNITS.filter((u) => u.n <= 24).map((u) => u.id);
-      setBattery(levelBattery(units, p, loadSrs(window.localStorage), `level:${attempts}`));
+      setBattery(levelBattery(levelUnits(), p, loadSrs(window.localStorage), `level:${attempts}`));
     });
     return () => { off = true; };
   }, [attempts]);
 
   const finish = (rs: TestResult[]) => {
     const s = scoreAreas(rs.map((r) => ({ area: r.item.area, points: r.points })));
-    const t = totalOf(s);
+    // El aprobado cuenta solo lo objetivo: la producción es autoevaluada. El total guardado es el mismo.
+    const t = objectiveTotalOf(s);
     addLevelTest({ date: toISODate(today), correct: t.correct, total: t.total, byArea: s as Record<string, { correct: number; total: number }> });
     for (const a of AREAS) if (s[a]) appendLog(window.localStorage, { date: toISODate(today), unit: "u24", activity: `nivel:${a}`, minutes: 0, correct: s[a]!.correct, total: s[a]!.total });
     setScores(s);
   };
 
-  const t = scores ? totalOf(scores) : null;
+  const t = scores ? objectiveTotalOf(scores) : null;
   const passed = t ? t.total > 0 && t.correct / t.total >= PASS_LEVEL : false;
   const weak = scores ? weakAreas(scores) : [];
 
@@ -60,7 +59,7 @@ export function LevelTestScreen() {
               {passed ? `Llegaste al ${Math.round(PASS_LEVEL * 100)} % que se pide.` : `Para el nivel hace falta ${Math.round(PASS_LEVEL * 100)} %. Refuerza ${weak.length ? weak.map((a) => AREA_NAME[a].toLowerCase()).join(", ") : "lo que fallaste"} y vuelve a intentarlo cuando quieras.`}
               {" "}Los umbrales son provisionales y se ajustan con tus datos reales.
             </p>
-            <ResultView scores={scores} battery={battery} />
+            <ResultView scores={scores} battery={battery} objective />
             <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
           </>
         ) : (
