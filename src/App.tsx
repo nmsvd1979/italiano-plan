@@ -28,6 +28,7 @@ import { Setup } from "./features/setup/Setup";
 import { Today } from "./features/today/Today";
 import { VocabScreen } from "./features/vocab/VocabScreen";
 import { WritingScreen } from "./features/writing/WritingScreen";
+import { MonologueScreen } from "./features/speaking/MonologueScreen";
 import { SystemVoiceHint } from "./ui/SystemVoiceHint";
 
 const UNIT = "(u\\d{2})";
@@ -76,6 +77,8 @@ function Screens() {
   if (vocab) return <VocabScreen key={`vocab-${vocab[1]}${partKey}`} unit={vocab[1]} part={part} />;
   const writing = route.match(new RegExp(`^/escritura/${UNIT}$`));
   if (writing) return <WritingScreen key={`writing-${writing[1]}${partKey}${q.get("reescribir") ?? ""}`} unit={writing[1]} part={part} rewrite={q.get("reescribir") === "1"} />;
+  const mono = route.match(new RegExp(`^/monologo/${UNIT}$`));
+  if (mono) return <MonologueScreen key={`mono-${mono[1]}${partKey}`} unit={mono[1]} part={part} />;
   const dictation = route.match(new RegExp(`^/dictado/${UNIT}$`));
   if (dictation) return <DictationScreen key={`dictation-${dictation[1]}${partKey}`} unit={dictation[1]} part={part} />;
   const dialogue = route.match(new RegExp(`^/dialogo/${UNIT}$`));

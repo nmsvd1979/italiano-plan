@@ -1,6 +1,7 @@
 import { COURSE, type CourseStep } from "../content/course";
 import { getUnit, sessionsOf, type UnitMeta } from "../content/curriculum";
 import type { IconKey } from "../content/plan";
+import { hasMonologue } from "../content/monologos";
 import type { MiniTests } from "./storage";
 
 // Ciclo de 7 días por semana del curso (docs/v2/04 D1). Cada semana es un CourseStep (una unidad, o su parte A o B).
@@ -10,7 +11,7 @@ import type { MiniTests } from "./storage";
 
 export type BlockKind =
   | "srs" | "dialogue" | "vocab" | "pron" | "lesson" | "practice" | "dictation" | "shadowing" | "writing"
-  | "cando" | "review" | "mini" | "input" | "failed" | "soon" | "reading" | "readq" | "sinpista";
+  | "cando" | "monologue" | "review" | "mini" | "input" | "failed" | "soon" | "reading" | "readq" | "sinpista";
 
 export interface Block {
   /** Único dentro del día. */
@@ -28,6 +29,8 @@ export interface Block {
   legacy?: string[];
   /** Aún no hay herramienta ni contenido: se muestra «en preparación» y no bloquea el día. */
   soon?: boolean;
+  /** Solo aparece en las semanas que tienen monólogo escrito (`content/monologos.ts`). */
+  hideUnless?: "monologue";
   /** Cuántos ejercicios usa la práctica de este bloque. */
   size?: number;
   /** En la mini-prueba: número de intento (0 = la primera). */
@@ -107,7 +110,7 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
     blocks: [
       srs,
       { id: "writing", kind: "writing", name: "Escritura guiada", minutes: 13, core: true, icon: "pen", needs: "writing", legacy: ["writing"] },
-      soon("retell", "Volver a contar sin mirar", 6, false, "chat"),
+      { id: "retell", kind: "monologue", name: "Hablar sin mirar", minutes: 6, core: false, icon: "chat", hideUnless: "monologue" },
       { id: "cando", kind: "cando", name: "«Puedo…»", minutes: 5, core: false, icon: "target" },
     ],
   },
@@ -123,10 +126,11 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
 
 /**
  * Los 7 días de una semana del curso. Los bloques `soon` (sin herramienta ni contenido) no se muestran ni suman minutos
- * hasta que existan: así Hoy no lista cuatro filas «en preparación» cada semana (docs/v2/plan-b1/06).
+ * hasta que existan: así Hoy no lista filas «en preparación» cada semana (docs/v2/plan-b1/06). «Hablar sin mirar» solo aparece
+ * en las semanas con monólogo escrito.
  */
 export function daysOf(step: CourseStep): CycleDay[] {
-  return DAY_TABLE.map((d, i) => ({ stepId: step.id, day: i + 1, name: d.name, blocks: d.blocks.filter((b) => !b.soon) }));
+  return DAY_TABLE.map((d, i) => ({ stepId: step.id, day: i + 1, name: d.name, blocks: d.blocks.filter((b) => !b.soon && !(b.hideUnless === "monologue" && !hasMonologue(step.id))) }));
 }
 
 /** Los bloques del ciclo que aún no existen (ocultos en `daysOf`). Al construir uno, se quita su `soon(...)` de DAY_TABLE. */
