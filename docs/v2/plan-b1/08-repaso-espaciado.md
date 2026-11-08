@@ -38,6 +38,8 @@ Por eso D8 incluye dos condiciones, ambas **antes** de dar por buena la ampliaci
 1. **Mazo general dentro del SRS:** las 574 de `base-frecuente.json` entran al repaso (hoy no se usan en ninguna pantalla), después de las ampliadas de la unidad que ya vio, con el mismo tope de 5 nuevas/día del mazo extra. Es el PR 8d (M), tras 8a.
 2. **Revisión por ámbitos, sin inventar:** un script (`scripts/cobertura-lexico.ts`, S) cuenta las palabras de la app por ámbito (trabajo y oficina, estudios, transporte, vivienda, salud, trámites, compras, ocio, medios y tecnología) y lista los ámbitos con menos de un mínimo que ella fije. Para etiquetar cada palabra con un ámbito hace falta una pasada de contenido (≈ 1.980 etiquetas, en `vocab-g3.json` campo `domain`); mientras no exista, el recuento por ámbito **no es medible** y el plan no afirma cobertura. Si el recuento muestra un hueco (por ejemplo, trabajo), se escribe un lote de palabras con frase (≈ 60–100 por ámbito), con el protocolo V1–V3 del plan y a `docs/dudas-italiano.md` lo dudoso.
 
+**Medición de cobertura real (E6, `11` §3).** Con la lista `it_50k` (no se guarda en el repo) se midió que todo el italiano que la app muestra cubre el 73,9 % de las palabras de esa lista, y las 577 + 829 + 574 palabras de tarjetas, 65,4 %. El script `scripts/cobertura-lexico.ts` repite la medición en cada PR de vocabulario; no fija meta numérica inventada.
+
 ## Cómo se mide que funcionó (con el código existente, sin inventar)
 Se vuelve a correr `docs/v2/auditoria/medicion/sim2.ts` y `post.ts` con la lista ampliada (el script usa `wordsOfUnit`) y se compara:
 | Medida | Hoy (auditoría) | Meta propuesta (criterio propio) |

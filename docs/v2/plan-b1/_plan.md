@@ -15,6 +15,7 @@
 | 8 | Repaso espaciado | [08-repaso-espaciado.md](08-repaso-espaciado.md) | código | no |
 | 9 | Puente a B1 | [09-puente-b1.md](09-puente-b1.md) | código + contenido | sí |
 | 10 | Medir «listo para B1» | [10-listo-para-b1.md](10-listo-para-b1.md) | código | no |
+| 11 | Métodos de aprendizaje y evidencia | [11-metodos-de-aprendizaje.md](11-metodos-de-aprendizaje.md) | análisis; ajusta 02, 06 y 08 | no |
 | — | Fuentes y comparación A2/B1 | [_fuentes.md](_fuentes.md) | — | — |
 
 ## Lo que cambia respecto al encargo (leer primero)
@@ -24,6 +25,9 @@
 4. **Hallazgos nuevos del código:** (a) A y B de una unidad partida compartirían el texto guardado si solo cambia la consigna (se guarda por unidad: `01`); (b) la prueba de nivel A2 evalúa con u21–u23 (puente) y deja fuera u25–u28 (`05`); (c) el texto de «Terminaste lo disponible» menciona semanas «pronto» que ya no existen; (d) 0 de 28 consignas de escritura traen `mustInclude`; (e) los 4 bloques «en preparación» inflan la semana: 167 min reales frente a 188 nominales.
 5. **No pude abrir:** CELI 1/2 de Perugia (error de certificado), *Profilo della lingua italiana*, las páginas de detalle y valoración del CILS. Por eso **no hay umbral de aprobación del CILS B1** en el plan; los umbrales de `10` son propios.
 6. **Piper:** existe en el Mac de la persona (`/opt/anaconda3/bin/piper` y `it_IT-serena-high.onnx` en Descargas, comprobado por existencia, no ejecutado). **En la nube no se puede contar con él**: los mp3 los genera ella (`07`).
+
+## Ajustes por la evidencia (`11`)
+Tras revisar los métodos de estudio se agregan al orden de PR: (E1) monólogo en tres vueltas con retroalimentación diferida (`02`); (E2) «Practicar más» como extra por defecto y aviso en «Hacer más hoy» (`06a`); (E3) modo «pares confundibles» (`06a`, hipótesis a probar); (E4) «Releer con recuperación» en lugar de «Texto corto nuevo» (`06b`); (E5) **PR nuevo, ola 2:** «Diálogo con huecos» en la pasada 2 del diálogo (feat, M); (E6) **PR nuevo, ola 1, con 8d:** `scripts/cobertura-lexico.ts` que mide la cobertura del vocabulario frente a `it_50k` (hoy: 73,9 % de las palabras de la lista con todo lo que la app muestra; es la brecha mayor para B1); (E7) al agregar contenido, prioridad a lectura y escucha fáciles en volumen.
 
 ## Cuándo necesita cada cosa (a su ritmo)
 La simulación de la auditoría dice: a 30 min/día el curso dura 222 días, ≈ **6,3 días por semana del curso** (es una simulación con supuestos, no un dato de uso). Con dos meses de estudio (≈ 60 días) llega a la **semana 9** (u25, u01, u02A/B, u03A/B, u04, u05A/B); a 60 min/día, a la semana 19 (hasta u11). Por eso el orden prioriza lo que ella tocará pronto:
@@ -53,7 +57,8 @@ Cada PR corre `npm test` y `npm run build` y trae los tests de su frente. «Lo p
 | | 15 | Ejercicios u05, u06, u08 (19) | 3 | contenido | M | — | No |
 | | 16 | `mustInclude` + `extend` + monólogos F2–F3 | 1, 2 | contenido | M × 2 | 9, 10 | No |
 | | 17 | Audio F2 | 7c | audio | M | 12 | Sí (oído) |
-| | 18 | «Releer un texto anterior» y «Números y frases a velocidad» | 6b-2/3 | feat + contenido | S + M | 1 | Sí |
+| | 17b | «Diálogo con huecos» en la pasada 2 (E5) | 11 | feat | M | — | Sí (uso) |
+| | 18 | «Releer con recuperación» (E4) y «Números y frases a velocidad» | 6b-2/3 | feat + contenido | S + M | 1 | Sí |
 | **3 · semanas 20–35** | 19 | Ejercicios u12, u15, u16, u17 (29) | 3 | contenido | M | — | No |
 | | 20 | Conectores, relativas y exclamativas (u20, u17) | 4 | contenido | S–M | 5 | No |
 | | 21 | `mustInclude` + `extend` + monólogos F4–F6 | 1, 2 | contenido | M × 2 | 16 | No |
@@ -87,20 +92,20 @@ El contenido escrito a la medida que ya cumple las cuotas de `CLAUDE.md` (≥ 5 
 Protocolo de `12` §6 y `auditoria/_verificacion.md`: (V1) `scripts/verificar-fuentes.mjs` sobre todo el texto nuevo; (V2) fuente abierta citada con URL en `docs/v2/revision-fuentes.md` para toda forma que no esté ya enseñada; (V3) segunda pasada independiente. Léxico acumulado ≥ 95 % (`scripts/lexico-acumulado.ts`). **Lo dudoso va a `docs/dudas-italiano.md`, no se usa de modelo y no recibe audio.** Ninguno de estos niveles equivale a revisión nativa y no se presenta como tal.
 
 ## Decisiones que le tocan a la persona (con recomendación)
-**Estado (7-nov):** D1 meta = comunicarse y seguir aprendiendo, no rendir un examen (los umbrales y tareas se orientan a hablar y escribir; lo específico del CILS baja de prioridad). D2 ◐ = escritura ampliada y monólogo se mantienen como opcionales mientras aporten; queda pendiente un análisis con fuentes abiertas de qué prácticas aportan más para comunicarse. D3, D4, D5, D6, D7, D8 decididas. Pendientes: D9, D10.
+**Estado (7-nov):** D1 meta = comunicarse y seguir aprendiendo, no rendir un examen (los umbrales y tareas se orientan a hablar y escribir; lo específico del CILS baja de prioridad). D2 = opcionales, monólogo antes que `extend`, según `11`. D3–D10 decididas. **Sin decisiones pendientes.**
 
 | # | Decisión | Opciones | Recomendación |
 |---|---|---|---|
 | D1 ✅ | ¿Qué significa «listo para B1»? | (a) entrar a un curso B1; (b) rendir un examen como el CILS B1 | **(a) con producción larga de (b)**: es lo que `09` y `10` ya proponen. Si es (b) estricto, hay que abrir las páginas del CILS que faltan |
-| D2 ◐ | Escritura `extend` y monólogo: ¿obligatorios? | obligatorios en el ciclo / opcionales | **Opcionales** (`extend` por botón; el monólogo sustituye a un bloque no *core*): no sube los minutos |
+| D2 ✅ | Escritura `extend` y monólogo: ¿obligatorios? | obligatorios en el ciclo / opcionales | **Decidido con el análisis de `11`: opcionales y no *core*; el monólogo (en tres vueltas) va antes que `extend`**. (`extend` por botón; el monólogo sustituye a un bloque no *core*): no sube los minutos |
 | D3 ✅ | Ocultar ya los bloques «en preparación» | sí / no | **Sí** (PR 1): quita ruido y baja la semana a 167 min reales |
 | D4 ✅ | «Volver a contar sin mirar» | convertirlo en monólogo / quitarlo del ciclo | **Convertirlo** (`02`) |
 | D5 ✅ | Audio nuevo y cuota de iOS (≈ 40 MB en total) | generar todo / por fase tras probar | **Decidido (7-nov): por fase.** Generar F1, probar en el iPhone con ~26 MB; no generar F2 hasta resolver |
 | D6 ✅ | *Poiché, siccome, ciascuno* | producir / solo reconocer | **Decidido: solo reconocer** (`04`) |
 | D7 ✅ | Unidad nueva `u29` (*trapassato*, *condizionale passato*, *congiuntivo passato*) | hacerla / no | **Decidido: no por ahora**; se reconsidera al llegar al puente |
 | D8 ✅ | Mazo extra del repaso | seguir con el set de Quizlet / usar `base-frecuente.json` | **Decidido: `base-frecuente.json`**, con la condición de que el vocabulario alcance para entender, seguir una conversación y trabajar: PR 8d y script de cobertura por ámbitos (`08`, sección «Suficiencia del vocabulario») |
-| D9 | Ítems largos en la prueba de nivel A2 | agregarlos / dejarlo | **Dejarlo**; el módulo «Práctica B1» ya los cubre |
-| D10 | «Texto corto nuevo» | 35 textos nuevos / releer uno anterior | **Releer** (0 contenido) |
+| D9 ✅ | Ítems largos en la prueba de nivel A2 | agregarlos / dejarlo | **Decidido: dejarlo como está**; el módulo «Práctica B1» ya los cubre y la evidencia favorece evaluarse seguido, no pruebas más largas (`11`) |
+| D10 ✅ | «Texto corto nuevo» | 35 textos nuevos / releer uno anterior | **Decidido: a, pero «releer con recuperación»** (responder de memoria antes de ver el texto), no relectura pasiva (`11` E4). Los textos nuevos se escriben al agregar contenido |
 
 ## Qué no se puede medir (y qué haría falta)
 - Corrección de lo escrito y de lo hablado: falta reconocimiento de voz o un corrector; con la restricción de «sin cuentas ni servicios de pago» se queda en autoevaluación, puntos tachados y duración.

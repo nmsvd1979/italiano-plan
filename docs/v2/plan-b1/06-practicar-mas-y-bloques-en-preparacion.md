@@ -72,3 +72,8 @@ PR 6b-0 (S, `fix`) → 6b-1 propias (M) → 6b-2 texto anterior (S) → 6b-3 vel
 
 ### Qué no se puede medir
 Cuánto tarda cada bloque nuevo (nominal 4–6 min es un supuesto). Si aportan a la meta: las valoraciones por actividad (1–3) de `11` §4 son el único dato previsto, y requieren uso real.
+
+## Ajustes por la evidencia (`11`)
+- **E2:** «Practicar más» es el extra por defecto cuando el día termina; «Hacer más hoy» sigue existiendo, con una línea que avisa que lo adelantado se estudia sin espaciado (a 120 min/día se avanzan ≈ 4,6 semanas del curso por día natural).
+- **E3:** modo opcional «pares confundibles» (hipótesis a probar con el uso, evidencia mixta): intercala ejercicios de estructuras que se confunden (*passato prossimo*/imperfetto, directos/indirectos).
+- **E4 (D10):** el bloque «Texto corto nuevo» pasa a **«Releer con recuperación»**: se oculta el texto de una semana anterior, se responden de memoria sus 4 preguntas y solo después se muestra el texto con su audio. No es relectura pasiva. Contenido nuevo: 0; código: S.
