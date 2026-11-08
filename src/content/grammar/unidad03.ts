@@ -138,5 +138,12 @@ export const unidad03: Lesson = {
     { type: "fill", prompt: "Il libro costa ___ euro. (200)", answers: ["duecento"], why: "200 = *duecento*, pegado y sin *e*." },
     { type: "fill", prompt: "Il biglietto costa ___ euro. (150)", answers: ["centocinquanta"], why: "150 = *centocinquanta*, todo junto." },
     { type: "choice", prompt: "Preguntas qué fecha es hoy:", options: ["Che giorno è oggi?", "Che giorno ha oggi?", "Quale giorno sono oggi?"], answer: 0, why: "*Che giorno è oggi?* es la forma estándar." },
+    { type: "fill", prompt: "Dopo cinquantanove viene ___. (60)", answers: ["sessanta"], why: "59 = *cinquantanove*; 60 = *sessanta*." },
+    { type: "fill", prompt: "Ho ___ anni. (45)", answers: ["quarantacinque"], why: "45 = *quarantacinque*, todo junto." },
+    { type: "fill", prompt: "Il treno parte alle ___ e mezza. (5:30)", answers: ["cinque"], why: "*Alle cinque e mezza* = a las cinco y media." },
+    { type: "fill", prompt: "Sono le sei e ___. (6:15)", answers: ["un quarto", "quindici"], why: "*E un quarto* = y cuarto; también se oye *e quindici* (6:15)." },
+    { type: "choice", prompt: "«Sono le tre e mezza.» ¿Qué hora es?", options: ["3:30", "2:30", "4:30"], answer: 0, why: "*E mezza* = y media: las tres y media." },
+    { type: "fill", prompt: "Il compleanno di Anna è il ___ dicembre. (25)", answers: ["venticinque"], why: "25 = *venticinque*, todo junto." },
+    { type: "choice", prompt: "Un panino cuesta 3,50. ¿Cómo se dice?", options: ["tre euro e cinquanta", "tre e euro cinquanta", "cinquanta euro e tre"], answer: 0, why: "Primero los euros y luego los centavos: *tre euro e cinquanta*." },
   ],
 };
