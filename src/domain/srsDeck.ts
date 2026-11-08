@@ -1,6 +1,6 @@
 import { findExercise, type Fill } from "../content/grammar";
 import { getDictation } from "../content/dictation";
-import { getVocab } from "../content/vocab";
+import { getVocab, getWords } from "../content/vocab";
 import type { SinPista } from "../content/sinpista";
 import { isSinPistaId, resolveSinPista } from "./sinpistaSrs";
 import { rng, shuffle } from "./review";
@@ -43,6 +43,22 @@ export function wordsOfUnit(unit: string): Word[] {
   return out;
 }
 
+/**
+ * Palabras de la unidad más sus palabras ampliadas (G3), sin repetir. Sirve para encontrar el contenido de cualquier tarjeta
+ * ya creada y para armar distractores; qué palabras ampliadas entran a la cola lo decide `srsExtras.ts`.
+ */
+export function allWordsOfUnit(unit: string): Word[] {
+  const seen = new Set<string>();
+  const out: Word[] = [];
+  for (const v of getWords(unit) ?? []) {
+    const itemId = wordItemId(unit, v.it);
+    if (seen.has(itemId)) continue;
+    seen.add(itemId);
+    out.push({ itemId, unit, it: v.it, es: v.es });
+  }
+  return out;
+}
+
 /** El mazo extra se carga solo cuando se necesita: no pesa en la carga inicial. */
 export async function loadQuizletDeck(): Promise<QuizletEntry[]> {
   const mod = await import("../../data/quizlet-1400.json");
@@ -75,7 +91,7 @@ export function resolveCard(card: SrsCard, ctx: DeckContext): Resolved | null {
       const q = ctx.quizlet.get(card.itemId);
       return q ? { kind: card.kind, it: q.it, es: q.es } : null;
     }
-    const w = wordsOfUnit(card.unit).find((x) => x.itemId === card.itemId);
+    const w = allWordsOfUnit(card.unit).find((x) => x.itemId === card.itemId);
     return w ? { kind: card.kind, it: w.it, es: w.es } : null;
   }
   if (isSinPistaId(card.itemId)) {
@@ -106,7 +122,7 @@ export function choicesFor(card: SrsCard, correct: string, ctx: DeckContext, uni
   const distinct = (list: string[]) => [...new Set(list)].filter((es) => es !== correct);
   const same = card.deck === "quizlet"
     ? distinct([...ctx.quizlet.values()].map((q) => q.es))
-    : distinct(wordsOfUnit(card.unit).map((w) => w.es));
+    : distinct(allWordsOfUnit(card.unit).map((w) => w.es));
   const others = card.deck === "quizlet"
     ? []
     : distinct(units.filter((u) => u !== card.unit).flatMap(wordsOfUnit).map((w) => w.es));

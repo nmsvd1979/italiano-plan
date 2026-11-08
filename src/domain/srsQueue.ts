@@ -3,7 +3,7 @@ import { addDays, diffInDays, formatDateHuman, parseISODate, toISODate } from ".
 import type { Progress } from "./curriculum";
 import { wordsSeen } from "./cycle";
 import { dayOf, cardId, type CardKind, type SrsCard, type SrsState } from "./srs";
-import { quizletItemId, wordsOfUnit, type QuizletEntry } from "./srsDeck";
+import { quizletItemId, wordsOfUnit, type QuizletEntry, type Word } from "./srsDeck";
 
 // Cola diaria (docs/v2/02 B5).
 
@@ -54,6 +54,8 @@ export interface QueueInput {
   eligibleUnits: string[];
   /** Entradas del mazo extra (solo si está activado). */
   quizlet?: QuizletEntry[];
+  /** Palabras ampliadas ya vistas por unidad (`srsExtras.extraWordsFor`): entran después de las de su unidad. */
+  extraWords?: ReadonlyMap<string, Word[]>;
 }
 
 const isDue = (c: SrsCard, todayISO: string): boolean => dayOf(c.fsrs.due) <= todayISO;
@@ -71,7 +73,7 @@ function habitual(state: SrsState, today: Date): number {
   return Math.max(LIMITS.minHabitual, Math.round(avg));
 }
 
-export function buildQueue({ state, today, eligibleUnits, quizlet = [] }: QueueInput): Queue {
+export function buildQueue({ state, today, eligibleUnits, quizlet = [], extraWords }: QueueInput): Queue {
   const todayISO = toISODate(today);
   const cards = Object.values(state.cards);
 
@@ -96,7 +98,7 @@ export function buildQueue({ state, today, eligibleUnits, quizlet = [] }: QueueI
     let room = LIMITS.newPerDay - introducedToday(false);
     for (const unit of eligibleUnits) {
       if (room <= 0) break;
-      for (const w of wordsOfUnit(unit)) {
+      for (const w of [...wordsOfUnit(unit), ...(extraWords?.get(unit) ?? [])]) {
         if (room <= 0) break;
         if (state.cards[cardId("recog", w.itemId)]) continue;
         fresh.push({ kind: "recog", itemId: w.itemId, unit });
