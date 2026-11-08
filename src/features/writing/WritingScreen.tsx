@@ -3,7 +3,8 @@ import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import { appLexicon } from "../../content/lexicon";
-import { getWriting, type WritingTask } from "../../content/writing";
+import { getWriting, writingKey, type WritingTask } from "../../content/writing";
+import type { CoursePart } from "../../content/course";
 import {
   LEVEL_NAME, checkWriting, claudeMessage, highlightForms, keywordsOf, targetForms, writingLevel,
 } from "../../domain/writingCheck";
@@ -19,10 +20,12 @@ const Marked = ({ text, forms }: { text: string; forms: string[] }) => (
   </>
 );
 
-export function WritingScreen({ unit, rewrite = false }: { unit: string; rewrite?: boolean }) {
-  const task = getWriting(unit);
+export function WritingScreen({ unit, part = null, rewrite = false }: { unit: string; part?: CoursePart | null; rewrite?: boolean }) {
+  const task = getWriting(unit, part);
   if (!task) return <p className="sub">Esta unidad todavía no tiene escritura guiada.</p>;
-  return rewrite ? <Rewrite unit={unit} task={task} /> : <Write unit={unit} task={task} />;
+  // El texto, la corrección y la reescritura se guardan por semana: la B de una unidad partida no pisa a la A.
+  const saveKey = writingKey(unit, part);
+  return rewrite ? <Rewrite unit={unit} saveKey={saveKey} task={task} /> : <Write unit={unit} saveKey={saveKey} task={task} />;
 }
 
 function Header({ unit, title }: { unit: string; title: string }) {
@@ -40,26 +43,33 @@ function Header({ unit, title }: { unit: string; title: string }) {
   );
 }
 
-function Write({ unit, task }: { unit: string; task: WritingTask }) {
+function Write({ unit, saveKey, task }: { unit: string; saveKey: string; task: WritingTask }) {
   const { completeActivity, today } = useApp();
   const level = writingLevel(unit);
-  const [text, setText] = useState(() => getWritingTexts()[unit] ?? "");
+  const [text, setText] = useState(() => getWritingTexts()[saveKey] ?? "");
   // Reconstruir: se ve el modelo hasta dos veces y después se oculta.
   const [views, setViews] = useState(1);
   const [hidden, setHidden] = useState(() => level !== "reconstruir" || text.trim() !== "");
   const [compare, setCompare] = useState(false);
   const [checked, setChecked] = useState<number[]>([]);
   const [copied, setCopied] = useState<"yes" | "no" | null>(null);
-  const [pasted, setPasted] = useState(() => loadFixes(window.localStorage)[unit]?.corrected ?? "");
-  const [saved, setSaved] = useState(() => !!loadFixes(window.localStorage)[unit]);
+  const [pasted, setPasted] = useState(() => loadFixes(window.localStorage)[saveKey]?.corrected ?? "");
+  const [saved, setSaved] = useState(() => !!loadFixes(window.localStorage)[saveKey]);
+  const [extending, setExtending] = useState(false);
+  const [extModel, setExtModel] = useState(false);
 
   const check = useMemo(() => checkWriting(text, task, appLexicon()), [text, task]);
   const keywords = useMemo(() => keywordsOf(task), [task]);
   const forms = useMemo(() => targetForms(task), [task]);
+  const ext = task.extend;
+  const extCheck = useMemo(
+    () => (ext ? checkWriting(text, { ...task, minWords: ext.minWords, mustInclude: ext.mustInclude }, appLexicon()) : null),
+    [text, task, ext],
+  );
 
   const change = (value: string) => {
     setText(value);
-    saveWritingText(unit, value);
+    saveWritingText(saveKey, value);
   };
 
   const finish = () => {
@@ -70,7 +80,7 @@ function Write({ unit, task }: { unit: string; task: WritingTask }) {
   const copy = async () => setCopied((await copyText(claudeMessage(unit, task, text))) ? "yes" : "no");
 
   const saveCorrected = () => {
-    saveFix(unit, text, pasted, today, window.localStorage);
+    saveFix(saveKey, text, pasted, today, window.localStorage);
     setSaved(true);
   };
 
@@ -166,6 +176,33 @@ function Write({ unit, task }: { unit: string; task: WritingTask }) {
         </section>
       )}
 
+      {ext && extCheck && check.complete && (
+        <section className="card stack" aria-label="Ampliar el texto">
+          <div className="eyebrow">Ampliar el texto (opcional)</div>
+          {!extending ? (
+            <>
+              <p className="sub">Si quieres practicar más, puedes alargar este mismo texto. No hace falta para terminar.</p>
+              <button type="button" className="btn" onClick={() => setExtending(true)}>Ampliar el texto</button>
+            </>
+          ) : (
+            <>
+              <p>{ext.prompt}</p>
+              <p className="sub">Sigue en el mismo cuadro de arriba. {extCheck.words} de {ext.minWords} palabras en total.</p>
+              {extCheck.totalForms > 0 && extCheck.missingForms.length > 0 && (
+                <p className="sub" role="status">Te falta usar: {extCheck.missingForms.map((alts) => alts.join(" / ")).join("; ")}.</p>
+              )}
+              {extCheck.complete && !extModel && <button type="button" className="btn" onClick={() => setExtModel(true)}>Ver el modelo ampliado</button>}
+              {extModel && (
+                <div className="example">
+                  <div className="example-it"><Marked text={ext.model} forms={forms} /></div>
+                  <AudioButton text={ext.model} />
+                </div>
+              )}
+            </>
+          )}
+        </section>
+      )}
+
       <section className="card stack">
         <div className="eyebrow">Corrígete tú mismo</div>
         <p className="sub">Relee tu texto y marca cada punto cuando lo hayas revisado.</p>
@@ -238,16 +275,16 @@ function Write({ unit, task }: { unit: string; task: WritingTask }) {
 }
 
 /** Tarea de reescritura a los 3 días: desde la consigna en español, sin ver la versión corregida. */
-function Rewrite({ unit, task }: { unit: string; task: WritingTask }) {
+function Rewrite({ unit, saveKey, task }: { unit: string; saveKey: string; task: WritingTask }) {
   const { today } = useApp();
-  const fix = loadFixes(window.localStorage)[unit];
+  const fix = loadFixes(window.localStorage)[saveKey];
   const [text, setText] = useState("");
   const [done, setDone] = useState(false);
 
   if (!fix) return <><Header unit={unit} title="Reescribe sin mirar" /><p className="sub">No hay nada que reescribir en esta unidad.</p></>;
 
   const compare = () => {
-    saveRewrite(unit, text, today, window.localStorage);
+    saveRewrite(saveKey, text, today, window.localStorage);
     setDone(true);
   };
 

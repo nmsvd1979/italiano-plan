@@ -181,7 +181,8 @@ function RewriteDue() {
   const { today } = useApp();
   const due = rewritesDue(loadFixes(window.localStorage), today);
   if (due.length === 0) return null;
-  const unit = getUnit(due[0]);
+  const [dueUnit, dueSuffix] = due[0].split("#");
+  const unit = getUnit(dueUnit);
   return (
     <section className="card stack">
       <div className="eyebrow">Reescribir desde el español</div>
@@ -189,7 +190,7 @@ function RewriteDue() {
         Hace unos días corregiste tu texto de la unidad {unit?.n}. ¿Lo escribes otra vez, sin mirar la versión corregida?
         {due.length > 1 ? ` (Hay ${due.length} pendientes.)` : ""}
       </p>
-      <a className="btn" href={href(`/escritura/${due[0]}?reescribir=1`)} style={{ textAlign: "center", textDecoration: "none" }}>Reescribir</a>
+      <a className="btn" href={href(`/escritura/${dueUnit}?${dueSuffix ? `part=${dueSuffix}&` : ""}reescribir=1`)} style={{ textAlign: "center", textDecoration: "none" }}>Reescribir</a>
     </section>
   );
 }
