@@ -59,6 +59,8 @@ export const KEYS_V2 = {
   writingFix: "italianPlan.v2.writingFix",
   /** Intentos de la prueba de nivel A2 (domain/evaluation.ts). */
   levelTests: "italianPlan.v2.levelTests",
+  /** Qué ejercicios ya sirvió «Practicar más» (domain/practiceMore.ts). */
+  practiceMore: "italianPlan.v2.practiceMore",
 } as const;
 
 /** Registro de actividad (domain/activityLog.ts, docs/v2/06 F1): arreglo JSON, máximo 2000 entradas. */
@@ -254,6 +256,7 @@ export function clearProgress(store: KV = defaultStore()): void {
   store.removeItem(KEYS_V2.sinpista);
   store.removeItem(KEYS_V2.writingFix);
   store.removeItem(KEYS_V2.levelTests);
+  store.removeItem(KEYS_V2.practiceMore);
   store.removeItem(LOG_KEY);
   store.removeItem(SRS_KEY);
 }

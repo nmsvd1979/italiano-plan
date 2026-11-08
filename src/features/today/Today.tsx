@@ -94,9 +94,10 @@ export function Today() {
           <Icon name="trophy" size={28} />
           <h1 className="title">Terminaste lo disponible</h1>
           <p className="sub">
-            Completaste todas las semanas con contenido. Las demás figuran como "pronto" en el Plan: cuando se agreguen, aparecen aquí.
-            Mientras, el repaso espaciado y el repaso mixto siguen disponibles.
+            Completaste todas las semanas del curso. Mientras llega más contenido, puedes seguir con «Practicar más» (ejercicios de lo ya visto)
+            y con el repaso espaciado.
           </p>
+          <a className="btn primary block" href={href("/practicar")} style={{ textAlign: "center", textDecoration: "none" }}>Practicar más</a>
           <a className="btn block" href={href("/tarjetas")} style={{ textAlign: "center", textDecoration: "none" }}>Repaso espaciado</a>
         </section>
       ) : (
@@ -114,7 +115,9 @@ export function Today() {
                   : "Listo por hoy. Si tienes más tiempo, puedes seguir."}
               </div>
               {endedEarly && <p className="sub">Terminaste lo esencial en menos tiempo del estimado: aún te queda tiempo para sumar más.</p>}
-              <button type="button" className={`btn block${endedEarly ? " primary" : ""}`} onClick={() => setExtra((e) => e + 1)}>Hacer más hoy</button>
+              <a className={`btn block${endedEarly ? " primary" : ""}`} href={href("/practicar")} style={{ textAlign: "center", textDecoration: "none" }}>Practicar más</a>
+              <button type="button" className="btn block" onClick={() => setExtra((e) => e + 1)}>Hacer más hoy</button>
+              <p className="note">«Practicar más» repasa lo ya visto, sin adelantar semanas. «Hacer más hoy» adelanta el siguiente día del ciclo, que luego se estudia con menos espacio entre días.</p>
             </section>
           )}
           {unit && up && (
