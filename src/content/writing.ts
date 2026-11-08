@@ -19,6 +19,18 @@ export interface WritingTask {
   frames?: string[];
   /** Palabras clave para reconstruir el texto (nivel «reconstruir»); si faltan, salen del modelo. */
   keywords?: string[];
+  /** Ampliación opcional del mismo texto (docs/v2/plan-b1/01): una segunda consigna que sube la extensión. No cambia lo que da el bloque por hecho. */
+  extend?: WritingExtension;
+}
+
+export interface WritingExtension {
+  /** Qué agregar al texto, en español. */
+  prompt: string;
+  /** Palabras en total (el texto completo, no solo lo agregado). */
+  minWords: number;
+  /** Texto modelo ampliado, en italiano. */
+  model: string;
+  mustInclude?: string[][];
 }
 
 /** Cada consigna usa lo que la unidad enseña. Es producción guiada: tú corriges con la lista. */
@@ -214,6 +226,19 @@ const WRITING: Record<string, WritingTask> = {
   },
 };
 
-export function getWriting(unit: string): WritingTask | undefined {
-  return WRITING[unit] ?? NUEVAS.find((n) => n.id === unit)?.writing;
+/**
+ * La consigna de una unidad o, en una unidad partida, la de su semana: la clave `u02#B` tiene prioridad sobre `u02`.
+ * Mientras una semana B no tenga consigna propia, repite la de la unidad.
+ */
+export function getWriting(unit: string, part?: "A" | "B" | null): WritingTask | undefined {
+  const own = part ? WRITING[`${unit}#${part}`] : undefined;
+  return own ?? WRITING[unit] ?? NUEVAS.find((n) => n.id === unit)?.writing;
+}
+
+/** Clave con la que se guarda el texto de una semana: la unidad, o `u02#B` para la semana B (la A conserva la clave de siempre). */
+export const writingKey = (unit: string, part?: "A" | "B" | null): string => (part === "B" ? `${unit}#B` : unit);
+
+/** Todas las consignas (también las de semanas B), para el léxico de la app. */
+export function allWritingTasks(): WritingTask[] {
+  return [...Object.values(WRITING), ...NUEVAS.flatMap((n) => (n.writing ? [n.writing] : []))];
 }

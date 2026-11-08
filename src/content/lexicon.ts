@@ -4,7 +4,7 @@ import { getDictation } from "./dictation";
 import { getLesson } from "./grammar";
 import type { Block } from "./grammar/types";
 import { getWords } from "./vocab";
-import { getWriting } from "./writing";
+import { allWritingTasks } from "./writing";
 
 // El léxico de la app: todo el italiano que ve quien estudia (vocabulario con su frase, diálogos, dictados, lecciones
 // y modelos de escritura). La corrección de la escritura avisa de lo que no está aquí; no bloquea.
@@ -27,8 +27,6 @@ export function appLexicon(): ReadonlySet<string> {
     for (const w of getWords(u.id) ?? []) { add(w.it); if (w.ex) add(w.ex); }
     for (const d of getDictation(u.id) ?? []) add(d.it);
     for (const l of getDialogue(u.id)?.lines ?? []) add(l.it);
-    const w = getWriting(u.id);
-    if (w) { add(w.model); w.checklist.flatMap(italics).forEach(add); }
     const lesson = getLesson(u.id);
     if (!lesson) continue;
     for (const e of lesson.examples) add(e.it);
@@ -38,6 +36,11 @@ export function appLexicon(): ReadonlySet<string> {
       if (x.type === "fill") x.answers.forEach((a) => add(x.prompt.replace("___", a)));
       else { italics(x.prompt).forEach(add); x.options.forEach(add); }
     }
+  }
+  for (const w of allWritingTasks()) {
+    add(w.model);
+    w.checklist.flatMap(italics).forEach(add);
+    if (w.extend) add(w.extend.model);
   }
   cache = out;
   return out;
