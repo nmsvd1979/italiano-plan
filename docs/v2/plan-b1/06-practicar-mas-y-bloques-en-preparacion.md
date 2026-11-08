@@ -38,7 +38,7 @@ No hay italiano nuevo: usa contenido ya escrito y verificado.
 ## 6b · Los 4 bloques «en preparación»
 
 ### Qué es y evidencia
-`cycle.ts` define cuatro `soon(...)` que ocupan **21 min de los 188 min nominales de cada semana** (735 min en 35 semanas, 11 %) y se muestran como «en preparación» todos los días. Efecto doble: ruido en Hoy, y los 188 min por semana de la auditoría (`medicion/minutos.ts`, suma de `Block.minutes` de `daysOf()`) los incluyen: la semana con contenido real son **167 min**. No verifiqué si `pace.ts` o `dayMinutes` los excluyen al mostrar «minutos de hoy»; el PR 6b-0 debe comprobarlo.
+`cycle.ts` define cuatro `soon(...)` que suman **21 min por semana** que no entran en los 188 (735 min en 35 semanas) y se muestran como «en preparación» todos los días. Efecto: ruido en Hoy. **Corrección (8-nov):** los 188 min por semana de la auditoría (`medicion/minutos.ts`) ya **excluían** estos bloques; no inflaban el cálculo de ritmo. Ocultarlos no cambia los minutos.
 
 | Bloque | Día · min | Qué prometía (`docs/v2/05`) | Qué hace falta |
 |---|---|---|---|
@@ -48,7 +48,7 @@ No hay italiano nuevo: usa contenido ya escrito y verificado.
 | Volver a contar sin mirar | 6 · 6 | Reproducir lo leído/oído sin mirar | cubierto por `02` (monólogo) |
 
 ### Paso previo (PR 6b-0, S, **antes de que ella estudie**): dejar de mostrar lo que no existe
-`daysOf` (o `visibleBlocks`) omite los bloques `soon` mientras no tengan contenido, y `minutes.ts`/`pace.ts` no los cuentan. Resultado: la semana nominal pasa de 188 a 167 min y desaparecen 4 filas «en preparación». Cuando se construya cada bloque, vuelve con `needs` o `only` (lista de pasos donde existe). Tests de `cycle.test.ts` (conteo de bloques) y `simulation.test.ts` se ajustan; la simulación de `flujo.md` hay que volver a correrla (`medicion/sim.ts`) porque los días saldrán ~11 % más cortos.
+`daysOf` (o `visibleBlocks`) omite los bloques `soon` mientras no tengan contenido, y . Resultado: desaparecen 4 filas «en preparación»; la semana sigue en 188 min (hecho en #68). Cuando se construya cada bloque, vuelve con `needs` o `only` (lista de pasos donde existe). Tests de `cycle.test.ts` (conteo de bloques) y `simulation.test.ts` se ajustan.
 
 ### Cómo se arma cada uno
 1. **Dos frases propias.** Archivo nuevo `src/content/propias.json` (clave = id del paso): `{ prompt, mustInclude: string[][], model: [string, string] }`. Pantalla reutilizando `WritingScreen` en modo corto: `minWords` 8, `checkWriting` con `mustInclude`, capa 3 (`claudeMessage`) opcional. **35 piezas** (35 consignas + 70 frases modelo). Depende de `01-PR1` (`getWriting` por parte).
@@ -60,7 +60,7 @@ No hay italiano nuevo: usa contenido ya escrito y verificado.
 Frases propias y velocidad llevan italiano nuevo: léxico acumulado ≥ 95 %, V1 `verificar-fuentes.mjs`, V2 para números/precios/horas, V3 segunda pasada, dudas a `docs/dudas-italiano.md` (sin audio hasta resolver).
 
 ### Tests nuevos
-- `cycle.test.ts`: ningún día lista bloques `soon`; `weekMinutes() === 167` (valor pinneado, se actualiza a propósito si se construye algo); los pasos `only` tienen el bloque y los demás no.
+- `cycle.test.ts`: ningún día lista bloques `soon`; la semana suma 188 min y los ocultos 21 (`PENDING_BLOCKS`); los pasos `only` tienen el bloque y los demás no.
 - `propias.test.ts`: un registro por paso; cada `model` cumple su `mustInclude`; ≥ 8 palabras.
 - `velocidad.test.ts`: `n` coincide con `it` (tabla de numerales independiente en el test); un clip por ítem.
 

@@ -28,7 +28,7 @@ Pedido de la persona (7-nov): analizar **todos los métodos de aprendizaje de la
 | **Transferencia español → italiano** | Hay interferencia de cognados no idénticos; no encontré estudios que midan la ventaja receptiva | resultados de búsqueda | R, débil |
 
 ## 2. Cómo está planteado cada método en la app (y veredicto)
-Ciclo real (`src/domain/cycle.ts`): 7 días por semana, 167 min con contenido (188 nominales con los bloques en preparación).
+Ciclo real (`src/domain/cycle.ts`): 7 días por semana, 188 min con contenido (los 4 bloques en preparación, 21 min, no se cuentan).
 
 | Método | Cómo está en la app | Veredicto con la evidencia |
 |---|---|---|
