@@ -67,6 +67,7 @@ const JSON_KEYS: Record<string, Shape> = {
   [KEYS_V2.sinpista]: "object",
   [KEYS_V2.writingFix]: "object",
   [KEYS_V2.levelTests]: "array",
+  [KEYS_V2.practiceMore]: "object",
   [LOG_KEY]: "array",
   [SRS_KEY]: "object",
 };

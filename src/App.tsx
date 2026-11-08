@@ -91,6 +91,7 @@ function Screens() {
   if (route === "/prueba-nivel") return <LevelTestScreen key="level" />;
   if (route === "/tarjetas") return <ReviewScreen key="srs" />;
   if (route === "/repaso") return <PracticeScreen key="review" mode="review" />;
+  if (route === "/practicar") return <PracticeScreen key={`more-${q.get("t") ?? ""}`} mode="more" batch={q.get("t") ?? ""} />;
   if (route === "/repaso-pendiente") return <PracticeScreen key="due" mode="due" />;
   return <Today />;
 }
