@@ -224,6 +224,93 @@ const WRITING: Record<string, WritingTask> = {
     ],
     minChars: 100,
   },
+  // Semana B de las unidades partidas (docs/v2/plan-b1/01): consigna propia con lo que enseña esa semana.
+  "u02#B": {
+    prompt: "Describe una calle o una plaza de tu barrio: qué hay, dónde está cada cosa (cerca, lejos…) y qué te gusta.",
+    model: "Nel mio quartiere c'è una piazza e ci sono due bar. La farmacia è vicino alla piazza e il supermercato è lontano. Il parco è vicino alla stazione. Mi piace la piazza, ma non mi piacciono i bar.",
+    checklist: [
+      "Dije qué hay con *c'è* (una cosa) y *ci sono* (varias).",
+      "Dije dónde está cada cosa (*vicino a…*, *lontano*).",
+      "Fusioné la preposición con el artículo (*alla piazza*, *alla stazione*).",
+      "Usé *mi piace* con singular y *mi piacciono* con plural.",
+    ],
+    minChars: 72,
+    mustInclude: [["c'è"], ["ci sono"], ["vicino"], ["mi piace", "mi piacciono"]],
+  },
+  "u03#B": {
+    prompt: "Escribe el cartel de una cafetería: la fecha de hoy, tres productos con su precio y cuándo cierra.",
+    model: "Oggi è il dieci marzo. Il caffè costa un euro e venti, il panino costa un euro e cinquanta e i biscotti costano tre euro. Il bar chiude il mercoledì.",
+    checklist: [
+      "Escribí la fecha con *il* + número + mes en minúscula (*il dieci marzo*).",
+      "Usé *costa* con una cosa y *costano* con varias.",
+      "Escribí el precio con los euros primero y los centavos después (*un euro e venti*).",
+      "Escribí los números con letras y de corrido (*dieci*, *venti*, *cinquanta*).",
+    ],
+    minChars: 72,
+    mustInclude: [["costa"], ["costano"], ["euro"]],
+  },
+  "u05#B": {
+    prompt: "Escribe los letreros para llegar a un lugar: qué hay de frente, a la derecha y a la izquierda, y dónde están la entrada y la salida.",
+    model: "Dritto c'è il semaforo. All'angolo, a destra, c'è la farmacia. A sinistra c'è il bar. L'entrata è a sinistra e l'uscita è a destra.",
+    checklist: [
+      "Usé *a destra*, *a sinistra* y *dritto*.",
+      "Usé *c'è* para decir qué hay en cada lugar.",
+      "Fusioné la preposición con el artículo cuando hizo falta (*all'angolo*).",
+      "Usé *entrata* y *uscita* para la entrada y la salida.",
+    ],
+    minChars: 72,
+    mustInclude: [["a destra"], ["a sinistra"], ["dritto"]],
+  },
+  "u06#B": {
+    prompt: "Escribe el anuncio de una tienda de ropa: tres prendas con su color y qué se puede probar.",
+    model: "Nel nostro negozio ci sono magliette bianche, una giacca verde e una gonna rosa. Quel cappello nero è molto bello. Puoi provare tutto nel camerino.",
+    checklist: [
+      "El color va después del sustantivo y concuerda (*magliette bianche*, *una giacca verde*).",
+      "*Rosa* no cambia (*una gonna rosa*).",
+      "Usé *quel / quella* para señalar una prenda.",
+      "Usé *ci sono* para decir qué hay en la tienda.",
+    ],
+    minChars: 72,
+    mustInclude: [["ci sono"], ["quel", "quella"]],
+  },
+  "u07#B": {
+    prompt: "Escríbele un mensaje a un amigo que pregunta qué haces: cuéntale qué estás haciendo ahora (sto + gerundio) y cómo te sientes.",
+    model: "Ciao Marco! Adesso sto cucinando e Anna sta studiando. Sono stanco, ma sto bene. E tu, che stai facendo?",
+    checklist: [
+      "Usé *sto* / *sta* + gerundio (*sto cucinando*).",
+      "Formé bien el gerundio (*-ando* con verbos en *-are*; *-endo* con *-ere* e *-ire*).",
+      "Usé *essere* para cansancio o ánimo (*sono stanco*) y *stare* en *sto bene*.",
+      "Cerré con la pregunta *Che stai facendo?*",
+    ],
+    minChars: 84,
+    frames: ["Adesso io sto ___ (gerundio).", "___ sta ___ (otra persona).", "Sono ___, ma sto ___."],
+    mustInclude: [["sto"], ["sta"], ["sono stanco"]],
+  },
+  "u14#B": {
+    prompt: "Dale a un amigo tres instrucciones cortas, con *tu*, para llegar a la estación: dos afirmativas y una negativa.",
+    model: "Vai dritto fino al semaforo. Gira a destra. Non attraversare la strada in fretta.",
+    checklist: [
+      "Usé el imperativo de *tu* (*vai*, *gira*), no el de *Lei* (*vada*, *giri*).",
+      "Para decir «no hagas» usé *non* + infinitivo (*non attraversare*).",
+      "Usé *dritto*, *a destra* y *fino a*.",
+      "Hablé con tono de amigo, sin *Lei*.",
+    ],
+    minChars: 84,
+    frames: ["Vai ___ fino a ___.", "Gira ___.", "Non ___ la strada in fretta."],
+    mustInclude: [["vai"], ["gira"], ["non attraversare"]],
+  },
+  "u15#B": {
+    prompt: "Invita a una amiga a una fiesta con cortesía: pídele un favor, dale un consejo y dile qué pasa si viene.",
+    model: "Ciao Anna! Sabato c'è una festa a casa mia: vieni? Potresti portare un dolce? Dovresti prendere un taxi, perché casa mia è lontana. Se vieni, sono molto contenta.",
+    checklist: [
+      "Pedí el favor con cortesía (*Potresti…?*).",
+      "Aconsejé con *dovresti* + infinitivo.",
+      "Usé *se* + presente para decir qué pasa si viene (*Se vieni, …*).",
+      "Invité con una pregunta clara (*vieni?*).",
+    ],
+    minChars: 96,
+    mustInclude: [["potresti"], ["dovresti"], ["se"]],
+  },
 };
 
 /**

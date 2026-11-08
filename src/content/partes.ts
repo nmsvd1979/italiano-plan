@@ -12,8 +12,8 @@ export const PARTS: Record<string, UnitParts> = {
   },
   // A: números hasta 100 y la hora. B: fechas, días y meses, precios.
   u03: {
-    A: { examples: [0, 1, 5, 7], notice: [0], exercises: [2, 3, 4, 5, 6, 7, 8, 9, 16, 19], vocab: [0, 1, 2, 3, 4, 5, 6, 7, 15, 16, 17], dictation: [0, 1, 4, 5, 6, 9] },
-    B: { examples: [2, 3, 4, 6], notice: [1, 2], exercises: [0, 1, 10, 11, 12, 13, 14, 15, 17, 18, 20, 21, 22], vocab: [8, 9, 10, 11, 12, 13, 14, 18, 19], dictation: [0, 2, 3, 7, 8] },
+    A: { examples: [0, 1, 5, 7], notice: [0], exercises: [2, 3, 4, 5, 6, 7, 8, 9, 16, 19, 23, 24, 25, 26, 27], vocab: [0, 1, 2, 3, 4, 5, 6, 7, 15, 16, 17], dictation: [0, 1, 4, 5, 6, 9] },
+    B: { examples: [2, 3, 4, 6], notice: [1, 2], exercises: [0, 1, 10, 11, 12, 13, 14, 15, 17, 18, 20, 21, 22, 28, 29], vocab: [8, 9, 10, 11, 12, 13, 14, 18, 19], dictation: [0, 2, 3, 7, 8] },
   },
   // A: a / in / da, andare–venire–uscire, preposiciones articuladas. B: falsos amigos, direcciones.
   u05: {
