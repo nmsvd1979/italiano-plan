@@ -50,3 +50,6 @@ Depende de nada en código (PR A). Comparte escalera con `01`. Si se decide no c
 
 ## Qué no se puede medir
 Si lo dicho es correcto o inteligible. Solo se mide cuánto habló (segundos), cuántos puntos marcó cubiertos y su autoevaluación. Los umbrales de segundos son **propios**, calibrados con el rango de 2 min del CILS, no medidos con uso real.
+
+## Ajuste por la evidencia (`11`, E1)
+Cada monólogo se hace **en tres vueltas** con la misma consigna y tiempo decreciente (`seconds` pasa a un trío, p. ej. 90 / 70 / 55 s en el escalón alto; los valores son una propuesta, no medidos). Después de la primera vuelta la pantalla muestra la lista de formas meta y los puntos como **retroalimentación diferida** y recién entonces se hacen las vueltas 2 y 3. Respaldo: repetir la misma tarea oral mejora la fluidez, no la precisión; la precisión mejoró cuando se añadió retroalimentación diferida (Tran & Saito 2021; Lambert et al. 2017). Los tres intentos se guardan en `recStore` como `${stepId}:mono:1..3`. Prioridad: **antes** que el `extend` de escritura (D2).
