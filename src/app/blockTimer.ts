@@ -6,6 +6,7 @@ import { addMinutes, parseBlockKey } from "../domain/activityLog";
 import { toISODate } from "../domain/dates";
 import { loadSrs } from "../domain/srs";
 import { buildQueue, eligibleUnits } from "../domain/srsQueue";
+import { extraWordsFor } from "../domain/srsExtras";
 import type { Progress } from "../domain/curriculum";
 
 const BLOCKS = blockMinutes();
@@ -67,7 +68,7 @@ export function useBlockTimer(): void {
 /** Tarjetas en la cola de hoy (vencidas y nuevas), para estimar los minutos del repaso espaciado. */
 export function useSrsCards(progress: Pick<Progress, "done">, today: Date): number {
   return useMemo(
-    () => buildQueue({ state: loadSrs(window.localStorage), today, eligibleUnits: eligibleUnits(progress) }).items.length,
+    () => buildQueue({ state: loadSrs(window.localStorage), today, eligibleUnits: eligibleUnits(progress), extraWords: extraWordsFor(progress) }).items.length,
     [progress, today],
   );
 }

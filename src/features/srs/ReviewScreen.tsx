@@ -11,6 +11,7 @@ import {
 } from "../../domain/srsDeck";
 import { easyRating, gradeWriting, ratingForChoice, ratingForWriting, typoRating, type WriteGrade } from "../../domain/srsGrade";
 import { isSinPistaId } from "../../domain/sinpistaSrs";
+import { extraWordsFor } from "../../domain/srsExtras";
 import { LIMITS, answeredToday, buildQueue, eligibleUnits, nextDue, nothingToReviewText, type QueueItem } from "../../domain/srsQueue";
 
 const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
@@ -37,6 +38,7 @@ function fullSentence(r: Extract<Resolved, { kind: "cloze" }>): string {
 export function ReviewScreen() {
   const { today, progress, completeActivity } = useApp();
   const units = useMemo(() => eligibleUnits(progress), [progress]);
+  const extraWords = useMemo(() => extraWordsFor(progress), [progress]);
   const [srs, setSrs] = useState<SrsState>(() => loadSrs(window.localStorage));
   const [ctx, setCtx] = useState<DeckContext>(emptyContext);
   const [quizlet, setQuizlet] = useState<QuizletEntry[]>([]);
@@ -69,7 +71,7 @@ export function ReviewScreen() {
   }, []);
 
   const makeBatch = (state: SrsState, deck: DeckContext, entries: QuizletEntry[]) => {
-    const q = buildQueue({ state, today, eligibleUnits: units, quizlet: entries });
+    const q = buildQueue({ state, today, eligibleUnits: units, quizlet: entries, extraWords });
     const now = new Date();
     const picked: Entry[] = [];
     for (const item of q.items as QueueItem[]) {
@@ -106,7 +108,7 @@ export function ReviewScreen() {
 
   const answered = answeredToday(srs, today);
   // «Seguir repasando» solo aparece si hay algo que armar: tarjetas vencidas o palabras nuevas.
-  const canContinue = buildQueue({ state: srs, today, eligibleUnits: units, quizlet }).items.length > 0;
+  const canContinue = buildQueue({ state: srs, today, eligibleUnits: units, quizlet, extraWords }).items.length > 0;
 
   const header = (
     <header className="screen-head">
