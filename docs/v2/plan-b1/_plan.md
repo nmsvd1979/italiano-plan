@@ -87,16 +87,18 @@ El contenido escrito a la medida que ya cumple las cuotas de `CLAUDE.md` (≥ 5 
 Protocolo de `12` §6 y `auditoria/_verificacion.md`: (V1) `scripts/verificar-fuentes.mjs` sobre todo el texto nuevo; (V2) fuente abierta citada con URL en `docs/v2/revision-fuentes.md` para toda forma que no esté ya enseñada; (V3) segunda pasada independiente. Léxico acumulado ≥ 95 % (`scripts/lexico-acumulado.ts`). **Lo dudoso va a `docs/dudas-italiano.md`, no se usa de modelo y no recibe audio.** Ninguno de estos niveles equivale a revisión nativa y no se presenta como tal.
 
 ## Decisiones que le tocan a la persona (con recomendación)
+**Estado (7-nov):** D1 meta = comunicarse y seguir aprendiendo, no rendir un examen (los umbrales y tareas se orientan a hablar y escribir; lo específico del CILS baja de prioridad). D2 ◐ = escritura ampliada y monólogo se mantienen como opcionales mientras aporten; queda pendiente un análisis con fuentes abiertas de qué prácticas aportan más para comunicarse. D3, D4, D5, D6, D7, D8 decididas. Pendientes: D9, D10.
+
 | # | Decisión | Opciones | Recomendación |
 |---|---|---|---|
-| D1 | ¿Qué significa «listo para B1»? | (a) entrar a un curso B1; (b) rendir un examen como el CILS B1 | **(a) con producción larga de (b)**: es lo que `09` y `10` ya proponen. Si es (b) estricto, hay que abrir las páginas del CILS que faltan |
-| D2 | Escritura `extend` y monólogo: ¿obligatorios? | obligatorios en el ciclo / opcionales | **Opcionales** (`extend` por botón; el monólogo sustituye a un bloque no *core*): no sube los minutos |
-| D3 | Ocultar ya los bloques «en preparación» | sí / no | **Sí** (PR 1): quita ruido y baja la semana a 167 min reales |
-| D4 | «Volver a contar sin mirar» | convertirlo en monólogo / quitarlo del ciclo | **Convertirlo** (`02`) |
-| D5 | Audio nuevo y cuota de iOS (≈ 40 MB en total) | generar todo / por fase tras probar | **Por fase**: probar primero en el iPhone qué pasa con ~26 MB; no generar F2 hasta resolver |
-| D6 | *Poiché, siccome, ciascuno* | producir / solo reconocer | **Solo reconocer** (`04`) |
-| D7 | Unidad nueva `u29` (*trapassato*, *condizionale passato*, *congiuntivo passato*) | hacerla / no | **No** por ahora: el CILS B1 no los nombra; solo si va a un curso universitario |
-| D8 | Mazo extra del repaso | seguir con el set de Quizlet / usar `base-frecuente.json` | **`base-frecuente.json`**: es propio, con frase; la licencia del set de Quizlet no está documentada (`08`) |
+| D1 ✅ | ¿Qué significa «listo para B1»? | (a) entrar a un curso B1; (b) rendir un examen como el CILS B1 | **(a) con producción larga de (b)**: es lo que `09` y `10` ya proponen. Si es (b) estricto, hay que abrir las páginas del CILS que faltan |
+| D2 ◐ | Escritura `extend` y monólogo: ¿obligatorios? | obligatorios en el ciclo / opcionales | **Opcionales** (`extend` por botón; el monólogo sustituye a un bloque no *core*): no sube los minutos |
+| D3 ✅ | Ocultar ya los bloques «en preparación» | sí / no | **Sí** (PR 1): quita ruido y baja la semana a 167 min reales |
+| D4 ✅ | «Volver a contar sin mirar» | convertirlo en monólogo / quitarlo del ciclo | **Convertirlo** (`02`) |
+| D5 ✅ | Audio nuevo y cuota de iOS (≈ 40 MB en total) | generar todo / por fase tras probar | **Decidido (7-nov): por fase.** Generar F1, probar en el iPhone con ~26 MB; no generar F2 hasta resolver |
+| D6 ✅ | *Poiché, siccome, ciascuno* | producir / solo reconocer | **Decidido: solo reconocer** (`04`) |
+| D7 ✅ | Unidad nueva `u29` (*trapassato*, *condizionale passato*, *congiuntivo passato*) | hacerla / no | **Decidido: no por ahora**; se reconsidera al llegar al puente |
+| D8 ✅ | Mazo extra del repaso | seguir con el set de Quizlet / usar `base-frecuente.json` | **Decidido: `base-frecuente.json`**, con la condición de que el vocabulario alcance para entender, seguir una conversación y trabajar: PR 8d y script de cobertura por ámbitos (`08`, sección «Suficiencia del vocabulario») |
 | D9 | Ítems largos en la prueba de nivel A2 | agregarlos / dejarlo | **Dejarlo**; el módulo «Práctica B1» ya los cubre |
 | D10 | «Texto corto nuevo» | 35 textos nuevos / releer uno anterior | **Releer** (0 contenido) |
 

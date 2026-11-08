@@ -22,6 +22,22 @@ El repaso espaciado (FSRS vía `ts-fsrs`) crea tarjetas solo de las **577 palabr
 ## Cómo se verifica el italiano
 No hay italiano nuevo. Las tarjetas muestran `it`/`es` de `vocab-g3.json`, cuya revisión está en G3/G-R (ver `07`: en `revision-fuentes.md` no encontré una sección específica; confirmar el nivel de evidencia antes de que las tarjetas lleguen a la persona, porque el SRS **repite** cada palabra decenas de veces y fija los errores).
 
+## Suficiencia del vocabulario (condición de la persona, D8)
+La persona pidió que haya **palabras suficientes para entender, seguir una conversación, trabajar**. Lo que se pudo medir hoy (`vocab-g3.json` y `base-frecuente.json`, campo `n` = puesto en la lista de frecuencia `it_50k` de `auditoria/_verificacion.md`):
+
+| Conjunto | Palabras | Con puesto `n` | `n` ≤ 1.000 | `n` ≤ 2.000 | `n` ≤ 5.000 |
+|---|---|---|---|---|---|
+| Ampliadas de unidad (G3 `extra`) | 829 | 821 | 313 | 444 | 611 |
+| Mazo general (`base-frecuente.json`) | 574 | 574 | 163 | 321 | 488 |
+| Unión de ambos (sin repetidas) | 1.403 | — | 476 | 765 | — |
+| Las 577 de unidad (V1 de `_verificacion.md`, 488 medidas) | 577 | 488 | 225 | 324 | 412 |
+
+Con las tres fuentes la persona tendría ≈ **1.980 palabras con frase** (577 + 1.403). Qué **no** se puede decir con el código: qué porcentaje de un texto real de trabajo o de una conversación cubre eso. Falta una lista de frecuencia con licencia clara dentro del repo y un corpus de textos por ámbito (no se copiaron las listas, `07` G4); tampoco abrí el *Vocabolario di base* que el CILS B1 menciona (≥ 95 % del texto del vocabulario de base más hasta 5 % de léxico común, `_fuentes.md` §3).
+
+Por eso D8 incluye dos condiciones, ambas **antes** de dar por buena la ampliación:
+1. **Mazo general dentro del SRS:** las 574 de `base-frecuente.json` entran al repaso (hoy no se usan en ninguna pantalla), después de las ampliadas de la unidad que ya vio, con el mismo tope de 5 nuevas/día del mazo extra. Es el PR 8d (M), tras 8a.
+2. **Revisión por ámbitos, sin inventar:** un script (`scripts/cobertura-lexico.ts`, S) cuenta las palabras de la app por ámbito (trabajo y oficina, estudios, transporte, vivienda, salud, trámites, compras, ocio, medios y tecnología) y lista los ámbitos con menos de un mínimo que ella fije. Para etiquetar cada palabra con un ámbito hace falta una pasada de contenido (≈ 1.980 etiquetas, en `vocab-g3.json` campo `domain`); mientras no exista, el recuento por ámbito **no es medible** y el plan no afirma cobertura. Si el recuento muestra un hueco (por ejemplo, trabajo), se escribe un lote de palabras con frase (≈ 60–100 por ámbito), con el protocolo V1–V3 del plan y a `docs/dudas-italiano.md` lo dudoso.
+
 ## Cómo se mide que funcionó (con el código existente, sin inventar)
 Se vuelve a correr `docs/v2/auditoria/medicion/sim2.ts` y `post.ts` con la lista ampliada (el script usa `wordsOfUnit`) y se compara:
 | Medida | Hoy (auditoría) | Meta propuesta (criterio propio) |
