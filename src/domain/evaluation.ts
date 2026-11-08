@@ -1,3 +1,4 @@
+import { COURSE } from "../content/course";
 import { getUnit } from "../content/curriculum";
 import { exercisesOf, type Exercise } from "../content/grammar";
 import type { CoursePart } from "../content/course";
@@ -154,6 +155,19 @@ export function scoreAreas(results: { area: Area; points: number }[]): AreaScore
     s.total += 1;
   }
   return out;
+}
+
+/**
+ * Total sin la producción: en esa área la persona se pone su propia nota (afirmaciones «Puedo…»), así que no entra
+ * en el aprobado de la prueba de nivel (docs/v2/plan-b1/10). Sigue mostrándose como área.
+ */
+export const objectiveTotalOf = (s: AreaScores): AreaScore =>
+  totalOf(Object.fromEntries(Object.entries(s).filter(([area]) => area !== "produccion")) as AreaScores);
+
+/** Unidades de la prueba de nivel A2: las del núcleo (u25–u28 incluidas); el puente a B1 (u21–u23) queda fuera. */
+export function levelUnits(): string[] {
+  const core = new Set(COURSE.filter((s) => s.kind === "core").map((s) => s.unit));
+  return [...core].filter((id) => getUnit(id)?.ready).sort();
 }
 
 export const totalOf = (s: AreaScores): AreaScore =>
