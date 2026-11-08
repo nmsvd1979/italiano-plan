@@ -133,15 +133,11 @@ Un contraste nuevo por semana del curso (35 pasos) según la columna «Contraste
 | Audio | 212 de las 367 palabras y frases no tienen grabación nativa en el manifest (`audioPending` en el JSON). Se generan o se bajan en el carril C; no entran a `AUDIO_PENDING` de `index.ts` hasta que Code conecte la secuencia. |
 | Pendiente | Segunda pasada independiente (G-R). Los consejos de pronunciación son V1 (descripciones articulatorias estándar); no se contrastaron con una fuente externa por contraste. |
 
-## Plan B1 · Consignas de escritura de la semana B (u02, u03, u05, u06, u07, u14, u15) (8-nov-2026, rama `contenido/escritura-semana-b`)
-7 consignas nuevas (`u02#B`…, en `src/content/writing.ts`), cada una con modelo, lista de autocorrección y formas meta (`mustInclude`), escritas con lo que enseña cada semana B. Las de u07 y u14 traen marcos de frase.
+## Plan B1 · Monólogos de ejemplo u25 y u01 (8-nov-2026, rama `feat/monologo-guiado`)
+Solo dos monólogos, para probar la pantalla (`src/content/monologos.ts`). El resto de las semanas llega en PR de contenido con el protocolo completo.
 
 | Nivel | Qué se hizo |
 |---|---|
-| **Léxico acumulado** | Cada modelo se contrastó con el léxico de las unidades hasta esa semana (lecciones, vocabulario, diálogos y dictados, sin contar las otras consignas). Quedó solo *adesso* en u07#B (la semana A de u07 ya lo usa). Las demás palabras ya estaban vistas; se cambiaron las que no (*davanti, strade, cornetto, giacche, bus, domenica, felice*) |
-| **V1** | Palabras de modelos, cursivas de las listas y marcos cotejadas con `napolux/paroleitaliane` e `it_50k`: solo salieron el morfema *-endo* y la palabra española *otra* de un marco |
-| **V2** | **No se consultó ninguna fuente nueva.** Construcciones: *c'è / ci sono*, *vicino a*, *mi piace / mi piacciono*, *costa / costano*, fecha y precio, *a destra / a sinistra / dritto*, colores y *quel*, *sto + gerundio*, imperativo con *tu* (*vai, gira*), *non* + infinitivo, *potresti, dovresti*, *se* + presente: todas ya enseñadas o paradigmas estándar |
-| **V3** | Segunda pasada por otra sesión que solo vio las 7 consignas, **de memoria y sin internet**. Cambios por su informe: u05 *Il semaforo è dritto* → *Dritto c'è il semaforo*; u14 rehecha como tres frases coherentes (*Vai dritto fino al semaforo. Gira a destra. Non attraversare la strada in fretta.*), sin *aspetta il treno* que no ayudaba a llegar; u15 solo *potresti* (era una amiga) y *casa mia è lontana*; u07 la regla del gerundio incluye *-ire*; u03 fin de cartel *chiude il mercoledì*; consigna u05 «de frente» en vez de «derecho»; ítems de lista más claros. No cambié: *ci sono* con primer elemento plural en u06 (válido), *Puoi provare tutto* con tuteo en el anuncio |
-| Dudas | Ninguna nueva para `dudas-italiano.md` |
-
-No es revisión de un nativo: la V3 no consultó fuentes y es de una sola sesión.
+| Origen del italiano | u01 reutiliza frases del modelo de escritura de u01 (*Buonasera! Piacere di conoscervi. Mi chiamo Laura e sono di Santiago. Sono qui in vacanza. A presto!*), ya revisado. u25 usa *Mi chiamo…*, *Sono di…* y *Si scrive* con los nombres de letras de la tabla de la lección de u25 (*elle, a, u, erre, a*) |
+| Léxico | Test: ≥ 95 % de las palabras del modelo están en el léxico de la app (hoy 100 %) |
+| V1 / V2 / V3 | No se hizo una pasada nueva: no hay forma nueva que cotejar con fuentes, y la segunda pasada independiente queda para los monólogos que sí traigan italiano nuevo. Sin dudas nuevas para `dudas-italiano.md`. Sin audio del modelo todavía (suena con la voz del sistema) |

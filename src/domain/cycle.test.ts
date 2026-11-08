@@ -74,7 +74,7 @@ describe("daysOf: la estructura de 04 §D1", () => {
   });
 
   it("los bloques sin herramienta ni contenido no se muestran: quedan en PENDING_BLOCKS y no suman minutos", () => {
-    expect(PENDING_BLOCKS.map((b) => b.id)).toEqual(["own", "shorttext", "speed", "retell"]);
+    expect(PENDING_BLOCKS.map((b) => b.id)).toEqual(["own", "shorttext", "speed"]);
     for (const s of COURSE) {
       const blocks = daysOf(s).flatMap((d) => d.blocks);
       expect(blocks.some((b) => b.soon), s.id).toBe(false);
@@ -82,7 +82,11 @@ describe("daysOf: la estructura de 04 §D1", () => {
     // La semana con contenido real son 188 min (auditoría, medicion/minutos.ts); los 21 min de los bloques ocultos no se cuentan.
     const week = (stepId: string) => daysOf(step(stepId)).flatMap((d) => d.blocks).reduce((n, b) => n + b.minutes, 0);
     expect(week("u04")).toBe(188);
-    expect(PENDING_BLOCKS.reduce((n, b) => n + b.minutes, 0)).toBe(21);
+    expect(PENDING_BLOCKS.reduce((n, b) => n + b.minutes, 0)).toBe(15);
+    // «Hablar sin mirar» (6 min, no core) solo aparece en las semanas con monólogo.
+    expect(week("u25")).toBe(194);
+    expect(daysOf(step("u04")).flatMap((d) => d.blocks).some((b) => b.id === "retell")).toBe(false);
+    expect(daysOf(step("u25"))[5].blocks.some((b) => b.id === "retell")).toBe(true);
   });
 });
 

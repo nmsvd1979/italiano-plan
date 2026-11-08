@@ -37,6 +37,7 @@ export function blockRoute(step: CourseStep, day: CycleDay, block: Block): { to:
     case "shadowing": return { to: href(`/shadowing-propio/${unit}${q()}`), label: "Empezar shadowing" };
     case "input": return { to: href(`/shadowing/${unit}${q()}`), label: "Shadowing con video (extra)" };
     case "writing": return { to: href(`/escritura/${unit}${q()}`), label: "Escribir" };
+    case "monologue": return { to: href(`/monologo/${unit}${q()}`), label: "Hablar sin mirar" };
     case "cando": return { to: href(`/unidad/${unit}`), label: "Ver «Puedo…»" };
     case "review": return { to: href(`/repaso${q()}`), label: "Repasar" };
     case "failed": return { to: href(`/repaso-pendiente${q()}`), label: "Repasar" };
