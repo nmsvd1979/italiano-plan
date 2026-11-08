@@ -141,3 +141,16 @@ Solo dos monólogos, para probar la pantalla (`src/content/monologos.ts`). El re
 | Origen del italiano | u01 reutiliza frases del modelo de escritura de u01 (*Buonasera! Piacere di conoscervi. Mi chiamo Laura e sono di Santiago. Sono qui in vacanza. A presto!*), ya revisado. u25 usa *Mi chiamo…*, *Sono di…* y *Si scrive* con los nombres de letras de la tabla de la lección de u25 (*elle, a, u, erre, a*) |
 | Léxico | Test: ≥ 95 % de las palabras del modelo están en el léxico de la app (hoy 100 %) |
 | V1 / V2 / V3 | No se hizo una pasada nueva: no hay forma nueva que cotejar con fuentes, y la segunda pasada independiente queda para los monólogos que sí traigan italiano nuevo. Sin dudas nuevas para `dudas-italiano.md`. Sin audio del modelo todavía (suena con la voz del sistema) |
+
+## Plan B1 · Monólogos F1: u02A, u02B, u03A, u03B y u04 (8-nov-2026, rama `contenido/monologos-f1`)
+5 monólogos nuevos en `src/content/monologos.ts` (con u25 y u01, las semanas 1–7 del curso ya tienen). Cada uno: consigna, 3 puntos, marcos de frase, modelo de 14–25 palabras y tres tiempos decrecientes.
+
+| Nivel | Qué se hizo |
+|---|---|
+| Léxico acumulado | Cada modelo y sus marcos se contrastaron con el léxico de las unidades hasta esa semana: ninguna palabra sin ver (solo *Laura* y *conoscervi* en los dos monólogos anteriores) |
+| **V1** | Todas las palabras italianas cotejadas con `napolux/paroleitaliane` e `it_50k`: sin errores |
+| **V2** | Sin fuente nueva: solo construcciones ya enseñadas (*ho*, *c'è / ci sono*, *vicino a*, *mi piace*, horas, fechas, precios, *vorrei*, *posso avere*) |
+| **V3** | Otra sesión (solo vio los 5 monólogos, de memoria, sin internet): **cero errores de italiano**. Cambios por sus observaciones de diseño: marcos *un / una* en u02A; marco de *vicino a* con la nota *alla, al, all'* y marco de *non mi piacciono* en u02B; nota sobre la una en u03A (*È l'una*, *all'una*); consigna de u03A en español más natural; última vuelta de u03A, u03B y u04 a 25–30 s para mantener la presión de tiempo. No cambié: *Posso avere il conto?*, correcto y cortés (opcional, solo de estilo) |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
+No es revisión de un nativo.
