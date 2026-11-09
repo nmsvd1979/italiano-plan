@@ -392,6 +392,13 @@
   "license": "CC BY 4.0"
  },
  {
+  "id": "099bd4d4fc3a",
+  "text": "Ho un appartamento piccolo. C'è una cucina e ci sono due camere. Vicino a casa c'è un supermercato. Ho anche un tavolo e due sedie. Mi piace il quartiere, ma non mi piacciono i bar rumorosi.",
+  "sha1": "099bd4d4fc3abfd555074e8e0f2381c7588f8ecf",
+  "voice": "it_IT-serena-high",
+  "license": "CC BY 4.0"
+ },
+ {
   "id": "09d00684e36e",
   "text": "ho letto la tua lettera con attenzione e capisco che questo momento è difficile. Dici che non sai se accettare il lavoro a Torino o restare qui con la tua famiglia. Provo a darti qualche consiglio, anche se la decisione, alla fine, è solo tua.",
   "sha1": "09d00684e36e3eadc79b7e7d7b38eab5680f3a48",
@@ -1736,6 +1743,13 @@
   "license": "CC BY 4.0"
  },
  {
+  "id": "328ed7ce1f6d",
+  "text": "Ciao Marco! Sabato sono libero. Il film inizia alle diciannove e il biglietto costa otto euro. Ti aspetto davanti al cinema alle diciotto e trenta. Anche mercoledì sono libero: il museo apre alle nove e chiude all'una.",
+  "sha1": "328ed7ce1f6d30028c06a1d9788cbd71a9f96e6e",
+  "voice": "it_IT-serena-high",
+  "license": "CC BY 4.0"
+ },
+ {
   "id": "3290577e1ef1",
   "text": "Non so. Credo che abbia un esame, ma spero di sì.",
   "sha1": "3290577e1ef1cbdfe7556fdeac98154687bcb98d",
@@ -2908,6 +2922,13 @@
   "id": "572625c973ff",
   "text": "Mi chiamo Sara e ho trentadue anni. Sono alta e magra, ho i capelli lunghi e castani e gli occhi verdi. Sono una persona simpatica e un po' timida.",
   "sha1": "572625c973ffe1a758216ab8b7a671953c168fbb",
+  "voice": "it_IT-serena-high",
+  "license": "CC BY 4.0"
+ },
+ {
+  "id": "573f4786583e",
+  "text": "Ciao! Mi chiamo Marco e sono di Santiago. Scusa, non ho capito. Puoi ripetere, per favore? Si scrive emme, a, erre, ci, o. Come si dice «gracias»?",
+  "sha1": "573f4786583e28ec0f194ce7a3b42fbe49616b38",
   "voice": "it_IT-serena-high",
   "license": "CC BY 4.0"
  },
@@ -5992,6 +6013,13 @@
   "license": "CC BY 4.0"
  },
  {
+  "id": "acaaeea57084",
+  "text": "Oggi è il dieci marzo. Il caffè costa un euro e venti, il panino costa un euro e cinquanta e i biscotti costano tre euro. Il tè costa due euro e cinquanta. Domani è l'undici marzo. Il bar chiude il mercoledì.",
+  "sha1": "acaaeea5708485a750baad23aa401d21fcdc91fa",
+  "voice": "it_IT-serena-high",
+  "license": "CC BY 4.0"
+ },
+ {
   "id": "acda20e13477",
   "text": "Mi alzo alle sette. Di solito mi sveglio presto.",
   "sha1": "acda20e13477be7a6b3644fa64b11a26f6c42fe2",
@@ -7686,6 +7714,13 @@
   "license": "CC BY 4.0"
  },
  {
+  "id": "db209bd69b75",
+  "text": "Nel mio quartiere c'è una piazza e ci sono due bar. La farmacia è vicino alla piazza e il supermercato è lontano. Il parco è vicino alla stazione. Mi piace la piazza, ma non mi piacciono i bar. Non mi piace il supermercato perché è lontano.",
+  "sha1": "db209bd69b756f9d056b144d2a19e59061662dee",
+  "voice": "it_IT-serena-high",
+  "license": "CC BY 4.0"
+ },
+ {
   "id": "db3a54fd0cb0",
   "text": "Buongiorno, sono Laura Mora. Vorrei prenotare una camera.",
   "sha1": "db3a54fd0cb0304fff30abe9d0483c999b3488d2",
@@ -8267,6 +8302,13 @@
   "license": "CC BY 4.0"
  },
  {
+  "id": "ed153b2a35ae",
+  "text": "Al bar prendo un cappuccino e un cornetto. Vorrei anche un bicchiere d'acqua, per favore. Posso avere il conto, per favore? Poi devo andare al lavoro e torno a casa alle sei.",
+  "sha1": "ed153b2a35ae31c3e348e520788beef9d2253de7",
+  "voice": "it_IT-serena-high",
+  "license": "CC BY 4.0"
+ },
+ {
   "id": "ed229f40fbf0",
   "text": "Grazie mille! Buona giornata.",
   "sha1": "ed229f40fbf0a38938ed48d95a75266a8df0c137",
@@ -8340,6 +8382,13 @@
   "id": "ef5d7935b492",
   "text": "Ah, il Cile! Lei parla bene italiano!",
   "sha1": "ef5d7935b4927677ee9c3e63565f596aae44150a",
+  "voice": "it_IT-serena-high",
+  "license": "CC BY 4.0"
+ },
+ {
+  "id": "efb9003e86d4",
+  "text": "Buonasera! Piacere di conoscervi! Mi chiamo Laura e sono di Santiago. Sono qui in vacanza. Sono stanca. E voi, di dove siete? A presto!",
+  "sha1": "efb9003e86d4389138a809d974596c5a32cb1e22",
   "voice": "it_IT-serena-high",
   "license": "CC BY 4.0"
  },

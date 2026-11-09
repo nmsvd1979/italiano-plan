@@ -282,6 +282,13 @@
    ]
   },
   {
+   "texto": "Al bar prendo un cappuccino e un cornetto. Vorrei anche un bicchiere d'acqua, per favore. Posso avere il conto, per favore? Poi devo andare al lavoro e torno a casa alle sei.",
+   "unidad": "u04",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
    "texto": "Al centro: il cielo è nuvoloso. Verso sera piove. A Roma ci sono dodici gradi.",
    "unidad": "u27",
    "fuentes": [
@@ -719,6 +726,13 @@
   },
   {
    "texto": "Buonasera! Piacere di conoscervi! Mi chiamo Laura e sono di Santiago. Sono qui in vacanza. A presto!",
+   "unidad": "u01",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
+   "texto": "Buonasera! Piacere di conoscervi! Mi chiamo Laura e sono di Santiago. Sono qui in vacanza. Sono stanca. E voi, di dove siete? A presto!",
    "unidad": "u01",
    "fuentes": [
     "escritura"
@@ -1571,6 +1585,13 @@
    ]
   },
   {
+   "texto": "Ciao Marco! Sabato sono libero. Il film inizia alle diciannove e il biglietto costa otto euro. Ti aspetto davanti al cinema alle diciotto e trenta. Anche mercoledì sono libero: il museo apre alle nove e chiude all'una.",
+   "unidad": "u03",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
    "texto": "Ciao Sara, che stai facendo?",
    "unidad": "u07",
    "fuentes": [
@@ -1621,6 +1642,13 @@
   },
   {
    "texto": "Ciao! Mi chiamo Marco e sono di Santiago. Scusa, non ho capito. Puoi ripetere, per favore?",
+   "unidad": "u25",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
+   "texto": "Ciao! Mi chiamo Marco e sono di Santiago. Scusa, non ho capito. Puoi ripetere, per favore? Si scrive emme, a, erre, ci, o. Come si dice «gracias»?",
    "unidad": "u25",
    "fuentes": [
     "escritura"
@@ -3326,6 +3354,13 @@
    "unidad": "u02",
    "fuentes": [
     "monólogo"
+   ]
+  },
+  {
+   "texto": "Ho un appartamento piccolo. C'è una cucina e ci sono due camere. Vicino a casa c'è un supermercato. Ho anche un tavolo e due sedie. Mi piace il quartiere, ma non mi piacciono i bar rumorosi.",
+   "unidad": "u02",
+   "fuentes": [
+    "escritura"
    ]
   },
   {
@@ -5259,6 +5294,13 @@
    ]
   },
   {
+   "texto": "Nel mio quartiere c'è una piazza e ci sono due bar. La farmacia è vicino alla piazza e il supermercato è lontano. Il parco è vicino alla stazione. Mi piace la piazza, ma non mi piacciono i bar. Non mi piace il supermercato perché è lontano.",
+   "unidad": "u02",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
    "texto": "Nel mio quartiere c'è una piazza e ci sono due bar. La farmacia è vicino alla piazza. Mi piace la piazza, ma non mi piacciono i bar.",
    "unidad": "u02",
    "fuentes": [
@@ -5681,6 +5723,13 @@
   },
   {
    "texto": "Oggi è il dieci marzo. Il caffè costa un euro e venti, il panino costa un euro e cinquanta e i biscotti costano tre euro. Il bar chiude il mercoledì.",
+   "unidad": "u03",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
+   "texto": "Oggi è il dieci marzo. Il caffè costa un euro e venti, il panino costa un euro e cinquanta e i biscotti costano tre euro. Il tè costa due euro e cinquanta. Domani è l'undici marzo. Il bar chiude il mercoledì.",
    "unidad": "u03",
    "fuentes": [
     "escritura"
