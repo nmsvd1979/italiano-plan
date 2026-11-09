@@ -58,3 +58,6 @@ No hay italiano propio en este frente.
 
 ## Qué no se puede medir
 Corrección de lo escrito y de lo hablado, pronunciación, velocidad de comprensión de voces reales, y si las luces predicen un B1. El plan **no inventa** un umbral externo: lo único medible hoy es regularidad, comprensión en preguntas cerradas y memoria.
+
+## Hecho (9-nov): panel «Listo para B1» (PR 10b)
+`#/listo-b1` (`domain/readyB1.ts` + `features/progress/ReadyB1.tsx`), enlazado desde el Panel y desde «Opcional» en el Plan. Las seis luces usan solo constantes ya existentes (`PASS_LEVEL`, `WEAK_AREA`, `PASS_RATIO`, `B1_PASS`). Diferencias con la propuesta: (1) los monólogos se dan por hechos si el último intento marcó **todos** los puntos (la duración de cada vuelta no se guarda, así que no se pide «≥ 100 s»); (2) la luz de lectura y escucha largas pide 12 preguntas por tipo, así que con 1 + 1 textos de muestra no puede ponerse verde hasta que lleguen los otros 2 + 2; (3) la regularidad mira las últimas 4 semanas del núcleo con mini-prueba y, con menos de 4, queda «sin datos». Sin la «Ruta» de `05` todavía.

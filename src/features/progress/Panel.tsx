@@ -1,4 +1,5 @@
 import { useApp } from "../../app/state";
+import { href } from "../../app/route";
 import { loadLog } from "../../domain/activityLog";
 import { AREAS, AREA_NAME, WEAK_AREA } from "../../domain/evaluation";
 import { STRAND_NAME, activeWords, areaAccuracy, recallRate, strandMinutes, studiedDays, type Strand } from "../../domain/panel";
@@ -37,6 +38,7 @@ export function Panel() {
 
   return (
     <>
+      <a className="btn block" href={href("/listo-b1")} style={{ textAlign: "center", textDecoration: "none" }}>¿Listo para B1? Ver las seis evidencias</a>
       <section className="card stack">
         <div className="eyebrow">Repaso espaciado (30 días)</div>
         <div className="row" style={{ gap: 24 }}>
