@@ -301,3 +301,14 @@ No es revisión de un nativo.
 | Dudas | Ninguna nueva para `docs/dudas-italiano.md` |
 
 Sin audio del modelo (se lee con `say()`). No es revisión de un nativo.
+
+## Plan B1 · «Números a velocidad» (10-nov-2026, rama `feat/numeros-velocidad`)
+Bloque del día 4 solo en las semanas de los números (u25, u01, u03#A, u03#B), 15 números por semana (60 en total), con clip de voz sintética.
+
+| Nivel | Qué se hizo |
+|---|---|
+| Fuente del italiano | Los números se escriben con `numeroIt` (0 a 1000) y el test los contrasta con una **tabla escrita a mano, aparte** de 40 casos: elisión (*ventuno, ventotto, ottantuno*), tilde (*ventitré, trentatré, trecentotré*), centenas (*centouno, centotto, centottanta, duecentoquarantotto*), *mille*. Es verificación exacta, no de memoria de un revisor |
+| **V1/V3** | No aplican: no hay texto libre en italiano, solo numerales generados y comprobados |
+| Audio | 58 clips nuevos (los números repetidos entre semanas comparten clip); `audio-index.json` pasa a ≈ 30,6 MB |
+
+No es revisión de un nativo.
