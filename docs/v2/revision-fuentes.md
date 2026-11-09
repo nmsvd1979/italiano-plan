@@ -216,3 +216,15 @@ Sin audio (se genera por fase). No es revisión de un nativo.
 | Dudas | Ninguna nueva para `dudas-italiano.md` |
 
 No es revisión de un nativo.
+
+## Plan B1 · Ejercicios restantes: u18 (+1), u19 (+12), u21 (+4), u22 (+2), u23 (+4), u26, u27 y u28 (+1 cada una) (9-nov-2026, rama `contenido/ejercicios-f5-puente`)
+26 ejercicios nuevos al final de cada lista. Con ellos, **las 28 unidades tienen al menos 10 ejercicios por «Puedo…»** (piso del test `exercises.guard.test.ts`).
+
+| Nivel | Qué se hizo |
+|---|---|
+| **V1** | Palabras italianas cotejadas con `napolux/paroleitaliane` e `it_50k`: solo salió *comprerebbe* (condizional válido de *comprare*); lo demás es español de los enunciados |
+| **V2** | Sin fuente nueva: formas ya enseñadas o paradigmas estándar |
+| **V3** | Otra sesión (solo vio los 26 ejercicios, de memoria, sin internet): **0 errores de italiano**. Cambios: *Dormo ___ sette ore* → *Ieri ho dormito ___ sette ore* (por con un hecho terminado); la pista de *stare per* dice «a punto de» (no «por»); *Io sono ___ alle noci* para cerrar el sujeto. No acepto *penso che hanno ragione* (el ejercicio es de congiuntivo) |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
+No es revisión de un nativo.
