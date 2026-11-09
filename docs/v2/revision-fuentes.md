@@ -165,3 +165,15 @@ Clips de Serena para lo nuevo de las semanas 1 a 7 (`scripts/tts/alcance-nuevo.j
 | Regla | Solo se sintetiza lo que no figura en `exclusiones.json` ni `dudas-italiano.md` |
 
 No es revisión de un nativo, y **nadie oyó los clips nuevos** hasta que los pruebes en el iPhone.
+
+## Plan B1 · Ejercicios de la fase 2: u05 (+3), u06 (+6), u08 (+10) (8-nov-2026, rama `contenido/ejercicios-f2`)
+19 ejercicios nuevos al final de cada lista (u05 todos a la semana B; u06: 2 a la A y 4 a la B). Pasan a 10 por «Puedo…».
+
+| Nivel | Qué se hizo |
+|---|---|
+| **V1** | Palabras italianas cotejadas con `napolux/paroleitaliane` e `it_50k`: sin errores (lo no reconocido es español de los enunciados) |
+| **V2** | Sin fuente nueva: formas ya enseñadas o paradigmas estándar |
+| **V3** | Otra sesión (solo vio los 19 ejercicios, de memoria, sin internet): **0 errores de italiano**. Cambios: se acepta *diritto* además de *dritto*; *tanto* además de *molto* en *Mangio ___ pane*; *Che* además de *Quale* en *___ libro vuoi?*; la pista de *Quando ___?* dice «presente». No cambié «derecho» ni «lindas» (usos chilenos válidos) ni la posición de *qualche volta* |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
+No es revisión de un nativo.

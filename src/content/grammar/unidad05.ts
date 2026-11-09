@@ -157,5 +157,8 @@ export const unidad05: Lesson = {
     { type: "fill", prompt: "Noi ___ al cinema. (andare)", answers: ["andiamo"], why: "*Andare* con *noi*: *andiamo*." },
     { type: "fill", prompt: "Io ___ dall'ufficio alle sei. (uscire)", answers: ["esco"], why: "*Uscire* con *io*: *esco*." },
     { type: "choice", prompt: "Quieres decir que vas al banco a hacer un trámite:", options: ["Vado in banca.", "Vado nella banca.", "Vado a banca."], answer: 0, why: "Con *banca* (lugar habitual) se usa *in*, sin artículo." },
+    { type: "fill", prompt: "Vada ___ e poi giri a destra. (derecho)", answers: ["dritto", "diritto"], why: "*Vada dritto* (o *diritto*) = siga derecho (con *Lei*)." },
+    { type: "choice", prompt: "Quieres decir «a la derecha». ¿Qué dices?", options: ["a destra", "a diritta", "in destra"], answer: 0, why: "«A la derecha» = *a destra*; «a la izquierda» = *a sinistra*." },
+    { type: "fill", prompt: "L'___ è a sinistra. (la salida)", answers: ["uscita"], why: "*L'uscita* = la salida; *uscire* = salir. No confundir con *salire* (subir)." },
   ],
 };

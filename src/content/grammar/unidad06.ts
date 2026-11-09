@@ -133,5 +133,11 @@ export const unidad06: Lesson = {
     { type: "fill", prompt: "Una ___ casa. (linda)", answers: ["bella"], why: "Femenino singular: *bella*." },
     { type: "fill", prompt: "Un ___ caffè, per favore. (bueno)", answers: ["buon"], why: "*Buono* ante un masculino: *buon caffè*." },
     { type: "fill", prompt: "Questa borsa è ___. (mía)", answers: ["mia"], why: "Tras *essere*, el posesivo va sin artículo: *è mia*." },
+    { type: "fill", prompt: "I ___ genitori sono simpatici. (tus)", answers: ["tuoi"], why: "Con un plural masculino, *i tuoi*; el posesivo concuerda con lo poseído." },
+    { type: "choice", prompt: "Quieres señalar una bolsa que está lejos: «aquella bolsa».", options: ["quella borsa", "questa borsa", "quelle borsa"], answer: 0, why: "*Quella* (femenino singular) = aquella; *questa* = esta." },
+    { type: "fill", prompt: "Due giacche ___. (verdes)", answers: ["verdi"], why: "*Verde* hace el plural en *-i*: *verdi*, y va después del sustantivo." },
+    { type: "fill", prompt: "I pantaloni ___ sono molto belli. (grises)", answers: ["grigi"], why: "*Grigio* concuerda: plural masculino *grigi*." },
+    { type: "choice", prompt: "Quieres probarte una chaqueta en la tienda. ¿Qué preguntas?", options: ["Posso provare questa giacca?", "Posso provare questo giacca?", "Posso provato questa giacca?"], answer: 0, why: "*Giacca* es femenino: *questa giacca*; después de *posso* va el infinitivo *provare*." },
+    { type: "fill", prompt: "Che ___ scarpe! (qué lindas)", answers: ["belle"], why: "*Bello* antes de un plural femenino: *belle*." },
   ],
 };
