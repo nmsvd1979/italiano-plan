@@ -1789,6 +1789,13 @@
    ]
   },
   {
+   "texto": "Ciao Marco! Adesso sto cucinando e Anna sta studiando. Sono stanco, ma sto bene. E tu, che stai facendo? Mio fratello sta guardando la televisione e mia madre sta leggendo. Stasera esco con degli amici.",
+   "unidad": "u07",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
    "texto": "Ciao Marco! Hai parlato con Luca?",
    "unidad": "u20",
    "fuentes": [
@@ -1866,6 +1873,13 @@
    ]
   },
   {
+   "texto": "Ciao! Ho una sorella e un fratello. Mia madre fa l'insegnante e mio padre è un medico. Mia sorella è alta e ha i capelli castani. Mio fratello ha quindici anni e gli piace il calcio. Mia sorella ha venti anni e legge molto.",
+   "unidad": "u26",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
    "texto": "Ciao! Mi chiamo Laura. Sono di Santiago. Si scrive elle, a, u, erre, a.",
    "unidad": "u25",
    "fuentes": [
@@ -1902,6 +1916,13 @@
   },
   {
    "texto": "Ciao! Nel tempo libero leggo e gioco a calcio. So cucinare un po'. Oggi a Santiago c'è il sole, ma fa fresco.",
+   "unidad": "u27",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
+   "texto": "Ciao! Nel tempo libero leggo e gioco a calcio. So cucinare un po'. Oggi a Santiago c'è il sole, ma fa fresco. Il sabato gioco con gli amici e ogni domenica faccio una passeggiata. Domani piove: resto a casa.",
    "unidad": "u27",
    "fuentes": [
     "escritura"
@@ -2076,6 +2097,13 @@
    "unidad": "u08",
    "fuentes": [
     "monólogo"
+   ]
+  },
+  {
+   "texto": "Come ti chiami? Dove abiti? Quanti anni hai? Perché studi italiano? Che lavoro fai? Quando studi? Io vado spesso al cinema, ma non mangio mai la carne e non bevo molto caffè. Faccio sempre colazione al bar.",
+   "unidad": "u08",
+   "fuentes": [
+    "escritura"
    ]
   },
   {
@@ -2462,6 +2490,13 @@
    ]
   },
   {
+   "texto": "Di solito mi sveglio alle sette e mi alzo subito. Poi prendo un caffè e vado al lavoro. La sera mi lavo i denti e vado a letto. Adesso sto studiando italiano. A mezzogiorno pranzo con un amico. Ceno alle otto e dopo cena guardo la televisione.",
+   "unidad": "u07",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
    "texto": "Dietro la chiesa c'è la scuola. Davanti alla scuola ci sono due biciclette. Fuori dal quartiere c'è la stazione: è lontana, ma c'è un autobus.",
    "unidad": "u02#B",
    "fuentes": [
@@ -2776,6 +2811,13 @@
   },
   {
    "texto": "Dritto c'è il semaforo. All'angolo, a destra, c'è la farmacia. A sinistra c'è il bar. L'entrata è a sinistra e l'uscita è a destra.",
+   "unidad": "u05",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
+   "texto": "Dritto c'è il semaforo. All'angolo, a destra, c'è la farmacia. A sinistra c'è il bar. L'entrata è a sinistra e l'uscita è a destra. Il bagno è a destra, vicino all'uscita. Dopo il semaforo c'è un supermercato.",
    "unidad": "u05",
    "fuentes": [
     "escritura"
@@ -6965,6 +7007,13 @@
    ]
   },
   {
+   "texto": "Nel nostro negozio ci sono magliette bianche, una giacca verde e una gonna rosa. Quel cappello nero è molto bello. Puoi provare tutto nel camerino. La giacca costa quaranta euro e la gonna costa trenta euro. Il negozio apre alle nove e chiude alle sette.",
+   "unidad": "u06",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
    "texto": "Nel parco ci sono molti bambini.",
    "unidad": "u02",
    "fuentes": [
@@ -7587,6 +7636,13 @@
   },
   {
    "texto": "Oggi porto una maglietta bianca, pantaloni neri e scarpe marroni. La mia giacca è verde. Vorrei comprare un cappello rosso: quel cappello nel negozio è molto bello.",
+   "unidad": "u06",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
+   "texto": "Oggi porto una maglietta bianca, pantaloni neri e scarpe marroni. La mia giacca è verde. Vorrei comprare un cappello rosso: quel cappello nel negozio è molto bello. La mia maglietta preferita è blu e costa venti euro. Non porto mai il giallo.",
    "unidad": "u06",
    "fuentes": [
     "escritura"
@@ -10938,6 +10994,13 @@
   },
   {
    "texto": "Vado al lavoro in autobus. Il sabato vado da Marco a piedi. Domani vado a Firenze in treno e scendo alla stazione centrale.",
+   "unidad": "u05",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
+   "texto": "Vado al lavoro in autobus. Il sabato vado da Marco a piedi. Domani vado a Firenze in treno e scendo alla stazione centrale. Per andare all'università prendo la metro. Esco di casa alle otto e arrivo alle nove.",
    "unidad": "u05",
    "fuentes": [
     "escritura"

@@ -279,14 +279,14 @@ Lecturas `b1-2` (correo formal a una escuela, ≈ 270 palabras) y `b1-3` (relato
 
 Sin clips de audio todavía (voz del sistema). No es revisión de un nativo.
 
-## Plan B1 · Conectores y estructuras: u20 y u17 (10-nov-2026, rama `contenido/conectores-estructuras`)
-Lección de u20: fila de *infatti* en la tabla de conectores y párrafo de *non solo… ma anche…*, 2 ejemplos y 1 ítem `notice`. Ejercicios nuevos al final: 22 en u20 (6 de *infatti*, 6 de *non solo… ma anche*, 4 de relativas con *che/dove*, 6 de exclamativas) y 8 de relativas en u17 (30 en total). Piso de cobertura en `structures.coverage.test.ts` (*non solo… ma anche* ≥ 8, *infatti* ≥ 8, relativas ≥ 12, exclamativas ≥ 10).
+## Plan B1 · Formas meta y ampliación de escritura, fases 2 a 6 (10-nov-2026, rama `contenido/extend-fases-2-6`)
+25 semanas (u05–u28 menos las que ya tenían) con `mustInclude` y `extend` en `src/content/writing-extend.ts` (consigna ampliada, mínimo de palabras, modelo ampliado y formas propias). Los modelos ampliados de la fase 2 (u05–u08, u26, u27) tienen clip de voz sintética; el resto, no (D5).
 
 | Nivel | Qué se hizo |
 |---|---|
-| Formas | Solo formas de uso corriente y de manual: *infatti* para confirmar lo dicho (nunca como «en cambio»), *non solo… ma anche…*, *che* para sujeto y objeto, *dove* para lugares, *Che + adjetivo + sustantivo*. No se agregó *il quale/cui*, *poiché/siccome* ni *quanto è + adjetivo* (D6; quedan para otra decisión) |
-| **V1** | Palabras cotejadas con `napolux/paroleitaliane` e `it_50k` (ver comando abajo) |
-| **V2** | **No se consultó ninguna fuente nueva** (Treccani/Crusca): la corrección de *infatti* y *non solo… ma anche* viene del sillabo CILS A2/B1 que las lista y del uso estándar; queda sin fuente abierta citada |
-| **V3** | Otra sesión (solo vio las 45 líneas nuevas, de memoria, sin internet): **0 errores de italiano** y ninguna respuesta marcada mal. Apliqué: aceptar *soltanto/solamente* y *pure*; aceptar *in cui* en las dos preguntas con *dove*; las traducciones al español de «no solo… sino que también + verbo»; «¡Qué bonito!» en vez de «lindo»; el ejercicio *Che bambino ___!* (la pista regalaba la respuesta y *che bambino simpatico* es lo más natural). **No cambié** *che abita sopra* (se entiende; *di sopra* es más natural pero no urge) |
+| Léxico | El léxico de la app incluye los modelos de escritura, así que la medida «palabras que la app conoce» no detecta léxico fuera del curso: se cuidó a mano que las frases nuevas usen lo enseñado hasta cada unidad |
+| **V1** | Sin palabras raras nuevas (solo vocabulario ya enseñado) |
+| **V3** | Otra sesión (solo vio el archivo, de memoria, sin internet): formas bien escritas y presentes en sus modelos; **0 errores de ortografía o tildes**. Apliqué: u28 un vegetariano no pide pescado; u06 «no porto mai il rosso» contradecía el cappello rosso y la consigna decía «costó» con verbo en presente; u16 la frase nueva iba después de *Grazie mille!*; u14 *chieda informazioni*; u14#B *in farmacia*; u12 *Porto anche del vino*; u15#B *avvisami* (el combinado *dimmelo* era de nivel superior); u13 *la vorrei*; u10 orden cronológico; u11 *casa vecchia* y la consigna; u15 «boleto». **No cambié** lo que viene de los modelos originales: *Ciao!* al camarero (u28), *si può visitare la montagna* (u19), *resterei un mese* en el viaje pasado (u24), *non mangio mai la carne* (u08), *mio padre è un medico* (u26), *con amici* (u09), *Dritto c'è il semaforo* (u05#B), *Se vieni, sono molto contenta* (u15#B): son del contenido ya publicado y la regla del proyecto es no «arreglar a ojo» lo ya verificado; quedan anotados para una revisión de nativo |
+| Dudas | Las de la lista anterior (modelos originales), ninguna nueva en `docs/dudas-italiano.md` |
 
-No es revisión de un nativo. Sin audio nuevo (u20 y u17 no están en `alcance-nuevo.json`).
+No es revisión de un nativo.
