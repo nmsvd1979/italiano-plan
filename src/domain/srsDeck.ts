@@ -1,5 +1,6 @@
 import { findExercise, type Fill } from "../content/grammar";
 import { getDictation } from "../content/dictation";
+import { COURSE } from "../content/course";
 import { getVocab, getWords } from "../content/vocab";
 import type { SinPista } from "../content/sinpista";
 import { isSinPistaId, resolveSinPista } from "./sinpistaSrs";
@@ -57,6 +58,22 @@ export function allWordsOfUnit(unit: string): Word[] {
     out.push({ itemId, unit, it: v.it, es: v.es });
   }
   return out;
+}
+
+let HOME: Map<string, string> | null = null;
+
+/**
+ * Unidad «principal» de cada palabra de la lista de unidad: la primera del curso que la trae (*perché* en u08, no en u20 ni
+ * u24). Las demás unidades la repasan sin tarjeta propia: crear otra duplicaría la carga del repaso espaciado.
+ */
+export function wordHomeUnit(it: string): string | undefined {
+  if (!HOME) {
+    HOME = new Map();
+    for (const unit of [...new Set(COURSE.map((s) => s.unit))]) {
+      for (const v of getVocab(unit) ?? []) if (!HOME.has(slug(v.it))) HOME.set(slug(v.it), unit);
+    }
+  }
+  return HOME.get(slug(it));
 }
 
 /** El mazo extra se carga solo cuando se necesita: no pesa en la carga inicial. */

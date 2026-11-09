@@ -3,7 +3,7 @@ import { addDays, diffInDays, formatDateHuman, parseISODate, toISODate } from ".
 import type { Progress } from "./curriculum";
 import { wordsSeen } from "./cycle";
 import { dayOf, cardId, type CardKind, type SrsCard, type SrsState } from "./srs";
-import { quizletItemId, wordsOfUnit, type QuizletEntry, type Word } from "./srsDeck";
+import { quizletItemId, wordHomeUnit, wordsOfUnit, type QuizletEntry, type Word } from "./srsDeck";
 
 // Cola diaria (docs/v2/02 B5).
 
@@ -30,7 +30,7 @@ export interface NewCandidate {
   kind: CardKind;
   itemId: string;
   unit: string;
-  deck?: "quizlet";
+  deck?: "quizlet" | "g3";
 }
 
 export type QueueItem = { type: "due"; card: SrsCard } | { type: "new"; candidate: NewCandidate };
@@ -96,12 +96,25 @@ export function buildQueue({ state, today, eligibleUnits, quizlet = [], extraWor
         && dayOf(c.createdAt) === todayISO).length;
 
     let room = LIMITS.newPerDay - introducedToday(false);
+    const eligible = new Set(eligibleUnits);
+    // Una palabra repetida en varias unidades tiene una sola tarjeta, la de su unidad principal (si esa ya se vio).
+    const covered = (unit: string, w: Word): boolean => {
+      const home = wordHomeUnit(w.it);
+      return home !== undefined && home !== unit && eligible.has(home);
+    };
     for (const unit of eligibleUnits) {
       if (room <= 0) break;
-      for (const w of [...wordsOfUnit(unit), ...(extraWords?.get(unit) ?? [])]) {
+      for (const w of wordsOfUnit(unit)) {
         if (room <= 0) break;
-        if (state.cards[cardId("recog", w.itemId)]) continue;
+        if (state.cards[cardId("recog", w.itemId)] || covered(unit, w)) continue;
         fresh.push({ kind: "recog", itemId: w.itemId, unit });
+        room--;
+      }
+      // Después de las de la unidad, las ampliadas ya vistas (solo reconocimiento).
+      for (const w of extraWords?.get(unit) ?? []) {
+        if (room <= 0) break;
+        if (state.cards[cardId("recog", w.itemId)] || covered(unit, w)) continue;
+        fresh.push({ kind: "recog", itemId: w.itemId, unit, deck: "g3" });
         room--;
       }
     }
