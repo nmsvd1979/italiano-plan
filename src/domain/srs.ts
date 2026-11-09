@@ -32,7 +32,7 @@ export interface SrsCard {
   fsrs: FsrsData;
   createdAt: string;
   /** Tarjeta del mazo extra de Quizlet. */
-  deck?: "quizlet" | "g3";
+  deck?: "quizlet" | "g3" | "freq";
   /** Creada con estado inicial sembrado desde el progreso previo (fase H2). */
   source?: "seed";
 }
@@ -50,7 +50,7 @@ export interface SrsState {
   cards: Record<string, SrsCard>;
   /** Máximo LOG_MAX entradas: se recortan las más viejas. */
   log: SrsLogEntry[];
-  options?: { quizlet?: boolean };
+  options?: { quizlet?: boolean; freq?: boolean };
 }
 
 export const LOG_MAX = 3000;
@@ -110,7 +110,7 @@ interface NewCardInput {
   kind: CardKind;
   itemId: string;
   unit: string;
-  deck?: "quizlet" | "g3";
+  deck?: "quizlet" | "g3" | "freq";
 }
 
 /** Tarjeta nueva, vence ahora. */
@@ -180,8 +180,8 @@ export function rerateLast(state: SrsState, before: SrsCard, rating: RatingValue
 export function unlockProdCards(state: SrsState, now: Date): SrsState {
   let cards = state.cards;
   for (const c of Object.values(state.cards)) {
-    // Las palabras ampliadas (g3) y las del mazo extra solo se repasan en reconocimiento: escribirlas duplicaría la carga del repaso.
-    if (c.kind !== "recog" || c.deck === "quizlet" || c.deck === "g3" || c.fsrs.stability < PROD_UNLOCK_STABILITY) continue;
+    // Las palabras ampliadas (g3), las del mazo de frecuencia y las del mazo extra solo se repasan en reconocimiento: escribirlas duplicaría la carga del repaso.
+    if (c.kind !== "recog" || c.deck === "quizlet" || c.deck === "g3" || c.deck === "freq" || c.fsrs.stability < PROD_UNLOCK_STABILITY) continue;
     if (c.source === "seed" && c.fsrs.reps < 2) continue;
     const id = cardId("prod", c.itemId);
     if (cards[id]) continue;
