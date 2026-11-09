@@ -30,7 +30,7 @@ describe("ejercicios de lección: solo se agregan al final", () => {
 // Piso de ejercicios por «Puedo…» (docs/v2/plan-b1/03). Sube con cada PR de contenido y no puede bajar.
 const FLOOR: Record<string, number> = {
   u01: 10, u02: 10, u03: 10, u04: 10, u05: 10, u06: 10, u07: 10, u08: 10, u09: 13.5, u10: 15, u11: 14, u12: 10, u13: 11, u14: 12.5,
-  u15: 10, u16: 10, u17: 10, u18: 10, u19: 10, u20: 10, u21: 10, u22: 10, u23: 10, u24: 10.5, u25: 10, u26: 10, u27: 10, u28: 10,
+  u15: 10, u16: 10, u17: 12.5, u18: 10, u19: 10, u20: 21, u21: 10, u22: 10, u23: 10, u24: 10.5, u25: 10, u26: 10, u27: 10, u28: 10,
 };
 
 describe("piso de ejercicios por «Puedo…»", () => {
