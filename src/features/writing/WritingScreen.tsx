@@ -242,7 +242,7 @@ function Write({ unit, saveKey, task }: { unit: string; saveKey: string; task: W
           <>
             <p className="sub">Míralo después de escribir tu versión: así aprendes más de la comparación.</p>
             <button type="button" className="btn" disabled={!check.complete} onClick={() => setCompare(true)}>
-              {check.complete ? "Ver el modelo" : "Escribe primero tu texto"}
+              {check.complete ? "Ver el modelo" : check.words >= check.minWords && check.totalForms > 0 && check.missingForms.length > 0 ? "Usa más estructuras de la unidad" : "Escribe primero tu texto"}
             </button>
           </>
         )}
