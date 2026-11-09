@@ -97,5 +97,191 @@
    }
   ],
   "palabras": 268
+ },
+ "b1-2": {
+  "tipo": "correo formal",
+  "titulo": "Un'email alla scuola",
+  "it": [
+   "Gentile signora Bianchi,\nmi chiamo Daniel Soto e sono uno studente del corso di italiano del lunedì e del mercoledì sera. Le scrivo perché vorrei chiedere un cambio di orario.",
+   "Da settembre lavoro in un ufficio del centro e, purtroppo, finisco spesso dopo le sei e mezza. Per questo arrivo sempre in ritardo e perdo la prima parte della lezione. Ho parlato con l'insegnante, che è stata molto gentile, ma abbiamo capito che il problema non si risolve da solo. Per esempio, lunedì scorso sono arrivato alle sette e quaranta e non ho capito la lezione nuova.",
+   "Ho visto sul sito che c'è anche un corso del martedì e del giovedì, dalle sette e mezza alle nove. Sarebbe possibile passare a quel corso? Credo che il livello sia lo stesso, perché ho fatto la prova di livello a luglio e il risultato era quello del corso A2. Se ci fosse un posto libero, potrei cominciare già la settimana prossima. Inoltre, alcuni amici vanno a quel corso e mi hanno detto che l'insegnante spiega molto bene.",
+   "Capisco che non sia semplice cambiare corso a metà mese. Se serve, sono pronto a pagare la differenza, oppure a cominciare il mese prossimo. Per me è importante non interrompere lo studio, perché in questi mesi ho fatto molti progressi e vorrei continuare. Non vorrei perdere gli amici del corso, ma l'orario è davvero un problema.",
+   "Resto in attesa di una Sua risposta. Può scrivermi a questo indirizzo oppure chiamarmi all'ora di pranzo, quando di solito sono libero.\nLa ringrazio in anticipo.\nCordiali saluti,\nDaniel Soto"
+  ],
+  "es": [
+   "Estimada señora Bianchi:\nMe llamo Daniel Soto y soy alumno del curso de italiano de los lunes y miércoles en la tarde. Le escribo porque quisiera pedir un cambio de horario.",
+   "Desde septiembre trabajo en una oficina del centro y, lamentablemente, termino seguido después de las seis y media. Por eso llego siempre atrasado y me pierdo la primera parte de la clase. Hablé con la profesora, que fue muy amable, pero entendimos que el problema no se resuelve solo. Por ejemplo, el lunes pasado llegué a las siete y cuarenta y no entendí la clase nueva.",
+   "Vi en el sitio que también hay un curso de los martes y jueves, de siete y media a nueve. ¿Sería posible pasar a ese curso? Creo que el nivel es el mismo, porque hice la prueba de nivel en julio y el resultado era el del curso A2. Si hubiera un cupo libre, podría empezar ya la próxima semana. Además, algunos compañeros de trabajo van a ese curso y me dijeron que el profesor explica muy bien.",
+   "Entiendo que no sea fácil cambiar de curso a mitad del mes. Si hace falta, estoy dispuesto a pagar la diferencia, o a empezar el mes próximo. Para mí es importante no interrumpir el estudio, porque en estos meses he avanzado mucho y quisiera continuar. No quisiera perder a mis amigos del curso, pero el horario de verdad es un problema.",
+   "Quedo a la espera de su respuesta. Puede escribirme a esta dirección o llamarme a la hora de almuerzo, cuando normalmente estoy libre.\nSe lo agradezco de antemano.\nSaludos cordiales,\nDaniel Soto"
+  ],
+  "claves": [
+   {
+    "it": "cambiare corso",
+    "es": "cambiar de curso"
+   },
+   {
+    "it": "purtroppo",
+    "es": "lamentablemente"
+   },
+   {
+    "it": "il posto libero",
+    "es": "el cupo libre"
+   },
+   {
+    "it": "il cambio di orario",
+    "es": "el cambio de horario"
+   },
+   {
+    "it": "la differenza",
+    "es": "la diferencia"
+   },
+   {
+    "it": "Gentile signora…",
+    "es": "Estimada señora… (saludo formal)"
+   },
+   {
+    "it": "Cordiali saluti",
+    "es": "Saludos cordiales"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Por qué Daniel llega atrasado a clase?",
+    "options": [
+     "Vive lejos de la escuela",
+     "Termina de trabajar tarde",
+     "Se confunde de horario"
+    ],
+    "answer": 1,
+    "why": "«Finisco spesso dopo le sei e mezza»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué pide Daniel?",
+    "options": [
+     "Pasar al curso de martes y jueves",
+     "Que le devuelvan el dinero",
+     "Dejar el curso un tiempo"
+    ],
+    "answer": 0,
+    "why": "«Sarebbe possibile passare a quel corso?»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué ofrece si cambiar de curso no es fácil?",
+    "options": [
+     "Hablar con otro profesor",
+     "Pagar la diferencia o empezar el mes próximo",
+     "Venir los sábados"
+    ],
+    "answer": 1,
+    "why": "«Sono pronto a pagare la differenza, oppure a cominciare il mese prossimo»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué nivel le dio la prueba de nivel de julio? (una sigla)",
+    "accepted": [
+     "A2",
+     "a2"
+    ],
+    "why": "«Il risultato era quello del corso A2»."
+   }
+  ],
+  "palabras": 266
+ },
+ "b1-3": {
+  "tipo": "relato de viaje",
+  "titulo": "Un fine settimana a Bologna",
+  "it": [
+   "Sabato scorso sono andato a Bologna con due amici. Volevamo partire presto, ma la sera prima abbiamo fatto tardi e ci siamo svegliati alle otto. Siamo arrivati alla stazione di corsa e abbiamo preso il treno delle nove per un soffio.",
+   "Il viaggio è durato un'ora e mezza. Mentre i miei amici dormivano, io guardavo fuori: c'era un po' di nebbia, ma la campagna era bellissima. Il treno era comodo e c'era anche il bar: ho preso un caffè e ho ascoltato un po' di musica. Quando siamo arrivati, pioveva, e abbiamo dovuto comprare un ombrello nel primo negozio che abbiamo trovato.",
+   "Abbiamo passato la mattina in centro. Abbiamo visitato la piazza principale e una chiesa molto antica, poi siamo saliti su una torre: c'erano più di quattrocento scalini, e alla fine eravamo molto stanchi. Ma dall'alto la vista era fantastica e aveva smesso di piovere.",
+   "A pranzo siamo andati in una piccola trattoria. Non avevamo prenotato, ma per fortuna c'era un tavolo libero vicino alla finestra. Io ho mangiato le tagliatelle al ragù, che erano le migliori della mia vita. Il cameriere ci ha consigliato un vino della zona e non abbiamo speso molto. Dopo pranzo abbiamo fatto una passeggiata per le strade del centro e ci siamo fermati a guardare i librerie.",
+   "Nel pomeriggio ho comprato dei regali per la mia famiglia e poi siamo tornati a casa con l'ultimo treno. Credo che sia una città da visitare con più tempo: se avessimo avuto un giorno in più, saremmo andati anche al museo. Spero di tornarci presto, magari in primavera, perché dicono che con il sole i portici sono ancora più belli."
+  ],
+  "es": [
+   "El sábado pasado fui a Bolonia con dos amigos. Queríamos salir temprano, pero la noche anterior nos acostamos tarde y nos despertamos a las ocho. Llegamos corriendo a la estación y alcanzamos el tren de las nueve por poco.",
+   "El viaje duró una hora y media. Mientras mis amigos dormían, yo miraba hacia afuera: había un poco de niebla, pero el campo era hermoso. El tren era cómodo y había también un bar: tomé un café y escuché un poco de música. Cuando llegamos, llovía, y tuvimos que comprar un paraguas en la primera tienda que encontramos.",
+   "Pasamos la mañana en el centro. Visitamos la plaza principal y una iglesia muy antigua, y después subimos a una torre: había más de cuatrocientos escalones y al final estábamos muy cansados. Pero desde arriba la vista era fantástica y había dejado de llover.",
+   "A la hora de almuerzo fuimos a una pequeña fonda. No habíamos reservado, pero por suerte había una mesa libre junto a la ventana. Yo comí tagliatelle con ragú, que eran las mejores de mi vida. El mesero nos recomendó un vino de la zona y no gastamos mucho. Después del almuerzo dimos un paseo por las calles del centro y nos detuvimos a mirar las librerías.",
+   "En la tarde compré regalos para mi familia y después volvimos a casa en el último tren. Creo que es una ciudad para visitar con más tiempo: si hubiéramos tenido un día más, habríamos ido también al museo. Espero volver pronto, quizás en primavera, porque dicen que con sol los pórticos son todavía más bonitos."
+  ],
+  "claves": [
+   {
+    "it": "per un soffio",
+    "es": "por poco, justo a tiempo"
+   },
+   {
+    "it": "la nebbia",
+    "es": "la niebla"
+   },
+   {
+    "it": "lo scalino",
+    "es": "el escalón"
+   },
+   {
+    "it": "la trattoria",
+    "es": "fonda, restaurante sencillo"
+   },
+   {
+    "it": "prenotare",
+    "es": "reservar"
+   },
+   {
+    "it": "consigliare",
+    "es": "recomendar"
+   },
+   {
+    "it": "i portici",
+    "es": "los pórticos"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Por qué casi pierden el tren?",
+    "options": [
+     "Se despertaron tarde",
+     "Se perdieron en la estación",
+     "Compraron mal los pasajes"
+    ],
+    "answer": 0,
+    "why": "«Abbiamo fatto tardi e ci siamo svegliati alle otto»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cómo estaba el tiempo cuando llegaron a Bolonia?",
+    "options": [
+     "Hacía sol",
+     "Llovía",
+     "Había mucho viento"
+    ],
+    "answer": 1,
+    "why": "«Quando siamo arrivati, pioveva»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué comió el narrador en la trattoria?",
+    "options": [
+     "Pizza",
+     "Tagliatelle al ragù",
+     "Pescado"
+    ],
+    "answer": 1,
+    "why": "«Ho mangiato le tagliatelle al ragù»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Qué tuvieron que comprar al llegar por la lluvia? (una palabra, en italiano)",
+    "accepted": [
+     "ombrello",
+     "un ombrello"
+    ],
+    "why": "«Abbiamo dovuto comprare un ombrello»."
+   }
+  ],
+  "palabras": 281
  }
 }
