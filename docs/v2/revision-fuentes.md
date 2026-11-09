@@ -217,3 +217,16 @@ Se generó tras tu prueba de la fase 1 (D5, dada por buena). No es revisión de 
 | Dudas | Ninguna nueva para `dudas-italiano.md` |
 
 Sin audio (se genera por fase). No es revisión de un nativo.
+
+## Plan B1 · Producción del puente: u21, u22 y u23 (10-nov-2026, rama `contenido/puente-produccion`)
+Para cada unidad del puente: formas meta en la consigna base, **ampliación de escritura de ≈ 80 palabras** (rango B1 del plan; el CILS B1 pide 100–120) y un **monólogo** de 100 / 80 / 60 s. Con ellos, los 35 pasos del curso tienen monólogo.
+
+| Nivel | Qué se hizo |
+|---|---|
+| Léxico acumulado | Solo formas de verbos ya enseñados (*consegnata, visitarlo, risparmierei, parlarne*) y *copie, problema, vedano, portiamo* |
+| **V1** | Palabras cotejadas con `napolux/paroleitaliane` e `it_50k`: solo *Colosseo* y *visitarlo* (nombre propio y enclítica) |
+| **V2** | Sin fuente nueva: pronombres combinados, congiuntivo presente y periodo ipotetico de 2.º tipo ya enseñados en la unidad |
+| **V3** | Otra sesión (solo vio las 3 unidades, de memoria, sin internet): **0 errores verbales ni pronominales**. Cambios por naturalidad y coherencia: *in tutta Italia* (no *l'Italia*), *la ricevuta del pacco* (no *lo scontrino*), *Del libro ho due copie: se vuoi, te ne mando una* (el *ne* tenía antecedente confuso), *Se vincessi alla lotteria*, *ci passerei l'estate*, *Se ne avessi l'occasione, partirei subito*, la pregunta final al final; formas meta de u21 (*gliel'ho consegnata*, *te lo spiego*) y u22 (*è meglio che*) para que comprueben lo que pide la ampliación. **No cambié** *la mappa non l'ho più* (lo natural hoy es *non ce l'ho più*, pero *ce l'ho* es estructura nueva en la unidad) ni los géneros fijos (*ricca*, *libero*) |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
+Sin audio (se genera por fase). No es revisión de un nativo.

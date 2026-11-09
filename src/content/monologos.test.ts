@@ -45,5 +45,7 @@ describe("monólogos guiados", () => {
     for (const s of COURSE) expect(hasMonologue(s.id), s.id).toBe(!!getMonologue(s.id));
   });
 
-  it.todo("un monólogo por cada paso de COURSE (35), en los PR de contenido");
+  it("todos los pasos del curso (núcleo y puente) tienen su monólogo", () => {
+    expect(COURSE.filter((s) => !hasMonologue(s.id)).map((s) => s.id)).toEqual([]);
+  });
 });
