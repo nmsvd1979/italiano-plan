@@ -1,5 +1,5 @@
 // Monólogo guiado (docs/v2/plan-b1/02): una consigna por semana del curso para hablar sin leer, en tres vueltas con menos
-// tiempo cada vez. Clave = id del paso (`u25`, `u02#B`). Fases 1 y 2 (semanas 1 a 16); el resto llega en PR de contenido.
+// tiempo cada vez. Clave = id del paso (`u25`, `u02#B`). Fases 1 a 3 (semanas 1 a 21); el resto llega en PR de contenido.
 
 export interface Monologue {
   /** Qué decir, en español. */
@@ -186,6 +186,61 @@ const MONOLOGOS: Record<string, Monologue> = {
     ],
     frames: ["Nel mio tempo libero mi piace ___ e giocare a ___.", "Oggi c'è ___, ma fa ___."],
     model: "Nel mio tempo libero mi piace guardare film e giocare a calcio. Oggi c'è il sole, ma fa fresco.",
+    seconds: [60, 48, 35],
+  },
+  "u09": {
+    prompt: "Cuenta qué hiciste el fin de semana pasado (tres cosas) y algo que todavía no hiciste.",
+    points: [
+      "Cuentas lo que hiciste con *ho* + participio (*ho mangiato*).",
+      "Usas al menos un participio irregular (*ho visto*, *ho fatto*).",
+      "Dices algo que todavía no hiciste con *non… ancora* (*Non ho ancora finito…*).",
+    ],
+    frames: ["Sabato ho ___ (participio) con amici.", "Ho visto ___ e ho comprato ___.", "Non ho ancora ___ (participio)."],
+    model: "Sabato ho mangiato una pizza con amici. Ho visto un film e ho comprato un libro. Non ho ancora finito il libro.",
+    seconds: [60, 48, 35],
+  },
+  "u10": {
+    prompt: "Cuenta un viaje: adónde fuiste, en qué viajaste, a qué hora llegaron y cuándo volvieron.",
+    points: [
+      "Dices adónde fuiste con *sono andato / andata* (el participio concuerda con quien habla).",
+      "Dices a qué hora llegaron con *siamo arrivati alle…*.",
+      "Dices cuándo volvieron con *siamo tornati…*.",
+    ],
+    frames: ["Sono andato / andata a ___ in ___.", "Siamo arrivati alle / all' ___.", "Siamo tornati ___."],
+    model: "Sono andata a Firenze in treno. Siamo arrivati alle dieci. Siamo tornati lunedì sera.",
+    seconds: [60, 48, 35],
+  },
+  "u11": {
+    prompt: "Cuenta cómo era tu infancia y algo que pasó un día mientras jugabas.",
+    points: [
+      "Describes tu infancia con el imperfecto (*abitavo*, *giocavo*).",
+      "Usas *mentre* + imperfecto para la acción de fondo.",
+      "Cuentas lo que pasó de pronto con el *passato prossimo* (*ho trovato*).",
+    ],
+    frames: ["Da piccolo / piccola abitavo ___.", "D'estate giocavo ___.", "Un giorno, mentre ___, ho / sono ___."],
+    model: "Da piccola abitavo in una casa grande con mio nonno. D'estate giocavo in giardino. Un giorno, mentre giocavo, ho trovato un gatto.",
+    seconds: [65, 52, 38],
+  },
+  "u12": {
+    prompt: "Compara dos ciudades, pide tres cosas en el mercado y di qué es lo más caro.",
+    points: [
+      "Comparas con *più… di* (*più grande di…*).",
+      "Pides con partitivo (*del pane*, *dei pomodori*).",
+      "Dices lo más caro con el superlativo (*il più caro*).",
+    ],
+    frames: ["___ è più ___ di ___.", "Vorrei del / della / dei / delle ___ e ___.", "Il ___ è il più caro del mercato (uno de los tres, en singular)."],
+    model: "Roma è più grande di Torino, ma Torino è più tranquilla. Vorrei del pane, dei pomodori e del formaggio. Il formaggio è il più caro del mercato.",
+    seconds: [65, 52, 38],
+  },
+  "u28": {
+    prompt: "Estás en un restaurante: avisa que reservaste, cuenta tu alergia y pide la cuenta.",
+    points: [
+      "Dices que reservaste (*Ho prenotato per…*).",
+      "Avisas de tu alergia o dieta (*Sono vegetariano*, *Sono allergico a…*).",
+      "Pides la cuenta con cortesía (*Il conto, per favore*).",
+    ],
+    frames: ["Buonasera! Ho prenotato per ___ persone.", "Sono ___ e sono allergico / allergica a ___ (al, alla, alle).", "Il conto, per favore."],
+    model: "Buonasera! Ho prenotato per due persone. Sono vegetariano e sono allergico alle noci. Il conto, per favore.",
     seconds: [60, 48, 35],
   },
 };
