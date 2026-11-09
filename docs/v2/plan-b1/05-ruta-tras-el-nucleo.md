@@ -48,3 +48,6 @@ Un PR `feat` M. Va **después** de «Practicar más» (`06`) porque lo enlaza. L
 
 ## Qué no se puede medir
 Cuánto tiempo real de contenido nuevo tiene una persona concreta (depende de sus minutos reales). Los 26 / 13 / 6 días son simulación con supuestos de `flujo.md` (85 % de aprobar la mini-prueba).
+
+## Hecho (10-nov): tarjeta «Ruta»
+Al terminar todas las semanas, Hoy muestra «Terminaste el curso» con la ruta según el último intento de la prueba de nivel A2 (`domain/ruta.ts`, `routeAfterCore`): sin prueba → la prueba; ≥ 80 % sin áreas flojas → «Práctica B1» y «¿Listo para B1?»; si no → «Practicar más» y qué áreas reforzar. Si el núcleo está terminado pero quedan semanas del puente, una nota arriba dice que son opcionales. Cambios respecto a lo propuesto: el texto obsoleto («pronto») ya no existe; el filtro por habilidad de «Practicar más» (`?area=`) no está, así que la tarjeta solo nombra las áreas; la corrección de `levelUnits` ya estaba hecha (PR 10a).
