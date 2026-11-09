@@ -79,6 +79,14 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
     onAnswer(ex, ok);
   };
 
+  // La corrección compara con 1–2 respuestas: una variante válida (otro orden, otro sinónimo) se rechaza. Quien la escribió puede darla por buena.
+  const acceptMine = () => {
+    if (result !== false) return;
+    setResult(true);
+    setResults((r) => [...r.slice(0, -1), true]);
+    onAnswer(ex, true);
+  };
+
   const next = () => {
     if (!last) {
       setIndex(index + 1);
@@ -196,6 +204,9 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
           </div>
           {!result && <p>Respuesta: <strong>{modelAnswer(ex)}</strong></p>}
           <p><Rich text={ex.why} /></p>
+          {!result && (ex.type === "translate" || ex.type === "fix" || ex.type === "transform") && (
+            <button type="button" className="btn" onClick={acceptMine}>Mi respuesta también era válida</button>
+          )}
         </div>
       )}
 

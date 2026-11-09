@@ -1025,7 +1025,8 @@
    "why": "Con un familiar singular no lleva artículo: «mio fratello».",
    "prompt": "Mi hermano es ingeniero.",
    "answers": [
-    "Mio fratello è ingegnere."
+    "Mio fratello è ingegnere.",
+    "Mio fratello è un ingegnere."
    ]
   },
   {
@@ -1463,7 +1464,8 @@
    "why": "«Piovere» es el verbo de la lluvia.",
    "prompt": "Hoy llueve.",
    "answers": [
-    "Oggi piove."
+    "Oggi piove.",
+    "Piove oggi."
    ]
   },
   {
@@ -2278,7 +2280,8 @@
    "why": "Con «li» el participio concuerda: comprati.",
    "prompt": "Los compré ayer.",
    "answers": [
-    "Li ho comprati ieri."
+    "Li ho comprati ieri.",
+    "Ieri li ho comprati."
    ]
   },
   {
@@ -2535,7 +2538,8 @@
    "why": "Futuro de essere: saremo.",
    "prompt": "Seremos felices.",
    "answers": [
-    "Saremo felici."
+    "Saremo felici.",
+    "Noi saremo felici."
    ]
   },
   {
