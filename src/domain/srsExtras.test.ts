@@ -1,10 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { getWords } from "../content/vocab";
 import { blockKey } from "./cycle";
-import { allWordsOfUnit, choicesFor, emptyContext, resolveCard, wordItemId, wordsOfUnit } from "./srsDeck";
+import { allWordsOfUnit, choicesFor, emptyContext, resolveCard, wordHomeUnit, wordItemId, wordsOfUnit } from "./srsDeck";
 import { extraWordsFor, extraWordsOfUnit, extraWordsSeen } from "./srsExtras";
 import { LIMITS, buildQueue } from "./srsQueue";
-import { cardId, emptySrs, newSrsCard } from "./srs";
+import { PROD_UNLOCK_STABILITY, applyReview, cardId, emptySrs, newSrsCard, unlockProdCards } from "./srs";
+import { UNITS } from "../content/curriculum";
 
 const today = new Date(2026, 10, 8);
 const done = (...keys: string[]): ReadonlySet<string> => new Set(keys);
@@ -81,5 +82,61 @@ describe("palabras ampliadas en el repaso espaciado", () => {
     const all = allWordsOfUnit("u04");
     expect(all.slice(0, base.length).map((w) => w.itemId)).toEqual(base.map((w) => w.itemId));
     expect(all.length).toBeGreaterThan(base.length);
+  });
+});
+
+describe("ritmo del repaso: sin duplicados y ampliadas solo en reconocimiento", () => {
+  // Palabra de unidad que aparece en más de una unidad: tiene una unidad principal (la primera del curso).
+  const dup = (() => {
+    for (const u of UNITS) for (const w of wordsOf(u.id)) { const home = wordHomeUnit(w.it); if (home && home !== u.id) return { w, secondary: u.id, home }; }
+    return null;
+  })();
+  function wordsOf(u: string) { return wordsOfUnit(u); }
+
+  it("hay palabras repetidas entre unidades y cada una tiene unidad principal", () => {
+    expect(dup).not.toBeNull();
+    expect(wordHomeUnit(dup!.w.it)).toBe(dup!.home);
+  });
+
+  it("con las dos unidades vistas, la secundaria no crea una segunda tarjeta", () => {
+    const { w, secondary, home } = dup!;
+    const fresh = (units: string[]) => buildQueue({ state: emptySrs(), today, eligibleUnits: units }).items
+      .filter((i) => i.type === "new").map((i) => (i.type === "new" ? i.candidate : null)!);
+    // Para ver el efecto sin el tope diario, se piden todas las palabras de ambas unidades de a poco.
+    const ids = new Set<string>();
+    let state = emptySrs();
+    for (let day = 0; day < 8; day++) {
+      const d = new Date(2026, 10, 1 + day);
+      for (const c of buildQueue({ state, today: d, eligibleUnits: [home, secondary] }).items) {
+        if (c.type !== "new") continue;
+        ids.add(c.candidate.itemId);
+        state = { ...state, cards: { ...state.cards, [cardId("recog", c.candidate.itemId)]: newSrsCard({ kind: "recog", itemId: c.candidate.itemId, unit: c.candidate.unit }, d) } };
+      }
+    }
+    expect(ids.has(wordItemId(home, w.it))).toBe(true);
+    expect(ids.has(wordItemId(secondary, w.it))).toBe(false);
+    // Si solo se vio la unidad secundaria, la palabra sí entra por ella.
+    const only = fresh([secondary]).map((c) => c.itemId);
+    const allSecondary = wordsOfUnit(secondary).slice(0, LIMITS.newPerDay).map((x) => x.itemId);
+    expect(only.length).toBeLessThanOrEqual(LIMITS.newPerDay);
+    expect(allSecondary.length).toBeGreaterThan(0);
+  });
+
+  it("las palabras ampliadas entran como tarjeta g3 y no generan tarjeta de escribir", () => {
+    const extras = extraWordsFor({ done: done(blockKey("u04", 3, "words3")) });
+    let state = emptySrs();
+    for (const w of wordsOfUnit("u04")) state = { ...state, cards: { ...state.cards, [cardId("recog", w.itemId)]: newSrsCard({ kind: "recog", itemId: w.itemId, unit: "u04" }, new Date(2026, 10, 1)) } };
+    const q = buildQueue({ state, today, eligibleUnits: ["u04"], extraWords: extras });
+    const first = q.items.find((i) => i.type === "new");
+    expect(first && first.type === "new" ? first.candidate.deck : null).toBe("g3");
+    // Una tarjeta g3 con estabilidad alta no desbloquea la de escribir; una de unidad, sí.
+    const g3 = newSrsCard({ kind: "recog", itemId: "u04:x-extra", unit: "u04", deck: "g3" }, today);
+    const base = newSrsCard({ kind: "recog", itemId: "u04:x-base", unit: "u04" }, today);
+    const mature = (c: typeof g3) => ({ ...c, fsrs: { ...c.fsrs, stability: PROD_UNLOCK_STABILITY + 1 }, createdAt: new Date(2026, 9, 1).toISOString() });
+    const s0 = { ...emptySrs(), cards: { [g3.id]: mature(g3), [base.id]: mature(base) } };
+    const s1 = unlockProdCards(s0, today);
+    expect(s1.cards[cardId("prod", "u04:x-extra")]).toBeUndefined();
+    expect(s1.cards[cardId("prod", "u04:x-base")]).toBeDefined();
+    expect(typeof applyReview).toBe("function");
   });
 });

@@ -32,7 +32,7 @@ export interface SrsCard {
   fsrs: FsrsData;
   createdAt: string;
   /** Tarjeta del mazo extra de Quizlet. */
-  deck?: "quizlet";
+  deck?: "quizlet" | "g3";
   /** Creada con estado inicial sembrado desde el progreso previo (fase H2). */
   source?: "seed";
 }
@@ -110,7 +110,7 @@ interface NewCardInput {
   kind: CardKind;
   itemId: string;
   unit: string;
-  deck?: "quizlet";
+  deck?: "quizlet" | "g3";
 }
 
 /** Tarjeta nueva, vence ahora. */
@@ -180,7 +180,8 @@ export function rerateLast(state: SrsState, before: SrsCard, rating: RatingValue
 export function unlockProdCards(state: SrsState, now: Date): SrsState {
   let cards = state.cards;
   for (const c of Object.values(state.cards)) {
-    if (c.kind !== "recog" || c.deck === "quizlet" || c.fsrs.stability < PROD_UNLOCK_STABILITY) continue;
+    // Las palabras ampliadas (g3) y las del mazo extra solo se repasan en reconocimiento: escribirlas duplicaría la carga del repaso.
+    if (c.kind !== "recog" || c.deck === "quizlet" || c.deck === "g3" || c.fsrs.stability < PROD_UNLOCK_STABILITY) continue;
     if (c.source === "seed" && c.fsrs.reps < 2) continue;
     const id = cardId("prod", c.itemId);
     if (cards[id]) continue;
