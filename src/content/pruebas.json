@@ -2189,7 +2189,7 @@
     "it": "Mentre mangiavo, è arrivato Luca.",
     "q": "¿Qué dice?",
     "options": [
-     "Que Luca comía cuando ella llegó",
+     "Que Luca comía cuando yo llegué",
      "Que Luca llegó mientras comía",
      "Que nadie llegó"
     ],
@@ -2716,7 +2716,7 @@
     "options": [
      "Que no hables tan fuerte",
      "Que hables fuerte",
-     "Que hables bajito en la sala"
+     "Que hables más rápido, por favor"
     ],
     "answer": 0,
     "why": "«Non parlare» = no hables.",
@@ -3111,7 +3111,7 @@
     "it": "Mi fa male lo stomaco.",
     "q": "¿Qué dice?",
     "options": [
-     "Que le duele la cabeza mucho",
+     "Que le duele mucho la cabeza",
      "Que no le duele nada",
      "Que le duele el estómago"
     ],
@@ -3583,7 +3583,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que en su opinión es muy caro",
-     "Que es barato para su opinión",
+     "Que en su opinión es muy barato",
      "Que no sabe el precio"
     ],
     "answer": 0,
@@ -4053,9 +4053,9 @@
     "it": "Se piove, resto a casa.",
     "q": "¿Qué dice?",
     "options": [
-     "Que si lloviera iría al cine con amigos",
+     "Que si lloviera se quedaría",
      "Que si llueve se queda en casa",
-     "Que no sale nunca"
+     "Que no sale nunca cuando llueve"
     ],
     "answer": 1,
     "why": "Con «se» + presente la hipótesis es real."
