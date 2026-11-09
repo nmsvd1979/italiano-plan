@@ -1,5 +1,5 @@
 // Monólogo guiado (docs/v2/plan-b1/02): una consigna por semana del curso para hablar sin leer, en tres vueltas con menos
-// tiempo cada vez. Clave = id del paso (`u25`, `u02#B`). Fases 1 y 2 (semanas 1 a 16); el resto llega en PR de contenido.
+// tiempo cada vez. Clave = id del paso (`u25`, `u02#B`). Fases 1 a 3 (semanas 1 a 21); el resto llega en PR de contenido.
 
 export interface Monologue {
   /** Qué decir, en español. */
