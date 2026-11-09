@@ -1,5 +1,5 @@
 // Monólogo guiado (docs/v2/plan-b1/02): una consigna por semana del curso para hablar sin leer, en tres vueltas con menos
-// tiempo cada vez. Clave = id del paso (`u25`, `u02#B`). Por ahora hay dos de ejemplo; el resto llega en PR de contenido.
+// tiempo cada vez. Clave = id del paso (`u25`, `u02#B`). Fases 1 y 2 (semanas 1 a 16); el resto llega en PR de contenido.
 
 export interface Monologue {
   /** Qué decir, en español. */
@@ -88,6 +88,105 @@ const MONOLOGOS: Record<string, Monologue> = {
     frames: ["Buongiorno! Vorrei ___, per favore.", "Posso avere ___?"],
     model: "Buongiorno! Vorrei un cappuccino e un cornetto, per favore. Posso avere il conto? Grazie.",
     seconds: [55, 45, 30],
+  },
+  "u05#A": {
+    prompt: "Cuenta cómo vas a tres lugares: con qué transporte vas y a casa de quién.",
+    points: [
+      "Dices a qué lugar vas con *a* (*Vado a…*).",
+      "Dices cómo vas con *in* o *a piedi* (*in autobus*, *in treno*).",
+      "Dices a casa de quién vas con *da* (*Vado da…*).",
+    ],
+    frames: ["Vado al ___ in ___.", "Vado da ___ a piedi.", "Domani vado a ___ in ___."],
+    model: "Vado al lavoro in autobus. Il sabato vado da Marco a piedi. Domani vado a Firenze in treno.",
+    seconds: [55, 45, 30],
+  },
+  "u05#B": {
+    prompt: "Explícale a alguien cómo llegar a la farmacia: qué hay derecho, a la derecha y a la izquierda.",
+    points: [
+      "Dices qué hay de frente con *dritto* (*Dritto c'è…*).",
+      "Dices qué hay con *a destra* y *a sinistra*.",
+      "Nombras al menos dos lugares con *c'è*.",
+    ],
+    frames: ["Dritto c'è ___.", "All'angolo, a destra, c'è ___.", "A sinistra c'è ___."],
+    model: "Dritto c'è il semaforo. All'angolo, a destra, c'è la farmacia. A sinistra c'è il bar.",
+    seconds: [50, 40, 28],
+  },
+  "u06#A": {
+    prompt: "Muestra tus cosas: di qué es tuyo y qué es de otra persona, y señala algo cerca y algo lejos.",
+    points: [
+      "Usas posesivos con artículo (*la mia borsa*, *il mio cappello*).",
+      "Señalas con *questa / quella* (cerca y lejos).",
+      "Usas un posesivo en plural (*i miei amici*).",
+    ],
+    frames: ["Questa è la mia ___ (sustantivo femenino) e quella è la tua.", "Il mio ___ è ___.", "I miei ___ abitano a ___."],
+    model: "Questa è la mia borsa e quella è la tua. Il mio cappello è nero. I miei amici abitano a Roma.",
+    seconds: [55, 45, 30],
+  },
+  "u06#B": {
+    prompt: "Describe lo que llevas puesto hoy, una prenda tuya y una prenda que te gusta.",
+    points: [
+      "Nombras prendas con su color después del sustantivo (*una maglietta bianca*).",
+      "Dices cuál es tuya con un posesivo (*La mia giacca è verde*).",
+      "Señalas algo que te gusta con *quel / quella*.",
+    ],
+    frames: ["Oggi porto una ___ e ___.", "La mia ___ è ___.", "Mi piace quel / quella ___."],
+    model: "Oggi porto una maglietta bianca e pantaloni neri. La mia giacca è verde. Mi piace quel cappello rosso.",
+    seconds: [55, 45, 30],
+  },
+  "u26": {
+    prompt: "Presenta a tu familia: cuántos hermanos tienes, a qué se dedican tus padres y cómo es uno de tus familiares.",
+    points: [
+      "Dices cuántos hermanos tienes (*Ho una sorella e un fratello*).",
+      "Dices a qué se dedican tus padres (*fa l'insegnante*, *è un medico*).",
+      "Describes a una persona (*è alta*, *ha i capelli…*).",
+    ],
+    frames: ["Ho ___ e ___.", "Mia madre fa ___ e mio padre è ___.", "Mia sorella è ___ e ha i capelli ___."],
+    model: "Ho una sorella e un fratello. Mia madre fa l'insegnante e mio padre è un medico. Mia sorella è alta e ha i capelli castani.",
+    seconds: [60, 48, 35],
+  },
+  "u07#A": {
+    prompt: "Cuenta tu rutina de la mañana, desde que te despiertas hasta que sales al trabajo.",
+    points: [
+      "Usas verbos reflexivos (*mi sveglio*, *mi alzo*, *mi lavo*).",
+      "Ordenas con *poi* o *dopo*.",
+      "Dices a qué hora haces algo (*alle…*).",
+    ],
+    frames: ["Di solito mi sveglio alle ___ e mi alzo ___.", "Poi mi lavo e prendo ___.", "Vado al lavoro alle ___."],
+    model: "Di solito mi sveglio alle sette e mi alzo subito. Poi mi lavo e prendo un caffè. Vado al lavoro alle otto.",
+    seconds: [60, 48, 35],
+  },
+  "u07#B": {
+    prompt: "Cuéntale a un amigo qué estás haciendo ahora y cómo estás.",
+    points: [
+      "Dices qué haces ahora con *sto* + gerundio.",
+      "Dices cómo estás (*sono stanco*, *sto bene*).",
+      "Preguntas *Che stai facendo?*.",
+    ],
+    frames: ["Adesso sto ___ (gerundio).", "Sono ___ (stanco / stanca), ma sto ___.", "E tu, che stai ___?"],
+    model: "Ciao! Adesso sto cucinando. Sono stanco, ma sto bene. E tu, che stai facendo?",
+    seconds: [50, 40, 28],
+  },
+  "u08": {
+    prompt: "Haz tres preguntas para conocer a alguien y cuenta qué haces con frecuencia y qué nunca haces.",
+    points: [
+      "Haces al menos tres preguntas con palabras interrogativas (*Come… ? Dove… ? Quanti…?*).",
+      "Dices qué haces con frecuencia con *spesso*.",
+      "Dices qué nunca haces con *non… mai*.",
+    ],
+    frames: ["Come ___? Dove ___? Quanti ___?", "Io vado spesso a / al ___.", "Non ___ mai ___."],
+    model: "Come ti chiami? Dove abiti? Quanti anni hai? Io vado spesso al cinema, ma non mangio mai la carne.",
+    seconds: [60, 48, 35],
+  },
+  "u27": {
+    prompt: "Habla de tu tiempo libre y del tiempo que hace hoy.",
+    points: [
+      "Dices qué te gusta hacer con *mi piace* + infinitivo.",
+      "Dices un deporte o pasatiempo con *giocare a…* o *guardare…*.",
+      "Dices el tiempo de hoy (*c'è il sole*, *fa fresco*) y lo unes con *ma*.",
+    ],
+    frames: ["Nel mio tempo libero mi piace ___ e giocare a ___.", "Oggi c'è ___, ma fa ___."],
+    model: "Nel mio tempo libero mi piace guardare film e giocare a calcio. Oggi c'è il sole, ma fa fresco.",
+    seconds: [60, 48, 35],
   },
 };
 
