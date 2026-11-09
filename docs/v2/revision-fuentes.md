@@ -178,3 +178,16 @@ Para cada una de las 7 consignas de las semanas 1–7: formas meta (`mustInclude
 | Dudas | Ninguna nueva para `dudas-italiano.md` |
 
 No es revisión de un nativo. Los 7 clips nuevos no los oyó nadie.
+
+## Plan B1 · Monólogos de la fase 2: semanas 8 a 16 (u05A/B, u06A/B, u26, u07A/B, u08, u27) (9-nov-2026, rama `contenido/monologos-f2`)
+9 monólogos nuevos en `src/content/monologos.ts`; con los 7 anteriores, las 16 semanas de las fases 1 y 2 tienen «Hablar sin mirar». Los modelos reutilizan en lo posible los textos modelo de escritura y ejemplos de las lecciones, ya revisados.
+
+| Nivel | Qué se hizo |
+|---|---|
+| Léxico acumulado | Ninguna palabra sin ver hasta cada semana (solo *adesso* en u07B, que usa la semana A) |
+| **V1** | Palabras cotejadas con `napolux/paroleitaliane` e `it_50k`: sin errores |
+| **V2** | Sin fuente nueva: construcciones ya enseñadas |
+| **V3** | Otra sesión (solo vio los 9 monólogos, de memoria, sin internet): **0 errores de italiano**. Cambios por sus observaciones de marcos y consignas: marco *Vado al ___* y *a / al* (el modelo usa *al lavoro*, *al cinema*); consigna de u26 «uno de tus familiares»; marco femenino en u06A y *quel / quella* en u06B; consigna de u06B (prenda tuya y prenda que te gusta); marco de *giocare a* en u27; «desde que te despiertas» y «con frecuencia» en español; pista *stanco / stanca* en u07B. **No cambié** *è un medico* (el contraste con *fa l'insegnante* es intencional), *Dritto c'è…* (ya se había aceptado en la consigna B de u05) ni la pista del *c'è* de u27 |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
+Sin audio todavía: por la decisión D5 (audio por fase) los modelos de esta fase suenan con la voz del sistema hasta generar la fase 2. No es revisión de un nativo.
