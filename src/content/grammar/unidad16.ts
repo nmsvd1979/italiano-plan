@@ -333,6 +333,16 @@ export const unidad16: Lesson = {
       ],
       "answer": 0,
       "why": "En Italia y en toda la Unión Europea: *112*."
-    }
+    },
+    { "type": "fill", "prompt": "Ho mal di ___. (estómago)", "answers": ["stomaco"], "why": "*Ho mal di* + parte del cuerpo, sin artículo: *mal di stomaco*." },
+    { "type": "fill", "prompt": "Mi fa male ___ gola. (artículo)", "answers": ["la"], "why": "*Mi fa male* + artículo: *la gola*." },
+    { "type": "fill", "prompt": "Mi ___ male il braccio. (duele)", "answers": ["fa"], "why": "*Il braccio* es singular: *mi fa male*." },
+    { "type": "fill", "prompt": "Ho il ___. (resfriado)", "answers": ["raffreddore"], "why": "*Il raffreddore* = el resfriado." },
+    { "type": "fill", "prompt": "___ a letto. (Lei, restare, orden)", "answers": ["Resti"], "why": "La orden con *Lei* de *restare* es *resti*." },
+    { "type": "fill", "prompt": "Non faccia ___. (esfuerzos)", "answers": ["sforzi"], "why": "*Non faccia sforzi* = no haga esfuerzos." },
+    { "type": "fill", "prompt": "Ho mal di ___ e non posso mangiare. (dientes)", "answers": ["denti"], "why": "*Mal di denti* = dolor de muelas." },
+    { "type": "choice", "prompt": "Quieres decir «Me duele la espalda».", "options": ["Mi fa male la schiena.", "Mi fanno male la schiena.", "Ho male la schiena."], "answer": 0, "why": "*La schiena* es singular: *mi fa male*." },
+    { "type": "choice", "prompt": "Le pides ayuda (con *Lei*) a un desconocido en la calle: necesitas una ambulancia.", "options": ["Chiami un'ambulanza, per favore!", "Chiama un'ambulanza, per favore!", "Chiamare un'ambulanza, per favore!"], "answer": 0, "why": "A un desconocido se le habla de *Lei*: *chiami*." },
+    { "type": "choice", "prompt": "En la farmacia le preguntas al farmacéutico (con *Lei*) si tiene algo para la tos.", "options": ["Ha qualcosa per la tosse?", "Hai qualcosa per la tosse?", "Ha qualcosa tosse?"], "answer": 0, "why": "Con *Lei*: *ha*. *Niente* iría con *non*." }
   ]
 };

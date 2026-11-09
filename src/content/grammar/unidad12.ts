@@ -142,5 +142,10 @@ export const unidad12: Lesson = {
     {type: "fill", prompt: "Esco con ___ domani. (ellos)", answers: ["loro"], why: "*Con loro* = con ellos."},
     {type: "choice", prompt: "«Es para nosotros.»", options: ["È per noi.", "È per ci.", "È per nostri."], answer: 0, why: "Tras preposición: *noi*."},
     {type: "choice", prompt: "«Voy con ella.»", options: ["Vado con lei.", "Vado con la.", "Vado con le."], answer: 0, why: "Tónico: *lei*."},
+    { type: "fill", prompt: "Marco è più alto ___ Luca. (que)", answers: ["di"], why: "Con un nombre propio se compara con *di*: *più alto di Luca*." },
+    { type: "fill", prompt: "Questa borsa è ___. (muy bonita)", answers: ["bellissima"], why: "*Bella* + *-issima* = *bellissima* (muy bonita)." },
+    { type: "fill", prompt: "Vorrei ___ formaggio. (algo de)", answers: ["del", "un po' di"], why: "*Il formaggio* → *del formaggio* (o *un po' di formaggio*)." },
+    { type: "fill", prompt: "Hai ___ zucchero? (algo de)", answers: ["dello", "un po' di"], why: "*Lo zucchero* → *dello zucchero* (o *un po' di zucchero*)." },
+    { type: "choice", prompt: "Quieres decir que hablas mejor que tu hermano. ¿Cuál es correcta?", options: ["Parlo meglio di mio fratello.", "Parlo migliore di mio fratello.", "Parlo più buono di mio fratello."], answer: 0, why: "Con un verbo se usa el adverbio *meglio* (mejor), no *migliore*." },
   ],
 };

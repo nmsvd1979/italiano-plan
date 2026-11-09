@@ -134,5 +134,9 @@ export const unidad15: Lesson = {
     { type: "fill", prompt: "Domani io ___ a casa. (stare, futuro)", answers: ["starò"], why: "*Stare* conserva la *a*: *starò*." },
     { type: "choice", prompt: "Te invitan al cine y quieres aceptar con gusto:", options: ["Volentieri!", "Mi dispiace, non posso.", "Arrivederci."], answer: 0, why: "*Volentieri* = con gusto." },
     { type: "choice", prompt: "Te invitan, pero no puedes y quieres ser amable:", options: ["Volentieri!", "Mi dispiace, non posso: devo lavorare.", "Buongiorno!"], answer: 1, why: "Disculparte y dar un motivo es lo cortés." },
+    { type: "fill", prompt: "Tu ___ la verità. (vedere, futuro)", answers: ["vedrai"], why: "*Vedere* tiene raíz irregular en el futuro: *vedrò, vedrai, vedrà…*" },
+    { type: "fill", prompt: "Loro ___ in treno. (viaggiare, futuro)", answers: ["viaggeranno"], why: "En *-giare* se pierde la *i*: *viaggerò, viaggeranno*." },
+    { type: "fill", prompt: "Voi ___ aiutarci? (potere, cortés)", answers: ["potreste"], why: "El condizionale de *potere* con *voi*: *potreste*." },
+    { type: "choice", prompt: "Quieres aconsejar a un amigo: «Deberías dormir más».", options: ["Dovresti dormire di più.", "Dovrò dormire di più.", "Dormirò dovere di più."], answer: 0, why: "El consejo se da con *dovresti* + infinitivo; *dovrò* es futuro («tendré que»)." },
   ],
 };
