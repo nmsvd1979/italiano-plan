@@ -82,14 +82,14 @@ describe("daysOf: la estructura de 04 §D1", () => {
     // La semana con contenido real son 188 min (auditoría, medicion/minutos.ts); los 21 min de los bloques ocultos no se cuentan.
     const week = (stepId: string) => daysOf(step(stepId)).flatMap((d) => d.blocks).reduce((n, b) => n + b.minutes, 0);
     // «Releer con recuperación» (6 min, no core) está en todas las semanas menos la primera: sin monólogo ni la primera, 194.
-    expect(week("u09")).toBe(194);
+    expect(week("u13")).toBe(194);
     expect(PENDING_BLOCKS.reduce((n, b) => n + b.minutes, 0)).toBe(9);
     // «Hablar sin mirar» (6 min, no core) solo aparece en las semanas con monólogo.
     expect(week("u25")).toBe(194);
     expect(week("u26")).toBe(200);
     expect(daysOf(step("u25")).flatMap((d) => d.blocks).some((b) => b.id === "shorttext")).toBe(false);
     expect(daysOf(step("u01"))[2].blocks.some((b) => b.id === "shorttext")).toBe(true);
-    expect(daysOf(step("u09")).flatMap((d) => d.blocks).some((b) => b.id === "retell")).toBe(false);
+    expect(daysOf(step("u13")).flatMap((d) => d.blocks).some((b) => b.id === "retell")).toBe(false);
     expect(daysOf(step("u25"))[5].blocks.some((b) => b.id === "retell")).toBe(true);
   });
 });
@@ -320,7 +320,7 @@ describe("migración desde la app anterior (14 §8)", () => {
     const p: CourseProgress = { done: set, startUnit: 1, mini: {} };
     todaySlots(p, new Set(), 2);
     currentSlot(p);
-    weekComplete(step("u09"), p);
+    weekComplete(step("u13"), p);
     expect([...set].sort()).toEqual(before);
   });
 
