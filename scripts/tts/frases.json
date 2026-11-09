@@ -36,6 +36,13 @@
    ]
   },
   {
+   "texto": "A che cosa pensi?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "A che cosa serve Questo medicinale serve per abbassare la febbre e per il mal di testa e il mal di gola.",
    "unidad": "u16",
    "fuentes": [
@@ -64,6 +71,13 @@
    ]
   },
   {
+   "texto": "A gennaio ci sono i saldi.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "A gennaio fa freddo.",
    "unidad": "u03",
    "fuentes": [
@@ -87,6 +101,13 @@
   {
    "texto": "A pranzo mangio pasta.",
    "unidad": "u04",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "A Roma c'è il sole.",
+   "unidad": "u27",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -310,10 +331,24 @@
    ]
   },
   {
+   "texto": "Al semaforo giri a destra.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Al sud: fa bel tempo e c'è molto sole. A Napoli ci sono diciotto gradi. Il mare è calmo.",
    "unidad": "u27",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "Alcuni amici arrivano domani.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -506,6 +541,13 @@
    ]
   },
   {
+   "texto": "Arriva un temporale.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Arrivederci e grazie di tutto.",
    "unidad": "u01",
    "fuentes": [
@@ -517,6 +559,20 @@
    "unidad": "u01",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Arrivo alle nove.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ascolto musica ogni giorno.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -866,6 +922,20 @@
    ]
   },
   {
+   "texto": "C'è molto traffico oggi.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "C'è qualcuno alla porta.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "C'è un autobus?",
    "unidad": "u14",
    "fuentes": [
@@ -908,6 +978,13 @@
    ]
   },
   {
+   "texto": "C'è uno sconto del dieci per cento.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "C'era un parco vicino a casa mia.",
    "unidad": "u11",
    "fuentes": [
@@ -926,6 +1003,27 @@
    "unidad": "u11",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "cagna",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "canna",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "Canto sotto la doccia.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -986,10 +1084,31 @@
    ]
   },
   {
+   "texto": "Ceniamo alle otto.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "CERCASI COINQUILINO — Milano, zona Navigli",
    "unidad": "u17",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "Cerco dei calzini bianchi.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Cerco la stazione.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -1021,10 +1140,31 @@
    ]
   },
   {
+   "texto": "Cerco una cintura nera.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Cerco una mappa della città.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Cerco una persona tranquilla, pulita e responsabile, preferibilmente studente o lavoratore. Se non hai animali domestici, meglio ancora!",
    "unidad": "u17",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "Cerco una taglia più piccola.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -1119,6 +1259,13 @@
    ]
   },
   {
+   "texto": "Che bella giacca!",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Che bello! Allora ci vediamo domani, ciao!",
    "unidad": "u26",
    "fuentes": [
@@ -1151,6 +1298,20 @@
    "unidad": "u17",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "Che colore preferisci?",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Che cos'è questo?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -1222,6 +1383,13 @@
    "unidad": "u24",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "Che cosa mangi?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -1314,6 +1482,13 @@
    ]
   },
   {
+   "texto": "Che ore sono?",
+   "unidad": "u08",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Che peccato! Non puoi venire.",
    "unidad": "u20",
    "fuentes": [
@@ -1346,7 +1521,8 @@
    "texto": "Che taglia porta?",
    "unidad": "u06",
    "fuentes": [
-    "dictado"
+    "dictado",
+    "vocab-ejemplo"
    ]
   },
   {
@@ -1364,6 +1540,13 @@
    ]
   },
   {
+   "texto": "Chi è quel ragazzo?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Chi non rispetta le regole può ricevere un avvertimento. Grazie per la collaborazione!",
    "unidad": "u19",
    "fuentes": [
@@ -1377,6 +1560,34 @@
     "dictado",
     "ejemplo",
     "prueba"
+   ]
+  },
+  {
+   "texto": "chiaro",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "chitarra",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "Ci divertiamo molto in vacanza.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ci incontriamo alle cinque.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -1453,6 +1664,13 @@
   {
    "texto": "Ci sono quattro sedie.",
    "unidad": "u02",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ci sono trenta gradi.",
+   "unidad": "u27",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -1564,6 +1782,13 @@
    ]
   },
   {
+   "texto": "Ciao Marco! Adesso sto cucinando e Anna sta studiando. Sono stanco, ma sto bene. E tu, che stai facendo?",
+   "unidad": "u07",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
    "texto": "Ciao Marco! Hai parlato con Luca?",
    "unidad": "u20",
    "fuentes": [
@@ -1620,10 +1845,24 @@
    ]
   },
   {
+   "texto": "Ciao! Adesso sto cucinando. Sono stanco, ma sto bene. E tu, che stai facendo?",
+   "unidad": "u07",
+   "fuentes": [
+    "monólogo"
+   ]
+  },
+  {
    "texto": "Ciao! Come ti chiami?",
    "unidad": "u25",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "Ciao! Ho una sorella e un fratello. Mia madre fa l'insegnante e mio padre è un medico. Mia sorella è alta e ha i capelli castani.",
+   "unidad": "u26",
+   "fuentes": [
+    "escritura"
    ]
   },
   {
@@ -1659,6 +1898,13 @@
    "unidad": "u21",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "Ciao! Nel tempo libero leggo e gioco a calcio. So cucinare un po'. Oggi a Santiago c'è il sole, ma fa fresco.",
+   "unidad": "u27",
+   "fuentes": [
+    "escritura"
    ]
   },
   {
@@ -1706,6 +1952,13 @@
   {
    "texto": "Come dolce, un gelato.",
    "unidad": "u04",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Come mai sei qui?",
+   "unidad": "u08",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -1796,6 +2049,13 @@
    ]
   },
   {
+   "texto": "Come stai?",
+   "unidad": "u08",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Come stai? Io benissimo! Senti, sabato sera sei libero? Vorrei invitarti a cena da me: faccio la pasta! Puoi portare anche Giorgia, se vuole. Dimmi se vieni, così preparo tutto. Se preferisci, possiamo andare anche in pizzeria. Non preoccuparti per il vino: lo porto io.",
    "unidad": "u18",
    "fuentes": [
@@ -1804,10 +2064,25 @@
   },
   {
    "texto": "Come ti chiami?",
-   "unidad": "u25",
+   "unidad": "u07",
    "fuentes": [
     "dictado",
-    "ejemplo"
+    "ejemplo",
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Come ti chiami? Dove abiti? Quanti anni hai? Io vado spesso al cinema, ma non mangio mai la carne.",
+   "unidad": "u08",
+   "fuentes": [
+    "monólogo"
+   ]
+  },
+  {
+   "texto": "Come ti chiami? Dove abiti? Quanti anni hai? Perché studi italiano? Io vado spesso al cinema, ma non mangio mai la carne e non bevo molto caffè.",
+   "unidad": "u08",
+   "fuentes": [
+    "escritura"
    ]
   },
   {
@@ -1829,6 +2104,20 @@
    "unidad": "u23",
    "fuentes": [
     "pendiente"
+   ]
+  },
+  {
+   "texto": "Compro una maglietta blu.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Con chi vai al cinema?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -1900,6 +2189,13 @@
    "unidad": "u04",
    "fuentes": [
     "pron-semana"
+   ]
+  },
+  {
+   "texto": "Corro ogni mattina.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -1987,6 +2283,13 @@
    ]
   },
   {
+   "texto": "Da dove vieni?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Da giovane andavo spesso al mare.",
    "unidad": "u11",
    "fuentes": [
@@ -2018,6 +2321,13 @@
   {
    "texto": "Desidera qualcos'altro?",
    "unidad": "u04",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Devi convalidare il biglietto.",
+   "unidad": "u05",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -2065,6 +2375,13 @@
    ]
   },
   {
+   "texto": "Di chi è questa borsa?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Di chi è questo zaino?",
    "unidad": "u06",
    "fuentes": [
@@ -2102,6 +2419,13 @@
    ]
   },
   {
+   "texto": "Di solito faccio colazione al bar.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Di solito mangiavamo alle otto.",
    "unidad": "u11",
    "fuentes": [
@@ -2121,6 +2445,20 @@
    "unidad": "u07",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "Di solito mi sveglio alle sette e mi alzo subito. Poi mi lavo e prendo un caffè. Vado al lavoro alle otto.",
+   "unidad": "u07",
+   "fuentes": [
+    "monólogo"
+   ]
+  },
+  {
+   "texto": "Di solito mi sveglio alle sette e mi alzo subito. Poi prendo un caffè e vado al lavoro. La sera mi lavo i denti e vado a letto. Adesso sto studiando italiano.",
+   "unidad": "u07",
+   "fuentes": [
+    "escritura"
    ]
   },
   {
@@ -2202,6 +2540,13 @@
    ]
   },
   {
+   "texto": "Domani fa brutto tempo.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Domani fa freddo e piove.",
    "unidad": "u27",
    "fuentes": [
@@ -2260,10 +2605,24 @@
    ]
   },
   {
+   "texto": "Domenica mi riposo a casa.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Domenica sera tornerò a casa e preparerò le cose per la settimana prossima. Mi piace avere un programma, ma spero di avere anche un po' di tempo per riposare!",
    "unidad": "u15#A",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "Dopo cena guardo la TV.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -2299,6 +2658,13 @@
    "unidad": "u18",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "Dormo sette ore ogni notte.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -2341,7 +2707,8 @@
    "texto": "Dove abiti?",
    "unidad": "u08",
    "fuentes": [
-    "dictado"
+    "dictado",
+    "vocab-ejemplo"
    ]
   },
   {
@@ -2373,6 +2740,13 @@
    ]
   },
   {
+   "texto": "Dove vai?",
+   "unidad": "u08",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Dovresti cercare una camera presto.",
    "unidad": "u15",
    "fuentes": [
@@ -2391,6 +2765,20 @@
    "unidad": "u15",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Dritto c'è il semaforo. All'angolo, a destra, c'è la farmacia. A sinistra c'è il bar.",
+   "unidad": "u05",
+   "fuentes": [
+    "monólogo"
+   ]
+  },
+  {
+   "texto": "Dritto c'è il semaforo. All'angolo, a destra, c'è la farmacia. A sinistra c'è il bar. L'entrata è a sinistra e l'uscita è a destra.",
+   "unidad": "u05",
+   "fuentes": [
+    "escritura"
    ]
   },
   {
@@ -2478,6 +2866,13 @@
    ]
   },
   {
+   "texto": "È stata una bella giornata.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "E tu cosa gli hai risposto?",
    "unidad": "u20",
    "fuentes": [
@@ -2492,10 +2887,24 @@
    ]
   },
   {
+   "texto": "È tua questa borsa?",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "È un olio buono e leggero, con un sapore deciso. È ottimo sull'insalata, sulla pasta e sul pane. Non è adatto per friggere. Una bottiglia basta per un mese, per una famiglia di quattro persone.",
    "unidad": "u06#A",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "È una giacca molto bella.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -2619,6 +3028,13 @@
    ]
   },
   {
+   "texto": "Esco raramente la sera.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Esse, a, enne, ti, i, a, gi, o.",
    "unidad": "u25",
    "fuentes": [
@@ -2637,6 +3053,13 @@
    "unidad": "u27",
    "fuentes": [
     "sinpista"
+   ]
+  },
+  {
+   "texto": "Facciamo una passeggiata?",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -2682,6 +3105,34 @@
    ]
   },
   {
+   "texto": "Faccio la spesa al supermercato.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Faccio la spesa il sabato.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Faccio una passeggiata dopo cena.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Faccio una pausa di dieci minuti.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "facessi",
    "unidad": "u23",
    "fuentes": [
@@ -2722,14 +3173,23 @@
    "texto": "figli",
    "unidad": "u26",
    "fuentes": [
-    "pendiente"
+    "pendiente",
+    "pron-semana"
    ]
   },
   {
    "texto": "figlia",
    "unidad": "u26",
    "fuentes": [
-    "pendiente"
+    "pendiente",
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "fili",
+   "unidad": "u26",
+   "fuentes": [
+    "pron-semana"
    ]
   },
   {
@@ -2761,6 +3221,13 @@
    ]
   },
   {
+   "texto": "foglio",
+   "unidad": "u26",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Forse a Bologna. Mi dai un consiglio?",
    "unidad": "u15",
    "fuentes": [
@@ -2789,10 +3256,24 @@
    ]
   },
   {
+   "texto": "ghiro",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Giocavo in giardino con mio fratello.",
    "unidad": "u11",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "Gioco a tennis il sabato.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -2817,10 +3298,24 @@
    ]
   },
   {
+   "texto": "Giri a destra.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Giri a sinistra e poi vada dritto.",
    "unidad": "u05",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "giro",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
    ]
   },
   {
@@ -2899,6 +3394,13 @@
    "unidad": "u21",
    "fuentes": [
     "pendiente"
+   ]
+  },
+  {
+   "texto": "gnocchi",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
    ]
   },
   {
@@ -2986,8 +3488,22 @@
    ]
   },
   {
+   "texto": "Guardiamo la partita insieme.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Guardo il calendario: oggi è il due.",
    "unidad": "u03",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Guardo una serie TV italiana.",
+   "unidad": "u27",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -3024,7 +3540,22 @@
    "texto": "Ha gli occhi verdi.",
    "unidad": "u26",
    "fuentes": [
-    "sinpista"
+    "sinpista",
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ha i capelli castani.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ha i capelli lunghi.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -3074,7 +3605,8 @@
    "texto": "Hai fame?",
    "unidad": "u02",
    "fuentes": [
-    "dictado"
+    "dictado",
+    "pron-semana"
    ]
   },
   {
@@ -3082,6 +3614,13 @@
    "unidad": "u02",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "Hai fame.",
+   "unidad": "u08",
+   "fuentes": [
+    "pron-semana"
    ]
   },
   {
@@ -3154,6 +3693,13 @@
    "unidad": "u09",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Hanno un figlio di cinque anni.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -3237,8 +3783,22 @@
    ]
   },
   {
+   "texto": "Ho il passaporto nella borsa.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Ho la carta d'identità.",
    "unidad": "u25",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ho la patente da due anni.",
+   "unidad": "u05",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -3300,11 +3860,32 @@
    ]
   },
   {
+   "texto": "Ho molto sonno.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ho poco tempo.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Ho prenotato per due persone.",
    "unidad": "u28",
    "fuentes": [
     "dictado",
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "Ho qualche libro in italiano.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -3343,6 +3924,13 @@
    ]
   },
   {
+   "texto": "Ho solo cinque minuti.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Ho un appartamento con una camera.",
    "unidad": "u02",
    "fuentes": [
@@ -3371,8 +3959,29 @@
    ]
   },
   {
+   "texto": "Ho un fratello più grande.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ho un vestito nuovo.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Ho una borsa in mano.",
    "unidad": "u02",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ho una borsa nera.",
+   "unidad": "u06",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -3390,6 +3999,13 @@
    "fuentes": [
     "prueba",
     "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ho una sorella e un fratello. Mia madre fa l'insegnante e mio padre è un medico. Mia sorella è alta e ha i capelli castani.",
+   "unidad": "u26",
+   "fuentes": [
+    "monólogo"
    ]
   },
   {
@@ -3430,6 +4046,20 @@
    ]
   },
   {
+   "texto": "I capelli di Anna sono corti.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "I jeans sono troppo larghi.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "I miei fratelli abitano a Roma.",
    "unidad": "u06",
    "fuentes": [
@@ -3437,10 +4067,24 @@
    ]
   },
   {
+   "texto": "I miei genitori abitano a Santiago.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "I nostri amici sono qui.",
    "unidad": "u06",
    "fuentes": [
     "prueba"
+   ]
+  },
+  {
+   "texto": "I pantaloni sono lunghi.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -3615,8 +4259,71 @@
    ]
   },
   {
+   "texto": "Il capo è un po' antipatico.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il cappello è brutto.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il cappello è di mio nonno.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il cappotto è caldo.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il cappotto grigio è elegante.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Il cibo italiano è buono.",
    "unidad": "u04",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il ciclismo è molto popolare.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il cielo è azzurro.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il cielo è nuvoloso.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il clima è mite.",
+   "unidad": "u27",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -3629,10 +4336,24 @@
    ]
   },
   {
+   "texto": "Il commesso mi aiuta a scegliere.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Il compleanno di Marco è il quindici marzo.",
    "unidad": "u03",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "Il concerto è sabato sera.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -3680,6 +4401,20 @@
    ]
   },
   {
+   "texto": "Il cuoco prepara la cena.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il divano è comodo.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Il divano è nel soggiorno.",
    "unidad": "u02",
    "fuentes": [
@@ -3689,6 +4424,13 @@
   {
    "texto": "Il dolce è squisito.",
    "unidad": "u04",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il fidanzato di Anna è italiano.",
+   "unidad": "u26",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -3757,6 +4499,13 @@
    ]
   },
   {
+   "texto": "Il marito di Anna è alto.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Il mercato chiude alle due del pomeriggio. La domenica è chiuso.",
    "unidad": "u12",
    "fuentes": [
@@ -3771,8 +4520,29 @@
    ]
   },
   {
+   "texto": "Il mio capo è molto serio.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Il mio compleanno è a marzo.",
    "unidad": "u03",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il mio hobby è la fotografia.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il mio lavoro è interessante.",
+   "unidad": "u26",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -3787,6 +4557,20 @@
   {
    "texto": "Il mio numero finisce con zero.",
    "unidad": "u25",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il mio passatempo è leggere.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il mio vicino è simpatico.",
+   "unidad": "u26",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -3834,10 +4618,38 @@
    ]
   },
   {
+   "texto": "Il negozio apre alle nove.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Il negozio chiude alle diciannove.",
    "unidad": "u03",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Il nostro negozio è in centro.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il papà lavora molto.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il pedone attraversa la strada.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -3866,6 +4678,13 @@
    "unidad": "u03",
    "fuentes": [
     "prueba"
+   ]
+  },
+  {
+   "texto": "Il professore spiega la lezione.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -3904,8 +4723,22 @@
    ]
   },
   {
+   "texto": "Il sabato gioco a calcio.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Il signore è di Roma.",
    "unidad": "u01",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il sole è giallo.",
+   "unidad": "u06",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -3932,8 +4765,43 @@
    ]
   },
   {
+   "texto": "Il teatro è in centro.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Il tempo passa in fretta.",
    "unidad": "u03",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il tram passa ogni dieci minuti.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il treno arriva al binario tre.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il treno è il mio mezzo preferito.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il treno è in orario.",
+   "unidad": "u05",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -3943,6 +4811,13 @@
    "unidad": "u12",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Il treno ha dieci minuti di ritardo.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -3957,6 +4832,13 @@
    "unidad": "u03",
    "fuentes": [
     "sinpista",
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il treno parte alle otto.",
+   "unidad": "u05",
+   "fuentes": [
     "vocab-ejemplo"
    ]
   },
@@ -3982,8 +4864,50 @@
    ]
   },
   {
+   "texto": "Il turista chiede la strada.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il vestito è molto bello.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Il viaggio dura due ore.",
    "unidad": "u03",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il viaggio è molto lungo.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Il volo parte alle dieci.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "In autunno piove spesso.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "In che direzione devo andare?",
+   "unidad": "u05",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -4003,10 +4927,45 @@
    ]
   },
   {
+   "texto": "In estate fa molto caldo.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "In inverno fa freddo.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "In Italia si cena tardi.",
    "unidad": "u19",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "In montagna c'è la neve.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "In montagna nevica.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "In primavera fa bel tempo.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -4042,6 +5001,13 @@
    "unidad": "u19",
    "fuentes": [
     "pendiente"
+   ]
+  },
+  {
+   "texto": "insegnare",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
    ]
   },
   {
@@ -4089,6 +5055,13 @@
   {
    "texto": "L'accento è sulla «a» finale.",
    "unidad": "u25",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "L'aeroporto è fuori città.",
+   "unidad": "u05",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -4173,8 +5146,29 @@
    ]
   },
   {
+   "texto": "L'arrivo è alle sei.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "L'autobus è in ritardo.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "L'edificio ha cinque piani.",
    "unidad": "u02",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "L'entrata è in via Roma.",
+   "unidad": "u05",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -4194,6 +5188,20 @@
    ]
   },
   {
+   "texto": "L'infermiere è molto gentile.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "L'insegnante è molto paziente.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "L'italiano è una bella lingua.",
    "unidad": "u01",
    "fuentes": [
@@ -4203,6 +5211,20 @@
   {
    "texto": "L'orologio è sul tavolo.",
    "unidad": "u03",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "L'ufficio è in centro.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "L'uscita è dietro l'angolo.",
+   "unidad": "u05",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -4236,6 +5258,13 @@
    ]
   },
   {
+   "texto": "La banca è a sinistra.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "La banca è in piazza.",
    "unidad": "u02",
    "fuentes": [
@@ -4247,6 +5276,13 @@
    "unidad": "u02",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "La borsa è sul letto.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -4278,6 +5314,13 @@
    ]
   },
   {
+   "texto": "La camicia è troppo stretta.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "La cena è alle otto.",
    "unidad": "u04",
    "fuentes": [
@@ -4296,6 +5339,20 @@
    "unidad": "u17",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "La farmacia è all'angolo.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "La fermata è dopo il semaforo.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -4328,6 +5385,13 @@
    ]
   },
   {
+   "texto": "La gonna è corta.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "La lezione comincia alle nove.",
    "unidad": "u03",
    "fuentes": [
@@ -4342,10 +5406,38 @@
    ]
   },
   {
+   "texto": "La macchina ha poca benzina.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "La macchina rossa è mia.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "La maglietta è rossa.",
    "unidad": "u06",
    "fuentes": [
     "prueba"
+   ]
+  },
+  {
+   "texto": "La maglietta rosa è nuova.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "La mamma prepara la cena.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -4372,6 +5464,34 @@
   {
    "texto": "La mia data di nascita è il tre marzo.",
    "unidad": "u25",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "La mia famiglia è piccola.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "La mia fidanzata studia medicina.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "La mia routine è semplice.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "La mia squadra ha vinto.",
+   "unidad": "u27",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -4409,6 +5529,13 @@
    "unidad": "u05#A",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "La pioggia non mi piace.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -4468,6 +5595,13 @@
    ]
   },
   {
+   "texto": "La sciarpa è di mia madre.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "La scuola è vicino a casa mia.",
    "unidad": "u02",
    "fuentes": [
@@ -4510,8 +5644,43 @@
    ]
   },
   {
+   "texto": "La strada è larga.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "La strada è molto lunga.",
    "unidad": "u02",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "La studentessa legge un libro.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "La sua giacca è nera.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "La sveglia suona alle sei.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "La temperatura è bassa.",
+   "unidad": "u27",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -4538,10 +5707,31 @@
    ]
   },
   {
+   "texto": "lavagna",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "Lavo i piatti dopo cena.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Lavora dalle nove alle cinque. A mezzogiorno mangia un panino con i colleghi. Il pomeriggio ha molte riunioni, ma a volte ha anche un po' di tempo per parlare con gli amici.",
    "unidad": "u07#A",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "Lavoro in un ufficio.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -4581,6 +5771,20 @@
    ]
   },
   {
+   "texto": "Le scarpe marroni costano poco.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Le scarpe nuove sono comode.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Le scrivo per chiedere un'informazione.",
    "unidad": "u18",
    "fuentes": [
@@ -4593,6 +5797,20 @@
    "unidad": "u13",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Leggo il cartello all'ingresso.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "legna",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
    ]
   },
   {
@@ -4618,6 +5836,13 @@
    ]
   },
   {
+   "texto": "lena",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Li chiamo domani.",
    "unidad": "u13",
    "fuentes": [
@@ -4629,6 +5854,20 @@
    "unidad": "u13",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Lo sport mi piace molto.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Lo studente fa una domanda.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -4699,6 +5938,13 @@
    "unidad": "u08",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "Mangio sempre alle otto.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -4789,6 +6035,13 @@
    ]
   },
   {
+   "texto": "meglio",
+   "unidad": "u26",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Mentre aspettavo il treno, ho letto un libro.",
    "unidad": "u11",
    "fuentes": [
@@ -4843,14 +6096,16 @@
    "texto": "messe",
    "unidad": "u27",
    "fuentes": [
-    "pendiente"
+    "pendiente",
+    "pron-semana"
    ]
   },
   {
    "texto": "messo",
-   "unidad": "u10",
+   "unidad": "u05",
    "fuentes": [
-    "pendiente"
+    "pendiente",
+    "pron-semana"
    ]
   },
   {
@@ -4882,6 +6137,13 @@
    ]
   },
   {
+   "texto": "Mi addormento tardi.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Mi alzo alle sei.",
    "unidad": "u07",
    "fuentes": [
@@ -4893,6 +6155,20 @@
    "unidad": "u07",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "Mi alzo presto.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mi alzo subito.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -4995,6 +6271,13 @@
    ]
   },
   {
+   "texto": "Mi faccio la doccia la sera.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Mi fanno male i piedi.",
    "unidad": "u16",
    "fuentes": [
@@ -5033,10 +6316,38 @@
    ]
   },
   {
+   "texto": "Mi lavo con l'acqua fredda.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Mi lavo e mi vesto.",
    "unidad": "u07",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Mi lavo i denti dopo cena.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mi metto le scarpe e esco.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mi pettino davanti allo specchio.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5061,6 +6372,34 @@
    ]
   },
   {
+   "texto": "Mi piace camminare nel parco.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mi piace cucinare per gli amici.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mi piace dipingere paesaggi.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mi piace fotografare i paesaggi.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Mi piace il caffè, ma non mi piacciono i dolci.",
    "unidad": "u02",
    "fuentes": [
@@ -5075,10 +6414,24 @@
    ]
   },
   {
+   "texto": "Mi piace il colore arancione.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Mi piace il gelato.",
    "unidad": "u02",
    "fuentes": [
     "prueba"
+   ]
+  },
+  {
+   "texto": "Mi piace la giacca verde.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5126,6 +6479,27 @@
    ]
   },
   {
+   "texto": "Mi rado ogni mattina.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mi rilasso con la musica.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mi sento molto bene oggi.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Mi serve un medico: dov'è il pronto soccorso?",
    "unidad": "u16",
    "fuentes": [
@@ -5140,10 +6514,24 @@
    ]
   },
   {
+   "texto": "Mi siedo sul divano.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Mi sono divertita molto.",
    "unidad": "u10",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "Mi sono perso in centro.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5157,7 +6545,36 @@
    "texto": "Mi sveglio alle sette.",
    "unidad": "u07",
    "fuentes": [
-    "dictado"
+    "dictado",
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mi tolgo il cappotto.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mi vesto in cinque minuti.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mia cugina è single.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mia cugina studia a Roma.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5165,6 +6582,13 @@
    "unidad": "u26",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "Mia madre è insegnante.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5196,8 +6620,22 @@
    ]
   },
   {
+   "texto": "Mia nonna cucina benissimo.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Mia nonna ha settanta anni.",
    "unidad": "u03",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mia sorella disegna molto bene.",
+   "unidad": "u27",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -5207,6 +6645,27 @@
    "unidad": "u26",
    "fuentes": [
     "prueba"
+   ]
+  },
+  {
+   "texto": "Mia sorella è bionda.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mia sorella è molto intelligente.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mia sorella è un po' bassa.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5224,10 +6683,122 @@
    ]
   },
   {
+   "texto": "Mia sorella ha venti anni.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mia zia è dottoressa.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mia zia è sempre allegra.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "miglio",
+   "unidad": "u26",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "Mio cognato è dentista.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio cognato è impiegato in banca.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio cugino è timido.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio cugino ha la mia età.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio fratello è molto alto.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio fratello è pigro.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio fratello è sposato.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio fratello è un tifoso della Roma.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio fratello si arrabbia subito.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Mio marito si chiama Luca. Lui è alto, ha i capelli corti e neri ed è molto sportivo. Ha trentacinque anni e lavora in un ospedale. È un uomo allegro e generoso.",
    "unidad": "u26",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "Mio nipote ha tre anni.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio nonno ama la pesca.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio nonno è generoso.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5238,6 +6809,27 @@
    ]
   },
   {
+   "texto": "Mio nonno è pensionato.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio nonno ha settant'anni.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio padre è ingegnere.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Mio padre è un medico e mia madre fa l'architetto.",
    "unidad": "u26",
    "fuentes": [
@@ -5245,17 +6837,54 @@
    ]
   },
   {
+   "texto": "Mio padre guida con prudenza.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio suocero abita a Torino.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio zio è avvocato.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio zio è molto magro.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Mio zio vive in Italia.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "moglie",
    "unidad": "u26",
    "fuentes": [
-    "pendiente"
+    "pendiente",
+    "pron-semana"
    ]
   },
   {
    "texto": "molle",
    "unidad": "u26",
    "fuentes": [
-    "pendiente"
+    "pendiente",
+    "pron-semana"
    ]
   },
   {
@@ -5287,6 +6916,13 @@
    ]
   },
   {
+   "texto": "Nel fine settimana resto a casa.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Nel mio quartiere c'è una piazza e ci sono due bar. La farmacia è vicino alla piazza e il supermercato è lontano. Il parco è vicino alla stazione. Mi piace la piazza, ma non mi piacciono i bar.",
    "unidad": "u02",
    "fuentes": [
@@ -5308,10 +6944,24 @@
    ]
   },
   {
+   "texto": "Nel mio tempo libero mi piace guardare film e giocare a calcio. Oggi c'è il sole, ma fa fresco.",
+   "unidad": "u27",
+   "fuentes": [
+    "monólogo"
+   ]
+  },
+  {
    "texto": "Nel mio tempo libero, mi piace guardare film italiani.",
    "unidad": "u27",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "Nel nostro negozio ci sono magliette bianche, una giacca verde e una gonna rosa. Quel cappello nero è molto bello. Puoi provare tutto nel camerino.",
+   "unidad": "u06",
+   "fuentes": [
+    "escritura"
    ]
   },
   {
@@ -5340,6 +6990,13 @@
    "unidad": "u27",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Nel tempo libero leggo.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5456,6 +7113,20 @@
    ]
   },
   {
+   "texto": "Non bevo mai caffè.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Non c'è nessuno in casa.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Non c'è nessuno qui.",
    "unidad": "u08",
    "fuentes": [
@@ -5508,6 +7179,13 @@
    ]
   },
   {
+   "texto": "Non è affatto difficile.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Non è niente di grave.",
    "unidad": "u16",
    "fuentes": [
@@ -5516,10 +7194,38 @@
    ]
   },
   {
+   "texto": "Non è successo nulla.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Non è vero, parli molto bene!",
    "unidad": "u08",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "Non fumo più.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Non gioco ai videogiochi.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Non ho ancora mangiato.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5545,6 +7251,20 @@
    ]
   },
   {
+   "texto": "Non ho neanche un euro.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Non ho niente da fare.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Non La sento bene: può ripetere?",
    "unidad": "u18",
    "fuentes": [
@@ -5556,6 +7276,13 @@
    "unidad": "u18",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Non mi annoio mai con loro.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5601,6 +7328,13 @@
    ]
   },
   {
+   "texto": "Non posso parcheggiare qui.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Non posso venire domani.",
    "unidad": "u04",
    "fuentes": [
@@ -5615,10 +7349,18 @@
    ]
   },
   {
+   "texto": "Non so ballare.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Non so nuotare.",
    "unidad": "u27",
    "fuentes": [
-    "prueba"
+    "prueba",
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5626,6 +7368,13 @@
    "unidad": "u22",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "Non ti preoccupare!",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5654,7 +7403,8 @@
    "texto": "Non vado mai in palestra.",
    "unidad": "u08",
    "fuentes": [
-    "dictado"
+    "dictado",
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5665,11 +7415,25 @@
    ]
   },
   {
+   "texto": "Non vedo nessuno.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Non vengo perché sono stanco.",
    "unidad": "u20",
    "fuentes": [
     "dictado",
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "Non voglio niente.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5694,6 +7458,13 @@
    ]
   },
   {
+   "texto": "Nuoto in piscina il martedì.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Offro io il caffè.",
    "unidad": "u04",
    "fuentes": [
@@ -5711,7 +7482,22 @@
    "texto": "Oggi c'è il sole.",
    "unidad": "u27",
    "fuentes": [
-    "prueba"
+    "prueba",
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Oggi c'è molto vento.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Oggi c'è nebbia.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -5758,6 +7544,13 @@
    ]
   },
   {
+   "texto": "Oggi fa bel tempo.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Oggi fa freddo e piove.",
    "unidad": "u27",
    "fuentes": [
@@ -5765,10 +7558,38 @@
    ]
   },
   {
+   "texto": "Oggi indosso una giacca nera.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Oggi lavoro meno.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Oggi Marco è al bar. Prende un cappuccino e un cornetto. Paga con cinque euro e il cameriere dà il resto.",
    "unidad": "u03#B",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "Oggi porto una maglietta bianca e pantaloni neri. La mia giacca è verde. Mi piace quel cappello rosso.",
+   "unidad": "u06",
+   "fuentes": [
+    "monólogo"
+   ]
+  },
+  {
+   "texto": "Oggi porto una maglietta bianca, pantaloni neri e scarpe marroni. La mia giacca è verde. Vorrei comprare un cappello rosso: quel cappello nel negozio è molto bello.",
+   "unidad": "u06",
+   "fuentes": [
+    "escritura"
    ]
   },
   {
@@ -5786,6 +7607,34 @@
    ]
   },
   {
+   "texto": "ogni",
+   "unidad": "u06",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "Ogni giorno studio mezz'ora.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ogni sabato vado al mercato.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Ogni tanto vado al mare.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "OLIO EXTRA VERGINE DI OLIVA Prodotto in Italia, in Toscana. Contenuto: un litro. Prezzo: otto euro e cinquanta. Da consumare entro dicembre. Conservare in un posto fresco, lontano dalla luce.",
    "unidad": "u06#A",
    "fuentes": [
@@ -5794,9 +7643,10 @@
   },
   {
    "texto": "orario",
-   "unidad": "u19",
+   "unidad": "u07",
    "fuentes": [
-    "pendiente"
+    "pendiente",
+    "pron-semana"
    ]
   },
   {
@@ -5851,6 +7701,20 @@
    ]
   },
   {
+   "texto": "Parli italiano?",
+   "unidad": "u08",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "Parli italiano.",
+   "unidad": "u08",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Parli molto bene! Dove abiti?",
    "unidad": "u19",
    "fuentes": [
@@ -5879,8 +7743,22 @@
    ]
   },
   {
+   "texto": "Parlo abbastanza bene.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Parlo un po' di italiano.",
    "unidad": "u01",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Partiamo domani mattina.",
+   "unidad": "u05",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -5904,6 +7782,13 @@
    "unidad": "u20",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "pece",
+   "unidad": "u07",
+   "fuentes": [
+    "pron-semana"
    ]
   },
   {
@@ -5973,6 +7858,13 @@
    ]
   },
   {
+   "texto": "Per chi è il regalo?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Per favore, confermate entro mercoledì: scrivetemi un messaggio o telefonatemi. Se non potete venire, nessun problema!",
    "unidad": "u15#B",
    "fuentes": [
@@ -6025,7 +7917,8 @@
    "texto": "Perché studi italiano?",
    "unidad": "u08",
    "fuentes": [
-    "dictado"
+    "dictado",
+    "vocab-ejemplo"
    ]
   },
   {
@@ -6047,6 +7940,13 @@
    "unidad": "u20",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "Perdo la coincidenza a Milano.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -6185,6 +8085,27 @@
    ]
   },
   {
+   "texto": "Porto un cappotto blu.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Porto una camicia bianca.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Porto una sciarpa viola.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "possa",
    "unidad": "u22",
    "fuentes": [
@@ -6193,9 +8114,10 @@
   },
   {
    "texto": "posso",
-   "unidad": "u23",
+   "unidad": "u05",
    "fuentes": [
-    "pendiente"
+    "pendiente",
+    "pron-semana"
    ]
   },
   {
@@ -6361,6 +8283,13 @@
    ]
   },
   {
+   "texto": "Prendo la metropolitana per andare al lavoro.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Prendo un caffè macchiato.",
    "unidad": "u04",
    "fuentes": [
@@ -6386,6 +8315,20 @@
    "unidad": "u04",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "Prendo un taxi per l'aeroporto.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Preparo la colazione per tutti.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -6447,6 +8390,20 @@
    ]
   },
   {
+   "texto": "Prima mi lavo, poi faccio colazione.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Prima studio, poi esco.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "primavera",
    "unidad": "u27",
    "fuentes": [
@@ -6479,6 +8436,20 @@
    "unidad": "u18",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "Pulisco la casa il sabato.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Può indicarmi la strada?",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -6542,6 +8513,20 @@
    ]
   },
   {
+   "texto": "Qualche volta esco con gli amici.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Quale preferisci?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Quando ero bambina, giocavo in giardino.",
    "unidad": "u11",
    "fuentes": [
@@ -6585,6 +8570,13 @@
    ]
   },
   {
+   "texto": "Quando parti?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Quando partirai?",
    "unidad": "u15",
    "fuentes": [
@@ -6606,10 +8598,18 @@
    ]
   },
   {
+   "texto": "Quante ore dormi?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Quanti anni hai?",
    "unidad": "u08",
    "fuentes": [
-    "dictado"
+    "dictado",
+    "vocab-ejemplo"
    ]
   },
   {
@@ -6677,6 +8677,20 @@
    ]
   },
   {
+   "texto": "Quanto costa un caffè?",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Quanto costa?",
+   "unidad": "u08",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Quanto costa? Cinque euro.",
    "unidad": "u03",
    "fuentes": [
@@ -6740,6 +8754,13 @@
    ]
   },
   {
+   "texto": "Quella camicia è bella.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Quella è la mia macchina.",
    "unidad": "u06",
    "fuentes": [
@@ -6754,6 +8775,13 @@
    ]
   },
   {
+   "texto": "Questa borsa è troppo grande.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Questa è la città più bella.",
    "unidad": "u12",
    "fuentes": [
@@ -6765,6 +8793,13 @@
    "unidad": "u06",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "Questa è la mia borsa e quella è la tua. Il mio cappello è nero. I miei amici abitano a Roma.",
+   "unidad": "u06",
+   "fuentes": [
+    "monólogo"
    ]
   },
   {
@@ -6803,6 +8838,13 @@
    ]
   },
   {
+   "texto": "Queste scarpe sono strette.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Questi pantaloni sono troppo lunghi.",
    "unidad": "u06",
    "fuentes": [
@@ -6810,10 +8852,24 @@
    ]
   },
   {
+   "texto": "Questo caffè è troppo caldo.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Questo è il mio amico Paolo. Paolo è italiano, è di Napoli. Lui è simpatico e molto gentile. Oggi siamo insieme in un bar.",
    "unidad": "u01",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "Questo è il mio cappotto.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -6835,6 +8891,13 @@
    "unidad": "u12",
    "fuentes": [
     "ejemplo"
+   ]
+  },
+  {
+   "texto": "Questo maglione è di lana.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -6863,6 +8926,13 @@
    "unidad": "u12",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Questo vestito mi piace.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -6962,7 +9032,8 @@
    "texto": "rossa",
    "unidad": "u27",
    "fuentes": [
-    "pendiente"
+    "pendiente",
+    "pron-semana"
    ]
   },
   {
@@ -6975,6 +9046,13 @@
   {
    "texto": "Sabato mattina vado al mercato.",
    "unidad": "u03",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Saliamo sull'autobus.",
+   "unidad": "u05",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -7001,6 +9079,13 @@
    ]
   },
   {
+   "texto": "sapere",
+   "unidad": "u27",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Sarà in ritardo: non risponde.",
    "unidad": "u15",
    "fuentes": [
@@ -7015,11 +9100,47 @@
    ]
   },
   {
+   "texto": "scegliere",
+   "unidad": "u07",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "scena",
+   "unidad": "u07",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "Scendiamo alla prossima fermata.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Scendo al capolinea.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Scendo alla prossima fermata.",
    "unidad": "u05",
    "fuentes": [
     "dictado",
-    "ejemplo"
+    "ejemplo",
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "scimmia",
+   "unidad": "u07",
+   "fuentes": [
+    "pron-semana"
    ]
   },
   {
@@ -7361,6 +9482,13 @@
    ]
   },
   {
+   "texto": "Sei stanco?",
+   "unidad": "u08",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Sei tornata ieri?",
    "unidad": "u10",
    "fuentes": [
@@ -7418,6 +9546,13 @@
    ]
   },
   {
+   "texto": "Si innamora facilmente.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Si lava le mani.",
    "unidad": "u07",
    "fuentes": [
@@ -7436,6 +9571,13 @@
    "unidad": "u19",
    "fuentes": [
     "sinpista"
+   ]
+  },
+  {
+   "texto": "Si trucca prima di uscire.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -7763,6 +9905,13 @@
    ]
   },
   {
+   "texto": "sole",
+   "unidad": "u27",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "Sono allergico alle noci.",
    "unidad": "u28",
    "fuentes": [
@@ -7949,6 +10098,13 @@
    ]
   },
   {
+   "texto": "Sono stanco dopo il lavoro.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Sono stanco, ma contento.",
    "unidad": "u01",
    "fuentes": [
@@ -8056,6 +10212,20 @@
    "unidad": "u21",
    "fuentes": [
     "pendiente"
+   ]
+  },
+  {
+   "texto": "Stasera andiamo al cinema.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Stasera guardo un film.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -8186,6 +10356,34 @@
    ]
   },
   {
+   "texto": "Studio italiano ogni sera.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Studio molto.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Sua figlia è molto simpatica.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Sua moglie è italiana.",
+   "unidad": "u26",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Subito!",
    "unidad": "u28",
    "fuentes": [
@@ -8218,6 +10416,13 @@
    "unidad": "u27",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Suono la chitarra.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -8335,6 +10540,13 @@
    ]
   },
   {
+   "texto": "Ti sta bene questo vestito.",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Ti telefono domani.",
    "unidad": "u13",
    "fuentes": [
@@ -8347,6 +10559,20 @@
    "fuentes": [
     "dictado",
     "prueba"
+   ]
+  },
+  {
+   "texto": "Ti voglio tanto bene.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Torno a casa alle sei.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -8382,6 +10608,13 @@
    "unidad": "u16",
    "fuentes": [
     "pendiente"
+   ]
+  },
+  {
+   "texto": "Tutti i giorni prendo l'autobus.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -8445,6 +10678,13 @@
   {
    "texto": "Un bicchiere di vino rosso.",
    "unidad": "u04",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Un biglietto di andata e ritorno, per favore.",
+   "unidad": "u05",
    "fuentes": [
     "vocab-ejemplo"
    ]
@@ -8662,6 +10902,13 @@
    ]
   },
   {
+   "texto": "Vada dritto fino alla piazza.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Vado a Firenze in treno.",
    "unidad": "u05",
    "fuentes": [
@@ -8676,6 +10923,13 @@
    ]
   },
   {
+   "texto": "Vado a scuola a piedi.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Vado a scuola in bicicletta.",
    "unidad": "u05",
    "fuentes": [
@@ -8683,10 +10937,59 @@
    ]
   },
   {
+   "texto": "Vado al lavoro in autobus. Il sabato vado da Marco a piedi. Domani vado a Firenze in treno e scendo alla stazione centrale.",
+   "unidad": "u05",
+   "fuentes": [
+    "escritura"
+   ]
+  },
+  {
+   "texto": "Vado al lavoro in autobus. Il sabato vado da Marco a piedi. Domani vado a Firenze in treno.",
+   "unidad": "u05",
+   "fuentes": [
+    "monólogo"
+   ]
+  },
+  {
+   "texto": "Vado al lavoro in bicicletta.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Vado in banca a piedi.",
    "unidad": "u05",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "Vado in centro in autobus.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Vado in palestra tre volte alla settimana.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Vado in palestra una volta alla settimana.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "Vado spesso al cinema.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -8761,6 +11064,13 @@
    ]
   },
   {
+   "texto": "Vengo subito!",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Venite a trovarci: vi aspettiamo con tante cose buone! Se non trovate qualcosa, chiedete alla signora alla cassa: è sempre pronta ad aiutarvi.",
    "unidad": "u06#B",
    "fuentes": [
@@ -8811,10 +11121,31 @@
    ]
   },
   {
+   "texto": "Vieni?",
+   "unidad": "u08",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
+   "texto": "Vieni.",
+   "unidad": "u08",
+   "fuentes": [
+    "pron-semana"
+   ]
+  },
+  {
    "texto": "VIETATO FUMARE nel parco. VIETATO ENTRARE con la bicicletta. USCITA a destra. ENTRATA a sinistra.",
    "unidad": "u05#B",
    "fuentes": [
     "lectura"
+   ]
+  },
+  {
+   "texto": "Visitiamo una mostra d'arte.",
+   "unidad": "u27",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -8851,6 +11182,13 @@
    "unidad": "u22",
    "fuentes": [
     "prueba"
+   ]
+  },
+  {
+   "texto": "Voglio più tempo.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -8988,10 +11326,24 @@
    ]
   },
   {
+   "texto": "Vorrei un altro caffè.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ]
+  },
+  {
    "texto": "Vorrei un biglietto per Firenze.",
    "unidad": "u24",
    "fuentes": [
     "sinpista"
+   ]
+  },
+  {
+   "texto": "Vorrei un biglietto per Roma.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
    ]
   },
   {
@@ -9186,12 +11538,44 @@
    "motivo": "Dudosa o poco natural en la segunda pasada del plan B1 (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 1»): sin audio hasta resolver"
   },
   {
+   "texto": "In italiano «burro» vuol dire mantequilla.",
+   "unidad": "u05",
+   "fuentes": [
+    "vocab-ejemplo"
+   ],
+   "motivo": "Frase mixta con una palabra en español: la voz italiana la leería mal (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 2»)"
+  },
+  {
+   "texto": "Oggi è tardi: devo andare.",
+   "unidad": "u07",
+   "fuentes": [
+    "vocab-ejemplo"
+   ],
+   "motivo": "Dudosa o poco natural en la segunda pasada del plan B1 (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 2»): sin audio hasta resolver"
+  },
+  {
+   "texto": "Posso provare nel camerino?",
+   "unidad": "u06",
+   "fuentes": [
+    "vocab-ejemplo"
+   ],
+   "motivo": "Dudosa o poco natural en la segunda pasada del plan B1 (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 2»): sin audio hasta resolver"
+  },
+  {
    "texto": "Siete state lì una settimana?",
    "unidad": "u10",
    "fuentes": [
     "diálogo"
    ],
    "motivo": "Sin confirmar en fuentes (docs/dudas-italiano.md, «Verificación con fuentes», u10)"
+  },
+  {
+   "texto": "Tutti sono qui.",
+   "unidad": "u08",
+   "fuentes": [
+    "vocab-ejemplo"
+   ],
+   "motivo": "Dudosa o poco natural en la segunda pasada del plan B1 (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 2»): sin audio hasta resolver"
   },
   {
    "texto": "Un uomo è alla porta.",
