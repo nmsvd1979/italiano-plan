@@ -1,0 +1,126 @@
+{
+ "b1-1": {
+  "tipo": "llamada telefónica",
+  "titulo": "Una llamada por un departamento",
+  "lines": [
+   {
+    "who": "A",
+    "it": "Buongiorno, sono Laura Mora. Chiamo per l'appartamento in via Roma.",
+    "es": "Buenos días, soy Laura Mora. Llamo por el departamento de la calle Roma."
+   },
+   {
+    "who": "B",
+    "it": "Buongiorno, signora. Sì, l'appartamento è ancora libero. Che cosa vuole sapere?",
+    "es": "Buenos días, señora. Sí, el departamento sigue libre. ¿Qué quiere saber?"
+   },
+   {
+    "who": "A",
+    "it": "Quanto costa l'affitto al mese, e le spese sono incluse?",
+    "es": "¿Cuánto cuesta el alquiler al mes y están incluidos los gastos?"
+   },
+   {
+    "who": "B",
+    "it": "L'affitto è seicento euro al mese. Le spese non sono incluse, ma sono poche: circa cinquanta euro.",
+    "es": "El alquiler son seiscientos euros al mes. Los gastos no están incluidos, pero son pocos: unos cincuenta euros."
+   },
+   {
+    "who": "A",
+    "it": "E il riscaldamento? Funziona bene?",
+    "es": "¿Y la calefacción? ¿Funciona bien?"
+   },
+   {
+    "who": "B",
+    "it": "Sì, funziona benissimo. L'appartamento è al terzo piano e c'è l'ascensore. È arredato e molto luminoso.",
+    "es": "Sí, funciona muy bien. El departamento está en el tercer piso y hay ascensor. Está amueblado y es muy luminoso."
+   },
+   {
+    "who": "A",
+    "it": "Posso vederlo sabato mattina?",
+    "es": "¿Puedo verlo el sábado en la mañana?"
+   },
+   {
+    "who": "B",
+    "it": "Sabato mattina sono fuori città, ma domenica pomeriggio sono libero. Alle quattro va bene?",
+    "es": "El sábado en la mañana estoy fuera de la ciudad, pero el domingo en la tarde estoy libre. ¿Le parece bien a las cuatro?"
+   },
+   {
+    "who": "A",
+    "it": "Domenica alle quattro va benissimo. Devo portare dei documenti?",
+    "es": "El domingo a las cuatro me parece perfecto. ¿Debo llevar documentos?"
+   },
+   {
+    "who": "B",
+    "it": "Sì, per il contratto ci vogliono due documenti e il codice fiscale.",
+    "es": "Sí, para el contrato hacen falta dos documentos y el código fiscal."
+   },
+   {
+    "who": "A",
+    "it": "Posso portare un amico a vedere l'appartamento?",
+    "es": "¿Puedo llevar a un amigo a ver el departamento?"
+   },
+   {
+    "who": "B",
+    "it": "Certo, nessun problema. Ma il contratto lo firma solo lei.",
+    "es": "Claro, no hay problema. Pero el contrato lo firma solo usted."
+   },
+   {
+    "who": "A",
+    "it": "Va bene, porto tutto.",
+    "es": "Está bien, llevo todo."
+   },
+   {
+    "who": "B",
+    "it": "Le mando l'indirizzo per messaggio. Allora a domenica!",
+    "es": "Le mando la dirección por mensaje. ¡Entonces, hasta el domingo!"
+   },
+   {
+    "who": "A",
+    "it": "Grazie mille, arrivederci!",
+    "es": "Muchas gracias, ¡hasta luego!"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Cuánto cuesta el alquiler y qué pasa con los gastos?",
+    "options": [
+     "600 euros y los gastos están incluidos",
+     "600 euros y los gastos no están incluidos (unos 50 euros)",
+     "500 euros y no hay gastos"
+    ],
+    "answer": 1,
+    "why": "«Seicento euro… le spese non sono incluse… circa cinquanta euro»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuándo van a ver el departamento?",
+    "options": [
+     "El sábado en la mañana",
+     "El domingo a las cuatro de la tarde",
+     "El domingo en la mañana"
+    ],
+    "answer": 1,
+    "why": "«Domenica pomeriggio… alle quattro»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué hay que llevar para el contrato?",
+    "options": [
+     "Dos documentos y el código fiscal",
+     "Solo dinero",
+     "Una carta del trabajo"
+    ],
+    "answer": 0,
+    "why": "«Due documenti e il codice fiscale»."
+   },
+   {
+    "kind": "short",
+    "q": "¿En qué piso está el departamento? (una palabra, en italiano)",
+    "accepted": [
+     "terzo"
+    ],
+    "why": "«L'appartamento è al terzo piano»."
+   }
+  ]
+ }
+}
