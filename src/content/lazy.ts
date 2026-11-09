@@ -2,3 +2,4 @@
 // para que el precache de la app siga bajo 2 MB (scripts/check-precache.mjs).
 export const loadLectura = () => import("./lectura");
 export const loadSinPistaContent = () => import("./sinpista");
+export const loadPracticaB1 = () => import("./practicaB1");

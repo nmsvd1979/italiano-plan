@@ -61,6 +61,13 @@ export function PlanScreen() {
           </div>
         </section>
       ))}
+      <section className="card stack">
+        <div className="eyebrow">Opcional</div>
+        <a className="unit-row" href={href("/practica-b1")}>
+          <span className="unit-num"><Icon name="book" size={18} /></span>
+          <span className="unit-main"><b>Práctica B1</b><small>Lecturas y audios más largos, con el tamaño de un B1</small></span>
+        </a>
+      </section>
     </>
   );
 }

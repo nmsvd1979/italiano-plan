@@ -1,0 +1,101 @@
+{
+ "b1-1": {
+  "tipo": "carta informal",
+  "titulo": "Una lettera da Torino",
+  "it": [
+   "Caro Marco,\ncome stai? Ti scrivo da Torino, dove vivo da due mesi. Ti racconto come sono andate le prime settimane, perché so che ti interessa.",
+   "Quando ho deciso di partire, pensavo che fosse facile, ma non è stato così. Ho cercato un appartamento per quasi un mese. Prima ne ho visto uno vicino al centro, ma l'affitto era troppo alto e le spese non erano incluse. Poi ne ho trovato un altro, più piccolo, ma luminoso e con l'ascensore. Il padrone di casa è molto gentile: mi ha dato le chiavi subito e mi ha spiegato come funziona il riscaldamento.",
+   "Il lavoro invece va benissimo. Lavoro in una libreria, vicino alla stazione, e i colleghi sono simpatici. Il primo giorno ero un po' stanca e non capivo tutto, perché parlavano veloce. Adesso va meglio: se qualcuno non parla piano, gli chiedo di ripetere.",
+   "Ieri sera ho cenato con una collega, Giulia. Mi ha detto che qui la gente di solito mangia alle otto e che i ristoranti sono pieni il sabato. Abbiamo parlato per due ore e mi ha invitata a una festa. Penso che sia una buona occasione per conoscere altre persone.",
+   "Nel tempo libero cammino per la città e visito i musei. Se avessi più tempo, viaggerei di più, ma per ora sono contenta così. Spero che tu venga a trovarmi quest'estate: è importante che ci vediamo presto, perché ho tante cose da raccontarti. Se vieni, ti presto la mia bicicletta e ti porto al mercato, dove si mangia benissimo.",
+   "Scrivimi presto e dimmi come stanno i tuoi genitori.\nUn abbraccio,\nLaura"
+  ],
+  "es": [
+   "Querido Marco,\n¿cómo estás? Te escribo desde Turín, donde vivo desde hace dos meses. Te cuento cómo han ido las primeras semanas, porque sé que te interesa.",
+   "Cuando decidí irme, pensaba que era fácil, pero no fue así. Busqué un departamento durante casi un mes. Primero vi uno cerca del centro, pero el alquiler era demasiado alto y los gastos no estaban incluidos. Después encontré otro, más pequeño, pero luminoso y con ascensor. El dueño es muy amable: me dio las llaves enseguida y me explicó cómo funciona la calefacción.",
+   "En cambio, el trabajo va muy bien. Trabajo en una librería, cerca de la estación, y los compañeros son simpáticos. El primer día estaba un poco cansada y no entendía todo, porque hablaban rápido. Ahora va mejor: si alguien no habla despacio, le pido que repita.",
+   "Anoche cené con una compañera, Giulia. Me dijo que aquí la gente suele comer a las ocho y que los restaurantes están llenos los sábados. Hablamos durante dos horas y me invitó a una fiesta. Creo que es una buena ocasión para conocer a otras personas.",
+   "En mi tiempo libre camino por la ciudad y visito los museos. Si tuviera más tiempo, viajaría más, pero por ahora estoy contenta así. Espero que vengas a visitarme este verano: es importante que nos veamos pronto, porque tengo muchas cosas que contarte. Si vienes, te presto mi bicicleta y te llevo al mercado, donde se come buenísimo.",
+   "Escríbeme pronto y dime cómo están tus padres.\nUn abrazo,\nLaura"
+  ],
+  "claves": [
+   {
+    "it": "il padrone di casa",
+    "es": "el dueño de la casa"
+   },
+   {
+    "it": "l'affitto",
+    "es": "el alquiler"
+   },
+   {
+    "it": "le spese",
+    "es": "los gastos"
+   },
+   {
+    "it": "il riscaldamento",
+    "es": "la calefacción"
+   },
+   {
+    "it": "la libreria",
+    "es": "la librería"
+   },
+   {
+    "it": "i colleghi",
+    "es": "los compañeros de trabajo"
+   },
+   {
+    "it": "trovare",
+    "es": "encontrar / visitar (venire a trovare)"
+   },
+   {
+    "it": "la bicicletta",
+    "es": "la bicicleta"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué problema tenía el primer departamento que vio Laura?",
+    "options": [
+     "Estaba lejos de la estación",
+     "El alquiler era muy alto y los gastos no estaban incluidos",
+     "Era muy oscuro y pequeño"
+    ],
+    "answer": 1,
+    "why": "«L'affitto era troppo alto e le spese non erano incluse»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cómo le va a Laura en el trabajo?",
+    "options": [
+     "Muy bien: trabaja en una librería y sus compañeros son simpáticos",
+     "Mal: no entiende a nadie",
+     "Todavía no encontró trabajo"
+    ],
+    "answer": 0,
+    "why": "«Il lavoro invece va benissimo… i colleghi sono simpatici»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué espera Laura de Marco?",
+    "options": [
+     "Que le mande fotos",
+     "Que la visite en verano",
+     "Que le preste dinero"
+    ],
+    "answer": 1,
+    "why": "«Spero che tu venga a trovarmi quest'estate»."
+   },
+   {
+    "kind": "short",
+    "q": "Si Marco la visita, ¿qué le presta Laura? (una palabra, en italiano)",
+    "accepted": [
+     "bicicletta",
+     "bici"
+    ],
+    "why": "«Ti presto la mia bicicletta»."
+   }
+  ],
+  "palabras": 268
+ }
+}

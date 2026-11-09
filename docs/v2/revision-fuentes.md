@@ -254,3 +254,15 @@ No es revisión de un nativo.
 | Dudas | Ninguna nueva para `dudas-italiano.md` |
 
 No es revisión de un nativo.
+
+## Plan B1 · «Práctica B1»: lectura y audio de muestra (10-nov-2026, rama `feat/practica-b1`)
+Módulo opcional con pantallas nuevas y **una lectura (carta informal, 268 palabras) y un audio (llamada por un departamento, ≈ 150 palabras, dos hablantes)** de muestra; faltan 2 + 2 textos (PR de contenido siguientes).
+
+| Nivel | Qué se hizo |
+|---|---|
+| Léxico | Textos construidos con el vocabulario del curso; ≈ 91 % de las formas están en la app (como las lecturas graduadas, auditoría H-all-04). Las palabras que faltan son formas nuevas de verbos ya enseñados (*cercato, parlavano, trovarmi…*) |
+| **V1** | Palabras cotejadas con `napolux/paroleitaliane` e `it_50k` |
+| **V3** | Otra sesión (solo vio los dos textos, de memoria, sin internet): **0 errores gramaticales**; registro correcto (tú en la carta, *Lei* en la llamada). Cambios: quitar *Pronto?* de quien llama; cerrar la llamada sin pedir un número que ya tenía (*Le mando l'indirizzo per messaggio. Allora a domenica!*); aceptar *bici*; cambiar un distractor parcialmente cierto; traducir *pensavo che fosse facile* como «era fácil». **No cambié** *parlavano veloce* (coloquial aceptable en una carta informal) |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
+Sin audio sintético todavía: el audio suena con la voz del sistema hasta generar los clips (`alcance-nuevo.json`). No es revisión de un nativo.
