@@ -3,7 +3,9 @@
 //
 // Fuentes: dictados, diálogos, lecturas (cada párrafo de `it`, que es lo que lee el botón «Escuchar»), ítems «listen» de sinpista,
 // ítems de escucha de pruebas y ejemplos de las lecciones. Entran también las palabras de AUDIO_PENDING (pronunciación sin
-// grabación nativa), cada una como frase suelta. NO entran palabras sueltas del vocabulario ni pares mínimos
+// grabación nativa), cada una como frase suelta. Además, SOLO para las unidades de `alcance-nuevo.json` (audio por fase):
+// frases de ejemplo del vocabulario (G3), textos modelo de escritura (y su ampliación), modelos de monólogo y las palabras
+// de la pronunciación semanal que no tienen grabación nativa. NO entran palabras sueltas del vocabulario ni pares mínimos
 // de pronunciación que sí tienen audio nativo. Las frases sin confirmar (scripts/tts/exclusiones.json) se excluyen.
 //
 // Uso: node scripts/tts/extraer.mjs
@@ -23,7 +25,12 @@ try {
   const { getDictation } = await server.ssrLoadModule("/src/content/dictation.ts");
   const { getDialogue } = await server.ssrLoadModule("/src/content/dialogues.ts");
   const { getLesson } = await server.ssrLoadModule("/src/content/grammar/index.ts");
-  const { AUDIO_PENDING, PRON_UNITS } = await server.ssrLoadModule("/src/content/pronunciation/index.ts");
+  const { AUDIO_PENDING, PRON_UNITS, audioFiles } = await server.ssrLoadModule("/src/content/pronunciation/index.ts");
+  const { getWords } = await server.ssrLoadModule("/src/content/vocab.ts");
+  const { getWriting } = await server.ssrLoadModule("/src/content/writing.ts");
+  const { getMonologue } = await server.ssrLoadModule("/src/content/monologos.ts");
+  const { getPronStep } = await server.ssrLoadModule("/src/content/pronunciation/sequence.ts");
+  const { COURSE } = await server.ssrLoadModule("/src/content/course.ts");
 
   /** @type {{ fuente: string, texto: string, unidad: string }[]} */
   const crudo = [];
@@ -41,6 +48,21 @@ try {
   for (const pu of PRON_UNITS) for (const w of [...pu.pairs.flat(), ...pu.words]) if (!unidadDe.has(w) || pu.unit < unidadDe.get(w)) unidadDe.set(w, pu.unit);
   for (const w of AUDIO_PENDING) add("pendiente", unidadDe.get(w) ?? "u99", w);
   for (const [u, t] of Object.entries(json("src/content/pruebas.json"))) for (const x of t.escucha ?? []) add("prueba", u, x.it);
+
+  // Fuentes nuevas, por fase (scripts/tts/alcance-nuevo.json).
+  const alcance = new Set(json("scripts/tts/alcance-nuevo.json").unidades);
+  for (const step of COURSE.filter((x) => alcance.has(x.unit))) {
+    for (const w of getWords(step.unit) ?? []) if (w.ex && (!step.part || !w.part || w.part === step.part)) add("vocab-ejemplo", step.unit, w.ex);
+    const wr = getWriting(step.unit, step.part ?? null);
+    if (wr) { add("escritura", step.unit, wr.model); if (wr.extend) add("escritura", step.unit, wr.extend.model); }
+    const mo = getMonologue(step.id);
+    if (mo) add("monólogo", step.unit, mo.model);
+    const pr = getPronStep(step.id);
+    if (pr) for (const w of [...pr.pairs.flat(), ...pr.words]) {
+      // Sin grabación nativa; una o dos letras sueltas no se sintetizan bien (se oyen dentro de las frases).
+      if (audioFiles(w).length === 0 && normalizar(w).length > 2) add("pron-semana", step.unit, w);
+    }
+  }
 
   const exclusiones = json("scripts/tts/exclusiones.json");
   const porTexto = new Map();
@@ -60,7 +82,7 @@ try {
 
   writeFileSync(path.join(ROOT, "scripts/tts/frases.json"), JSON.stringify({ frases, excluidas }, null, 1) + "\n");
 
-  const fuentes = ["dictado", "diálogo", "lectura", "sinpista", "prueba", "ejemplo", "pendiente"];
+  const fuentes = ["dictado", "diálogo", "lectura", "sinpista", "prueba", "ejemplo", "pendiente", "vocab-ejemplo", "escritura", "monólogo", "pron-semana"];
   console.log("Por fuente (elementos leídos → textos distintos que entran, tras excluir):");
   for (const f of fuentes) {
     const leidos = crudo.filter((c) => c.fuente === f).length;

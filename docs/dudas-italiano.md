@@ -7,6 +7,22 @@ Se resuelven en el chat (Claude.ai) o con una persona nativa, no "a ojo" en Code
 
 Ninguna por ahora: la revisión ortográfica (oct. 2026) no encontró frases dudosas.
 
+## Plan B1 · frases de ejemplo de la fase 1 (8-nov-2026)
+Segunda pasada independiente (de memoria, sin fuentes) sobre las 241 frases de ejemplo del vocabulario de u25, u01, u02, u03 y u04 y 29 palabras de pronunciación: **0 errores de italiano**, pero 7 frases dudosas o poco naturales. **No se sintetizan** (`scripts/tts/exclusiones.json`); siguen en pantalla con la voz del sistema hasta resolverlas. Para resolverlas: consultar Treccani o la Accademia della Crusca y, si se confirman, cambiar la frase en `vocab-g3.json` (y volver a correr `npm run tts:extraer`).
+
+| Frase | Duda | Propuesta del revisor (confianza) |
+|---|---|---|
+| *Abito al terzo piano: tre scale.* | «tre scale» suena a calco | *…: faccio tre rampe di scale.* (media) |
+| *Il prezzo è molto buono.* | calco de «el precio es muy bueno» | *Il prezzo è ottimo.* / *…molto conveniente.* (media) |
+| *In casa c'è un balcone.* | el balcón no está «en» la casa | *La casa ha un balcone.* (media) |
+| *Un uomo è alla porta.* | lo natural sería *C'è un uomo alla porta.* | (media) |
+| *Il mio luogo di nascita è Santiago.* | correcta pero de formulario | *Sono nato a Santiago.* (media-baja) |
+| *Ecco il mio nome.* | sin contexto suena vacía | (baja) |
+| *Dieci minuti, per favore.* | ambigua sin contexto | (baja) |
+
+Observaciones de solo estilo (sin cambio todavía): *Anche io* → *Anch'io*; *Il cognome ha un trattino* → *Il mio cognome…*; *L'indirizzo ha la chiocciola* → *…indirizzo email…*; un libro de 90 euros y un tren a 80 km/h poco realistas; *di acqua* → *d'acqua*; *Voglio un panino* brusco (mejor *Vorrei*); *Alla nostra!* es un brindis coloquial elíptico.
+**Para oír en el iPhone:** *Nicolás* (u25/u01) lleva tilde española; el clip de Serena podría acentuarlo mal. Si suena mal, anotarlo en «Clips que suenan mal».
+
 ## Clips de voz sintética que suenan mal (revisión en el iPhone)
 Anota aquí el `id` del clip (nombre del mp3 en `public/audio/tts/`, y su texto en `public/audio/tts/index.json`), qué suena mal (palabra mal pronunciada, geminada, acento) y la frase. Aún no se ha escuchado ninguno en el iPhone.
 

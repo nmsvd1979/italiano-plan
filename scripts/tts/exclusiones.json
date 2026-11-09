@@ -30,5 +30,33 @@
   {
     "frase": "fato",
     "motivo": "No es una palabra italiana: solo es el contraste de «fatto» en pares mínimos de AUDIO_PENDING"
+  },
+  {
+    "frase": "Abito al terzo piano: tre scale.",
+    "motivo": "Dudosa o poco natural en la segunda pasada del plan B1 (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 1»): sin audio hasta resolver"
+  },
+  {
+    "frase": "Il prezzo è molto buono.",
+    "motivo": "Dudosa o poco natural en la segunda pasada del plan B1 (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 1»): sin audio hasta resolver"
+  },
+  {
+    "frase": "In casa c'è un balcone.",
+    "motivo": "Dudosa o poco natural en la segunda pasada del plan B1 (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 1»): sin audio hasta resolver"
+  },
+  {
+    "frase": "Un uomo è alla porta.",
+    "motivo": "Dudosa o poco natural en la segunda pasada del plan B1 (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 1»): sin audio hasta resolver"
+  },
+  {
+    "frase": "Il mio luogo di nascita è Santiago.",
+    "motivo": "Dudosa o poco natural en la segunda pasada del plan B1 (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 1»): sin audio hasta resolver"
+  },
+  {
+    "frase": "Ecco il mio nome.",
+    "motivo": "Dudosa o poco natural en la segunda pasada del plan B1 (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 1»): sin audio hasta resolver"
+  },
+  {
+    "frase": "Dieci minuti, per favore.",
+    "motivo": "Dudosa o poco natural en la segunda pasada del plan B1 (docs/dudas-italiano.md, «Plan B1 · frases de ejemplo de la fase 1»): sin audio hasta resolver"
   }
 ]

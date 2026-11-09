@@ -3,10 +3,10 @@
 // o si falta el archivo; los clips huérfanos (sin frase en el manifiesto) se borran.
 //
 // Uso: node scripts/tts/generar.mjs --modelo <it_IT-serena-high.onnx>   (o PIPER_MODEL=…; el .onnx.json va al lado)
-// Requiere `pip install piper-tts` (python3) y ffmpeg (en el PATH o en la variable FFMPEG).
+// Requiere `pip install piper-tts` (python3) y ffmpeg (en el PATH o en la variable FFMPEG) o, si no hay ffmpeg, lame.
 // Si el peso total pasa de 35 MB termina con error y no sigue: hay que decidirlo antes.
 
-import { execFileSync } from "node:child_process";
+import { execFileSync, spawnSync } from "node:child_process";
 import { existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync, unlinkSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
@@ -18,6 +18,15 @@ const OUT = path.join(ROOT, "public", "audio", "tts");
 const INDEX = path.join(OUT, "index.json");
 const IDS = path.join(ROOT, "src", "content", "ttsClips.json");
 const MAX_BYTES = 35e6;
+
+/** wav → mp3 mono 24 kHz ~40 kbps: con ffmpeg y, si no está instalado, con lame (mismas características). */
+function aMp3(wav, mp3) {
+  const ffmpeg = process.env.FFMPEG ?? "ffmpeg";
+  const r = spawnSync(ffmpeg, ["-y", "-loglevel", "error", "-i", wav, "-ac", "1", "-ar", "24000", "-b:a", "40k", mp3], { stdio: "inherit" });
+  if (!r.error && r.status === 0) return;
+  if (!r.error) throw new Error(`ffmpeg falló con el código ${r.status}`);
+  execFileSync("lame", ["--quiet", "-m", "m", "--resample", "24", "-b", "40", wav, mp3]);
+}
 
 const arg = (n) => { const i = process.argv.indexOf(n); return i >= 0 ? process.argv[i + 1] : undefined; };
 const modelo = arg("--modelo") ?? process.env.PIPER_MODEL;
@@ -46,8 +55,7 @@ if (pendientes.length > 0) {
     execFileSync("python3", [path.join(ROOT, "scripts/tts/piper_lote.py"), modelo, lista], { stdio: "inherit" });
     for (const t of trabajos) {
       const mp3 = path.join(OUT, path.basename(t.wav, ".wav") + ".mp3");
-      // mono, 24 kHz, ~40 kbps
-      execFileSync(process.env.FFMPEG ?? "ffmpeg", ["-y", "-loglevel", "error", "-i", t.wav, "-ac", "1", "-ar", "24000", "-b:a", "40k", mp3]);
+      aMp3(t.wav, mp3);
     }
   } finally {
     rmSync(tmp, { recursive: true, force: true });

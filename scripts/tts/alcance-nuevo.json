@@ -1,0 +1,10 @@
+{
+ "_nota": "Unidades cuyas fuentes nuevas entran al manifiesto de audio (docs/v2/plan-b1/07). El audio se genera por fase: fase 1 = semanas 1 a 7. Para sumar una fase, se agregan sus unidades aquí.",
+ "unidades": [
+  "u25",
+  "u01",
+  "u02",
+  "u03",
+  "u04"
+ ]
+}
