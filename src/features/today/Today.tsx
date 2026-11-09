@@ -17,8 +17,9 @@ import { AREA_NAME, type Area } from "../../domain/evaluation";
 import { reinforcementAreas } from "../../domain/panel";
 import { loadFixes, rewritesDue } from "../../domain/writingFix";
 import { nextCatchup, startingPoint } from "../../domain/continuity";
+import { coreFinished, routeAfterCore } from "../../domain/ruta";
 import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
-import { getPhaseTests, getReview } from "../../domain/storage";
+import { getLevelTests, getPhaseTests, getReview } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
 import { BlockRow } from "./BlockRow";
 import { OfflineBanner } from "./OfflineBanner";
@@ -90,19 +91,11 @@ export function Today() {
       <PhaseControl />
 
       {finished ? (
-        <section className="card stack">
-          <Icon name="trophy" size={28} />
-          <h1 className="title">Terminaste lo disponible</h1>
-          <p className="sub">
-            Completaste todas las semanas del curso. Mientras llega más contenido, puedes seguir con «Practicar más» (ejercicios de lo ya visto)
-            y con el repaso espaciado.
-          </p>
-          <a className="btn primary block" href={href("/practicar")} style={{ textAlign: "center", textDecoration: "none" }}>Practicar más</a>
-          <a className="btn block" href={href("/tarjetas")} style={{ textAlign: "center", textDecoration: "none" }}>Repaso espaciado</a>
-        </section>
+        <RutaCard />
       ) : (
         <>
           <LegacyReview />
+          {coreFinished(course) && <BridgeNote />}
           {shown.map((slot) => (
             <DayCard key={`${slot.step.id}.${slot.day.day}`} slot={slot} srsCards={srsCards} />
           ))}
@@ -389,6 +382,60 @@ function DayCard({ slot, srsCards }: { slot: Slot; srsCards: number }) {
           />
         ))}
       </div>
+    </section>
+  );
+}
+
+const linkStyle = { textAlign: "center", textDecoration: "none" } as const;
+
+/** Al terminar todas las semanas: la prueba de nivel A2 decide qué sigue (docs/v2/plan-b1/05). */
+function RutaCard() {
+  const route = routeAfterCore(getLevelTests(window.localStorage));
+  const pct = (r: number) => Math.round(r * 100);
+  return (
+    <section className="card stack">
+      <Icon name="trophy" size={28} />
+      <h1 className="title">Terminaste el curso</h1>
+      {route.stage === "sin-prueba" && (
+        <p className="sub">Completaste todas las semanas. El siguiente paso es la prueba de nivel A2: dura unos 30 minutos y dice si ya puedes pasar a B1 o qué conviene reforzar.</p>
+      )}
+      {route.stage === "aprobada" && (
+        <p className="sub">Tu última prueba de nivel A2 salió en {pct(route.ratio)} %. Sigue con «Práctica B1» (textos y audios más largos) y mira «Listo para B1» para ver qué evidencias te faltan.</p>
+      )}
+      {route.stage === "repasar" && (
+        <p className="sub">
+          Tu última prueba de nivel A2 salió en {pct(route.ratio)} %.{" "}
+          {route.weak.length > 0 ? `Refuerza ${route.weak.map((a) => AREA_NAME[a].toLowerCase()).join(", ")} con «Practicar más» y vuelve a intentarla otro día.` : "Refuerza con «Practicar más» y vuelve a intentarla otro día."}
+        </p>
+      )}
+      {route.stage === "aprobada" ? (
+        <>
+          <a className="btn primary block" href={href("/practica-b1")} style={linkStyle}>Práctica B1</a>
+          <a className="btn block" href={href("/listo-b1")} style={linkStyle}>¿Listo para B1?</a>
+          <a className="btn block" href={href("/prueba-nivel")} style={linkStyle}>Repetir la prueba de nivel A2</a>
+        </>
+      ) : (
+        <>
+          <a className={`btn${route.stage === "sin-prueba" ? " primary" : ""} block`} href={href("/prueba-nivel")} style={linkStyle}>
+            {route.stage === "sin-prueba" ? "Prueba de nivel A2" : "Repetir la prueba de nivel A2"}
+          </a>
+          <a className={`btn${route.stage === "repasar" ? " primary" : ""} block`} href={href("/practicar")} style={linkStyle}>Practicar más</a>
+        </>
+      )}
+      <a className="btn block" href={href("/tarjetas")} style={linkStyle}>Repaso espaciado</a>
+    </section>
+  );
+}
+
+/** Núcleo terminado pero quedan semanas del puente: avisa que son opcionales y ofrece la prueba. */
+function BridgeNote() {
+  return (
+    <section className="card stack">
+      <p className="sub">
+        <b>Terminaste el núcleo A2.</b> Las semanas que siguen son el puente a B1 y son opcionales. Cuando quieras, haz la prueba de nivel A2 o mira «¿Listo para B1?».
+      </p>
+      <a className="btn block" href={href("/prueba-nivel")} style={linkStyle}>Prueba de nivel A2</a>
+      <a className="btn block" href={href("/listo-b1")} style={linkStyle}>¿Listo para B1?</a>
     </section>
   );
 }
