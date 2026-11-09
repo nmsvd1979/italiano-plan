@@ -188,6 +188,127 @@ const MONOLOGOS: Record<string, Monologue> = {
     model: "Nel mio tempo libero mi piace guardare film e giocare a calcio. Oggi c'è il sole, ma fa fresco.",
     seconds: [60, 48, 35],
   },
+  "u13": {
+    prompt: "Estás en una tienda: cuenta que compraste una chaqueta, que no te queda, que quieres devolverla y cuánto pagaste.",
+    points: [
+      "Explicas el problema (*è troppo piccola*).",
+      "Usas el pronombre directo (*Vorrei restituirla*, *L'ho pagata…*).",
+      "Dices cuánto pagaste y que conservas el recibo (*lo scontrino*).",
+    ],
+    frames: ["Ho comprato ___ ieri, ma è troppo ___.", "Vorrei restituirlo / restituirla.", "L'ho pagato / pagata ___ euro e ho ancora lo scontrino."],
+    model: "Buongiorno, ho comprato questa giacca ieri, ma è troppo piccola. Vorrei restituirla. L'ho pagata trenta euro e ho ancora lo scontrino.",
+    seconds: [65, 52, 38],
+  },
+  "u14#A": {
+    prompt: "Cuenta adónde vas cada semana, cuánto demoras en llegar y qué compras con cantidad.",
+    points: [
+      "Usas *ci* para el lugar (*ci vado a piedi*).",
+      "Dices cuánto toma con *ci vuole* (*Ci vuole un'ora*).",
+      "Usas *ne* para la cantidad (*ne vorrei due chili*).",
+    ],
+    frames: ["Vado a / al ___ ogni sabato: ci vado ___.", "Ci vuole / Ci vogliono ___ per arrivare.", "Vorrei ___: ne vorrei ___."],
+    model: "Vado al mercato ogni sabato: ci vado a piedi. Ci vuole un'ora per arrivare. Vorrei delle mele: ne vorrei due chili.",
+    seconds: [65, 52, 38],
+  },
+  "u14#B": {
+    prompt: "Dale indicaciones a un turista (trato formal) para llegar a la estación y adónde bajar en metro.",
+    points: [
+      "Usas el imperativo formal (*vada*, *giri*, *prenda*, *scenda*).",
+      "Dices hasta dónde con *fino a* y la dirección (*a destra*).",
+      "Dices dónde queda la estación (*dopo il ponte*).",
+    ],
+    frames: ["Vada dritto fino a / al / alla ___ e giri a ___.", "La stazione è dopo il / la ___.", "Prenda la metro e scenda a ___."],
+    model: "Vada dritto fino al semaforo e giri a destra. La stazione è dopo il ponte. Prenda la metro e scenda a Termini.",
+    seconds: [65, 52, 38],
+  },
+  "u15#A": {
+    prompt: "Cuenta tus planes para el próximo año: adónde irás, qué estudiarás y qué esperas.",
+    points: [
+      "Usas el futuro (*andrò*, *studierò*, *visiterò*).",
+      "Dices cuándo con *l'anno prossimo* o *tra…*.",
+      "Dices lo que esperas o lo incierto (*spero di…*, *forse*).",
+    ],
+    frames: ["L'anno prossimo andrò ___ e studierò ___.", "Visiterò ___ e forse ___.", "Spero di ___."],
+    model: "L'anno prossimo andrò in Italia e studierò italiano ogni giorno. Visiterò Roma e forse Firenze. Spero di tornare in Italia in estate.",
+    seconds: [65, 52, 38],
+  },
+  "u15#B": {
+    prompt: "Invita a una amiga a una fiesta con cortesía: pídele un favor, dale un consejo y dile qué pasa si viene.",
+    points: [
+      "Pides un favor con cortesía (*Potresti…?*).",
+      "Das un consejo con *dovresti* + infinitivo.",
+      "Dices qué pasa si viene con *se* + presente (*Se vieni, …*).",
+    ],
+    frames: ["Ciao ___! Sabato c'è una festa a casa mia: vieni?", "Potresti portare ___? Dovresti prendere ___.", "Se vieni, sono molto contento / contenta."],
+    model: "Ciao Anna! Sabato c'è una festa a casa mia: vieni? Potresti portare un dolce? Dovresti prendere un taxi, perché casa mia è lontana. Se vieni, sono molto contenta.",
+    seconds: [70, 56, 40],
+  },
+  "u16": {
+    prompt: "Le escribes a una amiga porque te sientes mal: cuéntale qué te duele y pídele ayuda con cortesía.",
+    points: [
+      "Dices que no estás bien (*non sto bene*).",
+      "Dices qué tienes (*Ho mal di testa*, *un po' di febbre*).",
+      "Pides ayuda con cortesía (*Mi serve…*, *puoi aiutarmi, per favore?*).",
+    ],
+    frames: ["Oggi non sto bene. Ho ___ e un po' di ___.", "Mi serve ___.", "Puoi aiutarmi, per favore?"],
+    model: "Ciao Anna, oggi non sto bene. Ho mal di testa e un po' di febbre. Mi serve una farmacia vicina: puoi aiutarmi, per favore?",
+    seconds: [65, 52, 38],
+  },
+  "u17": {
+    prompt: "Llamas por un anuncio de arriendo: di qué buscas, pregunta el precio y los gastos, y propón cuándo verlo.",
+    points: [
+      "Dices qué buscas (*Cerco un appartamento in affitto…*).",
+      "Preguntas el precio y los gastos (*Quanto costa l'affitto? Le spese sono incluse?*).",
+      "Propones cuándo verlo (*Vorrei vederlo sabato mattina*).",
+    ],
+    frames: ["Buongiorno, cerco ___ in affitto vicino a / al ___.", "Quanto costa ___? Le spese sono ___?", "Vorrei vederlo ___."],
+    model: "Buongiorno, cerco un appartamento in affitto vicino al centro. Quanto costa l'affitto al mese? Le spese sono incluse? Vorrei vederlo sabato mattina.",
+    seconds: [70, 56, 40],
+  },
+  "u18": {
+    prompt: "Llamas por teléfono: preséntate, pide hablar con alguien y di que llamarás de nuevo.",
+    points: [
+      "Te presentas al teléfono (*Pronto? Sono…*).",
+      "Pides hablar con alguien (*Posso parlare con…?*).",
+      "Dices que llamarás más tarde (*Ti richiamo tra…*).",
+    ],
+    frames: ["Pronto? Sono ___.", "Posso parlare con ___?", "Ti richiamo tra ___ minuti."],
+    model: "Pronto? Sono Laura. Posso parlare con Marco? Ah, sei tu! Ti richiamo tra dieci minuti.",
+    seconds: [60, 48, 35],
+  },
+  "u19": {
+    prompt: "Presenta tu ciudad, cuánto hace que vives allí, que estudias italiano y cuándo llegaste a Italia.",
+    points: [
+      "Dices desde cuándo con *da* (*abito qui da dieci anni*, *studio italiano da tre mesi*).",
+      "Describes lo que se hace con *si* impersonal (*si mangia bene*, *si può visitare…*).",
+      "Dices hace cuánto que pasó algo con *fa* (*tre giorni fa*).",
+    ],
+    frames: ["Abito a ___ da ___.", "Studio italiano da ___. A ___ si mangia ___.", "Sono arrivato / arrivata a ___ ___ giorni fa."],
+    model: "Mi chiamo Laura e abito a Santiago da dieci anni. Studio italiano da tre mesi e mi piace molto. A Santiago si mangia bene e si può visitare la montagna. Sono arrivata in Italia tre giorni fa.",
+    seconds: [75, 60, 45],
+  },
+  "u20": {
+    prompt: "Cuenta lo que te dijo un amigo ayer, une las ideas con conectores y da tu opinión.",
+    points: [
+      "Cuentas lo que dijo con *mi ha detto che…*.",
+      "Unes ideas con *quindi*, *però* o *comunque*.",
+      "Das tu opinión con *secondo me*.",
+    ],
+    frames: ["Ieri ___ mi ha detto che ___, quindi ___.", "Comunque secondo me ___."],
+    model: "Ieri Marco mi ha detto che era stanco, quindi non è venuto alla festa. Comunque secondo me è stata una buona decisione.",
+    seconds: [70, 56, 40],
+  },
+  "u24": {
+    prompt: "Cuenta un viaje del año pasado: qué hiciste, cómo era el tiempo, qué opinas y qué harías con más tiempo.",
+    points: [
+      "Cuentas lo que hiciste con el *passato prossimo* y ordenas con *prima… poi…*.",
+      "Describes cómo era con el imperfecto (*faceva caldo*).",
+      "Das tu opinión (*Penso che sia stata…*) y dices qué harías con más tiempo (*Se avessi più tempo, resterei…*).",
+    ],
+    frames: ["L'anno scorso sono andato / andata ___ con ___.", "Faceva ___ e il cielo era ___.", "Prima abbiamo visitato ___, poi siamo andati / andate a ___.", "Penso che sia stato / stata ___. Se avessi più tempo, ___."],
+    model: "L'anno scorso sono andata in Italia con un'amica. Faceva caldo e il cielo era azzurro. Prima abbiamo visitato Roma, poi siamo andate a Firenze in treno. Penso che sia stata un'esperienza bellissima. Se avessi più tempo, resterei un mese.",
+    seconds: [110, 90, 70],
+  },
 };
 
 export const getMonologue = (stepId: string): Monologue | undefined => MONOLOGOS[stepId];
