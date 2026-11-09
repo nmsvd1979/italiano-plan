@@ -180,6 +180,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
       updateContinuity((state) => markCatchup(state, unit, blockId));
       return true;
     }
+    // Práctica extra por habilidad (`/practicar-area`): se hace la actividad, pero no se marca ningún bloque del plan.
+    if (routeQuery().get("extra") === "1") return true;
     const k = routeQuery().get("k");
     if (k && BLOCK_MINUTES.has(k)) {
       if (!progress.done.has(k)) setDone(k, true);
