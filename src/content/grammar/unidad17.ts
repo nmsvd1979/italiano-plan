@@ -309,6 +309,16 @@ export const unidad17: Lesson = {
       ],
       "answer": 0,
       "why": "*Appuntamento* es masculino: *un appuntamento*."
-    }
+    },
+    { "type": "fill", "prompt": "Abito al ___ piano. (4.º)", "answers": ["quarto"], "why": "4 = *quarto*; el ordinal concuerda: *il quarto piano*." },
+    { "type": "fill", "prompt": "L'appartamento ___ cerco è luminoso. (que)", "answers": ["che"], "why": "*Che* une las dos frases y no cambia." },
+    { "type": "fill", "prompt": "La ___ non funziona. (lavadora)", "answers": ["lavatrice"], "why": "*La lavatrice* = la lavadora." },
+    { "type": "fill", "prompt": "Manca la ___. (llave)", "answers": ["chiave"], "why": "*La chiave* = la llave." },
+    { "type": "fill", "prompt": "Le spese sono ___? (incluidas)", "answers": ["incluse", "comprese"], "why": "*Spese* es femenino plural: *incluse*." },
+    { "type": "fill", "prompt": "Quanto costa la ___? (depósito de garantía)", "answers": ["caparra", "cauzione"], "why": "*La caparra* = el depósito de garantía." },
+    { "type": "fill", "prompt": "Cerco un appartamento ___ affitto. (en alquiler)", "answers": ["in"], "why": "*In affitto* = en alquiler." },
+    { "type": "fill", "prompt": "Non c'è l'___. (ascensor)", "answers": ["ascensore"], "why": "*L'ascensore* = el ascensor." },
+    { "type": "choice", "prompt": "«Vivo en la planta baja.»", "options": ["Abito al piano terra.", "Abito al piano zero.", "Abito nel piano terra."], "answer": 0, "why": "La planta baja es *il piano terra*." },
+    { "type": "choice", "prompt": "Quieres decir que no funciona la calefacción.", "options": ["Il riscaldamento non funziona.", "Il riscaldamento non funzionano.", "Il riscaldamento non è funziona."], "answer": 0, "why": "*Il riscaldamento* es singular: *non funziona*." }
   ]
 };

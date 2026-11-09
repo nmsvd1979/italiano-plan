@@ -37,7 +37,7 @@ export const PARTS: Record<string, UnitParts> = {
   },
   // A: futuro simple. B: condizionale de cortesía y consejo, se + presente, invitar.
   u15: {
-    A: { examples: [0, 1, 2], notice: [0, 1], exercises: [0, 1, 2, 3, 4, 7, 10, 11, 12, 13, 14, 18, 22, 23], vocab: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 19], dictation: [0, 1, 5, 6, 7] },
-    B: { examples: [3, 4, 5], notice: [2], exercises: [5, 6, 8, 9, 15, 16, 17, 19, 20, 21, 24, 25], vocab: [10, 11, 12, 13, 14, 15, 16], dictation: [2, 3, 4, 8, 9] },
+    A: { examples: [0, 1, 2], notice: [0, 1], exercises: [0, 1, 2, 3, 4, 7, 10, 11, 12, 13, 14, 18, 22, 23, 26, 27], vocab: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 19], dictation: [0, 1, 5, 6, 7] },
+    B: { examples: [3, 4, 5], notice: [2], exercises: [5, 6, 8, 9, 15, 16, 17, 19, 20, 21, 24, 25, 28, 29], vocab: [10, 11, 12, 13, 14, 15, 16], dictation: [2, 3, 4, 8, 9] },
   },
 };
