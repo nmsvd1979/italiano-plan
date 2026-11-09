@@ -12,8 +12,8 @@ import { Icon } from "../../ui/Icon";
 import { SinPistaRunner, type SinPistaSummary } from "./SinPistaRunner";
 
 /** Guarda la respuesta en la rotación y, si falló, la deja como tarjeta de repaso espaciado de su unidad. */
-export function saveAnswer(ex: SinPista, correct: boolean): void {
-  const next: SinPistaState = recordSinPista(loadSinPista(window.localStorage), ex.id, stepOf(ex), correct);
+export function saveAnswer(ex: SinPista, correct: boolean, corrected = false): void {
+  const next: SinPistaState = recordSinPista(loadSinPista(window.localStorage), ex.id, stepOf(ex), correct, corrected);
   saveSinPista(next, window.localStorage);
   if (!correct) recordFailure(window.localStorage, srsCardOf(ex));
 }

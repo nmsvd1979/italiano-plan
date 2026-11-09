@@ -65,6 +65,13 @@ describe("rotación de la práctica sin pista", () => {
     }
   });
 
+  it("corregir una respuesta ya anotada la saca de los fallados sin volver a contarla como vista", () => {
+    const fallo = recordSinPista(emptySinPista(), "u04-s01", "u04", false);
+    const corregido = recordSinPista(fallo, "u04-s01", "u04", true, true);
+    expect(corregido.missed).toEqual([]);
+    expect(corregido.shown["u04-s01"]).toBe(1);
+  });
+
   it("registrar una respuesta suma, y los fallados se quedan hasta acertarlos", () => {
     let s = recordSinPista(emptySinPista(), "u04-s01", "u04", false);
     expect(s.shown["u04-s01"]).toBe(1);
