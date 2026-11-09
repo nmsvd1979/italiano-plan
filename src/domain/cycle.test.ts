@@ -74,7 +74,7 @@ describe("daysOf: la estructura de 04 §D1", () => {
   });
 
   it("los bloques sin herramienta ni contenido no se muestran: quedan en PENDING_BLOCKS y no suman minutos", () => {
-    expect(PENDING_BLOCKS.map((b) => b.id)).toEqual(["speed"]);
+    expect(PENDING_BLOCKS.map((b) => b.id)).toEqual([]);
     for (const s of COURSE) {
       const blocks = daysOf(s).flatMap((d) => d.blocks);
       expect(blocks.some((b) => b.soon), s.id).toBe(false);
@@ -83,10 +83,13 @@ describe("daysOf: la estructura de 04 §D1", () => {
     const week = (stepId: string) => daysOf(step(stepId)).flatMap((d) => d.blocks).reduce((n, b) => n + b.minutes, 0);
     // «Releer con recuperación» (6 min, no core) está en todas las semanas menos la primera, y «Hablar sin mirar» (6 min, no core)
     // en todas las que tienen monólogo escrito (hoy las 35) y «Dos frases propias» (5 min, no core, también las 35):
-    // 188 + 6 + 6 + 5 = 205; la primera semana no retoma texto: 199.
+    // 188 + 6 + 6 + 5 = 205; la primera semana no retoma texto: 199. «Números a velocidad» (4 min, no core) solo está en las
+    // semanas de los números (u25, u01, u03): 203 en u25.
     expect(week("u13")).toBe(205);
-    expect(PENDING_BLOCKS.reduce((n, b) => n + b.minutes, 0)).toBe(4);
-    expect(week("u25")).toBe(199);
+    expect(PENDING_BLOCKS.reduce((n, b) => n + b.minutes, 0)).toBe(0);
+    expect(week("u25")).toBe(203);
+    expect(week("u01")).toBe(209);
+    expect(daysOf(step("u13")).flatMap((d) => d.blocks).some((b) => b.id === "speed")).toBe(false);
     expect(week("u26")).toBe(205);
     expect(daysOf(step("u25")).flatMap((d) => d.blocks).some((b) => b.id === "shorttext")).toBe(false);
     expect(daysOf(step("u01"))[2].blocks.some((b) => b.id === "shorttext")).toBe(true);

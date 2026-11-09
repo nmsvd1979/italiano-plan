@@ -28,6 +28,7 @@ import { Setup } from "./features/setup/Setup";
 import { Today } from "./features/today/Today";
 import { VocabScreen } from "./features/vocab/VocabScreen";
 import { WritingScreen } from "./features/writing/WritingScreen";
+import { SpeedScreen } from "./features/dictation/SpeedScreen";
 import { PropiasScreen } from "./features/writing/PropiasScreen";
 import { MonologueScreen } from "./features/speaking/MonologueScreen";
 import { RereadScreen } from "./features/lectura/RereadScreen";
@@ -83,6 +84,8 @@ function Screens() {
   if (writing) return <WritingScreen key={`writing-${writing[1]}${partKey}${q.get("reescribir") ?? ""}`} unit={writing[1]} part={part} rewrite={q.get("reescribir") === "1"} />;
   const mono = route.match(new RegExp(`^/monologo/${UNIT}$`));
   if (mono) return <MonologueScreen key={`mono-${mono[1]}${partKey}`} unit={mono[1]} part={part} />;
+  const speed = route.match(new RegExp(`^/numeros/${UNIT}$`));
+  if (speed) return <SpeedScreen key={`numeros-${speed[1]}${partKey}`} unit={speed[1]} part={part} />;
   const own2 = route.match(new RegExp(`^/frases/${UNIT}$`));
   if (own2) return <PropiasScreen key={`frases-${own2[1]}${partKey}`} unit={own2[1]} part={part} />;
   const reread = route.match(new RegExp(`^/releer/${UNIT}$`));

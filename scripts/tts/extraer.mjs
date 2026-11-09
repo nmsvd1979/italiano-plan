@@ -4,7 +4,7 @@
 // Fuentes: dictados, diálogos, lecturas (cada párrafo de `it`, que es lo que lee el botón «Escuchar»), ítems «listen» de sinpista,
 // ítems de escucha de pruebas y ejemplos de las lecciones. Entran también las palabras de AUDIO_PENDING (pronunciación sin
 // grabación nativa), cada una como frase suelta. Además, SOLO para las unidades de `alcance-nuevo.json` (audio por fase):
-// frases de ejemplo del vocabulario (G3), textos modelo de escritura (y su ampliación), modelos de monólogo y las palabras
+// frases de ejemplo del vocabulario (G3), textos modelo de escritura (y su ampliación), modelos de monólogo, los números de «Números a velocidad» y las palabras
 // de la pronunciación semanal que no tienen grabación nativa. NO entran palabras sueltas del vocabulario ni pares mínimos
 // de pronunciación que sí tienen audio nativo. Las frases sin confirmar (scripts/tts/exclusiones.json) se excluyen.
 //
@@ -31,6 +31,7 @@ try {
   const { getMonologue } = await server.ssrLoadModule("/src/content/monologos.ts");
   const { getPronStep } = await server.ssrLoadModule("/src/content/pronunciation/sequence.ts");
   const { COURSE } = await server.ssrLoadModule("/src/content/course.ts");
+  const { getVelocidad } = await server.ssrLoadModule("/src/content/velocidad.ts");
 
   /** @type {{ fuente: string, texto: string, unidad: string }[]} */
   const crudo = [];
@@ -55,6 +56,7 @@ try {
     for (const w of getWords(step.unit) ?? []) if (w.ex && (!step.part || !w.part || w.part === step.part)) add("vocab-ejemplo", step.unit, w.ex);
     const wr = getWriting(step.unit, step.part ?? null);
     if (wr) { add("escritura", step.unit, wr.model); if (wr.extend) add("escritura", step.unit, wr.extend.model); }
+    for (const v of getVelocidad(step.id) ?? []) add("número", step.unit, v.it);
     const mo = getMonologue(step.id);
     if (mo) add("monólogo", step.unit, mo.model);
     const pr = getPronStep(step.id);

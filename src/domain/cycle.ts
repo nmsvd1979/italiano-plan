@@ -3,6 +3,7 @@ import { getUnit, sessionsOf, type UnitMeta } from "../content/curriculum";
 import type { IconKey } from "../content/plan";
 import { hasMonologue } from "../content/monologos";
 import { hasPropias } from "../content/propias";
+import { hasVelocidad } from "../content/velocidad";
 import { rereadSource } from "./reread";
 import type { MiniTests } from "./storage";
 
@@ -13,7 +14,7 @@ import type { MiniTests } from "./storage";
 
 export type BlockKind =
   | "srs" | "dialogue" | "vocab" | "pron" | "lesson" | "practice" | "dictation" | "shadowing" | "writing"
-  | "cando" | "monologue" | "reread" | "own" | "review" | "mini" | "input" | "failed" | "soon" | "reading" | "readq" | "sinpista";
+  | "cando" | "monologue" | "reread" | "own" | "speed" | "review" | "mini" | "input" | "failed" | "soon" | "reading" | "readq" | "sinpista";
 
 export interface Block {
   /** Único dentro del día. */
@@ -32,7 +33,7 @@ export interface Block {
   /** Aún no hay herramienta ni contenido: se muestra «en preparación» y no bloquea el día. */
   soon?: boolean;
   /** Solo aparece si la semana tiene monólogo escrito (`monologue`), unas frases propias que escribir (`own`) o un texto anterior que retomar (`reread`). */
-  hideUnless?: "monologue" | "reread" | "own";
+  hideUnless?: "monologue" | "reread" | "own" | "speed";
   /** Cuántos ejercicios usa la práctica de este bloque. */
   size?: number;
   /** En la mini-prueba: número de intento (0 = la primera). */
@@ -51,7 +52,8 @@ const srs: Block = { id: "srs", kind: "srs", name: "Repaso espaciado", minutes: 
 const words = (id: string): Block => ({
   id, kind: "vocab", name: "Palabras de la unidad", minutes: 6, core: false, icon: "list", needs: "vocab", legacy: id === "words" ? ["vocab"] : undefined,
 });
-const soon = (id: string, name: string, minutes: number, core = false, icon: IconKey = "book"): Block => ({
+/** Para un bloque futuro: se muestra «en preparación» y se oculta hasta que se quite esta marca (ver `PENDING_BLOCKS`). */
+export const soon = (id: string, name: string, minutes: number, core = false, icon: IconKey = "book"): Block => ({
   id, kind: "soon", name, minutes, core, icon, soon: true,
 });
 
@@ -93,8 +95,8 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
       { id: "roleplay", kind: "dialogue", name: "Diálogo con rol", minutes: 11, core: true, icon: "chat", needs: "dialogue" },
       { id: "compare", kind: "pron", name: "Repetir y comparar pronunciación", minutes: 4, core: false, icon: "ear" },
       words("words4"),
-      // docs/v2/05 E3: dictado de números a velocidad en u01–u03. Faltan los ítems de contenido; sigue «en preparación».
-      soon("speed", "Números y frases a velocidad", 4, false, "sound"),
+      // docs/v2/05 E3: dictado de números a velocidad; solo en las semanas donde se enseñan los números (`velocidad.ts`).
+      { id: "speed", kind: "speed", name: "Números a velocidad", minutes: 4, core: false, icon: "sound", hideUnless: "speed" },
     ],
   },
   {
@@ -132,7 +134,7 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
  * en las semanas con monólogo escrito.
  */
 export function daysOf(step: CourseStep): CycleDay[] {
-  return DAY_TABLE.map((d, i) => ({ stepId: step.id, day: i + 1, name: d.name, blocks: d.blocks.filter((b) => !b.soon && !(b.hideUnless === "monologue" && !hasMonologue(step.id)) && !(b.hideUnless === "reread" && !rereadSource(step.id)) && !(b.hideUnless === "own" && !hasPropias(step.id))) }));
+  return DAY_TABLE.map((d, i) => ({ stepId: step.id, day: i + 1, name: d.name, blocks: d.blocks.filter((b) => !b.soon && !(b.hideUnless === "monologue" && !hasMonologue(step.id)) && !(b.hideUnless === "reread" && !rereadSource(step.id)) && !(b.hideUnless === "own" && !hasPropias(step.id)) && !(b.hideUnless === "speed" && !hasVelocidad(step.id))) }));
 }
 
 /** Los bloques del ciclo que aún no existen (ocultos en `daysOf`). Al construir uno, se quita su `soon(...)` de DAY_TABLE. */
