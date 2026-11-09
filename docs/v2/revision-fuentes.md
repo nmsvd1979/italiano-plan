@@ -266,3 +266,15 @@ Módulo opcional con pantallas nuevas y **una lectura (carta informal, 268 palab
 | Dudas | Ninguna nueva para `dudas-italiano.md` |
 
 Sin audio sintético todavía: el audio suena con la voz del sistema hasta generar los clips (`alcance-nuevo.json`). No es revisión de un nativo.
+
+## Plan B1 · «Práctica B1»: 2 lecturas y 2 audios más (10-nov-2026, rama `contenido/practica-b1-textos`)
+Lecturas `b1-2` (correo formal a una escuela, ≈ 270 palabras) y `b1-3` (relato de un fin de semana en Bolonia, ≈ 285); audios `b1-2` (consulta médica, *Lei*) y `b1-3` (amigas que planean un fin de semana en el lago, *tu*). Con esto hay 3 + 3 textos (12 preguntas por tipo, lo que pide la luz 5 de «Listo para B1»).
+
+| Nivel | Qué se hizo |
+|---|---|
+| Léxico | Cada texto ≥ 90 % de formas en la app (test). Para llegar se cambiaron palabras poco vistas (p. ej. *gruppo* → *corso*) |
+| **V1** | Cotejo con `napolux/paroleitaliane` e `it_50k`: solo *trentotto* (38, forma válida) |
+| **V3** | Otra sesión (solo vio los textos, de memoria, sin internet): **0 errores gramaticales**; *Lei*/*tu* coherentes. Apliqué: la carta pedía llamar «después de las nueve de la mañana» pese a trabajar (→ a la hora de almuerzo); la oferta «estudiar más en casa» era ilógica (→ empezar el mes próximo, y se ajustó la pregunta); la pregunta del nivel A2 solo se inferiría (→ «qué nivel le dio la prueba»); *cambio di orario*, *a metà mese*; *chiesa antica*, *librerie*, *Spero di tornarci*; en la consulta, *Che disturbi ha?*, *Le guardo la gola*, *Le prescrivo un farmaco*, *dopo i pasti*, *entro tre giorni*. **No cambié** *Ho guardato un po' di cose* ni *c'era il bar* (aceptables, coloquiales) |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
+Sin clips de audio todavía (voz del sistema). No es revisión de un nativo.

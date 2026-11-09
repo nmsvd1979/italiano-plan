@@ -122,5 +122,257 @@
     "why": "«L'appartamento è al terzo piano»."
    }
   ]
+ },
+ "b1-2": {
+  "tipo": "consulta médica",
+  "titulo": "Dal medico",
+  "lines": [
+   {
+    "who": "A",
+    "it": "Buongiorno, dottore. Non mi sento bene da due giorni.",
+    "es": "Buenos días, doctor. No me siento bien desde hace dos días."
+   },
+   {
+    "who": "B",
+    "it": "Buongiorno. Si sieda, per favore. Che disturbi ha?",
+    "es": "Buenos días. Siéntese, por favor. ¿Qué molestias tiene?"
+   },
+   {
+    "who": "A",
+    "it": "Ho mal di gola e un po' di febbre. Ieri sera avevo trentotto e mezzo.",
+    "es": "Me duele la garganta y tengo un poco de fiebre. Anoche tenía treinta y ocho y medio."
+   },
+   {
+    "who": "B",
+    "it": "Ha tosse o mal di testa?",
+    "es": "¿Tiene tos o dolor de cabeza?"
+   },
+   {
+    "who": "A",
+    "it": "Ho un po' di tosse, ma non ho mal di testa. Però sono molto stanco.",
+    "es": "Tengo un poco de tos, pero no dolor de cabeza. Pero estoy muy cansado."
+   },
+   {
+    "who": "B",
+    "it": "Lavora ogni giorno?",
+    "es": "¿Trabaja todos los días?"
+   },
+   {
+    "who": "A",
+    "it": "Sì, lavoro in ufficio, ma oggi sono rimasto a casa.",
+    "es": "Sí, trabajo en una oficina, pero hoy me quedé en casa."
+   },
+   {
+    "who": "B",
+    "it": "Ha fatto bene. Adesso Le guardo la gola. Non è niente di grave: è un'influenza. Deve riposare e bere molta acqua.",
+    "es": "Hizo bien. Ahora miro la garganta. No es nada grave: es una gripe. Debe descansar y tomar mucha agua."
+   },
+   {
+    "who": "A",
+    "it": "Devo prendere delle medicine?",
+    "es": "¿Debo tomar algún medicamento?"
+   },
+   {
+    "who": "B",
+    "it": "Le prescrivo un farmaco per la febbre. Deve prenderla due volte al giorno, dopo i pasti. Se la febbre non passa entro tre giorni, deve tornare.",
+    "es": "Le receto un fármaco para la fiebre. Debe tomarlo dos veces al día, después de las comidas. Si la fiebre no pasa en tres días, debe volver."
+   },
+   {
+    "who": "A",
+    "it": "Quando posso tornare al lavoro?",
+    "es": "¿Cuándo puedo volver al trabajo?"
+   },
+   {
+    "who": "B",
+    "it": "Meglio aspettare fino a lunedì. Le faccio un certificato per l'ufficio.",
+    "es": "Mejor esperar hasta el lunes. Le hago un certificado para la oficina."
+   },
+   {
+    "who": "A",
+    "it": "Grazie, dottore. Arrivederci.",
+    "es": "Gracias, doctor. Hasta luego."
+   },
+   {
+    "who": "B",
+    "it": "Arrivederci, e buona guarigione!",
+    "es": "Hasta luego, ¡y que se mejore!"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Qué síntomas tiene el paciente?",
+    "options": [
+     "Dolor de garganta y fiebre",
+     "Dolor de cabeza y tos fuerte",
+     "Dolor de estómago"
+    ],
+    "answer": 0,
+    "why": "«Ho mal di gola e un po' di febbre»; no tiene mal di testa."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Qué debe hacer si la fiebre no pasa en tres días?",
+    "options": [
+     "Tomar otra medicina",
+     "Volver al médico",
+     "Ir al trabajo igual"
+    ],
+    "answer": 1,
+    "why": "«Se la febbre non passa entro tre giorni, deve tornare»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Cuándo puede volver al trabajo?",
+    "options": [
+     "Mañana",
+     "Después del lunes",
+     "El lunes"
+    ],
+    "answer": 2,
+    "why": "«Meglio aspettare fino a lunedì»."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuántas veces al día debe tomar la medicina? (una palabra, en italiano)",
+    "accepted": [
+     "due",
+     "2",
+     "due volte"
+    ],
+    "why": "«Deve prenderla due volte al giorno»."
+   }
+  ]
+ },
+ "b1-3": {
+  "tipo": "conversación entre amigos",
+  "titulo": "Un weekend al lago",
+  "lines": [
+   {
+    "who": "A",
+    "it": "Ciao Sara! Hai pensato al weekend al lago?",
+    "es": "¡Hola, Sara! ¿Pensaste en el fin de semana en el lago?"
+   },
+   {
+    "who": "B",
+    "it": "Sì! Ho guardato un po' di cose. Secondo me conviene andare in treno.",
+    "es": "¡Sí! Estuve mirando algunas cosas. Para mí conviene ir en tren."
+   },
+   {
+    "who": "A",
+    "it": "Perché? In macchina è più comodo, possiamo portare tutto.",
+    "es": "¿Por qué? En auto es más cómodo, podemos llevar todo."
+   },
+   {
+    "who": "B",
+    "it": "Sì, ma la benzina costa molto e il parcheggio vicino al lago è carissimo. In treno spendiamo trenta euro a testa.",
+    "es": "Sí, pero la bencina cuesta mucho y el estacionamiento cerca del lago es carísimo. En tren gastamos treinta euros por persona."
+   },
+   {
+    "who": "A",
+    "it": "Trenta euro andata e ritorno?",
+    "es": "¿Treinta euros ida y vuelta?"
+   },
+   {
+    "who": "B",
+    "it": "Sì, se compriamo i biglietti entro venerdì. Dopo costano di più.",
+    "es": "Sí, si compramos los pasajes antes del viernes. Después cuestan más."
+   },
+   {
+    "who": "A",
+    "it": "Va bene, allora andiamo in treno. A che ora partiamo?",
+    "es": "Está bien, entonces vamos en tren. ¿A qué hora salimos?"
+   },
+   {
+    "who": "B",
+    "it": "C'è un treno alle otto e dieci. Arriviamo verso le dieci e mezza.",
+    "es": "Hay un tren a las ocho y diez. Llegamos hacia las diez y media."
+   },
+   {
+    "who": "A",
+    "it": "Un po' presto per me, ma va bene. E dove dormiamo?",
+    "es": "Un poco temprano para mí, pero está bien. ¿Y dónde dormimos?"
+   },
+   {
+    "who": "B",
+    "it": "Ho trovato un piccolo albergo vicino alla stazione. Una camera doppia costa settanta euro a notte.",
+    "es": "Encontré un hotel pequeño cerca de la estación. Una pieza doble cuesta setenta euros la noche."
+   },
+   {
+    "who": "A",
+    "it": "Allora una camera per noi due, e Luca ne prende un'altra.",
+    "es": "Entonces una pieza para nosotras dos, y Luca toma otra."
+   },
+   {
+    "who": "B",
+    "it": "Esatto. Ma Luca ha detto che viene solo se non piove.",
+    "es": "Exacto. Pero Luca dijo que viene solo si no llueve."
+   },
+   {
+    "who": "A",
+    "it": "Speriamo che faccia bel tempo! Guardo le previsioni stasera.",
+    "es": "¡Ojalá haga buen tiempo! Miro el pronóstico esta noche."
+   },
+   {
+    "who": "B",
+    "it": "Brava. Allora prenoto io l'albergo e tu compri i biglietti?",
+    "es": "Muy bien. Entonces yo reservo el hotel y tú compras los pasajes, ¿te parece?"
+   },
+   {
+    "who": "A",
+    "it": "D'accordo. Ti scrivo appena li ho comprati.",
+    "es": "De acuerdo. Te escribo apenas los compre."
+   },
+   {
+    "who": "B",
+    "it": "Ottimo, a presto!",
+    "es": "¡Excelente, hasta pronto!"
+   }
+  ],
+  "preguntas": [
+   {
+    "kind": "mc",
+    "q": "¿Por qué Sara prefiere ir en tren?",
+    "options": [
+     "Es más rápido que el auto",
+     "Es más barato: la bencina y el estacionamiento cuestan mucho",
+     "Al lago no se puede llegar en auto"
+    ],
+    "answer": 1,
+    "why": "«La benzina costa molto e il parcheggio… è carissimo»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿En qué condición viene Luca?",
+    "options": [
+     "Si encuentra pieza sola",
+     "Si no llueve",
+     "Si el tren sale más tarde"
+    ],
+    "answer": 1,
+    "why": "«Luca ha detto che viene solo se non piove»."
+   },
+   {
+    "kind": "mc",
+    "q": "¿Quién compra los pasajes?",
+    "options": [
+     "Sara",
+     "Quien habla con Sara",
+     "Luca"
+    ],
+    "answer": 1,
+    "why": "«Prenoto io l'albergo e tu compri i biglietti»: Sara reserva el hotel y la otra compra los pasajes."
+   },
+   {
+    "kind": "short",
+    "q": "¿Cuánto cuesta por noche una pieza doble? (en cifras o en italiano)",
+    "accepted": [
+     "settanta",
+     "70",
+     "settanta euro"
+    ],
+    "why": "«Una camera doppia costa settanta euro a notte»."
+   }
+  ]
  }
 }
