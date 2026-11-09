@@ -203,4 +203,17 @@ Sin audio todavía: por la decisión D5 (audio por fase) los modelos de esta fas
 | **V3** | Otra sesión (solo vio los 5 monólogos, de memoria, sin internet): **0 errores de italiano**. Cambios en marcos y consignas: preposición articulada en la alergia (*al, alla, alle*), partitivo con *del / della / dei / delle*, superlativo en singular, *ho / sono* en u11, *alle / all'* en u10, español de las consignas. **No cambié** el modelo de u28 (*Ho prenotato per due persone*, ya revisado en las lecciones) ni el paso de singular a plural en u10 (es adrede: *sono andata… siamo arrivati*) |
 | Dudas | Ninguna nueva para `dudas-italiano.md` |
 
+Se generó tras tu prueba de la fase 1 (D5, dada por buena). No es revisión de un nativo; nadie oyó los clips nuevos.
+
+## Plan B1 · Monólogos de las fases 4 a 6: semanas 22 a 32 (u13, u14A/B, u15A/B, u16, u17, u18, u19, u20, u24) (9-nov-2026, rama `contenido/monologos-f4-f6`)
+11 monólogos nuevos. Con los 21 anteriores, **todas las semanas del núcleo A2 (1 a 32) tienen «Hablar sin mirar»**; el puente a B1 (u21–u23) llega aparte. El de u24 (cierre) es el más largo: 110 / 90 / 70 s, la meta de ~2 min de la prueba oral. Los modelos reutilizan los textos modelo de escritura y los ejemplos de las lecciones.
+
+| Nivel | Qué se hizo |
+|---|---|
+| Léxico acumulado | Solo formas de palabras ya vistas que aparecen en los modelos de escritura de esas unidades (*pagata, vicina, mangia, venuto, stata, decisione*) |
+| **V1** | Palabras cotejadas con `napolux/paroleitaliane` e `it_50k`: solo *restituirla* (forma enclítica de *restituire*, ya enseñado) |
+| **V2** | Sin fuente nueva: construcciones ya enseñadas |
+| **V3** | Otra sesión (solo vio los 11 monólogos, de memoria, sin internet): **0 errores de italiano**. Cambios por incoherencias: u18 rehecho para que quien llama no diga una frase de quien contesta (*Ah, sei tu!*); marcos con preposición articulada o doble forma (*a / al*, *vicino a / al*, *fino a / al / alla*, *Ci vuole / Ci vogliono*, *stato / stata*, *contento / contenta*, *siamo andati / andate*); consigna de u14B y u19 más claras; *tornare in Italia*. **No cambié** el modelo de u15B (*Se vieni, sono molto contenta* ya revisado en la consigna B), *si può visitare la montagna* ni *comunque* en u20 |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
 Sin audio (se genera por fase). No es revisión de un nativo.
