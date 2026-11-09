@@ -65,3 +65,6 @@ La meta del 95 % y los 10 min son **provisionales**, no medidos con uso real. Fa
 Retención real (la simulación supone 90 % «Bien»), carga que la persona aguanta y si 2.812 tarjetas son demasiadas para ella. Con uso real: tarjetas con ≥ 2 repasos acertados ≥ 80 % (`11` §4).
 
 **Decidido (9-nov): sesión de 30 tarjetas** (`LIMITS.session`, antes 20), por tu criterio de palabras suficientes para entender y trabajar. Nominal: ≈ 6,5–8 min de repaso por sesión en vez de 4,6; según la simulación, ≈ 719 palabras introducidas al fin del curso a 30 min/día (antes 507) y el curso se alarga ≈ 28 días. Si en el uso real pesa demasiado, se vuelve a 20 cambiando esa constante.
+
+## Hecho (10-nov): mazo de frecuencia en el repaso (8d, D8)
+`base-frecuente.json` entra al repaso como mazo `freq` (ids `f:<palabra>`, solo reconocer): 5 nuevas por día (`LIMITS.freqNewPerDay`), después de las de las unidades, sin repetidas ni palabras que ya están en una unidad (vocabulario o ampliadas). **Activado por defecto** (`options.freq !== false`; sin migración: las tarjetas existentes no cambian) y se apaga en Ajustes. Con eso una sesión nominal trae hasta 13 nuevas (8 + 5) y el tope de 30 tarjetas sigue valiendo; si pesa, bajar `freqNewPerDay` o apagarlo. Pendiente de D8: el script de cobertura por ámbitos y las frases de este mazo no tienen audio propio (se leen con `say()`).

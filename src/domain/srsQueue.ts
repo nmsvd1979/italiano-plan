@@ -3,7 +3,8 @@ import { addDays, diffInDays, formatDateHuman, parseISODate, toISODate } from ".
 import type { Progress } from "./curriculum";
 import { wordsSeen } from "./cycle";
 import { dayOf, cardId, type CardKind, type SrsCard, type SrsState } from "./srs";
-import { quizletItemId, wordHomeUnit, wordsOfUnit, type QuizletEntry, type Word } from "./srsDeck";
+import type { GeneralWord } from "../content/vocab";
+import { freqItemId, quizletItemId, wordHomeUnit, wordsOfUnit, type QuizletEntry, type Word } from "./srsDeck";
 
 // Cola diaria (docs/v2/02 B5).
 
@@ -12,6 +13,8 @@ export const LIMITS = {
   newPerDay: 8,
   /** Tarjetas nuevas del mazo extra por día. */
   quizletNewPerDay: 5,
+  /** Tarjetas nuevas del mazo de frecuencia por día (docs/v2/plan-b1/08, D8). */
+  freqNewPerDay: 5,
   /** Con más vencidas que esto no se introducen nuevas. */
   blockNewAbove: 40,
   /** Tarjetas de una sesión (≈ 7 min a 15 s por tarjeta). Era 20; con 30 entran más palabras nuevas (docs/v2/plan-b1/08). */
@@ -30,7 +33,7 @@ export interface NewCandidate {
   kind: CardKind;
   itemId: string;
   unit: string;
-  deck?: "quizlet" | "g3";
+  deck?: "quizlet" | "g3" | "freq";
 }
 
 export type QueueItem = { type: "due"; card: SrsCard } | { type: "new"; candidate: NewCandidate };
@@ -54,6 +57,8 @@ export interface QueueInput {
   eligibleUnits: string[];
   /** Entradas del mazo extra (solo si está activado). */
   quizlet?: QuizletEntry[];
+  /** Mazo de frecuencia (`loadFreqDeck`), ordenado de más a menos frecuente; entra salvo que `options.freq` sea false. */
+  freq?: GeneralWord[];
   /** Palabras ampliadas ya vistas por unidad (`srsExtras.extraWordsFor`): entran después de las de su unidad. */
   extraWords?: ReadonlyMap<string, Word[]>;
 }
@@ -73,7 +78,7 @@ function habitual(state: SrsState, today: Date): number {
   return Math.max(LIMITS.minHabitual, Math.round(avg));
 }
 
-export function buildQueue({ state, today, eligibleUnits, quizlet = [], extraWords }: QueueInput): Queue {
+export function buildQueue({ state, today, eligibleUnits, quizlet = [], freq = [], extraWords }: QueueInput): Queue {
   const todayISO = toISODate(today);
   const cards = Object.values(state.cards);
 
@@ -91,11 +96,10 @@ export function buildQueue({ state, today, eligibleUnits, quizlet = [], extraWor
   const newBlocked = dueAll.length > LIMITS.blockNewAbove;
   const fresh: NewCandidate[] = [];
   if (!newBlocked) {
-    const introducedToday = (quizletDeck: boolean) =>
-      cards.filter((c) => c.kind === "recog" && c.source !== "seed" && (c.deck === "quizlet") === quizletDeck
-        && dayOf(c.createdAt) === todayISO).length;
+    const introducedToday = (own: (deck: SrsCard["deck"]) => boolean) =>
+      cards.filter((c) => c.kind === "recog" && c.source !== "seed" && own(c.deck) && dayOf(c.createdAt) === todayISO).length;
 
-    let room = LIMITS.newPerDay - introducedToday(false);
+    let room = LIMITS.newPerDay - introducedToday((d) => d === undefined || d === "g3");
     const eligible = new Set(eligibleUnits);
     // Una palabra repetida en varias unidades tiene una sola tarjeta, la de su unidad principal (si esa ya se vio).
     const covered = (unit: string, w: Word): boolean => {
@@ -120,13 +124,25 @@ export function buildQueue({ state, today, eligibleUnits, quizlet = [], extraWor
     }
 
     if (state.options?.quizlet) {
-      let qRoom = LIMITS.quizletNewPerDay - introducedToday(true);
+      let qRoom = LIMITS.quizletNewPerDay - introducedToday((d) => d === "quizlet");
       for (const q of quizlet) {
         if (qRoom <= 0) break;
         const itemId = quizletItemId(q.n);
         if (state.cards[cardId("recog", itemId)]) continue;
         fresh.push({ kind: "recog", itemId, unit: "extra", deck: "quizlet" });
         qRoom--;
+      }
+    }
+
+    // Después de lo de las unidades, las palabras más frecuentes que el curso no trae (por defecto activado).
+    if (state.options?.freq !== false && eligibleUnits.length > 0) {
+      let fRoom = LIMITS.freqNewPerDay - introducedToday((d) => d === "freq");
+      for (const f of freq) {
+        if (fRoom <= 0) break;
+        const itemId = freqItemId(f.it);
+        if (state.cards[cardId("recog", itemId)]) continue;
+        fresh.push({ kind: "recog", itemId, unit: "extra", deck: "freq" });
+        fRoom--;
       }
     }
   }
