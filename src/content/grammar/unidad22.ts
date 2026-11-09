@@ -379,6 +379,8 @@ export const unidad22: Lesson = {
       ],
       "answer": 0,
       "why": "*Studiare → studi* (una sola *i*)."
-    }
+    },
+    { "type": "fill", "prompt": "Spero che voi ___ bene. (stare)", "answers": ["stiate"], "why": "*Stare*, congiuntivo con *voi*: *stiate*." },
+    { "type": "fill", "prompt": "Penso che loro ___ ragione. (avere)", "answers": ["abbiano"], "why": "*Avere*, congiuntivo con *loro*: *abbiano*." },
   ]
 };

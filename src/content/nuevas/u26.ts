@@ -109,6 +109,7 @@ const lesson: Lesson = {
     { type: "choice", prompt: "Eres mujer y quieres decir que no tienes hermanos:", options: ["Sono figlia unica.", "Sono figlio unico.", "Sono una figlia sola."], answer: 0, why: "Para una mujer: *figlia unica*." },
     { type: "choice", prompt: "Preguntas a un señor mayor si tiene hermanos:", options: ["Ha fratelli o sorelle?", "Hai fratelli o sorelle?", "Ho fratelli o sorelle?"], answer: 0, why: "Con *Lei*: *Ha…?*. *Hai* es para amigos." },
     { type: "choice", prompt: "«Tiene el pelo rubio y largo»:", options: ["Ha i capelli biondi e lunghi.", "Ha il capello biondo e lungo.", "È capelli biondi e lunghi."], answer: 0, why: "*I capelli* va en plural y con *avere*." },
+    { "type": "fill", "prompt": "Lei ha i capelli ___. (rubios)", "answers": ["biondi"], "why": "*Capelli* es masculino plural: *biondi*." },
   ],
 };
 

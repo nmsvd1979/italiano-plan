@@ -302,6 +302,18 @@ export const unidad19: Lesson = {
       ],
       "answer": 0,
       "why": "*Fa* va después del tiempo."
-    }
+    },
+    { "type": "fill", "prompt": "Abito a Torino ___ cinque anni. (desde hace)", "answers": ["da"], "why": "*Da* + tiempo = desde hace, para algo que sigue." },
+    { "type": "fill", "prompt": "Siamo arrivati due settimane ___. (hace)", "answers": ["fa"], "why": "*Fa* va después del tiempo: *due settimane fa*." },
+    { "type": "fill", "prompt": "Il film sta ___ cominciare. (a punto de)", "answers": ["per"], "why": "*Stare per* + infinitivo = estar por / a punto de." },
+    { "type": "fill", "prompt": "In Italia ___ mangia tardi. (se)", "answers": ["si"], "why": "El *si* impersonal: *si mangia*." },
+    { "type": "fill", "prompt": "Qui si ___ biglietti. (vender, plural)", "answers": ["vendono"], "why": "Con un sustantivo plural el verbo va en plural: *si vendono biglietti*." },
+    { "type": "fill", "prompt": "Da quanto tempo ___ italiano? (tú, studiare)", "answers": ["studi"], "why": "*Da quanto tempo studi…?* = ¿hace cuánto estudias…?" },
+    { "type": "fill", "prompt": "Ieri ho dormito ___ sette ore. (durante)", "answers": ["per"], "why": "*Per* + tiempo = durante, para algo que ya terminó." },
+    { "type": "fill", "prompt": "Qui non si ___ fumare. (se puede)", "answers": ["può"], "why": "*Si può* = se puede." },
+    { "type": "fill", "prompt": "Studio italiano ___ settembre. (desde)", "answers": ["da"], "why": "*Da* + momento de inicio = desde." },
+    { "type": "choice", "prompt": "«Estoy a punto de llamar.»", "options": ["Sto per chiamare.", "Sto per chiamando.", "Sono per chiamare."], "answer": 0, "why": "*Stare per* + infinitivo." },
+    { "type": "choice", "prompt": "«Estudié italiano durante tres meses» (ya terminó).", "options": ["Ho studiato italiano per tre mesi.", "Studio italiano da tre mesi.", "Ho studiato italiano da tre mesi."], "answer": 0, "why": "Para algo que terminó se usa *per*; *da* es para lo que sigue." },
+    { "type": "choice", "prompt": "«En España se come tarde.»", "options": ["In Spagna si mangia tardi.", "In Spagna si mangiano tardi.", "In Spagna mangia tardi."], "answer": 0, "why": "*Si mangia* (singular, sin sustantivo plural)." },
   ]
 };

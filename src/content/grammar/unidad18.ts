@@ -320,6 +320,7 @@ export const unidad18: Lesson = {
       ],
       "answer": 0,
       "why": "*Per* + infinitivo."
-    }
+    },
+    { "type": "fill", "prompt": "___ scrivo per chiedere un'informazione. (a usted)", "answers": ["Le"], "why": "Con *Lei* (formal) el pronombre es *Le*: *Le scrivo…*." },
   ]
 };

@@ -103,6 +103,7 @@ const lesson: Lesson = {
     { type: "choice", prompt: "Quieres preguntar si el servicio está incluido:", options: ["Il servizio è incluso?", "Il servizio è conto?", "Il coperto è servizio?"], answer: 0, why: "*Incluso* = incluido." },
     { type: "choice", prompt: "Quieres pedir la cuenta con cortesía:", options: ["Possiamo avere il conto?", "Possiamo essere il conto?", "Possiamo fare il conto?"], answer: 0, why: "*Avere il conto* = tener la cuenta, o sea, que nos la traigan." },
     { type: "choice", prompt: "Eres alérgico a los huevos. ¿Qué dices?", options: ["Ho un'allergia alle uova.", "Sono allergia alle uova.", "Ho allergico alle uova."], answer: 0, why: "*Ho un'allergia a…* (sustantivo) o *Sono allergico a…* (adjetivo)." },
+    { "type": "fill", "prompt": "Io sono ___ alle noci. (alérgico)", "answers": ["allergico", "allergica"], "why": "*Allergico a…* = alérgico a…" },
   ],
 };
 
