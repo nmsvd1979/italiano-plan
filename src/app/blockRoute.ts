@@ -21,6 +21,8 @@ export function blockRoute(step: CourseStep, day: CycleDay, block: Block): { to:
       // El diálogo con rol (día 4) graba y compara; los demás bloques de diálogo solo leen y escuchan.
       return block.id === "roleplay"
         ? { to: href(`/dialogo/${unit}${q({ mode: "rol" })}`), label: "Empezar la escena" }
+        : block.id === "relisten"
+        ? { to: href(`/dialogo/${unit}${q({ mode: "huecos" })}`), label: "Oír y completar" }
         : { to: href(`/dialogo/${unit}${q()}`), label: "Abrir diálogo" };
     case "vocab": return { to: href(`/vocabulario/${unit}${q()}`), label: "Ver palabras" };
     case "pron":
