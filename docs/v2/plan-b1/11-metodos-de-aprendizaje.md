@@ -98,3 +98,6 @@ Pedido: ampliar el respaldo con un paneo por internet, sin búsqueda profunda. U
 - Las cifras de nivel R (Cepeda, Karpicke, Dunlosky, Nakanishi, Jeon & Day, Kang & Han, Norris & Ortega, Webb, metaanálisis fonéticos). Siguiente paso: abrirlos desde una red con acceso a PubMed o un repositorio institucional y confirmar números.
 - Evidencia específica para hispanohablantes → italiano; evidencia sobre aplicaciones; si FSRS mejora algo frente a otros programadores (no se buscó).
 - Si estos métodos funcionan *en esta app, con esta persona*: solo los datos de uso lo dirán (`timing`, `activityLog`, valoraciones 1–3).
+
+## Hecho (10-nov): E5 «Oír el diálogo y completar»
+El bloque `relisten` (día 2, 6 min, no esencial) pasó de «Volver a oír el diálogo con la regla» a **«Oír el diálogo y completar»** (`GapDialogueScreen`): se oye cada línea y se escribe su palabra más larga antes de verla (recuperar en vez de releer); una tilde o un apóstrofo mal puestos cuentan como «casi». Sin contenido nuevo; no hay medida de si rinde más que la pasada anterior.

@@ -21,6 +21,8 @@ export function blockRoute(step: CourseStep, day: CycleDay, block: Block): { to:
       // El diálogo con rol (día 4) graba y compara; los demás bloques de diálogo solo leen y escuchan.
       return block.id === "roleplay"
         ? { to: href(`/dialogo/${unit}${q({ mode: "rol" })}`), label: "Empezar la escena" }
+        : block.id === "relisten"
+        ? { to: href(`/dialogo/${unit}${q({ mode: "huecos" })}`), label: "Oír y completar" }
         : { to: href(`/dialogo/${unit}${q()}`), label: "Abrir diálogo" };
     case "vocab": return { to: href(`/vocabulario/${unit}${q()}`), label: "Ver palabras" };
     case "pron":
@@ -38,6 +40,7 @@ export function blockRoute(step: CourseStep, day: CycleDay, block: Block): { to:
     case "input": return { to: href(`/shadowing/${unit}${q()}`), label: "Shadowing con video (extra)" };
     case "writing": return { to: href(`/escritura/${unit}${q()}`), label: "Escribir" };
     case "reread": return { to: href(`/releer/${unit}${q()}`), label: "Releer con preguntas" };
+    case "speed": return { to: href(`/numeros/${unit}${q()}`), label: "Escuchar números" };
     case "own": return { to: href(`/frases/${unit}${q()}`), label: "Escribir dos frases" };
     case "monologue": return { to: href(`/monologo/${unit}${q()}`), label: "Hablar sin mirar" };
     case "cando": return { to: href(`/unidad/${unit}`), label: "Ver «Puedo…»" };

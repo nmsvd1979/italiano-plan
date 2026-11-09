@@ -1745,6 +1745,48 @@
    ]
   },
   {
+   "texto": "cento",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "centoquindici",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "centottanta",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "centotto",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "centouno",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "centoventi",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "CERCASI COINQUILINO — Milano, zona Navigli",
    "unidad": "u17",
    "fuentes": [
@@ -2838,6 +2880,41 @@
    ]
   },
   {
+   "texto": "cinquanta",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "cinquantasei",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "cinquantuno",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "cinque",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "cinquecentocinque",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "Circa dieci euro. La biglietteria è vicino all'ingresso.",
    "unidad": "u05",
    "fuentes": [
@@ -3779,6 +3856,34 @@
    ]
   },
   {
+   "texto": "diciannove",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "diciassette",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "diciotto",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "dieci",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "Dietro la chiesa c'è la scuola. Davanti alla scuola ci sono due biciclette. Fuori dal quartiere c'è la stazione: è lontana, ma c'è un autobus.",
    "unidad": "u02#B",
    "fuentes": [
@@ -3855,6 +3960,13 @@
    "unidad": "u04",
    "fuentes": [
     "dictado"
+   ]
+  },
+  {
+   "texto": "dodici",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
    ]
   },
   {
@@ -4254,10 +4366,31 @@
    ]
   },
   {
+   "texto": "due",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "Due etti di prosciutto, per favore.",
    "unidad": "u12",
    "fuentes": [
     "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "duecento",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "duecentoquarantotto",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
    ]
   },
   {
@@ -11539,6 +11672,13 @@
    ]
   },
   {
+   "texto": "mille",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "Mio cognato è dentista.",
    "unidad": "u26",
    "fuentes": [
@@ -12513,6 +12653,41 @@
    ]
   },
   {
+   "texto": "novanta",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "novantanove",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "novantatré",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "nove",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "novecentonovantanove",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "numerò",
    "unidad": "u18",
    "fuentes": [
@@ -12761,6 +12936,27 @@
    ]
   },
   {
+   "texto": "ottanta",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "ottantotto",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "ottantuno",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "ottavo",
    "unidad": "u17",
    "fuentes": [
@@ -12779,6 +12975,13 @@
    "unidad": "u23",
    "fuentes": [
     "práctica-b1"
+   ]
+  },
+  {
+   "texto": "otto",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
    ]
   },
   {
@@ -14415,6 +14618,20 @@
    ]
   },
   {
+   "texto": "quaranta",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "quarantacinque",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "quasi",
    "unidad": "u03",
    "fuentes": [
@@ -14422,10 +14639,25 @@
    ]
   },
   {
+   "texto": "quattordici",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "quattro",
    "unidad": "u03",
    "fuentes": [
+    "número",
     "pron-semana"
+   ]
+  },
+  {
+   "texto": "quattrocentodiciotto",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
    ]
   },
   {
@@ -14714,6 +14946,13 @@
    "unidad": "u25",
    "fuentes": [
     "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "quindici",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
    ]
   },
   {
@@ -15652,6 +15891,20 @@
    ]
   },
   {
+   "texto": "sedici",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "sei",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "Sei italiano o cileno?",
    "unidad": "u01",
    "fuentes": [
@@ -15701,6 +15954,13 @@
    ]
   },
   {
+   "texto": "seicentocinquanta",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "Sembra che piova.",
    "unidad": "u22",
    "fuentes": [
@@ -15744,10 +16004,52 @@
    ]
   },
   {
+   "texto": "sessanta",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "sessantasette",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "sesto",
    "unidad": "u17",
    "fuentes": [
     "pron-semana"
+   ]
+  },
+  {
+   "texto": "settanta",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "settantatré",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "sette",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "settecentosettantasette",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
    ]
   },
   {
@@ -17485,6 +17787,13 @@
    ]
   },
   {
+   "texto": "tre",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "Tre euro al chilo.",
    "unidad": "u12",
    "fuentes": [
@@ -17492,10 +17801,52 @@
    ]
   },
   {
+   "texto": "trecentotré",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "tredici",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "trenta",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "Trenta euro andata e ritorno?",
    "unidad": "u23",
    "fuentes": [
     "práctica-b1"
+   ]
+  },
+  {
+   "texto": "trentatré",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "trentotto",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "trentuno",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
    ]
   },
   {
@@ -17850,6 +18201,20 @@
    "unidad": "u11",
    "fuentes": [
     "vocab-ejemplo"
+   ]
+  },
+  {
+   "texto": "undici",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "uno",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
    ]
   },
   {
@@ -18249,10 +18614,32 @@
    ]
   },
   {
+   "texto": "venti",
+   "unidad": "u01",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
    "texto": "ventitré",
    "unidad": "u03",
    "fuentes": [
+    "número",
     "pron-semana"
+   ]
+  },
+  {
+   "texto": "ventotto",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
+   ]
+  },
+  {
+   "texto": "ventuno",
+   "unidad": "u03",
+   "fuentes": [
+    "número"
    ]
   },
   {
@@ -18800,6 +19187,13 @@
    "unidad": "u18",
    "fuentes": [
     "diálogo"
+   ]
+  },
+  {
+   "texto": "zero",
+   "unidad": "u25",
+   "fuentes": [
+    "número"
    ]
   }
  ],
