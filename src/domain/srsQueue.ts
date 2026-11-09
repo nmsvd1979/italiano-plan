@@ -14,8 +14,8 @@ export const LIMITS = {
   quizletNewPerDay: 5,
   /** Con más vencidas que esto no se introducen nuevas. */
   blockNewAbove: 40,
-  /** Tarjetas de una sesión de 5 minutos. */
-  session: 20,
+  /** Tarjetas de una sesión (≈ 7 min a 15 s por tarjeta). Era 20; con 30 entran más palabras nuevas (docs/v2/plan-b1/08). */
+  session: 30,
   /** Aviso al llegar a esta cantidad en un día. */
   warnAt: 60,
   /** Días sin abrir a partir de los cuales se limita la cola. */

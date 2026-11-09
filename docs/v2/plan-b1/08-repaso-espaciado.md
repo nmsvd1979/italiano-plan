@@ -64,26 +64,4 @@ La meta del 95 % y los 10 min son **provisionales**, no medidos con uso real. Fa
 ## Qué no se puede medir
 Retención real (la simulación supone 90 % «Bien»), carga que la persona aguanta y si 2.812 tarjetas son demasiadas para ella. Con uso real: tarjetas con ≥ 2 repasos acertados ≥ 80 % (`11` §4).
 
-## Resultado de 8b y 8c (simulación del 9-nov-2026)
-Scripts nuevos: `docs/v2/auditoria/medicion/sim3.ts` (progreso nuevo con y sin palabras ampliadas) y `sim3-grid.ts` (variantes de sesión y bloqueo; variable `GRID`). Mismos supuestos de `flujo.md`: una sesión al día, 90 % «Bien», 85 % de aprobar la mini-prueba, tarjetas de 15 s. **Son simulaciones, no uso real.**
-
-**Hallazgo.** El repaso espaciado está limitado por **cuántas tarjetas se repasan por día**, no por cuántas palabras hay. Con sesiones de 20 tarjetas, las vencidas llenan la sesión y las nuevas casi no entran. Cada palabra de unidad se vuelve dos tarjetas (reconocer y escribir), así que 5 min diarios sostienen unas 400–500 palabras, y 1.400 palabras necesitarían bastante más tiempo.
-
-| 30 min/día, hasta el fin del curso (≈ día 220) | Palabras introducidas | Vencidas máx. / media | Min de repaso por sesión |
-|---|---|---|---|
-| Antes (solo las 577 de unidad) | 378 de 577 (66 %) | 92 / 27 | 4,5 |
-| #76: ampliadas con tarjeta de reconocer **y** de escribir | 405 de 1.192 (34 %) | 75 / 28 | 4,7 |
-| **Este PR: ampliadas solo en reconocimiento + una sola tarjeta por palabra repetida** | **507 de 1.181 (43 %)** | **63 / 24** | **4,6** |
-
-Lo que se hizo (8b y 8c): (1) las palabras ampliadas (tarjeta `g3`) solo se repasan en reconocimiento y no desbloquean la de escribir: mismo costo en minutos y +102 palabras introducidas frente a #76, con la cola más corta; (2) cada palabra repetida entre unidades (*perché*, *dire*, *famiglia*…) tiene una sola tarjeta, en su unidad principal (la primera del curso), siempre que esa unidad ya se haya visto; el efecto en la simulación es pequeño (+0 a +3 palabras), pero evita repasar lo mismo dos veces.
-
-**Decisión pendiente (tuya): tarjetas por sesión.** Es la única palanca grande y cuesta tiempo:
-
-| Sesión (a 30 min/día) | Introducidas | Min por sesión | Fin del curso |
-|---|---|---|---|
-| 20 (hoy) | 507 | 4,6 | día 220 |
-| 30 | 719 | 6,5 | día 248 |
-| 40 | 843 | 7,4 | día 247 |
-
-Una sesión de 30 suma ≈ 2 min al día y ≈ 28 días al curso, a cambio de ≈ 210 palabras más. Tu criterio de «palabras suficientes para entender y trabajar» apunta a 30; sin cambiar la constante, «Seguir repasando» ya permite más tarjetas cuando tengas tiempo. No se cambió `LIMITS.session`.
-Falta: uso real (`timing`, `activityLog`) para saber si 8 nuevas al día y 20 tarjetas se sostienen.
+**Decidido (9-nov): sesión de 30 tarjetas** (`LIMITS.session`, antes 20), por tu criterio de palabras suficientes para entender y trabajar. Nominal: ≈ 6,5–8 min de repaso por sesión en vez de 4,6; según la simulación, ≈ 719 palabras introducidas al fin del curso a 30 min/día (antes 507) y el curso se alarga ≈ 28 días. Si en el uso real pesa demasiado, se vuelve a 20 cambiando esa constante.
