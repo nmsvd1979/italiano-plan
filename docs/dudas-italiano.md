@@ -23,6 +23,19 @@ Segunda pasada independiente (de memoria, sin fuentes) sobre las 241 frases de e
 Observaciones de solo estilo (sin cambio todavía): *Anche io* → *Anch'io*; *Il cognome ha un trattino* → *Il mio cognome…*; *L'indirizzo ha la chiocciola* → *…indirizzo email…*; un libro de 90 euros y un tren a 80 km/h poco realistas; *di acqua* → *d'acqua*; *Voglio un panino* brusco (mejor *Vorrei*); *Alla nostra!* es un brindis coloquial elíptico.
 **Para oír en el iPhone:** *Nicolás* (u25/u01) lleva tilde española; el clip de Serena podría acentuarlo mal. Si suena mal, anotarlo en «Clips que suenan mal».
 
+## Plan B1 · frases de ejemplo de la fase 2 (9-nov-2026)
+Segunda pasada independiente (de memoria, sin fuentes) sobre ≈ 287 frases de ejemplo del vocabulario de u05, u06, u26, u07, u08 y u27 y 32 palabras de pronunciación: **0 errores de gramática**, 4 frases que **no se sintetizan** (`scripts/tts/exclusiones.json`) y siguen en pantalla con la voz del sistema hasta resolverlas.
+
+| Frase | Duda | Propuesta del revisor (confianza) |
+|---|---|---|
+| *In italiano «burro» vuol dire mantequilla.* | lleva una palabra en español: la voz italiana la leería mal | dejar *In italiano si dice «burro»* y la traducción solo en pantalla (alta) |
+| *Oggi è tardi: devo andare.* | calco de «hoy es tarde» | *È tardi: devo andare.* / *Ormai è tardi…* (media-alta) |
+| *Posso provare nel camerino?* | *provare* sin objeto y *nel camerino* poco idiomático | *Posso provare questa giacca?* (media) |
+| *Tutti sono qui.* | orden calcado del español | *Sono tutti qui.* (media-alta) |
+
+Solo estilo (sin cambio todavía): *e esco* → *ed esco*; *ha la mia età* → *ha la mia stessa età*; *Voglio più tempo* → *Vorrei…*; *Giri a destra* casi duplicada de *Al semaforo giri a destra*; *Il sole è giallo* vacía; *ama la pesca* ambigua sin contexto (fruta/pesca).
+**Para oír en el iPhone:** los pares de entonación *Parli italiano? / Parli italiano.* y *Vieni? / Vieni.*; solo los distingue la entonación del clip.
+
 ## Clips de voz sintética que suenan mal (revisión en el iPhone)
 Anota aquí el `id` del clip (nombre del mp3 en `public/audio/tts/`, y su texto en `public/audio/tts/index.json`), qué suena mal (palabra mal pronunciada, geminada, acento) y la frase. Aún no se ha escuchado ninguno en el iPhone.
 

@@ -191,3 +191,14 @@ No es revisión de un nativo. Los 7 clips nuevos no los oyó nadie.
 | Dudas | Ninguna nueva para `dudas-italiano.md` |
 
 Sin audio todavía: por la decisión D5 (audio por fase) los modelos de esta fase suenan con la voz del sistema hasta generar la fase 2. No es revisión de un nativo.
+
+## Plan B1 · Audio de la fase 2 (9-nov-2026, rama `feat/audio-f2`)
+Clips de Serena para lo nuevo de las semanas 8 a 16 (`scripts/tts/alcance-nuevo.json`: u05, u06, u07, u08, u26, u27): 287 frases de ejemplo del vocabulario, textos modelo de escritura, 9 modelos de monólogo y 32 palabras de pronunciación semanal. 333 clips nuevos.
+
+| Nivel | Qué se hizo |
+|---|---|
+| **V1** | Palabras cotejadas con `napolux/paroleitaliane` e `it_50k`: solo salieron *pettino, rilasso* (formas reflexivas válidas) y los apóstrofos *mezz'ora, settant'anni*; y *mantequilla* (español) en una frase excluida |
+| **V3** | Otra sesión revisó las 287 frases y 32 palabras (de memoria, sin internet): 0 errores de gramática. **4 frases excluidas del audio** y anotadas en `docs/dudas-italiano.md` (una con palabra en español y tres poco naturales). Observaciones de solo estilo sin cambio |
+| Regla | Solo se sintetiza lo que no figura en `exclusiones.json` ni `dudas-italiano.md` |
+
+Se generó tras tu prueba de la fase 1 (D5, dada por buena). No es revisión de un nativo; nadie oyó los clips nuevos.
