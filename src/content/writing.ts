@@ -207,6 +207,13 @@ const WRITING: Record<string, WritingTask> = {
       "Escribí *glielo / gliela* pegado, en una sola palabra.",
     ],
     minChars: 90,
+    mustInclude: [["te lo", "te la"], ["gliel'ho", "gliela", "glielo"]],
+    extend: {
+      prompt: "Amplía tu respuesta hasta unas 80 palabras: agrega qué más le llevas o le dejas (la guía, las llaves), qué ya entregaste a otra persona y ofrécele explicarle algo otra vez.",
+      minWords: 70,
+      model: "Certo, il libro te lo presto volentieri. Il mio numero te lo scrivo qui sotto. La mappa non l'ho più: gliel'ho data ieri a Marco. Del libro ho due copie: se vuoi, te ne mando una. La guida di Roma te la porto stasera, così domani puoi partire tranquillo. Le chiavi di casa te le lascio io domani mattina. La ricevuta del pacco? Gliel'ho consegnata subito, quindi non è un problema. Se ti serve altro, te lo spiego ancora una volta, volentieri. Buon viaggio!",
+      mustInclude: [["te la"], ["te le"], ["gliel'ho consegnata", "gliel'ho consegnato"], ["te lo spiego"]],
+    },
   },
   u22: {
     prompt: "Da tu opinión sobre un lugar que visitaste: qué piensas, qué esperas y qué es importante hacer.",
@@ -218,10 +225,17 @@ const WRITING: Record<string, WritingTask> = {
       "Con el mismo sujeto usé *di* + infinitivo, no *che*.",
     ],
     minChars: 100,
+    mustInclude: [["penso che", "credo che"], ["spero che"]],
+    extend: {
+      prompt: "Amplía tu opinión hasta unas 80 palabras: agrega una duda (*dubito che*), qué quieres que hagan otros (*voglio che*) y qué sería mejor hacer.",
+      minWords: 70,
+      model: "Penso che Roma sia una città bellissima. Credo che il Colosseo sia molto interessante, ma penso che sia meglio visitarlo la mattina presto. Spero che tu venga con me l'anno prossimo. Voglio che anche i miei amici vedano questa città. È importante che noi arriviamo presto, perché c'è molta gente. Dubito che il tempo sia sempre bello, quindi è meglio che portiamo una giacca. Penso di tornare ancora in estate e spero che tu sia libero.",
+      mustInclude: [["dubito che"], ["voglio che"], ["è meglio che"]],
+    },
   },
   u23: {
     prompt: "Escribe tres sueños con «si»: qué harías si tuvieras más tiempo, dinero o libertad.",
-    model: "Se avessi più tempo, viaggerei in tutta l'Italia. Se fossi ricca, comprerei una casa vicino al mare. Se potessi scegliere, vivrei a Roma per un anno. E tu, che cosa faresti?",
+    model: "Se avessi più tempo, viaggerei in tutta Italia. Se fossi ricca, comprerei una casa vicino al mare. Se potessi scegliere, vivrei a Roma per un anno. E tu, che cosa faresti?",
     checklist: [
       "Usé *se* + congiuntivo imperfetto (*avessi, fossi, potessi*).",
       "En la otra parte usé condizionale (*viaggerei, comprerei*).",
@@ -229,6 +243,13 @@ const WRITING: Record<string, WritingTask> = {
       "Escribí al menos tres frases con *se*.",
     ],
     minChars: 110,
+    mustInclude: [["se avessi", "se fossi"], ["se potessi"]],
+    extend: {
+      prompt: "Amplía tus sueños hasta unas 80 palabras: agrega qué harías si ganaras la lotería, un consejo con *se fossi in te* y una pregunta final para tu amigo.",
+      minWords: 70,
+      model: "Se avessi più tempo, viaggerei in tutta Italia. Se fossi ricca, comprerei una casa vicino al mare e ci passerei l'estate. Se potessi scegliere, vivrei a Roma per un anno. Se vincessi alla lotteria, cambierei lavoro e risparmierei una parte dei soldi. Se fossi in te, comincerei a risparmiare. Se ne avessi l'occasione, partirei subito. Se avessi un anno libero, andrei in Sicilia con la mia famiglia. Sarebbe bello parlarne insieme: e tu, che cosa faresti?",
+      mustInclude: [["se vincessi"], ["se fossi in te"], ["faresti"]],
+    },
   },
   u24: {
     prompt: "Proyecto final: cuenta un viaje o una experiencia completa. Di dónde fuiste, cómo era, qué hiciste, qué piensas y qué harás o harías.",
