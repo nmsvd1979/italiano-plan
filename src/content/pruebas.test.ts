@@ -27,13 +27,13 @@ describe("reserva de ítems de prueba (G8)", () => {
     const mine = Object.values(p).flatMap((u) => [...u.lectura.map((x) => x.text), ...u.escucha.map((x) => x.it), ...u.gramatica.map((x) => x.prompt)]);
     expect(mine.filter((t) => used.has(t.toLowerCase()))).toEqual([]);
   });
-  // La opción correcta tiende a ser la más larga (≈61 % medido el 9-nov-2026 frente a 33 % por azar): quien elige «la más larga»
-  // aprueba la mini-prueba más de lo que debería. Es un tope que no debe empeorar; al alargar los distractores, bájalo.
+  // La opción correcta era la más larga en ≈61 % de los ítems (9-nov-2026; 33 % por azar): quien elegía «la más larga» aprobaba la
+  // mini-prueba más de lo que debía. Se alargaron distractores de lectura y escucha (quedó ≈38 %, con empates); el tope evita que vuelva.
   it("la opción correcta no es la más larga más a menudo que el tope (sesgo medido)", () => {
     const todos = Object.values(p).flatMap((u) => [...u.lectura, ...u.escucha, ...u.gramatica]);
     const conOpciones = todos.filter((x): x is typeof x & { options: string[]; answer: number } => "options" in x && Array.isArray((x as { options?: unknown }).options));
     expect(conOpciones.length).toBeGreaterThan(300);
     const masLarga = conOpciones.filter((x) => x.options[x.answer].length === Math.max(...x.options.map((o) => o.length))).length;
-    expect(masLarga / conOpciones.length).toBeLessThanOrEqual(0.62);
+    expect(masLarga / conOpciones.length).toBeLessThanOrEqual(0.42);
   });
 });

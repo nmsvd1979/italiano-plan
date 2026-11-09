@@ -6,7 +6,7 @@
     "q": "¿Qué hay que hacer si no se entiende una palabra?",
     "options": [
      "Preguntar «Come si dice?»",
-     "Llevar un cuaderno",
+     "Llevar siempre un cuaderno nuevo a clase",
      "Esperar hasta el martes"
     ],
     "answer": 0,
@@ -27,7 +27,7 @@
     "text": "Scusi, può ripetere? Non capisco bene. Parla più piano, per favore. Grazie mille!",
     "q": "¿Qué pide la persona?",
     "options": [
-     "Que escriban su nombre",
+     "Que escriban su nombre en la pizarra",
      "Que le den un cuaderno",
      "Que hablen más despacio"
     ],
@@ -42,7 +42,7 @@
     "options": [
      "Cómo se escribe tu apellido",
      "Cómo te llamas",
-     "Dónde vives"
+     "Dónde vives y desde cuándo"
     ],
     "answer": 0,
     "why": "«Come si scrive» pregunta por la ortografía."
@@ -51,7 +51,7 @@
     "it": "Non capisco, può ripetere?",
     "q": "¿Qué dice?",
     "options": [
-     "Que entiende todo",
+     "Que entiende todo lo que se dice",
      "Que no entiende y pide repetir",
      "Que quiere un café"
     ],
@@ -63,7 +63,7 @@
     "q": "¿Qué dice la persona?",
     "options": [
      "Se despide",
-     "Pide ayuda",
+     "Pide ayuda a otra persona",
      "Se presenta"
     ],
     "answer": 2,
@@ -141,7 +141,7 @@
     "options": [
      "De Roma",
      "De Santiago de Chile",
-     "De Milán"
+     "De Milán, en el norte de Italia"
     ],
     "answer": 1,
     "why": "«Io sono cileno e sono di Santiago»."
@@ -165,7 +165,7 @@
     "options": [
      "Si es italiano o chileno",
      "Cuántos años tiene",
-     "Dónde trabaja"
+     "Dónde trabaja y con quién"
     ],
     "answer": 0,
     "why": "«Sei… o…?» ofrece dos opciones de nacionalidad."
@@ -269,7 +269,7 @@
     "q": "¿Qué NO le gusta?",
     "options": [
      "La pizza",
-     "El café",
+     "El café con leche",
      "Los espaguetis"
     ],
     "answer": 2,
@@ -292,7 +292,7 @@
     "text": "Laura: «Ti piace il cinema?» Luca: «Sì, mi piace molto. Mi piacciono i film italiani.»",
     "q": "¿Qué le gusta a Luca?",
     "options": [
-     "Solo el teatro",
+     "Solo el teatro y la ópera",
      "El cine y las películas italianas",
      "Nada"
     ],
@@ -306,7 +306,7 @@
     "it": "Nella stanza c'è una lampada.",
     "q": "¿Qué dice?",
     "options": [
-     "Que hay dos lámparas",
+     "Que hay dos lámparas en la habitación",
      "Que no hay lámpara",
      "Que en la habitación hay una lámpara"
     ],
@@ -319,7 +319,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que hay muchos estudiantes",
-     "Que hay un estudiante",
+     "Que hay un solo estudiante aquí",
      "Que no hay estudiantes"
     ],
     "answer": 0,
@@ -330,7 +330,7 @@
     "it": "Ho una sorella e due fratelli.",
     "q": "¿Qué dice?",
     "options": [
-     "Que tiene dos hermanas",
+     "Que tiene dos hermanas y un hermano",
      "Que tiene una hermana y dos hermanos",
      "Que no tiene hermanos"
     ],
@@ -355,7 +355,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que no le gustan los perros",
-     "Que le gustan los perros",
+     "Que le gustan mucho los perros",
      "Que tiene un perro"
     ],
     "answer": 0,
@@ -368,7 +368,7 @@
     "options": [
      "Si tocas música",
      "Si te gusta la música italiana",
-     "Si compras discos"
+     "Si compras discos de música"
     ],
     "answer": 1,
     "why": "«Ti piace…?» = ¿te gusta…?",
@@ -475,7 +475,7 @@
     "q": "¿A qué hora sale el tren?",
     "options": [
      "A las nueve y media",
-     "A las ocho y media",
+     "A las ocho y media de la mañana",
      "A las nueve menos cuarto"
     ],
     "answer": 2,
@@ -487,7 +487,7 @@
     "q": "¿A qué hora cierra el negocio?",
     "options": [
      "A las diecinueve",
-     "A las nueve",
+     "A las nueve de la mañana",
      "Al mediodía"
     ],
     "answer": 0,
@@ -574,7 +574,7 @@
     "options": [
      "A las siete y cuarto",
      "A las siete menos cuarto",
-     "A las seis"
+     "A las seis y media de la tarde"
     ],
     "answer": 1,
     "why": "«Meno un quarto» = menos cuarto.",
@@ -717,7 +717,7 @@
     "q": "¿Por qué no puede tomar café ahora?",
     "options": [
      "Porque no le gusta",
-     "Porque no hay café",
+     "Porque no hay café en casa",
      "Porque tiene que trabajar"
     ],
     "answer": 2,
@@ -763,7 +763,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que no puede venir mañana",
-     "Que no quiere venir",
+     "Que no quiere venir mañana",
      "Que debe venir"
     ],
     "answer": 0,
@@ -773,7 +773,7 @@
     "it": "Dobbiamo studiare molto.",
     "q": "¿Qué dice?",
     "options": [
-     "Que quieren estudiar",
+     "Que quieren estudiar mucho hoy",
      "Que deben estudiar mucho",
      "Que no estudian"
     ],
@@ -844,7 +844,7 @@
     "q": "¿Adónde irá mañana?",
     "options": [
      "A casa de la otra persona",
-     "Al cine",
+     "Al cine con su familia",
      "A la pizzería"
     ],
     "answer": 0,
@@ -893,7 +893,7 @@
     "options": [
      "Lejos, a la derecha",
      "Cerca, a la izquierda y derecho",
-     "En la estación"
+     "En la estación de trenes"
     ],
     "answer": 1,
     "why": "«Qui vicino» = aquí cerca.",
@@ -906,7 +906,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que va a pie",
-     "Que viene del colegio",
+     "Que viene del colegio en bicicleta",
      "Que va al colegio en bicicleta"
     ],
     "answer": 2,
@@ -918,7 +918,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que viene del supermercado",
-     "Que va al supermercado",
+     "Que va al supermercado ahora",
      "Que trabaja allí"
     ],
     "answer": 0,
@@ -941,7 +941,7 @@
     "it": "Gira a destra e poi vai dritto.",
     "q": "¿Qué dice?",
     "options": [
-     "Que gires a la izquierda",
+     "Que gires a la izquierda y sigas derecho",
      "Que te detengas",
      "Que gires a la derecha y sigas derecho"
     ],
@@ -955,7 +955,7 @@
     "options": [
      "Que la habitación está en el segundo piso",
      "Que la cámara está rota",
-     "Que el segundo piso está cerrado"
+     "Que el segundo piso está cerrado hoy"
     ],
     "answer": 0,
     "why": "«Camera» = habitación.",
@@ -965,7 +965,7 @@
     "it": "Dov'è la fermata dell'autobus?",
     "q": "¿Qué pregunta?",
     "options": [
-     "A qué hora pasa el autobús",
+     "A qué hora pasa el autobús hoy",
      "Dónde está la parada del autobús",
      "Cuánto cuesta el autobús"
     ],
@@ -1173,7 +1173,7 @@
     "options": [
      "Que sus amigos están aquí",
      "Que nuestros amigos están aquí",
-     "Que mis amigos no están"
+     "Que mis amigos no están aquí"
     ],
     "answer": 1,
     "why": "«I nostri» = nuestros.",
@@ -1196,7 +1196,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que quiere una talla más grande",
-     "Que quiere una más pequeña",
+     "Que quiere una talla más pequeña",
      "Que no quiere ropa"
     ],
     "answer": 0,
@@ -1316,7 +1316,7 @@
     "q": "¿Qué hace el padre de Sara?",
     "options": [
      "Es maestro",
-     "Es médico",
+     "Es médico en un hospital",
      "Es ingeniero"
     ],
     "answer": 2,
@@ -1339,7 +1339,7 @@
     "options": [
      "Es médico",
      "Es cocinero",
-     "Es maestro"
+     "Es maestro de escuela"
     ],
     "answer": 1,
     "why": "«Mio zio è cuoco»."
@@ -1456,7 +1456,7 @@
     "options": [
      "A las ocho",
      "A las nueve",
-     "A las diez"
+     "A las diez de la noche"
     ],
     "answer": 1,
     "why": "«Vanno a letto alle nove».",
@@ -1467,7 +1467,7 @@
     "q": "¿Qué está haciendo la hermana?",
     "options": [
      "Leyendo un libro",
-     "Comiendo",
+     "Comiendo en la cocina",
      "Mirando televisión"
     ],
     "answer": 2,
@@ -1517,7 +1517,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que se visten y salen",
-     "Que se acuestan",
+     "Que se acuestan y duermen",
      "Que llegan a casa"
     ],
     "answer": 0,
@@ -1530,7 +1530,7 @@
     "options": [
      "Que lava la ropa",
      "Que se lava las manos",
-     "Que no se lava"
+     "Que no se lava nunca"
     ],
     "answer": 1,
     "why": "«Si lava» = se lava.",
@@ -1541,7 +1541,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que va a hablar con un amigo",
-     "Que habló con un amigo",
+     "Que ayer habló con un amigo",
      "Que está hablando con un amigo"
     ],
     "answer": 2,
@@ -1553,7 +1553,7 @@
     "q": "¿Qué pregunta?",
     "options": [
      "Qué están haciendo",
-     "Adónde van",
+     "Adónde van esta tarde",
      "Quiénes son"
     ],
     "answer": 0,
@@ -1672,7 +1672,7 @@
     "text": "Quando vai in palestra? Vado spesso il lunedì, ma non vado mai la domenica. A volte vado anche il sabato.",
     "q": "¿Cuándo no va nunca?",
     "options": [
-     "El lunes",
+     "El lunes por la tarde",
      "El sábado",
      "El domingo"
     ],
@@ -1684,7 +1684,7 @@
     "q": "¿Qué hace siempre?",
     "options": [
      "Toma café con ellas",
-     "Trabaja",
+     "Trabaja con sus amigas",
      "Va a la playa"
     ],
     "answer": 0,
@@ -1696,7 +1696,7 @@
     "options": [
      "Que son pocas",
      "Que son muchas pero responde con gusto",
-     "Que no quiere responder"
+     "Que no quiere responder nada"
     ],
     "answer": 1,
     "why": "«Sono tante domande… volentieri»."
@@ -1719,7 +1719,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que es demasiado caro",
-     "Que es barato",
+     "Que es muy barato hoy",
      "Que es gratis"
     ],
     "answer": 0,
@@ -1729,7 +1729,7 @@
     "it": "Che cosa fai di bello?",
     "q": "¿Qué pregunta?",
     "options": [
-     "Dónde vives",
+     "Dónde vives y con quién",
      "Qué haces de bueno / qué planes tienes",
      "Cuánto cuesta"
     ],
@@ -1834,7 +1834,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que conoce muy bien Roma",
-     "Que vive en Roma",
+     "Que vive en Roma desde hace años",
      "Que va a Roma"
     ],
     "answer": 0,
@@ -1846,7 +1846,7 @@
     "options": [
      "Que llueve hoy",
      "Que hay sol hoy",
-     "Que hace frío"
+     "Que hace frío y nieva hoy"
     ],
     "answer": 1,
     "why": "«C'è il sole»."
@@ -1914,7 +1914,7 @@
     "q": "¿Qué compraron?",
     "options": [
      "Regalos para los amigos",
-     "Comida",
+     "Comida para toda la semana",
      "Ropa"
     ],
     "answer": 0,
@@ -1949,7 +1949,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que terminaron el trabajo",
-     "Que empiezan el trabajo",
+     "Que empiezan el trabajo hoy",
      "Que no terminaron"
     ],
     "answer": 0,
@@ -2041,7 +2041,7 @@
     "options": [
      "A Roma",
      "A la oficina",
-     "A casa"
+     "A casa de sus padres"
     ],
     "answer": 1,
     "why": "«È andato in ufficio»."
@@ -2074,7 +2074,7 @@
     "it": "Sei rimasto a casa?",
     "q": "¿Qué pregunta?",
     "options": [
-     "Si saliste de casa",
+     "Si saliste de casa temprano",
      "Si te quedaste en casa",
      "Si vuelves a casa"
     ],
@@ -2133,7 +2133,7 @@
     "q": "¿Qué pasó un día?",
     "options": [
      "Se mudó",
-     "Ganó un juego",
+     "Ganó un juego de fútbol",
      "Se cayó y lloró"
     ],
     "answer": 2,
@@ -2144,7 +2144,7 @@
     "q": "¿Qué hacía el padre al llegar ella?",
     "options": [
      "Miraba televisión",
-     "Cocinaba",
+     "Cocinaba para todos",
      "Dormía"
     ],
     "answer": 0,
@@ -2156,7 +2156,7 @@
     "options": [
      "Hacía sol",
      "Llovía y hacía frío",
-     "Hacía calor"
+     "Hacía mucho calor ese día"
     ],
     "answer": 1,
     "why": "«Pioveva e faceva freddo»."
@@ -2167,7 +2167,7 @@
     "it": "Quando ero piccolo, giocavo a calcio.",
     "q": "¿Qué dice?",
     "options": [
-     "Que ahora juega al fútbol",
+     "Que ahora juega al fútbol cada día",
      "Que jugó un partido",
      "Que de pequeño jugaba al fútbol"
     ],
@@ -2189,7 +2189,7 @@
     "it": "Mentre mangiavo, è arrivato Luca.",
     "q": "¿Qué dice?",
     "options": [
-     "Que Luca comía cuando llegó",
+     "Que Luca comía cuando ella llegó",
      "Que Luca llegó mientras comía",
      "Que nadie llegó"
     ],
@@ -2283,7 +2283,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que Luca es más alto",
-     "Que son igual de altos",
+     "Que son igual de altos los dos",
      "Que Marco es más alto que Luca"
     ],
     "answer": 2,
@@ -2294,7 +2294,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que es el mejor restaurante",
-     "Que es el más caro",
+     "Que es el más caro de la ciudad",
      "Que es el único"
     ],
     "answer": 0,
@@ -2304,7 +2304,7 @@
     "it": "Vorrei del pane, per favore.",
     "q": "¿Qué dice?",
     "options": [
-     "Que no quiere pan",
+     "Que no quiere pan, gracias",
      "Que quiere un poco de pan",
      "Que vende pan"
     ],
@@ -2384,7 +2384,7 @@
     "text": "Mia sorella ha una penna blu. Scrive una lettera a sua nonna e dice: «Che pena non vederti!». Poi spedisce la lettera.",
     "q": "¿Con qué escribe la hermana?",
     "options": [
-     "Con un lápiz",
+     "Con un lápiz y una goma",
      "Con un bolígrafo azul",
      "Con un teclado"
     ],
@@ -2478,7 +2478,7 @@
     "q": "¿Qué hizo Giulia con las flores?",
     "options": [
      "Las tiró",
-     "Las vendió",
+     "Las vendió en el mercado",
      "Las puso en un jarrón"
     ],
     "answer": 2,
@@ -2513,7 +2513,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que lo vio ayer",
-     "Que no lo ve",
+     "Que no lo ve hoy ni mañana",
      "Que lo ve mañana"
     ],
     "answer": 2,
@@ -2525,7 +2525,7 @@
     "options": [
      "Que te llama esta noche",
      "Que te llamó ayer",
-     "Que no te llama"
+     "Que no te llama esta noche"
     ],
     "answer": 0,
     "why": "«Ti telefono» = te llamo."
@@ -2536,7 +2536,7 @@
     "options": [
      "Que lo compra él",
      "Que le compra un regalo (a ella)",
-     "Que lo vende"
+     "Que lo vende en la tienda"
     ],
     "answer": 1,
     "why": "«Le» = a ella."
@@ -2618,7 +2618,7 @@
     "options": [
      "Un año",
      "Una semana",
-     "Un día"
+     "Un día entero"
     ],
     "answer": 1,
     "why": "«Ci sono rimasto una settimana».",
@@ -2642,7 +2642,7 @@
     "options": [
      "En el semáforo",
      "En la esquina",
-     "En la plaza"
+     "En la plaza principal"
     ],
     "answer": 0,
     "why": "«Si fermi al semaforo».",
@@ -2666,7 +2666,7 @@
     "it": "Ci vado domani.",
     "q": "¿Qué dice?",
     "options": [
-     "Que viene de allí",
+     "Que viene de allí hoy mismo",
      "Que no va",
      "Que va allí mañana"
     ],
@@ -2679,7 +2679,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que quiere dos (de eso)",
-     "Que quiere uno",
+     "Que quiere solo uno de eso",
      "Que no quiere nada"
     ],
     "answer": 0,
@@ -2703,7 +2703,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que tome la segunda a la derecha",
-     "Que se detenga",
+     "Que se detenga en la esquina",
      "Que tome la primera a la izquierda"
     ],
     "answer": 2,
@@ -2716,7 +2716,7 @@
     "options": [
      "Que no hables tan fuerte",
      "Que hables fuerte",
-     "Que hables bajito"
+     "Que hables bajito en la sala"
     ],
     "answer": 0,
     "why": "«Non parlare» = no hables.",
@@ -2870,7 +2870,7 @@
     "text": "Vorrei un tavolo per due persone, per favore. Potrebbe darmi il menù? Vorremmo anche dell'acqua.",
     "q": "¿Qué piden?",
     "options": [
-     "Una cuenta",
+     "Una cuenta para dos personas",
      "Un taxi",
      "Una mesa para dos, el menú y agua"
     ],
@@ -2908,7 +2908,7 @@
     "it": "Domani partirò.",
     "q": "¿Qué dice?",
     "options": [
-     "Que ayer partió",
+     "Que ayer partió muy temprano",
      "Que parte ahora",
      "Que mañana partirá"
     ],
@@ -2921,7 +2921,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que vendrán a tu fiesta",
-     "Que no vendrán",
+     "Que no vendrán a tu fiesta",
      "Que ya vinieron"
     ],
     "answer": 0,
@@ -2934,7 +2934,7 @@
     "options": [
      "Que tuviste hambre",
      "Que probablemente tienes hambre",
-     "Que no tienes hambre"
+     "Que no tienes hambre hoy"
     ],
     "answer": 1,
     "why": "El futuro expresa suposición.",
@@ -2944,7 +2944,7 @@
     "it": "Vorrei un caffè, per favore.",
     "q": "¿Qué dice?",
     "options": [
-     "Que ya tomó café",
+     "Que ya tomó café esta mañana",
      "Que no quiere café",
      "Que pide un café con cortesía"
     ],
@@ -2957,7 +2957,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que si podrías ayudarlo",
-     "Que ya te ayudó",
+     "Que ya te ayudó con eso",
      "Que no necesita ayuda"
     ],
     "answer": 0,
@@ -2970,7 +2970,7 @@
     "options": [
      "Que no quiere ir",
      "Que te invita al cine",
-     "Que ya fue al cine"
+     "Que ya fue al cine con amigos"
     ],
     "answer": 1,
     "why": "«Ti andrebbe di…?» = ¿te gustaría…?",
@@ -3076,7 +3076,7 @@
     "text": "Mi fa male la testa e ho la febbre. Vado in farmacia e compro delle medicine. Se non passa, chiamo il medico.",
     "q": "¿Qué hará si no se le pasa?",
     "options": [
-     "Ir a trabajar",
+     "Ir a trabajar como siempre",
      "Salir a correr",
      "Llamar al médico"
     ],
@@ -3088,7 +3088,7 @@
     "q": "¿Qué debe hacer el paciente?",
     "options": [
      "Tomar dos pastillas al día",
-     "Dormir diez horas",
+     "Dormir diez horas seguidas",
      "No beber agua"
     ],
     "answer": 0,
@@ -3111,7 +3111,7 @@
     "it": "Mi fa male lo stomaco.",
     "q": "¿Qué dice?",
     "options": [
-     "Que le duele la cabeza",
+     "Que le duele la cabeza mucho",
      "Que no le duele nada",
      "Que le duele el estómago"
     ],
@@ -3123,7 +3123,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que necesita un médico",
-     "Que es médico",
+     "Que es médico en un hospital",
      "Que no quiere médico"
     ],
     "answer": 0,
@@ -3133,7 +3133,7 @@
     "it": "Chiami un'ambulanza, per favore!",
     "q": "¿Qué dice?",
     "options": [
-     "Que se la llevan",
+     "Que se la llevan ya mismo",
      "Que llamen una ambulancia",
      "Que no pasa nada"
     ],
@@ -3204,7 +3204,7 @@
     "options": [
      "Hasta el cinco de cada mes",
      "Hasta el diez",
-     "Hasta fin de mes"
+     "Hasta fin de mes, sin falta"
     ],
     "answer": 0,
     "why": "«Entro il cinque del mese»."
@@ -3213,7 +3213,7 @@
     "text": "Per aprire un conto in banca ho bisogno di un documento e del codice fiscale. Poi compilo un modulo.",
     "q": "¿Qué necesita para abrir una cuenta?",
     "options": [
-     "Solo dinero",
+     "Solo dinero en efectivo",
      "Documento y código fiscal",
      "Una carta"
     ],
@@ -3227,7 +3227,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que vende una casa",
-     "Que compra una casa",
+     "Que compra una casa nueva",
      "Que busca una casa para arrendar"
     ],
     "answer": 2,
@@ -3248,7 +3248,7 @@
     "it": "L'affitto è di seicento euro.",
     "q": "¿Qué dice?",
     "options": [
-     "Que el alquiler es de 60 euros",
+     "Que el alquiler es de 60 euros al mes",
      "Que el alquiler es de 600 euros",
      "Que no hay alquiler"
     ],
@@ -3318,7 +3318,7 @@
     "q": "¿Dónde se encuentran?",
     "options": [
      "Frente al cine",
-     "En su casa",
+     "En su casa, esperando",
      "En el tráfico"
     ],
     "answer": 0,
@@ -3328,7 +3328,7 @@
     "text": "Gentile signor Neri, le scrivo per chiedere informazioni sul corso. Può mandarmi il programma? Cordiali saluti, Elena Conti.",
     "q": "¿Qué pide en el mail?",
     "options": [
-     "Un descuento",
+     "Un descuento en el curso",
      "El programa del curso",
      "La dirección"
     ],
@@ -3341,7 +3341,7 @@
     "it": "Non ti sento bene.",
     "q": "¿Qué dice?",
     "options": [
-     "Que no te ve",
+     "Que no te ve bien ahora",
      "Que no te conoce",
      "Que no te oye bien"
     ],
@@ -3354,7 +3354,7 @@
     "options": [
      "Si puede devolver la llamada más tarde",
      "Si puede llamar ahora",
-     "Si puede enviar un mensaje"
+     "Si puede enviar un mensaje más tarde"
     ],
     "answer": 0,
     "why": "«Richiamare» = volver a llamar."
@@ -3363,7 +3363,7 @@
     "it": "Ti mando un messaggio.",
     "q": "¿Qué dice?",
     "options": [
-     "Que no te escribe",
+     "Que no te escribe ningún mensaje",
      "Que te envía un mensaje",
      "Que te llama"
     ],
@@ -3422,7 +3422,7 @@
     "q": "¿Qué no se toma después de comer?",
     "options": [
      "El café",
-     "El té",
+     "El té con limón",
      "El capuchino"
     ],
     "answer": 2,
@@ -3571,7 +3571,7 @@
     "it": "Prima di uscire, chiudo la porta.",
     "q": "¿Qué dice?",
     "options": [
-     "Que después de salir cierra",
+     "Que después de salir cierra la puerta",
      "Que no sale",
      "Que antes de salir cierra la puerta"
     ],
@@ -3583,7 +3583,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que en su opinión es muy caro",
-     "Que es barato",
+     "Que es barato para su opinión",
      "Que no sabe el precio"
     ],
     "answer": 0,
@@ -3593,7 +3593,7 @@
     "it": "Mi ha detto che era stanco.",
     "q": "¿Qué dice?",
     "options": [
-     "Que está cansado ahora",
+     "Que está cansado ahora mismo",
      "Que le dijo que estaba cansado",
      "Que no dijo nada"
     ],
@@ -3687,7 +3687,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que vive en Milán",
-     "Que irá a Milán",
+     "Que irá a Milán dos veces",
      "Que estuvo en Milán dos veces"
     ],
     "answer": 2,
@@ -3698,7 +3698,7 @@
     "q": "¿Qué dice?",
     "options": [
      "Que espera que ustedes estén bien",
-     "Que sabe que estás bien",
+     "Que sabe que ustedes están bien",
      "Que no espera nada"
     ],
     "answer": 0,
@@ -3708,7 +3708,7 @@
     "it": "Se avessi tempo, viaggerei di più.",
     "q": "¿Qué dice?",
     "options": [
-     "Que viaja mucho",
+     "Que viaja mucho todos los años",
      "Que si tuviera tiempo viajaría más",
      "Que no quiere viajar"
     ],
@@ -3801,7 +3801,7 @@
     "it": "Me lo dici domani?",
     "q": "¿Qué dice?",
     "options": [
-     "Que ya se lo dijo",
+     "Que ya se lo dijo a él ayer",
      "Que no quiere saberlo",
      "Que le pide que se lo diga mañana"
     ],
@@ -3814,7 +3814,7 @@
     "options": [
      "Que te la envía esta noche",
      "Que no te la envía",
-     "Que te la envió ayer"
+     "Que te la envió ayer por la noche"
     ],
     "answer": 0,
     "why": "«Te la mando»."
@@ -3823,7 +3823,7 @@
     "it": "Glielo spiego io.",
     "q": "¿Qué dice?",
     "options": [
-     "Que no lo explica",
+     "Que no lo explica a nadie",
      "Que se lo explica él mismo",
      "Que se lo explicaron"
     ],
@@ -3882,7 +3882,7 @@
     "q": "¿Qué espera la persona?",
     "options": [
      "Que no llegue",
-     "Que llame",
+     "Que llame por teléfono mañana",
      "Que llegue pronto"
     ],
     "answer": 2,
@@ -3905,7 +3905,7 @@
     "options": [
      "Que venga",
      "Que esté bien",
-     "Que llame"
+     "Que llame por teléfono hoy"
     ],
     "answer": 1,
     "why": "«Spero che stia bene»."
@@ -3916,7 +3916,7 @@
     "it": "Penso che sia vero.",
     "q": "¿Qué dice?",
     "options": [
-     "Que sabe que es verdad",
+     "Que sabe que es verdad, seguro",
      "Que no piensa nada",
      "Que piensa que es verdad"
     ],
@@ -3938,7 +3938,7 @@
     "it": "Spero che piova domani.",
     "q": "¿Qué dice?",
     "options": [
-     "Que llueve hoy",
+     "Que llueve hoy y mañana",
      "Que espera que llueva mañana",
      "Que no espera lluvia"
     ],
@@ -3997,7 +3997,7 @@
     "q": "¿Qué compraría si fuera rico?",
     "options": [
      "Un auto",
-     "Un barco",
+     "Un barco para navegar",
      "Una casa en el mar"
     ],
     "answer": 2,
@@ -4020,7 +4020,7 @@
     "options": [
      "Quedarse",
      "Ir al médico",
-     "Trabajar"
+     "Trabajar más horas"
     ],
     "answer": 1,
     "why": "«Se fossi in te, andrei dal medico»."
@@ -4031,7 +4031,7 @@
     "it": "Se avessi più tempo, verrei volentieri.",
     "q": "¿Qué dice?",
     "options": [
-     "Que viene siempre",
+     "Que viene siempre que tiene tiempo libre",
      "Que no vendrá nunca",
      "Que si tuviera más tiempo vendría con gusto"
     ],
@@ -4044,7 +4044,7 @@
     "options": [
      "Que si fuera rico viajaría mucho",
      "Que es rico",
-     "Que viaja siempre"
+     "Que viaja siempre a todas partes"
     ],
     "answer": 0,
     "why": "«Se fossi… viaggerei»."
@@ -4053,7 +4053,7 @@
     "it": "Se piove, resto a casa.",
     "q": "¿Qué dice?",
     "options": [
-     "Que si lloviera se quedaría",
+     "Que si lloviera iría al cine con amigos",
      "Que si llueve se queda en casa",
      "Que no sale nunca"
     ],

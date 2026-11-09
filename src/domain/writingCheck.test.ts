@@ -80,6 +80,16 @@ describe("capa 1: revisión automática", () => {
     expect(half.complete).toBe(true);
   });
 
+  it("un texto de palabras conocidas sin la mitad de las formas meta no se da por hecho", () => {
+    const t = task({ minWords: 6, mustInclude: [["ho mangiato"], ["ho visto"], ["ancora"], ["già"]] });
+    const sinFormas = checkWriting("Io ieri andare cinema io mangiare pizza ho fatto casa Maria stato", t, lex);
+    expect(sinFormas.missingForms.length).toBe(4);
+    expect(sinFormas.complete).toBe(false);
+    const conMitad = checkWriting("Ieri ho mangiato la pizza e ho visto Maria a casa", t, lex);
+    expect(conMitad.missingForms.length).toBe(2);
+    expect(conMitad.complete).toBe(true);
+  });
+
   it("avisa de las palabras que no conoce sin bloquear", () => {
     const c = checkWriting("Mi sveglio alle sette e prendo un cafffè", task({ minWords: 4 }), lex);
     expect(c.unknown).toEqual(["cafffè"]);

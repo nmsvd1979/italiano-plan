@@ -49,12 +49,12 @@ export function pickWeek<T extends { id: string }>(list: readonly T[], state: Si
   return ranked.slice(0, n).sort((a, b) => a.i - b.i).map((r) => r.ex);
 }
 
-/** Anota una respuesta: suma una vez vista, y agrega o quita el ejercicio de los fallados. */
-export function recordSinPista(state: SinPistaState, id: string, stepId: string, correct: boolean): SinPistaState {
+/** Anota una respuesta: suma una vez vista, y agrega o quita el ejercicio de los fallados. `corrected`: corrige una respuesta ya anotada (no vuelve a sumar). */
+export function recordSinPista(state: SinPistaState, id: string, stepId: string, correct: boolean, corrected = false): SinPistaState {
   const missed = correct ? state.missed.filter((m) => m !== id) : state.missed.includes(id) ? state.missed : [...state.missed, id];
   return {
     ...state,
-    shown: { ...state.shown, [id]: (state.shown[id] ?? 0) + 1 },
+    shown: { ...state.shown, [id]: (state.shown[id] ?? 0) + (corrected ? 0 : 1) },
     missed,
     opened: state.opened.includes(stepId) ? state.opened : [...state.opened, stepId],
   };

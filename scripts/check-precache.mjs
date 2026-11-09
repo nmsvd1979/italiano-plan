@@ -29,5 +29,6 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   console.log(`precache: ${urls.length} archivos, ${(bytes / 1e6).toFixed(2)} MB`);
   if (urls.length === 0) throw new Error("No se encontró el manifiesto de precache en dist/sw.js");
   if (audio.length) throw new Error(`El precache incluye audio (${audio.length} archivos, p. ej. ${audio[0]})`);
+  if (bytes >= 0.9 * MAX_PRECACHE_BYTES) console.warn(`AVISO: el precache usa ${Math.round((100 * bytes) / MAX_PRECACHE_BYTES)} % del límite; antes de agregar más, revisa qué entra.`);
   if (bytes >= MAX_PRECACHE_BYTES) throw new Error(`El precache pesa ${bytes} bytes (límite ${MAX_PRECACHE_BYTES})`);
 }

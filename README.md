@@ -74,6 +74,9 @@ Para las unidades que no figuran en `SHADOWING` (`src/content/shadowing.ts`) la 
 
 Cada push a `main` corre los tests, hace el build y publica con GitHub Actions (`.github/workflows/deploy.yml`). En el repositorio, GitHub Pages debe estar en *Source: GitHub Actions*.
 
+## Cuánto toma
+El ciclo completo son 245 días (35 semanas × 7 días) de ~29 min: unas 120 h nominales, ~8 meses sin saltarse ningún día. Solo los bloques esenciales son ~63 h (~15 min al día). Es una estimación sin datos de uso real; para comunicarte con soltura en A2 conviene sumar práctica oral fuera de la app (conversar con alguien o con Claude por voz), porque la app no corrige lo que dices.
+
 ## Limitaciones conocidas
 
 - El recordatorio usa la Notification API: solo funciona con la app abierta o en segundo plano. No hay servidor que envíe avisos, así que con la app cerrada no llega nada.

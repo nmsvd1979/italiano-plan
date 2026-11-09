@@ -14,7 +14,7 @@ export interface SinPistaSummary {
 
 interface Props {
   items: SinPista[];
-  onAnswer: (ex: SinPista, correct: boolean) => void;
+  onAnswer: (ex: SinPista, correct: boolean, corrected?: boolean) => void;
   onFinish: (summary: SinPistaSummary) => void;
   finishLabel: string;
 }
@@ -84,7 +84,7 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
     if (result !== false) return;
     setResult(true);
     setResults((r) => [...r.slice(0, -1), true]);
-    onAnswer(ex, true);
+    onAnswer(ex, true, true);
   };
 
   const next = () => {

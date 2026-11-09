@@ -52,7 +52,7 @@ export interface WritingCheck {
   missingForms: string[][];
   /** Cuántos grupos de `mustInclude` hay (0 = sin datos). */
   totalForms: number;
-  /** Suficientes palabras y suficientes reconocidas: se puede dar por hecho. Las formas meta solo avisan. */
+  /** Suficientes palabras, suficientes reconocidas y al menos la mitad de las formas meta: se puede dar por hecho. Las formas que faltan se avisan una a una. */
   complete: boolean;
 }
 
@@ -97,7 +97,7 @@ export function checkWriting(text: string, task: WritingTask, lexicon: ReadonlyS
     accent,
     missingForms,
     totalForms: groups.length,
-    complete: all.length >= minWords && recognized >= MIN_RECOGNIZED,
+    complete: all.length >= minWords && recognized >= MIN_RECOGNIZED && missingForms.length * 2 <= groups.length,
   };
 }
 
