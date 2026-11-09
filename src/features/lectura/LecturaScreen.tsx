@@ -29,7 +29,7 @@ export function segments(text: string, claves: Lectura["claves"]): { text: strin
   return text.split(re).filter(Boolean).map((t) => ({ text: t, clave: sorted.find((c) => c.it.toLowerCase() === t.toLowerCase()) }));
 }
 
-export function ReadText({ lectura, onNext }: { lectura: Lectura; onNext: () => void }) {
+export function ReadText({ lectura, onNext, nextLabel = "Ir a las preguntas" }: { lectura: Lectura; onNext: () => void; nextLabel?: string }) {
   const [shown, setShown] = useState<number[]>([]);
   const [gloss, setGloss] = useState<Lectura["claves"][number] | null>(null);
   const voice = useItalianVoice();
@@ -86,7 +86,7 @@ export function ReadText({ lectura, onNext }: { lectura: Lectura; onNext: () => 
         <p className="sub">Toca una palabra para ver qué significa.</p>
       </section>
 
-      <button className="btn primary block" type="button" onClick={onNext}>Ir a las preguntas</button>
+      <button className="btn primary block" type="button" onClick={onNext}>{nextLabel}</button>
     </>
   );
 }

@@ -2,6 +2,7 @@ import { COURSE, type CourseStep } from "../content/course";
 import { getUnit, sessionsOf, type UnitMeta } from "../content/curriculum";
 import type { IconKey } from "../content/plan";
 import { hasMonologue } from "../content/monologos";
+import { rereadSource } from "./reread";
 import type { MiniTests } from "./storage";
 
 // Ciclo de 7 días por semana del curso (docs/v2/04 D1). Cada semana es un CourseStep (una unidad, o su parte A o B).
@@ -11,7 +12,7 @@ import type { MiniTests } from "./storage";
 
 export type BlockKind =
   | "srs" | "dialogue" | "vocab" | "pron" | "lesson" | "practice" | "dictation" | "shadowing" | "writing"
-  | "cando" | "monologue" | "review" | "mini" | "input" | "failed" | "soon" | "reading" | "readq" | "sinpista";
+  | "cando" | "monologue" | "reread" | "review" | "mini" | "input" | "failed" | "soon" | "reading" | "readq" | "sinpista";
 
 export interface Block {
   /** Único dentro del día. */
@@ -29,8 +30,8 @@ export interface Block {
   legacy?: string[];
   /** Aún no hay herramienta ni contenido: se muestra «en preparación» y no bloquea el día. */
   soon?: boolean;
-  /** Solo aparece en las semanas que tienen monólogo escrito (`content/monologos.ts`). */
-  hideUnless?: "monologue";
+  /** Solo aparece si la semana tiene monólogo escrito (`monologue`) o un texto anterior que retomar (`reread`). */
+  hideUnless?: "monologue" | "reread";
   /** Cuántos ejercicios usa la práctica de este bloque. */
   size?: number;
   /** En la mini-prueba: número de intento (0 = la primera). */
@@ -81,7 +82,7 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
       { id: "varied", kind: "sinpista", name: "Práctica variada", minutes: 7, core: true, icon: "book", size: 7, legacy: ["practice"] },
       words("words3"),
       { id: "dictation", kind: "dictation", name: "Dictado", minutes: 6, core: false, icon: "ear", needs: "dictation", legacy: ["dictation"] },
-      soon("shorttext", "Texto corto nuevo", 6),
+      { id: "shorttext", kind: "reread", name: "Releer con recuperación", minutes: 6, core: false, icon: "book", hideUnless: "reread" },
     ],
   },
   {
@@ -130,7 +131,7 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
  * en las semanas con monólogo escrito.
  */
 export function daysOf(step: CourseStep): CycleDay[] {
-  return DAY_TABLE.map((d, i) => ({ stepId: step.id, day: i + 1, name: d.name, blocks: d.blocks.filter((b) => !b.soon && !(b.hideUnless === "monologue" && !hasMonologue(step.id))) }));
+  return DAY_TABLE.map((d, i) => ({ stepId: step.id, day: i + 1, name: d.name, blocks: d.blocks.filter((b) => !b.soon && !(b.hideUnless === "monologue" && !hasMonologue(step.id)) && !(b.hideUnless === "reread" && !rereadSource(step.id))) }));
 }
 
 /** Los bloques del ciclo que aún no existen (ocultos en `daysOf`). Al construir uno, se quita su `soon(...)` de DAY_TABLE. */
