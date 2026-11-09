@@ -287,6 +287,6 @@ Lección de u20: fila de *infatti* en la tabla de conectores y párrafo de *non 
 | Formas | Solo formas de uso corriente y de manual: *infatti* para confirmar lo dicho (nunca como «en cambio»), *non solo… ma anche…*, *che* para sujeto y objeto, *dove* para lugares, *Che + adjetivo + sustantivo*. No se agregó *il quale/cui*, *poiché/siccome* ni *quanto è + adjetivo* (D6; quedan para otra decisión) |
 | **V1** | Palabras cotejadas con `napolux/paroleitaliane` e `it_50k` (ver comando abajo) |
 | **V2** | **No se consultó ninguna fuente nueva** (Treccani/Crusca): la corrección de *infatti* y *non solo… ma anche* viene del sillabo CILS A2/B1 que las lista y del uso estándar; queda sin fuente abierta citada |
-| **V3** | Pendiente de segunda pasada |
+| **V3** | Otra sesión (solo vio las 45 líneas nuevas, de memoria, sin internet): **0 errores de italiano** y ninguna respuesta marcada mal. Apliqué: aceptar *soltanto/solamente* y *pure*; aceptar *in cui* en las dos preguntas con *dove*; las traducciones al español de «no solo… sino que también + verbo»; «¡Qué bonito!» en vez de «lindo»; el ejercicio *Che bambino ___!* (la pista regalaba la respuesta y *che bambino simpatico* es lo más natural). **No cambié** *che abita sopra* (se entiende; *di sopra* es más natural pero no urge) |
 
 No es revisión de un nativo. Sin audio nuevo (u20 y u17 no están en `alcance-nuevo.json`).
