@@ -285,6 +285,10 @@ export const unidad21: Lesson = {
       ],
       "answer": 0,
       "why": "*Ti + ne = te ne*."
-    }
+    },
+    { "type": "fill", "prompt": "Mi dai il tuo indirizzo? Sì, ___ do. (a ti, el)", "answers": ["te lo"], "why": "*Ti* + *lo* = *te lo*." },
+    { "type": "fill", "prompt": "Marco, ti ho comprato i biglietti: ___ do domani. (a ti, los)", "answers": ["te li"], "why": "*Ti* + *li* = *te li*." },
+    { "type": "choice", "prompt": "«Nos la mandan» (la carta).", "options": ["Ce la mandano.", "Ci la mandano.", "La ci mandano."], "answer": 0, "why": "*Ci* + *la* = *ce la*, antes del verbo." },
+    { "type": "choice", "prompt": "«¿Puedes dármelo?»", "options": ["Puoi darmelo?", "Puoi mi darlo?", "Puoi darlo mi?"], "answer": 0, "why": "Con infinitivo el par se pega al final: *darmelo*." },
   ]
 };

@@ -313,6 +313,10 @@ export const unidad23: Lesson = {
       ],
       "answer": 0,
       "why": "Irreal: *studiassi* + *passeresti*."
-    }
+    },
+    { "type": "fill", "prompt": "Se tu ___ più tempo, studierei di più. (avere)", "answers": ["avessi"], "why": "Congiuntivo imperfetto de *avere*: *avessi*." },
+    { "type": "fill", "prompt": "Se loro ___ qui, mangeremmo insieme. (essere)", "answers": ["fossero"], "why": "Congiuntivo imperfetto de *essere* con *loro*: *fossero*." },
+    { "type": "fill", "prompt": "Se lei ___ più soldi, comprerebbe una casa. (avere)", "answers": ["avesse"], "why": "Congiuntivo imperfetto de *avere* con *lei*: *avesse*." },
+    { "type": "choice", "prompt": "«Si tuviera más tiempo, leería más.»", "options": ["Se avessi più tempo, leggerei di più.", "Se avrei più tempo, leggerei di più.", "Se avessi più tempo, leggo di più."], "answer": 0, "why": "*Se* + congiuntivo imperfetto → condizionale." },
   ]
 };

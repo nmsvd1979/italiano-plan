@@ -103,6 +103,7 @@ const lesson: Lesson = {
     { type: "choice", prompt: "Preguntas qué tiempo hace:", options: ["Che tempo fa?", "Che tempo è?", "Come tempo fa?"], answer: 0, why: "La pregunta fija es *Che tempo fa?*" },
     { type: "choice", prompt: "«Cada día» en italiano:", options: ["ogni giorno", "ogni giorni", "tutto giorno"], answer: 0, why: "*Ogni* no cambia y va con un sustantivo singular." },
     { type: "choice", prompt: "«Algunos libros»:", options: ["alcuni libri", "qualche libri", "ogni libri"], answer: 0, why: "*Alcuni* lleva plural; *qualche* lleva singular (*qualche libro*)." },
+    { "type": "fill", "prompt": "Oggi ___ freddo. (hace)", "answers": ["fa"], "why": "El tiempo se dice con *fare*: *fa freddo*." },
   ],
 };
 

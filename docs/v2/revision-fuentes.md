@@ -230,3 +230,27 @@ Para cada unidad del puente: formas meta en la consigna base, **ampliación de e
 | Dudas | Ninguna nueva para `dudas-italiano.md` |
 
 Sin audio (se genera por fase). No es revisión de un nativo.
+
+## Plan B1 · Ejercicios de las fases 3 a 5: u12 (+5), u15 (+4), u16 (+10), u17 (+10) (9-nov-2026, rama `contenido/ejercicios-f3-f5`)
+29 ejercicios nuevos al final de cada lista (u15: 2 a la semana A y 2 a la B). Las cuatro unidades pasan a 10 por «Puedo…».
+
+| Nivel | Qué se hizo |
+|---|---|
+| **V1** | Palabras italianas cotejadas con `napolux/paroleitaliane` e `it_50k`: sin errores (lo no reconocido es español de los enunciados) |
+| **V2** | Sin fuente nueva: formas ya enseñadas o paradigmas estándar |
+| **V3** | Otra sesión (solo vio los 29 ejercicios, de memoria, sin internet): **0 errores de italiano**. Cambios: la pista «(la)» delataba la respuesta → «(artículo)»; se acepta *cauzione* además de *caparra* (depósito), *comprese* además de *incluse* y *un po' di* además de *del / dello*; un distractor dudoso (*Ha niente per la tosse?*) se cambió por uno claramente incorrecto; el enunciado de la ambulancia dice «con *Lei*». Queda anotado que *caparra* es en rigor la señal de una compraventa y que en la práctica se usa para el alquiler |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
+No es revisión de un nativo.
+
+## Plan B1 · Ejercicios restantes: u18 (+1), u19 (+12), u21 (+4), u22 (+2), u23 (+4), u26, u27 y u28 (+1 cada una) (9-nov-2026, rama `contenido/ejercicios-f5-puente`)
+26 ejercicios nuevos al final de cada lista. Con ellos, **las 28 unidades tienen al menos 10 ejercicios por «Puedo…»** (piso del test `exercises.guard.test.ts`).
+
+| Nivel | Qué se hizo |
+|---|---|
+| **V1** | Palabras italianas cotejadas con `napolux/paroleitaliane` e `it_50k`: solo salió *comprerebbe* (condizional válido de *comprare*); lo demás es español de los enunciados |
+| **V2** | Sin fuente nueva: formas ya enseñadas o paradigmas estándar |
+| **V3** | Otra sesión (solo vio los 26 ejercicios, de memoria, sin internet): **0 errores de italiano**. Cambios: *Dormo ___ sette ore* → *Ieri ho dormito ___ sette ore* (por con un hecho terminado); la pista de *stare per* dice «a punto de» (no «por»); *Io sono ___ alle noci* para cerrar el sujeto. No acepto *penso che hanno ragione* (el ejercicio es de congiuntivo) |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
+No es revisión de un nativo.
