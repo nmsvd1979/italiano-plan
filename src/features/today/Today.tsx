@@ -109,6 +109,7 @@ export function Today() {
               </div>
               {endedEarly && <p className="sub">Terminaste lo esencial en menos tiempo del estimado: aún te queda tiempo para sumar más.</p>}
               <a className={`btn block${endedEarly ? " primary" : ""}`} href={href("/practicar")} style={{ textAlign: "center", textDecoration: "none" }}>Practicar más</a>
+              <a className="btn block" href={href("/practicar-area")} style={{ textAlign: "center", textDecoration: "none" }}>Practicar por habilidad</a>
               <button type="button" className="btn block" onClick={() => setExtra((e) => e + 1)}>Hacer más hoy</button>
               <p className="note">«Practicar más» repasa lo ya visto, sin adelantar semanas. «Hacer más hoy» adelanta el siguiente día del ciclo, que luego se estudia con menos espacio entre días.</p>
             </section>
@@ -420,6 +421,7 @@ function RutaCard() {
             {route.stage === "sin-prueba" ? "Prueba de nivel A2" : "Repetir la prueba de nivel A2"}
           </a>
           <a className={`btn${route.stage === "repasar" ? " primary" : ""} block`} href={href("/practicar")} style={linkStyle}>Practicar más</a>
+          <a className="btn block" href={href(route.stage === "repasar" && route.weak.length > 0 ? `/practicar-area?area=${route.weak[0]}` : "/practicar-area")} style={linkStyle}>Practicar por habilidad</a>
         </>
       )}
       <a className="btn block" href={href("/tarjetas")} style={linkStyle}>Repaso espaciado</a>

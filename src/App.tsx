@@ -29,6 +29,7 @@ import { Today } from "./features/today/Today";
 import { VocabScreen } from "./features/vocab/VocabScreen";
 import { WritingScreen } from "./features/writing/WritingScreen";
 import { GapDialogueScreen } from "./features/dialogue/GapDialogueScreen";
+import { PracticeAreasScreen } from "./features/practice/PracticeAreasScreen";
 import { SpeedScreen } from "./features/dictation/SpeedScreen";
 import { PropiasScreen } from "./features/writing/PropiasScreen";
 import { MonologueScreen } from "./features/speaking/MonologueScreen";
@@ -111,6 +112,7 @@ function Screens() {
   if (route === "/prueba-nivel") return <LevelTestScreen key="level" />;
   if (route === "/tarjetas") return <ReviewScreen key="srs" />;
   if (route === "/repaso") return <PracticeScreen key="review" mode="review" />;
+  if (route === "/practicar-area") return <PracticeAreasScreen key={`areas-${q.get("area") ?? ""}`} />;
   if (route === "/practicar") return <PracticeScreen key={`more-${q.get("t") ?? ""}`} mode="more" batch={q.get("t") ?? ""} />;
   if (route === "/repaso-pendiente") return <PracticeScreen key="due" mode="due" />;
   return <Today />;

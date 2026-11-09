@@ -80,3 +80,6 @@ Cuánto tarda cada bloque nuevo (nominal 4–6 min es un supuesto). Si aportan a
 
 ## Hecho (9-nov): «Releer con recuperación»
 El bloque «Texto corto nuevo» (día 3, 6 min, no *core*) pasó a ser **«Releer con recuperación»** (D10): retoma el texto de la semana anterior del curso (`domain/reread.ts`), pide responder de memoria sus 4 preguntas y recién después muestra el texto con traducción y audio. Aparece en todas las semanas menos la primera. Contenido nuevo: 0. Quedan «en preparación» (ocultos) «Dos frases propias» y «Números y frases a velocidad».
+
+## Hecho (10-nov): «Practicar por habilidad»
+`#/practicar-area` (`?area=` resalta un área): un atajo por área a las pantallas que ya existen, con una unidad ya vista elegida por día: gramática → «Practicar más»; vocabulario → repaso espaciado; escucha → dictado; lectura → preguntas de la lectura; producción → «Dos frases propias». El enlace lleva `extra=1`, así que `completeActivity` no marca ningún bloque del plan. Se enlaza desde «Practicar más» al terminar el día y desde la tarjeta «Ruta» (resalta el área floja de la prueba de nivel). **«Pares confundibles» (E3) no se hizo**: la evidencia era mixta (`11`) y exigía contenido nuevo de pares por unidad; sigue como hipótesis a probar con el uso.
