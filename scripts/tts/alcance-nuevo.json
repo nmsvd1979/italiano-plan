@@ -1,5 +1,5 @@
 {
- "_nota": "Unidades cuyas fuentes nuevas entran al manifiesto de audio (docs/v2/plan-b1/07). El audio se genera por fase: fase 1 = semanas 1 a 7 (u25, u01–u04); fase 2 = semanas 8 a 16 (u05–u08, u26, u27). Para sumar una fase, se agregan sus unidades aquí.",
+ "_nota": "Unidades cuyas fuentes nuevas entran al manifiesto de audio (docs/v2/plan-b1/07). Fase 1 = semanas 1 a 7 (u25, u01–u04); fase 2 = semanas 8 a 16 (u05–u08, u26, u27); fases 3 a 6 y puente = el resto (u09–u24 y u28, u21–u23). Los textos largos de «Práctica B1» entran siempre.",
  "unidades": [
   "u25",
   "u01",
@@ -11,6 +11,23 @@
   "u26",
   "u07",
   "u08",
-  "u27"
+  "u27",
+  "u09",
+  "u10",
+  "u11",
+  "u12",
+  "u28",
+  "u13",
+  "u14",
+  "u15",
+  "u16",
+  "u17",
+  "u18",
+  "u19",
+  "u20",
+  "u24",
+  "u21",
+  "u22",
+  "u23"
  ]
 }

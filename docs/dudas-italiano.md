@@ -88,3 +88,20 @@ Formas que se revisaron y **no se cambiaron sin fuente**, o que se cambiaron con
 Corregido en esta pasada y que **no** requiere fuente: concordancias en español, errores de traducción, un diálogo con precios incoherentes, una respuesta incorrecta en práctica sin pista y una en u27 (ver el PR).
 
 Resueltas el 2-nov-2026 tras la revisión: *Pioveva e sono rimasto a casa* (u11, ya no usa *quindi*, que se enseña en u20) y *Vorrei dell'acqua* (u12) queda como está: *vorrei* se enseña en u04 y el partitivo *dell'* en la propia u12.
+
+## Plan B1 · frases de ejemplo de las fases 3 a 6 (10-nov-2026)
+Segunda pasada independiente (de memoria, sin internet) sobre las 825 frases de ejemplo del vocabulario de u09–u24 y u28 antes de generar su audio: 0 errores graves; estas 11 quedan **sin audio** hasta que alguien las confirme (siguen en pantalla). Los motivos son de naturalidad o de cómo las leería la voz sintética; ninguna es un error seguro.
+
+| Unidad | Frase | Problema | Confianza |
+|---|---|---|---|
+| u28 | *Il piatto del giorno è lasagna.* | Falta el artículo (*è la lasagna / sono le lasagne*) | media-alta |
+| u12 | *È il peggiore giorno della settimana.* | Adjetivo antepuesto forzado (*il giorno peggiore* / *il peggior giorno*) | baja-media |
+| u15 | *Le previsioni dicono sole.* | Poco natural (*danno sole* / *dicono che ci sarà il sole*) | media |
+| u14 | *Vai su, c'è un balcone.* | Relación entre las dos partes poco clara | baja |
+| u13 | *Porto la posta all'ufficio.* | Ambigua (*all'ufficio postale*) | baja |
+| u20 | *Infine, sono arrivato.* | *Infine* pide una secuencia; sola sería *Finalmente* | media |
+| u17 | *Salgo per la scala.* | Mejor *Salgo le scale* | media |
+| u19 | *Il divieto di sosta è chiaro.* | Sentido raro (*C'è divieto di sosta*) | baja |
+| u19 | *C'è un pericolo?* | Más idiomático sin artículo | baja |
+| u21 | *Grazie! — Figurati!* | Dos hablantes en una frase; una sola voz | media |
+| u24 | *Il mio livello è A2.* | La voz podría leer mal «A2» | baja |

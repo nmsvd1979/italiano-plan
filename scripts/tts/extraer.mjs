@@ -66,6 +66,10 @@ try {
     }
   }
 
+  // Textos largos de «Práctica B1» (lecturas por párrafo; escuchas línea por línea, como las lee la pantalla).
+  for (const [id, t] of Object.entries(json("src/content/lecturas-b1.json"))) for (const p of t.it) add("práctica-b1", "u23", p);
+  for (const [id, t] of Object.entries(json("src/content/escucha-b1.json"))) for (const l of t.lines) add("práctica-b1", "u23", l.it);
+
   const exclusiones = json("scripts/tts/exclusiones.json");
   const porTexto = new Map();
   for (const { fuente, unidad, texto } of crudo) {
@@ -84,7 +88,7 @@ try {
 
   writeFileSync(path.join(ROOT, "scripts/tts/frases.json"), JSON.stringify({ frases, excluidas }, null, 1) + "\n");
 
-  const fuentes = ["dictado", "diálogo", "lectura", "sinpista", "prueba", "ejemplo", "pendiente", "vocab-ejemplo", "escritura", "monólogo", "pron-semana"];
+  const fuentes = ["dictado", "diálogo", "lectura", "sinpista", "prueba", "ejemplo", "pendiente", "vocab-ejemplo", "escritura", "monólogo", "pron-semana", "práctica-b1", "número"];
   console.log("Por fuente (elementos leídos → textos distintos que entran, tras excluir):");
   for (const f of fuentes) {
     const leidos = crudo.filter((c) => c.fuente === f).length;

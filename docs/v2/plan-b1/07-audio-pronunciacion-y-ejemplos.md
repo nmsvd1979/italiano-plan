@@ -58,3 +58,6 @@ Además: que las pantallas de G6 y G3 usen `say()`/`clipFile()` (F-aud-02 se arr
 
 ## Qué no se puede medir
 Cómo suenan los clips (nadie los oyó, ni los 997 actuales), el tamaño final en la caché de iOS y si el límite de cuota se alcanza. Las KB por clip son medidas; los totales son estimaciones.
+
+## Hecho (10-nov): audio de las fases 3 a 6, el puente y los textos de «Práctica B1»
+`alcance-nuevo.json` suma u09–u24, u28 y u21–u23; el extractor suma las lecturas y escuchas de «Práctica B1» (siempre). **1.034 clips nuevos** (Piper `it_IT-serena-high`, CC BY 4.0): 2.657 clips, 31,4 MB de mp3 propios; `audio-index.json` pasa de ≈ 30,6 a **41,6 MB** en total (nativos + clips). Antes de generar, una segunda pasada independiente revisó las 825 frases de ejemplo nuevas y 11 quedaron **sin audio** (`exclusiones.json`, `docs/dudas-italiano.md`). **No se oyó ningún clip ni se probó la cuota de caché de iOS con ≈ 42 MB** (D5): sin esa prueba no se sabe si el botón «Usar sin conexión» llega a bajar todo.
