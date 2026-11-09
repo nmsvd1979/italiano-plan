@@ -479,6 +479,7 @@ export function catchupItems(unit: UnitMeta, state: ContinuityState): CatchupIte
       ...(!soon && (b.kind === "reading" || b.kind === "readq")
         ? { to: `/lectura/${unit.id}?${step.part ? `part=${step.part}&` : ""}${b.kind === "readq" ? "mode=preguntas&" : ""}c=${unit.id}.${b.id}` }
         : {}),
+      ...(!soon && b.kind === "own" ? { to: `/frases/${unit.id}?${step.part ? `part=${step.part}&` : ""}c=${unit.id}.${b.id}` } : {}),
     }];
   });
 }

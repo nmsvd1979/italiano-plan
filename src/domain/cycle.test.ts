@@ -74,22 +74,24 @@ describe("daysOf: la estructura de 04 §D1", () => {
   });
 
   it("los bloques sin herramienta ni contenido no se muestran: quedan en PENDING_BLOCKS y no suman minutos", () => {
-    expect(PENDING_BLOCKS.map((b) => b.id)).toEqual(["own", "speed"]);
+    expect(PENDING_BLOCKS.map((b) => b.id)).toEqual(["speed"]);
     for (const s of COURSE) {
       const blocks = daysOf(s).flatMap((d) => d.blocks);
       expect(blocks.some((b) => b.soon), s.id).toBe(false);
     }
-    // La semana con contenido real son 188 min (auditoría, medicion/minutos.ts); los 21 min de los bloques ocultos no se cuentan.
+    // La semana con contenido real son 188 min (auditoría, medicion/minutos.ts); los minutos de los bloques ocultos no se cuentan.
     const week = (stepId: string) => daysOf(step(stepId)).flatMap((d) => d.blocks).reduce((n, b) => n + b.minutes, 0);
     // «Releer con recuperación» (6 min, no core) está en todas las semanas menos la primera, y «Hablar sin mirar» (6 min, no core)
-    // en todas las que tienen monólogo escrito (hoy las 35): 188 + 6 + 6 = 200; la primera semana no retoma texto: 194.
-    expect(week("u13")).toBe(200);
-    expect(PENDING_BLOCKS.reduce((n, b) => n + b.minutes, 0)).toBe(9);
-    expect(week("u25")).toBe(194);
-    expect(week("u26")).toBe(200);
+    // en todas las que tienen monólogo escrito (hoy las 35) y «Dos frases propias» (5 min, no core, también las 35):
+    // 188 + 6 + 6 + 5 = 205; la primera semana no retoma texto: 199.
+    expect(week("u13")).toBe(205);
+    expect(PENDING_BLOCKS.reduce((n, b) => n + b.minutes, 0)).toBe(4);
+    expect(week("u25")).toBe(199);
+    expect(week("u26")).toBe(205);
     expect(daysOf(step("u25")).flatMap((d) => d.blocks).some((b) => b.id === "shorttext")).toBe(false);
     expect(daysOf(step("u01"))[2].blocks.some((b) => b.id === "shorttext")).toBe(true);
     expect(daysOf(step("u25"))[5].blocks.some((b) => b.id === "retell")).toBe(true);
+    expect(daysOf(step("u25"))[1].blocks.some((b) => b.id === "own")).toBe(true);
   });
 });
 
