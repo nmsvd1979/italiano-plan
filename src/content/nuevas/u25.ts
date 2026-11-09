@@ -191,6 +191,13 @@ const writing: WritingTask = {
     "La *e* de «y» va sin tilde y *è* (es) con tilde.",
   ],
   minChars: 50,
+  mustInclude: [["mi chiamo"], ["sono di"], ["non ho capito", "puoi ripetere"]],
+  extend: {
+    prompt: "Agrega dos frases: cómo se escribe tu nombre (deletrea con los nombres de las letras) y pregunta cómo se dice una palabra.",
+    minWords: 20,
+    model: "Ciao! Mi chiamo Marco e sono di Santiago. Scusa, non ho capito. Puoi ripetere, per favore? Si scrive emme, a, erre, ci, o. Come si dice «gracias»?",
+    mustInclude: [["si scrive"], ["come si dice"]],
+  },
 };
 
 const pron: PronUnit = {

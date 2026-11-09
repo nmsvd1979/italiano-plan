@@ -165,3 +165,16 @@ Clips de Serena para lo nuevo de las semanas 1 a 7 (`scripts/tts/alcance-nuevo.j
 | Regla | Solo se sintetiza lo que no figura en `exclusiones.json` ni `dudas-italiano.md` |
 
 No es revisión de un nativo, y **nadie oyó los clips nuevos** hasta que los pruebes en el iPhone.
+
+## Plan B1 · Escritura ampliada de la fase 1 (u25, u01, u02A/B, u03A/B, u04) (9-nov-2026, rama `contenido/escritura-ampliada-f1`)
+Para cada una de las 7 consignas de las semanas 1–7: formas meta (`mustInclude`) en las 5 que no las tenían (las B ya las traían) y la ampliación opcional (`extend`: segunda consigna, mínimo de palabras del texto completo, modelo ampliado y formas meta propias). Escalera de la fase 1: 20–28 palabras en total. 7 clips nuevos de Serena para los modelos ampliados.
+
+| Nivel | Qué se hizo |
+|---|---|
+| Léxico acumulado | Cada modelo ampliado se contrastó con el léxico de las unidades hasta esa semana: solo quedan palabras del modelo base ya existente (*conoscervi, rumorosi, inizia, davanti, cinema, poi, torno*); lo que se agregó usa lo ya visto (se cambió *domenica* por *mercoledì*) |
+| **V1** | Palabras cotejadas con `napolux/paroleitaliane` e `it_50k`: sin errores |
+| **V2** | Sin fuente nueva: *si scrive*, *come si dice*, nombres de letras de la tabla de u25, *di dove siete*, *ho anche*, *non mi piace… perché…*, *apre / chiude*, horas, *Posso avere il conto* son formas ya enseñadas |
+| **V3** | Otra sesión (solo vio las 7 consignas, de memoria, sin internet): **1 error real**: *Domani è il dodici marzo* tras *Oggi è il dieci marzo* → **corregido** a *Domani è l'undici marzo*. Otros cambios: u02B pide y modela el «por qué» (*…perché è lontano*, forma meta *perché*); u02A solo exige *ho* (el resto ya está en el base); u01 mínimo 20; u04 el modelo agrega *per favore*. **No cambié** los mínimos de u02A/B, u03A/B aunque el revisor sugirió subirlos: el mínimo es para el texto de la persona, no del modelo, y la escalera de la fase 1 es 20–28 palabras; ni la mezcla de horas en u03A (*all'una* es un contraste intencional) |
+| Dudas | Ninguna nueva para `dudas-italiano.md` |
+
+No es revisión de un nativo. Los 7 clips nuevos no los oyó nadie.

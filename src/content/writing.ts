@@ -40,24 +40,52 @@ const WRITING: Record<string, WritingTask> = {
     model: "Buonasera! Piacere di conoscervi! Mi chiamo Laura e sono di Santiago. Sono qui in vacanza. A presto!",
     checklist: ["Saludé con *Buongiorno* o *Buonasera*.", "Usé *mi chiamo* y *sono di*.", "Los verbos concuerdan: *sono* con *io*, *siamo* con *noi*.", "Cerré con *A presto*, *Grazie* o *Arrivederci*."],
     minChars: 50,
+    mustInclude: [["buonasera", "buongiorno"], ["mi chiamo"], ["sono di"]],
+    extend: {
+      prompt: "Agrega dos frases: dile a la familia que estás cansado o cansada y pregúntales de dónde son.",
+      minWords: 20,
+      model: "Buonasera! Piacere di conoscervi! Mi chiamo Laura e sono di Santiago. Sono qui in vacanza. Sono stanca. E voi, di dove siete? A presto!",
+      mustInclude: [["di dove siete"], ["sono stanca", "sono stanco"]],
+    },
   },
   u02: {
     prompt: "Describe tu casa o tu barrio: qué hay (una cosa y varias) y qué te gusta o no te gusta.",
     model: "Ho un appartamento piccolo. C'è una cucina e ci sono due camere. Vicino a casa c'è un supermercato. Mi piace il quartiere, ma non mi piacciono i bar rumorosi.",
     checklist: ["Usé *c'è* para una cosa y *ci sono* para varias.", "Usé *mi piace* con singular y *mi piacciono* con plural.", "Cada sustantivo lleva el artículo correcto (*il, lo, la, l', i, gli, le*).", "Conté al menos una cosa que tengo con *avere*."],
     minChars: 70,
+    mustInclude: [["c'è"], ["ci sono"], ["mi piace", "mi piacciono"]],
+    extend: {
+      prompt: "Agrega una frase sobre algo que tienes en casa (con su artículo).",
+      minWords: 25,
+      model: "Ho un appartamento piccolo. C'è una cucina e ci sono due camere. Vicino a casa c'è un supermercato. Ho anche un tavolo e due sedie. Mi piace il quartiere, ma non mi piacciono i bar rumorosi.",
+      mustInclude: [["ho"]],
+    },
   },
   u03: {
     prompt: "Escríbele a un amigo para quedar: propón un día, una hora y di cuánto cuesta la entrada.",
     model: "Ciao Marco! Sabato sono libero. Il film inizia alle diciannove e il biglietto costa otto euro. Ti aspetto davanti al cinema alle diciotto e trenta.",
     checklist: ["Escribí la hora con *alle…* (o *all'una*).", "Escribí el precio con *costa* o *costano* y la palabra *euro*.", "Los días de la semana van en minúscula.", "Los números están bien escritos, pegados (*ventotto*, *trentadue*)."],
     minChars: 70,
+    mustInclude: [["alle"], ["costa", "costano"], ["sabato", "domenica", "lunedì", "martedì", "mercoledì", "giovedì", "venerdì"]],
+    extend: {
+      prompt: "Agrega un segundo plan para otro día (por ejemplo, el miércoles): a qué hora abre un lugar y a qué hora cierra.",
+      minWords: 25,
+      model: "Ciao Marco! Sabato sono libero. Il film inizia alle diciannove e il biglietto costa otto euro. Ti aspetto davanti al cinema alle diciotto e trenta. Anche mercoledì sono libero: il museo apre alle nove e chiude all'una.",
+      mustInclude: [["apre"], ["chiude"], ["mercoledì"]],
+    },
   },
   u04: {
     prompt: "Cuéntale a un amigo qué pedirías en un bar y qué tienes que hacer después.",
     model: "Al bar prendo un cappuccino e un cornetto. Vorrei anche un bicchiere d'acqua, per favore. Poi devo andare al lavoro e torno a casa alle sei.",
     checklist: ["Pedí algo con *vorrei* o *prendo*.", "Usé *dovere* o *potere* con un infinitivo.", "Conjugué bien los verbos regulares (*-o, -i, -a*).", "Usé *per favore*."],
     minChars: 70,
+    mustInclude: [["vorrei", "prendo"], ["devo", "posso"], ["per favore"]],
+    extend: {
+      prompt: "Agrega que pides la cuenta con cortesía, antes de irte.",
+      minWords: 28,
+      model: "Al bar prendo un cappuccino e un cornetto. Vorrei anche un bicchiere d'acqua, per favore. Posso avere il conto, per favore? Poi devo andare al lavoro e torno a casa alle sei.",
+      mustInclude: [["posso avere il conto"]],
+    },
   },
   u05: {
     prompt: "Cuenta cómo vas a tres lugares: al trabajo o la universidad, a casa de un amigo y a otra ciudad.",
@@ -236,6 +264,12 @@ const WRITING: Record<string, WritingTask> = {
     ],
     minChars: 72,
     mustInclude: [["c'è"], ["ci sono"], ["vicino"], ["mi piace", "mi piacciono"]],
+    extend: {
+      prompt: "Agrega una cosa que no te gusta del barrio y por qué (por ejemplo, que queda lejos).",
+      minWords: 28,
+      model: "Nel mio quartiere c'è una piazza e ci sono due bar. La farmacia è vicino alla piazza e il supermercato è lontano. Il parco è vicino alla stazione. Mi piace la piazza, ma non mi piacciono i bar. Non mi piace il supermercato perché è lontano.",
+      mustInclude: [["non mi piace"], ["perché"]],
+    },
   },
   "u03#B": {
     prompt: "Escribe el cartel de una cafetería: la fecha de hoy, tres productos con su precio y cuándo cierra.",
@@ -248,6 +282,12 @@ const WRITING: Record<string, WritingTask> = {
     ],
     minChars: 72,
     mustInclude: [["costa"], ["costano"], ["euro"]],
+    extend: {
+      prompt: "Agrega un cuarto producto con su precio y la fecha de mañana.",
+      minWords: 25,
+      model: "Oggi è il dieci marzo. Il caffè costa un euro e venti, il panino costa un euro e cinquanta e i biscotti costano tre euro. Il tè costa due euro e cinquanta. Domani è l'undici marzo. Il bar chiude il mercoledì.",
+      mustInclude: [["tè"], ["domani"]],
+    },
   },
   "u05#B": {
     prompt: "Escribe los letreros para llegar a un lugar: qué hay de frente, a la derecha y a la izquierda, y dónde están la entrada y la salida.",
