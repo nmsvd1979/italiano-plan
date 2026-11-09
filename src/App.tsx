@@ -31,6 +31,7 @@ import { WritingScreen } from "./features/writing/WritingScreen";
 import { MonologueScreen } from "./features/speaking/MonologueScreen";
 import { RereadScreen } from "./features/lectura/RereadScreen";
 import { B1EscuchaScreen, B1LecturaScreen, PracticaB1Screen } from "./features/practicab1/PracticaB1Screen";
+import { ReadyB1Screen } from "./features/progress/ReadyB1";
 import { SystemVoiceHint } from "./ui/SystemVoiceHint";
 
 const UNIT = "(u\\d{2})";
@@ -83,6 +84,7 @@ function Screens() {
   if (mono) return <MonologueScreen key={`mono-${mono[1]}${partKey}`} unit={mono[1]} part={part} />;
   const reread = route.match(new RegExp(`^/releer/${UNIT}$`));
   if (reread) return <RereadScreen key={`releer-${reread[1]}${partKey}`} unit={reread[1]} part={part} />;
+  if (route === "/listo-b1") return <ReadyB1Screen key="listo-b1" />;
   if (route === "/practica-b1") return <PracticaB1Screen key="b1" />;
   const b1 = route.match(/^\/practica-b1\/(lectura|escucha)\/(b1-\d+)$/);
   if (b1) return b1[1] === "lectura" ? <B1LecturaScreen key={`b1l-${b1[2]}`} id={b1[2]} /> : <B1EscuchaScreen key={`b1e-${b1[2]}`} id={b1[2]} />;

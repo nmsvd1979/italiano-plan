@@ -67,6 +67,10 @@ export function PlanScreen() {
           <span className="unit-num"><Icon name="book" size={18} /></span>
           <span className="unit-main"><b>Práctica B1</b><small>Lecturas y audios más largos, con el tamaño de un B1</small></span>
         </a>
+        <a className="unit-row" href={href("/listo-b1")}>
+          <span className="unit-num"><Icon name="check" size={18} /></span>
+          <span className="unit-main"><b>Listo para B1</b><small>Seis evidencias de si ya puedes empezar B1</small></span>
+        </a>
       </section>
     </>
   );
