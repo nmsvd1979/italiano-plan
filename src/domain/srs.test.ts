@@ -209,7 +209,7 @@ describe("cola diaria", () => {
     let s = applyReview(emptySrs(), c, 3, day(0), 1);
     s = applyReview(s, s.cards[c.id], 3, day(1), 1);
     expect(answeredToday(s, day(1))).toBe(1);
-    expect(LIMITS.session).toBe(20);
+    expect(LIMITS.session).toBe(30);
   });
 });
 
