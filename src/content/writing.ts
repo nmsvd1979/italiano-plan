@@ -1,4 +1,5 @@
 import { NUEVAS } from "./nuevas";
+import { WRITING_EXTRAS } from "./writing-extend";
 
 export interface WritingTask {
   /** La consigna, en español. */
@@ -380,7 +381,15 @@ const WRITING: Record<string, WritingTask> = {
  */
 export function getWriting(unit: string, part?: "A" | "B" | null): WritingTask | undefined {
   const own = part ? WRITING[`${unit}#${part}`] : undefined;
-  return own ?? WRITING[unit] ?? NUEVAS.find((n) => n.id === unit)?.writing;
+  const key = own ? `${unit}#${part}` : unit;
+  return withExtras(key, own ?? WRITING[unit] ?? NUEVAS.find((n) => n.id === unit)?.writing);
+}
+
+/** Suma las formas meta y la ampliación de `writing-extend.ts` si la consigna no trae las suyas. */
+function withExtras(key: string, task: WritingTask | undefined): WritingTask | undefined {
+  const x = WRITING_EXTRAS[key];
+  if (!task || !x) return task;
+  return { ...task, mustInclude: task.mustInclude ?? x.mustInclude, extend: task.extend ?? x.extend };
 }
 
 /** Clave con la que se guarda el texto de una semana: la unidad, o `u02#B` para la semana B (la A conserva la clave de siempre). */
@@ -388,5 +397,8 @@ export const writingKey = (unit: string, part?: "A" | "B" | null): string => (pa
 
 /** Todas las consignas (también las de semanas B), para el léxico de la app. */
 export function allWritingTasks(): WritingTask[] {
-  return [...Object.values(WRITING), ...NUEVAS.flatMap((n) => (n.writing ? [n.writing] : []))];
+  return [
+    ...Object.entries(WRITING).map(([k, t]) => withExtras(k, t)!),
+    ...NUEVAS.flatMap((n) => (n.writing ? [withExtras(n.id, n.writing)!] : [])),
+  ];
 }
