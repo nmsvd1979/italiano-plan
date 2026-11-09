@@ -25,11 +25,11 @@ describe("nota «Tu avance anterior» de la unidad", () => {
     const n = legacyNote(u01, raw)!;
     expect(n.done).toBe(17);
     expect(n.total).toBe(22);
-    // Es lo mismo que la unidad muestra como marcado en el ciclo nuevo (la pantalla ve 8 de 31: u01 tiene «Hablar sin mirar», «Releer con recuperación» y «Dos frases propias»).
+    // Es lo mismo que la unidad muestra como marcado en el ciclo nuevo (la pantalla ve 8 de 32: u01 tiene «Hablar sin mirar», «Releer con recuperación», «Dos frases propias» y «Números a velocidad»).
     expect(n.blocks).toBe(unitCycleProgress("u01", raw).done);
     expect(n.cycleTotal).toBe(unitCycleProgress("u01", raw).total);
     expect(n.blocks).toBe(8);
-    expect(n.cycleTotal).toBe(31);
+    expect(n.cycleTotal).toBe(32);
     expect(n.blocks).toBeGreaterThan(0);
     expect(n.blocks).toBeLessThan(n.cycleTotal);
   });

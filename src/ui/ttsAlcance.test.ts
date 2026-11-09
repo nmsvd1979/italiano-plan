@@ -4,6 +4,7 @@ import { describe, expect, it } from "vitest";
 import { COURSE } from "../content/course";
 import { getWords } from "../content/vocab";
 import { getWriting } from "../content/writing";
+import { getVelocidad } from "../content/velocidad";
 import { getMonologue } from "../content/monologos";
 import { getPronStep } from "../content/pronunciation/sequence";
 import { audioFiles } from "../content/pronunciation";
@@ -41,6 +42,12 @@ describe("audio de la fase 1: todo lo que suena tiene clip", () => {
       const wr = getWriting(s.unit, s.part ?? null);
       for (const t of [wr?.model, wr?.extend?.model, getMonologue(s.id)?.model]) if (t && !excluded(t) && !clipFile(t)) missing.push(`${s.id}: ${t}`);
     }
+    expect(missing).toEqual([]);
+  });
+
+  it("números a velocidad", () => {
+    const missing: string[] = [];
+    for (const s of steps) for (const v of getVelocidad(s.id) ?? []) if (!excluded(v.it) && !clipFile(v.it)) missing.push(`${s.id}: ${v.it}`);
     expect(missing).toEqual([]);
   });
 
