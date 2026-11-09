@@ -319,6 +319,14 @@ export const unidad17: Lesson = {
     { "type": "fill", "prompt": "Cerco un appartamento ___ affitto. (en alquiler)", "answers": ["in"], "why": "*In affitto* = en alquiler." },
     { "type": "fill", "prompt": "Non c'è l'___. (ascensor)", "answers": ["ascensore"], "why": "*L'ascensore* = el ascensor." },
     { "type": "choice", "prompt": "«Vivo en la planta baja.»", "options": ["Abito al piano terra.", "Abito al piano zero.", "Abito nel piano terra."], "answer": 0, "why": "La planta baja es *il piano terra*." },
-    { "type": "choice", "prompt": "Quieres decir que no funciona la calefacción.", "options": ["Il riscaldamento non funziona.", "Il riscaldamento non funzionano.", "Il riscaldamento non è funziona."], "answer": 0, "why": "*Il riscaldamento* es singular: *non funziona*." }
+    { "type": "choice", "prompt": "Quieres decir que no funciona la calefacción.", "options": ["Il riscaldamento non funziona.", "Il riscaldamento non funzionano.", "Il riscaldamento non è funziona."], "answer": 0, "why": "*Il riscaldamento* es singular: *non funziona*." },
+    {"type": "fill", "prompt": "La casa ___ ho visto è luminosa. (que)", "answers": ["che"], "why": "*Che* une las dos frases y no cambia."},
+    {"type": "choice", "prompt": "«Vi un departamento. Está cerca del centro.» Únelas.", "options": ["Ho visto un appartamento che è vicino al centro.", "Ho visto un appartamento è che vicino al centro.", "Ho visto un appartamento dove è vicino al centro."], "answer": 0, "why": "*Che* va justo después del sustantivo."},
+    {"type": "fill", "prompt": "Il padrone di casa ___ abita sopra è gentile. (que)", "answers": ["che"], "why": "*Che* sirve para personas y cosas."},
+    {"type": "fill", "prompt": "Il quartiere ___ abito è tranquillo. (donde)", "answers": ["dove", "in cui"], "why": "Para lugares se usa *dove*: *il quartiere dove abito*."},
+    {"type": "choice", "prompt": "La stanza ___ cerco deve essere luminosa.", "options": ["che", "dove", "chi"], "answer": 0, "why": "Aquí *che* es el objeto de *cerco*."},
+    {"type": "choice", "prompt": "«El departamento que alquilé es pequeño.»", "options": ["L'appartamento che ho affittato è piccolo.", "L'appartamento chi ho affittato è piccolo.", "L'appartamento ho affittato che è piccolo."], "answer": 0, "why": "*L'appartamento che ho affittato*: *che* va justo después del sustantivo."},
+    {"type": "fill", "prompt": "Cerco una casa ___ ha due camere. (que)", "answers": ["che"], "why": "*Che* une *una casa* con *ha due camere*."},
+    {"type": "choice", "prompt": "¿Cuál frase usa bien el relativo?", "options": ["La persona che parla è mia zia.", "La persona che lei parla è mia zia.", "La persona chi parla è mia zia."], "answer": 0, "why": "*Che* no se repite con otro pronombre ni se cambia por *chi*."}
   ]
 };
