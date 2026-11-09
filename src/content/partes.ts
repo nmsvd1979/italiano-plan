@@ -18,12 +18,12 @@ export const PARTS: Record<string, UnitParts> = {
   // A: a / in / da, andare–venire–uscire, preposiciones articuladas. B: falsos amigos, direcciones.
   u05: {
     A: { examples: [0, 1, 2, 3, 5], notice: [0, 2, 3], exercises: [0, 1, 2, 3, 4, 5, 6, 7, 9, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26], vocab: [0, 1, 2, 3, 4, 5, 6, 15, 16, 17, 18], dictation: [0, 1, 2, 3, 4, 6, 7] },
-    B: { examples: [3, 4], notice: [1], exercises: [5, 6, 8, 10, 11, 17, 19, 22], vocab: [7, 8, 9, 10, 11, 12, 13, 14, 19], dictation: [2, 3, 5, 8, 9] },
+    B: { examples: [3, 4], notice: [1], exercises: [5, 6, 8, 10, 11, 17, 19, 22, 27, 28, 29], vocab: [7, 8, 9, 10, 11, 12, 13, 14, 19], dictation: [2, 3, 5, 8, 9] },
   },
   // A: posesivos y questo / quello. B: adjetivos, colores, tallas, ropa.
   u06: {
-    A: { examples: [0, 1, 2, 3, 4, 5, 7], notice: [0, 1, 2], exercises: [0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 14, 16, 17, 23], vocab: [8, 9, 10, 11, 12, 13, 14, 15, 16], dictation: [0, 1, 2, 5, 6] },
-    B: { examples: [3, 5, 6], notice: [0], exercises: [9, 10, 11, 13, 15, 18, 19, 20, 21, 22], vocab: [0, 1, 2, 3, 4, 5, 6, 7, 17, 18, 19], dictation: [1, 3, 4, 7, 8, 9] },
+    A: { examples: [0, 1, 2, 3, 4, 5, 7], notice: [0, 1, 2], exercises: [0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 14, 16, 17, 23, 24, 25], vocab: [8, 9, 10, 11, 12, 13, 14, 15, 16], dictation: [0, 1, 2, 5, 6] },
+    B: { examples: [3, 5, 6], notice: [0], exercises: [9, 10, 11, 13, 15, 18, 19, 20, 21, 22, 26, 27, 28, 29], vocab: [0, 1, 2, 3, 4, 5, 6, 7, 17, 18, 19], dictation: [1, 3, 4, 7, 8, 9] },
   },
   // A: reflexivos y rutina. B: stare + gerundio, essere / stare, irregulares frecuentes.
   u07: {
