@@ -308,3 +308,50 @@ describe("simulación de 60 días", () => {
     expect(Math.max(...newPerDay)).toBe(8);
   });
 });
+
+describe("mazo de frecuencia (docs/v2/plan-b1/08, D8)", () => {
+  const freq = Array.from({ length: 12 }, (_, i) => ({ it: `parola${i}`, es: `significado${i}`, ex: "x", exEs: "x", pos: "n" as const, n: i + 1 }));
+
+  it("entra por defecto, 5 por día y solo después de haber visto alguna unidad", () => {
+    expect(buildQueue({ state: emptySrs(), today: day(0), eligibleUnits: [], freq }).items).toHaveLength(0);
+    const q = buildQueue({ state: emptySrs(), today: day(0), eligibleUnits: ["u25"], freq });
+    const fresh = q.items.filter((i) => i.type === "new" && i.candidate.deck === "freq");
+    expect(fresh).toHaveLength(LIMITS.freqNewPerDay);
+    expect(fresh.every((i) => i.type === "new" && i.candidate.kind === "recog" && i.candidate.itemId.startsWith("f:"))).toBe(true);
+  });
+
+  it("se puede apagar y no cuenta contra las 8 nuevas de las unidades", () => {
+    const off = buildQueue({ state: { ...emptySrs(), options: { freq: false } }, today: day(0), eligibleUnits: ["u25"], freq });
+    expect(off.items.some((i) => i.type === "new" && i.candidate.deck === "freq")).toBe(false);
+    const on = buildQueue({ state: emptySrs(), today: day(0), eligibleUnits: ["u25"], freq });
+    const unitNew = on.items.filter((i) => i.type === "new" && i.candidate.deck === undefined);
+    expect(unitNew.length).toBeGreaterThan(0);
+    expect(unitNew.length).toBeLessThanOrEqual(LIMITS.newPerDay);
+  });
+
+  it("no repite una palabra que ya tiene tarjeta y las ya introducidas hoy descuentan el tope", () => {
+    let state = emptySrs();
+    state = addCardIfMissing(state, { kind: "recog", itemId: "f:parola0", unit: "extra", deck: "freq" }, day(0));
+    const q = buildQueue({ state, today: day(0), eligibleUnits: ["u25"], freq });
+    const ids = q.items.filter((i) => i.type === "new" && i.candidate.deck === "freq").map((i) => (i.type === "new" ? i.candidate.itemId : ""));
+    expect(ids).not.toContain("f:parola0");
+    expect(ids).toHaveLength(LIMITS.freqNewPerDay - 1);
+  });
+
+  it("el mazo real: sin repetidas ni palabras de las unidades, y sus tarjetas se resuelven y no desbloquean escribir", async () => {
+    const { loadFreqDeck, freqItemId } = await import("./srsDeck");
+    const deck = await loadFreqDeck();
+    expect(deck.length).toBeGreaterThan(300);
+    expect(new Set(deck.map((w) => freqItemId(w.it))).size).toBe(deck.length);
+    const w = deck[0];
+    const card = newSrsCard({ kind: "recog", itemId: freqItemId(w.it), unit: "extra", deck: "freq" }, day(0));
+    const ctx = { ...emptyContext(), freq: new Map(deck.map((x) => [freqItemId(x.it), x])) };
+    expect(resolveCard(card, ctx)).toMatchObject({ it: w.it, es: w.es });
+    const set = choicesFor(card, w.es, ctx, []);
+    expect(set.options).toContain(w.es);
+    expect(set.options.length).toBeGreaterThan(1);
+    const stable = { ...card, fsrs: { ...card.fsrs, stability: 100, reps: 5 } };
+    const after = unlockProdCards({ ...emptySrs(), cards: { [card.id]: stable } }, day(1));
+    expect(Object.values(after.cards).some((c) => c.kind === "prod")).toBe(false);
+  });
+});

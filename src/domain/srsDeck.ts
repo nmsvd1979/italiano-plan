@@ -1,7 +1,7 @@
 import { findExercise, type Fill } from "../content/grammar";
 import { getDictation } from "../content/dictation";
 import { COURSE } from "../content/course";
-import { getVocab, getWords } from "../content/vocab";
+import { getVocab, getWords, type GeneralWord } from "../content/vocab";
 import type { SinPista } from "../content/sinpista";
 import { isSinPistaId, resolveSinPista } from "./sinpistaSrs";
 import { rng, shuffle } from "./review";
@@ -23,6 +23,8 @@ export const slug = (text: string): string =>
 export const wordItemId = (unit: string, it: string): string => `${unit}:${slug(it)}`;
 export const sentenceItemId = (unit: string, it: string): string => `${unit}:d-${slug(it)}`;
 export const quizletItemId = (n: number): string => `q${n}`;
+/** Mazo de frecuencia (`base-frecuente.json`): el id sale de la palabra, no del puesto, que puede cambiar si se corrige la lista. */
+export const freqItemId = (it: string): string => `f:${slug(it)}`;
 
 export interface Word {
   itemId: string;
@@ -82,8 +84,32 @@ export async function loadQuizletDeck(): Promise<QuizletEntry[]> {
   return (mod.default as QuizletEntry[]).filter((e) => e.enApp === null);
 }
 
+/** El mazo de frecuencia se carga solo cuando se necesita; sin repetidas y sin las palabras que ya están en una unidad (vocabulario o ampliadas). */
+export async function loadFreqDeck(): Promise<GeneralWord[]> {
+  const { loadGeneralDeck } = await import("../content/vocab");
+  const seen = new Set<string>();
+  return (await loadGeneralDeck()).filter((w) => {
+    const k = slug(w.it);
+    if (seen.has(k) || isUnitWord(w.it)) return false;
+    seen.add(k);
+    return true;
+  });
+}
+
+let UNIT_WORDS: Set<string> | null = null;
+/** ¿La palabra ya está en alguna unidad del curso (lista de la unidad o ampliadas)? Esas ya tienen su tarjeta. */
+export function isUnitWord(it: string): boolean {
+  if (!UNIT_WORDS) {
+    UNIT_WORDS = new Set();
+    for (const unit of new Set(COURSE.map((s) => s.unit))) for (const w of getWords(unit) ?? []) UNIT_WORDS.add(slug(w.it));
+  }
+  return UNIT_WORDS.has(slug(it));
+}
+
 export interface DeckContext {
   quizlet: ReadonlyMap<string, QuizletEntry>;
+  /** Mazo de frecuencia por id de tarjeta (`f:…`). */
+  freq?: ReadonlyMap<string, GeneralWord>;
   /** Ejercicios sin pista por id; se cargan solo si hay tarjetas que vienen de ahí. */
   sinpista?: ReadonlyMap<string, SinPista>;
 }
@@ -107,6 +133,10 @@ export function resolveCard(card: SrsCard, ctx: DeckContext): Resolved | null {
     if (card.deck === "quizlet") {
       const q = ctx.quizlet.get(card.itemId);
       return q ? { kind: card.kind, it: q.it, es: q.es } : null;
+    }
+    if (card.deck === "freq") {
+      const f = ctx.freq?.get(card.itemId);
+      return f ? { kind: card.kind, it: f.it, es: f.es } : null;
     }
     const w = allWordsOfUnit(card.unit).find((x) => x.itemId === card.itemId);
     return w ? { kind: card.kind, it: w.it, es: w.es } : null;
@@ -139,8 +169,10 @@ export function choicesFor(card: SrsCard, correct: string, ctx: DeckContext, uni
   const distinct = (list: string[]) => [...new Set(list)].filter((es) => es !== correct);
   const same = card.deck === "quizlet"
     ? distinct([...ctx.quizlet.values()].map((q) => q.es))
-    : distinct(allWordsOfUnit(card.unit).map((w) => w.es));
-  const others = card.deck === "quizlet"
+    : card.deck === "freq"
+      ? distinct([...(ctx.freq?.values() ?? [])].map((f) => f.es))
+      : distinct(allWordsOfUnit(card.unit).map((w) => w.es));
+  const others = card.deck === "quizlet" || card.deck === "freq"
     ? []
     : distinct(units.filter((u) => u !== card.unit).flatMap(wordsOfUnit).map((w) => w.es));
   const picked = [...shuffle(same, rand), ...shuffle(others, rand)].filter((es, i, a) => a.indexOf(es) === i).slice(0, 3);

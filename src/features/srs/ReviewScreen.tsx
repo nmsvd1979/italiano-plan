@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import type { GeneralWord } from "../../content/vocab";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { Icon } from "../../ui/Icon";
@@ -7,7 +8,7 @@ import {
   applyReview, loadSrs, newSrsCard, rerateLast, saveSrs, unlockProdCards, type RatingValue, type SrsCard, type SrsState,
 } from "../../domain/srs";
 import {
-  choicesFor, emptyContext, loadQuizletDeck, loadSinPistaMap, resolveCard, type DeckContext, type QuizletEntry, type Resolved,
+  choicesFor, emptyContext, freqItemId, loadFreqDeck, loadQuizletDeck, loadSinPistaMap, resolveCard, type DeckContext, type QuizletEntry, type Resolved,
 } from "../../domain/srsDeck";
 import { easyRating, gradeWriting, ratingForChoice, ratingForWriting, typoRating, type WriteGrade } from "../../domain/srsGrade";
 import { isSinPistaId } from "../../domain/sinpistaSrs";
@@ -42,6 +43,7 @@ export function ReviewScreen() {
   const [srs, setSrs] = useState<SrsState>(() => loadSrs(window.localStorage));
   const [ctx, setCtx] = useState<DeckContext>(emptyContext);
   const [quizlet, setQuizlet] = useState<QuizletEntry[]>([]);
+  const [freq, setFreq] = useState<GeneralWord[]>([]);
   const [ready, setReady] = useState(false);
   const [batch, setBatch] = useState<Entry[]>([]);
   const [index, setIndex] = useState(0);
@@ -53,6 +55,8 @@ export function ReviewScreen() {
 
   const needsDeck = !!srs.options?.quizlet || Object.values(srs.cards).some((c) => c.deck === "quizlet");
 
+  const needsFreq = srs.options?.freq !== false || Object.values(srs.cards).some((c) => c.deck === "freq");
+
   // El mazo extra se baja solo si está activado o ya hay tarjetas suyas.
   useEffect(() => {
     let cancelled = false;
@@ -60,9 +64,12 @@ export function ReviewScreen() {
       const entries = needsDeck ? await loadQuizletDeck() : [];
       if (cancelled) return;
       setQuizlet(entries);
+      const freqEntries = needsFreq ? await loadFreqDeck() : [];
+      if (cancelled) return;
+      setFreq(freqEntries);
       const sinpista = Object.values(srs.cards).some((c) => isSinPistaId(c.itemId)) ? await loadSinPistaMap() : undefined;
       if (cancelled) return;
-      setCtx({ quizlet: new Map(entries.map((q) => [`q${q.n}`, q])), sinpista });
+      setCtx({ quizlet: new Map(entries.map((q) => [`q${q.n}`, q])), freq: new Map(freqEntries.map((f) => [freqItemId(f.it), f])), sinpista });
       setReady(true);
     })();
     return () => { cancelled = true; };
@@ -70,8 +77,8 @@ export function ReviewScreen() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const makeBatch = (state: SrsState, deck: DeckContext, entries: QuizletEntry[]) => {
-    const q = buildQueue({ state, today, eligibleUnits: units, quizlet: entries, extraWords });
+  const makeBatch = (state: SrsState, deck: DeckContext, entries: QuizletEntry[], freqEntries: GeneralWord[]) => {
+    const q = buildQueue({ state, today, eligibleUnits: units, quizlet: entries, freq: freqEntries, extraWords });
     const now = new Date();
     const picked: Entry[] = [];
     for (const item of q.items as QueueItem[]) {
@@ -87,7 +94,7 @@ export function ReviewScreen() {
   };
 
   useEffect(() => {
-    if (ready) makeBatch(latest.current, ctx, quizlet);
+    if (ready) makeBatch(latest.current, ctx, quizlet, freq);
     // Una sola vez cuando el mazo está listo.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ready]);
@@ -157,7 +164,7 @@ export function ReviewScreen() {
             <p className="note"><Icon name="info" size={16} /><span>Ya llevas {answered} tarjetas hoy: es un buen momento para parar.</span></p>
           )}
           <div className="row">
-            {canContinue && <button className="btn" type="button" onClick={() => makeBatch(srs, ctx, quizlet)}>Seguir repasando</button>}
+            {canContinue && <button className="btn" type="button" onClick={() => makeBatch(srs, ctx, quizlet, freq)}>Seguir repasando</button>}
             <a className="btn primary" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
           </div>
         </section>
