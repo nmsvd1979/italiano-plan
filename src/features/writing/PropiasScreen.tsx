@@ -30,7 +30,8 @@ export function PropiasScreen({ unit, part = null }: { unit: string; part?: Cour
   }, [text, task]);
 
   if (!task) return <p className="sub">Esta semana todavía no tiene «Dos frases propias».</p>;
-  const ok = check.words >= minWords && check.missing.length === 0;
+  // Las formas de la semana son una sugerencia, no un requisito: una frase correcta con otra forma no debe quedar bloqueada.
+  const ok = check.words >= minWords;
 
   const finish = () => {
     appendLog(window.localStorage, { date: toISODate(today), unit, activity: "propias", minutes: 0 });
@@ -58,7 +59,7 @@ export function PropiasScreen({ unit, part = null }: { unit: string; part?: Cour
         />
         <p className="sub" role="status">
           {check.words} de {minWords} palabras.
-          {check.missing.length > 0 && text.trim() !== "" && <> Te falta usar: {check.missing.map((alts) => alts.join(" / ")).join("; ")}.</>}
+          {check.missing.length > 0 && text.trim() !== "" && <> Esta semana trabaja: {check.missing.map((alts) => alts.slice(0, 3).join(" / ")).join("; ")}. Es una sugerencia: si usaste otra forma correcta, sigue.</>}
         </p>
         {!model ? (
           <button type="button" className="btn" onClick={() => setModel(true)}>Ver un modelo</button>
@@ -74,7 +75,7 @@ export function PropiasScreen({ unit, part = null }: { unit: string; part?: Cour
         <button type="button" className="btn primary block" onClick={finish} disabled={!ok && !model}>
           Listo
         </button>
-        {!ok && !model && <p className="sub">Puedes terminar cuando cumplas lo pedido o después de ver el modelo.</p>}
+        {!ok && !model && <p className="sub">Puedes terminar cuando llegues al mínimo de palabras o después de ver el modelo.</p>}
       </section>
     </>
   );

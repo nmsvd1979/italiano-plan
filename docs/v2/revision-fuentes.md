@@ -290,3 +290,14 @@ Sin clips de audio todavía (voz del sistema). No es revisión de un nativo.
 | Dudas | Las de la lista anterior (modelos originales), ninguna nueva en `docs/dudas-italiano.md` |
 
 No es revisión de un nativo.
+
+## Plan B1 · «Dos frases propias» (10-nov-2026, rama `feat/frases-propias`)
+35 consignas cortas (`src/content/propias.ts`, una por semana) con grupos de formas de la semana y dos frases modelo.
+
+| Nivel | Qué se hizo |
+|---|---|
+| **V1** | Sin palabras raras: son frases de los niveles de cada semana |
+| **V3** | Otra sesión (solo vio el archivo, de memoria, sin internet): **0 errores gramaticales ni de ortografía** en los modelos. Su hallazgo principal fue de diseño: los grupos de `mustInclude` eran tan estrechos que rechazaban respuestas correctas y comunes (*i miei pantaloni*, *Il fine settimana vado…*, *ho studiato*, *sono stato a…*, *ho bisogno di*). Apliqué: grupos ampliados en casi todas las semanas, y **las formas de la semana pasan a ser una sugerencia, no un requisito** (el único requisito es el mínimo de palabras, o ver el modelo). Cambios de modelo: *Sempre dritto c'è un semaforo*, *Gentile Direzione, Le scrivo per chiedere informazioni su una camera*, *studiare per un'ora*, *Dovresti uscire presto…*; consigna de u21 con una pregunta de ejemplo; u22 acepta *spero di*. El apóstrofo tipográfico del iPhone (’) lo normaliza `wordsOf` |
+| Dudas | Ninguna nueva para `docs/dudas-italiano.md` |
+
+Sin audio del modelo (se lee con `say()`). No es revisión de un nativo.
