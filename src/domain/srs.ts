@@ -201,6 +201,23 @@ export function addCardIfMissing(state: SrsState, input: NewCardInput, now: Date
 /** Día local (AAAA-MM-DD) de un instante guardado. */
 export const dayOf = (iso: string): string => toISODate(new Date(iso));
 
+/** Minutos dentro de los que una tarjeta sin repasar se considera creada por el fallo que se está corrigiendo. */
+const FORGET_WINDOW_MIN = 60;
+
+/**
+ * Quita la tarjeta que acaba de crear un fallo que luego se dio por válido («Mi respuesta también era válida»).
+ * Solo si es reciente y nunca se repasó: una tarjeta de un fallo anterior se queda.
+ */
+export function forgetFailure(store: KV, input: NewCardInput, now: Date = new Date()): void {
+  const state = loadSrs(store);
+  const id = cardId(input.kind, input.itemId);
+  const card = state.cards[id];
+  if (!card || card.fsrs.reps > 0 || state.log.some((l) => l.cardId === id)) return;
+  if (now.getTime() - new Date(card.createdAt).getTime() > FORGET_WINDOW_MIN * 60_000) return;
+  const { [id]: _quitada, ...cards } = state.cards;
+  saveSrs({ ...state, cards }, store);
+}
+
 /** Guarda en el almacenamiento una tarjeta nueva por un fallo en la práctica o el dictado. */
 export function recordFailure(store: KV, input: NewCardInput, now: Date = new Date()): void {
   const state = loadSrs(store);

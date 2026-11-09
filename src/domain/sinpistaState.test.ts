@@ -6,7 +6,7 @@ import { BACKUP_APP, BACKUP_VERSION, buildBackup, parseBackup } from "./backup";
 import {
   WEEK_SIZE, emptySinPista, loadSinPista, pickReview, pickWeek, recordSinPista, saveSinPista, stepOf,
 } from "./sinpistaState";
-import { addCardIfMissing, emptySrs, loadSrs } from "./srs";
+import { addCardIfMissing, emptySrs, forgetFailure, loadSrs, recordFailure } from "./srs";
 import { resolveSinPista, srsCardOf, isSinPistaId } from "./sinpistaSrs";
 import { resolveCard, type DeckContext } from "./srsDeck";
 
@@ -192,5 +192,32 @@ describe("las respuestas fallidas entran al repaso espaciado", () => {
     const state = addCardIfMissing(loadSrs(store), srsCardOf(e), new Date());
     expect(Object.keys(state.cards)).toEqual([`listen:${e.id}`]);
     expect(addCardIfMissing(state, srsCardOf(e), new Date())).toBe(state);
+  });
+
+  it("al dar por válida una respuesta rechazada, quita la tarjeta que creó ese fallo", () => {
+    const store = new Store();
+    const e = ex("translate");
+    recordFailure(store, srsCardOf(e));
+    expect(Object.keys(loadSrs(store).cards)).toEqual([`listen:${e.id}`]);
+    forgetFailure(store, srsCardOf(e));
+    expect(loadSrs(store).cards).toEqual({});
+  });
+
+  it("no quita una tarjeta de un fallo anterior ni una ya repasada", () => {
+    const store = new Store();
+    const e = ex("translate");
+    const antes = new Date(Date.now() - 3 * 3600_000);
+    recordFailure(store, srsCardOf(e), antes);
+    forgetFailure(store, srsCardOf(e));
+    expect(Object.keys(loadSrs(store).cards)).toEqual([`listen:${e.id}`]);
+
+    const repasada = new Store();
+    recordFailure(repasada, srsCardOf(e));
+    const st = loadSrs(repasada);
+    const id = `listen:${e.id}`;
+    st.cards[id].fsrs.reps = 1;
+    repasada.setItem("italianPlan.srs.v1", JSON.stringify(st));
+    forgetFailure(repasada, srsCardOf(e));
+    expect(Object.keys(loadSrs(repasada).cards)).toEqual([id]);
   });
 });

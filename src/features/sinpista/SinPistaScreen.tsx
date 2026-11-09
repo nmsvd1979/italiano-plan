@@ -7,7 +7,7 @@ import { loadSinPistaContent } from "../../content/lazy";
 import type { SinPista } from "../../content/sinpista";
 import { loadSinPista, pickWeek, recordSinPista, saveSinPista, stepOf, WEEK_SIZE, type SinPistaState } from "../../domain/sinpistaState";
 import { srsCardOf } from "../../domain/sinpistaSrs";
-import { recordFailure } from "../../domain/srs";
+import { forgetFailure, recordFailure } from "../../domain/srs";
 import { Icon } from "../../ui/Icon";
 import { SinPistaRunner, type SinPistaSummary } from "./SinPistaRunner";
 
@@ -16,6 +16,7 @@ export function saveAnswer(ex: SinPista, correct: boolean, corrected = false): v
   const next: SinPistaState = recordSinPista(loadSinPista(window.localStorage), ex.id, stepOf(ex), correct, corrected);
   saveSinPista(next, window.localStorage);
   if (!correct) recordFailure(window.localStorage, srsCardOf(ex));
+  else if (corrected) forgetFailure(window.localStorage, srsCardOf(ex));
 }
 
 export function SinPistaScreen({ unit, part = null, size = WEEK_SIZE }: { unit: string; part?: CoursePart | null; size?: number }) {
