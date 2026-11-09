@@ -2884,13 +2884,6 @@
   "license": "CC BY 4.0"
  },
  {
-  "id": "4210a9c366e0",
-  "text": "Oggi porto una maglietta bianca, pantaloni neri e scarpe marroni. La mia giacca è verde. Vorrei comprare un cappello rosso: quel cappello nel negozio è molto bello. La mia maglietta preferita è blu e costa venti euro. Non porto mai il rosso.",
-  "sha1": "4210a9c366e0d7db8e178ea72e10729a95345ef4",
-  "voice": "it_IT-serena-high",
-  "license": "CC BY 4.0"
- },
- {
   "id": "421838c72a8e",
   "text": "Ci sentiamo domani, ciao!",
   "sha1": "421838c72a8ef211a2ae567e3918dc349d3642db",
@@ -3370,6 +3363,13 @@
   "id": "4d89aad8105f",
   "text": "La mia data di nascita è il tre marzo.",
   "sha1": "4d89aad8105fea48e8e0a4e94f09c4dc22e67a6c",
+  "voice": "it_IT-serena-high",
+  "license": "CC BY 4.0"
+ },
+ {
+  "id": "4da6b0729cd4",
+  "text": "Oggi porto una maglietta bianca, pantaloni neri e scarpe marroni. La mia giacca è verde. Vorrei comprare un cappello rosso: quel cappello nel negozio è molto bello. La mia maglietta preferita è blu e costa venti euro. Non porto mai il giallo.",
+  "sha1": "4da6b0729cd4b4d136d2f1f302fe479864559e6f",
   "voice": "it_IT-serena-high",
   "license": "CC BY 4.0"
  },

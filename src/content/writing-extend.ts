@@ -29,9 +29,9 @@ export const WRITING_EXTRAS: Record<string, WritingExtras> = {
   u06: {
     mustInclude: [["porto"], ["la mia"], ["vorrei"]],
     extend: {
-      prompt: "Agrega cuál es tu prenda favorita, de qué color es y cuánto costó.",
+      prompt: "Agrega cuál es tu prenda favorita, de qué color es y cuánto cuesta.",
       minWords: 36,
-      model: "Oggi porto una maglietta bianca, pantaloni neri e scarpe marroni. La mia giacca è verde. Vorrei comprare un cappello rosso: quel cappello nel negozio è molto bello. La mia maglietta preferita è blu e costa venti euro. Non porto mai il rosso.",
+      model: "Oggi porto una maglietta bianca, pantaloni neri e scarpe marroni. La mia giacca è verde. Vorrei comprare un cappello rosso: quel cappello nel negozio è molto bello. La mia maglietta preferita è blu e costa venti euro. Non porto mai il giallo.",
       mustInclude: [["preferita", "preferito"], ["costa"]],
     },
   },
@@ -101,16 +101,16 @@ export const WRITING_EXTRAS: Record<string, WritingExtras> = {
     extend: {
       prompt: "Agrega qué hicieron en la ciudad y cuándo salieron de viaje.",
       minWords: 36,
-      model: "Sono andata a Firenze in treno. Siamo arrivati alle dieci. Ci siamo alzati presto e siamo usciti dall'albergo. Siamo tornati lunedì sera. Siamo stati in centro tutto il giorno e siamo entrati in due musei. Siamo partiti sabato mattina.",
+      model: "Sono andata a Firenze in treno. Siamo arrivati alle dieci. Ci siamo alzati presto e siamo usciti dall'albergo. Siamo tornati lunedì sera. Siamo partiti sabato mattina e siamo stati in centro tutto il giorno. Abbiamo visitato due musei.",
       mustInclude: [["siamo stati"], ["siamo partiti"]],
     },
   },
   u11: {
     mustInclude: [["abitavo", "giocavo"], ["un giorno", "mentre"]],
     extend: {
-      prompt: "Agrega cómo era tu casa, qué hacía tu madre y qué pasó con el recuerdo.",
+      prompt: "Agrega cómo era tu casa, qué hacía tu madre y qué pasó después con el gato.",
       minWords: 38,
-      model: "Da piccola abitavo in una casa grande con mio nonno. D'estate giocavo in giardino. Un giorno, mentre giocavo, ho trovato un gatto. La casa era grande e tranquilla. Mia madre cucinava sempre il pranzo. Ho tenuto il gatto per molti anni.",
+      model: "Da piccola abitavo in una casa grande con mio nonno. D'estate giocavo in giardino. Un giorno, mentre giocavo, ho trovato un gatto. La casa era vecchia e tranquilla. Mia madre cucinava sempre il pranzo. Ho tenuto il gatto per molti anni.",
       mustInclude: [["la casa era"], ["cucinava"]],
     },
   },
@@ -119,7 +119,7 @@ export const WRITING_EXTRAS: Record<string, WritingExtras> = {
     extend: {
       prompt: "Agrega una tercera comparación (con *meno*) y qué bebida llevarías a la cena.",
       minWords: 40,
-      model: "Roma è più grande di Torino, ma Torino è più tranquilla. Per la cena vorrei del pane, dei pomodori e del formaggio. Il formaggio è il più caro del mercato. Milano è meno calda di Roma. Voglio anche del vino e dell'acqua per la cena.",
+      model: "Roma è più grande di Torino, ma Torino è più tranquilla. Per la cena vorrei del pane, dei pomodori e del formaggio. Il formaggio è il più caro del mercato. Milano è meno calda di Roma. Porto anche del vino e dell'acqua.",
       mustInclude: [["meno"], ["del vino"]],
     },
   },
@@ -128,7 +128,7 @@ export const WRITING_EXTRAS: Record<string, WritingExtras> = {
     extend: {
       prompt: "Agrega a qué hora llegan y qué plato te gustaría pedir.",
       minWords: 30,
-      model: "Ciao! Ho prenotato per due persone. Sono vegetariano e sono allergico alle noci. Il servizio è incluso? Arriviamo alle otto e mezza. Come primo vorrei la pasta e come secondo il pesce.",
+      model: "Ciao! Ho prenotato per due persone. Sono vegetariano e sono allergico alle noci. Il servizio è incluso? Arriviamo alle otto e mezza. Come primo vorrei la pasta e come secondo le verdure grigliate.",
       mustInclude: [["alle otto", "alle nove", "alle sette"], ["come primo", "come secondo"]],
     },
   },
@@ -137,8 +137,8 @@ export const WRITING_EXTRAS: Record<string, WritingExtras> = {
     extend: {
       prompt: "Agrega por qué no te gusta y qué prefieres: otro color o que te devuelvan el dinero.",
       minWords: 38,
-      model: "Buongiorno, ho comprato questa giacca ieri, ma è troppo piccola. Vorrei restituirla. L'ho pagata trenta euro e ho ancora lo scontrino. Posso cambiarla? Non mi piace il colore: la voglio blu. Se non c'è, preferisco restituirla e riavere i soldi.",
-      mustInclude: [["la voglio"], ["preferisco"]],
+      model: "Buongiorno, ho comprato questa giacca ieri, ma è troppo piccola. Vorrei restituirla. L'ho pagata trenta euro e ho ancora lo scontrino. Posso cambiarla? Non mi piace il colore: la vorrei blu. Se non c'è, preferisco restituirla e riavere i soldi.",
+      mustInclude: [["la vorrei", "la voglio"], ["preferisco"]],
     },
   },
   u14: {
@@ -146,7 +146,7 @@ export const WRITING_EXTRAS: Record<string, WritingExtras> = {
     extend: {
       prompt: "Agrega qué debe hacer el turista al llegar a la estación (trato formal).",
       minWords: 40,
-      model: "Vada dritto fino al semaforo e giri a destra. La stazione è dopo il ponte. Prenda la metro e scenda a Termini. Al mercato vorrei delle mele: ne vorrei due chili. Alla stazione chieda il biglietto e poi salga sul treno.",
+      model: "Vada dritto fino al semaforo e giri a destra. La stazione è dopo il ponte. Prenda la metro e scenda a Termini. Al mercato vorrei delle mele: ne vorrei due chili. Alla stazione chieda informazioni allo sportello e poi salga sul treno.",
       mustInclude: [["chieda"], ["salga"]],
     },
   },
@@ -154,14 +154,14 @@ export const WRITING_EXTRAS: Record<string, WritingExtras> = {
     extend: {
       prompt: "Agrega dos instrucciones más con *tu*: qué hacer en la farmacia y a qué hora llegar.",
       minWords: 27,
-      model: "Vai dritto fino al semaforo. Gira a destra. Non attraversare la strada in fretta. Poi entra nella farmacia e chiedi un'informazione. Arriva prima delle cinque, perché chiude presto.",
+      model: "Vai dritto fino al semaforo. Gira a destra. Non attraversare la strada in fretta. Poi entra in farmacia e chiedi un'informazione. Arriva prima delle cinque, perché chiude presto.",
       mustInclude: [["entra"], ["arriva"]],
     },
   },
   u15: {
     mustInclude: [["andrò", "studierò", "farò", "verrò"], ["potrebbe", "vorrei"]],
     extend: {
-      prompt: "Agrega qué harás allá y cuándo comprarás el pasaje (futuro).",
+      prompt: "Agrega qué harás allá y cuándo comprarás el boleto (futuro).",
       minWords: 32,
       model: "L'anno prossimo andrò in Italia e studierò italiano ogni giorno. Potrebbe aiutarmi con la prenotazione dell'albergo? Vorrei partire a settembre. Visiterò Roma e Firenze e farò molte foto. Tra una settimana comprerò il biglietto.",
       mustInclude: [["visiterò"], ["tra una settimana", "tra un mese"]],
@@ -171,7 +171,7 @@ export const WRITING_EXTRAS: Record<string, WritingExtras> = {
     extend: {
       prompt: "Agrega una oferta con *se vuoi* y pídele que te avise si no puede venir.",
       minWords: 34,
-      model: "Ciao Anna! Sabato c'è una festa a casa mia: vieni? Potresti portare un dolce? Dovresti prendere un taxi, perché casa mia è lontana. Se vieni, sono molto contenta. Se vuoi, puoi dormire da me. Se non puoi venire, dimmelo presto.",
+      model: "Ciao Anna! Sabato c'è una festa a casa mia: vieni? Potresti portare un dolce? Dovresti prendere un taxi, perché casa mia è lontana. Se vieni, sono molto contenta. Se vuoi, puoi dormire da me. Se non puoi venire, avvisami presto.",
       mustInclude: [["se vuoi"], ["se non puoi"]],
     },
   },
@@ -180,7 +180,7 @@ export const WRITING_EXTRAS: Record<string, WritingExtras> = {
     extend: {
       prompt: "Agrega desde cuándo te sientes mal y qué quieres hacer mañana.",
       minWords: 40,
-      model: "Ciao Anna, oggi non sto bene. Ho mal di testa e un po' di febbre. Mi serve una farmacia vicina: puoi aiutarmi, per favore? Non ho niente per la tosse. Grazie mille! Sto male da ieri sera e non ho dormito. Domani vorrei restare a letto, ma devo uscire un momento.",
+      model: "Ciao Anna, oggi non sto bene. Ho mal di testa e un po' di febbre. Mi serve una farmacia vicina: puoi aiutarmi, per favore? Non ho niente per la tosse. Sto male da ieri sera e non ho dormito. Domani vorrei restare a letto, ma devo uscire un momento. Grazie mille!",
       mustInclude: [["da ieri", "da due giorni"], ["domani"]],
     },
   },
