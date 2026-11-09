@@ -72,7 +72,7 @@ const DAY_TABLE: { name: string; blocks: Block[] }[] = [
     name: "Regla",
     blocks: [
       srs,
-      { id: "relisten", kind: "dialogue", name: "Volver a oír el diálogo con la regla", minutes: 6, core: false, icon: "headphones", needs: "dialogue" },
+      { id: "relisten", kind: "dialogue", name: "Oír el diálogo y completar", minutes: 6, core: false, icon: "headphones", needs: "dialogue" },
       { id: "lesson", kind: "lesson", name: "Lección de gramática", minutes: 10, core: true, icon: "book", legacy: ["lesson"] },
       { id: "guided", kind: "practice", name: "Práctica guiada", minutes: 4, core: false, icon: "book", size: 4 },
       { id: "own", kind: "own", name: "Dos frases propias", minutes: 5, core: false, icon: "pen", hideUnless: "own" },

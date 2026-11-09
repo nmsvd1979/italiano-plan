@@ -28,6 +28,7 @@ import { Setup } from "./features/setup/Setup";
 import { Today } from "./features/today/Today";
 import { VocabScreen } from "./features/vocab/VocabScreen";
 import { WritingScreen } from "./features/writing/WritingScreen";
+import { GapDialogueScreen } from "./features/dialogue/GapDialogueScreen";
 import { SpeedScreen } from "./features/dictation/SpeedScreen";
 import { PropiasScreen } from "./features/writing/PropiasScreen";
 import { MonologueScreen } from "./features/speaking/MonologueScreen";
@@ -98,6 +99,7 @@ function Screens() {
   if (dictation) return <DictationScreen key={`dictation-${dictation[1]}${partKey}`} unit={dictation[1]} part={part} />;
   const dialogue = route.match(new RegExp(`^/dialogo/${UNIT}$`));
   if (dialogue) {
+    if (q.get("mode") === "huecos") return <GapDialogueScreen key={`huecos-${dialogue[1]}`} unit={dialogue[1]} />;
     return q.get("mode") === "rol"
       ? <RolePlayScreen key={`rol-${dialogue[1]}${partKey}`} unit={dialogue[1]} part={part} />
       : <DialogueScreen key={`dialogue-${dialogue[1]}`} unit={dialogue[1]} />;
