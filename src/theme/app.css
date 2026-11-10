@@ -670,3 +670,24 @@ em, .it { font-family: var(--font-it); font-style: italic; font-weight: 500; }
 .exercise-foot.correct .btn.primary { background: var(--good); color: var(--on-status); }
 /* El ejercicio ya trae su propia estructura: la tarjeta que lo envuelve no se dibuja. */
 .card:has(.runner) { background: transparent; border: 0; box-shadow: none; padding: 0; }
+
+/* ---------- Resto de pantallas ---------- */
+.card .exercise-foot { margin: 8px -18px -18px; border-radius: 0 0 var(--radius-lg) var(--radius-lg); }
+.setup-card { padding: 22px 20px; gap: 14px; }
+.setup-card .display { font-size: 34px; margin-top: 4px; }
+.setup-brand { margin-bottom: 4px; }
+
+/* Diálogos: burbujas. Lo del otro, claro a la izquierda; lo tuyo, oscuro a la derecha. */
+.card.dialogue { background: transparent; border: 0; box-shadow: none; padding: 0; gap: 14px; }
+.dline { max-width: 88%; }
+.dtext { background: var(--surface); border: 1px solid var(--border); border-radius: 18px 18px 18px 6px; padding: 12px 14px; font-size: var(--fs-lg); line-height: 1.35; }
+.dline.mine .dtext { background: var(--ink); color: var(--on-ink); border-color: var(--border-strong); border-radius: 18px 18px 6px 18px; }
+.dline.mine .audio-btn { background: var(--ink-2); border-color: var(--ink-2); color: var(--on-ink); }
+.dcue { border-radius: 18px 18px 6px 18px; background: var(--surface); }
+.dline.mine .des, .dline.mine .dwho { text-align: right; }
+.vocab-it { font-size: var(--fs-lg); }
+.card.ink { border-color: var(--ink-2); }
+/* Un enunciado dentro de una tarjeta ya no es otra tarjeta. */
+.card .runner-prompt { background: none; border: 0; padding: 0; border-radius: 0; }
+.exercise-foot:empty { display: none; }
+.card .exercise-foot:not(.correct):not(.almost):not(.wrong) { background: transparent; border-top: 0; padding-bottom: 18px; }

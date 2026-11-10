@@ -73,7 +73,7 @@ export function ExerciseRunner({ items, onAnswer, onFinish, finishLabel }: Props
       index={index} total={items.length} done={!!grade} tone={grade ?? undefined}
       feedback={grade && (
         <Feedback tone={grade} head={grade === "correct" ? "¡Correcto!" : grade === "almost" ? "Casi: revisa la tilde" : "No era esa"}>
-          {grade !== "correct" && <p>Respuesta: <strong className="it">{correctText(e)}</strong></p>}
+          {grade !== "correct" && <p>Respuesta: <strong className={e.type === "fill" ? "it" : undefined}>{correctText(e)}</strong></p>}
           <p><Rich text={e.why} /></p>
         </Feedback>
       )}

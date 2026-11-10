@@ -11,7 +11,7 @@ export function Setup() {
   return (
     <div className="card stack setup-card">
       <div className="brand setup-brand"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>Italiano</div>
-      <h1 className="title">Empecemos</h1>
+      <h1 className="display">Empecemos.</h1>
       <p className="sub">
         Cada semana del curso son 7 días de unos 30 minutos (15 en modo corto). No hay calendario fijo: el plan avanza contigo. Si un día no estudias, mañana sigue lo mismo; si tienes más tiempo, sigues con lo que viene. La fecha solo sirve para medir tu ritmo.
       </p>

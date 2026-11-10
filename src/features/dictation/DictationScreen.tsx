@@ -149,6 +149,7 @@ export function DictationScreen({ unit, part }: { unit: string; part?: CoursePar
             )}
             <AccentBar disabled={!!grade} onPick={type} />
 
+            <div className={`exercise-foot${grade ? ` ${grade}` : ""}`}>
             {diff && grade && (
               <div className={`feedback ${grade}`} role="status">
                 <div className="feedback-head">
@@ -176,6 +177,7 @@ export function DictationScreen({ unit, part }: { unit: string; part?: CoursePar
             ) : (
               <button className="btn primary block" type="button" onClick={check} disabled={!canCheck}>Comprobar</button>
             )}
+            </div>
           </div>
         )}
       </section>
