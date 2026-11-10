@@ -96,13 +96,13 @@ export function SpeedScreen({ unit, part = null }: { unit: string; part?: Course
             {shown === null ? (
               <button type="button" className="btn block" onClick={check} disabled={digits(text) === ""}>Comprobar</button>
             ) : (
-              <>
+              <div className={`exercise-foot ${shown === "ok" ? "correct" : "wrong"}`}>
                 <div role="status" className={`feedback ${shown === "ok" ? "correct" : "wrong"}`}>
                   <div className="feedback-head"><Icon name={shown === "ok" ? "check" : "x"} size={18} /> {shown === "ok" ? "¡Correcto!" : "No era ese"}</div>
                   <p><b>{item.n}</b> · <i>{item.it}</i></p>
                 </div>
                 <button type="button" className="btn primary block" onClick={next}>{index < items.length - 1 ? "Siguiente" : "Ver resultado"}</button>
-              </>
+              </div>
             )}
           </>
         )}

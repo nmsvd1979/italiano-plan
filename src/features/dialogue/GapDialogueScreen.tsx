@@ -91,13 +91,13 @@ export function GapDialogueScreen({ unit }: { unit: string }) {
                 <button type="button" className="btn block" onClick={check} disabled={typed.trim() === ""}>Comprobar</button>
               </>
             ) : (
-              <>
+              <div className={`exercise-foot ${result}`}>
                 <div role="status" className={`feedback ${result}`}>
                   <div className="feedback-head"><Icon name={result === "wrong" ? "x" : "check"} size={18} /> {result === "correct" ? "¡Correcto!" : result === "almost" ? "Casi: revisa la tilde" : "No era esa"}</div>
-                  <p>Palabra: <b>{answer}</b></p>
+                  <p>Palabra: <b className="it">{answer}</b></p>
                 </div>
                 <button type="button" className="btn primary block" onClick={next}>{index < lines.length - 1 ? "Siguiente" : "Ver resultado"}</button>
-              </>
+              </div>
             )}
           </>
         )}
