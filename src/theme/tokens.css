@@ -17,6 +17,7 @@
   --accent-ink: #174a85;
   --accent-soft: #e3eefa;
   --on-accent: #ffffff;
+  --on-status: #ffffff;
 
   --saffron: #e09a0c;
   --saffron-soft: #fcf1d4;
@@ -61,6 +62,7 @@
     --accent-ink: #a9cdf5;
     --accent-soft: #1d2f45;
     --on-accent: #0e1a2b;
+    --on-status: #10161d;
 
     --saffron: #f0b840;
     --saffron-soft: #3a2f14;
@@ -99,6 +101,7 @@
   --accent-ink: #a9cdf5;
   --accent-soft: #1d2f45;
   --on-accent: #0e1a2b;
+  --on-status: #10161d;
 
   --saffron: #f0b840;
   --saffron-soft: #3a2f14;

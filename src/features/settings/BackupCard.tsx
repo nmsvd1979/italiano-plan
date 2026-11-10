@@ -147,7 +147,7 @@ export function BackupCard() {
         </p>
       )}
 
-      <div className="row">
+      <div className="btn-row">
         <button className="btn primary" type="button" disabled={busy} onClick={doExport}>Exportar copia</button>
         <button className="btn" type="button" onClick={() => fileInput.current?.click()}>Importar copia</button>
         <input
@@ -157,7 +157,7 @@ export function BackupCard() {
       </div>
 
       {message && (
-        <p className="sub" role="status" style={message.kind === "error" ? { color: "var(--bad)" } : undefined}>{message.text}</p>
+        <p role="status" className={message.kind === "error" ? "sub text-bad" : "sub"}>{message.text}</p>
       )}
 
       {pending && (
@@ -173,7 +173,7 @@ export function BackupCard() {
               {pending.ignored.length > 0 && ` ${pending.ignored.length} dato(s) de la copia no se reconocen y se omitirán.`}
             </span>
           </p>
-          <div className="row">
+          <div className="btn-row">
             <button className="btn danger" type="button" onClick={confirmImport}>Reemplazar mi progreso</button>
             <button className="btn" type="button" onClick={() => setPending(null)}>Cancelar</button>
           </div>

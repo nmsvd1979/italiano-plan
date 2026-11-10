@@ -29,17 +29,17 @@ export function SrsCard() {
       <p className="sub">
         {cards.length === 0 ? "Todavía no tienes tarjetas." : `${cards.length} tarjetas guardadas (viajan en la copia de seguridad).`}
       </p>
-      <label className="row" style={{ alignItems: "center", gap: 10 }}>
-        <input type="checkbox" checked={freqOn} onChange={toggleFreq} style={{ width: 24, height: 24 }} />
-        <span>Palabras frecuentes: {LIMITS.freqNewPerDay} nuevas al día</span>
+      <label className="switch-row">
+        <span><b>Palabras frecuentes</b><small>{LIMITS.freqNewPerDay} nuevas al día</small></span>
+        <input type="checkbox" role="switch" className="switch" checked={freqOn} onChange={toggleFreq} />
       </label>
       <p className="sub">
         Las palabras más comunes del italiano que las unidades no traen, con su frase. Solo tarjetas de reconocer.
         {freqStarted > 0 ? ` Ya empezaste ${freqStarted}.` : ""} Si lo apagas, no salen más nuevas y las que ya empezaste siguen su repaso.
       </p>
-      <label className="row" style={{ alignItems: "center", gap: 10 }}>
-        <input type="checkbox" checked={on} onChange={toggle} style={{ width: 24, height: 24 }} />
-        <span>Mazo extra de Quizlet: {LIMITS.quizletNewPerDay} palabras nuevas al día</span>
+      <label className="switch-row">
+        <span><b>Mazo extra de Quizlet</b><small>{LIMITS.quizletNewPerDay} palabras nuevas al día</small></span>
+        <input type="checkbox" role="switch" className="switch" checked={on} onChange={toggle} />
       </label>
       <p className="sub">
         Palabras del mazo de 1.400 términos que todavía no están en las unidades. Solo tarjetas de reconocer.

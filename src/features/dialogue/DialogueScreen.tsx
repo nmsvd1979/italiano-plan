@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
@@ -27,7 +28,7 @@ export function DialogueScreen({ unit }: { unit: string }) {
   const [playing, setPlaying] = useState(false);
   const run = useRef(0);
 
-  if (!dialogue) return <p className="sub">Esta unidad todavía no tiene diálogo.</p>;
+  if (!dialogue) return <EmptyState message="Esta unidad todavía no tiene diálogo." />;
 
   const reveal = (i: number) => {
     setRevealed((r) => (r.includes(i) ? r : [...r, i]));

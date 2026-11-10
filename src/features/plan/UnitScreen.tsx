@@ -1,4 +1,5 @@
 import { useApp } from "../../app/state";
+import { EmptyState } from "../../ui/EmptyState";
 import { useSrsCards } from "../../app/blockTimer";
 import { goBack } from "../../app/route";
 import { COURSE } from "../../content/course";
@@ -13,7 +14,7 @@ export function UnitScreen({ id }: { id: string }) {
   const { steps, course, rawCourse, canDo, toggleCanDo, progress, today } = useApp();
   const srsCards = useSrsCards(progress, today);
   const unit = getUnit(id);
-  if (!unit) return <p className="sub">No existe esa unidad.</p>;
+  if (!unit) return <EmptyState message="No existe esa unidad." />;
 
   const phase = getPhase(unit.phase);
   const up = unitCycleProgress(unit.id, course);
@@ -59,10 +60,10 @@ export function UnitScreen({ id }: { id: string }) {
         <>
           <section className="card stack">
             <div className="eyebrow">Para repasar cuando quieras</div>
-            <div className="activity-links">
+            <div className="tool-grid">
               {mine.filter((s) => !["test", "review"].includes(s.activity.id)).filter((s, i, a) => a.findIndex((x) => x.activity.id === s.activity.id) === i).map((s) => {
                 const link = internalRoute(s);
-                return link ? <a key={s.key} className="chip primary" href={link.to}>{s.activity.name} <Icon name="play" size={14} /></a> : null;
+                return link ? <a key={s.key} className="tool" href={link.to}><Icon name={s.activity.icon} size={18} /><span>{s.activity.name}</span></a> : null;
               })}
             </div>
           </section>

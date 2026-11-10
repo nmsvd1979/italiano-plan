@@ -53,7 +53,10 @@ export function Settings() {
         <a className="back" href="#/" onClick={(e) => { e.preventDefault(); goBack(); }} aria-label="Volver">
           <Icon name="arrowLeft" size={20} />
         </a>
-        <h1 className="title">Ajustes</h1>
+        <div>
+          <div className="eyebrow">Tu app</div>
+          <h1 className="title">Ajustes</h1>
+        </div>
       </header>
 
       <section className="card stack">
@@ -100,7 +103,7 @@ export function Settings() {
           <input id="rtime" className="input" type="time" value={settings.reminderTime}
             onChange={(e) => patchSettings({ reminderTime: e.target.value })} />
         </div>
-        <div className="row">
+        <div className="btn-row">
           <button className="btn primary" type="button" onClick={enableReminder}>Activar</button>
           <button className="btn" type="button" onClick={() => patchSettings({ reminderEnabled: false })}>Desactivar</button>
         </div>
@@ -115,7 +118,7 @@ export function Settings() {
       </section>
 
       <section className="card">
-        <div className="eyebrow" style={{ marginBottom: 6 }}>Accesos directos <span className="net-tag">Necesita internet</span></div>
+        <div className="eyebrow mb">Accesos directos <span className="net-tag">Necesita internet</span></div>
         <div className="link-list">
           {SHORTCUTS.map(([k, label]) => (
             <a key={k} href={RESOURCES[k].url} target="_blank" rel="noopener noreferrer">
@@ -140,7 +143,7 @@ export function Settings() {
       <section className="card stack">
         <div className="eyebrow">Datos</div>
         <p className="sub">Todo se guarda solo en este teléfono. No hay cuenta ni sincronización.</p>
-        <div className="row">
+        <div className="btn-row">
           <button className="btn danger" type="button"
             onClick={() => window.confirm("¿Borrar todo el progreso marcado? La fecha de inicio se mantiene.") && resetProgress()}>
             Borrar progreso

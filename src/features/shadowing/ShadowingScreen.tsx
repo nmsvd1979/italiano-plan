@@ -44,7 +44,7 @@ function PickVideo({ unit, onPick }: { unit: string; onPick: (id: string) => voi
         <a className="btn" href={search} target="_blank" rel="noreferrer">Buscar «{query}» en YouTube <Icon name="external" size={16} /></a>
         <div className="field">
           <label htmlFor="yt-pick">Link del video</label>
-          <div className="row" style={{ flexWrap: "nowrap" }}>
+          <div className="row nowrap">
             <input id="yt-pick" className="input" placeholder="Pega un link" value={pasted} onChange={(e) => setPasted(e.target.value)} />
             <button type="button" className="btn primary" onClick={use}>Usar</button>
           </div>
@@ -254,7 +254,7 @@ function ShadowingPlayer({ unit, pickedId }: { unit: string; pickedId: string | 
         </div>
         <div className="field">
           <label htmlFor="yt">Otro video de YouTube</label>
-          <div className="row" style={{ flexWrap: "nowrap" }}>
+          <div className="row nowrap">
             <input id="yt" className="input" placeholder="Pega un link" value={pasted} onChange={(e) => setPasted(e.target.value)} />
             <button type="button" className="btn" onClick={usePasted}>Usar</button>
           </div>
@@ -264,7 +264,7 @@ function ShadowingPlayer({ unit, pickedId }: { unit: string; pickedId: string | 
 
       <section className="card stack">
         <div className="eyebrow">Paso {step + 1} de {STEPS.length}</div>
-        <h2 className="title" style={{ fontSize: 18 }}>{current.title}</h2>
+        <h2 className="title sm">{current.title}</h2>
         <p className="sub">{current.text}</p>
         <div className="steps" role="group" aria-label="Pasos">
           {STEPS.map((s, i) => (

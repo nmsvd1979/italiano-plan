@@ -4,6 +4,7 @@ import { optionOrder } from "../../domain/optionOrder";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
 import { say, useItalianVoice } from "../../ui/speech";
+import { VoiceNotice } from "../../ui/VoiceNotice";
 
 export interface TestResult { item: TestItem; points: number }
 
@@ -50,12 +51,13 @@ export function TestRunner({ items, onAnswer, onFinish }: { items: TestItem[]; o
         <span>{index + 1} de {items.length}</span>
       </div>
       <div className="eyebrow">{AREA_NAME[item.area as Area]}</div>
+      {item.area === "escucha" && <VoiceNotice needed="Sin voz italiana, el audio solo suena si está descargado (Ajustes)." />}
 
       {item.area === "lectura" && <p className="reading-p">{item.text}</p>}
       {item.area === "escucha" && (
         <div className="hero-row">
           <p className="sub">Escucha y responde.</p>
-          {voice !== "no" && <button type="button" className="audio-btn" style={{ width: 56, height: 56 }} onClick={() => say(item.it)} aria-label="Escuchar"><Icon name="sound" size={26} /></button>}
+          <button type="button" className="audio-btn lg" onClick={() => say(item.it)} aria-label="Escuchar"><Icon name="sound" size={26} /></button>
         </div>
       )}
       {item.area === "produccion" ? (

@@ -54,13 +54,13 @@ export function LevelTestScreen() {
       <section className="card stack">
         {!battery ? <p className="sub">Cargando…</p> : scores && t ? (
           <>
-            <span className="pill accent" style={{ alignSelf: "flex-start" }}>{passed ? "Nivel A2 alcanzado" : "Todavía no"}</span>
+            <span className={`pill self-start ${passed ? "good" : "warn"}`}>{passed ? "Nivel A2 alcanzado" : "Todavía no"}</span>
             <p className="sub">
               {passed ? `Llegaste al ${Math.round(PASS_LEVEL * 100)} % que se pide.` : `Para el nivel hace falta ${Math.round(PASS_LEVEL * 100)} %. Refuerza ${weak.length ? weak.map((a) => AREA_NAME[a].toLowerCase()).join(", ") : "lo que fallaste"} y vuelve a intentarlo cuando quieras.`}
               {" "}Los umbrales son provisionales y se ajustan con tus datos reales.
             </p>
             <ResultView scores={scores} battery={battery} objective />
-            <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
+            <a className="btn primary block" href="#/">Volver a Hoy</a>
           </>
         ) : (
           <>

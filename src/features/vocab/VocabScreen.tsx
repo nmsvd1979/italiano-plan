@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Score } from "../../ui/Score";
 import { useApp } from "../../app/state";
 import { goBack, routeQuery } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
@@ -75,11 +76,11 @@ export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | 
                   <span className="vocab-it">{v.it}</span>
                   <span className="vocab-es">{v.es}</span>
                   {v.ex && (
-                    <span className="sub" style={{ gridColumn: 2, margin: 0, fontSize: 13 }}>
-                      <button type="button" className="audio-btn" style={{ width: 28, height: 28, marginRight: 6, verticalAlign: "middle" }} onClick={() => say(v.ex!)} aria-label={`Escuchar la frase: ${v.ex}`}>
+                    <span className="vocab-ex">
+                      <button type="button" className="audio-btn small" onClick={() => say(v.ex!)} aria-label={`Escuchar la frase: ${v.ex}`}>
                         <Icon name="sound" size={14} />
                       </button>
-                      {v.ex} · {v.exEs}
+                      <span>{v.ex} · {v.exEs}</span>
                     </span>
                   )}
                 </div>
@@ -110,7 +111,7 @@ export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | 
 
       {stage === "done" && summary && (
         <section className="card stack">
-          <div className="score">{summary.correct} de {summary.total}</div>
+          <Score correct={summary.correct} total={summary.total} />
           <p className="sub">
             {summary.missed.length === 0
               ? "Todas bien. Estas palabras ya van a aparecer en las lecciones y los diálogos."
@@ -122,7 +123,7 @@ export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | 
               <strong>{item.exercise.type === "choice" ? item.exercise.options[item.exercise.answer] : ""}</strong>
             </div>
           ))}
-          <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
+          <a className="btn primary block" href="#/">Volver a Hoy</a>
         </section>
       )}
     </>

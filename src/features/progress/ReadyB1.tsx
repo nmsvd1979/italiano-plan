@@ -53,7 +53,7 @@ export function ReadyB1Screen() {
         </div>
       </header>
       <section className="card stack">
-        <span className="pill accent" style={{ alignSelf: "flex-start" }}>{ready ? "Las seis evidencias están completas" : "Todavía faltan evidencias"}</span>
+        <span className="pill accent self-start">{ready ? "Las seis evidencias están completas" : "Todavía faltan evidencias"}</span>
         <p className="sub">
           Son seis evidencias de lo que ya guarda la app. No es una nota ni un diagnóstico, y los umbrales son criterios del proyecto, no los de un examen
           (el del CILS B1 no se pudo consultar). Una luz «sin datos» nunca cuenta como lista. No mide corrección de lo escrito ni de lo hablado,
@@ -62,14 +62,14 @@ export function ReadyB1Screen() {
       </section>
       {lights.map((l) => (
         <section key={l.id} className="card stack">
-          <div className="row" style={{ justifyContent: "space-between" }}>
+          <div className="row between">
             <b>{l.name}</b>
-            <span className={`status ${l.state === "verde" ? "status-done" : ""}`}>{LABEL[l.state]}</span>
+            <span className={`status ${l.state === "verde" ? "status-done" : l.state === "ambar" ? "status-amber" : ""}`}>{LABEL[l.state]}</span>
           </div>
           <p className="sub">{l.detail}</p>
           {l.next && (
             <p className="sub">
-              {l.next}{NEXT_LINK[l.id] && <> <a href={href(NEXT_LINK[l.id])}>Ir</a></>}
+              {l.next}{NEXT_LINK[l.id] && <> <a className="chip inline" href={href(NEXT_LINK[l.id])}>Ir <Icon name="chevronRight" size={14} /></a></>}
             </p>
           )}
         </section>

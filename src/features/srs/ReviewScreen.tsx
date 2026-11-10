@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { Rich } from "../../ui/Rich";
 import type { GeneralWord } from "../../content/vocab";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
@@ -163,9 +164,9 @@ export function ReviewScreen() {
           {answered >= LIMITS.warnAt && (
             <p className="note"><Icon name="info" size={16} /><span>Ya llevas {answered} tarjetas hoy: es un buen momento para parar.</span></p>
           )}
-          <div className="row">
+          <div className="btn-row">
             {canContinue && <button className="btn" type="button" onClick={() => makeBatch(srs, ctx, quizlet, freq)}>Seguir repasando</button>}
-            <a className="btn primary" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
+            <a className="btn primary" href="#/">Volver a Hoy</a>
           </div>
         </section>
       ) : (
@@ -222,7 +223,7 @@ function CardView({ entry, position, total, ctx, units, onAnswer, onRerate, onNe
   const hidden = useMemo(() => {
     if (!choice || !hint) return new Set<number>();
     const wrong = choice.options.map((_, i) => i).filter((i) => i !== choice.answerIndex);
-    return new Set(wrong.slice(0, Math.floor(wrong.length / 2)));
+    return new Set(wrong.slice(0, Math.max(1, wrong.length - 1)));
   }, [choice, hint]);
 
   const answerChoice = (i: number) => {
@@ -277,10 +278,10 @@ function CardView({ entry, position, total, ctx, units, onAnswer, onRerate, onNe
       <section className="card stack">
         <div className="hero-row">
           <p className="runner-prompt">
-            {resolved.kind === "listen" && rating ? resolved.it : prompt}
+            {resolved.kind === "listen" && rating ? resolved.it : <Rich text={prompt} />}
           </p>
           {(resolved.kind !== "prod" || rating) && (
-            <button type="button" className="audio-btn" style={{ width: 56, height: 56 }} onClick={play} aria-label="Escuchar">
+            <button type="button" className="audio-btn lg" onClick={play} aria-label="Escuchar">
               <Icon name="sound" size={26} />
             </button>
           )}
@@ -296,14 +297,14 @@ function CardView({ entry, position, total, ctx, units, onAnswer, onRerate, onNe
               if (hidden.has(i)) return null;
               const state = rating && i === choice.answerIndex ? "right" : rating && i === selected ? "wrong" : "";
               return (
-                <button key={o} type="button" className={`option ${state}`} style={{ minHeight: 48 }} disabled={!!rating} onClick={() => answerChoice(i)}>
+                <button key={o} type="button" className={`option ${state}`} disabled={!!rating} onClick={() => answerChoice(i)}>
                   {o}
                 </button>
               );
             })}
           </div>
           {!rating && !hint && (
-            <button type="button" className="btn block" style={{ minHeight: 44 }} onClick={() => setHint(true)}>Pista (quita dos opciones)</button>
+            <button type="button" className="btn block" onClick={() => setHint(true)}>Pista (quita dos opciones)</button>
           )}
         </>
       ) : (
@@ -331,23 +332,23 @@ function CardView({ entry, position, total, ctx, units, onAnswer, onRerate, onNe
           </div>
           {resolved.kind === "recog" && <p><strong>{resolved.it}</strong> = {resolved.es}</p>}
           {resolved.kind === "prod" && <p>Respuesta: <strong>{resolved.it}</strong></p>}
-          {resolved.kind === "cloze" && <><p>Frase completa: <strong>{fullSentence(resolved)}</strong></p><p>{resolved.why.replace(/\*/g, "")}</p></>}
+          {resolved.kind === "cloze" && <><p>Frase completa: <strong>{fullSentence(resolved)}</strong></p><p><Rich text={resolved.why} /></p></>}
           {resolved.kind === "listen" && <p>{resolved.es}</p>}
         </div>
       )}
 
       {rating && !adjusted && (
         <div className="row">
-          {isWriting && rating === 1 && <button type="button" className="btn" style={{ minHeight: 44 }} onClick={() => adjust(typoRating(1))}>Me equivoqué al escribir</button>}
-          {rating === 3 && <button type="button" className="btn" style={{ minHeight: 44 }} onClick={() => adjust(easyRating(3))}>Fácil</button>}
+          {isWriting && rating === 1 && <button type="button" className="btn" onClick={() => adjust(typoRating(1))}>Me equivoqué al escribir</button>}
+          {rating === 3 && <button type="button" className="btn" onClick={() => adjust(easyRating(3))}>Fácil</button>}
         </div>
       )}
-      {warn && rating && <p className="note"><Icon name="info" size={16} /><span>Ya pasaste de 60 tarjetas hoy. Puedes parar cuando quieras.</span></p>}
+      {warn && rating && <p className="note"><Icon name="info" size={16} /><span>Ya pasaste de {LIMITS.warnAt} tarjetas hoy. Puedes parar cuando quieras.</span></p>}
 
       {rating ? (
-        <button className="btn primary block" type="button" style={{ minHeight: 48 }} onClick={onNext}>{last ? "Terminar" : "Siguiente"}</button>
+        <button className="btn primary block" type="button" onClick={onNext}>{last ? "Terminar" : "Siguiente"}</button>
       ) : isWriting ? (
-        <button className="btn primary block" type="button" style={{ minHeight: 48 }} onClick={check} disabled={!text.trim()}>Comprobar</button>
+        <button className="btn primary block" type="button" onClick={check} disabled={!text.trim()}>Comprobar</button>
       ) : null}
     </div>
   );

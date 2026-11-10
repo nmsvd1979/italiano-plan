@@ -24,7 +24,7 @@ export function CompareRow({ text, file, url, rate }: Props) {
   const model = () => playModel(text, file, rate);
   const mine = () => (url ? playRecording(url) : Promise.resolve());
   return (
-    <div className="row" style={{ flexWrap: "wrap" }}>
+    <div className="row">
       <button type="button" className="chip" onClick={() => void run([model])}><Icon name="sound" size={14} /> Modelo</button>
       {url && (
         <>

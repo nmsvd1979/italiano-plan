@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
@@ -22,7 +23,7 @@ const Marked = ({ text, forms }: { text: string; forms: string[] }) => (
 
 export function WritingScreen({ unit, part = null, rewrite = false }: { unit: string; part?: CoursePart | null; rewrite?: boolean }) {
   const task = getWriting(unit, part);
-  if (!task) return <p className="sub">Esta unidad todavía no tiene escritura guiada.</p>;
+  if (!task) return <EmptyState message="Esta unidad todavía no tiene escritura guiada." />;
   // El texto, la corrección y la reescritura se guardan por semana: la B de una unidad partida no pisa a la A.
   const saveKey = writingKey(unit, part);
   return rewrite ? <Rewrite unit={unit} saveKey={saveKey} task={task} /> : <Write unit={unit} saveKey={saveKey} task={task} />;
@@ -92,7 +93,7 @@ function Write({ unit, saveKey, task }: { unit: string; saveKey: string; task: W
 
       <section className="card stack">
         <div className="eyebrow">{LEVEL_NAME[level]}</div>
-        <p>{task.prompt}</p>
+        <p><Rich text={task.prompt} /></p>
 
         {level === "reconstruir" && (
           <>
@@ -107,7 +108,7 @@ function Write({ unit, saveKey, task }: { unit: string; saveKey: string; task: W
               </div>
             ) : (
               <div className="stack">
-                <div className="row" style={{ flexWrap: "wrap" }} aria-label="Palabras clave">
+                <div className="row" aria-label="Palabras clave">
                   {keywords.map((k) => <span key={k} className="chip">{k}</span>)}
                 </div>
                 {views < 2 && (
@@ -186,7 +187,7 @@ function Write({ unit, saveKey, task }: { unit: string; saveKey: string; task: W
             </>
           ) : (
             <>
-              <p>{ext.prompt}</p>
+              <p><Rich text={ext.prompt} /></p>
               <p className="sub">Sigue en el mismo cuadro de arriba. {extCheck.words} de {ext.minWords} palabras en total.</p>
               {extCheck.totalForms > 0 && extCheck.missingForms.length > 0 && (
                 <p className="sub" role="status">Te falta usar: {extCheck.missingForms.map((alts) => alts.join(" / ")).join("; ")}.</p>
@@ -203,6 +204,7 @@ function Write({ unit, saveKey, task }: { unit: string; saveKey: string; task: W
         </section>
       )}
 
+      {hidden && <>
       <section className="card stack">
         <div className="eyebrow">Corrígete tú mismo</div>
         <p className="sub">Relee tu texto y marca cada punto cuando lo hayas revisado.</p>
@@ -268,6 +270,7 @@ function Write({ unit, saveKey, task }: { unit: string; saveKey: string; task: W
           {saved ? "Guardada" : "Guardar versión corregida"}
         </button>
       </section>
+      </>}
 
       <button type="button" className="btn primary block" disabled={!check.complete} onClick={finish}>Terminé</button>
     </>
@@ -281,7 +284,7 @@ function Rewrite({ unit, saveKey, task }: { unit: string; saveKey: string; task:
   const [text, setText] = useState("");
   const [done, setDone] = useState(false);
 
-  if (!fix) return <><Header unit={unit} title="Reescribe sin mirar" /><p className="sub">No hay nada que reescribir en esta unidad.</p></>;
+  if (!fix) return <EmptyState message="No hay nada que reescribir en esta unidad." />;
 
   const compare = () => {
     saveRewrite(saveKey, text, today, window.localStorage);
@@ -293,7 +296,7 @@ function Rewrite({ unit, saveKey, task }: { unit: string; saveKey: string; task:
       <Header unit={unit} title="Reescribe sin mirar" />
       <section className="card stack">
         <div className="eyebrow">Desde la consigna</div>
-        <p>{task.prompt}</p>
+        <p><Rich text={task.prompt} /></p>
         <p className="sub">Escribe el texto otra vez, sin mirar la versión corregida. Después compáralas.</p>
         <textarea
           className="input writing" rows={7} value={text} disabled={done}
@@ -310,7 +313,7 @@ function Rewrite({ unit, saveKey, task }: { unit: string; saveKey: string; task:
             <div><b>Tu reescritura</b><p className="compare-text">{text}</p></div>
             <div><b>Versión corregida</b><p className="compare-text">{fix.corrected}</p></div>
           </div>
-          <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
+          <a className="btn primary block" href="#/">Volver a Hoy</a>
         </section>
       )}
     </>

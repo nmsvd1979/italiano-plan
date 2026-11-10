@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Score } from "../../ui/Score";
+import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import type { CoursePart } from "../../content/course";
@@ -29,7 +31,7 @@ export function SpeedScreen({ unit, part = null }: { unit: string; part?: Course
   const [score, setScore] = useState(0);
   const [done, setDone] = useState(false);
 
-  if (!items) return <p className="sub">Esta semana todavía no tiene «Números a velocidad».</p>;
+  if (!items) return <EmptyState message="Esta semana todavía no tiene «Números a velocidad»." />;
   const item = items[index];
   const rate = rateOf(index, items.length);
 
@@ -69,16 +71,16 @@ export function SpeedScreen({ unit, part = null }: { unit: string; part?: Course
           <Icon name="arrowLeft" size={20} />
         </a>
         <div>
-          <div className="eyebrow">Unidad {meta?.n} · Números a velocidad</div>
-          <h1 className="title">{done ? "Listo" : `Número ${index + 1} de ${items.length}`}</h1>
+          <div className="eyebrow">Unidad {meta?.n}{part ? ` · semana ${part}` : ""} · {done ? "Resultado" : `Número ${index + 1} de ${items.length}`}</div>
+          <h1 className="title">Números a velocidad</h1>
         </div>
       </header>
       <section className="card stack">
         {done ? (
           <>
-            <div className="score">{score} de {items.length}</div>
+            <Score correct={score} total={items.length} />
             <p className="sub">Los números fueron sonando un poco más rápido cada vez. Si te cuesta, repite: es una destreza que mejora con la práctica.</p>
-            <button type="button" className="btn primary block" onClick={finish}>Terminar</button>
+            <button type="button" className="btn primary block" onClick={finish}>Terminé</button>
           </>
         ) : (
           <>
@@ -95,9 +97,10 @@ export function SpeedScreen({ unit, part = null }: { unit: string; part?: Course
               <button type="button" className="btn block" onClick={check} disabled={digits(text) === ""}>Comprobar</button>
             ) : (
               <>
-                <p role="status" className={shown === "ok" ? "banner-done" : "sub"}>
-                  {shown === "ok" ? "Correcto. " : "Era "}<b>{item.n}</b> · <i>{item.it}</i>
-                </p>
+                <div role="status" className={`feedback ${shown === "ok" ? "correct" : "wrong"}`}>
+                  <div className="feedback-head"><Icon name={shown === "ok" ? "check" : "x"} size={18} /> {shown === "ok" ? "¡Correcto!" : "No era ese"}</div>
+                  <p><b>{item.n}</b> · <i>{item.it}</i></p>
+                </div>
                 <button type="button" className="btn primary block" onClick={next}>{index < items.length - 1 ? "Siguiente" : "Ver resultado"}</button>
               </>
             )}

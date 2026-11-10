@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import type { CoursePart } from "../../content/course";
@@ -44,7 +45,7 @@ export function RolePlayScreen({ unit, part = null }: { unit: string; part?: Cou
 
   const mine = useMemo(() => (dialogue ? dialogue.lines.map((l, i) => ({ l, i })).filter(({ l }) => l.who === role) : []), [dialogue, role]);
 
-  if (!dialogue) return <p className="sub">Esta unidad todavía no tiene diálogo.</p>;
+  if (!dialogue) return <EmptyState message="Esta unidad todavía no tiene diálogo." />;
 
   const playAll = async () => {
     if (playing) { stopAudio(); setPlaying(false); return; }
@@ -219,7 +220,7 @@ export function RolePlayScreen({ unit, part = null }: { unit: string; part?: Cou
       {step < STEPS.length - 1 && (
         <div className="row">
           {step > 0 && <button type="button" className="btn" onClick={back}>Atrás</button>}
-          <button type="button" className="btn primary" style={{ flex: 1 }} onClick={next} disabled={step === 3 && (noMic ? !said : !scene)}>
+          <button type="button" className="btn primary grow" onClick={next} disabled={step === 3 && (noMic ? !said : !scene)}>
             {step === 3 ? "Comparar" : "Seguir"}
           </button>
         </div>

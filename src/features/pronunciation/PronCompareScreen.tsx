@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { GLOSS, audioFiles, getPronFor } from "../../content/pronunciation";
@@ -33,7 +34,7 @@ export function PronCompareScreen({ unit, part = null }: { unit: string; part?: 
     return [...all.filter((w) => audioFiles(w).length > 0), ...all.filter((w) => audioFiles(w).length === 0)].slice(0, COMPARE_WORDS);
   }, [data]);
 
-  if (!data) return <p className="sub">No existe la práctica de esa unidad.</p>;
+  if (!data) return <EmptyState message="No existe la práctica de esa unidad." />;
 
   const finish = (rating: number) => {
     appendLog(window.localStorage, { date: toISODate(today), unit, activity: "pron-comparar", minutes: 0, selfRating: rating });
@@ -75,6 +76,7 @@ export function PronCompareScreen({ unit, part = null }: { unit: string; part?: 
                 <div className="hero-row">
                   <p className="runner-prompt">{w}{GLOSS[w] && <span className="word-gloss"> · {GLOSS[w]}</span>}</p>
                 </div>
+                <CompareRow text={w} file={file} url={takes[w]?.url} rate={0.8} />
                 {!noMic && (
                   <RecordTake
                     activity={`${unit}:pron:${w}`}
@@ -83,7 +85,6 @@ export function PronCompareScreen({ unit, part = null }: { unit: string; part?: 
                     onUnusable={() => setNoMic(true)}
                   />
                 )}
-                <CompareRow text={w} file={file} url={takes[w]?.url} rate={0.8} />
                 {!file && <p className="sub">Esta palabra todavía no tiene grabación nativa: el modelo es {sourceOf(w) === "clip" ? "una voz sintética" : "la voz del sistema"}.</p>}
               </section>
             );

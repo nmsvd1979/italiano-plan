@@ -1,4 +1,5 @@
 import { Fragment, useEffect, useMemo, useState } from "react";
+import { Score } from "../../ui/Score";
 import { useApp } from "../../app/state";
 import { goBack, href, routeQuery } from "../../app/route";
 import type { CoursePart } from "../../content/course";
@@ -38,7 +39,7 @@ export function ReadText({ lectura, onNext, nextLabel = "Ir a las preguntas" }: 
     <>
       <section className="card stack">
         <div className="eyebrow">{lectura.tipo}</div>
-        <h2 className="title" style={{ fontSize: 20 }}>{lectura.titulo}</h2>
+        <h2 className="title sm">{lectura.titulo}</h2>
         {lectura.it.map((p, i) => (
           <div key={i} className="stack">
             <p className="reading-p">
@@ -78,7 +79,7 @@ export function ReadText({ lectura, onNext, nextLabel = "Ir a las preguntas" }: 
 
       <section className="card stack">
         <div className="eyebrow">Palabras clave</div>
-        <div className="row" style={{ flexWrap: "wrap" }}>
+        <div className="row">
           {lectura.claves.map((c) => (
             <button key={c.it} type="button" className="chip" onClick={() => setGloss(c)}>{c.it}</button>
           ))}
@@ -235,15 +236,15 @@ export function LecturaScreen({ unit, part, mode }: Props) {
         <ReadText lectura={lectura} onNext={toQuestions} />
       ) : score !== null ? (
         <section className="card stack">
-          <div className="score">{score} de {lectura.preguntas.length}</div>
+          <Score correct={score} total={lectura.preguntas.length} />
           <p className="sub">{score === lectura.preguntas.length ? "Entendiste todo el texto." : "Puedes volver al texto cuando quieras para releerlo."}</p>
-          <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
+          <a className="btn primary block" href="#/">Volver a Hoy</a>
         </section>
       ) : (
         <>
           <details className="card">
             <summary>Ver el texto</summary>
-            <div className="stack" style={{ marginTop: 8 }}>
+            <div className="stack mt">
               {lectura.it.map((p, i) => <p key={i} className="reading-p">{p}</p>)}
             </div>
           </details>

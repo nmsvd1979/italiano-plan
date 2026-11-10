@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { Score } from "../../ui/Score";
 import { useApp } from "../../app/state";
 import { goBack, href } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
@@ -38,9 +39,9 @@ export function DirectedReview({ unit }: { unit: string }) {
           <p className="sub">No hay ejercicios para repasar en esta unidad.</p>
         ) : summary ? (
           <>
-            <div className="score">{summary.correct} de {summary.total}</div>
+            <Score correct={summary.correct} total={summary.total} />
             <p className="sub">Repaso terminado. Esto no cambia tus marcas ni tu repaso por cajas.</p>
-            <a className="btn primary block" href={href("/punto-de-partida")} style={{ textAlign: "center", textDecoration: "none" }}>Volver a Tu punto de partida</a>
+            <a className="btn primary block" href={href("/punto-de-partida")}>Volver a Tu punto de partida</a>
           </>
         ) : (
           <ExerciseRunner

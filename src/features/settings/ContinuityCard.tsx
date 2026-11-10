@@ -11,7 +11,7 @@ export function ContinuityCard() {
       <p className="sub">
         Revisa qué unidades cuentan como dominadas, parciales o por empezar, haz el diagnóstico opcional y decide desde dónde sigue el plan.
       </p>
-      <a className="btn block" href={href("/punto-de-partida")} style={{ textAlign: "center", textDecoration: "none" }}>Abrir Tu punto de partida</a>
+      <a className="btn block" href={href("/punto-de-partida")}>Abrir Tu punto de partida</a>
       <button type="button" className="btn block" onClick={() => updateContinuity((c) => setUsePrevious(c, !c.usePrevious))}>
         {continuity.usePrevious ? "Usar de nuevo mi punto de partida" : "Volver al plan anterior"}
       </button>
