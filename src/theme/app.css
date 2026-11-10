@@ -686,3 +686,8 @@ em, .it { font-family: var(--font-it); font-style: italic; font-weight: 500; }
 .dcue { border-radius: 18px 18px 6px 18px; background: var(--surface); }
 .dline.mine .des, .dline.mine .dwho { text-align: right; }
 .vocab-it { font-size: var(--fs-lg); }
+.card.ink { border-color: var(--ink-2); }
+/* Un enunciado dentro de una tarjeta ya no es otra tarjeta. */
+.card .runner-prompt { background: none; border: 0; padding: 0; border-radius: 0; }
+.exercise-foot:empty { display: none; }
+.card .exercise-foot:not(.correct):not(.almost):not(.wrong) { background: transparent; border-top: 0; padding-bottom: 18px; }

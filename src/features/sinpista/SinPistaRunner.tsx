@@ -110,7 +110,7 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
       index={index} total={items.length} done={done} tone={done ? (result ? "correct" : "wrong") : undefined}
       feedback={done && (
         <Feedback tone={result ? "correct" : "wrong"} head={result ? "¡Correcto!" : "No era esa"}>
-          {!result && <p>Respuesta: <strong className="it">{modelAnswer(ex)}</strong></p>}
+          {!result && <p>Respuesta: <strong className={ex.type === "listen" ? undefined : "it"}>{modelAnswer(ex)}</strong></p>}
           <p><Rich text={ex.why} /></p>
           {!result && typed && <button type="button" className="btn" onClick={acceptMine}>Mi respuesta también era válida</button>}
         </Feedback>

@@ -53,7 +53,7 @@ export function TestRunner({ items, onAnswer, onFinish }: { items: TestItem[]; o
       index={index} total={items.length} done={answered} tone={showFeedback ? (points > 0 ? "correct" : "wrong") : undefined}
       feedback={showFeedback && (
         <Feedback tone={points > 0 ? "correct" : "wrong"} head={points > 0 ? "¡Correcto!" : "No era esa"}>
-          {points === 0 && model && <p>Respuesta: <strong className="it">{model}</strong></p>}
+          {points === 0 && model && <p>Respuesta: <strong className={item.area === "gramatica" ? "it" : undefined}>{model}</strong></p>}
           {why && <p><Rich text={why} /></p>}
         </Feedback>
       )}
