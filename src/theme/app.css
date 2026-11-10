@@ -575,3 +575,51 @@ em, .it { font-family: var(--font-it); font-style: italic; font-weight: 500; }
 .session-done { align-items: center; text-align: center; display: flex; flex-direction: column; gap: 10px; padding: 28px 18px; margin-top: 12px; }
 .session-check { width: 56px; height: 56px; border-radius: 50%; background: var(--accent); color: var(--on-accent); display: grid; place-items: center; animation: pop 0.3s ease-out; }
 .short-mode { margin-top: 0; padding: 4px 16px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); }
+
+/* ---------- Plan y unidad ---------- */
+.level { display: flex; flex-direction: column; gap: 8px; }
+.level-track { position: relative; height: 6px; border-radius: 3px; background: var(--surface-3); }
+.level-track > i { position: absolute; inset: 0 auto 0 0; border-radius: 3px; background: var(--accent); transition: width 0.4s; }
+.level-track > span { position: absolute; top: 50%; width: 16px; height: 16px; border-radius: 50%; background: var(--accent); border: 3px solid var(--bg); transform: translate(-50%, -50%); }
+.level-ticks { display: flex; justify-content: space-between; font-size: var(--fs-sm); color: var(--text-dim); }
+.level-ticks a { color: var(--text-dim); text-decoration: none; font-weight: 700; }
+
+.phase { display: flex; flex-direction: column; }
+.phase > summary { list-style: none; cursor: pointer; display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+.phase > summary::-webkit-details-marker { display: none; }
+.phase[open] > summary { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.phase-title { font-size: var(--fs-xl); line-height: 1.2; }
+.phase-goal { padding: 12px 16px 0; background: var(--surface); border: 1px solid var(--border); border-top: 0; border-bottom: 0; }
+.timeline { list-style: none; margin: 0; padding: 12px 16px 14px 50px; position: relative; display: flex; flex-direction: column; gap: 6px; background: var(--surface); border: 1px solid var(--border); border-top: 0; border-radius: 0 0 var(--radius-lg) var(--radius-lg); }
+.phase-goal + .timeline { padding-top: 8px; }
+.timeline::before { content: ""; position: absolute; left: 28px; top: 20px; bottom: 24px; width: 2px; background: var(--border); }
+.tl-item { position: relative; display: flex; flex-direction: column; gap: 4px; }
+.tl-item > .dot { position: absolute; left: -34px; top: 8px; z-index: 1; box-shadow: 0 0 0 4px var(--surface); }
+.tl-row { display: flex; flex-direction: column; gap: 1px; padding: 8px 0; text-decoration: none; color: inherit; }
+.tl-row small { color: var(--text-faint); font-size: var(--fs-sm); }
+.tl-item.soon, .tl-item.next .tl-row b { color: var(--text-dim); }
+.tl-item.soon { opacity: 0.7; }
+.tl-current { display: flex; flex-direction: column; gap: 4px; padding: 12px; background: var(--bg); box-shadow: none; text-decoration: none; color: inherit; }
+.tl-current .seg { margin-top: 6px; }
+.tl-test { display: flex; align-items: center; gap: 8px; font-size: var(--fs-md); font-weight: 700; color: var(--saffron-ink); text-decoration: none; padding: 6px 0; }
+.tl-test .dot { position: absolute; left: -34px; box-shadow: 0 0 0 4px var(--surface); }
+.link-list small.sub { font-weight: 500; }
+.unit-day > summary { list-style: none; display: flex; align-items: center; gap: 10px; min-height: 44px; cursor: pointer; }
+.unit-day > summary::-webkit-details-marker { display: none; }
+.unit-day .status { margin-left: auto; }
+.session-list { list-style: none; margin: 0 0 6px 36px; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 14px; }
+.session-list li { display: flex; align-items: center; gap: 8px; }
+.session-list li span { color: var(--text-faint); }
+.session-list li.done { color: var(--text-dim); }
+.session-list li.done svg { color: var(--good); }
+.phase > summary { align-items: stretch; text-align: left; }
+.phase > summary .seg { display: flex; width: 100%; margin-top: 6px; }
+.phase > summary, .unit-day > summary { list-style: none; }
+.phase > summary::marker, .unit-day > summary::marker, .more-time summary::marker { content: none; }
+.phase > summary { position: relative; }
+.phase > summary::after { content: ""; position: absolute; right: 18px; top: 18px; width: 8px; height: 8px; border-right: 2px solid var(--text-faint); border-bottom: 2px solid var(--text-faint); transform: rotate(45deg); transition: transform 0.15s; }
+.phase[open] > summary::after { transform: rotate(-135deg); top: 22px; }
+.unit-day > summary, .more-time summary { text-align: left; }
+.unit-day > summary::-webkit-details-marker, .more-time summary::-webkit-details-marker { display: none; }
+.unit-day > summary b { flex: 1; font-weight: 700; }
+.more-time summary { list-style: none; }
