@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Rich } from "../../ui/Rich";
 import type { GeneralWord } from "../../content/vocab";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref, afterActivityLabel } from "../../app/route";
 import { Icon } from "../../ui/Icon";
 import { say } from "../../ui/speech";
 import {
@@ -166,7 +166,7 @@ export function ReviewScreen() {
           )}
           <div className="btn-row">
             {canContinue && <button className="btn" type="button" onClick={() => makeBatch(srs, ctx, quizlet, freq)}>Seguir repasando</button>}
-            <a className="btn primary" href="#/">Volver a Hoy</a>
+            <a className="btn primary" href={afterActivityHref()}>{afterActivityLabel()}</a>
           </div>
         </section>
       ) : (

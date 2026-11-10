@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref } from "../../app/route";
 import { audioFiles, getPronFor } from "../../content/pronunciation";
 import { getUnit } from "../../content/curriculum";
 import { toISODate } from "../../domain/dates";
@@ -25,7 +25,7 @@ export function PronunciationScreen({ unit, part = null }: { unit: string; part?
 
   const finish = () => {
     completeActivity("pron", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   const repeatWords = [...new Set([...data.words, ...data.pairs.flat()])];

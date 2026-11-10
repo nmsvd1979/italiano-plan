@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref, afterActivityLabel } from "../../app/route";
 import { READY_UNITS, getPhase, getUnit } from "../../content/curriculum";
 import { findExercise } from "../../content/grammar";
 import { audioFiles, getPronUnit } from "../../content/pronunciation";
@@ -116,7 +116,7 @@ export function PhaseTestScreen({ phase }: { phase: number }) {
             <ResultView scores={scores} battery={battery} />
             {weak.length > 0 && <p className="sub">Con menos del {Math.round(WEAK_AREA * 100)} %: {weak.map((a) => AREA_NAME[a]).join(", ")}. En Hoy verás un refuerzo de esas áreas durante la fase siguiente.</p>}
             {previous.length > 0 && <p className="note"><Icon name="info" size={16} /><span>{previous.map((x) => `Test de la fase ${x.phase}: ${Math.round(x.last.correct * 10) / 10} de ${x.last.total}`).join(" · ")}</span></p>}
-            <a className="btn primary block" href="#/">Volver a Hoy</a>
+            <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
           </section>
         </>
       )}

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref, afterActivityLabel } from "../../app/route";
 import { loadPruebas } from "../../content/pruebas";
 import { toISODate } from "../../domain/dates";
 import { appendLog } from "../../domain/activityLog";
@@ -60,7 +60,7 @@ export function LevelTestScreen() {
               {" "}Los umbrales son provisionales y se ajustan con tus datos reales.
             </p>
             <ResultView scores={scores} battery={battery} objective />
-            <a className="btn primary block" href="#/">Volver a Hoy</a>
+            <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
           </>
         ) : (
           <>

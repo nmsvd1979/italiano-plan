@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Score } from "../../ui/Score";
 import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref } from "../../app/route";
 import type { CoursePart } from "../../content/course";
 import { getUnit } from "../../content/curriculum";
 import { getVelocidad } from "../../content/velocidad";
@@ -61,7 +61,7 @@ export function SpeedScreen({ unit, part = null }: { unit: string; part?: Course
   const finish = () => {
     appendLog(window.localStorage, { date: toISODate(today), unit, activity: "velocidad", minutes: 0, correct: score, total: items.length });
     completeActivity("speed", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   return (

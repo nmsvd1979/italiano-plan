@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useOnline } from "../../app/offline";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref, afterActivityLabel } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import { SHADOWING, SHADOWING_SEARCH, STEPS, type Video } from "../../content/shadowing";
 import { getShadowing, saveShadowing } from "../../domain/storage";
@@ -71,7 +71,7 @@ function NeedsInternet({ unit }: { unit: string }) {
       </header>
       <section className="card stack">
         <p className="sub">El shadowing usa videos de YouTube, que no se pueden ver sin conexión. Déjalo para cuando tengas internet; el resto de la sesión sí funciona sin conexión.</p>
-        <a className="btn" href="#/">Volver a Hoy</a>
+        <a className="btn" href={afterActivityHref()}>{afterActivityLabel()}</a>
       </section>
     </>
   );
@@ -216,7 +216,7 @@ function ShadowingPlayer({ unit, pickedId }: { unit: string; pickedId: string | 
   };
   const finish = () => {
     completeActivity("shadow", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   const current = STEPS[step];

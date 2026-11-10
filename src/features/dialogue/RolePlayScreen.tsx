@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref } from "../../app/route";
 import type { CoursePart } from "../../content/course";
 import { getUnit } from "../../content/curriculum";
 import { getDialogue } from "../../content/dialogues";
@@ -61,7 +61,7 @@ export function RolePlayScreen({ unit, part = null }: { unit: string; part?: Cou
     appendLog(window.localStorage, { date: toISODate(today), unit, activity: "rol", minutes: 0, selfRating: rating });
     stopAudio();
     completeActivity("dialogue", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   const next = () => { stopAudio(); setPlaying(false); setStep((s) => Math.min(s + 1, STEPS.length - 1)); };

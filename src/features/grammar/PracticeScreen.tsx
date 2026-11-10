@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Score } from "../../ui/Score";
 import { Rich } from "../../ui/Rich";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref, afterActivityLabel } from "../../app/route";
 import { exercisesOf, findExercise, unitNumber } from "../../content/grammar";
 import type { CoursePart } from "../../content/course";
 import { forPart } from "../../domain/parts";
@@ -148,7 +148,7 @@ export function PracticeScreen({ mode, unit = "", part = null, size = SIZE, batc
             {mode === "more" && (
               <a className="btn primary block" href={`#/practicar?t=${Date.now()}`}>Otra tanda</a>
             )}
-            <a className={`btn${mode === "more" ? "" : " primary"} block`} href="#/">Volver a Hoy</a>
+            <a className={`btn${mode === "more" ? "" : " primary"} block`} href={afterActivityHref()}>{afterActivityLabel()}</a>
           </div>
         ) : items.length === 0 ? (
           <div className="stack">
@@ -159,7 +159,7 @@ export function PracticeScreen({ mode, unit = "", part = null, size = SIZE, batc
               ? "Todavía no hay lecciones vistas de las que sacar ejercicios. Cuando termines una lección, aparecen aquí."
               : "Todavía no hay nada para repasar. Cuando hagas lecciones y falles ejercicios, aparecen aquí."}
           </p>
-          <a className="btn primary block" href="#/">Volver a Hoy</a>
+          <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
           </div>
         ) : (
           <ExerciseRunner items={items} onAnswer={onAnswer} onFinish={onFinish} finishLabel="Ver resultado" />

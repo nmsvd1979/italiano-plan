@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Score } from "../../ui/Score";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref, afterActivityLabel } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import { getDictation } from "../../content/dictation";
 import type { CoursePart } from "../../content/course";
@@ -99,7 +99,7 @@ export function DictationScreen({ unit, part }: { unit: string; part?: CoursePar
             <Score correct={correct} total={items.length} />
             <p className="sub">Escuchaste cada frase {(results.reduce((n, r) => n + r.plays, 0) / items.length).toFixed(1).replace(".", ",")} veces en promedio.</p>
             <p className="sub">Las frases que fallaste, léelas en voz alta una vez y vuelve a intentarlo otro día.</p>
-            <a className="btn primary block" href="#/">Volver a Hoy</a>
+            <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
           </>
         ) : (
           <div className="runner">

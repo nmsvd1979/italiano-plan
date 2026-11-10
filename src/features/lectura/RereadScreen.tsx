@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref } from "../../app/route";
 import { getCourseStep, type CoursePart } from "../../content/course";
 import { getUnit } from "../../content/curriculum";
 import { loadLectura } from "../../content/lazy";
@@ -41,7 +41,7 @@ export function RereadScreen({ unit, part = null }: { unit: string; part?: Cours
     });
     stopAudio();
     completeActivity("reread", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   const sourceUnit = source ? getUnit(source.unit) : undefined;

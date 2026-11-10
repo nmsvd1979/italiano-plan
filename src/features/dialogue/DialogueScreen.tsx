@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import { getDialogue } from "../../content/dialogues";
 import { Icon } from "../../ui/Icon";
@@ -50,7 +50,7 @@ export function DialogueScreen({ unit }: { unit: string }) {
     run.current++;
     stopSpeech();
     completeActivity("dialogue", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   return (

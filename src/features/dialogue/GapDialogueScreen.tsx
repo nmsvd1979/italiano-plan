@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { Score } from "../../ui/Score";
 import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import { getDialogue } from "../../content/dialogues";
 import { appendLog } from "../../domain/activityLog";
@@ -51,7 +51,7 @@ export function GapDialogueScreen({ unit }: { unit: string }) {
   const finish = () => {
     appendLog(window.localStorage, { date: toISODate(today), unit, activity: "dialogo-huecos", minutes: 0, correct: score, total: lines.length });
     completeActivity("dialogue", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   return (

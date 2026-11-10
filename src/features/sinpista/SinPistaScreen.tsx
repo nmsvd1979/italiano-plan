@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Score } from "../../ui/Score";
 import { Rich } from "../../ui/Rich";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref, afterActivityLabel } from "../../app/route";
 import type { CoursePart } from "../../content/course";
 import { getUnit } from "../../content/curriculum";
 import { loadSinPistaContent } from "../../content/lazy";
@@ -68,7 +68,7 @@ export function SinPistaScreen({ unit, part = null, size = WEEK_SIZE }: { unit: 
                 <strong>{ex.type === "dialog" || ex.type === "listen" ? ex.options[ex.answer] : ex.answers[0]}</strong>
               </div>
             ))}
-            <a className="btn primary block" href="#/">Volver a Hoy</a>
+            <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
           </div>
         ) : items === null ? (
           <p className="sub">Cargando…</p>

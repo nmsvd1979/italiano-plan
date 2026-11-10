@@ -25,6 +25,7 @@ import { Progress } from "./features/progress/Progress";
 import { Settings } from "./features/settings/Settings";
 import { ReviewScreen } from "./features/srs/ReviewScreen";
 import { Setup } from "./features/setup/Setup";
+import { SessionScreen } from "./features/session/SessionScreen";
 import { Today } from "./features/today/Today";
 import { VocabScreen } from "./features/vocab/VocabScreen";
 import { WritingScreen } from "./features/writing/WritingScreen";
@@ -116,7 +117,8 @@ function Screens() {
   if (route === "/practicar-area") return <PracticeAreasScreen key={`areas-${q.get("area") ?? ""}`} />;
   if (route === "/practicar") return <PracticeScreen key={`more-${q.get("t") ?? ""}`} mode="more" batch={q.get("t") ?? ""} />;
   if (route === "/repaso-pendiente") return <PracticeScreen key="due" mode="due" />;
-  return <Today />;
+  if (route === "/sesion") return <SessionScreen key={`sesion-${q.get("mas") ?? ""}`} />;
+  return <Today key={`hoy-${q.get("mas") ?? ""}`} />;
 }
 
 function Shell() {

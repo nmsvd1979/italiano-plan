@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useApp } from "../../app/state";
-import { goBack, routeQuery } from "../../app/route";
+import { goBack, routeQuery, afterActivityHref, afterActivityLabel } from "../../app/route";
 import { COURSE } from "../../content/course";
 import { getUnit } from "../../content/curriculum";
 import { findExercise } from "../../content/grammar";
@@ -70,12 +70,12 @@ export function MiniTestScreen({ unit }: { unit: string }) {
         {!step || (battery && battery.items.length === 0) ? (
           <div className="stack">
             <p className="sub">Esta semana todavía no tiene prueba.</p>
-            <a className="btn primary block" href="#/">Volver a Hoy</a>
+            <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
           </div>
         ) : already && !result ? (
           <div className="stack">
             <p className="sub">Ya hiciste este intento. Vuelve a Hoy para seguir.</p>
-            <a className="btn primary block" href="#/">Volver a Hoy</a>
+            <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
           </div>
         ) : !battery ? (
           <p className="sub">Cargando…</p>
@@ -102,7 +102,7 @@ function Result({ result }: { result: { battery: Battery; passed: boolean; score
           ? "Aprobaste: pasas a lo que sigue."
           : `Para pasar hacen falta ${Math.round(PASS_RATIO * 100)} %. No pasa nada: Hoy te pone 2 días de repaso de lo que fallaste y después haces otra versión de la prueba.`}
       </p>
-      <a className="btn primary block" href="#/">Volver a Hoy</a>
+      <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
     </div>
   );
 }

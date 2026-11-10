@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import { getMonologue, type Monologue } from "../../content/monologos";
 import type { CoursePart } from "../../content/course";
@@ -47,7 +47,7 @@ function Session({ unit, stepId, meta, mono }: { unit: string; stepId: string; m
     });
     stopAudio();
     completeActivity("monologue", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   return (

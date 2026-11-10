@@ -5,7 +5,7 @@ import { Block, CycleDay, blockKey } from "../domain/cycle";
 import { href } from "./route";
 
 /** Herramienta propia que abre un bloque del ciclo (si la tiene). La clave `k` dice qué bloque marcar al terminar. */
-export function blockRoute(step: CourseStep, day: CycleDay, block: Block): { to: string; label: string } | undefined {
+export function blockRoute(step: CourseStep, day: CycleDay, block: Block, session = false): { to: string; label: string } | undefined {
   const unit = step.unit;
   const k = blockKey(step.id, day.day, block.id);
   const q = (extra: Record<string, string | number | undefined> = {}) => {
@@ -13,6 +13,7 @@ export function blockRoute(step: CourseStep, day: CycleDay, block: Block): { to:
     if (step.part) params.set("part", step.part);
     for (const [name, value] of Object.entries(extra)) if (value !== undefined) params.set(name, String(value));
     params.set("k", k);
+    if (session) params.set("s", "1");
     return `?${params.toString()}`;
   };
   switch (block.kind) {

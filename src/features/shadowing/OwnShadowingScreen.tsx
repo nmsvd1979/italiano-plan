@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref, afterActivityLabel } from "../../app/route";
 import type { CoursePart } from "../../content/course";
 import { getUnit } from "../../content/curriculum";
 import { getDialogue } from "../../content/dialogues";
@@ -89,7 +89,7 @@ export function OwnShadowingScreen({ unit, part = null }: { unit: string; part?:
         <section className="card stack">
           <div className="score">{lines.length} líneas</div>
           <p className="sub">Hiciste las cuatro pasadas con cada una. Si alguna se te trabó, vuelve a hacerla otro día: el shadowing mejora con la repetición.</p>
-          <a className="btn primary block" href="#/">Volver a Hoy</a>
+          <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
         </section>
       </>
     );

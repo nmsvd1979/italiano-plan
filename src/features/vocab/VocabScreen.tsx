@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Score } from "../../ui/Score";
 import { useApp } from "../../app/state";
-import { goBack, routeQuery } from "../../app/route";
+import { goBack, routeQuery, afterActivityHref, afterActivityLabel } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import type { CoursePart } from "../../content/course";
 import { vocabForBlock } from "../../domain/vocabBlocks";
@@ -123,7 +123,7 @@ export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | 
               <strong>{item.exercise.type === "choice" ? item.exercise.options[item.exercise.answer] : ""}</strong>
             </div>
           ))}
-          <a className="btn primary block" href="#/">Volver a Hoy</a>
+          <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
         </section>
       )}
     </>
