@@ -2,8 +2,8 @@ import { useMemo, useState } from "react";
 import type { Exercise } from "../../content/grammar/types";
 import { Grade, gradeChoice, gradeFill } from "../../domain/grading";
 import { optionOrder } from "../../domain/optionOrder";
-import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
+import { AccentBar, Choice, ExerciseShell, Feedback } from "../../ui/exercise/ExerciseShell";
 
 export interface RunnerItem {
   id: string;
@@ -24,8 +24,6 @@ interface Props {
   onFinish: (summary: Summary) => void;
   finishLabel: string;
 }
-
-const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
 
 function correctText(e: Exercise): string {
   return e.type === "choice" ? e.options[e.answer] : e.answers[0];
@@ -71,37 +69,33 @@ export function ExerciseRunner({ items, onAnswer, onFinish, finishLabel }: Props
   const [before, after] = e.type === "fill" ? e.prompt.split("___") : ["", ""];
 
   return (
-    <div className="runner">
-      <div className="runner-progress" aria-label={`Ejercicio ${index + 1} de ${items.length}`}>
-        <div className="bar"><i style={{ width: `${((index + (grade ? 1 : 0)) / items.length) * 100}%` }} /></div>
-        <span>{index + 1} de {items.length}</span>
-      </div>
-
+    <ExerciseShell
+      index={index} total={items.length} done={!!grade} tone={grade ?? undefined}
+      feedback={grade && (
+        <Feedback tone={grade} head={grade === "correct" ? "¡Correcto!" : grade === "almost" ? "Casi: revisa la tilde" : "No era esa"}>
+          {grade !== "correct" && <p>Respuesta: <strong className="it">{correctText(e)}</strong></p>}
+          <p><Rich text={e.why} /></p>
+        </Feedback>
+      )}
+      action={grade ? (
+        <button className="btn primary block" type="button" onClick={next}>{last ? finishLabel : "Siguiente"}</button>
+      ) : (
+        <button className="btn primary block" type="button" onClick={check} disabled={!canCheck}>Comprobar</button>
+      )}
+    >
       {e.type === "fill" ? (
-        <p className="runner-prompt">
-          <Rich text={before} /><span className="blank">{grade ? correctText(e) : "     "}</span><Rich text={after} />
+        <p className="runner-prompt it-prompt">
+          <Rich text={before} /><span className="blank">{grade ? correctText(e) : "     "}</span><Rich text={after} />
         </p>
       ) : (
         <p className="runner-prompt"><Rich text={e.prompt} /></p>
       )}
 
       {e.type === "choice" ? (
-        <div className="options" role="radiogroup">
-          {order.map((i) => {
-            const o = e.options[i];
-            const state = grade && i === e.answer ? "right" : grade && i === selected ? "wrong" : "";
-            return (
-              <button
-                key={o} type="button" role="radio" aria-checked={selected === i}
-                className={`option ${selected === i ? "picked" : ""} ${state}`}
-                disabled={!!grade}
-                onClick={() => setSelected(i)}
-              >
-                {o}
-              </button>
-            );
-          })}
-        </div>
+        <Choice
+          selected={selected} disabled={!!grade} onSelect={setSelected}
+          items={order.map((i) => ({ value: i, label: e.options[i], state: grade && i === e.answer ? "right" : grade && i === selected ? "wrong" : "" }))}
+        />
       ) : (
         <div className="stack">
           <input
@@ -112,32 +106,9 @@ export function ExerciseRunner({ items, onAnswer, onFinish, finishLabel }: Props
             onChange={(ev) => setText(ev.target.value)}
             onKeyDown={(ev) => ev.key === "Enter" && (grade ? next() : check())}
           />
-          <div className="accents" aria-label="Letras con tilde">
-            {ACCENTS.map((c) => (
-              <button key={c} type="button" disabled={!!grade} onClick={() => setText((t) => t + c)}>{c}</button>
-            ))}
-          </div>
+          <AccentBar disabled={!!grade} onPick={(c) => setText((t) => t + c)} />
         </div>
       )}
-
-      {grade && (
-        <div className={`feedback ${grade}`} role="status">
-          <div className="feedback-head">
-            <Icon name={grade === "wrong" ? "x" : "check"} size={18} />
-            {grade === "correct" && "¡Correcto!"}
-            {grade === "almost" && "Casi: revisa la tilde"}
-            {grade === "wrong" && "No era esa"}
-          </div>
-          {grade !== "correct" && <p>Respuesta: <strong>{correctText(e)}</strong></p>}
-          <p><Rich text={e.why} /></p>
-        </div>
-      )}
-
-      {grade ? (
-        <button className="btn primary block" type="button" onClick={next}>{last ? finishLabel : "Siguiente"}</button>
-      ) : (
-        <button className="btn primary block" type="button" onClick={check} disabled={!canCheck}>Comprobar</button>
-      )}
-    </div>
+    </ExerciseShell>
   );
 }

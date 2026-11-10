@@ -15,8 +15,8 @@ import { easyRating, gradeWriting, ratingForChoice, ratingForWriting, typoRating
 import { isSinPistaId } from "../../domain/sinpistaSrs";
 import { extraWordsFor } from "../../domain/srsExtras";
 import { LIMITS, answeredToday, buildQueue, eligibleUnits, nextDue, nothingToReviewText, type QueueItem } from "../../domain/srsQueue";
+import { AccentBar, ExerciseShell, Feedback } from "../../ui/exercise/ExerciseShell";
 
-const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
 
 interface Entry {
   card: SrsCard;
@@ -267,17 +267,39 @@ function CardView({ entry, position, total, ctx, units, onAnswer, onRerate, onNe
   const correct = isWriting ? writeGrade !== null && writeGrade !== "wrong" : selected !== null && selected === choice?.answerIndex;
   const feedbackClass = rating === null ? "" : correct ? (writeGrade === "close" ? "almost" : "correct") : "wrong";
 
+  const tone = rating === null ? undefined : (feedbackClass as "correct" | "almost" | "wrong");
+
   return (
-    <div className="runner">
-      <div className="runner-progress" aria-label={`Tarjeta ${position} de ${total}`}>
-        <div className="bar"><i style={{ width: `${((position - 1 + (rating ? 1 : 0)) / total) * 100}%` }} /></div>
-        <span>{position} de {total}</span>
-      </div>
+    <ExerciseShell
+      index={position - 1} total={total} done={!!rating} tone={tone}
+      feedback={rating && (
+        <>
+          <Feedback tone={tone!} head={correct ? (writeGrade === "close" ? "Casi: revisa tildes y apóstrofos" : "¡Correcto!") : "No era esa"}>
+            {resolved.kind === "recog" && <p><strong className="it">{resolved.it}</strong> = {resolved.es}</p>}
+            {resolved.kind === "prod" && <p>Respuesta: <strong className="it">{resolved.it}</strong></p>}
+            {resolved.kind === "cloze" && <><p>Frase completa: <strong className="it">{fullSentence(resolved)}</strong></p><p><Rich text={resolved.why} /></p></>}
+            {resolved.kind === "listen" && <p>{resolved.es}</p>}
+          </Feedback>
+          {!adjusted && (
+            <div className="row">
+              {isWriting && rating === 1 && <button type="button" className="btn" onClick={() => adjust(typoRating(1))}>Me equivoqué al escribir</button>}
+              {rating === 3 && <button type="button" className="btn" onClick={() => adjust(easyRating(3))}>Fácil</button>}
+            </div>
+          )}
+          {warn && <p className="note"><Icon name="info" size={16} /><span>Ya pasaste de {LIMITS.warnAt} tarjetas hoy. Puedes parar cuando quieras.</span></p>}
+        </>
+      )}
+      action={rating ? (
+        <button className="btn primary block" type="button" onClick={onNext}>{last ? "Terminar" : "Siguiente"}</button>
+      ) : isWriting ? (
+        <button className="btn primary block" type="button" onClick={check} disabled={!text.trim()}>Comprobar</button>
+      ) : null}
+    >
       <div className="eyebrow">{KIND_LABEL[card.kind]}{card.deck === "quizlet" ? " · Mazo extra" : ""}</div>
 
       <section className="card stack">
         <div className="hero-row">
-          <p className="runner-prompt">
+          <p className={`runner-prompt${resolved.kind === "listen" || resolved.kind === "cloze" || resolved.kind === "recog" ? " it-prompt" : ""}`}>
             {resolved.kind === "listen" && rating ? resolved.it : <Rich text={prompt} />}
           </p>
           {(resolved.kind !== "prod" || rating) && (
@@ -316,40 +338,9 @@ function CardView({ entry, position, total, ctx, units, onAnswer, onRerate, onNe
             onChange={(ev) => setText(ev.target.value)}
             onKeyDown={(ev) => ev.key === "Enter" && (rating ? onNext() : check())}
           />
-          <div className="accents" aria-label="Letras con tilde">
-            {ACCENTS.map((c) => (
-              <button key={c} type="button" disabled={!!rating} onClick={() => setText((t) => t + c)}>{c}</button>
-            ))}
-          </div>
+          <AccentBar disabled={!!rating} onPick={(c) => setText((t) => t + c)} />
         </div>
       )}
-
-      {rating && (
-        <div className={`feedback ${feedbackClass}`} role="status">
-          <div className="feedback-head">
-            <Icon name={correct ? "check" : "x"} size={18} />
-            {correct ? (writeGrade === "close" ? "Casi: revisa tildes y apóstrofos" : "¡Correcto!") : "No era esa"}
-          </div>
-          {resolved.kind === "recog" && <p><strong>{resolved.it}</strong> = {resolved.es}</p>}
-          {resolved.kind === "prod" && <p>Respuesta: <strong>{resolved.it}</strong></p>}
-          {resolved.kind === "cloze" && <><p>Frase completa: <strong>{fullSentence(resolved)}</strong></p><p><Rich text={resolved.why} /></p></>}
-          {resolved.kind === "listen" && <p>{resolved.es}</p>}
-        </div>
-      )}
-
-      {rating && !adjusted && (
-        <div className="row">
-          {isWriting && rating === 1 && <button type="button" className="btn" onClick={() => adjust(typoRating(1))}>Me equivoqué al escribir</button>}
-          {rating === 3 && <button type="button" className="btn" onClick={() => adjust(easyRating(3))}>Fácil</button>}
-        </div>
-      )}
-      {warn && rating && <p className="note"><Icon name="info" size={16} /><span>Ya pasaste de {LIMITS.warnAt} tarjetas hoy. Puedes parar cuando quieras.</span></p>}
-
-      {rating ? (
-        <button className="btn primary block" type="button" onClick={onNext}>{last ? "Terminar" : "Siguiente"}</button>
-      ) : isWriting ? (
-        <button className="btn primary block" type="button" onClick={check} disabled={!text.trim()}>Comprobar</button>
-      ) : null}
-    </div>
+    </ExerciseShell>
   );
 }

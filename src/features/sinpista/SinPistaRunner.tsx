@@ -4,6 +4,7 @@ import { checkText, orderBank } from "../../content/sinpistaCheck";
 import { optionOrder } from "../../domain/optionOrder";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
+import { AccentBar, Choice, ExerciseShell, Feedback } from "../../ui/exercise/ExerciseShell";
 import { say, useItalianVoice } from "../../ui/speech";
 
 export interface SinPistaSummary {
@@ -18,8 +19,6 @@ interface Props {
   onFinish: (summary: SinPistaSummary) => void;
   finishLabel: string;
 }
-
-const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
 
 const INSTRUCTION: Record<SinPista["type"], string> = {
   order: "Toca las palabras para armar la frase en italiano.",
@@ -104,20 +103,30 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
   };
 
   const done = result !== null;
+  const typed = ex.type === "translate" || ex.type === "fix" || ex.type === "transform";
 
   return (
-    <div className="runner">
-      <div className="runner-progress" aria-label={`Ejercicio ${index + 1} de ${items.length}`}>
-        <div className="bar"><i style={{ width: `${((index + (done ? 1 : 0)) / items.length) * 100}%` }} /></div>
-        <span>{index + 1} de {items.length}</span>
-      </div>
-
+    <ExerciseShell
+      index={index} total={items.length} done={done} tone={done ? (result ? "correct" : "wrong") : undefined}
+      feedback={done && (
+        <Feedback tone={result ? "correct" : "wrong"} head={result ? "¡Correcto!" : "No era esa"}>
+          {!result && <p>Respuesta: <strong className="it">{modelAnswer(ex)}</strong></p>}
+          <p><Rich text={ex.why} /></p>
+          {!result && typed && <button type="button" className="btn" onClick={acceptMine}>Mi respuesta también era válida</button>}
+        </Feedback>
+      )}
+      action={done ? (
+        <button className="btn primary block" type="button" onClick={next}>{last ? finishLabel : "Siguiente"}</button>
+      ) : (
+        <button className="btn primary block" type="button" onClick={check} disabled={!canCheck}>Comprobar</button>
+      )}
+    >
       <p className="sub">{INSTRUCTION[ex.type]}</p>
 
       {ex.type === "dialog" ? (
         <div className="stack">
           {ex.lines.map((line, i) => (
-            <p key={i} className="runner-prompt">
+            <p key={i} className="runner-prompt it-prompt">
               {line.split("___").map((part, j, all) => (
                 <span key={j}>
                   <Rich text={part} />
@@ -129,7 +138,7 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
         </div>
       ) : ex.type === "listen" ? (
         <div className="hero-row">
-          <p className="runner-prompt">{ex.prompt}</p>
+          <p className="runner-prompt it-prompt">{ex.prompt}</p>
           {voice !== "no" && (
             <button type="button" className="audio-btn lg" onClick={() => say(ex.prompt)} aria-label="Escuchar">
               <Icon name="sound" size={26} />
@@ -137,7 +146,7 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
           )}
         </div>
       ) : (
-        <p className="runner-prompt"><Rich text={ex.prompt} /></p>
+        <p className={`runner-prompt${ex.type === "fix" ? " it-prompt" : ""}`}><Rich text={ex.prompt} /></p>
       )}
 
       {ex.type === "order" && (
@@ -162,7 +171,7 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
         </div>
       )}
 
-      {(ex.type === "translate" || ex.type === "fix" || ex.type === "transform") && (
+      {typed && (
         <div className="stack">
           <input
             className="input" value={text} disabled={done}
@@ -171,50 +180,16 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
             onChange={(e) => setText(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && (done ? next() : check())}
           />
-          <div className="accents" aria-label="Letras con tilde">
-            {ACCENTS.map((c) => (
-              <button key={c} type="button" disabled={done} onClick={() => setText((t) => t + c)}>{c}</button>
-            ))}
-          </div>
+          <AccentBar disabled={done} onPick={(c) => setText((t) => t + c)} />
         </div>
       )}
 
       {(ex.type === "dialog" || ex.type === "listen") && (
-        <div className="options" role="radiogroup">
-          {order.map((i) => {
-            const state = done && i === ex.answer ? "right" : done && i === selected ? "wrong" : "";
-            return (
-              <button
-                key={ex.options[i]} type="button" role="radio" aria-checked={selected === i}
-                className={`option ${selected === i ? "picked" : ""} ${state}`}
-                disabled={done} onClick={() => setSelected(i)}
-              >
-                {ex.options[i]}
-              </button>
-            );
-          })}
-        </div>
+        <Choice
+          selected={selected} disabled={done} onSelect={setSelected}
+          items={order.map((i) => ({ value: i, label: ex.options[i], state: done && i === ex.answer ? "right" : done && i === selected ? "wrong" : "" }))}
+        />
       )}
-
-      {done && (
-        <div className={`feedback ${result ? "correct" : "wrong"}`} role="status">
-          <div className="feedback-head">
-            <Icon name={result ? "check" : "x"} size={18} />
-            {result ? "¡Correcto!" : "No era esa"}
-          </div>
-          {!result && <p>Respuesta: <strong>{modelAnswer(ex)}</strong></p>}
-          <p><Rich text={ex.why} /></p>
-          {!result && (ex.type === "translate" || ex.type === "fix" || ex.type === "transform") && (
-            <button type="button" className="btn" onClick={acceptMine}>Mi respuesta también era válida</button>
-          )}
-        </div>
-      )}
-
-      {done ? (
-        <button className="btn primary block" type="button" onClick={next}>{last ? finishLabel : "Siguiente"}</button>
-      ) : (
-        <button className="btn primary block" type="button" onClick={check} disabled={!canCheck}>Comprobar</button>
-      )}
-    </div>
+    </ExerciseShell>
   );
 }

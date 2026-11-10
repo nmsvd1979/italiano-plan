@@ -11,6 +11,7 @@ import { optionOrder } from "../../domain/optionOrder";
 import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
 import { say, useItalianVoice } from "../../ui/speech";
+import { AccentBar, Choice, ExerciseShell, Feedback } from "../../ui/exercise/ExerciseShell";
 
 interface Props {
   unit: string;
@@ -19,7 +20,6 @@ interface Props {
   mode: "texto" | "preguntas";
 }
 
-const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
 const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 /** Parte un párrafo en trozos de texto y palabras clave (las más largas primero), sin distinguir mayúsculas. */
@@ -128,28 +128,27 @@ export function Questions({ lectura, onFinish }: { lectura: Lectura; onFinish: (
   const done = result !== null;
 
   return (
-    <div className="runner">
-      <div className="runner-progress" aria-label={`Pregunta ${index + 1} de ${lectura.preguntas.length}`}>
-        <div className="bar"><i style={{ width: `${((index + (done ? 1 : 0)) / lectura.preguntas.length) * 100}%` }} /></div>
-        <span>{index + 1} de {lectura.preguntas.length}</span>
-      </div>
+    <ExerciseShell
+      index={index} total={lectura.preguntas.length} done={done} tone={done ? (result ? "correct" : "wrong") : undefined}
+      feedback={done && (
+        <Feedback tone={result ? "correct" : "wrong"} head={result ? "¡Correcto!" : "No era esa"}>
+          {!result && q.kind === "short" && <p>Respuesta modelo: <strong className="it">{q.accepted[0]}</strong></p>}
+          <p><Rich text={q.why} /></p>
+        </Feedback>
+      )}
+      action={done ? (
+        <button className="btn primary block" type="button" onClick={next}>{last ? "Ver resultado" : "Siguiente"}</button>
+      ) : (
+        <button className="btn primary block" type="button" onClick={check} disabled={!canCheck}>Comprobar</button>
+      )}
+    >
       <p className="runner-prompt">{q.q}</p>
 
       {q.kind === "mc" ? (
-        <div className="options" role="radiogroup">
-          {order.map((i) => {
-            const state = done && i === q.answer ? "right" : done && i === selected ? "wrong" : "";
-            return (
-              <button
-                key={q.options[i]} type="button" role="radio" aria-checked={selected === i}
-                className={`option ${selected === i ? "picked" : ""} ${state}`}
-                disabled={done} onClick={() => setSelected(i)}
-              >
-                {q.options[i]}
-              </button>
-            );
-          })}
-        </div>
+        <Choice
+          selected={selected} disabled={done} onSelect={setSelected}
+          items={order.map((i) => ({ value: i, label: q.options[i], state: done && i === q.answer ? "right" : done && i === selected ? "wrong" : "" }))}
+        />
       ) : (
         <div className="stack">
           <input
@@ -159,31 +158,10 @@ export function Questions({ lectura, onFinish }: { lectura: Lectura; onFinish: (
             onChange={(e) => setText(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && (done ? next() : check())}
           />
-          <div className="accents" aria-label="Letras con tilde">
-            {ACCENTS.map((c) => (
-              <button key={c} type="button" disabled={done} onClick={() => setText((t) => t + c)}>{c}</button>
-            ))}
-          </div>
+          <AccentBar disabled={done} onPick={(c) => setText((t) => t + c)} />
         </div>
       )}
-
-      {done && (
-        <div className={`feedback ${result ? "correct" : "wrong"}`} role="status">
-          <div className="feedback-head">
-            <Icon name={result ? "check" : "x"} size={18} />
-            {result ? "¡Correcto!" : "No era esa"}
-          </div>
-          {!result && q.kind === "short" && <p>Respuesta modelo: <strong>{q.accepted[0]}</strong></p>}
-          <p><Rich text={q.why} /></p>
-        </div>
-      )}
-
-      {done ? (
-        <button className="btn primary block" type="button" onClick={next}>{last ? "Ver resultado" : "Siguiente"}</button>
-      ) : (
-        <button className="btn primary block" type="button" onClick={check} disabled={!canCheck}>Comprobar</button>
-      )}
-    </div>
+    </ExerciseShell>
   );
 }
 

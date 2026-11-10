@@ -16,8 +16,8 @@ import {
 import { Icon } from "../../ui/Icon";
 import { say } from "../../ui/speech";
 import { VoiceNotice } from "../../ui/VoiceNotice";
+import { AccentBar } from "../../ui/exercise/ExerciseShell";
 
-const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
 
 export function DictationScreen({ unit, part }: { unit: string; part?: CoursePart | null }) {
   const { completeActivity } = useApp();
@@ -147,11 +147,7 @@ export function DictationScreen({ unit, part }: { unit: string; part?: CoursePar
                 onKeyDown={(e) => e.key === "Enter" && (grade ? next() : check())}
               />
             )}
-            <div className="accents" aria-label="Letras con tilde">
-              {ACCENTS.map((c) => (
-                <button key={c} type="button" disabled={!!grade} onClick={() => type(c)}>{c}</button>
-              ))}
-            </div>
+            <AccentBar disabled={!!grade} onPick={type} />
 
             {diff && grade && (
               <div className={`feedback ${grade}`} role="status">

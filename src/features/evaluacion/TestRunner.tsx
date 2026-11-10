@@ -5,10 +5,10 @@ import { Icon } from "../../ui/Icon";
 import { Rich } from "../../ui/Rich";
 import { say, useItalianVoice } from "../../ui/speech";
 import { VoiceNotice } from "../../ui/VoiceNotice";
+import { AccentBar, Choice, ExerciseShell, Feedback } from "../../ui/exercise/ExerciseShell";
 
 export interface TestResult { item: TestItem; points: number }
 
-const ACCENTS = ["à", "è", "é", "ì", "ò", "ù"];
 const SELF = [[1, "Todavía no"], [2, "Más o menos"], [3, "Sí"]] as const;
 
 /** Un ítem a la vez, de cualquier área. Sin pistas; la explicación aparece al corregir. */
@@ -44,12 +44,25 @@ export function TestRunner({ items, onAnswer, onFinish }: { items: TestItem[]; o
   const why = item.area === "gramatica" ? item.exercise.why : item.area === "produccion" ? "" : item.why;
   const model = item.area === "gramatica" && item.exercise.type === "fill" ? item.exercise.answers[0] : mc && opts.length > 0 ? opts[(item as { answer?: number }).answer ?? (item.area === "gramatica" && item.exercise.type === "choice" ? item.exercise.answer : 0)] : "";
 
+  const answered = points !== null;
+  const showFeedback = answered && item.area !== "produccion";
+  const rightIndex = item.area === "gramatica" ? (item.exercise.type === "choice" ? item.exercise.answer : -1) : item.area === "produccion" ? -1 : (item as { answer: number }).answer;
+
   return (
-    <div className="runner">
-      <div className="runner-progress" aria-label={`Ítem ${index + 1} de ${items.length}`}>
-        <div className="bar"><i style={{ width: `${((index + (points !== null ? 1 : 0)) / items.length) * 100}%` }} /></div>
-        <span>{index + 1} de {items.length}</span>
-      </div>
+    <ExerciseShell
+      index={index} total={items.length} done={answered} tone={showFeedback ? (points > 0 ? "correct" : "wrong") : undefined}
+      feedback={showFeedback && (
+        <Feedback tone={points > 0 ? "correct" : "wrong"} head={points > 0 ? "¡Correcto!" : "No era esa"}>
+          {points === 0 && model && <p>Respuesta: <strong className="it">{model}</strong></p>}
+          {why && <p><Rich text={why} /></p>}
+        </Feedback>
+      )}
+      action={answered ? (
+        <button className="btn primary block" type="button" onClick={next}>{last ? "Ver resultado" : "Siguiente"}</button>
+      ) : item.area === "produccion" ? null : (
+        <button className="btn primary block" type="button" disabled={!canCheck} onClick={() => answer(mc ? (sel as number) : text)}>Comprobar</button>
+      )}
+    >
       <div className="eyebrow">{AREA_NAME[item.area as Area]}</div>
       {item.area === "escucha" && <VoiceNotice needed="Sin voz italiana, el audio solo suena si está descargado (Ajustes)." />}
 
@@ -66,45 +79,28 @@ export function TestRunner({ items, onAnswer, onFinish }: { items: TestItem[]; o
           <p className="sub">Piensa en una vez que lo hayas escrito o dicho de verdad. ¿Puedes hacerlo sin ayuda?</p>
           <div className="options">
             {SELF.map(([v, t]) => (
-              <button key={v} type="button" className={`option ${sel === v ? "picked" : ""}`} disabled={points !== null} onClick={() => { setSel(v); answer(v); }}>{t}</button>
+              <button key={v} type="button" className={`option ${sel === v ? "picked" : ""}`} disabled={answered} onClick={() => { setSel(v); answer(v); }}>{t}</button>
             ))}
           </div>
         </>
       ) : item.area === "gramatica" ? (
-        <p className="runner-prompt"><Rich text={item.exercise.prompt.replace("___", "_____")} /></p>
+        <p className="runner-prompt it-prompt"><Rich text={item.exercise.prompt.replace("___", "_____")} /></p>
       ) : (
         <p className="runner-prompt">{item.q}</p>
       )}
 
       {mc && opts.length > 0 && (
-        <div className="options" role="radiogroup">
-          {order.map((i) => {
-            const right = item.area === "gramatica" ? (item.exercise.type === "choice" ? item.exercise.answer : -1) : (item as { answer: number }).answer;
-            const state = points !== null && i === right ? "right" : points !== null && i === sel ? "wrong" : "";
-            return <button key={opts[i]} type="button" role="radio" aria-checked={sel === i} className={`option ${sel === i ? "picked" : ""} ${state}`} disabled={points !== null} onClick={() => setSel(i)}>{opts[i]}</button>;
-          })}
-        </div>
+        <Choice
+          selected={sel} disabled={answered} onSelect={setSel}
+          items={order.map((i) => ({ value: i, label: opts[i], state: answered && i === rightIndex ? "right" : answered && i === sel ? "wrong" : "" }))}
+        />
       )}
       {!mc && item.area === "gramatica" && (
         <div className="stack">
-          <input className="input" value={text} disabled={points !== null} autoCapitalize="off" autoCorrect="off" spellCheck={false} autoComplete="off" aria-label="Respuesta" placeholder="Escribe lo que falta" onChange={(e) => setText(e.target.value)} onKeyDown={(e) => e.key === "Enter" && (points !== null ? next() : canCheck && answer(text))} />
-          <div className="accents">{ACCENTS.map((c) => <button key={c} type="button" disabled={points !== null} onClick={() => setText((t) => t + c)}>{c}</button>)}</div>
+          <input className="input" value={text} disabled={answered} autoCapitalize="off" autoCorrect="off" spellCheck={false} autoComplete="off" aria-label="Respuesta" placeholder="Escribe lo que falta" onChange={(e) => setText(e.target.value)} onKeyDown={(e) => e.key === "Enter" && (answered ? next() : canCheck && answer(text))} />
+          <AccentBar disabled={answered} onPick={(c) => setText((t) => t + c)} />
         </div>
       )}
-
-      {points !== null && item.area !== "produccion" && (
-        <div className={`feedback ${points > 0 ? "correct" : "wrong"}`} role="status">
-          <div className="feedback-head"><Icon name={points > 0 ? "check" : "x"} size={18} />{points > 0 ? "¡Correcto!" : "No era esa"}</div>
-          {points === 0 && model && <p>Respuesta: <strong>{model}</strong></p>}
-          {why && <p><Rich text={why} /></p>}
-        </div>
-      )}
-
-      {points !== null ? (
-        <button className="btn primary block" type="button" onClick={next}>{last ? "Ver resultado" : "Siguiente"}</button>
-      ) : item.area === "produccion" ? null : (
-        <button className="btn primary block" type="button" disabled={!canCheck} onClick={() => answer(mc ? (sel as number) : text)}>Comprobar</button>
-      )}
-    </div>
+    </ExerciseShell>
   );
 }
