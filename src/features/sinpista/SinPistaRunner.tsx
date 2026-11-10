@@ -131,7 +131,7 @@ export function SinPistaRunner({ items, onAnswer, onFinish, finishLabel }: Props
         <div className="hero-row">
           <p className="runner-prompt">{ex.prompt}</p>
           {voice !== "no" && (
-            <button type="button" className="audio-btn" style={{ width: 56, height: 56 }} onClick={() => say(ex.prompt)} aria-label="Escuchar">
+            <button type="button" className="audio-btn lg" onClick={() => say(ex.prompt)} aria-label="Escuchar">
               <Icon name="sound" size={26} />
             </button>
           )}

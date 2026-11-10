@@ -1,4 +1,6 @@
 import { useMemo, useState } from "react";
+import { Score } from "../../ui/Score";
+import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
@@ -24,7 +26,7 @@ export function GapDialogueScreen({ unit }: { unit: string }) {
   const [done, setDone] = useState(false);
 
   const lines = useMemo(() => (dialogue?.lines ?? []).filter((l) => tokenize(l.it).length >= 2), [dialogue]);
-  if (!dialogue || lines.length === 0) return <p className="sub">Esta unidad todavía no tiene diálogo.</p>;
+  if (!dialogue || lines.length === 0) return <EmptyState message="Esta unidad todavía no tiene diálogo." />;
 
   const line = lines[index];
   const tokens = tokenize(line.it);
@@ -59,16 +61,16 @@ export function GapDialogueScreen({ unit }: { unit: string }) {
           <Icon name="arrowLeft" size={20} />
         </a>
         <div>
-          <div className="eyebrow">Unidad {meta?.n} · Oír y completar</div>
-          <h1 className="title">{done ? "Listo" : `Línea ${index + 1} de ${lines.length}`}</h1>
+          <div className="eyebrow">Unidad {meta?.n} · {done ? "Resultado" : `Línea ${index + 1} de ${lines.length}`}</div>
+          <h1 className="title">Oír y completar</h1>
         </div>
       </header>
       <section className="card stack">
         {done ? (
           <>
-            <div className="score">{score} de {lines.length}</div>
+            <Score correct={score} total={lines.length} />
             <p className="sub">Recuperar la palabra antes de verla fija más que releer el diálogo. Si fallaste muchas, vuelve a oírlo entero en «Diálogo de entrada».</p>
-            <button type="button" className="btn primary block" onClick={finish}>Terminar</button>
+            <button type="button" className="btn primary block" onClick={finish}>Terminé</button>
           </>
         ) : (
           <>
@@ -77,7 +79,7 @@ export function GapDialogueScreen({ unit }: { unit: string }) {
               <Icon name="sound" size={18} /> Escuchar
             </button>
             <p className="example-it" lang="it">
-              {tokens.map((t, i) => (i === hole && !result ? <span key={i}>____ </span> : <span key={i}>{t.text} </span>))}
+              {tokens.map((t, i) => (i === hole && !result ? <span key={i} className="blank">&nbsp;</span> : <span key={i}>{t.text} </span>))}
             </p>
             {!result ? (
               <>
@@ -90,9 +92,10 @@ export function GapDialogueScreen({ unit }: { unit: string }) {
               </>
             ) : (
               <>
-                <p role="status" className={result === "wrong" ? "sub" : "banner-done"}>
-                  {result === "correct" ? "Correcto." : result === "almost" ? `Casi: se escribe «${answer}».` : `Era «${answer}».`}
-                </p>
+                <div role="status" className={`feedback ${result}`}>
+                  <div className="feedback-head"><Icon name={result === "wrong" ? "x" : "check"} size={18} /> {result === "correct" ? "¡Correcto!" : result === "almost" ? "Casi: revisa la tilde" : "No era esa"}</div>
+                  <p>Palabra: <b>{answer}</b></p>
+                </div>
                 <button type="button" className="btn primary block" onClick={next}>{index < lines.length - 1 ? "Siguiente" : "Ver resultado"}</button>
               </>
             )}

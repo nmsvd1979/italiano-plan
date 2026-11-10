@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Score } from "../../ui/Score";
 import { useApp } from "../../app/state";
 import { goBack, href } from "../../app/route";
 import { loadPracticaB1 } from "../../content/lazy";
@@ -87,11 +88,11 @@ function ResultCard({ correct, total, onAgain, children }: { correct: number; to
   const ok = correct / total >= B1_PASS;
   return (
     <section className="card stack">
-      <div className="score">{correct} de {total}</div>
-      <p className="sub">{ok ? "Lograda: llegaste al 75 % que se pide en este módulo." : "Todavía no llega al 75 %. Vuelve a intentarlo cuando quieras."}</p>
+      <Score correct={correct} total={total} />
+      <p className="sub">{ok ? `Lograda: llegaste al ${Math.round(B1_PASS * 100)} % que se pide en este módulo.` : `Todavía no llega al ${Math.round(B1_PASS * 100)} %. Vuelve a intentarlo cuando quieras.`}</p>
       {children}
       <button type="button" className="btn" onClick={onAgain}>Intentarlo otra vez</button>
-      <a className="btn primary block" href={href("/practica-b1")} style={{ textAlign: "center", textDecoration: "none" }}>Volver a Práctica B1</a>
+      <a className="btn primary block" href={href("/practica-b1")}>Volver a Práctica B1</a>
     </section>
   );
 }
@@ -123,7 +124,7 @@ export function B1LecturaScreen({ id }: { id: string }) {
         <>
           <details className="card">
             <summary>Ver el texto</summary>
-            <div className="stack" style={{ marginTop: 8 }}>{lectura.it.map((p, i) => <p key={i} className="reading-p">{p}</p>)}</div>
+            <div className="stack mt">{lectura.it.map((p, i) => <p key={i} className="reading-p">{p}</p>)}</div>
           </details>
           <section className="card"><Questions key={round} lectura={lectura} onFinish={(c) => { save(c, lectura.preguntas.length, "lectura"); setScore(c); setStage("fin"); }} /></section>
         </>
@@ -170,7 +171,7 @@ export function B1EscuchaScreen({ id }: { id: string }) {
       {!mod ? <p className="sub">Cargando…</p> : !escucha || !pseudo ? <p className="sub">No existe ese audio.</p> : stage === "escuchar" ? (
         <section className="card stack">
           <div className="eyebrow">{escucha.tipo}</div>
-          <h2 className="title" style={{ fontSize: 20 }}>{escucha.titulo}</h2>
+          <h2 className="title sm">{escucha.titulo}</h2>
           <p className="sub">
             Un diálogo de dos personas (una sola voz). En el examen el audio se oye dos veces; aquí puedes oírlo las que quieras, pero intenta con dos.
             El texto no se muestra hasta el final.

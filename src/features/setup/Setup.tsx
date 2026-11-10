@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useApp } from "../../app/state";
 import { READY_UNITS } from "../../content/curriculum";
 import { toISODate } from "../../domain/dates";
-import { Icon } from "../../ui/Icon";
 
 export function Setup() {
   const { today, setStart, setStartUnit } = useApp();
@@ -10,8 +9,8 @@ export function Setup() {
   const [unit, setUnit] = useState(1);
 
   return (
-    <div className="card stack" style={{ marginTop: "10vh" }}>
-      <Icon name="target" size={30} />
+    <div className="card stack setup-card">
+      <div className="brand setup-brand"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>Italiano</div>
       <h1 className="title">Empecemos</h1>
       <p className="sub">
         Cada semana del curso son 7 días de unos 30 minutos (15 en modo corto). No hay calendario fijo: el plan avanza contigo. Si un día no estudias, mañana sigue lo mismo; si tienes más tiempo, sigues con lo que viene. La fecha solo sirve para medir tu ritmo.

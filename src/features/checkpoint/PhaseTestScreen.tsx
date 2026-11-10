@@ -111,13 +111,13 @@ export function PhaseTestScreen({ phase }: { phase: number }) {
         <>
           <section className="card stack">
             <div className="eyebrow">Resultado</div>
-            <span className="pill accent" style={{ alignSelf: "flex-start" }}>{level.label}</span>
+            <span className="pill accent self-start">{level.label}</span>
             <p className="sub">{level.text}</p>
             <ResultView scores={scores} battery={battery} />
             {weak.length > 0 && <p className="sub">Con menos del {Math.round(WEAK_AREA * 100)} %: {weak.map((a) => AREA_NAME[a]).join(", ")}. En Hoy verás un refuerzo de esas áreas durante la fase siguiente.</p>}
+            {previous.length > 0 && <p className="note"><Icon name="info" size={16} /><span>{previous.map((x) => `Test de la fase ${x.phase}: ${Math.round(x.last.correct * 10) / 10} de ${x.last.total}`).join(" · ")}</span></p>}
+            <a className="btn primary block" href="#/">Volver a Hoy</a>
           </section>
-          {previous.length > 0 && <p className="sub">{previous.map((x) => `Test de la fase ${x.phase}: ${Math.round(x.last.correct * 10) / 10} de ${x.last.total}`).join(" · ")}</p>}
-          <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
         </>
       )}
     </>

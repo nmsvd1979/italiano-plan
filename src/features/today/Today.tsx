@@ -118,14 +118,14 @@ export function Today() {
           {unit && up && (
             <section className="card">
               <div className="eyebrow">Tu avance</div>
-              <p className="sub" style={{ marginTop: 6 }}>
+              <p className="sub mt-s">
                 {up.done} de {up.total} bloques de la unidad {unit.n}. Al terminarla podrás:
               </p>
               <ul className="candos">
                 {unit.canDo.map((t) => <li key={t}>{t}</li>)}
               </ul>
               <Tracker />
-              <p className="note" style={{ marginTop: 12 }}>
+              <p className="note mt">
                 <Icon name="info" size={16} />
                 <span>No hay calendario: si un día no estudias, mañana sigue lo mismo. {settings.shortMode ? "Hoy ves solo lo esencial." : ""}</span>
               </p>
@@ -164,7 +164,7 @@ function Reinforcement() {
     <section className="card stack">
       <div className="eyebrow">Refuerzo de esta fase</div>
       <p className="sub">En la prueba de la fase anterior te costaron: {areas.map((a) => AREA_NAME[a].toLowerCase()).join(", ")}. Suma un poco de práctica extra cuando tengas tiempo.</p>
-      <div className="row" style={{ flexWrap: "wrap" }}>
+      <div className="row">
         {areas.map((a) => <a key={a} className="chip primary" href={href(to[a][0])}>{AREA_NAME[a]}: {to[a][1]}</a>)}
       </div>
     </section>

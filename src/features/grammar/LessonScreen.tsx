@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getLesson } from "../../content/grammar";
@@ -18,7 +19,7 @@ export function LessonScreen({ unit, part }: { unit: string; part?: CoursePart |
   const meta = getUnit(unit);
   const [noticeDone, setNoticeDone] = useState(false);
 
-  if (!lesson) return <p className="sub">No existe la lección de esa unidad.</p>;
+  if (!lesson) return <EmptyState message="No existe la lección de esa unidad." />;
 
   const noticeItems: RunnerItem[] = forPart(unit, part, "notice", lesson.notice).map(({ item, index }) => ({ id: `n${unit}-${index}`, exercise: item }));
   const examples = forPart(unit, part, "examples", lesson.examples).map(({ item }) => item);
@@ -73,17 +74,17 @@ export function LessonScreen({ unit, part }: { unit: string; part?: CoursePart |
         <p className="note"><Icon name="info" size={16} /><span>Audio con la voz italiana del sistema, solo para escuchar el ritmo de la frase.</span></p>
       </section>
 
-      <section className="card stack">
+      {noticeItems.length > 0 && <section className="card stack">
         <div className="eyebrow">Primero fíjate</div>
         <p className="sub">Antes de producir, nota cómo la forma cambia el significado.</p>
         {noticeDone ? (
           <p className="banner-done"><Icon name="check" size={18} /> Listo: ya puedes pasar a practicar.</p>
         ) : (
-          <ExerciseRunner items={noticeItems} finishLabel="Terminar" onFinish={() => setNoticeDone(true)} />
+          <ExerciseRunner items={noticeItems} finishLabel="Seguir" onFinish={() => setNoticeDone(true)} />
         )}
-      </section>
+      </section>}
 
-      <button className="btn primary block" type="button" disabled={!noticeDone} onClick={finish}>
+      <button className="btn primary block" type="button" disabled={!noticeDone && noticeItems.length > 0} onClick={finish}>
         Terminé la lección
       </button>
     </>

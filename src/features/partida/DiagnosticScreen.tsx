@@ -1,4 +1,5 @@
 import { useMemo, useRef, useState } from "react";
+import { Score } from "../../ui/Score";
 import { useApp } from "../../app/state";
 import { goBack, href, routeQuery } from "../../app/route";
 import {
@@ -65,7 +66,7 @@ export function DiagnosticScreen() {
         {back}
         <section className="card stack">
           <div className="eyebrow">Unidad {unit?.n} · {unit?.title}</div>
-          <div className="score">{justDone.result.correct} de {justDone.result.total}</div>
+          <Score correct={justDone.result.correct} total={justDone.result.total} />
           <p className="sub">{VERDICT_TEXT[justDone.result.verdict]}</p>
           {justDone.result.parts && (
             <p className="sub">
@@ -75,7 +76,7 @@ export function DiagnosticScreen() {
           {pending.length > 0 ? (
             <button type="button" className="btn primary block" onClick={() => setJustDone(null)}>Seguir con la unidad siguiente</button>
           ) : null}
-          <a className="btn block" href={href("/punto-de-partida")} style={{ textAlign: "center", textDecoration: "none" }}>
+          <a className="btn block" href={href("/punto-de-partida")}>
             {pending.length > 0 ? "Seguir otro día" : "Volver a Tu punto de partida"}
           </a>
         </section>
@@ -88,11 +89,14 @@ export function DiagnosticScreen() {
       {back}
       <section className="card stack">
         {!session ? (
-          <p className="sub">No hay unidades para diagnosticar en esta sesión.</p>
+          <>
+            <p className="sub">No hay unidades para diagnosticar en esta sesión.</p>
+            <a className="btn primary block" href="#/">Volver a Hoy</a>
+          </>
         ) : !current ? (
           <>
             <p className="sub">Esta sesión ya está lista.</p>
-            <a className="btn primary block" href={href("/punto-de-partida")} style={{ textAlign: "center", textDecoration: "none" }}>Volver a Tu punto de partida</a>
+            <a className="btn primary block" href={href("/punto-de-partida")}>Volver a Tu punto de partida</a>
           </>
         ) : (
           <>

@@ -68,11 +68,14 @@ export function MiniTestScreen({ unit }: { unit: string }) {
 
       <section className="card">
         {!step || (battery && battery.items.length === 0) ? (
-          <p className="sub">Esta semana todavía no tiene prueba.</p>
+          <div className="stack">
+            <p className="sub">Esta semana todavía no tiene prueba.</p>
+            <a className="btn primary block" href="#/">Volver a Hoy</a>
+          </div>
         ) : already && !result ? (
           <div className="stack">
             <p className="sub">Ya hiciste este intento. Vuelve a Hoy para seguir.</p>
-            <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
+            <a className="btn primary block" href="#/">Volver a Hoy</a>
           </div>
         ) : !battery ? (
           <p className="sub">Cargando…</p>
@@ -80,7 +83,7 @@ export function MiniTestScreen({ unit }: { unit: string }) {
           <Result result={result} />
         ) : (
           <>
-            <p className="sub" style={{ marginBottom: 12 }}>{battery.items.length} ítems, sin pista. Respóndelos sin mirar apuntes.</p>
+            <p className="sub mb">{battery.items.length} ítems, sin pista. Respóndelos sin mirar apuntes.</p>
             {battery.missing.length > 0 && <p className="note" role="status">Esta prueba solo tiene gramática: todavía faltan ítems de lectura y escucha para esta unidad.</p>}
             <TestRunner items={battery.items} onAnswer={onAnswer} onFinish={onFinish} />
           </>
@@ -99,7 +102,7 @@ function Result({ result }: { result: { battery: Battery; passed: boolean; score
           ? "Aprobaste: pasas a lo que sigue."
           : `Para pasar hacen falta ${Math.round(PASS_RATIO * 100)} %. No pasa nada: Hoy te pone 2 días de repaso de lo que fallaste y después haces otra versión de la prueba.`}
       </p>
-      <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
+      <a className="btn primary block" href="#/">Volver a Hoy</a>
     </div>
   );
 }

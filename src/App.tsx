@@ -128,7 +128,7 @@ function Shell() {
       <main className={`app${tabs ? " has-tabs" : ""}`}>
         <Screens />
       </main>
-      <TabBar />
+      <TabBar visible={tabs} />
       <SystemVoiceHint raised={tabs} />
     </>
   );

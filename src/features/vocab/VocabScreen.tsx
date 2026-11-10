@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Score } from "../../ui/Score";
 import { useApp } from "../../app/state";
 import { goBack, routeQuery } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
@@ -110,7 +111,7 @@ export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | 
 
       {stage === "done" && summary && (
         <section className="card stack">
-          <div className="score">{summary.correct} de {summary.total}</div>
+          <Score correct={summary.correct} total={summary.total} />
           <p className="sub">
             {summary.missed.length === 0
               ? "Todas bien. Estas palabras ya van a aparecer en las lecciones y los diálogos."
@@ -122,7 +123,7 @@ export function VocabScreen({ unit, part }: { unit: string; part?: CoursePart | 
               <strong>{item.exercise.type === "choice" ? item.exercise.options[item.exercise.answer] : ""}</strong>
             </div>
           ))}
-          <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
+          <a className="btn primary block" href="#/">Volver a Hoy</a>
         </section>
       )}
     </>

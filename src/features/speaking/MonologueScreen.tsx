@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
@@ -26,7 +27,7 @@ export function MonologueScreen({ unit, part = null }: { unit: string; part?: Co
   const stepId = writingKey(unit, part);
   const mono = getMonologue(stepId);
   const meta = getUnit(unit);
-  if (!mono) return <p className="sub">Esta semana todavía no tiene monólogo.</p>;
+  if (!mono) return <EmptyState message="Esta semana todavía no tiene monólogo." />;
   return <Session unit={unit} stepId={stepId} meta={meta?.n} mono={mono} />;
 }
 
@@ -77,11 +78,22 @@ function Session({ unit, stepId, meta, mono }: { unit: string; stepId: string; m
         </p>
       </section>
 
-      {laps.map((l, i) => (
-        <section key={i} className="card stack" aria-label={`Vuelta ${i + 1}`}>
-          <div className="eyebrow">Vuelta {i + 1} · {l.seconds} s de {mono.seconds[i]} s · {coveredCount(l.covered)} de {mono.points.length} puntos</div>
+      {laps.length > 0 && (
+        <section className="card" aria-label="Vueltas hechas">
+          <div className="eyebrow">Tus vueltas</div>
+          <div className="unit-list">
+            {laps.map((l, i) => (
+              <div key={i} className="unit-row">
+                <span className="unit-num">{i + 1}</span>
+                <span className="unit-main">
+                  <b>{l.seconds} s de {mono.seconds[i]} s</b>
+                  <small>{coveredCount(l.covered)} de {mono.points.length} puntos</small>
+                </span>
+              </div>
+            ))}
+          </div>
         </section>
-      ))}
+      )}
 
       {!finished ? (
         <LapCard
@@ -135,7 +147,7 @@ function LapCard({ stepId, lap, limit, mono, onDone, last }: {
 
   return (
     <section className="card stack" aria-label={`Vuelta ${lap + 1}`}>
-      <div className="eyebrow">Vuelta {lap + 1} de 3 · máximo {limit} s</div>
+      <div className="eyebrow">Vuelta {lap + 1} de {mono.seconds.length} · máximo {limit} s</div>
       {!usable && seconds === null && (
         <p className="note" role="status"><Icon name="info" size={16} /><span>No se puede grabar aquí. Sigue sin grabar: dilo en voz alta y marca cuándo empiezas y cuándo terminas.</span></p>
       )}
@@ -176,7 +188,7 @@ function LapCard({ stepId, lap, limit, mono, onDone, last }: {
             </div>
           )}
           <button type="button" className="btn primary block" onClick={() => onDone({ seconds, covered })}>
-            {last ? "Terminar las vueltas" : "Siguiente vuelta"}
+            {last ? "Terminé las vueltas" : "Siguiente vuelta"}
           </button>
         </>
       )}

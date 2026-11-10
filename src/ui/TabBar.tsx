@@ -11,9 +11,9 @@ const TABS: { to: string; label: string; icon: IconName }[] = [
 /** Las rutas donde se muestra la barra: solo las cuatro pestañas (los ejercicios necesitan foco). */
 export const hasTabBar = (route: string) => TABS.some((t) => t.to === route);
 
-export function TabBar() {
+export function TabBar({ visible }: { visible: boolean }) {
   const route = useRoute();
-  if (!hasTabBar(route)) return null;
+  if (!visible) return null;
   return (
     <nav className="tabbar" aria-label="Secciones">
       {TABS.map((t) => (

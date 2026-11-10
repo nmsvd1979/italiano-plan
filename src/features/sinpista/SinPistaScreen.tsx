@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { Score } from "../../ui/Score";
+import { Rich } from "../../ui/Rich";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import type { CoursePart } from "../../content/course";
@@ -53,7 +55,7 @@ export function SinPistaScreen({ unit, part = null, size = WEEK_SIZE }: { unit: 
       <section className="card">
         {summary ? (
           <div className="stack">
-            <div className="score">{summary.correct} de {summary.total}</div>
+            <Score correct={summary.correct} total={summary.total} />
             <p className="sub">
               {summary.missed.length === 0
                 ? "Sin errores. Muy bien."
@@ -61,11 +63,11 @@ export function SinPistaScreen({ unit, part = null, size = WEEK_SIZE }: { unit: 
             </p>
             {summary.missed.map((ex) => (
               <div key={ex.id} className="missed">
-                <div>{ex.type === "dialog" ? ex.lines.join(" ") : ex.prompt}</div>
+                <div>{ex.type === "dialog" ? ex.lines.join(" ") : <Rich text={ex.prompt} />}</div>
                 <strong>{ex.type === "dialog" || ex.type === "listen" ? ex.options[ex.answer] : ex.answers[0]}</strong>
               </div>
             ))}
-            <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
+            <a className="btn primary block" href="#/">Volver a Hoy</a>
           </div>
         ) : items === null ? (
           <p className="sub">Cargando…</p>

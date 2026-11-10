@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Score } from "../../ui/Score";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
@@ -95,10 +96,10 @@ export function DictationScreen({ unit, part }: { unit: string; part?: CoursePar
       <section className="card stack">
         {finished ? (
           <>
-            <div className="score">{correct} de {items.length}</div>
+            <Score correct={correct} total={items.length} />
             <p className="sub">Escuchaste cada frase {(results.reduce((n, r) => n + r.plays, 0) / items.length).toFixed(1).replace(".", ",")} veces en promedio.</p>
             <p className="sub">Las frases que fallaste, léelas en voz alta una vez y vuelve a intentarlo otro día.</p>
-            <a className="btn primary block" href="#/" style={{ textAlign: "center", textDecoration: "none" }}>Volver a Hoy</a>
+            <a className="btn primary block" href="#/">Volver a Hoy</a>
           </>
         ) : (
           <div className="runner">
@@ -175,7 +176,7 @@ export function DictationScreen({ unit, part }: { unit: string; part?: CoursePar
             )}
 
             {grade ? (
-              <button className="btn primary block" type="button" onClick={next}>{last ? "Terminar" : "Siguiente"}</button>
+              <button className="btn primary block" type="button" onClick={next}>{last ? "Ver resultado" : "Siguiente"}</button>
             ) : (
               <button className="btn primary block" type="button" onClick={check} disabled={!canCheck}>Comprobar</button>
             )}

@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
 import { goBack } from "../../app/route";
 import type { CoursePart } from "../../content/course";
@@ -29,7 +30,7 @@ export function PropiasScreen({ unit, part = null }: { unit: string; part?: Cour
     };
   }, [text, task]);
 
-  if (!task) return <p className="sub">Esta semana todavía no tiene «Dos frases propias».</p>;
+  if (!task) return <EmptyState message="Esta semana todavía no tiene «Dos frases propias»." />;
   // Las formas de la semana son una sugerencia, no un requisito: una frase correcta con otra forma no debe quedar bloqueada.
   const ok = check.words >= minWords;
 

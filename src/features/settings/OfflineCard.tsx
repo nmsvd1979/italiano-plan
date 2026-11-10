@@ -39,7 +39,7 @@ export function OfflineCard() {
         Versión {__APP_VERSION__} · compilada el {new Date(__BUILD_DATE__).toLocaleString("es", { dateStyle: "medium", timeStyle: "short" })}
       </p>
 
-      <p className={`offline offline-${appReady && audioDone ? "ready" : offline.state}`} role="status">
+      <p className={`offline offline-${offline.state === "checking" || offline.state === "unsupported" ? offline.state : appReady && audioDone ? "ready" : "pending"}`} role="status">
         {offline.state === "checking" && "Comprobando…"}
         {offline.state === "unsupported" && "Este navegador no permite guardar la app para usarla sin conexión."}
         {(offline.state === "ready" || offline.state === "pending") && readyMessage(appReady, audioDone)}
@@ -67,7 +67,7 @@ export function OfflineCard() {
             <p className="note"><Icon name="info" size={16} /><span>Queda poco espacio en este dispositivo para el audio ({mb(audio.bytesTotal - audio.bytesDone)}). Libera espacio antes de bajarlo.</span></p>
           )}
           {audio.message && <p className="note"><Icon name="info" size={16} /><span>{audio.message}</span></p>}
-          <div className="row">
+          <div className="btn-row">
             {downloading ? (
               <button type="button" className="btn" onClick={pauseAudioDownload}>Pausar</button>
             ) : (

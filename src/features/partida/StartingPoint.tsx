@@ -28,10 +28,10 @@ function describeUnit(v: UnitView): { label: string; cls: string; detail: string
   if (v.verdict) {
     const how = v.source === "diagnostico" ? "según el diagnóstico" : v.source === "saltado" ? "diagnóstico saltado" : "según tus marcas";
     const parts = v.parts ? ` · semana A: ${v.parts.A ? VERDICT_LABEL[v.parts.A].toLowerCase() : "—"}, B: ${v.parts.B ? VERDICT_LABEL[v.parts.B].toLowerCase() : "—"}` : "";
-    return { label: VERDICT_LABEL[v.verdict], cls: v.verdict === "dominada" ? "done" : "current", detail: `${done} · ${how}${parts}` };
+    return { label: VERDICT_LABEL[v.verdict], cls: v.verdict === "dominada" ? "done" : "partial", detail: `${done} · ${how}${parts}` };
   }
   const extra = marks.byPhaseTest ? " · prueba de fase aprobada" : "";
-  const cls = marks.state === "completa" ? "done" : marks.state === "nueva" ? "next" : "current";
+  const cls = marks.state === "completa" ? "done" : marks.state === "nueva" ? "next" : "partial";
   return { label: MARK_LABEL[marks.state], cls, detail: `${done}${extra}` };
 }
 
@@ -39,7 +39,7 @@ function GapRow({ gap, onPostpone }: { gap: Gap; onPostpone: (postponed: boolean
   const unit = UNITS.find((u) => u.id === gap.step.unit);
   const status = gap.done ? "Hecho" : !gap.ready ? "En preparación" : gap.postponed ? "Pospuesto" : "Pendiente";
   return (
-    <div className="unit-row">
+    <div className="unit-row gap-row">
       <span className="unit-num">{unit?.n}</span>
       <span className="unit-main">
         <b>{unit?.title}</b>
@@ -49,7 +49,7 @@ function GapRow({ gap, onPostpone }: { gap: Gap; onPostpone: (postponed: boolean
       </span>
       <span className="status">{status}</span>
       {gap.ready && !gap.done && (
-        <button type="button" className="btn" onClick={() => onPostpone(!gap.postponed)}>
+        <button type="button" className="btn gap-btn" onClick={() => onPostpone(!gap.postponed)}>
           {gap.postponed ? "Traer de vuelta" : "Posponer"}
         </button>
       )}
@@ -105,14 +105,14 @@ export function StartingPoint() {
               Antes de decidir nada, guarda una copia: en Ajustes, toca «Copia de seguridad» y luego «Exportar copia».
               Esta pantalla no cambia ni borra tus marcas, pero la copia es tu seguro.
             </p>
-            <a className="btn block" href={href("/ajustes")} style={{ textAlign: "center", textDecoration: "none" }}>Ir a Ajustes</a>
+            <a className="btn block" href={href("/ajustes")}>Ir a Ajustes</a>
           </>
         )}
       </section>
 
       <section className="card stack">
         <div className="eyebrow">Desde dónde sigue el plan</div>
-        <p className="title" style={{ fontSize: 18 }}>{nextText}</p>
+        <p className="title sm">{nextText}</p>
         <p className="sub">
           Marcar una actividad dice que la hiciste, no que la recuerdas. Por eso una unidad puede estar «marcada completa»
           y aun así convenir repasarla; el diagnóstico (opcional) lo comprueba.
@@ -123,7 +123,7 @@ export function StartingPoint() {
       </section>
 
       <section className="card">
-        <div className="eyebrow" style={{ marginBottom: 6 }}>Tus {UNITS.length} unidades</div>
+        <div className="eyebrow mb">Tus {UNITS.length} unidades</div>
         <div className="unit-list">
           {point.views.map((v) => {
             const st = describeUnit(v);
@@ -131,7 +131,7 @@ export function StartingPoint() {
               <a key={v.unit.id} className={`unit-row ${st.cls}`} href={href(`/unidad/${v.unit.id}`)}>
                 <span className="unit-num">{v.unit.n}</span>
                 <span className="unit-main"><b>{v.unit.title}</b><small>{st.detail}</small></span>
-                <span className={`status status-${st.cls}`}>{st.label}</span>
+                {st.cls !== "next" && <span className={`status status-${st.cls}`}>{st.label}</span>}
               </a>
             );
           })}
@@ -156,7 +156,7 @@ export function StartingPoint() {
               <div className="stack">
                 {sessions.map((s) => (
                   <a
-                    key={s.n} className="btn block" style={{ textAlign: "center", textDecoration: "none" }}
+                    key={s.n} className="btn block"
                     href={href(`/punto-de-partida/diagnostico?s=${s.n}`)}
                     onClick={() => updateContinuity((c) => (c.decision ? c : startDiagnostic(c, new Date())))}
                   >
@@ -215,7 +215,7 @@ export function StartingPoint() {
             <div key={view.unit.id} className="stack">
               <b>Unidad {view.unit.n} · {view.unit.title}</b>
               {items.map((i) => (
-                <div key={i.blockId} className="row" style={{ justifyContent: "space-between", alignItems: "center" }}>
+                <div key={i.blockId} className="row between">
                   <span>{i.name} · {i.minutes} min</span>
                   {i.done ? <span className="status status-done">Hecho</span>
                     : i.to ? <a className="btn" href={href(i.to)}>Abrir</a>
@@ -223,7 +223,7 @@ export function StartingPoint() {
                 </div>
               ))}
               {view.verdict === "repasar" && (continuity.units[view.unit.id]?.diagnostic?.failed.length ?? 0) > 0 && (
-                <div className="row" style={{ justifyContent: "space-between", alignItems: "center" }}>
+                <div className="row between">
                   <span>Repaso dirigido: {plural(continuity.units[view.unit.id]!.diagnostic!.failed.length, "ejercicio", "ejercicios")} que fallaste</span>
                   {continuity.units[view.unit.id]?.directedDone
                     ? <span className="status status-done">Hecho</span>

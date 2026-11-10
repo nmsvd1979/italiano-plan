@@ -1,4 +1,5 @@
 import { useApp } from "../../app/state";
+import { EmptyState } from "../../ui/EmptyState";
 import { useSrsCards } from "../../app/blockTimer";
 import { goBack } from "../../app/route";
 import { COURSE } from "../../content/course";
@@ -13,7 +14,7 @@ export function UnitScreen({ id }: { id: string }) {
   const { steps, course, rawCourse, canDo, toggleCanDo, progress, today } = useApp();
   const srsCards = useSrsCards(progress, today);
   const unit = getUnit(id);
-  if (!unit) return <p className="sub">No existe esa unidad.</p>;
+  if (!unit) return <EmptyState message="No existe esa unidad." />;
 
   const phase = getPhase(unit.phase);
   const up = unitCycleProgress(unit.id, course);

@@ -66,7 +66,7 @@ export function RereadScreen({ unit, part = null }: { unit: string; part?: Cours
       ) : stage === "intro" ? (
         <section className="card stack">
           <div className="eyebrow">{lectura.tipo}</div>
-          <h2 className="title" style={{ fontSize: 20 }}>{lectura.titulo}</h2>
+          <h2 className="title sm">{lectura.titulo}</h2>
           <p className="sub">
             Leíste este texto hace unos días. Antes de volver a verlo, responde de memoria sus {lectura.preguntas.length} preguntas.
             Equivocarte es parte de ejercitar la memoria: lo que fallas lo vuelves a ver en el texto.
@@ -83,7 +83,7 @@ export function RereadScreen({ unit, part = null }: { unit: string; part?: Cours
               <p className="sub" role="status">De memoria acertaste {score} de {lectura.preguntas.length}. Ahora fíjate en lo que no recordabas.</p>
             </section>
           )}
-          <ReadText lectura={lectura} onNext={finish} nextLabel="Terminar" />
+          <ReadText lectura={lectura} onNext={finish} nextLabel="Terminé" />
         </>
       )}
     </>
