@@ -3,6 +3,7 @@ import { GLOSS } from "../../content/pronunciation";
 import { MAX_TRIALS, type Trial } from "../../domain/pronunciation";
 import { Icon } from "../../ui/Icon";
 import { playFile } from "../../ui/audio";
+import { ExerciseShell, Feedback } from "../../ui/exercise/ExerciseShell";
 import { WordButton } from "./WordButton";
 
 interface Props {
@@ -44,12 +45,19 @@ export function SoundTrials({ trials: initial, retry, onDone, doneLabel }: Props
     setPicked(null);
   };
 
+  const ok = picked === trial.target;
+
   return (
-    <div className="runner">
-      <div className="runner-progress">
-        <div className="bar"><i style={{ width: `${((index + (answered ? 1 : 0)) / trials.length) * 100}%` }} /></div>
-        <span>{index + 1} de {trials.length}</span>
-      </div>
+    <ExerciseShell
+      index={index} total={trials.length} done={answered} tone={answered ? (ok ? "correct" : "wrong") : undefined}
+      feedback={answered && (
+        <Feedback tone={ok ? "correct" : "wrong"} head={ok ? "¡Correcto!" : `Sonaba «${trial.target}»`}>
+          <p>Escúchalas otra vez, una después de la otra:</p>
+          <div className="row">{trial.options.map((o) => <WordButton key={o} word={o} nativeOnly />)}</div>
+        </Feedback>
+      )}
+      action={answered ? <button className="btn primary block" type="button" onClick={next}>{last ? doneLabel : "Siguiente"}</button> : null}
+    >
       <p className="runner-prompt">¿Qué palabra escuchaste?</p>
       <button type="button" className="listen-btn" onClick={() => playFile(trial.file)}>
         <Icon name="sound" size={26} /> Escuchar
@@ -59,24 +67,11 @@ export function SoundTrials({ trials: initial, retry, onDone, doneLabel }: Props
           const state = answered && o === trial.target ? "right" : answered && o === picked ? "wrong" : "";
           return (
             <button key={o} type="button" className={`option ${state}`} disabled={answered} onClick={() => choose(o)}>
-              {o}{answered && GLOSS[o] ? <span className="word-gloss"> · {GLOSS[o]}</span> : null}
+              <span className="it">{o}</span>{answered && GLOSS[o] ? <span className="word-gloss"> · {GLOSS[o]}</span> : null}
             </button>
           );
         })}
       </div>
-      {answered && (
-        <>
-          <div className={`feedback ${picked === trial.target ? "correct" : "wrong"}`} role="status">
-            <div className="feedback-head">
-              <Icon name={picked === trial.target ? "check" : "x"} size={18} />
-              {picked === trial.target ? "¡Correcto!" : `Sonaba «${trial.target}»`}
-            </div>
-            <p>Escúchalas otra vez, una después de la otra:</p>
-            <div className="row">{trial.options.map((o) => <WordButton key={o} word={o} nativeOnly />)}</div>
-          </div>
-          <button className="btn primary block" type="button" onClick={next}>{last ? doneLabel : "Siguiente"}</button>
-        </>
-      )}
-    </div>
+    </ExerciseShell>
   );
 }
