@@ -85,14 +85,18 @@ export function Today() {
           <RutaCard />
           <OfflineBanner />
           <BackupReminder />
+          <SeedOffer />
+          <ContinuityNotices />
+          <RewriteDue />
+          <PhaseControl />
         </>
       ) : (
         <>
           <LegacyReview />
           <PhaseControl />
           {coreFinished(course) && <BridgeNote />}
-          {shown.map((slot) => (
-            <DayCard key={`${slot.step.id}.${slot.day.day}`} slot={slot} srsCards={srsCards} />
+          {shown.map((slot, i) => (
+            <DayCard key={`${slot.step.id}.${slot.day.day}`} slot={slot} srsCards={srsCards} first={i === 0} sameUnit={slot.step.unit === first.step.unit} />
           ))}
           {allDone && (
             <section className="card stack">
@@ -352,7 +356,7 @@ function dayBlocks(slot: Slot, blocks: Block[], srsCards: number, course: Course
 }
 
 /** Un día del ciclo: sus bloques según el modo (corto o normal). */
-function DayCard({ slot, srsCards }: { slot: Slot; srsCards: number }) {
+function DayCard({ slot, srsCards, first, sameUnit }: { slot: Slot; srsCards: number; first: boolean; sameUnit: boolean }) {
   const { course, settings } = useApp();
   const unit = getUnit(slot.step.unit);
   if (!unit) return null;
@@ -366,8 +370,8 @@ function DayCard({ slot, srsCards }: { slot: Slot; srsCards: number }) {
     <section className="card">
       <div className="hero-row">
         <div>
-          {(slot.step.part || course.continuity?.compressed.has(slot.step.id)) && (
-            <div className="eyebrow">{partLabel(slot.step.part).replace(" · ", "")}{course.continuity?.compressed.has(slot.step.id) ? " · hueco por cerrar" : ""}</div>
+          {(!sameUnit || slot.step.part || course.continuity?.compressed.has(slot.step.id)) && (
+            <div className="eyebrow">{!sameUnit ? `${unit.title}${partLabel(slot.step.part)}` : partLabel(slot.step.part).replace(" · ", "")}{course.continuity?.compressed.has(slot.step.id) ? " · hueco por cerrar" : ""}</div>
           )}
           <h2 className="title">{title}</h2>
           <p className="sub">
@@ -376,7 +380,7 @@ function DayCard({ slot, srsCards }: { slot: Slot; srsCards: number }) {
         </div>
         <ProgressRing done={doneCount} planned={live.length} />
       </div>
-      <ShortModeSwitch />
+      {first && <ShortModeSwitch />}
       <div className="activities">
         {blocks.map((b) => (
           <BlockRow

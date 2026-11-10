@@ -41,7 +41,7 @@ export function OwnShadowingScreen({ unit, part = null }: { unit: string; part?:
     if (text && !lines) setLines(pickLines(dialogue, text, SHADOW_LINES, `${toISODate(today)}:shadow:${stepId}`));
   }, [text, lines, dialogue, today, stepId]);
 
-  if (!lines) return <EmptyState message="Cargando…" />;
+  if (!lines) return <EmptyState title="Cargando" message="Cargando la lectura…" />;
 
   const header = (
     <header className="screen-head">

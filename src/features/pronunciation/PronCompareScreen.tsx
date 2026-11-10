@@ -76,6 +76,7 @@ export function PronCompareScreen({ unit, part = null }: { unit: string; part?: 
                 <div className="hero-row">
                   <p className="runner-prompt">{w}{GLOSS[w] && <span className="word-gloss"> · {GLOSS[w]}</span>}</p>
                 </div>
+                <CompareRow text={w} file={file} url={takes[w]?.url} rate={0.8} />
                 {!noMic && (
                   <RecordTake
                     activity={`${unit}:pron:${w}`}
@@ -84,7 +85,6 @@ export function PronCompareScreen({ unit, part = null }: { unit: string; part?: 
                     onUnusable={() => setNoMic(true)}
                   />
                 )}
-                <CompareRow text={w} file={file} url={takes[w]?.url} rate={0.8} />
                 {!file && <p className="sub">Esta palabra todavía no tiene grabación nativa: el modelo es {sourceOf(w) === "clip" ? "una voz sintética" : "la voz del sistema"}.</p>}
               </section>
             );

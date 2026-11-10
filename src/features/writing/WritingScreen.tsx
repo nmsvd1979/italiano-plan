@@ -204,6 +204,7 @@ function Write({ unit, saveKey, task }: { unit: string; saveKey: string; task: W
         </section>
       )}
 
+      {hidden && <>
       <section className="card stack">
         <div className="eyebrow">Corrígete tú mismo</div>
         <p className="sub">Relee tu texto y marca cada punto cuando lo hayas revisado.</p>
@@ -269,6 +270,7 @@ function Write({ unit, saveKey, task }: { unit: string; saveKey: string; task: W
           {saved ? "Guardada" : "Guardar versión corregida"}
         </button>
       </section>
+      </>}
 
       <button type="button" className="btn primary block" disabled={!check.complete} onClick={finish}>Terminé</button>
     </>
@@ -282,7 +284,7 @@ function Rewrite({ unit, saveKey, task }: { unit: string; saveKey: string; task:
   const [text, setText] = useState("");
   const [done, setDone] = useState(false);
 
-  if (!fix) return <><Header unit={unit} title="Reescribe sin mirar" /><p className="sub">No hay nada que reescribir en esta unidad.</p></>;
+  if (!fix) return <EmptyState message="No hay nada que reescribir en esta unidad." />;
 
   const compare = () => {
     saveRewrite(saveKey, text, today, window.localStorage);
