@@ -1,84 +1,114 @@
-/* Sistema visual: claro y cálido, con modo oscuro.
+/* Sistema visual «Sintesi»: papel cálido, tinta casi negra y un verde italiano como acento.
+   El italiano va en serif (--font-it); la interfaz, en Figtree.
    Los tokens claros están en :root. El oscuro sigue al sistema, y Ajustes puede forzar
    claro u oscuro con data-theme en <html>. Los componentes usan siempre los tokens. */
 
 :root {
-  --bg: #fbf8f3;
-  --surface: #ffffff;
-  --surface-2: #f5f0e7;
-  --surface-3: #ebe4d6;
-  --text: #221d17;
-  --text-dim: #6b6358;
-  --text-faint: #736c60;
-  --border: #e8e0d2;
-  --border-strong: #d6ccb9;
+  --bg: #F7F6F2;
+  --surface: #FFFFFF;
+  --surface-2: #ECEAE4;
+  --surface-3: #E0DDD5;
+  --text: #17181A;
+  --text-dim: #5C5E63;
+  --text-faint: #64666B;
+  --border: #E6E4DE;
+  --border-strong: #D3D0C7;
 
-  --accent: #1f5fa8;
-  --accent-ink: #174a85;
-  --accent-soft: #e3eefa;
-  --on-accent: #ffffff;
-  --on-status: #ffffff;
+  /* Tarjetas héroe oscuras (Hoy, Practicar). */
+  --ink: #17181A;
+  --ink-2: #3A3C40;
+  --on-ink: #FFFFFF;
+  --on-ink-dim: #A9ABB0;
 
-  --saffron: #e09a0c;
-  --saffron-soft: #fcf1d4;
-  --saffron-ink: #7a5200;
+  --accent: #0F7B5A;
+  --accent-ink: #0B5C43;
+  --accent-soft: #E3F1EB;
+  --on-accent: #FFFFFF;
+  --on-status: #FFFFFF;
 
-  --good: #28704a;
-  --good-soft: #e0f1e7;
-  --warn: #9a5200;
-  --warn-soft: #fdeccd;
-  --bad: #b3372c;
-  --bad-soft: #fbe3df;
+  --saffron: #C8862A;
+  --saffron-soft: #F6E9D3;
+  --saffron-ink: #7A4E12;
 
-  --heat-0: #ece5d6;
-  --heat-1: #bfd7f0;
-  --heat-2: #6aa2db;
-  --heat-3: #1f5fa8;
+  --good: #1F6B45;
+  --good-soft: #E3F1EB;
+  --warn: #8A5200;
+  --warn-soft: #FBEBCB;
+  --bad: #A93626;
+  --bad-soft: #FBE3DF;
+
+  --heat-0: #ECEAE4;
+  --heat-1: #BFE0D2;
+  --heat-2: #5FB394;
+  --heat-3: #0F7B5A;
 
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 18px;
-  --shadow: 0 1px 2px rgba(60, 40, 10, 0.05), 0 8px 24px -12px rgba(60, 40, 10, 0.16);
-  --shadow-sm: 0 1px 2px rgba(60, 40, 10, 0.08);
+  --radius-xl: 22px;
+  --shadow: 0 1px 2px rgba(23, 24, 26, 0.05), 0 8px 24px -12px rgba(23, 24, 26, 0.16);
+  --shadow-sm: 0 1px 2px rgba(23, 24, 26, 0.08);
+
+  /* Escala tipográfica y de espaciado. */
+  --fs-xs: 11px;
+  --fs-sm: 12px;
+  --fs-md: 13px;
+  --fs-base: 15px;
+  --fs-lg: 17px;
+  --fs-xl: 20px;
+  --fs-2xl: 24px;
+  --fs-3xl: 28px;
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
 
   --font: "Figtree Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-it: "Fraunces Variable", Georgia, "Times New Roman", serif;
 
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #16181d;
-    --surface: #1f2229;
-    --surface-2: #272b34;
-    --surface-3: #323744;
-    --text: #f1ede6;
-    --text-dim: #a7a196;
-    --text-faint: #9a958a;
-    --border: #343843;
-    --border-strong: #454a58;
+    --bg: #121315;
+    --surface: #1B1C1F;
+    --surface-2: #25272B;
+    --surface-3: #303338;
+    --text: #F2F0EB;
+    --text-dim: #A9ABB0;
+    --text-faint: #9A9CA1;
+    --border: #303338;
+    --border-strong: #42454B;
 
-    --accent: #6fa8e6;
-    --accent-ink: #a9cdf5;
-    --accent-soft: #1d2f45;
-    --on-accent: #0e1a2b;
+    --ink: #0A0B0C;
+    --ink-2: #26282C;
+    --on-ink: #F2F0EB;
+    --on-ink-dim: #A9ABB0;
+
+    --accent: #3FBF8F;
+    --accent-ink: #8FE0C2;
+    --accent-soft: #15302A;
+    --on-accent: #06201A;
     --on-status: #10161d;
 
-    --saffron: #f0b840;
-    --saffron-soft: #3a2f14;
-    --saffron-ink: #f6d37e;
+    --saffron: #E0A94A;
+    --saffron-soft: #3A2F14;
+    --saffron-ink: #F2CD85;
 
-    --good: #5cc489;
-    --good-soft: #17301f;
-    --warn: #e8a94a;
-    --warn-soft: #3a2a10;
-    --bad: #f08478;
-    --bad-soft: #3b1d1a;
+    --good: #5CC489;
+    --good-soft: #17301F;
+    --warn: #E8A94A;
+    --warn-soft: #3A2A10;
+    --bad: #F08478;
+    --bad-soft: #3B1D1A;
 
-    --heat-0: #2b2f39;
-    --heat-1: #28425f;
-    --heat-2: #3f78b5;
-    --heat-3: #6fa8e6;
+    --heat-0: #25272B;
+    --heat-1: #1D4A3C;
+    --heat-2: #2F8C6B;
+    --heat-3: #3FBF8F;
 
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 10px 28px -12px rgba(0, 0, 0, 0.6);
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
@@ -87,37 +117,42 @@
 }
 
 :root[data-theme="dark"] {
-  --bg: #16181d;
-  --surface: #1f2229;
-  --surface-2: #272b34;
-  --surface-3: #323744;
-  --text: #f1ede6;
-  --text-dim: #a7a196;
-  --text-faint: #9a958a;
-  --border: #343843;
-  --border-strong: #454a58;
+  --bg: #121315;
+  --surface: #1B1C1F;
+  --surface-2: #25272B;
+  --surface-3: #303338;
+  --text: #F2F0EB;
+  --text-dim: #A9ABB0;
+  --text-faint: #9A9CA1;
+  --border: #303338;
+  --border-strong: #42454B;
 
-  --accent: #6fa8e6;
-  --accent-ink: #a9cdf5;
-  --accent-soft: #1d2f45;
-  --on-accent: #0e1a2b;
+  --ink: #0A0B0C;
+  --ink-2: #26282C;
+  --on-ink: #F2F0EB;
+  --on-ink-dim: #A9ABB0;
+
+  --accent: #3FBF8F;
+  --accent-ink: #8FE0C2;
+  --accent-soft: #15302A;
+  --on-accent: #06201A;
   --on-status: #10161d;
 
-  --saffron: #f0b840;
-  --saffron-soft: #3a2f14;
-  --saffron-ink: #f6d37e;
+  --saffron: #E0A94A;
+  --saffron-soft: #3A2F14;
+  --saffron-ink: #F2CD85;
 
-  --good: #5cc489;
-  --good-soft: #17301f;
-  --warn: #e8a94a;
-  --warn-soft: #3a2a10;
-  --bad: #f08478;
-  --bad-soft: #3b1d1a;
+  --good: #5CC489;
+  --good-soft: #17301F;
+  --warn: #E8A94A;
+  --warn-soft: #3A2A10;
+  --bad: #F08478;
+  --bad-soft: #3B1D1A;
 
-  --heat-0: #2b2f39;
-  --heat-1: #28425f;
-  --heat-2: #3f78b5;
-  --heat-3: #6fa8e6;
+  --heat-0: #25272B;
+  --heat-1: #1D4A3C;
+  --heat-2: #2F8C6B;
+  --heat-3: #3FBF8F;
 
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 10px 28px -12px rgba(0, 0, 0, 0.6);
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);

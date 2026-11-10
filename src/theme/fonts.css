@@ -1,0 +1,16 @@
+/* Fraunces solo en el subconjunto latin (suficiente para italiano y español): el resto de los
+   subconjuntos de @fontsource sumaría ~100 KB al precache, que está cerca de su límite. */
+@font-face {
+  font-family: "Fraunces Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("../../node_modules/@fontsource-variable/fraunces/files/fraunces-latin-wght-normal.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family: "Fraunces Variable";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("../../node_modules/@fontsource-variable/fraunces/files/fraunces-latin-wght-italic.woff2") format("woff2-variations");
+}
