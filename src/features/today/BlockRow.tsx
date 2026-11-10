@@ -14,13 +14,15 @@ interface Props {
   soon: boolean;
   /** Minutos que se muestran (el repaso espaciado cambia según la cola de hoy). */
   minutes: number;
+  /** Se abrió desde la sesión guiada: al terminar vuelve a ella. */
+  session?: boolean;
 }
 
-export function BlockRow({ step, day, block, done, soon, minutes }: Props) {
+export function BlockRow({ step, day, block, done, soon, minutes, session }: Props) {
   const { setDone } = useApp();
   const online = useOnline();
   const key = blockKey(step.id, day.day, block.id);
-  const route = soon ? undefined : blockRoute(step, day, block);
+  const route = soon ? undefined : blockRoute(step, day, block, session);
   const resources = soon ? [] : blockResources(step, block);
   const needsInternet = !!block.needsInternet || resources.length > 0;
   return (

@@ -1,7 +1,7 @@
 import { useMemo, useRef, useState } from "react";
 import { Score } from "../../ui/Score";
 import { useApp } from "../../app/state";
-import { goBack, href, routeQuery } from "../../app/route";
+import { goBack, href, routeQuery, afterActivityHref, afterActivityLabel } from "../../app/route";
 import {
   DiagnosticItem, DiagnosticOutcome, Diagnostic, diagnosticItems, diagnosticSessions, recordDiagnostic, scoreDiagnostic,
   skipDiagnostic, viewsOf,
@@ -91,7 +91,7 @@ export function DiagnosticScreen() {
         {!session ? (
           <>
             <p className="sub">No hay unidades para diagnosticar en esta sesión.</p>
-            <a className="btn primary block" href="#/">Volver a Hoy</a>
+            <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
           </>
         ) : !current ? (
           <>

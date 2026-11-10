@@ -36,3 +36,8 @@ export function goBack(fallback = "/"): void {
   if (window.history.length > 1) window.history.back();
   else window.location.hash = fallback;
 }
+
+/** Si la actividad se abrió desde la sesión guiada (`?s=1`), al terminar se vuelve a ella; si no, a Hoy. */
+export const inSession = (): boolean => routeQuery().get("s") === "1";
+export const afterActivityHref = (): string => (inSession() ? "#/sesion" : "#/");
+export const afterActivityLabel = (): string => (inSession() ? "Seguir" : "Volver a Hoy");

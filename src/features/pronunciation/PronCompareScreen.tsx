@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref } from "../../app/route";
 import { GLOSS, audioFiles, getPronFor } from "../../content/pronunciation";
 import { getUnit } from "../../content/curriculum";
 import { toISODate } from "../../domain/dates";
@@ -40,7 +40,7 @@ export function PronCompareScreen({ unit, part = null }: { unit: string; part?: 
     appendLog(window.localStorage, { date: toISODate(today), unit, activity: "pron-comparar", minutes: 0, selfRating: rating });
     stopAudio();
     completeActivity("pron", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   return (

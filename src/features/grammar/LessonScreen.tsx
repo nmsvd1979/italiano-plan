@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref } from "../../app/route";
 import { getLesson } from "../../content/grammar";
 import { getUnit } from "../../content/curriculum";
 import type { CoursePart } from "../../content/course";
@@ -26,7 +26,7 @@ export function LessonScreen({ unit, part }: { unit: string; part?: CoursePart |
 
   const finish = () => {
     completeActivity("lesson", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   return (

@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref, afterActivityLabel } from "../../app/route";
 import { getUnit } from "../../content/curriculum";
 import { appLexicon } from "../../content/lexicon";
 import { getWriting, writingKey, type WritingTask } from "../../content/writing";
@@ -75,7 +75,7 @@ function Write({ unit, saveKey, task }: { unit: string; saveKey: string; task: W
 
   const finish = () => {
     completeActivity("writing", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   const copy = async () => setCopied((await copyText(claudeMessage(unit, task, text))) ? "yes" : "no");
@@ -313,7 +313,7 @@ function Rewrite({ unit, saveKey, task }: { unit: string; saveKey: string; task:
             <div><b>Tu reescritura</b><p className="compare-text">{text}</p></div>
             <div><b>Versión corregida</b><p className="compare-text">{fix.corrected}</p></div>
           </div>
-          <a className="btn primary block" href="#/">Volver a Hoy</a>
+          <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
         </section>
       )}
     </>

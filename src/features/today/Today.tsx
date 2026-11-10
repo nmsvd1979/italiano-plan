@@ -1,15 +1,13 @@
 import { useMemo, useState } from "react";
-import { COURSE, CORE_WEEKS, type CoursePart } from "../../content/course";
-import { getPhase, getUnit } from "../../content/curriculum";
+import { COURSE } from "../../content/course";
+import { getUnit } from "../../content/curriculum";
 import { useApp } from "../../app/state";
 import { useSrsCards } from "../../app/blockTimer";
-import { href } from "../../app/route";
-import {
-  Block, CourseProgress, Slot, blockDone, blockKey, dayComplete, isSoon, recommendedLeft, todaySlots, unitCycleProgress, visibleBlocks, weekComplete,
-} from "../../domain/cycle";
+import { href, routeQuery } from "../../app/route";
+import { dayComplete, recommendedLeft, todaySlots, weekComplete } from "../../domain/cycle";
 import { diffInDays, parseISODate, toISODate } from "../../domain/dates";
 import { computeStreak, daysSinceLastStudy } from "../../domain/progress";
-import { dayMinutes, endedShort, estimatedMinutes, type DayBlock } from "../../domain/minutes";
+import { endedShort, estimatedMinutes } from "../../domain/minutes";
 import { loadTimings } from "../../domain/timing";
 import { backupAdvice } from "../../domain/backup";
 import { canOfferSeed } from "../../domain/seed";
@@ -21,36 +19,33 @@ import { coreFinished, routeAfterCore } from "../../domain/ruta";
 import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
 import { getLevelTests, getPhaseTests, getReview } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
-import { ProgressRing } from "../../ui/ProgressRing";
 import { BlockRow } from "./BlockRow";
 import { OfflineBanner } from "./OfflineBanner";
-import { Tracker } from "./Tracker";
+import { Hero, WeekPhrase, WeekStrip } from "./Hero";
+import { SessionItem, sessionItems } from "../../domain/session";
 
 const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`;
-const partLabel = (p?: CoursePart) => (p ? ` · semana ${p}` : "");
 
 export function Today() {
-  const { startDate, today, course, current, completions, doneToday, settings, progress } = useApp();
+  const { startDate, today, course, doneToday, completions, settings, progress } = useApp();
   const srsCards = useSrsCards(progress, today);
-  const [extra, setExtra] = useState(0);
+  const [extra, setExtra] = useState(() => Number(routeQuery().get("mas")) || 0);
   if (!startDate) return null;
 
   const streak = computeStreak(completions, today);
   const { shown, finished } = todaySlots(course, doneToday, extra);
   const first = shown[0];
-  const unit = current ?? (first ? getUnit(first.step.unit) : undefined);
-  const weekNo = first?.step.week;
-  const up = unit ? unitCycleProgress(unit.id, course) : null;
-  const phase = getPhase(first?.step.phase ?? unit?.phase ?? 6);
   const allDone = shown.length > 0 && shown.every((s) => dayComplete(s.step, s.day, course));
   const left = recommendedLeft(shown, course, settings.shortMode);
+  const { essential, optional } = sessionItems(shown, course, settings.shortMode);
   // Lo esencial de lo que se muestra, para avisar si terminó rápido y destacar «Hacer más hoy».
   const timings = loadTimings(window.localStorage);
-  const essential = shown.flatMap((s) => {
-    const u = getUnit(s.step.unit);
-    return u ? dayBlocks(s, visibleBlocks(s.day, u, settings.shortMode).filter((b) => !isSoon(b, u)), srsCards, course) : [];
-  });
-  const endedEarly = allDone && endedShort(essential, timings);
+  const endedEarly = allDone && endedShort(
+    essential.map((i) => ({ key: i.key, estimated: estimatedMinutes(i.block, srsCards), done: i.done, core: true })),
+    timings,
+  );
+  const hour = new Date().getHours();
+  const greeting = hour < 6 ? "Buonanotte." : hour < 13 ? "Buongiorno." : hour < 19 ? "Buon pomeriggio." : "Buonasera.";
 
   return (
     <>
@@ -69,75 +64,85 @@ export function Today() {
         </div>
       </header>
 
-
-      {unit && first && !finished && (
-        <a href={href(`/unidad/${unit.id}`)} className="unit-head">
-          <span className="eyebrow">
-            {first.step.kind === "bridge" ? "Puente a B1 (opcional)" : `Semana ${weekNo} de ${CORE_WEEKS}`} · Fase {phase.id}
-          </span>
-          <b>{getUnit(first.step.unit)?.title}{partLabel(first.step.part)}</b>
-        </a>
-      )}
-
-
       {finished ? (
         <>
           <RutaCard />
           <OfflineBanner />
-          <BackupReminder />
-          <SeedOffer />
-          <ContinuityNotices />
-          <RewriteDue />
-          <PhaseControl />
+          <div className="notices">
+            <BackupReminder />
+            <SeedOffer />
+            <ContinuityNotices />
+            <RewriteDue />
+            <PhaseControl />
+          </div>
         </>
       ) : (
         <>
-          <LegacyReview />
-          <PhaseControl />
+          <p className="display greeting">{greeting}</p>
           {coreFinished(course) && <BridgeNote />}
-          {shown.map((slot, i) => (
-            <DayCard key={`${slot.step.id}.${slot.day.day}`} slot={slot} srsCards={srsCards} first={i === 0} sameUnit={slot.step.unit === first.step.unit} />
-          ))}
-          {allDone && (
-            <section className="card stack">
-              <div className="banner-done">
-                <Icon name="check" size={18} />{" "}
-                {left > 0
-                  ? `Lo esencial de hoy está listo. ${left === 1 ? "Queda 1 bloque recomendado" : `Quedan ${left} bloques recomendados`}.`
-                  : "Listo por hoy. Si tienes más tiempo, puedes seguir."}
-              </div>
-              {endedEarly && <p className="sub">Terminaste lo esencial en menos tiempo del estimado: aún te queda tiempo para sumar más.</p>}
-              <a className={`btn block${endedEarly ? " primary" : ""}`} href={href("/practicar")}>Practicar más</a>
-              <a className="btn block" href={href("/practicar-area")}>Practicar por habilidad</a>
-              <button type="button" className="btn block" onClick={() => setExtra((e) => e + 1)}>Hacer más hoy</button>
-              <p className="note">«Practicar más» repasa lo ya visto, sin adelantar semanas. «Hacer más hoy» adelanta el siguiente día del ciclo, que luego se estudia con menos espacio entre días.</p>
-            </section>
+          <Hero essential={essential} srsCards={srsCards} first={first} short={settings.shortMode} />
+          <WeekStrip slot={essential.find((i) => !i.done)?.slot ?? first} course={course} />
+          <WeekPhrase slot={first} />
+          <ShortModeSwitch />
+          {(optional.length > 0 || allDone) && (
+            <MoreTime
+              optional={optional} srsCards={srsCards} allDone={allDone} left={left} endedEarly={endedEarly}
+              onMore={() => setExtra((e) => e + 1)}
+            />
           )}
           <OfflineBanner />
-          <BackupReminder />
-          <SeedOffer />
-          <ContinuityNotices />
-          <RewriteDue />
-          <Reinforcement />
-          {unit && up && (
-            <section className="card">
-              <div className="eyebrow">Tu avance</div>
-              <p className="sub mt-s">
-                {up.done} de {up.total} bloques de la unidad {unit.n}. Al terminarla podrás:
-              </p>
-              <ul className="candos">
-                {unit.canDo.map((t) => <li key={t}>{t}</li>)}
-              </ul>
-              <Tracker />
-              <p className="note mt">
-                <Icon name="info" size={16} />
-                <span>No hay calendario: si un día no estudias, mañana sigue lo mismo. {settings.shortMode ? "Hoy ves solo lo esencial." : ""}</span>
-              </p>
-            </section>
-          )}
+          <div className="notices">
+            <LegacyReview />
+            <PhaseControl />
+            <BackupReminder />
+            <SeedOffer />
+            <ContinuityNotices />
+            <RewriteDue />
+            <Reinforcement />
+          </div>
         </>
       )}
     </>
+  );
+}
+
+/** «Si te queda tiempo»: los bloques recomendados, plegados, y cuando lo esencial está hecho, qué más practicar. */
+function MoreTime({ optional, srsCards, allDone, left, endedEarly, onMore }: {
+  optional: SessionItem[]; srsCards: number; allDone: boolean; left: number; endedEarly: boolean; onMore: () => void;
+}) {
+  return (
+    <section className="card flat more-time">
+      {allDone && (
+        <div className="banner-done">
+          <Icon name="check" size={18} />{" "}
+          {left > 0
+            ? `Lo esencial de hoy está listo. ${left === 1 ? "Queda 1 bloque recomendado" : `Quedan ${left} bloques recomendados`}.`
+            : "Listo por hoy. Si tienes más tiempo, puedes seguir."}
+        </div>
+      )}
+      {allDone && endedEarly && <p className="sub">Terminaste lo esencial en menos tiempo del estimado: aún te queda tiempo para sumar más.</p>}
+      {optional.length > 0 && (
+        <details open={allDone}>
+          <summary>Si te queda tiempo <small>{plural(optional.length, "bloque", "bloques")}</small></summary>
+          <div className="activities">
+            {optional.map((i) => (
+              <BlockRow
+                key={i.key} step={i.slot.step} day={i.slot.day} block={i.block} done={i.done}
+                minutes={estimatedMinutes(i.block, srsCards)} soon={false} session
+              />
+            ))}
+          </div>
+        </details>
+      )}
+      {allDone && (
+        <div className="link-list">
+          <a href={href("/practicar")}>Practicar más <Icon name="chevronRight" size={18} /></a>
+          <a href={href("/practicar-area")}>Practicar por habilidad <Icon name="chevronRight" size={18} /></a>
+          <button type="button" className="link-btn" onClick={onMore}>Hacer más hoy <Icon name="chevronRight" size={18} /></button>
+          <p className="note">«Practicar más» repasa lo ya visto, sin adelantar semanas. «Hacer más hoy» adelanta el siguiente día del ciclo, que luego se estudia con menos espacio entre días.</p>
+        </div>
+      )}
+    </section>
   );
 }
 
@@ -342,57 +347,6 @@ function LegacyReview() {
       </div>
       <Icon name="repeat" size={22} />
     </a>
-  );
-}
-
-/** Bloques de un día con sus minutos estimados y si están hechos. */
-function dayBlocks(slot: Slot, blocks: Block[], srsCards: number, course: CourseProgress): DayBlock[] {
-  return blocks.map((b) => ({
-    key: blockKey(slot.step.id, slot.day.day, b.id),
-    estimated: estimatedMinutes(b, srsCards),
-    done: blockDone(slot.step, slot.day.day, b, course),
-    core: b.core,
-  }));
-}
-
-/** Un día del ciclo: sus bloques según el modo (corto o normal). */
-function DayCard({ slot, srsCards, first, sameUnit }: { slot: Slot; srsCards: number; first: boolean; sameUnit: boolean }) {
-  const { course, settings } = useApp();
-  const unit = getUnit(slot.step.unit);
-  if (!unit) return null;
-  const blocks = visibleBlocks(slot.day, unit, settings.shortMode);
-  const live = blocks.filter((b) => !isSoon(b, unit));
-  const minutes = dayMinutes(dayBlocks(slot, live, srsCards, course), loadTimings(window.localStorage));
-  const doneCount = live.filter((b) => blockDone(slot.step, slot.day.day, b, course)).length;
-  const complete = dayComplete(slot.step, slot.day, course);
-  const title = slot.day.day <= 7 ? `Día ${slot.day.day} de 7 · ${slot.day.name}` : slot.day.name;
-  return (
-    <section className="card">
-      <div className="hero-row">
-        <div>
-          {(!sameUnit || slot.step.part || course.continuity?.compressed.has(slot.step.id)) && (
-            <div className="eyebrow">{!sameUnit ? `${unit.title}${partLabel(slot.step.part)}` : partLabel(slot.step.part).replace(" · ", "")}{course.continuity?.compressed.has(slot.step.id) ? " · hueco por cerrar" : ""}</div>
-          )}
-          <h2 className="title">{title}</h2>
-          <p className="sub">
-            {minutes} min · {complete ? "esencial hecho" : `${doneCount} de ${live.length} hechos`}
-          </p>
-        </div>
-        <ProgressRing done={doneCount} planned={live.length} />
-      </div>
-      {first && <ShortModeSwitch />}
-      <div className="activities">
-        {blocks.map((b) => (
-          <BlockRow
-            key={blockKey(slot.step.id, slot.day.day, b.id)}
-            step={slot.step} day={slot.day} block={b}
-            done={blockDone(slot.step, slot.day.day, b, course)}
-            minutes={estimatedMinutes(b, srsCards)}
-            soon={isSoon(b, unit)}
-          />
-        ))}
-      </div>
-    </section>
   );
 }
 

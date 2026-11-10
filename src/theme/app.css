@@ -524,3 +524,54 @@ em, .it { font-family: var(--font-it); font-style: italic; font-weight: 500; }
 @keyframes pop { 0% { transform: scale(0.6); } 60% { transform: scale(1.12); } 100% { transform: scale(1); } }
 .feedback { animation: rise 0.22s cubic-bezier(0.16, 1, 0.3, 1); }
 .check:checked { animation: pop 0.25s ease-out; }
+
+/* ---------- Hoy y sesión guiada ---------- */
+.greeting { margin-top: 2px; }
+.hero { display: flex; flex-direction: column; gap: 10px; padding: 18px; }
+.hero .title { font-size: var(--fs-2xl); }
+.hero-unit { color: var(--on-ink-dim); text-decoration: none; font-size: var(--fs-base); margin-top: -6px; }
+.hero .sub { font-size: var(--fs-md); }
+.hero-list { list-style: none; margin: 2px 0 4px; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+.hero-list li { display: flex; align-items: center; gap: 10px; min-height: 32px; font-size: var(--fs-md); color: var(--on-ink-dim); }
+.hero-list li.now { color: var(--on-ink); font-weight: 700; }
+.hero-list li.done span:not(.hero-mark) { text-decoration: line-through; }
+.hero-list a { color: inherit; text-decoration: none; flex: 1; }
+.hero-list li > :nth-child(2) { flex: 1; }
+.hero-list small { color: var(--on-ink-dim); font-size: var(--fs-sm); }
+.hero-mark { flex: none; width: 18px; height: 18px; border-radius: 50%; border: 1.5px solid var(--ink-2); display: grid; place-items: center; color: var(--on-accent); }
+.hero-list li.now .hero-mark { border-color: var(--on-ink); }
+.hero-list li.done .hero-mark { background: var(--accent); border-color: var(--accent); }
+.hero-short { text-align: center; }
+
+.week { display: flex; flex-direction: column; gap: 8px; }
+.week .dot-strip button { cursor: pointer; min-height: 44px; font: inherit; font-size: 10.5px; font-weight: 600; color: var(--text-dim); }
+.week .dot-strip button[aria-pressed="true"] .dot { box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--border-strong); }
+.week-day { list-style: none; margin: 0; padding: 10px 12px; border-radius: var(--radius-md); background: var(--surface); border: 1px solid var(--border); display: flex; flex-direction: column; gap: 6px; font-size: var(--fs-md); }
+.week-day li { display: flex; align-items: center; gap: 8px; }
+.week-day li.done { color: var(--text-dim); text-decoration: line-through; }
+.week-day small { margin-left: auto; color: var(--text-faint); font-size: var(--fs-sm); }
+
+.phrase { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.phrase-it { font-size: var(--fs-xl); line-height: 1.25; margin-top: 2px; }
+
+.more-time { display: flex; flex-direction: column; gap: 12px; }
+.more-time summary { cursor: pointer; font-weight: 700; min-height: 32px; display: flex; align-items: center; gap: 8px; }
+.more-time summary small { color: var(--text-faint); font-weight: 500; }
+.link-btn { display: flex; align-items: center; justify-content: space-between; width: 100%; background: none; border: 0; border-top: 1px solid var(--border); padding: 12px 0; font-weight: 600; font-size: 15px; text-align: left; }
+.link-btn svg { color: var(--text-faint); }
+
+/* Los avisos viven juntos en una sola tarjeta; si no hay ninguno, no ocupa lugar. */
+.notices { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; }
+.notices:empty { display: none; }
+.notices > .card, .notices > p { border: 0; border-radius: 0; box-shadow: none; border-top: 1px solid var(--border); padding: 14px 16px; margin: 0; background: transparent; }
+.notices > :first-child { border-top: 0; }
+
+.session-head { display: flex; align-items: center; justify-content: space-between; }
+.session-exit { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; color: var(--text-dim); text-decoration: none; font-size: var(--fs-md); font-weight: 600; }
+.session-prev { display: flex; align-items: center; gap: 12px; margin-top: 18px; }
+.session-prev small { display: block; color: var(--text-dim); font-size: var(--fs-md); }
+.session-next { display: flex; flex-direction: column; gap: 14px; margin-top: 8px; }
+.session-next-body { display: flex; gap: 14px; align-items: center; }
+.session-done { align-items: center; text-align: center; display: flex; flex-direction: column; gap: 10px; padding: 28px 18px; margin-top: 12px; }
+.session-check { width: 56px; height: 56px; border-radius: 50%; background: var(--accent); color: var(--on-accent); display: grid; place-items: center; animation: pop 0.3s ease-out; }
+.short-mode { margin-top: 0; padding: 4px 16px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); }

@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { EmptyState } from "../../ui/EmptyState";
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
+import { goBack, afterActivityHref } from "../../app/route";
 import type { CoursePart } from "../../content/course";
 import { getUnit } from "../../content/curriculum";
 import { DEFAULT_MIN_WORDS, getPropias } from "../../content/propias";
@@ -37,7 +37,7 @@ export function PropiasScreen({ unit, part = null }: { unit: string; part?: Cour
   const finish = () => {
     appendLog(window.localStorage, { date: toISODate(today), unit, activity: "propias", minutes: 0 });
     completeActivity("own", unit);
-    window.location.hash = "#/";
+    window.location.hash = afterActivityHref();
   };
 
   return (

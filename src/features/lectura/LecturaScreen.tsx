@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useMemo, useState } from "react";
 import { Score } from "../../ui/Score";
 import { useApp } from "../../app/state";
-import { goBack, href, routeQuery } from "../../app/route";
+import { goBack, href, routeQuery, afterActivityHref, afterActivityLabel } from "../../app/route";
 import type { CoursePart } from "../../content/course";
 import { getUnit } from "../../content/curriculum";
 import { loadLectura } from "../../content/lazy";
@@ -238,7 +238,7 @@ export function LecturaScreen({ unit, part, mode }: Props) {
         <section className="card stack">
           <Score correct={score} total={lectura.preguntas.length} />
           <p className="sub">{score === lectura.preguntas.length ? "Entendiste todo el texto." : "Puedes volver al texto cuando quieras para releerlo."}</p>
-          <a className="btn primary block" href="#/">Volver a Hoy</a>
+          <a className="btn primary block" href={afterActivityHref()}>{afterActivityLabel()}</a>
         </section>
       ) : (
         <>
