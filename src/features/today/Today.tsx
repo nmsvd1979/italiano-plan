@@ -21,6 +21,7 @@ import { coreFinished, routeAfterCore } from "../../domain/ruta";
 import { candidatesOf, dueCandidates, learnedUnits } from "../../domain/practice";
 import { getLevelTests, getPhaseTests, getReview } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
+import { ProgressRing } from "../../ui/ProgressRing";
 import { BlockRow } from "./BlockRow";
 import { OfflineBanner } from "./OfflineBanner";
 import { Tracker } from "./Tracker";
@@ -62,21 +63,12 @@ export function Today() {
           <a className="pill streak" href={href("/progreso")} aria-label={`Racha de ${streak} días. Ver progreso`}>
             <Icon name="flame" size={16} /> {streak}
           </a>
-          <a className="pill pill-btn" href={href("/plan")} aria-label="Plan completo">
-            <Icon name="map" size={18} />
-          </a>
           <a className="pill pill-btn" href={href("/ajustes")} aria-label="Ajustes">
             <Icon name="sliders" size={18} />
           </a>
         </div>
       </header>
 
-      <OfflineBanner />
-      <BackupReminder />
-      <SeedOffer />
-      <ContinuityNotices />
-      <RewriteDue />
-      <Reinforcement />
 
       {unit && first && !finished && (
         <a href={href(`/unidad/${unit.id}`)} className="unit-head">
@@ -87,14 +79,17 @@ export function Today() {
         </a>
       )}
 
-      <ShortModeCard />
-      <PhaseControl />
 
       {finished ? (
-        <RutaCard />
+        <>
+          <RutaCard />
+          <OfflineBanner />
+          <BackupReminder />
+        </>
       ) : (
         <>
           <LegacyReview />
+          <PhaseControl />
           {coreFinished(course) && <BridgeNote />}
           {shown.map((slot) => (
             <DayCard key={`${slot.step.id}.${slot.day.day}`} slot={slot} srsCards={srsCards} />
@@ -108,12 +103,18 @@ export function Today() {
                   : "Listo por hoy. Si tienes más tiempo, puedes seguir."}
               </div>
               {endedEarly && <p className="sub">Terminaste lo esencial en menos tiempo del estimado: aún te queda tiempo para sumar más.</p>}
-              <a className={`btn block${endedEarly ? " primary" : ""}`} href={href("/practicar")} style={{ textAlign: "center", textDecoration: "none" }}>Practicar más</a>
-              <a className="btn block" href={href("/practicar-area")} style={{ textAlign: "center", textDecoration: "none" }}>Practicar por habilidad</a>
+              <a className={`btn block${endedEarly ? " primary" : ""}`} href={href("/practicar")}>Practicar más</a>
+              <a className="btn block" href={href("/practicar-area")}>Practicar por habilidad</a>
               <button type="button" className="btn block" onClick={() => setExtra((e) => e + 1)}>Hacer más hoy</button>
               <p className="note">«Practicar más» repasa lo ya visto, sin adelantar semanas. «Hacer más hoy» adelanta el siguiente día del ciclo, que luego se estudia con menos espacio entre días.</p>
             </section>
           )}
+          <OfflineBanner />
+          <BackupReminder />
+          <SeedOffer />
+          <ContinuityNotices />
+          <RewriteDue />
+          <Reinforcement />
           {unit && up && (
             <section className="card">
               <div className="eyebrow">Tu avance</div>
@@ -145,7 +146,7 @@ function Reinforcement() {
       <section className="card stack">
         <div className="eyebrow">Fin del núcleo</div>
         <p className="sub">Estás en la última unidad. Cuando termines, la prueba de nivel A2 (25–30 min) mide dónde quedaste.</p>
-        <a className="btn" href={href("/prueba-nivel")} style={{ textAlign: "center", textDecoration: "none" }}>Prueba de nivel A2</a>
+        <a className="btn" href={href("/prueba-nivel")}>Prueba de nivel A2</a>
       </section>
     );
   }
@@ -184,7 +185,7 @@ function RewriteDue() {
         Hace unos días corregiste tu texto de la unidad {unit?.n}. ¿Lo escribes otra vez, sin mirar la versión corregida?
         {due.length > 1 ? ` (Hay ${due.length} pendientes.)` : ""}
       </p>
-      <a className="btn" href={href(`/escritura/${dueUnit}?${dueSuffix ? `part=${dueSuffix}&` : ""}reescribir=1`)} style={{ textAlign: "center", textDecoration: "none" }}>Reescribir</a>
+      <a className="btn" href={href(`/escritura/${dueUnit}?${dueSuffix ? `part=${dueSuffix}&` : ""}reescribir=1`)}>Reescribir</a>
     </section>
   );
 }
@@ -194,7 +195,7 @@ function BackupReminder() {
   const advice = backupAdvice(window.localStorage);
   if (!advice.due) return null;
   return (
-    <a className="card flat review-card" href={href("/ajustes")}>
+    <a className="card flat review-card notice" href={href("/ajustes")}>
       <div>
         <div className="eyebrow">Copia de seguridad</div>
         <p className="sub">
@@ -244,7 +245,7 @@ function ContinuityNotices() {
   return (
     <>
       {continuity.usePrevious && (
-        <a className="card flat review-card" href={href("/punto-de-partida")}>
+        <a className="card flat review-card notice" href={href("/punto-de-partida")}>
           <div>
             <div className="eyebrow">Plan anterior</div>
             <p className="sub">Estás usando el plan anterior: solo cuentan tus marcas. Toca para volver a Tu punto de partida.</p>
@@ -253,7 +254,7 @@ function ContinuityNotices() {
         </a>
       )}
       {!continuity.usePrevious && !continuity.decision && point.hasMarks && (
-        <a className="card flat review-card" href={href("/punto-de-partida")}>
+        <a className="card flat review-card notice" href={href("/punto-de-partida")}>
           <div>
             <div className="eyebrow">Tu punto de partida</div>
             <p className="sub">Ya tienes avance. Mira qué unidades cuentan como dominadas, parciales o por empezar. No cambia tus marcas.</p>
@@ -262,7 +263,7 @@ function ContinuityNotices() {
         </a>
       )}
       {catchup?.to && (
-        <a className="card flat review-card" href={href(catchup.to)}>
+        <a className="card flat review-card notice" href={href(catchup.to)}>
           <div>
             <div className="eyebrow">Puesta al día · {catchup.minutes} min</div>
             <p className="sub">{catchup.name} de la unidad {Number(catchup.unit.slice(1))}: lo nuevo de esta versión. Es opcional.</p>
@@ -275,19 +276,19 @@ function ContinuityNotices() {
 }
 
 /** «Hoy tengo poco tiempo»: solo los bloques esenciales. Se recuerda hasta que se cambie. */
-function ShortModeCard() {
+function ShortModeSwitch() {
   const { settings, patchSettings, today } = useApp();
   const iso = toISODate(today);
   const weekend = today.getDay() === 0 || today.getDay() === 6;
   const longShort = settings.shortMode && !!settings.shortSince && diffInDays(today, parseISODate(settings.shortSince)) >= 3;
   return (
-    <section className="card flat stack">
-      <label className="row" style={{ alignItems: "center", gap: 10 }}>
+    <div className="short-mode">
+      <label className="switch-row">
+        <span><b>Hoy tengo poco tiempo</b><small>Solo lo esencial, unos 15 min</small></span>
         <input
-          type="checkbox" checked={settings.shortMode} style={{ width: 24, height: 24 }}
+          type="checkbox" role="switch" className="switch" checked={settings.shortMode}
           onChange={(e) => patchSettings({ shortMode: e.target.checked, shortSince: e.target.checked ? iso : undefined })}
         />
-        <span><b>Hoy tengo poco tiempo</b> · solo lo esencial (unos 15 min)</span>
       </label>
       {longShort && weekend && (
         <p className="note">
@@ -295,7 +296,7 @@ function ShortModeCard() {
           <span>Llevas varios días en modo corto. Si hoy tienes más tiempo, puedes volver al modo normal.</span>
         </p>
       )}
-    </section>
+    </div>
   );
 }
 
@@ -309,7 +310,7 @@ function PhaseControl() {
   });
   if (!due) return null;
   return (
-    <a className="card flat review-card" href={href(`/test/${due}`)}>
+    <a className="card flat review-card notice" href={href(`/test/${due}`)}>
       <div>
         <div className="eyebrow">Control F{due}</div>
         <p className="sub">Terminaste la fase {due}. Haz la prueba de fase cuando quieras: no bloquea el plan.</p>
@@ -326,7 +327,7 @@ function LegacyReview() {
   const due = dueCandidates(candidatesOf(learnedUnits(progress)), getReview(), today).length;
   if (due === 0) return null;
   return (
-    <a className="card flat review-card" href={href("/repaso-pendiente")}>
+    <a className="card flat review-card notice" href={href("/repaso-pendiente")}>
       <div>
         <div className="eyebrow">{since !== null && since >= 3 ? `Vuelves después de ${since} días` : "Repaso pendiente"}</div>
         <p className="sub">
@@ -365,13 +366,17 @@ function DayCard({ slot, srsCards }: { slot: Slot; srsCards: number }) {
     <section className="card">
       <div className="hero-row">
         <div>
-          <div className="eyebrow">{unit.title}{partLabel(slot.step.part)}{course.continuity?.compressed.has(slot.step.id) ? " · hueco por cerrar" : ""}</div>
-          <h2 className="title" style={{ marginTop: 4 }}>{title}</h2>
+          {(slot.step.part || course.continuity?.compressed.has(slot.step.id)) && (
+            <div className="eyebrow">{partLabel(slot.step.part).replace(" · ", "")}{course.continuity?.compressed.has(slot.step.id) ? " · hueco por cerrar" : ""}</div>
+          )}
+          <h2 className="title">{title}</h2>
           <p className="sub">
             {minutes} min · {complete ? "esencial hecho" : `${doneCount} de ${live.length} hechos`}
           </p>
         </div>
+        <ProgressRing done={doneCount} planned={live.length} />
       </div>
+      <ShortModeSwitch />
       <div className="activities">
         {blocks.map((b) => (
           <BlockRow
@@ -386,8 +391,6 @@ function DayCard({ slot, srsCards }: { slot: Slot; srsCards: number }) {
     </section>
   );
 }
-
-const linkStyle = { textAlign: "center", textDecoration: "none" } as const;
 
 /** Al terminar todas las semanas: la prueba de nivel A2 decide qué sigue (docs/v2/plan-b1/05). */
 function RutaCard() {
@@ -411,20 +414,20 @@ function RutaCard() {
       )}
       {route.stage === "aprobada" ? (
         <>
-          <a className="btn primary block" href={href("/practica-b1")} style={linkStyle}>Práctica B1</a>
-          <a className="btn block" href={href("/listo-b1")} style={linkStyle}>¿Listo para B1?</a>
-          <a className="btn block" href={href("/prueba-nivel")} style={linkStyle}>Repetir la prueba de nivel A2</a>
+          <a className="btn primary block" href={href("/practica-b1")}>Práctica B1</a>
+          <a className="btn block" href={href("/listo-b1")}>¿Listo para B1?</a>
+          <a className="btn block" href={href("/prueba-nivel")}>Repetir la prueba de nivel A2</a>
         </>
       ) : (
         <>
-          <a className={`btn${route.stage === "sin-prueba" ? " primary" : ""} block`} href={href("/prueba-nivel")} style={linkStyle}>
+          <a className={`btn${route.stage === "sin-prueba" ? " primary" : ""} block`} href={href("/prueba-nivel")}>
             {route.stage === "sin-prueba" ? "Prueba de nivel A2" : "Repetir la prueba de nivel A2"}
           </a>
-          <a className={`btn${route.stage === "repasar" ? " primary" : ""} block`} href={href("/practicar")} style={linkStyle}>Practicar más</a>
-          <a className="btn block" href={href(route.stage === "repasar" && route.weak.length > 0 ? `/practicar-area?area=${route.weak[0]}` : "/practicar-area")} style={linkStyle}>Practicar por habilidad</a>
+          <a className={`btn${route.stage === "repasar" ? " primary" : ""} block`} href={href("/practicar")}>Practicar más</a>
+          <a className="btn block" href={href(route.stage === "repasar" && route.weak.length > 0 ? `/practicar-area?area=${route.weak[0]}` : "/practicar-area")}>Practicar por habilidad</a>
         </>
       )}
-      <a className="btn block" href={href("/tarjetas")} style={linkStyle}>Repaso espaciado</a>
+      <a className="btn block" href={href("/tarjetas")}>Repaso espaciado</a>
     </section>
   );
 }
@@ -436,8 +439,8 @@ function BridgeNote() {
       <p className="sub">
         <b>Terminaste el núcleo A2.</b> Las semanas que siguen son el puente a B1 y son opcionales. Cuando quieras, haz la prueba de nivel A2 o mira «¿Listo para B1?».
       </p>
-      <a className="btn block" href={href("/prueba-nivel")} style={linkStyle}>Prueba de nivel A2</a>
-      <a className="btn block" href={href("/listo-b1")} style={linkStyle}>¿Listo para B1?</a>
+      <a className="btn block" href={href("/prueba-nivel")}>Prueba de nivel A2</a>
+      <a className="btn block" href={href("/listo-b1")}>¿Listo para B1?</a>
     </section>
   );
 }

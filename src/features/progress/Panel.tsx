@@ -38,11 +38,11 @@ export function Panel() {
 
   return (
     <>
-      <a className="btn block" href={href("/listo-b1")} style={{ textAlign: "center", textDecoration: "none" }}>¿Listo para B1? Ver las seis evidencias</a>
+      <a className="btn block" href={href("/listo-b1")}>¿Listo para B1? Ver las seis evidencias</a>
       <section className="card stack">
         <div className="eyebrow">Repaso espaciado (30 días)</div>
         <div className="row" style={{ gap: 24 }}>
-          <div><div className="score">{recall.rate === null ? "—" : `${Math.round(recall.rate * 100)} %`}</div><p className="sub">recuerdo real{recall.answers ? ` · ${recall.answers} respuestas` : ""}</p></div>
+          <div>{recall.rate === null ? <div className="score-empty">Sin datos aún</div> : <div className="score">{Math.round(recall.rate * 100)} %</div>}<p className="sub">recuerdo real{recall.answers ? ` · ${recall.answers} respuestas` : ""}</p></div>
           <div><div className="score">{activeWords(srs)}</div><p className="sub">palabras activas (estabilidad ≥ 21 días)</p></div>
         </div>
         {recall.rate === null && <p className="sub">Aún no hay suficientes repasos para medir el recuerdo.</p>}

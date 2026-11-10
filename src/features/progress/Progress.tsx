@@ -1,5 +1,4 @@
 import { useApp } from "../../app/state";
-import { goBack } from "../../app/route";
 import { PHASES, UNITS, getPhase } from "../../content/curriculum";
 import { COURSE } from "../../content/course";
 import { blockMinutes, unitCycleProgress, weekProgress } from "../../domain/cycle";
@@ -89,9 +88,6 @@ export function Progress() {
   return (
     <>
       <header className="screen-head">
-        <a className="back" href="#/" onClick={(e) => { e.preventDefault(); goBack(); }} aria-label="Volver">
-          <Icon name="arrowLeft" size={20} />
-        </a>
         <h1 className="title">Progreso</h1>
       </header>
 
@@ -120,7 +116,7 @@ export function Progress() {
 
       <Panel />
 
-      <a className="btn block" href="#/prueba-nivel" style={{ textAlign: "center", textDecoration: "none" }}>Prueba de nivel A2</a>
+      <a className="btn block" href="#/prueba-nivel">Prueba de nivel A2</a>
 
       <section className="card stack">
         <div className="eyebrow">Últimos 90 días</div>

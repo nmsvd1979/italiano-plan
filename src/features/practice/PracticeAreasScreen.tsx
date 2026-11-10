@@ -1,12 +1,10 @@
 import { useApp } from "../../app/state";
-import { goBack, href, routeQuery } from "../../app/route";
+import { href, routeQuery } from "../../app/route";
 import { AREA_NAME, WEAK_AREA, type Area } from "../../domain/evaluation";
 import { learnedUnits } from "../../domain/practice";
 import { PRACTICE_AREAS, areaTarget } from "../../domain/practiceAreas";
 import { getLevelTests } from "../../domain/storage";
 import { Icon } from "../../ui/Icon";
-
-const linkStyle = { textAlign: "center", textDecoration: "none" } as const;
 
 /** Áreas floja en el último intento de la prueba de nivel (sin la producción autoevaluada). */
 function weakFromLastTest(): Area[] {
@@ -25,9 +23,6 @@ export function PracticeAreasScreen() {
   return (
     <>
       <header className="screen-head">
-        <a className="back" href="#/" onClick={(e) => { e.preventDefault(); goBack(); }} aria-label="Volver">
-          <Icon name="arrowLeft" size={20} />
-        </a>
         <div>
           <div className="eyebrow">Práctica extra</div>
           <h1 className="title">Practicar por habilidad</h1>
@@ -35,27 +30,35 @@ export function PracticeAreasScreen() {
       </header>
       <section className="card stack">
         <p className="sub">
-          Elige una habilidad y practica con unidades que ya viste. No suma al avance del plan. {learned.length === 0 ? "Todavía no hay unidades vistas: empieza por la lección de la primera semana." : ""}
+          Práctica extra con unidades que ya viste. No suma al avance del plan. {learned.length === 0 ? "Todavía no hay unidades vistas: empieza por la lección de la primera semana." : ""}
         </p>
+        <div className="tool-grid">
+          <a className="tool" href={href("/tarjetas")}><Icon name="cards" size={18} /><span>Repaso espaciado</span></a>
+          <a className="tool" href={href("/practicar")}><Icon name="repeat" size={18} /><span>Practicar más</span></a>
+        </div>
       </section>
-      {PRACTICE_AREAS.map((area) => {
-        const target = areaTarget(area, learned, today);
-        const emphasized = focus === area || weak.includes(area);
-        return (
-          <section key={area} className="card stack">
-            <div className="row" style={{ justifyContent: "space-between" }}>
-              <b>{AREA_NAME[area]}</b>
-              {weak.includes(area) && <span className="pill accent">Floja en tu última prueba</span>}
-            </div>
-            {target ? (
+      <section className="card">
+        <div className="eyebrow">Por habilidad</div>
+        <div className="unit-list">
+          {PRACTICE_AREAS.map((area) => {
+            const target = areaTarget(area, learned, today);
+            const emphasized = focus === area || weak.includes(area);
+            const body = (
               <>
-                <p className="sub">{target.detail}.</p>
-                <a className={`btn${emphasized ? " primary" : ""} block`} href={href(target.to)} style={linkStyle}>Practicar {AREA_NAME[area].toLowerCase()}</a>
+                <span className="unit-main">
+                  <b>{AREA_NAME[area]}</b>
+                  <small>{target ? `${target.detail}.` : "Todavía no hay nada que practicar aquí."}</small>
+                </span>
+                {weak.includes(area) && <span className="net-tag weak-tag">Floja</span>}
+                {target && <Icon name="chevronRight" size={18} />}
               </>
-            ) : <p className="sub">Todavía no hay nada que practicar aquí.</p>}
-          </section>
-        );
-      })}
+            );
+            return target
+              ? <a key={area} className={`unit-row area-row${emphasized ? " emphasized" : ""}`} href={href(target.to)}>{body}</a>
+              : <div key={area} className="unit-row soon">{body}</div>;
+          })}
+        </div>
+      </section>
     </>
   );
 }

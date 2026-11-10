@@ -37,6 +37,7 @@ import { RereadScreen } from "./features/lectura/RereadScreen";
 import { B1EscuchaScreen, B1LecturaScreen, PracticaB1Screen } from "./features/practicab1/PracticaB1Screen";
 import { ReadyB1Screen } from "./features/progress/ReadyB1";
 import { SystemVoiceHint } from "./ui/SystemVoiceHint";
+import { TabBar, hasTabBar } from "./ui/TabBar";
 
 const UNIT = "(u\\d{2})";
 
@@ -118,13 +119,25 @@ function Screens() {
   return <Today />;
 }
 
+function Shell() {
+  const route = useRoute();
+  const { startDate } = useApp();
+  const tabs = !!startDate && hasTabBar(route);
+  return (
+    <>
+      <main className={`app${tabs ? " has-tabs" : ""}`}>
+        <Screens />
+      </main>
+      <TabBar />
+      <SystemVoiceHint raised={tabs} />
+    </>
+  );
+}
+
 export function App() {
   return (
     <AppProvider>
-      <main className="app">
-        <Screens />
-      </main>
-      <SystemVoiceHint />
+      <Shell />
     </AppProvider>
   );
 }

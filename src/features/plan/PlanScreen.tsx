@@ -1,5 +1,5 @@
 import { useApp } from "../../app/state";
-import { goBack, href } from "../../app/route";
+import { href } from "../../app/route";
 import { PHASES, UNITS, UnitMeta } from "../../content/curriculum";
 import { unitCycleProgress, unitSettled } from "../../domain/cycle";
 import { Icon } from "../../ui/Icon";
@@ -23,9 +23,6 @@ export function PlanScreen() {
   return (
     <>
       <header className="screen-head">
-        <a className="back" href="#/" onClick={(e) => { e.preventDefault(); goBack(); }} aria-label="Volver">
-          <Icon name="arrowLeft" size={20} />
-        </a>
         <div>
           <div className="eyebrow">{UNITS.length} unidades · 32 semanas de núcleo</div>
           <h1 className="title">Plan completo</h1>
@@ -54,7 +51,7 @@ export function PlanScreen() {
                     <b>{unit.title}</b>
                     <small>{st.detail}{unit.checkpoint ? " · incluye test de fase" : ""}</small>
                   </span>
-                  <span className={`status status-${st.cls}`}>{st.label}</span>
+                  {["current", "done"].includes(st.cls) && <span className={`status status-${st.cls}`}>{st.label}</span>}
                 </a>
               );
             })}

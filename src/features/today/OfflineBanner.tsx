@@ -21,7 +21,7 @@ export function OfflineBanner() {
 
   if (audio.justFinished) {
     return (
-      <section className="card flat review-card" role="status">
+      <section className="card flat review-card notice" role="status">
         <div>
           <div className="eyebrow">Sin conexión</div>
           <p className="sub"><b>Listo para usar sin conexión</b>. Audio completo: {audio.done} archivos.</p>
